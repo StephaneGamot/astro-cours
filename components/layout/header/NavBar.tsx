@@ -23,8 +23,7 @@ import {
 } from "@heroicons/react/24/outline";
 import {
   ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
+
 } from "@heroicons/react/20/solid";
 
 const planetes = [
@@ -340,9 +339,9 @@ export default function NavBar() {
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
-          <Link href="#" className="-m-1.5 p-1.5">
+          <Link href="#" className="-m-2.5 p-0.5">
             <span className="sr-only">Logo Astro cours</span>
-            <Image alt="logo" src={Logo} className="h-8 w-auto" />
+            <Image alt="logo" src={Logo} className="h-16 w-auto" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -357,7 +356,7 @@ export default function NavBar() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
+            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-indigo-400">
               Planetes
               <ChevronDownIcon
                 aria-hidden="true"
@@ -384,12 +383,12 @@ export default function NavBar() {
                     <div className="flex-auto">
                       <Link
                         href={item.href}
-                        className="block font-semibold text-white"
+                        className="block font-semibold !text-indigo-400"
                       >
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>
-                      <p className="mt-1 text-gray-400">{item.description}</p>
+                      <p className="!mt-1 text-gray-400">{item.description}</p>
                     </div>
                   </div>
                 ))}
@@ -398,7 +397,7 @@ export default function NavBar() {
           </Popover>
 
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
+            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-indigo-400">
               Zodiaque
               <ChevronDownIcon
                 aria-hidden="true"
@@ -430,7 +429,7 @@ export default function NavBar() {
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>
-                      <p className="mt-1 text-gray-400">{item.description}</p>
+                      <p className="!mt-1 text-gray-400">{item.description}</p>
                     </div>
                   </div>
                 ))}
@@ -438,7 +437,7 @@ export default function NavBar() {
             </PopoverPanel>
           </Popover>
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
+            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-indigo-400">
               Maisons
               <ChevronDownIcon
                 aria-hidden="true"
@@ -470,21 +469,21 @@ export default function NavBar() {
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>
-                      <p className="mt-1 text-gray-400">{item.description}</p>
+                      <p className="!mt-1 text-gray-400">{item.description}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </PopoverPanel>
           </Popover>
-          <Link href="#" className="text-md/6 font-semibold text-white">
+          <Link href="#" className="text-md/6 font-semibold text-indigo-400">
             Aspects
           </Link>
-          <Link href="#" className="text-md/6 font-semibold text-white">
+          <Link href="#" className="text-md/6 font-semibold text-indigo-400">
             Transits
           </Link>
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
+            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-indigo-400">
               Blog
               <ChevronDownIcon
                 aria-hidden="true"
@@ -516,7 +515,7 @@ export default function NavBar() {
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>
-                      <p className="mt-1 text-gray-400">{item.description}</p>
+                      <p className="!mt-1 text-gray-400">{item.description}</p>
                     </div>
                   </div>
                 ))}
@@ -525,7 +524,7 @@ export default function NavBar() {
           </Popover>
 
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
+            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-indigo-400">
               Autres
               <ChevronDownIcon
                 aria-hidden="true"
@@ -556,7 +555,7 @@ export default function NavBar() {
                         {item.name}
                         <span className="absolute inset-0" />
                       </Link>
-                      <p className="mt-1 text-gray-400">{item.description}</p>
+                      <p className="!mt-1 text-gray-400">{item.description}</p>
                     </div>
                   </div>
                 ))}
@@ -582,12 +581,8 @@ export default function NavBar() {
           <div className="p-6">
             <div className="flex items-center justify-between">
               <Link href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
-                <img
-                  alt=""
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                  className="h-8 w-auto"
-                />
+                <span className="sr-only">Astrocours</span>
+               <Image alt="logo" src={Logo} className="h-16 w-auto" />
               </Link>
               <button
                 type="button"
