@@ -2,7 +2,7 @@ export type AstroGlyphName =
   // Signes
   | "aries" | "taurus" | "gemini" | "cancer" | "leo" | "virgo"
   | "libra" | "scorpio" | "sagittarius" | "capricorn" | "aquarius" | "pisces"
-  // Planètes / points
+  // Planètes
   | "sun" | "moon" | "mercury" | "venus" | "mars"
   | "jupiter" | "saturn" | "uranus" | "neptune" | "pluto";
 
@@ -10,19 +10,17 @@ type Glyph = {
   paths?: string[];
   circles?: Array<{ cx: number; cy: number; r: number }>;
   lines?: Array<{ x1: number; y1: number; x2: number; y2: number }>;
-  // optionnel: arcs/extra en path
 };
 
 export const ASTRO_GLYPHS: Record<AstroGlyphName, Glyph> = {
-  /* =========================
-     SIGNES (style outline / minimal)
-     ========================= */
+  /* ============ SIGNES (corrigés) ============ */
 
+  // Bélier ♈ (cornes nettes)
   aries: {
     paths: [
-      "M7 19c0-6 2-11 5-11s5 5 5 11",
-      "M7 9c-2 0-3-2-3-4 0-1.7 1.3-3 3-3",
-      "M17 9c2 0 3-2 3-4 0-1.7-1.3-3-3-3",
+      "M6 20c0-7 2.2-12 6-12s6 5 6 12",
+      "M6 9C4.5 9 3 7.6 3 5.8 3 4.2 4.2 3 5.8 3",
+      "M18 9c1.5 0 3-1.4 3-3.2C21 4.2 19.8 3 18.2 3",
     ],
   },
 
@@ -44,65 +42,75 @@ export const ASTRO_GLYPHS: Record<AstroGlyphName, Glyph> = {
     ],
   },
 
+  // Cancer ♋ (deux “6” opposés)
   cancer: {
     circles: [
-      { cx: 9, cy: 9, r: 2.2 },
-      { cx: 15, cy: 15, r: 2.2 },
+      { cx: 9, cy: 9, r: 2.1 },
+      { cx: 15, cy: 15, r: 2.1 },
     ],
     paths: [
-      "M13 7c0-2.2-1.8-4-4-4-2.2 0-4 1.8-4 4 0 3.5 5 2.5 5 6",
-      "M11 17c0 2.2 1.8 4 4 4s4-1.8 4-4c0-3.5-5-2.5-5-6",
+      "M7.8 13.2c-1.7-1.2-2.8-3.1-2.8-5.2C5 5.2 7.2 3 10 3c2 0 3.7 1 4.6 2.4",
+      "M16.2 10.8c1.7 1.2 2.8 3.1 2.8 5.2 0 2.8-2.2 5-5 5-2 0-3.7-1-4.6-2.4",
     ],
   },
 
+  // Lion ♌ (boucle + queue)
   leo: {
-    circles: [{ cx: 8.5, cy: 11, r: 2 }],
+    circles: [{ cx: 9, cy: 10, r: 2.1 }],
     paths: [
-      "M10.5 11c2.6 0 4.5 1.8 4.5 4.4V18c0 1.7 1.3 3 3 3",
-      "M8.5 13c-2.2 0-4-1.8-4-4s1.8-4 4-4c1.7 0 3.2 1 3.7 2.5",
+      "M11.1 10c1.6-2.6 4-4 6.2-4 2.7 0 4.7 2 4.7 4.7 0 2.2-1.2 3.6-3.2 4.3",
+      "M12 14c2.2 0 4 1.8 4 4v1c0 1.7 1.3 3 3 3",
+      "M7 12.2c-1.6-.6-3-2.1-3-4.2C4 5.2 6.2 3 9 3c1.4 0 2.7.6 3.6 1.5",
     ],
   },
 
+  // Vierge ♍ (m + boucle)
   virgo: {
     paths: [
-      "M7 5v14",
-      "M11 5v14c0 1.7-1.3 3-3 3",
-      "M15 5v10c0 2.2 1.8 4 4 4",
-      "M19 19v-2",
+      "M6.5 5v14",
+      "M10.5 5v14",
+      "M14.5 5v10c0 2.2 1.8 4 4 4",
+      "M18.5 19c-1 0-2-.5-2.6-1.2-.6-.7-.9-1.6-.9-2.6v-1.2",
+      "M18.5 19c0 1.7-1.3 3-3 3",
     ],
   },
 
+  // Balance ♎ (ligne + arche)
   libra: {
     paths: [
       "M6 17h12",
-      "M7 17c1.2-3.5 3.2-5 5-5s3.8 1.5 5 5",
-      "M8 7h8",
+      "M7 17c1.3-3.3 3.2-5 5-5s3.7 1.7 5 5",
+      "M8 8h8",
+      "M8 8c.7-2.5 2.2-4 4-4s3.3 1.5 4 4",
     ],
   },
 
   scorpio: {
     paths: [
-      "M7 5v14",
-      "M11 5v14",
-      "M15 5v10c0 2.2 1.8 4 4 4",
-      "M19 19l2 2",
-      "M21 19l-2 2",
+      "M6.5 5v14",
+      "M10.5 5v14",
+      "M14.5 5v10c0 2.2 1.8 4 4 4",
+      // flèche
+      "M19.5 19l2 2",
+      "M21.5 19l-2 2",
     ],
   },
 
+  // Sagittaire ♐ (flèche diagonale + empennage)
   sagittarius: {
     paths: [
-      "M7 17L17 7",
-      "M12 7h5v5",
+      "M7 17L19 5",
+      "M14 5h5v5",
       "M7 12v5h5",
     ],
   },
 
+  // Capricorne ♑ (n + boucle)
   capricorn: {
     paths: [
-      "M7 5v9c0 2.8 2.2 5 5 5s5-2.2 5-5V9",
-      "M17 9c0-2.2 1.8-4 4-4",
-      "M21 5v14",
+      "M6.5 6v8c0 2.8 2.2 5 5 5s5-2.2 5-5V9",
+      "M16.5 9c0-2.8 2.2-5 5-5",
+      "M21.5 4v16",
     ],
   },
 
@@ -121,9 +129,7 @@ export const ASTRO_GLYPHS: Record<AstroGlyphName, Glyph> = {
     ],
   },
 
-  /* =========================
-     PLANÈTES / POINTS (minimal outline)
-     ========================= */
+  /* ============ PLANÈTES (corrigées) ============ */
 
   sun: {
     circles: [{ cx: 12, cy: 12, r: 3.2 }],
@@ -140,63 +146,62 @@ export const ASTRO_GLYPHS: Record<AstroGlyphName, Glyph> = {
   },
 
   moon: {
-    paths: [
-      "M21 14.5A7.5 7.5 0 0 1 9.5 3a6.5 6.5 0 1 0 11.5 11.5z",
-    ],
+    paths: ["M21 14.5A7.5 7.5 0 0 1 9.5 3a6.5 6.5 0 1 0 11.5 11.5z"],
   },
 
+  // Mercure ☿ (croissant + cercle + croix)
   mercury: {
-    circles: [{ cx: 12, cy: 11, r: 3.2 }],
+    circles: [{ cx: 12, cy: 10, r: 3.0 }],
     paths: [
-      "M9 6c0-1.8 1.3-3 3-3s3 1.2 3 3",
-      "M12 14.2V21",
-      "M9.5 18.5h5",
+      "M9 6.2c0-1.8 1.3-3.2 3-3.2s3 1.4 3 3.2",
+      "M12 13v8",
+      "M9.5 18h5",
     ],
   },
 
+  // Vénus ♀
   venus: {
-    circles: [{ cx: 12, cy: 10, r: 3.5 }],
-    paths: [
-      "M12 13.5V21",
-      "M9.5 18.5h5",
-    ],
+    circles: [{ cx: 12, cy: 10, r: 3.2 }],
+    paths: ["M12 13.2V21", "M9.5 18h5"],
   },
 
+  // Mars ♂
   mars: {
-    circles: [{ cx: 10.5, cy: 13.5, r: 3.5 }],
-    paths: [
-      "M13 11l7-7",
-      "M16 4h4v4",
-    ],
+    circles: [{ cx: 10.5, cy: 13.5, r: 3.2 }],
+    paths: ["M13 11l7-7", "M16 4h4v4"],
   },
 
+  // Jupiter ♃ (courbe + croix)
   jupiter: {
     paths: [
-      "M10 5v16",
-      "M10 10c0-3 2.5-5 6-5",
-      "M14 15c-1.2 0-2.2.3-3 .8",
+      "M10 6c3 0 5 2.2 5 5 0 3.5-3 5.7-7 5.7",
+      "M14.5 6v16",
+      "M12.5 14h6",
     ],
   },
 
+  // Saturne ♄ (croix + courbe)
   saturn: {
     paths: [
-      "M14 5v16",
-      "M14 10c0-3-2.5-5-6-5",
-      "M10 15c1.2 0 2.2.3 3 .8",
+      "M14 6c-3 0-5 2.2-5 5 0 3.5 3 5.7 7 5.7",
+      "M10 6v16",
+      "M9 14h6",
     ],
   },
 
+  // Uranus ♅ (H + cercle)
   uranus: {
+    circles: [{ cx: 12, cy: 6, r: 1.7 }],
     paths: [
-      "M8 7v7",
-      "M16 7v7",
+      "M8 9v11",
+      "M16 9v11",
+      "M8 14h8",
       "M12 9v12",
-      "M9 9h6",
       "M10 21h4",
     ],
-    circles: [{ cx: 12, cy: 5, r: 1.6 }],
   },
 
+  // Neptune ♆ (trident + base)
   neptune: {
     paths: [
       "M12 3v18",
@@ -205,12 +210,14 @@ export const ASTRO_GLYPHS: Record<AstroGlyphName, Glyph> = {
     ],
   },
 
+  // Pluton ♇ (P + croix simplifiée)
   pluto: {
-    circles: [{ cx: 12, cy: 9, r: 2.2 }],
+    circles: [{ cx: 11, cy: 9, r: 2.0 }],
     paths: [
-      "M12 11.2V21",
-      "M9.5 18.5h5",
-      "M9 6c.8-1.8 2.1-3 3-3s2.2 1.2 3 3",
+      "M11 11v10",
+      "M9 18h4",
+      "M13 7c1.7 0 3 1.3 3 3s-1.3 3-3 3",
+      "M11 7h2",
     ],
   },
 };
