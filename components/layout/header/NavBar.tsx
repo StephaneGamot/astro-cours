@@ -2,6 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/zzz.png";
+import type { ComponentType } from "react";
+import { AstroIcon } from "@/components/icons/astro/AstroIcon";
+import { HouseIcon } from "@/components/icons/astro/HouseIcon";
 
 import { useState } from "react";
 import {
