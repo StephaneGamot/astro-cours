@@ -528,7 +528,7 @@ export default function NavBar() {
 
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
-              Autres
+              Annexes
               <ChevronDownIcon
                 aria-hidden="true"
                 className="size-5 flex-none text-gray-500"
