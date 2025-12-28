@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "belier",
+    "name": "Bélier",
+    "periode": "21 mars – 20 avril",
+    "polarite": "Actif (masculin)",
+    "mode": "Cardinal",
+    "element": "Feu",
+    "maitre": "Mars",
+    "exaltation": "Soleil",
+    "exil": "Vénus",
+    "chute": "Saturne",
+
+    "mythologie": "Le Bélier est relié au mythe du bélier à la Toison d’or. Dans ce récit, l’animal sauve, transporte et ouvre une étape décisive, puis devient un symbole de quête et d’épreuve initiatique. La Toison d’or représente ce qui se mérite : un but qui exige courage, audace et passage à l’acte. Dans la logique astrologique, cela correspond au moment où l’on dit « oui » à la vie, où l’on commence, où l’on ose franchir le seuil.",
+
+    "analogie": {
+      "animal": "Le bélier",
+      "objet": "L’étincelle, la lame, l’outil qui ouvre un passage",
+      "fonction": "Initier, percer, affirmer"
+    },
+
+    "anatomie": ["Tête", "Visage", "Cerveau", "Yeux"],
+
+    "generalites": [
+      "Le Bélier symbolise la naissance d’un cycle : l’élan du départ, le premier pas, la décision qui met en mouvement. Il cherche à vivre intensément, à agir, à tester, à se confronter au réel plutôt qu’à rester dans l’attente.",
+      "Dans la vie quotidienne, cette énergie se manifeste par un style direct, une franchise spontanée et une capacité à démarrer là où d’autres hésitent. Le Bélier peut être très efficace dans les situations qui demandent initiative, courage et réactivité.",
+      "Son apprentissage principal est de transformer l’impulsion en direction. Avec le temps, il gagne en puissance lorsqu’il apprend à doser l’effort, à écouter, et à choisir ses combats plutôt que de réagir à tout."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Spontané",
+        "Courageux",
+        "Entreprenant",
+        "Dynamique",
+        "Franc",
+        "Volontaire",
+        "Pionnier"
+      ],
+      "defis": [
+        "Impulsif",
+        "Impatient",
+        "Agressif",
+        "Autoritaire",
+        "Manque de recul",
+        "Tendance à brûler ses étapes"
+      ]
+    },
+
+    "forces": [
+      "Capacité à commencer sans garantie",
+      "Énergie pour agir vite et trancher",
+      "Leadership naturel quand il assume sa responsabilité"
+    ],
+    "ombres": [
+      "Réaction immédiate au lieu d’une réponse réfléchie",
+      "Difficulté à ralentir ou à attendre",
+      "Conflit inutile quand l’énergie n’est pas canalisée"
+    ],
+    "besoins": [
+      "Se sentir libre d’agir",
+      "Avoir un défi clair",
+      "Pouvoir exprimer sa volonté sans se justifier en permanence"
+    ],
+    "aTravailler": [
+      "La patience et le timing",
+      "L’écoute et la coopération",
+      "La constance : finir ce qui a été commencé"
+    ],
+    "quandCestEquilibre": [
+      "Le Bélier devient courageux sans être agressif, affirmé sans écraser, et capable d’entraîner les autres sans les brusquer.",
+      "Il garde l’énergie du départ, tout en apprenant à construire dans la durée."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Bélier prend un style direct, rapide et orienté vers l’action. Le principe de la planète cherche à initier, à s’affirmer et à agir sans détour. Cela donne de la franchise, du courage et de la spontanéité — mais peut aussi rendre impatient ou trop réactif si l’énergie n’est pas maîtrisée.",
+      "motsCles": [
+        "initiative",
+        "franchise",
+        "courage",
+        "impulsion",
+        "réactivité",
+        "affirmation"
+      ],
+      "exemples": [
+        "Soleil en Bélier : identité affirmée, besoin d’agir pour se sentir vivant, goût du défi.",
+        "Lune en Bélier : émotions rapides, réactions immédiates, besoin d’autonomie affective.",
+        "Mercure en Bélier : esprit vif, parole tranchante, décisions rapides, parfois trop abruptes.",
+        "Vénus en Bélier : sentiments francs, attirance pour la conquête, besoin d’intensité et de nouveauté.",
+        "Mars en Bélier : énergie puissante, combativité, capacité à démarrer très fort — attention à l’excès.",
+        "Saturne en Bélier : apprendre à canaliser l’élan, construire la patience par l’action et la discipline.",
+        "Uranus en Bélier : impulsion de rupture, besoin de liberté immédiate, refus des cadres contraignants.",
+        "Neptune en Bélier : idéal vécu dans l’action, inspiration ardente, quête d’un sens à travers l’engagement.",
+        "Pluton en Bélier : transformation par le combat intérieur, affirmation radicale de la volonté, renaissances successives."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Bélier montre où l’on démarre vite, où l’on ose, et où l’on préfère l’action à l’attente.",
+      "Il indique aussi un secteur de vie où l’on apprend à transformer l’impulsion en maîtrise."
+    ],
+
+    "motCle": "Je suis"
+  }
+]

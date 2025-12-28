@@ -300,6 +300,17 @@ export const autre: Item[] = [
     icon: glyph("△"),
   },
   {
+    name: "Planete rétrograde",
+    description: "",
+    href: "/blog/aspects",
+    icon: glyph("△"),
+  },{
+    name: "Lilith",
+    description: "",
+    href: "/blog/aspects",
+    icon: glyph("△"),
+  },
+  {
     name: "Transits",
     description: "Comprendre le timing",
     href: "/blog/transits",

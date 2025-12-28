@@ -30,8 +30,7 @@ export default function Cards({ item, basePath }: Props) {
           id={titleId}
           className="font-serif text-xl text-white text-center !my-2 !border-none"
         >
-          <Link
-            href={`/${basePath}/${item.slug}`}
+    <Link href={`/signes/${item.slug}`}
             className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/70"
             aria-label={`Lire le cours sur ${item.name}`}
           >
