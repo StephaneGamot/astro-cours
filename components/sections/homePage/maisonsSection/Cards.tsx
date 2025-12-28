@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-type CardData = {
+export type CardData = {
   slug: string;
   name: string;
   headline: string;
@@ -31,8 +31,8 @@ export default function Cards({ item, basePath }: Props) {
           className="font-serif text-xl text-white text-center !my-2 !border-none"
         >
           <Link
-            href={`/${basePath}/${item.slug}`}
-            className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/70"
+           href={`/maisons/${item.slug}`}
+            className="hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/70 focus-visible:ring-offset-0"
             aria-label={`Lire le cours sur ${item.name}`}
           >
             {item.name}
@@ -42,13 +42,13 @@ export default function Cards({ item, basePath }: Props) {
 
       {/* Image */}
       <div className="px-4 py-5 sm:p-6">
-        <div className="relative flex justify-center overflow-hidden rounded-md ">
+        <div className="relative grid place-items-center overflow-hidden rounded-md">
           <Image
             src={item.image.src}
             alt={item.image.alt}
             width={250}
             height={250}
-            className=""
+            className="h-auto w-auto"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
@@ -60,10 +60,7 @@ export default function Cards({ item, basePath }: Props) {
           {item.headline}
         </h4>
 
-        <p
-          id={descId}
-          className="mt-2 text-sm leading-relaxed text-gray-300"
-        >
+        <p id={descId} className="mt-2 text-sm leading-relaxed text-gray-300">
           {item.description}
         </p>
       </footer>

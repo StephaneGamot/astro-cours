@@ -17,7 +17,7 @@ export default function Constelations() {
         width={1500}
         height={120}
         priority
-        className="h-auto w-[95%] my-6 mx-auto"
+        className="h-auto w-[95%] my-12 mx-auto"
       />
     </div>
   );

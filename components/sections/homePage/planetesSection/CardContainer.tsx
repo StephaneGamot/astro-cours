@@ -10,7 +10,7 @@ export default function CardContainer() {
       className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8"
     >
       <div className="mb-4 ">
-        <h2 className="font-serif text-3xl text-white !border-none">Les planètes</h2>
+        <h2 className="font-serif text-3xl text-white !border-none !mt-0">Les planètes</h2>
        
       </div>
 
