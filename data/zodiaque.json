@@ -4,7 +4,7 @@
     "name": "Bélier",
     "headline": "Le Bélier représente l’élan initial",
     "description": "L’impulsion, le courage et le besoin d’agir. Il exprime la force du commencement et la capacité à se lancer sans attendre.",
-    "image": { "src": "/images/zodiaque/belier.png", "alt": "Symbole astrologique du Bélier" }
+    "image": { "src": "/images/zodiaque/belier.webp", "alt": "Symbole astrologique du Bélier" }
   },
   {
     "slug": "taureau",
@@ -77,10 +77,10 @@
     "image": { "src": "/images/zodiaque/verseau.webp", "alt": "Symbole astrologique du Verseau" }
   },
   {
-    "slug": "poissons",
+    "slug": "poisson",
     "name": "Poissons",
     "headline": "Les Poissons représentent la sensibilité globale",
     "description": "L’empathie, l’imaginaire et la dissolution des frontières. Ils parlent de la connexion au subtil et à l’universel.",
-    "image": { "src": "/images/zodiaque/poissons.webp", "alt": "Symbole astrologique des Poissons" }
+    "image": { "src": "/images/zodiaque/poisson.webp", "alt": "Symbole astrologique des Poissons" }
   }
 ]

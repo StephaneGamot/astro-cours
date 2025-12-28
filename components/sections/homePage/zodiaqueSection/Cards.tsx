@@ -42,7 +42,7 @@ export default function Cards({ item, basePath }: Props) {
 
       {/* Image */}
       <div className="px-4 py-5 sm:p-6">
-        <div className="relative overflow-hidden rounded-md bg-black/20">
+        <div className="relative flex justify-center overflow-hidden rounded-md ">
           <Image
             src={item.image.src}
             alt={item.image.alt}
