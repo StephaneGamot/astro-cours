@@ -1,6 +1,4 @@
-import Image from "next/image";
 import ImageOnly from "@/components/images/ImageOnly";
-import ImageOnly2 from "@/components/images/ImageOnly2";
 import HeroHomePage from "@/components/sections/homePage/hero";
 import PlanetsCardContainer from "@/components/sections/homePage/planetesSection/CardContainer";
 import Constelations from "@/components/images/Constelations";
@@ -14,9 +12,9 @@ export default function Home() {
       <HeroHomePage />
       <Constelations />
       <ZodiacCardContainer />
-       <Constelations />
+      <Constelations />
       <MaisonsCardContainer />
-        <Constelations />
+      <Constelations />
       <PlanetsCardContainer />
     </main>
   );

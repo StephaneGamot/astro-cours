@@ -24,7 +24,7 @@ type IconComp = ComponentType<{ className?: string; "aria-hidden"?: boolean }>;
 type Item = {
   name: string;
   description: string;
- href: Route;
+  href: Route;
   icon: IconComp;
 };
 
@@ -279,10 +279,19 @@ export const blog: Item[] = [
     icon: glyph("❈"),
   },
   {
-    name: "Les 12 maisons",
-    description: "Les domaines de vie",
-    href: "/blog/maisons",
-    icon: roman("X"),
+    name: "Lexique astro",
+    description: "Définitions simples des termes clés",
+    href: "/blog/lexique",
+    icon: glyph("⚴"),
+  },
+];
+
+export const autre: Item[] = [
+  {
+    name: "Maîtrises",
+    description: "Planète maîtresse d’un signe",
+    href: "/outils/maitrises",
+    icon: glyph("🜊"),
   },
   {
     name: "Aspects majeurs",
@@ -315,21 +324,6 @@ export const blog: Item[] = [
     icon: glyph("☊"),
   },
   {
-    name: "Lexique astro",
-    description: "Définitions simples des termes clés",
-    href: "/blog/lexique",
-    icon: glyph("⚴"),
-  },
-];
-
-export const autre: Item[] = [
-  {
-    name: "Maîtrises",
-    description: "Planète maîtresse d’un signe",
-    href: "/outils/maitrises",
-    icon: glyph("🜊"),
-  },
-  {
     name: "Astéroïdes",
     description: "Chiron, Cérès, Junon…",
     href: "/outils/asteroides",
@@ -340,12 +334,6 @@ export const autre: Item[] = [
     description: "Lilith, Part de Fortune… ",
     href: "/outils/points-fictifs",
     icon: glyph("⚸"),
-  },
-  {
-    name: "Révolution solaire",
-    description: "Guide pratique : lire l’année à venir avec méthode.",
-    href: "/outils/revolution-solaire",
-    icon: glyph("☉"),
   },
 ];
 
@@ -652,7 +640,7 @@ export default function NavBar() {
                       <div className="flex w-12 flex-none items-stretch">
                         <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
                           <item.icon
-                             aria-hidden={true}
+                            aria-hidden={true}
                             className="size-9 text-gray-300 group-hover:text-white"
                           />
                         </div>
@@ -682,7 +670,7 @@ export default function NavBar() {
                       <div className="flex w-12 flex-none items-stretch">
                         <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
                           <item.icon
-                             aria-hidden={true}
+                            aria-hidden={true}
                             className="size-9 text-gray-300 group-hover:text-white"
                           />
                         </div>
@@ -742,7 +730,7 @@ export default function NavBar() {
                       <div className="flex w-12 flex-none items-stretch">
                         <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
                           <item.icon
-                             aria-hidden={true}
+                            aria-hidden={true}
                             className="size-9 text-gray-300 group-hover:text-white"
                           />
                         </div>
