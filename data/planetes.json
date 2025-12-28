@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "soleil",
+    "name": "Soleil",
+    "headline": "Le Soleil représente le centre",
+    "description": "L’identité, la volonté et ce qui te donne une direction. Il parle de ce que tu cherches à devenir, et de la manière dont tu veux te sentir pleinement toi.",
+    "image": {
+      "src": "/images/planetes/soleil.webp",
+      "alt": "Symbole astrologique du Soleil"
+    }
+  },
+  {
+    "slug": "lune",
+    "name": "Lune",
+    "headline": "La Lune représente le monde intérieur",
+    "description": "Les émotions, les besoins et la sécurité affective. Elle décrit la façon dont tu réagis spontanément et ce qui t’apaise lorsque tu te sens vulnérable.",
+    "image": {
+      "src": "/images/planetes/lune.webp",
+      "alt": "Symbole astrologique de la Lune"
+    }
+  },
+  {
+    "slug": "mercure",
+    "name": "Mercure",
+    "headline": "Mercure représente la pensée & le langage",
+    "description": "La manière de comprendre, d’analyser et de communiquer. Il montre comment les idées circulent et comment tu donnes du sens à ce que tu observes.",
+    "image": {
+      "src": "/images/planetes/mercure.webp",
+      "alt": "Symbole astrologique de Mercure"
+    }
+  },
+  {
+    "slug": "venus",
+    "name": "Vénus",
+    "headline": "Vénus représente le lien & les valeurs",
+    "description": "Ce qui attire, ce qui plaît et ce qui crée de l’harmonie. Elle parle de l’amour, des attachements et de la manière dont tu entres en relation.",
+    "image": {
+      "src": "/images/planetes/venus.webp",
+      "alt": "Symbole astrologique de Vénus"
+    }
+  },
+  {
+    "slug": "mars",
+    "name": "Mars",
+    "headline": "Mars représente l’élan & l’affirmation",
+    "description": "L’énergie d’action, le désir et la capacité à s’imposer. Il montre comment tu passes à l’acte et comment tu défends ton territoire.",
+    "image": {
+      "src": "/images/planetes/mars.webp",
+      "alt": "Symbole astrologique de Mars"
+    }
+  },
+  {
+    "slug": "jupiter",
+    "name": "Jupiter",
+    "headline": "Jupiter représente l’expansion & le sens",
+    "description": "L’apprentissage, la croissance et la vision globale. Il indique là où tu cherches à comprendre, à explorer et à donner du sens à ton parcours.",
+    "image": {
+      "src": "/images/planetes/jupiter.webp",
+      "alt": "Symbole astrologique de Jupiter"
+    }
+  },
+  {
+    "slug": "saturne",
+    "name": "Saturne",
+    "headline": "Saturne représente la structure & le temps",
+    "description": "Les limites, les responsabilités et la construction patiente. Il montre comment l’expérience et l’effort permettent de se solidifier.",
+    "image": {
+      "src": "/images/planetes/saturne.webp",
+      "alt": "Symbole astrologique de Saturne"
+    }
+  },
+  {
+    "slug": "uranus",
+    "name": "Uranus",
+    "headline": "Uranus représente le changement & la liberté",
+    "description": "La rupture, l’indépendance et l’éveil. Il indique où naît le besoin de sortir des cadres pour retrouver de l’authenticité.",
+    "image": {
+      "src": "/images/planetes/uranus.webp",
+      "alt": "Symbole astrologique d’Uranus"
+    }
+  },
+  {
+    "slug": "neptune",
+    "name": "Neptune",
+    "headline": "Neptune représente l’idéal & la sensibilité",
+    "description": "L’inspiration, l’imaginaire et la compassion. Il parle aussi des zones floues où le discernement devient nécessaire.",
+    "image": {
+      "src": "/images/planetes/neptune.webp",
+      "alt": "Symbole astrologique de Neptune"
+    }
+  },
+  {
+    "slug": "pluton",
+    "name": "Pluton",
+    "headline": "Pluton représente la transformation profonde",
+    "description": "Les crises, les remises en question et la régénération. Il montre ce qui doit être traversé pour permettre un renouveau intérieur.",
+    "image": {
+      "src": "/images/planetes/pluton.webp",
+      "alt": "Symbole astrologique de Pluton"
+    }
+  }
+]

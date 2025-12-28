@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/zzz.png";
+import type { Route } from "next";
+import Logo from "@/public/AstroLogo.webp";
 import type { ComponentType } from "react";
 import { AstroGlyphTextIcon } from "@/components/icons/astro/AstroGlyphTextIcon";
 import { HouseRomanIcon } from "@/components/icons/astro/HouseRomanIcon";
@@ -23,7 +24,7 @@ type IconComp = ComponentType<{ className?: string; "aria-hidden"?: boolean }>;
 type Item = {
   name: string;
   description: string;
-  href: string;
+ href: Route;
   icon: IconComp;
 };
 

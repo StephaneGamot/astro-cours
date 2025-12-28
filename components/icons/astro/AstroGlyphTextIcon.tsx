@@ -1,9 +1,9 @@
 import * as React from "react";
 
 type Props = React.SVGProps<SVGSVGElement> & {
-  symbol: string;      // ex: "♈", "☿", "♃"
-  size?: number;       // px
-  boxed?: boolean;     // badge autour
+  symbol: string; // ex: "♈", "☿", "♃"
+  size?: number; // px
+  boxed?: boolean; // badge autour
 };
 
 export function AstroGlyphTextIcon({

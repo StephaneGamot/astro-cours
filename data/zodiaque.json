@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "belier",
+    "name": "Bélier",
+    "headline": "Le Bélier représente l’élan initial",
+    "description": "L’impulsion, le courage et le besoin d’agir. Il exprime la force du commencement et la capacité à se lancer sans attendre.",
+    "image": { "src": "/images/zodiaque/belier.png", "alt": "Symbole astrologique du Bélier" }
+  },
+  {
+    "slug": "taureau",
+    "name": "Taureau",
+    "headline": "Le Taureau représente la stabilité",
+    "description": "L’ancrage, la constance et la recherche de sécurité. Il parle du rapport au corps, aux plaisirs et à ce qui dure dans le temps.",
+    "image": { "src": "/images/zodiaque/taureau.webp", "alt": "Symbole astrologique du Taureau" }
+  },
+  {
+    "slug": "gemeaux",
+    "name": "Gémeaux",
+    "headline": "Les Gémeaux représentent l’échange",
+    "description": "La curiosité, le mouvement et la communication. Ils montrent comment l’esprit observe, relie et partage les informations.",
+    "image": { "src": "/images/zodiaque/gemeaux.webp", "alt": "Symbole astrologique des Gémeaux" }
+  },
+  {
+    "slug": "cancer",
+    "name": "Cancer",
+    "headline": "Le Cancer représente la protection",
+    "description": "La sensibilité, l’attachement et le besoin de sécurité émotionnelle. Il parle du foyer intérieur et des racines affectives.",
+    "image": { "src": "/images/zodiaque/cancer.webp", "alt": "Symbole astrologique du Cancer" }
+  },
+  {
+    "slug": "lion",
+    "name": "Lion",
+    "headline": "Le Lion représente l’expression de soi",
+    "description": "La créativité, la fierté et le besoin de rayonner. Il montre comment l’individu affirme sa présence et cherche à être reconnu.",
+    "image": { "src": "/images/zodiaque/lion.webp", "alt": "Symbole astrologique du Lion" }
+  },
+  {
+    "slug": "vierge",
+    "name": "Vierge",
+    "headline": "La Vierge représente le discernement",
+    "description": "L’analyse, la précision et le sens du détail. Elle exprime le besoin de comprendre, d’améliorer et de rendre les choses utiles.",
+    "image": { "src": "/images/zodiaque/vierge.webp", "alt": "Symbole astrologique de la Vierge" }
+  },
+  {
+    "slug": "balance",
+    "name": "Balance",
+    "headline": "La Balance représente l’équilibre",
+    "description": "La relation, la recherche d’harmonie et le sens de la justice. Elle montre comment se construit le lien à l’autre.",
+    "image": { "src": "/images/zodiaque/balance.webp", "alt": "Symbole astrologique de la Balance" }
+  },
+  {
+    "slug": "scorpion",
+    "name": "Scorpion",
+    "headline": "Le Scorpion représente la profondeur",
+    "description": "L’intensité, la transformation et la confrontation à l’essentiel. Il invite à traverser ce qui est caché pour se renouveler.",
+    "image": { "src": "/images/zodiaque/scorpion.webp", "alt": "Symbole astrologique du Scorpion" }
+  },
+  {
+    "slug": "sagittaire",
+    "name": "Sagittaire",
+    "headline": "Le Sagittaire représente la quête de sens",
+    "description": "L’exploration, l’élargissement de la vision et la recherche de vérité. Il parle du besoin de comprendre le monde dans son ensemble.",
+    "image": { "src": "/images/zodiaque/sagittaire.webp", "alt": "Symbole astrologique du Sagittaire" }
+  },
+  {
+    "slug": "capricorne",
+    "name": "Capricorne",
+    "headline": "Le Capricorne représente la construction",
+    "description": "La responsabilité, l’endurance et la maîtrise du temps. Il montre comment l’on bâtit quelque chose de solide et durable.",
+    "image": { "src": "/images/zodiaque/capricorne.webp", "alt": "Symbole astrologique du Capricorne" }
+  },
+  {
+    "slug": "verseau",
+    "name": "Verseau",
+    "headline": "Le Verseau représente la vision collective",
+    "description": "L’indépendance, l’innovation et le besoin de changement. Il exprime la capacité à penser autrement et à sortir des normes.",
+    "image": { "src": "/images/zodiaque/verseau.webp", "alt": "Symbole astrologique du Verseau" }
+  },
+  {
+    "slug": "poissons",
+    "name": "Poissons",
+    "headline": "Les Poissons représentent la sensibilité globale",
+    "description": "L’empathie, l’imaginaire et la dissolution des frontières. Ils parlent de la connexion au subtil et à l’universel.",
+    "image": { "src": "/images/zodiaque/poissons.webp", "alt": "Symbole astrologique des Poissons" }
+  }
+]
