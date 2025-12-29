@@ -103,903 +103,1129 @@
     "motCle": "Je suis"
   },
   {
-  "slug": "taureau",
-  "name": "Taureau",
-  "periode": "21 avril – 20 mai",
-  "polarite": "Passif (féminin)",
-  "mode": "Fixe",
-  "element": "Terre",
-  "maitre": "Vénus",
-  "exaltation": "Lune",
-  "exil": "Mars",
-  "chute": "Uranus",
+    "slug": "taureau",
+    "name": "Taureau",
+    "periode": "21 avril – 20 mai",
+    "polarite": "Passif (féminin)",
+    "mode": "Fixe",
+    "element": "Terre",
+    "maitre": "Vénus",
+    "exaltation": "Lune",
+    "exil": "Mars",
+    "chute": "Uranus",
 
-  "mythologie": "Le Taureau apparaît dans de nombreux mythes comme figure de fécondité, de puissance vitale et d’abondance. Dans la tradition grecque, Zeus se transforme en taureau : une force calme, attirante, protectrice, qui avance sans agitation mais avec évidence. Le Taureau symbolise ainsi la vie incarnée — le lien à la terre, au corps, à la matière féconde — et la capacité à faire durer ce qui a été initié.",
+    "mythologie": "Le Taureau apparaît dans de nombreux mythes comme figure de fécondité, de puissance vitale et d’abondance. Dans la tradition grecque, Zeus se transforme en taureau : une force calme, attirante, protectrice, qui avance sans agitation mais avec évidence. Le Taureau symbolise ainsi la vie incarnée — le lien à la terre, au corps, à la matière féconde — et la capacité à faire durer ce qui a été initié.",
 
-  "analogie": {
-    "animal": "Le taureau",
-    "objet": "La terre fertile, la pierre, le socle",
-    "fonction": "Stabiliser, nourrir, conserver"
+    "analogie": {
+      "animal": "Le taureau",
+      "objet": "La terre fertile, la pierre, le socle",
+      "fonction": "Stabiliser, nourrir, conserver"
+    },
+
+    "anatomie": ["Cou", "Gorge", "Cordes vocales", "Mâchoire"],
+
+    "generalites": [
+      "Le Taureau représente la capacité à s’ancrer : habiter le réel, sentir le corps, construire une sécurité durable. Là où le Bélier démarre, le Taureau consolide : il transforme l’impulsion en continuité, l’élan en forme stable.",
+      "Dans la vie quotidienne, cette énergie se manifeste par la patience, la constance et le sens du concret. Le Taureau avance lentement, mais il avance longtemps : il préfère un progrès régulier à un changement brutal.",
+      "Son défi principal est d’éviter l’inertie, l’attachement excessif ou la résistance au changement quand celui-ci devient nécessaire. L’équilibre se trouve quand la stabilité ne se transforme pas en rigidité."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Stable",
+        "Endurant",
+        "Patient",
+        "Loyal",
+        "Sensuel",
+        "Fiable",
+        "Concret"
+      ],
+      "defis": [
+        "Entêté",
+        "Possessif",
+        "Lent à réagir",
+        "Résistant au changement",
+        "Attachement excessif à la sécurité"
+      ]
+    },
+
+    "forces": [
+      "Capacité à construire dans la durée",
+      "Ancrage solide dans le réel",
+      "Sens du concret et de la valeur"
+    ],
+    "ombres": [
+      "Inertie face au changement",
+      "Difficulté à lâcher prise",
+      "Rigidité dans les habitudes"
+    ],
+    "besoins": [
+      "Sécurité matérielle et affective",
+      "Cadre stable et repères simples",
+      "Rythme régulier et continuité"
+    ],
+    "aTravailler": [
+      "Accepter le changement sans perdre son centre",
+      "Assouplir les habitudes",
+      "Distinguer sécurité et attachement"
+    ],
+    "quandCestEquilibre": [
+      "Le Taureau devient paisible sans être immobile, fidèle sans être possessif, solide sans être rigide.",
+      "Il incarne une stabilité vivante : une base qui soutient, pas une prison."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Taureau cherche à durer, à se stabiliser et à s’incarner. Le principe de la planète s’exprime avec constance : moins dans l’urgence que dans la construction. Cela renforce le sens du concret, l’attachement aux valeurs, et la capacité à persévérer — mais peut aussi ralentir ou rigidifier si l’on s’accroche trop.",
+      "motsCles": [
+        "stabilité",
+        "incarnation",
+        "valeurs",
+        "constance",
+        "sensualité",
+        "durée"
+      ],
+      "exemples": [
+        "Soleil en Taureau : identité stable, besoin de sécurité, constance dans les choix et dans l’effort.",
+        "Lune en Taureau : émotions calmes, besoin de confort et de continuité affective, attachement protecteur.",
+        "Mercure en Taureau : pensée posée, mémoire fiable, communication simple et concrète, décisions mûries.",
+        "Vénus en Taureau : attachements profonds, sensualité, fidélité aux valeurs, goût de l’harmonie durable.",
+        "Mars en Taureau : énergie endurante, action lente mais puissante, ténacité remarquable, difficulté à lâcher une fois engagé.",
+        "Jupiter en Taureau : croissance par la patience, expansion matérielle progressive, confiance dans le temps long.",
+        "Saturne en Taureau : sens du devoir concret, construction solide, discipline, prudence et persévérance.",
+        "Uranus en Taureau : tension entre besoin de stabilité et changements profonds ; réveils qui bousculent les valeurs.",
+        "Neptune en Taureau : idéal de paix, de douceur de vivre, de nature ; attention aux illusions liées au confort ou aux possessions.",
+        "Pluton en Taureau : transformations profondes autour des valeurs, de l’attachement et de la sécurité ; renaissances par le lâcher-prise."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Taureau indique un domaine où l’on cherche la sécurité, la constance et des repères stables.",
+      "Il montre où l’on construit lentement mais durablement — et où l’on apprend à assouplir l’attachement quand la vie demande d’évoluer."
+    ],
+
+    "motCle": "J’ai"
   },
+  {
+    "slug": "gemeaux",
+    "name": "Gémeaux",
+    "periode": "21 mai – 20 juin",
+    "polarite": "Actif (masculin)",
+    "mode": "Mutable",
+    "element": "Air",
+    "maitre": "Mercure",
+    "exaltation": null,
+    "exil": "Jupiter",
+    "chute": null,
 
-  "anatomie": ["Cou", "Gorge", "Cordes vocales", "Mâchoire"],
+    "mythologie": "Le signe des Gémeaux est associé aux jumeaux Castor et Pollux, symboles du lien entre deux mondes : le mortel et l’immortel. Ce mythe illustre la capacité à faire circuler, relier et transmettre. Les Gémeaux incarnent le passage, l’échange et la médiation entre différentes réalités, idées ou points de vue.",
 
-  "generalites": [
-    "Le Taureau représente la capacité à s’ancrer : habiter le réel, sentir le corps, construire une sécurité durable. Là où le Bélier démarre, le Taureau consolide : il transforme l’impulsion en continuité, l’élan en forme stable.",
-    "Dans la vie quotidienne, cette énergie se manifeste par la patience, la constance et le sens du concret. Le Taureau avance lentement, mais il avance longtemps : il préfère un progrès régulier à un changement brutal.",
-    "Son défi principal est d’éviter l’inertie, l’attachement excessif ou la résistance au changement quand celui-ci devient nécessaire. L’équilibre se trouve quand la stabilité ne se transforme pas en rigidité."
-  ],
+    "analogie": {
+      "animal": "Les oiseaux, les messagers",
+      "objet": "Le pont, le livre, le fil",
+      "fonction": "Relier, transmettre, mettre en circulation"
+    },
 
-  "aptitudes": {
-    "atouts": ["Stable", "Endurant", "Patient", "Loyal", "Sensuel", "Fiable", "Concret"],
-    "defis": ["Entêté", "Possessif", "Lent à réagir", "Résistant au changement", "Attachement excessif à la sécurité"]
+    "anatomie": ["Poumons", "Bras", "Mains", "Épaules", "Système nerveux"],
+
+    "generalites": [
+      "Les Gémeaux représentent le mouvement de la pensée et de l’échange. Après la stabilisation du Taureau, ils introduisent la curiosité, la communication et la capacité à relier des informations entre elles.",
+      "Ce signe cherche à comprendre le monde par l’observation, le dialogue et l’expérimentation mentale. Il apprend en parlant, en comparant, en variant les points de vue plutôt qu’en s’ancrant dans une seule vérité.",
+      "Le défi des Gémeaux est de transformer la dispersion en intelligence synthétique : passer de l’accumulation d’informations à une compréhension vivante et reliée."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Curieux",
+        "Vif d’esprit",
+        "Adaptable",
+        "Communicatif",
+        "Ouvert",
+        "Polyvalent"
+      ],
+      "defis": [
+        "Dispersé",
+        "Instable",
+        "Superficiel",
+        "Nerveux",
+        "Difficulté à approfondir"
+      ]
+    },
+
+    "forces": [
+      "Rapidité de compréhension",
+      "Facilité à créer des liens entre les idées",
+      "Souplesse intellectuelle et adaptabilité"
+    ],
+    "ombres": [
+      "Dispersion mentale",
+      "Difficulté à se poser",
+      "Tendance à rester en surface"
+    ],
+    "besoins": [
+      "Stimulation intellectuelle",
+      "Échanges, dialogue, circulation",
+      "Liberté de mouvement et de pensée"
+    ],
+    "aTravailler": [
+      "La concentration",
+      "L’approfondissement",
+      "La cohérence intérieure"
+    ],
+    "quandCestEquilibre": [
+      "Les Gémeaux deviennent de véritables passeurs de sens, capables de relier sans se disperser.",
+      "Ils utilisent leur curiosité pour comprendre en profondeur, et non pour fuir l’ennui."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Gémeaux s’exprime par la pensée, le langage et l’échange. Le principe de la planète devient mobile, curieux et communicatif. Cela favorise la souplesse mentale et l’adaptabilité, mais peut aussi générer nervosité ou dispersion si l’énergie n’est pas structurée.",
+      "motsCles": [
+        "communication",
+        "curiosité",
+        "mobilité",
+        "échange",
+        "pensée",
+        "adaptation"
+      ],
+      "exemples": [
+        "Soleil en Gémeaux : identité multiple, besoin de comprendre et de communiquer, curiosité constante.",
+        "Lune en Gémeaux : émotions intellectualisées, besoin de parler pour se rassurer, mobilité affective.",
+        "Mercure en Gémeaux : esprit rapide, grande aisance verbale, pensée vive et adaptable.",
+        "Vénus en Gémeaux : attirance par l’esprit, goût du dialogue, besoin de légèreté relationnelle.",
+        "Mars en Gémeaux : énergie nerveuse, actions multiples, difficulté à se concentrer sur un seul objectif.",
+        "Jupiter en Gémeaux : expansion par le savoir, multiplication des centres d’intérêt, curiosité large.",
+        "Saturne en Gémeaux : structuration de la pensée, apprentissage de la rigueur intellectuelle.",
+        "Uranus en Gémeaux : esprit original, fulgurances mentales, pensée innovante et non conventionnelle.",
+        "Neptune en Gémeaux : imagination fertile, pensée intuitive, risque de confusion ou d’illusions mentales.",
+        "Pluton en Gémeaux : transformations profondes par le langage, le savoir et la parole."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Les Gémeaux montrent un domaine où l’on apprend, communique et relie les informations.",
+      "Ils indiquent aussi où l’on doit apprendre à passer de la dispersion à la cohérence."
+    ],
+
+    "motCle": "Je pense"
   },
+  {
+    "slug": "cancer",
+    "name": "Cancer",
+    "periode": "21 juin – 22 juillet",
+    "polarite": "Passif (féminin)",
+    "mode": "Cardinal",
+    "element": "Eau",
+    "maitre": "Lune",
+    "exaltation": "Jupiter",
+    "exil": "Saturne",
+    "chute": "Mars",
 
-  "forces": [
-    "Capacité à construire dans la durée",
-    "Ancrage solide dans le réel",
-    "Sens du concret et de la valeur"
-  ],
-  "ombres": [
-    "Inertie face au changement",
-    "Difficulté à lâcher prise",
-    "Rigidité dans les habitudes"
-  ],
-  "besoins": [
-    "Sécurité matérielle et affective",
-    "Cadre stable et repères simples",
-    "Rythme régulier et continuité"
-  ],
-  "aTravailler": [
-    "Accepter le changement sans perdre son centre",
-    "Assouplir les habitudes",
-    "Distinguer sécurité et attachement"
-  ],
-  "quandCestEquilibre": [
-    "Le Taureau devient paisible sans être immobile, fidèle sans être possessif, solide sans être rigide.",
-    "Il incarne une stabilité vivante : une base qui soutient, pas une prison."
-  ],
+    "mythologie": "Dans la mythologie grecque, le Cancer est associé au crabe envoyé par Héra pour affronter Héraclès lors de son combat contre l’Hydre. Bien que le crabe soit écrasé, il est honoré pour sa fidélité et son courage. Ce mythe met en lumière la fonction du Cancer : protéger, soutenir, rester loyal, même face à une force supérieure. Le Cancer symbolise ainsi l’attachement, la mémoire et la protection du vivant.",
 
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Taureau cherche à durer, à se stabiliser et à s’incarner. Le principe de la planète s’exprime avec constance : moins dans l’urgence que dans la construction. Cela renforce le sens du concret, l’attachement aux valeurs, et la capacité à persévérer — mais peut aussi ralentir ou rigidifier si l’on s’accroche trop.",
-    "motsCles": ["stabilité", "incarnation", "valeurs", "constance", "sensualité", "durée"],
-    "exemples": [
-      "Soleil en Taureau : identité stable, besoin de sécurité, constance dans les choix et dans l’effort.",
-      "Lune en Taureau : émotions calmes, besoin de confort et de continuité affective, attachement protecteur.",
-      "Mercure en Taureau : pensée posée, mémoire fiable, communication simple et concrète, décisions mûries.",
-      "Vénus en Taureau : attachements profonds, sensualité, fidélité aux valeurs, goût de l’harmonie durable.",
-      "Mars en Taureau : énergie endurante, action lente mais puissante, ténacité remarquable, difficulté à lâcher une fois engagé.",
-      "Jupiter en Taureau : croissance par la patience, expansion matérielle progressive, confiance dans le temps long.",
-      "Saturne en Taureau : sens du devoir concret, construction solide, discipline, prudence et persévérance.",
-      "Uranus en Taureau : tension entre besoin de stabilité et changements profonds ; réveils qui bousculent les valeurs.",
-      "Neptune en Taureau : idéal de paix, de douceur de vivre, de nature ; attention aux illusions liées au confort ou aux possessions.",
-      "Pluton en Taureau : transformations profondes autour des valeurs, de l’attachement et de la sécurité ; renaissances par le lâcher-prise."
-    ]
+    "analogie": {
+      "animal": "Le crabe",
+      "objet": "La coquille, le foyer, le récipient",
+      "fonction": "Protéger, contenir, nourrir"
+    },
+
+    "anatomie": ["Poitrine", "Estomac", "Système digestif", "Seins"],
+
+    "generalites": [
+      "Le Cancer représente le mouvement de retour vers l’intérieur. Après l’agitation mentale des Gémeaux, il invite à ressentir, à se souvenir et à se protéger. Il symbolise la naissance du monde intérieur et le besoin de sécurité émotionnelle.",
+      "Ce signe fonctionne par attachement, mémoire et sensibilité. Il perçoit le monde à travers les émotions et les expériences vécues, souvent de façon très intime et personnelle.",
+      "Le défi du Cancer est de trouver l’équilibre entre protection et enfermement. Lorsqu’il se replie excessivement, il peut se refermer sur le passé ; lorsqu’il s’ouvre avec confiance, il devient une source profonde de soutien et de soin."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Sensible",
+        "Protecteur",
+        "Empathique",
+        "Intuitif",
+        "Loyal",
+        "Nourricier"
+      ],
+      "defis": [
+        "Hypersensible",
+        "Méfiant",
+        "Lunatique",
+        "Attaché au passé",
+        "Difficulté à lâcher prise"
+      ]
+    },
+
+    "forces": [
+      "Grande capacité d’empathie",
+      "Sens aigu de la protection",
+      "Lien profond avec la mémoire et les racines"
+    ],
+    "ombres": [
+      "Repli sur soi excessif",
+      "Peurs liées à l’insécurité",
+      "Dépendance affective"
+    ],
+    "besoins": [
+      "Sécurité émotionnelle",
+      "Cadre rassurant",
+      "Relations de confiance"
+    ],
+    "aTravailler": [
+      "Exprimer ses émotions sans se refermer",
+      "Faire la paix avec le passé",
+      "Oser la vulnérabilité consciente"
+    ],
+    "quandCestEquilibre": [
+      "Le Cancer devient un pilier affectif, capable de soutenir sans étouffer et de protéger sans enfermer.",
+      "Il transforme sa sensibilité en force de soin et de compréhension."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Cancer s’exprime à travers l’émotion, la mémoire et le besoin de sécurité. Le principe de la planète devient sensible, réceptif et protecteur. Cela favorise l’intuition et l’attachement, mais peut aussi accentuer la vulnérabilité ou la dépendance affective.",
+      "motsCles": [
+        "sensibilité",
+        "protection",
+        "mémoire",
+        "attachement",
+        "intuition",
+        "sécurité"
+      ],
+      "exemples": [
+        "Soleil en Cancer : identité sensible, besoin d’appartenance, attachement fort aux racines.",
+        "Lune en Cancer : émotions profondes, grande réceptivité, besoin vital de sécurité affective.",
+        "Mercure en Cancer : pensée intuitive, mémoire émotionnelle, communication indirecte.",
+        "Vénus en Cancer : attachement affectif fort, besoin de tendresse et de fidélité.",
+        "Mars en Cancer : action influencée par l’émotion, énergie fluctuante, défense du territoire affectif.",
+        "Jupiter en Cancer : croissance par le soin, la protection et l’empathie ; foi dans le lien humain.",
+        "Saturne en Cancer : apprentissage de la sécurité intérieure, maturité émotionnelle par l’expérience.",
+        "Uranus en Cancer : besoin de liberté émotionnelle, ruptures liées au foyer ou à la famille.",
+        "Neptune en Cancer : sensibilité extrême, idéalisation du foyer, grande compassion.",
+        "Pluton en Cancer : transformations profondes liées à la famille, aux racines et à la mémoire émotionnelle."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Cancer indique un domaine de vie où l’on cherche protection, sécurité et continuité émotionnelle.",
+      "Il montre aussi où l’on apprend à transformer la vulnérabilité en force intérieure."
+    ],
+
+    "motCle": "Je ressens"
   },
+  {
+    "slug": "lion",
+    "name": "Lion",
+    "periode": "23 juillet – 22 août",
+    "polarite": "Actif (masculin)",
+    "mode": "Fixe",
+    "element": "Feu",
+    "maitre": "Soleil",
+    "exaltation": null,
+    "exil": "Saturne",
+    "chute": null,
 
-  "dansUnTheme": [
-    "Le Taureau indique un domaine où l’on cherche la sécurité, la constance et des repères stables.",
-    "Il montre où l’on construit lentement mais durablement — et où l’on apprend à assouplir l’attachement quand la vie demande d’évoluer."
-  ],
+    "mythologie": "Le Lion est associé au lion de Némée, vaincu par Héraclès lors de son premier travail. Cette créature invulnérable symbolise une force brute et souveraine, que le héros doit affronter pour affirmer sa propre puissance. Le mythe du Lion parle de courage, de maîtrise de soi et de reconnaissance : la force ne devient noble que lorsqu’elle est assumée et dirigée par le cœur.",
 
-  "motCle": "J’ai"
-},{
-  "slug": "gemeaux",
-  "name": "Gémeaux",
-  "periode": "21 mai – 20 juin",
-  "polarite": "Actif (masculin)",
-  "mode": "Mutable",
-  "element": "Air",
-  "maitre": "Mercure",
-  "exaltation": null,
-  "exil": "Jupiter",
-  "chute": null,
+    "analogie": {
+      "animal": "Le lion",
+      "objet": "Le trône, la couronne, le cœur",
+      "fonction": "Rayonner, affirmer, créer"
+    },
 
-  "mythologie": "Le signe des Gémeaux est associé aux jumeaux Castor et Pollux, symboles du lien entre deux mondes : le mortel et l’immortel. Ce mythe illustre la capacité à faire circuler, relier et transmettre. Les Gémeaux incarnent le passage, l’échange et la médiation entre différentes réalités, idées ou points de vue.",
+    "anatomie": ["Cœur", "Colonne vertébrale", "Dos", "Circulation sanguine"],
 
-  "analogie": {
-    "animal": "Les oiseaux, les messagers",
-    "objet": "Le pont, le livre, le fil",
-    "fonction": "Relier, transmettre, mettre en circulation"
+    "generalites": [
+      "Le Lion représente le moment où l’individu affirme son identité de manière visible. Après la protection du Cancer, il s’agit désormais de se montrer, de créer et de rayonner à partir de ce que l’on est.",
+      "Ce signe est lié à la confiance en soi, à la créativité et au besoin de reconnaissance. Le Lion cherche à exprimer son unicité et à occuper une place centrale, non par domination, mais par présence.",
+      "Son défi est de transformer le besoin d’être reconnu en capacité à reconnaître les autres. Lorsqu’il est équilibré, le Lion inspire, éclaire et rassemble autour de lui."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Charismatique",
+        "Créatif",
+        "Généreux",
+        "Confiant",
+        "Chaleureux",
+        "Loyal"
+      ],
+      "defis": [
+        "Orgueilleux",
+        "Autoritaire",
+        "Besoin excessif de reconnaissance",
+        "Rigidité de l’ego"
+      ]
+    },
+
+    "forces": [
+      "Capacité à inspirer et à motiver",
+      "Créativité expressive",
+      "Force du cœur et générosité"
+    ],
+    "ombres": [
+      "Ego surdimensionné",
+      "Dépendance au regard extérieur",
+      "Difficulté à partager la lumière"
+    ],
+    "besoins": [
+      "Être reconnu pour ce qu’il est",
+      "Exprimer sa créativité",
+      "Se sentir utile et valorisé"
+    ],
+    "aTravailler": [
+      "L’humilité",
+      "L’écoute des autres",
+      "Le partage du pouvoir"
+    ],
+    "quandCestEquilibre": [
+      "Le Lion devient un leader naturel, capable de rayonner sans écraser.",
+      "Il exprime une autorité bienveillante, fondée sur la confiance et la générosité."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Lion cherche à s’exprimer avec force, visibilité et créativité. Le principe de la planète devient rayonnant, affirmé et centré sur l’identité. Cela renforce la confiance et le charisme, mais peut aussi amplifier l’ego si l’énergie n’est pas partagée.",
+      "motsCles": [
+        "rayonnement",
+        "créativité",
+        "affirmation",
+        "confiance",
+        "visibilité",
+        "cœur"
+      ],
+      "exemples": [
+        "Soleil en Lion : identité forte, besoin d’exprimer sa singularité, leadership naturel.",
+        "Lune en Lion : besoin d’être aimé et reconnu, générosité affective, fierté émotionnelle.",
+        "Mercure en Lion : parole expressive, pensée créative, goût pour la mise en scène des idées.",
+        "Vénus en Lion : amour démonstratif, générosité sentimentale, besoin d’admiration.",
+        "Mars en Lion : action noble et volontaire, désir de se dépasser, goût du défi visible.",
+        "Jupiter en Lion : expansion par la créativité et la confiance, enthousiasme communicatif.",
+        "Saturne en Lion : apprentissage de l’autorité juste, structuration de l’ego et du leadership.",
+        "Uranus en Lion : expression originale de soi, créativité rebelle, besoin de se démarquer.",
+        "Neptune en Lion : idéal créatif, rêve de reconnaissance, inspiration artistique.",
+        "Pluton en Lion : transformations profondes de l’identité, rapports de pouvoir liés à l’ego."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Lion indique un domaine où l’on cherche à s’affirmer, à créer et à rayonner.",
+      "Il montre aussi où l’on apprend à exprimer sa singularité sans dépendre uniquement du regard extérieur."
+    ],
+
+    "motCle": "Je rayonne"
   },
+  {
+    "slug": "vierge",
+    "name": "Vierge",
+    "periode": "23 août – 22 septembre",
+    "polarite": "Passif (féminin)",
+    "mode": "Mutable",
+    "element": "Terre",
+    "maitre": "Mercure",
+    "exaltation": "Mercure",
+    "exil": "Jupiter",
+    "chute": "Vénus",
 
-  "anatomie": ["Poumons", "Bras", "Mains", "Épaules", "Système nerveux"],
+    "mythologie": "La Vierge est associée à des figures de déesses liées à la terre, aux récoltes et à la purification, comme Déméter ou Astrée. Elle symbolise la conscience qui observe, trie et ordonne afin de rendre le monde plus juste et plus fonctionnel. La Vierge n’est pas une figure d’innocence naïve, mais de lucidité : elle voit ce qui doit être corrigé pour que la vie circule mieux.",
 
-  "generalites": [
-    "Les Gémeaux représentent le mouvement de la pensée et de l’échange. Après la stabilisation du Taureau, ils introduisent la curiosité, la communication et la capacité à relier des informations entre elles.",
-    "Ce signe cherche à comprendre le monde par l’observation, le dialogue et l’expérimentation mentale. Il apprend en parlant, en comparant, en variant les points de vue plutôt qu’en s’ancrant dans une seule vérité.",
-    "Le défi des Gémeaux est de transformer la dispersion en intelligence synthétique : passer de l’accumulation d’informations à une compréhension vivante et reliée."
-  ],
+    "analogie": {
+      "animal": "L’abeille",
+      "objet": "L’outil, le grain, l’instrument de mesure",
+      "fonction": "Analyser, trier, améliorer"
+    },
 
-  "aptitudes": {
-    "atouts": ["Curieux", "Vif d’esprit", "Adaptable", "Communicatif", "Ouvert", "Polyvalent"],
-    "defis": ["Dispersé", "Instable", "Superficiel", "Nerveux", "Difficulté à approfondir"]
+    "anatomie": ["Intestins", "Système digestif", "Fonction d’assimilation"],
+
+    "generalites": [
+      "La Vierge représente l’intelligence du détail et le sens du service. Après l’expression créative du Lion, elle cherche à rendre utile, cohérent et fonctionnel ce qui a été exprimé.",
+      "Ce signe observe, analyse et discrimine. Il possède une capacité naturelle à repérer ce qui ne fonctionne pas et à proposer des ajustements concrets.",
+      "Le défi de la Vierge est de ne pas se perdre dans l’excès de critique ou de perfectionnisme. Lorsqu’elle est équilibrée, elle devient une force de clarté, de soin et de précision."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Analytique",
+        "Précise",
+        "Consciencieuse",
+        "Serviable",
+        "Organisée",
+        "Lucide"
+      ],
+      "defis": [
+        "Critique",
+        "Perfectionniste",
+        "Anxieuse",
+        "Auto-exigeante",
+        "Doute excessif"
+      ]
+    },
+
+    "forces": [
+      "Sens aigu du détail",
+      "Capacité à améliorer ce qui existe",
+      "Esprit logique et méthodique"
+    ],
+    "ombres": [
+      "Rigidité mentale",
+      "Auto-critique excessive",
+      "Peurs liées à l’imperfection"
+    ],
+    "besoins": [
+      "Utilité concrète",
+      "Ordre et cohérence",
+      "Comprendre le fonctionnement des choses"
+    ],
+    "aTravailler": [
+      "Lâcher le contrôle excessif",
+      "Accepter l’imperfection",
+      "Faire confiance au processus"
+    ],
+    "quandCestEquilibre": [
+      "La Vierge devient une intelligence au service du vivant, capable d’aider sans juger.",
+      "Elle transforme l’analyse en soin et la précision en sagesse pratique."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Vierge s’exprime par l’analyse, le discernement et la recherche d’efficacité. Le principe de la planète devient plus précis, méthodique et orienté vers l’amélioration. Cela favorise la compétence et le sens du service, mais peut aussi accentuer le doute ou la critique si l’énergie est mal canalisée.",
+      "motsCles": [
+        "analyse",
+        "discernement",
+        "service",
+        "précision",
+        "amélioration",
+        "méthode"
+      ],
+      "exemples": [
+        "Soleil en Vierge : identité construite sur l’utilité, besoin de se sentir compétent et juste.",
+        "Lune en Vierge : émotions maîtrisées, besoin d’ordre intérieur, sensibilité discrète.",
+        "Mercure en Vierge : esprit analytique, pensée précise, grande capacité d’organisation mentale.",
+        "Vénus en Vierge : affection discrète, besoin de fiabilité, amour exprimé par les actes.",
+        "Mars en Vierge : énergie canalisée, efficacité dans l’action, sens du travail bien fait.",
+        "Jupiter en Vierge : expansion par le service, la compétence et l’amélioration continue.",
+        "Saturne en Vierge : discipline, rigueur, apprentissage de la patience et de la méthode.",
+        "Uranus en Vierge : innovations pratiques, nouvelles méthodes de travail, esprit réformateur.",
+        "Neptune en Vierge : idéal de service, compassion discrète, attention portée aux détails invisibles.",
+        "Pluton en Vierge : transformations profondes liées au travail, au corps et aux habitudes."
+      ]
+    },
+
+    "dansUnTheme": [
+      "La Vierge indique un domaine où l’on cherche à comprendre, corriger et améliorer.",
+      "Elle montre aussi où l’on apprend à servir la vie par la précision et le discernement."
+    ],
+
+    "motCle": "Je distingue"
   },
+  {
+    "slug": "balance",
+    "name": "Balance",
+    "periode": "23 septembre – 22 octobre",
+    "polarite": "Actif (masculin)",
+    "mode": "Cardinal",
+    "element": "Air",
+    "maitre": "Vénus",
+    "exaltation": "Saturne",
+    "exil": "Mars",
+    "chute": "Soleil",
 
-  "forces": [
-    "Rapidité de compréhension",
-    "Facilité à créer des liens entre les idées",
-    "Souplesse intellectuelle et adaptabilité"
-  ],
-  "ombres": [
-    "Dispersion mentale",
-    "Difficulté à se poser",
-    "Tendance à rester en surface"
-  ],
-  "besoins": [
-    "Stimulation intellectuelle",
-    "Échanges, dialogue, circulation",
-    "Liberté de mouvement et de pensée"
-  ],
-  "aTravailler": [
-    "La concentration",
-    "L’approfondissement",
-    "La cohérence intérieure"
-  ],
-  "quandCestEquilibre": [
-    "Les Gémeaux deviennent de véritables passeurs de sens, capables de relier sans se disperser.",
-    "Ils utilisent leur curiosité pour comprendre en profondeur, et non pour fuir l’ennui."
-  ],
+    "mythologie": "La Balance est associée à la figure d’Astrée, déesse de la justice et de l’harmonie, qui quittait le monde lorsque les hommes s’éloignaient de l’équilibre et de l’équité. La Balance symbolise la quête d’un juste milieu, non comme compromis tiède, mais comme recherche consciente d’harmonie entre des forces opposées. Elle incarne le passage du « moi » vers le « nous ».",
 
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Gémeaux s’exprime par la pensée, le langage et l’échange. Le principe de la planète devient mobile, curieux et communicatif. Cela favorise la souplesse mentale et l’adaptabilité, mais peut aussi générer nervosité ou dispersion si l’énergie n’est pas structurée.",
-    "motsCles": ["communication", "curiosité", "mobilité", "échange", "pensée", "adaptation"],
-    "exemples": [
-      "Soleil en Gémeaux : identité multiple, besoin de comprendre et de communiquer, curiosité constante.",
-      "Lune en Gémeaux : émotions intellectualisées, besoin de parler pour se rassurer, mobilité affective.",
-      "Mercure en Gémeaux : esprit rapide, grande aisance verbale, pensée vive et adaptable.",
-      "Vénus en Gémeaux : attirance par l’esprit, goût du dialogue, besoin de légèreté relationnelle.",
-      "Mars en Gémeaux : énergie nerveuse, actions multiples, difficulté à se concentrer sur un seul objectif.",
-      "Jupiter en Gémeaux : expansion par le savoir, multiplication des centres d’intérêt, curiosité large.",
-      "Saturne en Gémeaux : structuration de la pensée, apprentissage de la rigueur intellectuelle.",
-      "Uranus en Gémeaux : esprit original, fulgurances mentales, pensée innovante et non conventionnelle.",
-      "Neptune en Gémeaux : imagination fertile, pensée intuitive, risque de confusion ou d’illusions mentales.",
-      "Pluton en Gémeaux : transformations profondes par le langage, le savoir et la parole."
-    ]
+    "analogie": {
+      "animal": "Aucun animal spécifique",
+      "objet": "La balance, le miroir",
+      "fonction": "Relier, équilibrer, harmoniser"
+    },
+
+    "anatomie": ["Reins", "Région lombaire", "Peau"],
+
+    "generalites": [
+      "La Balance représente le moment où l’individu se confronte à l’autre. Après l’analyse de la Vierge, elle cherche l’équilibre relationnel, la coopération et la justesse dans les échanges.",
+      "Ce signe est sensible à l’harmonie, à l’esthétique et à la justice. Il fonctionne par comparaison, dialogue et recherche de réciprocité.",
+      "Son défi principal est de ne pas se perdre dans l’indécision ou la dépendance au regard extérieur. Lorsqu’elle est équilibrée, la Balance devient médiatrice, juste et profondément humaine."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Diplomate",
+        "Juste",
+        "Sociable",
+        "Esthétique",
+        "Raffinée",
+        "Équilibrée"
+      ],
+      "defis": [
+        "Indécise",
+        "Dépendante du regard de l’autre",
+        "Évitement du conflit",
+        "Manque d’affirmation"
+      ]
+    },
+
+    "forces": [
+      "Sens aigu de l’équité",
+      "Capacité à créer l’harmonie",
+      "Talent relationnel et diplomatique"
+    ],
+    "ombres": [
+      "Difficulté à trancher",
+      "Peurs du conflit",
+      "Dépendance affective"
+    ],
+    "besoins": [
+      "Relations équilibrées",
+      "Beauté et harmonie",
+      "Dialogue et reconnaissance mutuelle"
+    ],
+    "aTravailler": [
+      "L’affirmation de soi",
+      "La capacité à décider",
+      "L’acceptation du désaccord"
+    ],
+    "quandCestEquilibre": [
+      "La Balance devient un véritable pont entre les êtres, capable d’unir sans se nier.",
+      "Elle incarne une justice vivante, sensible et profondément humaine."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Balance cherche à s’exprimer dans la relation, l’échange et l’équilibre. Le principe de la planète devient orienté vers l’autre, la coopération et l’harmonie. Cela favorise la diplomatie et la recherche d’accords, mais peut aussi engendrer hésitation ou dépendance si l’affirmation personnelle fait défaut.",
+      "motsCles": [
+        "relation",
+        "équilibre",
+        "harmonie",
+        "justice",
+        "coopération",
+        "dialogue"
+      ],
+      "exemples": [
+        "Soleil en Balance : identité construite à travers la relation, besoin d’équité et de reconnaissance mutuelle.",
+        "Lune en Balance : besoin d’harmonie affective, émotions liées à la qualité du lien.",
+        "Mercure en Balance : pensée nuancée, communication diplomatique, sens du dialogue.",
+        "Vénus en Balance : recherche d’harmonie, sens esthétique développé, besoin d’égalité dans l’amour.",
+        "Mars en Balance : action mesurée, difficulté à confronter directement, recherche de compromis.",
+        "Jupiter en Balance : expansion par la coopération, foi dans la justice et l’équilibre.",
+        "Saturne en Balance : sens des responsabilités relationnelles, maturité dans les engagements.",
+        "Uranus en Balance : besoin de relations libres, ruptures liées à l’injustice.",
+        "Neptune en Balance : idéalisation du couple, quête d’un amour parfait.",
+        "Pluton en Balance : transformations profondes à travers les relations et les rapports de pouvoir."
+      ]
+    },
+
+    "dansUnTheme": [
+      "La Balance indique un domaine où l’on cherche l’équilibre, la coopération et la justice.",
+      "Elle montre aussi où l’on apprend à se définir à travers la relation à l’autre."
+    ],
+
+    "motCle": "Je relie"
   },
+  {
+    "slug": "scorpion",
+    "name": "Scorpion",
+    "periode": "23 octobre – 21 novembre",
+    "polarite": "Passif (féminin)",
+    "mode": "Fixe",
+    "element": "Eau",
+    "maitre": "Mars (tradition) / Pluton (moderne)",
+    "exaltation": null,
+    "exil": "Vénus",
+    "chute": "Lune",
 
-  "dansUnTheme": [
-    "Les Gémeaux montrent un domaine où l’on apprend, communique et relie les informations.",
-    "Ils indiquent aussi où l’on doit apprendre à passer de la dispersion à la cohérence."
-  ],
+    "mythologie": "Le Scorpion est lié au mythe d’Orion : un scorpion est envoyé pour le mettre à l’épreuve et le ramener à une forme de limite. Orion, symbole d’orgueil ou d’excès, doit affronter une force plus profonde que lui. Le Scorpion représente ainsi l’épreuve qui transforme : confrontation à l’intensité, à la vérité et à ce qui ne peut pas être contourné. Sa symbolique parle de mort et de renaissance au sens psychologique : ce qui doit mourir en nous pour que quelque chose de plus authentique naisse.",
 
-  "motCle": "Je pense"
-},{
-  "slug": "cancer",
-  "name": "Cancer",
-  "periode": "21 juin – 22 juillet",
-  "polarite": "Passif (féminin)",
-  "mode": "Cardinal",
-  "element": "Eau",
-  "maitre": "Lune",
-  "exaltation": "Jupiter",
-  "exil": "Saturne",
-  "chute": "Mars",
+    "analogie": {
+      "animal": "Le scorpion",
+      "objet": "La clé, le verrou, le passage",
+      "fonction": "Approfondir, transformer, régénérer"
+    },
 
-  "mythologie": "Dans la mythologie grecque, le Cancer est associé au crabe envoyé par Héra pour affronter Héraclès lors de son combat contre l’Hydre. Bien que le crabe soit écrasé, il est honoré pour sa fidélité et son courage. Ce mythe met en lumière la fonction du Cancer : protéger, soutenir, rester loyal, même face à une force supérieure. Le Cancer symbolise ainsi l’attachement, la mémoire et la protection du vivant.",
+    "anatomie": [
+      "Organes sexuels",
+      "Bassin",
+      "Système reproducteur",
+      "Élimination"
+    ],
 
-  "analogie": {
-    "animal": "Le crabe",
-    "objet": "La coquille, le foyer, le récipient",
-    "fonction": "Protéger, contenir, nourrir"
+    "generalites": [
+      "Le Scorpion représente la profondeur émotionnelle et la transformation. Après la recherche d’équilibre de la Balance, il invite à aller au-delà des apparences pour rencontrer la vérité des liens, des désirs et des peurs.",
+      "Ce signe fonctionne par intensité : il cherche ce qui est réel, ce qui est caché, ce qui motive en profondeur. Il peut être magnétique, lucide, et doté d’une grande force intérieure.",
+      "Son défi est de ne pas basculer dans le contrôle, la méfiance ou la fixation. Lorsqu’il est équilibré, le Scorpion devient une puissance de guérison : il traverse, comprend, et transforme sans détruire."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Intense",
+        "Lucide",
+        "Courageux",
+        "Profond",
+        "Résilient",
+        "Loyal"
+      ],
+      "defis": [
+        "Méfiant",
+        "Possessif",
+        "Jaloux",
+        "Contrôlant",
+        "Rancunier",
+        "Tout ou rien"
+      ]
+    },
+
+    "forces": [
+      "Grande force de résilience",
+      "Capacité à voir au-delà des apparences",
+      "Puissance de transformation et de régénération"
+    ],
+    "ombres": [
+      "Contrôle excessif",
+      "Peurs d’abandon ou de trahison",
+      "Rigidité émotionnelle (tout ou rien)"
+    ],
+    "besoins": [
+      "Vérité émotionnelle",
+      "Liens profonds et sincères",
+      "Transformation et authenticité"
+    ],
+    "aTravailler": [
+      "La confiance",
+      "Le lâcher-prise",
+      "Transformer l’intensité en conscience"
+    ],
+    "quandCestEquilibre": [
+      "Le Scorpion devient capable d’aimer profondément sans contrôler et de transformer sans détruire.",
+      "Il incarne une force de guérison : lucide, fidèle, et régénératrice."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Scorpion s’exprime avec intensité, profondeur et besoin de vérité. Le principe de la planète devient plus total : il cherche à comprendre, posséder, transformer, aller au bout. Cela donne puissance intérieure et lucidité, mais peut aussi favoriser le contrôle ou la fixation si l’émotion n’est pas intégrée.",
+      "motsCles": [
+        "intensité",
+        "profondeur",
+        "transformation",
+        "vérité",
+        "régénération",
+        "secret"
+      ],
+      "exemples": [
+        "Soleil en Scorpion : identité intense, besoin de vérité, grande force de transformation personnelle.",
+        "Lune en Scorpion : émotions profondes, hypersensibilité cachée, besoin de loyauté absolue.",
+        "Mercure en Scorpion : pensée pénétrante, esprit d’enquête, parole rare mais incisive.",
+        "Vénus en Scorpion : attachement passionné, amour total, besoin d’exclusivité et de profondeur.",
+        "Mars en Scorpion : énergie concentrée, endurance, stratégie, action déterminée.",
+        "Jupiter en Scorpion : croissance par les crises, compréhension des profondeurs humaines, foi dans la transformation.",
+        "Saturne en Scorpion : maîtrise émotionnelle, responsabilités liées à l’intime, construction de la confiance avec le temps.",
+        "Uranus en Scorpion : ruptures intérieures, éveils soudains, transformations radicales des liens et désirs.",
+        "Neptune en Scorpion : intuition puissante, perception du non-dit, risque d’idéalisations ou de confusions émotionnelles.",
+        "Pluton en Scorpion : intensité maximale, cycles de mort/renaissance, puissance de régénération et de vérité."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Scorpion indique un domaine où l’on vit les choses intensément et où l’on cherche la vérité derrière les apparences.",
+      "Il montre aussi un secteur de vie où l’on doit traverser des transformations pour gagner en puissance intérieure."
+    ],
+
+    "motCle": "Je transforme"
   },
+  {
+    "slug": "sagittaire",
+    "name": "Sagittaire",
+    "periode": "22 novembre – 21 décembre",
+    "polarite": "Actif (masculin)",
+    "mode": "Mutable",
+    "element": "Feu",
+    "maitre": "Jupiter",
+    "exaltation": null,
+    "exil": "Mercure",
+    "chute": null,
 
-  "anatomie": ["Poitrine", "Estomac", "Système digestif", "Seins"],
+    "mythologie": "Le Sagittaire est associé au centaure Chiron, être mi-homme mi-cheval, à la fois instinctif et sage. Archer tourné vers le ciel, il symbolise la quête de sens, la transmission du savoir et la recherche d’un idéal qui dépasse l’individu. Le mythe du Sagittaire parle d’élévation : transformer l’expérience vécue en compréhension et en vision globale.",
 
-  "generalites": [
-    "Le Cancer représente le mouvement de retour vers l’intérieur. Après l’agitation mentale des Gémeaux, il invite à ressentir, à se souvenir et à se protéger. Il symbolise la naissance du monde intérieur et le besoin de sécurité émotionnelle.",
-    "Ce signe fonctionne par attachement, mémoire et sensibilité. Il perçoit le monde à travers les émotions et les expériences vécues, souvent de façon très intime et personnelle.",
-    "Le défi du Cancer est de trouver l’équilibre entre protection et enfermement. Lorsqu’il se replie excessivement, il peut se refermer sur le passé ; lorsqu’il s’ouvre avec confiance, il devient une source profonde de soutien et de soin."
-  ],
+    "analogie": {
+      "animal": "Le cheval, le centaure",
+      "objet": "L’arc, la flèche, le chemin",
+      "fonction": "Explorer, comprendre, transmettre"
+    },
 
-  "aptitudes": {
-    "atouts": ["Sensible", "Protecteur", "Empathique", "Intuitif", "Loyal", "Nourricier"],
-    "defis": ["Hypersensible", "Méfiant", "Lunatique", "Attaché au passé", "Difficulté à lâcher prise"]
+    "anatomie": ["Hanches", "Cuisses", "Foie", "Système locomoteur"],
+
+    "generalites": [
+      "Le Sagittaire représente l’élan vers l’horizon. Après la transformation du Scorpion, il cherche à donner un sens à ce qui a été traversé, à comprendre et à élargir la perspective.",
+      "Ce signe fonctionne par vision globale, enthousiasme et quête de vérité. Il a besoin d’espace, de mouvement et de projets porteurs de sens.",
+      "Son défi est de ne pas confondre quête de vérité et certitude dogmatique. Lorsqu’il est équilibré, le Sagittaire devient un guide inspirant, capable d’ouvrir des voies sans imposer une seule vérité."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Optimiste",
+        "Visionnaire",
+        "Curieux",
+        "Sincère",
+        "Enthousiaste",
+        "Idéaliste"
+      ],
+      "defis": [
+        "Impatient",
+        "Excessif",
+        "Dogmatique",
+        "Manque de mesure",
+        "Difficulté à se poser"
+      ]
+    },
+
+    "forces": [
+      "Capacité à voir loin",
+      "Énergie d’expansion et d’enthousiasme",
+      "Goût de la connaissance et de la transmission"
+    ],
+    "ombres": [
+      "Fuite des contraintes",
+      "Certitudes trop rapides",
+      "Promesses non tenues"
+    ],
+    "besoins": [
+      "Liberté de mouvement",
+      "Idéal porteur de sens",
+      "Exploration intellectuelle ou physique"
+    ],
+    "aTravailler": [
+      "L’écoute des autres points de vue",
+      "La cohérence entre parole et actes",
+      "L’ancrage dans le concret"
+    ],
+    "quandCestEquilibre": [
+      "Le Sagittaire devient un éclaireur : il ouvre des chemins sans imposer sa route.",
+      "Il incarne une sagesse vivante, nourrie par l’expérience et le sens."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Sagittaire s’exprime par l’expansion, la recherche de sens et l’enthousiasme. Le principe de la planète devient orienté vers l’avenir, l’exploration et la compréhension globale. Cela favorise l’optimisme et la vision, mais peut aussi conduire à l’excès ou à la dispersion.",
+      "motsCles": [
+        "expansion",
+        "sens",
+        "horizon",
+        "vision",
+        "exploration",
+        "foi"
+      ],
+      "exemples": [
+        "Soleil en Sagittaire : identité tournée vers l’idéal, besoin de liberté et de sens.",
+        "Lune en Sagittaire : émotions expansives, besoin d’optimisme et d’espace affectif.",
+        "Mercure en Sagittaire : pensée synthétique, parole franche, goût pour les idées larges.",
+        "Vénus en Sagittaire : amour libre, attirance pour l’aventure et la différence.",
+        "Mars en Sagittaire : énergie enthousiaste, action tournée vers un but lointain.",
+        "Jupiter en Sagittaire : amplification de la foi, quête de vérité, confiance dans la vie.",
+        "Saturne en Sagittaire : structuration des croyances, responsabilité morale et philosophique.",
+        "Uranus en Sagittaire : idées novatrices, besoin de liberté idéologique, ruptures de croyances.",
+        "Neptune en Sagittaire : idéal spirituel, quête mystique, inspiration philosophique.",
+        "Pluton en Sagittaire : transformations profondes des systèmes de pensée et des convictions."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Sagittaire indique un domaine où l’on cherche à grandir, comprendre et élargir son horizon.",
+      "Il montre aussi où l’on apprend à transformer l’enthousiasme en sagesse."
+    ],
+
+    "motCle": "Je cherche"
   },
+  {
+    "slug": "capricorne",
+    "name": "Capricorne",
+    "periode": "22 décembre – 19 janvier",
+    "polarite": "Passif (féminin)",
+    "mode": "Cardinal",
+    "element": "Terre",
+    "maitre": "Saturne",
+    "exaltation": "Mars",
+    "exil": "Lune",
+    "chute": "Jupiter",
 
-  "forces": [
-    "Grande capacité d’empathie",
-    "Sens aigu de la protection",
-    "Lien profond avec la mémoire et les racines"
-  ],
-  "ombres": [
-    "Repli sur soi excessif",
-    "Peurs liées à l’insécurité",
-    "Dépendance affective"
-  ],
-  "besoins": [
-    "Sécurité émotionnelle",
-    "Cadre rassurant",
-    "Relations de confiance"
-  ],
-  "aTravailler": [
-    "Exprimer ses émotions sans se refermer",
-    "Faire la paix avec le passé",
-    "Oser la vulnérabilité consciente"
-  ],
-  "quandCestEquilibre": [
-    "Le Cancer devient un pilier affectif, capable de soutenir sans étouffer et de protéger sans enfermer.",
-    "Il transforme sa sensibilité en force de soin et de compréhension."
-  ],
+    "mythologie": "Le Capricorne est associé à la figure de Pan et au symbole ancien de la chèvre-poisson. Cette image paradoxale relie les hauteurs et les profondeurs : la chèvre qui gravit la montagne et le poisson qui plonge dans l’inconscient. Le Capricorne incarne ainsi l’ambition patiente, la maîtrise du temps et la capacité à construire une autorité intérieure fondée sur l’expérience et la persévérance.",
 
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Cancer s’exprime à travers l’émotion, la mémoire et le besoin de sécurité. Le principe de la planète devient sensible, réceptif et protecteur. Cela favorise l’intuition et l’attachement, mais peut aussi accentuer la vulnérabilité ou la dépendance affective.",
-    "motsCles": ["sensibilité", "protection", "mémoire", "attachement", "intuition", "sécurité"],
-    "exemples": [
-      "Soleil en Cancer : identité sensible, besoin d’appartenance, attachement fort aux racines.",
-      "Lune en Cancer : émotions profondes, grande réceptivité, besoin vital de sécurité affective.",
-      "Mercure en Cancer : pensée intuitive, mémoire émotionnelle, communication indirecte.",
-      "Vénus en Cancer : attachement affectif fort, besoin de tendresse et de fidélité.",
-      "Mars en Cancer : action influencée par l’émotion, énergie fluctuante, défense du territoire affectif.",
-      "Jupiter en Cancer : croissance par le soin, la protection et l’empathie ; foi dans le lien humain.",
-      "Saturne en Cancer : apprentissage de la sécurité intérieure, maturité émotionnelle par l’expérience.",
-      "Uranus en Cancer : besoin de liberté émotionnelle, ruptures liées au foyer ou à la famille.",
-      "Neptune en Cancer : sensibilité extrême, idéalisation du foyer, grande compassion.",
-      "Pluton en Cancer : transformations profondes liées à la famille, aux racines et à la mémoire émotionnelle."
-    ]
+    "analogie": {
+      "animal": "La chèvre de montagne",
+      "objet": "La montagne, l’échelle, l’outil de construction",
+      "fonction": "Structurer, bâtir, assumer"
+    },
+
+    "anatomie": ["Os", "Articulations", "Genoux", "Peau"],
+
+    "generalites": [
+      "Le Capricorne représente la conscience du temps et de la responsabilité. Après la quête de sens du Sagittaire, il invite à concrétiser, structurer et inscrire les ambitions dans la durée.",
+      "Ce signe fonctionne par objectif, discipline et endurance. Il accepte l’effort, le retard et la contrainte comme des étapes nécessaires à la construction.",
+      "Son défi est de ne pas se couper de la sensibilité ou de la joie de vivre. Lorsqu’il est équilibré, le Capricorne devient un pilier : solide, fiable et porteur d’une sagesse issue de l’expérience."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Responsable",
+        "Persévérant",
+        "Discipliné",
+        "Structuré",
+        "Fiable",
+        "Endurant"
+      ],
+      "defis": [
+        "Rigide",
+        "Pessimiste",
+        "Exigeant",
+        "Froid en apparence",
+        "Surcontrôle"
+      ]
+    },
+
+    "forces": [
+      "Capacité à construire sur le long terme",
+      "Sens aigu des responsabilités",
+      "Maîtrise progressive de soi et du réel"
+    ],
+    "ombres": [
+      "Peurs liées à l’échec",
+      "Dureté envers soi-même",
+      "Isolement émotionnel"
+    ],
+    "besoins": [
+      "Objectifs clairs",
+      "Reconnaissance méritée",
+      "Cadre structurant"
+    ],
+    "aTravailler": [
+      "Lâcher la dureté excessive",
+      "Intégrer la sensibilité",
+      "S’autoriser la satisfaction du chemin parcouru"
+    ],
+    "quandCestEquilibre": [
+      "Le Capricorne devient une autorité tranquille, fondée sur l’exemple et la constance.",
+      "Il incarne une sagesse mature, capable de guider sans dominer."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Capricorne s’exprime avec sérieux, structure et sens du devoir. Le principe de la planète devient plus maîtrisé, orienté vers l’objectif et le temps long. Cela favorise la fiabilité et la maturité, mais peut aussi rigidifier si la pression est trop forte.",
+      "motsCles": [
+        "structure",
+        "temps",
+        "responsabilité",
+        "ambition",
+        "discipline",
+        "maturité"
+      ],
+      "exemples": [
+        "Soleil en Capricorne : identité construite par l’effort, besoin de se réaliser par le concret.",
+        "Lune en Capricorne : émotions contenues, besoin de sécurité par la maîtrise et la fiabilité.",
+        "Mercure en Capricorne : pensée structurée, logique, communication mesurée et sérieuse.",
+        "Vénus en Capricorne : attachements prudents, loyauté, amour construit dans le temps.",
+        "Mars en Capricorne : énergie disciplinée, ambition, grande capacité de travail.",
+        "Jupiter en Capricorne : expansion par la rigueur, réussite progressive et méritée.",
+        "Saturne en Capricorne : maîtrise maximale, sens aigu des responsabilités, maturité profonde.",
+        "Uranus en Capricorne : réformes structurelles, changements dans les systèmes établis.",
+        "Neptune en Capricorne : idéal de réussite, tension entre rêve et réalité concrète.",
+        "Pluton en Capricorne : transformations profondes des structures, du pouvoir et des responsabilités."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Capricorne indique un domaine où l’on construit lentement mais solidement.",
+      "Il montre aussi où l’on apprend à assumer ses responsabilités et à devenir une référence."
+    ],
+
+    "motCle": "Je construis"
   },
+  {
+    "slug": "verseau",
+    "name": "Verseau",
+    "periode": "20 janvier – 18 février",
+    "polarite": "Actif (masculin)",
+    "mode": "Fixe",
+    "element": "Air",
+    "maitre": "Saturne (tradition) / Uranus (moderne)",
+    "exaltation": null,
+    "exil": "Soleil",
+    "chute": null,
 
-  "dansUnTheme": [
-    "Le Cancer indique un domaine de vie où l’on cherche protection, sécurité et continuité émotionnelle.",
-    "Il montre aussi où l’on apprend à transformer la vulnérabilité en force intérieure."
-  ],
+    "mythologie": "Le Verseau est associé à la figure du porteur d’eau, celui qui verse une eau vivifiante sur le monde. Cette eau n’est pas émotionnelle, mais symbolique : elle représente le savoir, la conscience et la vision nouvelle. Le Verseau incarne l’esprit qui se détache du personnel pour servir le collectif, apportant des idées novatrices destinées à faire évoluer la société.",
 
-  "motCle": "Je ressens"
-},{
-  "slug": "lion",
-  "name": "Lion",
-  "periode": "23 juillet – 22 août",
-  "polarite": "Actif (masculin)",
-  "mode": "Fixe",
-  "element": "Feu",
-  "maitre": "Soleil",
-  "exaltation": null,
-  "exil": "Saturne",
-  "chute": null,
+    "analogie": {
+      "animal": "Aucun animal spécifique",
+      "objet": "Le courant, le réseau, le vase qui verse",
+      "fonction": "Innover, relier, éveiller"
+    },
 
-  "mythologie": "Le Lion est associé au lion de Némée, vaincu par Héraclès lors de son premier travail. Cette créature invulnérable symbolise une force brute et souveraine, que le héros doit affronter pour affirmer sa propre puissance. Le mythe du Lion parle de courage, de maîtrise de soi et de reconnaissance : la force ne devient noble que lorsqu’elle est assumée et dirigée par le cœur.",
+    "anatomie": ["Chevilles", "Mollets", "Circulation nerveuse"],
 
-  "analogie": {
-    "animal": "Le lion",
-    "objet": "Le trône, la couronne, le cœur",
-    "fonction": "Rayonner, affirmer, créer"
+    "generalites": [
+      "Le Verseau représente l’ouverture à une conscience plus large. Après la construction du Capricorne, il cherche à dépasser les structures existantes pour imaginer de nouvelles formes de vie collective.",
+      "Ce signe fonctionne par idées, principes et visions d’avenir. Il valorise l’indépendance, la liberté de pensée et l’originalité.",
+      "Son défi est de ne pas se couper de l’humain ou des émotions. Lorsqu’il est équilibré, le Verseau devient un éclaireur : libre, lucide et profondément humaniste."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Indépendant",
+        "Original",
+        "Visionnaire",
+        "Humaniste",
+        "Inventif",
+        "Libre penseur"
+      ],
+      "defis": [
+        "Détaché",
+        "Imprévisible",
+        "Rebelle sans cause",
+        "Rigidité idéologique"
+      ]
+    },
+
+    "forces": [
+      "Capacité à penser autrement",
+      "Vision collective et futuriste",
+      "Indépendance intellectuelle"
+    ],
+    "ombres": [
+      "Difficulté à s’impliquer émotionnellement",
+      "Opposition systématique",
+      "Déconnexion du concret"
+    ],
+    "besoins": [
+      "Liberté de pensée",
+      "Espaces d’échange collectif",
+      "Idéaux porteurs de sens"
+    ],
+    "aTravailler": [
+      "Relier l’idée à l’émotion",
+      "Ancrer l’innovation dans le réel",
+      "Accepter les limites humaines"
+    ],
+    "quandCestEquilibre": [
+      "Le Verseau devient un visionnaire accessible, capable d’inspirer sans exclure.",
+      "Il met son originalité au service du collectif et du progrès humain."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Verseau s’exprime par l’originalité, l’indépendance et la vision collective. Le principe de la planète devient plus détaché, orienté vers l’avenir et les idées nouvelles. Cela favorise l’innovation et l’esprit de liberté, mais peut aussi créer de la distance affective ou une rigidité intellectuelle.",
+      "motsCles": [
+        "innovation",
+        "liberté",
+        "collectif",
+        "vision",
+        "originalité",
+        "avenir"
+      ],
+      "exemples": [
+        "Soleil en Verseau : identité indépendante, besoin d’être soi en dehors des normes.",
+        "Lune en Verseau : émotions intellectualisées, besoin d’amitié et de liberté affective.",
+        "Mercure en Verseau : pensée inventive, idées originales, esprit non conventionnel.",
+        "Vénus en Verseau : relations libres, importance de l’amitié, rejet des liens possessifs.",
+        "Mars en Verseau : action imprévisible, énergie tournée vers des causes collectives.",
+        "Jupiter en Verseau : expansion par les idées nouvelles, foi dans le progrès humain.",
+        "Saturne en Verseau : structuration de projets collectifs, responsabilité sociale.",
+        "Uranus en Verseau : éveil puissant, ruptures nécessaires, innovation radicale.",
+        "Neptune en Verseau : idéal humaniste, utopies collectives, sensibilité aux causes universelles.",
+        "Pluton en Verseau : transformations profondes des systèmes sociaux et des réseaux."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Le Verseau indique un domaine où l’on cherche à innover, à se détacher des normes et à penser collectif.",
+      "Il montre aussi où l’on peut apporter une contribution originale au monde."
+    ],
+
+    "motCle": "Je comprends"
   },
-
-  "anatomie": ["Cœur", "Colonne vertébrale", "Dos", "Circulation sanguine"],
-
-  "generalites": [
-    "Le Lion représente le moment où l’individu affirme son identité de manière visible. Après la protection du Cancer, il s’agit désormais de se montrer, de créer et de rayonner à partir de ce que l’on est.",
-    "Ce signe est lié à la confiance en soi, à la créativité et au besoin de reconnaissance. Le Lion cherche à exprimer son unicité et à occuper une place centrale, non par domination, mais par présence.",
-    "Son défi est de transformer le besoin d’être reconnu en capacité à reconnaître les autres. Lorsqu’il est équilibré, le Lion inspire, éclaire et rassemble autour de lui."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Charismatique", "Créatif", "Généreux", "Confiant", "Chaleureux", "Loyal"],
-    "defis": ["Orgueilleux", "Autoritaire", "Besoin excessif de reconnaissance", "Rigidité de l’ego"]
-  },
-
-  "forces": [
-    "Capacité à inspirer et à motiver",
-    "Créativité expressive",
-    "Force du cœur et générosité"
-  ],
-  "ombres": [
-    "Ego surdimensionné",
-    "Dépendance au regard extérieur",
-    "Difficulté à partager la lumière"
-  ],
-  "besoins": [
-    "Être reconnu pour ce qu’il est",
-    "Exprimer sa créativité",
-    "Se sentir utile et valorisé"
-  ],
-  "aTravailler": [
-    "L’humilité",
-    "L’écoute des autres",
-    "Le partage du pouvoir"
-  ],
-  "quandCestEquilibre": [
-    "Le Lion devient un leader naturel, capable de rayonner sans écraser.",
-    "Il exprime une autorité bienveillante, fondée sur la confiance et la générosité."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Lion cherche à s’exprimer avec force, visibilité et créativité. Le principe de la planète devient rayonnant, affirmé et centré sur l’identité. Cela renforce la confiance et le charisme, mais peut aussi amplifier l’ego si l’énergie n’est pas partagée.",
-    "motsCles": ["rayonnement", "créativité", "affirmation", "confiance", "visibilité", "cœur"],
-    "exemples": [
-      "Soleil en Lion : identité forte, besoin d’exprimer sa singularité, leadership naturel.",
-      "Lune en Lion : besoin d’être aimé et reconnu, générosité affective, fierté émotionnelle.",
-      "Mercure en Lion : parole expressive, pensée créative, goût pour la mise en scène des idées.",
-      "Vénus en Lion : amour démonstratif, générosité sentimentale, besoin d’admiration.",
-      "Mars en Lion : action noble et volontaire, désir de se dépasser, goût du défi visible.",
-      "Jupiter en Lion : expansion par la créativité et la confiance, enthousiasme communicatif.",
-      "Saturne en Lion : apprentissage de l’autorité juste, structuration de l’ego et du leadership.",
-      "Uranus en Lion : expression originale de soi, créativité rebelle, besoin de se démarquer.",
-      "Neptune en Lion : idéal créatif, rêve de reconnaissance, inspiration artistique.",
-      "Pluton en Lion : transformations profondes de l’identité, rapports de pouvoir liés à l’ego."
-    ]
-  },
-
-  "dansUnTheme": [
-    "Le Lion indique un domaine où l’on cherche à s’affirmer, à créer et à rayonner.",
-    "Il montre aussi où l’on apprend à exprimer sa singularité sans dépendre uniquement du regard extérieur."
-  ],
-
-  "motCle": "Je rayonne"
-},
-{
-  "slug": "vierge",
-  "name": "Vierge",
-  "periode": "23 août – 22 septembre",
-  "polarite": "Passif (féminin)",
-  "mode": "Mutable",
-  "element": "Terre",
-  "maitre": "Mercure",
-  "exaltation": "Mercure",
-  "exil": "Jupiter",
-  "chute": "Vénus",
-
-  "mythologie": "La Vierge est associée à des figures de déesses liées à la terre, aux récoltes et à la purification, comme Déméter ou Astrée. Elle symbolise la conscience qui observe, trie et ordonne afin de rendre le monde plus juste et plus fonctionnel. La Vierge n’est pas une figure d’innocence naïve, mais de lucidité : elle voit ce qui doit être corrigé pour que la vie circule mieux.",
-
-  "analogie": {
-    "animal": "L’abeille",
-    "objet": "L’outil, le grain, l’instrument de mesure",
-    "fonction": "Analyser, trier, améliorer"
-  },
-
-  "anatomie": ["Intestins", "Système digestif", "Fonction d’assimilation"],
-
-  "generalites": [
-    "La Vierge représente l’intelligence du détail et le sens du service. Après l’expression créative du Lion, elle cherche à rendre utile, cohérent et fonctionnel ce qui a été exprimé.",
-    "Ce signe observe, analyse et discrimine. Il possède une capacité naturelle à repérer ce qui ne fonctionne pas et à proposer des ajustements concrets.",
-    "Le défi de la Vierge est de ne pas se perdre dans l’excès de critique ou de perfectionnisme. Lorsqu’elle est équilibrée, elle devient une force de clarté, de soin et de précision."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Analytique", "Précise", "Consciencieuse", "Serviable", "Organisée", "Lucide"],
-    "defis": ["Critique", "Perfectionniste", "Anxieuse", "Auto-exigeante", "Doute excessif"]
-  },
-
-  "forces": [
-    "Sens aigu du détail",
-    "Capacité à améliorer ce qui existe",
-    "Esprit logique et méthodique"
-  ],
-  "ombres": [
-    "Rigidité mentale",
-    "Auto-critique excessive",
-    "Peurs liées à l’imperfection"
-  ],
-  "besoins": [
-    "Utilité concrète",
-    "Ordre et cohérence",
-    "Comprendre le fonctionnement des choses"
-  ],
-  "aTravailler": [
-    "Lâcher le contrôle excessif",
-    "Accepter l’imperfection",
-    "Faire confiance au processus"
-  ],
-  "quandCestEquilibre": [
-    "La Vierge devient une intelligence au service du vivant, capable d’aider sans juger.",
-    "Elle transforme l’analyse en soin et la précision en sagesse pratique."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Vierge s’exprime par l’analyse, le discernement et la recherche d’efficacité. Le principe de la planète devient plus précis, méthodique et orienté vers l’amélioration. Cela favorise la compétence et le sens du service, mais peut aussi accentuer le doute ou la critique si l’énergie est mal canalisée.",
-    "motsCles": ["analyse", "discernement", "service", "précision", "amélioration", "méthode"],
-    "exemples": [
-      "Soleil en Vierge : identité construite sur l’utilité, besoin de se sentir compétent et juste.",
-      "Lune en Vierge : émotions maîtrisées, besoin d’ordre intérieur, sensibilité discrète.",
-      "Mercure en Vierge : esprit analytique, pensée précise, grande capacité d’organisation mentale.",
-      "Vénus en Vierge : affection discrète, besoin de fiabilité, amour exprimé par les actes.",
-      "Mars en Vierge : énergie canalisée, efficacité dans l’action, sens du travail bien fait.",
-      "Jupiter en Vierge : expansion par le service, la compétence et l’amélioration continue.",
-      "Saturne en Vierge : discipline, rigueur, apprentissage de la patience et de la méthode.",
-      "Uranus en Vierge : innovations pratiques, nouvelles méthodes de travail, esprit réformateur.",
-      "Neptune en Vierge : idéal de service, compassion discrète, attention portée aux détails invisibles.",
-      "Pluton en Vierge : transformations profondes liées au travail, au corps et aux habitudes."
-    ]
-  },
-
-  "dansUnTheme": [
-    "La Vierge indique un domaine où l’on cherche à comprendre, corriger et améliorer.",
-    "Elle montre aussi où l’on apprend à servir la vie par la précision et le discernement."
-  ],
-
-  "motCle": "Je distingue"
-},{
-  "slug": "balance",
-  "name": "Balance",
-  "periode": "23 septembre – 22 octobre",
-  "polarite": "Actif (masculin)",
-  "mode": "Cardinal",
-  "element": "Air",
-  "maitre": "Vénus",
-  "exaltation": "Saturne",
-  "exil": "Mars",
-  "chute": "Soleil",
-
-  "mythologie": "La Balance est associée à la figure d’Astrée, déesse de la justice et de l’harmonie, qui quittait le monde lorsque les hommes s’éloignaient de l’équilibre et de l’équité. La Balance symbolise la quête d’un juste milieu, non comme compromis tiède, mais comme recherche consciente d’harmonie entre des forces opposées. Elle incarne le passage du « moi » vers le « nous ».",
-
-  "analogie": {
-    "animal": "Aucun animal spécifique",
-    "objet": "La balance, le miroir",
-    "fonction": "Relier, équilibrer, harmoniser"
-  },
-
-  "anatomie": ["Reins", "Région lombaire", "Peau"],
-
-  "generalites": [
-    "La Balance représente le moment où l’individu se confronte à l’autre. Après l’analyse de la Vierge, elle cherche l’équilibre relationnel, la coopération et la justesse dans les échanges.",
-    "Ce signe est sensible à l’harmonie, à l’esthétique et à la justice. Il fonctionne par comparaison, dialogue et recherche de réciprocité.",
-    "Son défi principal est de ne pas se perdre dans l’indécision ou la dépendance au regard extérieur. Lorsqu’elle est équilibrée, la Balance devient médiatrice, juste et profondément humaine."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Diplomate", "Juste", "Sociable", "Esthétique", "Raffinée", "Équilibrée"],
-    "defis": ["Indécise", "Dépendante du regard de l’autre", "Évitement du conflit", "Manque d’affirmation"]
-  },
-
-  "forces": [
-    "Sens aigu de l’équité",
-    "Capacité à créer l’harmonie",
-    "Talent relationnel et diplomatique"
-  ],
-  "ombres": [
-    "Difficulté à trancher",
-    "Peurs du conflit",
-    "Dépendance affective"
-  ],
-  "besoins": [
-    "Relations équilibrées",
-    "Beauté et harmonie",
-    "Dialogue et reconnaissance mutuelle"
-  ],
-  "aTravailler": [
-    "L’affirmation de soi",
-    "La capacité à décider",
-    "L’acceptation du désaccord"
-  ],
-  "quandCestEquilibre": [
-    "La Balance devient un véritable pont entre les êtres, capable d’unir sans se nier.",
-    "Elle incarne une justice vivante, sensible et profondément humaine."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Balance cherche à s’exprimer dans la relation, l’échange et l’équilibre. Le principe de la planète devient orienté vers l’autre, la coopération et l’harmonie. Cela favorise la diplomatie et la recherche d’accords, mais peut aussi engendrer hésitation ou dépendance si l’affirmation personnelle fait défaut.",
-    "motsCles": ["relation", "équilibre", "harmonie", "justice", "coopération", "dialogue"],
-    "exemples": [
-      "Soleil en Balance : identité construite à travers la relation, besoin d’équité et de reconnaissance mutuelle.",
-      "Lune en Balance : besoin d’harmonie affective, émotions liées à la qualité du lien.",
-      "Mercure en Balance : pensée nuancée, communication diplomatique, sens du dialogue.",
-      "Vénus en Balance : recherche d’harmonie, sens esthétique développé, besoin d’égalité dans l’amour.",
-      "Mars en Balance : action mesurée, difficulté à confronter directement, recherche de compromis.",
-      "Jupiter en Balance : expansion par la coopération, foi dans la justice et l’équilibre.",
-      "Saturne en Balance : sens des responsabilités relationnelles, maturité dans les engagements.",
-      "Uranus en Balance : besoin de relations libres, ruptures liées à l’injustice.",
-      "Neptune en Balance : idéalisation du couple, quête d’un amour parfait.",
-      "Pluton en Balance : transformations profondes à travers les relations et les rapports de pouvoir."
-    ]
-  },
-
-  "dansUnTheme": [
-    "La Balance indique un domaine où l’on cherche l’équilibre, la coopération et la justice.",
-    "Elle montre aussi où l’on apprend à se définir à travers la relation à l’autre."
-  ],
-
-  "motCle": "Je relie"
-},{
-  "slug": "scorpion",
-  "name": "Scorpion",
-  "periode": "23 octobre – 21 novembre",
-  "polarite": "Passif (féminin)",
-  "mode": "Fixe",
-  "element": "Eau",
-  "maitre": "Mars (tradition) / Pluton (moderne)",
-  "exaltation": null,
-  "exil": "Vénus",
-  "chute": "Lune",
-
-  "mythologie": "Le Scorpion est lié au mythe d’Orion : un scorpion est envoyé pour le mettre à l’épreuve et le ramener à une forme de limite. Orion, symbole d’orgueil ou d’excès, doit affronter une force plus profonde que lui. Le Scorpion représente ainsi l’épreuve qui transforme : confrontation à l’intensité, à la vérité et à ce qui ne peut pas être contourné. Sa symbolique parle de mort et de renaissance au sens psychologique : ce qui doit mourir en nous pour que quelque chose de plus authentique naisse.",
-
-  "analogie": {
-    "animal": "Le scorpion",
-    "objet": "La clé, le verrou, le passage",
-    "fonction": "Approfondir, transformer, régénérer"
-  },
-
-  "anatomie": ["Organes sexuels", "Bassin", "Système reproducteur", "Élimination"],
-
-  "generalites": [
-    "Le Scorpion représente la profondeur émotionnelle et la transformation. Après la recherche d’équilibre de la Balance, il invite à aller au-delà des apparences pour rencontrer la vérité des liens, des désirs et des peurs.",
-    "Ce signe fonctionne par intensité : il cherche ce qui est réel, ce qui est caché, ce qui motive en profondeur. Il peut être magnétique, lucide, et doté d’une grande force intérieure.",
-    "Son défi est de ne pas basculer dans le contrôle, la méfiance ou la fixation. Lorsqu’il est équilibré, le Scorpion devient une puissance de guérison : il traverse, comprend, et transforme sans détruire."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Intense", "Lucide", "Courageux", "Profond", "Résilient", "Loyal"],
-    "defis": ["Méfiant", "Possessif", "Jaloux", "Contrôlant", "Rancunier", "Tout ou rien"]
-  },
-
-  "forces": [
-    "Grande force de résilience",
-    "Capacité à voir au-delà des apparences",
-    "Puissance de transformation et de régénération"
-  ],
-  "ombres": [
-    "Contrôle excessif",
-    "Peurs d’abandon ou de trahison",
-    "Rigidité émotionnelle (tout ou rien)"
-  ],
-  "besoins": [
-    "Vérité émotionnelle",
-    "Liens profonds et sincères",
-    "Transformation et authenticité"
-  ],
-  "aTravailler": [
-    "La confiance",
-    "Le lâcher-prise",
-    "Transformer l’intensité en conscience"
-  ],
-  "quandCestEquilibre": [
-    "Le Scorpion devient capable d’aimer profondément sans contrôler et de transformer sans détruire.",
-    "Il incarne une force de guérison : lucide, fidèle, et régénératrice."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Scorpion s’exprime avec intensité, profondeur et besoin de vérité. Le principe de la planète devient plus total : il cherche à comprendre, posséder, transformer, aller au bout. Cela donne puissance intérieure et lucidité, mais peut aussi favoriser le contrôle ou la fixation si l’émotion n’est pas intégrée.",
-    "motsCles": ["intensité", "profondeur", "transformation", "vérité", "régénération", "secret"],
-    "exemples": [
-      "Soleil en Scorpion : identité intense, besoin de vérité, grande force de transformation personnelle.",
-      "Lune en Scorpion : émotions profondes, hypersensibilité cachée, besoin de loyauté absolue.",
-      "Mercure en Scorpion : pensée pénétrante, esprit d’enquête, parole rare mais incisive.",
-      "Vénus en Scorpion : attachement passionné, amour total, besoin d’exclusivité et de profondeur.",
-      "Mars en Scorpion : énergie concentrée, endurance, stratégie, action déterminée.",
-      "Jupiter en Scorpion : croissance par les crises, compréhension des profondeurs humaines, foi dans la transformation.",
-      "Saturne en Scorpion : maîtrise émotionnelle, responsabilités liées à l’intime, construction de la confiance avec le temps.",
-      "Uranus en Scorpion : ruptures intérieures, éveils soudains, transformations radicales des liens et désirs.",
-      "Neptune en Scorpion : intuition puissante, perception du non-dit, risque d’idéalisations ou de confusions émotionnelles.",
-      "Pluton en Scorpion : intensité maximale, cycles de mort/renaissance, puissance de régénération et de vérité."
-    ]
-  },
-
-  "dansUnTheme": [
-    "Le Scorpion indique un domaine où l’on vit les choses intensément et où l’on cherche la vérité derrière les apparences.",
-    "Il montre aussi un secteur de vie où l’on doit traverser des transformations pour gagner en puissance intérieure."
-  ],
-
-  "motCle": "Je transforme"
-}
-,{
-  "slug": "sagittaire",
-  "name": "Sagittaire",
-  "periode": "22 novembre – 21 décembre",
-  "polarite": "Actif (masculin)",
-  "mode": "Mutable",
-  "element": "Feu",
-  "maitre": "Jupiter",
-  "exaltation": null,
-  "exil": "Mercure",
-  "chute": null,
-
-  "mythologie": "Le Sagittaire est associé au centaure Chiron, être mi-homme mi-cheval, à la fois instinctif et sage. Archer tourné vers le ciel, il symbolise la quête de sens, la transmission du savoir et la recherche d’un idéal qui dépasse l’individu. Le mythe du Sagittaire parle d’élévation : transformer l’expérience vécue en compréhension et en vision globale.",
-
-  "analogie": {
-    "animal": "Le cheval, le centaure",
-    "objet": "L’arc, la flèche, le chemin",
-    "fonction": "Explorer, comprendre, transmettre"
-  },
-
-  "anatomie": ["Hanches", "Cuisses", "Foie", "Système locomoteur"],
-
-  "generalites": [
-    "Le Sagittaire représente l’élan vers l’horizon. Après la transformation du Scorpion, il cherche à donner un sens à ce qui a été traversé, à comprendre et à élargir la perspective.",
-    "Ce signe fonctionne par vision globale, enthousiasme et quête de vérité. Il a besoin d’espace, de mouvement et de projets porteurs de sens.",
-    "Son défi est de ne pas confondre quête de vérité et certitude dogmatique. Lorsqu’il est équilibré, le Sagittaire devient un guide inspirant, capable d’ouvrir des voies sans imposer une seule vérité."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Optimiste", "Visionnaire", "Curieux", "Sincère", "Enthousiaste", "Idéaliste"],
-    "defis": ["Impatient", "Excessif", "Dogmatique", "Manque de mesure", "Difficulté à se poser"]
-  },
-
-  "forces": [
-    "Capacité à voir loin",
-    "Énergie d’expansion et d’enthousiasme",
-    "Goût de la connaissance et de la transmission"
-  ],
-  "ombres": [
-    "Fuite des contraintes",
-    "Certitudes trop rapides",
-    "Promesses non tenues"
-  ],
-  "besoins": [
-    "Liberté de mouvement",
-    "Idéal porteur de sens",
-    "Exploration intellectuelle ou physique"
-  ],
-  "aTravailler": [
-    "L’écoute des autres points de vue",
-    "La cohérence entre parole et actes",
-    "L’ancrage dans le concret"
-  ],
-  "quandCestEquilibre": [
-    "Le Sagittaire devient un éclaireur : il ouvre des chemins sans imposer sa route.",
-    "Il incarne une sagesse vivante, nourrie par l’expérience et le sens."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Sagittaire s’exprime par l’expansion, la recherche de sens et l’enthousiasme. Le principe de la planète devient orienté vers l’avenir, l’exploration et la compréhension globale. Cela favorise l’optimisme et la vision, mais peut aussi conduire à l’excès ou à la dispersion.",
-    "motsCles": ["expansion", "sens", "horizon", "vision", "exploration", "foi"],
-    "exemples": [
-      "Soleil en Sagittaire : identité tournée vers l’idéal, besoin de liberté et de sens.",
-      "Lune en Sagittaire : émotions expansives, besoin d’optimisme et d’espace affectif.",
-      "Mercure en Sagittaire : pensée synthétique, parole franche, goût pour les idées larges.",
-      "Vénus en Sagittaire : amour libre, attirance pour l’aventure et la différence.",
-      "Mars en Sagittaire : énergie enthousiaste, action tournée vers un but lointain.",
-      "Jupiter en Sagittaire : amplification de la foi, quête de vérité, confiance dans la vie.",
-      "Saturne en Sagittaire : structuration des croyances, responsabilité morale et philosophique.",
-      "Uranus en Sagittaire : idées novatrices, besoin de liberté idéologique, ruptures de croyances.",
-      "Neptune en Sagittaire : idéal spirituel, quête mystique, inspiration philosophique.",
-      "Pluton en Sagittaire : transformations profondes des systèmes de pensée et des convictions."
-    ]
-  },
-
-  "dansUnTheme": [
-    "Le Sagittaire indique un domaine où l’on cherche à grandir, comprendre et élargir son horizon.",
-    "Il montre aussi où l’on apprend à transformer l’enthousiasme en sagesse."
-  ],
-
-  "motCle": "Je cherche"
-}
-,{
-  "slug": "capricorne",
-  "name": "Capricorne",
-  "periode": "22 décembre – 19 janvier",
-  "polarite": "Passif (féminin)",
-  "mode": "Cardinal",
-  "element": "Terre",
-  "maitre": "Saturne",
-  "exaltation": "Mars",
-  "exil": "Lune",
-  "chute": "Jupiter",
-
-  "mythologie": "Le Capricorne est associé à la figure de Pan et au symbole ancien de la chèvre-poisson. Cette image paradoxale relie les hauteurs et les profondeurs : la chèvre qui gravit la montagne et le poisson qui plonge dans l’inconscient. Le Capricorne incarne ainsi l’ambition patiente, la maîtrise du temps et la capacité à construire une autorité intérieure fondée sur l’expérience et la persévérance.",
-
-  "analogie": {
-    "animal": "La chèvre de montagne",
-    "objet": "La montagne, l’échelle, l’outil de construction",
-    "fonction": "Structurer, bâtir, assumer"
-  },
-
-  "anatomie": ["Os", "Articulations", "Genoux", "Peau"],
-
-  "generalites": [
-    "Le Capricorne représente la conscience du temps et de la responsabilité. Après la quête de sens du Sagittaire, il invite à concrétiser, structurer et inscrire les ambitions dans la durée.",
-    "Ce signe fonctionne par objectif, discipline et endurance. Il accepte l’effort, le retard et la contrainte comme des étapes nécessaires à la construction.",
-    "Son défi est de ne pas se couper de la sensibilité ou de la joie de vivre. Lorsqu’il est équilibré, le Capricorne devient un pilier : solide, fiable et porteur d’une sagesse issue de l’expérience."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Responsable", "Persévérant", "Discipliné", "Structuré", "Fiable", "Endurant"],
-    "defis": ["Rigide", "Pessimiste", "Exigeant", "Froid en apparence", "Surcontrôle"]
-  },
-
-  "forces": [
-    "Capacité à construire sur le long terme",
-    "Sens aigu des responsabilités",
-    "Maîtrise progressive de soi et du réel"
-  ],
-  "ombres": [
-    "Peurs liées à l’échec",
-    "Dureté envers soi-même",
-    "Isolement émotionnel"
-  ],
-  "besoins": [
-    "Objectifs clairs",
-    "Reconnaissance méritée",
-    "Cadre structurant"
-  ],
-  "aTravailler": [
-    "Lâcher la dureté excessive",
-    "Intégrer la sensibilité",
-    "S’autoriser la satisfaction du chemin parcouru"
-  ],
-  "quandCestEquilibre": [
-    "Le Capricorne devient une autorité tranquille, fondée sur l’exemple et la constance.",
-    "Il incarne une sagesse mature, capable de guider sans dominer."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Capricorne s’exprime avec sérieux, structure et sens du devoir. Le principe de la planète devient plus maîtrisé, orienté vers l’objectif et le temps long. Cela favorise la fiabilité et la maturité, mais peut aussi rigidifier si la pression est trop forte.",
-    "motsCles": ["structure", "temps", "responsabilité", "ambition", "discipline", "maturité"],
-    "exemples": [
-      "Soleil en Capricorne : identité construite par l’effort, besoin de se réaliser par le concret.",
-      "Lune en Capricorne : émotions contenues, besoin de sécurité par la maîtrise et la fiabilité.",
-      "Mercure en Capricorne : pensée structurée, logique, communication mesurée et sérieuse.",
-      "Vénus en Capricorne : attachements prudents, loyauté, amour construit dans le temps.",
-      "Mars en Capricorne : énergie disciplinée, ambition, grande capacité de travail.",
-      "Jupiter en Capricorne : expansion par la rigueur, réussite progressive et méritée.",
-      "Saturne en Capricorne : maîtrise maximale, sens aigu des responsabilités, maturité profonde.",
-      "Uranus en Capricorne : réformes structurelles, changements dans les systèmes établis.",
-      "Neptune en Capricorne : idéal de réussite, tension entre rêve et réalité concrète.",
-      "Pluton en Capricorne : transformations profondes des structures, du pouvoir et des responsabilités."
-    ]
-  },
-
-  "dansUnTheme": [
-    "Le Capricorne indique un domaine où l’on construit lentement mais solidement.",
-    "Il montre aussi où l’on apprend à assumer ses responsabilités et à devenir une référence."
-  ],
-
-  "motCle": "Je construis"
-}
-,{
-  "slug": "verseau",
-  "name": "Verseau",
-  "periode": "20 janvier – 18 février",
-  "polarite": "Actif (masculin)",
-  "mode": "Fixe",
-  "element": "Air",
-  "maitre": "Saturne (tradition) / Uranus (moderne)",
-  "exaltation": null,
-  "exil": "Soleil",
-  "chute": null,
-
-  "mythologie": "Le Verseau est associé à la figure du porteur d’eau, celui qui verse une eau vivifiante sur le monde. Cette eau n’est pas émotionnelle, mais symbolique : elle représente le savoir, la conscience et la vision nouvelle. Le Verseau incarne l’esprit qui se détache du personnel pour servir le collectif, apportant des idées novatrices destinées à faire évoluer la société.",
-
-  "analogie": {
-    "animal": "Aucun animal spécifique",
-    "objet": "Le courant, le réseau, le vase qui verse",
-    "fonction": "Innover, relier, éveiller"
-  },
-
-  "anatomie": ["Chevilles", "Mollets", "Circulation nerveuse"],
-
-  "generalites": [
-    "Le Verseau représente l’ouverture à une conscience plus large. Après la construction du Capricorne, il cherche à dépasser les structures existantes pour imaginer de nouvelles formes de vie collective.",
-    "Ce signe fonctionne par idées, principes et visions d’avenir. Il valorise l’indépendance, la liberté de pensée et l’originalité.",
-    "Son défi est de ne pas se couper de l’humain ou des émotions. Lorsqu’il est équilibré, le Verseau devient un éclaireur : libre, lucide et profondément humaniste."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Indépendant", "Original", "Visionnaire", "Humaniste", "Inventif", "Libre penseur"],
-    "defis": ["Détaché", "Imprévisible", "Rebelle sans cause", "Rigidité idéologique"]
-  },
-
-  "forces": [
-    "Capacité à penser autrement",
-    "Vision collective et futuriste",
-    "Indépendance intellectuelle"
-  ],
-  "ombres": [
-    "Difficulté à s’impliquer émotionnellement",
-    "Opposition systématique",
-    "Déconnexion du concret"
-  ],
-  "besoins": [
-    "Liberté de pensée",
-    "Espaces d’échange collectif",
-    "Idéaux porteurs de sens"
-  ],
-  "aTravailler": [
-    "Relier l’idée à l’émotion",
-    "Ancrer l’innovation dans le réel",
-    "Accepter les limites humaines"
-  ],
-  "quandCestEquilibre": [
-    "Le Verseau devient un visionnaire accessible, capable d’inspirer sans exclure.",
-    "Il met son originalité au service du collectif et du progrès humain."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Verseau s’exprime par l’originalité, l’indépendance et la vision collective. Le principe de la planète devient plus détaché, orienté vers l’avenir et les idées nouvelles. Cela favorise l’innovation et l’esprit de liberté, mais peut aussi créer de la distance affective ou une rigidité intellectuelle.",
-    "motsCles": ["innovation", "liberté", "collectif", "vision", "originalité", "avenir"],
-    "exemples": [
-      "Soleil en Verseau : identité indépendante, besoin d’être soi en dehors des normes.",
-      "Lune en Verseau : émotions intellectualisées, besoin d’amitié et de liberté affective.",
-      "Mercure en Verseau : pensée inventive, idées originales, esprit non conventionnel.",
-      "Vénus en Verseau : relations libres, importance de l’amitié, rejet des liens possessifs.",
-      "Mars en Verseau : action imprévisible, énergie tournée vers des causes collectives.",
-      "Jupiter en Verseau : expansion par les idées nouvelles, foi dans le progrès humain.",
-      "Saturne en Verseau : structuration de projets collectifs, responsabilité sociale.",
-      "Uranus en Verseau : éveil puissant, ruptures nécessaires, innovation radicale.",
-      "Neptune en Verseau : idéal humaniste, utopies collectives, sensibilité aux causes universelles.",
-      "Pluton en Verseau : transformations profondes des systèmes sociaux et des réseaux."
-    ]
-  },
-
-  "dansUnTheme": [
-    "Le Verseau indique un domaine où l’on cherche à innover, à se détacher des normes et à penser collectif.",
-    "Il montre aussi où l’on peut apporter une contribution originale au monde."
-  ],
-
-  "motCle": "Je comprends"
-}
-,
-{
-  "slug": "poissons",
-  "name": "Poissons",
-  "periode": "19 février – 20 mars",
-  "polarite": "Passif (féminin)",
-  "mode": "Mutable",
-  "element": "Eau",
-  "maitre": "Jupiter (tradition) / Neptune (moderne)",
-  "exaltation": "Vénus",
-  "exil": "Mercure",
-  "chute": "Mercure",
-
-  "mythologie": "Les Poissons sont associés à plusieurs récits mythologiques évoquant la fuite, la dissolution et le salut. Dans la mythologie grecque, Aphrodite et Éros se transforment en poissons pour échapper à Typhon. Ce mythe parle de l’abandon des formes rigides pour survivre autrement. Les Poissons symbolisent ainsi la fin d’un cycle, le retour à l’unité, et la capacité à se fondre dans quelque chose de plus vaste que soi.",
-
-  "analogie": {
-    "animal": "Les poissons",
-    "objet": "L’océan, le voile, la coupe",
-    "fonction": "Ressentir, dissoudre, unir"
-  },
-
-  "anatomie": ["Pieds", "Système lymphatique", "Fonctions de dissolution"],
-
-  "generalites": [
-    "Les Poissons représentent la dissolution des frontières. Après la vision collective du Verseau, ils invitent à ressentir l’unité du vivant, à se relier à ce qui dépasse l’individu.",
-    "Ce signe fonctionne par intuition, empathie et sensibilité profonde. Il perçoit les ambiances, les émotions et les non-dits avec une grande finesse.",
-    "Son défi est de ne pas se perdre dans la confusion, la fuite ou le sacrifice excessif. Lorsqu’il est équilibré, le Poissons devient une conscience compatissante, capable d’accueillir sans se dissoudre."
-  ],
-
-  "aptitudes": {
-    "atouts": ["Empathique", "Intuitif", "Compatissant", "Inspiré", "Créatif", "Réceptif"],
-    "defis": ["Fuyant", "Confus", "Influencable", "Manque de limites", "Sacrifice excessif"]
-  },
-
-  "forces": [
-    "Grande sensibilité au vivant",
-    "Capacité de compassion et de compréhension universelle",
-    "Imagination et inspiration profondes"
-  ],
-  "ombres": [
-    "Perte de repères",
-    "Évasion face au réel",
-    "Difficulté à poser des limites"
-  ],
-  "besoins": [
-    "Temps de retrait et de ressourcement",
-    "Connexion spirituelle ou artistique",
-    "Cadre protecteur"
-  ],
-  "aTravailler": [
-    "L’ancrage dans le réel",
-    "La clarté et le discernement",
-    "La capacité à dire non"
-  ],
-  "quandCestEquilibre": [
-    "Les Poissons deviennent une présence apaisante, capable de soulager et d’inspirer.",
-    "Ils incarnent une sagesse sensible, tournée vers l’unité et la compassion."
-  ],
-
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Poissons s’exprime de manière intuitive, sensible et inspirée. Le principe de la planète se dilue, se spiritualise ou se rend plus perméable. Cela favorise l’empathie, l’imagination et la créativité, mais peut aussi générer flou ou manque de repères si les limites ne sont pas posées.",
-    "motsCles": ["intuition", "compassion", "dissolution", "inspiration", "sensibilité", "unité"],
-    "exemples": [
-      "Soleil en Poissons : identité sensible, besoin de se relier à quelque chose de plus vaste.",
-      "Lune en Poissons : émotions poreuses, grande empathie, réceptivité intense aux ambiances.",
-      "Mercure en Poissons : pensée intuitive, imagée, parfois floue mais très inspirée.",
-      "Vénus en Poissons : amour inconditionnel, idéalisation affective, grande compassion.",
-      "Mars en Poissons : action indirecte, énergie fluctuante, motivation liée au sens et à l’émotion.",
-      "Jupiter en Poissons : foi universelle, spiritualité, ouverture à la dimension mystique.",
-      "Saturne en Poissons : apprentissage des limites émotionnelles, structuration de la sensibilité.",
-      "Uranus en Poissons : éveils intuitifs, perceptions soudaines, inspiration collective.",
-      "Neptune en Poissons : sensibilité maximale, inspiration spirituelle et artistique profonde.",
-      "Pluton en Poissons : transformations collectives liées à la compassion, à la fin de cycles et à l’unité."
-    ]
-  },
-
-  "dansUnTheme": [
-    "Les Poissons indiquent un domaine où l’on ressent, accueille et se relie au-delà des mots.",
-    "Ils montrent aussi où l’on apprend à transformer la sensibilité en conscience."
-  ],
-
-  "motCle": "Je ressens tout"
-}
-
-
+  {
+    "slug": "poissons",
+    "name": "Poissons",
+    "periode": "19 février – 20 mars",
+    "polarite": "Passif (féminin)",
+    "mode": "Mutable",
+    "element": "Eau",
+    "maitre": "Jupiter (tradition) / Neptune (moderne)",
+    "exaltation": "Vénus",
+    "exil": "Mercure",
+    "chute": "Mercure",
+
+    "mythologie": "Les Poissons sont associés à plusieurs récits mythologiques évoquant la fuite, la dissolution et le salut. Dans la mythologie grecque, Aphrodite et Éros se transforment en poissons pour échapper à Typhon. Ce mythe parle de l’abandon des formes rigides pour survivre autrement. Les Poissons symbolisent ainsi la fin d’un cycle, le retour à l’unité, et la capacité à se fondre dans quelque chose de plus vaste que soi.",
+
+    "analogie": {
+      "animal": "Les poissons",
+      "objet": "L’océan, le voile, la coupe",
+      "fonction": "Ressentir, dissoudre, unir"
+    },
+
+    "anatomie": ["Pieds", "Système lymphatique", "Fonctions de dissolution"],
+
+    "generalites": [
+      "Les Poissons représentent la dissolution des frontières. Après la vision collective du Verseau, ils invitent à ressentir l’unité du vivant, à se relier à ce qui dépasse l’individu.",
+      "Ce signe fonctionne par intuition, empathie et sensibilité profonde. Il perçoit les ambiances, les émotions et les non-dits avec une grande finesse.",
+      "Son défi est de ne pas se perdre dans la confusion, la fuite ou le sacrifice excessif. Lorsqu’il est équilibré, le Poissons devient une conscience compatissante, capable d’accueillir sans se dissoudre."
+    ],
+
+    "aptitudes": {
+      "atouts": [
+        "Empathique",
+        "Intuitif",
+        "Compatissant",
+        "Inspiré",
+        "Créatif",
+        "Réceptif"
+      ],
+      "defis": [
+        "Fuyant",
+        "Confus",
+        "Influencable",
+        "Manque de limites",
+        "Sacrifice excessif"
+      ]
+    },
+
+    "forces": [
+      "Grande sensibilité au vivant",
+      "Capacité de compassion et de compréhension universelle",
+      "Imagination et inspiration profondes"
+    ],
+    "ombres": [
+      "Perte de repères",
+      "Évasion face au réel",
+      "Difficulté à poser des limites"
+    ],
+    "besoins": [
+      "Temps de retrait et de ressourcement",
+      "Connexion spirituelle ou artistique",
+      "Cadre protecteur"
+    ],
+    "aTravailler": [
+      "L’ancrage dans le réel",
+      "La clarté et le discernement",
+      "La capacité à dire non"
+    ],
+    "quandCestEquilibre": [
+      "Les Poissons deviennent une présence apaisante, capable de soulager et d’inspirer.",
+      "Ils incarnent une sagesse sensible, tournée vers l’unité et la compassion."
+    ],
+
+    "planeteDansLeSigne": {
+      "intro": "Une planète en Poissons s’exprime de manière intuitive, sensible et inspirée. Le principe de la planète se dilue, se spiritualise ou se rend plus perméable. Cela favorise l’empathie, l’imagination et la créativité, mais peut aussi générer flou ou manque de repères si les limites ne sont pas posées.",
+      "motsCles": [
+        "intuition",
+        "compassion",
+        "dissolution",
+        "inspiration",
+        "sensibilité",
+        "unité"
+      ],
+      "exemples": [
+        "Soleil en Poissons : identité sensible, besoin de se relier à quelque chose de plus vaste.",
+        "Lune en Poissons : émotions poreuses, grande empathie, réceptivité intense aux ambiances.",
+        "Mercure en Poissons : pensée intuitive, imagée, parfois floue mais très inspirée.",
+        "Vénus en Poissons : amour inconditionnel, idéalisation affective, grande compassion.",
+        "Mars en Poissons : action indirecte, énergie fluctuante, motivation liée au sens et à l’émotion.",
+        "Jupiter en Poissons : foi universelle, spiritualité, ouverture à la dimension mystique.",
+        "Saturne en Poissons : apprentissage des limites émotionnelles, structuration de la sensibilité.",
+        "Uranus en Poissons : éveils intuitifs, perceptions soudaines, inspiration collective.",
+        "Neptune en Poissons : sensibilité maximale, inspiration spirituelle et artistique profonde.",
+        "Pluton en Poissons : transformations collectives liées à la compassion, à la fin de cycles et à l’unité."
+      ]
+    },
+
+    "dansUnTheme": [
+      "Les Poissons indiquent un domaine où l’on ressent, accueille et se relie au-delà des mots.",
+      "Ils montrent aussi où l’on apprend à transformer la sensibilité en conscience."
+    ],
+
+    "motCle": "Je ressens tout"
+  }
 ]
