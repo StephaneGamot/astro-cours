@@ -52,7 +52,7 @@ export default async function SignPage({
 
 
   return (
-    <main className="">
+    <main className="max-w-4xl mx-auto px-6 pb-10 text-text">
        {/* HERO IMAGE (16:9) */}
       <div className="mb-12 overflow-hidden rounded-3xl">
         <Image
@@ -65,7 +65,7 @@ export default async function SignPage({
           sizes="(max-width: 768px) 100vw, 768px"
         />
       </div>
-      <div className="max-w-4xl mx-auto px-6 pb-10 text-text">
+
       
       {/* Header */}
       <header className="mb-8">
@@ -168,17 +168,7 @@ export default async function SignPage({
           </ul>
         </section>
       )}
-      {/* ELEMENT IMAGE (4:3) – jolie "respiration" */}
-      <div className="mb-12 overflow-hidden rounded-3xl border border-white/10 bg-white/5">
-        <Image
-          src={elementSrc}
-          alt={`Élément du signe : ${sign.element ?? sign.name}`}
-          width={1200}
-          height={700}
-          className="h-auto w-full object-cover"
-          sizes="(max-width: 768px) 100vw, 768px"
-        />
-      </div>
+     
       {/* Anatomie */}
       {Array.isArray(sign.anatomie) && sign.anatomie.length > 0 && (
         <section aria-labelledby="anatomie" className="mb-10">
@@ -211,6 +201,17 @@ export default async function SignPage({
           </div>
         </section>
       )}
+       {/* ELEMENT IMAGE (4:3) – jolie "respiration" */}
+      <div className="mb-12 overflow-hidden rounded-3xl border border-white/10 bg-white/5">
+        <Image
+          src={elementSrc}
+          alt={`Élément du signe : ${sign.element ?? sign.name}`}
+          width={1200}
+          height={700}
+          className="h-auto w-full object-cover"
+          sizes="(max-width: 768px) 100vw, 768px"
+        />
+      </div>
 
       {/* Repères (Forces / Ombres / Besoins) */}
       {(Array.isArray((sign as any).forces) ||
@@ -333,7 +334,7 @@ export default async function SignPage({
           <p className="mt-3 text-lg text-text/90">« {sign.motCle} »</p>
         </section>
       )}
-      </div>
+      
     </main>
   );
 }

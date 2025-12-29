@@ -101,5 +101,332 @@
     ],
 
     "motCle": "Je suis"
-  }
+  },
+  {
+  "slug": "taureau",
+  "name": "Taureau",
+  "periode": "21 avril – 20 mai",
+  "polarite": "Passif (féminin)",
+  "mode": "Fixe",
+  "element": "Terre",
+  "maitre": "Vénus",
+  "exaltation": "Lune",
+  "exil": "Mars",
+  "chute": "Uranus",
+
+  "mythologie": "Le Taureau apparaît dans de nombreux mythes comme figure de fécondité, de puissance vitale et d’abondance. Dans la tradition grecque, Zeus se transforme en taureau : une force calme, attirante, protectrice, qui avance sans agitation mais avec évidence. Le Taureau symbolise ainsi la vie incarnée — le lien à la terre, au corps, à la matière féconde — et la capacité à faire durer ce qui a été initié.",
+
+  "analogie": {
+    "animal": "Le taureau",
+    "objet": "La terre fertile, la pierre, le socle",
+    "fonction": "Stabiliser, nourrir, conserver"
+  },
+
+  "anatomie": ["Cou", "Gorge", "Cordes vocales", "Mâchoire"],
+
+  "generalites": [
+    "Le Taureau représente la capacité à s’ancrer : habiter le réel, sentir le corps, construire une sécurité durable. Là où le Bélier démarre, le Taureau consolide : il transforme l’impulsion en continuité, l’élan en forme stable.",
+    "Dans la vie quotidienne, cette énergie se manifeste par la patience, la constance et le sens du concret. Le Taureau avance lentement, mais il avance longtemps : il préfère un progrès régulier à un changement brutal.",
+    "Son défi principal est d’éviter l’inertie, l’attachement excessif ou la résistance au changement quand celui-ci devient nécessaire. L’équilibre se trouve quand la stabilité ne se transforme pas en rigidité."
+  ],
+
+  "aptitudes": {
+    "atouts": ["Stable", "Endurant", "Patient", "Loyal", "Sensuel", "Fiable", "Concret"],
+    "defis": ["Entêté", "Possessif", "Lent à réagir", "Résistant au changement", "Attachement excessif à la sécurité"]
+  },
+
+  "forces": [
+    "Capacité à construire dans la durée",
+    "Ancrage solide dans le réel",
+    "Sens du concret et de la valeur"
+  ],
+  "ombres": [
+    "Inertie face au changement",
+    "Difficulté à lâcher prise",
+    "Rigidité dans les habitudes"
+  ],
+  "besoins": [
+    "Sécurité matérielle et affective",
+    "Cadre stable et repères simples",
+    "Rythme régulier et continuité"
+  ],
+  "aTravailler": [
+    "Accepter le changement sans perdre son centre",
+    "Assouplir les habitudes",
+    "Distinguer sécurité et attachement"
+  ],
+  "quandCestEquilibre": [
+    "Le Taureau devient paisible sans être immobile, fidèle sans être possessif, solide sans être rigide.",
+    "Il incarne une stabilité vivante : une base qui soutient, pas une prison."
+  ],
+
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Taureau cherche à durer, à se stabiliser et à s’incarner. Le principe de la planète s’exprime avec constance : moins dans l’urgence que dans la construction. Cela renforce le sens du concret, l’attachement aux valeurs, et la capacité à persévérer — mais peut aussi ralentir ou rigidifier si l’on s’accroche trop.",
+    "motsCles": ["stabilité", "incarnation", "valeurs", "constance", "sensualité", "durée"],
+    "exemples": [
+      "Soleil en Taureau : identité stable, besoin de sécurité, constance dans les choix et dans l’effort.",
+      "Lune en Taureau : émotions calmes, besoin de confort et de continuité affective, attachement protecteur.",
+      "Mercure en Taureau : pensée posée, mémoire fiable, communication simple et concrète, décisions mûries.",
+      "Vénus en Taureau : attachements profonds, sensualité, fidélité aux valeurs, goût de l’harmonie durable.",
+      "Mars en Taureau : énergie endurante, action lente mais puissante, ténacité remarquable, difficulté à lâcher une fois engagé.",
+      "Jupiter en Taureau : croissance par la patience, expansion matérielle progressive, confiance dans le temps long.",
+      "Saturne en Taureau : sens du devoir concret, construction solide, discipline, prudence et persévérance.",
+      "Uranus en Taureau : tension entre besoin de stabilité et changements profonds ; réveils qui bousculent les valeurs.",
+      "Neptune en Taureau : idéal de paix, de douceur de vivre, de nature ; attention aux illusions liées au confort ou aux possessions.",
+      "Pluton en Taureau : transformations profondes autour des valeurs, de l’attachement et de la sécurité ; renaissances par le lâcher-prise."
+    ]
+  },
+
+  "dansUnTheme": [
+    "Le Taureau indique un domaine où l’on cherche la sécurité, la constance et des repères stables.",
+    "Il montre où l’on construit lentement mais durablement — et où l’on apprend à assouplir l’attachement quand la vie demande d’évoluer."
+  ],
+
+  "motCle": "J’ai"
+},{
+  "slug": "gemeaux",
+  "name": "Gémeaux",
+  "periode": "21 mai – 20 juin",
+  "polarite": "Actif (masculin)",
+  "mode": "Mutable",
+  "element": "Air",
+  "maitre": "Mercure",
+  "exaltation": null,
+  "exil": "Jupiter",
+  "chute": null,
+
+  "mythologie": "Le signe des Gémeaux est associé aux jumeaux Castor et Pollux, symboles du lien entre deux mondes : le mortel et l’immortel. Ce mythe illustre la capacité à faire circuler, relier et transmettre. Les Gémeaux incarnent le passage, l’échange et la médiation entre différentes réalités, idées ou points de vue.",
+
+  "analogie": {
+    "animal": "Les oiseaux, les messagers",
+    "objet": "Le pont, le livre, le fil",
+    "fonction": "Relier, transmettre, mettre en circulation"
+  },
+
+  "anatomie": ["Poumons", "Bras", "Mains", "Épaules", "Système nerveux"],
+
+  "generalites": [
+    "Les Gémeaux représentent le mouvement de la pensée et de l’échange. Après la stabilisation du Taureau, ils introduisent la curiosité, la communication et la capacité à relier des informations entre elles.",
+    "Ce signe cherche à comprendre le monde par l’observation, le dialogue et l’expérimentation mentale. Il apprend en parlant, en comparant, en variant les points de vue plutôt qu’en s’ancrant dans une seule vérité.",
+    "Le défi des Gémeaux est de transformer la dispersion en intelligence synthétique : passer de l’accumulation d’informations à une compréhension vivante et reliée."
+  ],
+
+  "aptitudes": {
+    "atouts": ["Curieux", "Vif d’esprit", "Adaptable", "Communicatif", "Ouvert", "Polyvalent"],
+    "defis": ["Dispersé", "Instable", "Superficiel", "Nerveux", "Difficulté à approfondir"]
+  },
+
+  "forces": [
+    "Rapidité de compréhension",
+    "Facilité à créer des liens entre les idées",
+    "Souplesse intellectuelle et adaptabilité"
+  ],
+  "ombres": [
+    "Dispersion mentale",
+    "Difficulté à se poser",
+    "Tendance à rester en surface"
+  ],
+  "besoins": [
+    "Stimulation intellectuelle",
+    "Échanges, dialogue, circulation",
+    "Liberté de mouvement et de pensée"
+  ],
+  "aTravailler": [
+    "La concentration",
+    "L’approfondissement",
+    "La cohérence intérieure"
+  ],
+  "quandCestEquilibre": [
+    "Les Gémeaux deviennent de véritables passeurs de sens, capables de relier sans se disperser.",
+    "Ils utilisent leur curiosité pour comprendre en profondeur, et non pour fuir l’ennui."
+  ],
+
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Gémeaux s’exprime par la pensée, le langage et l’échange. Le principe de la planète devient mobile, curieux et communicatif. Cela favorise la souplesse mentale et l’adaptabilité, mais peut aussi générer nervosité ou dispersion si l’énergie n’est pas structurée.",
+    "motsCles": ["communication", "curiosité", "mobilité", "échange", "pensée", "adaptation"],
+    "exemples": [
+      "Soleil en Gémeaux : identité multiple, besoin de comprendre et de communiquer, curiosité constante.",
+      "Lune en Gémeaux : émotions intellectualisées, besoin de parler pour se rassurer, mobilité affective.",
+      "Mercure en Gémeaux : esprit rapide, grande aisance verbale, pensée vive et adaptable.",
+      "Vénus en Gémeaux : attirance par l’esprit, goût du dialogue, besoin de légèreté relationnelle.",
+      "Mars en Gémeaux : énergie nerveuse, actions multiples, difficulté à se concentrer sur un seul objectif.",
+      "Jupiter en Gémeaux : expansion par le savoir, multiplication des centres d’intérêt, curiosité large.",
+      "Saturne en Gémeaux : structuration de la pensée, apprentissage de la rigueur intellectuelle.",
+      "Uranus en Gémeaux : esprit original, fulgurances mentales, pensée innovante et non conventionnelle.",
+      "Neptune en Gémeaux : imagination fertile, pensée intuitive, risque de confusion ou d’illusions mentales.",
+      "Pluton en Gémeaux : transformations profondes par le langage, le savoir et la parole."
+    ]
+  },
+
+  "dansUnTheme": [
+    "Les Gémeaux montrent un domaine où l’on apprend, communique et relie les informations.",
+    "Ils indiquent aussi où l’on doit apprendre à passer de la dispersion à la cohérence."
+  ],
+
+  "motCle": "Je pense"
+},{
+  "slug": "cancer",
+  "name": "Cancer",
+  "periode": "21 juin – 22 juillet",
+  "polarite": "Passif (féminin)",
+  "mode": "Cardinal",
+  "element": "Eau",
+  "maitre": "Lune",
+  "exaltation": "Jupiter",
+  "exil": "Saturne",
+  "chute": "Mars",
+
+  "mythologie": "Dans la mythologie grecque, le Cancer est associé au crabe envoyé par Héra pour affronter Héraclès lors de son combat contre l’Hydre. Bien que le crabe soit écrasé, il est honoré pour sa fidélité et son courage. Ce mythe met en lumière la fonction du Cancer : protéger, soutenir, rester loyal, même face à une force supérieure. Le Cancer symbolise ainsi l’attachement, la mémoire et la protection du vivant.",
+
+  "analogie": {
+    "animal": "Le crabe",
+    "objet": "La coquille, le foyer, le récipient",
+    "fonction": "Protéger, contenir, nourrir"
+  },
+
+  "anatomie": ["Poitrine", "Estomac", "Système digestif", "Seins"],
+
+  "generalites": [
+    "Le Cancer représente le mouvement de retour vers l’intérieur. Après l’agitation mentale des Gémeaux, il invite à ressentir, à se souvenir et à se protéger. Il symbolise la naissance du monde intérieur et le besoin de sécurité émotionnelle.",
+    "Ce signe fonctionne par attachement, mémoire et sensibilité. Il perçoit le monde à travers les émotions et les expériences vécues, souvent de façon très intime et personnelle.",
+    "Le défi du Cancer est de trouver l’équilibre entre protection et enfermement. Lorsqu’il se replie excessivement, il peut se refermer sur le passé ; lorsqu’il s’ouvre avec confiance, il devient une source profonde de soutien et de soin."
+  ],
+
+  "aptitudes": {
+    "atouts": ["Sensible", "Protecteur", "Empathique", "Intuitif", "Loyal", "Nourricier"],
+    "defis": ["Hypersensible", "Méfiant", "Lunatique", "Attaché au passé", "Difficulté à lâcher prise"]
+  },
+
+  "forces": [
+    "Grande capacité d’empathie",
+    "Sens aigu de la protection",
+    "Lien profond avec la mémoire et les racines"
+  ],
+  "ombres": [
+    "Repli sur soi excessif",
+    "Peurs liées à l’insécurité",
+    "Dépendance affective"
+  ],
+  "besoins": [
+    "Sécurité émotionnelle",
+    "Cadre rassurant",
+    "Relations de confiance"
+  ],
+  "aTravailler": [
+    "Exprimer ses émotions sans se refermer",
+    "Faire la paix avec le passé",
+    "Oser la vulnérabilité consciente"
+  ],
+  "quandCestEquilibre": [
+    "Le Cancer devient un pilier affectif, capable de soutenir sans étouffer et de protéger sans enfermer.",
+    "Il transforme sa sensibilité en force de soin et de compréhension."
+  ],
+
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Cancer s’exprime à travers l’émotion, la mémoire et le besoin de sécurité. Le principe de la planète devient sensible, réceptif et protecteur. Cela favorise l’intuition et l’attachement, mais peut aussi accentuer la vulnérabilité ou la dépendance affective.",
+    "motsCles": ["sensibilité", "protection", "mémoire", "attachement", "intuition", "sécurité"],
+    "exemples": [
+      "Soleil en Cancer : identité sensible, besoin d’appartenance, attachement fort aux racines.",
+      "Lune en Cancer : émotions profondes, grande réceptivité, besoin vital de sécurité affective.",
+      "Mercure en Cancer : pensée intuitive, mémoire émotionnelle, communication indirecte.",
+      "Vénus en Cancer : attachement affectif fort, besoin de tendresse et de fidélité.",
+      "Mars en Cancer : action influencée par l’émotion, énergie fluctuante, défense du territoire affectif.",
+      "Jupiter en Cancer : croissance par le soin, la protection et l’empathie ; foi dans le lien humain.",
+      "Saturne en Cancer : apprentissage de la sécurité intérieure, maturité émotionnelle par l’expérience.",
+      "Uranus en Cancer : besoin de liberté émotionnelle, ruptures liées au foyer ou à la famille.",
+      "Neptune en Cancer : sensibilité extrême, idéalisation du foyer, grande compassion.",
+      "Pluton en Cancer : transformations profondes liées à la famille, aux racines et à la mémoire émotionnelle."
+    ]
+  },
+
+  "dansUnTheme": [
+    "Le Cancer indique un domaine de vie où l’on cherche protection, sécurité et continuité émotionnelle.",
+    "Il montre aussi où l’on apprend à transformer la vulnérabilité en force intérieure."
+  ],
+
+  "motCle": "Je ressens"
+},{
+  "slug": "lion",
+  "name": "Lion",
+  "periode": "23 juillet – 22 août",
+  "polarite": "Actif (masculin)",
+  "mode": "Fixe",
+  "element": "Feu",
+  "maitre": "Soleil",
+  "exaltation": null,
+  "exil": "Saturne",
+  "chute": null,
+
+  "mythologie": "Le Lion est associé au lion de Némée, vaincu par Héraclès lors de son premier travail. Cette créature invulnérable symbolise une force brute et souveraine, que le héros doit affronter pour affirmer sa propre puissance. Le mythe du Lion parle de courage, de maîtrise de soi et de reconnaissance : la force ne devient noble que lorsqu’elle est assumée et dirigée par le cœur.",
+
+  "analogie": {
+    "animal": "Le lion",
+    "objet": "Le trône, la couronne, le cœur",
+    "fonction": "Rayonner, affirmer, créer"
+  },
+
+  "anatomie": ["Cœur", "Colonne vertébrale", "Dos", "Circulation sanguine"],
+
+  "generalites": [
+    "Le Lion représente le moment où l’individu affirme son identité de manière visible. Après la protection du Cancer, il s’agit désormais de se montrer, de créer et de rayonner à partir de ce que l’on est.",
+    "Ce signe est lié à la confiance en soi, à la créativité et au besoin de reconnaissance. Le Lion cherche à exprimer son unicité et à occuper une place centrale, non par domination, mais par présence.",
+    "Son défi est de transformer le besoin d’être reconnu en capacité à reconnaître les autres. Lorsqu’il est équilibré, le Lion inspire, éclaire et rassemble autour de lui."
+  ],
+
+  "aptitudes": {
+    "atouts": ["Charismatique", "Créatif", "Généreux", "Confiant", "Chaleureux", "Loyal"],
+    "defis": ["Orgueilleux", "Autoritaire", "Besoin excessif de reconnaissance", "Rigidité de l’ego"]
+  },
+
+  "forces": [
+    "Capacité à inspirer et à motiver",
+    "Créativité expressive",
+    "Force du cœur et générosité"
+  ],
+  "ombres": [
+    "Ego surdimensionné",
+    "Dépendance au regard extérieur",
+    "Difficulté à partager la lumière"
+  ],
+  "besoins": [
+    "Être reconnu pour ce qu’il est",
+    "Exprimer sa créativité",
+    "Se sentir utile et valorisé"
+  ],
+  "aTravailler": [
+    "L’humilité",
+    "L’écoute des autres",
+    "Le partage du pouvoir"
+  ],
+  "quandCestEquilibre": [
+    "Le Lion devient un leader naturel, capable de rayonner sans écraser.",
+    "Il exprime une autorité bienveillante, fondée sur la confiance et la générosité."
+  ],
+
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Lion cherche à s’exprimer avec force, visibilité et créativité. Le principe de la planète devient rayonnant, affirmé et centré sur l’identité. Cela renforce la confiance et le charisme, mais peut aussi amplifier l’ego si l’énergie n’est pas partagée.",
+    "motsCles": ["rayonnement", "créativité", "affirmation", "confiance", "visibilité", "cœur"],
+    "exemples": [
+      "Soleil en Lion : identité forte, besoin d’exprimer sa singularité, leadership naturel.",
+      "Lune en Lion : besoin d’être aimé et reconnu, générosité affective, fierté émotionnelle.",
+      "Mercure en Lion : parole expressive, pensée créative, goût pour la mise en scène des idées.",
+      "Vénus en Lion : amour démonstratif, générosité sentimentale, besoin d’admiration.",
+      "Mars en Lion : action noble et volontaire, désir de se dépasser, goût du défi visible.",
+      "Jupiter en Lion : expansion par la créativité et la confiance, enthousiasme communicatif.",
+      "Saturne en Lion : apprentissage de l’autorité juste, structuration de l’ego et du leadership.",
+      "Uranus en Lion : expression originale de soi, créativité rebelle, besoin de se démarquer.",
+      "Neptune en Lion : idéal créatif, rêve de reconnaissance, inspiration artistique.",
+      "Pluton en Lion : transformations profondes de l’identité, rapports de pouvoir liés à l’ego."
+    ]
+  },
+
+  "dansUnTheme": [
+    "Le Lion indique un domaine où l’on cherche à s’affirmer, à créer et à rayonner.",
+    "Il montre aussi où l’on apprend à exprimer sa singularité sans dépendre uniquement du regard extérieur."
+  ],
+
+  "motCle": "Je rayonne"
+}
+
+
 ]
