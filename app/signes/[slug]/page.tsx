@@ -1,14 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { normalizeSlug } from "@/components/sections/zodiaque/Helpers";
-import { normalizeElement } from "@/components/sections/zodiaque/Helpers";
 import { elementTheme } from "@/components/sections/zodiaque/Helpers";
 import { getSign } from "@/components/sections/zodiaque/Helpers";
 import { getSignIndex } from "@/components/sections/zodiaque/Helpers";
 import { getZodiaqueItemBySlug } from "@/components/sections/zodiaque/Helpers";
-import { generateStaticParams } from "@/components/sections/zodiaque/Helpers";
-import { generateMetadata } from "@/components/sections/zodiaque/Helpers";
 import signes from "../../../data/signes.details.json";
 
 type Sign = (typeof signes)[number];
