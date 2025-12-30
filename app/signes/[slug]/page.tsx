@@ -1,119 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-
-import zodiaque from "./../../../data/zodiaque.json";
+import { normalizeSlug } from "@/components/sections/zodiaque/Helpers";
+import { normalizeElement } from "@/components/sections/zodiaque/Helpers";
+import { elementTheme } from "@/components/sections/zodiaque/Helpers";
+import { getSign } from "@/components/sections/zodiaque/Helpers";
+import { getSignIndex } from "@/components/sections/zodiaque/Helpers";
+import { getZodiaqueItemBySlug } from "@/components/sections/zodiaque/Helpers";
+import { generateStaticParams } from "@/components/sections/zodiaque/Helpers";
+import { generateMetadata } from "@/components/sections/zodiaque/Helpers";
 import signes from "../../../data/signes.details.json";
 
 type Sign = (typeof signes)[number];
-type ZItem = (typeof zodiaque)[number];
 
-function normalizeSlug(slug: string) {
-  // Ajuste si ton zodiaque.json utilise "poisson" au lieu de "poissons"
-  return slug === "poissons" ? "poisson" : slug;
-}
-
-function normalizeElement(el?: string) {
-  const v = (el ?? "").toLowerCase();
-  if (v.includes("feu")) return "feu";
-  if (v.includes("terre")) return "terre";
-  if (v.includes("air")) return "air";
-  if (v.includes("eau")) return "eau";
-  return "neutre";
-}
-
-function elementTheme(el?: string) {
-  const e = normalizeElement(el);
-  switch (e) {
-    case "feu":
-      return {
-        ring: "focus-visible:ring-orange-400/40",
-        border: "border-orange-400/30",
-        bg: "bg-orange-500/10",
-        text: "text-orange-200",
-        glow:
-          "shadow-[0_0_0_1px_rgba(251,146,60,0.22),0_14px_40px_rgba(251,146,60,0.10)]",
-        dot: "bg-orange-400/70",
-        line: "bg-orange-400/30",
-      };
-    case "terre":
-      return {
-        ring: "focus-visible:ring-emerald-400/35",
-        border: "border-emerald-400/25",
-        bg: "bg-emerald-500/10",
-        text: "text-emerald-200",
-        glow:
-          "shadow-[0_0_0_1px_rgba(52,211,153,0.20),0_14px_40px_rgba(52,211,153,0.08)]",
-        dot: "bg-emerald-400/70",
-        line: "bg-emerald-400/25",
-      };
-    case "air":
-      return {
-        ring: "focus-visible:ring-sky-400/35",
-        border: "border-sky-400/25",
-        bg: "bg-sky-500/10",
-        text: "text-sky-200",
-        glow:
-          "shadow-[0_0_0_1px_rgba(56,189,248,0.20),0_14px_40px_rgba(56,189,248,0.08)]",
-        dot: "bg-sky-400/70",
-        line: "bg-sky-400/25",
-      };
-    case "eau":
-      return {
-        ring: "focus-visible:ring-indigo-400/35",
-        border: "border-indigo-400/25",
-        bg: "bg-indigo-500/10",
-        text: "text-indigo-200",
-        glow:
-          "shadow-[0_0_0_1px_rgba(129,140,248,0.20),0_14px_40px_rgba(129,140,248,0.08)]",
-        dot: "bg-indigo-400/70",
-        line: "bg-indigo-400/25",
-      };
-    default:
-      return {
-        ring: "focus-visible:ring-white/20",
-        border: "border-white/10",
-        bg: "bg-white/5",
-        text: "text-text/90",
-        glow: "",
-        dot: "bg-white/30",
-        line: "bg-white/10",
-      };
-  }
-}
-
-function getSign(slug: string): Sign | undefined {
-  return (signes as Sign[]).find((s) => s.slug === slug);
-}
-
-function getSignIndex(slug: string) {
-  return (signes as Sign[]).findIndex((s) => s.slug === slug);
-}
-
-function getZodiaqueItemBySlug(slug: string): ZItem | undefined {
-  const s = normalizeSlug(slug);
-  return (zodiaque as ZItem[]).find((x) => x.slug === s);
-}
-
-export function generateStaticParams() {
-  return (signes as Sign[]).map((s) => ({ slug: s.slug }));
-}
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-
-  const sign = getSign(slug);
-  if (!sign) return {};
-
-  return {
-    title: `${sign.name} — Cours d’astrologie`,
-    description: `${sign.name} : période, polarité, mode, élément, maîtrises, symbolique et interprétation.`,
-  };
-}
 
 export default async function SignPage({
   params,
