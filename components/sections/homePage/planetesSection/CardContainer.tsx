@@ -6,6 +6,7 @@ type Planet = (typeof planetes)[number];
 export default function CardContainer() {
   return (
     <section
+    id="planetes"
       aria-label="Planètes : cours et définitions"
       className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8"
     >

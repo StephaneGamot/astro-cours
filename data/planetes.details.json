@@ -1,0 +1,672 @@
+[
+  {
+    "slug": "soleil",
+    "name": "Soleil",
+    "categorie": "Personnelle",
+    "fonction": "Identité, vitalité, conscience",
+    "motCle": "Rayonnement",
+    "rythme": "1 an (retour solaire)",
+    "domicile": "Lion",
+    "exaltation": "Bélier",
+    "exil": "Verseau",
+    "chute": "Balance",
+    "symbolique": "Le Soleil représente le centre du thème : la manière dont on se sent vivant, la direction de la volonté, la conscience et la force créatrice. Il parle d’affirmation, de présence et de rayonnement.",
+    "resume": [
+      "Je suis : identité, cœur, direction.",
+      "Je veux : volonté, décision, cohérence.",
+      "Je crée : expression personnelle, fierté saine.",
+      "Je brille : présence, leadership, exemple."
+    ],
+    "motsCles": ["Identité", "Volonté", "Vitalité", "But", "Créativité", "Rayonnement"],
+    "forces": ["Affirmation de soi", "Clarté intérieure", "Leadership naturel", "Créativité"],
+    "ombres": ["Orgueil", "Besoin d’être reconnu", "Rigidité", "Égocentrisme"],
+    "expression": {
+      "aligne": [
+        "Présence stable, confiance simple, chaleur humaine.",
+        "Décide avec le cœur et assume ses choix.",
+        "Inspire par l’exemple, donne une direction."
+      ],
+      "exces": [
+        "Besoin d’être applaudi, dramatisation, autorité lourde.",
+        "Prend toute la place, écoute difficile.",
+        "Confond rayonnement et domination."
+      ],
+      "manque": [
+        "Doute identitaire, peur de briller, effacement.",
+        "Cherche la validation avant d’agir.",
+        "Difficulté à se sentir légitime."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Identité forte : présence, charisme, besoin d’affirmer qui tu es." },
+      { "maison": 2, "texte": "Valeur personnelle : construire l’estime, sécuriser par ce que tu sais créer." },
+      { "maison": 3, "texte": "Voix et esprit : briller par la parole, l’apprentissage, la transmission." },
+      { "maison": 4, "texte": "Racines : fierté familiale, besoin d’un foyer où tu peux être toi." },
+      { "maison": 5, "texte": "Créativité reine : scène, art, romance, expression du cœur." },
+      { "maison": 6, "texte": "Service : leadership au travail, vitalité liée au rythme de vie." },
+      { "maison": 7, "texte": "Relation : apprendre à briller à deux, miroir du partenaire." },
+      { "maison": 8, "texte": "Intensité : transformation, pouvoir intérieur, vérité du désir." },
+      { "maison": 9, "texte": "Sens : foi, vision, quête d’un idéal qui te fait vivre." },
+      { "maison": 10, "texte": "Vocation : visibilité, statut, rôle public, accomplissement." },
+      { "maison": 11, "texte": "Réseaux : rayonner dans un groupe, projets collectifs." },
+      { "maison": 12, "texte": "Intériorité : identité secrète, besoin de se retrouver loin du bruit." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète devient un moteur de ton identité et de ta volonté." },
+      { "aspect": "Sextile", "texte": "Ouverture : confiance, créativité et direction s’expriment facilement." },
+      { "aspect": "Carré", "texte": "Tension : ego blessé, lutte pour la reconnaissance, besoin d’alignement." },
+      { "aspect": "Trigone", "texte": "Talent : rayonnement naturel, leadership fluide, expression inspirante." },
+      { "aspect": "Opposition", "texte": "Miroir : apprendre l’équilibre entre soi et l’autre, entre “je” et “nous”." }
+    ],
+    "dansUnTheme": [
+      "Le Soleil indique ton centre, ton axe de vie et ce qui te fait te sentir vivant.",
+      "Sa maison montre où tu veux te réaliser ; son signe décrit ton style de rayonnement.",
+      "Ses aspects racontent la facilité ou les défis à assumer ta place."
+    ],
+    "image": { "src": "/images/planetes/soleil/thumb.webp", "alt": "Illustration du Soleil" },
+    "hero": { "src": "/images/planetes/soleil/a.webp", "alt": "Soleil — illustration héro" }
+  },
+  {
+    "slug": "lune",
+    "name": "Lune",
+    "categorie": "Personnelle",
+    "fonction": "Émotions, besoins, sécurité",
+    "motCle": "Réceptivité",
+    "rythme": "28 jours (cycle lunaire)",
+    "domicile": "Cancer",
+    "exaltation": "Taureau",
+    "exil": "Capricorne",
+    "chute": "Scorpion",
+    "symbolique": "La Lune décrit le monde intérieur : la façon de ressentir, d’intégrer, de se protéger et de chercher la sécurité. Elle parle de mémoire, d’attachement et de besoins fondamentaux.",
+    "resume": [
+      "Je ressens : humeur, instinct, réaction.",
+      "Je m’attache : besoin d’être contenu et nourri.",
+      "Je me protège : refuge, habitudes, intimité.",
+      "Je me souviens : mémoire émotionnelle."
+    ],
+    "motsCles": ["Émotions", "Besoins", "Sécurité", "Habitudes", "Intimité", "Mémoire"],
+    "forces": ["Empathie", "Intuition", "Protection", "Adaptation"],
+    "ombres": ["Hypersensibilité", "Inconstance", "Dépendance affective", "Réactions défensives"],
+    "expression": {
+      "aligne": [
+        "Écoute fine, présence rassurante, instinct juste.",
+        "Sait créer un cocon, nourrit les liens.",
+        "Sent quand il faut ralentir et se régénérer."
+      ],
+      "exces": [
+        "Dramatisation, susceptibilité, attachement collant.",
+        "Humeur envahissante, réactions “à chaud”.",
+        "Se replie et rumine au lieu de dire."
+      ],
+      "manque": [
+        "Coupe l’émotion, ne sait pas demander du soutien.",
+        "Sèche intérieurement, se durcit par peur.",
+        "Difficulté à se sentir en sécurité."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Émotion visible : tu réagis vite, tu ressens dans le corps." },
+      { "maison": 2, "texte": "Sécurité matérielle : besoin de stabilité, de ressources, de confort." },
+      { "maison": 3, "texte": "Émotions par la parole : besoin de parler, d’écrire, de comprendre." },
+      { "maison": 4, "texte": "Très lunaire : foyer, racines, famille, besoin de refuge." },
+      { "maison": 5, "texte": "Cœur sensible : créativité affective, romance, lien aux enfants." },
+      { "maison": 6, "texte": "Humeur liée au rythme : santé et émotions se répondent." },
+      { "maison": 7, "texte": "Besoin relationnel : sécurité par le couple, miroir émotionnel." },
+      { "maison": 8, "texte": "Intensité : attachements profonds, peurs, guérison émotionnelle." },
+      { "maison": 9, "texte": "Foi sensible : intuition spirituelle, besoin de sens protecteur." },
+      { "maison": 10, "texte": "Image publique : besoin d’être reconnu affectivement, vocation nourricière." },
+      { "maison": 11, "texte": "Tribu : sécurité par les amis, les groupes, les projets." },
+      { "maison": 12, "texte": "Hyper-réceptivité : rêves, empathie, besoin de solitude régénérante." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète colore fortement tes besoins et réactions." },
+      { "aspect": "Sextile", "texte": "Aisance : émotions canalisées, soutien naturel, chaleur simple." },
+      { "aspect": "Carré", "texte": "Tension : hypersensibilité, défenses, besoin d’apprendre la régulation." },
+      { "aspect": "Trigone", "texte": "Talent : intuition stable, attachement sécurisant, empathie fluide." },
+      { "aspect": "Opposition", "texte": "Polarité : apprendre l’équilibre entre intimité et relation, moi et l’autre." }
+    ],
+    "dansUnTheme": [
+      "La Lune indique ce qui te rassure et comment tu gères la vulnérabilité.",
+      "Sa maison montre le domaine où tu cherches refuge ; son signe colore ton style émotionnel.",
+      "Ses aspects parlent de ta capacité à exprimer, nourrir et protéger tes besoins."
+    ],
+    "image": { "src": "/images/planetes/lune/thumb.webp", "alt": "Illustration de la Lune" },
+    "hero": { "src": "/images/planetes/lune/a.webp", "alt": "Lune — illustration héro" }
+  },
+  {
+    "slug": "mercure",
+    "name": "Mercure",
+    "categorie": "Personnelle",
+    "fonction": "Pensée, communication, apprentissage",
+    "motCle": "Compréhension",
+    "rythme": "≈ 88 jours (cycle orbital)",
+    "domicile": "Gémeaux, Vierge",
+    "exaltation": "Vierge",
+    "exil": "Sagittaire, Poissons",
+    "chute": "Poissons",
+    "symbolique": "Mercure représente la manière d’observer, relier les informations et formuler une pensée. Il parle de langage, d’échange, de mobilité mentale et d’adaptation.",
+    "resume": [
+      "Je capte, je trie, je relie.",
+      "Je mets en mots : je questionne, j’explique, je raconte.",
+      "J’apprends vite quand c’est concret et vivant.",
+      "Je change d’avis quand une info meilleure arrive."
+    ],
+    "motsCles": ["Esprit", "Langage", "Logique", "Curiosité", "Analyse", "Échanges"],
+    "forces": ["Clarté mentale", "Souplesse", "Sens de l’analyse", "Talent d’expression"],
+    "ombres": ["Nervosité", "Dispersion", "Ironie défensive", "Mentalisation excessive"],
+    "expression": {
+      "aligne": [
+        "Parle clairement, écoute vraiment, pose les bonnes questions.",
+        "Synthétise, apprend vite, sait expliquer simplement.",
+        "S’adapte à son interlocuteur."
+      ],
+      "exces": [
+        "Parle trop, coupe, sur-analyse, débat pour débattre.",
+        "Reste dans la tête, perd le corps et l’émotion.",
+        "Ironie, nervosité, agitation mentale."
+      ],
+      "manque": [
+        "Doute de sa parole, peur de se tromper.",
+        "Difficulté à formuler, à structurer une idée.",
+        "Tendance à se taire, à laisser les autres penser à sa place."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Identité mentale forte : tu te définis par tes idées, ton style, ta parole." },
+      { "maison": 2, "texte": "Valeur par les compétences : commerce, savoir-faire, intelligence pratique." },
+      { "maison": 3, "texte": "Très mercurien : curiosité, écriture, mobilité, apprentissages rapides." },
+      { "maison": 4, "texte": "Mental influencé par le foyer : mémoire, histoire familiale, besoin de parler du passé." },
+      { "maison": 5, "texte": "Créativité verbale : humour, scène, séduction par l’esprit." },
+      { "maison": 6, "texte": "Organisation : méthode, efficacité, santé liée au stress mental." },
+      { "maison": 7, "texte": "Dialogue : besoin de partenaires stimulants, négociation, diplomatie mentale." },
+      { "maison": 8, "texte": "Parole vraie : enquête, psychologie, secrets, esprit pénétrant." },
+      { "maison": 9, "texte": "Pensée large : langues, voyages, philosophie, transmission d’idées." },
+      { "maison": 10, "texte": "Métier de l’esprit : communication, stratégie, visibilité intellectuelle." },
+      { "maison": 11, "texte": "Réseaux : idées en groupe, projets collectifs, animation de communauté." },
+      { "maison": 12, "texte": "Esprit subtil : intuition mentale, écriture intérieure, besoin de silence." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : Mercure colore fortement l’autre planète (mental + fonction associée)." },
+      { "aspect": "Sextile", "texte": "Aisance : échanges fluides, apprentissage naturel, compréhension pratique." },
+      { "aspect": "Carré", "texte": "Tension : rumination, nervosité, malentendus, besoin de clarifier." },
+      { "aspect": "Trigone", "texte": "Talent : formulation facile, esprit agile, sens pédagogique." },
+      { "aspect": "Opposition", "texte": "Dialogue intérieur : apprendre l’écoute, ajuster son discours à l’autre." }
+    ],
+    "dansUnTheme": [
+      "Mercure décrit ton style de pensée et ta façon d’apprendre.",
+      "Sa maison indique où tu as besoin de comprendre et d’échanger ; son signe montre ton ton mental.",
+      "Ses aspects influencent la fluidité, la rapidité et la stabilité de ton raisonnement."
+    ],
+    "image": { "src": "/images/planetes/mercure/thumb.webp", "alt": "Illustration de Mercure" },
+    "hero": { "src": "/images/planetes/mercure/a.webp", "alt": "Mercure — illustration héro" }
+  },
+  {
+    "slug": "venus",
+    "name": "Vénus",
+    "categorie": "Personnelle",
+    "fonction": "Amour, valeurs, attraction",
+    "motCle": "Harmonie",
+    "rythme": "≈ 225 jours (cycle orbital)",
+    "domicile": "Taureau, Balance",
+    "exaltation": "Poissons",
+    "exil": "Scorpion, Bélier",
+    "chute": "Vierge",
+    "symbolique": "Vénus parle de ce que l’on aime, de la capacité à recevoir et à créer de l’harmonie. Elle décrit les valeurs, l’esthétique, le plaisir et la manière d’entrer en relation.",
+    "resume": [
+      "J’attire : je plais, je relie, j’adoucis.",
+      "Je choisis : valeurs, goûts, critères du cœur.",
+      "Je reçois : plaisir, beauté, douceur.",
+      "Je crée : harmonie, art, accord."
+    ],
+    "motsCles": ["Valeurs", "Plaisir", "Séduction", "Esthétique", "Paix", "Affectif"],
+    "forces": ["Charme", "Sens du beau", "Diplomatie", "Capacité à aimer"],
+    "ombres": ["Dépendance", "Évitement du conflit", "Possessivité", "Complaisance"],
+    "expression": {
+      "aligne": [
+        "Sait aimer sans se perdre, respect du rythme relationnel.",
+        "Crée de l’harmonie par des choix simples et justes.",
+        "Valeurs claires : sait dire oui, sait dire non."
+      ],
+      "exces": [
+        "Recherche de validation, séduction permanente, jalousie.",
+        "Compromis de trop : évite le conflit à tout prix.",
+        "Dépenses/plaisirs pour combler un vide."
+      ],
+      "manque": [
+        "Difficulté à recevoir, froideur défensive, auto-dévalorisation.",
+        "Peu de plaisir, trop de contrôle, dureté sur soi.",
+        "Choix affectifs par peur plutôt que par désir."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Charme visible : style, douceur, manière d’être attractive naturellement." },
+      { "maison": 2, "texte": "Valeurs et argent : rapport au confort, à la sécurité, aux plaisirs simples." },
+      { "maison": 3, "texte": "Parole agréable : diplomatie, charme verbal, talent artistique/écriture." },
+      { "maison": 4, "texte": "Beauté du foyer : besoin d’un cocon harmonieux, attachement aux proches." },
+      { "maison": 5, "texte": "Romance : amour du jeu, créativité, art, séduction, plaisir." },
+      { "maison": 6, "texte": "Harmonie au quotidien : bien-être, soin, esthétique dans la routine." },
+      { "maison": 7, "texte": "Très vénusien : couple, partenariat, recherche d’équité et d’accord." },
+      { "maison": 8, "texte": "Désirs profonds : fusion, intensité, jalousie à transmuter en confiance." },
+      { "maison": 9, "texte": "Goût du beau : voyages, cultures, quête d’un idéal amoureux." },
+      { "maison": 10, "texte": "Image : charme public, métier relationnel/artistique, réputation." },
+      { "maison": 11, "texte": "Amitié : liens choisis, réseaux, projets esthétiques/collectifs." },
+      { "maison": 12, "texte": "Amour secret : idéalisation, compassion, besoin de limites saines." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète se teinte de charme, de valeurs et de désir." },
+      { "aspect": "Sextile", "texte": "Facilité : relations fluides, sens esthétique, attraits naturels." },
+      { "aspect": "Carré", "texte": "Tension : conflits de valeurs, dépendances, apprentissage de l’estime." },
+      { "aspect": "Trigone", "texte": "Talent : amour simple, diplomatie, goût sûr, harmonie naturelle." },
+      { "aspect": "Opposition", "texte": "Miroir : équilibre donner/recevoir, apprendre l’accord sans se nier." }
+    ],
+    "dansUnTheme": [
+      "Vénus décrit tes goûts, tes valeurs et ta manière d’aimer.",
+      "Sa maison montre où tu cherches l’harmonie ; son signe révèle ton style relationnel.",
+      "Ses aspects parlent d’estime de soi, d’attachement et de désir."
+    ],
+    "image": { "src": "/images/planetes/venus/thumb.webp", "alt": "Illustration de Vénus" },
+    "hero": { "src": "/images/planetes/venus/a.webp", "alt": "Vénus — illustration héro" }
+  },
+  {
+    "slug": "mars",
+    "name": "Mars",
+    "categorie": "Personnelle",
+    "fonction": "Action, désir, affirmation",
+    "motCle": "Élan",
+    "rythme": "≈ 687 jours (cycle orbital)",
+    "domicile": "Bélier, Scorpion",
+    "exaltation": "Capricorne",
+    "exil": "Balance, Taureau",
+    "chute": "Cancer",
+    "symbolique": "Mars représente l’énergie d’action : la façon de décider, d’oser, de se défendre et de poursuivre un désir. Il parle de courage, de rythme et d’instinct.",
+    "resume": [
+      "J’agis : initiative, impulsion, décision.",
+      "Je désire : conquête, pulsion, motivation.",
+      "Je me défends : frontière, courage, réflexe.",
+      "Je me dépasse : endurance, effort, combativité."
+    ],
+    "motsCles": ["Action", "Désir", "Courage", "Initiative", "Colère", "Combat"],
+    "forces": ["Détermination", "Esprit d’initiative", "Courage", "Puissance d’action"],
+    "ombres": ["Impulsivité", "Agressivité", "Conflits", "Impatience"],
+    "expression": {
+      "aligne": [
+        "Agit avec courage et clarté, sait dire non.",
+        "Transforme la colère en action constructive.",
+        "Protège sans attaquer, tranche sans humilier."
+      ],
+      "exces": [
+        "Impulsivité, agressivité, compétition permanente.",
+        "Brusquerie, impatience, conflits inutiles.",
+        "Confond force et dureté."
+      ],
+      "manque": [
+        "Inhibition, difficulté à prendre sa place.",
+        "Colère retournée contre soi, fatigue, culpabilité.",
+        "Peut subir faute d’oser."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Action visible : tempérament direct, besoin d’initiative et de défi." },
+      { "maison": 2, "texte": "Action pour sécuriser : bâtir, gagner, défendre ses valeurs." },
+      { "maison": 3, "texte": "Parole tranchante : débat, rythme rapide, déplacements, esprit offensif." },
+      { "maison": 4, "texte": "Énergie au foyer : protection, colère familiale à apprivoiser." },
+      { "maison": 5, "texte": "Désir créatif : conquête amoureuse, sport, compétition, passion." },
+      { "maison": 6, "texte": "Efficacité : travail, discipline, santé liée à la dépense d’énergie." },
+      { "maison": 7, "texte": "Confrontation : attirance pour les partenaires forts, apprendre le compromis." },
+      { "maison": 8, "texte": "Intensité : libido, crises, pouvoir, transformation par l’action." },
+      { "maison": 9, "texte": "Combat pour une cause : convictions, voyages, courage idéologique." },
+      { "maison": 10, "texte": "Ambition : leadership, compétition pro, visibilité par l’action." },
+      { "maison": 11, "texte": "Énergie collective : militantisme, projets de groupe, esprit de clan." },
+      { "maison": 12, "texte": "Combat intérieur : colère refoulée, besoin d’agir en coulisse." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète se vit en mode action/désir/défense." },
+      { "aspect": "Sextile", "texte": "Facilité : courage, initiative, action efficace et bien orientée." },
+      { "aspect": "Carré", "texte": "Tension : colère, impatience, conflits ; apprendre la maîtrise." },
+      { "aspect": "Trigone", "texte": "Talent : énergie fluide, détermination, force tranquille." },
+      { "aspect": "Opposition", "texte": "Polarité : apprendre à négocier la force, gérer l’autre sans guerre." }
+    ],
+    "dansUnTheme": [
+      "Mars montre comment tu prends l’initiative et comment tu poursuis un désir.",
+      "Sa maison indique le domaine où tu agis ; son signe décrit ton style d’affirmation.",
+      "Ses aspects révèlent ta manière de gérer la frustration et la colère."
+    ],
+    "image": { "src": "/images/planetes/mars/thumb.webp", "alt": "Illustration de Mars" },
+    "hero": { "src": "/images/planetes/mars/a.webp", "alt": "Mars — illustration héro" }
+  },
+  {
+    "slug": "jupiter",
+    "name": "Jupiter",
+    "categorie": "Sociale",
+    "fonction": "Expansion, sens, confiance",
+    "motCle": "Croissance",
+    "rythme": "≈ 12 ans (cycle orbital)",
+    "domicile": "Sagittaire, Poissons",
+    "exaltation": "Cancer",
+    "exil": "Gémeaux, Vierge",
+    "chute": "Capricorne",
+    "symbolique": "Jupiter représente l’élan d’expansion : la recherche de sens, la confiance, la vision large et l’optimisme. Il parle de croyances, d’opportunités et de croissance.",
+    "resume": [
+      "J’élargis : opportunités, chance, ouverture.",
+      "Je crois : vision, sens, foi, confiance.",
+      "Je transmets : enseignement, sagesse, générosité.",
+      "Je grandis : progression, prospérité, horizon."
+    ],
+    "motsCles": ["Sens", "Foi", "Expansion", "Chance", "Vision", "Transmission"],
+    "forces": ["Optimisme", "Générosité", "Vision", "Ouverture"],
+    "ombres": ["Excès", "Dogmatisme", "Surestimation", "Fuite dans l’idéal"],
+    "expression": {
+      "aligne": [
+        "Confiance réaliste, capacité à voir plus grand sans nier le réel.",
+        "Générosité, protection, esprit de guide.",
+        "Transmission : pédagogie, encouragement, humour."
+      ],
+      "exces": [
+        "Trop-plein : promesses trop grandes, excès, dispersion.",
+        "Moralisation, certitudes, dogme.",
+        "Fuite dans l’optimisme pour éviter l’effort."
+      ],
+      "manque": [
+        "Doute, manque d’élan, peur de se projeter.",
+        "Pessimisme, vision étriquée, difficulté à faire confiance.",
+        "N’ose pas saisir les opportunités."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Présence expansive : confiance, optimisme, attitude “grand format”." },
+      { "maison": 2, "texte": "Croissance matérielle : richesse par la confiance et la générosité maîtrisée." },
+      { "maison": 3, "texte": "Esprit ouvert : études, voyages courts, communication, humour, curiosité." },
+      { "maison": 4, "texte": "Protection du foyer : famille, maison, besoin d’un clan nourrissant." },
+      { "maison": 5, "texte": "Joie : créativité, chance en amour, plaisir, expression ludique." },
+      { "maison": 6, "texte": "Amélioration : progression au travail, santé par l’hygiène de vie." },
+      { "maison": 7, "texte": "Partenariats : alliances, opportunités via les autres, mentor/guide." },
+      { "maison": 8, "texte": "Expansion en profondeur : finances partagées, guérison, foi dans les crises." },
+      { "maison": 9, "texte": "Très jupitérien : philosophie, voyages, université, sens, foi." },
+      { "maison": 10, "texte": "Réussite : croissance sociale, réputation, vocation d’influence." },
+      { "maison": 11, "texte": "Réseaux : chance via amis, projets collectifs, protection du groupe." },
+      { "maison": 12, "texte": "Foi intérieure : protection invisible, compassion, service discret." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète est amplifiée (foi, expansion, opportunités)." },
+      { "aspect": "Sextile", "texte": "Facilité : chance, croissance, appuis, portes qui s’ouvrent." },
+      { "aspect": "Carré", "texte": "Tension : excès, surconfiance, dispersion ; apprendre la mesure." },
+      { "aspect": "Trigone", "texte": "Talent : vision, générosité, réussite fluide, sens naturel." },
+      { "aspect": "Opposition", "texte": "Polarité : équilibrer expansion et réalité, foi et discernement." }
+    ],
+    "dansUnTheme": [
+      "Jupiter montre comment tu grandis, ce qui te donne du sens et de la confiance.",
+      "Sa maison indique le domaine d’expansion ; son signe décrit ton style d’ouverture.",
+      "Ses aspects révèlent si la croissance est stable, excessive ou freinée."
+    ],
+    "image": { "src": "/images/planetes/jupiter/thumb.webp", "alt": "Illustration de Jupiter" },
+    "hero": { "src": "/images/planetes/jupiter/a.webp", "alt": "Jupiter — illustration héro" }
+  },
+  {
+    "slug": "saturne",
+    "name": "Saturne",
+    "categorie": "Sociale",
+    "fonction": "Structure, limites, maturité",
+    "motCle": "Construction",
+    "rythme": "≈ 29 ans (cycle orbital)",
+    "domicile": "Capricorne, Verseau",
+    "exaltation": "Balance",
+    "exil": "Cancer, Lion",
+    "chute": "Bélier",
+    "symbolique": "Saturne symbolise la structure : les limites, le temps, la responsabilité et la consolidation. Il parle de réalité, d’effort, de maturité et de maîtrise.",
+    "resume": [
+      "Je structure : règles, méthode, cadre.",
+      "Je consolide : patience, endurance, solidité.",
+      "Je responsabilise : devoir, maturité, engagement.",
+      "Je teste : réalité, temps, épreuves formatrices."
+    ],
+    "motsCles": ["Discipline", "Temps", "Responsabilité", "Limites", "Rigueur", "Maîtrise"],
+    "forces": ["Endurance", "Fiabilité", "Patience", "Stabilité"],
+    "ombres": ["Rigidité", "Peur de l’échec", "Dureté", "Retrait"],
+    "expression": {
+      "aligne": [
+        "Rigueur saine : fait ce qui doit être fait, au bon rythme.",
+        "Pose des limites justes, protège par la structure.",
+        "Construit sur le long terme, tient ses engagements."
+      ],
+      "exces": [
+        "Contrôle, dureté, exigence froide, pessimisme.",
+        "Se juge et juge les autres trop vite.",
+        "Se protège en se fermant."
+      ],
+      "manque": [
+        "Fuite des responsabilités, difficulté à s’organiser.",
+        "Peurs non assumées, procrastination, instabilité.",
+        "Ne croit pas en sa capacité à tenir."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Sérieux : retenue, discipline personnelle, maturité visible." },
+      { "maison": 2, "texte": "Sécurité par l’effort : bâtir des ressources, apprendre la patience." },
+      { "maison": 3, "texte": "Esprit structuré : parole sobre, apprentissages lents mais solides." },
+      { "maison": 4, "texte": "Poids des racines : responsabilités familiales, besoin de base stable." },
+      { "maison": 5, "texte": "Créativité contrôlée : peur de se montrer, mais talent durable." },
+      { "maison": 6, "texte": "Travail : rigueur, sens du devoir, santé liée à la charge." },
+      { "maison": 7, "texte": "Engagement : relations sérieuses, le couple comme école de maturité." },
+      { "maison": 8, "texte": "Contrôle et lâcher-prise : peurs profondes, gestion des crises, héritages." },
+      { "maison": 9, "texte": "Sagesse : études longues, philosophie réaliste, foi éprouvée." },
+      { "maison": 10, "texte": "Vocation : carrière, statut, ambitions, réussite à long terme." },
+      { "maison": 11, "texte": "Projets : construire pour le collectif, responsabilité dans un groupe." },
+      { "maison": 12, "texte": "Épreuves intérieures : solitude utile, travail en coulisse, foi dans le temps." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète est structurée, ralentie, rendue sérieuse." },
+      { "aspect": "Sextile", "texte": "Aisance : organisation, endurance, maturité sans lourdeur." },
+      { "aspect": "Carré", "texte": "Tension : blocages, peur, frustration ; apprendre la persévérance." },
+      { "aspect": "Trigone", "texte": "Talent : solidité, fiabilité, maîtrise naturelle, réussite durable." },
+      { "aspect": "Opposition", "texte": "Polarité : devoir vs désir, apprendre l’équilibre entre contrôle et vie." }
+    ],
+    "dansUnTheme": [
+      "Saturne montre où tu apprends la maturité et la solidité.",
+      "Sa maison indique le domaine des efforts nécessaires ; son signe décrit ton style de construction.",
+      "Ses aspects parlent de ton rapport à l’autorité, à la peur et à la maîtrise."
+    ],
+    "image": { "src": "/images/planetes/saturne/thumb.webp", "alt": "Illustration de Saturne" },
+    "hero": { "src": "/images/planetes/saturne/a.webp", "alt": "Saturne — illustration héro" }
+  },
+  {
+    "slug": "uranus",
+    "name": "Uranus",
+    "categorie": "Transpersonnelle",
+    "fonction": "Libération, changement, éveil",
+    "motCle": "Rupture",
+    "rythme": "≈ 84 ans (cycle orbital)",
+    "domicile": "Verseau",
+    "exaltation": "Scorpion",
+    "exil": "Lion",
+    "chute": "Taureau",
+    "symbolique": "Uranus représente la rupture des schémas : l’indépendance, l’éveil, l’innovation et le besoin de liberté. Il parle de changement rapide et de réinvention.",
+    "resume": [
+      "Je libère : je casse la routine, j’ouvre une voie.",
+      "Je réveille : prise de conscience, choc utile.",
+      "J’innove : originalité, invention, futur.",
+      "Je détache : autonomie, besoin d’air."
+    ],
+    "motsCles": ["Liberté", "Innovation", "Surprise", "Détachement", "Réforme", "Éveil"],
+    "forces": ["Originalité", "Vision", "Indépendance", "Créativité disruptive"],
+    "ombres": ["Instabilité", "Ruptures brutales", "Provocation", "Fuite de l’attachement"],
+    "expression": {
+      "aligne": [
+        "Ose changer sans brûler les ponts.",
+        "Invente des solutions, ouvre l’esprit des autres.",
+        "Se libère avec intelligence et respect du réel."
+      ],
+      "exces": [
+        "Ruptures sèches, provocation, refus de toute contrainte.",
+        "Instabilité, changements sans direction.",
+        "Se coupe de l’émotion pour “rester libre”."
+      ],
+      "manque": [
+        "Peur de changer, conformisme subi.",
+        "Se sent prisonnier, mais n’ose pas bouger.",
+        "Innovation inhibée, créativité sous cloche."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Personnalité originale : besoin d’être soi, style unique, imprévisible." },
+      { "maison": 2, "texte": "Valeurs libres : rapport atypique à l’argent, revenus irréguliers possibles." },
+      { "maison": 3, "texte": "Esprit électrique : idées rapides, communication inventive, curiosité technique." },
+      { "maison": 4, "texte": "Foyer non conventionnel : besoin d’espace, changements de base." },
+      { "maison": 5, "texte": "Créativité disruptive : amour du jeu, romances surprises, art moderne." },
+      { "maison": 6, "texte": "Travail : besoin d’autonomie, méthodes originales, changements pro." },
+      { "maison": 7, "texte": "Relations : partenaires atypiques, besoin de liberté dans le couple." },
+      { "maison": 8, "texte": "Chocs transformateurs : libération par crises, sexualité indépendante." },
+      { "maison": 9, "texte": "Vision : idées avant-gardistes, voyages, philosophie non conformiste." },
+      { "maison": 10, "texte": "Carrière : trajectoire imprévisible, innovation publique, rupture de statut." },
+      { "maison": 11, "texte": "Collectif : réseaux, technologies, projets de réforme, communauté." },
+      { "maison": 12, "texte": "Éveil intérieur : intuitions soudaines, besoin de solitude, ruptures invisibles." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète est “électrisée”, rendue indépendante et changeante." },
+      { "aspect": "Sextile", "texte": "Facilité : innovation utile, autonomie saine, opportunités de changement." },
+      { "aspect": "Carré", "texte": "Tension : instabilité, ruptures, nervosité ; apprendre la liberté responsable." },
+      { "aspect": "Trigone", "texte": "Talent : originalité fluide, esprit visionnaire, réinvention naturelle." },
+      { "aspect": "Opposition", "texte": "Polarité : liberté vs lien, apprendre l’équilibre entre indépendance et relation." }
+    ],
+    "dansUnTheme": [
+      "Uranus montre où tu refuses la routine et cherches à te libérer.",
+      "Sa maison indique un domaine d’éveil ; son signe décrit le style de changement.",
+      "Ses aspects révèlent comment tu gères l’imprévu et la remise en question."
+    ],
+    "image": { "src": "/images/planetes/uranus/thumb.webp", "alt": "Illustration d'Uranus" },
+    "hero": { "src": "/images/planetes/uranus/a.webp", "alt": "Uranus — illustration héro" }
+  },
+  {
+    "slug": "neptune",
+    "name": "Neptune",
+    "categorie": "Transpersonnelle",
+    "fonction": "Inspiration, dissolution, idéal",
+    "motCle": "Transcendance",
+    "rythme": "≈ 165 ans (cycle orbital)",
+    "domicile": "Poissons",
+    "exaltation": "Cancer",
+    "exil": "Vierge",
+    "chute": "Capricorne",
+    "symbolique": "Neptune représente l’inspiration et la dissolution des frontières : intuition, compassion, imaginaire et quête d’idéal. Il parle de rêve, de spiritualité et de fusion.",
+    "resume": [
+      "Je rêve : imaginaire, vision, poésie.",
+      "Je ressens : intuition, compassion, porosité.",
+      "Je dissous : frontières, certitudes, ego rigide.",
+      "J’idéalise : quête de beauté, de sacré, de sens."
+    ],
+    "motsCles": ["Idéal", "Imagination", "Foi", "Intuition", "Fusion", "Mystère"],
+    "forces": ["Inspiration", "Compassion", "Sensibilité", "Vision subtile"],
+    "ombres": ["Flou", "Illusions", "Fuite", "Dépendances"],
+    "expression": {
+      "aligne": [
+        "Grande sensibilité, inspiration artistique ou spirituelle.",
+        "Compassion lucide : aide sans se sacrifier.",
+        "Capacité à sentir l’invisible et à apaiser."
+      ],
+      "exces": [
+        "Idéalisation, flou, promesses irréalistes.",
+        "Fuite : addictions, évitement, confusion.",
+        "Se dissout dans l’autre, manque de limites."
+      ],
+      "manque": [
+        "Cynisme, perte de foi, sécheresse intérieure.",
+        "Coupe l’intuition, ne s’autorise pas à rêver.",
+        "Difficulté à se relier à une dimension plus vaste."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Aura : présence douce, mystérieuse, identité sensible et changeante." },
+      { "maison": 2, "texte": "Valeurs idéales : rapport flou à l’argent, générosité, besoin d’ancrage." },
+      { "maison": 3, "texte": "Esprit imagé : poésie, inspiration, parfois malentendus ou flou mental." },
+      { "maison": 4, "texte": "Foyer : besoin d’un lieu refuge, climat émotionnel subtil, mémoire diffuse." },
+      { "maison": 5, "texte": "Créativité : art, musique, cinéma, romantisme idéaliste." },
+      { "maison": 6, "texte": "Service : vocation d’aide, attention aux fuites d’énergie, hygiène de vie." },
+      { "maison": 7, "texte": "Relation : idéalisation du partenaire, apprendre les limites saines." },
+      { "maison": 8, "texte": "Fusion : liens karmiques, guérison, secrets, intensité psychique." },
+      { "maison": 9, "texte": "Foi : spiritualité, quête de sens, vision mystique, voyages inspirants." },
+      { "maison": 10, "texte": "Vocation : image “inspirante”, métiers d’art/soin, attention au flou public." },
+      { "maison": 11, "texte": "Utopie : projets humanistes, idéal collectif, réseaux sensibles." },
+      { "maison": 12, "texte": "Très neptunien : rêves, médiumnité, compassion, nécessité d’ancrage." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète se vit en mode idéal, inspiration, porosité." },
+      { "aspect": "Sextile", "texte": "Facilité : intuition utile, créativité, compassion équilibrée." },
+      { "aspect": "Carré", "texte": "Tension : illusions, fuites, confusion ; apprendre le discernement." },
+      { "aspect": "Trigone", "texte": "Talent : inspiration pure, sens artistique/spirituel, empathie fluide." },
+      { "aspect": "Opposition", "texte": "Polarité : rêve vs réalité, apprendre à aimer sans se dissoudre." }
+    ],
+    "dansUnTheme": [
+      "Neptune indique où tu recherches l’idéal, la beauté ou le sacré.",
+      "Sa maison montre un domaine de sensibilité et de porosité ; son signe décrit le style d’inspiration.",
+      "Ses aspects révèlent comment tu gères le flou, les rêves et la réalité."
+    ],
+    "image": { "src": "/images/planetes/neptune/thumb.webp", "alt": "Illustration de Neptune" },
+    "hero": { "src": "/images/planetes/neptune/a.webp", "alt": "Neptune — illustration héro" }
+  },
+  {
+    "slug": "pluton",
+    "name": "Pluton",
+    "categorie": "Transpersonnelle",
+    "fonction": "Transformation, pouvoir, régénération",
+    "motCle": "Métamorphose",
+    "rythme": "≈ 248 ans (cycle orbital)",
+    "domicile": "Scorpion",
+    "exaltation": "Bélier",
+    "exil": "Taureau",
+    "chute": "Balance",
+    "symbolique": "Pluton symbolise la transformation profonde : crise, dépouillement, pouvoir intérieur et régénération. Il parle de vérité, d’intensité et de renaissance.",
+    "resume": [
+      "Je révèle : vérité, profondeur, lucidité.",
+      "Je transforme : crise, mort symbolique, renaissance.",
+      "Je rends puissant : intensité, volonté profonde, contrôle.",
+      "Je régénère : guérison par le dépouillement."
+    ],
+    "motsCles": ["Transformation", "Intensité", "Pouvoir", "Crise", "Régénération", "Profondeur"],
+    "forces": ["Résilience", "Lucidité", "Force intérieure", "Capacité de renaissance"],
+    "ombres": ["Contrôle", "Obsessions", "Manipulation", "Peurs profondes"],
+    "expression": {
+      "aligne": [
+        "Courage de regarder en face, d’aller au fond des choses.",
+        "Puissance intérieure, capacité à renaître après une crise.",
+        "Transformation sans destruction gratuite : vérité et guérison."
+      ],
+      "exces": [
+        "Contrôle, jalousie, obsession, rapports de force.",
+        "Tout ou rien, intensité qui brûle les liens.",
+        "Manipulation pour éviter la vulnérabilité."
+      ],
+      "manque": [
+        "Peur du conflit, évite la profondeur, reste en surface.",
+        "Subit les crises au lieu de les transformer.",
+        "N’ose pas couper ce qui est toxique."
+      ]
+    },
+    "dansLesMaisons": [
+      { "maison": 1, "texte": "Présence intense : regard puissant, besoin de maîtriser l’image." },
+      { "maison": 2, "texte": "Pouvoir matériel : rapport fort à l’argent, transformations financières." },
+      { "maison": 3, "texte": "Esprit pénétrant : enquête, parole tranchante, vérité sans détour." },
+      { "maison": 4, "texte": "Racines : secrets familiaux, transformation du foyer, héritages émotionnels." },
+      { "maison": 5, "texte": "Passion : amour intense, créativité obsessionnelle, enjeux de contrôle." },
+      { "maison": 6, "texte": "Travail : puissance de régénération, crises utiles, guérison par la discipline." },
+      { "maison": 7, "texte": "Relations : liens transformateurs, attirance magnétique, apprendre la confiance." },
+      { "maison": 8, "texte": "Très plutonien : mort/renaissance, sexualité, héritages, psychologie." },
+      { "maison": 9, "texte": "Foi radicale : quête de vérité, transformation des croyances, voyages initiatiques." },
+      { "maison": 10, "texte": "Pouvoir public : carrière intense, enjeux d’autorité, réputation forte." },
+      { "maison": 11, "texte": "Collectif : influence dans un groupe, réformes, puissance sociale." },
+      { "maison": 12, "texte": "Ombres : peurs inconscientes, guérison profonde, transformation silencieuse." }
+    ],
+    "aspects": [
+      { "aspect": "Conjonction", "texte": "Fusion : l’autre planète est intensifiée, transformée, rendue cruciale." },
+      { "aspect": "Sextile", "texte": "Facilité : transformation consciente, puissance maîtrisée, guérison." },
+      { "aspect": "Carré", "texte": "Tension : crises, luttes de pouvoir ; apprendre le lâcher-prise et la vérité." },
+      { "aspect": "Trigone", "texte": "Talent : résilience, lucidité, puissance intérieure fluide." },
+      { "aspect": "Opposition", "texte": "Polarité : pouvoir vs relation, apprendre l’équilibre entre contrôle et confiance." }
+    ],
+    "dansUnTheme": [
+      "Pluton indique où tu es poussé à te transformer et à te régénérer.",
+      "Sa maison montre un domaine d’intensité ; son signe décrit le style de transformation.",
+      "Ses aspects révèlent les zones de crise, de puissance et de renaissance."
+    ],
+    "image": { "src": "/images/planetes/pluton/thumb.webp", "alt": "Illustration de Pluton" },
+    "hero": { "src": "/images/planetes/pluton/a.webp", "alt": "Pluton — illustration héro" }
+  }
+]
