@@ -1,0 +1,633 @@
+[
+  {
+    "numero": 1,
+    "slug": "maison-1",
+    "titreCourt": "Maison I",
+    "nom": "L’Ascendant",
+    "axe": "I–VII",
+    "type": "angulaire",
+    "quadrant": "Est",
+    "niveauLecture": {
+      "arena": "le seuil et l’élan de départ",
+      "motsCles": ["présence", "apparition", "style", "initiative", "corps"],
+      "verbes": ["initier", "oser", "incarner", "poser le ton", "se positionner"],
+      "fonction": "La Maison I décrit la manière d’entrer dans le monde : l’allure, l’élan, la présence et la façon d’initier. C’est le ‘je démarre’ du thème.",
+      "questions": [
+        "Comment j’arrive dans une situation ?",
+        "Quel réflexe d’action je montre spontanément ?",
+        "Quelle énergie je dégage dès le début ?"
+      ]
+    },
+    "domaines": {
+      "principaux": ["identité immédiate", "corps", "attitude", "présence", "démarrages"],
+      "secondaires": ["vitalité", "rythme", "affirmation", "style relationnel", "spontanéité"],
+      "dansLaVie": ["première impression", "initier un projet", "prendre la place", "style personnel"]
+    },
+    "polarites": {
+      "forces": ["présence", "franchise", "initiative", "capacité à démarrer"],
+      "ombres": ["réactivité", "impulsivité", "égocentrisme défensif", "sur-adaptation à l’image"],
+      "besoins": ["rythme respecté", "limites claires", "canal d’action", "authenticité"]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Maison I = style d’entrée et présence, pas ‘toute la personnalité’.",
+        "Les planètes en I deviennent visibles : elles colorent le comportement immédiat.",
+        "Le signe de la cuspide donne la forme ; la planète donne la fonction."
+      ],
+      "erreursFrequences": [
+        "Confondre Maison I et Soleil (identité).",
+        "Réduire la Maison I au physique.",
+        "Surjouer l’image au lieu d’incarner le mouvement."
+      ],
+      "repereInterpretation": [
+        "Signe en cuspide I = style d’expression.",
+        "Planètes en I = ce qui se voit vite.",
+        "Maître d’Ascendant = direction globale."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": ["Je suis / j’arrive comme ça.", "Je donne le ton.", "J’initie."],
+      "exemplesConcrets": [
+        "Tu démarres vite quand tu sens l’élan.",
+        "Ton style se remarque immédiatement.",
+        "Tu prends la place (ou tu l’évites) dès le début."
+      ],
+      "exercices": [
+        "Observe tes 5 premières minutes en interaction : que fais-tu systématiquement ?",
+        "Note ce qui te met en mouvement vs ce qui te coupe.",
+        "Formule un ‘pitch’ simple : qui je suis / ce que je fais."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en I : identité frontale, besoin d’exister par la présence. On rayonne par l’attitude et l’initiative. Défi : confondre être et paraître ; maturité : leadership simple.",
+      "lune": "Lune en I : sensibilité visible, réactions instinctives rapides. L’humeur colore l’attitude. Défi : se laisser diriger par le climat émotionnel ; maturité : accueillir sans s’identifier.",
+      "mercure": "Mercure en I : esprit vif, parole spontanée, curiosité immédiate. On te lit par tes mots et ton rythme. Défi : nervosité/dispersion ; maturité : canaliser le mental.",
+      "venus": "Vénus en I : charme, douceur, recherche d’harmonie dans la manière d’être. Le style compte. Défi : plaire au détriment de soi ; maturité : beauté authentique.",
+      "mars": "Mars en I : énergie directe, action rapide, présence combative. Défi : réactivité ; maturité : agir avec intention, pas avec impulsion.",
+      "jupiter": "Jupiter en I : confiance, expansion, optimisme affiché. On inspire et on entraîne. Défi : excès ; maturité : juste mesure et cohérence.",
+      "saturne": "Saturne en I : retenue, sérieux, sens des limites. Présence structurée, parfois réservée. Défi : rigidité ; maturité : solidité + souplesse.",
+      "uranus": "Uranus en I : style atypique, indépendance, besoin de liberté. On surprend. Défi : instabilité ; maturité : originalité ancrée.",
+      "neptune": "Neptune en I : aura douce, perméable, impression ‘floue’ ou inspirée. Défi : frontières ; maturité : intuition cadrée.",
+      "pluton": "Pluton en I : intensité, magnétisme, transformations identitaires. Défi : contrôle ; maturité : puissance intérieure maîtrisée."
+    }
+  },
+
+  {
+    "numero": 2,
+    "slug": "maison-2",
+    "titreCourt": "Maison II",
+    "nom": "Les ressources",
+    "axe": "II–VIII",
+    "type": "succedente",
+    "quadrant": "Est",
+    "niveauLecture": {
+      "arena": "le coffre et la sécurité",
+      "motsCles": ["valeur", "argent", "talents", "matière", "stabilité"],
+      "verbes": ["construire", "stabiliser", "valoriser", "protéger", "capitaliser"],
+      "fonction": "La Maison II décrit la construction de sécurité : ressources, valeurs, estime, talents monétisables et rapport au concret.",
+      "questions": [
+        "Qu’est-ce qui me sécurise ?",
+        "Qu’est-ce que je valorise vraiment ?",
+        "Comment je transforme un talent en ressource ?"
+      ]
+    },
+    "domaines": {
+      "principaux": ["argent", "biens", "valeurs", "talents", "estime de soi"],
+      "secondaires": ["confort", "plaisir simple", "rapport au corps", "stabilité", "priorités"],
+      "dansLaVie": ["budget", "prix", "qualité vs quantité", "confort", "stabilité matérielle"]
+    },
+    "polarites": {
+      "forces": ["constance", "sens du concret", "capacité à bâtir", "fidélité aux valeurs"],
+      "ombres": ["peur du manque", "attachement", "rigidité", "possessivité"],
+      "besoins": ["repères stables", "confiance en sa valeur", "rythme durable"]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Maison II = valeur + sécurité, pas seulement argent.",
+        "Elle montre comment un talent devient une ressource.",
+        "Elle parle aussi d’estime : ‘je vaux’."
+      ],
+      "erreursFrequences": [
+        "Réduire la Maison II au compte en banque.",
+        "Confondre valeur personnelle et possessions.",
+        "Chercher la sécurité uniquement via contrôle."
+      ],
+      "repereInterpretation": [
+        "Signe en II = style de gestion.",
+        "Planètes en II = ce qui devient ressource ou fixation.",
+        "Maître de II = chemin de stabilisation."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": ["Je vaux…", "Je garde / je protège…", "Je construis du solide."],
+      "exemplesConcrets": [
+        "Tu investis dans du durable.",
+        "Tu as besoin de résultats concrets.",
+        "Tu ressens vite l’insécurité si les repères bougent."
+      ],
+      "exercices": [
+        "Liste 5 talents ‘utiles’ + 5 talents ‘rentables’.",
+        "Identifie tes dépenses émotionnelles.",
+        "Choisis 1 valeur non négociable et 1 valeur à assouplir."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en II : identité liée à la valeur et aux ressources. Besoin de bâtir et d’être reconnu pour ses talents. Défi : ego = argent ; maturité : valeur interne stable.",
+      "lune": "Lune en II : sécurité émotionnelle par le confort et les repères concrets. Défi : anxiété de manque ; maturité : sécurité intérieure + rituels sains.",
+      "mercure": "Mercure en II : ressources via l’intellect, le commerce, la communication. Défi : dispersion financière ; maturité : stratégie et cohérence.",
+      "venus": "Vénus en II : goût de la qualité, plaisir, esthétique. Défi : dépenses affectives ; maturité : beauté durable, valeur juste.",
+      "mars": "Mars en II : gagne par l’action, défend ses valeurs. Défi : impulsivité ; maturité : discipline et objectifs.",
+      "jupiter": "Jupiter en II : expansion matérielle, opportunités. Défi : excès ; maturité : générosité cadrée.",
+      "saturne": "Saturne en II : prudence, construction lente mais solide. Défi : peur ; maturité : confiance + structure.",
+      "uranus": "Uranus en II : revenus atypiques/variables, besoin de liberté. Défi : instabilité ; maturité : innovation + filet de sécurité.",
+      "neptune": "Neptune en II : valeurs idéales, rapport subtil à l’argent. Défi : flou ; maturité : cadre clair, intuition vérifiée.",
+      "pluton": "Pluton en II : enjeux de pouvoir autour de l’argent/valeur. Défi : contrôle ; maturité : transformation saine du rapport au ‘posséder’."
+    }
+  },
+
+  {
+    "numero": 3,
+    "slug": "maison-3",
+    "titreCourt": "Maison III",
+    "nom": "Les liens proches",
+    "axe": "III–IX",
+    "type": "cadente",
+    "quadrant": "Est",
+    "niveauLecture": {
+      "arena": "la rue, l’échange et l’apprentissage",
+      "motsCles": ["communication", "apprentissage", "fratrie", "voisinage", "mobilité"],
+      "verbes": ["relier", "comprendre", "expliquer", "circuler", "apprendre"],
+      "fonction": "La Maison III décrit le mental quotidien : apprendre, parler, écrire, relier et s’adapter à l’environnement proche.",
+      "questions": ["Comment j’apprends ?", "Comment je communique ?", "Quel est mon rapport au proche ?"]
+    },
+    "domaines": {
+      "principaux": ["communication", "apprentissage", "fratrie", "réseau proche", "déplacements"],
+      "secondaires": ["curiosité", "écriture", "langage", "information", "adaptabilité"],
+      "dansLaVie": ["messages", "école", "voisins", "petits trajets", "réseaux"]
+    },
+    "polarites": {
+      "forces": ["curiosité", "adaptabilité", "souplesse mentale", "sens du lien"],
+      "ombres": ["dispersion", "stress mental", "surinformation", "bavardage"],
+      "besoins": ["tri de l’info", "rythme mental sain", "échanges nourrissants"]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Maison III = mental quotidien (pas la philosophie : ça, c’est IX).",
+        "Elle décrit comment tu apprends et communiques dans le concret.",
+        "Planètes en III = style de pensée et d’échange."
+      ],
+      "erreursFrequences": ["Confondre III et IX.", "Lire III comme ‘intelligence’ globale.", "Nier l’impact du stress mental."],
+      "repereInterpretation": ["Signe en III = ton de communication.", "Planètes en III = outils mentaux.", "Maître de III = chemin d’apprentissage."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je relie.", "J’explique.", "Je m’adapte."],
+      "exemplesConcrets": ["Tu apprends en parlant.", "Tu as besoin de variété.", "Tu relies naturellement les idées."],
+      "exercices": ["Faire 1 journée ‘slow info’.", "Écrire 10 lignes par jour.", "Observer ton auto-talk (voix intérieure)."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en III : briller par l’esprit, la parole, l’apprentissage. Défi : ego mental ; maturité : transmettre utilement.",
+      "lune": "Lune en III : mémoire et intuition dans la pensée. Défi : humeur qui colore la communication ; maturité : nommer ce que tu ressens.",
+      "mercure": "Mercure en III : très fort : esprit rapide, polyvalence, aisance écrite/orale. Défi : surchauffe ; maturité : focaliser.",
+      "venus": "Vénus en III : parole douce, diplomate, esthétique des mots. Défi : non-dits ; maturité : dire vrai avec tact.",
+      "mars": "Mars en III : esprit combatif, débat, parole tranchante. Défi : agressivité ; maturité : assertivité.",
+      "jupiter": "Jupiter en III : curiosité large, talent pédagogique. Défi : survoler ; maturité : approfondir un axe.",
+      "saturne": "Saturne en III : pensée structurée, prudence, rigueur. Défi : peur de parler ; maturité : confiance et méthode.",
+      "uranus": "Uranus en III : idées originales, fulgurances. Défi : impatience ; maturité : canal créatif stable.",
+      "neptune": "Neptune en III : pensée imagée, poétique. Défi : confusion ; maturité : vérifier les faits.",
+      "pluton": "Pluton en III : parole intense, analyse profonde. Défi : obsession ; maturité : lucidité sans dureté."
+    }
+  },
+
+  {
+    "numero": 4,
+    "slug": "maison-4",
+    "titreCourt": "Maison IV",
+    "nom": "Les racines",
+    "axe": "IV–X",
+    "type": "angulaire",
+    "quadrant": "Nord",
+    "niveauLecture": {
+      "arena": "le foyer et la base intérieure",
+      "motsCles": ["famille", "intimité", "origine", "refuge", "mémoire"],
+      "verbes": ["se ressourcer", "protéger", "enraciner", "se replier", "nourrir"],
+      "fonction": "La Maison IV décrit les racines : foyer, enfance, intimité, sécurité affective et base émotionnelle.",
+      "questions": ["Où est mon chez-moi ?", "Qu’est-ce qui me recharge ?", "Que je transmets / transforme de l’héritage ?"]
+    },
+    "domaines": {
+      "principaux": ["famille", "maison", "enfance", "intimité", "racines"],
+      "secondaires": ["climat intérieur", "mémoire", "protection", "origine", "besoin de refuge"],
+      "dansLaVie": ["chez-soi", "ambiance familiale", "racines", "déménagements", "récits familiaux"]
+    },
+    "polarites": {
+      "forces": ["protection", "profondeur", "fidélité", "capacité à créer un nid"],
+      "ombres": ["repli", "nostalgie", "surprotection", "attachement au passé"],
+      "besoins": ["espace intime", "ancrage émotionnel", "rituels"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison IV = base émotionnelle.", "Elle montre ce qui recharge.", "Planètes en IV = thèmes familiaux/intimes visibles en coulisses."],
+      "erreursFrequences": ["Tout lire au premier degré (famille ‘objective’).", "Confondre IV et XII (inconscient).", "Rester prisonnier du passé."],
+      "repereInterpretation": ["Signe en IV = ambiance du foyer.", "Planètes en IV = besoins intimes.", "Maître de IV = sécurité intérieure."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je me ressource.", "Je protège l’intime.", "J’ai besoin d’un nid."],
+      "exemplesConcrets": ["Tu te recharges chez toi.", "Tu protèges ta vie privée.", "Tu ressens les ambiances très fort."],
+      "exercices": ["Créer un rituel de ‘retour à soi’.", "Trier un objet-souvenir symbolique.", "Redéfinir ce qu’est ‘chez-moi’ aujourd’hui."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en IV : identité nourrie par l’intime, besoin d’un socle familial/émotionnel. Défi : dépendance au clan ; maturité : base intérieure.",
+      "lune": "Lune en IV : très fort : besoin profond de sécurité, attachement aux racines. Défi : repli ; maturité : nourrir sans se fermer.",
+      "mercure": "Mercure en IV : mental lié au passé, besoin de raconter/comprendre l’histoire familiale. Défi : rumination ; maturité : mettre des mots libérateurs.",
+      "venus": "Vénus en IV : harmonie au foyer, cocon beau et doux. Défi : éviter les conflits ; maturité : paix vraie.",
+      "mars": "Mars en IV : énergie/tension dans le foyer, affirmation territoriale. Défi : disputes ; maturité : construire et protéger sans agresser.",
+      "jupiter": "Jupiter en IV : foyer chaleureux, protection, famille ‘grande’. Défi : idéalisation ; maturité : gratitude et stabilité.",
+      "saturne": "Saturne en IV : responsabilités familiales, besoin de structure intime. Défi : froideur ; maturité : sécurité par la maturité.",
+      "uranus": "Uranus en IV : racines atypiques, liberté au foyer, changements. Défi : instabilité ; maturité : créer son propre modèle.",
+      "neptune": "Neptune en IV : sensibilité familiale, idéalisation/secret possible. Défi : flou ; maturité : clarifier sans perdre la tendresse.",
+      "pluton": "Pluton en IV : transformations familiales, intensité intime. Défi : contrôle ; maturité : régénérer les racines."
+    }
+  },
+
+  {
+    "numero": 5,
+    "slug": "maison-5",
+    "titreCourt": "Maison V",
+    "nom": "La créativité",
+    "axe": "V–XI",
+    "type": "succedente",
+    "quadrant": "Nord",
+    "niveauLecture": {
+      "arena": "la scène, le jeu et l’expression",
+      "motsCles": ["création", "joie", "romance", "plaisir", "expression"],
+      "verbes": ["créer", "jouer", "rayonner", "séduire", "exprimer"],
+      "fonction": "La Maison V décrit l’expression personnelle : créativité, passion, romance, plaisir et capacité à ‘signer’ quelque chose d’unique."
+    },
+    "domaines": {
+      "principaux": ["créativité", "amour", "loisirs", "enfants", "expression"],
+      "secondaires": ["charisme", "mise en scène", "passion", "plaisir", "jeux"],
+      "dansLaVie": ["projets passion", "romance", "hobbies", "créations", "scène sociale"]
+    },
+    "polarites": {
+      "forces": ["élan créatif", "chaleur", "générosité", "charisme"],
+      "ombres": ["besoin d’attention", "drama", "dépendance au regard", "caprice"],
+      "besoins": ["terrain de jeu", "liberté créative", "reconnaissance saine"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison V = expression personnelle.", "Elle montre ce qui te rend vivant.", "Elle n’est pas ‘le talent’ seul, mais l’élan de création."],
+      "erreursFrequences": ["Confondre V et II (talents/valeur).", "Chercher validation plutôt que joie.", "Dramatiser l’amour."],
+      "repereInterpretation": ["Signe en V = style créatif.", "Planètes en V = moteur d’expression.", "Maître de V = comment la joie se construit."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je crée.", "Je joue.", "Je rayonne."],
+      "exemplesConcrets": ["Tu as besoin d’un projet passion.", "Tu te recharges en créant.", "Tu aimes séduire par ton style."],
+      "exercices": ["Créer 30 minutes sans objectif.", "Faire un ‘petit risque’ créatif.", "Nommer 3 plaisirs simples hebdomadaires."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en V : forte créativité, besoin de briller et d’exprimer son unicité. Défi : attention ; maturité : joie créatrice.",
+      "lune": "Lune en V : créativité émotionnelle, besoin d’affection et de plaisir. Défi : humeurs ; maturité : nourrir la joie.",
+      "mercure": "Mercure en V : humour, créativité mentale, jeux d’idées. Défi : papillonnage ; maturité : finir une œuvre.",
+      "venus": "Vénus en V : très fort : romance, art, beauté, plaisir. Défi : idéaliser ; maturité : amour vivant.",
+      "mars": "Mars en V : passion, désir, courage créatif. Défi : dramatiser ; maturité : canaliser l’intensité.",
+      "jupiter": "Jupiter en V : joie, générosité, expansion créative. Défi : excès ; maturité : grandir sans brûler.",
+      "saturne": "Saturne en V : créativité disciplinée. Défi : peur de s’exposer ; maturité : maîtrise patiente.",
+      "uranus": "Uranus en V : expression originale, amours inattendus. Défi : instabilité ; maturité : liberté responsable.",
+      "neptune": "Neptune en V : imagination, art inspiré. Défi : illusion amoureuse ; maturité : romantisme lucide.",
+      "pluton": "Pluton en V : passions intenses, créativité transformatrice. Défi : contrôle ; maturité : puissance créatrice."
+    }
+  },
+
+  {
+    "numero": 6,
+    "slug": "maison-6",
+    "titreCourt": "Maison VI",
+    "nom": "Le quotidien",
+    "axe": "VI–XII",
+    "type": "cadente",
+    "quadrant": "Nord",
+    "niveauLecture": {
+      "arena": "la routine, le service et l’amélioration",
+      "motsCles": ["habitudes", "travail", "santé", "service", "méthode"],
+      "verbes": ["organiser", "améliorer", "servir", "optimiser", "discipliner"],
+      "fonction": "La Maison VI décrit le quotidien : routines, travail, hygiène de vie, efficacité, service et amélioration progressive."
+    },
+    "domaines": {
+      "principaux": ["travail", "routine", "santé", "habitudes", "organisation"],
+      "secondaires": ["efficacité", "outils", "soin du corps", "rythme", "méthodes"],
+      "dansLaVie": ["checklists", "planning", "discipline", "outils", "hygiène de vie"]
+    },
+    "polarites": {
+      "forces": ["sens du détail", "efficacité", "discipline", "capacité à servir"],
+      "ombres": ["perfectionnisme", "stress", "auto-critique", "surmenage"],
+      "besoins": ["cadre clair", "équilibre effort/repos", "rituels sains"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison VI = rendre la vie viable.", "Elle montre comment tu ‘tiens’ au quotidien.", "Elle relie travail + santé + habitudes."],
+      "erreursFrequences": ["Lire VI comme ‘maladie’ uniquement.", "Confondre VI et X (carrière).", "Rigidifier les routines."],
+      "repereInterpretation": ["Signe en VI = style de travail.", "Planètes en VI = habitudes/moteurs.", "Maître de VI = méthode d’amélioration."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je rends ça viable.", "Je m’améliore.", "Je prends soin."],
+      "exemplesConcrets": ["Tu optimises tes outils.", "Tu as besoin de routines.", "Tu veux ‘mieux faire’."],
+      "exercices": ["Créer 1 routine matin courte.", "Définir 1 indicateur santé (sommeil).", "Faire 1 semaine ‘moins mais mieux’."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en VI : identité liée à l’utilité et au travail bien fait. Défi : surmenage ; maturité : excellence soutenable.",
+      "lune": "Lune en VI : humeur liée au quotidien ; besoin de rituels. Défi : stress somatique ; maturité : hygiène émotionnelle.",
+      "mercure": "Mercure en VI : organisation, technique, efficacité mentale. Défi : nervosité ; maturité : méthode + pauses.",
+      "venus": "Vénus en VI : harmonie au travail, douceur dans la routine. Défi : éviter les conflits ; maturité : coopération claire.",
+      "mars": "Mars en VI : rythme intense, énergie au travail. Défi : inflammation/pression ; maturité : gestion d’effort.",
+      "jupiter": "Jupiter en VI : croissance par le service, progression continue. Défi : excès ; maturité : prioriser.",
+      "saturne": "Saturne en VI : discipline, endurance, sens du devoir. Défi : rigidité ; maturité : structure souple.",
+      "uranus": "Uranus en VI : méthodes atypiques, besoin de liberté. Défi : irrégularité ; maturité : système flexible.",
+      "neptune": "Neptune en VI : sensibilité au climat de travail, vocation d’aide. Défi : flou/épuisement ; maturité : limites.",
+      "pluton": "Pluton en VI : transformation par la routine, intensité d’amélioration. Défi : obsession ; maturité : régénération."
+    }
+  },
+
+  {
+    "numero": 7,
+    "slug": "maison-7",
+    "titreCourt": "Maison VII",
+    "nom": "La relation",
+    "axe": "I–VII",
+    "type": "angulaire",
+    "quadrant": "Ouest",
+    "niveauLecture": {
+      "arena": "le face-à-face et le contrat",
+      "motsCles": ["partenariat", "couple", "miroir", "contrat", "équilibre"],
+      "verbes": ["rencontrer", "négocier", "s’engager", "coopérer", "ajuster"],
+      "fonction": "La Maison VII décrit la rencontre : couple, associations, contrats. L’autre comme miroir et apprentissage du lien."
+    },
+    "domaines": {
+      "principaux": ["couple", "associations", "contrats", "clients", "alliances"],
+      "secondaires": ["diplomatie", "miroir", "négociation", "engagement", "équilibre"],
+      "dansLaVie": ["partenariats pro", "mariage", "clients", "accords", "conflits à résoudre"]
+    },
+    "polarites": {
+      "forces": ["diplomatie", "écoute", "capacité à négocier", "sens du partenariat"],
+      "ombres": ["projection", "dépendance", "compromis excessif", "conflits de miroir"],
+      "besoins": ["dialogue honnête", "cadre clair", "équilibre donner/recevoir"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison VII = relation choisie (contrat explicite ou implicite).", "Elle montre ce que tu projettes sur l’autre.", "Planètes en VII = thèmes relationnels majeurs."],
+      "erreursFrequences": ["Tout réduire au couple.", "Oublier les contrats/clients.", "Confondre compromis et effacement."],
+      "repereInterpretation": ["Signe en VII = style relationnel.", "Planètes en VII = besoins/défis.", "Maître de VII = manière de s’engager."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je rencontre.", "Je coopère.", "Je m’ajuste."],
+      "exemplesConcrets": ["Tu apprends via les relations.", "Tu cherches des alliances stables.", "Tu as besoin d’accords clairs."],
+      "exercices": ["Lister tes non-négociables relationnels.", "Pratiquer un ‘non’ clair.", "Clarifier un contrat (même verbal)."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en VII : identité nourrie par le partenariat. Défi : dépendance ; maturité : coopération équilibrée.",
+      "lune": "Lune en VII : besoin affectif de couple, sécurité par le lien. Défi : hypersensibilité ; maturité : régulation émotionnelle.",
+      "mercure": "Mercure en VII : relation basée sur dialogue et négociation. Défi : mentaliser ; maturité : parler + écouter vraiment.",
+      "venus": "Vénus en VII : très fort : harmonie, amour, diplomatie. Défi : idéalisation ; maturité : amour réel et choix.",
+      "mars": "Mars en VII : relations dynamiques, parfois conflictuelles. Défi : disputes ; maturité : confrontation constructive.",
+      "jupiter": "Jupiter en VII : chance via alliances, générosité relationnelle. Défi : promesses trop grandes ; maturité : cohérence.",
+      "saturne": "Saturne en VII : engagement sérieux, tests relationnels. Défi : froideur ; maturité : fidélité adulte.",
+      "uranus": "Uranus en VII : partenariats atypiques, besoin de liberté. Défi : instabilité ; maturité : liberté + cadre.",
+      "neptune": "Neptune en VII : idéal romantique, fusion, compassion. Défi : illusion ; maturité : limites saines.",
+      "pluton": "Pluton en VII : intensité, transformation par la relation. Défi : pouvoir/contrôle ; maturité : profondeur sans domination."
+    }
+  },
+
+  {
+    "numero": 8,
+    "slug": "maison-8",
+    "titreCourt": "Maison VIII",
+    "nom": "La transformation",
+    "axe": "II–VIII",
+    "type": "succedente",
+    "quadrant": "Ouest",
+    "niveauLecture": {
+      "arena": "la crise, la fusion et le passage",
+      "motsCles": ["intimité", "partage", "crise", "héritage", "transmutation"],
+      "verbes": ["transformer", "fusionner", "lâcher", "renaître", "traverser"],
+      "fonction": "La Maison VIII décrit les transformations : crises, pertes, intimité profonde, ressources partagées, vérité et lâcher-prise."
+    },
+    "domaines": {
+      "principaux": ["intimité", "sexualité", "héritages", "finances partagées", "psychologie"],
+      "secondaires": ["secrets", "crises", "tabous", "pouvoir", "résilience"],
+      "dansLaVie": ["thérapie", "héritage", "dettes", "fusion", "renaissance"]
+    },
+    "polarites": {
+      "forces": ["lucidité", "résilience", "profondeur", "pouvoir de transformation"],
+      "ombres": ["peur de perdre", "contrôle", "obsession", "fusion toxique"],
+      "besoins": ["confiance", "vérité", "capacité à lâcher"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison VIII = transformation, pas ‘malheur’.", "Elle parle aussi du partagé (argent/énergie).", "Elle demande vérité et maturité."],
+      "erreursFrequences": ["Lire VIII comme uniquement sexualité.", "Dramatiser systématiquement.", "Confondre VIII et XII (dissolution)."],
+      "repereInterpretation": ["Signe en VIII = style de transformation.", "Planètes en VIII = zones sensibles.", "Maître de VIII = chemin de régénération."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je traverse.", "Je transforme.", "Je lâche."],
+      "exemplesConcrets": ["Tu vis des tournants profonds.", "Tu captes les non-dits.", "Tu as un flair psychologique."],
+      "exercices": ["Identifier 1 peur de perte et 1 antidote concret.", "Clarifier un partage (argent/temps/émotion).", "Rituel de clôture d’un cycle."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en VIII : identité transformée par l’intime et les crises. Défi : contrôler ; maturité : vérité et renaissance.",
+      "lune": "Lune en VIII : émotions intenses, attachements profonds. Défi : peur de perdre ; maturité : confiance progressive.",
+      "mercure": "Mercure en VIII : esprit d’enquête, analyse, psychologie. Défi : obsession ; maturité : lucidité apaisée.",
+      "venus": "Vénus en VIII : désir profond, lien fusionnel. Défi : jalousie ; maturité : intimité guérissante.",
+      "mars": "Mars en VIII : volonté puissante, courage de traverser. Défi : conflits de pouvoir ; maturité : puissance maîtrisée.",
+      "jupiter": "Jupiter en VIII : croissance via crises/soutiens/partages. Défi : excès ; maturité : expansion consciente.",
+      "saturne": "Saturne en VIII : prudence, responsabilité face aux pertes. Défi : peur ; maturité : solidité psychique.",
+      "uranus": "Uranus en VIII : ruptures, changements soudains dans l’intime. Défi : instabilité ; maturité : libération structurée.",
+      "neptune": "Neptune en VIII : fusion, mystère, sensibilité. Défi : flou ; maturité : limites + intuition.",
+      "pluton": "Pluton en VIII : très fort : transformation majeure. Défi : contrôle ; maturité : renaissance totale."
+    }
+  },
+
+  {
+    "numero": 9,
+    "slug": "maison-9",
+    "titreCourt": "Maison IX",
+    "nom": "Le sens",
+    "axe": "III–IX",
+    "type": "cadente",
+    "quadrant": "Ouest",
+    "niveauLecture": {
+      "arena": "le voyage, la vision et l’horizon",
+      "motsCles": ["voyages", "philosophie", "études", "spiritualité", "vision"],
+      "verbes": ["élargir", "explorer", "comprendre", "enseigner", "donner du sens"],
+      "fonction": "La Maison IX décrit la quête de sens : voyager, apprendre en profondeur, bâtir une vision, transmettre et élargir la perspective."
+    },
+    "domaines": {
+      "principaux": ["voyages", "études supérieures", "philosophie", "spiritualité", "international"],
+      "secondaires": ["langues", "transmission", "vision", "foi", "éthique"],
+      "dansLaVie": ["horizon", "sens", "voyages", "enseignements", "croyances"]
+    },
+    "polarites": {
+      "forces": ["ouverture", "optimisme", "vision", "capacité à enseigner"],
+      "ombres": ["dogmatisme", "fuite", "moralisme", "certitudes rigides"],
+      "besoins": ["horizon", "apprentissage profond", "cohérence de valeurs"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison IX = vision (pas mental quotidien : III).", "Elle parle d’horizon et d’éthique.", "Planètes en IX = style de quête de sens."],
+      "erreursFrequences": ["Dogmatisme.", "Confondre savoir et sagesse.", "Fuite dans l’idéal."],
+      "repereInterpretation": ["Signe en IX = ton philosophique.", "Planètes en IX = moteurs de sens.", "Maître de IX = voie d’expansion."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je vois plus loin.", "Je cherche le sens.", "Je transmets."],
+      "exemplesConcrets": ["Tu apprends par l’expérience.", "Tu aimes transmettre une vision.", "Tu as besoin d’élargir ton cadre."],
+      "exercices": ["Écrire ta ‘boussole de valeurs’.", "Étudier un sujet 30 jours.", "Planifier un voyage/une exploration (même mentale)."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en IX : identité nourrie par la vision et l’exploration. Défi : certitudes ; maturité : sagesse vivante.",
+      "lune": "Lune en IX : sécurité émotionnelle via l’horizon. Défi : fuite ; maturité : foi ancrée.",
+      "mercure": "Mercure en IX : pensée philosophique, langues/études, transmission. Défi : intellectualiser ; maturité : synthèse.",
+      "venus": "Vénus en IX : amour des cultures, du beau, des voyages. Défi : idéaliser ; maturité : ouverture concrète.",
+      "mars": "Mars en IX : défendre ses idées, énergie de voyage. Défi : dogme ; maturité : courage + écoute.",
+      "jupiter": "Jupiter en IX : très fort : expansion, chance par études/voyages. Défi : excès ; maturité : vision cohérente.",
+      "saturne": "Saturne en IX : rigueur éthique, études longues. Défi : rigidité ; maturité : autorité intérieure.",
+      "uranus": "Uranus en IX : ruptures de croyances, idées révolutionnaires. Défi : instabilité ; maturité : liberté + discernement.",
+      "neptune": "Neptune en IX : quête spirituelle, idéal. Défi : illusion ; maturité : intuition + vérification.",
+      "pluton": "Pluton en IX : transformation des croyances. Défi : fanatisme ; maturité : vérité profonde."
+    }
+  },
+
+  {
+    "numero": 10,
+    "slug": "maison-10",
+    "titreCourt": "Maison X",
+    "nom": "La vocation",
+    "axe": "IV–X",
+    "type": "angulaire",
+    "quadrant": "Sud",
+    "niveauLecture": {
+      "arena": "la place sociale et la direction",
+      "motsCles": ["carrière", "statut", "réputation", "responsabilité", "objectif"],
+      "verbes": ["diriger", "construire", "assumer", "viser", "réaliser"],
+      "fonction": "La Maison X décrit la vocation : place sociale, carrière, responsabilités, réputation et direction à long terme."
+    },
+    "domaines": {
+      "principaux": ["carrière", "image publique", "statut", "responsabilité", "réalisation"],
+      "secondaires": ["objectifs", "autorité", "ambition", "trace", "succès"],
+      "dansLaVie": ["réputation", "direction pro", "responsabilités", "leadership", "public"]
+    },
+    "polarites": {
+      "forces": ["vision long terme", "leadership", "sens des responsabilités", "ambition saine"],
+      "ombres": ["pression", "peur de l’échec", "surcontrôle", "image rigide"],
+      "besoins": ["objectif clair", "structure", "reconnaissance méritée"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison X = direction et statut.", "Elle n’est pas forcément ‘job’, mais place sociale.", "Planètes en X = visibilité publique."],
+      "erreursFrequences": ["Confondre X et VI (quotidien).", "Faire dépendre la valeur de la réussite.", "Rester prisonnier de l’image."],
+      "repereInterpretation": ["Signe en X = style de carrière.", "Planètes en X = moteurs publics.", "Maître de X = trajectoire."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je construis.", "Je dirige.", "Je laisse une trace."],
+      "exemplesConcrets": ["Tu cherches un cap.", "Tu prends des responsabilités.", "Ton image publique compte."],
+      "exercices": ["Écrire ton objectif à 3 ans.", "Définir 3 piliers de réputation.", "Identifier 1 responsabilité à déléguer."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en X : très fort : besoin de réussite, visibilité, leadership. Défi : pression ; maturité : autorité juste.",
+      "lune": "Lune en X : carrière influencée par cycles, image sensible. Défi : fluctuations ; maturité : stabilité émotionnelle.",
+      "mercure": "Mercure en X : carrière liée à communication/tech/commerce/enseignement. Défi : dispersion ; maturité : stratégie claire.",
+      "venus": "Vénus en X : image harmonieuse, métiers relationnels/artistiques. Défi : plaire ; maturité : valeur assumée.",
+      "mars": "Mars en X : ambition, action, compétition. Défi : conflits ; maturité : leadership opérationnel.",
+      "jupiter": "Jupiter en X : expansion, chance, réputation. Défi : excès ; maturité : croissance mesurée.",
+      "saturne": "Saturne en X : très fort : statut durable, responsabilités. Défi : lourdeur ; maturité : maîtrise.",
+      "uranus": "Uranus en X : parcours atypique, changements, innovation. Défi : instabilité ; maturité : liberté structurée.",
+      "neptune": "Neptune en X : vocation inspirée/d’aide/artistique. Défi : flou ; maturité : cadre + sens.",
+      "pluton": "Pluton en X : pouvoir et transformations pro. Défi : contrôle ; maturité : influence éthique."
+    }
+  },
+
+  {
+    "numero": 11,
+    "slug": "maison-11",
+    "titreCourt": "Maison XI",
+    "nom": "Le collectif",
+    "axe": "V–XI",
+    "type": "succedente",
+    "quadrant": "Sud",
+    "niveauLecture": {
+      "arena": "le réseau, les projets et le futur",
+      "motsCles": ["amis", "réseaux", "projets", "communauté", "avenir"],
+      "verbes": ["réseauter", "collaborer", "projeter", "rassembler", "innover"],
+      "fonction": "La Maison XI décrit le collectif : amis, réseaux, projets d’avenir, causes et capacité à construire avec d’autres."
+    },
+    "domaines": {
+      "principaux": ["amis", "réseaux", "associations", "projets", "communautés"],
+      "secondaires": ["vision future", "alliances", "collectif", "innovation sociale", "tribu"],
+      "dansLaVie": ["réseaux pro", "communautés", "projets long terme", "soutiens", "amitiés"]
+    },
+    "polarites": {
+      "forces": ["esprit d’équipe", "vision", "sens du réseau", "innovation"],
+      "ombres": ["détachement", "opportunisme", "utopie floue", "perte du soi"],
+      "besoins": ["tribu", "projet clair", "alignement collectif"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison XI = futur + réseau.", "Elle prolonge la créativité (V) dans le collectif.", "Planètes en XI = style d’alliance."],
+      "erreursFrequences": ["Confondre XI et VII (duo).", "Se dissoudre dans le groupe.", "Rester dans l’idée sans action."],
+      "repereInterpretation": ["Signe en XI = style social.", "Planètes en XI = moteur de réseau.", "Maître de XI = construction du futur."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je me relie.", "Je construis le futur.", "Je participe."],
+      "exemplesConcrets": ["Tu te nourris de projets communs.", "Tu développes un réseau.", "Tu penses ‘système’."],
+      "exercices": ["Lister 5 alliés clés.", "Choisir 1 projet à 6 mois.", "Créer 1 rituel de réseau (1 contact/sem)."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en XI : identité nourrie par projets et collectif. Défi : se dissoudre ; maturité : tribu alignée.",
+      "lune": "Lune en XI : besoin affectif d’amitiés, sécurité via réseau. Défi : dépendance ; maturité : appartenance saine.",
+      "mercure": "Mercure en XI : réseau par idées, échanges, communautés. Défi : dispersion ; maturité : connecter utilement.",
+      "venus": "Vénus en XI : amitiés harmonieuses, alliances agréables. Défi : plaire ; maturité : coopération sincère.",
+      "mars": "Mars en XI : énergie pour projets collectifs, leadership de groupe. Défi : conflits ; maturité : moteur positif.",
+      "jupiter": "Jupiter en XI : chance via réseau, opportunités sociales. Défi : promesses ; maturité : vision concrète.",
+      "saturne": "Saturne en XI : réseau sélectionné, projets long terme. Défi : isolement ; maturité : fidélité.",
+      "uranus": "Uranus en XI : très fort : innovation, futur, réseaux atypiques. Défi : instabilité ; maturité : vision ancrée.",
+      "neptune": "Neptune en XI : idéal collectif, causes, compassion sociale. Défi : utopie ; maturité : idéal incarné.",
+      "pluton": "Pluton en XI : pouvoir social, alliances intenses. Défi : jeux de pouvoir ; maturité : influence éthique."
+    }
+  },
+
+  {
+    "numero": 12,
+    "slug": "maison-12",
+    "titreCourt": "Maison XII",
+    "nom": "L’invisible",
+    "axe": "VI–XII",
+    "type": "cadente",
+    "quadrant": "Sud",
+    "niveauLecture": {
+      "arena": "le retrait, l’inconscient et la clôture",
+      "motsCles": ["inconscient", "solitude", "spiritualité", "dissolution", "fin de cycle"],
+      "verbes": ["se retirer", "dissoudre", "guérir", "pardonner", "clôturer"],
+      "fonction": "La Maison XII décrit l’invisible : inconscient, retraits nécessaires, fin de cycle, guérison, spiritualité et dissolution des repères."
+    },
+    "domaines": {
+      "principaux": ["inconscient", "solitude", "spiritualité", "secrets", "fin de cycle"],
+      "secondaires": ["rêves", "fatigue", "compassion", "coulisses", "guérison"],
+      "dansLaVie": ["retrait", "rêves", "besoin de silence", "guérison", "clôture"]
+    },
+    "polarites": {
+      "forces": ["intuition", "compassion", "profondeur", "capacité de guérison"],
+      "ombres": ["fuite", "confusion", "auto-sabotage", "victimisation"],
+      "besoins": ["repos psychique", "limites", "rituels de clôture"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison XII = invisible, pas faiblesse.", "Elle parle de cycles et de guérison.", "Planètes en XII = travail en coulisses."],
+      "erreursFrequences": ["Tout pathologiser.", "Fuir au lieu de clôturer.", "Confondre XII et IV (foyer)."],
+      "repereInterpretation": ["Signe en XII = style d’inconscient.", "Planètes en XII = zones sensibles.", "Maître de XII = voie de guérison."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je me retire.", "Je guéris.", "Je clôture."],
+      "exemplesConcrets": ["Tu as besoin de solitude.", "Tu captes les ambiances.", "Tu fonctionnes par cycles."],
+      "exercices": ["Journal de rêves 7 jours.", "Rituel de fin de journée.", "Dire ‘non’ à 1 fuite habituelle."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Soleil en XII : identité intérieure, besoin de sens caché, service discret. Défi : effacement ; maturité : lumière intérieure.",
+      "lune": "Lune en XII : hypersensibilité, rêves forts. Défi : anxiété ; maturité : hygiène émotionnelle + limites.",
+      "mercure": "Mercure en XII : pensée intuitive, imagination, travail en coulisses. Défi : confusion ; maturité : clarifier par écrit.",
+      "venus": "Vénus en XII : amour idéal, compassion, charme discret. Défi : secrets/illusions ; maturité : amour lucide.",
+      "mars": "Mars en XII : énergie diffuse ou refoulée, action en coulisses. Défi : auto-sabotage ; maturité : canaliser en douceur.",
+      "jupiter": "Jupiter en XII : protection ‘invisible’, foi, spiritualité. Défi : fuite ; maturité : confiance incarnée.",
+      "saturne": "Saturne en XII : peurs inconscientes à structurer, solitude cadrée. Défi : lourdeur ; maturité : maîtrise intérieure.",
+      "uranus": "Uranus en XII : éveils soudains, intuition fulgurante. Défi : nervosité ; maturité : grounding.",
+      "neptune": "Neptune en XII : très fort : mystique, dissolution, inspiration. Défi : flou ; maturité : limites + foi.",
+      "pluton": "Pluton en XII : transformations profondes, guérison radicale possible. Défi : peurs ; maturité : renaissance intérieure."
+    }
+  }
+]
