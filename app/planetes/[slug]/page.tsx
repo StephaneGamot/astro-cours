@@ -43,8 +43,8 @@ export default async function PlanetPage({
   const idx = getPlanetIndex(planet.slug);
   if (idx === -1) notFound();
 
-  const prev = idx > 0 ? PLANETS[idx - 1] : undefined;
-  const next = idx < PLANETS.length - 1 ? PLANETS[idx + 1] : undefined;
+const prev = PLANETS[(idx - 1 + PLANETS.length) % PLANETS.length];
+const next = PLANETS[(idx + 1) % PLANETS.length];
 
   const accent = planetTheme(planet.slug);
 

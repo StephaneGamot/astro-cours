@@ -27,9 +27,9 @@ export default async function SignPage({
   const idx = getSignIndex(sign.slug);
   if (idx === -1) notFound();
 
-  const prevSign: Sign | undefined = idx > 0 ? list[idx - 1] : undefined;
-  const nextSign: Sign | undefined =
-    idx < list.length - 1 ? list[idx + 1] : undefined;
+const prevSign: Sign = list[(idx - 1 + list.length) % list.length];
+const nextSign: Sign = list[(idx + 1) % list.length];
+
 
   const prevItem = prevSign ? getZodiaqueItemBySlug(prevSign.slug) : undefined;
   const nextItem = nextSign ? getZodiaqueItemBySlug(nextSign.slug) : undefined;

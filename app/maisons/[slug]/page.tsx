@@ -188,8 +188,9 @@ export default async function HousePage({
   const idx = getHouseIndex(house.slug);
   if (idx === -1) notFound();
 
-  const prev = idx > 0 ? HOUSES[idx - 1] : undefined;
-  const next = idx < HOUSES.length - 1 ? HOUSES[idx + 1] : undefined;
+const prev = HOUSES[(idx - 1 + HOUSES.length) % HOUSES.length];
+const next = HOUSES[(idx + 1) % HOUSES.length];
+
 
   const theme = themeForHouse(house);
 
@@ -627,18 +628,32 @@ export default async function HousePage({
                 key={p.slug}
                 className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
               >
-                <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <h3 className="font-serif text-2xl">{title}</h3>
-                    <p className="mt-1 text-sm text-text/70">
-                      {p.categorie ? `${p.categorie} • ` : ""}
-                      {p.motCle ?? ""}
-                    </p>
-                  </div>
-                  <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-xs uppercase tracking-wide text-muted">
-                    {p.slug}
-                  </span>
-                </div>
+               <div className="flex items-start justify-between gap-3">
+  <div>
+    <h3 className="font-serif text-2xl">{title}</h3>
+    <p className="mt-1 text-sm text-text/70">
+      {p.categorie ? `${p.categorie} • ` : ""}
+      {p.motCle ?? ""}
+    </p>
+  </div>
+
+  {/* ✅ Remplace le badge slug par une image planète */}
+  <div
+    className={`relative h-12 w-12 shrink-0 overflow-hidden rounded-2xl border ${theme.border} bg-white/5`}
+    aria-hidden="true"
+    title={p.name}
+  >
+    <Image
+      src={`/images/planetes/${p.slug}.webp`} // ex: /images/planetes/jupiter.webp
+      alt={`Planète ${p.name}`}
+      fill
+      className="object-cover transition duration-300 group-hover:scale-[1.04]"
+      sizes="48px"
+    />
+    <div className="absolute inset-0 bg-black/10" />
+  </div>
+</div>
+
 
                 {override?.motsCles?.length ? (
                   <div className="mt-3 flex flex-wrap gap-2">
