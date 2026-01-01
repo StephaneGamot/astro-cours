@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "title": "Synastrie — Compatibilité & dynamique relationnelle (Cours d’astrologie)",
+    "description": "Cours complet de synastrie : méthode, aspects entre planètes, axes relationnels, maisons activées, drapeaux rouges et bonnes pratiques — lecture claire et structurée.",
+    "canonical": "/synastrie"
+  },
+
+  "hero": {
+    "badge": "Cours d’astrologie — Relations",
+    "title": "Synastrie",
+    "subtitle": "Comparer deux thèmes pour comprendre la dynamique : attraction, sécurité, défis, long terme. Pas un score — une lecture.",
+    "highlights": [
+      "Méthode pro (ordre de priorité)",
+      "Aspects entre planètes (les plus importants)",
+      "Maisons activées (où ça se vit)",
+      "Stabilité, passion, conflits & réparations"
+    ]
+  },
+
+  "definition": {
+    "resume": [
+      "La synastrie compare deux thèmes natals pour voir comment deux psychés interagissent.",
+      "Elle décrit la dynamique : ce qui attire, ce qui rassure, ce qui agace, ce qui transforme.",
+      "Elle ne remplace pas la communication : elle met en lumière les zones sensibles et les leviers."
+    ],
+    "ceQueCeNestPas": [
+      "Un verdict (oui/non).",
+      "Un test de compatibilité simpliste.",
+      "Une excuse pour accepter l’inacceptable."
+    ]
+  },
+
+  "methode": {
+    "reglesOr": [
+      "1) Lire chaque thème séparément (maturité, blessures, besoins).",
+      "2) Regarder les luminaires (Soleil/Lune) + ASC/DSC/MC/FC : socle et relation.",
+      "3) Prioriser : conjonctions/oppositions/carrés puis trigones/sextiles.",
+      "4) Ensuite : Vénus/Mars (désir), Mercure (communication), Saturne (durée), Uranus/Neptune/Pluton (chapitres).",
+      "5) Finir par les maisons : où la relation “atterrit” dans la vie."
+    ],
+    "orbes": {
+      "principes": [
+        "Synastrie = orbes plutôt serrés pour éviter le flou.",
+        "On élargit un peu pour les luminaires et angles."
+      ],
+      "recommandes": [
+        { "label": "Angles + Soleil/Lune", "orbe": "jusqu’à 5° (parfois 6° si très exacts ailleurs)" },
+        { "label": "Planètes personnelles (Mercure/Vénus/Mars)", "orbe": "3° à 4°" },
+        { "label": "Jupiter/Saturne", "orbe": "3°" },
+        { "label": "Uranus/Neptune/Pluton", "orbe": "2° à 3° (surtout si exact)" }
+      ]
+    },
+    "checklist": [
+      "Les 4 axes : ASC/DSC et MC/FC (bascule relationnelle + projet de vie)",
+      "Soleil ↔ Lune (compréhension des besoins)",
+      "Vénus ↔ Mars (chimie)",
+      "Mercure ↔ Mercure / Mercure ↔ Lune (parole & émotions)",
+      "Saturne ↔ personnelles (durée, engagement, tests)",
+      "Neptune/Pluton (idéalisme & intensité) : lucidité indispensable",
+      "Maisons : où l’autre active chez moi (7, 5, 4, 8, 10…) "
+    ]
+  },
+
+  "piliers": [
+    {
+      "slug": "axes",
+      "title": "Axes relationnels (ASC/DSC/MC/FC)",
+      "why": "Les angles donnent la structure : attraction, projection, quotidien, futur.",
+      "points": [
+        "Planètes de l’autre sur ton DSC : relation évidente (partenariat).",
+        "Planètes sur ton ASC : attraction immédiate, identité stimulée.",
+        "Sur MC : ambition / direction / image sociale influencée.",
+        "Sur FC : intimité, foyer, famille, sentiment d’appartenance."
+      ],
+      "aFaire": [
+        "Repérer ce qui touche ton DSC (couple) et ton FC (sécurité).",
+        "Si Pluton/Neptune/Uranus touchent un angle : lecture adulte obligatoire."
+      ]
+    },
+    {
+      "slug": "soleil-lune",
+      "title": "Soleil–Lune (sécurité & reconnaissance)",
+      "why": "Le Soleil veut être reconnu. La Lune veut se sentir en sécurité.",
+      "points": [
+        "Harmonie : sentiment d’être “vu” et “accueilli”.",
+        "Tension : incompréhension des besoins et des rythmes affectifs.",
+        "Conjonction : lien très fort, parfois fusionnel."
+      ],
+      "aFaire": [
+        "Nommer le besoin lunaire (sécurité) + la direction solaire (but).",
+        "Créer des rituels de réparation après conflit."
+      ]
+    },
+    {
+      "slug": "venus-mars",
+      "title": "Vénus–Mars (chimie, désir, style amoureux)",
+      "why": "Vénus = ce que j’aime. Mars = comment je poursuis et je veux.",
+      "points": [
+        "Aspects faciles : désir naturel, plaisir partagé.",
+        "Aspects durs : passion + friction, jalousie ou compétition possible.",
+        "Maisons 5/7/8 activées : forte charge affective/sexuelle."
+      ],
+      "aFaire": [
+        "Clarifier les langages d’amour (Vénus) et le style de désir (Mars).",
+        "Mettre des règles claires sur les conflits (Mars)."
+      ]
+    },
+    {
+      "slug": "mercure",
+      "title": "Mercure (communication & mental)",
+      "why": "Sans Mercure, tout le reste se brouille.",
+      "points": [
+        "Mercure ↔ Mercure : même logique / rythme mental.",
+        "Mercure ↔ Lune : parole qui apaise (ou qui blesse).",
+        "Neptune en aspect à Mercure : risque de flou, malentendus, promesses."
+      ],
+      "aFaire": [
+        "Écrire ce qui est important (contrats relationnels).",
+        "Se forcer à reformuler (anti-projection)."
+      ]
+    },
+    {
+      "slug": "saturne",
+      "title": "Saturne (durée, engagement, tests)",
+      "why": "Saturne donne du réel : structure, loyauté, responsabilités.",
+      "points": [
+        "Saturne sur Vénus/Lune : attachement sérieux, mais peut refroidir si peur.",
+        "Saturne sur Mars : frustration ou discipline (selon maturité).",
+        "Saturne harmonique : relation qui tient dans le temps."
+      ],
+      "aFaire": [
+        "Définir des limites saines et des attentes réalistes.",
+        "Surveiller la honte, la critique, la dureté."
+      ]
+    },
+    {
+      "slug": "uranus-neptune-pluton",
+      "title": "Uranus / Neptune / Pluton (chapitres de vie)",
+      "why": "Ces planètes transforment : liberté, idéal, intensité.",
+      "points": [
+        "Uranus : excitation, instabilité, besoin d’espace.",
+        "Neptune : idéalisation, romantisme, flou et sauvetage possible.",
+        "Pluton : magnétisme, contrôle, mue, jalousie possible."
+      ],
+      "aFaire": [
+        "Avec Neptune : vérifier les faits, rester concret.",
+        "Avec Pluton : travailler le pouvoir, les limites et la sécurité.",
+        "Avec Uranus : instaurer des règles d’espace et de liberté."
+      ]
+    }
+  ],
+
+  "aspectsSynastrie": [
+    {
+      "slug": "conjonction",
+      "nom": "Conjonction",
+      "angle": "0°",
+      "sens": "Fusion. Très fort. Amplifie et colore la relation.",
+      "bonus": ["sentiment de destin", "compréhension immédiate"],
+      "risques": ["fusion, dépendance", "perte de frontières si Neptune/Pluton"]
+    },
+    {
+      "slug": "sextile",
+      "nom": "Sextile",
+      "angle": "60°",
+      "sens": "Facilité qui demande un geste. Très bon pour construire.",
+      "bonus": ["coopération", "solutions simples"],
+      "risques": ["passivité, laisser faire"]
+    },
+    {
+      "slug": "carre",
+      "nom": "Carré",
+      "angle": "90°",
+      "sens": "Tension. Défi d’ajustement. Très formateur si maturité.",
+      "bonus": ["énergie", "stimulation"],
+      "risques": ["conflits récurrents", "réactivité"]
+    },
+    {
+      "slug": "trigone",
+      "nom": "Trigone",
+      "angle": "120°",
+      "sens": "Alignement. Ça coule. Très bon pour durer.",
+      "bonus": ["confiance", "facilité naturelle"],
+      "risques": ["manque d’effort", "routine"]
+    },
+    {
+      "slug": "opposition",
+      "nom": "Opposition",
+      "angle": "180°",
+      "sens": "Polarité. Miroir relationnel. Apprentissage de l’équilibre.",
+      "bonus": ["complémentarité", "forte attraction"],
+      "risques": ["projection", "tiraillage"]
+    }
+  ],
+
+  "drapeaux": {
+    "rouges": [
+      "Neptune dominant sur Mercure/Vénus : flou, promesses, malentendus.",
+      "Pluton dur sur Lune/Vénus/ASC : contrôle, jalousie, intensité difficile.",
+      "Mars dur sur Lune : disputes émotionnelles, insécurité.",
+      "Saturne dur + manque de douceur : relation lourde, critique, honte."
+    ],
+    "verts": [
+      "Soleil/Lune harmonieux + Mercure correct : sécurité + dialogue.",
+      "Saturne harmonique : engagement réel, respect des limites.",
+      "Vénus/Mars harmonieux : désir + affection compatibles.",
+      "Maisons 4/7/10 activées sainement : foyer, couple, projet."
+    ]
+  },
+
+  "exemplesLecture": [
+    {
+      "titre": "Synastrie “stable et durable”",
+      "texte": "Saturne harmonique sur Vénus/Lune, Mercure fluide, axes touchés sans domination Neptune/Pluton : relation construite, fiable, temps long."
+    },
+    {
+      "titre": "Synastrie “passion + montagnes russes”",
+      "texte": "Mars et Pluton très présents, carrés et oppositions : magnétisme énorme, mais besoin de règles de conflit et de limites strictes."
+    },
+    {
+      "titre": "Synastrie “idéale… puis floue”",
+      "texte": "Neptune fort sur Vénus/Mercure : romantisme, projection, promesses. Nécessite une hygiène de réalité : faits, temporalité, engagement concret."
+    }
+  ],
+
+  "faq": [
+    {
+      "q": "Synastrie ou composite ?",
+      "a": "Synastrie = comment deux thèmes s’affectent. Composite = “le thème de la relation” comme entité. Les deux se complètent."
+    },
+    {
+      "q": "Peut-on “réparer” une synastrie difficile ?",
+      "a": "Oui si les deux sont matures : règles de conflit, communication, limites, et un objectif commun. Sinon, les aspects durs deviennent répétitifs."
+    },
+    {
+      "q": "Quel est le trio le plus important ?",
+      "a": "Soleil/Lune + Mercure + Saturne. Sans sécurité, dialogue et réel… Vénus/Mars ne suffit pas."
+    }
+  ]
+}

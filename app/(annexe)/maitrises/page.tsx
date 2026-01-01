@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import signes from "../../data/signes.details.json";
+import signes from "../../../data/signes.details.json";
 
 /**
  * Page “Dignités planétaires”

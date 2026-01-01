@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "title": "Transits — Cours d’astrologie",
+    "description": "Guide complet des transits : définition, méthode, orbes, rétrogrades, transit sur planète natale, et interprétation planète par planète avec aspects majeurs.",
+    "canonical": "/transits"
+  },
+
+  "intro": {
+    "resume": [
+      "Un transit est le passage d’une planète du ciel du moment qui forme un aspect à un point de ton thème natal (planète, angle, maison).",
+      "Les transits ne “créent” pas forcément un événement : ils activent une période, une tension ou une opportunité — et montrent ce qui est mûr pour évoluer."
+    ],
+    "aquoiCaSert": [
+      "Saisir le timing : quand une dynamique devient plus visible.",
+      "Donner du sens : quelles fonctions psychologiques sont en réajustement.",
+      "Prioriser : distinguer l’important (lents/angles) du bruit (rapides)."
+    ]
+  },
+
+  "methode": {
+    "reglesOr": [
+      "Toujours partir du natal : la promesse du thème prime sur le transit.",
+      "Hiérarchie : angles (ASC/MC/DSC/FC) > Soleil/Lune > planètes personnelles > sociales > transpersonnelles.",
+      "Plus c’est lent, plus c’est structurant (Uranus/Neptune/Pluton).",
+      "Un transit devient fort s’il se répète : passage direct + rétrograde + direct (triptyque)."
+    ],
+    "orbes": {
+      "principes": [
+        "Les orbes dépendent de l’expérience et du contexte. On peut commencer simple et affiner ensuite.",
+        "Plus l’astre natal est “fort” (Soleil/Lune/ASC/MC), plus on tolère un orbe large."
+      ],
+      "recommandes": [
+        { "label": "Planètes rapides (Soleil, Mercure, Vénus, Mars)", "orbe": "0°30 à 2°" },
+        { "label": "Jupiter / Saturne", "orbe": "1° à 3°" },
+        { "label": "Uranus / Neptune / Pluton", "orbe": "1° à 2° (jusqu’à 3° sur angles)" }
+      ]
+    },
+    "checklistLecture": [
+      "1) Quelle planète transite ? (fonction activée)",
+      "2) Quel point natal est touché ? (domaine interne / besoin / volonté / relation…)",
+      "3) Quel aspect ? (tension, opportunité, intégration)",
+      "4) Dans quelle maison du thème natal passe la planète en transit ? (décor de la période)",
+      "5) Contexte : répétitions (rétrograde), thèmes de fond (lents), déclencheurs (rapides)"
+    ]
+  },
+
+  "aspectsMajeurs": [
+    {
+      "slug": "conjonction",
+      "nom": "Conjonction",
+      "angle": "0°",
+      "motsCles": ["fusion", "nouveau cycle", "intensification"],
+      "sens": "La planète en transit “colle” au point natal : amplification, démarrage, mise en lumière. C’est un reset.",
+      "aSurveiller": ["sur-identification", "excès", "décisions trop rapides si planète impulsive"],
+      "tips": ["nommer l’enjeu", "poser une intention claire", "canaliser dans un geste concret"]
+    },
+    {
+      "slug": "sextile",
+      "nom": "Sextile",
+      "angle": "60°",
+      "motsCles": ["opportunité", "fluidité", "ouverture"],
+      "sens": "Porte qui s’ouvre : ça aide, mais il faut agir. Opportunité légère mais réelle.",
+      "aSurveiller": ["passivité", "laisser passer la fenêtre"],
+      "tips": ["faire un pas", "dire oui à une proposition raisonnable", "tester sans surinvestir"]
+    },
+    {
+      "slug": "carre",
+      "nom": "Carré",
+      "angle": "90°",
+      "motsCles": ["tension", "ajustement", "déclencheur"],
+      "sens": "Conflit utile : friction qui oblige à évoluer. Ça montre où le système est trop rigide.",
+      "aSurveiller": ["réactivité", "entêtement", "conflits inutiles"],
+      "tips": ["changer une habitude", "clarifier une limite", "éviter la fuite ou la provocation"]
+    },
+    {
+      "slug": "trigone",
+      "nom": "Trigone",
+      "angle": "120°",
+      "motsCles": ["aisance", "talent", "alignement"],
+      "sens": "Fluidité naturelle : les choses coulent. Très bon pour consolider et stabiliser.",
+      "aSurveiller": ["confort", "manque d’effort", "occasion non exploitée"],
+      "tips": ["ancrer dans le réel", "formaliser", "transformer le facile en durable"]
+    },
+    {
+      "slug": "opposition",
+      "nom": "Opposition",
+      "angle": "180°",
+      "motsCles": ["miroir", "relation", "polarité"],
+      "sens": "Ce qui est en face révèle un déséquilibre : l’autre, le monde, la contrainte. Demande intégration.",
+      "aSurveiller": ["projection", "victimisation", "ruptures impulsives"],
+      "tips": ["négocier", "écouter l’autre comme un miroir", "chercher le milieu"]
+    }
+  ],
+
+  "planetes": [
+    {
+      "slug": "soleil",
+      "name": "Soleil",
+      "categorie": "rapide",
+      "rythme": "jours",
+      "roleTransit": "Déclencheur de clarté : identité, direction, volonté.",
+      "quandFort": ["sur Soleil natal, ASC, MC", "en conjonction/opposition/carré"],
+      "themes": ["affirmation", "visibilité", "décision", "égo sain"],
+      "mantra": "Je me recentre et je choisis."
+    },
+    {
+      "slug": "lune",
+      "name": "Lune",
+      "categorie": "rapide",
+      "rythme": "heures/jours",
+      "roleTransit": "Météo émotionnelle : besoins, sécurité, réactivité.",
+      "quandFort": ["sur Lune natale", "sur angles", "en phase avec un transit lent"],
+      "themes": ["humeur", "famille", "intimité", "corps"],
+      "mantra": "J’écoute mon besoin sans me confondre avec lui."
+    },
+    {
+      "slug": "mercure",
+      "name": "Mercure",
+      "categorie": "rapide",
+      "rythme": "jours/semaines",
+      "roleTransit": "Pensée & communication : décisions, échanges, contrats, trajets.",
+      "quandFort": ["rétrograde sur un point natal", "sur Mercure natal"],
+      "themes": ["messages", "organisation", "apprentissage", "clarification"],
+      "mantra": "Je clarifie avant d’accélérer."
+    },
+    {
+      "slug": "venus",
+      "name": "Vénus",
+      "categorie": "rapide",
+      "rythme": "semaines",
+      "roleTransit": "Valeur & relation : harmonie, désir, argent, esthétique.",
+      "quandFort": ["sur Vénus natale", "sur ASC/DSC", "avec Mars"],
+      "themes": ["attirance", "plaisir", "accord", "estime"],
+      "mantra": "Je choisis ce qui nourrit ma valeur."
+    },
+    {
+      "slug": "mars",
+      "name": "Mars",
+      "categorie": "rapide",
+      "rythme": "semaines",
+      "roleTransit": "Action & désir : énergie, courage, conflit, initiative.",
+      "quandFort": ["conjonction à Mars natal", "carrés aux angles"],
+      "themes": ["déclic", "urgence", "sport", "colère"],
+      "mantra": "J’agis proprement, sans brûler."
+    },
+    {
+      "slug": "jupiter",
+      "name": "Jupiter",
+      "categorie": "sociale",
+      "rythme": "mois",
+      "roleTransit": "Expansion & sens : croissance, protection, vision.",
+      "quandFort": ["sur Soleil/MC", "trigone/sextile aux personnelles"],
+      "themes": ["chance", "opportunité", "études", "voyage", "confiance"],
+      "mantra": "J’agrandis sans perdre ma boussole."
+    },
+    {
+      "slug": "saturne",
+      "name": "Saturne",
+      "categorie": "sociale",
+      "rythme": "mois/années",
+      "roleTransit": "Structure & réalité : responsabilité, limites, maturité.",
+      "quandFort": ["sur ASC/MC", "carrés/oppositions", "retour de Saturne"],
+      "themes": ["devoir", "temps", "cadre", "profession", "solidification"],
+      "mantra": "Je construis ce qui tient."
+    },
+    {
+      "slug": "uranus",
+      "name": "Uranus",
+      "categorie": "transpersonnelle",
+      "rythme": "années",
+      "roleTransit": "Libération & rupture : nouveauté, imprévu, réveil.",
+      "quandFort": ["sur Vénus/Mars/Soleil", "sur angles", "conjonction"],
+      "themes": ["changement", "indépendance", "réinvention", "vérité"],
+      "mantra": "Je change sans casser l’essentiel."
+    },
+    {
+      "slug": "neptune",
+      "name": "Neptune",
+      "categorie": "transpersonnelle",
+      "rythme": "années",
+      "roleTransit": "Dissolution & idéal : inspiration, empathie, flou, foi.",
+      "quandFort": ["sur Soleil/Lune", "carrés", "conjonction"],
+      "themes": ["spiritualité", "rêve", "illusion", "fatigue", "hyper-sensibilité"],
+      "mantra": "Je garde les pieds sur terre, le cœur ouvert."
+    },
+    {
+      "slug": "pluton",
+      "name": "Pluton",
+      "categorie": "transpersonnelle",
+      "rythme": "années",
+      "roleTransit": "Transformation & pouvoir : crise, profondeur, mue.",
+      "quandFort": ["sur angles", "sur Soleil/Lune", "aspects exacts répétés"],
+      "themes": ["contrôle", "vérité", "deuil", "renaissance", "intensité"],
+      "mantra": "Je me transforme au lieu de résister."
+    }
+  ],
+
+  "transitSurPlaneteNatale": {
+    "intro": "Interpréter un transit = planète transite (verbe) + planète natale (fonction touchée) + aspect (dynamique) + maison (décor).",
+    "grille": [
+      {
+        "titre": "Transiteuse rapide → déclencheur",
+        "texte": "Le Soleil/Mercure/Vénus/Mars déclenchent, précisent, accélèrent. Ils donnent des dates et des événements concrets."
+      },
+      {
+        "titre": "Sociales → étapes",
+        "texte": "Jupiter/Saturne marquent des cycles : expansion, consolidation, épreuve utile. Très visibles dans la vie concrète."
+      },
+      {
+        "titre": "Transpersonnelles → chapitres",
+        "texte": "Uranus/Neptune/Pluton changent la structure du personnage. On parle souvent d’années, pas de semaines."
+      }
+    ],
+    "exemples": [
+      {
+        "titre": "Saturne carré Vénus natale",
+        "texte": "Test de valeur et de relation : on clarifie ce qui est solide, on renégocie ce qui est flou. Moins de “plaisir immédiat”, plus d’engagement réel."
+      },
+      {
+        "titre": "Jupiter conjonction Soleil natal",
+        "texte": "Période de confiance : visibilité, expansion, opportunité. Attention aux promesses trop grandes : garder une direction."
+      },
+      {
+        "titre": "Pluton sur l’ASC",
+        "texte": "Mue identitaire : changement d’image, de rapport au corps, de manière d’exister. Intensité, vérité, tri naturel."
+      }
+    ]
+  },
+
+  "faq": [
+    {
+      "q": "Faut-il absolument une heure de naissance exacte ?",
+      "a": "Pour les angles/maisons, oui c’est idéal. Sinon on travaille déjà très bien avec les planètes et aspects principaux."
+    },
+    {
+      "q": "Les rétrogrades changent-ils tout ?",
+      "a": "Ils répètent et approfondissent. On observe souvent un “aller-retour” : comprendre, revoir, décider, puis valider."
+    },
+    {
+      "q": "Transits ou progressions ?",
+      "a": "Transits = météo externe + timing. Progressions = maturation interne. Ensemble : très puissant."
+    }
+  ]
+}

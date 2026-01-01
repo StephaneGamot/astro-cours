@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "title": "Révolution solaire — Lecture annuelle (Cours d’astrologie)",
+    "description": "Cours complet sur la Révolution Solaire : définition, méthode de lecture, étapes pro, angles et maisons clés, planète maîtresse de l’année, pièges classiques, exemples et FAQ.",
+    "canonical": "/revolution-solaire"
+  },
+
+  "hero": {
+    "badge": "Cours d’astrologie — Prévisionnel",
+    "title": "Révolution solaire",
+    "subtitle": "Ton “thème anniversaire” : la météo de l’année. On ne prédit pas au hasard — on lit une dynamique annuelle avec méthode.",
+    "highlights": [
+      "Méthode pro en 10 étapes",
+      "Maison du Soleil et axes de l’année",
+      "Maître de l’Ascendant RS",
+      "Planètes dominantes & périodes",
+      "Pièges + bonnes pratiques"
+    ]
+  },
+
+  "definition": {
+    "resume": [
+      "La Révolution Solaire (RS) est un thème calculé au moment exact où le Soleil revient au même degré/minute que dans ton thème natal.",
+      "Elle décrit la dynamique de l’année : priorités, ambiance, axes de vie, opportunités et points de vigilance.",
+      "Elle se lit toujours en lien avec le thème natal et, idéalement, avec les transits/progressions."
+    ],
+    "ceQueCeNestPas": [
+      "Un destin figé : la RS montre des tendances, pas une fatalité.",
+      "Un thème “meilleur” que le natal : le natal reste la base.",
+      "Un horoscope général : la RS est individuelle."
+    ]
+  },
+
+  "methode": {
+    "reglesOr": [
+      "1) Toujours partir du thème natal (maturité, enjeux, cycles).",
+      "2) Regarder l’Ascendant RS + son maître : ton style d’année.",
+      "3) Regarder la maison du Soleil RS : ton centre de gravité.",
+      "4) Prioriser les angles (ASC/DSC/MC/FC) : ce qui devient concret.",
+      "5) Étudier la Lune RS : besoins, humeur, sécurité.",
+      "6) Repérer les planètes dominantes (proches des angles, stelliums).",
+      "7) Lire les aspects majeurs RS (Soleil/Lune/Maître ASC).",
+      "8) Regarder les maisons activées (1/4/7/10 + celle du Soleil).",
+      "9) Croiser RS ↔ Natal : sur quoi ça “tombe” chez toi.",
+      "10) Finir par une synthèse : 3 thèmes majeurs + 3 conseils pratiques."
+    ],
+    "orbes": {
+      "principes": [
+        "RS = lecture concrète : angles et luminaires prioritaires.",
+        "Orbes serrés pour la pertinence."
+      ],
+      "recommandes": [
+        { "label": "Planètes sur angles (ASC/DSC/MC/FC)", "orbe": "jusqu’à 3° (4° si très parlant)" },
+        { "label": "Soleil/Lune", "orbe": "4° à 5°" },
+        { "label": "Planètes personnelles", "orbe": "3° à 4°" },
+        { "label": "Sociales / Transpersonnelles", "orbe": "2° à 3°" }
+      ]
+    },
+    "checklist": [
+      "Maison du Soleil RS = thème central de l’année",
+      "Maître de l’ASC RS : où va l’énergie (maison) + comment (aspects)",
+      "Lune RS : humeur + sécurité + besoins relationnels",
+      "Planètes sur angles : événements concrets",
+      "Stellium : zone “surchargée” (priorité)",
+      "Saturne : responsabilités / structure",
+      "Jupiter : croissance / opportunités",
+      "Uranus : changements / liberté",
+      "Neptune : flou / inspiration",
+      "Pluton : intensité / transformation"
+    ]
+  },
+
+  "sections": [
+    {
+      "slug": "ascendant",
+      "title": "Ascendant RS & maître d’ASC",
+      "why": "L’Ascendant RS montre le ton de l’année. Le maître d’ASC dit où l’énergie va se concentrer et comment tu réagis.",
+      "points": [
+        "ASC RS = attitude, style, manière d’aborder l’année.",
+        "Maître d’ASC en maison RS = domaine principal activé.",
+        "Maître d’ASC aspecté = facilité/défi + style d’intégration.",
+        "Maître d’ASC sur un angle = année très “visible” et concrète."
+      ],
+      "aFaire": [
+        "Identifier la maison du maître d’ASC (domaine n°1).",
+        "Lire ses aspects principaux (2 ou 3 max).",
+        "Comparer au natal : la RS “appuie” quel secteur chez toi ?"
+      ]
+    },
+    {
+      "slug": "soleil",
+      "title": "Maison du Soleil RS",
+      "why": "Le Soleil RS indique le centre de gravité : ce que tu dois développer, assumer, rendre vivant.",
+      "points": [
+        "Le domaine de la maison du Soleil devient prioritaire.",
+        "Aspects au Soleil = facilités / tensions qui structurent l’année.",
+        "Soleil proche d’un angle : année charnière."
+      ],
+      "aFaire": [
+        "Noter la maison du Soleil RS + le signe (style).",
+        "Chercher les liens avec ton natal (maison natal activée)."
+      ]
+    },
+    {
+      "slug": "lune",
+      "title": "La Lune RS",
+      "why": "La Lune RS parle du vécu : émotions, sécurité, besoins, rythme de vie.",
+      "points": [
+        "Maison de la Lune = ce qui touche l’intime et le quotidien.",
+        "Aspects Lune = climat émotionnel (apaisé ou réactif).",
+        "Lune en lien à Saturne/Neptune/Pluton : maturité, flou ou intensité."
+      ],
+      "aFaire": [
+        "Définir ton besoin lunaire de l’année (sécurité, affection, liberté…).",
+        "Mettre en place 1 rituel hebdo de régulation (sport, repos, écriture…)."
+      ]
+    },
+    {
+      "slug": "angles",
+      "title": "Angles & planètes dominantes",
+      "why": "Les angles rendent l’année concrète. Les planètes proches des angles deviennent “dominantes”.",
+      "points": [
+        "Planète sur MC : carrière, direction, visibilité.",
+        "Sur FC : famille, maison, racines, intimité.",
+        "Sur DSC : couple/associations/contrats.",
+        "Sur ASC : identité, corps, santé, style de vie."
+      ],
+      "aFaire": [
+        "Lister les planètes à moins de 3° d’un angle.",
+        "Choisir 1 à 2 dominantes max pour ton “fil rouge”."
+      ]
+    },
+    {
+      "slug": "croisements",
+      "title": "Croiser RS ↔ Natal",
+      "why": "La RS seule peut être vague. Le croisement montre “où ça tombe” réellement chez toi.",
+      "points": [
+        "Superposer les maisons : RS maison X tombe dans quel secteur natal ?",
+        "Aspects RS aux planètes natales : déclencheurs et thèmes.",
+        "Angles RS sur planètes natales : année décisive."
+      ],
+      "aFaire": [
+        "Comparer maison du Soleil RS avec ton natal.",
+        "Comparer maître d’ASC RS avec ton natal (aspects/maison)."
+      ]
+    }
+  ],
+
+  "piges": {
+    "erreurs": [
+      "Lire la RS sans thème natal (ça devient flou ou trop général).",
+      "Tout lire : trop d’infos tue le sens (prioriser 3 thèmes).",
+      "Confondre “tension” et “catastrophe” : un carré est un travail, pas une fatalité.",
+      "Oublier le concret : maison/axes = faits, rythme, décisions."
+    ],
+    "bonnesPratiques": [
+      "Synthèse en 3 thèmes + 3 actions concrètes.",
+      "Créer un “plan d’année” : ce que tu nourris, ce que tu limites, ce que tu apprends.",
+      "Croiser avec transits (surtout Saturne/Jupiter/Pluton)."
+    ]
+  },
+
+  "exemples": [
+    {
+      "titre": "Année “professionnelle”",
+      "texte": "Soleil RS en maison 10, planète dominante sur MC, aspects structurants à Saturne : responsabilités, visibilité, choix de direction. La clé : cadrer et prioriser."
+    },
+    {
+      "titre": "Année “relationnelle”",
+      "texte": "ASC RS en Balance, planètes en maison 7, maître d’ASC en 7 : couple/associations au centre. La clé : contrats clairs, communication (Mercure) + limites (Saturne)."
+    },
+    {
+      "titre": "Année “intérieure / transformation”",
+      "texte": "Dominante Pluton/8 ou FC chargé : tri, fin d’un cycle, travail émotionnel profond. La clé : sobriété, thérapie/écriture, et simplification."
+    }
+  ],
+
+  "faq": [
+    {
+      "q": "La RS commence le jour de mon anniversaire ?",
+      "a": "Elle commence au moment exact du retour solaire (qui peut être avant/après l’heure de naissance). Dans la pratique : autour de l’anniversaire."
+    },
+    {
+      "q": "Faut-il calculer la RS au lieu où je vis ou où je suis né ?",
+      "a": "En général, on calcule la RS pour le lieu où tu te trouves au moment de ton anniversaire (ou là où tu passes le retour solaire). Cela modifie les maisons, donc l’accent de l’année."
+    },
+    {
+      "q": "Comment trouver la “planète maîtresse de l’année” ?",
+      "a": "Souvent : le maître d’ASC RS + les planètes dominantes (sur angles). On évite d’en avoir 5 : on choisit 1 à 2 piliers."
+    } ]
+  }
+
