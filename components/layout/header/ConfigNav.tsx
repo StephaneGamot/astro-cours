@@ -275,7 +275,7 @@ export const autre: Item[] = [
   {
     name: "Maîtrises",
     description: "Planète maîtresse d’un signe",
-    href: "/outils/maitrises",
+    href: "/maitrises",
     icon: glyph("🜊"),
   },
   {
