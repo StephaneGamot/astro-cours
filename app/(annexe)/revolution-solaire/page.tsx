@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import data from "../../../data/revolution-solaire.details.json";
 import Image from "next/image";
-import HeroSrc from "./../../public/images/revolution-solaire.webp"
+import HeroSrc from "./../../../public/images/revolution-solaire.webp"
 
  
 type PageData = typeof data;
