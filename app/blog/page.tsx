@@ -73,11 +73,10 @@ export default function BlogPage({
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
 
         <div className="relative">
-          <p className="text-sm text-text/60">Blog</p>
 
           <div className="mt-2 flex flex-wrap items-end justify-between gap-4">
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight leading-tight">
-              Cours d’astrologie
+              Blog d’astrologie
             </h1>
 
             {/* mini stats */}
@@ -140,7 +139,7 @@ export default function BlogPage({
       {/* Titre section */}
       <div className="flex items-end justify-between gap-4">
         <div>
-          <h2 className="text-xl font-semibold tracking-tight">Derniers cours</h2>
+          <h2 className="text-xl font-semibold tracking-tight">Derniers articles</h2>
           <p className="mt-1 text-sm text-text/70">
             Commence par un thème qui t’attire, puis suis les tags pour progresser.
           </p>
