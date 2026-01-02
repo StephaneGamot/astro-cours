@@ -6,7 +6,7 @@ export const meta = {
   slug: "qu-est-ce-qu-un-theme-astral",
   title: "Qu’est-ce qu’un thème astral ?",
   description:
-    "Définition claire du thème astral : à quoi il sert, ce qu’il contient vraiment, et pourquoi il est bien plus qu’un signe astrologique.",
+    "Définition claire du thème astral : à quoi il sert, ce qu’il contient vraiment, et pourquoi il est bien plus qu’un signe astrologique ou un ascendant.",
   date: "2026-01-05",
   tags: ["bases", "thème astral", "débutant"],
   readingLevel: "débutant" as const,
