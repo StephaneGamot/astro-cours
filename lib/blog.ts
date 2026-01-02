@@ -1,80 +1,30 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import readingTime from "reading-time";
+import { posts } from "@/content/blog/posts";
 
-export type BlogFrontmatter = {
-  title: string;
-  description: string;
-  date: string; // ISO "YYYY-MM-DD"
-  tags?: string[];
-  cover?: string;
-  readingLevel?: "débutant" | "intermédiaire" | "avancé";
-};
 
-export type BlogPost = {
-  slug: string;
-  frontmatter: BlogFrontmatter;
-  content: string;
-  stats: { text: string; minutes: number };
-};
-
-const BLOG_DIR = path.join(process.cwd(), "src", "content", "blog");
-
-function ensureBlogDir() {
-  if (!fs.existsSync(BLOG_DIR)) return [];
-  return fs.readdirSync(BLOG_DIR).filter((f) => f.endsWith(".mdx"));
+export function getAllPosts() {
+  return [...posts].sort((a, b) => (a.meta.date < b.meta.date ? 1 : -1));
 }
 
-export function getAllPosts(): BlogPost[] {
-  const files = ensureBlogDir();
-
-  const posts = files.map((file) => {
-    const fullPath = path.join(BLOG_DIR, file);
-    const raw = fs.readFileSync(fullPath, "utf8");
-    const { data, content } = matter(raw);
-
-    const slug = file.replace(/\.mdx$/, "");
-    const stats = readingTime(content);
-
-    return {
-      slug,
-      frontmatter: data as BlogFrontmatter,
-      content,
-      stats: {
-        text: stats.text,
-        minutes: Math.max(1, Math.round(stats.minutes)),
-      },
-    };
-  });
-
-  // tri par date desc
-  posts.sort((a, b) => (a.frontmatter.date < b.frontmatter.date ? 1 : -1));
-  return posts;
+export function getPostBySlug(slug: string) {
+  return posts.find((p) => p.meta.slug === slug) ?? null;
 }
 
-export function getPostBySlug(slug: string): BlogPost | null {
-  const fullPath = path.join(BLOG_DIR, `${slug}.mdx`);
-  if (!fs.existsSync(fullPath)) return null;
 
-  const raw = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(raw);
-  const stats = readingTime(content);
-
-  return {
-    slug,
-    frontmatter: data as BlogFrontmatter,
-    content,
-    stats: {
-      text: stats.text,
-      minutes: Math.max(1, Math.round(stats.minutes)),
-    },
-  };
-}
-
-export function getAllTags(): string[] {
+export function getRelatedPosts(currentSlug: string, max = 4) {
   const posts = getAllPosts();
-  const set = new Set<string>();
-  posts.forEach((p) => (p.frontmatter.tags ?? []).forEach((t) => set.add(t)));
-  return Array.from(set).sort((a, b) => a.localeCompare(b));
+  const current = posts.find((p) => p.meta.slug === currentSlug);
+  if (!current) return [];
+
+  const currentTags = new Set(current.meta.tags ?? []);
+
+  return posts
+    .filter((p) => p.meta.slug !== currentSlug)
+    .map((p) => {
+      const score = (p.meta.tags ?? []).reduce((acc, t) => acc + (currentTags.has(t) ? 1 : 0), 0);
+      return { post: p, score };
+    })
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, max)
+    .map((x) => x.post);
 }

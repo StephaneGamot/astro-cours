@@ -5,7 +5,6 @@ import Logo from "@/public/AstroLogo.webp";
 import { planetes } from "./ConfigNav";
 import { zodiaque } from "./ConfigNav";
 import { maisons } from "./ConfigNav";
-import { blog } from "./ConfigNav";
 import { autre } from "./ConfigNav";
 import { useState } from "react";
 import {
@@ -18,9 +17,6 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-
-
-
 
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -170,46 +166,12 @@ export default function NavBar() {
             </PopoverPanel>
           </Popover>
 
-          <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
-              Blog
-              <ChevronDownIcon
-                aria-hidden="true"
-                className="size-5 flex-none text-gray-500"
-              />
-            </PopoverButton>
-
-            <PopoverPanel
-              transition
-              className="absolute left-1/2 z-10 mt-3 w-screen max-w-md -translate-x-1/2 overflow-hidden rounded-3xl bg-gray-800 outline outline-1 -outline-offset-1 outline-white/10 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
-            >
-              <div className="p-4">
-                {blog.map((item) => (
-                  <div
-                    key={item.name}
-                    className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-white/5"
-                  >
-                    <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-700/50 group-hover:bg-gray-700">
-                      <item.icon
-                        aria-hidden={true}
-                        className="size-12 text-gray-400 group-hover:text-white"
-                      />
-                    </div>
-                    <div className="flex-auto">
-                      <Link
-                        href={item.href}
-                        className="block font-semibold !text-white"
-                      >
-                        {item.name}
-                        <span className="absolute inset-0" />
-                      </Link>
-                      <p className="!mt-0 text-gray-400">{item.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </PopoverPanel>
-          </Popover>
+          <Link
+            href="/blog"
+            className="text-md/6 font-semibold !text-white hover:text-white/90 transition"
+          >
+            Blog
+          </Link>
 
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
@@ -375,33 +337,28 @@ export default function NavBar() {
                 </div>
 
                 <div className="space-y-2 py-6">
-                  {blog.map((item) => (
-                    <Link
-                      key={item.name}
-                      href={item.href}
-                      className="group -mx-3 flex items-stretch gap-x-4 rounded-lg p-3 hover:bg-white/5"
-                    >
-                      {/* Icon column: 100% hauteur */}
-                      <div className="flex w-12 flex-none items-stretch">
-                        <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
-                          <item.icon
-                            aria-hidden={true}
-                            className="size-9 text-gray-300 group-hover:text-white"
-                          />
-                        </div>
+                  <Link
+                    href="/blog"
+                    className="group -mx-3 flex items-stretch gap-x-4 rounded-lg p-3 hover:bg-white/5"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <div className="flex w-12 flex-none items-stretch">
+                      <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
+                        <span className="text-xl text-gray-300 group-hover:text-white">
+                          ✦
+                        </span>
                       </div>
+                    </div>
 
-                      {/* Text column */}
-                      <div className="flex min-w-0 flex-1 flex-col justify-center">
-                        <div className="text-base font-semibold text-indigo-400">
-                          {item.name}
-                        </div>
-                        <p className="!mt-0 text-xs text-gray-400">
-                          {item.description}
-                        </p>
+                    <div className="flex min-w-0 flex-1 flex-col justify-center">
+                      <div className="text-base font-semibold text-indigo-400">
+                        Blog
                       </div>
-                    </Link>
-                  ))}
+                      <p className="!mt-0 text-xs text-gray-400">
+                        Articles & cours premium
+                      </p>
+                    </div>
+                  </Link>
                 </div>
 
                 <div className="space-y-2 py-6">

@@ -244,32 +244,6 @@ export const maisons: Item[] = [
   },
 ];
 
-export const blog: Item[] = [
-  {
-    name: "Débuter l’astrologie",
-    description: "Les bases pour comprendre un thème astral",
-    href: "/blog/debuter",
-    icon: glyph("☉"),
-  },
-  {
-    name: "Signes & éléments",
-    description: "Feu, Terre, Air, Eau ",
-    href: "/blog/elements",
-    icon: glyph("🜃"),
-  },
-  {
-    name: "Planètes personnelles",
-    description: "Soleil, Lune, Mercure, Vénus, Mars",
-    href: "/blog/planetes-personnelles",
-    icon: glyph("❈"),
-  },
-  {
-    name: "Lexique astro",
-    description: "Définitions simples des termes clés",
-    href: "/blog/lexique",
-    icon: glyph("⚴"),
-  },
-];
 
 export const autre: Item[] = [
   {
