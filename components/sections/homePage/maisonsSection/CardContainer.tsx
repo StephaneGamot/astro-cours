@@ -5,7 +5,7 @@ type House = (typeof maisons)[number];
 
 export default function MaisonsCardContainer() {
   return (
-    <section
+    <section id="maisons"
       aria-label="Maisons astrologiques : cours et définitions"
       className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8"
     >

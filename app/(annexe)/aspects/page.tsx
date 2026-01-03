@@ -522,9 +522,9 @@ export default function AspectsPage() {
             Étape suivante : appliquer les aspects aux <span className="text-text">transits</span> (cas pratiques).
           </p>
           <div className="flex flex-wrap gap-2">
-            <Link className={`${pill} hover:bg-white/10`} href="/signes">Signes</Link>
+            <Link className={`${pill} hover:bg-white/10`} href="/#zodiaque">Signes</Link>
             <Link className={`${pill} hover:bg-white/10`} href="/#planetes">Planètes</Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/maisons">Maisons</Link>
+            <Link className={`${pill} hover:bg-white/10`} href="/#maisons">Maisons</Link>
           </div>
         </div>
       </footer>

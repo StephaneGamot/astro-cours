@@ -562,7 +562,7 @@ export default function RetrogradesPage() {
             <Link className={`${pill} hover:bg-white/10`} href="/#planetes">
               Planètes
             </Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/maisons">
+            <Link className={`${pill} hover:bg-white/10`} href="/#maisons">
               Maisons
             </Link>
           </div>

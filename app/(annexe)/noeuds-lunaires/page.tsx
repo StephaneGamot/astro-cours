@@ -461,7 +461,7 @@ export default function NoeudsLunairesPage() {
         <div className="flex flex-wrap items-center justify-center gap-4">
           <div className="flex flex-wrap gap-2">
             <Link className={pill} href="/aspects">Aspects</Link>
-            <Link className={pill} href="/maisons">Maisons</Link>
+            <Link className={pill} href="/#maisons">Maisons</Link>
             <Link className={pill} href="/transits">Transits</Link>
           </div>
         </div>

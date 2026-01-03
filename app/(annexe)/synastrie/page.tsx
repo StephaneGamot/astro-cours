@@ -359,7 +359,7 @@ export default function SynastriePage() {
             <Link className={pill} href="/aspects">Aspects</Link>
             <Link className={pill} href="/#planetes">Planètes</Link>
             <Link className={pill} href="/transits">Transits</Link>
-            <Link className={pill} href="/maisons">Maisons</Link>
+            <Link className={pill} href="/#maisons">Maisons</Link>
           </div>
         </div>
       </footer>

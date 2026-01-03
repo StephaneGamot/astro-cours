@@ -5,7 +5,7 @@ type Zodiac = (typeof zodiaque)[number];
 
 export default function ZodiacCardContainer() {
   return (
-    <section
+    <section id="zodiaque"
       aria-label="Signes du zodiaque : définitions et symbolique"
       className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8"
     >

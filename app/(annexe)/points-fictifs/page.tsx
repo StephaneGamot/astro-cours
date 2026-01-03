@@ -493,7 +493,7 @@ export default function PointsFictifsPage() {
          
           <div className="flex flex-wrap gap-2">
             <Link className={pill} href="/aspects">Aspects</Link>
-            <Link className={pill} href="/maisons">Maisons</Link>
+            <Link className={pill} href="/#maisons">Maisons</Link>
             <Link className={pill} href="/transits">Transits</Link>
           </div>
         </div>

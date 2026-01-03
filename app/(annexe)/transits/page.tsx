@@ -430,7 +430,7 @@ export default function TransitsPage() {
           <div className="flex flex-wrap gap-2">
             <Link className={pill} href="/aspects">Aspects</Link>
             <Link className={pill} href="/maitrises">Dignités</Link>
-            <Link className={pill} href="/maisons">Maisons</Link>
+            <Link className={pill} href="/#maisons">Maisons</Link>
             <Link className={pill} href="/#planetes">Planètes</Link>
           </div>
         </div>

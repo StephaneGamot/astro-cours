@@ -764,7 +764,7 @@ const next = HOUSES[(idx + 1) % HOUSES.length];
 
         <div className="mt-8 flex justify-center">
           <Link
-            href="/maisons"
+            href="/#maisons"
             className={`rounded-full border ${theme.border} bg-white/5 px-5 py-2 text-sm text-text/90 hover:bg-white/10`}
           >
             ← Retour aux maisons
