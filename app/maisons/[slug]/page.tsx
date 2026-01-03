@@ -155,8 +155,6 @@ function planetInHouseText(planet: Planet, house: House) {
   return `${planet.name}${motCle} en ${arena} : la fonction de ${pf} s’exprime ici de manière concrète. Elle colore les expériences liées à cette maison, devient un thème récurrent et indique un “point d’action” privilégié. Le défi est d’éviter l’excès (sur-investir ce domaine) ou l’évitement (ne pas assumer la leçon de cette maison) ; la maturité consiste à canaliser cette énergie vers des choix simples et cohérents.`;
 }
 
-/* ---------------- Next.js ---------------- */
-
 export function generateStaticParams() {
   return HOUSES.map((h) => ({ slug: h.slug }));
 }
@@ -175,9 +173,7 @@ export function generateMetadata(
   return {
     title,
     description: `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`,
-    alternates: {
-      canonical: `/maisons/${house.slug}`,
-    },
+    alternates: { canonical: `/maisons/${house.slug}` },
     openGraph: {
       title,
       description: `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`,
@@ -188,12 +184,12 @@ export function generateMetadata(
 }
 
 
-export default async function HousePage({
+export default function HousePage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const { slug } = await params;
+  const { slug } = params;
 
   const house = getHouse(slug);
   if (!house) notFound();
