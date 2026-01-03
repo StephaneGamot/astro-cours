@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     template: "%s — Astro Cours",
   },
   description: "Cours d’astrologie clairs, structurés et modernes.",
+  verification: {
+    google: "ihg3LVKNM0DKUMbESaivmUlpEYI6_asrhZirUGlQH8Y",
+  },
   alternates: {
     canonical: "/",
   },
