@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-
+import type { Metadata } from "next";
 import maisons from "../../../data/maisons.details.json";
 import planetes from "../../../data/planetes.details.json";
 
@@ -27,7 +27,7 @@ type House = {
     questions?: string[];
   };
 
-  domaines?: {
+  domaines: {
     principaux?: string[];
     secondaires?: string[];
     dansLaVie?: string[];
@@ -64,6 +64,8 @@ type Planet = {
   fonction?: string;
   categorie?: string;
 };
+
+
 
 const ROMAN = [
   "",
@@ -169,7 +171,7 @@ export async function generateMetadata({
   if (!house) return {};
   return {
     title: `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`,
-    description: `Maison ${house.numero} : sens, domaines, repères et interprétations (planètes dans la maison incluses).`,
+    description: `Maison ${house.numero} : ${house.domaines.principaux}`,
   };
 }
 
