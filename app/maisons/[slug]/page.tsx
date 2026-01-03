@@ -184,12 +184,12 @@ export function generateMetadata(
 }
 
 
-export default function HousePage({
+export default async function HousePage({
   params,
 }: {
-  params: { slug: string };
+params: Promise<{ slug: string }>;
 }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const house = getHouse(slug);
   if (!house) notFound();
