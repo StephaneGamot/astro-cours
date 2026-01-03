@@ -30,7 +30,7 @@ export default function NavBar() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-2.5 p-0.5">
             <span className="sr-only">Logo Astro cours</span>
-            <Image alt="logo" src={Logo} className="h-16 w-auto" />
+            <Image alt="logo d'astro-cours representant la roue du zodiaque" src={Logo} className="h-16 w-auto" />
           </Link>
         </div>
         <div className="flex lg:hidden">
