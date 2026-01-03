@@ -161,19 +161,32 @@ export function generateStaticParams() {
   return HOUSES.map((h) => ({ slug: h.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-  const house = getHouse(slug);
+export function generateMetadata(
+  { params }: { params: { slug: string } }
+): Metadata {
+  const house = getHouse(params.slug);
   if (!house) return {};
+
+  const title = `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`;
+
+  const principaux = (house.domaines?.principaux ?? []).filter(Boolean);
+  const descPlus = principaux.length ? ` Domaines : ${principaux.join(", ")}.` : "";
+
   return {
-    title: `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`,
-    description: `Maison ${house.numero} : ${house.domaines.principaux}`,
+    title,
+    description: `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`,
+    alternates: {
+      canonical: `/maisons/${house.slug}`,
+    },
+    openGraph: {
+      title,
+      description: `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`,
+      url: `/maisons/${house.slug}`,
+      type: "article",
+    },
   };
 }
+
 
 export default async function HousePage({
   params,
