@@ -24,9 +24,7 @@ export const metadata: Metadata = {
     template: "%s — Astro Cours",
   },
   description: "Cours d’astrologie clairs, structurés et modernes.",
-  verification: {
-    google: "ihg3LVKNM0DKUMbESaivmUlpEYI6_asrhZirUGlQH8Y",
-  },
+
   alternates: {
     canonical: "/",
   },
@@ -63,7 +61,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${inter.variable} ${cormorant.variable}`}>
-      <head>
+      <head> <meta
+    name="google-site-verification"
+    content="ihg3LVKNM0DKUMbESaivmUlpEYI6_asrhZirUGlQH8Y"
+  />
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="JNM0DqC2SHxBN/ZLlVz+xA"
