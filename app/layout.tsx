@@ -24,10 +24,7 @@ export const metadata: Metadata = {
     template: "%s — Astro Cours",
   },
   description: "Cours d’astrologie clairs, structurés et modernes.",
-
-  alternates: {
-    canonical: "/",
-  },
+  alternates: { canonical: "/" },
   robots: {
     index: true,
     follow: true,
@@ -54,25 +51,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={`${inter.variable} ${cormorant.variable}`}>
-      <head> <meta
-    name="google-site-verification"
-    content="ihg3LVKNM0DKUMbESaivmUlpEYI6_asrhZirUGlQH8Y"
-  />
+      <body>
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="JNM0DqC2SHxBN/ZLlVz+xA"
           strategy="afterInteractive"
         />
-      </head>
 
-      <body>
         <NavBAr />
         {children}
       </body>
