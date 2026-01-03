@@ -709,7 +709,7 @@ const next = HOUSES[(idx + 1) % HOUSES.length];
                 >
                   <Image
                     src={`/images/maisons/${toRoman(prev.numero)}.webp`}
-                    alt=""
+                    alt={`${`Maison ${toRoman(house.numero)}`} — ${house.nom}`}
                     fill
                     className="object-cover transition duration-300 group-hover:scale-[1.04]"
                     sizes="128px"
