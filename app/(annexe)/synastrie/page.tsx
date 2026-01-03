@@ -357,7 +357,7 @@ export default function SynastriePage() {
         <div className="flex flex-wrap items-center justify-center gap-4">
           <div className="flex flex-wrap gap-2">
             <Link className={pill} href="/aspects">Aspects</Link>
-            <Link className={pill} href="/planetes">Planètes</Link>
+            <Link className={pill} href="/#planetes">Planètes</Link>
             <Link className={pill} href="/transits">Transits</Link>
             <Link className={pill} href="/maisons">Maisons</Link>
           </div>

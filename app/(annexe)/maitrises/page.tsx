@@ -554,7 +554,7 @@ export default function MaitrisesCoursPage() {
             <Link className={`${pill} hover:bg-white/10`} href="/signes">
               Signes
             </Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/planetes">
+            <Link className={`${pill} hover:bg-white/10`} href="/#planetes">
               Planètes
             </Link>
             <Link className={`${pill} hover:bg-white/10`} href="/maisons">

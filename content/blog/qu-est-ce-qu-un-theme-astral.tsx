@@ -372,7 +372,7 @@ export default function Post() {
                 Voir tous les cours
               </Link>
               <Link
-                href="/planetes"
+                href="/#planetes"
                 className="block rounded-xl border border-white/10 bg-black/20 px-4 py-2 text-sm text-text/80 hover:bg-white/10 transition"
               >
                 Explorer les planètes

@@ -432,7 +432,7 @@ export default function AsteroidesPage() {
                   </div>
 
                   <Link
-                    href="/planetes"
+                    href="/#planetes"
                     className={`rounded-full border ${t.border} bg-white/5 px-5 py-2 text-sm hover:bg-white/10`}
                   >
                     Revoir les planètes →

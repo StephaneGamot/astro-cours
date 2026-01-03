@@ -431,7 +431,7 @@ export default function TransitsPage() {
             <Link className={pill} href="/aspects">Aspects</Link>
             <Link className={pill} href="/maitrises">Dignités</Link>
             <Link className={pill} href="/maisons">Maisons</Link>
-            <Link className={pill} href="/planetes">Planètes</Link>
+            <Link className={pill} href="/#planetes">Planètes</Link>
           </div>
         </div>
       </footer>

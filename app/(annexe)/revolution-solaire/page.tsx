@@ -343,7 +343,7 @@ export default function RevolutionSolairePage() {
           <div className="flex flex-wrap gap-2">
             <Link className={pill} href="/transits">Transits</Link>
             <Link className={pill} href="/aspects">Aspects</Link>
-            <Link className={pill} href="/planetes">Planètes</Link>
+            <Link className={pill} href="/#planetes">Planètes</Link>
           </div>
         </div>
       </footer>

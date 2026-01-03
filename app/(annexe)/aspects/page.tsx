@@ -523,7 +523,7 @@ export default function AspectsPage() {
           </p>
           <div className="flex flex-wrap gap-2">
             <Link className={`${pill} hover:bg-white/10`} href="/signes">Signes</Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/planetes">Planètes</Link>
+            <Link className={`${pill} hover:bg-white/10`} href="/#planetes">Planètes</Link>
             <Link className={`${pill} hover:bg-white/10`} href="/maisons">Maisons</Link>
           </div>
         </div>

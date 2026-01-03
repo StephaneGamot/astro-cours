@@ -467,7 +467,7 @@ export default function LilithPage() {
       <div className="mt-4 flex flex-wrap gap-2">
         <Link className={pill} href="/aspects">Aspects</Link>
         <Link className={pill} href="/maisons">Maisons</Link>
-        <Link className={pill} href="/planetes">Planètes</Link>
+        <Link className={pill} href="/#planetes">Planètes</Link>
       </div>
     </div>
 
@@ -507,7 +507,7 @@ export default function LilithPage() {
 
       <div className="mt-4 flex flex-wrap gap-2">
         <Link className={pill} href="/signes">Signes</Link>
-        <Link className={pill} href="/planetes">Planètes</Link>
+        <Link className={pill} href="/#planetes">Planètes</Link>
         <Link className={pill} href="/maisons">Maisons</Link>
         <Link className={pill} href="/maitrises">Dignités</Link>
       </div>
