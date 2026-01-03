@@ -1,83 +1,83 @@
 [
   {
-    "slug": "1",
+    "slug": "maison-1",
     "name": "Maison I",
     "headline": "La Maison I représente l’entrée dans le monde",
     "description": "L’identité en mouvement : la manière de commencer, de se présenter et d’occuper sa place. On y lit l’élan personnel et le style spontané.",
     "image": { "src": "/images/maisons/I.webp", "alt": "Maison I en astrologie" }
   },
   {
-    "slug": "2",
+    "slug": "maison-2",
     "name": "Maison II",
     "headline": "La Maison II représente les ressources",
     "description": "Les valeurs, la sécurité et ce que l’on construit dans le concret. Elle parle du rapport à l’argent, au corps, et à ce qui stabilise.",
     "image": { "src": "/images/maisons/II.webp", "alt": "Maison II en astrologie" }
   },
   {
-    "slug": "3",
+    "slug": "maison-3",
     "name": "Maison III",
     "headline": "La Maison III représente l’apprentissage quotidien",
     "description": "La communication, les échanges proches et la curiosité. Elle décrit la manière de penser “au jour le jour” et de se relier à l’environnement.",
     "image": { "src": "/images/maisons/III.webp", "alt": "Maison III en astrologie" }
   },
   {
-    "slug": "4",
+    "slug": "maison-4",
     "name": "Maison IV",
     "headline": "La Maison IV représente les racines",
     "description": "Le foyer, l’intimité et la base intérieure. Elle parle de la famille, de l’histoire personnelle et de ce qui nourrit un sentiment d’appartenance.",
     "image": { "src": "/images/maisons/IV.webp", "alt": "Maison IV en astrologie" }
   },
   {
-    "slug": "5",
+    "slug": "maison-5",
     "name": "Maison V",
     "headline": "La Maison V représente l’expression créative",
     "description": "Le plaisir, la création et ce qui fait battre le cœur. Elle concerne la joie de s’exprimer, l’amour, les loisirs et parfois la parentalité.",
     "image": { "src": "/images/maisons/V.webp", "alt": "Maison V en astrologie" }
   },
   {
-    "slug": "6",
+    "slug": "maison-6",
     "name": "Maison VI",
     "headline": "La Maison VI représente le quotidien organisé",
     "description": "Les habitudes, le travail concret et l’attention au corps. Elle parle de discipline, de santé, de service et des ajustements nécessaires.",
     "image": { "src": "/images/maisons/VI.webp", "alt": "Maison VI en astrologie" }
   },
   {
-    "slug": "7",
+    "slug": "maison-7",
     "name": "Maison VII",
     "headline": "La Maison VII représente la relation à l’autre",
     "description": "Les partenariats et le face-à-face. Elle décrit la manière de s’engager, de coopérer, et ce que l’on apprend à travers le lien.",
     "image": { "src": "/images/maisons/VII.webp", "alt": "Maison VII en astrologie" }
   },
   {
-    "slug": "8",
+    "slug": "maison-8",
     "name": "Maison VIII",
     "headline": "La Maison VIII représente la transformation",
     "description": "Les passages intenses : crise, régénération, vérité émotionnelle. Elle parle des liens profonds, des ressources partagées et du lâcher-prise.",
     "image": { "src": "/images/maisons/VIII.webp", "alt": "Maison VIII en astrologie" }
   },
   {
-    "slug": "9",
+    "slug": "maison-9",
     "name": "Maison IX",
     "headline": "La Maison IX représente l’ouverture",
     "description": "Les études, les voyages, la philosophie et la quête de sens. Elle décrit le besoin d’élargir la vision et de comprendre le “pourquoi”.",
     "image": { "src": "/images/maisons/IX.webp", "alt": "Maison IX en astrologie" }
   },
   {
-    "slug": "10",
+    "slug": "maison-10",
     "name": "Maison X",
     "headline": "La Maison X représente la vocation",
     "description": "La direction sociale et ce que l’on construit au long cours. Elle parle de carrière, d’image publique et de responsabilité face au monde.",
     "image": { "src": "/images/maisons/X.webp", "alt": "Maison X en astrologie" }
   },
   {
-    "slug": "11",
+    "slug": "maison-11",
     "name": "Maison XI",
     "headline": "La Maison XI représente le collectif",
     "description": "Les amitiés, les réseaux et les projets d’avenir. Elle décrit la place dans un groupe, l’idéal commun et les chemins vers le futur.",
     "image": { "src": "/images/maisons/XI.webp", "alt": "Maison XI en astrologie" }
   },
   {
-    "slug": "12",
+    "slug": "maison-12",
     "name": "Maison XII",
     "headline": "La Maison XII représente l’invisible",
     "description": "Le retrait, l’inconscient et la vie intérieure profonde. Elle parle de ce qui se vit en silence, de la guérison, et de la connexion au subtil.",
