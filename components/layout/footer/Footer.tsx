@@ -40,46 +40,76 @@ const legal = [
   { name: "Sitemap", href: "/sitemap.xml" },
 ];
 
+function List({
+  items,
+  max = 10,
+}: {
+  items: Array<{ name: string; href: string }>;
+  max?: number;
+}) {
+  return (
+    <ul role="list" className="mt-4 space-y-2">
+      {items.slice(0, max).map((item) => (
+        <li key={item.href}>
+          <Link
+            href={item.href}
+            className="group inline-flex items-center gap-2 text-sm text-gray-300/80 hover:text-white transition"
+          >
+            <span className="h-1 w-1 rounded-full bg-white/25 group-hover:bg-white/60 transition" />
+            <span className="leading-6">{item.name}</span>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
-function Section({
+function DesktopCol({
   title,
   items,
-  max = 8,
+  max = 10,
 }: {
   title: string;
   items: Array<{ name: string; href: string }>;
   max?: number;
 }) {
   return (
-    <div>
-      <h3 className="text-sm/6 font-semibold text-white">{title}</h3>
-      <ul role="list" className="mt-6 space-y-3">
-        {items.slice(0, max).map((item) => (
-          <li key={item.href}>
-            <Link
-              href={item.href}
-              className="text-sm/6 text-gray-400 hover:text-gray-200 transition"
-            >
-              {item.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
-      {items.length > max ? (
-        <div className="mt-4">
-          <Link
-            href={
-              items[0].href.split("/")[1]
-                ? `/${items[0].href.split("/")[1]}`
-                : "/"
-            }
-            className="text-xs text-gray-400 hover:text-gray-200 underline underline-offset-4"
-          >
-            Voir tout →
-          </Link>
-        </div>
-      ) : null}
+    <div className="hidden lg:block">
+      <h3 className="text-sm font-semibold text-white/90 tracking-wide">
+        {title}
+      </h3>
+      <List items={items} max={max} />
     </div>
+  );
+}
+
+function MobileAccordion({
+  title,
+  items,
+  max = 10,
+}: {
+  title: string;
+  items: Array<{ name: string; href: string }>;
+  max?: number;
+}) {
+  return (
+    <details className="group rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 open:bg-white/[0.06] transition lg:hidden">
+      <summary className="cursor-pointer list-none select-none">
+        <div className="flex items-center justify-between gap-4">
+          <h3 className="text-sm font-semibold text-white/90">{title}</h3>
+          <span className="text-white/40 group-open:rotate-180 transition">
+            ▾
+          </span>
+        </div>
+        <div className="mt-1 text-xs text-gray-400">
+          {Math.min(items.length, max)} liens
+        </div>
+      </summary>
+
+      <div className="mt-3 pb-1">
+        <List items={items} max={max} />
+      </div>
+    </details>
   );
 }
 
@@ -93,54 +123,97 @@ export default function Footer() {
     }));
 
   return (
-    <footer className="bg-gray-900 border-t border-white/10">
-      <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
-        {/* Mini CTA */}
-    
+    <footer className="relative bg-gray-950 border-t border-white/10">
+      {/* glow premium */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_380px_at_50%_0%,rgba(56,189,248,0.18),transparent_60%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(700px_320px_at_20%_20%,rgba(255,255,255,0.06),transparent_55%)]" />
 
-        {/* 5 colonnes */}
-        <div className="grid gap-10 lg:grid-cols-5">
-          <Section title="Signes" items={baseColumns.signes} max={12} />
-          <Section title="Planètes" items={baseColumns.planetes} max={10} />
-          <Section title="Maisons" items={baseColumns.maisons} max={12} />
-          <Section title="Annexes" items={annexes} max={12} />
-          <Section title="Derniers articles" items={posts} max={12} />
+      <div className="relative mx-auto max-w-7xl px-6 py-14 lg:px-8">
+        {/* Top block */}
+        <div className="mb-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+          <div className="space-y-2">
+            <Link href="/" className="inline-flex items-center gap-3">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/[0.04]">
+                ✦
+              </span>
+              <span className="font-serif text-xl text-white">Astro Cours</span>
+            </Link>
+            <p className="text-sm text-gray-400 max-w-xl">
+              Cours d’astrologie clairs, structurés et modernes. Signes, planètes,
+              maisons et annexes pédagogiques.
+            </p>
+          </div>
+
+          {/* mini CTA */}
+          <div className="rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-4">
+            <p className="text-sm text-white/90 font-semibold">
+              Besoin d’un sujet précis ?
+            </p>
+            <p className="mt-1 text-xs text-gray-400">
+              Explore le blog ou commence par une maison.
+            </p>
+            <div className="mt-3 flex flex-wrap gap-3">
+              <Link
+                href="/blog"
+                className="rounded-full border border-white/10 bg-white/[0.05] px-4 py-2 text-xs text-gray-200 hover:bg-white/[0.10] transition"
+              >
+                Voir le blog
+              </Link>
+              <Link
+                href="/#zodiaque"
+                className="rounded-full border border-sky-400/25 bg-sky-500/10 px-4 py-2 text-xs text-sky-100 hover:bg-sky-500/15 transition"
+              >
+                Parcourir le zodiaque
+              </Link>
+            </div>
+          </div>
         </div>
 
-        {/* Ligne basse */}
-<div className="mt-12 border-t border-white/10 pt-8 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-  <p className="text-xs leading-relaxed text-gray-400">
-    © {new Date().getFullYear()} Astro Cours{" "}
-    <span className="hidden sm:inline mx-3 text-white/15">|</span>
-    <a
-      href="https://www.stephanegamot.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Créé par Stéphane Gamot
-    </a>
-  </p>
+        {/* Mobile accordions */}
+        <div className="grid gap-3 lg:hidden">
+          <MobileAccordion title="Signes" items={baseColumns.signes} max={12} />
+          <MobileAccordion title="Planètes" items={baseColumns.planetes} max={10} />
+          <MobileAccordion title="Maisons" items={baseColumns.maisons} max={12} />
+          <MobileAccordion title="Annexes" items={annexes} max={12} />
+          <MobileAccordion title="Derniers articles" items={posts} max={5} />
+        </div>
 
-  <nav className="flex flex-wrap gap-x-5 gap-y-2 sm:justify-end">
-    {legal.map((item) => (
-      <Link
-        key={item.href}
-        href={item.href}
-        className="text-xs text-gray-400 hover:text-gray-200 transition"
-      >
-        {item.name}
-      </Link>
-    ))}
-  </nav>
-</div>
+        {/* Desktop 5 columns */}
+        <div className="hidden lg:grid gap-10 lg:grid-cols-5">
+          <DesktopCol title="Signes" items={baseColumns.signes} max={12} />
+          <DesktopCol title="Planètes" items={baseColumns.planetes} max={10} />
+          <DesktopCol title="Maisons" items={baseColumns.maisons} max={12} />
+          <DesktopCol title="Annexes" items={annexes} max={12} />
+          <DesktopCol title="Derniers articles" items={posts} max={5} />
+        </div>
 
+        {/* Bottom line */}
+        <div className="mt-12 border-t border-white/10 pt-8 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+          <p className="text-xs text-gray-400 leading-relaxed">
+            © {new Date().getFullYear()} Astro Cours
+            <span className="hidden sm:inline mx-3 text-white/15">•</span>
+            <a
+              href="https://www.stephanegamot.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white transition"
+            >
+             &emsp;-&emsp;Site créé par Stéphane Gamot
+            </a>
+          </p>
 
-
-
-
-
-
+          <nav className="flex flex-wrap gap-x-5 gap-y-2">
+            {legal.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-xs text-gray-400 hover:text-gray-200 transition"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
+        </div>
       </div>
     </footer>
   );
