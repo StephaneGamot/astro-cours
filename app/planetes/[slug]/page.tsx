@@ -38,12 +38,12 @@ export function generateMetadata(
   };
 }
 
-export default async function PlanetPage({
+export default function PlanetPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
-  const { slug } = await params;
+  const { slug } = params;
 
   const planet = getPlanet(slug);
   if (!planet) notFound();
@@ -51,14 +51,13 @@ export default async function PlanetPage({
   const idx = getPlanetIndex(planet.slug);
   if (idx === -1) notFound();
 
-const prev = PLANETS[(idx - 1 + PLANETS.length) % PLANETS.length];
-const next = PLANETS[(idx + 1) % PLANETS.length];
+  const prev = PLANETS[(idx - 1 + PLANETS.length) % PLANETS.length];
+  const next = PLANETS[(idx + 1) % PLANETS.length];
 
   const accent = planetTheme(planet.slug);
 
   const heroSrc = planet.hero?.src ?? `/images/planetes/${planet.slug}/a.webp`;
   const heroAlt = planet.hero?.alt ?? `Illustration de ${planet.name}`;
-  const thumbSrc = planet.image?.src ?? `/images/planetes/${planet.slug}/thumb.webp`;
 
   return (
     <main className="relative mx-auto max-w-4xl px-6 pb-12 text-text">

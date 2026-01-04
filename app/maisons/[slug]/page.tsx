@@ -66,6 +66,32 @@ type Planet = {
   categorie?: string;
 };
 
+export function generateStaticParams() {
+  return HOUSES.map((h) => ({ slug: h.slug }));
+}
+
+export function generateMetadata(
+  { params }: { params: { slug: string } }
+): Metadata {
+  const house = getHouse(params.slug);
+  if (!house) return {};
+
+  const title = buildTitle(
+    `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`
+  );
+
+  const principaux = (house.domaines?.principaux ?? []).filter(Boolean);
+  const descPlus = principaux.length ? ` Domaines : ${principaux.join(", ")}.` : "";
+
+  const description = `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`;
+
+  return buildMeta({
+    title,
+    description,
+    canonicalPath: `/maisons/${house.slug}`,
+    type: "article",
+  });
+}
 
 
 const ROMAN = [
@@ -154,33 +180,6 @@ function planetInHouseText(planet: Planet, house: House) {
 
   // Gabarit volontairement clair, pédagogique, pas ésotérique flou.
   return `${planet.name}${motCle} en ${arena} : la fonction de ${pf} s’exprime ici de manière concrète. Elle colore les expériences liées à cette maison, devient un thème récurrent et indique un “point d’action” privilégié. Le défi est d’éviter l’excès (sur-investir ce domaine) ou l’évitement (ne pas assumer la leçon de cette maison) ; la maturité consiste à canaliser cette énergie vers des choix simples et cohérents.`;
-}
-
-export function generateStaticParams() {
-  return HOUSES.map((h) => ({ slug: h.slug }));
-}
-
-export function generateMetadata(
-  { params }: { params: { slug: string } }
-): Metadata {
-  const house = getHouse(params.slug);
-  if (!house) return {};
-
-  const title = buildTitle(
-    `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`
-  );
-
-  const principaux = (house.domaines?.principaux ?? []).filter(Boolean);
-  const descPlus = principaux.length ? ` Domaines : ${principaux.join(", ")}.` : "";
-
-  const description = `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`;
-
-  return buildMeta({
-    title,
-    description,
-    canonicalPath: `/maisons/${house.slug}`,
-    type: "article",
-  });
 }
 
 
