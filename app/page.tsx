@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Cours d’astrologie premium — Signes, planètes, maisons",
-  description: "Cours d’astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.",
+  description: "Cours d’astrologie clairs, structurés et modernes : Les 12 signes, les 10 planètes, les 12 maisons, les principaux aspects et et d'autres sujets tels que les transits.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "Cours d’astrologie premium — Signes, planètes, maisons",
