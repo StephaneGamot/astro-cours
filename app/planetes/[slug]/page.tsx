@@ -23,15 +23,19 @@ export function generateMetadata(
   const planet = getPlanet(params.slug);
   if (!planet) return {};
 
-  const title = buildTitle(`${planet.name} — Cours d’astrologie`);
-  const description = `${planet.name} : symbolique, expressions, maisons et aspects. Cours clair, exemples et repères.`;
+  const canonical = `/planetes/${planet.slug}`;
 
-  return buildMeta({
-    title,
-    description,
-    canonicalPath: `/planetes/${planet.slug}`,
-    type: "article",
-  });
+  return {
+    title: `${planet.name} — Symbolique, maisons, aspects`,
+    description: `${planet.name} : sens, fonctions, expressions, maisons et aspects. Cours clair, exemples et méthode.`,
+    alternates: { canonical },
+    openGraph: {
+      title: `${planet.name} — Cours d’astrologie`,
+      description: `${planet.name} : symbolique, expressions, maisons et aspects.`,
+      url: canonical,
+      type: "article",
+    },
+  };
 }
 
 export default async function PlanetPage({

@@ -4,6 +4,19 @@ import PlanetsCardContainer from "@/components/sections/homePage/planetesSection
 import Constelations from "@/components/images/Constelations";
 import ZodiacCardContainer from "@/components/sections/homePage/zodiaqueSection/CardContainer";
 import MaisonsCardContainer from "@/components/sections/homePage/maisonsSection/CardContainer";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cours d’astrologie premium — Signes, planètes, maisons",
+  description: "Cours d’astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "Cours d’astrologie premium — Signes, planètes, maisons",
+    description: "Cours clairs : signes, planètes, maisons, aspects et transits. Méthode + repères.",
+    url: "/",
+    type: "website",
+  },
+};
 
 export default function Home() {
   return (
