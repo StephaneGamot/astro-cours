@@ -25,7 +25,6 @@ export const metadata: Metadata = {
     template: "%s — Astro Cours",
   },
   description: "Cours d’astrologie clairs, structurés et modernes.",
-  alternates: { canonical: "/" },
   robots: {
     index: true,
     follow: true,
