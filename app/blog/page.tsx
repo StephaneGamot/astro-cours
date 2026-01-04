@@ -4,18 +4,27 @@ import { getAllPosts } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 
 export const metadata: Metadata = {
-  title: "Blog — Cours d’astrologie",
+  title: "Blog",
   description:
     "Articles premium et structurés : bases, aspects, planètes, transits. Des cours lisibles, concrets et progressifs.",
   alternates: { canonical: "/blog" },
   openGraph: {
-    title: "Blog — Cours d’astrologie",
+    title: "Blog",
     description:
       "Bases, aspects, planètes, transits : cours clairs, exemples, méthode.",
     url: "/blog",
     type: "website",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog",
+    description:
+      "Bases, aspects, planètes, transits : cours clairs, exemples, méthode.",
   },
 };
+
 
 function uniqTags(posts: ReturnType<typeof getAllPosts>) {
   const set = new Set<string>();

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 import {
   PLANETS,
@@ -16,17 +17,35 @@ export function generateStaticParams() {
   return PLANETS.map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-  const planet = getPlanet(slug);
+export function generateMetadata(
+  { params }: { params: { slug: string } }
+): Metadata {
+  const planet = getPlanet(params.slug);
   if (!planet) return {};
+
+  const title = `${planet.name} — Cours d’astrologie`;
+  const description = `${planet.name} : symbolique, expressions, maisons, aspects et repères d’interprétation.`;
+  const canonical = `/planetes/${planet.slug}`;
+
   return {
-    title: `${planet.name} — Cours d’astrologie`,
-    description: `${planet.name} : symbolique, expressions, maisons et aspects.`,
+    title,
+    description,
+    alternates: { canonical },
+
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: "article",
+      siteName: "Astro Cours",
+      locale: "fr_FR",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 

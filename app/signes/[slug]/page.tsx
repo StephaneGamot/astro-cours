@@ -6,8 +6,68 @@ import { getSign } from "@/components/sections/zodiaque/Helpers";
 import { getSignIndex } from "@/components/sections/zodiaque/Helpers";
 import { getZodiaqueItemBySlug } from "@/components/sections/zodiaque/Helpers";
 import signes from "../../../data/signes.details.json";
+import type { Metadata } from "next";
 
-type Sign = (typeof signes)[number];
+type Sign = {
+  slug: string;
+  nom?: string;
+  name?: string;
+  element?: string;
+  modalite?: string;
+  polarite?: string;
+  motsCles?: string[];
+  description?: string;
+};
+
+const SIGNS = signes as Sign[];
+
+function getSignBySlug(slug: string) {
+  return SIGNS.find((s) => s.slug === slug);
+}
+
+export function generateStaticParams() {
+  return SIGNS.map((s) => ({ slug: s.slug }));
+}
+
+export function generateMetadata(
+  { params }: { params: { slug: string } }
+): Metadata {
+  const sign = getSignBySlug(params.slug);
+  if (!sign) return {};
+
+  const label = sign.nom ?? sign.name ?? sign.slug;
+
+  const title = `${label} — Signe astrologique`;
+  const facets = [sign.element, sign.modalite, sign.polarite].filter(Boolean);
+  const facetsTxt = facets.length ? ` (${facets.join(" · ")})` : "";
+
+  const description =
+    sign.description ??
+    `${label}${facetsTxt} : traits, forces, ombres, besoins, compatibilités et repères d’interprétation.`;
+
+  const canonical = `/signes/${sign.slug}`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: "article",
+      siteName: "Astro Cours",
+      locale: "fr_FR",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
+}
 
 
 export default async function SignPage({

@@ -165,23 +165,38 @@ export function generateMetadata(
   const house = getHouse(params.slug);
   if (!house) return {};
 
-  const title = `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`;
+  const short = house.titreCourt ?? `Maison ${house.numero}`;
+  const title = `${short} — ${house.nom}`;
 
   const principaux = (house.domaines?.principaux ?? []).filter(Boolean);
   const descPlus = principaux.length ? ` Domaines : ${principaux.join(", ")}.` : "";
 
+  const description = `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`;
+
+  const canonical = `/maisons/${house.slug}`;
+
   return {
     title,
-    description: `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`,
-    alternates: { canonical: `/maisons/${house.slug}` },
+    description,
+    alternates: { canonical },
+
     openGraph: {
       title,
-      description: `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`,
-      url: `/maisons/${house.slug}`,
+      description,
+      url: canonical,
       type: "article",
+      siteName: "Astro Cours",
+      locale: "fr_FR",
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
     },
   };
 }
+
 
 
 export default async function HousePage({

@@ -20,6 +20,14 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.astro-cours.com"),
+
+  title: {
+    default: "Astro Cours",
+    template: "%s — Astro Cours",
+  },
+  description: "Cours d’astrologie clairs, structurés et modernes.",
+
+  // ⚠️ PAS de canonical global ici
   robots: {
     index: true,
     follow: true,
@@ -31,6 +39,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+
   openGraph: {
     title: "Astro Cours",
     description: "Cours d’astrologie clairs, structurés et modernes.",
@@ -39,6 +48,7 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Astro Cours",
@@ -55,7 +65,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           data-key="JNM0DqC2SHxBN/ZLlVz+xA"
           strategy="afterInteractive"
         />
-
         <NavBAr />
         {children}
         <Footer />
