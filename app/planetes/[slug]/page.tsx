@@ -20,30 +20,28 @@ export function generateStaticParams() {
 export function generateMetadata(
   { params }: { params: { slug: string } }
 ): Metadata {
-  const planet = getPlanet(params.slug);
+  const slug = decodeURIComponent(params.slug).trim().toLowerCase();
+  const planet = getPlanet(slug);
   if (!planet) return {};
 
   const canonical = `/planetes/${planet.slug}`;
 
-  return {
-    title: `${planet.name} — Symbolique, maisons, aspects`,
+  return buildMeta({
+    title: buildTitle(`${planet.name} — Symbolique, maisons, aspects`),
     description: `${planet.name} : sens, fonctions, expressions, maisons et aspects. Cours clair, exemples et méthode.`,
-    alternates: { canonical },
-    openGraph: {
-      title: `${planet.name} — Cours d’astrologie`,
-      description: `${planet.name} : symbolique, expressions, maisons et aspects.`,
-      url: canonical,
-      type: "article",
-    },
-  };
+    canonicalPath: canonical,
+    type: "article",
+  });
 }
+
 
 export default function PlanetPage({
   params,
 }: {
   params: { slug: string };
 }) {
-  const { slug } = params;
+  const raw = params.slug;
+  const slug = decodeURIComponent(raw).trim().toLowerCase();
 
   const planet = getPlanet(slug);
   if (!planet) notFound();
