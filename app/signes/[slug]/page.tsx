@@ -7,6 +7,8 @@ import { getSignIndex } from "@/components/sections/zodiaque/Helpers";
 import { getZodiaqueItemBySlug } from "@/components/sections/zodiaque/Helpers";
 import signes from "../../../data/signes.details.json";
 import type { Metadata } from "next";
+import { buildMeta, buildTitle } from "@/lib/seo";
+
 
 type Sign = {
   slug: string;
@@ -37,38 +39,18 @@ export function generateMetadata(
 
   const label = sign.nom ?? sign.name ?? sign.slug;
 
-  const title = `${label} — Signe astrologique`;
-  const facets = [sign.element, sign.modalite, sign.polarite].filter(Boolean);
-  const facetsTxt = facets.length ? ` (${facets.join(" · ")})` : "";
-
+  const title = buildTitle(`${label} — Signe astrologique`);
   const description =
-    sign.description ??
-    `${label}${facetsTxt} : traits, forces, ombres, besoins, compatibilités et repères d’interprétation.`;
+    `${label} : traits, qualités, défis, amour, travail, éléments et modalités. ` +
+    `Cours clair, repères et exemples.`;
 
-  const canonical = `/signes/${sign.slug}`;
-
-  return {
+  return buildMeta({
     title,
     description,
-    alternates: { canonical },
-
-    openGraph: {
-      title,
-      description,
-      url: canonical,
-      type: "article",
-      siteName: "Astro Cours",
-      locale: "fr_FR",
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-    },
-  };
+    canonicalPath: `/signes/${sign.slug}`,
+    type: "article",
+  });
 }
-
 
 export default async function SignPage({
   params,

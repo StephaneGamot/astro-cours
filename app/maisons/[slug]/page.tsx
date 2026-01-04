@@ -4,6 +4,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import maisons from "../../../data/maisons.details.json";
 import planetes from "../../../data/planetes.details.json";
+import { buildMeta, buildTitle } from "@/lib/seo";
 
 /* ---------------- Types ---------------- */
 
@@ -165,36 +166,21 @@ export function generateMetadata(
   const house = getHouse(params.slug);
   if (!house) return {};
 
-  const short = house.titreCourt ?? `Maison ${house.numero}`;
-  const title = `${short} — ${house.nom}`;
+  const title = buildTitle(
+    `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`
+  );
 
   const principaux = (house.domaines?.principaux ?? []).filter(Boolean);
   const descPlus = principaux.length ? ` Domaines : ${principaux.join(", ")}.` : "";
 
   const description = `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`;
 
-  const canonical = `/maisons/${house.slug}`;
-
-  return {
+  return buildMeta({
     title,
     description,
-    alternates: { canonical },
-
-    openGraph: {
-      title,
-      description,
-      url: canonical,
-      type: "article",
-      siteName: "Astro Cours",
-      locale: "fr_FR",
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-    },
-  };
+    canonicalPath: `/maisons/${house.slug}`,
+    type: "article",
+  });
 }
 
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-
+import { buildMeta, buildTitle } from "@/lib/seo";
 import {
   PLANETS,
   getPlanet,
@@ -23,30 +23,15 @@ export function generateMetadata(
   const planet = getPlanet(params.slug);
   if (!planet) return {};
 
-  const title = `${planet.name} — Cours d’astrologie`;
-  const description = `${planet.name} : symbolique, expressions, maisons, aspects et repères d’interprétation.`;
-  const canonical = `/planetes/${planet.slug}`;
+  const title = buildTitle(`${planet.name} — Cours d’astrologie`);
+  const description = `${planet.name} : symbolique, expressions, maisons et aspects. Cours clair, exemples et repères.`;
 
-  return {
+  return buildMeta({
     title,
     description,
-    alternates: { canonical },
-
-    openGraph: {
-      title,
-      description,
-      url: canonical,
-      type: "article",
-      siteName: "Astro Cours",
-      locale: "fr_FR",
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-    },
-  };
+    canonicalPath: `/planetes/${planet.slug}`,
+    type: "article",
+  });
 }
 
 export default async function PlanetPage({

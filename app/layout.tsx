@@ -5,6 +5,43 @@ import "./globals.css";
 import NavBAr from "@/components/layout/header/NavBar";
 import Footer from "@/components/layout/footer/Footer";
 
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.astro-cours.com"),
+  title: {
+    default: "Astro Cours",
+    template: "%s — Astro Cours",
+  },
+  description:
+    "Cours d’astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.",
+  applicationName: "Astro Cours",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "Astro Cours",
+    description:
+      "Cours d’astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.",
+    url: "/",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Astro Cours",
+    description:
+      "Cours d’astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.",
+  },
+};
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -17,44 +54,6 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
   display: "swap",
 });
-
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.astro-cours.com"),
-
-  title: {
-    default: "Astro Cours",
-    template: "%s — Astro Cours",
-  },
-  description: "Cours d’astrologie clairs, structurés et modernes.",
-
-  // ⚠️ PAS de canonical global ici
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-
-  openGraph: {
-    title: "Astro Cours",
-    description: "Cours d’astrologie clairs, structurés et modernes.",
-    url: "https://www.astro-cours.com",
-    siteName: "Astro Cours",
-    locale: "fr_FR",
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Astro Cours",
-    description: "Cours d’astrologie clairs, structurés et modernes.",
-  },
-};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
