@@ -20,11 +20,6 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.astro-cours.com"),
-  title: {
-    default: "Astro Cours",
-    template: "%s — Astro Cours",
-  },
-  description: "Cours d’astrologie clairs, structurés et modernes.",
   robots: {
     index: true,
     follow: true,
