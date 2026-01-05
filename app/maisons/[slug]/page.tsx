@@ -66,14 +66,12 @@ type Planet = {
   categorie?: string;
 };
 
-export function generateStaticParams() {
-  return HOUSES.map((h) => ({ slug: h.slug }));
-}
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+  const { slug } = await params;
 
-export function generateMetadata(
-  { params }: { params: { slug: string } }
-): Metadata {
-  const house = getHouse(params.slug);
+  const house = getHouse(slug);
   if (!house) return {};
 
   const title = buildTitle(

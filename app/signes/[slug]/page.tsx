@@ -1,52 +1,100 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { elementTheme } from "@/components/sections/zodiaque/Helpers";
-import { getSign } from "@/components/sections/zodiaque/Helpers";
-import { getSignIndex } from "@/components/sections/zodiaque/Helpers";
-import { getZodiaqueItemBySlug } from "@/components/sections/zodiaque/Helpers";
-import signes from "../../../data/signes.details.json";
 import type { Metadata } from "next";
-import { buildMeta, buildTitle } from "@/lib/seo";
+import type { ReactNode } from "react";
 
+import { buildMeta, buildTitle } from "@/lib/seo";
+import {
+  elementTheme,
+  getSign,
+  getSignIndex,
+  getZodiaqueItemBySlug,
+} from "@/components/sections/zodiaque/Helpers";
+
+import signes from "../../../data/signes.details.json";
 
 type Sign = {
   slug: string;
   nom?: string;
   name?: string;
+
   element?: string;
-  modalite?: string;
+  periode?: string;
   polarite?: string;
-  motsCles?: string[];
-  description?: string;
+  mode?: string;
+
+  maitre?: string;
+  exaltation?: string;
+  exil?: string;
+  chute?: string;
+
+  mythologie?: string;
+
+  analogie?: {
+    animal?: string;
+    objet?: string;
+    fonction?: string;
+  };
+
+  anatomie?: string[];
+  generalites?: string[];
+
+  forces?: string[];
+  ombres?: string[];
+  besoins?: string[];
+
+  aptitudes?: {
+    atouts?: string[];
+    defis?: string[];
+  };
+
+  planeteDansLeSigne?: {
+    intro?: string;
+    motsCles?: string[];
+    exemples?: string[];
+  };
+
+  dansUnTheme?: string[];
+
+  motCle?: string;
 };
+
 
 const SIGNS = signes as Sign[];
 
-function getSignBySlug(slug: string) {
-  return SIGNS.find((s) => s.slug === slug);
+function normalizeSlug(raw: string) {
+  return decodeURIComponent(raw).trim().toLowerCase();
 }
+
+function getSignBySlug(slug: string) {
+  const s = normalizeSlug(slug);
+  return SIGNS.find((x) => x.slug === s);
+}
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return SIGNS.map((s) => ({ slug: s.slug }));
 }
 
-export function generateMetadata(
-  { params }: { params: { slug: string } }
-): Metadata {
-  const sign = getSignBySlug(params.slug);
+// ✅ Next 16: params peut être une Promise
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+  const { slug: raw } = await params;
+  const slug = normalizeSlug(raw);
+
+  const sign = getSignBySlug(slug);
   if (!sign) return {};
 
   const label = sign.nom ?? sign.name ?? sign.slug;
 
-  const title = buildTitle(`${label} — Signe astrologique`);
-  const description =
-    `${label} : traits, qualités, défis, amour, travail, éléments et modalités. ` +
-    `Cours clair, repères et exemples.`;
-
   return buildMeta({
-    title,
-    description,
+    title: buildTitle(`${label} — Signe astrologique`),
+    description:
+      `${label} : traits, qualités, défis, amour, travail, éléments et modalités. ` +
+      `Cours clair, repères et exemples.`,
     canonicalPath: `/signes/${sign.slug}`,
     type: "article",
   });
@@ -57,35 +105,36 @@ export default async function SignPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const { slug } = await params;
+  const { slug: raw } = await params;
+  const slug = normalizeSlug(raw);
 
   const sign = getSign(slug);
   if (!sign) notFound();
 
-  const has = <T,>(v: T | undefined | null): v is T =>
-    v !== undefined && v !== null;
-
-  const list = signes as Sign[];
+  const list = SIGNS;
   const idx = getSignIndex(sign.slug);
   if (idx === -1) notFound();
 
-const prevSign: Sign = list[(idx - 1 + list.length) % list.length];
-const nextSign: Sign = list[(idx + 1) % list.length];
-
+  const prevSign = list[(idx - 1 + list.length) % list.length];
+  const nextSign = list[(idx + 1) % list.length];
 
   const prevItem = prevSign ? getZodiaqueItemBySlug(prevSign.slug) : undefined;
   const nextItem = nextSign ? getZodiaqueItemBySlug(nextSign.slug) : undefined;
 
-  const heroSrc = `/images/signes/${sign.slug}/a.webp`; // 16:9
-  const elementSrc = `/images/signes/${sign.slug}/b.webp`; // 4:3
+  const heroSrc = `/images/signes/${sign.slug}/a.webp`;
+  const elementSrc = `/images/signes/${sign.slug}/b.webp`;
 
-  const accent = elementTheme((sign as any).element);
+  const accent = elementTheme(sign.element);
+
+  const has = <T,>(v: T | undefined | null): v is T =>
+  v !== undefined && v !== null;
+
 
   const Card = ({
     children,
     className = "",
   }: {
-    children: React.ReactNode;
+    children: ReactNode;
     className?: string;
   }) => (
     <div
@@ -95,7 +144,7 @@ const nextSign: Sign = list[(idx + 1) % list.length];
     </div>
   );
 
-  const H2 = ({ id, children }: { id: string; children: React.ReactNode }) => (
+  const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
     <h2 id={id} className="font-serif text-2xl sm:text-3xl">
       <span className={`mr-3 inline-block h-2 w-2 rounded-full ${accent.dot}`} />
       {children}
@@ -113,30 +162,30 @@ const nextSign: Sign = list[(idx + 1) % list.length];
         <div className="mt-2 flex flex-wrap items-end justify-between gap-4">
           <h1 className="font-serif text-4xl sm:text-5xl">{sign.name}</h1>
 
-          {has((sign as any).element) && (
+          {has(sign.element) && (
             <span
               className={`inline-flex items-center gap-2 rounded-full border ${accent.border} ${accent.bg} px-4 py-2 text-sm ${accent.text}`}
             >
               <span className={`h-2 w-2 rounded-full ${accent.dot}`} />
-              {(sign as any).element}
+              {sign.element}
             </span>
           )}
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2 text-sm">
-          {has((sign as any).periode) && (
+          {has(sign.periode) && (
             <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-text/90">
-              {(sign as any).periode}
+              {sign.periode}
             </span>
           )}
-          {has((sign as any).polarite) && (
+          {has(sign.polarite) && (
             <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-text/90">
-              {(sign as any).polarite}
+              {sign.polarite}
             </span>
           )}
-          {has((sign as any).mode) && (
+          {has(sign.mode) && (
             <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-text/90">
-              {(sign as any).mode}
+              {sign.mode}
             </span>
           )}
         </div>
@@ -166,10 +215,10 @@ const nextSign: Sign = list[(idx + 1) % list.length];
         <Card className="mt-4">
           <dl className="grid gap-5 sm:grid-cols-2">
             {[
-              ["Maître", (sign as any).maitre],
-              ["Exaltation", (sign as any).exaltation],
-              ["Exil", (sign as any).exil],
-              ["Chute", (sign as any).chute],
+              ["Maître", sign.maitre],
+              ["Exaltation", sign.exaltation],
+              ["Exil", sign.exil],
+              ["Chute", sign.chute],
             ].map(([label, value]) => (
               <div key={label as string} className="rounded-2xl border border-white/10 bg-black/20 p-4">
                 <dt className="text-xs uppercase tracking-wide text-muted">{label}</dt>
@@ -181,27 +230,27 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       </section>
 
       {/* Mythologie */}
-      {has((sign as any).mythologie) && (
+      {has(sign.mythologie) && (
         <section aria-labelledby="mythologie" className="mb-10">
           <H2 id="mythologie">Référence mythologique</H2>
           <Card className="mt-4">
             <p className="text-sm leading-relaxed text-text/85">
-              {(sign as any).mythologie}
+              {sign.mythologie}
             </p>
           </Card>
         </section>
       )}
 
       {/* Analogies */}
-      {has((sign as any).analogie) && (
+      {has(sign.analogie) && (
         <section aria-labelledby="analogies" className="mb-10">
           <H2 id="analogies">Analogies symboliques</H2>
 
           <div className="mt-4 grid gap-4 sm:grid-cols-3">
             {[
-              ["Animal", (sign as any).analogie.animal],
-              ["Objet", (sign as any).analogie.objet],
-              ["Fonction", (sign as any).analogie.fonction],
+              ["Animal", sign.analogie.animal],
+              ["Objet", sign.analogie.objet],
+              ["Fonction", sign.analogie.fonction],
             ].map(([t, v]) => (
               <div key={t as string} className={`rounded-3xl border ${accent.border} bg-white/5 p-5 ${accent.glow}`}>
                 <p className="text-xs uppercase tracking-wide text-muted">{t}</p>
@@ -213,12 +262,12 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       )}
 
       {/* Anatomie */}
-      {Array.isArray((sign as any).anatomie) && (sign as any).anatomie.length > 0 && (
+      {Array.isArray(sign.anatomie) && sign.anatomie.length > 0 && (
         <section aria-labelledby="anatomie" className="mb-10">
           <H2 id="anatomie">Anatomie associée</H2>
           <Card className="mt-4">
             <ul className="flex flex-wrap gap-2">
-              {(sign as any).anatomie.map((x: string) => (
+              {sign.anatomie.map((x: string) => (
                 <li
                   key={x}
                   className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm text-text/90"
@@ -232,12 +281,12 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       )}
 
       {/* Généralités */}
-      {Array.isArray((sign as any).generalites) && (sign as any).generalites.length > 0 && (
+      {Array.isArray(sign.generalites) && sign.generalites.length > 0 && (
         <section aria-labelledby="generalites" className="mb-10">
           <H2 id="generalites">Généralités</H2>
           <Card className="mt-4">
             <div className="space-y-3 text-sm leading-relaxed text-text/85">
-              {(sign as any).generalites.map((p: string) => (
+              {sign.generalites.map((p: string) => (
                 <p key={p}>{p}</p>
               ))}
             </div>
@@ -249,7 +298,7 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       <div className={`mb-12 overflow-hidden rounded-3xl border ${accent.border} bg-white/5 ${accent.glow}`}>
         <Image
           src={elementSrc}
-          alt={`Élément du signe : ${(sign as any).element ?? sign.name}`}
+          alt={`Élément du signe : ${sign.element ?? sign.name}`}
           width={1200}
           height={900}
           className="h-auto w-full object-cover"
@@ -258,17 +307,17 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       </div>
 
       {/* Repères */}
-      {(Array.isArray((sign as any).forces) ||
-        Array.isArray((sign as any).ombres) ||
-        Array.isArray((sign as any).besoins)) && (
+      {(Array.isArray(sign.forces) ||
+        Array.isArray(sign.ombres) ||
+        Array.isArray(sign.besoins)) && (
         <section aria-labelledby="reperes" className="mb-10">
           <H2 id="reperes">Repères</H2>
 
           <div className="mt-4 grid gap-4 sm:grid-cols-3">
             {[
-              ["Forces", (sign as any).forces],
-              ["Ombres", (sign as any).ombres],
-              ["Besoins", (sign as any).besoins],
+              ["Forces", sign.forces],
+              ["Ombres", sign.ombres],
+              ["Besoins", sign.besoins],
             ].map(([title, arr]) => (
               <div key={title as string} className={`rounded-3xl border ${accent.border} bg-white/5 p-5 ${accent.glow}`}>
                 <p className="text-xs uppercase tracking-wide text-muted">{title}</p>
@@ -282,14 +331,14 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       )}
 
       {/* Aptitudes */}
-      {has((sign as any).aptitudes) && (
+      {has(sign.aptitudes) && (
         <section aria-labelledby="aptitudes" className="mb-10">
           <H2 id="aptitudes">Aptitudes attribuées</H2>
 
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             {[
-              ["Atouts", (sign as any).aptitudes.atouts],
-              ["Défis", (sign as any).aptitudes.defis],
+              ["Atouts", sign.aptitudes.atouts],
+              ["Défis", sign.aptitudes.defis],
             ].map(([title, arr]) => (
               <div key={title as string} className={`rounded-3xl border ${accent.border} bg-white/5 p-6 ${accent.glow}`}>
                 <p className="text-xs uppercase tracking-wide text-muted">{title}</p>
@@ -303,19 +352,19 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       )}
 
       {/* Planète dans le signe */}
-      {has((sign as any).planeteDansLeSigne) && (
+      {has(sign.planeteDansLeSigne) && (
         <section aria-labelledby="planete" className="mb-10">
           <H2 id="planete">Une planète en {sign.name}</H2>
 
           <Card className="mt-4">
             <p className="text-sm leading-relaxed text-text/85">
-              {(sign as any).planeteDansLeSigne.intro}
+              {sign.planeteDansLeSigne.intro}
             </p>
 
-            {Array.isArray((sign as any).planeteDansLeSigne?.motsCles) &&
-              (sign as any).planeteDansLeSigne.motsCles.length > 0 && (
+            {Array.isArray(sign.planeteDansLeSigne?.motsCles) &&
+              sign.planeteDansLeSigne.motsCles.length > 0 && (
                 <ul className="mt-4 flex flex-wrap gap-2">
-                  {(sign as any).planeteDansLeSigne.motsCles.map((k: string) => (
+                  {sign.planeteDansLeSigne.motsCles.map((k: string) => (
                     <li
                       key={k}
                       className={`rounded-full border ${accent.border} ${accent.bg} px-3 py-1 text-sm ${accent.text}`}
@@ -327,7 +376,7 @@ const nextSign: Sign = list[(idx + 1) % list.length];
               )}
 
             <ul className="mt-5 list-disc space-y-2 pl-5 text-sm text-text/85">
-              {(sign as any).planeteDansLeSigne.exemples?.map((e: string) => (
+              {sign.planeteDansLeSigne.exemples?.map((e: string) => (
                 <li key={e}>{e}</li>
               ))}
             </ul>
@@ -336,12 +385,12 @@ const nextSign: Sign = list[(idx + 1) % list.length];
       )}
 
       {/* Dans un thème */}
-      {Array.isArray((sign as any).dansUnTheme) && (sign as any).dansUnTheme.length > 0 && (
+      {Array.isArray(sign.dansUnTheme) && sign.dansUnTheme.length > 0 && (
         <section aria-labelledby="dansuntheme" className="mb-10">
           <H2 id="dansuntheme">Le signe dans un thème</H2>
           <Card className="mt-4">
             <div className="space-y-3 text-sm leading-relaxed text-text/85">
-              {(sign as any).dansUnTheme.map((p: string) => (
+              {sign.dansUnTheme.map((p: string) => (
                 <p key={p}>{p}</p>
               ))}
             </div>
@@ -351,7 +400,7 @@ const nextSign: Sign = list[(idx + 1) % list.length];
 
       {/* Footer + nav */}
       <footer className="mt-12 border-t border-white/10 pt-8">
-        {has((sign as any).motCle) && (
+        {has(sign.motCle) && (
           <div className="flex justify-center">
             <p
               role="note"
@@ -360,7 +409,7 @@ const nextSign: Sign = list[(idx + 1) % list.length];
             >
               <span className="text-xs uppercase tracking-wide text-muted">Mot-clé</span>
               <span className="font-serif text-xl text-text/95">
-                « {(sign as any).motCle} »
+                « {sign.motCle} »
               </span>
             </p>
           </div>
