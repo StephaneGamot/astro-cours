@@ -3,48 +3,32 @@ import planetes from "../../../data/planetes.details.json";
 export type Planet = {
   slug: string;
   name: string;
-
   categorie?: string;
   fonction?: string;
   motCle?: string;
   rythme?: string;
-
   domicile?: string;
   exaltation?: string;
   exil?: string;
   chute?: string;
-
   symbolique?: string;
-
   resume?: string[];
   motsCles?: string[];
   forces?: string[];
   ombres?: string[];
-
   expression?: {
     aligne?: string[];
     exces?: string[];
     manque?: string[];
   };
-
   dansLesMaisons?: { maison: number; texte: string }[];
   aspects?: { aspect: string; texte: string }[];
   dansUnTheme?: string[];
-
   image?: { src: string; alt?: string };
   hero?: { src: string; alt?: string };
 };
 
 export const PLANETS = planetes as Planet[];
-
-export function planetThumbSrc(slug: string) {
-  // footer thumbs: public/images/planetes/<slug>.webp
-  return `/images/planetes/${slug}.webp`;
-}
-
-export function has<T>(v: T | undefined | null): v is T {
-  return v !== undefined && v !== null;
-}
 
 export function getPlanet(slug: string): Planet | undefined {
   return PLANETS.find((p) => p.slug === slug);
@@ -52,6 +36,14 @@ export function getPlanet(slug: string): Planet | undefined {
 
 export function getPlanetIndex(slug: string) {
   return PLANETS.findIndex((p) => p.slug === slug);
+}
+
+export function has<T>(v: T | undefined | null): v is T {
+  return v !== undefined && v !== null;
+}
+
+export function planetThumbSrc(slug: string) {
+  return `/images/planetes/${slug}.webp`;
 }
 
 /** Thème premium par planète */

@@ -13,34 +13,40 @@ import {
 
 import { Aura, Card, Hero, NavCard, SectionTitle } from "./ui";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return PLANETS.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata(
-  { params }: { params: { slug: string } }
-): Metadata {
-  const slug = decodeURIComponent(params.slug).trim().toLowerCase();
-  const planet = getPlanet(slug);
-  if (!planet) return {};
+// ✅ Next 16: params peut être une Promise -> on await
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+  const { slug: raw } = await params;
+  const slug = decodeURIComponent(raw).trim().toLowerCase();
 
-  const canonical = `/planetes/${planet.slug}`;
+  const planet = getPlanet(slug);
+  if (!planet) {
+    // Option: soit return {} soit notFound()
+    // notFound() est ok ici, mais return {} évite de casser le build si tu préfères.
+    return {};
+  }
 
   return buildMeta({
     title: buildTitle(`${planet.name} — Symbolique, maisons, aspects`),
     description: `${planet.name} : sens, fonctions, expressions, maisons et aspects. Cours clair, exemples et méthode.`,
-    canonicalPath: canonical,
+    canonicalPath: `/planetes/${planet.slug}`,
     type: "article",
   });
 }
 
-
-export default function PlanetPage({
+export default async function PlanetPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const raw = params.slug;
+  const { slug: raw } = await params;
   const slug = decodeURIComponent(raw).trim().toLowerCase();
 
   const planet = getPlanet(slug);
