@@ -66,12 +66,14 @@ type Planet = {
   categorie?: string;
 };
 
-export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
-  const { slug } = await params;
+export function generateStaticParams() {
+  return HOUSES.map((h) => ({ slug: h.slug }));
+}
 
-  const house = getHouse(slug);
+export function generateMetadata(
+  { params }: { params: { slug: string } }
+): Metadata {
+  const house = getHouse(params.slug);
   if (!house) return {};
 
   const title = buildTitle(
@@ -718,7 +720,7 @@ const next = HOUSES[(idx + 1) % HOUSES.length];
                 >
                   <Image
                     src={`/images/maisons/${toRoman(prev.numero)}.webp`}
-                    alt={`${`Maison ${toRoman(house.numero)}`} — ${house.nom}`}
+                    alt={`${`Maison ${toRoman(house.numero)}`} — ${prev.nom}`}
                     fill
                     className="object-cover transition duration-300 group-hover:scale-[1.04]"
                     sizes="128px"
@@ -746,7 +748,7 @@ const next = HOUSES[(idx + 1) % HOUSES.length];
                 >
                   <Image
                     src={`/images/maisons/${toRoman(next.numero)}.webp`}
-                    alt=""
+               alt={`${next.titreCourt ?? `Maison ${toRoman(next.numero)}`} — ${next.nom}`}
                     fill
                     className="object-cover transition duration-300 group-hover:scale-[1.04]"
                     sizes="128px"
