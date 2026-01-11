@@ -10,7 +10,7 @@ export const meta = {
   date: "2026-01-12",
   tags: ["amour", "venus", "bases", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/venus-signes.webp",
+  cover: "/images/blog/cupidon.webp",
 };
 
 function Kicker({ children }: { children: ReactNode }) {
