@@ -4,7 +4,7 @@ import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 
 export const meta = {
   slug: "mars-en-signes-desir-libido-action",
-  title: "Mars en signes : désir, libido, façon d’agir",
+  title: "Mars en signes : désir, libido, sexe, action",
   description:
     "Comprendre Mars en astrologie : désir, libido, énergie, colère, façon d’agir et d’aller au bout des choses. Lecture claire signe par signe, forces, pièges et conseils concrets.",
   date: "2026-01-10",
