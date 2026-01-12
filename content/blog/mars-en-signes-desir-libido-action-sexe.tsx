@@ -7,7 +7,7 @@ export const meta = {
   title: "Mars en signes : désir, libido, façon d’agir",
   description:
     "Comprendre Mars en astrologie : désir, libido, énergie, colère, façon d’agir et d’aller au bout des choses. Lecture claire signe par signe, forces, pièges et conseils concrets.",
-  date: "2026-01-13",
+  date: "2026-01-10",
   tags: ["amour", "mars", "désir", "bases", "débutant"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/mars-desir.webp",

@@ -7,7 +7,7 @@ export const meta = {
   title: "Vénus en signes : ton style amoureux",
   description:
     "Comprendre Vénus en astrologie : style amoureux, besoin affectif, façon de séduire, langage de l’amour, forces, pièges et conseils concrets signe par signe.",
-  date: "2026-01-12",
+  date: "2026-01-08",
   tags: ["amour", "venus", "bases", "débutant"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/cupidon.webp",
