@@ -5,9 +5,8 @@ type Sign = (typeof signes)[number];
 type ZItem = (typeof zodiaque)[number];
 
 
-export function normalizeSlug(slug: string) {
-  // Ajuste si ton zodiaque.json utilise "poisson" au lieu de "poissons"
-  return slug === "poissons" ? "poisson" : slug;
+function normalizeSlug(raw: string) {
+  return decodeURIComponent(raw).trim().toLowerCase();
 }
 
 export function normalizeElement(el?: string) {

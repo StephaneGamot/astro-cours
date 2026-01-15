@@ -61,6 +61,7 @@ type Sign = {
 };
 
 
+
 const SIGNS = signes as Sign[];
 
 function normalizeSlug(raw: string) {
@@ -120,6 +121,19 @@ export default async function SignPage({
 
   const prevItem = prevSign ? getZodiaqueItemBySlug(prevSign.slug) : undefined;
   const nextItem = nextSign ? getZodiaqueItemBySlug(nextSign.slug) : undefined;
+
+  const prevImgSrc =
+  prevItem?.image?.src ?? `/images/zodiaque/${prevSign.slug}.webp`;
+
+const prevImgAlt =
+  prevItem?.image?.alt ?? `Symbole astrologique du ${prevSign.name}`;
+
+  const nextImgSrc =
+  nextItem?.image?.src ?? `/images/zodiaque/${nextSign.slug}.webp`;
+
+const nextImgAlt =
+  nextItem?.image?.alt ?? `Symbole astrologique du ${nextSign.name}`;
+
 
   const heroSrc = `/images/signes/${sign.slug}/a.webp`;
   const elementSrc = `/images/signes/${sign.slug}/b.webp`;
@@ -435,13 +449,14 @@ export default async function SignPage({
 
                 {prevItem?.image?.src ? (
                   <div className={`relative h-24 w-24 overflow-hidden rounded-2xl border ${accent.border} bg-black/20`}>
-                    <Image
-                      src={prevItem.image.src}
-                      alt={prevItem.image.alt ?? `Image du signe : ${prevSign.name}`}
-                      fill
-                      className="object-cover transition duration-300 group-hover:scale-[1.04]"
-                      sizes="96px"
-                    />
+                   <Image
+  src={prevImgSrc}
+  alt={prevImgAlt}
+  fill
+  className="object-cover transition duration-300 group-hover:scale-[1.04]"
+  sizes="96px"
+/>
+
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                   </div>
                 ) : (
@@ -462,13 +477,14 @@ export default async function SignPage({
               <div className="flex items-center gap-4">
                 {nextItem?.image?.src ? (
                   <div className={`relative h-24 w-24 overflow-hidden rounded-2xl border ${accent.border} bg-black/20`}>
-                    <Image
-                      src={nextItem.image.src}
-                      alt={nextItem.image.alt ?? `Image du signe : ${nextSign.name}`}
-                      fill
-                      className="object-cover transition duration-300 group-hover:scale-[1.04]"
-                      sizes="96px"
-                    />
+                  <Image
+  src={nextImgSrc}
+  alt={nextImgAlt}
+  fill
+  className="object-cover transition duration-300 group-hover:scale-[1.04]"
+  sizes="96px"
+/>
+
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                   </div>
                 ) : (

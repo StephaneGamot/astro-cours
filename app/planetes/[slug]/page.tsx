@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { buildMeta, buildTitle } from "@/lib/seo";
@@ -14,6 +16,19 @@ import {
 import { Aura, Card, Hero, NavCard, SectionTitle } from "./ui";
 
 export const dynamicParams = false;
+
+function houseToRoman(n: number) {
+  const romans = [
+    "I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"
+  ] as const;
+  return romans[n - 1] ?? null;
+}
+
+function houseImgSrc(n: number) {
+  const r = houseToRoman(n);
+  return r ? `/images/maisons/${r}.webp` : null;
+}
+
 
 export function generateStaticParams() {
   return PLANETS.map((p) => ({ slug: p.slug }));
@@ -246,23 +261,46 @@ export default async function PlanetPage({
       {Array.isArray(planet.dansLesMaisons) && planet.dansLesMaisons.length > 0 && (
         <section aria-labelledby="maisons" className="mb-10">
           <SectionTitle id="maisons" dotClass={accent.dot}>
-            Dans les maisons
+            {planet.name} dans les maisons
           </SectionTitle>
 
           <Card borderClass={accent.border} glowClass={accent.glow} className="mt-4">
-            <div className="space-y-3">
-              {planet.dansLesMaisons
-                .slice()
-                .sort((a, b) => a.maison - b.maison)
-                .map((m) => (
-                  <div key={m.maison} className="rounded-2xl border border-white/10 bg-black/20 p-4">
-                    <p className="text-xs uppercase tracking-wide text-muted">
-                      Maison {m.maison}
-                    </p>
-                    <p className="mt-2 text-sm leading-relaxed text-text/85">{m.texte}</p>
-                  </div>
-                ))}
-            </div>
+           <div className="space-y-3">
+  {planet.dansLesMaisons
+    .slice()
+    .sort((a, b) => a.maison - b.maison)
+    .map((m) => {
+      const src = houseImgSrc(m.maison);
+
+      return (
+        <div
+          key={m.maison}
+          className="rounded-2xl border border-white/10 bg-black/20 p-4"
+        >
+          <div className="flex items-center gap-3">
+            {src ? (
+              <div className="shrink-0 rounded-xl border border-white/10 bg-white/5 p-2">
+                <Image
+                  src={src}
+                  alt={`Maison ${m.maison}`}
+                  width={40}
+                  height={40}
+                  className="rounded-lg"
+                />
+              </div>
+            ) : null}
+
+            <p className="text-xs uppercase tracking-wide text-muted">
+              Maison {m.maison}
+            </p>
+          </div>
+
+          <p className="mt-2 text-sm leading-relaxed text-text/85">{m.texte}</p>
+        </div>
+      );
+    })}
+</div>
+
           </Card>
         </section>
       )}
