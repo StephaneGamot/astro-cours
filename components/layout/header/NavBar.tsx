@@ -1,12 +1,10 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/AstroLogo.webp";
-import { planetes } from "./ConfigNav";
-import { zodiaque } from "./ConfigNav";
-import { maisons } from "./ConfigNav";
-import { autre } from "./ConfigNav";
-import { useState } from "react";
+import { planetes, zodiaque, maisons, autre } from "./ConfigNav";
+import { useEffect, useRef, useState } from "react";
 import {
   Dialog,
   DialogPanel,
@@ -21,6 +19,47 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // --- Auto close timer (mobile)
+  const closeTimerRef = useRef<number | null>(null);
+
+  function clearCloseTimer() {
+    if (closeTimerRef.current) {
+      window.clearTimeout(closeTimerRef.current);
+      closeTimerRef.current = null;
+    }
+  }
+
+  function scheduleAutoClose(ms = 6000) {
+    clearCloseTimer();
+    closeTimerRef.current = window.setTimeout(() => {
+      setMobileMenuOpen(false);
+    }, ms);
+  }
+
+  // Start/stop timer when menu opens/closes
+  useEffect(() => {
+    if (!mobileMenuOpen) {
+      clearCloseTimer();
+      return;
+    }
+    scheduleAutoClose(6000);
+    return () => clearCloseTimer();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mobileMenuOpen]);
+
+  // Close menu if user scrolls the page (not only inside the panel)
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+
+    const onWindowScroll = () => setMobileMenuOpen(false);
+    window.addEventListener("scroll", onWindowScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", onWindowScroll);
+  }, [mobileMenuOpen]);
+
+  // Helper: close on click (mobile)
+  const closeMobileMenu = () => setMobileMenuOpen(false);
+
   return (
     <header className="bg-gray-900">
       <nav
@@ -30,9 +69,14 @@ export default function NavBar() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-2.5 p-0.5">
             <span className="sr-only">Logo Astro cours</span>
-            <Image alt="logo d'astro-cours representant la roue du zodiaque" src={Logo} className="h-16 w-auto" />
+            <Image
+              alt="logo d'astro-cours representant la roue du zodiaque"
+              src={Logo}
+              className="h-16 w-auto"
+            />
           </Link>
         </div>
+
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -43,6 +87,8 @@ export default function NavBar() {
             <Bars3Icon aria-hidden="true" className="size-6" />
           </button>
         </div>
+
+        {/* Desktop nav */}
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
@@ -125,6 +171,7 @@ export default function NavBar() {
               </div>
             </PopoverPanel>
           </Popover>
+
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-md/6 font-semibold text-white">
               Maisons
@@ -181,6 +228,7 @@ export default function NavBar() {
                 className="size-5 flex-none text-gray-500"
               />
             </PopoverButton>
+
             <PopoverPanel
               transition
               className="absolute left-1/2 z-10 mt-3 w-screen max-w-md -translate-x-1/2 overflow-hidden rounded-3xl bg-gray-800 outline outline-1 -outline-offset-1 outline-white/10 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
@@ -214,27 +262,31 @@ export default function NavBar() {
           </Popover>
         </PopoverGroup>
 
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          {/*
-          <a href="#" className="text-sm/6 font-semibold text-white">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>*/}
-        </div>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end" />
       </nav>
 
+      {/* Mobile menu */}
       <Dialog
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
         className="lg:hidden"
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 flex w-full flex-col justify-between overflow-y-auto bg-gray-900 sm:max-w-sm sm:ring-1 sm:ring-white/10">
+
+        <DialogPanel
+          className="fixed inset-y-0 right-0 z-10 flex w-full flex-col justify-between overflow-y-auto bg-gray-900 sm:max-w-sm sm:ring-1 sm:ring-white/10"
+          // reset timer on user activity inside panel
+          onPointerDown={() => scheduleAutoClose(6000)}
+          onKeyDown={() => scheduleAutoClose(6000)}
+          onScroll={() => scheduleAutoClose(6000)}
+        >
           <div className="p-6">
             <div className="flex items-center justify-between">
-              <Link href="#" className="-m-1.5 p-1.5">
+              <Link href="/" className="-m-1.5 p-1.5" onClick={closeMobileMenu}>
                 <span className="sr-only">Astrocours</span>
                 <Image alt="logo" src={Logo} className="h-16 w-auto" />
               </Link>
+
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
@@ -244,16 +296,18 @@ export default function NavBar() {
                 <XMarkIcon aria-hidden="true" className="size-6" />
               </button>
             </div>
+
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-white/10">
+                {/* Planetes */}
                 <div className="space-y-2 py-6">
                   {planetes.map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
+                      onClick={closeMobileMenu}
                       className="group -mx-3 flex items-stretch gap-x-4 rounded-lg p-3 hover:bg-white/5"
                     >
-                      {/* Icon column: 100% hauteur */}
                       <div className="flex w-12 flex-none items-stretch">
                         <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
                           <item.icon
@@ -263,7 +317,6 @@ export default function NavBar() {
                         </div>
                       </div>
 
-                      {/* Text column */}
                       <div className="flex min-w-0 flex-1 flex-col justify-center">
                         <div className="text-base font-semibold text-indigo-400">
                           {item.name}
@@ -276,14 +329,15 @@ export default function NavBar() {
                   ))}
                 </div>
 
+                {/* Zodiaque */}
                 <div className="space-y-2 py-6">
                   {zodiaque.map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
+                      onClick={closeMobileMenu}
                       className="group -mx-3 flex items-stretch gap-x-4 rounded-lg p-3 hover:bg-white/5"
                     >
-                      {/* Icon column: 100% hauteur */}
                       <div className="flex w-12 flex-none items-stretch">
                         <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
                           <item.icon
@@ -293,7 +347,6 @@ export default function NavBar() {
                         </div>
                       </div>
 
-                      {/* Text column */}
                       <div className="flex min-w-0 flex-1 flex-col justify-center">
                         <div className="text-base font-semibold text-indigo-400">
                           {item.name}
@@ -306,14 +359,15 @@ export default function NavBar() {
                   ))}
                 </div>
 
+                {/* Maisons */}
                 <div className="space-y-2 py-6">
                   {maisons.map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
+                      onClick={closeMobileMenu}
                       className="group -mx-3 flex items-stretch gap-x-4 rounded-lg p-3 hover:bg-white/5"
                     >
-                      {/* Icon column: 100% hauteur */}
                       <div className="flex w-12 flex-none items-stretch">
                         <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
                           <item.icon
@@ -323,7 +377,6 @@ export default function NavBar() {
                         </div>
                       </div>
 
-                      {/* Text column */}
                       <div className="flex min-w-0 flex-1 flex-col justify-center">
                         <div className="text-base font-semibold text-indigo-400">
                           {item.name}
@@ -336,11 +389,12 @@ export default function NavBar() {
                   ))}
                 </div>
 
+                {/* Blog */}
                 <div className="space-y-2 py-6">
                   <Link
                     href="/blog"
+                    onClick={closeMobileMenu}
                     className="group -mx-3 flex items-stretch gap-x-4 rounded-lg p-3 hover:bg-white/5"
-                    onClick={() => setMobileMenuOpen(false)}
                   >
                     <div className="flex w-12 flex-none items-stretch">
                       <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
@@ -361,14 +415,15 @@ export default function NavBar() {
                   </Link>
                 </div>
 
+                {/* Annexes */}
                 <div className="space-y-2 py-6">
                   {autre.map((item) => (
                     <Link
                       key={item.name}
                       href={item.href}
+                      onClick={closeMobileMenu}
                       className="group -mx-3 flex items-stretch gap-x-4 rounded-lg p-3 hover:bg-white/5"
                     >
-                      {/* Icon column: 100% hauteur */}
                       <div className="flex w-12 flex-none items-stretch">
                         <div className="flex w-full items-center justify-center rounded-lg bg-gray-800 group-hover:bg-gray-700">
                           <item.icon
@@ -378,7 +433,6 @@ export default function NavBar() {
                         </div>
                       </div>
 
-                      {/* Text column */}
                       <div className="flex min-w-0 flex-1 flex-col justify-center">
                         <div className="text-base font-semibold text-indigo-400">
                           {item.name}
@@ -390,16 +444,6 @@ export default function NavBar() {
                     </Link>
                   ))}
                 </div>
-
-                {/* 
-                <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5"
-                  >
-                    Log in
-                  </a>
-                </div>*/}
               </div>
             </div>
           </div>
