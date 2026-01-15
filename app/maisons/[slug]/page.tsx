@@ -65,25 +65,45 @@ type Planet = {
   fonction?: string;
   categorie?: string;
 };
-
-export function generateStaticParams() {
-  return HOUSES.map((h) => ({ slug: h.slug }));
-}
-
 export function generateMetadata(
   { params }: { params: { slug: string } }
 ): Metadata {
   const house = getHouse(params.slug);
   if (!house) return {};
 
-  const title = buildTitle(
-    `${house.titreCourt ?? `Maison ${house.numero}`} — ${house.nom}`
-  );
+  const titreCourt = house.titreCourt ?? `Maison ${house.numero}`;
+  const title = buildTitle(`${titreCourt} — ${house.nom}`);
 
-  const principaux = (house.domaines?.principaux ?? []).filter(Boolean);
-  const descPlus = principaux.length ? ` Domaines : ${principaux.join(", ")}.` : "";
+  const arena = house.niveauLecture?.arena?.trim();
+  const motsCles = (house.niveauLecture?.motsCles ?? []).filter(Boolean).slice(0, 3);
+  const verbes = (house.niveauLecture?.verbes ?? []).filter(Boolean).slice(0, 2);
+  const principaux = (house.domaines?.principaux ?? []).filter(Boolean).slice(0, 4);
 
-  const description = `Maison ${house.numero} : sens, domaines, repères et interprétations.${descPlus}`;
+  // Petites infos “structurelles” (différencient encore)
+  const metaPlusParts = [
+    house.type ? `Maison ${house.type}` : null,
+    house.quadrant ? `Quadrant ${house.quadrant}` : null,
+    house.axe ? `Axe ${house.axe}` : null,
+  ].filter(Boolean);
+
+  const metaPlus = metaPlusParts.length ? `${metaPlusParts.join(" • ")}. ` : "";
+
+  const hook = arena ? `Thème : ${arena}. ` : "";
+  const kw = motsCles.length ? `Mots-clés : ${motsCles.join(", ")}. ` : "";
+  const dom = principaux.length ? `Domaines : ${principaux.join(", ")}. ` : "";
+
+  const action = verbes.length
+    ? `Méthode + repères pour ${verbes.join(" et ")} sans te perdre.`
+    : "Méthode, repères, exemples et erreurs fréquentes.";
+
+  // Description finale (unique + plus longue)
+  const description =
+    `Maison ${house.numero} (${house.nom}) : sens et interprétation. ` +
+    metaPlus +
+    hook +
+    kw +
+    dom +
+    action;
 
   return buildMeta({
     title,
@@ -92,6 +112,7 @@ export function generateMetadata(
     type: "article",
   });
 }
+
 
 
 const ROMAN = [
