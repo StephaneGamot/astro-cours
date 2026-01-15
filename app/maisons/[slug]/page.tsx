@@ -65,6 +65,18 @@ type Planet = {
   fonction?: string;
   categorie?: string;
 };
+// coupe proprement la meta description (≈ 160–170 caractères)
+function clampMeta(s: string, max = 170) {
+  const clean = s.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+
+  const cut = clean.slice(0, max - 1);
+  const last = cut.lastIndexOf(".");
+
+
+  return last > 80 ? cut.slice(0, last + 1) : cut.trimEnd() + "…";
+}
+
 export function generateMetadata(
   { params }: { params: { slug: string } }
 ): Metadata {
@@ -79,7 +91,7 @@ export function generateMetadata(
   const verbes = (house.niveauLecture?.verbes ?? []).filter(Boolean).slice(0, 2);
   const principaux = (house.domaines?.principaux ?? []).filter(Boolean).slice(0, 4);
 
-  // Petites infos “structurelles” (différencient encore)
+  // Infos “structurelles” (différencient encore)
   const metaPlusParts = [
     house.type ? `Maison ${house.type}` : null,
     house.quadrant ? `Quadrant ${house.quadrant}` : null,
@@ -88,6 +100,7 @@ export function generateMetadata(
 
   const metaPlus = metaPlusParts.length ? `${metaPlusParts.join(" • ")}. ` : "";
 
+  // Contenu différenciant
   const hook = arena ? `Thème : ${arena}. ` : "";
   const kw = motsCles.length ? `Mots-clés : ${motsCles.join(", ")}. ` : "";
   const dom = principaux.length ? `Domaines : ${principaux.join(", ")}. ` : "";
@@ -96,14 +109,16 @@ export function generateMetadata(
     ? `Méthode + repères pour ${verbes.join(" et ")} sans te perdre.`
     : "Méthode, repères, exemples et erreurs fréquentes.";
 
-  // Description finale (unique + plus longue)
-  const description =
+  // ✅ description finale + clamp 160–170
+  const description = clampMeta(
     `Maison ${house.numero} (${house.nom}) : sens et interprétation. ` +
-    metaPlus +
-    hook +
-    kw +
-    dom +
-    action;
+      metaPlus +
+      hook +
+      kw +
+      dom +
+      action,
+    170
+  );
 
   return buildMeta({
     title,
