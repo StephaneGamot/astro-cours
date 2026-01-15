@@ -79,6 +79,18 @@ export function generateStaticParams() {
   return SIGNS.map((s) => ({ slug: s.slug }));
 }
 
+// --- helper: coupe proprement la meta description (≈ 160–170 caractères)
+function clampMeta(s: string, max = 170) {
+  const clean = s.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+
+  const cut = clean.slice(0, max - 1);
+  const last = cut.lastIndexOf(".");
+
+  return last > 80 ? cut.slice(0, last + 1) : cut.trimEnd() + "…";
+}
+
+
 // ✅ Next 16: params peut être une Promise
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
@@ -91,15 +103,61 @@ export async function generateMetadata(
 
   const label = sign.nom ?? sign.name ?? sign.slug;
 
+  // Champs qui rendent la meta UNIQUE (et + SEO)
+  const element = (sign as any).element?.trim();
+  const periode = (sign as any).periode?.trim();
+  const polarite = (sign as any).polarite?.trim();
+  const mode = (sign as any).mode?.trim();
+  const maitre = (sign as any).maitre?.trim();
+
+  // Si tu as ces champs dans ton JSON (selon ta structure)
+  const generalites = (sign as any).generalites as string[] | undefined;
+  const forces = (sign as any).forces as string[] | undefined;
+  const ombres = (sign as any).ombres as string[] | undefined;
+  const motCle = (sign as any).motCle?.trim();
+
+  const hookParts = [
+    element ? `Élément ${element}` : null,
+    mode ? `Mode ${mode}` : null,
+    polarite ? polarite : null,
+  ].filter(Boolean);
+
+  const hook = hookParts.length ? `${hookParts.join(" • ")}. ` : "";
+  const time = periode ? `Période : ${periode}. ` : "";
+  const ruler = maitre ? `Maître : ${maitre}. ` : "";
+  const keyword = motCle ? `Mot-clé : ${motCle}. ` : "";
+
+  // 2–3 mots forts max (pour différencier + rester court)
+  const highlights =
+    Array.isArray(generalites) && generalites.length
+      ? `Repères : ${generalites.slice(0, 2).join(" ")} `
+      : Array.isArray(forces) && forces.length
+      ? `Forces : ${forces.slice(0, 2).join(", ")}. `
+      : Array.isArray(ombres) && ombres.length
+      ? `Défis : ${ombres.slice(0, 2).join(", ")}. `
+      : "";
+
+  const action = "Traits, amour, travail, qualités et défis. Cours clair + exemples.";
+
+  const description = clampMeta(
+    `${label} : signe astrologique — sens et personnalité. ` +
+      hook +
+      time +
+      ruler +
+      keyword +
+      highlights +
+      action,
+    170
+  );
+
   return buildMeta({
     title: buildTitle(`${label} — Signe astrologique`),
-    description:
-      `${label} : traits, qualités, défis, amour, travail, éléments et modalités. ` +
-      `Cours clair, repères et exemples.`,
-    canonicalPath: `/signes/${sign.slug}`,
+    description,
+    canonicalPath: `/signes/${(sign as any).slug ?? slug}`,
     type: "article",
   });
 }
+
 
 export default async function SignPage({
   params,
