@@ -65,6 +65,20 @@ type Planet = {
   fonction?: string;
   categorie?: string;
 };
+const HOUSES = maisons as House[];
+
+// ✅ force le statique comme tes signes
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return HOUSES.map((h) => ({ slug: h.slug }));
+}
+
+function getHouse(slug: string) {
+  const s = decodeURIComponent(slug).trim().toLowerCase();
+  return HOUSES.find((h) => h.slug === s);
+}
+
 // coupe proprement la meta description (≈ 160–170 caractères)
 function clampMeta(s: string, max = 170) {
   const clean = s.replace(/\s+/g, " ").trim();
@@ -72,15 +86,15 @@ function clampMeta(s: string, max = 170) {
 
   const cut = clean.slice(0, max - 1);
   const last = cut.lastIndexOf(".");
-
-
   return last > 80 ? cut.slice(0, last + 1) : cut.trimEnd() + "…";
 }
 
-export function generateMetadata(
-  { params }: { params: { slug: string } }
-): Metadata {
-  const house = getHouse(params.slug);
+// ✅ Next 16: params peut être une Promise
+export async function generateMetadata(
+  { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+  const { slug: raw } = await params;
+  const house = getHouse(raw);
   if (!house) return {};
 
   const titreCourt = house.titreCourt ?? `Maison ${house.numero}`;
@@ -91,7 +105,7 @@ export function generateMetadata(
   const verbes = (house.niveauLecture?.verbes ?? []).filter(Boolean).slice(0, 2);
   const principaux = (house.domaines?.principaux ?? []).filter(Boolean).slice(0, 4);
 
-  // Infos “structurelles” (différencient encore)
+  // Infos structurelles (différencient encore)
   const metaPlusParts = [
     house.type ? `Maison ${house.type}` : null,
     house.quadrant ? `Quadrant ${house.quadrant}` : null,
@@ -109,7 +123,6 @@ export function generateMetadata(
     ? `Méthode + repères pour ${verbes.join(" et ")} sans te perdre.`
     : "Méthode, repères, exemples et erreurs fréquentes.";
 
-  // ✅ description finale + clamp 160–170
   const description = clampMeta(
     `Maison ${house.numero} (${house.nom}) : sens et interprétation. ` +
       metaPlus +
@@ -127,7 +140,6 @@ export function generateMetadata(
     type: "article",
   });
 }
-
 
 
 const ROMAN = [
@@ -150,7 +162,7 @@ function toRoman(n: number) {
   return ROMAN[n] ?? String(n);
 }
 
-const HOUSES = maisons as House[];
+
 const PLANETS = planetes as Planet[];
 
 const has = <T,>(v: T | undefined | null): v is T =>
@@ -158,9 +170,7 @@ const has = <T,>(v: T | undefined | null): v is T =>
 
 /* ---------------- Data helpers ---------------- */
 
-function getHouse(slug: string) {
-  return HOUSES.find((h) => h.slug === slug);
-}
+
 function getHouseIndex(slug: string) {
   return HOUSES.findIndex((h) => h.slug === slug);
 }
