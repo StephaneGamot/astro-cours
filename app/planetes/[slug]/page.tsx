@@ -18,9 +18,7 @@ import { Aura, Card, Hero, NavCard, SectionTitle } from "./ui";
 export const dynamicParams = false;
 
 function houseToRoman(n: number) {
-  const romans = [
-    "I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"
-  ] as const;
+  const romans = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"] as const;
   return romans[n - 1] ?? null;
 }
 
@@ -30,8 +28,23 @@ function houseImgSrc(n: number) {
 }
 
 
+
 export function generateStaticParams() {
   return PLANETS.map((p) => ({ slug: p.slug }));
+}
+
+function normalizeSlug(raw: string) {
+  return decodeURIComponent(raw).trim().toLowerCase();
+}
+
+// --- helper: coupe proprement la meta description (≈ 160–170 caractères)
+function clampMeta(s: string, max = 170) {
+  const clean = s.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+
+  const cut = clean.slice(0, max - 1);
+  const last = cut.lastIndexOf(".");
+  return last > 80 ? cut.slice(0, last + 1) : cut.trimEnd() + "…";
 }
 
 // ✅ Next 16: params peut être une Promise -> on await
@@ -39,18 +52,68 @@ export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug: raw } = await params;
-  const slug = decodeURIComponent(raw).trim().toLowerCase();
+  const slug = normalizeSlug(raw);
 
   const planet = getPlanet(slug);
-  if (!planet) {
-    // Option: soit return {} soit notFound()
-    // notFound() est ok ici, mais return {} évite de casser le build si tu préfères.
-    return {};
-  }
+  if (!planet) return {};
+
+  // --- champs différenciants (selon ton JSON helpers)
+  const categorie = (planet as any).categorie?.trim();
+  const fonction = (planet as any).fonction?.trim();
+  const motCle = (planet as any).motCle?.trim();
+  const rythme = (planet as any).rythme?.trim();
+  const domicile = (planet as any).domicile?.trim();
+  const exaltation = (planet as any).exaltation?.trim();
+  const exil = (planet as any).exil?.trim();
+  const chute = (planet as any).chute?.trim();
+
+  const motsCles = ((planet as any).motsCles ?? []).filter(Boolean).slice(0, 3);
+  const forces = ((planet as any).forces ?? []).filter(Boolean).slice(0, 2);
+  const ombres = ((planet as any).ombres ?? []).filter(Boolean).slice(0, 2);
+
+  // bloc "hook" compact mais unique
+  const hookParts = [
+    categorie ? categorie : null,
+    fonction ? fonction : null,
+  ].filter(Boolean);
+  const hook = hookParts.length ? `${hookParts.join(" • ")}. ` : "";
+
+  // détails courts (un ou deux max pour rester SEO-friendly)
+  const keyword = motCle ? `Mot-clé : ${motCle}. ` : "";
+  const kw = motsCles.length ? `Mots-clés : ${motsCles.join(", ")}. ` : "";
+
+  const dignitesParts = [
+    domicile ? `Domicile : ${domicile}` : null,
+    exaltation ? `Exaltation : ${exaltation}` : null,
+    exil ? `Exil : ${exil}` : null,
+    chute ? `Chute : ${chute}` : null,
+  ].filter(Boolean);
+  const dignites = dignitesParts.length ? `${dignitesParts.join(" • ")}. ` : "";
+
+  const time = rythme ? `Rythme : ${rythme}. ` : "";
+
+  // fallback si pas de motsCles
+  const highlights =
+    kw ||
+    (forces.length ? `Forces : ${forces.join(", ")}. ` : "") ||
+    (ombres.length ? `Défis : ${ombres.join(", ")}. ` : "");
+
+  const action = "Maisons, aspects, expressions + exemples concrets. Méthode simple et moderne.";
+
+  const description = clampMeta(
+    `${planet.name} : planète — sens et interprétation. ` +
+      hook +
+      keyword +
+      highlights +
+      dignites +
+      time +
+      action,
+    170
+  );
 
   return buildMeta({
     title: buildTitle(`${planet.name} — Symbolique, maisons, aspects`),
-    description: `${planet.name} : sens, fonctions, expressions, maisons et aspects. Cours clair, exemples et méthode.`,
+    description,
     canonicalPath: `/planetes/${planet.slug}`,
     type: "article",
   });
