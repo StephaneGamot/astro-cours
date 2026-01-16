@@ -16,18 +16,19 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: "Planètes rétrogrades — sens, interprétation & méthode",
+  title: "Planètes rétrogrades — Définition, stations & interprétation (méthode)",
   description:
-    "Cours clair et complet sur les planètes rétrogrades : définition, stations, natal vs transit, et interprétation planète par planète.",
+    "Cours complet sur la rétrogradation : définition, stations, natal vs transit, effets concrets et lecture planète par planète avec repères et pièges.",
   alternates: { canonical: "/retrogrades" },
   openGraph: {
-    title: "Planètes rétrogrades — cours premium",
+    title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
     description:
-      "Comprendre la rétrogradation + méthode natal/transit + repères et erreurs fréquentes.",
+      "Comprendre les rétrogrades : définition, stations, différences natal/transit, effets concrets, repères et erreurs fréquentes. Lecture planète par planète.",
     url: "/retrogrades",
     type: "article",
   },
 };
+
 
 type Tone = "mental" | "affectif" | "action" | "social" | "transpersonnel";
 

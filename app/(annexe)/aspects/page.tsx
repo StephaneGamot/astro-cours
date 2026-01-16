@@ -9,18 +9,19 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: "Aspects astrologiques — Conjonction, sextile, carré, trigone, opposition",
+  title: "Aspects astrologiques — Orbes, sens & interprétation (cours complet)",
   description:
-    "Cours clair et complet sur les aspects : conjonction, sextile, carré, trigone, opposition (et plus). Définition, orbes, effets, exemples et conseils d’interprétation.",
+    "Cours complet sur les aspects : conjonction, sextile, carré, trigone, opposition. Orbes, logique, effets, exemples et méthode simple d’interprétation.",
   alternates: { canonical: "/aspects" },
   openGraph: {
-    title: "Aspects astrologiques — Cours complet",
+    title: "Aspects astrologiques — Orbes & interprétation (cours complet)",
     description:
-      "Définition + orbes + logique et interprétation des aspects majeurs : conjonction, sextile, carré, trigone, opposition.",
+      "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
     url: "/aspects",
     type: "article",
   },
 };
+
 
 type AspectTone = "harmonique" | "tendu" | "neutre";
 type AspectKind = "majeur" | "mineur";

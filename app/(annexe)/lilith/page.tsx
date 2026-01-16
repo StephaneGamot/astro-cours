@@ -11,18 +11,19 @@ import Link from "next/link";
  */
 
 export const metadata: Metadata = {
-  title: "Lilith (Lune Noire) — Sens, thèmes & interprétation — Cours d’astrologie",
+  title: "Lilith (Lune Noire) — Sens, vraie/moyenne & interprétation (cours)",
   description:
-    "Cours complet sur Lilith (Lune Noire) : définition, vraie vs moyenne, symbolique, thèmes psychologiques, Lilith par signe/maison/aspects, erreurs fréquentes et méthode d’interprétation.",
+    "Cours complet sur Lilith : définition, Lilith vraie vs moyenne, symbolique, thèmes psycho, lecture par signe/maison/aspects, pièges et méthode claire.",
   alternates: { canonical: "/lilith" },
   openGraph: {
-    title: "Lilith (Lune Noire) — Sens & interprétation",
+    title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
     description:
-      "Définition, symbolique, Lilith vraie vs moyenne, lectures par signe/maison/aspects + méthode claire.",
+      "Lilith expliquée simplement : définition, vraie vs moyenne, symbolique, thèmes, lecture par signe/maison/aspects et méthode d’interprétation fiable.",
     url: "/lilith",
     type: "article",
   },
 };
+
 
 const pill =
   "rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm text-text/90 hover:bg-white/10";

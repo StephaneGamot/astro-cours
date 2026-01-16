@@ -12,18 +12,19 @@ import signes from "../../../data/signes.details.json";
 type Sign = (typeof signes)[number];
 
 export const metadata: Metadata = {
-  title: "Maîtrises, exaltations, exils & chutes — Cours d’astrologie",
+  title: "Maîtrises, exaltations, exils & chutes — Dignités essentielles (cours)",
   description:
-    "Pour chaque signe : planète maîtresse (domicile), exaltation, exil (détriment) et chute — avec explications claires et le “pourquoi” astrologique.",
+    "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Sens, logique astrologique, repères et erreurs à éviter.",
   alternates: { canonical: "/maitrises" },
   openGraph: {
-    title: "Maîtrises, exaltations, exils & chutes — Cours d’astrologie",
+    title: "Dignités essentielles — Maîtrises, exaltations, exils & chutes",
     description:
-      "Dignités essentielles par signe : maître, exaltation, exil et chute — sens + pourquoi.",
+      "Comprendre les dignités : maître, exaltation, exil et chute pour chaque signe. Sens, logique, repères d’interprétation et pièges fréquents.",
     url: "/maitrises",
     type: "article",
   },
 };
+
 
 const SIGNS = signes as Sign[];
 

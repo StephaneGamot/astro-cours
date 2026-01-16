@@ -3,18 +3,19 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Points fictifs — Vertex, Part de Fortune, Chiron, angles… (cours pro)",
+  title: "Points fictifs — Vertex, Fortune, Chiron, angles & méthode (cours pro)",
   description:
-    "Cours clair sur les points fictifs en astrologie : définition, méthode d’interprétation, Vertex, Part de Fortune, Chiron, angles (ASC/MC), Nœuds, Lilith, et lecture par signe/maison/aspects/transits.",
+    "Cours pro sur les points fictifs : Vertex, Part de Fortune, Chiron, ASC/MC, Nœuds, Lilith. Méthode de lecture par signe/maison/aspects/transits.",
   alternates: { canonical: "/points-fictifs" },
   openGraph: {
-    title: "Points fictifs — cours pro (Vertex, Fortune, Chiron, angles…)",
+    title: "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire",
     description:
-      "Définition + méthode : comment lire les points fictifs (Vertex, Part de Fortune, Chiron, angles…) par signe/maison/aspects et transits.",
+      "Définition + méthode : lire Vertex, Part de Fortune, Chiron, angles (ASC/MC), Nœuds, Lilith par signe/maison/aspects et transits, sans confusion.",
     url: "/points-fictifs",
     type: "article",
   },
 };
+
 
 const pill =
   "rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm text-text/90 hover:bg-white/10";

@@ -18,7 +18,13 @@ export const metadata: Metadata = {
     url: RS.meta.canonical,
     type: "article",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: RS.meta.title,
+    description: RS.meta.description,
+  },
 };
+
 
 const pill =
   "rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm text-text/90 hover:bg-white/10";

@@ -4,18 +4,19 @@ import Image from "next/image";
 import TeteDuDragon from "./../../../public/images/noeuds-lunaires.webp";
 
 export const metadata: Metadata = {
-  title: "Noeuds lunaires — Noeud Nord & Noeud Sud (cours clair)",
+  title: "Nœuds lunaires — Nœud Nord, Nœud Sud & axe évolutif (cours clair)",
   description:
-    "Comprendre le Noeud Nord et le Noeud Sud : sens karmique/pédagogique, axe évolutif, lecture par signe, maison et aspects, erreurs fréquentes, méthode d’interprétation.",
+    "Cours clair sur les Nœuds lunaires : axe NN/NS, sens évolutif, lecture par signe/maison/aspects, pièges fréquents et méthode d’interprétation.",
   alternates: { canonical: "/noeuds-lunaires" },
   openGraph: {
-    title: "Noeuds lunaires — Noeud Nord & Noeud Sud",
+    title: "Nœuds lunaires — Axe NN/NS, lecture et méthode",
     description:
-      "Cours pro : axe NN/NS, lecture par signe/maison, aspects, pièges et méthode.",
+      "Nœud Nord & Nœud Sud : sens, axe évolutif, lecture par signe/maison/aspects, pièges et méthode pro pour interpréter sans surinterpréter.",
     url: "/noeuds-lunaires",
     type: "article",
   },
 };
+
 
 const pill =
   "rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm text-text/90 hover:bg-white/10";
