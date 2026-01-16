@@ -134,11 +134,13 @@ export async function generateMetadata(
   );
 
   return buildMeta({
-    title,
-    description,
-    canonicalPath: `/maisons/${house.slug}`,
-    type: "article",
-  });
+  title,
+  description,
+  canonicalPath: `/maisons/${house.slug}`,
+  type: "article",
+  ogImage: `/images/maisons/${house.numero}.webp`, // adapte si besoin
+});
+
 }
 
 

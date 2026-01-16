@@ -111,12 +111,16 @@ export async function generateMetadata(
     170
   );
 
-  return buildMeta({
-    title: buildTitle(`${planet.name} — Symbolique, maisons, aspects`),
-    description,
-    canonicalPath: `/planetes/${planet.slug}`,
-    type: "article",
-  });
+const ogImage = planet.hero?.src ?? `/images/planetes/${planet.slug}/a.webp`;
+
+return buildMeta({
+  title: buildTitle(`${planet.name} — Symbolique, maisons, aspects`),
+  description,
+  canonicalPath: `/planetes/${planet.slug}`,
+  type: "article",
+  ogImage,
+});
+
 }
 
 export default async function PlanetPage({
