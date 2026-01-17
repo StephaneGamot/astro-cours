@@ -140,8 +140,7 @@ export async function generateMetadata(
   const action = "Traits, amour, travail, qualités et défis. Cours clair + exemples.";
 
   const description = clampMeta(
-    `${label} : signe astrologique — sens et personnalité. ` +
-      hook +
+    `${label} : signe astrologique` +
       time +
       ruler +
       keyword +
