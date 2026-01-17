@@ -141,8 +141,9 @@ export async function generateMetadata(
 
   const description = clampMeta(
     `${label} : signe astrologique` +
+      hook +
       time +
-      ruler +
+   
       keyword +
       highlights +
       action,

@@ -16,7 +16,7 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: "Planètes rétrogrades — Définition, stations & interprétation",
+  title: "Planètes rétrogrades — Définition & interprétation",
   description:
     "Cours complet sur la rétrogradation : définition, stations, natal vs transit, effets concrets et lecture planète par planète avec repères et pièges.",
   alternates: { canonical: "/retrogrades" },

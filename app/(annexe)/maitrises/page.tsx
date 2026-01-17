@@ -12,7 +12,7 @@ import signes from "../../../data/signes.details.json";
 type Sign = (typeof signes)[number];
 
 export const metadata: Metadata = {
-  title: "Maîtrises, exaltations, exils & chutes — Dignités essentielles",
+  title: "Maîtrises, exaltations, exils & chutes — Dignités",
   description:
     "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Sens, logique astrologique, repères et erreurs à éviter.",
   alternates: { canonical: "/maitrises" },

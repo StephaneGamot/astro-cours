@@ -9,7 +9,7 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: "Aspects astrologiques — Orbes, sens & interprétation (cours complet)",
+  title: "Aspects astrologiques — Orbes, sens & interprétation",
   description:
     "Cours complet sur les aspects : conjonction, sextile, carré, trigone, opposition. Orbes, logique, effets, exemples et méthode simple d’interprétation.",
   alternates: { canonical: "/aspects" },
