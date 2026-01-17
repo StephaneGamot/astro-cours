@@ -4,7 +4,7 @@ import Image from "next/image";
 import TeteDuDragon from "./../../../public/images/noeuds-lunaires.webp";
 
 export const metadata: Metadata = {
-  title: "Nœuds lunaires — Nœud Nord, Nœud Sud & axe évolutif (cours clair)",
+  title: "Nœuds lunaires — Nœud Nord, Nœud Sud & axe évolutif",
   description:
     "Cours clair sur les Nœuds lunaires : axe NN/NS, sens évolutif, lecture par signe/maison/aspects, pièges fréquents et méthode d’interprétation.",
   alternates: { canonical: "/noeuds-lunaires" },

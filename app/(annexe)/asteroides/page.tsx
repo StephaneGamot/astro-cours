@@ -13,7 +13,7 @@ import Asteroides from "./../../../public/images/asteroides/asteroides.webp"
  */
 
 export const metadata: Metadata = {
-  title: "Astéroïdes en astrologie — Cérès, Pallas, Junon, Vesta & Chiron",
+  title: "Astéroïdes: Cérès, Pallas, Junon, Vesta & Chiron",
   description:
     "Cours pro sur les astéroïdes : sens, psychologie, lecture par signe/maison/aspects, transits et synastrie. Focus Cérès, Pallas, Junon, Vesta et Chiron.",
   alternates: { canonical: "/asteroides" },

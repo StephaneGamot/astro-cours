@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Points fictifs — Vertex, Fortune, Chiron, angles & méthode (cours pro)",
+  title: "Points fictifs — Vertex, Fortune, Chiron, angles & méthode",
   description:
     "Cours pro sur les points fictifs : Vertex, Part de Fortune, Chiron, ASC/MC, Nœuds, Lilith. Méthode de lecture par signe/maison/aspects/transits.",
   alternates: { canonical: "/points-fictifs" },

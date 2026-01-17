@@ -11,7 +11,7 @@ import Link from "next/link";
  */
 
 export const metadata: Metadata = {
-  title: "Lilith (Lune Noire) — Sens, vraie/moyenne & interprétation (cours)",
+  title: "Lilith (Lune Noire) — Sens, vraie/moyenne & interprétation",
   description:
     "Cours complet sur Lilith : définition, Lilith vraie vs moyenne, symbolique, thèmes psycho, lecture par signe/maison/aspects, pièges et méthode claire.",
   alternates: { canonical: "/lilith" },
