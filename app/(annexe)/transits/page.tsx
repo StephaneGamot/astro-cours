@@ -317,7 +317,7 @@ export default function TransitsPage() {
                     >
                       <Image
                         src={planetImageSrc(p.slug)}
-                        alt=""
+                        alt={p.name}
                         fill
                         className="object-cover"
                         sizes="64px"

@@ -407,7 +407,7 @@ export default function AsteroidesPage() {
                     >
                       <Image
                         src={asteroidImageSrc(a.slug)}
-                        alt=""
+                        alt={`symbole de ${a.name} `}
                         fill
                         className="object-cover"
                         sizes="64px"

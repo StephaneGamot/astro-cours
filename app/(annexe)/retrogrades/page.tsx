@@ -414,7 +414,7 @@ export default function RetrogradesPage() {
 >
   <Image
     src={planetImg(p.slug)}
-    alt=""
+    alt={p.nom}
     fill
     className="object-cover"
     sizes="64px"
