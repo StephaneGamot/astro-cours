@@ -4,7 +4,7 @@ import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
 const CANONICAL = "/confidentialite";
 const TITLE = "Politique de confidentialité";
 const DESCRIPTION =
-  "Politique de confidentialité d’Astro Cours : données collectées, cookies, finalités, durée de conservation, sécurité, et droits RGPD (accès, rectification, suppression).";
+  "Politique de confidentialité d’Astro Cours : données collectées, cookies, finalités, durée de conservation, sécurité, et droits RGPD.";
 
 export const metadata: Metadata = {
   title: buildTitle(TITLE),
