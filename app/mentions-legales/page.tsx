@@ -1,15 +1,40 @@
 import type { Metadata } from "next";
 
+import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
+
+const CANONICAL = "/mentions-legales";
+const TITLE = "Mentions légales";
+const DESCRIPTION =
+  "Mentions légales d’Astro Cours : éditeur du site, hébergement, contact, propriété intellectuelle, responsabilité, et conditions d’utilisation.";
+
 export const metadata: Metadata = {
-  title: "Mentions légales",
-  description:
-    "Mentions légales du site Astro Cours : éditeur, hébergement, responsabilité et propriété intellectuelle.",
-  alternates: {
-    canonical: "/mentions-legales",
+  title: buildTitle(TITLE),
+  description: DESCRIPTION,
+  alternates: { canonical: CANONICAL },
+  robots: { index: true, follow: true },
+
+  openGraph: {
+    title: buildTitle(TITLE),
+    description: DESCRIPTION,
+    url: absoluteUrl(CANONICAL),
+    siteName: SITE_NAME,
+    locale: "fr_FR",
+    type: "website",
+    images: [
+      {
+        url: absoluteUrl("/og/cover.jpg"),
+        width: 1200,
+        height: 630,
+        alt: buildTitle(TITLE),
+      },
+    ],
   },
-  robots: {
-    index: true,
-    follow: true,
+
+  twitter: {
+    card: "summary_large_image",
+    title: buildTitle(TITLE),
+    description: DESCRIPTION,
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 

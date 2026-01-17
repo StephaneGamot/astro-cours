@@ -1,17 +1,42 @@
 import type { Metadata } from "next";
+import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
+
+const CANONICAL = "/confidentialite";
+const TITLE = "Politique de confidentialité";
+const DESCRIPTION =
+  "Politique de confidentialité d’Astro Cours : données collectées, cookies, finalités, durée de conservation, sécurité, et droits RGPD (accès, rectification, suppression).";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité",
-  description:
-    "Politique de confidentialité du site Astro Cours : données personnelles, cookies et droits des utilisateurs.",
-  alternates: {
-    canonical: "/confidentialite",
+  title: buildTitle(TITLE),
+  description: DESCRIPTION,
+  alternates: { canonical: CANONICAL },
+  robots: { index: true, follow: true },
+
+  openGraph: {
+    title: buildTitle(TITLE),
+    description: DESCRIPTION,
+    url: absoluteUrl(CANONICAL),
+    siteName: SITE_NAME,
+    locale: "fr_FR",
+    type: "website",
+    images: [
+      {
+        url: absoluteUrl("/og/cover.jpg"),
+        width: 1200,
+        height: 630,
+        alt: buildTitle(TITLE),
+      },
+    ],
   },
-  robots: {
-    index: true,
-    follow: true,
+
+  twitter: {
+    card: "summary_large_image",
+    title: buildTitle(TITLE),
+    description: DESCRIPTION,
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
+
 
 export default function ConfidentialitePage() {
   return (
