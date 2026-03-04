@@ -5,6 +5,8 @@ import ConjonctionPost, { meta as conjonctionMeta } from "./conjonction-melange-
 import VenusEnSigne, { meta as venusEnSigne } from "./venus-en-signe-ton-style-amoureux";
 import MarsEnSigne, { meta as marsEnSigne } from "./mars-en-signes-desir-libido-action-sexe";
 import LuneCyclesPost, { meta as luneCyclesMeta } from "./pleine-lune-nouvelle-lune-cycles-astrologie";
+import BestMomentToSellHousePost, { meta as BestMomentToSellHouseMeta } from "./comment-regarder-le-meilleur-moment-pour-vendre-sa-maison-avec-l-astrologie";
+
 
 export type PostMeta = typeof themeAstralMeta;
 export type PostModule = { meta: PostMeta; Component: () => ReactElement };
@@ -15,4 +17,5 @@ export const posts: PostModule[] = [
   { meta: marsEnSigne, Component: MarsEnSigne },
   { meta: themeAstralMeta, Component: ThemeAstralPost },
   { meta: conjonctionMeta, Component: ConjonctionPost },
+    { meta: BestMomentToSellHouseMeta, Component: BestMomentToSellHousePost },
 ];

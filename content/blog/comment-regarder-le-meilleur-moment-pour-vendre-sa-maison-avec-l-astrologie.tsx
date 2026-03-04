@@ -4,7 +4,7 @@ import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 
 export const meta = {
   slug: "vendre-une-maison-demenager-astrologie-methodes",
-  title: "Vente de maison & déménagement : quoi regarder en astrologie (méthode claire)",
+  title: "Vente de maison & déménagement : quoi regarder en astrologie ",
   description:
     "Guide sérieux pour analyser une vente immobilière ou un déménagement : maisons IV/VII/X, maîtres, transits, progressions, déclencheurs, rétrogrades et check-list pratique.",
   date: "2026-03-03",
