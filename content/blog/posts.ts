@@ -5,10 +5,8 @@ import ConjonctionPost, { meta as conjonctionMeta } from "./conjonction-melange-
 import VenusEnSigne, { meta as venusEnSigne } from "./venus-en-signe-ton-style-amoureux";
 import MarsEnSigne, { meta as marsEnSigne } from "./mars-en-signes-desir-libido-action-sexe";
 import LuneCyclesPost, { meta as luneCyclesMeta } from "./pleine-lune-nouvelle-lune-cycles-astrologie";
-import BestMomentToSellHousePost, {
-  meta as BestMomentToSellHouseMeta,
-} from "./comment-regarder-le-meilleur-moment-pour-vendre-sa-maison-avec-l-astrologie";
-
+import BestMomentToSellHousePost, { meta as BestMomentToSellHouseMeta } from "./comment-regarder-le-meilleur-moment-pour-vendre-sa-maison-avec-l-astrologie";
+import ZodiacSignAndAsc, { meta as ZodiacSignAndAscMeta } from "./comprendre-son-signe-astrologique-et-son-ascendant";
 // ✅ Type "large" (ne dépend pas d’un seul article)
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
@@ -31,4 +29,5 @@ export const posts: PostModule[] = [
   { meta: themeAstralMeta, Component: ThemeAstralPost },
   { meta: conjonctionMeta, Component: ConjonctionPost },
   { meta: BestMomentToSellHouseMeta, Component: BestMomentToSellHousePost },
+    { meta: ZodiacSignAndAscMeta, Component: ZodiacSignAndAsc },
 ];
