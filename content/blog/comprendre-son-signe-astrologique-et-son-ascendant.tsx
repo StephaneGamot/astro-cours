@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 
 export const meta = {
-  slug: "comprendre-signe-astrologique-ascendant-144-exemples",
+  slug: "comprendre-signe-astrologique-ascendant-12-exemples",
   title: "Comprendre son signe astrologique et son ascendant",
   description:
     "Comprendre la différence entre signe solaire et ascendant à travers 12 exemples concrets, sérieux et pédagogiques.",
@@ -141,7 +141,7 @@ export default function Post() {
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
             Cet article t’aide à comprendre la différence entre les deux, puis
-            te donne <strong>144 exemples</strong> pour mieux te situer.
+            te donne <strong>12 exemples</strong> pour mieux te situer.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
