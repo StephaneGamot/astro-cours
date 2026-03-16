@@ -12,11 +12,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.astro-cours.com";
   const now = new Date();
 
-  // Pages fixes
-  const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${base}/`, lastModified: now },
-    { url: `${base}/blog`, lastModified: now },
+  // Pages statiques
+  const staticPages = [
+    "",
+    "blog",
+    "aspects",
+    "transits",
+    "points-fictifs",
+    "noeuds-lunaires",
+    "lilith",
+    "maitrises",
+    "retrogrades",
+    "synastrie",
+    "revolution-solaire",
+    "asteroides",
   ];
+
+  const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({
+    url: `${base}/${page}`,
+    lastModified: now,
+  }));
 
   const houseRoutes: MetadataRoute.Sitemap = (maisons as House[]).map((h) => ({
     url: `${base}/maisons/${h.slug}`,
