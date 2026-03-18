@@ -25,7 +25,6 @@ export const metadata: Metadata = {
   },
 };
 
-
 function uniqTags(posts: ReturnType<typeof getAllPosts>) {
   const set = new Set<string>();
   posts.forEach((p) => (p.meta.tags ?? []).forEach((t) => set.add(t)));
@@ -56,39 +55,36 @@ function Chip({
   );
 }
 
-export default function BlogPage({
+export default async function BlogPage({
   searchParams,
 }: {
-  searchParams?: { tag?: string };
+  searchParams?: Promise<{ tag?: string }>;
 }) {
+  const resolvedSearchParams = (await searchParams) ?? {};
+
   const posts = getAllPosts();
   const tags = uniqTags(posts);
 
-  const selectedTag = searchParams?.tag?.trim() || "";
+  const selectedTag = resolvedSearchParams.tag?.trim() || "";
   const filtered = selectedTag
     ? posts.filter((p) => (p.meta.tags ?? []).includes(selectedTag))
     : posts;
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10 space-y-10">
-      {/* HERO (plus premium + couleur subtile) */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
-        {/* glow */}
         <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-white/10 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
 
-        {/* overlay gradient */}
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent" />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
 
         <div className="relative">
-
           <div className="mt-2 flex flex-wrap items-end justify-between gap-4">
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight leading-tight">
               Blog d’astrologie
             </h1>
 
-            {/* mini stats */}
             <div className="flex flex-wrap gap-2 text-sm text-text/70">
               <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1">
                 {posts.length} article(s)
@@ -107,7 +103,6 @@ export default function BlogPage({
             méthode d’interprétation. Format premium, pensé pour apprendre vite.
           </p>
 
-          {/* Filtres tags */}
           {tags.length ? (
             <div className="mt-6 flex flex-wrap gap-2">
               <Chip href="/blog" active={!selectedTag}>
@@ -129,7 +124,6 @@ export default function BlogPage({
         </div>
       </header>
 
-      {/* Résultat filtre */}
       {selectedTag ? (
         <div className="flex items-center justify-between gap-3">
           <p className="text-sm text-text/70">
@@ -145,7 +139,6 @@ export default function BlogPage({
         </div>
       ) : null}
 
-      {/* Titre section */}
       <div className="flex items-end justify-between gap-4">
         <div>
           <h2 className="text-xl font-semibold tracking-tight">Derniers articles</h2>
@@ -155,7 +148,6 @@ export default function BlogPage({
         </div>
       </div>
 
-      {/* Fond subtil derrière la grille */}
       <div className="relative">
         <div className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-b from-white/[0.04] via-transparent to-transparent" />
 
@@ -166,7 +158,6 @@ export default function BlogPage({
         </section>
       </div>
 
-      {/* Empty state */}
       {filtered.length === 0 ? (
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 text-text/80">
           Aucun article pour ce tag pour le moment.

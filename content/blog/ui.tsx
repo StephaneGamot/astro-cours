@@ -6,7 +6,8 @@ export type PillTone =
   | "sky"
   | "emerald"
   | "yellow"
-  | "orange";
+  | "orange"
+  | "rose";
 
 function pillClass(tone: PillTone = "neutral") {
   return tone === "violet"
@@ -19,6 +20,8 @@ function pillClass(tone: PillTone = "neutral") {
     ? "border-yellow-500/25 bg-yellow-500/10 text-yellow-200"
     : tone === "orange"
     ? "border-orange-500/25 bg-orange-500/10 text-orange-200"
+    : tone === "rose"
+    ? "border-rose-500/25 bg-rose-500/10 text-rose-200"
     : "border-white/10 bg-black/20 text-text/80";
 }
 
@@ -48,6 +51,7 @@ export function tagStyle(tag: string) {
   if (t.includes("plan")) return pillClass("yellow");
   if (t.includes("zodia")) return pillClass("emerald");
   if (t.includes("maison")) return pillClass("sky");
+  if (t.includes("amour") || t.includes("relation")) return pillClass("rose");
 
   return "border-white/10 bg-black/20 text-text/85";
 }
@@ -62,7 +66,7 @@ export function TagPillsInline({ tags }: { tags?: string[] }) {
           key={t}
           className={`rounded-full border px-3 py-1 text-sm ${tagStyle(t)}`}
         >
-          <span className="opacity-80 mr-1">#</span>
+          <span className="mr-1 opacity-80">#</span>
           {t}
         </span>
       ))}
@@ -73,6 +77,8 @@ export function TagPillsInline({ tags }: { tags?: string[] }) {
 export function getGlowFromTags(tags?: string[]) {
   const list = (tags ?? []).map((x) => x.toLowerCase());
 
+  if (list.some((t) => t.includes("amour") || t.includes("relation")))
+    return "bg-rose-500/15";
   if (list.some((t) => t.includes("thème"))) return "bg-emerald-500/15";
   if (list.some((t) => t.includes("plan"))) return "bg-yellow-500/15";
   if (list.some((t) => t.includes("aspect"))) return "bg-violet-500/15";
@@ -82,4 +88,3 @@ export function getGlowFromTags(tags?: string[]) {
 
   return "bg-white/10";
 }
-
