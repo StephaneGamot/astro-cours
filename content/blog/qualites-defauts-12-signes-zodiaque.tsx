@@ -5,7 +5,7 @@ import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qualites-defauts-12-signes-zodiaque`;
-const COVER_URL = `${SITE_URL}/images/blog/qualite-et-defaut-de-chaque-signe-du-zodiaque.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/sun-moon.jpg`;
 
 export const meta = {
   slug: "qualites-defauts-12-signes-zodiaque",
