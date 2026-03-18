@@ -41,7 +41,7 @@ export type PostMeta = {
   date: string;
   tags: string[];
   readingLevel: ReadingLevel;
-  cover: string | StaticImageData;
+  cover?: string;
 };
 
 export type PostModule = {
