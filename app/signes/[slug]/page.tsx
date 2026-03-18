@@ -189,7 +189,7 @@ export async function generateMetadata({
         "Découvrez la personnalité de la Balance, son sens de l’harmonie, ses qualités, ses défis et sa manière d’aimer.",
     },
     scorpion: {
-      title: "Scorpion : personnalité, amour, forces et défis",
+      title: "Scorpion : sa personnalité exceptionnelle, amour, forces et défis",
       description:
         "Découvrez la personnalité du Scorpion, son intensité, ses qualités, ses défis et sa manière d’aimer.",
     },
