@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
   title: {
     default: SITE_NAME,
-    template: `%s — ${SITE_NAME}`,
+    template: `%s`,
   },
 
   description: DEFAULT_DESC,

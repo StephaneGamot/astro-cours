@@ -83,7 +83,7 @@ function getCanonicalUrl(slug: string) {
 
 function getOgImageUrl(slug: string) {
 
-    return `${SITE_URL}/images/zodiaque/png/${slug}.webp`;
+    return `${SITE_URL}/images/zodiaque/png/${slug}.png`;
 }
 
 function getFallbackOgImageUrl(slug: string) {
