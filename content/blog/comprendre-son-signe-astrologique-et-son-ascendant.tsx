@@ -2,15 +2,82 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 
+const SITE_URL = "https://www.astro-cours.com";
+const ARTICLE_URL = `${SITE_URL}/blog/comprendre-signe-astrologique-ascendant-12-exemples`;
+const COVER_URL = `${SITE_URL}/images/blog/soleil-et-asc.jpg`;
+
 export const meta = {
   slug: "comprendre-signe-astrologique-ascendant-12-exemples",
   title: "Comprendre son signe astrologique et son ascendant",
   description:
     "Comprendre la différence entre signe solaire et ascendant à travers 12 exemples concrets, sérieux et pédagogiques.",
+  socialTitle:
+    "Signe astrologique et ascendant : comprendre enfin la différence",
+  socialDescription:
+    "Le signe solaire et l’ascendant ne disent pas la même chose. Découvrez leur différence à travers 12 exemples clairs, concrets et pédagogiques.",
   date: "2026-03-08",
   tags: ["bases", "signe", "ascendant", "débutant", "exemples"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/soleil-et-asc.webp",
+  cover: "/images/blog/soleil-et-asc.jpg",
+  ogImage: COVER_URL,
+  ogImageAlt:
+    "Illustration pédagogique sur la différence entre signe astrologique et ascendant",
+  type: "article" as const,
+  articleSection: "Astrologie",
+  readingTime: "6–8 min",
+  articleUrl: ARTICLE_URL,
+};
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: meta.title,
+  description: meta.description,
+  image: [meta.ogImage],
+  datePublished: meta.date,
+  dateModified: meta.date,
+  inLanguage: "fr-FR",
+  mainEntityOfPage: meta.articleUrl,
+  articleSection: meta.articleSection,
+  keywords: meta.tags.join(", "),
+  educationalLevel: meta.readingLevel,
+  author: {
+    "@type": "Organization",
+    name: "Astro Cours",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Astro Cours",
+    logo: {
+      "@type": "ImageObject",
+      url: `${SITE_URL}/icon.png`,
+    },
+  },
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Accueil",
+      item: SITE_URL,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Blog",
+      item: `${SITE_URL}/blog`,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: meta.title,
+      item: meta.articleUrl,
+    },
+  ],
 };
 
 function Kicker({ children }: { children: ReactNode }) {
@@ -479,6 +546,18 @@ export default function Post() {
       >
         ← Voir tous les articles
       </Link>
+      <>
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+  />
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+  />
+
+  {/* ton article */}
+</>
     </div>
   );
 }
