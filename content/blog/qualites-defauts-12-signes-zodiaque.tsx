@@ -34,7 +34,7 @@ export const metadata = {
     publishedTime: meta.date,
     images: [
       {
-        url: COVER_URL,
+        url: "https://www.astro-cours.com/images/blog/sun-moon.jpg",
         width: 1200,
         height: 630,
         alt: "Illustration des qualités et défauts des 12 signes du zodiaque",
