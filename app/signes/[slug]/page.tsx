@@ -149,6 +149,80 @@ export async function generateMetadata({
     170
   );
 
+  const socialContentBySlug: Record<
+    string,
+    { title: string; description: string }
+  > = {
+    belier: {
+      title: "Bélier : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Bélier, ses qualités, ses défis, sa manière d’aimer et les grandes dynamiques de ce signe astrologique.",
+    },
+    taureau: {
+      title: "Taureau : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Taureau, sa stabilité, ses qualités, ses défis et sa manière d’aimer en astrologie.",
+    },
+    gemeaux: {
+      title: "Gémeaux : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité des Gémeaux, leur vivacité d’esprit, leurs qualités, leurs défis et leur manière d’aimer.",
+    },
+    cancer: {
+      title: "Cancer : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Cancer, sa sensibilité, ses qualités, ses défis et sa manière d’aimer en astrologie.",
+    },
+    lion: {
+      title: "Lion : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Lion, son rayonnement, ses qualités, ses défis et sa manière d’aimer.",
+    },
+    vierge: {
+      title: "Vierge : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité de la Vierge, sa précision, ses qualités, ses défis et sa manière d’aimer.",
+    },
+    balance: {
+      title: "Balance : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité de la Balance, son sens de l’harmonie, ses qualités, ses défis et sa manière d’aimer.",
+    },
+    scorpion: {
+      title: "Scorpion : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Scorpion, son intensité, ses qualités, ses défis et sa manière d’aimer.",
+    },
+    sagittaire: {
+      title: "Sagittaire : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Sagittaire, son élan, ses qualités, ses défis et sa manière d’aimer.",
+    },
+    capricorne: {
+      title: "Capricorne : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Capricorne, sa discipline, ses qualités, ses défis et sa manière d’aimer.",
+    },
+    verseau: {
+      title: "Verseau : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité du Verseau, son originalité, ses qualités, ses défis et sa manière d’aimer.",
+    },
+    poissons: {
+      title: "Poissons : personnalité, amour, forces et défis",
+      description:
+        "Découvrez la personnalité des Poissons, leur sensibilité, leurs qualités, leurs défis et leur manière d’aimer.",
+    },
+  };
+
+  const social = socialContentBySlug[slug] ?? {
+    title: `${label} : personnalité, amour, forces et défis`,
+    description: `Découvrez la personnalité du ${label}, ses qualités, ses défis, sa manière d’aimer et les grandes dynamiques de ce signe astrologique.`,
+  };
+
+  const socialTitle = social.title;
+  const socialDescription = clampMeta(social.description, 170);
+
   return {
     title: `${label} — Signe astrologique | ${SITE_NAME}`,
     description,
@@ -156,8 +230,8 @@ export async function generateMetadata({
       canonical,
     },
     openGraph: {
-      title: `${label} — Signe astrologique`,
-      description,
+      title: socialTitle,
+      description: socialDescription,
       url: canonical,
       siteName: SITE_NAME,
       locale: "fr_FR",
@@ -173,8 +247,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${label} — Signe astrologique`,
-      description,
+      title: socialTitle,
+      description: socialDescription,
       images: [ogImage],
     },
     robots: {
