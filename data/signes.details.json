@@ -100,7 +100,163 @@
       "Il indique aussi un secteur de vie où l’on apprend à transformer l’impulsion en maîtrise."
     ],
 
-    "motCle": "Je suis"
+    "motCle": "Je suis",
+    "planeteDansLeSigne": {
+  "intro": "Une planète en Bélier prend un style direct, rapide et orienté vers l’action.",
+  "motsCles": ["initiative", "franchise", "courage", "impulsion"],
+  "planetes": {
+    "soleil": {
+      "tonalite": "Le Soleil en Bélier affirme une identité pionnière, volontaire et directe.",
+      "forces": [
+        "courage d’être soi",
+        "besoin d’initiative",
+        "capacité à ouvrir des voies"
+      ],
+      "defis": [
+        "impatience",
+        "réactivité de l’ego",
+        "difficulté à attendre"
+      ],
+      "enAmour": [
+        "aime conquérir",
+        "besoin de spontanéité",
+        "déteste les jeux trop lents"
+      ],
+      "auTravail": [
+        "agit vite",
+        "aime lancer",
+        "moins à l’aise dans la routine"
+      ],
+      "avecArgent": [
+        "peut dépenser vite sur un coup d’élan",
+        "investit volontiers dans ce qui excite ou stimule"
+      ]
+    },
+    "lune": {
+      "tonalite": "La Lune en Bélier vit vite, réagit vite et a besoin d’autonomie émotionnelle.",
+      "forces": ["franchise émotionnelle", "réactivité", "élan instinctif"],
+      "defis": ["impatience affective", "colères brèves", "difficulté à temporiser"]
+    }
+  }
+},
+"etoilesFixes": [
+  {
+    "nom": "Hamal",
+    "nature": "Mars / Saturne",
+    "motsCles": ["tête", "affirmation", "poussée"],
+    "description": "Hamal renforce une tonalité de frontalité, de courage et de décision."
+  },
+  {
+    "nom": "Sheratan",
+    "nature": "Mars",
+    "motsCles": ["impulsion", "vivacité", "risque"],
+    "description": "Sheratan accentue l’esprit d’initiative mais demande une bonne maîtrise de l’impulsivité."
+  }
+],
+"caractere": [
+  "Le Bélier agit avant de théoriser.",
+  "Il préfère une vérité directe à une diplomatie trop lente.",
+  "Son caractère est entier, vivant, souvent compétitif."
+],"aptitudesNaturelles": [
+  "prendre une initiative",
+  "agir dans l’urgence",
+  "ouvrir une voie",
+  "entraîner par l’exemple"
+], "ceQuIlRegitDansLeMonde": [
+  "les commencements",
+  "l’élan vital",
+  "la guerre et le combat",
+  "l’initiative individuelle",
+  "la prise de risque"
+], "maisonCorrespondante": {
+  "numero": 1,
+  "nom": "Maison I",
+  "resume": "Maison de l’incarnation, de l’élan personnel, de l’apparence et de la manière d’entrer dans la vie.",
+  "themes": [
+    "identité immédiate",
+    "tempérament",
+    "présence",
+    "affirmation de soi"
+  ]
+}, "relationsAuxAutresSignes": [
+  {
+    "sign": "lion",
+    "level": "fluide",
+    "title": "Feu et feu",
+    "summary": "Relation vive, enthousiaste, directe, avec admiration réciproque.",
+    "pointsFortes": ["élan", "franchise", "motivation"],
+    "pointsDeTension": ["ego", "compétition", "besoin d’avoir raison"]
+  },
+  {
+    "sign": "cancer",
+    "level": "delicate",
+    "title": "Feu et eau",
+    "summary": "Le Bélier brusque parfois ce que le Cancer ressent profondément.",
+    "pointsFortes": ["protection", "complémentarité action/sensibilité"],
+    "pointsDeTension": ["réactivité", "susceptibilité", "rythmes différents"]
+  }
+], "amour": {
+  "intro": "Le Bélier aime avec spontanéité, intensité et franchise. Il veut sentir qu’il se passe quelque chose.",
+  "qualites": [
+    "élan sincère",
+    "courage affectif",
+    "capacité à prendre l’initiative"
+  ],
+  "vigilances": [
+    "impatience",
+    "goût de la conquête plus que de la durée",
+    "réactions trop rapides"
+  ],
+  "compatibleAvec": ["lion", "sagittaire", "gemeaux", "verseau"],
+  "attirePar": [
+    "les personnes vivantes, franches, stimulantes",
+    "les relations qui bougent",
+    "les liens sans lourdeur excessive"
+  ]
+}, "travail": {
+  "intro": "Le Bélier travaille comme il vit : il a besoin de mouvement, d’action et d’un objectif clair.",
+  "qualites": [
+    "réactivité",
+    "audace",
+    "capacité à lancer",
+    "énergie d’attaque"
+  ],
+  "vigilances": [
+    "manque de patience",
+    "fatigue par excès d’élan",
+    "difficulté avec les cadres trop rigides"
+  ],
+  "domainesFavorables": [
+    "entrepreneuriat",
+    "sport",
+    "secours",
+    "milieux compétitifs",
+    "postes où il faut ouvrir une voie"
+  ]
+}, "argent": {
+  "intro": "Le Taureau entretient un rapport fort à la valeur, à la possession et à la sécurité matérielle.",
+  "forces": [
+    "sens de la durée",
+    "capacité à accumuler",
+    "rapport concret à la valeur"
+  ],
+  "risques": [
+    "peur de manquer",
+    "attachement excessif",
+    "dépenses de confort ou de plaisir"
+  ],
+  "rapportTypique": [
+    "peut économiser avec constance lorsqu’il cherche la sécurité",
+    "peut aussi dépenser généreusement pour le beau, le bon et le confortable",
+    "son rapport à l’argent dépend beaucoup de ce qu’il associe à la stabilité"
+  ]
+}, "paysAssocies": [
+  {
+    "pays": "Belgique",
+    "niveau": "symbolique",
+    "justification": "Dans certaines traditions d’astrologie mondiale, la Belgique est parfois rapprochée du Gémeaux en raison de sa dualité linguistique, de sa fonction de carrefour et de sa nature relationnelle."
+  }
+]
   },
   {
     "slug": "taureau",

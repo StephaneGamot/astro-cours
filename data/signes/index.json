@@ -1,0 +1,14 @@
+[
+  { "slug": "belier", "name": "Bélier", "periode": "21 mars – 20 avril", "element": "Feu" },
+  { "slug": "taureau", "name": "Taureau", "periode": "21 avril – 20 mai", "element": "Terre" },
+  { "slug": "gemeaux", "name": "Gémeaux", "periode": "21 mai – 20 juin", "element": "Air" },
+  { "slug": "cancer", "name": "Cancer", "periode": "21 juin – 22 juillet", "element": "Eau" },
+  { "slug": "lion", "name": "Lion", "periode": "23 juillet – 22 août", "element": "Feu" },
+  { "slug": "vierge", "name": "Vierge", "periode": "23 août – 22 septembre", "element": "Terre" },
+  { "slug": "balance", "name": "Balance", "periode": "23 septembre – 22 octobre", "element": "Air" },
+  { "slug": "scorpion", "name": "Scorpion", "periode": "23 octobre – 21 novembre", "element": "Eau" },
+  { "slug": "sagittaire", "name": "Sagittaire", "periode": "22 novembre – 21 décembre", "element": "Feu" },
+  { "slug": "capricorne", "name": "Capricorne", "periode": "22 décembre – 19 janvier", "element": "Terre" },
+  { "slug": "verseau", "name": "Verseau", "periode": "20 janvier – 18 février", "element": "Air" },
+  { "slug": "poissons", "name": "Poissons", "periode": "19 février – 20 mars", "element": "Eau" }
+]

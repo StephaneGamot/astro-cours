@@ -1,0 +1,869 @@
+{
+  "slug": "vierge",
+  "name": "Vierge",
+  "periode": "23 août – 22 septembre",
+  "polarite": "Passif (féminin)",
+  "mode": "Mutable",
+  "element": "Terre",
+  "maitre": "Mercure",
+  "exaltation": "Mercure",
+  "exil": "Jupiter",
+  "chute": "Vénus",
+  "motCle": "Je distingue",
+  "mythologie": "La Vierge est associée à des figures de déesses liées à la terre, aux récoltes et à la purification, comme Déméter ou Astrée. Elle symbolise la conscience qui observe, trie et ordonne afin de rendre le monde plus juste et plus fonctionnel. La Vierge n’est pas une figure d’innocence naïve, mais de lucidité : elle voit ce qui doit être corrigé pour que la vie circule mieux. Elle représente la capacité à mettre de l’ordre dans le réel afin que la vie serve quelque chose de plus juste, de plus propre et de plus utile.",
+  "analogie": {
+    "animal": "L’abeille",
+    "objet": "L’outil, le grain, l’instrument de mesure",
+    "fonction": "Analyser, trier, améliorer"
+  },
+  "anatomie": ["Intestins", "Système digestif", "Fonction d’assimilation", "Ventre", "Métabolisme"],
+  "generalites": [
+    "La Vierge représente l’intelligence du détail et le sens du service. Après l’expression créative du Lion, elle cherche à rendre utile, cohérent et fonctionnel ce qui a été exprimé.",
+    "Ce signe observe, analyse et discrimine. Il possède une capacité naturelle à repérer ce qui ne fonctionne pas et à proposer des ajustements concrets.",
+    "Le défi de la Vierge est de ne pas se perdre dans l’excès de critique ou de perfectionnisme. Lorsqu’elle est équilibrée, elle devient une force de clarté, de soin et de précision.",
+    "La Vierge relie aussi l’être humain à l’hygiène du réel : hygiène du corps, de l’esprit, du travail, des gestes et de la méthode. Elle a besoin de comprendre comment les choses fonctionnent pour mieux les améliorer."
+  ],
+  "caractere": [
+    "La Vierge observe avant d’agir : elle regarde, compare, classe, corrige et cherche à comprendre les mécanismes réels.",
+    "Son caractère est discret, précis, méthodique, souvent réservé, avec un fort besoin de cohérence et d’utilité.",
+    "Elle préfère l’exactitude, l’efficacité et la justesse aux grands effets de style ou aux affirmations trop vagues.",
+    "Lorsqu’elle est immature, elle peut devenir anxieuse, tatillonne ou trop critique ; lorsqu’elle mûrit, elle devient une intelligence fine, fiable et profondément utile."
+  ],
+  "aptitudesNaturelles": [
+    "Repérer les détails significatifs",
+    "Analyser avec précision",
+    "Améliorer un système existant",
+    "Organiser, classer, trier",
+    "Servir avec compétence",
+    "Rendre une situation plus claire, plus propre ou plus fonctionnelle"
+  ],
+  "ceQuIlRegitDansLeMonde": [
+    "Le tri",
+    "L’analyse",
+    "Le service",
+    "La méthode",
+    "L’hygiène",
+    "Le soin du détail",
+    "Le travail bien fait",
+    "L’amélioration concrète du réel"
+  ],
+  "maisonCorrespondante": {
+    "numero": 6,
+    "nom": "Maison VI",
+    "resume": "La sixième maison parle du travail quotidien, du service, de la santé, des routines, des compétences, des méthodes et de la manière de rendre les choses fonctionnelles. Son analogie naturelle avec la Vierge souligne la nécessité de trier, corriger, entretenir, comprendre et améliorer.",
+    "themes": [
+      "Travail quotidien",
+      "Service",
+      "Santé",
+      "Méthode",
+      "Compétence",
+      "Hygiène de vie"
+    ]
+  },
+  "forces": [
+    "Sens aigu du détail",
+    "Capacité à améliorer ce qui existe",
+    "Esprit logique, méthodique et utile"
+  ],
+  "ombres": [
+    "Rigidité mentale",
+    "Auto-critique excessive",
+    "Peurs liées à l’imperfection"
+  ],
+  "besoins": [
+    "Utilité concrète",
+    "Ordre et cohérence",
+    "Comprendre le fonctionnement des choses"
+  ],
+  "aTravailler": [
+    "Lâcher le contrôle excessif",
+    "Accepter l’imperfection",
+    "Faire confiance au processus",
+    "Ne pas réduire la vie à ce qui doit être corrigé",
+    "Distinguer précision et anxiété"
+  ],
+  "quandCestEquilibre": [
+    "La Vierge devient une intelligence au service du vivant, capable d’aider sans juger.",
+    "Elle transforme l’analyse en soin et la précision en sagesse pratique.",
+    "Sa lucidité devient féconde : elle améliore sans écraser, elle ordonne sans rigidifier."
+  ],
+  "aptitudes": {
+    "atouts": [
+      "Analytique",
+      "Précise",
+      "Consciencieuse",
+      "Serviable",
+      "Organisée",
+      "Lucide"
+    ],
+    "defis": [
+      "Critique",
+      "Perfectionniste",
+      "Anxieuse",
+      "Auto-exigeante",
+      "Doute excessif"
+    ]
+  },
+  "amour": {
+    "intro": "La Vierge aime souvent avec retenue, finesse et sérieux. Elle ne se livre pas toujours dans de grandes démonstrations, mais elle montre son attachement par l’attention, la constance, les gestes utiles et la qualité de présence. Elle cherche souvent une relation fiable, saine et cohérente, où la confiance peut se construire dans les faits.",
+    "qualites": [
+      "Fidélité discrète",
+      "Attention aux besoins réels de l’autre",
+      "Capacité à aimer par les gestes",
+      "Sérieux affectif",
+      "Volonté d’améliorer et de prendre soin du lien"
+    ],
+    "vigilances": [
+      "Peut trop analyser le lien",
+      "Risque de retenue émotionnelle excessive",
+      "Tendance à voir d’abord ce qui ne va pas",
+      "Difficulté à se détendre dans l’imperfection amoureuse"
+    ],
+    "compatibleAvec": ["Taureau", "Cancer", "Scorpion", "Capricorne"],
+    "attirePar": [
+      "Les personnes fiables et cohérentes",
+      "Les liens simples, vrais et propres",
+      "Les relations où l’on peut se sentir utile sans se perdre",
+      "Les personnes qui rassurent par leur solidité plus que par les promesses"
+    ]
+  },
+  "travail": {
+    "intro": "La Vierge travaille avec sérieux, précision et sens du détail. Elle excelle souvent dans les activités qui demandent de l’analyse, de la méthode, de l’amélioration continue et un vrai souci de qualité. Elle aime comprendre comment les choses fonctionnent pour les rendre plus efficaces.",
+    "qualites": [
+      "Méthode",
+      "Rigueur",
+      "Compétence technique",
+      "Fiabilité",
+      "Capacité à corriger, organiser et optimiser"
+    ],
+    "vigilances": [
+      "Tendance à trop contrôler",
+      "Risque de surmenage ou d’exigence excessive",
+      "Peut perdre du temps à vouloir tout rendre parfait",
+      "Supporte mal l’approximation imposée"
+    ],
+    "domainesFavorables": [
+      "Santé",
+      "Recherche",
+      "Édition / correction",
+      "Administration",
+      "Analyse de données",
+      "Artisanat minutieux",
+      "Enseignement technique",
+      "Fonctions où il faut classer, vérifier, soigner, améliorer ou organiser"
+    ]
+  },
+  "argent": {
+    "intro": "La Vierge entretient souvent un rapport prudent, raisonné et concret à l’argent. Elle cherche à comprendre, à prévoir, à éviter le gaspillage et à faire en sorte que les ressources soient bien utilisées. Elle ne vise pas forcément le prestige, mais l’efficacité, la sécurité pratique et la cohérence.",
+    "forces": [
+      "Gestion prudente",
+      "Attention au détail",
+      "Capacité à éviter le gaspillage",
+      "Rapport lucide aux dépenses utiles"
+    ],
+    "risques": [
+      "Tendance à trop calculer",
+      "Anxiété financière liée au besoin de contrôle",
+      "Difficulté à se faire plaisir sans justification",
+      "Peut accorder trop d’importance à la sécurité par la maîtrise"
+    ],
+    "rapportTypique": [
+      "Peut très bien gérer un budget avec méthode",
+      "Préfère souvent les dépenses utiles, réfléchies et bien ciblées",
+      "Peut avoir besoin de comprendre précisément avant d’acheter ou d’investir",
+      "Cherche à rendre les ressources fonctionnelles plutôt qu’à impressionner"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Zavijava",
+      "nature": "Mercure",
+      "motsCles": ["Observation", "Précision", "Discernement", "Analyse"],
+      "description": "Zavijava est souvent associée à une intelligence attentive, analytique, capable d’observer finement les détails. Elle résonne bien avec la tonalité mercurienne et précise de la Vierge."
+    },
+    {
+      "nom": "Denebola",
+      "nature": "Uranus / Mercure",
+      "motsCles": ["Indépendance mentale", "Lucidité", "Détachement", "Finesse"],
+      "description": "Denebola ajoute une note de lucidité parfois un peu distante, critique ou indépendante. Dans une lecture symbolique de la Vierge, elle peut renforcer la capacité à voir clair et à ne pas se laisser séduire par les illusions."
+    }
+  ],
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Vierge s’exprime par l’analyse, le discernement, la méthode et la recherche d’efficacité. Le principe de la planète devient plus précis, plus concret, plus orienté vers l’amélioration. Cela favorise la compétence et le sens du service, mais peut aussi accentuer le doute ou la critique si l’énergie est mal canalisée.",
+    "motsCles": [
+      "Analyse",
+      "Discernement",
+      "Service",
+      "Précision",
+      "Amélioration",
+      "Méthode"
+    ],
+    "planetes": {
+      "soleil": {
+        "tonalite": "Le Soleil en Vierge construit une identité basée sur l’utilité, la compétence, la précision et le sens du réel. Il a besoin de se sentir juste, fiable et concrètement valable.",
+        "forces": [
+          "Conscience du détail",
+          "Esprit de service",
+          "Méthode",
+          "Fiabilité"
+        ],
+        "defis": [
+          "Auto-critique",
+          "Perfectionnisme",
+          "Difficulté à se détendre dans l’imperfection",
+          "Besoin de tout comprendre avant d’agir"
+        ],
+        "enAmour": [
+          "Aime sérieusement et discrètement",
+          "Montre souvent son attachement par les actes",
+          "Cherche la cohérence plus que le spectacle"
+        ],
+        "auTravail": [
+          "Très fort dans les métiers de précision, d’analyse ou de service",
+          "A besoin de se sentir utile et compétent"
+        ],
+        "avecArgent": [
+          "Gère prudemment",
+          "Cherche à comprendre et à optimiser"
+        ]
+      },
+      "lune": {
+        "tonalite": "La Lune en Vierge vit les émotions à travers le besoin d’ordre, de clarté, de propreté intérieure et de repères fonctionnels. Elle apaise par l’organisation et la maîtrise.",
+        "forces": [
+          "Sens pratique",
+          "Capacité à aider concrètement",
+          "Réserve émotionnelle utile",
+          "Besoin d’hygiène affective"
+        ],
+        "defis": [
+          "Anxiété",
+          "Tendance à trop contrôler les émotions",
+          "Difficulté à lâcher prise",
+          "Sensibilité exprimée par la tension plus que par l’effusion"
+        ],
+        "enAmour": [
+          "A besoin de fiabilité et de calme",
+          "Exprime souvent son attachement en prenant soin"
+        ],
+        "auTravail": [
+          "Travaille mieux dans un cadre clair, propre et structuré",
+          "A besoin de sentir que les choses sont bien tenues"
+        ],
+        "avecArgent": [
+          "Peut gérer prudemment par besoin de sécurité mentale",
+          "Cherche à éviter le désordre financier"
+        ]
+      },
+      "mercure": {
+        "tonalite": "Mercure en Vierge est dans une de ses expressions les plus naturelles : pensée précise, analytique, structurée, tournée vers le concret et le détail significatif.",
+        "forces": [
+          "Grande précision mentale",
+          "Capacité d’analyse",
+          "Organisation de la pensée",
+          "Sens du détail utile"
+        ],
+        "defis": [
+          "Surcharge mentale",
+          "Excès d’analyse",
+          "Rigidité possible",
+          "Difficulté à voir la vue d’ensemble quand le détail envahit tout"
+        ],
+        "enAmour": [
+          "A besoin d’un dialogue propre, intelligent et fiable",
+          "Peut exprimer l’amour par l’attention aux détails"
+        ],
+        "auTravail": [
+          "Excellent dans les tâches d’analyse, d’édition, de correction, de méthode ou de recherche",
+          "Très bon pour clarifier"
+        ],
+        "avecArgent": [
+          "Évalue, compare, calcule",
+          "Préfère les choix rationnels"
+        ]
+      },
+      "venus": {
+        "tonalite": "Vénus en Vierge aime avec discrétion, attention, pudeur et désir de faire bien. Le plaisir passe par la qualité, la justesse, le soin et la cohérence du lien.",
+        "forces": [
+          "Délicatesse",
+          "Fidélité",
+          "Soin réel du lien",
+          "Goût de la qualité simple"
+        ],
+        "defis": [
+          "Retenue affective",
+          "Tendance à trop observer ou corriger",
+          "Difficulté à se laisser aller"
+        ],
+        "enAmour": [
+          "Aime utilement, concrètement, discrètement",
+          "Cherche une relation saine et sincère",
+          "Peut être très touchante dans sa manière de prendre soin"
+        ],
+        "auTravail": [
+          "Aime les environnements raffinés, sobres, bien tenus",
+          "Cherche la justesse plus que l’effet"
+        ],
+        "avecArgent": [
+          "Dépense avec discernement",
+          "Peut privilégier la qualité discrète à l’ostentation"
+        ]
+      },
+      "mars": {
+        "tonalite": "Mars en Vierge agit avec précision, méthode et volonté d’efficacité. L’énergie se canalise, s’organise, se règle et cherche à être utile plutôt que spectaculaire.",
+        "forces": [
+          "Efficacité",
+          "Discipline",
+          "Action bien dosée",
+          "Capacité à améliorer progressivement"
+        ],
+        "defis": [
+          "Tension nerveuse",
+          "Agacement face à l’imperfection",
+          "Tendance à trop contrôler l’action",
+          "Difficulté à agir spontanément"
+        ],
+        "enAmour": [
+          "Aime montrer par les actes plus que par les grandes déclarations",
+          "Cherche une relation fonctionnelle et fiable"
+        ],
+        "auTravail": [
+          "Très fort pour exécuter proprement, corriger et optimiser",
+          "Supporte mal le désordre"
+        ],
+        "avecArgent": [
+          "Peut agir avec prudence et calcul",
+          "Veut sécuriser par une bonne gestion"
+        ]
+      },
+      "jupiter": {
+        "tonalite": "Jupiter en Vierge amplifie le besoin d’être utile, compétent, précis et concret. Il fait croître par le service, l’amélioration et le savoir appliqué.",
+        "forces": [
+          "Compétence utile",
+          "Esprit de service",
+          "Progression par l’effort",
+          "Goût de l’amélioration"
+        ],
+        "defis": [
+          "Difficulté à penser grand",
+          "Tendance à minorer l’élan spontané",
+          "Excès de détail au détriment de la vision"
+        ],
+        "enAmour": [
+          "Aime les liens qui progressent sainement",
+          "Cherche de la cohérence et du sérieux"
+        ],
+        "auTravail": [
+          "Très bon dans les univers de soin, de pédagogie, de méthode ou de précision",
+          "Aime faire grandir par le concret"
+        ],
+        "avecArgent": [
+          "Gère avec prudence",
+          "Favorise les choix rationnels et utiles"
+        ]
+      },
+      "saturne": {
+        "tonalite": "Saturne en Vierge structure fortement le rapport au travail, à l’ordre, à la compétence et à la maîtrise du détail. Il peut donner une grande rigueur.",
+        "forces": [
+          "Rigueur",
+          "Sens des responsabilités",
+          "Compétence solide",
+          "Capacité à tenir une méthode"
+        ],
+        "defis": [
+          "Rigidité",
+          "Anxiété de performance",
+          "Critique excessive",
+          "Pression intérieure forte"
+        ],
+        "enAmour": [
+          "Aime sérieusement mais avec pudeur",
+          "A besoin de confiance avant de se relâcher"
+        ],
+        "auTravail": [
+          "Très fort dans les responsabilités techniques, organisationnelles ou de contrôle",
+          "Peut devenir une référence fiable"
+        ],
+        "avecArgent": [
+          "Très prudent",
+          "Cherche un contrôle rigoureux des ressources"
+        ]
+      },
+      "uranus": {
+        "tonalite": "Uranus en Vierge crée une tension entre méthode et innovation. Il pousse à transformer les systèmes de travail, les routines, la technique et le rapport à l’efficacité.",
+        "forces": [
+          "Innovation appliquée",
+          "Intelligence pratique originale",
+          "Réforme du concret"
+        ],
+        "defis": [
+          "Nervosité",
+          "Ruptures brusques dans l’organisation",
+          "Conflit entre contrôle et besoin de changement"
+        ],
+        "enAmour": [
+          "A besoin de liens intelligents mais respirants",
+          "Peut réinventer sa manière d’aimer"
+        ],
+        "auTravail": [
+          "Très bon pour moderniser des méthodes ou systèmes",
+          "Supporte mal les routines absurdes"
+        ],
+        "avecArgent": [
+          "Peut réformer sa gestion de façon soudaine",
+          "Cherche des solutions pratiques nouvelles"
+        ]
+      },
+      "neptune": {
+        "tonalite": "Neptune en Vierge cherche un idéal de pureté, de soin, d’attention discrète et de service inspiré. Il rend la sensibilité subtile, parfois silencieuse et très fine.",
+        "forces": [
+          "Compassion discrète",
+          "Sens du soin invisible",
+          "Inspiration dans le détail",
+          "Recherche d’une forme de pureté"
+        ],
+        "defis": [
+          "Flou dans les limites du service",
+          "Sacrifice silencieux",
+          "Perte dans la recherche de perfection ou de pureté"
+        ],
+        "enAmour": [
+          "Aime avec délicatesse, parfois sans trop oser le montrer",
+          "Peut idéaliser une relation simple, pure et juste"
+        ],
+        "auTravail": [
+          "Très inspiré dans les univers de soin, d’art minutieux ou d’accompagnement discret",
+          "A besoin d’un cadre pour rester clair"
+        ],
+        "avecArgent": [
+          "Peut manquer de netteté si l’affect ou l’idéal se mêle trop au concret",
+          "Doit garder une vraie lucidité pratique"
+        ]
+      },
+      "pluton": {
+        "tonalite": "Pluton en Vierge transforme profondément le rapport au travail, au corps, aux routines, à la santé et à la maîtrise du détail. Il pousse à aller au fond des mécanismes du réel.",
+        "forces": [
+          "Capacité à transformer un système de l’intérieur",
+          "Puissance d’analyse",
+          "Lucidité radicale",
+          "Régénération par l’ordre et le tri"
+        ],
+        "defis": [
+          "Obsession du contrôle",
+          "Fixation sur les défauts",
+          "Crises liées à la maîtrise, à la pureté ou à la santé"
+        ],
+        "enAmour": [
+          "Veut un lien vrai, fiable et profond, mais peut devenir exigeant",
+          "A besoin d’apprendre à ne pas disséquer l’amour"
+        ],
+        "auTravail": [
+          "Très fort pour restructurer, corriger et améliorer en profondeur",
+          "Peut transformer radicalement une méthode ou une organisation"
+        ],
+        "avecArgent": [
+          "Rapport intense à la maîtrise des ressources",
+          "Peut traverser de grands cycles de contrôle et de réorganisation"
+        ]
+      }
+    }
+  },
+  "dansUnTheme": [
+    "La Vierge indique un domaine où l’on cherche à comprendre, corriger et améliorer.",
+    "Elle montre aussi où l’on apprend à servir la vie par la précision et le discernement.",
+    "Selon la maison et les aspects, elle peut montrer un secteur de vie où l’on organise, soigne, trie, répare ou développe une compétence particulière."
+  ],
+  "relationsAuxAutresSignes": [
+    {
+      "sign": "belier",
+      "level": "variable",
+      "title": "Impulsion et précision",
+      "summary": "La Vierge veut comprendre, corriger et organiser ; le Bélier veut agir vite. Le lien peut être utile mais demande un vrai ajustement de rythme.",
+      "pointsFortes": [
+        "Complémentarité entre élan et méthode",
+        "Possibilité de rendre l’action plus efficace",
+        "L’un lance, l’autre affine"
+      ],
+      "pointsDeTension": [
+        "Le Bélier peut trouver la Vierge trop critique",
+        "La Vierge peut trouver le Bélier trop brutal",
+        "Conflit entre impulsion et précision"
+      ]
+    },
+    {
+      "sign": "taureau",
+      "level": "fluide",
+      "title": "Terre et cohérence",
+      "summary": "La Vierge et le Taureau partagent le sens du concret, du réel, de l’utilité et d’une stabilité constructive. Le lien peut être très fiable.",
+      "pointsFortes": [
+        "Pragmatisme",
+        "Sens du quotidien",
+        "Fiabilité",
+        "Construction patiente"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut devenir trop critique",
+        "Le Taureau peut devenir trop rigide",
+        "Risque de routine excessive"
+      ]
+    },
+    {
+      "sign": "gemeaux",
+      "level": "complementaire",
+      "title": "Deux signes de Mercure, deux fonctions",
+      "summary": "Les Gémeaux ouvrent, la Vierge trie. L’un explore, l’autre classe. Le lien peut être très intelligent si chacun respecte la fonction de l’autre.",
+      "pointsFortes": [
+        "Grande intelligence",
+        "Complémentarité entre ouverture et précision",
+        "Apprentissage mutuel"
+      ],
+      "pointsDeTension": [
+        "Les Gémeaux peuvent sembler trop dispersés",
+        "La Vierge peut sembler trop critique",
+        "Conflit entre variété et méthode"
+      ]
+    },
+    {
+      "sign": "cancer",
+      "level": "fluide",
+      "title": "Soin sensible et soin concret",
+      "summary": "Le Cancer protège par l’émotion, la Vierge protège par l’attention et la méthode. Le lien peut être discret, fidèle et profondément humain.",
+      "pointsFortes": [
+        "Douceur",
+        "Soutien mutuel",
+        "Capacité à prendre soin",
+        "Sens du détail humain"
+      ],
+      "pointsDeTension": [
+        "Le Cancer peut se sentir blessé par certaines critiques",
+        "La Vierge peut se sentir envahie par l’émotion",
+        "Différence entre ressenti et analyse"
+      ]
+    },
+    {
+      "sign": "lion",
+      "level": "variable",
+      "title": "Création et amélioration",
+      "summary": "Le Lion veut rayononner, la Vierge veut ajuster. Le lien peut être fécond si chacun comprend que l’un exprime et que l’autre affine.",
+      "pointsFortes": [
+        "Complémentarité entre inspiration et précision",
+        "Possibilité de construire une œuvre ou un projet fort",
+        "L’un donne la vision, l’autre la rend viable"
+      ],
+      "pointsDeTension": [
+        "Le Lion peut vivre la critique comme une atteinte",
+        "La Vierge peut voir trop vite ce qui cloche",
+        "Conflit entre panache et modestie"
+      ]
+    },
+    {
+      "sign": "vierge",
+      "level": "fluide",
+      "title": "Précision et conscience du réel",
+      "summary": "Deux Vierges peuvent se comprendre très finement dans leur besoin d’ordre, de justesse, de méthode et de cohérence. Le lien peut être sobre, fiable et intelligent.",
+      "pointsFortes": [
+        "Compréhension mutuelle",
+        "Rigueur",
+        "Capacité à construire proprement",
+        "Sens du service"
+      ],
+      "pointsDeTension": [
+        "Excès de critique",
+        "Tension nerveuse",
+        "Perfectionnisme partagé",
+        "Difficulté à relâcher"
+      ]
+    },
+    {
+      "sign": "balance",
+      "level": "variable",
+      "title": "Justesse et harmonie",
+      "summary": "La Vierge cherche la précision, la Balance cherche l’équilibre relationnel. Le lien peut être raffiné, civilisé, élégant, mais parfois trop hésitant ou trop mental.",
+      "pointsFortes": [
+        "Sens de la justesse",
+        "Goût du lien propre et respectueux",
+        "Intelligence relationnelle"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut trouver la Balance trop indécise",
+        "La Balance peut trouver la Vierge trop critique",
+        "Conflit entre exigence et diplomatie"
+      ]
+    },
+    {
+      "sign": "scorpion",
+      "level": "fluide",
+      "title": "Lucidité et profondeur",
+      "summary": "La Vierge analyse, le Scorpion perce en profondeur. Le lien peut être puissant, précis, transformateur et très lucide.",
+      "pointsFortes": [
+        "Lucidité",
+        "Exigence de vérité",
+        "Profondeur",
+        "Capacité à comprendre ce qui se cache"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut être trop inquiète",
+        "Le Scorpion peut être trop intense",
+        "Risque de tension ou de contrôle"
+      ]
+    },
+    {
+      "sign": "sagittaire",
+      "level": "delicate",
+      "title": "Détail et horizon",
+      "summary": "La Vierge veut vérifier, le Sagittaire veut élargir. Le lien peut être utile, mais il demande d’accepter que tout ne se pense pas à la même échelle.",
+      "pointsFortes": [
+        "L’un donne le détail, l’autre la vision",
+        "Possibilité d’équilibrer méthode et sens",
+        "Apprentissage réciproque"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut trouver le Sagittaire trop large ou imprécis",
+        "Le Sagittaire peut trouver la Vierge trop limitée ou anxieuse",
+        "Conflit entre rigueur et expansion"
+      ]
+    },
+    {
+      "sign": "capricorne",
+      "level": "fluide",
+      "title": "Terre utile et terre structurée",
+      "summary": "La Vierge et le Capricorne peuvent bâtir avec sérieux, méthode et endurance. Le lien peut être solide, sobre et très productif.",
+      "pointsFortes": [
+        "Rigueur",
+        "Construction durable",
+        "Sens des responsabilités",
+        "Réalisme"
+      ],
+      "pointsDeTension": [
+        "Le Capricorne peut sembler trop dur",
+        "La Vierge peut devenir trop anxieuse",
+        "Risque d’univers trop contrôlé"
+      ]
+    },
+    {
+      "sign": "verseau",
+      "level": "variable",
+      "title": "Méthode et rupture de méthode",
+      "summary": "La Vierge veut améliorer par la précision, le Verseau veut parfois casser les cadres pour réinventer. Le lien peut être stimulant mais déstabilisant.",
+      "pointsFortes": [
+        "Intelligence",
+        "Complémentarité entre système et innovation",
+        "Possibilité de réformer utilement"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut trouver le Verseau trop imprévisible",
+        "Le Verseau peut trouver la Vierge trop normative",
+        "Conflit entre sécurité de méthode et liberté"
+      ]
+    },
+    {
+      "sign": "poissons",
+      "level": "complementaire",
+      "title": "Axe Vierge–Poissons",
+      "summary": "La Vierge distingue, les Poissons relient tout. C’est un axe puissant entre forme et dissolution, précision et compassion, méthode et inspiration.",
+      "pointsFortes": [
+        "Complémentarité profonde",
+        "Équilibre possible entre lucidité et sensibilité",
+        "Capacité à unir soin concret et compassion"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut trouver les Poissons trop flous",
+        "Les Poissons peuvent trouver la Vierge trop sèche ou trop critique",
+        "Conflit entre contrôle et abandon"
+      ]
+    }
+  ],
+  "paysAssocies": [
+    {
+      "pays": "Brésil",
+      "niveau": "traditionnel",
+      "justification": "Dans certaines traditions de géographie astrologique, le Brésil est associé à la Vierge pour des raisons symboliques liées au service, à la fertilité du réel, à l’organisation concrète et à une logique d’adaptation."
+    },
+    {
+      "pays": "Grèce",
+      "niveau": "traditionnel",
+      "justification": "La Grèce figure dans plusieurs listes traditionnelles de correspondances astrologiques liées à la Vierge. Comme toujours, il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
+    },
+    {
+      "pays": "Turquie",
+      "niveau": "traditionnel",
+      "justification": "La Turquie apparaît dans certaines listes classiques de géographie astrologique associées à la Vierge. Cette correspondance relève d’une tradition symbolique, non d’une certitude objective."
+    },
+    {
+      "pays": "Indes occidentales",
+      "niveau": "traditionnel",
+      "justification": "Les Indes occidentales sont parfois rattachées symboliquement à la Vierge dans des listes astrologiques traditionnelles. Cette attribution dépend des auteurs et des systèmes de correspondance."
+    },
+    {
+      "pays": "États-Unis",
+      "niveau": "traditionnel",
+      "justification": "Les États-Unis figurent aussi dans certaines listes de correspondances de la Vierge, comme ils peuvent apparaître pour d’autres signes selon les traditions. Il s’agit ici d’une attribution symbolique classique."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel est le caractère de la Vierge ?",
+      "answer": "La Vierge a un tempérament précis, analytique, consciencieux et discret. Elle aime comprendre, trier, améliorer et rendre les choses utiles, mais doit veiller à ne pas se perdre dans l’excès de critique ou de perfectionnisme."
+    },
+    {
+      "question": "Quel type d’amoureuse ou d’amoureux est la Vierge ?",
+      "answer": "La Vierge aime avec sérieux, attention et pudeur. Elle montre souvent son attachement par les actes, le soin et la constance plus que par le spectaculaire, mais elle doit apprendre à ne pas trop analyser le lien."
+    },
+    {
+      "question": "Quel type de travailleur est la Vierge ?",
+      "answer": "La Vierge est souvent très bonne dans les métiers qui demandent méthode, précision, organisation, analyse, soin ou amélioration continue. Elle excelle lorsqu’elle peut rendre les choses plus claires et plus efficaces."
+    },
+    {
+      "question": "Quelle maison correspond à la Vierge ?",
+      "answer": "La Vierge est naturellement reliée à la maison VI, celle du travail quotidien, du service, de la santé, des routines, des méthodes et de la compétence."
+    }
+  ],
+  "pierresEtMetaux": [
+    {
+      "nom": "Saphir",
+      "type": "pierre",
+      "description": "Le saphir évoque la clarté, la précision, la pureté, la rigueur et une forme de beauté sobre, en affinité avec la Vierge.",
+      "motsCles": ["clarté", "pureté", "rigueur", "lucidité"]
+    },
+    {
+      "nom": "Agate mousse",
+      "type": "pierre",
+      "description": "L’agate mousse porte une symbolique de lien au vivant, d’équilibre, de soin patient et d’attention aux processus naturels, ce qui convient bien à la Vierge.",
+      "motsCles": ["équilibre", "nature", "soin", "patience"]
+    },
+    {
+      "nom": "Bronze",
+      "type": "métal",
+      "description": "Dans certaines traditions symboliques, le bronze est associé à une force utile, travaillée, artisanale et maîtrisée, ce qui résonne bien avec la Vierge.",
+      "motsCles": ["maîtrise", "artisanat", "solidité", "utilité"]
+    }
+  ],
+  "plantes": [
+    {
+      "nom": "Verveine",
+      "type": "plante",
+      "description": "La verveine évoque la clarté, la finesse, l’apaisement nerveux et une forme de propreté subtile, en cohérence avec la Vierge.",
+      "usagesSymboliques": ["clarté", "apaisement", "finesse", "ordre"]
+    },
+    {
+      "nom": "Romarin",
+      "type": "plante",
+      "description": "Le romarin renvoie à la mémoire, à la lucidité, à l’hygiène et à une tonicité bien canalisée. Il correspond bien à la Vierge quand elle cherche à clarifier et ordonner.",
+      "usagesSymboliques": ["mémoire", "hygiène", "lucidité", "discipline"]
+    },
+    {
+      "nom": "Olivier",
+      "type": "arbre",
+      "description": "L’olivier évoque la sobriété, la durée, le travail patient, le rendement juste et une forme de sagesse concrète qui s’accorde bien avec la Vierge.",
+      "usagesSymboliques": ["sobriété", "patience", "sagesse", "durée"]
+    }
+  ],
+  "animaux": [
+    {
+      "nom": "Abeille",
+      "type": "animal-symbolique",
+      "description": "L’abeille incarne le travail utile, l’ordre, la précision, le sens du collectif, l’attention au détail et la fécondité méthodique.",
+      "motsCles": ["travail", "ordre", "précision", "utilité"]
+    },
+    {
+      "nom": "Fourmi",
+      "type": "animal",
+      "description": "Dans une lecture symbolique, la fourmi évoque la prévoyance, la constance, l’organisation et la capacité à accomplir par petites actions répétées.",
+      "motsCles": ["prévision", "organisation", "persévérance", "méthode"]
+    },
+    {
+      "nom": "Hirondelle",
+      "type": "oiseau",
+      "description": "L’hirondelle peut aussi convenir à la Vierge dans sa version mercurienne : mobilité maîtrisée, précision du geste, intelligence pratique et sens des rythmes.",
+      "motsCles": ["précision", "rythme", "souplesse", "adresse"]
+    }
+  ],
+  "ascendant": {
+    "intro": "Si votre ascendant est Vierge, cela signifie souvent que vous entrez dans la vie avec réserve, observation, précision et besoin de comprendre ce qui se passe avant de vous engager pleinement. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité discrète, précise et attentive.",
+    "apparence": [
+      "Présence sobre et soignée",
+      "Allure discrète, nette ou maîtrisée",
+      "Regard observateur",
+      "Impression de retenue, de précision ou de vigilance",
+      "Gestuelle souvent mesurée ou fonctionnelle"
+    ],
+    "temperament": [
+      "Observe avant d’agir",
+      "A besoin de comprendre le fonctionnement des choses",
+      "Supporte mal le désordre inutile",
+      "Entre dans les situations avec prudence et discernement",
+      "Cherche spontanément à corriger ou améliorer"
+    ],
+    "enRelation": [
+      "Donne une impression de réserve, de sérieux ou d’attention",
+      "Peut paraître exigeant mais aussi fiable et serviable",
+      "Cherche des rapports propres, cohérents et respectueux",
+      "Aime montrer sa présence par des gestes utiles"
+    ],
+    "pointsDeVigilance": [
+      "Anxiété",
+      "Hypervigilance",
+      "Tendance à trop contrôler",
+      "Difficulté à se relâcher",
+      "Risque de paraître trop critique ou trop fermé"
+    ]
+  },
+  "signeDominant": {
+    "intro": "Si la Vierge est dominante dans un thème, cela signifie souvent que la personne aborde la vie avec un fort besoin de comprendre, trier, clarifier, améliorer et rendre utile. Elle se construit à travers la compétence, la méthode, le discernement et la qualité du réel.",
+    "forces": [
+      "Lucidité",
+      "Méthode",
+      "Compétence",
+      "Fiabilité",
+      "Capacité à améliorer"
+    ],
+    "vigilances": [
+      "Perfectionnisme",
+      "Auto-critique",
+      "Anxiété",
+      "Rigidité",
+      "Difficulté à accueillir l’imprévu"
+    ],
+    "dansLaVie": [
+      "La personne a souvent besoin d’ordre, de cohérence et d’utilité",
+      "Elle cherche à comprendre les mécanismes avant d’agir pleinement",
+      "Elle supporte mal l’à-peu-près ou le désordre durable",
+      "Elle peut se sentir vivante lorsqu’elle rend quelque chose plus juste ou plus propre"
+    ],
+    "enAmour": [
+      "Elle aime souvent par l’attention, la constance et les gestes utiles",
+      "Elle a besoin de confiance, de clarté et de cohérence",
+      "Elle cherche des liens sains plus que spectaculaires"
+    ],
+    "auTravail": [
+      "Elle excelle souvent dans les fonctions d’analyse, de soin, de méthode, de gestion ou d’amélioration",
+      "Elle a besoin de sentir que son travail sert réellement",
+      "Elle fonctionne mieux dans un cadre structuré et intelligible"
+    ]
+  },
+  "celebrites": [
+    {
+      "nom": "Beyoncé",
+      "dateNaissance": "4 septembre 1981",
+      "domaine": "Musique",
+      "description": "Souvent citée parmi les célébrités Vierge, avec une image de maîtrise, d’exigence, de précision et de perfection du geste."
+    },
+    {
+      "nom": "Zendaya",
+      "dateNaissance": "1 septembre 1996",
+      "domaine": "Cinéma / Mode",
+      "description": "Souvent associée à une élégance précise, à une grande maîtrise de l’image et à une intelligence sobre dans l’expression."
+    },
+    {
+      "nom": "Keanu Reeves",
+      "dateNaissance": "2 septembre 1964",
+      "domaine": "Cinéma",
+      "description": "Souvent évoqué pour sa sobriété, sa retenue, sa fiabilité d’image et une forme de discrétion très cohérente avec la Vierge."
+    },
+    {
+      "nom": "Cameron Diaz",
+      "dateNaissance": "30 août 1972",
+      "domaine": "Cinéma",
+      "description": "Souvent citée parmi les natives Vierge, avec une présence claire, directe et une tonalité de simplicité efficace."
+    }
+  ]
+}

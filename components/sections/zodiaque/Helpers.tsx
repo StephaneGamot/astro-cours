@@ -21,58 +21,59 @@ export function normalizeElement(el?: string) {
 export function elementTheme(el?: string) {
   const e = normalizeElement(el);
   switch (e) {
-    case "feu":
+    case "feu": // Or Brûlé / Rouge Royal
       return {
-        ring: "focus-visible:ring-red-600/60",
-        border: "border-red-600/60",
-        bg: "bg-red-600/10",
-        text: "text-red-600/70",
-        glow:
-          "shadow-[0_0_0_1px_rgba(251,146,60,0.22),0_14px_40px_rgba(251,146,60,0.10)]",
-        dot: "bg-red-600/70",
-        line: "bg-red-600/30",
+        ring: "focus-visible:ring-orange-500/30",
+        border: "border-orange-500/20",
+        bg: "bg-gradient-to-br from-orange-500/10 to-red-600/5",
+        text: "text-orange-200",
+        accent: "text-orange-400",
+        glow: "shadow-[0_0_50px_-12px_rgba(234,88,12,0.3)]",
+        dot: "bg-orange-500",
+        line: "bg-gradient-to-r from-transparent via-orange-500/50 to-transparent",
       };
-    case "terre":
+    case "terre": // Vert Émeraude / Ambre Profond
       return {
-        ring: "focus-visible:ring-amber-300/35",
-        border: "border-amber-300/75",
-        bg: "bg-amber-300/10",
-        text: "text-amber-300",
-        glow:
-          "shadow-[0_0_0_1px_rgba(52,211,153,0.20),0_14px_40px_rgba(52,211,153,0.08)]",
-        dot: "bg-amber-300/70",
-        line: "bg-amber-300/25",
+        ring: "focus-visible:ring-emerald-500/30",
+        border: "border-emerald-500/20",
+        bg: "bg-gradient-to-br from-emerald-500/10 to-amber-600/5",
+        text: "text-emerald-100",
+        accent: "text-emerald-400",
+        glow: "shadow-[0_0_50px_-12px_rgba(16,185,129,0.25)]",
+        dot: "bg-emerald-500",
+        line: "bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent",
       };
-    case "air":
+    case "air": // Bleu Céleste / Argent
       return {
-        ring: "focus-visible:ring-green-500/65",
-        border: "border-green-500/60",
-        bg: "bg-green-500/15",
-        text: "text-green-500",
-        glow:
-          "shadow-[0_0_0_1px_rgba(56,189,248,0.20),0_14px_40px_rgba(56,189,248,0.08)]",
-        dot: "bg-green-500/70",
-        line: "bg-green-500/25",
+        ring: "focus-visible:ring-sky-400/30",
+        border: "border-sky-400/20",
+        bg: "bg-gradient-to-br from-sky-400/10 to-indigo-600/5",
+        text: "text-sky-100",
+        accent: "text-sky-400",
+        glow: "shadow-[0_0_50px_-12px_rgba(56,189,248,0.25)]",
+        dot: "bg-sky-400",
+        line: "bg-gradient-to-r from-transparent via-sky-400/50 to-transparent",
       };
-    case "eau":
+    case "eau": // Indigo Profond / Améthyste
       return {
-        ring: "focus-visible:ring-blue-700/35",
-        border: "border-blue-700/60",
-        bg: "bg-blue-700/20",
-        text: "text-blue-700",
-        glow:
-          "shadow-[0_0_0_1px_rgba(129,140,248,0.20),0_14px_40px_rgba(129,140,248,0.08)]",
-        dot: "bg-blue-700/70",
-        line: "bg-blue-700/25",
+        ring: "focus-visible:ring-indigo-500/30",
+        border: "border-indigo-500/20",
+        bg: "bg-gradient-to-br from-indigo-500/10 to-purple-600/5",
+        text: "text-indigo-100",
+        accent: "text-indigo-400",
+        glow: "shadow-[0_0_50px_-12px_rgba(99,102,241,0.25)]",
+        dot: "bg-indigo-500",
+        line: "bg-gradient-to-r from-transparent via-indigo-500/50 to-transparent",
       };
     default:
       return {
         ring: "focus-visible:ring-white/20",
         border: "border-white/10",
         bg: "bg-white/5",
-        text: "text-text/90",
+        text: "text-slate-200",
+        accent: "text-white",
         glow: "",
-        dot: "bg-white/30",
+        dot: "bg-white",
         line: "bg-white/10",
       };
   }

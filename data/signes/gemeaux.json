@@ -1,0 +1,871 @@
+{
+  "slug": "gemeaux",
+  "name": "Gémeaux",
+  "periode": "21 mai – 20 juin",
+  "polarite": "Actif (masculin)",
+  "mode": "Mutable",
+  "element": "Air",
+  "maitre": "Mercure",
+  "exaltation": null,
+  "exil": "Jupiter",
+  "chute": null,
+  "motCle": "Je pense",
+  "mythologie": "Le signe des Gémeaux est associé aux jumeaux Castor et Pollux, symboles du lien entre deux mondes : le mortel et l’immortel. Ce mythe illustre la capacité à faire circuler, relier et transmettre. Les Gémeaux incarnent le passage, l’échange et la médiation entre différentes réalités, idées ou points de vue. Ils représentent une intelligence mobile, capable de passer d’un registre à un autre, de faire un pont entre les personnes, les savoirs, les langages et les univers.",
+  "analogie": {
+    "animal": "Les oiseaux, les messagers",
+    "objet": "Le pont, le livre, le fil, la route",
+    "fonction": "Relier, transmettre, mettre en circulation"
+  },
+  "anatomie": ["Poumons", "Bras", "Mains", "Épaules", "Système nerveux"],
+  "generalites": [
+    "Les Gémeaux représentent le mouvement de la pensée et de l’échange. Après la stabilisation du Taureau, ils introduisent la curiosité, la communication et la capacité à relier des informations entre elles.",
+    "Ce signe cherche à comprendre le monde par l’observation, le dialogue et l’expérimentation mentale. Il apprend en parlant, en comparant, en variant les points de vue plutôt qu’en s’ancrant dans une seule vérité.",
+    "Le défi des Gémeaux est de transformer la dispersion en intelligence synthétique : passer de l’accumulation d’informations à une compréhension vivante et reliée.",
+    "Les Gémeaux sont aussi liés à la mobilité, à l’adaptation, au langage, au jeu de l’esprit et à la capacité d’entrer rapidement en contact. Ils ont besoin d’air, de variété et de circulation pour se sentir vivants."
+  ],
+  "caractere": [
+    "Les Gémeaux observent vite, comprennent vite, parlent vite et changent vite de point de vue lorsqu’ils découvrent un nouvel angle.",
+    "Leur caractère est souple, curieux, léger, mobile, souvent vif et joueur, avec un vrai besoin de stimulation mentale.",
+    "Ils aiment comparer, relier, traduire, interpréter, expliquer et explorer plusieurs pistes à la fois.",
+    "Lorsqu’ils sont immatures, ils peuvent devenir dispersés, nerveux ou superficiels ; lorsqu’ils mûrissent, ils deviennent de véritables passeurs de sens."
+  ],
+  "aptitudesNaturelles": [
+    "Apprendre rapidement",
+    "Comprendre plusieurs points de vue",
+    "Mettre les personnes et les idées en relation",
+    "S’adapter à des contextes variés",
+    "Communiquer avec souplesse",
+    "Faire circuler une information ou un savoir"
+  ],
+  "ceQuIlRegitDansLeMonde": [
+    "Le langage",
+    "La communication",
+    "Les échanges",
+    "Les déplacements courts",
+    "Les études premières",
+    "Les réseaux de circulation",
+    "Les liens entre les personnes",
+    "La curiosité, l’observation, la pensée mobile"
+  ],
+  "maisonCorrespondante": {
+    "numero": 3,
+    "nom": "Maison III",
+    "resume": "La troisième maison parle des apprentissages de base, de l’environnement proche, du langage, des échanges, des frères et sœurs, des déplacements et de la manière de penser le quotidien. Son analogie naturelle avec les Gémeaux souligne une dynamique de circulation, de compréhension, de communication et de connexion.",
+    "themes": [
+      "Langage",
+      "Pensée",
+      "Apprentissages",
+      "Échanges",
+      "Déplacements",
+      "Environnement proche"
+    ]
+  },
+  "forces": [
+    "Rapidité de compréhension",
+    "Facilité à créer des liens entre les idées",
+    "Souplesse intellectuelle et adaptabilité"
+  ],
+  "ombres": [
+    "Dispersion mentale",
+    "Difficulté à se poser",
+    "Tendance à rester en surface"
+  ],
+  "besoins": [
+    "Stimulation intellectuelle",
+    "Échanges, dialogue, circulation",
+    "Liberté de mouvement et de pensée"
+  ],
+  "aTravailler": [
+    "La concentration",
+    "L’approfondissement",
+    "La cohérence intérieure",
+    "Le fait de ne pas fuir l’ennui par agitation permanente",
+    "La capacité à aller jusqu’au bout d’une idée ou d’un engagement"
+  ],
+  "quandCestEquilibre": [
+    "Les Gémeaux deviennent de véritables passeurs de sens, capables de relier sans se disperser.",
+    "Ils utilisent leur curiosité pour comprendre en profondeur, et non pour fuir l’ennui.",
+    "Leur intelligence devient vivante, fluide, communicative et réellement féconde."
+  ],
+  "aptitudes": {
+    "atouts": [
+      "Curieux",
+      "Vif d’esprit",
+      "Adaptable",
+      "Communicatif",
+      "Ouvert",
+      "Polyvalent"
+    ],
+    "defis": [
+      "Dispersé",
+      "Instable",
+      "Superficiel",
+      "Nerveux",
+      "Difficulté à approfondir"
+    ]
+  },
+  "amour": {
+    "intro": "Les Gémeaux aiment d’abord par l’esprit, par le lien vivant, par l’échange, par la complicité mentale et par la légèreté du mouvement. Ils ont besoin de sentir que la relation respire, qu’elle circule, qu’elle stimule et qu’elle reste vivante. Ils peuvent être très charmants, très joueurs, très présents, mais ils ont besoin d’espace psychique et de fraîcheur dans le lien.",
+    "qualites": [
+      "Grande capacité de dialogue",
+      "Charme vif et spontané",
+      "Complicité mentale",
+      "Souplesse relationnelle",
+      "Capacité à faire vivre la relation par les mots, l’humour et la curiosité"
+    ],
+    "vigilances": [
+      "Peut éviter la profondeur émotionnelle par le mouvement ou par l’humour",
+      "Risque de dispersion affective",
+      "Difficulté à rester présent dans une relation trop lourde ou figée",
+      "Peut donner plus de signes qu’il ne donne d’engagement réel"
+    ],
+    "compatibleAvec": ["Balance", "Verseau", "Bélier", "Lion"],
+    "attirePar": [
+      "Les personnes brillantes, vives et ouvertes",
+      "Les liens stimulants intellectuellement",
+      "L’humour, la légèreté et la vivacité",
+      "Les relations qui laissent de l’espace et du mouvement"
+    ]
+  },
+  "travail": {
+    "intro": "Les Gémeaux travaillent bien lorsqu’ils peuvent réfléchir, échanger, transmettre, relier, informer, bouger ou gérer plusieurs flux à la fois. Ils excellent dans les univers où l’intelligence, la curiosité, la communication et l’adaptabilité comptent davantage que la répétition immobile.",
+    "qualites": [
+      "Rapidité mentale",
+      "Polyvalence",
+      "Capacité à jongler avec plusieurs tâches",
+      "Aisance relationnelle",
+      "Talent pour informer, expliquer, vendre, relier ou apprendre"
+    ],
+    "vigilances": [
+      "Dispersion professionnelle",
+      "Difficulté avec les tâches trop répétitives",
+      "Tendance à se lasser vite",
+      "Risque de commencer beaucoup sans stabiliser assez"
+    ],
+    "domainesFavorables": [
+      "Communication",
+      "Journalisme",
+      "Enseignement",
+      "Commerce",
+      "Langues",
+      "Marketing",
+      "Médias",
+      "Fonctions de coordination, de rédaction, de transmission ou de réseau"
+    ]
+  },
+  "argent": {
+    "intro": "Les Gémeaux ont souvent un rapport mobile à l’argent : ils le voient comme un moyen de circuler, de tester, d’acheter du mouvement, de la liberté, des outils ou des expériences. Ils peuvent très bien gagner grâce à leur intelligence, leur réseau ou leur capacité à gérer plusieurs activités, mais ils doivent apprendre à stabiliser leur gestion.",
+    "forces": [
+      "Capacité à multiplier les pistes",
+      "Souplesse dans les façons de gagner",
+      "Intelligence des échanges et des opportunités",
+      "Adaptabilité financière"
+    ],
+    "risques": [
+      "Dispersion dans la gestion",
+      "Difficulté à tenir une stratégie stable",
+      "Achats d’impulsion liés à la curiosité ou à l’ennui",
+      "Tendance à penser vite plutôt qu’à sécuriser dans la durée"
+    ],
+    "rapportTypique": [
+      "Peut gagner par le contact, l’information, la vente ou la médiation",
+      "Peut avoir plusieurs sources ou idées en parallèle",
+      "A parfois besoin d’un cadre extérieur pour bien gérer sur le long terme",
+      "Utilise volontiers l’argent pour apprendre, se déplacer, communiquer ou s’équiper"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Alhena",
+      "nature": "Mercure / Vénus",
+      "motsCles": ["Intelligence", "Expression", "Habileté", "Grâce mentale"],
+      "description": "Alhena apporte une tonalité de finesse, d’adresse, d’intelligence expressive et de capacité à articuler une pensée avec style. Elle résonne bien avec la dimension mobile et communicative des Gémeaux."
+    },
+    {
+      "nom": "Bellatrix",
+      "nature": "Mars / Mercure",
+      "motsCles": ["Vivacité", "Réactivité", "Esprit combatif", "Brillance"],
+      "description": "Bellatrix ajoute une note vive, nerveuse, percutante. Dans une lecture symbolique des Gémeaux, elle peut renforcer l’idée d’un esprit rapide, tranchant, parfois incisif, qui aime répondre vite et agir par l’intelligence."
+    }
+  ],
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Gémeaux s’exprime par la pensée, le langage, le mouvement et l’échange. Le principe de la planète devient mobile, curieux, communicatif et adaptable. Cela favorise la souplesse mentale et l’ouverture, mais peut aussi générer nervosité ou dispersion si l’énergie n’est pas structurée.",
+    "motsCles": [
+      "Communication",
+      "Curiosité",
+      "Mobilité",
+      "Échange",
+      "Pensée",
+      "Adaptation"
+    ],
+    "planetes": {
+      "soleil": {
+        "tonalite": "Le Soleil en Gémeaux construit une identité multiple, mobile, curieuse et communicative. Il a besoin d’apprendre, de comprendre et d’échanger pour se sentir vivant.",
+        "forces": [
+          "Curiosité permanente",
+          "Souplesse mentale",
+          "Facilité de contact",
+          "Capacité à s’adapter"
+        ],
+        "defis": [
+          "Dispersion",
+          "Difficulté à se fixer",
+          "Risque de rester dans l’observation plus que dans l’incarnation",
+          "Tendance à multiplier les pistes"
+        ],
+        "enAmour": [
+          "A besoin de dialogue et de légèreté",
+          "Cherche une vraie complicité mentale",
+          "Se lasse si le lien devient figé"
+        ],
+        "auTravail": [
+          "Très fort dans les environnements mobiles",
+          "A besoin de variété",
+          "Aime apprendre et transmettre"
+        ],
+        "avecArgent": [
+          "Peut trouver plusieurs façons de gagner",
+          "A besoin d’apprendre à structurer"
+        ]
+      },
+      "lune": {
+        "tonalite": "La Lune en Gémeaux vit les émotions à travers la pensée, la parole et le besoin de comprendre ce qui se passe. Elle se rassure souvent en nommant, analysant ou partageant.",
+        "forces": [
+          "Souplesse affective",
+          "Capacité à verbaliser",
+          "Humour émotionnel",
+          "Adaptabilité"
+        ],
+        "defis": [
+          "Nervosité",
+          "Émotions intellectualisées",
+          "Difficulté à rester dans un ressenti profond",
+          "Instabilité affective"
+        ],
+        "enAmour": [
+          "A besoin de parler pour se sentir proche",
+          "Cherche une relation vivante et légère",
+          "Supporte mal les silences trop lourds"
+        ],
+        "auTravail": [
+          "Travaille mieux dans un climat stimulant",
+          "A besoin de mouvement et d’échange"
+        ],
+        "avecArgent": [
+          "Peut gérer selon l’humeur ou l’agitation",
+          "A besoin de clarté pour éviter la dispersion"
+        ]
+      },
+      "mercure": {
+        "tonalite": "Mercure en Gémeaux est dans une de ses expressions les plus naturelles : esprit rapide, curieux, verbal, joueur, adaptable et extrêmement mobile.",
+        "forces": [
+          "Grande aisance verbale",
+          "Intelligence rapide",
+          "Talent pour relier les idées",
+          "Capacité à apprendre vite"
+        ],
+        "defis": [
+          "Dispersion mentale",
+          "Volatilité",
+          "Tendance à survoler",
+          "Difficulté à approfondir durablement"
+        ],
+        "enAmour": [
+          "Séduit par l’esprit",
+          "Aime parler, écrire, échanger",
+          "A besoin d’un lien stimulant"
+        ],
+        "auTravail": [
+          "Excellent dans les métiers d’information, de vente, de contact ou de rédaction",
+          "Très fort pour improviser et s’adapter"
+        ],
+        "avecArgent": [
+          "Peut être astucieux",
+          "Mais doit faire attention aux décisions prises trop vite"
+        ]
+      },
+      "venus": {
+        "tonalite": "Vénus en Gémeaux aime par le charme, le mouvement, la curiosité et l’intelligence du lien. Le plaisir passe par la variété, la conversation, le jeu et la vivacité.",
+        "forces": [
+          "Charme léger",
+          "Goût du dialogue amoureux",
+          "Souplesse relationnelle",
+          "Capacité à rendre le lien vivant"
+        ],
+        "defis": [
+          "Inconstance",
+          "Difficulté avec la lourdeur affective",
+          "Tendance à aimer aussi avec la tête et pas assez avec la profondeur du corps"
+        ],
+        "enAmour": [
+          "A besoin d’un partenaire stimulant",
+          "Aime la légèreté, le jeu, la parole",
+          "Peut aimer plusieurs possibles avant de choisir vraiment"
+        ],
+        "auTravail": [
+          "Aime les univers créatifs, relationnels et mobiles",
+          "A besoin d’un environnement vivant"
+        ],
+        "avecArgent": [
+          "Peut dépenser pour des loisirs, des sorties, des outils, des livres ou des expériences",
+          "Aime la circulation plus que l’immobilisation"
+        ]
+      },
+      "mars": {
+        "tonalite": "Mars en Gémeaux agit par l’esprit, la parole, la mobilité et la multiplicité. L’énergie va vite, se déplace, teste, compare et répond.",
+        "forces": [
+          "Réactivité",
+          "Vivacité mentale",
+          "Aptitude à agir sur plusieurs fronts",
+          "Rapidité d’exécution"
+        ],
+        "defis": [
+          "Dispersion",
+          "Nervosité",
+          "Difficulté à se concentrer sur un seul but",
+          "Agitation improductive"
+        ],
+        "enAmour": [
+          "Aime séduire par l’intelligence et le jeu",
+          "A besoin d’un lien vivant et mobile",
+          "Peut éviter l’intensité trop fixe"
+        ],
+        "auTravail": [
+          "Très fort dans les tâches dynamiques et multiples",
+          "Aime les environnements réactifs"
+        ],
+        "avecArgent": [
+          "Peut agir vite sur une opportunité",
+          "Mais doit éviter la précipitation"
+        ]
+      },
+      "jupiter": {
+        "tonalite": "Jupiter en Gémeaux amplifie la curiosité, le goût du savoir, la multiplicité des centres d’intérêt et la capacité à faire circuler des idées.",
+        "forces": [
+          "Ouverture intellectuelle",
+          "Polyvalence",
+          "Capacité à apprendre beaucoup",
+          "Goût de transmettre"
+        ],
+        "defis": [
+          "Dispersion amplifiée",
+          "Accumulation sans hiérarchie",
+          "Difficulté à tenir une vision longue"
+        ],
+        "enAmour": [
+          "Aime les liens qui font grandir mentalement",
+          "Cherche la stimulation et la variété"
+        ],
+        "auTravail": [
+          "Très bon pour enseigner, communiquer, faire du lien",
+          "Peut avoir plusieurs projets en parallèle"
+        ],
+        "avecArgent": [
+          "Peut multiplier les occasions",
+          "Mais doit apprendre la cohérence"
+        ]
+      },
+      "saturne": {
+        "tonalite": "Saturne en Gémeaux structure la pensée, discipline le langage et oblige à donner une forme plus rigoureuse à l’intelligence mobile.",
+        "forces": [
+          "Rigueur mentale",
+          "Capacité à ordonner la pensée",
+          "Précision dans le langage",
+          "Discipline intellectuelle"
+        ],
+        "defis": [
+          "Blocages dans l’expression",
+          "Peur de mal dire ou de mal comprendre",
+          "Rigidification possible du mental"
+        ],
+        "enAmour": [
+          "Parle moins mais plus sérieusement",
+          "A besoin de confiance pour exprimer pleinement"
+        ],
+        "auTravail": [
+          "Très fort pour structurer, enseigner, classer ou conceptualiser",
+          "Aime la pensée claire et utile"
+        ],
+        "avecArgent": [
+          "Peut apprendre une gestion mentale très rigoureuse",
+          "A besoin d’ordre pour ne pas se disperser"
+        ]
+      },
+      "uranus": {
+        "tonalite": "Uranus en Gémeaux produit un esprit original, rapide, inventif et non conventionnel. Il accélère les circuits de pensée et le besoin de nouveauté mentale.",
+        "forces": [
+          "Fulgurance",
+          "Innovation intellectuelle",
+          "Pensée originale",
+          "Capacité à relier autrement"
+        ],
+        "defis": [
+          "Nervosité extrême",
+          "Instabilité mentale",
+          "Difficulté à ralentir",
+          "Ruptures brusques dans la communication"
+        ],
+        "enAmour": [
+          "A besoin de liberté mentale",
+          "Cherche des liens stimulants et non étouffants"
+        ],
+        "auTravail": [
+          "Excellent dans l’innovation, les médias, les idées nouvelles",
+          "Aime casser les cadres trop figés"
+        ],
+        "avecArgent": [
+          "Peut saisir vite une opportunité",
+          "Mais risque l’irrégularité"
+        ]
+      },
+      "neptune": {
+        "tonalite": "Neptune en Gémeaux inspire une pensée intuitive, imagée, poétique, parfois floue. Il rend les mots poreux, rêveurs, suggestifs.",
+        "forces": [
+          "Imagination verbale",
+          "Intuition dans la pensée",
+          "Sens poétique du langage",
+          "Ouverture aux symboles"
+        ],
+        "defis": [
+          "Confusion mentale",
+          "Difficulté à distinguer précision et impression",
+          "Risque de flou dans la communication"
+        ],
+        "enAmour": [
+          "Aime les mots, les signes, la suggestion",
+          "Peut idéaliser une complicité mentale"
+        ],
+        "auTravail": [
+          "Très inspiré dans les univers créatifs, symboliques ou artistiques",
+          "A besoin d’un cadre pour ne pas se perdre"
+        ],
+        "avecArgent": [
+          "Peut manquer de clarté pratique",
+          "Doit éviter les décisions prises sur un simple ressenti flou"
+        ]
+      },
+      "pluton": {
+        "tonalite": "Pluton en Gémeaux transforme profondément le rapport à la pensée, au langage, à l’information et au pouvoir des mots.",
+        "forces": [
+          "Parole pénétrante",
+          "Esprit d’enquête",
+          "Capacité à comprendre les mécanismes cachés du langage",
+          "Transformation par l’intelligence"
+        ],
+        "defis": [
+          "Fixation mentale",
+          "Manipulation possible par la parole",
+          "Obsession intellectuelle",
+          "Rapports de force dans la communication"
+        ],
+        "enAmour": [
+          "Veut comprendre en profondeur ce qui se joue dans le lien",
+          "Peut être très intense mentalement"
+        ],
+        "auTravail": [
+          "Très fort dans l’analyse, la stratégie, l’investigation",
+          "Peut transformer un système par les idées"
+        ],
+        "avecArgent": [
+          "Rapport stratégique aux opportunités",
+          "Peut penser l’argent comme un système de flux et d’influence"
+        ]
+      }
+    }
+  },
+  "dansUnTheme": [
+    "Les Gémeaux montrent un domaine où l’on apprend, communique et relie les informations.",
+    "Ils indiquent aussi où l’on doit apprendre à passer de la dispersion à la cohérence.",
+    "Selon la maison et les aspects, ils peuvent montrer un secteur de vie où l’on bouge, échange, apprend, s’adapte ou multiplie les contacts."
+  ],
+  "relationsAuxAutresSignes": [
+    {
+      "sign": "belier",
+      "level": "stimulante",
+      "title": "Action et vivacité mentale",
+      "summary": "Les Gémeaux aiment le mouvement et le Bélier aime l’élan. Le lien peut être vif, spontané, mobile et très stimulant, à condition que la précipitation ne remplace pas la profondeur.",
+      "pointsFortes": [
+        "Vivacité",
+        "Spontanéité",
+        "Capacité à rebondir",
+        "Goût du mouvement"
+      ],
+      "pointsDeTension": [
+        "Dispersion",
+        "Impatience",
+        "Difficulté à approfondir ensemble"
+      ]
+    },
+    {
+      "sign": "taureau",
+      "level": "variable",
+      "title": "Mouvement et stabilité",
+      "summary": "Les Gémeaux veulent circuler, le Taureau veut s’installer. Le lien peut être enrichissant si chacun accepte que l’autre n’habite pas le temps de la même manière.",
+      "pointsFortes": [
+        "L’un donne de l’air, l’autre une base",
+        "Complémentarité entre idées et concret",
+        "Possibilité d’apprentissage mutuel"
+      ],
+      "pointsDeTension": [
+        "Les Gémeaux peuvent trouver le Taureau lourd",
+        "Le Taureau peut trouver les Gémeaux instables",
+        "Différence de rythme"
+      ]
+    },
+    {
+      "sign": "gemeaux",
+      "level": "fluide",
+      "title": "Air et miroir mental",
+      "summary": "Deux Gémeaux peuvent se comprendre très vite, jouer avec les idées, parler sans fin et stimuler mutuellement leur curiosité. Le lien est vivant, mobile, intelligent.",
+      "pointsFortes": [
+        "Complicité mentale",
+        "Humour",
+        "Souplesse",
+        "Goût commun pour l’échange"
+      ],
+      "pointsDeTension": [
+        "Dispersion",
+        "Difficulté à ancrer",
+        "Évitement possible de la profondeur émotionnelle"
+      ]
+    },
+    {
+      "sign": "cancer",
+      "level": "delicate",
+      "title": "Parole et monde intérieur",
+      "summary": "Les Gémeaux expliquent, le Cancer ressent. La relation peut être tendre et complémentaire, mais elle demande d’apprendre à ne pas opposer pensée et émotion.",
+      "pointsFortes": [
+        "Complémentarité entre langage et sensibilité",
+        "Possibilité d’un vrai soutien mutuel",
+        "Richesse humaine"
+      ],
+      "pointsDeTension": [
+        "Les Gémeaux peuvent sembler trop légers",
+        "Le Cancer peut sembler trop sensible ou replié",
+        "Malentendus entre humour et vulnérabilité"
+      ]
+    },
+    {
+      "sign": "lion",
+      "level": "stimulante",
+      "title": "Jeu, présence et créativité",
+      "summary": "Les Gémeaux apportent la vivacité mentale, le Lion apporte la chaleur et l’affirmation. Ensemble, ils peuvent créer un lien vivant, brillant et inspirant.",
+      "pointsFortes": [
+        "Créativité",
+        "Charme",
+        "Mouvement",
+        "Stimulation mutuelle"
+      ],
+      "pointsDeTension": [
+        "Le Lion peut vouloir plus de stabilité et de reconnaissance",
+        "Les Gémeaux peuvent fuir le poids de l’ego",
+        "Différence entre jeu et affirmation"
+      ]
+    },
+    {
+      "sign": "vierge",
+      "level": "complementaire",
+      "title": "Deux signes de Mercure, deux styles",
+      "summary": "Les Gémeaux ouvrent, la Vierge trie. L’un explore, l’autre ordonne. Le lien peut être très intelligent quand chacun respecte la fonction de l’autre.",
+      "pointsFortes": [
+        "Grande intelligence",
+        "Complémentarité entre ouverture et précision",
+        "Capacité à apprendre ensemble"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut trouver les Gémeaux trop dispersés",
+        "Les Gémeaux peuvent trouver la Vierge trop critique",
+        "Conflit entre variété et méthode"
+      ]
+    },
+    {
+      "sign": "balance",
+      "level": "fluide",
+      "title": "Air relationnel et air mobile",
+      "summary": "Les Gémeaux et la Balance partagent le goût du lien, de l’échange, de la légèreté et de l’intelligence relationnelle. Le rapport peut être élégant, agréable et très vivant.",
+      "pointsFortes": [
+        "Dialogue",
+        "Souplesse",
+        "Harmonie",
+        "Complicité mentale"
+      ],
+      "pointsDeTension": [
+        "Indécision",
+        "Évitement des tensions profondes",
+        "Tendance à rester dans le lien mental"
+      ]
+    },
+    {
+      "sign": "scorpion",
+      "level": "intense",
+      "title": "Légèreté et profondeur",
+      "summary": "Les Gémeaux circulent, le Scorpion plonge. Le lien peut être fascinant, magnétique, riche, mais aussi difficile si chacun veut imposer sa façon de vivre la relation.",
+      "pointsFortes": [
+        "Attraction intellectuelle et psychique",
+        "Curiosité mutuelle",
+        "Capacité à explorer des zones complexes"
+      ],
+      "pointsDeTension": [
+        "Le Scorpion peut trouver les Gémeaux trop légers",
+        "Les Gémeaux peuvent trouver le Scorpion trop intense",
+        "Conflit entre mobilité et fixation"
+      ]
+    },
+    {
+      "sign": "sagittaire",
+      "level": "complementaire",
+      "title": "Axe Gémeaux–Sagittaire",
+      "summary": "Les Gémeaux s’intéressent à la diversité des faits ; le Sagittaire cherche le sens global. C’est un axe puissant entre information et vision, curiosité et horizon.",
+      "pointsFortes": [
+        "Complémentarité entre détail et synthèse",
+        "Goût du savoir",
+        "Mouvement",
+        "Ouverture"
+      ],
+      "pointsDeTension": [
+        "Les Gémeaux peuvent sembler trop relatifs",
+        "Le Sagittaire peut sembler trop affirmatif",
+        "Conflit entre multiplicité et conviction"
+      ]
+    },
+    {
+      "sign": "capricorne",
+      "level": "variable",
+      "title": "Mobilité et structure",
+      "summary": "Les Gémeaux aiment bouger, le Capricorne aime construire dans le temps. Le rapport peut être utile si l’un apporte de la souplesse et l’autre de la tenue.",
+      "pointsFortes": [
+        "Complémentarité entre idées et structure",
+        "Possibilité de rendre une pensée plus concrète",
+        "Enrichissement mutuel"
+      ],
+      "pointsDeTension": [
+        "Le Capricorne peut trouver les Gémeaux trop volatils",
+        "Les Gémeaux peuvent trouver le Capricorne trop rigide",
+        "Différence de rythme et de gravité"
+      ]
+    },
+    {
+      "sign": "verseau",
+      "level": "fluide",
+      "title": "Air libre et pensée inventive",
+      "summary": "Les Gémeaux et le Verseau partagent le goût de l’intelligence, de la circulation, des idées et de la liberté mentale. Le lien peut être extrêmement stimulant.",
+      "pointsFortes": [
+        "Liberté",
+        "Stimulation intellectuelle",
+        "Originalité",
+        "Ouverture d’esprit"
+      ],
+      "pointsDeTension": [
+        "Distance émotionnelle",
+        "Excès de mental",
+        "Difficulté à incarner le lien"
+      ]
+    },
+    {
+      "sign": "poissons",
+      "level": "variable",
+      "title": "Pensée mobile et sensibilité poreuse",
+      "summary": "Les Gémeaux nomment, les Poissons ressentent. Le lien peut être poétique, inspirant et subtil, mais il demande de respecter les différences entre l’esprit et l’intuition.",
+      "pointsFortes": [
+        "Inspiration",
+        "Imagination",
+        "Richesse de l’échange",
+        "Complémentarité entre mots et ressenti"
+      ],
+      "pointsDeTension": [
+        "Les Gémeaux peuvent trouver les Poissons flous",
+        "Les Poissons peuvent trouver les Gémeaux trop cérébraux",
+        "Difficulté à s’accorder entre logique et sensibilité"
+      ]
+    }
+  ],
+  "paysAssocies": [
+    {
+      "pays": "Belgique",
+      "niveau": "traditionnel",
+      "justification": "Dans certaines traditions de géographie astrologique, la Belgique est associée aux Gémeaux pour des raisons symboliques liées à la dualité, au carrefour, au réseau, à la circulation et à une nature relationnelle ou intermédiaire."
+    },
+    {
+      "pays": "États-Unis",
+      "niveau": "traditionnel",
+      "justification": "Les États-Unis apparaissent parfois dans certaines listes de correspondances astrologiques liées aux Gémeaux, avec une lecture symbolique axée sur la mobilité, la communication, la multiplicité et le réseau."
+    },
+    {
+      "pays": "Pays de Galles",
+      "niveau": "traditionnel",
+      "justification": "Le Pays de Galles est parfois relié symboliquement aux Gémeaux dans certaines traditions astrologiques. Comme toujours, il s’agit d’une correspondance de tradition, non d’une certitude absolue."
+    },
+    {
+      "pays": "Basse-Égypte",
+      "niveau": "traditionnel",
+      "justification": "La Basse-Égypte figure dans certaines listes anciennes ou traditionnelles de géographie astrologique rattachées aux Gémeaux. Cette attribution relève d’un symbolisme classique dépendant des écoles."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel est le caractère des Gémeaux ?",
+      "answer": "Les Gémeaux ont un tempérament curieux, vif, mobile, communicatif et adaptable. Ils aiment comprendre, relier, parler, observer et explorer, mais doivent veiller à ne pas se disperser ou rester trop à la surface."
+    },
+    {
+      "question": "Quel type d’amoureux sont les Gémeaux ?",
+      "answer": "Les Gémeaux aiment avec l’esprit, la complicité, le jeu, le dialogue et la vivacité. Ils cherchent souvent une relation stimulante, respirante et intelligente, mais doivent apprendre à ne pas fuir la profondeur affective."
+    },
+    {
+      "question": "Quel type de travailleur sont les Gémeaux ?",
+      "answer": "Les Gémeaux sont souvent rapides, polyvalents, adaptables et très à l’aise dans les métiers où il faut communiquer, apprendre, transmettre, vendre, écrire ou gérer plusieurs flux à la fois."
+    },
+    {
+      "question": "Quelle maison correspond aux Gémeaux ?",
+      "answer": "Les Gémeaux sont naturellement reliés à la maison III, celle du langage, des échanges, des apprentissages de base, des déplacements et de l’environnement proche."
+    }
+  ],
+  "pierresEtMetaux": [
+    {
+      "nom": "Agate",
+      "type": "pierre",
+      "description": "L’agate est souvent associée à la souplesse, à la circulation, à l’équilibre nerveux et à une intelligence pratique capable de relier et de stabiliser sans figer.",
+      "motsCles": ["souplesse", "équilibre", "circulation", "adaptation"]
+    },
+    {
+      "nom": "Citrine",
+      "type": "pierre",
+      "description": "La citrine évoque la clarté mentale, la vivacité, la légèreté, la joie d’apprendre et une forme de fluidité dans l’expression.",
+      "motsCles": ["clarté", "vivacité", "intelligence", "joie"]
+    },
+    {
+      "nom": "Mercure (vif-argent, au plan symbolique traditionnel)",
+      "type": "métal",
+      "description": "Dans le symbolisme astrologique ancien, Mercure est lié à la mobilité, à la transmission, à l’intelligence, au commerce et à la fluidité mentale. Ici, il s’agit d’une référence traditionnelle et symbolique, non d’un usage pratique.",
+      "motsCles": ["mercure", "mouvement", "langage", "transmission"]
+    }
+  ],
+  "plantes": [
+    {
+      "nom": "Lavande",
+      "type": "plante",
+      "description": "La lavande évoque une clarté légère, une circulation apaisée et une finesse d’air. Elle s’accorde bien avec le besoin gémeaux de mobilité mentale apaisée.",
+      "usagesSymboliques": ["clarté", "air", "souplesse", "apaisement"]
+    },
+    {
+      "nom": "Fenouil",
+      "type": "plante",
+      "description": "Le fenouil porte une symbolique de légèreté, de mobilité, d’intelligence pratique et de circulation. Il est souvent relié à des qualités mercuriennes.",
+      "usagesSymboliques": ["mobilité", "intelligence", "souplesse", "circulation"]
+    },
+    {
+      "nom": "Noisetier",
+      "type": "arbre",
+      "description": "Le noisetier est parfois associé à l’intelligence vive, à l’agilité mentale, à l’apprentissage et à une forme de disponibilité du lien.",
+      "usagesSymboliques": ["savoir", "habileté", "agilité", "pensée"]
+    }
+  ],
+  "animaux": [
+    {
+      "nom": "Hirondelle",
+      "type": "oiseau",
+      "description": "L’hirondelle évoque la rapidité, le déplacement, la circulation, la vivacité et le retour du mouvement. Elle correspond bien à la tonalité légère et mobile des Gémeaux.",
+      "motsCles": ["vitesse", "mouvement", "air", "circulation"]
+    },
+    {
+      "nom": "Singe",
+      "type": "animal",
+      "description": "Dans une lecture symbolique, le singe peut évoquer l’intelligence vive, la curiosité, le jeu, l’imitation, l’agilité et la rapidité d’adaptation.",
+      "motsCles": ["curiosité", "jeu", "agilité", "intelligence"]
+    },
+    {
+      "nom": "Papillon",
+      "type": "animal-symbolique",
+      "description": "Le papillon renvoie à la légèreté, au mouvement, à la transformation légère, à la mobilité et à la variété des contacts.",
+      "motsCles": ["légèreté", "variété", "mouvement", "souplesse"]
+    }
+  ],
+  "ascendant": {
+    "intro": "Si votre ascendant est Gémeaux, cela signifie souvent que vous entrez dans la vie avec curiosité, vivacité, souplesse et besoin de comprendre rapidement ce qui se passe. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité mobile, légère et communicative.",
+    "apparence": [
+      "Présence vive et légère",
+      "Allure mobile, expressive ou nerveuse",
+      "Regard curieux",
+      "Impression de jeunesse, de rapidité ou de disponibilité",
+      "Gestuelle souvent active ou parlante"
+    ],
+    "temperament": [
+      "Réagit vite",
+      "Observe et comprend rapidement",
+      "A besoin de mouvement et de variété",
+      "Supporte mal l’immobilité mentale",
+      "Entre souvent dans les situations par le contact ou par l’esprit"
+    ],
+    "enRelation": [
+      "Donne une impression de facilité de contact",
+      "Peut paraître joueur, ouvert, bavard ou léger",
+      "Cherche des rapports vivants et souples",
+      "Aime que les échanges circulent"
+    ],
+    "pointsDeVigilance": [
+      "Nervosité",
+      "Dispersion",
+      "Difficulté à se poser",
+      "Tendance à parler plus qu’à ressentir",
+      "Risque de survoler certaines situations"
+    ]
+  },
+  "signeDominant": {
+    "intro": "Si les Gémeaux sont dominants dans un thème, cela signifie souvent que la personne aborde la vie par l’intelligence, le langage, la curiosité, l’observation et l’adaptation. Elle a besoin de comprendre, de circuler, d’échanger et de relier plutôt que de s’enfermer dans une seule forme.",
+    "forces": [
+      "Rapidité mentale",
+      "Souplesse",
+      "Capacité d’adaptation",
+      "Intelligence relationnelle",
+      "Talent pour relier et transmettre"
+    ],
+    "vigilances": [
+      "Dispersion",
+      "Nervosité",
+      "Difficulté à approfondir",
+      "Instabilité",
+      "Tendance à fuir l’ennui par agitation"
+    ],
+    "dansLaVie": [
+      "La personne apprend souvent très vite",
+      "Elle a besoin de variété, d’échange et de circulation",
+      "Elle peut changer de registre facilement",
+      "Elle supporte mal les cadres trop figés ou les univers trop fermés"
+    ],
+    "enAmour": [
+      "Elle cherche souvent une vraie complicité mentale",
+      "Elle a besoin de respirer dans le lien",
+      "Elle aime les relations vivantes, mobiles et stimulantes"
+    ],
+    "auTravail": [
+      "Elle excelle souvent dans les univers de communication, d’apprentissage, de médiation ou de réseau",
+      "Elle a besoin de mouvement et de stimulation",
+      "Elle fonctionne mieux quand elle peut penser, parler, relier ou transmettre"
+    ]
+  },
+  "celebrites": [
+    {
+      "nom": "Marilyn Monroe",
+      "dateNaissance": "1 juin 1926",
+      "domaine": "Cinéma",
+      "description": "Souvent citée parmi les célébrités Gémeaux, avec une image de charme, de mobilité expressive et de multiplicité des facettes."
+    },
+    {
+      "nom": "Johnny Depp",
+      "dateNaissance": "9 juin 1963",
+      "domaine": "Cinéma",
+      "description": "Exemple souvent mentionné d’un registre multiple, adaptable et mobile dans l’expression."
+    },
+    {
+      "nom": "Angelina Jolie",
+      "dateNaissance": "4 juin 1975",
+      "domaine": "Cinéma",
+      "description": "Souvent associée à une intensité mobile, à une grande adaptabilité d’image et à une présence intellectuellement vive."
+    },
+    {
+      "nom": "Natalie Portman",
+      "dateNaissance": "9 juin 1981",
+      "domaine": "Cinéma",
+      "description": "Souvent citée pour son intelligence, sa souplesse d’expression et sa capacité à naviguer entre plusieurs registres."
+    }
+  ]
+}

@@ -1,0 +1,870 @@
+{
+  "slug": "cancer",
+  "name": "Cancer",
+  "periode": "21 juin – 22 juillet",
+  "polarite": "Passif (féminin)",
+  "mode": "Cardinal",
+  "element": "Eau",
+  "maitre": "Lune",
+  "exaltation": "Jupiter",
+  "exil": "Saturne",
+  "chute": "Mars",
+  "motCle": "Je ressens",
+  "mythologie": "Dans la mythologie grecque, le Cancer est associé au crabe envoyé par Héra pour affronter Héraclès lors de son combat contre l’Hydre. Bien que le crabe soit écrasé, il est honoré pour sa fidélité et son courage. Ce mythe met en lumière la fonction du Cancer : protéger, soutenir, rester loyal, même face à une force supérieure. Le Cancer symbolise ainsi l’attachement, la mémoire, le refuge et la protection du vivant.",
+  "analogie": {
+    "animal": "Le crabe",
+    "objet": "La coquille, le foyer, le récipient",
+    "fonction": "Protéger, contenir, nourrir"
+  },
+  "anatomie": ["Poitrine", "Estomac", "Système digestif", "Seins", "Liquides du corps"],
+  "generalites": [
+    "Le Cancer représente le mouvement de retour vers l’intérieur. Après l’agitation mentale des Gémeaux, il invite à ressentir, à se souvenir et à se protéger. Il symbolise la naissance du monde intérieur et le besoin de sécurité émotionnelle.",
+    "Ce signe fonctionne par attachement, mémoire et sensibilité. Il perçoit le monde à travers les émotions et les expériences vécues, souvent de façon très intime et personnelle.",
+    "Le défi du Cancer est de trouver l’équilibre entre protection et enfermement. Lorsqu’il se replie excessivement, il peut se refermer sur le passé ; lorsqu’il s’ouvre avec confiance, il devient une source profonde de soutien et de soin.",
+    "Le Cancer relie aussi l’être humain au foyer, aux racines, à la famille, au besoin d’appartenance et à la continuité affective. Il a besoin de sentir qu’il existe dans un climat de lien, de mémoire et de sécurité."
+  ],
+  "caractere": [
+    "Le Cancer ressent d’abord, comprend ensuite : il capte les ambiances, les non-dits, les inflexions affectives et les fragilités.",
+    "Son caractère est sensible, protecteur, prudent, attaché au passé, avec un fort besoin de confiance pour s’ouvrir pleinement.",
+    "Il avance rarement de manière frontale : il contourne, observe, protège son monde intérieur avant de se livrer.",
+    "Lorsqu’il est immature, il peut devenir susceptible, replié ou dépendant affectivement ; lorsqu’il mûrit, il devient une force de soutien, de douceur et de fidélité profonde."
+  ],
+  "aptitudesNaturelles": [
+    "Créer un climat de protection",
+    "Soutenir, nourrir et contenir",
+    "Se souvenir avec profondeur",
+    "Percevoir les besoins affectifs des autres",
+    "Construire un foyer ou un espace de sécurité",
+    "Transformer la sensibilité en compréhension humaine"
+  ],
+  "ceQuIlRegitDansLeMonde": [
+    "Le foyer",
+    "La famille",
+    "La mémoire",
+    "Les racines",
+    "Le passé",
+    "La maternité et le soin",
+    "Les émotions",
+    "La protection, le refuge, l’appartenance"
+  ],
+  "maisonCorrespondante": {
+    "numero": 4,
+    "nom": "Maison IV",
+    "resume": "La quatrième maison parle des racines, du foyer, de la famille, de l’intimité, de la mémoire et du lieu intérieur d’où l’on vient. Son analogie naturelle avec le Cancer souligne le besoin d’appartenance, de sécurité, de continuité affective et de refuge.",
+    "themes": [
+      "Foyer",
+      "Racines",
+      "Famille",
+      "Intimité",
+      "Mémoire",
+      "Sécurité intérieure"
+    ]
+  },
+  "forces": [
+    "Grande capacité d’empathie",
+    "Sens aigu de la protection",
+    "Lien profond avec la mémoire et les racines"
+  ],
+  "ombres": [
+    "Repli sur soi excessif",
+    "Peurs liées à l’insécurité",
+    "Dépendance affective"
+  ],
+  "besoins": [
+    "Sécurité émotionnelle",
+    "Cadre rassurant",
+    "Relations de confiance"
+  ],
+  "aTravailler": [
+    "Exprimer ses émotions sans se refermer",
+    "Faire la paix avec le passé",
+    "Oser la vulnérabilité consciente",
+    "Distinguer protection et enfermement",
+    "Ne pas attendre des autres qu’ils devinent tout"
+  ],
+  "quandCestEquilibre": [
+    "Le Cancer devient un pilier affectif, capable de soutenir sans étouffer et de protéger sans enfermer.",
+    "Il transforme sa sensibilité en force de soin, d’accueil et de compréhension.",
+    "Sa mémoire devient sagesse plutôt que nostalgie, et son attachement devient fidélité vivante plutôt que peur de perdre."
+  ],
+  "aptitudes": {
+    "atouts": [
+      "Sensible",
+      "Protecteur",
+      "Empathique",
+      "Intuitif",
+      "Loyal",
+      "Nourricier"
+    ],
+    "defis": [
+      "Hypersensible",
+      "Méfiant",
+      "Lunatique",
+      "Attaché au passé",
+      "Difficulté à lâcher prise"
+    ]
+  },
+  "amour": {
+    "intro": "Le Cancer aime avec profondeur, besoin de tendresse et désir de sécurité. Il ne se livre pas toujours vite, mais lorsqu’il fait confiance, il s’attache fortement et cherche souvent à construire un lien intime, protecteur et durable. Il a besoin de sentir que la relation est un lieu où il peut déposer sa vulnérabilité sans être blessé.",
+    "qualites": [
+      "Grande fidélité affective",
+      "Capacité à prendre soin",
+      "Attachement sincère et profond",
+      "Douceur, réceptivité et sens de l’intimité",
+      "Volonté de protéger le lien"
+    ],
+    "vigilances": [
+      "Peut se refermer s’il se sent menacé ou incompris",
+      "Risque de dépendance affective ou d’attente excessive",
+      "Peut vivre le passé plus fort que le présent",
+      "Susceptibilité quand l’émotion n’est pas accueillie"
+    ],
+    "compatibleAvec": ["Taureau", "Vierge", "Scorpion", "Poissons"],
+    "attirePar": [
+      "Les personnes rassurantes et fiables",
+      "Les liens tendres et sincères",
+      "Les relations profondes où la confiance peut s’installer",
+      "Les personnes capables d’accueillir sa sensibilité sans la juger"
+    ]
+  },
+  "travail": {
+    "intro": "Le Cancer travaille bien lorsqu’il se sent utile humainement, relié à un environnement de confiance et à une mission qui a du sens affectif ou protecteur. Il peut être très engagé, très loyal et très constant lorsqu’il se sent appartenir à une équipe, à un lieu ou à une fonction qu’il considère comme importante.",
+    "qualites": [
+      "Fidélité professionnelle",
+      "Sens du soin et de l’attention humaine",
+      "Capacité à créer un cadre protecteur",
+      "Mémoire, intuition et compréhension des besoins",
+      "Loyauté envers les personnes et les missions qu’il aime"
+    ],
+    "vigilances": [
+      "Peut se replier si le climat devient froid ou agressif",
+      "Supporte mal les milieux déshumanisés",
+      "Risque de prendre les choses trop à cœur",
+      "Peut manquer d’objectivité quand l’affect prend toute la place"
+    ],
+    "domainesFavorables": [
+      "Soin",
+      "Psychologie",
+      "Éducation",
+      "Petite enfance",
+      "Hospitalité",
+      "Immobilier / habitat",
+      "Cuisine",
+      "Fonctions liées à la protection, à l’accompagnement ou à la mémoire"
+    ]
+  },
+  "argent": {
+    "intro": "Le Cancer entretient souvent un rapport affectif à l’argent. Il ne le vit pas seulement comme un outil abstrait, mais comme un moyen de protéger, de sécuriser, de nourrir ou de préserver le foyer. Son rapport à l’argent dépend souvent de son sentiment de sécurité intérieure.",
+    "forces": [
+      "Capacité à économiser pour protéger",
+      "Rapport prudent aux ressources",
+      "Sens de la sécurité matérielle",
+      "Motivation forte quand il s’agit de mettre ses proches à l’abri"
+    ],
+    "risques": [
+      "Peur de manquer",
+      "Dépenses émotionnelles ou compensatoires",
+      "Attachement anxieux à la sécurité",
+      "Difficulté à prendre de la distance avec les enjeux matériels"
+    ],
+    "rapportTypique": [
+      "Peut gérer avec prudence quand il veut sécuriser son foyer",
+      "Dépense volontiers pour la maison, la famille ou le confort affectif",
+      "Peut avoir besoin d’un coussin de sécurité pour se sentir apaisé",
+      "Lie souvent argent, protection et sentiment d’appartenance"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Sirius",
+      "nature": "Jupiter / Mars",
+      "motsCles": ["Rayonnement", "Protection", "Intensité", "Force du cœur"],
+      "description": "Sirius est parfois reliée à une puissance protectrice, à une intensité vive et à une forme de grandeur du cœur. Dans une lecture symbolique du Cancer, elle peut rappeler que la sensibilité n’est pas faiblesse, mais source de présence et de loyauté."
+    },
+    {
+      "nom": "Procyon",
+      "nature": "Mercure / Mars",
+      "motsCles": ["Réactivité", "Instinct", "Rapidité", "Vigilance"],
+      "description": "Procyon apporte une tonalité réactive, vive, protectrice, avec un sens du réflexe et de l’instinct de défense. Elle s’accorde avec la dimension sensible et alerte du Cancer."
+    }
+  ],
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Cancer s’exprime à travers l’émotion, la mémoire, la réceptivité et le besoin de sécurité. Le principe de la planète devient sensible, protecteur, intuitif et attaché à la continuité. Cela favorise l’empathie et la profondeur intérieure, mais peut aussi accentuer la vulnérabilité ou le repli si l’énergie n’est pas sécurisée.",
+    "motsCles": [
+      "Sensibilité",
+      "Protection",
+      "Mémoire",
+      "Attachement",
+      "Intuition",
+      "Sécurité"
+    ],
+    "planetes": {
+      "soleil": {
+        "tonalite": "Le Soleil en Cancer construit une identité sensible, protectrice, attachée aux racines, à l’intime et au besoin d’appartenance.",
+        "forces": [
+          "Profondeur affective",
+          "Capacité à protéger",
+          "Fidélité à ce qui compte vraiment",
+          "Lien fort aux racines"
+        ],
+        "defis": [
+          "Susceptibilité",
+          "Repli",
+          "Besoin excessif de sécurité",
+          "Difficulté à se montrer tel qu’il est sans protection"
+        ],
+        "enAmour": [
+          "Aime profondément",
+          "A besoin de confiance et de tendresse",
+          "Cherche un lien vrai et protecteur"
+        ],
+        "auTravail": [
+          "Très engagé quand le climat est humain",
+          "A besoin d’un sentiment d’utilité et d’appartenance"
+        ],
+        "avecArgent": [
+          "Cherche à sécuriser",
+          "Protège ses ressources pour protéger son monde"
+        ]
+      },
+      "lune": {
+        "tonalite": "La Lune en Cancer est dans une de ses expressions les plus naturelles : émotions profondes, grande réceptivité, attachement fort, mémoire affective puissante.",
+        "forces": [
+          "Intuition",
+          "Empathie",
+          "Capacité à contenir et nourrir",
+          "Profondeur émotionnelle"
+        ],
+        "defis": [
+          "Hypersensibilité",
+          "Humeur changeante",
+          "Attachement au passé",
+          "Besoin de protection très fort"
+        ],
+        "enAmour": [
+          "A besoin de douceur et de sécurité",
+          "S’attache fortement",
+          "Veut se sentir accueilli sans violence"
+        ],
+        "auTravail": [
+          "Travaille bien dans un climat de confiance",
+          "Très fort dans les fonctions de soin et d’attention"
+        ],
+        "avecArgent": [
+          "Peut lier argent et sécurité émotionnelle",
+          "A besoin d’être rassuré"
+        ]
+      },
+      "mercure": {
+        "tonalite": "Mercure en Cancer pense avec mémoire, intuition et résonance émotionnelle. La pensée est sensible, imagée, personnelle, attachée aux expériences vécues.",
+        "forces": [
+          "Mémoire forte",
+          "Intelligence intuitive",
+          "Capacité à parler avec sensibilité",
+          "Compréhension humaine"
+        ],
+        "defis": [
+          "Subjectivité",
+          "Raisonnement influencé par l’émotion",
+          "Difficulté à verbaliser directement certaines blessures"
+        ],
+        "enAmour": [
+          "Parle avec pudeur mais profondeur",
+          "A besoin d’un climat doux pour s’exprimer"
+        ],
+        "auTravail": [
+          "Très bon pour écouter, comprendre et relier les vécus",
+          "Aime les univers où la mémoire et l’humain comptent"
+        ],
+        "avecArgent": [
+          "Peut penser l’argent en fonction du foyer ou du ressenti",
+          "A besoin de sécurité dans ses choix"
+        ]
+      },
+      "venus": {
+        "tonalite": "Vénus en Cancer aime avec tendresse, attachement, fidélité et besoin de sécurité affective. Le plaisir passe par l’intimité, la douceur et la continuité.",
+        "forces": [
+          "Grande douceur affective",
+          "Loyauté",
+          "Tendresse",
+          "Capacité à construire un lien protecteur"
+        ],
+        "defis": [
+          "Dépendance affective",
+          "Peur du rejet",
+          "Besoin de réassurance fréquent"
+        ],
+        "enAmour": [
+          "Aime envelopper et être enveloppé",
+          "Cherche une relation de confiance, de maison, de cœur",
+          "A du mal avec les liens trop froids"
+        ],
+        "auTravail": [
+          "A besoin d’un climat agréable et humain",
+          "Peut s’investir fort quand il se sent respecté"
+        ],
+        "avecArgent": [
+          "Dépense volontiers pour les proches, la maison ou le confort affectif",
+          "Cherche à protéger"
+        ]
+      },
+      "mars": {
+        "tonalite": "Mars en Cancer agit à travers l’émotion, l’instinct de protection et la défense du territoire affectif. L’énergie est fluctuante mais très forte quand quelque chose d’intime est touché.",
+        "forces": [
+          "Instinct protecteur",
+          "Capacité à défendre ce qu’il aime",
+          "Persévérance émotionnelle",
+          "Énergie nourrie par l’attachement"
+        ],
+        "defis": [
+          "Colère indirecte",
+          "Réactions défensives",
+          "Action influencée par l’humeur",
+          "Difficulté à agir frontalement"
+        ],
+        "enAmour": [
+          "Protège fortement le lien",
+          "Peut aimer avec intensité émotionnelle",
+          "Réagit fort quand il se sent menacé"
+        ],
+        "auTravail": [
+          "Très engagé quand il défend une cause ou des personnes",
+          "Moins à l’aise dans les milieux agressifs"
+        ],
+        "avecArgent": [
+          "Peut se battre pour protéger sa sécurité",
+          "Agit selon un besoin émotionnel de protection"
+        ]
+      },
+      "jupiter": {
+        "tonalite": "Jupiter en Cancer amplifie l’empathie, le besoin de protection, la générosité du cœur et la confiance dans le lien humain. C’est une position souvent perçue comme féconde et nourricière.",
+        "forces": [
+          "Générosité affective",
+          "Capacité à soutenir",
+          "Foi dans le lien et la famille",
+          "Protection bienveillante"
+        ],
+        "defis": [
+          "Excès de protection",
+          "Tendance à surprotéger",
+          "Attachement amplifié"
+        ],
+        "enAmour": [
+          "Aime grand, avec chaleur et générosité",
+          "Cherche un amour qui rassure et nourrit"
+        ],
+        "auTravail": [
+          "Très bon dans les fonctions d’aide, de transmission ou d’accompagnement",
+          "A besoin de sentir du sens humain"
+        ],
+        "avecArgent": [
+          "Peut élargir ses ressources pour protéger ou soutenir",
+          "Donne volontiers aux siens"
+        ]
+      },
+      "saturne": {
+        "tonalite": "Saturne en Cancer structure la sensibilité, oblige à travailler la sécurité intérieure et à construire une maturité émotionnelle réelle.",
+        "forces": [
+          "Maîtrise progressive des émotions",
+          "Responsabilité familiale ou affective",
+          "Capacité à devenir un pilier"
+        ],
+        "defis": [
+          "Peur d’être vulnérable",
+          "Retenue émotionnelle",
+          "Sentiment de solitude intérieure",
+          "Difficulté à se sentir suffisamment en sécurité"
+        ],
+        "enAmour": [
+          "Aime sérieusement mais avec prudence",
+          "A besoin de temps pour faire confiance"
+        ],
+        "auTravail": [
+          "Très fort dans les rôles de responsabilité humaine ou structurelle",
+          "Aime construire du solide dans le temps"
+        ],
+        "avecArgent": [
+          "Très prudent",
+          "Cherche à créer une vraie sécurité durable"
+        ]
+      },
+      "uranus": {
+        "tonalite": "Uranus en Cancer introduit des ruptures, des réveils ou des besoins de liberté dans le monde du foyer, de la famille, des racines et des émotions.",
+        "forces": [
+          "Capacité à réinventer la famille ou le foyer",
+          "Éveil émotionnel",
+          "Libération de schémas anciens"
+        ],
+        "defis": [
+          "Instabilité affective",
+          "Rapports imprévisibles au foyer ou à l’appartenance",
+          "Conflit entre besoin de sécurité et besoin de rupture"
+        ],
+        "enAmour": [
+          "A besoin de sécurité mais aussi de liberté intérieure",
+          "Peut bouleverser des modèles affectifs installés"
+        ],
+        "auTravail": [
+          "Très bon pour transformer des cadres humains ou éducatifs",
+          "Aime changer ce qui étouffe"
+        ],
+        "avecArgent": [
+          "Peut vivre des variations liées à la sécurité ou au cadre familial",
+          "Réagit vite quand il faut protéger autrement"
+        ]
+      },
+      "neptune": {
+        "tonalite": "Neptune en Cancer rend la sensibilité extrêmement poreuse, intuitive, imagée, parfois mystique. Le foyer, la mémoire et les émotions prennent une dimension enveloppante.",
+        "forces": [
+          "Empathie immense",
+          "Imagination affective",
+          "Compassion",
+          "Sens du lien invisible"
+        ],
+        "defis": [
+          "Flou émotionnel",
+          "Idéalisation de la famille ou du passé",
+          "Difficulté à poser des limites"
+        ],
+        "enAmour": [
+          "Aime avec une très grande douceur",
+          "Peut idéaliser un lien protecteur absolu"
+        ],
+        "auTravail": [
+          "Très inspiré dans les univers humains, artistiques ou de soin",
+          "A besoin d’un cadre pour ne pas se dissoudre"
+        ],
+        "avecArgent": [
+          "Peut manquer de clarté dans la gestion affective des ressources",
+          "Lie parfois sécurité et rêve"
+        ]
+      },
+      "pluton": {
+        "tonalite": "Pluton en Cancer transforme profondément le rapport aux racines, à la famille, à la mémoire, à la sécurité et aux attachements affectifs.",
+        "forces": [
+          "Puissance émotionnelle",
+          "Capacité à renaître après des pertes",
+          "Transformation profonde des héritages affectifs"
+        ],
+        "defis": [
+          "Attachements intenses",
+          "Crises liées au foyer ou à la famille",
+          "Rapports de possession affective",
+          "Difficulté à lâcher le passé"
+        ],
+        "enAmour": [
+          "Aime profondément et intensément",
+          "Peut vivre les liens comme des lieux de transformation"
+        ],
+        "auTravail": [
+          "Très fort dans les contextes où il faut réparer, contenir ou reconstruire",
+          "Transforme les fondations humaines"
+        ],
+        "avecArgent": [
+          "Lie fortement sécurité matérielle et survie émotionnelle",
+          "Peut traverser de grands cycles de perte et de reconstruction"
+        ]
+      }
+    }
+  },
+  "dansUnTheme": [
+    "Le Cancer indique un domaine de vie où l’on cherche protection, sécurité et continuité émotionnelle.",
+    "Il montre aussi où l’on apprend à transformer la vulnérabilité en force intérieure.",
+    "Selon la maison et les aspects, il peut montrer un secteur de vie où l’on protège, accueille, nourrit, se souvient ou cherche un lieu d’appartenance."
+  ],
+  "relationsAuxAutresSignes": [
+    {
+      "sign": "belier",
+      "level": "delicate",
+      "title": "Sensibilité et frontalité",
+      "summary": "Le Cancer ressent finement ce que le Bélier exprime directement. Le lien peut être complémentaire, mais il demande beaucoup de tact et un vrai respect des rythmes émotionnels.",
+      "pointsFortes": [
+        "Complémentarité entre protection et action",
+        "Capacité de soutien mutuel",
+        "Possibilité de faire grandir le lien"
+      ],
+      "pointsDeTension": [
+        "Le Bélier peut brusquer",
+        "Le Cancer peut se replier",
+        "Malentendus entre rapidité et sensibilité"
+      ]
+    },
+    {
+      "sign": "taureau",
+      "level": "fluide",
+      "title": "Douceur, sécurité et continuité",
+      "summary": "Le Cancer et le Taureau peuvent former un lien très rassurant, sensible, stable et protecteur. L’un nourrit émotionnellement, l’autre stabilise concrètement.",
+      "pointsFortes": [
+        "Tendresse",
+        "Sécurité",
+        "Fidélité",
+        "Construction d’un foyer apaisant"
+      ],
+      "pointsDeTension": [
+        "Possessivité",
+        "Difficulté à changer",
+        "Attachement excessif au confort affectif"
+      ]
+    },
+    {
+      "sign": "gemeaux",
+      "level": "delicate",
+      "title": "Émotion et mouvement mental",
+      "summary": "Le Cancer ressent, les Gémeaux expliquent. Le lien peut être enrichissant, mais il demande de ne pas opposer profondeur émotionnelle et légèreté mentale.",
+      "pointsFortes": [
+        "Complémentarité entre ressenti et langage",
+        "Possibilité d’humaniser la pensée",
+        "Échange riche si chacun écoute l’autre"
+      ],
+      "pointsDeTension": [
+        "Les Gémeaux peuvent sembler trop légers",
+        "Le Cancer peut sembler trop susceptible",
+        "Différence entre besoin de sécurité et besoin d’air"
+      ]
+    },
+    {
+      "sign": "cancer",
+      "level": "fluide",
+      "title": "Eau et mémoire",
+      "summary": "Deux Cancers peuvent se comprendre avec beaucoup de profondeur, d’intuition et de délicatesse. Le lien peut être très tendre, protecteur et familier.",
+      "pointsFortes": [
+        "Empathie",
+        "Compréhension intuitive",
+        "Attachement",
+        "Profondeur du lien"
+      ],
+      "pointsDeTension": [
+        "Repli mutuel",
+        "Susceptibilité",
+        "Tendance à nourrir ensemble les peurs ou la nostalgie"
+      ]
+    },
+    {
+      "sign": "lion",
+      "level": "stimulante",
+      "title": "Cœur intime et cœur rayonnant",
+      "summary": "Le Cancer protège, le Lion rayonne. Le lien peut être fort, chaleureux et fécond, mais il demande d’accorder le besoin d’intimité du Cancer avec le besoin de visibilité du Lion.",
+      "pointsFortes": [
+        "Générosité",
+        "Chaleur",
+        "Loyauté",
+        "Possibilité d’un vrai foyer vivant"
+      ],
+      "pointsDeTension": [
+        "Le Lion peut prendre plus de place que le Cancer ne peut supporter",
+        "Le Cancer peut sembler trop replié",
+        "Différence entre intimité et affirmation"
+      ]
+    },
+    {
+      "sign": "vierge",
+      "level": "fluide",
+      "title": "Soin et attention",
+      "summary": "Le Cancer et la Vierge peuvent créer un lien discret, utile, fidèle et très attentif. L’un soigne par l’émotion, l’autre par l’intelligence pratique.",
+      "pointsFortes": [
+        "Soutien mutuel",
+        "Fiabilité",
+        "Sens du détail humain",
+        "Capacité à prendre soin"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut sembler trop critique",
+        "Le Cancer peut se sentir blessé trop vite",
+        "Risque de surprotection ou de surcontrôle"
+      ]
+    },
+    {
+      "sign": "balance",
+      "level": "variable",
+      "title": "Besoin d’intimité et besoin d’harmonie",
+      "summary": "Le Cancer cherche la sécurité émotionnelle, la Balance cherche l’équilibre relationnel. Le lien peut être doux et délicat, mais parfois indécis ou frustrant s’il manque de vérité affective.",
+      "pointsFortes": [
+        "Sensibilité",
+        "Douceur",
+        "Volonté de préserver le lien",
+        "Capacité à créer une atmosphère agréable"
+      ],
+      "pointsDeTension": [
+        "La Balance peut sembler trop distante ou trop mentale",
+        "Le Cancer peut sembler trop fusionnel",
+        "Difficulté à exprimer clairement les désaccords"
+      ]
+    },
+    {
+      "sign": "scorpion",
+      "level": "fluide",
+      "title": "Eau profonde et loyauté",
+      "summary": "Le Cancer et le Scorpion partagent une intensité émotionnelle, un sens du lien fort et une grande profondeur. Le rapport peut être très puissant et transformateur.",
+      "pointsFortes": [
+        "Intuition",
+        "Loyauté",
+        "Profondeur affective",
+        "Puissance du lien"
+      ],
+      "pointsDeTension": [
+        "Jalousie",
+        "Possessivité",
+        "Blessures profondes si la confiance est rompue"
+      ]
+    },
+    {
+      "sign": "sagittaire",
+      "level": "variable",
+      "title": "Refuge et horizon",
+      "summary": "Le Cancer cherche le foyer, le Sagittaire cherche l’espace. Le lien peut être enrichissant si chacun accepte que l’autre n’ait pas la même manière de se sentir vivant.",
+      "pointsFortes": [
+        "Le Cancer apporte l’intériorité, le Sagittaire l’ouverture",
+        "Possibilité de croissance mutuelle",
+        "Élargissement du monde affectif"
+      ],
+      "pointsDeTension": [
+        "Le Sagittaire peut sembler trop libre ou trop direct",
+        "Le Cancer peut sembler trop prudent ou trop attaché",
+        "Différence entre sécurité et expansion"
+      ]
+    },
+    {
+      "sign": "capricorne",
+      "level": "complementaire",
+      "title": "Axe Cancer–Capricorne",
+      "summary": "Le Cancer protège le monde intérieur ; le Capricorne structure le monde extérieur. C’est un axe puissant entre besoin d’appartenance et responsabilité, émotion et construction.",
+      "pointsFortes": [
+        "Complémentarité très forte",
+        "Capacité à construire quelque chose de solide",
+        "Équilibre possible entre cœur et structure"
+      ],
+      "pointsDeTension": [
+        "Le Capricorne peut sembler froid",
+        "Le Cancer peut sembler trop sensible",
+        "Conflit entre vulnérabilité et maîtrise"
+      ]
+    },
+    {
+      "sign": "verseau",
+      "level": "delicate",
+      "title": "Attachement et distance",
+      "summary": "Le Cancer cherche la chaleur du lien, le Verseau cherche souvent de l’espace, de l’idée et de la liberté. Le rapport peut être stimulant, mais aussi déstabilisant.",
+      "pointsFortes": [
+        "Le Cancer apporte l’humain, le Verseau la vision",
+        "Possibilité d’élargir la sensibilité",
+        "Complémentarité entre intime et collectif"
+      ],
+      "pointsDeTension": [
+        "Le Cancer peut souffrir de la distance du Verseau",
+        "Le Verseau peut étouffer face au besoin d’attachement",
+        "Conflit entre sécurité et liberté"
+      ]
+    },
+    {
+      "sign": "poissons",
+      "level": "fluide",
+      "title": "Eau sensible et compassion",
+      "summary": "Le Cancer et les Poissons partagent une grande sensibilité, de l’intuition et un rapport profond au ressenti. Le lien peut être très doux, inspiré, enveloppant.",
+      "pointsFortes": [
+        "Empathie",
+        "Tendresse",
+        "Imagination affective",
+        "Compréhension intuitive"
+      ],
+      "pointsDeTension": [
+        "Manque de limites",
+        "Fusion excessive",
+        "Risque de nourrir ensemble les peurs ou la confusion"
+      ]
+    }
+  ],
+  "paysAssocies": [
+    {
+      "pays": "Hollande",
+      "niveau": "traditionnel",
+      "justification": "Dans certaines traditions de géographie astrologique, la Hollande est associée au Cancer pour des raisons symboliques liées à l’eau, à la protection, au territoire sensible, au rapport au foyer et à une forme d’intériorité collective."
+    },
+    {
+      "pays": "Écosse",
+      "niveau": "traditionnel",
+      "justification": "L’Écosse figure dans plusieurs listes traditionnelles de correspondances astrologiques liées au Cancer. Comme toujours, il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
+    },
+    {
+      "pays": "Afrique du Nord et de l’Ouest",
+      "niveau": "traditionnel",
+      "justification": "Certaines traditions astrologiques rattachent l’Afrique du Nord et de l’Ouest au Cancer. Cette correspondance relève d’un symbolisme classique de géographie astrologique, non d’une vérité objective."
+    },
+    {
+      "pays": "Nouvelle-Zélande",
+      "niveau": "traditionnel",
+      "justification": "La Nouvelle-Zélande est parfois citée parmi les pays associés symboliquement au Cancer, avec une lecture liée à l’insularité, au refuge et à une forme de protection naturelle."
+    },
+    {
+      "pays": "Paraguay",
+      "niveau": "traditionnel",
+      "justification": "Le Paraguay apparaît aussi dans certaines listes de correspondances traditionnelles liées au Cancer. Il s’agit d’une attribution symbolique relevant de la tradition astrologique."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel est le caractère du Cancer ?",
+      "answer": "Le Cancer a un tempérament sensible, protecteur, intuitif et attaché aux racines. Il cherche la sécurité émotionnelle, la confiance et la continuité, mais doit veiller à ne pas se replier excessivement sur le passé ou sur la peur de perdre."
+    },
+    {
+      "question": "Quel type d’amoureux est le Cancer ?",
+      "answer": "Le Cancer aime avec profondeur, tendresse et besoin de sécurité. Il cherche souvent une relation intime, fidèle et protectrice, mais doit apprendre à exprimer ses besoins sans attendre que l’autre les devine."
+    },
+    {
+      "question": "Quel type de travailleur est le Cancer ?",
+      "answer": "Le Cancer est souvent un travailleur loyal, impliqué et très bon dans les contextes humains, éducatifs, protecteurs ou liés au soin. Il travaille mieux quand il se sent utile, accueilli et relié à une vraie mission."
+    },
+    {
+      "question": "Quelle maison correspond au Cancer ?",
+      "answer": "Le Cancer est naturellement relié à la maison IV, celle du foyer, des racines, de la famille, de l’intimité et de la sécurité intérieure."
+    }
+  ],
+  "pierresEtMetaux": [
+    {
+      "nom": "Pierre de lune",
+      "type": "pierre",
+      "description": "La pierre de lune évoque l’intuition, la sensibilité, la réceptivité et le lien aux cycles émotionnels. Elle s’accorde naturellement avec la tonalité lunaire du Cancer.",
+      "motsCles": ["lune", "intuition", "réceptivité", "sensibilité"]
+    },
+    {
+      "nom": "Perle",
+      "type": "pierre",
+      "description": "La perle porte une symbolique d’eau, de douceur, de profondeur intérieure, de protection et de maturation sensible. Elle s’accorde bien avec la dimension intime du Cancer.",
+      "motsCles": ["eau", "douceur", "protection", "maturation"]
+    },
+    {
+      "nom": "Argent",
+      "type": "métal",
+      "description": "L’argent est traditionnellement lié à la Lune : réceptivité, mémoire, féminité symbolique, reflet, intériorité et sensibilité aux rythmes.",
+      "motsCles": ["lune", "reflet", "mémoire", "réceptivité"]
+    }
+  ],
+  "plantes": [
+    {
+      "nom": "Camomille",
+      "type": "plante",
+      "description": "La camomille évoque l’apaisement, le soin, la douceur et la capacité à calmer les tensions intérieures. Elle correspond bien à la tonalité protectrice et sensible du Cancer.",
+      "usagesSymboliques": ["apaisement", "douceur", "soin", "réconfort"]
+    },
+    {
+      "nom": "Nénuphar",
+      "type": "plante",
+      "description": "Le nénuphar renvoie au monde de l’eau, à la sensibilité, à l’intimité et à une beauté calme liée au monde intérieur.",
+      "usagesSymboliques": ["eau", "intimité", "sensibilité", "repos"]
+    },
+    {
+      "nom": "Saule",
+      "type": "arbre",
+      "description": "Le saule est souvent associé à la Lune, à la mémoire, à l’eau, à la mélancolie féconde et à la souplesse émotionnelle.",
+      "usagesSymboliques": ["mémoire", "lune", "souplesse", "eau"]
+    }
+  ],
+  "animaux": [
+    {
+      "nom": "Crabe",
+      "type": "animal-symbolique",
+      "description": "Le crabe incarne la protection, la sensibilité défensive, le besoin de coquille, la prudence et le rapport oblique au monde. Il symbolise parfaitement la manière Cancer d’approcher, sentir puis se protéger.",
+      "motsCles": ["protection", "coquille", "prudence", "sensibilité"]
+    },
+    {
+      "nom": "Tortue",
+      "type": "animal",
+      "description": "Dans une lecture symbolique, la tortue évoque le refuge, la maison portée avec soi, la lenteur prudente et la sécurité intérieure.",
+      "motsCles": ["refuge", "maison", "prudence", "durée"]
+    },
+    {
+      "nom": "Cygne",
+      "type": "oiseau",
+      "description": "Le cygne renvoie à une grâce sensible, à l’eau, à la fidélité, au lien émotionnel et à une profondeur silencieuse qui correspond bien à la tonalité du Cancer.",
+      "motsCles": ["eau", "grâce", "fidélité", "profondeur"]
+    }
+  ],
+  "ascendant": {
+    "intro": "Si votre ascendant est Cancer, cela signifie souvent que vous entrez dans la vie avec sensibilité, prudence, réceptivité et besoin de sécurité. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité douce, protectrice et attentive à l’ambiance.",
+    "apparence": [
+      "Présence douce ou enveloppante",
+      "Regard sensible ou rêveur",
+      "Impression de réserve, de pudeur ou de délicatesse",
+      "Allure protectrice, parfois un peu prudente",
+      "Visage ou expression pouvant refléter facilement l’émotion"
+    ],
+    "temperament": [
+      "Réagit d’abord à l’ambiance",
+      "A besoin de sécurité avant de s’ouvrir pleinement",
+      "Observe, ressent, protège avant d’agir frontalement",
+      "Supporte mal la brutalité émotionnelle",
+      "Entre dans les situations avec prudence et mémoire"
+    ],
+    "enRelation": [
+      "Donne une impression de douceur, d’écoute ou de réserve",
+      "Peut paraître protecteur, discret ou facilement touché",
+      "Cherche des rapports sincères et sécurisants",
+      "A besoin de confiance pour se montrer tel qu’il est"
+    ],
+    "pointsDeVigilance": [
+      "Susceptibilité",
+      "Repli défensif",
+      "Attachement excessif au passé",
+      "Peur d’être blessé",
+      "Risque de surprotection"
+    ]
+  },
+  "signeDominant": {
+    "intro": "Si le Cancer est dominant dans un thème, cela signifie souvent que la personne aborde la vie par la sensibilité, la mémoire, l’intuition, le besoin de lien et la recherche de sécurité intérieure. Elle se construit à travers l’attachement, la protection, l’appartenance et la profondeur émotionnelle.",
+    "forces": [
+      "Empathie",
+      "Profondeur affective",
+      "Fidélité",
+      "Capacité à protéger",
+      "Intuition forte"
+    ],
+    "vigilances": [
+      "Hypersensibilité",
+      "Peur de perdre",
+      "Repli défensif",
+      "Attachement au passé",
+      "Difficulté à poser des limites claires"
+    ],
+    "dansLaVie": [
+      "La personne cherche souvent un lieu, un lien ou un climat où elle peut se sentir chez elle",
+      "Elle se nourrit de mémoire, d’intimité et d’attachement",
+      "Elle avance mieux quand elle se sent en confiance",
+      "Elle supporte mal les univers froids, trop abrupts ou émotionnellement coupés"
+    ],
+    "enAmour": [
+      "Elle cherche souvent une vraie profondeur de lien",
+      "Elle a besoin de sécurité, de tendresse et de loyauté",
+      "Elle aime construire un espace intime et protecteur"
+    ],
+    "auTravail": [
+      "Elle excelle souvent dans les fonctions humaines, éducatives, protectrices ou liées au soin",
+      "Elle a besoin de sentir qu’elle sert quelque chose de vivant",
+      "Elle fonctionne mieux dans un cadre de confiance"
+    ]
+  },
+  "celebrites": [
+    {
+      "nom": "Elon Musk",
+      "dateNaissance": "28 juin 1971",
+      "domaine": "Entrepreneuriat / Technologie",
+      "description": "Souvent cité parmi les célébrités Cancer, avec une intensité intuitive et une forte dimension de projection personnelle."
+    },
+    {
+      "nom": "Margot Robbie",
+      "dateNaissance": "2 juillet 1990",
+      "domaine": "Cinéma",
+      "description": "Souvent associée à une présence à la fois sensible, lumineuse et incarnée."
+    },
+    {
+      "nom": "Meryl Streep",
+      "dateNaissance": "22 juin 1949",
+      "domaine": "Cinéma",
+      "description": "Figure souvent citée pour sa profondeur humaine, sa sensibilité expressive et sa grande richesse émotionnelle."
+    },
+    {
+      "nom": "Tom Cruise",
+      "dateNaissance": "3 juillet 1962",
+      "domaine": "Cinéma",
+      "description": "Souvent mentionné parmi les célébrités Cancer, avec une intensité de présence et une forte implication émotionnelle dans l’action."
+    }
+  ]
+}

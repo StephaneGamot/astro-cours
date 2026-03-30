@@ -1,0 +1,870 @@
+{
+  "slug": "lion",
+  "name": "Lion",
+  "periode": "23 juillet – 22 août",
+  "polarite": "Actif (masculin)",
+  "mode": "Fixe",
+  "element": "Feu",
+  "maitre": "Soleil",
+  "exaltation": null,
+  "exil": "Saturne",
+  "chute": null,
+  "motCle": "Je rayonne",
+  "mythologie": "Le Lion est associé au lion de Némée, vaincu par Héraclès lors de son premier travail. Cette créature invulnérable symbolise une force brute et souveraine, que le héros doit affronter pour affirmer sa propre puissance. Le mythe du Lion parle de courage, de maîtrise de soi et de reconnaissance : la force ne devient noble que lorsqu’elle est assumée et dirigée par le cœur. Le Lion représente ainsi la puissance créatrice, la souveraineté intérieure et la capacité à rayonner depuis un centre vivant.",
+  "analogie": {
+    "animal": "Le lion",
+    "objet": "Le trône, la couronne, le cœur, le soleil",
+    "fonction": "Rayonner, affirmer, créer"
+  },
+  "anatomie": ["Cœur", "Colonne vertébrale", "Dos", "Circulation sanguine"],
+  "generalites": [
+    "Le Lion représente le moment où l’individu affirme son identité de manière visible. Après la protection du Cancer, il s’agit désormais de se montrer, de créer et de rayonner à partir de ce que l’on est.",
+    "Ce signe est lié à la confiance en soi, à la créativité et au besoin de reconnaissance. Le Lion cherche à exprimer son unicité et à occuper une place centrale, non par domination pure, mais par présence, chaleur et puissance d’être.",
+    "Son défi est de transformer le besoin d’être reconnu en capacité à reconnaître les autres. Lorsqu’il est équilibré, le Lion inspire, éclaire et rassemble autour de lui.",
+    "Le Lion relie aussi l’être humain à la joie créatrice, à la générosité, à la noblesse du cœur et au pouvoir de donner une forme visible à son feu intérieur."
+  ],
+  "caractere": [
+    "Le Lion aime se sentir pleinement vivant, visible et digne d’occuper sa place. Il supporte mal d’être réduit, ignoré ou éteint.",
+    "Son caractère est chaleureux, fier, généreux, expressif, souvent solaire, avec un besoin profond de se sentir reconnu pour ce qu’il est.",
+    "Il préfère l’élan du cœur, la franchise assumée et le panache à la mesquinerie, à l’ombre ou aux petits calculs.",
+    "Lorsqu’il est immature, il peut devenir orgueilleux, théâtral ou centré sur lui-même ; lorsqu’il mûrit, il devient un vrai centre de rayonnement, capable d’inspirer sans écraser."
+  ],
+  "aptitudesNaturelles": [
+    "Créer et exprimer une identité forte",
+    "Donner confiance et entraîner par la présence",
+    "Rayonner dans un groupe ou sur une scène",
+    "Porter un projet avec enthousiasme",
+    "Affirmer une vision avec chaleur et courage",
+    "Faire vivre quelque chose par le cœur, le style et la générosité"
+  ],
+  "ceQuIlRegitDansLeMonde": [
+    "La créativité",
+    "Le rayonnement",
+    "L’expression personnelle",
+    "La noblesse",
+    "La reconnaissance",
+    "L’autorité du cœur",
+    "Le jeu, la scène, la mise en lumière",
+    "La joie de vivre et la puissance créatrice"
+  ],
+  "maisonCorrespondante": {
+    "numero": 5,
+    "nom": "Maison V",
+    "resume": "La cinquième maison parle de la créativité, de l’expression personnelle, du jeu, du plaisir, de l’amour, des enfants et de la capacité à rayonner ce que l’on porte en soi. Son analogie naturelle avec le Lion souligne la joie de créer, le besoin d’être vu, le feu du cœur et l’affirmation d’une identité vivante.",
+    "themes": [
+      "Créativité",
+      "Rayonnement",
+      "Plaisir",
+      "Expression de soi",
+      "Amour",
+      "Enfants et œuvre personnelle"
+    ]
+  },
+  "forces": [
+    "Capacité à inspirer et à motiver",
+    "Créativité expressive",
+    "Force du cœur, générosité et présence"
+  ],
+  "ombres": [
+    "Ego surdimensionné",
+    "Dépendance au regard extérieur",
+    "Difficulté à partager la lumière"
+  ],
+  "besoins": [
+    "Être reconnu pour ce qu’il est",
+    "Exprimer sa créativité",
+    "Se sentir utile, vivant et valorisé"
+  ],
+  "aTravailler": [
+    "L’humilité",
+    "L’écoute des autres",
+    "Le partage du pouvoir ou de la lumière",
+    "La capacité à exister sans validation permanente",
+    "Le fait de distinguer dignité et orgueil"
+  ],
+  "quandCestEquilibre": [
+    "Le Lion devient un leader naturel, capable de rayonner sans écraser.",
+    "Il exprime une autorité bienveillante, fondée sur la confiance, la présence et la générosité.",
+    "Son feu devient créateur, inspirant et rassembleur, au lieu de chercher seulement à être admiré."
+  ],
+  "aptitudes": {
+    "atouts": [
+      "Charismatique",
+      "Créatif",
+      "Généreux",
+      "Confiant",
+      "Chaleureux",
+      "Loyal"
+    ],
+    "defis": [
+      "Orgueilleux",
+      "Autoritaire",
+      "Besoin excessif de reconnaissance",
+      "Rigidité de l’ego"
+    ]
+  },
+  "amour": {
+    "intro": "Le Lion aime avec chaleur, générosité, passion et noblesse. Il a besoin de sentir que la relation est vivante, visible, digne et porteuse d’élan. Il donne beaucoup lorsqu’il aime, mais il a aussi besoin de se sentir choisi, valorisé et reconnu dans son unicité.",
+    "qualites": [
+      "Générosité affective",
+      "Capacité à aimer ouvertement",
+      "Fidélité lorsqu’il s’engage vraiment",
+      "Grande chaleur dans l’expression du lien",
+      "Volonté de faire rayonner la relation"
+    ],
+    "vigilances": [
+      "Peut souffrir fortement du manque de reconnaissance",
+      "Risque d’orgueil blessé",
+      "Peut devenir dominateur s’il se sent ignoré",
+      "Tendance à attendre beaucoup d’admiration ou de retour"
+    ],
+    "compatibleAvec": ["Bélier", "Sagittaire", "Gémeaux", "Balance"],
+    "attirePar": [
+      "Les personnes vivantes, franches et inspirantes",
+      "Les relations où il y a du cœur, de la chaleur et de la présence",
+      "Les personnes capables d’aimer sans éteindre",
+      "Les liens où la joie, le désir et la fierté d’être ensemble existent réellement"
+    ]
+  },
+  "travail": {
+    "intro": "Le Lion travaille bien lorsqu’il peut créer, diriger, représenter, inspirer ou donner forme à quelque chose qui porte sa marque. Il a besoin de sentir qu’il ne fait pas seulement une tâche, mais qu’il incarne une place, une vision ou une présence. Il excelle souvent quand il peut mettre son énergie dans un projet visible et porteur de sens.",
+    "qualites": [
+      "Présence naturelle",
+      "Capacité à inspirer et motiver",
+      "Créativité",
+      "Leadership chaleureux",
+      "Volonté de porter un projet avec cœur"
+    ],
+    "vigilances": [
+      "Supporte mal l’effacement complet",
+      "Peut se braquer face à une autorité humiliante",
+      "Risque de trop personnaliser les enjeux",
+      "Peut confondre responsabilité et besoin d’être central"
+    ],
+    "domainesFavorables": [
+      "Direction",
+      "Création",
+      "Scène / spectacle",
+      "Communication incarnée",
+      "Enseignement inspirant",
+      "Entrepreneuriat visible",
+      "Fonctions où il faut représenter, guider, rayonner ou créer"
+    ]
+  },
+  "argent": {
+    "intro": "Le Lion a souvent un rapport noble, fier et visible à l’argent. Il ne le vit pas seulement comme un outil de sécurité, mais aussi comme un moyen de rayonner, de créer, d’affirmer une qualité de vie ou d’exprimer une générosité. Il peut être très généreux, mais aussi très sensible à ce que l’argent représente en termes de dignité et de statut.",
+    "forces": [
+      "Capacité à attirer par le rayonnement personnel",
+      "Générosité",
+      "Volonté de gagner avec panache",
+      "Sens de la valeur liée à la qualité, à l’image ou à la création"
+    ],
+    "risques": [
+      "Dépenses d’image ou de prestige",
+      "Difficulté à supporter une perte de statut",
+      "Tendance à dépenser pour se sentir à la hauteur",
+      "Orgueil pouvant brouiller certaines décisions"
+    ],
+    "rapportTypique": [
+      "Peut aimer dépenser pour ce qui magnifie la vie, la beauté ou la présence",
+      "Peut être généreux avec ceux qu’il aime",
+      "A besoin de sentir une dignité dans sa manière de gagner",
+      "Peut parfois lier argent, valeur personnelle et reconnaissance"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Regulus",
+      "nature": "Jupiter / Mars",
+      "motsCles": ["Royauté", "Rayonnement", "Noblesse", "Puissance"],
+      "description": "Regulus est l’une des grandes étoiles royales de la tradition astrologique. Dans une lecture symbolique du Lion, elle renforce l’idée de souveraineté, de dignité, de rayonnement et d’autorité assumée depuis le cœur."
+    },
+    {
+      "nom": "Algieba",
+      "nature": "Saturne / Vénus",
+      "motsCles": ["Panache", "Magnétisme", "Style", "Prestance"],
+      "description": "Algieba apporte une tonalité de noblesse expressive, de magnétisme, de beauté visible et de puissance incarnée. Elle s’accorde bien avec la dimension théâtrale et rayonnante du Lion."
+    }
+  ],
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Lion cherche à s’exprimer avec force, visibilité, chaleur et créativité. Le principe de la planète devient rayonnant, affirmé, centré sur l’identité et sur la qualité de présence. Cela renforce la confiance, le charisme et la générosité, mais peut aussi amplifier l’ego si l’énergie n’est pas mise au service de quelque chose de plus vaste.",
+    "motsCles": [
+      "Rayonnement",
+      "Créativité",
+      "Affirmation",
+      "Confiance",
+      "Visibilité",
+      "Cœur"
+    ],
+    "planetes": {
+      "soleil": {
+        "tonalite": "Le Soleil en Lion affirme une identité forte, créative, visible et centrée sur le rayonnement personnel. Il a besoin d’exprimer sa singularité pour se sentir pleinement vivant.",
+        "forces": [
+          "Confiance",
+          "Charisme",
+          "Leadership naturel",
+          "Créativité vivante"
+        ],
+        "defis": [
+          "Orgueil",
+          "Besoin excessif d’être reconnu",
+          "Difficulté à supporter l’effacement",
+          "Risque de centrer le monde sur soi"
+        ],
+        "enAmour": [
+          "Aime avec chaleur et intensité",
+          "A besoin d’être admiré et choisi",
+          "Veut un lien vivant et fier"
+        ],
+        "auTravail": [
+          "Très fort pour représenter, porter ou diriger",
+          "A besoin de se sentir incarné dans ce qu’il fait"
+        ],
+        "avecArgent": [
+          "Peut chercher à gagner avec style ou panache",
+          "Lie parfois argent et rayonnement personnel"
+        ]
+      },
+      "lune": {
+        "tonalite": "La Lune en Lion vit les émotions à travers le cœur, la chaleur, le besoin d’être aimé et reconnu. Elle ressent avec fierté, intensité et générosité.",
+        "forces": [
+          "Chaleur affective",
+          "Générosité émotionnelle",
+          "Capacité à donner du cœur",
+          "Fierté affective"
+        ],
+        "defis": [
+          "Blessure narcissique forte",
+          "Besoin d’attention émotionnelle",
+          "Dramatisation possible"
+        ],
+        "enAmour": [
+          "A besoin d’être aimé clairement",
+          "Donne beaucoup quand il se sent valorisé",
+          "Souffre du froid ou de l’indifférence"
+        ],
+        "auTravail": [
+          "Travaille mieux quand il se sent reconnu",
+          "A besoin d’un climat chaleureux"
+        ],
+        "avecArgent": [
+          "Peut dépenser pour se faire plaisir ou faire plaisir",
+          "Aime sentir une forme de noblesse dans sa manière de vivre"
+        ]
+      },
+      "mercure": {
+        "tonalite": "Mercure en Lion pense et parle avec amplitude, chaleur, style et volonté d’affirmer une vision. La pensée veut se faire entendre, être comprise et marquer.",
+        "forces": [
+          "Parole expressive",
+          "Vision claire",
+          "Capacité à convaincre",
+          "Style affirmé"
+        ],
+        "defis": [
+          "Manque de nuance",
+          "Besoin d’avoir raison",
+          "Parole trop centrée sur soi",
+          "Difficulté à écouter vraiment"
+        ],
+        "enAmour": [
+          "Aime parler avec chaleur et panache",
+          "A besoin d’une réponse vivante et enthousiaste"
+        ],
+        "auTravail": [
+          "Très fort pour présenter, inspirer, animer",
+          "Aime que ses idées aient de l’impact"
+        ],
+        "avecArgent": [
+          "Peut penser l’argent aussi en termes d’image, de valeur ou de prestige",
+          "Décide mieux quand son orgueil n’est pas piqué"
+        ]
+      },
+      "venus": {
+        "tonalite": "Vénus en Lion aime avec intensité, panache, chaleur et générosité. Le plaisir passe par la beauté du lien, le désir d’aimer grand et la joie d’exprimer son cœur.",
+        "forces": [
+          "Charme rayonnant",
+          "Générosité amoureuse",
+          "Goût du beau et du noble",
+          "Capacité à aimer avec cœur"
+        ],
+        "defis": [
+          "Besoin d’admiration",
+          "Orgueil amoureux",
+          "Tendance à dramatiser le lien",
+          "Difficulté à aimer dans l’ombre"
+        ],
+        "enAmour": [
+          "Aime les grandes démonstrations sincères",
+          "Veut un lien fier, chaleureux et vivant",
+          "A besoin de se sentir choisi avec éclat"
+        ],
+        "auTravail": [
+          "Aime les univers créatifs, visibles ou élégants",
+          "A besoin de sentir de la beauté ou du cœur dans le projet"
+        ],
+        "avecArgent": [
+          "Peut dépenser pour le beau, la fête, la qualité ou la mise en valeur",
+          "Aime vivre avec style"
+        ]
+      },
+      "mars": {
+        "tonalite": "Mars en Lion agit avec volonté, panache, fierté et besoin d’exprimer une force noble. L’énergie veut créer, conquérir, se dépasser et marquer.",
+        "forces": [
+          "Courage",
+          "Volonté forte",
+          "Panache",
+          "Énergie créative et dirigeante"
+        ],
+        "defis": [
+          "Autoritarisme",
+          "Orgueil blessé",
+          "Réactions théâtrales",
+          "Besoin de dominer"
+        ],
+        "enAmour": [
+          "Désir fier et intense",
+          "Prend l’initiative avec chaleur",
+          "Veut être désiré avec force"
+        ],
+        "auTravail": [
+          "Très fort pour porter, guider ou défendre un projet",
+          "A besoin d’un objectif qui donne envie de se dépasser"
+        ],
+        "avecArgent": [
+          "Peut agir avec panache ou audace",
+          "Doit éviter les décisions motivées par l’ego"
+        ]
+      },
+      "jupiter": {
+        "tonalite": "Jupiter en Lion amplifie la confiance, le rayonnement, la créativité et le besoin de vivre grand. Il donne souvent une chaleur expansive et une foi en sa propre lumière.",
+        "forces": [
+          "Enthousiasme",
+          "Générosité",
+          "Confiance",
+          "Capacité à inspirer"
+        ],
+        "defis": [
+          "Excès d’orgueil",
+          "Démesure",
+          "Besoin d’être reconnu en permanence"
+        ],
+        "enAmour": [
+          "Aime avec grandeur et chaleur",
+          "Cherche des histoires qui magnifient la vie"
+        ],
+        "auTravail": [
+          "Très bon pour fédérer, enseigner, représenter ou inspirer",
+          "Aime les projets porteurs de visibilité"
+        ],
+        "avecArgent": [
+          "Peut attirer par la confiance et la présence",
+          "Risque de dépenses généreuses ou excessives"
+        ]
+      },
+      "saturne": {
+        "tonalite": "Saturne en Lion demande de construire une autorité juste, de discipliner l’ego et d’apprendre à rayononner avec maturité plutôt qu’avec besoin de validation.",
+        "forces": [
+          "Autorité construite",
+          "Maîtrise de soi",
+          "Capacité à porter une responsabilité visible",
+          "Solidité du centre"
+        ],
+        "defis": [
+          "Peur d’être jugé",
+          "Blocage créatif",
+          "Sentiment de ne pas être assez reconnu",
+          "Rigidité de l’ego"
+        ],
+        "enAmour": [
+          "Aime sérieusement mais avec retenue",
+          "A besoin d’une reconnaissance solide et fiable"
+        ],
+        "auTravail": [
+          "Très fort pour diriger avec maturité",
+          "A besoin de bâtir une légitimité réelle"
+        ],
+        "avecArgent": [
+          "Peut apprendre une vraie dignité dans la gestion",
+          "Veut sécuriser son statut dans le temps"
+        ]
+      },
+      "uranus": {
+        "tonalite": "Uranus en Lion produit une expression originale de soi, un besoin de créer autrement et de rayononner hors des normes habituelles.",
+        "forces": [
+          "Originalité créative",
+          "Liberté d’expression",
+          "Capacité à innover dans la représentation de soi"
+        ],
+        "defis": [
+          "Besoin de se singulariser à tout prix",
+          "Ruptures brusques dans l’image ou la reconnaissance",
+          "Conflit entre ego et liberté"
+        ],
+        "enAmour": [
+          "A besoin d’un lien vivant, libre et stimulant",
+          "Peut rejeter les formes trop conventionnelles"
+        ],
+        "auTravail": [
+          "Très fort dans les milieux innovants ou artistiques",
+          "Aime surprendre et inventer"
+        ],
+        "avecArgent": [
+          "Peut dépenser pour des choix originaux ou identitaires",
+          "Recherche une indépendance visible"
+        ]
+      },
+      "neptune": {
+        "tonalite": "Neptune en Lion cherche un idéal de beauté, de création, de grandeur ou d’amour inspiré. Il peut magnifier l’imaginaire de la lumière, du cœur et de l’expression artistique.",
+        "forces": [
+          "Inspiration créative",
+          "Sens du beau",
+          "Vision poétique du rayonnement",
+          "Générosité inspirée"
+        ],
+        "defis": [
+          "Idéalisation de soi ou du lien",
+          "Flou dans le besoin de reconnaissance",
+          "Risque de jouer un personnage"
+        ],
+        "enAmour": [
+          "Aime les histoires inspirées, belles, romantiques",
+          "Peut idéaliser un amour lumineux et total"
+        ],
+        "auTravail": [
+          "Très inspiré dans les univers créatifs, artistiques ou symboliques",
+          "A besoin de sens et de beauté"
+        ],
+        "avecArgent": [
+          "Peut dépenser pour l’image, le rêve ou l’esthétique",
+          "Doit veiller à garder un sens du réel"
+        ]
+      },
+      "pluton": {
+        "tonalite": "Pluton en Lion transforme profondément le rapport à l’identité, au pouvoir personnel, à la créativité et à la lumière. Il pousse à mourir à certaines images de soi pour trouver une puissance plus vraie.",
+        "forces": [
+          "Puissance intérieure",
+          "Créativité intense",
+          "Capacité à renaître après des atteintes à l’ego",
+          "Rayonnement transformateur"
+        ],
+        "defis": [
+          "Rapports de pouvoir",
+          "Fixation narcissique",
+          "Besoin de contrôler l’image ou la place"
+        ],
+        "enAmour": [
+          "Aime intensément, avec exigence et profondeur",
+          "Peut vivre le lien comme un lieu de transformation"
+        ],
+        "auTravail": [
+          "Très fort pour porter une vision puissante",
+          "Transforme souvent les systèmes de représentation ou de pouvoir"
+        ],
+        "avecArgent": [
+          "Peut lier argent, pouvoir et valeur personnelle",
+          "Traverse des cycles forts autour du prestige et de la perte"
+        ]
+      }
+    }
+  },
+  "dansUnTheme": [
+    "Le Lion indique un domaine où l’on cherche à s’affirmer, à créer et à rayononner.",
+    "Il montre aussi où l’on apprend à exprimer sa singularité sans dépendre uniquement du regard extérieur.",
+    "Selon la maison et les aspects, il peut montrer un secteur de vie où l’on veut briller, aimer, créer, diriger ou manifester une fierté particulière."
+  ],
+  "relationsAuxAutresSignes": [
+    {
+      "sign": "belier",
+      "level": "fluide",
+      "title": "Feu et feu",
+      "summary": "Le Lion et le Bélier partagent l’élan, la franchise, le courage et le goût de la vie intense. Le lien peut être très stimulant, chaleureux et direct.",
+      "pointsFortes": [
+        "Énergie",
+        "Motivation mutuelle",
+        "Franchise",
+        "Goût du mouvement"
+      ],
+      "pointsDeTension": [
+        "Compétition d’ego",
+        "Difficulté à céder",
+        "Besoin de reconnaissance des deux côtés"
+      ]
+    },
+    {
+      "sign": "taureau",
+      "level": "stimulante",
+      "title": "Rayonnement et stabilité",
+      "summary": "Le Lion veut rayononner, le Taureau veut stabiliser. Le lien peut être riche, sensuel et puissant, mais chacun a sa propre manière d’occuper l’espace.",
+      "pointsFortes": [
+        "Loyauté",
+        "Goût du beau",
+        "Stabilité possible",
+        "Force de présence"
+      ],
+      "pointsDeTension": [
+        "Entêtement",
+        "Fierté",
+        "Le Taureau peut trouver le Lion théâtral",
+        "Le Lion peut trouver le Taureau trop immobile"
+      ]
+    },
+    {
+      "sign": "gemeaux",
+      "level": "stimulante",
+      "title": "Jeu, esprit et lumière",
+      "summary": "Les Gémeaux apportent la vivacité mentale, le Lion apporte la chaleur et le rayonnement. Le lien peut être très vivant, joyeux et créatif.",
+      "pointsFortes": [
+        "Humour",
+        "Créativité",
+        "Stimulation mutuelle",
+        "Légèreté vivante"
+      ],
+      "pointsDeTension": [
+        "Les Gémeaux peuvent sembler trop insaisissables",
+        "Le Lion peut demander plus d’engagement ou de reconnaissance",
+        "Différence entre jeu et fierté"
+      ]
+    },
+    {
+      "sign": "cancer",
+      "level": "stimulante",
+      "title": "Cœur intime et cœur rayonnant",
+      "summary": "Le Cancer protège et sent ; le Lion affirme et rayonne. Le lien peut être profond, chaleureux et protecteur si chacun respecte le mode d’expression de l’autre.",
+      "pointsFortes": [
+        "Chaleur",
+        "Loyauté",
+        "Protection",
+        "Possibilité de construire un lien fort"
+      ],
+      "pointsDeTension": [
+        "Le Lion peut sembler trop visible ou trop fier",
+        "Le Cancer peut sembler trop replié",
+        "Conflit entre besoin d’intimité et besoin d’expression"
+      ]
+    },
+    {
+      "sign": "lion",
+      "level": "intense",
+      "title": "Soleil face au Soleil",
+      "summary": "Deux Lions peuvent s’aimer avec grandeur, se reconnaître et se stimuler fortement. Le lien est intense, créatif, fier, mais peut devenir très conflictuel si chacun veut rester seul au centre.",
+      "pointsFortes": [
+        "Chaleur",
+        "Créativité",
+        "Fierté partagée",
+        "Générosité"
+      ],
+      "pointsDeTension": [
+        "Compétition",
+        "Orgueil",
+        "Besoin de dominer ou d’être reconnu",
+        "Difficulté à partager la lumière"
+      ]
+    },
+    {
+      "sign": "vierge",
+      "level": "variable",
+      "title": "Rayonnement et précision",
+      "summary": "Le Lion veut exprimer largement ; la Vierge veut ajuster finement. Le lien peut être très utile si chacun accepte que l’autre ait une autre façon de servir la vérité.",
+      "pointsFortes": [
+        "Complémentarité entre inspiration et méthode",
+        "Possibilité d’améliorer une œuvre ou un projet",
+        "L’un donne l’élan, l’autre affine"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut sembler trop critique",
+        "Le Lion peut sembler trop centré sur lui-même",
+        "Conflit entre panache et modestie"
+      ]
+    },
+    {
+      "sign": "balance",
+      "level": "fluide",
+      "title": "Feu noble et air harmonique",
+      "summary": "Le Lion et la Balance partagent le goût du beau, de la relation et d’une certaine élégance. Le lien peut être raffiné, vivant et très agréable.",
+      "pointsFortes": [
+        "Charme",
+        "Harmonie",
+        "Goût du beau",
+        "Complémentarité entre présence et relation"
+      ],
+      "pointsDeTension": [
+        "La Balance peut sembler trop hésitante",
+        "Le Lion peut sembler trop affirmé",
+        "Différence entre besoin d’admiration et besoin d’équilibre"
+      ]
+    },
+    {
+      "sign": "scorpion",
+      "level": "intense",
+      "title": "Feu visible et intensité cachée",
+      "summary": "Le Lion rayonne au grand jour ; le Scorpion vit en profondeur. Le lien peut être magnétique, puissant, passionnel, mais aussi marqué par des rapports de force.",
+      "pointsFortes": [
+        "Magnétisme",
+        "Intensité",
+        "Volonté forte",
+        "Loyauté possible"
+      ],
+      "pointsDeTension": [
+        "Rapports de pouvoir",
+        "Orgueil contre contrôle",
+        "Difficulté à lâcher prise"
+      ]
+    },
+    {
+      "sign": "sagittaire",
+      "level": "fluide",
+      "title": "Feu royal et feu explorateur",
+      "summary": "Le Lion et le Sagittaire partagent chaleur, enthousiasme, générosité et goût de l’élan. Le lien peut être inspirant, joyeux et porté par une grande énergie.",
+      "pointsFortes": [
+        "Joie",
+        "Ouverture",
+        "Confiance",
+        "Goût de vivre pleinement"
+      ],
+      "pointsDeTension": [
+        "Excès",
+        "Besoin de liberté du Sagittaire face au besoin de reconnaissance du Lion",
+        "Tendance à vivre grand sans toujours mesurer"
+      ]
+    },
+    {
+      "sign": "capricorne",
+      "level": "variable",
+      "title": "Rayonnement et structure",
+      "summary": "Le Lion veut créer et rayononner ; le Capricorne veut construire et maîtriser. Le lien peut être puissant et ambitieux, mais aussi marqué par une différence de style majeure.",
+      "pointsFortes": [
+        "Complémentarité entre inspiration et structure",
+        "Possibilité d’accomplir quelque chose de solide et visible",
+        "Force de construction"
+      ],
+      "pointsDeTension": [
+        "Le Capricorne peut sembler trop froid ou austère",
+        "Le Lion peut sembler trop démonstratif",
+        "Conflit entre cœur et contrôle"
+      ]
+    },
+    {
+      "sign": "verseau",
+      "level": "complementaire",
+      "title": "Axe Lion–Verseau",
+      "summary": "Le Lion exprime le moi créateur ; le Verseau ouvre au collectif, à la distance et à l’idée. C’est un axe puissant entre rayonnement personnel et vision plus large.",
+      "pointsFortes": [
+        "Complémentarité forte",
+        "Stimulation",
+        "Originalité",
+        "Capacité à articuler cœur et vision"
+      ],
+      "pointsDeTension": [
+        "Le Verseau peut sembler distant",
+        "Le Lion peut sembler centré sur lui",
+        "Conflit entre reconnaissance personnelle et détachement collectif"
+      ]
+    },
+    {
+      "sign": "poissons",
+      "level": "variable",
+      "title": "Feu du cœur et eau sensible",
+      "summary": "Le Lion affirme et éclaire ; les Poissons ressentent et diffusent. Le lien peut être tendre, inspiré, poétique, mais aussi difficile à accorder entre besoin de centre et besoin de dissolution.",
+      "pointsFortes": [
+        "Créativité",
+        "Tendresse",
+        "Inspiration",
+        "Complémentarité entre présence et imaginaire"
+      ],
+      "pointsDeTension": [
+        "Le Lion peut trouver les Poissons trop flous",
+        "Les Poissons peuvent trouver le Lion trop solaire ou trop affirmé",
+        "Différence entre besoin de visibilité et besoin de retrait"
+      ]
+    }
+  ],
+  "paysAssocies": [
+    {
+      "pays": "Italie",
+      "niveau": "traditionnel",
+      "justification": "Dans certaines traditions de géographie astrologique, l’Italie est associée au Lion pour des raisons symboliques liées au rayonnement, à l’expression, à la grandeur, à la culture visible et à une certaine noblesse solaire."
+    },
+    {
+      "pays": "Sicile",
+      "niveau": "traditionnel",
+      "justification": "La Sicile apparaît dans certaines listes classiques de correspondances astrologiques liées au Lion. Comme toujours, il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
+    },
+    {
+      "pays": "République tchèque",
+      "niveau": "traditionnel",
+      "justification": "La République tchèque figure dans certaines traditions de géographie astrologique rattachées au Lion. Cette correspondance relève d’un symbolisme classique, non d’une vérité objective."
+    },
+    {
+      "pays": "Roumanie",
+      "niveau": "traditionnel",
+      "justification": "La Roumanie est parfois citée parmi les pays associés au Lion dans les listes astrologiques traditionnelles, dans une logique de correspondance symbolique."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel est le caractère du Lion ?",
+      "answer": "Le Lion a un tempérament chaleureux, fier, créatif et généreux. Il aime rayononner, exprimer sa singularité et occuper une vraie place, mais doit veiller à ne pas dépendre excessivement de la reconnaissance extérieure."
+    },
+    {
+      "question": "Quel type d’amoureux est le Lion ?",
+      "answer": "Le Lion aime avec chaleur, noblesse et générosité. Il cherche souvent une relation vivante, fière, visible et sincère, mais peut souffrir fortement du manque d’attention ou de reconnaissance."
+    },
+    {
+      "question": "Quel type de travailleur est le Lion ?",
+      "answer": "Le Lion est souvent très bon lorsqu’il peut créer, guider, représenter ou inspirer. Il a besoin de sentir qu’il porte quelque chose de vivant, d’important et de visible."
+    },
+    {
+      "question": "Quelle maison correspond au Lion ?",
+      "answer": "Le Lion est naturellement relié à la maison V, celle de la créativité, du plaisir, de l’expression de soi, du rayonnement, de l’amour et des enfants."
+    }
+  ],
+  "pierresEtMetaux": [
+    {
+      "nom": "Rubis",
+      "type": "pierre",
+      "description": "Le rubis évoque la noblesse du feu, la puissance du cœur, la vitalité, le courage et l’affirmation solaire. Il s’accorde bien avec la dynamique du Lion.",
+      "motsCles": ["feu", "cœur", "rayonnement", "noblesse"]
+    },
+    {
+      "nom": "Œil de tigre",
+      "type": "pierre",
+      "description": "L’œil de tigre renvoie à la présence, à la confiance, à la protection du centre et à une force visible, stable et assurée.",
+      "motsCles": ["confiance", "présence", "protection", "force"]
+    },
+    {
+      "nom": "Or",
+      "type": "métal",
+      "description": "L’or est traditionnellement lié au Soleil : lumière, noblesse, autorité, éclat, permanence et valeur royale.",
+      "motsCles": ["soleil", "lumière", "royauté", "éclat"]
+    }
+  ],
+  "plantes": [
+    {
+      "nom": "Tournesol",
+      "type": "fleur",
+      "description": "Le tournesol porte une symbolique évidente de lumière, de rayonnement, de verticalité et de fidélité au centre solaire. Il correspond particulièrement bien à l’énergie du Lion.",
+      "usagesSymboliques": ["soleil", "rayonnement", "verticalité", "joie"]
+    },
+    {
+      "nom": "Laurier",
+      "type": "plante",
+      "description": "Le laurier renvoie à la noblesse, à la victoire, à la reconnaissance et à la dignité. Il fait écho au besoin du Lion d’exprimer une valeur visible et affirmée.",
+      "usagesSymboliques": ["gloire", "victoire", "noblesse", "honneur"]
+    },
+    {
+      "nom": "Romarin",
+      "type": "plante",
+      "description": "Le romarin évoque la chaleur, la force, la vitalité, la clarté et une tonicité du feu bien orientée.",
+      "usagesSymboliques": ["vitalité", "chaleur", "clarté", "élan"]
+    }
+  ],
+  "animaux": [
+    {
+      "nom": "Lion",
+      "type": "animal-symbolique",
+      "description": "Le lion incarne la souveraineté, la dignité, le courage, la puissance du cœur et la capacité à occuper une place centrale avec noblesse.",
+      "motsCles": ["royauté", "courage", "présence", "rayonnement"]
+    },
+    {
+      "nom": "Paon",
+      "type": "animal",
+      "description": "Dans une lecture symbolique, le paon évoque le panache, la beauté visible, la prestance, le sens de la mise en valeur et le goût de rayononner.",
+      "motsCles": ["panache", "beauté", "présence", "fierté"]
+    },
+    {
+      "nom": "Aigle",
+      "type": "oiseau",
+      "description": "L’aigle apporte une note de hauteur, de puissance, de souveraineté et de vision dominatrice, en affinité avec la dimension solaire du Lion.",
+      "motsCles": ["hauteur", "vision", "puissance", "souveraineté"]
+    }
+  ],
+  "ascendant": {
+    "intro": "Si votre ascendant est Lion, cela signifie souvent que vous entrez dans la vie avec présence, chaleur, besoin d’affirmation et désir d’exister visiblement. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité solaire, fière et expressive.",
+    "apparence": [
+      "Présence chaleureuse et visible",
+      "Allure fière ou droite",
+      "Regard vivant, expressif ou lumineux",
+      "Impression de panache, de style ou d’assurance",
+      "Corps ou maintien pouvant évoquer la noblesse et la confiance"
+    ],
+    "temperament": [
+      "A besoin d’exister pleinement dans ce qu’il fait",
+      "Réagit avec cœur, fierté et intensité",
+      "Cherche à se montrer sous un jour digne ou fort",
+      "Supporte mal d’être humilié ou ignoré",
+      "Entre souvent dans les situations avec présence"
+    ],
+    "enRelation": [
+      "Donne une impression de chaleur, de noblesse ou d’assurance",
+      "Peut paraître généreux, fier, théâtral ou charismatique",
+      "Cherche des rapports vivants et valorisants",
+      "Aime que le lien ait du cœur et de la présence"
+    ],
+    "pointsDeVigilance": [
+      "Orgueil blessé",
+      "Besoin de reconnaissance trop fort",
+      "Difficulté à ne pas occuper tout l’espace",
+      "Tendance à dramatiser certaines blessures narcissiques",
+      "Risque de confondre dignité et rigidité"
+    ]
+  },
+  "signeDominant": {
+    "intro": "Si le Lion est dominant dans un thème, cela signifie souvent que la personne aborde la vie avec un fort besoin de rayononner, de créer, d’être pleinement elle-même et de manifester une valeur visible. Elle se construit à travers le cœur, la générosité, la présence et la volonté de vivre avec intensité et noblesse.",
+    "forces": [
+      "Charisme",
+      "Créativité",
+      "Confiance",
+      "Générosité",
+      "Capacité à inspirer"
+    ],
+    "vigilances": [
+      "Orgueil",
+      "Besoin excessif de validation",
+      "Difficulté à se remettre en question",
+      "Tendance à personnaliser fortement les enjeux",
+      "Risque de dépendre du regard extérieur"
+    ],
+    "dansLaVie": [
+      "La personne a souvent besoin de se sentir visible, vivante et reconnue",
+      "Elle cherche à créer, inspirer ou porter une présence forte",
+      "Elle supporte mal les univers ternes, humiliants ou anonymes",
+      "Elle a besoin de sentir qu’elle incarne quelque chose d’important pour elle"
+    ],
+    "enAmour": [
+      "Elle aime avec chaleur, générosité et intensité",
+      "Elle a besoin de sentir qu’elle compte réellement",
+      "Elle cherche souvent un lien fier, vivant et valorisant"
+    ],
+    "auTravail": [
+      "Elle excelle souvent dans les fonctions créatives, visibles, dirigeantes ou inspirantes",
+      "Elle a besoin de porter une vision ou une présence",
+      "Elle fonctionne mieux quand elle peut engager son cœur et sa singularité"
+    ]
+  },
+  "celebrites": [
+    {
+      "nom": "Jennifer Lopez",
+      "dateNaissance": "24 juillet 1969",
+      "domaine": "Musique / Cinéma",
+      "description": "Souvent citée parmi les célébrités Lion, avec une image de rayonnement, de présence scénique et de confiance visible."
+    },
+    {
+      "nom": "Madonna",
+      "dateNaissance": "16 août 1958",
+      "domaine": "Musique",
+      "description": "Figure souvent associée à une puissance d’affirmation, de création et de maîtrise de l’image très typiquement lion."
+    },
+    {
+      "nom": "Barack Obama",
+      "dateNaissance": "4 août 1961",
+      "domaine": "Politique",
+      "description": "Souvent évoqué pour son charisme, sa présence calme et sa capacité à porter une image solaire et fédératrice."
+    },
+    {
+      "nom": "Daniel Radcliffe",
+      "dateNaissance": "23 juillet 1989",
+      "domaine": "Cinéma",
+      "description": "Souvent cité parmi les natifs Lion, avec une présence publique marquée très tôt et une identité fortement visible."
+    }
+  ]
+}

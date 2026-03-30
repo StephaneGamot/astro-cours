@@ -1,0 +1,877 @@
+{
+  "slug": "balance",
+  "name": "Balance",
+  "periode": "23 septembre – 22 octobre",
+  "polarite": "Actif (masculin)",
+  "mode": "Cardinal",
+  "element": "Air",
+  "maitre": "Vénus",
+  "exaltation": "Saturne",
+  "exil": "Mars",
+  "chute": "Soleil",
+  "motCle": "Je relie",
+  "mythologie": "La Balance est associée à la figure d’Astrée, déesse de la justice et de l’harmonie, qui quittait le monde lorsque les hommes s’éloignaient de l’équilibre et de l’équité. La Balance symbolise la quête d’un juste milieu, non comme compromis tiède, mais comme recherche consciente d’harmonie entre des forces opposées. Elle incarne le passage du « moi » vers le « nous », la naissance d’un sens relationnel, esthétique et moral qui cherche à mettre les formes, à rendre possible la rencontre et à faire tenir ensemble ce qui pourrait se diviser.",
+  "analogie": {
+    "animal": "Aucun animal spécifique",
+    "objet": "La balance, le miroir, le pont, le contrat",
+    "fonction": "Relier, équilibrer, harmoniser"
+  },
+  "anatomie": ["Reins", "Région lombaire", "Peau", "Système d’équilibre"],
+  "generalites": [
+    "La Balance représente le moment où l’individu se confronte à l’autre. Après l’analyse de la Vierge, elle cherche l’équilibre relationnel, la coopération et la justesse dans les échanges.",
+    "Ce signe est sensible à l’harmonie, à l’esthétique et à la justice. Il fonctionne par comparaison, dialogue et recherche de réciprocité.",
+    "Son défi principal est de ne pas se perdre dans l’indécision ou la dépendance au regard extérieur. Lorsqu’elle est équilibrée, la Balance devient médiatrice, juste et profondément humaine.",
+    "La Balance relie aussi l’être humain au sens des formes : formes du lien, formes du langage, formes de la beauté, formes de la justice. Elle a besoin d’un monde habitable, élégant, relationnel et respirable."
+  ],
+  "caractere": [
+    "La Balance évalue, compare, nuance et cherche à comprendre ce qui permettrait une relation plus juste ou une situation plus équilibrée.",
+    "Son caractère est sociable, diplomate, agréable, souvent raffiné, avec un fort besoin d’harmonie et de réciprocité.",
+    "Elle préfère la qualité du lien, la mesure et l’intelligence relationnelle aux rapports de force bruts.",
+    "Lorsqu’elle est immature, elle peut devenir hésitante, dépendante du regard d’autrui ou éviter les conflits à tout prix ; lorsqu’elle mûrit, elle devient une véritable force de médiation, d’élégance et d’équilibre."
+  ],
+  "aptitudesNaturelles": [
+    "Créer du lien entre les personnes",
+    "Voir plusieurs points de vue",
+    "Apaiser les tensions",
+    "Chercher des formes justes et harmonieuses",
+    "Médiatiser, négocier, relier",
+    "Donner du style, de la mesure et de la beauté à une situation"
+  ],
+  "ceQuIlRegitDansLeMonde": [
+    "La relation",
+    "Le couple",
+    "La justice",
+    "Les contrats",
+    "L’harmonie",
+    "La diplomatie",
+    "L’esthétique",
+    "L’équilibre entre soi et l’autre"
+  ],
+  "maisonCorrespondante": {
+    "numero": 7,
+    "nom": "Maison VII",
+    "resume": "La septième maison parle de l’autre, du couple, des associations, des contrats, des alliances, des adversaires déclarés et de la manière de se définir à travers la relation. Son analogie naturelle avec la Balance souligne la rencontre, la coopération, la réciprocité et le besoin d’équilibre.",
+    "themes": [
+      "Couple",
+      "Relation",
+      "Association",
+      "Contrat",
+      "Alliance",
+      "Réciprocité"
+    ]
+  },
+  "forces": [
+    "Sens aigu de l’équité",
+    "Capacité à créer l’harmonie",
+    "Talent relationnel, diplomatique et esthétique"
+  ],
+  "ombres": [
+    "Difficulté à trancher",
+    "Peur du conflit",
+    "Dépendance au regard de l’autre"
+  ],
+  "besoins": [
+    "Relations équilibrées",
+    "Beauté et harmonie",
+    "Dialogue, réciprocité et reconnaissance mutuelle"
+  ],
+  "aTravailler": [
+    "L’affirmation de soi",
+    "La capacité à décider",
+    "L’acceptation du désaccord",
+    "Le fait de ne pas sacrifier sa vérité pour préserver seulement la forme",
+    "La capacité à rester droite même quand le lien se tend"
+  ],
+  "quandCestEquilibre": [
+    "La Balance devient un véritable pont entre les êtres, capable d’unir sans se nier.",
+    "Elle incarne une justice vivante, sensible et profondément humaine.",
+    "Sa recherche d’harmonie ne fuit plus le réel : elle devient capacité à tenir ensemble le beau, le juste et le vrai."
+  ],
+  "aptitudes": {
+    "atouts": [
+      "Diplomate",
+      "Juste",
+      "Sociable",
+      "Esthétique",
+      "Raffinée",
+      "Équilibrée"
+    ],
+    "defis": [
+      "Indécise",
+      "Dépendante du regard de l’autre",
+      "Évitement du conflit",
+      "Manque d’affirmation"
+    ]
+  },
+  "amour": {
+    "intro": "La Balance aime à travers la relation elle-même : le dialogue, la réciprocité, l’élégance du lien, le sentiment d’être deux sans devenir ennemis. Elle a besoin d’une relation vivante, harmonieuse, respectueuse, où chacun existe sans écraser l’autre. Elle aime souvent avec charme, avec tact, avec un profond désir de beauté relationnelle.",
+    "qualites": [
+      "Grand sens du couple et de la réciprocité",
+      "Charme relationnel",
+      "Volonté d’équilibrer le lien",
+      "Recherche de justesse affective",
+      "Capacité à séduire avec douceur, intelligence et élégance"
+    ],
+    "vigilances": [
+      "Peut rester trop longtemps dans l’hésitation",
+      "Risque de vouloir plaire au détriment de sa vérité",
+      "Évitement des conflits nécessaires",
+      "Dépendance possible au regard, au désir ou à la validation du partenaire"
+    ],
+    "compatibleAvec": ["Gémeaux", "Verseau", "Lion", "Sagittaire"],
+    "attirePar": [
+      "Les personnes élégantes, intelligentes et sociables",
+      "Les liens équilibrés et respectueux",
+      "Les relations où le dialogue est possible",
+      "Les personnes qui savent conjuguer charme, style et sens du rapport humain"
+    ]
+  },
+  "travail": {
+    "intro": "La Balance travaille bien lorsqu’elle peut coopérer, négocier, créer du lien, représenter, harmoniser ou donner une forme juste à une situation. Elle excelle souvent dans les univers où la relation, la mesure, l’image, l’esthétique ou la justice comptent autant que l’efficacité brute.",
+    "qualites": [
+      "Diplomatie",
+      "Sens de la négociation",
+      "Capacité à représenter ou à relier",
+      "Goût de l’équilibre et des formes justes",
+      "Talent pour faire travailler ensemble"
+    ],
+    "vigilances": [
+      "Peut trop hésiter avant de décider",
+      "Supporte mal les climats brutaux ou agressifs",
+      "Risque de chercher l’accord au détriment de l’efficacité",
+      "Peut se fatiguer à vouloir satisfaire tout le monde"
+    ],
+    "domainesFavorables": [
+      "Droit",
+      "Médiation",
+      "Diplomatie",
+      "Design",
+      "Mode",
+      "Communication relationnelle",
+      "Ressources humaines",
+      "Fonctions où il faut négocier, représenter, relier, harmoniser ou esthétiser"
+    ]
+  },
+  "argent": {
+    "intro": "La Balance entretient souvent un rapport esthétique, relationnel et symbolique à l’argent. Elle peut le voir comme un moyen de vivre dans un cadre agréable, de préserver une qualité de vie, de soutenir une image, un style ou une harmonie. Son défi est d’allier le sens du beau à une décision concrète et claire.",
+    "forces": [
+      "Sens de la valeur liée à la qualité, au style et à l’équilibre",
+      "Capacité à dépenser avec goût",
+      "Rapport civilisé et mesuré à la possession",
+      "Volonté de préserver une qualité de vie agréable"
+    ],
+    "risques": [
+      "Indécision dans les choix financiers",
+      "Dépenses d’esthétique ou d’image",
+      "Tendance à acheter pour maintenir une harmonie extérieure",
+      "Difficulté à trancher quand il faut choisir entre deux options"
+    ],
+    "rapportTypique": [
+      "Peut dépenser volontiers pour le beau, l’élégant, le confortable ou le relationnel",
+      "Cherche souvent une gestion équilibrée plutôt qu’extrême",
+      "Peut hésiter longtemps avant de choisir",
+      "A besoin de sentir qu’un achat ou un usage de l’argent a du style, du sens ou de la justesse"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Zubenelgenubi",
+      "nature": "Jupiter / Mercure",
+      "motsCles": ["Mesure", "Lien", "Équilibre", "Intelligence sociale"],
+      "description": "Zubenelgenubi est souvent reliée à une intelligence relationnelle, à la mesure et à la capacité à articuler des rapports plus subtils que purement instinctifs. Dans une lecture symbolique de la Balance, elle renforce le sens du lien et du jugement nuancé."
+    },
+    {
+      "nom": "Zubeneschamali",
+      "nature": "Jupiter / Mercure",
+      "motsCles": ["Justice", "Clarté", "Équilibre", "Rectitude"],
+      "description": "Zubeneschamali apporte une tonalité de droiture, de lumière mentale et de recherche d’un ordre plus juste. Elle s’accorde bien avec la dimension équilibrante et civilisatrice de la Balance."
+    }
+  ],
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Balance cherche à s’exprimer dans la relation, l’échange, l’équilibre et la qualité du lien. Le principe de la planète devient plus diplomate, plus nuancé, plus sensible à l’autre et aux formes. Cela favorise la coopération, le sens esthétique et la recherche d’accords, mais peut aussi engendrer hésitation ou dépendance si l’affirmation personnelle fait défaut.",
+    "motsCles": [
+      "Relation",
+      "Équilibre",
+      "Harmonie",
+      "Justice",
+      "Coopération",
+      "Dialogue"
+    ],
+    "planetes": {
+      "soleil": {
+        "tonalite": "Le Soleil en Balance construit une identité à travers la relation, l’échange, la comparaison et le besoin d’harmonie. Il a besoin de se définir dans un monde de réciprocité plutôt que de pure solitude.",
+        "forces": [
+          "Sens relationnel",
+          "Nuance",
+          "Diplomatie",
+          "Recherche naturelle de l’équilibre"
+        ],
+        "defis": [
+          "Indécision",
+          "Dépendance au regard de l’autre",
+          "Difficulté à se poser seul comme centre",
+          "Peur de déplaire"
+        ],
+        "enAmour": [
+          "A besoin d’un vrai partenariat",
+          "Cherche la réciprocité et l’élégance du lien",
+          "Aime se sentir choisi dans une relation équilibrée"
+        ],
+        "auTravail": [
+          "Très fort dans les fonctions relationnelles, représentatives ou coopératives",
+          "A besoin d’un climat juste et humain"
+        ],
+        "avecArgent": [
+          "Peut gérer en cherchant la mesure",
+          "Peut aussi hésiter ou lier argent et qualité de vie relationnelle"
+        ]
+      },
+      "lune": {
+        "tonalite": "La Lune en Balance vit les émotions à travers l’harmonie du lien, l’ambiance relationnelle et le besoin de paix. Elle se régule beaucoup par la qualité de l’échange avec autrui.",
+        "forces": [
+          "Douceur",
+          "Tact émotionnel",
+          "Recherche d’apaisement",
+          "Besoin sincère d’équilibre affectif"
+        ],
+        "defis": [
+          "Dépendance émotionnelle à l’ambiance",
+          "Difficulté à traverser le conflit",
+          "Tendance à lisser certaines émotions"
+        ],
+        "enAmour": [
+          "A besoin d’un climat tendre, juste et respirable",
+          "Supporte mal la brutalité émotionnelle"
+        ],
+        "auTravail": [
+          "Travaille mieux dans des équipes harmonieuses",
+          "A besoin d’un climat de coopération"
+        ],
+        "avecArgent": [
+          "Peut dépenser pour créer une atmosphère agréable",
+          "Cherche un équilibre plus qu’une dureté budgétaire"
+        ]
+      },
+      "mercure": {
+        "tonalite": "Mercure en Balance pense avec nuance, compare, pèse, dialogue et cherche la formulation la plus juste. La pensée est relationnelle et souvent très consciente des points de vue opposés.",
+        "forces": [
+          "Sens de la nuance",
+          "Dialogue",
+          "Intelligence comparative",
+          "Capacité à trouver une formulation équilibrée"
+        ],
+        "defis": [
+          "Hésitation",
+          "Tendance à trop peser",
+          "Difficulté à trancher nettement",
+          "Volonté de ménager tout le monde"
+        ],
+        "enAmour": [
+          "A besoin de parler, de négocier, de se sentir entendu",
+          "Aime les échanges fins et élégants"
+        ],
+        "auTravail": [
+          "Excellent pour négocier, rédiger, représenter ou médiatiser",
+          "Très bon dans les environnements d’échange"
+        ],
+        "avecArgent": [
+          "Compare, réfléchit, pèse les options",
+          "Mais peut retarder certaines décisions"
+        ]
+      },
+      "venus": {
+        "tonalite": "Vénus en Balance est dans une de ses expressions les plus naturelles : goût du lien, de la beauté, de l’équilibre, de la séduction élégante et de l’harmonie relationnelle.",
+        "forces": [
+          "Charme",
+          "Raffinement",
+          "Sens du beau",
+          "Grande capacité de relation"
+        ],
+        "defis": [
+          "Besoin de plaire trop fort",
+          "Difficulté à dire non",
+          "Tendance à privilégier la forme au fond"
+        ],
+        "enAmour": [
+          "Aime le couple, la grâce du lien, la réciprocité",
+          "Cherche une relation belle, juste et civilisée"
+        ],
+        "auTravail": [
+          "Aime les univers esthétiques, élégants ou relationnels",
+          "A besoin d’un environnement harmonieux"
+        ],
+        "avecArgent": [
+          "Peut dépenser avec goût",
+          "Aime la qualité, le style et l’élégance"
+        ]
+      },
+      "mars": {
+        "tonalite": "Mars en Balance agit avec mesure, diplomatie et souci de relation. L’énergie cherche à avancer sans rompre l’équilibre, ce qui peut donner finesse ou hésitation.",
+        "forces": [
+          "Capacité à agir sans brutalité",
+          "Sens de la négociation",
+          "Recherche d’accord intelligent",
+          "Énergie relationnelle"
+        ],
+        "defis": [
+          "Difficulté à affronter frontalement",
+          "Colère retenue",
+          "Tendance à temporiser trop longtemps",
+          "Conflit entre affirmation et besoin de paix"
+        ],
+        "enAmour": [
+          "Prend souvent en compte le désir et la position de l’autre",
+          "Cherche une dynamique équilibrée"
+        ],
+        "auTravail": [
+          "Très bon pour négocier et coopérer",
+          "Moins à l’aise dans les rapports de force bruts"
+        ],
+        "avecArgent": [
+          "Peut agir après avoir consulté ou comparé",
+          "Risque de repousser certaines décisions difficiles"
+        ]
+      },
+      "jupiter": {
+        "tonalite": "Jupiter en Balance amplifie le goût de la justice, de la relation, de la coopération, des accords et d’une certaine élégance sociale.",
+        "forces": [
+          "Ouverture relationnelle",
+          "Générosité diplomatique",
+          "Foi dans l’équilibre",
+          "Capacité à rassembler"
+        ],
+        "defis": [
+          "Idéalisation de l’harmonie",
+          "Difficulté à voir les rapports de force réels",
+          "Tendance à trop croire à l’accord possible"
+        ],
+        "enAmour": [
+          "Cherche un amour équilibré, noble et agréable",
+          "Aime la croissance à deux"
+        ],
+        "auTravail": [
+          "Très bon dans les univers de médiation, de représentation ou de coopération",
+          "Aime travailler avec élégance"
+        ],
+        "avecArgent": [
+          "Peut chercher une abondance équilibrée et agréable",
+          "Aime ce qui améliore la qualité relationnelle ou esthétique de la vie"
+        ]
+      },
+      "saturne": {
+        "tonalite": "Saturne en Balance structure fortement le rapport au contrat, à la justice, à l’engagement et à la réciprocité. Il peut donner une vraie maturité relationnelle.",
+        "forces": [
+          "Sens des responsabilités relationnelles",
+          "Capacité à construire un accord solide",
+          "Maturité dans les engagements",
+          "Rectitude"
+        ],
+        "defis": [
+          "Peur du déséquilibre",
+          "Rigidité dans le rapport juste/injuste",
+          "Tension dans les engagements si la peur domine"
+        ],
+        "enAmour": [
+          "Aime sérieusement et cherche un lien équilibré dans la durée",
+          "Peut mettre du temps à s’engager mais le fait avec sérieux"
+        ],
+        "auTravail": [
+          "Très fort dans les responsabilités juridiques, contractuelles ou structurantes",
+          "Aime les cadres équitables"
+        ],
+        "avecArgent": [
+          "Peut gérer avec prudence et sens de la mesure",
+          "Veut un équilibre durable"
+        ]
+      },
+      "uranus": {
+        "tonalite": "Uranus en Balance réveille la relation, bouscule les modèles de couple, d’association ou de justice et cherche à inventer d’autres formes d’équilibre.",
+        "forces": [
+          "Originalité relationnelle",
+          "Capacité à repenser les liens",
+          "Innovation dans les formes de coopération"
+        ],
+        "defis": [
+          "Instabilité relationnelle",
+          "Ruptures soudaines",
+          "Tension entre besoin d’accord et besoin de liberté"
+        ],
+        "enAmour": [
+          "A besoin de liberté dans le lien",
+          "Peut refuser les formes relationnelles trop rigides"
+        ],
+        "auTravail": [
+          "Très bon pour moderniser des rapports humains ou des cadres de négociation",
+          "Aime repenser les règles"
+        ],
+        "avecArgent": [
+          "Peut faire des choix relationnels ou esthétiques atypiques",
+          "Recherche un équilibre plus libre"
+        ]
+      },
+      "neptune": {
+        "tonalite": "Neptune en Balance cherche un idéal d’amour, de beauté, d’harmonie et d’union presque parfaite. Il rend la relation plus rêveuse, plus esthétique, plus inspirée, mais aussi parfois plus floue.",
+        "forces": [
+          "Romantisme",
+          "Inspiration relationnelle",
+          "Sens élevé du beau",
+          "Recherche de paix"
+        ],
+        "defis": [
+          "Idéalisation du couple",
+          "Difficulté à voir clairement certaines asymétries",
+          "Tendance à dissoudre sa vérité pour préserver l’harmonie"
+        ],
+        "enAmour": [
+          "Aime les liens délicats, inspirés, beaux et harmonieux",
+          "Peut rêver d’un amour parfaitement équilibré"
+        ],
+        "auTravail": [
+          "Très inspiré dans les univers artistiques, relationnels ou symboliques",
+          "A besoin de beauté et de sens"
+        ],
+        "avecArgent": [
+          "Peut dépenser pour maintenir une atmosphère belle ou harmonieuse",
+          "Doit garder un sens du réel"
+        ]
+      },
+      "pluton": {
+        "tonalite": "Pluton en Balance transforme profondément le rapport à l’autre, au pouvoir relationnel, à la justice et aux contrats. Il rend les liens intenses, décisifs, parfois stratégiques.",
+        "forces": [
+          "Lucidité dans les rapports humains",
+          "Capacité à transformer un lien ou un système relationnel",
+          "Sens profond de ce qui est juste ou faussé"
+        ],
+        "defis": [
+          "Rapports de pouvoir dans le couple ou l’association",
+          "Fixation sur l’autre",
+          "Conflit entre contrôle et harmonie"
+        ],
+        "enAmour": [
+          "Aime intensément mais veut un lien vrai",
+          "Peut vivre la relation comme un lieu de transformation radicale"
+        ],
+        "auTravail": [
+          "Très fort pour transformer des structures de relation, de négociation ou de justice",
+          "Va au fond des déséquilibres"
+        ],
+        "avecArgent": [
+          "Peut lier argent, contrat et pouvoir",
+          "Traverse souvent les questions de partage et d’équilibre avec intensité"
+        ]
+      }
+    }
+  },
+  "dansUnTheme": [
+    "La Balance indique un domaine où l’on cherche l’équilibre, la coopération et la justice.",
+    "Elle montre aussi où l’on apprend à se définir à travers la relation à l’autre.",
+    "Selon la maison et les aspects, elle peut montrer un secteur de vie où l’on négocie, associe, civilise, harmonise ou cherche un juste milieu."
+  ],
+  "relationsAuxAutresSignes": [
+    {
+      "sign": "belier",
+      "level": "complementaire",
+      "title": "Axe Balance–Bélier",
+      "summary": "La Balance cherche l’autre, le Bélier affirme le moi. C’est un axe très fort entre affirmation et coopération, désir de lien et besoin d’initiative.",
+      "pointsFortes": [
+        "Attraction naturelle",
+        "Complémentarité entre action et relation",
+        "Équilibre possible entre affirmation et dialogue"
+      ],
+      "pointsDeTension": [
+        "Le Bélier peut sembler trop direct",
+        "La Balance peut sembler trop hésitante",
+        "Conflit entre impulsion et diplomatie"
+      ]
+    },
+    {
+      "sign": "taureau",
+      "level": "complementaire",
+      "title": "Deux signes de Vénus, deux styles",
+      "summary": "La Balance et le Taureau partagent Vénus, mais pas de la même manière : l’un cherche la relation et l’élégance, l’autre la stabilité et l’incarnation. Le lien peut être agréable et sensuel.",
+      "pointsFortes": [
+        "Goût du beau",
+        "Sens des valeurs",
+        "Recherche d’harmonie",
+        "Affinité vénusienne"
+      ],
+      "pointsDeTension": [
+        "Le Taureau peut sembler trop fixe",
+        "La Balance peut sembler trop changeante ou trop mentale",
+        "Différence entre confort et relation"
+      ]
+    },
+    {
+      "sign": "gemeaux",
+      "level": "fluide",
+      "title": "Air, dialogue et légèreté",
+      "summary": "La Balance et les Gémeaux partagent le goût de l’échange, du lien, de la souplesse et de l’intelligence relationnelle. Le rapport peut être très agréable et vivant.",
+      "pointsFortes": [
+        "Dialogue",
+        "Souplesse",
+        "Complicité mentale",
+        "Légèreté"
+      ],
+      "pointsDeTension": [
+        "Manque d’ancrage",
+        "Tendance à éviter les conflits profonds",
+        "Hésitation ou dispersion"
+      ]
+    },
+    {
+      "sign": "cancer",
+      "level": "variable",
+      "title": "Harmonie et intériorité",
+      "summary": "La Balance cherche la qualité du lien visible ; le Cancer cherche la sécurité émotionnelle profonde. Le lien peut être doux, mais demande de relier forme et sensibilité.",
+      "pointsFortes": [
+        "Douceur",
+        "Besoin de paix",
+        "Volonté de préserver le lien",
+        "Capacité à prendre soin avec tact"
+      ],
+      "pointsDeTension": [
+        "La Balance peut sembler trop distante ou trop relationnelle",
+        "Le Cancer peut sembler trop sensible ou replié",
+        "Différence entre politesse et profondeur émotionnelle"
+      ]
+    },
+    {
+      "sign": "lion",
+      "level": "fluide",
+      "title": "Chaleur et élégance",
+      "summary": "Le Lion apporte la chaleur et la présence, la Balance apporte la grâce du lien et le sens de la forme. Le rapport peut être très séduisant, vivant et harmonieux.",
+      "pointsFortes": [
+        "Charme",
+        "Élégance",
+        "Rayonnement",
+        "Complémentarité entre présence et relation"
+      ],
+      "pointsDeTension": [
+        "Le Lion peut demander plus de centralité",
+        "La Balance peut vouloir trop ménager",
+        "Conflit entre besoin d’admiration et besoin d’équilibre"
+      ]
+    },
+    {
+      "sign": "vierge",
+      "level": "variable",
+      "title": "Justesse et critique",
+      "summary": "La Balance veut harmoniser, la Vierge veut corriger. Le lien peut être intelligent et utile, mais demande d’accepter que la vérité ne soit pas toujours élégante ni toujours confortable.",
+      "pointsFortes": [
+        "Sens de la justesse",
+        "Intelligence fine",
+        "Goût des formes maîtrisées",
+        "Volonté d’améliorer"
+      ],
+      "pointsDeTension": [
+        "La Vierge peut sembler trop critique",
+        "La Balance peut sembler trop diplomatique",
+        "Conflit entre paix et précision"
+      ]
+    },
+    {
+      "sign": "balance",
+      "level": "fluide",
+      "title": "Miroir relationnel",
+      "summary": "Deux Balances peuvent se comprendre dans leur besoin d’harmonie, de dialogue, de couple et de civilité. Le lien peut être élégant, agréable, raffiné et sociable.",
+      "pointsFortes": [
+        "Charme",
+        "Dialogue",
+        "Recherche d’équilibre",
+        "Goût de la relation"
+      ],
+      "pointsDeTension": [
+        "Indécision à deux",
+        "Évitement des conflits",
+        "Risque de rester dans la forme sans aller au fond"
+      ]
+    },
+    {
+      "sign": "scorpion",
+      "level": "intense",
+      "title": "Grâce et profondeur",
+      "summary": "La Balance cherche l’harmonie visible ; le Scorpion veut la vérité profonde. Le lien peut être très magnétique, mais il demande de concilier douceur des formes et intensité des enjeux.",
+      "pointsFortes": [
+        "Attraction",
+        "Profondeur relationnelle",
+        "Capacité à révéler ce qui se joue dans le lien"
+      ],
+      "pointsDeTension": [
+        "Le Scorpion peut trouver la Balance trop lisse",
+        "La Balance peut craindre l’intensité du Scorpion",
+        "Conflit entre paix et vérité brutale"
+      ]
+    },
+    {
+      "sign": "sagittaire",
+      "level": "fluide",
+      "title": "Air social et feu ouvert",
+      "summary": "La Balance et le Sagittaire partagent souvent un goût du lien, de l’ouverture, du mouvement et d’une certaine noblesse dans le rapport humain.",
+      "pointsFortes": [
+        "Ouverture",
+        "Enthousiasme",
+        "Goût de l’échange",
+        "Relation vivante"
+      ],
+      "pointsDeTension": [
+        "Le Sagittaire peut sembler trop direct",
+        "La Balance peut hésiter là où le Sagittaire tranche",
+        "Conflit entre diplomatie et franchise"
+      ]
+    },
+    {
+      "sign": "capricorne",
+      "level": "variable",
+      "title": "Équilibre et structure",
+      "summary": "La Balance cherche l’accord et l’élégance ; le Capricorne cherche la structure et la tenue. Le lien peut être solide mais demande de relier le social et le grave.",
+      "pointsFortes": [
+        "Sens des formes et du cadre",
+        "Capacité à construire des accords sérieux",
+        "Complémentarité entre relation et responsabilité"
+      ],
+      "pointsDeTension": [
+        "Le Capricorne peut sembler trop froid",
+        "La Balance peut sembler trop conciliatrice",
+        "Conflit entre souplesse et rigueur"
+      ]
+    },
+    {
+      "sign": "verseau",
+      "level": "fluide",
+      "title": "Deux signes d’air, deux styles du lien",
+      "summary": "La Balance relationne, le Verseau décentre. Le lien peut être très intelligent, libre et stimulant, à condition que l’humain ne se perde pas dans l’idée.",
+      "pointsFortes": [
+        "Liberté",
+        "Dialogue",
+        "Ouverture d’esprit",
+        "Stimulation"
+      ],
+      "pointsDeTension": [
+        "Le Verseau peut sembler trop distant",
+        "La Balance peut sembler trop dépendante du lien",
+        "Conflit entre attachement relationnel et liberté"
+      ]
+    },
+    {
+      "sign": "poissons",
+      "level": "variable",
+      "title": "Harmonie et compassion",
+      "summary": "La Balance cherche la beauté du lien, les Poissons cherchent la fusion sensible. Le rapport peut être doux, inspiré, délicat, mais parfois flou ou trop idéaliste.",
+      "pointsFortes": [
+        "Douceur",
+        "Sensibilité",
+        "Romantisme",
+        "Capacité à créer une atmosphère belle et tendre"
+      ],
+      "pointsDeTension": [
+        "La Balance peut éviter certaines vérités",
+        "Les Poissons peuvent manquer de limites",
+        "Conflit entre clarté relationnelle et flou affectif"
+      ]
+    }
+  ],
+  "paysAssocies": [
+    {
+      "pays": "Japon",
+      "niveau": "traditionnel",
+      "justification": "Dans certaines traditions de géographie astrologique, le Japon est associé à la Balance pour des raisons symboliques liées à l’esthétique, à la mesure, aux formes, à la civilité et à une recherche d’harmonie."
+    },
+    {
+      "pays": "Canada",
+      "niveau": "traditionnel",
+      "justification": "Le Canada apparaît dans plusieurs listes traditionnelles de correspondances astrologiques liées à la Balance. Il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
+    },
+    {
+      "pays": "Indochine",
+      "niveau": "traditionnel",
+      "justification": "L’Indochine figure dans certaines listes classiques de correspondances astrologiques pour la Balance. Cette attribution relève d’une tradition symbolique de géographie astrologique."
+    },
+    {
+      "pays": "Îles du Pacifique Sud",
+      "niveau": "traditionnel",
+      "justification": "Les îles du Pacifique Sud sont parfois rattachées symboliquement à la Balance dans certaines traditions. Comme toujours, il s’agit d’une correspondance traditionnelle, non d’une vérité objective."
+    },
+    {
+      "pays": "Birmanie",
+      "niveau": "traditionnel",
+      "justification": "La Birmanie est parfois citée parmi les pays associés à la Balance dans des listes astrologiques traditionnelles. Cette attribution dépend des auteurs et des systèmes de correspondance."
+    },
+    {
+      "pays": "Argentine",
+      "niveau": "traditionnel",
+      "justification": "L’Argentine apparaît aussi dans certaines listes de pays associés à la Balance dans les traditions astrologiques classiques."
+    },
+    {
+      "pays": "Haute-Autriche",
+      "niveau": "traditionnel",
+      "justification": "La Haute-Autriche figure dans certaines correspondances astrologiques traditionnelles liées à la Balance, dans une logique purement symbolique."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel est le caractère de la Balance ?",
+      "answer": "La Balance a un tempérament relationnel, diplomate, nuancé et sensible à l’harmonie. Elle cherche l’équilibre, la justice et la qualité du lien, mais doit veiller à ne pas se perdre dans l’indécision ou le besoin de plaire."
+    },
+    {
+      "question": "Quel type d’amoureuse ou d’amoureux est la Balance ?",
+      "answer": "La Balance aime par le couple, la réciprocité, le dialogue et l’élégance du lien. Elle cherche souvent une relation harmonieuse, juste et vivante, mais doit apprendre à ne pas sacrifier sa vérité pour préserver seulement la paix."
+    },
+    {
+      "question": "Quel type de travailleur est la Balance ?",
+      "answer": "La Balance est souvent très bonne dans les fonctions de relation, de médiation, de négociation, de représentation, de diplomatie ou d’esthétique. Elle excelle quand elle peut relier, harmoniser ou donner une forme juste."
+    },
+    {
+      "question": "Quelle maison correspond à la Balance ?",
+      "answer": "La Balance est naturellement reliée à la maison VII, celle du couple, des associations, des contrats, de la relation à l’autre et de la réciprocité."
+    }
+  ],
+  "pierresEtMetaux": [
+    {
+      "nom": "Opale",
+      "type": "pierre",
+      "description": "L’opale est souvent rapprochée de la Balance pour son raffinement, sa délicatesse, sa lumière nuancée et son lien symbolique à la beauté changeante mais harmonieuse.",
+      "motsCles": ["raffinement", "harmonie", "beauté", "nuance"]
+    },
+    {
+      "nom": "Quartz rose",
+      "type": "pierre",
+      "description": "Le quartz rose évoque la douceur du lien, la tendresse, la paix affective et la recherche d’une relation apaisée, en affinité avec la Balance.",
+      "motsCles": ["douceur", "tendresse", "paix", "relation"]
+    },
+    {
+      "nom": "Cuivre",
+      "type": "métal",
+      "description": "Le cuivre est traditionnellement lié à Vénus : beauté, harmonie, attrait, sensualité fine et qualité des formes.",
+      "motsCles": ["vénus", "beauté", "harmonie", "séduction"]
+    }
+  ],
+  "plantes": [
+    {
+      "nom": "Rose",
+      "type": "fleur",
+      "description": "La rose porte une symbolique de beauté, d’amour, d’harmonie, de délicatesse et de raffinement. Elle correspond particulièrement bien à la tonalité vénusienne de la Balance.",
+      "usagesSymboliques": ["beauté", "amour", "harmonie", "raffinement"]
+    },
+    {
+      "nom": "Jasmin",
+      "type": "plante",
+      "description": "Le jasmin évoque le charme, la délicatesse, l’élégance du parfum et une présence subtile mais séduisante, très en accord avec la Balance.",
+      "usagesSymboliques": ["charme", "douceur", "élégance", "séduction"]
+    },
+    {
+      "nom": "Tilleul",
+      "type": "arbre",
+      "description": "Le tilleul renvoie à l’apaisement, à la douceur, à la sociabilité et à une qualité de paix relationnelle qui convient bien à la Balance.",
+      "usagesSymboliques": ["paix", "douceur", "apaisement", "relation"]
+    }
+  ],
+  "animaux": [
+    {
+      "nom": "Colombe",
+      "type": "animal-symbolique",
+      "description": "La colombe incarne la paix, la douceur, la relation apaisée et une recherche d’harmonie qui correspond bien à l’esprit de la Balance.",
+      "motsCles": ["paix", "douceur", "harmonie", "relation"]
+    },
+    {
+      "nom": "Cygne",
+      "type": "animal",
+      "description": "Le cygne évoque la grâce, l’élégance, la symétrie, la beauté visible et la noblesse du lien, en forte affinité avec la Balance.",
+      "motsCles": ["grâce", "élégance", "beauté", "équilibre"]
+    },
+    {
+      "nom": "Papillon",
+      "type": "animal",
+      "description": "Le papillon apporte une symbolique de légèreté, de raffinement, de délicatesse et de circulation subtile entre les êtres et les formes.",
+      "motsCles": ["légèreté", "raffinement", "souplesse", "charme"]
+    }
+  ],
+  "ascendant": {
+    "intro": "Si votre ascendant est Balance, cela signifie souvent que vous entrez dans la vie avec tact, souplesse, besoin de relation et sens de la forme. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité élégante, diplomate et relationnelle.",
+    "apparence": [
+      "Présence agréable ou harmonieuse",
+      "Allure équilibrée, élégante ou soignée",
+      "Regard sociable ou doux",
+      "Impression de charme, de mesure ou de tact",
+      "Gestuelle souvent fluide ou civilisée"
+    ],
+    "temperament": [
+      "Cherche spontanément l’accord plutôt que la rupture",
+      "Observe l’autre et ajuste beaucoup",
+      "A besoin d’un minimum d’harmonie pour agir sereinement",
+      "Supporte mal les rapports trop brutaux",
+      "Entre souvent dans les situations par le lien et par la forme"
+    ],
+    "enRelation": [
+      "Donne une impression de douceur, de charme ou de diplomatie",
+      "Peut paraître très sociable, conciliant ou agréable",
+      "Cherche des rapports équilibrés et respectueux",
+      "Aime que les choses se passent avec style et tact"
+    ],
+    "pointsDeVigilance": [
+      "Indécision",
+      "Tendance à trop s’ajuster",
+      "Peur du conflit",
+      "Dépendance au regard extérieur",
+      "Risque de lisser ce qui devrait être clairement posé"
+    ]
+  },
+  "signeDominant": {
+    "intro": "Si la Balance est dominante dans un thème, cela signifie souvent que la personne aborde la vie à travers la relation, la recherche d’équilibre, le sens de la forme et le besoin de justice. Elle se construit beaucoup dans le rapport à l’autre, dans la comparaison, dans la coopération et dans la qualité des échanges.",
+    "forces": [
+      "Diplomatie",
+      "Sens du lien",
+      "Nuance",
+      "Charme",
+      "Recherche d’équilibre"
+    ],
+    "vigilances": [
+      "Indécision",
+      "Peur de déplaire",
+      "Dépendance au regard d’autrui",
+      "Évitement du conflit",
+      "Tendance à privilégier l’harmonie au détriment de la vérité"
+    ],
+    "dansLaVie": [
+      "La personne a souvent besoin d’un environnement harmonieux pour fonctionner pleinement",
+      "Elle cherche la qualité des rapports humains et des formes",
+      "Elle supporte mal la brutalité, l’injustice ou la laideur relationnelle",
+      "Elle peut avoir beaucoup de talent pour relier, apaiser, représenter ou négocier"
+    ],
+    "enAmour": [
+      "Elle cherche souvent une vraie réciprocité",
+      "Elle a besoin d’un lien juste, élégant et respirable",
+      "Elle aime se sentir en relation plutôt qu’en rapport de force"
+    ],
+    "auTravail": [
+      "Elle excelle souvent dans les univers relationnels, esthétiques, diplomatiques ou contractuels",
+      "Elle a besoin d’un cadre civilisé et humain",
+      "Elle fonctionne mieux quand elle peut relier, équilibrer ou représenter"
+    ]
+  },
+  "celebrites": [
+    {
+      "nom": "Kate Winslet",
+      "dateNaissance": "5 octobre 1975",
+      "domaine": "Cinéma",
+      "description": "Souvent citée parmi les célébrités Balance, avec une image d’élégance, de présence relationnelle et de raffinement expressif."
+    },
+    {
+      "nom": "Will Smith",
+      "dateNaissance": "25 septembre 1968",
+      "domaine": "Cinéma / Musique",
+      "description": "Souvent associé à une grande aisance relationnelle, à un charisme accessible et à une capacité à plaire très typiquement balance."
+    },
+    {
+      "nom": "Brigitte Bardot",
+      "dateNaissance": "28 septembre 1934",
+      "domaine": "Cinéma",
+      "description": "Figure souvent citée pour sa beauté iconique, son magnétisme vénusien et une présence emblématique de la Balance."
+    },
+    {
+      "nom": "Gwyneth Paltrow",
+      "dateNaissance": "27 septembre 1972",
+      "domaine": "Cinéma / Lifestyle",
+      "description": "Souvent mentionnée pour une image de raffinement, de style et de sens de la forme très cohérente avec la Balance."
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "slug": "taureau",
+  "name": "Taureau",
+  "periode": "21 avril – 20 mai",
+  "polarite": "Passif (féminin)",
+  "mode": "Fixe",
+  "element": "Terre",
+  "maitre": "Vénus",
+  "exaltation": "Lune",
+  "exil": "Mars",
+  "chute": "Uranus",
+  "motCle": "J’ai",
+  "mythologie": "Le Taureau apparaît dans de nombreux mythes comme figure de fécondité, de puissance vitale et d’abondance. Dans la tradition grecque, Zeus se transforme en taureau : une force calme, attirante, protectrice, qui avance sans agitation mais avec évidence. Le Taureau symbolise ainsi la vie incarnée — le lien à la terre, au corps, à la matière féconde — et la capacité à faire durer ce qui a été initié.",
+  "analogie": {
+    "animal": "Le taureau",
+    "objet": "La terre fertile, la pierre, le socle",
+    "fonction": "Stabiliser, nourrir, conserver"
+  },
+  "anatomie": ["Cou", "Gorge", "Cordes vocales", "Mâchoire", "Voix"],
+  "generalites": [
+    "Le Taureau représente la capacité à s’ancrer : habiter le réel, sentir le corps, construire une sécurité durable. Là où le Bélier démarre, le Taureau consolide : il transforme l’impulsion en continuité, l’élan en forme stable.",
+    "Dans la vie quotidienne, cette énergie se manifeste par la patience, la constance et le sens du concret. Le Taureau avance lentement, mais il avance longtemps : il préfère un progrès régulier à un changement brutal.",
+    "Son défi principal est d’éviter l’inertie, l’attachement excessif ou la résistance au changement quand celui-ci devient nécessaire. L’équilibre se trouve quand la stabilité ne se transforme pas en rigidité.",
+    "Le Taureau relie aussi très fortement l’être humain à la valeur : valeur des choses, valeur du temps, valeur du corps, valeur de ce qui nourrit et rassure. Il ne vit pas seulement dans l’idée ; il a besoin de sentir, toucher, éprouver et posséder une forme de concret."
+  ],
+  "caractere": [
+    "Le Taureau prend le temps d’évaluer avant de s’engager : il n’aime ni l’agitation gratuite ni la précipitation imposée.",
+    "Son caractère est stable, fidèle, souvent calme en apparence, avec un fort besoin de continuité et de cohérence.",
+    "Il préfère les réalités tangibles aux promesses vagues, et la solidité discrète aux grands effets spectaculaires.",
+    "Lorsqu’il est immature, il peut devenir entêté, possessif ou passif ; lorsqu’il mûrit, il devient une force d’ancrage, de paix et de construction."
+  ],
+  "aptitudesNaturelles": [
+    "Construire dans la durée",
+    "Préserver ce qui a de la valeur",
+    "Créer un cadre stable et rassurant",
+    "Persévérer sans se disperser",
+    "Développer une compétence concrète par répétition et patience",
+    "Donner une forme solide à une idée ou à un projet"
+  ],
+  "ceQuIlRegitDansLeMonde": [
+    "La matière",
+    "La stabilité",
+    "La terre et la fertilité",
+    "Les ressources",
+    "La continuité",
+    "Le corps et les sens",
+    "La voix et la gorge",
+    "La valeur, la possession, la sécurité matérielle"
+  ],
+  "maisonCorrespondante": {
+    "numero": 2,
+    "nom": "Maison II",
+    "resume": "La deuxième maison parle des ressources, des acquis, des biens, de la sécurité matérielle, du rapport à la valeur et de la façon de posséder ou de conserver. Son analogie naturelle avec le Taureau souligne le besoin de stabilité, d’incarnation, de continuité et d’ancrage concret.",
+    "themes": [
+      "Argent",
+      "Ressources",
+      "Valeur personnelle",
+      "Possessions",
+      "Sécurité matérielle",
+      "Capacité à conserver et faire fructifier"
+    ]
+  },
+  "forces": [
+    "Capacité à construire sur le long terme",
+    "Ancrage solide dans le réel",
+    "Sens du concret, de la durée et de la valeur"
+  ],
+  "ombres": [
+    "Inertie face au changement",
+    "Difficulté à lâcher prise",
+    "Rigidité dans les habitudes ou attachement excessif"
+  ],
+  "besoins": [
+    "Sécurité matérielle et affective",
+    "Cadre stable et repères simples",
+    "Rythme régulier, confort, continuité"
+  ],
+  "aTravailler": [
+    "Accepter le changement sans perdre son centre",
+    "Assouplir les habitudes",
+    "Distinguer sécurité et attachement",
+    "Éviter l’enfermement dans le confort",
+    "Ouvrir parfois le mouvement avant d’y être forcé"
+  ],
+  "quandCestEquilibre": [
+    "Le Taureau devient paisible sans être immobile, fidèle sans être possessif, solide sans être rigide.",
+    "Il incarne une stabilité vivante : une base qui soutient, pas une prison.",
+    "Sa force devient nourricière, protectrice, rassurante, capable de durer sans s’endurcir."
+  ],
+  "aptitudes": {
+    "atouts": [
+      "Stable",
+      "Endurant",
+      "Patient",
+      "Loyal",
+      "Sensuel",
+      "Fiable",
+      "Concret"
+    ],
+    "defis": [
+      "Entêté",
+      "Possessif",
+      "Lent à réagir",
+      "Résistant au changement",
+      "Attachement excessif à la sécurité"
+    ]
+  },
+  "amour": {
+    "intro": "Le Taureau aime avec profondeur, continuité et sensualité. Il ne cherche pas forcément l’excitation immédiate : il veut sentir qu’un lien s’installe, qu’il prend corps, qu’il devient fiable, habitable et nourrissant. Il préfère souvent la constance réelle aux promesses brillantes mais instables.",
+    "qualites": [
+      "Fidélité affective",
+      "Capacité à aimer dans la durée",
+      "Présence rassurante",
+      "Sensualité, douceur et attachement concret",
+      "Goût de construire un lien stable"
+    ],
+    "vigilances": [
+      "Possessivité ou jalousie si l’insécurité s’installe",
+      "Difficulté à accepter les changements de rythme dans la relation",
+      "Attachement à une forme de confort qui peut étouffer l’élan",
+      "Risque de rester trop longtemps dans une situation par peur de perdre"
+    ],
+    "compatibleAvec": ["Vierge", "Capricorne", "Cancer", "Poissons"],
+    "attirePar": [
+      "Les personnes fiables et calmes",
+      "Les liens stables et incarnés",
+      "La tendresse concrète",
+      "Les relations où le corps, la confiance et la continuité ont une vraie place"
+    ]
+  },
+  "travail": {
+    "intro": "Le Taureau travaille avec méthode, endurance et souci du concret. Il n’est pas forcément le plus rapide au départ, mais il est souvent parmi les meilleurs pour tenir, stabiliser, faire pousser, sécuriser et rendre durable ce qui a été commencé.",
+    "qualites": [
+      "Constance",
+      "Capacité à répéter et approfondir",
+      "Fiabilité dans le temps",
+      "Sens du résultat concret",
+      "Aptitude à gérer une matière, une ressource ou un savoir-faire durable"
+    ],
+    "vigilances": [
+      "Résistance aux changements imposés",
+      "Ralentissement dans les phases de rupture ou d’urgence",
+      "Méfiance excessive envers l’innovation",
+      "Risque de s’installer dans une routine qui finit par l’éteindre"
+    ],
+    "domainesFavorables": [
+      "Finance",
+      "Artisanat",
+      "Immobilier",
+      "Agriculture / nature",
+      "Métiers de la voix",
+      "Cuisine / gastronomie",
+      "Gestion durable",
+      "Fonctions où il faut construire, préserver, produire ou valoriser"
+    ]
+  },
+  "argent": {
+    "intro": "Le Taureau entretient un rapport fort à l’argent, car il est lié à la valeur, à la possession et à la sécurité matérielle. Il peut être très économe, très gestionnaire, très prudent — ou au contraire dépenser beaucoup pour le confort, la qualité, le beau et le plaisir, selon ce qu’il associe à la sécurité et à la satisfaction.",
+    "forces": [
+      "Sens de la durée et de l’accumulation",
+      "Capacité à préserver les acquis",
+      "Rapport concret à la valeur",
+      "Aptitude à construire une sécurité matérielle progressive"
+    ],
+    "risques": [
+      "Peur de manquer",
+      "Attachement excessif aux possessions",
+      "Difficulté à prendre un risque utile",
+      "Dépenses de confort, de luxe ou de plaisir sensoriel"
+    ],
+    "rapportTypique": [
+      "Peut économiser avec une grande constance quand il cherche la sécurité",
+      "Peut aussi dépenser généreusement pour le beau, le bon, le durable ou le confortable",
+      "Préfère souvent ce qui se possède réellement à ce qui reste trop abstrait",
+      "Son rapport à l’argent dépend beaucoup de ce qu’il associe à la stabilité, au plaisir et à la valeur"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Aldébaran",
+      "nature": "Mars / Jupiter",
+      "motsCles": ["Noblesse", "Puissance", "Succès", "Intensité"],
+      "description": "Aldébaran est l’une des étoiles fixes les plus connues de la zone du Taureau. Dans une lecture symbolique, elle renforce une idée de puissance incarnée, de tension maîtrisée, de grandeur potentielle et de force orientée vers un but."
+    },
+    {
+      "nom": "Capella",
+      "nature": "Mercure / Mars",
+      "motsCles": ["Habileté", "Vivacité", "Adresse", "Intelligence pratique"],
+      "description": "Capella ajoute une note de finesse, d’adaptation mentale et d’intelligence concrète. Dans une lecture du Taureau, elle rappelle que la stabilité n’est pas forcément lourde : elle peut aussi s’accompagner de compétence et d’habileté."
+    }
+  ],
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Taureau cherche à durer, à se stabiliser et à s’incarner. Le principe de la planète s’exprime avec constance : moins dans l’urgence que dans la construction. Cela renforce le sens du concret, l’attachement aux valeurs et la capacité à persévérer — mais peut aussi ralentir ou rigidifier si l’on s’accroche trop.",
+    "motsCles": [
+      "Stabilité",
+      "Incarnation",
+      "Valeurs",
+      "Constance",
+      "Sensualité",
+      "Durée"
+    ],
+    "planetes": {
+      "soleil": {
+        "tonalite": "Le Soleil en Taureau construit une identité stable, incarnée, fiable et attachée aux valeurs concrètes. Il a besoin de sentir qu’il existe à travers quelque chose de solide, durable et tangible.",
+        "forces": [
+          "Stabilité intérieure",
+          "Persévérance",
+          "Sens de la continuité",
+          "Force tranquille"
+        ],
+        "defis": [
+          "Rigidité",
+          "Lenteur à changer de cap",
+          "Attachement aux acquis",
+          "Méfiance excessive face à l’inconnu"
+        ],
+        "enAmour": [
+          "Aime durablement",
+          "Cherche la sécurité affective",
+          "Privilégie les liens stables et incarnés"
+        ],
+        "auTravail": [
+          "Très fort pour construire dans le temps",
+          "A besoin de concret et de continuité",
+          "N’aime pas les changements arbitraires"
+        ],
+        "avecArgent": [
+          "Cherche à sécuriser",
+          "Peut accumuler patiemment",
+          "A besoin de sentir la valeur réelle des choses"
+        ]
+      },
+      "lune": {
+        "tonalite": "La Lune en Taureau vit les émotions à travers le besoin de paix, de continuité, de douceur et de sécurité sensorielle. Elle cherche à apaiser, stabiliser et contenir.",
+        "forces": [
+          "Calme émotionnel",
+          "Besoin de douceur",
+          "Fidélité affective",
+          "Capacité à rassurer"
+        ],
+        "defis": [
+          "Difficulté à changer d’état affectif",
+          "Attachement protecteur excessif",
+          "Peurs liées à la perte ou à l’insécurité"
+        ],
+        "enAmour": [
+          "A besoin de tendresse et de constance",
+          "Aime les liens paisibles et sensuels",
+          "S’attache profondément"
+        ],
+        "auTravail": [
+          "Travaille mieux dans un cadre stable",
+          "A besoin d’un climat rassurant",
+          "Supporte mal le chaos permanent"
+        ],
+        "avecArgent": [
+          "Peut chercher la sécurité par l’épargne ou les biens",
+          "Associe souvent argent et apaisement"
+        ]
+      },
+      "mercure": {
+        "tonalite": "Mercure en Taureau pense lentement mais solidement. L’esprit cherche à comprendre par le concret, à retenir, à stabiliser, à exprimer clairement ce qui a été mûri.",
+        "forces": [
+          "Pensée posée",
+          "Mémoire fiable",
+          "Pragmatisme",
+          "Communication simple et concrète"
+        ],
+        "defis": [
+          "Lenteur à intégrer une nouveauté",
+          "Peu de goût pour les changements d’avis rapides",
+          "Rigidité intellectuelle possible"
+        ],
+        "enAmour": [
+          "Exprime son intérêt sans agitation",
+          "Préfère les paroles qui engagent vraiment",
+          "Cherche une communication rassurante"
+        ],
+        "auTravail": [
+          "Très bon pour les raisonnements concrets",
+          "Aime les dossiers solides et les faits",
+          "Travaille avec méthode"
+        ],
+        "avecArgent": [
+          "Réfléchit en termes de valeur réelle",
+          "Aime comprendre ce qu’il achète ou investit"
+        ]
+      },
+      "venus": {
+        "tonalite": "Vénus en Taureau est dans une de ses expressions les plus naturelles : goût du beau, de la douceur, de la chair, du plaisir, de la fidélité et de l’harmonie durable.",
+        "forces": [
+          "Sensualité",
+          "Loyauté affective",
+          "Goût du beau et du simple",
+          "Capacité à aimer avec profondeur"
+        ],
+        "defis": [
+          "Possessivité",
+          "Attachement au confort",
+          "Difficulté à sortir d’une relation installée"
+        ],
+        "enAmour": [
+          "Aime durablement",
+          "A besoin de toucher, sentir, habiter le lien",
+          "Cherche une relation vraie, douce et stable"
+        ],
+        "auTravail": [
+          "Attirée par les métiers de valeur, d’esthétique, de matière ou de plaisir",
+          "A besoin d’un environnement agréable"
+        ],
+        "avecArgent": [
+          "Aime la qualité",
+          "Peut dépenser pour le beau, le bon et le durable",
+          "Sait souvent reconnaître la vraie valeur"
+        ]
+      },
+      "mars": {
+        "tonalite": "Mars en Taureau agit avec lenteur, puissance et ténacité. L’énergie n’est pas explosive : elle s’installe, s’ancre, pousse, résiste et tient.",
+        "forces": [
+          "Endurance",
+          "Action durable",
+          "Résistance",
+          "Ténacité remarquable"
+        ],
+        "defis": [
+          "Lenteur au démarrage",
+          "Colère retenue puis forte",
+          "Difficulté à changer de direction une fois lancé"
+        ],
+        "enAmour": [
+          "Désir constant et charnel",
+          "Aime les liens tangibles et fidèles",
+          "Peut devenir possessif s’il se sent menacé"
+        ],
+        "auTravail": [
+          "Très fort dans les efforts longs",
+          "Aime voir le résultat concret de son action",
+          "Supporte mal les injonctions brusques"
+        ],
+        "avecArgent": [
+          "Protège ses acquis",
+          "Peut se battre pour la sécurité matérielle",
+          "Décide lentement mais tient sa ligne"
+        ]
+      },
+      "jupiter": {
+        "tonalite": "Jupiter en Taureau fait croître par la patience, la stabilité et la construction progressive. Il amplifie le sens des ressources et du temps long.",
+        "forces": [
+          "Confiance dans la durée",
+          "Croissance progressive",
+          "Rapport fertile à la matière",
+          "Capacité à faire fructifier"
+        ],
+        "defis": [
+          "Excès de prudence",
+          "Goût du confort qui freine l’élan",
+          "Tendance à l’accumulation"
+        ],
+        "enAmour": [
+          "Cherche un amour solide et apaisant",
+          "Aime ce qui nourrit et dure"
+        ],
+        "auTravail": [
+          "Très bon pour développer progressivement une activité",
+          "Aime bâtir plutôt que spéculer"
+        ],
+        "avecArgent": [
+          "Peut faire croître lentement ses ressources",
+          "A confiance dans le temps long"
+        ]
+      },
+      "saturne": {
+        "tonalite": "Saturne en Taureau structure la matière, les ressources, le rapport à la possession et à la sécurité. Il donne une conscience forte de ce qui dure, de ce qui coûte et de ce qui se mérite.",
+        "forces": [
+          "Discipline matérielle",
+          "Rigueur",
+          "Fiabilité",
+          "Capacité à bâtir solidement"
+        ],
+        "defis": [
+          "Peur de perdre",
+          "Rigidité",
+          "Rapport anxieux à la sécurité ou au manque"
+        ],
+        "enAmour": [
+          "Aime lentement mais sérieusement",
+          "Cherche un lien sûr et fiable",
+          "Peut craindre l’abandon ou le désordre affectif"
+        ],
+        "auTravail": [
+          "Excellent pour gérer et stabiliser",
+          "Travaille avec endurance et sérieux"
+        ],
+        "avecArgent": [
+          "Très prudent",
+          "Peut sécuriser fortement ses ressources",
+          "Risque d’avarice ou de crispation"
+        ]
+      },
+      "uranus": {
+        "tonalite": "Uranus en Taureau crée une tension entre besoin de stabilité et bouleversements de valeurs. Il réveille ce qui semblait figé dans la matière, l’économie, le corps ou la sécurité.",
+        "forces": [
+          "Capacité à réformer le concret",
+          "Intelligence du changement utile",
+          "Innovation appliquée à la matière"
+        ],
+        "defis": [
+          "Tiraillement entre stabilité et rupture",
+          "Insécurité provoquée par les changements de valeur",
+          "Résistance puis basculement brusque"
+        ],
+        "enAmour": [
+          "A besoin de sécurité mais aussi d’espace",
+          "Peut traverser des réveils relationnels inattendus"
+        ],
+        "auTravail": [
+          "Bon pour moderniser un système concret",
+          "Aime transformer des structures figées"
+        ],
+        "avecArgent": [
+          "Rapport changeant aux ressources",
+          "Réformes soudaines possibles dans la gestion"
+        ]
+      },
+      "neptune": {
+        "tonalite": "Neptune en Taureau cherche un idéal de paix, de nature, de douceur, de beauté simple et de fusion sensorielle avec le vivant.",
+        "forces": [
+          "Inspiration douce",
+          "Sensibilité à la beauté incarnée",
+          "Lien fort à la paix, à la nature et aux ambiances"
+        ],
+        "defis": [
+          "Illusions liées au confort",
+          "Tendance à idéaliser la sécurité matérielle",
+          "Flou dans la gestion des possessions"
+        ],
+        "enAmour": [
+          "Cherche une douceur enveloppante",
+          "Peut idéaliser un amour stable et protecteur"
+        ],
+        "auTravail": [
+          "Fonctionne bien dans les univers esthétiques, artistiques ou sensoriels",
+          "A besoin de sentir une harmonie"
+        ],
+        "avecArgent": [
+          "Peut manquer de clarté dans certaines limites matérielles",
+          "Risque de lier trop fortement bien-être et possession"
+        ]
+      },
+      "pluton": {
+        "tonalite": "Pluton en Taureau transforme profondément le rapport à la matière, à la possession, aux valeurs et à la sécurité. Il pousse à mourir à certains attachements pour faire émerger une valeur plus essentielle.",
+        "forces": [
+          "Puissance de régénération matérielle",
+          "Capacité à reconstruire après une perte",
+          "Rapport intense à la valeur réelle"
+        ],
+        "defis": [
+          "Fixation",
+          "Rapport de possession",
+          "Crises autour du manque, de la perte ou de la dépendance matérielle"
+        ],
+        "enAmour": [
+          "Aime profondément mais peut s’attacher avec intensité",
+          "Doit apprendre à aimer sans posséder"
+        ],
+        "auTravail": [
+          "Très fort pour restructurer des fondations",
+          "Peut traverser de grandes crises de valeur"
+        ],
+        "avecArgent": [
+          "Rapport intense aux ressources",
+          "Transformations profondes autour de l’argent et de la sécurité"
+        ]
+      }
+    }
+  },
+  "dansUnTheme": [
+    "Le Taureau indique un domaine où l’on cherche la sécurité, la constance et des repères stables.",
+    "Il montre où l’on construit lentement mais durablement — et où l’on apprend à assouplir l’attachement quand la vie demande d’évoluer.",
+    "Selon la maison et les aspects, il peut montrer un secteur de vie où l’on accumule, protège, nourrit ou valorise."
+  ],
+  "relationsAuxAutresSignes": [
+    {
+      "sign": "belier",
+      "level": "delicate",
+      "title": "Élan et stabilité",
+      "summary": "Le Taureau cherche le temps, la continuité et l’ancrage, tandis que le Bélier cherche l’impulsion, la rapidité et l’ouverture. La relation peut être complémentaire, mais elle demande un vrai respect des rythmes.",
+      "pointsFortes": [
+        "Complémentarité entre initiative et endurance",
+        "Possibilité de construire après un bon démarrage",
+        "Ancrage concret d’une énergie vive"
+      ],
+      "pointsDeTension": [
+        "Le Bélier trouve le Taureau lent",
+        "Le Taureau trouve le Bélier brusque",
+        "Entêtement des deux côtés"
+      ]
+    },
+    {
+      "sign": "taureau",
+      "level": "fluide",
+      "title": "Terre et continuité",
+      "summary": "Deux Taureaux se comprennent souvent par le besoin de paix, de stabilité, de confort et de loyauté. Le lien peut être très rassurant, sensuel et durable.",
+      "pointsFortes": [
+        "Stabilité",
+        "Fidélité",
+        "Sensualité",
+        "Construction dans la durée"
+      ],
+      "pointsDeTension": [
+        "Routine",
+        "Rigidité",
+        "Attachement excessif",
+        "Difficulté à faire évoluer le lien"
+      ]
+    },
+    {
+      "sign": "gemeaux",
+      "level": "variable",
+      "title": "Stabilité et mouvement",
+      "summary": "Le Taureau veut stabiliser, les Gémeaux veulent circuler. Le rapport peut être stimulant si chacun accepte que l’autre ne fonctionne pas au même rythme.",
+      "pointsFortes": [
+        "Complémentarité entre concret et curiosité",
+        "Possibilité d’enrichissement mutuel",
+        "L’un donne une base, l’autre de l’air"
+      ],
+      "pointsDeTension": [
+        "Le Taureau peut trouver les Gémeaux instables",
+        "Les Gémeaux peuvent trouver le Taureau figé",
+        "Différence de besoin entre sécurité et variété"
+      ]
+    },
+    {
+      "sign": "cancer",
+      "level": "fluide",
+      "title": "Terre nourricière et eau protectrice",
+      "summary": "Le Taureau et le Cancer peuvent former un duo très apaisant, sensible et protecteur. L’un rassure par la présence, l’autre par la chaleur affective.",
+      "pointsFortes": [
+        "Sécurité",
+        "Douceur",
+        "Attachement",
+        "Capacité à créer un foyer stable"
+      ],
+      "pointsDeTension": [
+        "Possessivité",
+        "Peurs de perdre",
+        "Difficulté à sortir d’une zone de confort émotionnelle"
+      ]
+    },
+    {
+      "sign": "lion",
+      "level": "stimulante",
+      "title": "Stabilité et rayonnement",
+      "summary": "Le Taureau construit, le Lion rayonne. Le lien peut être riche, créatif et chaleureux, mais chacun a une manière différente d’occuper sa place.",
+      "pointsFortes": [
+        "Goût du beau",
+        "Loyauté",
+        "Force de présence",
+        "Possibilité de construire quelque chose de visible et durable"
+      ],
+      "pointsDeTension": [
+        "Fierté",
+        "Entêtement",
+        "Besoin de reconnaissance du Lion face au besoin de tranquillité du Taureau"
+      ]
+    },
+    {
+      "sign": "vierge",
+      "level": "fluide",
+      "title": "Terre et méthode",
+      "summary": "Le Taureau et la Vierge partagent le goût du concret, du réalisme et de la cohérence. Le lien peut être très solide, utile, simple et durable.",
+      "pointsFortes": [
+        "Pragmatisme",
+        "Fiabilité",
+        "Sens du quotidien",
+        "Construction patiente"
+      ],
+      "pointsDeTension": [
+        "Le Taureau peut trouver la Vierge trop critique",
+        "La Vierge peut trouver le Taureau trop figé",
+        "Excès de prudence ou de contrôle"
+      ]
+    },
+    {
+      "sign": "balance",
+      "level": "complementaire",
+      "title": "Deux signes de Vénus, deux styles",
+      "summary": "Le Taureau et la Balance partagent Vénus, mais pas de la même manière : l’un veut incarner et posséder, l’autre relier et harmoniser. Le lien peut être élégant et agréable, mais demande des ajustements.",
+      "pointsFortes": [
+        "Goût du beau",
+        "Sens des valeurs",
+        "Recherche d’harmonie",
+        "Affinité vénusienne"
+      ],
+      "pointsDeTension": [
+        "Le Taureau veut du concret",
+        "La Balance veut du lien et du mouvement relationnel",
+        "Différence entre sécurité et diplomatie"
+      ]
+    },
+    {
+      "sign": "scorpion",
+      "level": "intense",
+      "title": "Axe Taureau–Scorpion",
+      "summary": "Le Taureau protège, le Scorpion transforme. C’est un axe puissant de possession, de valeur, de désir, de peur de perdre et de profondeur. L’attraction peut être très forte.",
+      "pointsFortes": [
+        "Magnétisme",
+        "Loyauté possible",
+        "Complémentarité entre stabilité et profondeur",
+        "Puissance du lien"
+      ],
+      "pointsDeTension": [
+        "Possessivité",
+        "Jalousie",
+        "Rapports de force",
+        "Difficulté à lâcher prise"
+      ]
+    },
+    {
+      "sign": "sagittaire",
+      "level": "variable",
+      "title": "Ancrage et horizon",
+      "summary": "Le Taureau cherche la continuité, le Sagittaire cherche l’ouverture et le mouvement. La relation peut être enrichissante si la stabilité ne devient pas enfermement et si la liberté ne devient pas fuite.",
+      "pointsFortes": [
+        "L’un donne une base, l’autre une perspective",
+        "Possibilité de croissance concrète",
+        "Goût de la sincérité"
+      ],
+      "pointsDeTension": [
+        "Le Taureau peut trouver le Sagittaire instable",
+        "Le Sagittaire peut trouver le Taureau trop fermé",
+        "Différence de besoin entre enracinement et expansion"
+      ]
+    },
+    {
+      "sign": "capricorne",
+      "level": "fluide",
+      "title": "Terre et endurance",
+      "summary": "Le Taureau et le Capricorne peuvent bâtir ensemble quelque chose de très solide. L’un nourrit, l’autre structure ; l’un stabilise, l’autre organise.",
+      "pointsFortes": [
+        "Endurance",
+        "Réalisme",
+        "Capacité à construire sur le long terme",
+        "Sens des responsabilités"
+      ],
+      "pointsDeTension": [
+        "Le Capricorne peut sembler trop dur",
+        "Le Taureau peut sembler trop installé",
+        "Risque de relation très fonctionnelle mais peu mobile"
+      ]
+    },
+    {
+      "sign": "verseau",
+      "level": "delicate",
+      "title": "Valeurs stables et liberté de rupture",
+      "summary": "Le Taureau veut garder ce qui a de la valeur ; le Verseau veut parfois casser ce qui fige. Le lien peut être passionnant, mais aussi profondément déstabilisant pour l’un comme pour l’autre.",
+      "pointsFortes": [
+        "Possibilité de réinventer des fondations",
+        "Complémentarité entre concret et vision",
+        "Stimulation réelle"
+      ],
+      "pointsDeTension": [
+        "Le Taureau supporte mal l’imprévisible",
+        "Le Verseau supporte mal la fixation",
+        "Conflit entre sécurité et liberté"
+      ]
+    },
+    {
+      "sign": "poissons",
+      "level": "fluide",
+      "title": "Terre douce et eau sensible",
+      "summary": "Le Taureau peut offrir un cadre stable aux Poissons, tandis que les Poissons apportent inspiration, tendresse et profondeur sensible. Le lien peut être très doux et enveloppant.",
+      "pointsFortes": [
+        "Tendresse",
+        "Douceur",
+        "Complémentarité entre chair et imaginaire",
+        "Capacité à créer un lien apaisant"
+      ],
+      "pointsDeTension": [
+        "Le Taureau peut trouver les Poissons trop flous",
+        "Les Poissons peuvent trouver le Taureau trop concret",
+        "Difficulté à s’accorder entre besoin de forme et besoin de dissolution"
+      ]
+    }
+  ],
+  "paysAssocies": [
+    {
+      "pays": "Suisse",
+      "niveau": "traditionnel",
+      "justification": "Dans certaines traditions de géographie astrologique, la Suisse est associée au Taureau pour des raisons symboliques liées à la stabilité, à la valeur, à la sécurité, au rapport à la matière et à une image de solidité durable."
+    },
+    {
+      "pays": "Irlande",
+      "niveau": "traditionnel",
+      "justification": "L’Irlande apparaît dans certaines listes traditionnelles de correspondances astrologiques liées au Taureau. Comme toujours dans ce domaine, il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
+    },
+    {
+      "pays": "Chypre",
+      "niveau": "traditionnel",
+      "justification": "Chypre est parfois reliée au Taureau dans les listes astrologiques classiques, probablement en lien avec des symboliques de Vénus, de fécondité, de beauté et de douceur incarnée."
+    },
+    {
+      "pays": "Iran",
+      "niveau": "traditionnel",
+      "justification": "L’Iran est également cité dans certaines correspondances astrologiques du Taureau. Cette attribution relève d’une tradition symbolique de géographie astrologique, non d’une vérité objective."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel est le caractère du Taureau ?",
+      "answer": "Le Taureau a un tempérament stable, fidèle, patient et concret. Il aime la continuité, la sécurité et ce qui a une valeur réelle, mais doit veiller à ne pas se figer dans l’habitude ou l’attachement."
+    },
+    {
+      "question": "Quel type d’amoureux est le Taureau ?",
+      "answer": "Le Taureau aime avec profondeur, sensualité et fidélité. Il cherche souvent un lien durable, rassurant, incarné, mais peut devenir possessif s’il se sent menacé ou insécurisé."
+    },
+    {
+      "question": "Quel type de travailleur est le Taureau ?",
+      "answer": "Le Taureau est souvent un travailleur endurant, fiable et patient. Il excelle dans les activités qui demandent constance, sens du concret, construction progressive et capacité à faire durer."
+    },
+    {
+      "question": "Quelle maison correspond au Taureau ?",
+      "answer": "Le Taureau est naturellement relié à la maison II, celle des ressources, des biens, des acquis, de la sécurité matérielle et du rapport à la valeur."
+    }
+  ],
+  "pierresEtMetaux": [
+    {
+      "nom": "Émeraude",
+      "type": "pierre",
+      "description": "L’émeraude évoque l’harmonie, la douceur, la stabilité affective et la beauté durable. Elle s’accorde bien avec la tonalité vénusienne du Taureau.",
+      "motsCles": ["vénus", "harmonie", "douceur", "fertilité"]
+    },
+    {
+      "nom": "Quartz rose",
+      "type": "pierre",
+      "description": "Le quartz rose évoque la tendresse, la paix affective, la douceur du lien et un rapport apaisé au corps et au cœur.",
+      "motsCles": ["tendresse", "paix", "amour", "douceur"]
+    },
+    {
+      "nom": "Cuivre",
+      "type": "métal",
+      "description": "Le cuivre est traditionnellement lié à Vénus : beauté, réceptivité, circulation douce, rapport à l’harmonie et au plaisir incarné.",
+      "motsCles": ["vénus", "beauté", "réceptivité", "plaisir"]
+    }
+  ],
+  "plantes": [
+    {
+      "nom": "Rose",
+      "type": "fleur",
+      "description": "La rose porte une symbolique de beauté, de douceur, d’amour, de chair et d’harmonie, très proche de la tonalité vénusienne du Taureau.",
+      "usagesSymboliques": ["amour", "beauté", "douceur", "raffinement"]
+    },
+    {
+      "nom": "Sauge",
+      "type": "plante",
+      "description": "La sauge évoque une force tranquille, protectrice, terrestre et bénéfique. Elle relie le soin, le corps et la stabilité.",
+      "usagesSymboliques": ["protection", "ancrage", "stabilité", "soin"]
+    },
+    {
+      "nom": "Tilleul",
+      "type": "arbre",
+      "description": "Le tilleul renvoie à l’apaisement, à la douceur, au repos et à un rapport rassurant au vivant, en affinité avec une tonalité de paix et de continuité.",
+      "usagesSymboliques": ["apaisement", "repos", "douceur", "confort"]
+    }
+  ],
+  "animaux": [
+    {
+      "nom": "Taureau",
+      "type": "animal-symbolique",
+      "description": "Le taureau incarne la puissance tranquille, la matière, la fécondité, l’endurance et la force qui s’impose moins par agitation que par présence.",
+      "motsCles": ["force", "stabilité", "puissance", "fécondité"]
+    },
+    {
+      "nom": "Vache",
+      "type": "animal",
+      "description": "Dans une lecture symbolique, la vache peut évoquer la nourriture, la continuité, la fécondité, la patience et la capacité à nourrir durablement.",
+      "motsCles": ["nourriture", "paix", "fécondité", "patience"]
+    },
+    {
+      "nom": "Colombe",
+      "type": "oiseau",
+      "description": "La colombe apporte une tonalité de douceur, d’apaisement, d’harmonie et de paix, très cohérente avec la dimension vénusienne du Taureau.",
+      "motsCles": ["paix", "douceur", "harmonie", "tendresse"]
+    }
+  ],
+  "ascendant": {
+    "intro": "Si votre ascendant est Taureau, cela signifie souvent que vous entrez dans la vie avec calme, présence, prudence et besoin de continuité. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité stable, sensuelle et concrète.",
+    "apparence": [
+      "Présence calme et posée",
+      "Allure stable ou ancrée",
+      "Voix souvent marquante ou agréable",
+      "Impression de solidité, de douceur ou de consistance",
+      "Corps ou maintien pouvant évoquer la stabilité"
+    ],
+    "temperament": [
+      "Réagit lentement mais sûrement",
+      "A besoin de temps pour s’engager ou changer",
+      "Cherche des repères concrets",
+      "Supporte mal l’agitation inutile",
+      "Préfère la continuité aux ruptures fréquentes"
+    ],
+    "enRelation": [
+      "Donne une impression de fiabilité et de douceur",
+      "Peut paraître réservé au début mais constant ensuite",
+      "Cherche des rapports stables, simples et sincères",
+      "Aime que les choses aient le temps de prendre forme"
+    ],
+    "pointsDeVigilance": [
+      "Lenteur excessive",
+      "Résistance au changement",
+      "Attachement aux habitudes",
+      "Possessivité",
+      "Risque de s’installer dans l’inertie"
+    ]
+  },
+  "signeDominant": {
+    "intro": "Si le Taureau est dominant dans un thème, cela signifie souvent que la personne aborde la vie avec un fort besoin d’ancrage, de continuité, de sécurité et de valeur concrète. Elle cherche à construire, préserver, incarner et stabiliser ce qui compte pour elle.",
+    "forces": [
+      "Capacité à durer",
+      "Solidité intérieure",
+      "Sens du réel",
+      "Présence rassurante",
+      "Aptitude à construire progressivement"
+    ],
+    "vigilances": [
+      "Rigidité",
+      "Peur de perdre",
+      "Résistance à l’évolution",
+      "Attachement excessif",
+      "Difficulté à lâcher ce qui est déjà acquis"
+    ],
+    "dansLaVie": [
+      "La personne avance souvent lentement mais sûrement",
+      "Elle cherche des repères tangibles, stables et fiables",
+      "Elle a besoin de sentir une valeur réelle dans ce qu’elle fait",
+      "Elle supporte mal le chaos, l’improvisation permanente ou la précarité"
+    ],
+    "enAmour": [
+      "Elle aime les liens durables, concrets et sécurisants",
+      "Elle cherche souvent à habiter la relation plus qu’à la théoriser",
+      "Elle peut avoir besoin de sentir une forte fidélité"
+    ],
+    "auTravail": [
+      "Elle excelle souvent dans la durée, la gestion concrète et la construction stable",
+      "Elle a besoin de voir un résultat tangible",
+      "Elle fonctionne mieux quand un cadre clair et cohérent existe"
+    ]
+  },
+  "celebrites": [
+    {
+      "nom": "Penélope Cruz",
+      "dateNaissance": "28 avril 1974",
+      "domaine": "Cinéma",
+      "description": "Souvent citée parmi les célébrités Taureau, avec une image mêlant sensualité, constance et présence incarnée."
+    },
+    {
+      "nom": "George Clooney",
+      "dateNaissance": "6 mai 1961",
+      "domaine": "Cinéma",
+      "description": "Exemple souvent mentionné d’une présence stable, maîtrisée et durable."
+    },
+    {
+      "nom": "Adele",
+      "dateNaissance": "5 mai 1988",
+      "domaine": "Musique",
+      "description": "Souvent associée à la profondeur vocale, à la constance expressive et à une forte présence sensible."
+    },
+    {
+      "nom": "Audrey Hepburn",
+      "dateNaissance": "4 mai 1929",
+      "domaine": "Cinéma",
+      "description": "Figure souvent citée pour l’élégance, la grâce, la douceur et une beauté simple mais durable."
+    }
+  ]
+}

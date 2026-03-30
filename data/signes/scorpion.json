@@ -1,0 +1,863 @@
+{
+  "slug": "scorpion",
+  "name": "Scorpion",
+  "periode": "23 octobre – 22 novembre",
+  "polarite": "Passif (féminin)",
+  "mode": "Fixe",
+  "element": "Eau",
+  "maitre": "Pluton (et Mars)",
+  "exaltation": "Uranus",
+  "exil": "Vénus",
+  "chute": "Lune",
+  "motCle": "Je désire / Je transforme",
+  "mythologie": "Le Scorpion est lié au mythe d'Orion : l'animal envoyé par Artémis (ou Gaïa) pour piquer le chasseur trop orgueilleux. Il symbolise la force de la terre qui rappelle à l'homme ses limites et sa mortalité. Dans la symbolique plus large, le Scorpion représente le processus de mort et de renaissance (le Phénix), la capacité à descendre dans les profondeurs pour en ressortir transformé. C'est le gardien des seuils et des mystères.",
+  "analogie": {
+    "animal": "Le scorpion, le serpent, l'aigle ou le phénix",
+    "objet": "Le volcan, le creuset, l'aimant",
+    "fonction": "Transformer, sonder, régénérer"
+  },
+  "anatomie": ["Organes génitaux", "Système excréteur", "Vessie", "Rectum", "Nez (parfois associé)"],
+  "generalites": [
+    "Le Scorpion représente la capacité à plonger dans l'invisible : il cherche la vérité derrière les apparences, quitte à déranger. Là où la Balance cherche l'harmonie de surface, le Scorpion cherche la profondeur et l'authenticité absolue.",
+    "Dans la vie quotidienne, cette énergie se manifeste par une grande acuité psychologique, un instinct puissant et une résistance hors du commun face aux crises. Le Scorpion ne craint pas l'ombre, il l'utilise pour comprendre les mécanismes cachés du monde.",
+    "Son défi principal est d'éviter l'autodestruction, le ressentiment ou le besoin de contrôle excessif sur les autres. L'équilibre se trouve quand il accepte de lâcher prise et transforme son intensité en force de guérison.",
+    "Le Scorpion relie l'être humain au cycle de la vie : il comprend que pour que quelque chose de nouveau naisse, quelque chose d'ancien doit souvent mourir. Il est le signe de la passion, du pouvoir intérieur et des métamorphoses nécessaires."
+  ],
+  "caractere": [
+    "Le Scorpion possède un tempérament entier : il déteste la tiédeur et les faux-semblants.",
+    "Son caractère est secret, magnétique, souvent calme en surface mais bouillonnant d'une intensité émotionnelle contenue.",
+    "Il est doté d'une loyauté indéfectible envers ceux qu'il a choisis, mais peut devenir un adversaire redoutable s'il se sent trahi.",
+    "Lorsqu'il est immature, il peut être manipulateur ou destructeur ; lorsqu'il mûrit, il devient un guide spirituel ou psychologique capable d'aider les autres dans leurs propres crises."
+  ],
+  "aptitudesNaturelles": [
+    "Déceler le caché et le non-dit",
+    "Régénérer des situations désespérées",
+    "Garder des secrets et agir avec discrétion",
+    "Faire preuve d'un courage psychologique immense",
+    "Transformer les crises en opportunités d'évolution",
+    "Percevoir les motivations profondes d'autrui"
+  ],
+  "ceQuIlRegitDansLeMonde": [
+    "Les transformations et les crises",
+    "La psychologie et l'inconscient",
+    "Les secrets et les mystères",
+    "Les finances partagées (impôts, héritages, banques)",
+    "La sexualité et l'érotisme",
+    "La mort et la renaissance",
+    "L'enquête et la recherche",
+    "Le pouvoir et les énergies souterraines"
+  ],
+  "maisonCorrespondante": {
+    "numero": 8,
+    "nom": "Maison VIII",
+    "resume": "La huitième maison parle des transformations, des crises, des ressources partagées, de la sexualité, de la mort symbolique et de l'inconscient. Son analogie naturelle avec le Scorpion souligne le besoin de profondeur, de dépossession et de régénération.",
+    "themes": [
+      "Mutations",
+      "Héritages",
+      "Sexualité",
+      "Occultisme",
+      "Psychologie profonde",
+      "Ressources d'autrui"
+    ]
+  },
+  "forces": [
+    "Intensité et courage face à l'adversité",
+    "Instinct psychologique infaillible",
+    "Loyauté absolue et profondeur des sentiments"
+  ],
+  "ombres": [
+    "Tendance à la jalousie et à la possessivité",
+    "Rancune tenace et difficulté à pardonner",
+    "Comportements secrets ou destructeurs"
+  ],
+  "besoins": [
+    "Authenticité et vérité absolue",
+    "Vivre des expériences intenses",
+    "Pouvoir transformer et se transformer"
+  ],
+  "aTravailler": [
+    "Apprendre à accorder sa confiance plus sereinement",
+    "Transformer le besoin de contrôle en lâcher-prise",
+    "Utiliser sa puissance pour construire plutôt que pour détruire",
+    "Exprimer ses émotions au lieu de les laisser macérer",
+    "Accepter la vulnérabilité comme une force"
+  ],
+  "quandCestEquilibre": [
+    "Le Scorpion devient un guérisseur de l'âme, capable de traverser les tempêtes avec une force tranquille.",
+    "Il incarne une résilience exemplaire : il sait mourir à ses anciens schémas pour renaître plus fort.",
+    "Sa puissance devient magnétique et protectrice, offrant une sécurité émotionnelle profonde à son entourage."
+  ],
+  "aptitudes": {
+    "atouts": [
+      "Déterminé",
+      "Perspicace",
+      "Passionné",
+      "Magnétique",
+      "Résilient",
+      "Courageux",
+      "Sincère"
+    ],
+    "defis": [
+      "Secret",
+      "Obsessionnel",
+      "Soupçonneux",
+      "Revanchard",
+      "Extrémiste"
+    ]
+  },
+  "amour": {
+    "intro": "Le Scorpion aime avec une intensité qui peut effrayer ou fasciner. Pour lui, l'amour est une fusion, un engagement total où l'âme et le corps ne font qu'un. Il ne cherche pas l'aventure légère mais la rencontre vraie, capable de le transformer en profondeur.",
+    "qualites": [
+      "Engagement total et passionné",
+      "Loyauté à toute épreuve",
+      "Profondeur émotionnelle et sexuelle",
+      "Capacité à soutenir l'autre dans les moments sombres",
+      "Sincérité absolue des sentiments"
+    ],
+    "vigilances": [
+      "Jalousie parfois étouffante",
+      "Besoin de tester la fidélité de l'autre",
+      "Tendance à créer des drames pour ressentir l'intensité",
+      "Risque de repli sur soi en cas de blessure"
+    ],
+    "compatibleAvec": ["Cancer", "Poissons", "Vierge", "Capricorne"],
+    "attirePar": [
+      "Les personnalités authentiques et mystérieuses",
+      "Les relations qui ont du sens et de la profondeur",
+      "Les partenaires capables de supporter son intensité",
+      "La vulnérabilité honnête et le courage émotionnel"
+    ]
+  },
+  "travail": {
+    "intro": "Le Scorpion travaille avec une concentration totale et une ténacité redoutable. Il excelle dans les domaines qui demandent de l'investigation, du sang-froid ou une compréhension des mécanismes cachés (humains ou techniques).",
+    "qualites": [
+      "Capacité de travail intense",
+      "Stratège naturel",
+      "Résistance au stress et aux crises",
+      "Perfectionnisme dans la recherche de vérité",
+      "Instinct pour les opportunités et les failles"
+    ],
+    "vigilances": [
+      "Difficulté à déléguer par besoin de contrôle",
+      "Rapports de force avec la hiérarchie ou les collègues",
+      "Goût pour le secret qui peut nuire au travail d'équipe",
+      "Risque de burn-out par obsession du résultat"
+    ],
+    "domainesFavorables": [
+      "Psychologie / Psychiatrie",
+      "Enquête / Police / Services secrets",
+      "Recherche scientifique",
+      "Chirurgie",
+      "Finance / Gestion de crise",
+      "Occultisme / Ésotérisme",
+      "Métiers liés à la mort ou à la transformation",
+      "Politique (stratégie)"
+    ]
+  },
+  "argent": {
+    "intro": "Le Scorpion a un rapport complexe et puissant à l'argent. Il le voit souvent comme un outil de pouvoir, de sécurité ou de transformation. Il est souvent très doué pour gérer les ressources des autres ou pour faire fructifier ce qui est caché.",
+    "forces": [
+      "Excellent gestionnaire de crises financières",
+      "Flair pour les investissements rentables",
+      "Capacité à repartir de zéro après une perte",
+      "Discrétion absolue sur ses avoirs"
+    ],
+    "risques": [
+      "Besoin de contrôle sur l'argent du partenaire",
+      "Attirance pour les spéculations risquées",
+      "Peur de la dépendance matérielle",
+      "Rapport émotionnel extrême (tout ou rien) avec la richesse"
+    ],
+    "rapportTypique": [
+      "Peut être très économe et secret sur ses économies",
+      "Voit l'argent comme un levier pour obtenir son indépendance",
+      "S'intéresse souvent aux mécanismes complexes de la finance",
+      "Peut utiliser ses ressources pour aider les autres à se transformer"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Antarès",
+      "nature": "Mars / Jupiter",
+      "motsCles": ["Intensité", "Succès par la lutte", "Passion", "Transformation"],
+      "description": "Le 'Cœur du Scorpion'. Elle donne une force vitale immense mais avertit contre les excès d'agressivité. Elle promet le succès à condition de maîtriser ses pulsions."
+    },
+    {
+      "nom": "Unukalhai",
+      "nature": "Mars / Saturne",
+      "motsCles": ["Sagesse", "Connaissance", "Guérison", "Épreuve"],
+      "description": "Située dans le Serpent, elle évoque la connaissance acquise par la douleur ou la crise, et la capacité à guérir après avoir affronté ses propres démons."
+    }
+  ],
+  "planeteDansLeSigne": {
+    "intro": "Une planète en Scorpion s'imprègne d'une nécessité d'absolu. Elle ne peut pas rester en surface ; elle doit explorer les profondeurs, vivre des crises et se transformer pour exprimer son plein potentiel.",
+    "motsCles": [
+      "Intensité",
+      "Investigation",
+      "Passion",
+      "Pouvoir",
+      "Régénération",
+      "Vérité"
+    ],
+    "planetes": {
+      "soleil": {
+        "tonalite": "Le Soleil en Scorpion forge une identité magnétique, courageuse et habitée par une quête de vérité. La personne existe à travers sa capacité à se métamorphoser et à sonder l'invisible.",
+        "forces": [
+          "Volonté de fer",
+          "Magnétisme personnel",
+          "Courage face à l'ombre",
+          "Authenticité profonde"
+        ],
+        "defis": [
+          "Autodestruction",
+          "Besoin de domination",
+          "Caractère secret à l'excès",
+          "Rancune"
+        ],
+        "enAmour": [
+          "Passionné et exclusif",
+          "Cherche la fusion",
+          "Loyauté absolue"
+        ],
+        "auTravail": [
+          "Très efficace dans l'urgence",
+          "A besoin de passion pour s'investir",
+          "Stratège né"
+        ],
+        "avecArgent": [
+          "Gère avec flair",
+          "Aime le pouvoir que donne l'argent",
+          "Prudent et secret"
+        ]
+      },
+      "lune": {
+        "tonalite": "La Lune en Scorpion (en chute) vit des émotions d'une intensité extrême. Le besoin de sécurité passe par le contrôle de ses sentiments et l'analyse de ceux des autres.",
+        "forces": [
+          "Instinct psychologique",
+          "Capacité à ressentir le non-dit",
+          "Force émotionnelle dans les crises",
+          "Dévouement total"
+        ],
+        "defis": [
+          "Angoisses de trahison",
+          "Rétention émotionnelle",
+          "Besoin de tester l'attachement de l'autre"
+        ],
+        "enAmour": [
+          "Aime avec tourment et passion",
+          "Besoin d'une confiance totale",
+          "Sexualité importante"
+        ],
+        "auTravail": [
+          "Perçoit les ambiances cachées",
+          "Besoin d'un travail qui a du sens",
+          "Tenace"
+        ],
+        "avecArgent": [
+          "Peut utiliser l'argent comme bouclier émotionnel",
+          "Peur du manque ou de la dépendance"
+        ]
+      },
+      "mercure": {
+        "tonalite": "Mercure en Scorpion donne un esprit de détective. La pensée est pénétrante, critique et cherche toujours à démasquer ce qui est caché.",
+        "forces": [
+          "Sens de l'analyse",
+          "Parole percutante",
+          "Capacité d'investigation",
+          "Esprit stratégique"
+        ],
+        "defis": [
+          "Sarcasme",
+          "Obsessions mentales",
+          "Tendance à voir le mal partout"
+        ],
+        "enAmour": [
+          "Communication profonde ou silencieuse",
+          "Veut tout savoir de l'autre",
+          "Franc-parler"
+        ],
+        "auTravail": [
+          "Excellent chercheur",
+          "Ne se laisse pas berner",
+          "Aime résoudre des énigmes complexes"
+        ],
+        "avecArgent": [
+          "Réfléchit aux circuits financiers",
+          "Négociateur redoutable"
+        ]
+      },
+      "venus": {
+        "tonalite": "Vénus en Scorpion (en exil) vit l'amour comme un drame sacré. Les sentiments sont profonds, complexes, parfois tourmentés mais toujours entiers.",
+        "forces": [
+          "Beauté magnétique",
+          "Capacité de sacrifice amoureux",
+          "Fidélité au-delà de tout",
+          "Intensité érotique"
+        ],
+        "defis": [
+          "Jalousie maladive",
+          "Rapport de force amoureux",
+          "Peur de l'abandon"
+        ],
+        "enAmour": [
+          "Tout ou rien",
+          "Cherche une union d'âmes",
+          "Attiré par le mystère"
+        ],
+        "auTravail": [
+          "Aime les métiers passionnants",
+          "Utilise son charme avec stratégie"
+        ],
+        "avecArgent": [
+          "Peut dépenser par pulsion passionnelle",
+          "Attirée par les gains cachés"
+        ]
+      },
+      "mars": {
+        "tonalite": "Mars en Scorpion est dans son domicile traditionnel. L'action est calculée, puissante, endurante et souvent irrésistible.",
+        "forces": [
+          "Sang-froid",
+          "Ténacité exceptionnelle",
+          "Puissance d'action",
+          "Capacité de résistance"
+        ],
+        "defis": [
+          "Cruauté possible",
+          "Colères froides et destructrices",
+          "Manipulation pour agir"
+        ],
+        "enAmour": [
+          "Désir puissant et magnétique",
+          "Conquérant mais secret",
+          "Besoin de posséder"
+        ],
+        "auTravail": [
+          "Ne lâche jamais rien",
+          "Excellent dans la compétition discrète",
+          "Finit toujours ce qu'il commence"
+        ],
+        "avecArgent": [
+          "Se bat pour ses ressources",
+          "Prêt à prendre des risques calculés"
+        ]
+      },
+      "jupiter": {
+        "tonalite": "Jupiter en Scorpion amplifie le besoin de comprendre les mystères et d'acquérir un pouvoir intérieur ou financier.",
+        "forces": [
+          "Croissance par la transformation",
+          "Flair financier",
+          "Sagesse ésotérique",
+          "Régénération rapide"
+        ],
+        "defis": [
+          "Excès d'intensité",
+          "Goût pour le secret qui isole",
+          "Fanatisme possible"
+        ],
+        "enAmour": [
+          "Besoin d'une relation qui fait grandir",
+          "Générosité passionnée"
+        ],
+        "auTravail": [
+          "Réussit dans les affaires complexes",
+          "Développe des projets en profondeur"
+        ],
+        "avecArgent": [
+          "Chance dans les héritages ou ressources d'autrui",
+          "Fait fructifier avec audace"
+        ]
+      },
+      "saturne": {
+        "tonalite": "Saturne en Scorpion structure les émotions et le rapport au pouvoir. Il donne une grande rigueur dans l'exploration de l'ombre.",
+        "forces": [
+          "Maîtrise de soi",
+          "Discipline émotionnelle",
+          "Sérieux dans l'investigation",
+          "Fiabilité dans les crises"
+        ],
+        "defis": [
+          "Crispation sur les peurs",
+          "Pessimisme",
+          "Blocages sexuels ou émotionnels"
+        ],
+        "enAmour": [
+          "Aime avec une prudence extrême",
+          "Engagement pris très au sérieux",
+          "Craint la trahison"
+        ],
+        "auTravail": [
+          "Travailleur acharné et discret",
+          "Excellent pour les tâches difficiles"
+        ],
+        "avecArgent": [
+          "Très prudent avec les dettes",
+          "Peut se priver par peur de manquer de contrôle"
+        ]
+      },
+      "uranus": {
+        "tonalite": "Uranus en Scorpion (en exaltation) produit des révolutions radicales et des éveils brusques dans l'inconscient ou les structures de pouvoir.",
+        "forces": [
+          "Génie inventif",
+          "Capacité à briser les tabous",
+          "Libération par la crise"
+        ],
+        "defis": [
+          "Instabilité brutale",
+          "Rébellion destructrice",
+          "Tension nerveuse extrême"
+        ],
+        "enAmour": [
+          "Besoin de liberté fusionnelle",
+          "Coups de foudre transformateurs"
+        ],
+        "auTravail": [
+          "Innove dans les domaines techniques ou occultes",
+          "Change radicalement de voie"
+        ],
+        "avecArgent": [
+          "Gains ou pertes soudaines",
+          "Intérêt pour les nouvelles formes de monnaie"
+        ]
+      },
+      "neptune": {
+        "tonalite": "Neptune en Scorpion cherche la fusion spirituelle à travers l'intensité émotionnelle et les mystères de l'existence.",
+        "forces": [
+          "Intuition médiumnique",
+          "Inspiration profonde",
+          "Idéalisme passionné"
+        ],
+        "defis": [
+          "Confusions émotionnelles",
+          "Tendance aux paradis artificiels",
+          "Illusions sur le pouvoir"
+        ],
+        "enAmour": [
+          "Fusion d'âmes",
+          "Amours secrets ou mystiques"
+        ],
+        "auTravail": [
+          "Doué pour les arts sombres ou la psychologie",
+          "Sensibilité aux énergies"
+        ],
+        "avecArgent": [
+          "Rapport flou aux ressources partagées",
+          "Dévouement financier possible"
+        ]
+      },
+      "pluton": {
+        "tonalite": "Pluton en Scorpion est dans son domicile. Il exprime ici sa pleine puissance de transformation, de destruction et de reconstruction.",
+        "forces": [
+          "Puissance de régénération absolue",
+          "Capacité à voir la vérité nue",
+          "Charisme irrésistible",
+          "Résilience historique"
+        ],
+        "defis": [
+          "Obsession pour le pouvoir",
+          "Crises collectives ou individuelles majeures",
+          "Destruction sans reconstruction immédiate"
+        ],
+        "enAmour": [
+          "Intensité extrême, presque karmique",
+          "Besoin de vérité totale"
+        ],
+        "auTravail": [
+          "Transformateur de systèmes",
+          "Perce les secrets d'État ou d'entreprise"
+        ],
+        "avecArgent": [
+          "Grands enjeux financiers",
+          "Pouvoir de transformer les ressources"
+        ]
+      }
+    }
+  },
+  "dansUnTheme": [
+    "Le Scorpion indique un domaine où l'on vit des expériences intenses et transformatrices.",
+    "Il montre où l'on doit affronter ses peurs pour trouver son véritable pouvoir personnel.",
+    "Selon la maison, il peut désigner un secteur où l'on rencontre des crises qui obligent à mourir à une partie de soi pour renaître."
+  ],
+  "relationsAuxAutresSignes": [
+    {
+      "sign": "belier",
+      "level": "intense",
+      "title": "Le feu et la lave",
+      "summary": "Tous deux gouvernés par Mars, ils partagent l'action mais pas le rythme. Le Bélier fonce, le Scorpion attend son heure. Une relation puissante mais explosive.",
+      "pointsFortes": [
+        "Énergie immense",
+        "Courage partagé",
+        "Attirance sexuelle forte"
+      ],
+      "pointsDeTension": [
+        "Combats pour le pouvoir",
+        "Impatience du Bélier face au secret du Scorpion",
+        "Rancune du Scorpion face à la maladresse du Bélier"
+      ]
+    },
+    {
+      "sign": "taureau",
+      "level": "intense",
+      "title": "L'axe de la possession",
+      "summary": "Signes opposés, ils se complètent sur le terrain de la sensualité et des valeurs. Le Taureau veut garder, le Scorpion veut transformer. L'attraction est souvent fatale.",
+      "pointsFortes": [
+        "Fidélité et profondeur",
+        "Sensualité partagée",
+        "Stabilité rencontrant l'intensité"
+      ],
+      "pointsDeTension": [
+        "Entêtement extrême des deux côtés",
+        "Jalousie et possessivité",
+        "Matérialisme du Taureau vs idéalisme sombre du Scorpion"
+      ]
+    },
+    {
+      "sign": "gemeaux",
+      "level": "variable",
+      "title": "L'esprit et l'instinct",
+      "summary": "Le Gémeaux survole, le Scorpion creuse. Ils peuvent s'agacer mutuellement mais le Gémeaux peut être fasciné par le mystère du Scorpion.",
+      "pointsFortes": [
+        "Échanges intellectuels stimulants",
+        "Curiosité mutuelle",
+        "Le Gémeaux apporte de la légèreté au Scorpion"
+      ],
+      "pointsDeTension": [
+        "Le Scorpion trouve le Gémeaux superficiel",
+        "Le Gémeaux trouve le Scorpion trop lourd",
+        "Difficulté à trouver une profondeur commune"
+      ]
+    },
+    {
+      "sign": "cancer",
+      "level": "fluide",
+      "title": "La mer et le puits",
+      "summary": "Deux signes d'eau qui se comprennent sans parler. Le Cancer protège, le Scorpion transforme. Une union émotionnelle et sécurisante.",
+      "pointsFortes": [
+        "Compréhension intuitive",
+        "Protection mutuelle",
+        "Profondeur des sentiments"
+      ],
+      "pointsDeTension": [
+        "Repli sur soi en cas de conflit",
+        "Tendance à ressasser le passé",
+        "Émotions parfois trop envahissantes"
+      ]
+    },
+    {
+      "sign": "lion",
+      "level": "stimulante",
+      "title": "Lumière et Ombre",
+      "summary": "Deux signes fixes qui cherchent le pouvoir. Le Lion veut être admiré, le Scorpion veut être influent. Une relation de respect mutuel ou de guerre ouverte.",
+      "pointsFortes": [
+        "Loyauté indéfectible",
+        "Admiration pour la force de l'autre",
+        "Ambition commune"
+      ],
+      "pointsDeTension": [
+        "Orgueil et fierté",
+        "Besoin de commander",
+        "Guerre d'égos"
+      ]
+    },
+    {
+      "sign": "vierge",
+      "level": "fluide",
+      "title": "L'analyse et l'investigation",
+      "summary": "La Vierge analyse les détails, le Scorpion cherche la cause profonde. Ensemble, ils peuvent être un duo d'une efficacité redoutable.",
+      "pointsFortes": [
+        "Pragmatisme et psychologie",
+        "Recherche de vérité",
+        "Discrétion et fiabilité"
+      ],
+      "pointsDeTension": [
+        "Culpabilité mutuelle",
+        "Anxiété partagée",
+        "Critique contre sarcasme"
+      ]
+    },
+    {
+      "sign": "balance",
+      "level": "variable",
+      "title": "Harmonie et Vérité",
+      "summary": "La Balance veut que tout soit beau, le Scorpion veut que tout soit vrai. Ils doivent faire des compromis sur leur vision du réel.",
+      "pointsFortes": [
+        "Équilibre entre douceur et intensité",
+        "La Balance apaise le Scorpion",
+        "Le Scorpion donne du relief à la Balance"
+      ],
+      "pointsDeTension": [
+        "Le Scorpion déteste l'indécision de la Balance",
+        "La Balance a peur de l'intensité du Scorpion",
+        "Faux-semblants contre vérité brute"
+      ]
+    },
+    {
+      "sign": "scorpion",
+      "level": "fluide",
+      "title": "Le miroir des profondeurs",
+      "summary": "Deux Scorpions ensemble vivent une relation d'une intensité inégalée. C'est le paradis ou l'enfer, sans milieu possible.",
+      "pointsFortes": [
+        "Compréhension totale de l'intensité de l'autre",
+        "Passion absolue",
+        "Loyauté sans faille"
+      ],
+      "pointsDeTension": [
+        "Atmosphère parfois trop lourde",
+        "Jalousie croisée",
+        "Difficulté à pardonner à son propre miroir"
+      ]
+    },
+    {
+      "sign": "sagittaire",
+      "level": "variable",
+      "title": "L'ombre et la flèche",
+      "summary": "Le Scorpion regarde en bas (les profondeurs), le Sagittaire regarde en haut (les horizons). Ils peuvent s'apporter beaucoup s'ils acceptent leurs différences.",
+      "pointsFortes": [
+        "Sincérité brute",
+        "Le Sagittaire apporte de l'optimisme",
+        "Le Scorpion apporte de la profondeur"
+      ],
+      "pointsDeTension": [
+        "Le Scorpion trouve le Sagittaire trop naïf",
+        "Le Sagittaire se sent emprisonné par le Scorpion",
+        "Besoin de liberté vs besoin de contrôle"
+      ]
+    },
+    {
+      "sign": "capricorne",
+      "level": "fluide",
+      "title": "La roche et l'abîme",
+      "summary": "Une relation très solide, basée sur le sérieux, l'ambition et la résistance. Ils construisent dans le temps et le silence.",
+      "pointsFortes": [
+        "Stabilité et profondeur",
+        "Respect mutuel de l'ambition",
+        "Sang-froid partagé"
+      ],
+      "pointsDeTension": [
+        "Manque de chaleur apparente",
+        "Rigueur excessive",
+        "Tendance à s'enfermer dans le travail"
+      ]
+    },
+    {
+      "sign": "verseau",
+      "level": "delicate",
+      "title": "L'instinct et la raison",
+      "summary": "Le Scorpion est viscéral, le Verseau est cérébral. Leurs besoins d'indépendance s'expriment différemment, ce qui peut créer des frictions.",
+      "pointsFortes": [
+        "Originalité et profondeur",
+        "Intérêt commun pour le changement",
+        "Indépendance d'esprit"
+      ],
+      "pointsDeTension": [
+        "Le Scorpion veut fusionner, le Verseau veut de l'espace",
+        "Froideur émotionnelle du Verseau",
+        "Besoin de contrôle du Scorpion"
+      ]
+    },
+    {
+      "sign": "poissons",
+      "level": "fluide",
+      "title": "L'océan sans fond",
+      "summary": "Une connexion mystique et émotionnelle très forte. Le Scorpion donne une direction à la sensibilité des Poissons.",
+      "pointsFortes": [
+        "Fusion émotionnelle",
+        "Intuition et spiritualité",
+        "Amour romantique et profond"
+      ],
+      "pointsDeTension": [
+        "Risque de dépendance affective",
+        "Manque de réalisme",
+        "Difficulté à affronter les problèmes concrets"
+      ]
+    }
+  ],
+  "paysAssocies": [
+    {
+      "pays": "Maroc",
+      "niveau": "traditionnel",
+      "justification": "Associé au Scorpion pour son intensité, ses mystères, ses couleurs profondes et une certaine force de tradition et de résistance."
+    },
+    {
+      "pays": "Norvège",
+      "niveau": "traditionnel",
+      "justification": "Parfois reliée au Scorpion en raison des paysages de fjords (profondeur) et d'un tempérament réputé pour sa résilience et son intériorité."
+    },
+    {
+      "pays": "Algérie",
+      "niveau": "traditionnel",
+      "justification": "Citée pour sa force de caractère, son histoire marquée par des transformations profondes et sa passion retenue."
+    },
+    {
+      "pays": "Islande",
+      "niveau": "symbolique",
+      "justification": "Terre de feu et de glace, de volcans et de sources souterraines, elle incarne parfaitement la dynamique plutonienne du Scorpion."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quel est le caractère du Scorpion ?",
+      "answer": "Le Scorpion est intense, passionné, secret et très perspicace. Il possède une grande force intérieure et une capacité de résilience unique, mais doit apprendre à gérer ses émotions puissantes et sa tendance au contrôle."
+    },
+    {
+      "question": "Le Scorpion est-il vraiment méchant ?",
+      "answer": "C'est un cliché. Le Scorpion n'est pas méchant, il est entier. Sa 'piqûre' est souvent une défense ou une réaction à une trahison. En réalité, c'est l'un des signes les plus dévoués et protecteurs quand il aime."
+    },
+    {
+      "question": "Quel type de travail convient au Scorpion ?",
+      "answer": "Il excelle dans les métiers qui demandent de la recherche, de l'investigation, du sang-froid ou de la psychologie. Il a besoin de passion pour s'investir pleinement."
+    },
+    {
+      "question": "Pourquoi le Scorpion est-il si secret ?",
+      "answer": "Le Scorpion protège sa vulnérabilité. Il observe beaucoup avant d'accorder sa confiance et pense que le mystère est une source de pouvoir et de protection."
+    }
+  ],
+  "pierresEtMetaux": [
+    {
+      "nom": "Obsidienne",
+      "type": "pierre",
+      "description": "Pierre de protection extrême, elle aide à confronter ses zones d'ombre et à transmuter les énergies négatives.",
+      "motsCles": ["protection", "vérité", "transformation", "ancrage"]
+    },
+    {
+      "nom": "Grenat",
+      "type": "pierre",
+      "description": "Le grenat symbolise l'énergie vitale, la passion et la persévérance. Il résonne avec la force martienne du Scorpion.",
+      "motsCles": ["passion", "volonté", "énergie", "fidélité"]
+    },
+    {
+      "nom": "Plomb ou Fer",
+      "type": "métal",
+      "description": "Le fer (Mars) pour la force et le combat, le plomb (Saturne/Pluton) pour la densité et les profondeurs terrestres.",
+      "motsCles": ["résistance", "force", "profondeur", "poids"]
+    }
+  ],
+  "plantes": [
+    {
+      "nom": "Basilic",
+      "type": "herbe",
+      "description": "Plante autrefois associée à la fois à la haine et à l'amour passionné, elle possède une odeur forte et pénétrante.",
+      "usagesSymboliques": ["passion", "protection", "force", "nettoyage"]
+    },
+    {
+      "nom": "Aloès",
+      "type": "plante",
+      "description": "Une plante qui survit dans des conditions difficiles et possède des vertus cicatrisantes puissantes (régénération).",
+      "usagesSymboliques": ["guérison", "résilience", "protection", "amertume"]
+    },
+    {
+      "nom": "Ronce",
+      "type": "arbuste",
+      "description": "La ronce évoque la protection épineuse et la difficulté d'accès, mais offre des fruits doux à ceux qui osent s'approcher.",
+      "usagesSymboliques": ["défense", "obstination", "mystère", "récompense"]
+    }
+  ],
+  "animaux": [
+    {
+      "nom": "Scorpion",
+      "type": "animal-symbolique",
+      "description": "Incarne la survie, la défense, l'attaque précise et la capacité à vivre dans l'ombre.",
+      "motsCles": ["vigilance", "défense", "puissance", "instinct"]
+    },
+    {
+      "nom": "Serpent",
+      "type": "animal",
+      "description": "Symbole de transformation par la mue, de sagesse souterraine et de guérison.",
+      "motsCles": ["mue", "sagesse", "renaissance", "mystère"]
+    },
+    {
+      "nom": "Aigle / Phénix",
+      "type": "oiseau",
+      "description": "Représente l'octave supérieure du Scorpion : celui qui s'élève au-dessus des passions pour renaître de ses cendres.",
+      "motsCles": ["élévation", "vision", "transmutation", "triomphe"]
+    }
+  ],
+  "ascendant": {
+    "intro": "Avec un ascendant Scorpion, vous abordez le monde avec une intensité palpable et une prudence observatrice. Votre première réaction est souvent de sonder l'environnement pour en percevoir les courants cachés avant de vous dévoiler.",
+    "apparence": [
+      "Regard intense et pénétrant",
+      "Magnétisme naturel qui ne laisse pas indifférent",
+      "Traits marqués ou présence charismatique",
+      "Allure souvent sombre, élégante ou mystérieuse",
+      "Expression faciale qui cache bien ses émotions"
+    ],
+    "temperament": [
+      "Réagit avec une grande acuité instinctive",
+      "Besoin de contrôler son image et son environnement",
+      "Forte volonté dissimulée sous un calme apparent",
+      "Scepticisme initial qui demande des preuves de sincérité",
+      "Capacité à se régénérer physiquement et moralement"
+    ],
+    "enRelation": [
+      "Cherche des échanges vrais et profonds dès le départ",
+      "Peut paraître intimidant ou distant au premier abord",
+      "Évalue la loyauté de l'autre très rapidement",
+      "Donne une impression de force tranquille et de mystère"
+    ],
+    "pointsDeVigilance": [
+      "Attitude défensive excessive",
+      "Tendance à l'interprétation paranoïaque",
+      "Rétention d'informations",
+      "Besoin de pouvoir sur les autres",
+      "Difficulté à se détendre vraiment"
+    ]
+  },
+  "signeDominant": {
+    "intro": "Si le Scorpion est dominant dans votre thème, votre vie est marquée par une quête d'absolu. Vous ne vous contentez pas du tiède ou de l'incertain : vous voulez vivre des expériences qui transforment votre âme.",
+    "forces": [
+      "Résilience hors du commun",
+      "Profondeur de compréhension humaine",
+      "Courage infini face aux crises",
+      "Loyauté indéfectible",
+      "Pouvoir de métamorphose personnelle"
+    ],
+    "vigilances": [
+      "Tendance aux idées noires ou à l'obsession",
+      "Difficulté à lâcher prise sur le passé",
+      "Comportements manipulateurs inconscients",
+      "Rapport de force systématique",
+      "Extrémisme dans les opinions ou sentiments"
+    ],
+    "dansLaVie": [
+      "La personne traverse souvent des épreuves qui la forcent à se réinventer",
+      "Elle est attirée par ce qui est caché, tabou ou mystérieux",
+      "Elle possède un charisme qui attire les confidences",
+      "Elle déteste la trahison et la superficialité par-dessus tout"
+    ],
+    "enAmour": [
+      "Elle vit des passions dévorantes et transformatrices",
+      "Elle a besoin d'une connexion d'âme et de corps absolue",
+      "Elle peut être le partenaire le plus solide dans l'épreuve"
+    ],
+    "auTravail": [
+      "Elle est souvent la personne que l'on appelle quand tout va mal",
+      "Elle a un instinct pour les stratégies à long terme",
+      "Elle a besoin de se sentir investie d'une mission"
+    ]
+  },
+  "celebrites": [
+    {
+      "nom": "Leonardo DiCaprio",
+      "dateNaissance": "11 novembre 1974",
+      "domaine": "Cinéma",
+      "description": "Incarne l'intensité du Scorpion à travers des rôles de personnages tourmentés, complexes et passionnés."
+    },
+    {
+      "nom": "Sophie Marceau",
+      "dateNaissance": "17 novembre 1966",
+      "domaine": "Cinéma",
+      "description": "Exemple de magnétisme, de profondeur et d'une présence à la fois forte et secrète."
+    },
+    {
+      "nom": "Bill Gates",
+      "dateNaissance": "28 octobre 1955",
+      "domaine": "Technologie / Philanthropie",
+      "description": "Représente le côté stratège, le pouvoir de transformation du monde et l'esprit de recherche."
+    },
+    {
+      "nom": "Alain Delon",
+      "dateNaissance": "8 novembre 1935",
+      "domaine": "Cinéma",
+      "description": "Figure emblématique du magnétisme sombre, de la solitude du Scorpion et d'une carrière bâtie sur l'intensité."
+    }
+  ]
+}
