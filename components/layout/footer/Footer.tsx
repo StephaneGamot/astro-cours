@@ -35,6 +35,7 @@ const annexes = [
   { name: "Transits", href: "/transits" },
   { name: "Points fictifs", href: "/points-fictifs" },
   { name: "Nœuds lunaires", href: "/noeuds-lunaires" },
+   { name: "Cuspides des Maisons", href: "/cuspides-des-maisons" },
   { name: "Lilith (Lune Noire)", href: "/lilith" },
   { name: "Maîtrises", href: "/maitrises" },
   { name: "Planète rétrograde", href: "/retrogrades" },
