@@ -1,0 +1,305 @@
+{
+  "slug": "cuspides-des-maisons",
+  "title": "Les Cuspides des Maisons : les portes de l’expérience terrestre",
+  "description": "Comprendre les cuspides des maisons astrologiques, les angles du thème, le maître de maison, les maisons interceptées et la dynamique des domaines de vie.",
+  "introduction": [
+    "En astrologie, si les planètes représentent les acteurs et les signes représentent le caractère ou le costume de ces acteurs, les maisons représentent la scène où l’action se déroule. Chaque maison décrit un domaine précis de l’existence : l’identité, l’argent, le foyer, le couple, la carrière, la spiritualité, et ainsi de suite.",
+    "La cuspide est le point d’entrée de cette scène. Elle agit comme une porte : elle indique la manière dont l’expérience d’une maison commence, se présente et se colore dans la vie du sujet.",
+    "Analyser une cuspide ne consiste donc pas seulement à lire un secteur abstrait du thème. C’est comprendre comment un domaine de vie s’ouvre, quel signe le teinte, quelle planète en détient la clé, et vers quelle autre maison cette énergie se projette."
+  ],
+  "definition": [
+    "La cuspide est le degré précis du zodiaque où commence une maison astrologique. Dans la majorité des systèmes de domification, comme Placidus, Koch ou Regiomontanus, les maisons n’ont pas toutes la même taille. La cuspide devient alors le point de référence essentiel pour interpréter le domaine concerné.",
+    "La cuspide d’une maison est généralement considérée comme le point le plus sensible de cette maison. Le signe qui s’y trouve donne la tonalité, la manière, l’ambiance et parfois la stratégie par laquelle le sujet vit ce domaine de vie.",
+    "La planète qui gouverne le signe de la cuspide devient le maître de la maison. C’est elle qui indique où l’énergie de cette maison se déplace, se concrétise ou se complique dans le thème."
+  ],
+  "anglesTitle": "Les quatre piliers : les angles du thème",
+  "anglesIntro": "Les maisons angulaires sont les plus puissantes. Elles forment l’ossature de la vie terrestre. Une planète située près de l’une de ces cuspides acquiert une grande visibilité dans l’existence.",
+  "angles": [
+    {
+      "maison": 1,
+      "nom": "L’Ascendant",
+      "titre": "L’émergence",
+      "texte": "La cuspide de la maison I décrit le moi extérieur, la vitalité, le tempérament, la manière d’entrer dans la vie et l’allure générale. Tout ce qui touche l’Ascendant affecte directement le corps, la présence et la façon d’initier l’expérience."
+    },
+    {
+      "maison": 4,
+      "nom": "Le Fond du Ciel",
+      "titre": "L’ancrage",
+      "texte": "La cuspide de la maison IV renvoie aux racines, à la base émotionnelle, à l’héritage familial, au foyer, à la sécurité intérieure et à la fin de vie. C’est le point le plus privé du thème."
+    },
+    {
+      "maison": 7,
+      "nom": "Le Descendant",
+      "titre": "L’altérité",
+      "texte": "La cuspide de la maison VII représente la rencontre avec l’autre. Elle décrit le type de partenaire recherché, la manière d’entrer en relation, les associations et les engagements légaux."
+    },
+    {
+      "maison": 10,
+      "nom": "Le Milieu du Ciel",
+      "titre": "L’accomplissement",
+      "texte": "La cuspide de la maison X montre la vocation, le sommet social, la carrière, la réputation et la contribution au monde. C’est le point le plus public et souvent le plus visible du thème."
+    }
+  ],
+  "maisonsTitle": "Signification des 12 cuspides",
+  "maisons": [
+    {
+      "maison": 1,
+      "titre": "L’identité",
+      "texte": "Définit la personnalité apparente, la constitution physique, le tempérament de base et la manière d’entrer dans la vie."
+    },
+    {
+      "maison": 2,
+      "titre": "Les ressources",
+      "texte": "Indique comment l’individu gagne sa vie, ses valeurs matérielles et morales, son rapport à la sécurité et à l’estime de soi."
+    },
+    {
+      "maison": 3,
+      "titre": "La communication",
+      "texte": "Régit l’intellect pratique, l’entourage proche, les frères et sœurs, les études de base, les échanges et les petits déplacements."
+    },
+    {
+      "maison": 4,
+      "titre": "Le foyer",
+      "texte": "Représente la base émotionnelle, le foyer, la famille, l’héritage intérieur, l’immobilier et le jardin secret."
+    },
+    {
+      "maison": 5,
+      "titre": "La créativité",
+      "texte": "Concerne les amours, les enfants, les plaisirs, les jeux, la scène et l’expression créative de soi."
+    },
+    {
+      "maison": 6,
+      "titre": "Le quotidien",
+      "texte": "Décrit le travail de routine, la santé physique, le service, l’hygiène de vie, les subalternes et les animaux domestiques."
+    },
+    {
+      "maison": 7,
+      "titre": "L’altérité",
+      "texte": "Montre le type de partenaire recherché, la capacité à s’associer, la vie conjugale et les engagements formels."
+    },
+    {
+      "maison": 8,
+      "titre": "Les transformations",
+      "texte": "Régit les crises, la sexualité, les héritages, l’argent des autres, les pertes, les métamorphoses et l’occulte."
+    },
+    {
+      "maison": 9,
+      "titre": "L’expansion",
+      "texte": "Concerne les hautes études, la philosophie, la religion, les voyages lointains, la loi et la quête de sens."
+    },
+    {
+      "maison": 10,
+      "titre": "La réussite",
+      "texte": "Parle de l’ambition, du statut social, de la carrière, de l’autorité et de l’image publique."
+    },
+    {
+      "maison": 11,
+      "titre": "Les projets",
+      "texte": "Montre les amitiés, les appuis, les espoirs, les projets collectifs et la place dans les groupes."
+    },
+    {
+      "maison": 12,
+      "titre": "L’inconscient",
+      "texte": "Régit les épreuves cachées, la solitude, le retrait, la spiritualité, le karma et tout ce qui échappe à la pleine visibilité."
+    }
+  ],
+  "signesTitle": "Les cuspides à travers les 12 signes",
+  "signesIntro": "Le signe placé sur la cuspide montre la manière dont le domaine de la maison sera vécu. Il ne change pas le thème fondamental de la maison, mais il en modifie fortement le style d’expression.",
+  "signesParElement": [
+    {
+      "element": "Signes de Feu",
+      "signes": [
+        {
+          "signe": "Bélier",
+          "texte": "Apporte de l’impulsivité, de l’énergie, une manière directe d’aborder le domaine de la maison, avec besoin d’initiative, d’action et parfois de combat."
+        },
+        {
+          "signe": "Lion",
+          "texte": "Apporte de la noblesse, un besoin de reconnaissance, une volonté de rayonner et d’être fier de ce domaine de vie."
+        },
+        {
+          "signe": "Sagittaire",
+          "texte": "Apporte de l’optimisme, un goût d’expansion, un besoin d’apprendre, de grandir ou de voyager dans ce domaine."
+        }
+      ]
+    },
+    {
+      "element": "Signes de Terre",
+      "signes": [
+        {
+          "signe": "Taureau",
+          "texte": "Apporte de la stabilité, de la lenteur, un besoin de sécurité matérielle, de confort et de durée."
+        },
+        {
+          "signe": "Vierge",
+          "texte": "Apporte de l’analyse, du perfectionnisme, de la méthode et un sens du service ou de l’utilité."
+        },
+        {
+          "signe": "Capricorne",
+          "texte": "Apporte de la structure, de la discipline, une logique d’effort et une ambition à long terme."
+        }
+      ]
+    },
+    {
+      "element": "Signes d’Air",
+      "signes": [
+        {
+          "signe": "Gémeaux",
+          "texte": "Apporte de la curiosité, de la polyvalence, de la communication et un besoin de mouvement ou d’échange."
+        },
+        {
+          "signe": "Balance",
+          "texte": "Apporte un besoin d’harmonie, de justice, de diplomatie et de compromis."
+        },
+        {
+          "signe": "Verseau",
+          "texte": "Apporte de l’originalité, de l’indépendance, une vision futuriste et le besoin de se démarquer ou d’innover."
+        }
+      ]
+    },
+    {
+      "element": "Signes d’Eau",
+      "signes": [
+        {
+          "signe": "Cancer",
+          "texte": "Apporte de la sensibilité, de la protection, une mémoire émotionnelle et un besoin de refuge ou de sécurité affective."
+        },
+        {
+          "signe": "Scorpion",
+          "texte": "Apporte de l’intensité, du secret, de la profondeur et un besoin de transformation ou de contrôle."
+        },
+        {
+          "signe": "Poissons",
+          "texte": "Apporte de l’intuition, de l’empathie, du flou, une porosité psychique et parfois un besoin de fusion ou d’évasion."
+        }
+      ]
+    }
+  ],
+  "conjunctionsTitle": "Planètes en conjonction aux cuspides",
+  "conjunctionsIntro": "Lorsqu’une planète se trouve à proximité immédiate d’une cuspide, elle colore fortement tout le domaine de vie concerné. Elle agit comme un filtre direct, une force de passage entre la maison et l’expérience vécue.",
+  "conjunctions": [
+    {
+      "titre": "Jupiter conjoint à l’Ascendant",
+      "texte": "Confère une aura d’optimisme, de chance, de générosité et de bienveillance. Le corps peut aller vers l’expansion. La personnalité apparaît protectrice, large ou charismatique."
+    },
+    {
+      "titre": "Pluton conjoint au Milieu du Ciel",
+      "texte": "Marque un destin professionnel intense, traversé par des crises, des renaissances, des enjeux de pouvoir ou de transformation radicale du statut social."
+    },
+    {
+      "titre": "Le Soleil dans une maison",
+      "texte": "Là où se trouve le Soleil, c’est là où l’être doit briller. Ce domaine nourrit la vitalité, la conscience de soi et le besoin d’accomplissement."
+    }
+  ],
+  "maitreTitle": "La dynamique du maître de maison",
+  "maitreIntro": [
+    "Le signe sur la cuspide donne la couleur du domaine. Le maître du signe montre où cette énergie se déplace dans le thème.",
+    "Autrement dit, la cuspide indique l’ambiance de départ, mais la position du maître en maison révèle la destination de l’énergie et la manière dont le domaine se réalise concrètement.",
+    "La lecture d’une maison devient donc beaucoup plus précise lorsqu’on relie la cuspide, son signe, son maître, la maison où se trouve ce maître et les aspects qu’il reçoit."
+  ],
+  "caseStudiesTitle": "Analyse de cinq cas pratiques",
+  "caseStudies": [
+    {
+      "titre": "Maison II en Capricorne + Saturne en Maison VI en Gémeaux",
+      "porte": "Les finances sont abordées avec sérieux, prudence, lenteur et besoin de sécurité construite.",
+      "gerant": "Saturne en VI en Gémeaux indique un gain lié au travail quotidien, à la technique, à la communication, à la méthode ou à l’habileté intellectuelle.",
+      "interpretation": "L’argent vient de la persévérance, d’une discipline de travail, d’une compétence répétée ou d’un savoir-faire méthodique."
+    },
+    {
+      "titre": "Maisons V et VI en Taureau + Vénus en Scorpion en Maison XII",
+      "porte": "Le sujet cherche la stabilité et le confort sensoriel dans ses amours, ses plaisirs et son travail quotidien.",
+      "gerant": "Vénus en Scorpion en XII introduit une profondeur cachée, une vie affective intense, secrète ou complexe, ainsi qu’un rapport plus invisible au travail.",
+      "interpretation": "Les amours peuvent être clandestines, intérieures ou tourmentées ; la créativité et le travail peuvent se nourrir de solitude, de retrait ou de profondeur psychique."
+    },
+    {
+      "titre": "Maison X en Balance + Vénus en Scorpion en Maison XII",
+      "porte": "L’image publique semble diplomate, raffinée, relationnelle ou esthétique.",
+      "gerant": "Vénus en Scorpion en XII déplace la réussite sociale dans des forces cachées, des épreuves transformatrices, des sacrifices ou un travail de l’ombre.",
+      "interpretation": "La carrière peut être liée à la psychologie, à la stratégie, au secret, à la discrétion ou à une profonde métamorphose de réputation."
+    },
+    {
+      "titre": "Maison VII en Gémeaux + Mercure en Scorpion en Maison XII",
+      "porte": "On attire des partenaires communicatifs, mobiles, jeunes d’esprit ou intellectuels.",
+      "gerant": "Mercure en Scorpion en XII donne au partenaire une face secrète, un esprit complexe, profond ou difficile à lire.",
+      "interpretation": "Les relations peuvent être marquées par les non-dits, une communication souterraine, des liens karmiques ou des enjeux psychologiques cachés."
+    },
+    {
+      "titre": "Maison IV en Sagittaire + Jupiter en Maison I en Bélier",
+      "porte": "Le foyer est vécu comme un lieu d’expansion, d’aventure, de philosophie ou d’ouverture.",
+      "gerant": "Jupiter en I en Bélier renforce directement l’identité, la confiance, l’élan et la capacité à s’affirmer.",
+      "interpretation": "L’héritage familial a pu transmettre confiance, vision, foi ou énergie d’action. La personne porte ses racines en elle avec force."
+    }
+  ],
+  "masterInHouseTitle": "Le maître de la cuspide en maison",
+  "masterInHouse": [
+    {
+      "titre": "Maître de I en X",
+      "texte": "La vie est fortement tournée vers l’accomplissement, la vocation, la réussite sociale et la construction d’une réputation."
+    },
+    {
+      "titre": "Maître de II en VIII",
+      "texte": "L’argent personnel est lié aux ressources des autres, aux héritages, aux dettes, aux crises ou aux enjeux de dépendance matérielle."
+    },
+    {
+      "titre": "Maître de IV en VII",
+      "texte": "La vie privée, le foyer ou la famille dépendent fortement du partenaire, du mariage ou des contrats."
+    },
+    {
+      "titre": "Maître de VII en XII",
+      "texte": "Le partenaire peut devenir une source d’épreuve, de secret, de retrait ou de lien karmique."
+    }
+  ],
+  "masterAspectsTitle": "Les aspects entre maîtres de maisons",
+  "masterAspects": [
+    {
+      "titre": "Trigone ou sextile entre maître de II et maître de X",
+      "texte": "Signature classique d’une relative facilité financière par la profession. Le flux entre argent et carrière circule plus facilement."
+    },
+    {
+      "titre": "Carré entre maître de I et maître de VII",
+      "texte": "Tension entre les besoins du moi et les exigences du couple ou du partenariat. Des ajustements permanents sont souvent nécessaires."
+    },
+    {
+      "titre": "Opposition entre maître de IV et maître de X",
+      "texte": "Dilemme classique entre vie privée et vie publique, entre foyer et carrière, entre sécurité intérieure et ambition sociale."
+    }
+  ],
+  "interceptedTitle": "Les maisons interceptées",
+  "intercepted": [
+    "Dans certains systèmes de domification, surtout pour les naissances éloignées de l’équateur, un signe entier peut se retrouver contenu dans une maison sans qu’aucune cuspide n’y tombe. On parle alors de signe intercepté.",
+    "L’énergie de ce signe est souvent plus difficile d’accès, comme retenue, intériorisée, ralentie ou bloquée jusqu’à ce qu’un travail de conscience permette de la libérer.",
+    "À l’inverse, lorsqu’un même axe de signes accueille deux cuspides, cela suggère que certains domaines de vie sont étroitement dépendants l’un de l’autre et se répondent plus directement."
+  ],
+  "conclusionTitle": "Conclusion",
+  "conclusion": [
+    "La cuspide est le point de contact entre le zodiaque immuable et l’expérience humaine terrestre. Elle marque l’entrée vivante d’un domaine de vie dans le thème natal.",
+    "Analyser la cuspide, son signe et son maître permet de comprendre non seulement ce que représente la maison, mais aussi la manière dont elle sera vécue, et vers quel autre domaine son énergie se déplacera.",
+    "L’astrologie ne lit pas des facteurs isolés. Elle lit des réseaux de connexions. Les cuspides sont des portes, les maîtres de maisons sont les gérants de ces portes, et les aspects montrent les alliances, les tensions ou les détours du destin."
+  ],
+  "methodeTitle": "Méthode d’interprétation",
+  "methode": [
+    "Regardez la cuspide : quel est le signe ? C’est l’ambiance du domaine.",
+    "Regardez s’il y a une planète près de la cuspide : elle agit comme filtre immédiat.",
+    "Cherchez le maître du signe de la cuspide : dans quelle maison se trouve-t-il ? C’est la destination de l’énergie.",
+    "Analysez ses aspects : ils montrent si cette énergie est soutenue, contrariée, amplifiée ou compliquée."
+  ],
+  "faqTitle": "Questions fréquentes",
+  "faq": [
+    {
+      "question": "Qu’est-ce qu’une cuspide en astrologie ?",
+      "answer": "Une cuspide est le degré précis où commence une maison astrologique. Elle agit comme la porte d’entrée d’un domaine de vie."
+    },
+    {
+      "question": "Pourquoi le signe sur la cuspide est-il important ?",
+      "answer": "Parce qu’il colore toute l’expérience de la maison. Il indique la manière, l’ambiance et le style selon lesquels ce domaine de vie sera vécu."
+    },
+    {
+      "question": "Qu’est-ce que le maître de maison ?",
+      "answer": "C’est la planète qui gouverne le signe placé sur la cuspide. Elle montre où l’énergie de la maison se déplace et se réalise dans le thème."
+    },
+    {
+      "question": "Une planète sur une cuspide est-elle importante ?",
+      "answer": "Oui. Une planète proche d’une cuspide agit souvent comme un filtre très fort du domaine concerné et devient particulièrement visible dans la vie."
+    }
+  ]
+}
