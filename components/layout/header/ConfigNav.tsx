@@ -11,15 +11,15 @@ export type Item = {
 };
 
 export function glyph(symbol: string): Item["icon"] {
-  return ({ className, ...props }) => (
-    <AstroGlyphTextIcon symbol={symbol} className={className} {...props} />
-  );
+  return function GlyphIcon({ className, ...props }) {
+    return <AstroGlyphTextIcon symbol={symbol} className={className} {...props} />;
+  };
 }
 
 export function roman(r: string): Item["icon"] {
-  return ({ className, ...props }) => (
-    <HouseRomanIcon roman={r} className={className} boxed={true} {...props} />
-  );
+  return function RomanIcon({ className, ...props }) {
+    return <HouseRomanIcon roman={r} className={className} boxed={true} {...props} />;
+  };
 }
 
 export const planetes: Item[] = [
@@ -50,15 +50,19 @@ export const zodiaque: Item[] = [
   { name: "Poissons", description: "Empathie et imaginaire", href: "/signes/poissons", icon: glyph("♓") },
 ];
 
-export const maisons: Item[] = Array.from({ length: 12 }, (_, i) => ({
-  name: `Maison ${["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][i]}`,
-  description: [
+export const maisons: Item[] = Array.from({ length: 12 }, (_, i) => {
+  const romans = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
+  const descriptions = [
     "Identité", "Ressources", "Communication", "Racines", "Plaisir", "Santé",
     "Relations", "Transformation", "Horizons", "Vocation", "Projets", "Inconscient"
-  ][i],
-  href: `/maisons/maison-${i + 1}` as Route,
-  icon: roman(["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"][i]),
-}));
+  ];
+  return {
+    name: `Maison ${romans[i]}`,
+    description: descriptions[i],
+    href: `/maisons/maison-${i + 1}` as Route,
+    icon: roman(romans[i]),
+  };
+});
 
 export const autre: Item[] = [
   { name: "Cuspides", description: "Portes des maisons", href: "/cuspides-des-maisons", icon: glyph("⌂") },
