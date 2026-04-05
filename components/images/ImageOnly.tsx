@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroAstro from "@/public/images/astro-cours.webp"
+import HeroAstro from "@/public/images/astro-cours-l.webp"
 
 
 export default function ImageOnly() {
@@ -10,11 +10,13 @@ export default function ImageOnly() {
         alt="Illustration d'une magnifique pleine Lune"
         fill
         priority
+        fetchPriority="high" 
+        quality={85}
         className="object-cover object-center"
         sizes="100vw"
       />
       <div 
-        aria-hidden="true" 
+        aria-hidden={true}
         className="absolute inset-0 bg-gradient-to-b from-[#09090b]/40 via-transparent to-transparent" 
       />
     </div>
