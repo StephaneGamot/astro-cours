@@ -62,8 +62,10 @@ export const maisons: Item[] = Array.from({ length: 12 }, (_, i) => ({
 
 export const autre: Item[] = [
   { name: "Cuspides", description: "Portes des maisons", href: "/cuspides-des-maisons", icon: glyph("⌂") },
+  { name: "Maisons Dérivées", description: "Le thème de l'entourage", href: "/maisons-derivees", icon: glyph("⟲") },
   { name: "Rév. Solaire", description: "Le thème de l'année", href: "/revolution-solaire", icon: glyph("↻") },
   { name: "Points fictifs", description: "Parts, Vertex, Mi-points...", href: "/points-fictifs", icon: glyph("⊗") },
+  { name: "Les Décans", description: "Les 36 visages du zodiaque", href: "/les-decans", icon: glyph("★") },
   { name: "Maîtrises", description: "Dignités planétaires", href: "/maitrises", icon: glyph("🜊") },
   { name: "Aspects", description: "Géométrie céleste", href: "/aspects", icon: glyph("△") },
   { name: "Rétrogrades", description: "Mouvements de recul", href: "/retrogrades", icon: glyph("℞") },

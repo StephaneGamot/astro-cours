@@ -1,0 +1,147 @@
+{
+  "slug": "les-decans",
+  "title": "Les 36 Décans : Le Micro-Zodiaque et ses Nuances Cachées",
+  "description": "Découvrez l'origine égyptienne et l'utilisation astrologique secrète des 36 décans. Plongez dans les sous-influences planétaires de chaque signe pour affiner l'interprétation de votre thème natal avec une précision redoutable.",
+  "introduction": [
+    "L’origine des décans (parfois appelés faces ou décanates) est extrêmement ancienne. Dès 2100 ans avant J.-C., les prêtres et astronomes égyptiens utilisaient déjà 36 groupes d’étoiles pour mesurer le temps. Chaque décan apparaissait à l’aube du côté de l'ascendant pour une durée d'une dizaine de jours.",
+    "L'année comptait alors 36 décans totalisant 360 jours, auxquels s'ajoutaient cinq jours épagomènes. À cette époque, ces étoiles n'étaient pas de simples marqueurs : elles étaient liées à des divinités protectrices et à de puissantes pratiques de magie et de guérison.",
+    "Vers le 2e siècle avant J.-C., ce système égyptien a été absorbé par l'astrologie hellénistique. Le zodiaque des 12 signes a été mathématiquement divisé en trois parties égales de 10 degrés chacune. Cela nous donne notre matrice parfaite : 3 décans par signe, soit 36 décans pour l'ensemble de la roue zodiacale."
+  ],
+  "definition": [
+    "Aujourd’hui, les décans sont principalement utilisés pour apporter de la nuance au sein d’un même signe. Une planète en Bélier ne s'exprimera pas de la même façon à 2° (1er décan) qu'à 25° (3e décan).",
+    "Chaque décan est associé à une planète gouvernante secondaire. Le système le plus fiable et le plus ancien est basé sur l'Ordre Chaldéen des planètes, de la plus lente à la plus rapide : Saturne, Jupiter, Mars, Soleil, Vénus, Mercure, et la Lune.",
+    "Dans le calcul complexe des dignités essentielles (pour trouver l'Almuten d'un thème), une planète située dans son propre décan (ou 'face') bénéficie d'une dignité mineure, lui accordant 1 point de force."
+  ],
+  "utilisationsTitle": "L'Utilisation Technique des Décans",
+  "utilisationsIntro": "Les décans ne servent pas uniquement à la psychologie, ils sont des outils techniques de haute volée en astrologie traditionnelle et médicale.",
+  "utilisations": [
+    {
+      "domaine": "L'Ascendant et la Morphologie",
+      "texte": "Dans l’étude de la Maison I, le décan où se trouve le degré de l'Ascendant donnera des détails cruciaux pour décrire l'apparence physique et la morphologie intime du natif."
+    },
+    {
+      "domaine": "L'Astrologie Médicale (Décombitures)",
+      "texte": "Bien qu'il n'y ait pas de partie du corps stricte attribuée aux décans, l'astrologue médical s'en sert pour ajuster son diagnostic lors de l'étude du thème de la maladie (la décombiture)."
+    },
+    {
+      "domaine": "Le Calcul de la Durée (Alcocoden)",
+      "texte": "Dans les techniques médiévales prédictives, la position du donneur d'années (Alcocoden) en décan permet d'affiner l'espérance de vie et la vitalité à long terme."
+    },
+    {
+      "domaine": "Les Profections Annuelles",
+      "texte": "Dans cette technique prédictive reine, on observe la position exacte du maître de l'année au sein de son décan pour colorer les événements des 12 mois à venir."
+    }
+  ],
+  "signesTitle": "L'Encyclopédie des 36 Décans",
+  "signesIntro": "Voici l'analyse des 36 décans basée sur le système chaldéen, enrichie par les travaux de Manilius et les synthèses hermétiques de C.C. Zain.",
+  "signes": [
+    {
+      "nom": "Bélier",
+      "essence": "L’envie viscérale de démarrer, d’entreprendre et de conquérir.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Mars", "titre": "Le Pionnier / L'Activité", "texte": "L’énergie brute. L’impulsion est franche, c’est le guerrier éclaireur, celui qui ouvre la voie sans demander la permission. Enthousiasme, ardeur, parfois vengeance.", "facilites": "Capacité de démarrage phénoménale. Idéal pour lancer des projets ou briser des tabous.", "difficultes": "Apprendre la patience et canaliser l'irritabilité. Sans cible, c'est de la pure agitation." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Soleil", "titre": "Le Leader / L'Exaltation", "texte": "L’influence solaire apporte une dimension sociale et noble. Ce n’est plus seulement agir, c’est personnifier l'action. Amour du pouvoir, magnanimité, commandement.", "facilites": "Charisme naturel et grande loyauté. Il sait inspirer les foules.", "difficultes": "L’orgueil. Le besoin viscéral de reconnaissance." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Vénus", "titre": "L’Artiste Passionné / La Propagande", "texte": "L’impulsion est adoucie par une recherche de beauté. Les énergies sont orientées vers un idéal, une philosophie ou l'amour passionnel.", "facilites": "Grande créativité et idéalisme. Brûler pour une cause avec élégance.", "difficultes": "L’instabilité émotionnelle. Le conflit entre action martienne et douceur vénusienne." }
+      ]
+    },
+    {
+      "nom": "Taureau",
+      "essence": "Agit paisiblement, consolide, et ancre la matière avec endurance.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Mercure", "titre": "L'Esprit Pratique / La Détermination", "texte": "L'intelligence appliquée à la matière. Le constructeur qui réfléchit avant d’agir. Souci des richesses, parfois au point d'en être timide ou secret.", "facilites": "Analyse concrète, habileté commerciale et intuition matérielle.", "difficultes": "Sur-intellectualiser ses besoins ou céder à la peur de manquer." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Lune", "titre": "Le Protecteur / La Lutte", "texte": "Le sommet du lien avec la nature et la famille. Besoin d’un foyer sécurisant. Fixité dans les objectifs et grand potentiel artistique.", "facilites": "Grande empathie, talent pour créer la paix et succès politique potentiel.", "difficultes": "Attachement excessif au passé et obsession du confort matériel." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Saturne", "titre": "Le Bâtisseur / La Maîtrise", "texte": "La structure et l’endurance absolue. C'est le travailleur acharné. Confère de remarquables aptitudes initiatiques s'il triomphe des limites physiques.", "facilites": "Autorité naturelle, projets à très long terme, immense ambition.", "difficultes": "La solitude engendrée par une trop grande exigence envers soi-même." }
+      ]
+    },
+    {
+      "nom": "Gémeaux",
+      "essence": "Le mouvement perpétuel, la circulation de l'information et des idées.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Jupiter", "titre": "L'Explorateur / L'Intuition", "texte": "La soif de connaissances vastes. Assimilation facile, c'est le décan des géants intellectuels qui cherchent le 'pourquoi' de toute chose.", "facilites": "Aisance sociale, optimisme, capacité à voir des opportunités partout.", "difficultes": "Tendance à l’exagération et à l'éparpillement." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Mars", "titre": "Le Jouteur / La Fidélité", "texte": "Le feu rencontre l’air. Personnalité dynamique, prompte à la répartie. La communication est une arme, mais guidée par une forte conscience et fidélité à l'idéal.", "facilites": "Esprit combatif, exécution rapide, talent pour convaincre.", "difficultes": "Impatience verbale et ironie blessante." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Soleil", "titre": "Le Luminaire / La Raison", "texte": "Le Soleil illumine le mental. Ce décan cherche à briller par ses idées et son réseau. Intelligence aiguë et grande clarté conceptuelle.", "facilites": "Clarté d’expression, rayonnement intellectuel, sens de l’organisation.", "difficultes": "Besoin de trop briller par l’esprit pour contenter un ego insécurisé." }
+      ]
+    },
+    {
+      "nom": "Cancer",
+      "essence": "L’émotion pure, la mémoire karmique et le besoin viscéral de protection.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Vénus", "titre": "L'Âme Sensible / Les Caprices", "texte": "Vénus adoucit la nature lunaire. Amour profond du foyer, grande sensibilité dramatique et poétique. Intrigues amoureuses fréquentes.", "facilites": "Sens de l’accueil réconfortant, dévouement absolu envers les siens.", "difficultes": "Dépendance affective marquée et difficulté chronique à dire 'non'." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Mercure", "titre": "Le Conteur / La Révélation", "texte": "Une vivacité d’esprit qui analyse les émotions. C’est le décan des écrivains et des médiums. Énergie et ressources insoupçonnées.", "facilites": "Capacité remarquable à mettre des mots sur les ressentis profonds.", "difficultes": "Nervosité intérieure. Nécessité de séparer le mental du tumulte émotionnel." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Lune", "titre": "Le Rêveur / La Recherche", "texte": "La Lune dans son domicile absolu. Mystère, imagination débordante, amour de la nature et de ses secrets enfouis.", "facilites": "Intuition frôlant la voyance, mémoire émotionnelle hors du commun.", "difficultes": "Humeur extrêmement changeante (lunatique) et insatisfaction latente." }
+      ]
+    },
+    {
+      "nom": "Lion",
+      "essence": "L'énergie du rayonnement, la fierté d'être et la force créatrice.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Saturne", "titre": "Le Souverain / Le Commandement", "texte": "La chaleur du Lion structurée par Saturne. Ambition sérieuse, sens des responsabilités. C'est le bâtisseur d'empire qui commande avec fougue.", "facilites": "Volonté inébranlable et persévérance supérieure à la moyenne.", "difficultes": "Austérité apparente, peur de l’échec cachée sous le besoin d’admiration." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Jupiter", "titre": "Le Magnanime / La Réforme", "texte": "Le Lion à son apogée sociale. Enthousiasme, honneurs. Courage des opinions et aptitude à convaincre pour réformer la société.", "facilites": "Charisme irrésistible, générosité, capacité d'influence massive.", "difficultes": "Excès de confiance, orgueil et théâtralité excessive." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Mars", "titre": "Le Champion / L'Ambition", "texte": "Le feu solaire s’unit au feu guerrier. Il n’attend pas la couronne, il la conquiert. Amour du pouvoir combiné au talent de meneur d'hommes.", "facilites": "Énergie inépuisable pour défendre ses proches ou ses idéaux.", "difficultes": "Susceptibilité extrême. Ne supporte aucune forme de résistance." }
+      ]
+    },
+    {
+      "nom": "Vierge",
+      "essence": "L’analyse méthodique, la purification et le dévouement absolu au service.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Soleil", "titre": "Le Perfectionniste / L'Achèvement", "texte": "Volonté de perfectionner son environnement. La Vierge qui cherche à briller par la qualité irréprochable de son travail. Esprit en perpétuelle activité.", "facilites": "Sens du détail hors pair, loyauté totale, assimilation parfaite.", "difficultes": "Autocritique paralysante. Le besoin d'être indispensable fatigue son entourage." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Vénus", "titre": "L'Artisan / L'Expérience", "texte": "Le charme et la diplomatie s'allient à la méthode. Goût pour la beauté, le soin. Aptitudes à entreprendre des travaux expérimentaux gigantesques.", "facilites": "Diplomatie naturelle, talent pour harmoniser le quotidien.", "difficultes": "Pudeur excessive, difficulté à exprimer ses vulnérabilités." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Mercure", "titre": "L'Expert / La Renonciation", "texte": "Mercure en exaltation et domicile. Radar intellectuel absolu. Ce décan prédispose au travail acharné pour autrui, parfois jusqu'au sacrifice.", "facilites": "Logique mathématique, analyse fulgurante, expertise technique.", "difficultes": "Anxiété chronique, nervosité et tendance hypocondriaque." }
+      ]
+    },
+    {
+      "nom": "Balance",
+      "essence": "La quête d'équilibre, l’harmonie sociale et l'esthétisme de la relation.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Lune", "titre": "Le Conciliateur / La Politique", "texte": "Réceptivité immense aux ambiances. Besoin viscéral de paix. Énergie créatrice dans l'association humaine. Ne supporte pas la solitude.", "facilites": "Charme désarmant, douceur, grande intelligence sociale.", "difficultes": "Humeur fluctuante, incapacité à trancher par peur de déplaire." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Saturne", "titre": "L'Arbitre / L'Indépendance", "texte": "Saturne (exalté ici) apporte une intégrité de fer. C'est la Balance qui défend la Loi. Révolte contre la contrainte et militantisme.", "facilites": "Sagesse d'arbitrage, responsabilité, fidélité aux principes.", "difficultes": "Froideur émotionnelle et niveau d'exigence invivable en couple." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Jupiter", "titre": "Le Rassembleur / L'Expiation", "texte": "Décan extraverti, mondain et optimiste. Goût pour les plaisirs. Voisinage astrologique du Scorpion qui demande parfois de lourds sacrifices.", "facilites": "Générosité, talent d'organisateur, succès littéraire ou mondain.", "difficultes": "Snobisme, dépenses luxueuses, superficialité relationnelle." }
+      ]
+    },
+    {
+      "nom": "Scorpion",
+      "essence": "L’énergie intérieure brute, la transformation, la mort et la régénération.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Mars", "titre": "Le Survivant / L'Abondance", "texte": "Mars en domicile nocturne. Énergie brute, instinctive. Impulsions sexuelles fortes et magnétisme vital offrant des dons de guérison.", "facilites": "Capacité inouïe à surmonter les traumatismes. Force de frappe redoutable.", "difficultes": "Agressivité défensive, paranoïa et rancune tenace." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Soleil", "titre": "Le Stratège / La Responsabilité", "texte": "Le Soleil éclaire les abysses. Présence intimidante, grand besoin de contrôle. Appelé à sacrifier la partie animale pour s'élever.", "facilites": "Charisme silencieux, loyauté absolue, pouvoir d'attraction mafieux.", "difficultes": "Orgueil occulte, soif de pouvoir dévorante et manipulatrice." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Vénus", "titre": "L'Alchimiste / Le Talent", "texte": "Romantisme noir et passion dévastatrice. Émotions extrêmes. Si la pulsion est sublimée, elle mène aux sommets du talent artistique et spirituel.", "facilites": "Immense capacité d'aimer, esthétisme profond, sublimation.", "difficultes": "Jalousie maladive, autodestruction par peur de l'abandon." }
+      ]
+    },
+    {
+      "nom": "Sagittaire",
+      "essence": "L’expansion spatiale et spirituelle, la quête de sens et l'enthousiasme.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Mercure", "titre": "Le Chercheur / La Piété", "texte": "L'étudiant éternel. Curiosité, langues, transmission. Porte à la conscience cosmique et à un amour inconditionnel du vivant.", "facilites": "Agilité intellectuelle, talent d'orateur et ouverture d'esprit.", "difficultes": "Éparpillement chronique, parole plus rapide que la pensée." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Lune", "titre": "Le Nomade / L'Exploration", "texte": "Dimension instinctive. Instinct migrateur et pionnier. Voyage sans cesse (physiquement ou mentalement) pour trouver son foyer cosmique.", "facilites": "Intuition philosophique, adaptabilité culturelle totale.", "difficultes": "Fuite en avant dès que le quotidien devient lourd ou routinier." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Saturne", "titre": "Le Sage / L'Illumination", "texte": "Saturne stabilise la flamme. Sagesse, loi, dogme. Le plus haut état de conscience s'il transmute son énergie animale en vérité durable.", "facilites": "Persévérance rare, autorité morale, talent d'enseignant supérieur.", "difficultes": "Sévérité, dogmatisme et complexe de supériorité spirituelle." }
+      ]
+    },
+    {
+      "nom": "Capricorne",
+      "essence": "L’ambition verticale, la structure du temps et l'accomplissement social.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Jupiter", "titre": "Le PDG / L'Organisation", "texte": "Vision large couplée au pragmatisme. Précurseur de systèmes. Il sait saisir la chance pour gravir la montagne sociale.", "facilites": "Sens aiguisé des affaires, organisation politique ou corporative.", "difficultes": "Opportunisme froid, insatisfaction malgré les victoires matérielles." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Mars", "titre": "Le Forçat / Le Martyre", "texte": "Mars en exaltation. Bourreau de travail infatigable. Tire parti de toute ambiance et peut se sacrifier pour l'évolution d'une œuvre.", "facilites": "Endurance physique et résilience mentale littéralement surhumaines.", "difficultes": "Dureté extrême envers lui-même, risque majeur de burn-out." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Saturne", "titre": "L'Ermite / L'Idéalisme", "texte": "Saturne en double dignité. Sobriété, intégrité, patience absolue. Aptitude à concrétiser l'idéal par un labeur solitaire intense.", "facilites": "Fiabilité infaillible, sagesse qui s'embellit avec la vieillesse.", "difficultes": "Pessimisme, froideur et isolement du monde des plaisirs." }
+      ]
+    },
+    {
+      "nom": "Verseau",
+      "essence": "L’innovation radicale, la fraternité humaine et la liberté intellectuelle.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Vénus", "titre": "Le Réformateur / L'Originalité", "texte": "Besoin de plaire tout en restant indépendant. Amitiés amoureuses. Inventivité folle pour rendre la société plus belle et libre.", "facilites": "Tolérance totale, charme hors-norme, vision esthétique d'avant-garde.", "difficultes": "Déchirement permanent entre besoin d'attachement et soif de liberté." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Mercure", "titre": "L'Inventeur / L'Inspiration", "texte": "Agilité mentale décuplée. L'intellectuel en avance sur son temps. Ressources inépuisables et informations 'téléchargées' de l'invisible.", "facilites": "Génie technologique, solutions foudroyantes face aux impasses.", "difficultes": "Froideur cynique, nervosité cérébrale, déconnexion du corps." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Lune", "titre": "L'Humaniste / La Répression", "texte": "Émotion injectée dans la rébellion. S'investit corps et âme pour le collectif. Répression des désirs charnels au profit de la 'cause'.", "facilites": "Dévouement écologique ou social sincère, imagination utopiste.", "difficultes": "Humeur erratique, instabilité et refus du bonheur individuel." }
+      ]
+    },
+    {
+      "nom": "Poissons",
+      "essence": "La dissolution de l'ego, l'océan mystique et l'empathie universelle.",
+      "decans": [
+        { "numero": 1, "degres": "0° à 10°", "planete": "Saturne", "titre": "L'Initié / La Vérité", "texte": "Sagesse silencieuse. Saturne structure le flou des Poissons. Mysticisme, voyance latente, et compréhension ésotérique des phénomènes.", "facilites": "Concentration méditative profonde, intégrité spirituelle.", "difficultes": "Mélancolie, phobies, repli autistique pour se protéger du monde." },
+        { "numero": 2, "degres": "10° à 20°", "planete": "Jupiter", "titre": "Le Guérisseur / Le Sacrifice", "texte": "Jupiter en domicile. Bienveillance infinie, foi inébranlable. Mission de soulager les maux physiques et moraux d'autrui.", "facilites": "Optimisme salvateur, dons de soin, canalisation spirituelle.", "difficultes": "Aucune frontière psychique : syndrome du sauveur/martyr épuisant." },
+        { "numero": 3, "degres": "20° à 30°", "planete": "Mars", "titre": "L'Engagé / Les Vicissitudes", "texte": "Mars active le rêveur. Il incarne ses visions avec passion. Multiplicité des carrières, adaptabilité miraculeuse à toutes les vicissitudes.", "facilites": "Créativité agissante, force insoupçonnable sous l'apparente douceur.", "difficultes": "Tempêtes émotionnelles, chaos existentiel et autosabotage." }
+      ]
+    }
+  ]
+}

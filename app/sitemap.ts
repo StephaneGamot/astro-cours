@@ -26,6 +26,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "synastrie",
     "revolution-solaire",
     "asteroides",
+    "cuspides-des-maisons",
+"les-decans",
+    "maisons-derivees"
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({

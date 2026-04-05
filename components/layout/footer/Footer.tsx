@@ -42,6 +42,8 @@ const annexes = [
   { name: "Synastrie", href: "/synastrie" },
   { name: "Révolutions solaires", href: "/revolution-solaire" },
   { name: "Astéroïdes", href: "/asteroides" },
+    { name: "Décans du zodiaque", href: "/les-decans" },
+  { name: "Maisons dérivées", href: "/maisons-derivees" },
 ];
 
 const legal = [

@@ -1,0 +1,157 @@
+{
+  "slug": "maisons-derivees",
+  "title": "Les Maisons Dérivées : L'Art de Lire Entre les Lignes du Thème Astral",
+  "description": "Découvrez la technique secrète des maisons dérivées en astrologie. Apprenez comment une seule carte du ciel contient le destin de votre famille entière (ex-femme, oncles, neveux) grâce au principe de rotation du zodiaque.",
+  "introduction": [
+    "Imaginez que votre thème astral ne soit pas seulement une carte de votre propre psyché, mais un hologramme cosmique contenant les vies de tous ceux qui vous entourent. C'est exactement la promesse de la technique astrologique des maisons dérivées.",
+    "Issue de la tradition hellénistique et popularisée par l'astrologie horaire et médiévale, cette méthode permet de transformer n'importe quelle maison astrologique en un nouvel Ascendant (Maison I). Ainsi, la roue du zodiaque pivote pour révéler les finances de votre partenaire, la carrière de votre mère, ou même les secrets de votre oncle.",
+    "Bien que redoutablement puissante, cette technique demande une rigueur mathématique et une grande clarté d'esprit. Plongeons dans cette mécanique céleste pour en maîtriser toutes les arborescences."
+  ],
+  "definition": [
+    "Les Maisons dérivées reposent sur un axiome fondamental : chaque Maison astrologique de votre thème natal peut être considérée comme la Maison I d'une autre personne.",
+    "Pour utiliser cette technique, on compte à partir de la maison 'Pivot' (celle qui représente la personne étudiée) en l'incluant toujours comme la Maison 1 de cette personne.",
+    "Par exemple, si vous voulez connaître les finances de votre conjoint, vous prenez la Maison VII (le conjoint) comme point de départ. Ses finances correspondent à sa Maison II. Vous comptez donc deux maisons à partir de la VII (VII compte pour 1, VIII compte pour 2). Les finances du conjoint se lisent donc dans votre Maison VIII natale."
+  ],
+  "reglesTitle": "La Règle d'Or du Comptage",
+  "reglesIntro": "La principale erreur des étudiants en astrologie réside dans le calcul. En astrologie, le comptage est toujours inclusif. Il n'y a pas de 'zéro'.",
+  "regles": [
+    {
+      "etape": 1,
+      "nom": "Le Pivot Principal",
+      "texte": "Identifiez la maison qui représente la personne visée. Ex: La Maison III pour un frère, la Maison X pour la mère, la Maison VI pour un employé."
+    },
+    {
+      "etape": 2,
+      "nom": "L'Objet de la Question",
+      "texte": "Que cherchez-vous à savoir sur cette personne ? Sa santé (VI), son argent (II), ses enfants (V) ou ses secrets (XII) ?"
+    },
+    {
+      "etape": 3,
+      "nom": "Le Comptage Inclusif",
+      "texte": "Commencez à compter sur la roue zodiacale. La maison Pivot est TOUJOURS la maison numéro 1. Tournez dans le sens inverse des aiguilles d'une montre."
+    },
+    {
+      "etape": 4,
+      "nom": "La Maison Dérivée",
+      "texte": "Le point d'arrivée est la Maison Dérivée. Analysez son signe, son maître planétaire et les planètes qui s'y trouvent dans votre thème."
+    }
+  ],
+  "applicationsTitle": "L'Encyclopédie des Dérivations",
+  "applicationsIntro": "Voici une liste des dérivations les plus validées par des siècles de pratique astrologique.",
+  "applications": [
+    {
+      "maisonNatale": 8,
+      "derivation": "Maison II de la VII",
+      "titre": "Les Finances du Partenaire",
+      "texte": "La Maison VIII représente l'argent de votre conjoint. Si Jupiter s'y trouve, votre partenaire pourrait être financièrement aisé. Si Saturne s'y trouve, il pourrait traverser des crises financières qui impacteront votre couple."
+    },
+    {
+      "maisonNatale": 11,
+      "derivation": "Maison II de la X",
+      "titre": "Les Fruits de la Carrière",
+      "texte": "La Maison XI (les projets) est aussi la Maison II de la X. Elle décrit très concrètement l'argent généré par votre profession ou les primes reçues de votre hiérarchie."
+    },
+    {
+      "maisonNatale": 12,
+      "derivation": "Maison VI de la VII",
+      "titre": "La Santé du Conjoint",
+      "texte": "Votre douzième maison (épreuves cachées) est la sixième maison (maladie) de votre partenaire. De lourds transits planétaires dans votre XII coïncident souvent avec la maladie de l'être aimé."
+    },
+    {
+      "maisonNatale": 4,
+      "derivation": "Maison X de la VII",
+      "titre": "La Réputation du Conjoint",
+      "texte": "Votre foyer (Maison IV) représente la place dans le monde (Maison X) de votre conjoint. Votre équilibre intime dépend souvent de sa réussite extérieure."
+    }
+  ],
+  "familleTitle": "La Grande Cartographie Familiale",
+  "familleIntro": "Le thème natal est un arbre généalogique codé. Voici comment retrouver n'importe quel membre, de l'ex-femme au neveu, avec une précision mathématique.",
+  "famille": [
+    {
+      "groupe": "L'Ascendance & Les Oncles",
+      "membres": [
+        { "nom": "La Mère", "maison": "Maison X", "texte": "L'autorité (tradition moderne) ou la Maison IV (tradition hellénistique)." },
+        { "nom": "Le Père", "maison": "Maison IV", "texte": "Les racines (tradition moderne) ou la Maison X (tradition hellénistique)." },
+        { "nom": "Oncles & Tantes Maternels", "maison": "Maison XII", "texte": "Les frères/sœurs de la mère. (Maison III comptée à partir de la X = Maison XII)." },
+        { "nom": "Oncles & Tantes Paternels", "maison": "Maison VI", "texte": "Les frères/sœurs du père. (Maison III comptée à partir de la IV = Maison VI)." }
+      ]
+    },
+    {
+      "groupe": "La Fratrie & La Descendance",
+      "membres": [
+        { "nom": "Le 1er Enfant", "maison": "Maison V", "texte": "Le premier enfant conçu ou la première grossesse." },
+        { "nom": "Le 2ème Enfant", "maison": "Maison VII", "texte": "Vu comme le frère (III) du premier enfant (V). 3 maisons après la V = Maison VII." },
+        { "nom": "Le 3ème Enfant", "maison": "Maison IX", "texte": "Vu comme le frère du 2ème enfant. 3 maisons après la VII = Maison IX." },
+        { "nom": "Le Neveu / La Nièce", "maison": "Maison VII", "texte": "Les enfants (V) de vos frères/sœurs (III). 5 maisons après la III = Maison VII." }
+      ]
+    },
+    {
+      "groupe": "Les Alliances & Les Ex",
+      "membres": [
+        { "nom": "Le Conjoint (Actuel)", "maison": "Maison VII", "texte": "Le partenaire officiel principal." },
+        { "nom": "L'Ex-Femme / L'Ex-Mari", "maison": "Maison VII ou IX", "texte": "L'Ex reste en VII pour les conflits de divorce. S'il y a un 2e mariage, le nouveau partenaire va en IX, et l'Ex reste le '1er' en VII." },
+        { "nom": "Beau-frère / Belle-sœur", "maison": "Maison IX", "texte": "Le frère ou la sœur (III) du conjoint (VII). 3 maisons après la VII = Maison IX." },
+        { "nom": "Les Beaux-Parents", "maison": "Maisons X et IV", "texte": "Les parents de votre conjoint. (La IV de la VII = Maison X)." }
+      ]
+    }
+  ],
+  "caseStudiesTitle": "Masterclass : 5 Études de Cas Pratiques",
+  "caseStudies": [
+    {
+      "titre": "Cas #1 : La Faillite de l'Ex-Mari",
+      "question": "Mon ex-mari, avec qui je suis en conflit financier, va-t-il faire faillite ?",
+      "donnees": "Maison VII en Bélier. Maison VIII (2 de 7) en Taureau, occupée par Uranus affligé par Saturne.",
+      "interpretation": "L'ex-mari (1er époux) reste en VII. Ses finances se lisent en Maison VIII (la Maison II dérivée à partir de la VII). Uranus très affligé par Saturne dans cette maison indique une restriction drastique et soudaine de son patrimoine, confirmant une faillite qui pourrait bloquer vos pensions."
+    },
+    {
+      "titre": "Cas #2 : La Réussite du Deuxième Enfant",
+      "question": "Mon deuxième enfant trouvera-t-il enfin sa voie professionnelle ?",
+      "donnees": "Maison VII (2e enfant) en Sagittaire. Maison IV natale (10 de 7) en Poissons avec Jupiter au Milieu du Ciel.",
+      "interpretation": "Le deuxième enfant est signifié par la Maison VII. Sa carrière est sa propre Maison X (10 de 7), ce qui nous amène à votre Maison IV natale. Jupiter (succès, expansion) très fort indique que ce deuxième enfant connaîtra une ascension professionnelle spectaculaire."
+    },
+    {
+      "titre": "Cas #3 : Le Secret du Beau-Frère",
+      "question": "Le frère de mon mari (mon beau-frère) nous cache-t-il des choses graves ?",
+      "donnees": "Maison IX (beau-frère) en Vierge. Maison VIII natale (12 de 9) abritant Neptune mal aspecté.",
+      "interpretation": "Le beau-frère (Maison III à partir de la VII = Maison IX). Ses secrets se lisent dans sa propre Maison XII (12 de 9), ce qui correspond à votre Maison VIII natale. Neptune (le mensonge, la dissimulation) y est très mal aspecté. Le verdict est sans appel : il dissimule une réalité (souvent financière ou liée à des dettes vu la nature de la maison 8)."
+    },
+    {
+      "titre": "Cas #4 : L'Héritage du Neveu",
+      "question": "Mon neveu va-t-il s'enrichir grâce à la succession de son père ?",
+      "donnees": "Maison VII (le neveu) en Balance. Maison II natale (8 de 7) en Taureau avec Vénus et Pluton conjoints.",
+      "interpretation": "Le neveu (enfant du frère : 5 de 3) se trouve en Maison VII. Son héritage se lit dans sa Maison VIII. En comptant 8 maisons depuis la VII, on tombe sur votre Maison II. La conjonction Vénus/Pluton (richesse extrême) confirme un afflux massif de capitaux pour ce neveu."
+    },
+    {
+      "titre": "Cas #5 : La Santé de la Tante Maternelle",
+      "question": "Ma tante du côté de ma mère va-t-elle se remettre de son opération ?",
+      "donnees": "Maison XII (tante maternelle) en Scorpion. Maison V natale (6 de 12) avec Mars en chute en Cancer.",
+      "interpretation": "La tante maternelle (sœur de la mère : 3 de 10) est la Maison XII. Sa santé se lit dans sa Maison VI (6 de 12), soit votre Maison V natale. Mars (chirurgie, inflammation) en chute indique que l'opération sera compliquée et que la convalescence demandera beaucoup de temps et d'énergie."
+    }
+  ],
+  "limitesTitle": "Avertissements et Éthique",
+  "limites": [
+    "La dilution du symbole : Théoriquement, on peut chercher 'le chien de l'ex-femme de mon oncle'. En pratique, au-delà de deux dérivations, le sens astrologique devient flou. Restez concentré sur les liens directs.",
+    "La question éthique : Fouiller dans les finances de votre ex-femme ou les secrets de votre beau-frère sans leur consentement relève du voyeurisme. L'astrologie exige de la noblesse d'âme.",
+    "Le Thème Natal Prime Toujours : Une maison dérivée montre VOTRE perception d'une personne à travers votre propre thème. Elle ne remplacera jamais le vrai thème astral de cette personne."
+  ],
+  "conclusionTitle": "La Matrice Intégrale",
+  "conclusion": [
+    "Les Maisons dérivées transforment l'astrologie en un langage holographique époustouflant. Une simple roue de 12 secteurs suffit à raconter l'histoire d'une famille entière.",
+    "Comprendre cette technique, c'est toucher du doigt une réalité spirituelle fondamentale : rien n'est séparé. La santé de votre tante maternelle et l'argent de votre ex-mari font partie du même grand algorithme céleste."
+  ],
+  "faqTitle": "Questions Fréquentes (FAQ)",
+  "faq": [
+    {
+      "question": "Si j'ai trois frères, comment la Maison III peut-elle tous les décrire ?",
+      "answer": "La Maison III décrit la fratrie en général. Pour individualiser, la tradition donne la III pour l'aîné(e), puis on saute de 2 en 2 (Maison V pour le second, Maison VII pour le troisième)."
+    },
+    {
+      "question": "Les nœuds lunaires sont-ils pris en compte dans les maisons dérivées ?",
+      "answer": "Oui. Un Nœud Sud dans la maison dérivée des finances de votre ex-conjoint peut indiquer qu'il subit une perte karmique ou matérielle inévitable."
+    },
+    {
+      "question": "Faut-il utiliser Placidus ou les Signes Entiers ?",
+      "answer": "Les maisons dérivées fonctionnent mieux avec le système des Signes Entiers (Whole Signs), car la technique a été pensée à l'époque hellénistique où 1 Maison = 1 Signe."
+    }
+  ]
+}

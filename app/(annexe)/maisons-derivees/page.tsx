@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { 
   Compass, 
   BookOpen, 
@@ -21,6 +22,8 @@ import {
 
 import article from "@/data/maisons-derivees.json";
 import { buildMeta, buildTitle } from "@/lib/seo";
+import Engrenages from "@/public/images/maisons/roue-astrologique-engrenage-imbriques.webp"
+import Maisonsderivees from "@/public/images/maisons/maisons-derivees.webp"
 
 // ==========================================
 // 1. TYPAGE STRICT
@@ -70,7 +73,6 @@ export const metadata: Metadata = buildMeta({
   ogImage: `/images/articles/${content.slug}/cover.webp`,
 });
 
-// JSON-LD pour les Rich Snippets Google
 const pageJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -130,7 +132,7 @@ export default function MaisonsDeriveesPage() {
 
       <main className="relative mx-auto max-w-7xl px-6 pb-24 text-slate-200 selection:bg-violet-500/30" id="main-content">
         
-        {/* --- LUEURS BACKGROUND (Tailwind 4) --- */}
+        {/* --- LUEURS BACKGROUND --- */}
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute left-[-10%] top-[-5%] h-[800px] w-[800px] rounded-full bg-violet-600/10 blur-[150px]" />
           <div className="absolute right-[-10%] top-[30%] h-[700px] w-[700px] rounded-full bg-emerald-600/10 blur-[150px]" />
@@ -157,12 +159,17 @@ export default function MaisonsDeriveesPage() {
               </p>
             </div>
             
-            {/* EMPLACEMENT IMAGE HERO */}
-            <div className="relative w-full max-w-lg aspect-[4/5] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(167,139,250,0.15)] bg-[#0f0f13] flex items-center justify-center">
-              <span className="text-slate-500 text-sm absolute z-10 text-center px-8">
-                [Image Hero: alt="Une magnifique roue astrologique tridimensionnelle montrant des engrenages imbriqués représentant les multiples dimensions des maisons dérivées"]
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent z-0" />
+          {/* EMPLACEMENT IMAGE HERO (ENGRENAGES) */}
+            <div className="relative w-full max-w-lg aspect-[4/5] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(167,139,250,0.15)] bg-[#0f0f13]">
+              <Image 
+                src={Engrenages} 
+                alt="Roue astrologique tridimensionnelle montrant des engrenages imbriqués représentant les multiples dimensions de la famille et des maisons dérivées"
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-[#09090b]/20 to-transparent z-10 pointer-events-none" />
             </div>
           </div>
         </header>
@@ -208,17 +215,20 @@ export default function MaisonsDeriveesPage() {
             <div aria-hidden="true" className="hidden lg:block absolute top-[4.5rem] left-10 right-10 h-px bg-gradient-to-r from-transparent via-violet-500/20 to-transparent z-0" />
           </div>
 
-          {/* EMPLACEMENT IMAGE INFOGRAPHIE COMPTAGE */}
-          <div className="mt-16 mb-8 relative w-full h-[350px] md:h-[450px] rounded-[3rem] border border-white/10 overflow-hidden bg-[#111] flex flex-col items-center justify-center p-6 text-center shadow-2xl">
-               <Waypoints className="text-slate-600 mb-6" size={56} strokeWidth={1} />
-               <p className="text-slate-300 font-serif text-2xl mb-2">Espace pour Infographie de Comptage</p>
-               <span className="text-slate-500 text-sm max-w-xl leading-relaxed">
-                  [Image alt="Infographie visuelle expliquant le comptage inclusif étape par étape sur une roue du zodiaque : on part de la Maison 7 comptée comme 1, pour arriver à la Maison 8 qui devient la Maison 2 dérivée."]
-               </span>
+        {/* EMPLACEMENT IMAGE INFOGRAPHIE COMPTAGE (MAISONS DÉRIVÉES) */}
+          <div className="mt-16 mb-8 relative w-full h-[350px] md:h-[500px] rounded-[3rem] border border-white/10 overflow-hidden bg-[#111] shadow-2xl group">
+               <Image 
+                 src={Maisonsderivees}
+                 alt="Infographie visuelle expliquant le comptage inclusif étape par étape sur une roue du zodiaque"
+                 fill
+                 className="object-cover transition-transform duration-700 group-hover:scale-105"
+                 sizes="(max-width: 1024px) 100vw, 80vw"
+               />
+               <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent pointer-events-none" />
           </div>
         </section>
 
-        {/* --- LES DÉRIVATIONS FONDAMENTALES (ENCYCLOPÉDIE) --- */}
+ {/* --- LES DÉRIVATIONS FONDAMENTALES (ENCYCLOPÉDIE) --- */}
         <section>
           <SectionTitle id="applications" icon={Compass}>{content.applicationsTitle}</SectionTitle>
           <p className="mb-12 text-lg text-slate-300 font-light italic max-w-4xl leading-relaxed">{content.applicationsIntro}</p>
@@ -249,7 +259,7 @@ export default function MaisonsDeriveesPage() {
           </div>
         </section>
 
-        {/* --- CARTOGRAPHIE FAMILIALE --- */}
+        {/* --- CARTOGRAPHIE FAMILIALE (COMPLÈTE) --- */}
         <section>
           <SectionTitle id="famille" icon={TreeDeciduous}>{content.familleTitle}</SectionTitle>
           <div className="mb-14 rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 md:p-10 text-lg text-slate-300 font-light italic leading-relaxed max-w-5xl shadow-lg backdrop-blur-sm">
@@ -273,7 +283,7 @@ export default function MaisonsDeriveesPage() {
                       <div className="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-[#09090b] border-2 border-white/20" aria-hidden="true" />
                       <h4 className="text-lg font-bold text-white mb-2 flex flex-wrap items-center gap-3">
                         {m.nom}
-                        <span className="text-[10px] uppercase tracking-widest text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-md">
+                        <span className="text-[10px] uppercase tracking-widest text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-md shrink-0">
                           {m.maison}
                         </span>
                       </h4>
@@ -286,7 +296,7 @@ export default function MaisonsDeriveesPage() {
           </div>
         </section>
 
-        {/* --- MASTERCLASS: CAS PRATIQUES --- */}
+        {/* --- MASTERCLASS: 5 CAS PRATIQUES --- */}
         <section>
           <SectionTitle id="cas-pratiques" icon={BookOpen}>{content.caseStudiesTitle}</SectionTitle>
           <div className="grid gap-10">
@@ -305,7 +315,7 @@ export default function MaisonsDeriveesPage() {
                   
                   <div className="grid gap-8 lg:grid-cols-5">
                     <div className="lg:col-span-2 space-y-6">
-                      <div className="rounded-3xl border border-white/10 bg-[#111] p-6 shadow-inner">
+                      <div className="rounded-3xl border border-white/10 bg-[#111] p-6 shadow-inner h-full flex flex-col justify-center">
                         <span className="text-xs font-bold uppercase tracking-[0.2em] text-slate-500 block mb-3">Question posée</span>
                         <p className="font-serif text-xl text-slate-200">{item.question}</p>
                       </div>
