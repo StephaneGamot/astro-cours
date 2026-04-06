@@ -1,9 +1,6 @@
 import { TagPills } from "./TagPills";
 import { ShareBar } from "./ShareBar";
 
-
-
-
 type PostMeta = {
   slug: string; // ✅ important
   title: string;
@@ -18,7 +15,11 @@ function formatFrDate(dateStr?: string) {
   if (!dateStr) return null;
   const d = new Date(dateStr);
   if (Number.isNaN(d.getTime())) return null;
-  return d.toLocaleDateString("fr-FR", { year: "numeric", month: "long", day: "2-digit" });
+  return d.toLocaleDateString("fr-FR", {
+    year: "numeric",
+    month: "long",
+    day: "2-digit",
+  });
 }
 
 export function ArticleLayout({
@@ -41,7 +42,9 @@ export function ArticleLayout({
           {meta.title}
         </h1>
 
-        <p className="max-w-2xl text-text/80 leading-relaxed">{meta.description}</p>
+        <p className="max-w-2xl text-text/80 leading-relaxed">
+          {meta.description}
+        </p>
 
         <div className="flex flex-wrap items-center gap-2 text-sm text-text/70">
           {prettyDate ? (
@@ -57,7 +60,6 @@ export function ArticleLayout({
           ) : null}
 
           {/* ✅ vues réelles (avec seed 125) */}
-
         </div>
 
         <TagPills tags={meta.tags} />

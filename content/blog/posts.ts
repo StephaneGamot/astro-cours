@@ -1,5 +1,4 @@
 import type { ReactElement } from "react";
-import type { StaticImageData } from "next/image";
 
 import ThemeAstralPost, {
   meta as themeAstralMeta,
@@ -31,6 +30,17 @@ import SportBySignPost, {
 import LoveFidelityPost, {
   meta as loveFidelityMeta,
 } from "./amour-fidelite-signes-zodiaque";
+import FinancesThemeAstralPost, {
+  meta as financesThemeAstralMeta,
+} from "./finances-theme-astral";
+
+import orientationProfessionnelleThemeAstralPost, {
+  meta as orientationProfessionnelleThemeAstralMeta,
+} from "./orientation-professionnelle-theme-astral";
+
+ import JupiterienPost, {
+  meta as JupiterienMeta,
+} from "./jupiterien";
 
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
@@ -50,6 +60,9 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+    { meta: JupiterienMeta, Component: JupiterienPost },
+  { meta: orientationProfessionnelleThemeAstralMeta, Component: orientationProfessionnelleThemeAstralPost },
+{ meta: financesThemeAstralMeta, Component: FinancesThemeAstralPost },
   { meta: loveFidelityMeta, Component: LoveFidelityPost },
   { meta: zodiacQualitiesMeta, Component: ZodiacQualitiesPost },
   { meta: sportBySignMeta, Component: SportBySignPost },
