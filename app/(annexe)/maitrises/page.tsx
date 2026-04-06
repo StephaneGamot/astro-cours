@@ -1,13 +1,19 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import signes from "../../../data/signes.details.json";
+import Image from "next/image";
+import {
+  Sparkles,
+  Star,
+  Crown,
+  ArrowLeft,
+  Shield,
+  Flame,
+  Orbit,
+  BookOpen,
+} from "lucide-react";
 
-/**
- * Page “Dignités planétaires”
- * - 12 cartes (une par signe)
- * - Maîtrise / Exaltation / Exil / Chute + explications + “pourquoi”
- * - Sommaire + SEO + JSON-LD
- */
+import signes from "../../../data/signes.details.json";
+import HeroSrc from "@/public/images/dignites-planetaires.webp";
 
 type Sign = (typeof signes)[number];
 
@@ -22,9 +28,15 @@ export const metadata: Metadata = {
       "Comprendre les dignités : maître, exaltation, exil et chute pour chaque signe. Sens, logique, repères d’interprétation et pièges fréquents.",
     url: "/maitrises",
     type: "article",
+    images: [
+      {
+        url: "/images/dignites-planetaires.webp",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
-
 
 const SIGNS = signes as Sign[];
 
@@ -45,72 +57,85 @@ type Mode = "Cardinal" | "Fixe" | "Mutable";
 type Polarite = "Masculin" | "Féminin";
 
 type Dignities = {
-  rulers: Planet[]; // plusieurs maîtres possibles
-  exaltations?: Planet[]; // plusieurs exaltations possibles
-  detrimentsExtra?: Planet[]; // ajouts manuels (en plus des oppositions automatiques)
-  fallsExtra?: Planet[]; // ajouts manuels (en plus des oppositions automatiques)
+  rulers: Planet[];
+  exaltations?: Planet[];
+  detrimentsExtra?: Planet[];
+  fallsExtra?: Planet[];
 };
 
 const has = <T,>(v: T | undefined | null): v is T => v !== undefined && v !== null;
 
-/* ------------------------
-   Style helpers (premium)
-   ------------------------ */
 const pill =
-  "rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm text-text/90";
-const card = "rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur";
+  "rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-white/90 backdrop-blur-md transition-all hover:bg-white/15 hover:border-white/20";
 
-/* ---------------------------------------
-   1) DIGNITIES (TES AJOUTS INCLUS)
-   --------------------------------------- */
+const card =
+  "relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0c0c0e] p-8 shadow-xl backdrop-blur-md transition-all duration-300 hover:border-white/20 hover:bg-[#111114]";
+
+const softCard =
+  "relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#0c0c0e] p-10 backdrop-blur-md transition-all duration-300 hover:border-white/20";
+
+const dot =
+  "mt-2 h-1.5 w-1.5 shrink-0 rounded-full shadow-[0_0_8px_currentColor]";
+
+const SIGN_GLYPHS: Record<string, string> = {
+  belier: "♈",
+  taureau: "♉",
+  gemeaux: "♊",
+  cancer: "♋",
+  lion: "♌",
+  vierge: "♍",
+  balance: "♎",
+  scorpion: "♏",
+  sagittaire: "♐",
+  capricorne: "♑",
+  verseau: "♒",
+  poissons: "♓",
+};
+
 const DIGNITIES_BY_SIGN: Record<string, Dignities> = {
   belier: {
     rulers: ["Mars"],
-    exaltations: ["Soleil", "Pluton"], // ✅ ajout Pluton
+    exaltations: ["Soleil", "Pluton"],
   },
   taureau: {
     rulers: ["Vénus"],
     exaltations: ["Lune"],
-    detrimentsExtra: ["Pluton"], // ✅ exil + Pluton
-    fallsExtra: ["Uranus"], // ✅ chute + Uranus
+    detrimentsExtra: ["Pluton"],
+    fallsExtra: ["Uranus"],
   },
   gemeaux: { rulers: ["Mercure"] },
   cancer: { rulers: ["Lune"], exaltations: ["Jupiter"] },
   lion: {
     rulers: ["Soleil"],
-    exaltations: ["Neptune"], // ✅ exaltation Neptune
-    detrimentsExtra: ["Uranus"], // ✅ exil Uranus
+    exaltations: ["Neptune"],
+    detrimentsExtra: ["Uranus"],
   },
   vierge: {
     rulers: ["Mercure"],
-    exaltations: ["Mercure"], // ✅ Mercure exaltation aussi
+    exaltations: ["Mercure"],
   },
   balance: { rulers: ["Vénus"], exaltations: ["Saturne"] },
   scorpion: {
-    rulers: ["Mars", "Pluton"], // ✅ 2 maîtrises (Mars + Pluton)
-    exaltations: ["Uranus"], // ✅ Uranus exaltation
+    rulers: ["Mars", "Pluton"],
+    exaltations: ["Uranus"],
   },
   sagittaire: { rulers: ["Jupiter"] },
   capricorne: { rulers: ["Saturne"], exaltations: ["Mars"] },
-  verseau: { rulers: ["Saturne", "Uranus"] }, // ✅ 2e maîtrise Uranus
+  verseau: { rulers: ["Saturne", "Uranus"] },
   poissons: {
-    rulers: ["Jupiter", "Neptune"], // ✅ 2e maîtrise Neptune
+    rulers: ["Jupiter", "Neptune"],
     exaltations: ["Vénus"],
-    detrimentsExtra: ["Mercure"], // ✅ Mercure exil
-    fallsExtra: ["Mercure"], // ✅ Mercure chute
+    detrimentsExtra: ["Mercure"],
+    fallsExtra: ["Mercure"],
   },
 };
 
-// Option : maîtres modernes (si tu veux afficher “moderne” en plus)
 const MODERN_RULERS: Partial<Record<string, Planet>> = {
   scorpion: "Pluton",
   verseau: "Uranus",
   poissons: "Neptune",
 };
 
-/* ---------------------------------------
-   2) Oppositions (pour exil/chute)
-   --------------------------------------- */
 const OPPOSITE_SIGN: Record<string, string> = {
   belier: "balance",
   taureau: "scorpion",
@@ -126,35 +151,28 @@ const OPPOSITE_SIGN: Record<string, string> = {
   poissons: "vierge",
 };
 
-/* ---------------------------------------
-   3) Explications pédagogiques (pro)
-   --------------------------------------- */
 function meaningDomicile(planet: Planet, signName: string) {
-  return `En domicile, ${planet} “est chez elle” : sa fonction s’exprime de façon naturelle, stable et cohérente. Dans ${signName}, cela indique une affinité profonde entre la planète et le style du signe (ce que le signe cherche, et comment la planète agit).`;
+  return `En domicile, ${planet} “est chez elle” : sa fonction s’exprime de façon naturelle, stable et cohérente. Dans ${signName}, cela indique une affinité profonde entre la planète et le style du signe.`;
 }
 
 function meaningExaltation(planet: Planet, signName: string) {
-  return `En exaltation, ${planet} est “mise en valeur” : elle dispose d’un terrain favorable pour exprimer son meilleur potentiel. Dans ${signName}, l’énergie de la planète gagne en noblesse, en amplitude ou en efficacité — à condition d’être canalisée (sinon, on peut surjouer).`;
+  return `En exaltation, ${planet} est “mise en valeur” : elle dispose d’un terrain favorable pour exprimer son meilleur potentiel. Dans ${signName}, son énergie gagne en noblesse, en amplitude ou en efficacité.`;
 }
 
 function meaningDetriment(planet: Planet, oppositeSignName: string) {
-  return `En exil (détriment), ${planet} est dans le signe opposé à son domicile (${oppositeSignName}). La fonction reste possible, mais demande plus d’ajustement : on apprend à exprimer la planète autrement, parfois par compensation, parfois par maturité.`;
+  return `En exil, ${planet} se trouve dans le signe opposé à son domicile (${oppositeSignName}). La fonction reste possible, mais elle demande davantage d’ajustement, de conscience et de maturité.`;
 }
 
 function meaningFall(planet: Planet, oppositeOfExaltSignName: string) {
-  return `En chute, ${planet} est dans le signe opposé à son exaltation (${oppositeOfExaltSignName}). C’est un terrain d’apprentissage : la planète ne “rayonne” pas spontanément, et l’on progresse en simplifiant, en disciplinant et en rendant l’expression plus consciente.`;
+  return `En chute, ${planet} est dans le signe opposé à son exaltation (${oppositeOfExaltSignName}). C’est un terrain d’apprentissage : la planète progresse en se simplifiant et en devenant plus consciente.`;
 }
 
-/**
- * “Pourquoi ?” — version pédagogique, pas ésotérique floue.
- * On s’appuie sur : cohérence élément/mode + fonction planétaire.
- */
 function whyRuler(planet: Planet, element?: string, mode?: string) {
   const el = element ? `l’élément ${element}` : "l’élément du signe";
   const mo = mode ? `le mode ${mode}` : "le mode du signe";
 
   const base =
-    `Pourquoi ${planet} ? Parce que la fonction de ${planet} résonne avec ${el} et ${mo} : elle “donne la méthode” au signe pour agir et se réaliser.`;
+    `Pourquoi ${planet} ? Parce que la fonction de ${planet} résonne avec ${el} et ${mo} : elle donne au signe sa méthode d’expression.`;
 
   const byPlanet: Record<Planet, string> = {
     Soleil:
@@ -164,7 +182,7 @@ function whyRuler(planet: Planet, element?: string, mode?: string) {
     Mercure:
       " Mercure symbolise pensée, langage, liens : il gouverne l’apprentissage, l’analyse et les échanges.",
     Vénus:
-      " Vénus symbolise valeur, désir, harmonie : elle parle d’attirance, d’art, de relation et de plaisir.",
+      " Vénus symbolise valeur, désir, harmonie : elle parle de relation, d’art, d’attirance et de plaisir.",
     Mars:
       " Mars symbolise action, désir, combat : il gouverne l’initiative, le courage et la capacité à trancher.",
     Jupiter:
@@ -174,7 +192,7 @@ function whyRuler(planet: Planet, element?: string, mode?: string) {
     Uranus:
       " Uranus symbolise rupture, liberté, innovation : il gouverne l’indépendance et la réinvention.",
     Neptune:
-      " Neptune symbolise inspiration, idéal, dissolution : il gouverne l’empathie, le rêve et le mystique.",
+      " Neptune symbolise inspiration, idéal, dissolution : il gouverne l’empathie, le rêve et la porosité.",
     Pluton:
       " Pluton symbolise intensité, transformation, pouvoir : il gouverne les crises, les mues et la profondeur.",
   };
@@ -182,9 +200,6 @@ function whyRuler(planet: Planet, element?: string, mode?: string) {
   return base + byPlanet[planet];
 }
 
-/* ------------------------
-   Utilitaires affichage
-   ------------------------ */
 function getSlug(sign: Sign) {
   return (sign as any).slug as string;
 }
@@ -206,37 +221,47 @@ function elementAccent(element?: Element) {
     case "Feu":
       return {
         border: "border-amber-400/25",
-        glow: "shadow-[0_0_0_1px_rgba(251,191,36,0.12)]",
-        line: "bg-amber-400/40",
+        glow: "shadow-[0_0_30px_rgba(251,191,36,0.08)]",
+        line: "bg-gradient-to-r from-amber-500/20 via-amber-400/60 to-transparent",
         chip: "bg-amber-500/10 text-amber-200 border-amber-400/20",
+        dot: "bg-amber-400 text-amber-400",
+        title: "text-amber-200",
       };
     case "Terre":
       return {
         border: "border-emerald-400/25",
-        glow: "shadow-[0_0_0_1px_rgba(52,211,153,0.12)]",
-        line: "bg-emerald-400/40",
+        glow: "shadow-[0_0_30px_rgba(52,211,153,0.08)]",
+        line: "bg-gradient-to-r from-emerald-500/20 via-emerald-400/60 to-transparent",
         chip: "bg-emerald-500/10 text-emerald-200 border-emerald-400/20",
+        dot: "bg-emerald-400 text-emerald-400",
+        title: "text-emerald-200",
       };
     case "Air":
       return {
         border: "border-sky-400/25",
-        glow: "shadow-[0_0_0_1px_rgba(56,189,248,0.12)]",
-        line: "bg-sky-400/40",
+        glow: "shadow-[0_0_30px_rgba(56,189,248,0.08)]",
+        line: "bg-gradient-to-r from-sky-500/20 via-sky-400/60 to-transparent",
         chip: "bg-sky-500/10 text-sky-200 border-sky-400/20",
+        dot: "bg-sky-400 text-sky-400",
+        title: "text-sky-200",
       };
     case "Eau":
       return {
         border: "border-violet-400/25",
-        glow: "shadow-[0_0_0_1px_rgba(167,139,250,0.12)]",
-        line: "bg-violet-400/40",
+        glow: "shadow-[0_0_30px_rgba(167,139,250,0.08)]",
+        line: "bg-gradient-to-r from-violet-500/20 via-violet-400/60 to-transparent",
         chip: "bg-violet-500/10 text-violet-200 border-violet-400/20",
+        dot: "bg-violet-400 text-violet-400",
+        title: "text-violet-200",
       };
     default:
       return {
         border: "border-white/10",
         glow: "",
-        line: "bg-white/20",
-        chip: "bg-white/5 text-text border-white/10",
+        line: "bg-gradient-to-r from-white/10 via-white/40 to-transparent",
+        chip: "bg-white/5 text-white border-white/10",
+        dot: "bg-white text-white",
+        title: "text-white",
       };
   }
 }
@@ -245,11 +270,6 @@ function uniqPlanets(list: Planet[]) {
   return Array.from(new Set(list));
 }
 
-/* ---------------------------------------
-   4) FALL_BY_SIGN : chute(s) calculée(s)
-   - si une planète est exaltée en X
-     alors elle est en chute dans l'opposé de X
-   --------------------------------------- */
 const FALL_BY_SIGN: Partial<Record<string, Planet[]>> = {};
 for (const [signSlug, d] of Object.entries(DIGNITIES_BY_SIGN)) {
   const exalts = d.exaltations ?? [];
@@ -260,20 +280,17 @@ for (const [signSlug, d] of Object.entries(DIGNITIES_BY_SIGN)) {
   FALL_BY_SIGN[fallSlug] = uniqPlanets([...existing, ...exalts]);
 }
 
-/* ---------------------------------------
-   5) Helper : nom du signe par slug
-   --------------------------------------- */
 function signNameBySlug(slug: string) {
   return SIGNS.find((x) => getSlug(x) === slug)?.name ?? slug;
 }
 
-/* ---------------------------------------
-   6) Blocs d’affichage
-   --------------------------------------- */
 function PlanetPills({ planets }: { planets: Planet[] }) {
-  if (!planets.length) return <p className="mt-2 font-serif text-3xl">—</p>;
+  if (!planets.length) {
+    return <p className="mt-3 font-serif text-3xl text-white/50">—</p>;
+  }
+
   return (
-    <div className="mt-2 flex flex-wrap gap-2">
+    <div className="mt-3 flex flex-wrap gap-2">
       {planets.map((pl) => (
         <span key={pl} className={pill}>
           {pl}
@@ -283,304 +300,393 @@ function PlanetPills({ planets }: { planets: Planet[] }) {
   );
 }
 
+function SectionTitle({
+  children,
+  id,
+  icon: Icon,
+}: {
+  children: React.ReactNode;
+  id: string;
+  icon?: React.ElementType;
+}) {
+  return (
+    <div className="group mb-12 mt-28 flex items-center gap-5 scroll-mt-28" id={id}>
+      <div
+        aria-hidden="true"
+        className="flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/20 to-transparent text-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.15)] transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110"
+      >
+        {Icon ? <Icon size={26} strokeWidth={1.5} /> : <Sparkles size={26} strokeWidth={1.5} />}
+      </div>
+      <h2 className="font-serif text-3xl tracking-tight text-white md:text-5xl">
+        {children}
+      </h2>
+      <div className="ml-4 h-px flex-1 bg-gradient-to-r from-amber-500/30 via-amber-500/5 to-transparent" />
+    </div>
+  );
+}
+
 export default function MaitrisesCoursPage() {
   return (
-    <main className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
-      {/* HERO */}
-      <header className="mb-10 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5">
-        <div className="p-7 sm:p-10">
-          <p className="text-xs uppercase tracking-[0.18em] text-muted">
-            Cours d’astrologie — Dignités essentielles
-          </p>
+    <>
+      <main className="relative mx-auto max-w-7xl px-6 pb-24 text-slate-200 selection:bg-amber-500/30">
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute left-[-10%] top-[-5%] h-[800px] w-[800px] rounded-full bg-amber-600/10 blur-[150px]" />
+          <div className="absolute right-[-10%] top-[30%] h-[700px] w-[700px] rounded-full bg-violet-600/10 blur-[150px]" />
+          <div className="absolute left-[20%] bottom-[-10%] h-[600px] w-[600px] rounded-full bg-sky-600/10 blur-[150px]" />
+        </div>
 
-          <h1 className="mt-3 font-serif text-4xl sm:text-5xl">
-            Maîtrises, exaltations, exils & chutes
-          </h1>
+        <header className="relative mb-28 pt-16 text-center md:text-left">
+          <div className="flex flex-col items-center gap-16 lg:flex-row">
+            <div className="flex-1">
+              <div className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-500/10 px-5 py-2 text-xs font-bold uppercase tracking-[0.25em] text-amber-300 backdrop-blur-md">
+                <Star size={16} className="animate-pulse text-amber-300" aria-hidden="true" />
+                <span>Cours d’astrologie — Dignités essentielles</span>
+              </div>
 
-          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-text/80">
-            Pour chaque signe : <span className="text-text">planète(s) maîtresse(s)</span>,
-            <span className="text-text"> exaltation(s)</span>, et le sens de l’
-            <span className="text-text">exil</span> et de la <span className="text-text">chute</span>.
-            C’est une page “cours” (pas juste un tableau).
-          </p>
+              <h1 className="mt-8 font-serif text-5xl font-light leading-[1.05] text-white md:text-6xl lg:text-[5rem]">
+                Maîtrises, exaltations, exils & chutes
+              </h1>
 
-          {/* Sommaire */}
-          <nav aria-label="Sommaire" className="mt-6 flex flex-wrap gap-2">
-            {SIGNS.map((s) => (
-              <a
-                key={getSlug(s)}
-                href={`#${getSlug(s)}`}
-                className={`${pill} hover:bg-white/10`}
+              <p className="mt-8 max-w-2xl text-lg font-light leading-relaxed text-slate-300 md:text-xl">
+                Comprendre les dignités planétaires, ce n’est pas réciter un tableau :
+                c’est saisir la logique profonde entre une planète, un signe, un style
+                d’expression et un terrain d’apprentissage.
+              </p>
+
+              <div className="mt-8 flex flex-wrap gap-3">
+                {[
+                  "Domicile = terrain naturel",
+                  "Exaltation = mise en valeur",
+                  "Exil = adaptation",
+                  "Chute = apprentissage",
+                ].map((x) => (
+                  <span
+                    key={x}
+                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/80 backdrop-blur-md transition-all hover:border-white/20 hover:bg-white/10"
+                  >
+                    {x}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="relative flex w-full max-w-lg items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[4/5]">
+              <Image
+                src={HeroSrc}
+                alt="Illustration symbolique des dignités planétaires"
+                fill
+                priority
+                className="object-cover transition duration-[2s] hover:scale-105"
+                sizes="(max-width: 1024px) 100vw, 520px"
+              />
+              <div className="absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent pointer-events-none" />
+            </div>
+          </div>
+        </header>
+
+        <nav aria-label="Sommaire" className="mb-20 flex flex-wrap justify-center gap-3">
+          {SIGNS.map((s) => (
+            <a key={getSlug(s)} href={`#${getSlug(s)}`} className={pill}>
+              {s.name}
+            </a>
+          ))}
+        </nav>
+
+        <section className="max-w-6xl mx-auto">
+          <SectionTitle id="bases" icon={BookOpen}>
+            Bases pédagogiques
+          </SectionTitle>
+
+          <div className="grid gap-8 lg:grid-cols-2">
+            <div className={softCard}>
+              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-amber-300">
+                <Crown size={14} />
+                Définitions rapides
+              </div>
+
+              <ul className="space-y-4 text-[15px] leading-relaxed text-slate-300">
+                <li><span className="text-white">Domicile</span> : terrain naturel, expression fluide.</li>
+                <li><span className="text-white">Exaltation</span> : potentiel fort, mise en valeur.</li>
+                <li><span className="text-white">Exil</span> : opposé au domicile, adaptation nécessaire.</li>
+                <li><span className="text-white">Chute</span> : opposé à l’exaltation, apprentissage et sobriété.</li>
+              </ul>
+            </div>
+
+            <div className={softCard}>
+              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-500/30 bg-sky-500/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-sky-300">
+                <Shield size={14} />
+                Comment l’enseigner
+              </div>
+
+              <p className="text-[15px] leading-relaxed text-slate-300">
+                Une dignité ne juge pas une personne. Elle décrit la facilité, la noblesse,
+                la tension ou le travail nécessaire pour qu’une fonction planétaire s’exprime
+                pleinement. Dans un thème réel, on nuance toujours avec la maison, les aspects,
+                le maître, le contexte et le niveau d’intégration.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div className="mx-auto mt-8 max-w-6xl space-y-10">
+          {SIGNS.map((sign) => {
+            const slug = getSlug(sign);
+            const glyph = SIGN_GLYPHS[slug] ?? "✦";
+            const element = getElement(sign);
+            const mode = getMode(sign);
+            const polarite = getPolarite(sign);
+            const a = elementAccent(element);
+
+            const d = DIGNITIES_BY_SIGN[slug];
+            const rulers = d?.rulers ?? [];
+            const exaltations = d?.exaltations ?? [];
+
+            const oppositeSlug = OPPOSITE_SIGN[slug];
+            const oppositeName = signNameBySlug(oppositeSlug);
+
+            const oppRulers = DIGNITIES_BY_SIGN[oppositeSlug]?.rulers ?? [];
+            const detriments = uniqPlanets([
+              ...oppRulers,
+              ...(d?.detrimentsExtra ?? []),
+            ]);
+
+            const fallsFromTable = FALL_BY_SIGN[slug] ?? [];
+            const falls = uniqPlanets([...(fallsFromTable ?? []), ...(d?.fallsExtra ?? [])]);
+
+            const modernLabel = MODERN_RULERS[slug];
+
+            return (
+              <section
+                key={slug}
+                id={slug}
+                className={`${softCard} scroll-mt-28 ${a.border} ${a.glow}`}
               >
-                {s.name}
-              </a>
-            ))}
-          </nav>
-        </div>
-        <div className="h-1 w-full bg-gradient-to-r from-emerald-400/35 via-sky-400/35 to-violet-400/35" />
-      </header>
+                <div
+                  aria-hidden="true"
+                  className={`pointer-events-none absolute right-8 top-6 font-serif text-7xl md:text-8xl ${a.title} opacity-[0.07]`}
+                >
+                  {glyph}
+                </div>
 
-      {/* Rappel pédagogique */}
-      <section className="mb-10 grid gap-4 sm:grid-cols-2">
-        <div className={card}>
-          <h2 className="font-serif text-2xl">Définitions rapides</h2>
-          <ul className="mt-3 space-y-2 text-sm text-text/80">
-            <li>
-              <span className="text-text">Domicile (maître)</span> : terrain naturel, expression fluide.
-            </li>
-            <li>
-              <span className="text-text">Exaltation</span> : potentiel fort, “mise en valeur”.
-            </li>
-            <li>
-              <span className="text-text">Exil (détriment)</span> : opposé au domicile, adaptation nécessaire.
-            </li>
-            <li>
-              <span className="text-text">Chute</span> : opposé à l’exaltation, apprentissage & sobriété.
-            </li>
-          </ul>
-        </div>
+                <div className={`mb-5 h-1 w-full rounded-full ${a.line}`} />
 
-        <div className={card}>
-          <h2 className="font-serif text-2xl">Comment l’enseigner</h2>
-          <p className="mt-3 text-sm leading-relaxed text-text/80">
-            Une dignité ne “juge” pas : elle décrit la <span className="text-text">facilité</span> d’expression.
-            Dans un thème : on nuance avec la maison, les aspects, la vitesse, et surtout l’intégration.
-          </p>
-        </div>
-      </section>
+                <div className="flex flex-wrap items-start justify-between gap-6 border-b border-white/10 pb-6">
+                  <div className="flex items-start gap-5">
+                    <div
+                      aria-hidden="true"
+                      className={`flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border ${a.border} bg-white/5 text-3xl md:text-4xl ${a.title} shadow-[0_0_20px_rgba(255,255,255,0.04)]`}
+                    >
+                      {glyph}
+                    </div>
 
-      {/* 12 cartes */}
-      <div className="space-y-8">
-        {SIGNS.map((sign) => {
-          const slug = getSlug(sign);
-          const element = getElement(sign);
-          const mode = getMode(sign);
-          const polarite = getPolarite(sign);
-          const accent = elementAccent(element);
+                    <div>
+                      <p className="text-xs uppercase tracking-[0.18em] text-slate-500">
+                        Dignités du signe
+                      </p>
 
-          const d = DIGNITIES_BY_SIGN[slug];
+                      <h2 className={`mt-2 font-serif text-4xl md:text-5xl ${a.title}`}>
+                        {sign.name}
+                      </h2>
 
-          const rulers = d?.rulers ?? [];
-          const exaltations = d?.exaltations ?? [];
+                      <div className="mt-4 flex flex-wrap gap-2 text-sm">
+                        {has(element) && (
+                          <span className={`rounded-full border px-3 py-1 ${a.chip}`}>
+                            Élément : {element}
+                          </span>
+                        )}
+                        {has(mode) && <span className={pill}>Mode : {mode}</span>}
+                        {has(polarite) && <span className={pill}>Polarité : {polarite}</span>}
+                        <span className={pill}>
+                          Opposé :{" "}
+                          <Link
+                            className="underline decoration-white/20 hover:decoration-white/60"
+                            href={`/signes/${oppositeSlug}`}
+                          >
+                            {oppositeName}
+                          </Link>
+                        </span>
+                      </div>
 
-          const oppositeSlug = OPPOSITE_SIGN[slug];
-          const oppositeName = signNameBySlug(oppositeSlug);
-
-          // EXIL = maîtres du signe opposé + extras
-          const oppRulers = DIGNITIES_BY_SIGN[oppositeSlug]?.rulers ?? [];
-          const detriments = uniqPlanets([
-            ...oppRulers,
-            ...(d?.detrimentsExtra ?? []),
-          ]);
-
-          // CHUTE = planètes exaltées dans le signe opposé + extras
-          const fallsFromTable = FALL_BY_SIGN[slug] ?? [];
-          const falls = uniqPlanets([...(fallsFromTable ?? []), ...(d?.fallsExtra ?? [])]);
-
-          const modernLabel = MODERN_RULERS[slug];
-
-          return (
-            <section
-              key={slug}
-              id={slug}
-              className={`scroll-mt-24 ${card} ${accent.glow}`}
-            >
-              <div className={`mb-4 h-1 w-full rounded-full ${accent.line}`} />
-
-              {/* Titre */}
-              <div className="flex flex-wrap items-end justify-between gap-4">
-                <div>
-                  <p className="text-xs uppercase tracking-[0.18em] text-muted">
-                    Dignités du signe
-                  </p>
-                  <h2 className="mt-2 font-serif text-4xl">{sign.name}</h2>
-
-                  <div className="mt-3 flex flex-wrap gap-2 text-sm">
-                    {has(element) && (
-                      <span className={`rounded-full border px-3 py-1 ${accent.chip}`}>
-                        Élément : {element}
-                      </span>
-                    )}
-                    {has(mode) && <span className={pill}>Mode : {mode}</span>}
-                    {has(polarite) && <span className={pill}>Polarité : {polarite}</span>}
-                    <span className={pill}>
-                      Opposé :{" "}
-                      <Link
-                        className="underline decoration-white/20 hover:decoration-white/60"
-                        href={`/signes/${oppositeSlug}`}
-                      >
-                        {oppositeName}
-                      </Link>
-                    </span>
+                      {modernLabel ? (
+                        <p className="mt-4 text-sm leading-relaxed text-slate-400">
+                          Note : certaines écoles ajoutent un <span className="text-white">maître moderne</span> ici : {modernLabel}.
+                        </p>
+                      ) : null}
+                    </div>
                   </div>
 
-                  {modernLabel ? (
-                    <p className="mt-3 text-sm text-text/70">
-                      Note : certaines écoles ajoutent un <span className="text-text">maître moderne</span> (ici : {modernLabel}).
-                    </p>
-                  ) : null}
+                  <Link
+                    href={`/signes/${slug}`}
+                    className={`rounded-full border ${a.border} bg-white/5 px-5 py-2 text-sm text-white transition-all hover:bg-white/10`}
+                  >
+                    Voir la page du signe →
+                  </Link>
                 </div>
 
-                <Link
-                  href={`/signes/${slug}`}
-                  className={`rounded-full border ${accent.border} bg-white/5 px-5 py-2 text-sm hover:bg-white/10`}
-                >
-                  Voir la page du signe →
-                </Link>
-              </div>
-
-              {/* 4 blocs */}
-              <div className="mt-6 grid gap-4 lg:grid-cols-2">
-                {/* MAÎTRISE */}
-                <div className={`rounded-3xl border ${accent.border} bg-white/5 p-6`}>
-                  <p className="text-xs uppercase tracking-wide text-muted">
-                    Maîtrise (domicile)
-                  </p>
-
-                  <PlanetPills planets={rulers} />
-
-                  {rulers.length ? (
-                    <div className="mt-4 space-y-4 text-sm leading-relaxed text-text/85">
-                      {rulers.map((pl) => (
-                        <div key={pl} className="rounded-2xl border border-white/10 bg-black/20 p-4">
-                          <p className="text-text/90">{meaningDomicile(pl, sign.name)}</p>
-                          <p className="mt-3 text-text/80">
-                            <span className="text-text">Pourquoi ?</span>{" "}
-                            {whyRuler(pl, element, mode)}
-                          </p>
-                        </div>
-                      ))}
+                <div className="mt-8 grid gap-6 xl:grid-cols-2">
+                  <article className={`rounded-[2rem] border ${a.border} bg-black/20 p-6`}>
+                    <div className="mb-4 flex items-center gap-3">
+                      <Crown size={18} className={a.title} />
+                      <p className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+                        Maîtrise
+                      </p>
                     </div>
-                  ) : null}
-                </div>
 
-                {/* EXALTATION */}
-                <div className={`rounded-3xl border ${accent.border} bg-white/5 p-6`}>
-                  <p className="text-xs uppercase tracking-wide text-muted">Exaltation</p>
+                    <PlanetPills planets={rulers} />
 
-                  <PlanetPills planets={exaltations} />
-
-                  {exaltations.length ? (
-                    <div className="mt-4 space-y-3 text-sm leading-relaxed text-text/85">
-                      {exaltations.map((pl) => (
-                        <div key={pl} className="rounded-2xl border border-white/10 bg-black/20 p-4">
-                          <p>{meaningExaltation(pl, sign.name)}</p>
-                          <p className="mt-3 text-text/80">
-                            <span className="text-text">Pourquoi ?</span>{" "}
-                            En exaltation, la planète trouve dans ce signe un “cadre” qui amplifie sa meilleure
-                            expression : l’énergie est élevée, mais demande une direction claire (sinon excès).
-                          </p>
-                        </div>
-                      ))}
-                    </div>
-                  ) : (
-                    <p className="mt-4 text-sm text-text/70">
-                      
-                    </p>
-                  )}
-                </div>
-
-                {/* EXIL */}
-                <div className={`rounded-3xl border ${accent.border} bg-white/5 p-6`}>
-                  <p className="text-xs uppercase tracking-wide text-muted">
-                    Exil (détriment)
-                  </p>
-
-                  <PlanetPills planets={detriments} />
-
-                  {detriments.length ? (
-                    <div className="mt-4 space-y-3 text-sm leading-relaxed text-text/85">
-                      {detriments.map((pl) => (
-                        <div key={pl} className="rounded-2xl border border-white/10 bg-black/20 p-4">
-                          <p>{meaningDetriment(pl, oppositeName)}</p>
-                          <p className="mt-3 text-text/80">
-                            <span className="text-text">Pourquoi ?</span>{" "}
-                            L’exil vient de l’opposition : le signe demande une méthode inverse à celle du domicile.
-                            Ce n’est pas “mauvais” : c’est moins automatique — donc très formateur.
-                          </p>
-                        </div>
-                      ))}
-                    </div>
-                  ) : null}
-                </div>
-
-                {/* CHUTE */}
-                <div className={`rounded-3xl border ${accent.border} bg-white/5 p-6`}>
-                  <p className="text-xs uppercase tracking-wide text-muted">Chute</p>
-
-                  <PlanetPills planets={falls} />
-
-                  {falls.length ? (
-                    <div className="mt-4 space-y-3 text-sm leading-relaxed text-text/85">
-                      {falls.map((pl) => {
-                        // Pour expliquer “opposé à son exaltation en …”
-                        const exaltSignSlug = Object.keys(DIGNITIES_BY_SIGN).find((s) =>
-                          (DIGNITIES_BY_SIGN[s].exaltations ?? []).includes(pl)
-                        );
-                        const exaltSignName = exaltSignSlug ? signNameBySlug(exaltSignSlug) : "son signe d’exaltation";
-
-                        return (
-                          <div key={pl} className="rounded-2xl border border-white/10 bg-black/20 p-4">
-                            <p>{meaningFall(pl, exaltSignName)}</p>
-                            <p className="mt-3 text-text/80">
-                              <span className="text-text">Pourquoi ?</span>{" "}
-                              La chute est l’opposé exact de l’exaltation : on apprend à faire plus simple,
-                              plus vrai, sans forcer. C’est un placement qui se solidifie avec l’expérience.
+                    {rulers.length ? (
+                      <div className="mt-5 space-y-4 text-sm leading-relaxed text-slate-300">
+                        {rulers.map((pl) => (
+                          <div key={pl} className="rounded-[1.5rem] border border-white/10 bg-[#111114] p-5">
+                            <p>{meaningDomicile(pl, sign.name)}</p>
+                            <p className="mt-3 text-slate-400">
+                              <span className="text-white">Pourquoi ?</span> {whyRuler(pl, element, mode)}
                             </p>
                           </div>
-                        );
-                      })}
-                    </div>
-                  ) : (
-                    <p className="mt-4 text-sm text-text/70">
-                     
-                    </p>
-                  )}
-                </div>
-              </div>
-            </section>
-          );
-        })}
-      </div>
+                        ))}
+                      </div>
+                    ) : null}
+                  </article>
 
-      {/* Footer */}
-      <footer className="mt-14 border-t border-white/10 pt-8">
-        <div className="flex flex-wrap items-center justify-between gap-4">
-          <p className="text-sm text-text/70">
-            Prochaine étape : relier ces dignités aux{" "}
-            <span className="text-text">maisons</span> et aux{" "}
-            <span className="text-text">aspects</span>.
+                  <article className={`rounded-[2rem] border ${a.border} bg-black/20 p-6`}>
+                    <div className="mb-4 flex items-center gap-3">
+                      <Star size={18} className={a.title} />
+                      <p className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+                        Exaltation
+                      </p>
+                    </div>
+
+                    <PlanetPills planets={exaltations} />
+
+                    {exaltations.length ? (
+                      <div className="mt-5 space-y-4 text-sm leading-relaxed text-slate-300">
+                        {exaltations.map((pl) => (
+                          <div key={pl} className="rounded-[1.5rem] border border-white/10 bg-[#111114] p-5">
+                            <p>{meaningExaltation(pl, sign.name)}</p>
+                            <p className="mt-3 text-slate-400">
+                              <span className="text-white">Pourquoi ?</span>{" "}
+                              En exaltation, la planète trouve un cadre qui amplifie sa meilleure expression : elle gagne en portée, mais demande une direction claire.
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="mt-5 text-sm text-slate-500">Aucune exaltation retenue ici dans cette grille.</p>
+                    )}
+                  </article>
+
+                  <article className={`rounded-[2rem] border ${a.border} bg-black/20 p-6`}>
+                    <div className="mb-4 flex items-center gap-3">
+                      <Orbit size={18} className={a.title} />
+                      <p className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+                        Exil
+                      </p>
+                    </div>
+
+                    <PlanetPills planets={detriments} />
+
+                    {detriments.length ? (
+                      <div className="mt-5 space-y-4 text-sm leading-relaxed text-slate-300">
+                        {detriments.map((pl) => (
+                          <div key={pl} className="rounded-[1.5rem] border border-white/10 bg-[#111114] p-5">
+                            <p>{meaningDetriment(pl, oppositeName)}</p>
+                            <p className="mt-3 text-slate-400">
+                              <span className="text-white">Pourquoi ?</span>{" "}
+                              Le signe demande ici une méthode différente de celle du domicile. L’expression devient moins immédiate, mais souvent plus formatrice.
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    ) : null}
+                  </article>
+
+                  <article className={`rounded-[2rem] border ${a.border} bg-black/20 p-6`}>
+                    <div className="mb-4 flex items-center gap-3">
+                      <Flame size={18} className={a.title} />
+                      <p className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400">
+                        Chute
+                      </p>
+                    </div>
+
+                    <PlanetPills planets={falls} />
+
+                    {falls.length ? (
+                      <div className="mt-5 space-y-4 text-sm leading-relaxed text-slate-300">
+                        {falls.map((pl) => {
+                          const exaltSignSlug = Object.keys(DIGNITIES_BY_SIGN).find((s) =>
+                            (DIGNITIES_BY_SIGN[s].exaltations ?? []).includes(pl)
+                          );
+                          const exaltSignName = exaltSignSlug
+                            ? signNameBySlug(exaltSignSlug)
+                            : "son signe d’exaltation";
+
+                          return (
+                            <div key={pl} className="rounded-[1.5rem] border border-white/10 bg-[#111114] p-5">
+                              <p>{meaningFall(pl, exaltSignName)}</p>
+                              <p className="mt-3 text-slate-400">
+                                <span className="text-white">Pourquoi ?</span>{" "}
+                                La chute invite à dépouiller, simplifier, discipliner. La planète s’y affine avec le temps et l’expérience.
+                              </p>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    ) : (
+                      <p className="mt-5 text-sm text-slate-500">Aucune chute retenue ici dans cette grille.</p>
+                    )}
+                  </article>
+                </div>
+              </section>
+            );
+          })}
+        </div>
+
+        <footer className="mt-32 border-t border-white/10 pt-16 flex flex-col items-center gap-8">
+          <p className="max-w-2xl text-center text-sm leading-relaxed text-slate-400">
+            Prochaine étape : relier ces dignités aux <span className="text-white">maisons</span>, aux{" "}
+            <span className="text-white">aspects</span> et au niveau réel d’intégration dans le thème.
           </p>
-          <div className="flex flex-wrap gap-2">
-            <Link className={`${pill} hover:bg-white/10`} href="/#zodiaque">
+
+          <Link
+            href="/blog"
+            className="group flex items-center gap-4 rounded-full border border-amber-500/30 bg-amber-500/10 px-8 py-5 text-[15px] font-bold uppercase tracking-widest text-amber-300 transition-all hover:border-amber-400 hover:bg-amber-500/20 focus:ring-2 focus:ring-amber-500"
+          >
+            <ArrowLeft size={20} className="transition-transform group-hover:-translate-x-2" />
+            Explorer le blog
+          </Link>
+
+          <div className="flex flex-wrap gap-3">
+            <Link className={pill} href="/#zodiaque">
               Signes
             </Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/#planetes">
+            <Link className={pill} href="/#planetes">
               Planètes
             </Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/#maisons">
+            <Link className={pill} href="/#maisons">
               Maisons
             </Link>
           </div>
-        </div>
-      </footer>
+        </footer>
 
-      {/* JSON-LD SEO */}
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Maîtrises, exaltations, exils & chutes — Dignités planétaires",
-            description:
-              "Pour chaque signe : maître(s), exaltation(s), exil(s) et chute(s) — avec explication et logique symbolique (le “pourquoi”).",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "/maitrises" },
-            author: { "@type": "Person", name: "Stéphane Gamot" },
-          }),
-        }}
-      />
-    </main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              headline: "Maîtrises, exaltations, exils & chutes — Dignités planétaires",
+              description:
+                "Pour chaque signe : maître(s), exaltation(s), exil(s) et chute(s), avec explication et logique symbolique.",
+              mainEntityOfPage: {
+                "@type": "WebPage",
+                "@id": "https://www.astro-cours.com/maitrises",
+              },
+              author: { "@type": "Person", name: "Stéphane Gamot" },
+              publisher: { "@type": "Organization", name: "Astro-Cours" },
+            }),
+          }}
+        />
+      </main>
+    </>
   );
 }
