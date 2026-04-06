@@ -248,7 +248,7 @@ export default function DecansPage() {
         {/* --- FOOTER DE L'ARTICLE --- */}
         <footer className="mt-32 border-t border-white/10 pt-16 flex flex-col items-center gap-8">
           <Link
-            href="/articles"
+            href="/blog"
             className="group flex items-center gap-4 rounded-full border border-amber-500/30 bg-amber-500/10 px-8 py-5 text-[15px] font-bold uppercase tracking-widest text-amber-300 transition-all hover:bg-amber-500/20 hover:border-amber-400 focus:ring-2 focus:ring-amber-500"
           >
             <ArrowLeft size={20} className="transition-transform group-hover:-translate-x-2" />

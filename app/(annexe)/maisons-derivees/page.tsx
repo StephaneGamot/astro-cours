@@ -402,7 +402,7 @@ export default function MaisonsDeriveesPage() {
         {/* --- FOOTER DE L'ARTICLE --- */}
         <footer className="mt-32 border-t border-white/10 pt-16 flex flex-col items-center gap-8">
           <Link
-            href="/articles"
+            href="/blog"
             aria-label="Retour à la liste des articles d'astrologie"
             className="group flex items-center gap-4 rounded-full border border-violet-500/30 bg-violet-500/10 px-8 py-5 text-[15px] font-bold uppercase tracking-widest text-violet-300 transition-all duration-300 hover:bg-violet-500/20 hover:border-violet-400 hover:shadow-[0_0_30px_rgba(167,139,250,0.2)] focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-4 focus:ring-offset-black"
           >

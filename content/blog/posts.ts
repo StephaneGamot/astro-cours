@@ -42,6 +42,10 @@ import orientationProfessionnelleThemeAstralPost, {
   meta as JupiterienMeta,
 } from "./jupiterien";
 
+ import VenusPost, {
+  meta as VenusMeta,
+} from "./venusien";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -60,6 +64,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+      { meta: VenusMeta, Component: VenusPost },
     { meta: JupiterienMeta, Component: JupiterienPost },
   { meta: orientationProfessionnelleThemeAstralMeta, Component: orientationProfessionnelleThemeAstralPost },
 { meta: financesThemeAstralMeta, Component: FinancesThemeAstralPost },
