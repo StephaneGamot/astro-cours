@@ -225,7 +225,7 @@ export default function RevolutionSolairePage() {
               </div>
             </div>
 
-            <div className="relative flex w-full max-w-lg items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[4/5]">
+            <div className="relative flex w-full max-w-lg items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[1/1]">
               <Image
                 src={HeroSrc}
                 alt="Illustration symbolique de la révolution solaire"
@@ -240,7 +240,7 @@ export default function RevolutionSolairePage() {
         </header>
 
         {/* SOMMAIRE */}
-        <nav aria-label="Sommaire" className="mb-20 flex flex-wrap justify-center gap-3">
+        <nav aria-label="Sommaire" className="mb-20 flex flex-wrap justify-around md:justify-center gap-3">
           {sections.map((s) => (
             <a key={s.id} href={`#${s.id}`} className={pill}>
               {s.label}
@@ -339,10 +339,10 @@ export default function RevolutionSolairePage() {
               {RS.methode.orbes.recommandes.map((o) => (
                 <div
                   key={o.label}
-                  className="rounded-[1.5rem] border border-white/10 bg-black/20 p-5 transition-all hover:border-amber-500/20"
+                  className="rounded-[1.5rem] border border-white/10 bg-black/20 p-2 transition-all hover:border-amber-500/20"
                 >
                   <p className="text-sm text-slate-300">{o.label}</p>
-                  <p className="mt-3 inline-flex rounded-full border border-white/10 bg-black/30 px-3 py-1 text-xs font-medium text-slate-200">
+                  <p className="mt-3 inline-flex rounded-full border border-white/10 bg-black/30 px-3 text-xs font-medium text-slate-200">
                     {o.orbe}
                   </p>
                 </div>
