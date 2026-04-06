@@ -25,18 +25,18 @@ export function normalizeElement(el?: string) {
 export function elementTheme(el?: string) {
   const e = normalizeElement(el);
   switch (e) {
-    case "feu": // Or Brûlé / Rouge Royal
-      return {
-        ring: "focus-visible:ring-orange-500/50",
-        border: "border-orange-500/20",
-        bg: "bg-gradient-to-br from-orange-500/10 to-red-600/5",
-        bgSolid: "bg-orange-500/10",
-        text: "text-orange-400",
-        accent: "text-orange-300",
-        glow: "shadow-[0_0_40px_rgba(234,88,12,0.15)]",
-        dot: "bg-orange-500",
-        line: "bg-gradient-to-r from-transparent via-orange-500/50 to-transparent",
-      };
+case "feu":
+  return {
+    ring: "focus-visible:ring-rose-500/50",
+    border: "border-rose-500/30",
+    bg: "bg-gradient-to-br from-rose-500/15 via-orange-500/10 to-transparent",
+    bgSolid: "bg-rose-500/05",
+    text: "text-rose-400",
+    accent: "text-orange-300",
+    glow: "shadow-[0_0_40px_rgba(244,63,94,0.2)]", // Lueur rose/rouge vibrante
+    dot: "bg-rose-500",
+    line: "bg-gradient-to-r from-transparent via-rose-500/50 to-transparent",
+  }
     case "terre": // Vert Émeraude / Ambre Profond
       return {
         ring: "focus-visible:ring-emerald-500/50",
