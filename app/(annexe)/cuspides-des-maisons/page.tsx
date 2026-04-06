@@ -1,35 +1,39 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { 
   Compass, 
   BookOpen, 
   Sparkles, 
-  Users, 
+  UserCircle2, 
+  Network, 
   Layers, 
   HelpCircle, 
   ArrowLeft,
   ChevronRight,
   Zap,
+  MapPin,
+  GitCompare,
   CheckCircle2,
   Quote,
-  Calculator,
-  AlertTriangle,
-  TreeDeciduous,
-  Waypoints,
-  Network
+  Star,
+  Key
 } from "lucide-react";
 
-import article from "@/data/maisons-derivees.json";
+import article from "@/data/cuspides-maisons.json";
 import { buildMeta, buildTitle } from "@/lib/seo";
-
+import CupsidesImage from "@/public/images/maisons/maisons-cuspides.webp"
 // ==========================================
-// 1. TYPAGE STRICT
+// 1. TYPAGE STRICT (Basé sur ton JSON exact)
 // ==========================================
-type Regle = { etape: number; nom: string; texte: string; };
-type Application = { maisonNatale: number; derivation: string; titre: string; texte: string; };
-type Membre = { nom: string; maison: string; texte: string; };
-type FamilleGroup = { groupe: string; membres: Membre[]; };
-type CaseStudy = { titre: string; question: string; donnees: string; interpretation: string; };
+type Angle = { maison: number; nom: string; titre: string; texte: string; };
+type MaisonItem = { maison: number; titre: string; texte: string; };
+type Signe = { signe: string; texte: string; };
+type SignGroup = { element: string; signes: Signe[]; };
+type ConjunctionExample = { titre: string; texte: string; };
+type CaseStudy = { titre: string; porte: string; gerant: string; interpretation: string; };
+type MasterInHouse = { titre: string; texte: string; };
+type MasterAspect = { titre: string; texte: string; };
 type FaqItem = { question: string; answer: string; };
 
 type ArticleData = {
@@ -38,21 +42,31 @@ type ArticleData = {
   description: string;
   introduction: string[];
   definition: string[];
-  reglesTitle: string;
-  reglesIntro: string;
-  regles: Regle[];
-  applicationsTitle: string;
-  applicationsIntro: string;
-  applications: Application[];
-  familleTitle: string;
-  familleIntro: string;
-  famille: FamilleGroup[];
+  anglesTitle: string;
+  anglesIntro: string;
+  angles: Angle[];
+  maisonsTitle: string;
+  maisons: MaisonItem[];
+  signesTitle: string;
+  signesIntro: string;
+  signesParElement: SignGroup[];
+  conjunctionsTitle: string;
+  conjunctionsIntro: string;
+  conjunctions: ConjunctionExample[];
+  maitreTitle: string;
+  maitreIntro: string[];
   caseStudiesTitle: string;
   caseStudies: CaseStudy[];
-  limitesTitle: string;
-  limites: string[];
+  masterInHouseTitle: string;
+  masterInHouse: MasterInHouse[];
+  masterAspectsTitle: string;
+  masterAspects: MasterAspect[];
+  interceptedTitle: string;
+  intercepted: string[];
   conclusionTitle: string;
   conclusion: string[];
+  methodeTitle: string;
+  methode: string[];
   faqTitle: string;
   faq: FaqItem[];
 };
@@ -60,17 +74,16 @@ type ArticleData = {
 const content = article as ArticleData;
 
 // ==========================================
-// 2. SEO & META (Optimisé Google & Next 16)
+// 2. SEO & META
 // ==========================================
 export const metadata: Metadata = buildMeta({
   title: buildTitle(content.title),
   description: content.description,
   canonicalPath: `/${content.slug}`,
   type: "article",
-  ogImage: `/images/articles/${content.slug}/cover.webp`,
+  ogImage: "/images/articles/cuspides-maisons/a.webp",
 });
 
-// JSON-LD pour les Rich Snippets Google
 const pageJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -78,15 +91,19 @@ const pageJsonLd = {
   description: content.description,
   inLanguage: "fr-FR",
   mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
-  author: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com" },
-  publisher: { 
-    "@type": "Organization", 
-    name: "Astro Cours", 
-    logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/logo.webp" } 
-  },
-  image: [`https://www.astro-cours.com/images/articles/${content.slug}/cover.webp`],
-  datePublished: "2024-05-20T08:00:00+08:00",
-  dateModified: "2024-05-20T08:00:00+08:00",
+  author: { "@type": "Organization", name: "Astro Cours" },
+  publisher: { "@type": "Organization", name: "Astro Cours" },
+  image: ["https://www.astro-cours.com/images/articles/cuspides-maisons/a.webp"],
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.astro-cours.com" },
+    { "@type": "ListItem", position: 2, name: "Articles", item: "https://www.astro-cours.com/articles" },
+    { "@type": "ListItem", position: 3, name: content.title, item: `https://www.astro-cours.com/${content.slug}` },
+  ],
 };
 
 const faqJsonLd = {
@@ -104,13 +121,19 @@ const faqJsonLd = {
 // ==========================================
 function RomanHouse({ n }: { n: number }) {
   const romans = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
-  return <span aria-label={`Maison ${n}`} className="font-serif">{romans[n - 1] ?? n}</span>;
+  return <span>{romans[n - 1] ?? n}</span>;
+}
+
+function houseImageSrc(maison: number) {
+  const romans = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"];
+  const roman = romans[maison - 1];
+  return roman ? `/images/maisons/${roman}.webp` : null;
 }
 
 function SectionTitle({ children, id, icon: Icon }: { children: React.ReactNode; id: string; icon?: any }) {
   return (
-    <div className="group mb-12 mt-32 flex items-center gap-5 scroll-mt-28" id={id}>
-      <div aria-hidden="true" className="flex h-14 w-14 items-center justify-center rounded-2xl border border-violet-500/30 bg-gradient-to-br from-violet-500/20 to-transparent text-violet-300 shadow-[0_0_20px_rgba(167,139,250,0.15)] transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
+    <div className="group mb-12 mt-28 flex items-center gap-5 scroll-mt-28" id={id}>
+      <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-violet-500/30 bg-gradient-to-br from-violet-500/20 to-transparent text-violet-300 shadow-[0_0_20px_rgba(167,139,250,0.15)] transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
         {Icon ? <Icon size={26} strokeWidth={1.5} /> : <Sparkles size={26} strokeWidth={1.5} />}
       </div>
       <h2 className="font-serif text-3xl md:text-5xl tracking-tight text-white">{children}</h2>
@@ -120,34 +143,35 @@ function SectionTitle({ children, id, icon: Icon }: { children: React.ReactNode;
 }
 
 // ==========================================
-// 4. COMPOSANT PRINCIPAL
+// 4. COMPOSANT PRINCIPAL DE LA PAGE
 // ==========================================
-export default function MaisonsDeriveesPage() {
+export default function CuspidesMaisonsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      <main className="relative mx-auto max-w-7xl px-6 pb-24 text-slate-200 selection:bg-violet-500/30" id="main-content">
+      <main className="relative mx-auto max-w-6xl px-6 pb-24 text-text selection:bg-violet-500/30">
         
-        {/* --- LUEURS BACKGROUND (Tailwind 4) --- */}
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-          <div className="absolute left-[-10%] top-[-5%] h-[800px] w-[800px] rounded-full bg-violet-600/10 blur-[150px]" />
-          <div className="absolute right-[-10%] top-[30%] h-[700px] w-[700px] rounded-full bg-emerald-600/10 blur-[150px]" />
-          <div className="absolute left-[15%] bottom-[10%] h-[600px] w-[600px] rounded-full bg-amber-600/10 blur-[150px]" />
+        {/* LUEURS D'AMBIANCE (Background) */}
+        <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute left-[-15%] top-0 h-[800px] w-[800px] rounded-full bg-violet-600/15 blur-[150px]" />
+          <div className="absolute right-[-10%] top-[25%] h-[600px] w-[600px] rounded-full bg-amber-600/10 blur-[120px]" />
+          <div className="absolute left-[20%] bottom-[10%] h-[500px] w-[500px] rounded-full bg-fuchsia-600/10 blur-[120px]" />
         </div>
 
         {/* --- HERO SECTION --- */}
-        <header className="relative mb-28 pt-16 text-center md:text-left">
-          <div className="flex flex-col lg:flex-row gap-16 items-center">
+        <header className="relative mb-24 pt-16 text-center md:text-left">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-1">
-              <div className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-5 py-2 text-xs font-bold uppercase tracking-[0.25em] text-violet-300 backdrop-blur-md">
-                <Sparkles size={16} className="animate-pulse text-amber-300" aria-hidden="true" />
-                <span>Encyclopédie Astrologique</span>
+              <div className="inline-flex items-center gap-2 rounded-full border border-violet-400/40 bg-violet-500/10 px-5 py-2 text-xs font-bold uppercase tracking-[0.25em] text-violet-300 backdrop-blur-md">
+                <Sparkles size={16} className="animate-pulse text-amber-300" />
+                Encyclopédie Astrologique
               </div>
-              <h1 className="mt-8 font-serif text-5xl font-light leading-[1.1] text-white md:text-6xl lg:text-[5rem]">
+              <h1 className="mt-8 font-serif text-5xl font-light leading-[1.1] text-white md:text-7xl lg:text-[5rem]">
                 {content.title.split(':').map((part, i) => (
-                  <span key={i} className={i === 1 ? "block mt-4 text-violet-300 font-normal italic text-4xl md:text-5xl lg:text-[3.5rem]" : ""}>
+                  <span key={i} className={i === 1 ? "block mt-2 text-violet-300 font-normal italic" : ""}>
                     {part}{i === 0 && content.title.includes(':') ? ':' : ''}
                   </span>
                 ))}
@@ -156,232 +180,290 @@ export default function MaisonsDeriveesPage() {
                 {content.description}
               </p>
             </div>
-            
-            {/* EMPLACEMENT IMAGE HERO */}
-            <div className="relative w-full max-w-lg aspect-[4/5] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(167,139,250,0.15)] bg-[#0f0f13] flex items-center justify-center">
-              <span className="text-slate-500 text-sm absolute z-10 text-center px-8">
-                [Image Hero: alt="Une magnifique roue astrologique tridimensionnelle montrant des engrenages imbriqués représentant les multiples dimensions des maisons dérivées"]
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent z-0" />
+            <div className="relative w-full max-w-md aspect-[4/5] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(167,139,250,0.15)]">
+              <Image
+                src={CupsidesImage}
+                alt="Illustration des cuspides des maisons"
+                fill
+                className="object-cover"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
             </div>
           </div>
         </header>
 
         {/* --- INTRODUCTION & DÉFINITION --- */}
-        <section aria-labelledby="intro-heading" className="mb-32 grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
+        <section className="mb-28 grid gap-8 lg:grid-cols-2">
           <div className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-10 backdrop-blur-md transition-all hover:bg-white/[0.04]">
-            <div aria-hidden="true" className="absolute -right-4 -top-4 text-white/5"><BookOpen size={120} strokeWidth={1} /></div>
-            <h2 id="intro-heading" className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-white/10 pb-4">Le Hologramme Cosmique</h2>
+            <div className="absolute -right-4 -top-4 text-white/5"><BookOpen size={120} strokeWidth={1} /></div>
+            <h3 className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-white/10 pb-4">Introduction</h3>
             <div className="relative z-10 space-y-6 text-[15px] md:text-base leading-relaxed text-slate-300">
               {content.introduction.map((p, i) => <p key={i}>{p}</p>)}
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[2.5rem] border border-emerald-500/20 bg-gradient-to-br from-emerald-500/5 to-transparent p-10 backdrop-blur-md transition-all hover:border-emerald-500/40">
-            <div aria-hidden="true" className="absolute -right-4 -top-4 text-emerald-500/5"><Layers size={120} strokeWidth={1} /></div>
-            <h3 className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-emerald-500/20 pb-4">Axiome et Définition</h3>
+          <div className="relative overflow-hidden rounded-[2.5rem] border border-violet-500/20 bg-gradient-to-br from-violet-500/5 to-transparent p-10 backdrop-blur-md transition-all hover:border-violet-500/40">
+            <div className="absolute -right-4 -top-4 text-violet-500/5"><Layers size={120} strokeWidth={1} /></div>
+            <h3 className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-white/10 pb-4">Nature des Cuspides</h3>
             <div className="relative z-10 space-y-6 text-[15px] md:text-base leading-relaxed text-slate-300">
               {content.definition.map((p, i) => <p key={i}>{p}</p>)}
             </div>
           </div>
         </section>
 
-        {/* --- LA RÈGLE D'OR (COMPTAGE) --- */}
-        <section className="max-w-6xl mx-auto">
-          <SectionTitle id="regles" icon={Calculator}>{content.reglesTitle}</SectionTitle>
-          <p className="mb-12 text-lg text-slate-300 font-light italic max-w-4xl leading-relaxed">{content.reglesIntro}</p>
-          
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 relative">
-            {content.regles.map((item, i) => (
-              <article key={item.etape} className="group relative z-10 rounded-[2rem] border border-white/10 bg-[#0c0c0c] p-8 transition-all duration-500 hover:border-violet-500/40 hover:shadow-[0_0_30px_rgba(167,139,250,0.1)]">
-                <div className="flex justify-between items-start mb-8">
-                  <span className="text-6xl font-serif text-white/5 group-hover:text-violet-500/20 transition-colors leading-none">
-                    {item.etape}
+        {/* --- LES 4 ANGLES --- */}
+        <section>
+          <SectionTitle id="angles" icon={Compass}>{content.anglesTitle}</SectionTitle>
+          <p className="mb-10 text-lg text-slate-300 font-light italic max-w-4xl leading-relaxed">{content.anglesIntro}</p>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {content.angles.map((item) => (
+              <div key={item.maison} className="group rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 transition-all duration-500 hover:border-amber-500/40 hover:bg-white/[0.04] hover:shadow-[0_0_30px_rgba(245,158,11,0.05)]">
+                <div className="flex justify-between items-start mb-6">
+                  <span className="text-5xl font-serif text-white/10 group-hover:text-amber-500/20 transition-colors">
+                    <RomanHouse n={item.maison} />
                   </span>
-                  <div className="h-3 w-3 rounded-full bg-violet-500 shadow-[0_0_15px_rgba(167,139,250,0.8)]" aria-hidden="true" />
+                  <div className="h-3 w-3 rounded-full bg-amber-400 shadow-[0_0_12px_rgba(245,158,11,0.8)]" />
                 </div>
-                <h3 className="font-serif text-xl text-white mb-4">{item.nom}</h3>
-                <p className="text-[15px] leading-relaxed text-slate-400">{item.texte}</p>
-              </article>
+                <h3 className="font-serif text-2xl text-white mb-1">{item.nom}</h3>
+                <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-amber-400 mb-5">{item.titre}</p>
+                <p className="text-[15px] leading-relaxed text-slate-300">{item.texte}</p>
+              </div>
             ))}
-            {/* Ligne connectrice décorative desktop */}
-            <div aria-hidden="true" className="hidden lg:block absolute top-[4.5rem] left-10 right-10 h-px bg-gradient-to-r from-transparent via-violet-500/20 to-transparent z-0" />
-          </div>
-
-          {/* EMPLACEMENT IMAGE INFOGRAPHIE COMPTAGE */}
-          <div className="mt-16 mb-8 relative w-full h-[350px] md:h-[450px] rounded-[3rem] border border-white/10 overflow-hidden bg-[#111] flex flex-col items-center justify-center p-6 text-center shadow-2xl">
-               <Waypoints className="text-slate-600 mb-6" size={56} strokeWidth={1} />
-               <p className="text-slate-300 font-serif text-2xl mb-2">Espace pour Infographie de Comptage</p>
-               <span className="text-slate-500 text-sm max-w-xl leading-relaxed">
-                  [Image alt="Infographie visuelle expliquant le comptage inclusif étape par étape sur une roue du zodiaque : on part de la Maison 7 comptée comme 1, pour arriver à la Maison 8 qui devient la Maison 2 dérivée."]
-               </span>
           </div>
         </section>
 
-        {/* --- LES DÉRIVATIONS FONDAMENTALES (ENCYCLOPÉDIE) --- */}
+        {/* --- LES 12 MAISONS (LISTE PREMIUM) --- */}
         <section>
-          <SectionTitle id="applications" icon={Compass}>{content.applicationsTitle}</SectionTitle>
-          <p className="mb-12 text-lg text-slate-300 font-light italic max-w-4xl leading-relaxed">{content.applicationsIntro}</p>
-          
-          <div className="grid gap-6 md:grid-cols-2">
-            {content.applications.map((item, index) => (
-              <article key={index} className="group relative overflow-hidden rounded-[2rem] border border-white/5 bg-white/[0.015] p-8 transition-all hover:bg-white/[0.03] hover:border-amber-500/30">
-                <div className="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
-                  <Network size={100} className="text-amber-500" strokeWidth={0.5} aria-hidden="true" />
+          <SectionTitle id="maisons" icon={Layers}>{content.maisonsTitle}</SectionTitle>
+          <div className="grid gap-5">
+            {content.maisons.map((item) => (
+              <div key={item.maison} className="group flex items-center gap-6 rounded-[2rem] border border-white/5 bg-white/[0.015] p-4 pr-8 transition-all hover:bg-white/[0.04] hover:border-violet-500/30">
+                <div className="relative h-28 w-28 md:h-36 md:w-36 shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-black/50 p-2 shadow-inner">
+                  <Image
+                    src={houseImageSrc(item.maison) || ""}
+                    alt={`Maison ${item.maison}`}
+                    fill
+                    className="object-contain p-2 transition-transform duration-700 group-hover:scale-110"
+                    sizes="(max-width: 768px) 112px, 144px"
+                  />
+                  <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-violet-500/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
-                
-                <div className="relative z-10">
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-[#0c0c0c] shadow-inner group-hover:border-amber-500/40 transition-colors">
-                      <span className="font-serif text-2xl text-amber-100/60 group-hover:text-amber-300 transition-colors">
-                        <RomanHouse n={item.maisonNatale} />
-                      </span>
-                    </div>
-                    <span className="text-xs font-bold uppercase tracking-[0.25em] text-amber-400 bg-amber-400/10 border border-amber-400/20 px-4 py-1.5 rounded-full">
-                      {item.derivation}
+                <div className="flex-1 py-2">
+                  <div className="flex items-center gap-4 mb-3">
+                    <span className="text-xs font-bold uppercase tracking-[0.25em] text-violet-400">
+                      Cuspide <RomanHouse n={item.maison} />
                     </span>
+                    <div className="h-[1px] flex-1 max-w-[60px] bg-gradient-to-r from-violet-500/50 to-transparent" />
                   </div>
-                  <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-amber-100 transition-colors">{item.titre}</h3>
-                  <p className="text-[15px] leading-relaxed text-slate-300">{item.texte}</p>
+                  <h3 className="font-serif text-2xl md:text-3xl text-white mb-3 group-hover:text-violet-200 transition-colors">{item.titre}</h3>
+                  <p className="text-[15px] md:text-base leading-relaxed text-slate-300">{item.texte}</p>
                 </div>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        {/* --- CARTOGRAPHIE FAMILIALE --- */}
-        <section>
-          <SectionTitle id="famille" icon={TreeDeciduous}>{content.familleTitle}</SectionTitle>
-          <div className="mb-14 rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 md:p-10 text-lg text-slate-300 font-light italic leading-relaxed max-w-5xl shadow-lg backdrop-blur-sm">
-            {content.familleIntro}
-          </div>
-          
-          <div className="grid gap-12 lg:grid-cols-3">
-            {content.famille.map((group, idx) => (
-              <div key={idx} className="space-y-8 rounded-[2.5rem] border border-white/5 bg-[#09090b] p-8 md:p-10 shadow-2xl relative overflow-hidden group hover:border-emerald-500/30 transition-all duration-500">
-                <div className="absolute -right-12 -top-12 text-white/5 pointer-events-none group-hover:text-emerald-500/5 transition-colors">
-                  <Users size={200} strokeWidth={0.5} aria-hidden="true" />
-                </div>
-                
-                <h3 className="relative z-10 font-serif text-2xl text-emerald-300 border-b border-emerald-500/20 pb-4">
-                  {group.groupe}
-                </h3>
-                
-                <div className="relative z-10 space-y-6">
-                  {group.membres.map((m, mIdx) => (
-                    <div key={mIdx} className="relative pl-6 border-l-2 border-white/10 hover:border-emerald-400 transition-colors">
-                      <div className="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-[#09090b] border-2 border-white/20" aria-hidden="true" />
-                      <h4 className="text-lg font-bold text-white mb-2 flex flex-wrap items-center gap-3">
-                        {m.nom}
-                        <span className="text-[10px] uppercase tracking-widest text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-md">
-                          {m.maison}
-                        </span>
-                      </h4>
-                      <p className="text-[14px] leading-relaxed text-slate-400">{m.texte}</p>
-                    </div>
-                  ))}
+                <div className="hidden lg:flex h-12 w-12 items-center justify-center rounded-full border border-white/5 bg-white/5 translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300">
+                   <ChevronRight size={24} className="text-violet-400" />
                 </div>
               </div>
             ))}
           </div>
         </section>
 
-        {/* --- MASTERCLASS: CAS PRATIQUES --- */}
+        {/* --- SIGNES PAR ÉLÉMENT (COULEURS) --- */}
         <section>
-          <SectionTitle id="cas-pratiques" icon={BookOpen}>{content.caseStudiesTitle}</SectionTitle>
-          <div className="grid gap-10">
+          <SectionTitle id="signes" icon={Zap}>{content.signesTitle}</SectionTitle>
+          <div className="mb-12 rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 text-lg text-slate-300 font-light italic leading-relaxed max-w-4xl shadow-lg">
+            {content.signesIntro}
+          </div>
+          <div className="grid gap-14">
+            {content.signesParElement.map((group) => {
+              const style = group.element === "Signes de Feu" ? "text-orange-400 border-orange-500/30 bg-orange-500/10" :
+                            group.element === "Signes de Terre" ? "text-emerald-400 border-emerald-500/30 bg-emerald-500/10" :
+                            group.element === "Signes d’Air" ? "text-sky-400 border-sky-500/30 bg-sky-500/10" :
+                            "text-indigo-400 border-indigo-500/30 bg-indigo-500/10"; 
+              const dotStyle = style.split(' ')[0].replace('text-', 'bg-');
+
+              return (
+                <div key={group.element} className="space-y-8">
+                  <div className="flex items-center gap-6">
+                    <h3 className={`font-serif text-3xl px-6 py-2 rounded-full border backdrop-blur-sm shadow-lg ${style}`}>
+                      {group.element}
+                    </h3>
+                    <div className="h-px flex-1 bg-gradient-to-r from-white/20 to-transparent" />
+                  </div>
+                  <div className="grid gap-6 md:grid-cols-3">
+                    {group.signes.map((s) => (
+                      <div key={s.signe} className="relative group rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.05] hover:border-white/30 hover:shadow-xl">
+                        <div className={`absolute top-8 right-8 h-2 w-2 rounded-full opacity-60 shadow-[0_0_10px_currentColor] ${dotStyle}`} />
+                        <h4 className="text-sm font-bold uppercase tracking-[0.25em] text-white mb-4">{s.signe}</h4>
+                        <p className="text-[15px] leading-relaxed text-slate-300">{s.texte}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* --- CONJONCTIONS --- */}
+        <section>
+          <SectionTitle id="conjonctions" icon={Star}>{content.conjunctionsTitle}</SectionTitle>
+          <p className="mb-10 text-lg text-slate-300 font-light italic max-w-4xl leading-relaxed">{content.conjunctionsIntro}</p>
+          <div className="grid gap-6 md:grid-cols-3">
+            {content.conjunctions.map((item) => (
+              <div key={item.titre} className="group rounded-[2rem] border border-amber-500/20 bg-gradient-to-br from-amber-500/5 to-transparent p-8 transition-all hover:border-amber-500/50 hover:bg-amber-500/10">
+                <Star className="text-amber-500 mb-6 transition-transform duration-500 group-hover:rotate-[144deg] group-hover:scale-110" size={32} />
+                <h3 className="font-serif text-2xl text-white mb-4">{item.titre}</h3>
+                <p className="text-[15px] leading-relaxed text-slate-300">{item.texte}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* --- LE MAÎTRE DE MAISON --- */}
+        <section>
+          <SectionTitle id="maitre" icon={Key}>{content.maitreTitle}</SectionTitle>
+          <div className="rounded-[2.5rem] border border-violet-500/30 bg-gradient-to-br from-violet-500/10 to-transparent p-10 max-w-4xl shadow-[0_0_40px_rgba(167,139,250,0.1)]">
+            <div className="space-y-6 text-base md:text-lg leading-relaxed text-slate-200">
+              {content.maitreIntro.map((p, i) => <p key={i}>{p}</p>)}
+            </div>
+          </div>
+        </section>
+
+        {/* --- CAS PRATIQUES (MASTERCLASS DASHBOARD) --- */}
+        <section>
+          <SectionTitle id="cas-pratiques" icon={UserCircle2}>{content.caseStudiesTitle}</SectionTitle>
+          <div className="grid gap-12">
             {content.caseStudies.map((item, i) => (
-              <article key={i} className="group relative overflow-hidden rounded-[3rem] border border-white/10 bg-gradient-to-br from-white/[0.03] to-transparent p-[2px] shadow-2xl transition-all duration-500 hover:border-sky-500/40">
-                <div className="rounded-[2.9rem] bg-[#0c0c0e] p-8 md:p-12">
-                  
-                  <div className="mb-10 flex flex-col md:flex-row md:items-start justify-between gap-6 border-b border-white/10 pb-8">
-                    <div>
-                      <div className="inline-flex items-center gap-2 rounded-full bg-sky-500/10 border border-sky-500/20 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-sky-300 mb-5">
-                        <Zap size={14} aria-hidden="true" /> Cas Pratique #{i + 1}
-                      </div>
-                      <h3 className="font-serif text-3xl md:text-4xl text-white">{item.titre}</h3>
+              <div key={i} className="group relative overflow-hidden rounded-[3rem] border border-white/10 bg-gradient-to-br from-white/[0.04] to-transparent p-1 shadow-2xl transition-all duration-500 hover:border-violet-500/40">
+                <div className="rounded-[2.9rem] bg-[#0c0c0c] p-8 md:p-12">
+                  <div className="mb-10 flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-white/10 pb-8">
+                    <h3 className="font-serif text-3xl md:text-4xl text-white">{item.titre}</h3>
+                    <div className="inline-flex shrink-0 items-center gap-2 rounded-full bg-violet-500/20 px-5 py-2 text-xs font-bold uppercase tracking-widest text-violet-300">
+                      <Zap size={16} /> Cas pratique {i + 1}
                     </div>
                   </div>
-                  
-                  <div className="grid gap-8 lg:grid-cols-5">
-                    <div className="lg:col-span-2 space-y-6">
-                      <div className="rounded-3xl border border-white/10 bg-[#111] p-6 shadow-inner">
-                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-slate-500 block mb-3">Question posée</span>
-                        <p className="font-serif text-xl text-slate-200">{item.question}</p>
+                  <div className="grid gap-10 lg:grid-cols-2">
+                    <div className="space-y-6">
+                      <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8">
+                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400 block mb-3">La Porte (Cuspide)</span>
+                        <p className="font-serif text-2xl text-slate-200">{item.porte}</p>
                       </div>
-                      <div className="rounded-3xl border border-sky-500/30 bg-sky-500/5 p-6 shadow-[0_0_30px_rgba(14,165,233,0.05)]">
-                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-sky-400 block mb-3">Données Célestes</span>
-                        <p className="text-[15px] leading-relaxed text-sky-100">{item.donnees}</p>
+                      <div className="rounded-3xl border border-violet-500/30 bg-violet-500/10 p-8 shadow-[0_0_20px_rgba(167,139,250,0.1)]">
+                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-violet-300 block mb-3">Le Gérant (Maître)</span>
+                        <p className="font-serif text-2xl text-violet-100">{item.gerant}</p>
                       </div>
                     </div>
-                    
-                    <div className="lg:col-span-3 relative flex flex-col justify-center rounded-3xl bg-slate-800/20 p-8 md:p-10 border border-white/5 backdrop-blur-md">
-                        <div className="absolute top-6 right-6 text-white/5"><Quote size={80} strokeWidth={0.5} aria-hidden="true" /></div>
-                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-white/40 block mb-5">Analyse Astrologique</span>
-                        <p className="relative z-10 text-lg md:text-xl leading-relaxed text-slate-300 font-light">&ldquo; {item.interpretation} &rdquo;</p>
+                    <div className="relative flex flex-col justify-center rounded-3xl bg-amber-500/5 p-10 border border-amber-500/20">
+                        <div className="absolute top-8 right-8 text-amber-500/10"><BookOpen size={80} strokeWidth={1} /></div>
+                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-500 block mb-6">Verdict de l'Astrologue</span>
+                        <p className="relative z-10 text-xl md:text-2xl leading-relaxed text-amber-100/90 font-light italic">&ldquo; {item.interpretation} &rdquo;</p>
                     </div>
                   </div>
                 </div>
-              </article>
+              </div>
             ))}
           </div>
         </section>
 
-        {/* --- LIMITES & ÉTHIQUE --- */}
-        <section className="max-w-5xl mx-auto">
-          <SectionTitle id="ethique" icon={AlertTriangle}>{content.limitesTitle}</SectionTitle>
-          <div className="relative rounded-[3rem] border border-dashed border-rose-500/30 bg-rose-950/10 p-8 md:p-14 backdrop-blur-sm shadow-2xl">
-            <div className="grid md:grid-cols-3 gap-12 items-center">
-              <div className="md:col-span-2 space-y-8">
-                {content.limites.map((p, i) => (
-                  <div key={i} className="flex gap-5">
-                    <div className="text-rose-500 shrink-0 mt-1 bg-rose-500/10 p-2 rounded-full h-fit">
-                      <CheckCircle2 size={20} aria-hidden="true" />
-                    </div>
-                    <p className="text-[15px] md:text-base leading-relaxed text-slate-300">{p}</p>
+        {/* --- LE MAÎTRE EN MAISON (THÉORÈMES) --- */}
+        <section>
+          <SectionTitle id="maitre-en-maison" icon={MapPin}>{content.masterInHouseTitle}</SectionTitle>
+          <div className="grid gap-8 md:grid-cols-2">
+            {content.masterInHouse.map((item, i) => (
+              <div key={i} className="group rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 transition-all hover:border-sky-500/40 hover:bg-sky-500/5 hover:shadow-[0_0_30px_rgba(14,165,233,0.1)]">
+                <div className="flex items-center gap-5 mb-6">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-sky-500/10 text-sky-400 font-serif text-2xl border border-sky-500/20">
+                    {item.titre.split(' ')[2]} 
                   </div>
-                ))}
+                  <h3 className="font-serif text-2xl text-white">{item.titre}</h3>
+                </div>
+                <p className="text-[15px] md:text-base leading-relaxed text-slate-300 pl-4 border-l-2 border-white/10 group-hover:border-sky-500/40 transition-colors">
+                  {item.texte}
+                </p>
               </div>
-              <div className="hidden md:flex flex-col items-center justify-center gap-6 rounded-[2rem] bg-rose-500/5 p-10 border border-rose-500/20 shadow-[0_0_40px_rgba(225,29,72,0.1)]">
-                <AlertTriangle className="text-rose-500/80 animate-pulse" size={80} strokeWidth={1} aria-hidden="true" />
-                <span className="text-xs uppercase tracking-[0.3em] text-center text-rose-300 font-bold leading-relaxed">
-                  Ligne Rouge <br /> Astrologique
-                </span>
+            ))}
+          </div>
+        </section>
+
+        {/* --- ASPECTS ENTRE MAÎTRES (CONNEXIONS) --- */}
+        <section>
+          <SectionTitle id="aspects-maitres" icon={GitCompare}>{content.masterAspectsTitle}</SectionTitle>
+          <div className="grid gap-8">
+            {content.masterAspects.map((item, i) => (
+              <div key={i} className="relative overflow-hidden rounded-[2.5rem] border border-emerald-500/20 bg-gradient-to-r from-emerald-500/5 to-transparent p-10 transition-all hover:border-emerald-500/40 hover:shadow-[0_0_30px_rgba(16,185,129,0.1)]">
+                <div className="absolute -right-10 -top-10 text-emerald-500/5 rotate-12"><Network size={250} /></div>
+                <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-8">
+                  <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-[1.5rem] bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                    <GitCompare size={30} />
+                  </div>
+                  <div>
+                    <h3 className="font-serif text-2xl text-white mb-3">{item.titre}</h3>
+                    <p className="text-[15px] md:text-base leading-relaxed text-slate-300 max-w-4xl">{item.texte}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* --- MAISONS INTERCEPTÉES --- */}
+        <section>
+          <SectionTitle id="interceptees" icon={Layers}>{content.interceptedTitle}</SectionTitle>
+          <div className="relative rounded-[3rem] border border-dashed border-white/20 bg-black/40 p-10 md:p-14 backdrop-blur-sm">
+            <div className="grid md:grid-cols-3 gap-12 items-center">
+              <div className="md:col-span-2 space-y-6">
+                {content.intercepted.map((p, i) => <p key={i} className="text-[15px] md:text-base leading-relaxed text-slate-300">{p}</p>)}
+              </div>
+              <div className="hidden md:flex flex-col items-center justify-center gap-6 rounded-[2rem] bg-white/[0.02] p-10 border border-white/5">
+                <Layers className="text-slate-500" size={80} strokeWidth={1} />
+                <span className="text-xs uppercase tracking-[0.3em] text-center text-slate-400 font-bold">L'Énergie <br /> Cachée</span>
               </div>
             </div>
           </div>
         </section>
 
-        {/* --- CONCLUSION --- */}
-        <section className="mt-36 max-w-5xl mx-auto">
-          <div className="relative p-[2px] rounded-[3.5rem] bg-gradient-to-br from-violet-500/40 via-emerald-500/20 to-amber-500/40 shadow-[0_0_80px_rgba(167,139,250,0.1)]">
-            <div className="rounded-[3.4rem] bg-[#09090b] p-12 md:p-24 text-center">
-              <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-violet-500/20 to-transparent border border-violet-500/30 text-violet-300 mb-10 shadow-[0_0_30px_rgba(167,139,250,0.2)]">
-                <Sparkles size={40} fill="currentColor" aria-hidden="true" />
+        {/* --- MÉTHODE --- */}
+        <section>
+          <SectionTitle id="methode" icon={CheckCircle2}>{content.methodeTitle}</SectionTitle>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {content.methode.map((item, i) => (
+              <div key={i} className="relative overflow-hidden group p-8 rounded-[2.5rem] bg-white/[0.02] border border-white/10 hover:bg-violet-500/5 hover:border-violet-500/30 transition-all">
+                <span className="absolute -top-4 -right-4 font-serif text-[6rem] leading-none text-white/5 group-hover:text-violet-500/10 transition-colors">
+                  {i + 1}
+                </span>
+                <div className="relative z-10 mb-6 text-violet-400"><CheckCircle2 size={32} /></div>
+                <p className="relative z-10 text-[15px] font-medium leading-relaxed text-slate-200">{item}</p>
               </div>
-              <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-white mb-12">{content.conclusionTitle}</h2>
-              <div className="max-w-3xl mx-auto space-y-10">
-                {content.conclusion.map((p, i) => (
-                  <p key={i} className="text-xl md:text-2xl font-light leading-relaxed text-slate-300 italic">&ldquo; {p} &rdquo;</p>
-                ))}
+            ))}
+          </div>
+        </section>
+
+        {/* --- CONCLUSION --- */}
+        <section className="mt-32">
+          <div className="relative p-[2px] rounded-[3.5rem] bg-gradient-to-br from-violet-500/40 via-white/10 to-amber-500/40 shadow-[0_0_50px_rgba(167,139,250,0.15)]">
+            <div className="rounded-[3.4rem] bg-[#0c0c0c] p-12 md:p-20 text-center">
+              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-violet-500/20 to-transparent border border-violet-500/20 text-violet-300 mb-10">
+                <Quote size={36} fill="currentColor" />
+              </div>
+              <h2 className="font-serif text-4xl md:text-5xl text-white mb-10">{content.conclusionTitle}</h2>
+              <div className="max-w-4xl mx-auto space-y-8">
+                {content.conclusion.map((p, i) => <p key={i} className="text-xl md:text-2xl font-light leading-relaxed text-slate-300 italic">&ldquo; {p} &rdquo;</p>)}
               </div>
             </div>
           </div>
         </section>
 
         {/* --- FAQ --- */}
-        <section className="max-w-4xl mx-auto mt-20">
+        <section>
           <SectionTitle id="faq" icon={HelpCircle}>{content.faqTitle}</SectionTitle>
-          <div className="grid gap-6">
+          <div className="grid gap-6 md:grid-cols-2">
             {content.faq.map((item, i) => (
-              <details key={i} className="group rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.04] hover:border-violet-500/30 cursor-pointer">
-                <summary className="flex list-none items-center justify-between font-serif text-xl md:text-2xl text-white outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-4 focus-visible:ring-offset-[#09090b] rounded-xl">
-                  <span className="pr-6">{item.question}</span>
-                  <span className="text-violet-400 transition-transform duration-500 group-open:rotate-180 bg-violet-500/10 p-3 rounded-full shrink-0 border border-violet-500/20">
-                    <ChevronRight size={24} aria-hidden="true" />
-                  </span>
+              <details key={i} className="group rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.05] hover:border-white/20">
+                <summary className="flex cursor-pointer list-none items-center justify-between font-serif text-xl md:text-2xl text-white outline-none">
+                  {item.question}
+                  <span className="text-violet-400 transition-transform duration-300 group-open:rotate-180 bg-violet-500/10 p-2 rounded-full"><ChevronRight size={20} /></span>
                 </summary>
-                <p className="mt-8 text-[15px] md:text-base leading-relaxed text-slate-300 border-t border-white/10 pt-8">
+                <p className="mt-6 text-[15px] md:text-base leading-relaxed text-slate-300 border-t border-white/10 pt-6">
                   {item.answer}
                 </p>
               </details>
@@ -389,20 +471,7 @@ export default function MaisonsDeriveesPage() {
           </div>
         </section>
 
-        {/* --- FOOTER DE L'ARTICLE --- */}
-        <footer className="mt-32 border-t border-white/10 pt-16 flex flex-col items-center gap-8">
-          <Link
-            href="/articles"
-            aria-label="Retour à la liste des articles d'astrologie"
-            className="group flex items-center gap-4 rounded-full border border-violet-500/30 bg-violet-500/10 px-8 py-5 text-[15px] font-bold uppercase tracking-widest text-violet-300 transition-all duration-300 hover:bg-violet-500/20 hover:border-violet-400 hover:shadow-[0_0_30px_rgba(167,139,250,0.2)] focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-4 focus:ring-offset-black"
-          >
-            <ArrowLeft size={20} className="transition-transform duration-300 group-hover:-translate-x-2" aria-hidden="true" />
-            Explorer d'autres concepts
-          </Link>
-          <p className="text-xs text-slate-600 uppercase tracking-[0.4em] font-bold mt-4" aria-hidden="true">
-            Astro Cours — L'Encyclopédie
-          </p>
-        </footer>
+ 
 
       </main>
     </>
