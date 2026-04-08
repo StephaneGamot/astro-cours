@@ -511,10 +511,10 @@ export default function MercurienPost() {
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
-            href="/blog/neptunien"
+            href="/blog/lunarien"
             className="group relative inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-medium text-white/90 backdrop-blur-md transition-all hover:border-white/40 hover:bg-white/10"
           >
-            Lire le portrait du Neptunien
+            Lire le portrait du Lunarien
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
           <Link

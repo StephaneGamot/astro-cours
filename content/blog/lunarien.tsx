@@ -522,10 +522,10 @@ export default function LunarienPost() {
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
           <Link
-            href="/blog/saturnien"
+            href="/blog/mercurien"
             className="group relative inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-medium text-white/90 backdrop-blur-md transition-all hover:border-white/40 hover:bg-white/10"
           >
-            Lire le portrait du Saturnien
+            Lire le portrait du Mercurien
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
         </div>

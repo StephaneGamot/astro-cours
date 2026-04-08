@@ -517,17 +517,17 @@ export default function SaturnienPost() {
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
-            href="/blog/mercurien"
+            href="/blog/jupitérien"
             className="group relative inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-medium text-white/90 backdrop-blur-md transition-all hover:border-white/40 hover:bg-white/10"
           >
-            Lire le portrait du Mercurien
+            Lire le portrait du Jupitérien
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
           <Link
-            href="/blog/neptunien"
+            href="/blog/uranien"
             className="group relative inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-medium text-white/90 backdrop-blur-md transition-all hover:border-white/40 hover:bg-white/10"
           >
-            Lire le portrait du Neptunien
+            Lire le portrait de l’Uranien
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
         </div>
