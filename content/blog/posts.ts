@@ -38,13 +38,24 @@ import orientationProfessionnelleThemeAstralPost, {
   meta as orientationProfessionnelleThemeAstralMeta,
 } from "./orientation-professionnelle-theme-astral";
 
- import JupiterienPost, {
-  meta as JupiterienMeta,
-} from "./jupiterien";
+import SolarienPost, { meta as solarienMeta } from "./solarien";
 
- import VenusPost, {
-  meta as VenusMeta,
-} from "./venusien";
+import LunarienPost, { meta as lunarienMeta } from "./lunarien";
+
+import MartienPost, { meta as martienMeta } from "./martien";
+
+import JupiterienPost, { meta as JupiterienMeta } from "./jupiterien";
+
+import SaturnienPost, { meta as SaturnienMeta } from "./saturnien";
+
+import NeptunienPost, { meta as neptunienMeta } from "./neptunien";
+
+import UranienPost, { meta as uranienMeta } from "./uranien";
+
+import MercurienienPost, { meta as mercurienMeta } from "./mercurien";
+
+import VenusPost, { meta as VenusMeta } from "./venusien";
+import PlutonienPost, { meta as plutonienMeta } from "./plutonien";
 
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
@@ -64,10 +75,18 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
-      { meta: VenusMeta, Component: VenusPost },
-    { meta: JupiterienMeta, Component: JupiterienPost },
-  { meta: orientationProfessionnelleThemeAstralMeta, Component: orientationProfessionnelleThemeAstralPost },
-{ meta: financesThemeAstralMeta, Component: FinancesThemeAstralPost },
+  { meta: martienMeta, Component: MartienPost },
+  { meta: solarienMeta, Component: SolarienPost },
+  { meta: lunarienMeta, Component: LunarienPost },
+  { meta: mercurienMeta, Component: MercurienienPost },
+  { meta: neptunienMeta, Component: NeptunienPost },
+  { meta: VenusMeta, Component: VenusPost },
+  { meta: JupiterienMeta, Component: JupiterienPost },
+  { meta: SaturnienMeta, Component: SaturnienPost },
+  { meta: uranienMeta, Component: UranienPost },
+  { meta: plutonienMeta, Component: PlutonienPost },
+  { meta: orientationProfessionnelleThemeAstralMeta, Component: orientationProfessionnelleThemeAstralPost},
+  { meta: financesThemeAstralMeta, Component: FinancesThemeAstralPost },
   { meta: loveFidelityMeta, Component: LoveFidelityPost },
   { meta: zodiacQualitiesMeta, Component: ZodiacQualitiesPost },
   { meta: sportBySignMeta, Component: SportBySignPost },

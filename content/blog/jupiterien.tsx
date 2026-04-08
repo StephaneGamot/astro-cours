@@ -2,24 +2,25 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import Image from "next/image";
-import JupiterienImage1 from "@/public/images/blog/jupiterien1.webp";
+import JupiterienImage from "@/public/images/blog/jupiterien1.webp";
 import JupiterienImage2 from "@/public/images/blog/jupiterien2.webp";
 
 export const meta = {
   slug: "jupiterien",
-  title: "Le Jupitérien : portrait astrologique complet",
+  title:
+    "Jupitérien : le Guide, l'Organisateur et le Bienfaiteur",
   description:
-    "Portrait astrologique du Jupitérien : psychologie, intelligence, vocation, rapport au pouvoir, argent, amour, vie sociale, excès, ombres et qualités de Jupiter dans un thème astral.",
+    "Portrait astrologique du Jupitérien : abondance, ordre, loi, optimisme, organisation, amour du foyer, pouvoir, excès, grande dame et morphopsychologie jupitérienne dans un thème astral.",
   date: "2026-04-02",
   tags: [
     "Jupiter",
-    "jupitérien",
+    "jupiterien",
     "portrait astrologique",
-    "tempérament",
+    "abondance",
+    "organisation",
     "thème astral",
     "psychologie astrologique",
     "vocation",
-    "carrière",
     "amour",
     "intermédiaire",
   ],
@@ -29,9 +30,9 @@ export const meta = {
 
 function Kicker({ children }: { children: ReactNode }) {
   return (
-    <span className="mb-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-amber-400">
+    <span className="mb-4 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-amber-300">
       <span
-        className="h-1.5 w-1.5 animate-pulse rounded-full bg-amber-400"
+        className="h-1.5 w-1.5 animate-pulse rounded-full bg-amber-300"
         aria-hidden="true"
       />
       {children}
@@ -43,7 +44,7 @@ function H2({ children }: { children: ReactNode }) {
   return (
     <h2 className="mb-6 flex items-center font-serif text-3xl font-light text-white md:text-4xl">
       <span
-        className="mr-4 block h-px w-8 bg-gradient-to-r from-amber-500/50 to-transparent"
+        className="mr-4 block h-px w-8 bg-gradient-to-r from-amber-400/60 to-transparent"
         aria-hidden="true"
       />
       {children}
@@ -66,8 +67,8 @@ function Callout({
 }) {
   const styles = {
     warn: {
-      box: "border-amber-500/30 bg-amber-500/10 shadow-[0_0_30px_rgba(245,158,11,0.05)]",
-      icon: "text-amber-400",
+      box: "border-red-500/30 bg-red-500/10 shadow-[0_0_30px_rgba(239,68,68,0.06)]",
+      icon: "text-red-300",
       svg: (
         <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path
@@ -94,8 +95,8 @@ function Callout({
       ),
     },
     note: {
-      box: "border-sky-500/30 bg-sky-500/10 shadow-[0_0_30px_rgba(56,189,248,0.05)]",
-      icon: "text-sky-400",
+      box: "border-amber-500/30 bg-amber-500/10 shadow-[0_0_30px_rgba(245,158,11,0.05)]",
+      icon: "text-amber-300",
       svg: (
         <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path
@@ -152,8 +153,8 @@ function Card({
 
 function Stat({ label, value }: { label: string; value: string }) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-5 backdrop-blur-sm transition-all hover:border-white/20">
-      <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+    <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-5 backdrop-blur-sm transition-all hover:border-amber-300/30">
+      <div className="absolute inset-0 bg-gradient-to-br from-amber-300/5 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
       <p className="text-xs uppercase tracking-widest text-white/50">{label}</p>
       <p className="mt-2 font-serif text-xl text-white/90">{value}</p>
     </div>
@@ -174,7 +175,7 @@ function TableRow({
   reading: string;
 }) {
   return (
-    <div className="group grid grid-cols-1 border-b border-white/10 transition-colors hover:bg-white/[0.02] md:grid-cols-3">
+    <div className="group grid grid-cols-1 border-b border-white/10 transition-colors hover:bg-amber-300/[0.03] md:grid-cols-3">
       <div className="p-4 font-serif text-lg text-amber-200/90">{title}</div>
       <div className="p-4 text-sm leading-relaxed text-white/80">{effect}</div>
       <div className="p-4 text-sm leading-relaxed text-white/80">{reading}</div>
@@ -228,7 +229,7 @@ export default function JupiterienPost() {
                   name: "Qu’est-ce qu’un Jupitérien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Jupitérien désigne un tempérament fortement marqué par Jupiter : sens moral, générosité, goût de l’ordre, vision large, besoin de respect, aptitude à guider, organiser ou représenter.",
+                    text: "Le Jupitérien est un type astrologique marqué par Jupiter : organisation, abondance, jugement, générosité, respect de la loi, chaleur humaine, prestige et vocation de guide.",
                   },
                 },
                 {
@@ -236,15 +237,15 @@ export default function JupiterienPost() {
                   name: "Quels métiers conviennent au Jupitérien ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Les signatures jupitériennes favorisent souvent le droit, l’administration, la gestion, la direction, la transmission, les affaires institutionnelles, la philosophie, la religion, la sociologie ou certaines fonctions de représentation.",
+                    text: "Le Jupitérien s’épanouit souvent dans le droit, l’administration, la magistrature, la diplomatie, la direction, la banque, la gestion, la politique de haut niveau et les fonctions d’organisation sociale.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le défaut principal d’un Jupitérien mal équilibré ?",
+                  name: "Quel est le risque principal d’un Jupiter affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Jupiter est dissonant ou mal intégré, le tempérament peut basculer vers la prétention, l’orgueil, la surévaluation de soi, la dépense de prestige, le besoin excessif de reconnaissance ou le jugement faussé.",
+                    text: "Lorsque Jupiter est gravement affligé, l’abondance peut se déformer en excès, prétention, mégalomanie, bluff, gaspillage, gourmandise ou besoin maladif de prestige.",
                   },
                 },
               ],
@@ -253,9 +254,9 @@ export default function JupiterienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[7/3]">
         <Image
-          src={JupiterienImage1}
+          src={JupiterienImage}
           alt="Portrait symbolique du tempérament jupitérien en astrologie"
           fill
           priority
@@ -270,21 +271,19 @@ export default function JupiterienPost() {
           aria-hidden="true"
         />
         <div
-          className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-[80px]"
+          className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-amber-300/5 blur-[80px]"
           aria-hidden="true"
         />
         <div
-          className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/5 via-transparent to-black/50"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-br from-amber-300/5 via-transparent to-black/50"
           aria-hidden="true"
         />
 
         <div className="relative z-10">
-          <Kicker>Jupiter • prestige • générosité • vocation • réussite</Kicker>
+          <Kicker>Jupiter • ordre • loi • abondance • protection</Kicker>
 
           <div className="mt-4 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <h1 className="font-serif text-4xl font-medium leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl">
-              Le Jupitérien : portrait astrologique complet
-            </h1>
+         
 
             <div className="flex flex-wrap gap-3 text-sm text-white/70">
               <span className="rounded-full border border-white/10 bg-white/5 px-4 py-1.5 backdrop-blur-md">
@@ -297,16 +296,7 @@ export default function JupiterienPost() {
           </div>
 
           <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Le <strong className="font-medium text-amber-200">Jupitérien</strong> n’est pas seulement
-            un tempérament optimiste ou sociable. C’est un type astrologique fondé sur
-            le <strong className="font-medium text-white">discernement</strong>, le{" "}
-            <strong className="font-medium text-white">jugement</strong>, le{" "}
-            <strong className="font-medium text-white">sens de l’ordre</strong>, la{" "}
-            <strong className="font-medium text-white">mesure</strong> et la capacité à
-            protéger, représenter, conseiller ou administrer. Lorsqu’il est bien équilibré,
-            Jupiter élève, stabilise et donne de la noblesse. Lorsqu’il est déformé,
-            il peut nourrir l’orgueil, les prétentions, les dépenses de prestige ou les
-            ambitions mal calibrées.
+            Si le monde n&apos;était composé que de l&apos;énergie de Mars, ce serait la guerre permanente. S&apos;il n&apos;y avait que Saturne, ce serait la rigueur absolue. Heureusement, la grande horlogerie cosmique a placé Jupiter au cœur de notre système. Gouverné par la plus grande des planètes (Zeus dans la mythologie, le souverain de l&apos;Olympe), le type Jupitérien est l&apos;archétype de l&apos;Abondance, de l&apos;Ordre, de la Loi et de l&apos;Optimisme. Découvrez le portrait psychologique, professionnel et amoureux de ce grand protecteur du zodiaque, dont la seule présence suffit souvent à apaiser le chaos.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -316,297 +306,46 @@ export default function JupiterienPost() {
       </header>
 
       <section className="grid gap-4 sm:grid-cols-3" aria-label="Points clés du portrait jupitérien">
-        <Stat label="Force mentale" value="Jugement & méthode" />
-        <Stat label="Qualité sociale" value="Bienveillance & autorité" />
-        <Stat label="Ombre principale" value="Orgueil & prétention" />
-      </section>
-
-      <Callout tone="note" title="Le centre du type jupitérien">
-        <p>
-          Si le Mercurien brille par la vitesse d’assimilation et si le Solaire impressionne
-          par l’ampleur de sa vision, le Jupitérien se distingue surtout par{" "}
-          <strong className="text-white">le sens du jugement</strong>, la capacité à ordonner
-          les idées, à structurer les connaissances et à décider avec méthode.
-        </p>
-      </Callout>
-
-      <Divider />
-
-      <section className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 shadow-2xl backdrop-blur-md sm:p-12">
-        <div
-          className="absolute -left-10 -top-10 h-40 w-40 rounded-full bg-amber-500/10 blur-[60px]"
-          aria-hidden="true"
-        />
-
-        <h2 className="relative z-10 font-serif text-2xl font-medium text-white sm:text-3xl">
-          Les grands axes du tempérament jupitérien
-        </h2>
-
-        <div className="relative z-10 mt-8 grid gap-4 sm:grid-cols-2">
-          {[
-            "Esprit ordonné, méthodique et structuré",
-            "Goût naturel pour l’organisation et la hiérarchie",
-            "Tempérament protecteur, sincère et loyal",
-            "Aptitude à diriger, représenter ou conseiller",
-            "Besoin fort d’honneur et de considération",
-            "Attirance pour la stabilité, la légalité et l’aisance",
-            "Goût du confort, mais normalement avec mesure",
-            "Risque d’orgueil si Jupiter est mal équilibré",
-          ].map((item, index) => (
-            <div
-              key={item}
-              className="group flex items-center gap-4 rounded-2xl border border-white/5 bg-black/40 px-5 py-4 transition-colors hover:border-amber-500/30 hover:bg-white/5"
-            >
-              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-500/10 font-serif text-sm font-bold text-amber-400 group-hover:bg-amber-500/20">
-                {index + 1}
-              </span>
-              <span className="text-sm font-medium text-white/85 sm:text-base">{item}</span>
-            </div>
-          ))}
-        </div>
+        <Stat label="Force centrale" value="Ordre & abondance" />
+        <Stat label="Terrain naturel" value="Protection & organisation" />
+        <Stat label="Ombre principale" value="Excès & prétention" />
       </section>
 
       <section className="space-y-6">
-        <H2>1) Intelligence et fonctionnement mental du Jupitérien</H2>
+        <H2>L&apos;Intellect du Jupitérien : Le Génie de la Méthode et de la Synthèse</H2>
 
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          Le cerveau jupitérien n’est pas forcément le plus rapide ni le plus spectaculaire.
-          En revanche, il compte parmi les plus{" "}
-          <strong className="font-medium text-amber-200">ordonnés, méthodiques et fiables</strong>.
-          Il sait classer, hiérarchiser, retrouver une information, structurer un ensemble
-          et faire tenir les idées dans une architecture cohérente.
-        </p>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="Ses points forts intellectuels" subtitle="Ordre, méthode, discernement">
-            <p>
-              Le Jupitérien apprend souvent avec régularité. Il n’a pas besoin d’un éclat
-              de génie permanent pour bien réussir : il avance avec constance, jugement
-              et sens de la bonne méthode.
-            </p>
-            <p>
-              Il est souvent à l’aise dans les domaines où il faut organiser des notions,
-              comprendre un cadre, gérer un ensemble, administrer ou arbitrer.
-            </p>
-          </Card>
-
-          <Card title="Domaines d’excellence" subtitle="Les savoirs où Jupiter se sent chez lui">
-            <p>
-              Droit, administration, gestion, économie, finance, organisation, philosophie,
-              sociologie, religion, théologie, transmission structurée, parfois peinture
-              ou activités de représentation.
-            </p>
-          </Card>
-        </div>
-
-        <Callout tone="ok" title="Lecture simple">
+        <Card title="L’intellect">
           <p>
-            Le Jupitérien n’est pas seulement “intelligent” : il est souvent{" "}
-            <strong className="text-white">bien organisé intérieurement</strong>, ce qui lui
-            permet de tenir sur la durée et de revenir facilement à l’information utile.
-          </p>
-        </Callout>
-      </section>
-
-      <Divider />
-
-      <section className="space-y-6">
-        <H2>2) Rapport aux études, à l’école et à l’apprentissage</H2>
-
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          La période scolaire se passe souvent correctement chez un bon Jupitérien,
-          non parce qu’il serait toujours le plus brillant, mais parce qu’il sait suivre
-          une ligne, respecter une méthode et tirer profit d’un cadre bien posé.
-        </p>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="Pourquoi il réussit souvent bien">
-            <p>
-              Il est généralement plus ponctuel, plus discipliné, plus apte à suivre
-              des consignes structurées et à travailler dans la continuité.
-            </p>
-            <p>
-              Il bénéficie souvent d’une forme de chance dans les examens ou les validations,
-              surtout quand Jupiter est bien relié au thème.
-            </p>
-          </Card>
-
-          <Card title="Sa façon d’apprendre">
-            <p>
-              Il préfère comprendre une logique d’ensemble, situer les éléments dans un ordre,
-              voir l’utilité d’un savoir et en maîtriser les principes plutôt que d’absorber
-              de façon désordonnée.
-            </p>
-          </Card>
-        </div>
-      </section>
-
-      <Divider />
-
-      <section className="space-y-6">
-        <H2>3) Comportement social : générosité, protection, bonhomie</H2>
-
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          Le Jupitérien bien intégré inspire souvent confiance. Il dégage une impression
-          de largeur, de stabilité, de bienveillance et de solidité morale. Son contact
-          peut être chaleureux, franc, rassurant et protecteur.
-        </p>
-
-        <div className="grid gap-6 md:grid-cols-3">
-          <Card title="Bon cœur">
-            <p>
-              Il aide volontiers, protège facilement, conseille avec sincérité et se montre
-              sensible aux injustices ou à la vulnérabilité d’autrui.
-            </p>
-          </Card>
-
-          <Card title="Présence agréable">
-            <p>
-              Il peut contribuer à l’ambiance d’un groupe, apporter de la confiance,
-              de la jovialité, de la détente et un certain sens de l’hospitalité.
-            </p>
-          </Card>
-
-          <Card title="Fiabilité">
-            <p>
-              Comme collègue, associé, partenaire ou collaborateur, il donne souvent
-              une image de stabilité, de loyauté et de solidité.
-            </p>
-          </Card>
-        </div>
-
-        <Callout title="La tonalité jupitérienne">
-          <p>
-            Le bon Jupitérien aime généralement se sentir{" "}
-            <strong className="text-white">utile, respectable et digne de confiance</strong>.
-            Il préfère construire, protéger, encadrer ou élever plutôt que détruire.
-          </p>
-        </Callout>
-      </section>
-
-      <Divider />
- <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[7/3]">
-        <Image
-          src={JupiterienImage2}
-          alt="Portrait symbolique du tempérament jupitérien en astrologie"
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
-      </div>
-      <section className="space-y-6">
-        <H2>4) Vocation, carrière et statut social</H2>
-
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          La signature jupitérienne pousse rarement vers les tâches purement subies ou
-          les fonctions sans portée. Elle cherche plutôt à se déployer dans des rôles
-          où il y a de la responsabilité, de l’encadrement, de la représentation ou
-          un enjeu de valeur sociale.
-        </p>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="Professions favorisées" subtitle="Les terrains naturels de Jupiter">
-            <p>
-              Direction, administration, encadrement, gestion, banque, droit, conseil,
-              représentation, magistrature, affaires publiques, enseignement élevé,
-              spiritualité structurée, institutions, postes de responsabilité.
-            </p>
-          </Card>
-
-          <Card title="Ce que Jupiter cherche dans le travail" subtitle="Plus qu’un revenu : une position">
-            <p>
-              Jupiter ne veut pas seulement gagner sa vie : il veut aussi exercer une
-              fonction qui ait du sens, de la tenue, une dignité ou une forme de légitimité.
-            </p>
-          </Card>
-        </div>
-
-        <section
-          aria-label="Lecture professionnelle du jupitérien"
-          className="overflow-hidden rounded-[2rem] border border-white/10 bg-black/40 shadow-2xl backdrop-blur-sm"
-        >
-          <div className="grid grid-cols-1 border-b border-white/10 bg-white/[0.05] md:grid-cols-3">
-            <div className="p-5 font-serif text-lg font-medium text-white/90">Niveau</div>
-            <div className="p-5 font-serif text-lg font-medium text-white/90">Expression</div>
-            <div className="p-5 font-serif text-lg font-medium text-white/90">Lecture</div>
-          </div>
-
-          <TableRow
-            title="Expression simple"
-            effect="Encadrement, caisse, atelier, gestion concrète"
-            reading="Compétence d’organisation et de fiabilité"
-          />
-          <TableRow
-            title="Expression élevée"
-            effect="Direction, administration, conseil, institution"
-            reading="Autorité, représentation, sens du cadre"
-          />
-          <TableRow
-            title="Expression rare"
-            effect="Politique, haute administration, religion, grande influence"
-            reading="Jupiter très fort, reconnu et soutenu"
-          />
-        </section>
-      </section>
-
-      <Divider />
-
-      <section className="space-y-6">
-        <H2>5) Rapport au confort, à l’argent et aux plaisirs</H2>
-
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          Le Jupitérien aime souvent vivre dans de bonnes conditions. Il apprécie
-          le confort, la qualité, la belle maison, la bonne table, les plaisirs sains,
-          l’aisance matérielle et une certaine ampleur de vie.
-        </p>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="Jupiter équilibré">
-            <p>
-              Il sait profiter sans sombrer. Il garde normalement le sens de la mesure,
-              aime les bonnes choses sans forcément les transformer en excès constants.
-            </p>
-          </Card>
-
-          <Card title="Jupiter dissonant">
-            <p>
-              Les excès de table, l’embonpoint, la gourmandise, les dépenses de confort
-              ou la recherche de prestige peuvent devenir plus visibles quand Jupiter est
-              contrarié ou mêlé à d’autres facteurs de démesure.
-            </p>
-          </Card>
-        </div>
-
-        <Callout tone="warn" title="La vraie ombre de Jupiter">
-          <p>
-            L’excès jupitérien n’est pas seulement alimentaire. Il peut être aussi{" "}
-            <strong className="text-white">moral, matériel ou social</strong> :
-            trop de confiance, trop d’assurance, trop de dépenses de représentation,
-            trop de certitude sur sa propre valeur.
-          </p>
-        </Callout>
-      </section>
-
-      <Divider />
-
-      <section className="space-y-6">
-        <H2>6) Honneur, prestige et besoin de considération</H2>
-
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          Le point sensible du Jupitérien, même lorsqu’il est bon, reste souvent la
-          question de l’honneur. Il veut être reconnu comme quelqu’un de valable,
-          de respectable, de droit et de moralement digne.
-        </p>
-
-        <Card title="Pourquoi il réagit fortement" subtitle="Le respect fait partie de son équilibre">
-          <p>
-            Mettre en doute ses intentions, lui faire un reproche injuste ou salir son
-            image peut le blesser beaucoup plus profondément qu’il ne le montre.
+            L&apos;intelligence du Jupitérien n&apos;a ni la fulgurance hyperactive du Mercurien, ni l&apos;aridité du Saturnien. Son esprit se distingue par trois qualités majeures : le discernement, le jugement et la méthode.
           </p>
           <p>
-            Sous sa bonhomie, il y a souvent une parcelle d’orgueil, une vraie sensibilité
-            à la flatterie et un besoin réel de considération sociale.
+            C&apos;est l&apos;un des cerveaux les mieux organisés du zodiaque. S&apos;il n&apos;a pas toujours une mémoire photographique instantanée, cela n&apos;a aucune importance : son esprit fonctionne comme une bibliothèque parfaitement classée. Face à un problème complexe, le Jupitérien ne panique jamais. Il trie, hiérarchise, sépare l&apos;essentiel du superflu et trouve la solution avec une évidence déconcertante.
+          </p>
+          <p>
+            Durant sa jeunesse et sa scolarité, c&apos;est l&apos;étudiant à qui tout réussit (il a d&apos;ailleurs la réputation d&apos;être &quot;chanceux&quot; aux examens). En réalité, cette chance est souvent le résultat de son respect inné pour les directives et d&apos;un bon sens absolu. Sa soif d&apos;apprendre est vaste, mais il brille particulièrement dans les domaines qui structurent la société :
+          </p>
+          <ul className="list-disc space-y-2 pl-5">
+            <li>La Loi et la Justice : Le droit, la magistrature, la diplomatie.</li>
+            <li>L&apos;Organisation : L&apos;administration publique, la gestion de grandes entreprises, l&apos;économie financière.</li>
+            <li>L&apos;Élévation de la Pensée : La sociologie, la philosophie, la théologie ou les hautes responsabilités religieuses.</li>
+          </ul>
+        </Card>
+      </section>
+
+      <Divider />
+
+      <section className="space-y-6">
+        <H2>Vie Sociale et Caractère : L&apos;Aura du Protecteur</H2>
+
+        <Card title="La vie sociale">
+          <p>
+            En société, le Jupitérien rayonne d&apos;une bonhomie naturelle, de sincérité et de tolérance. C&apos;est le pilier autour duquel les autres se rassemblent. Il adopte naturellement (et parfois inconsciemment) un ton protecteur.
+          </p>
+          <p>
+            Il a le cœur sur la main. S&apos;il a réussi sa propre vie (ce qui est généralement le cas), il mettra un point d&apos;honneur à utiliser son influence ou son argent pour protéger les plus faibles, conseiller utilement ou consoler. L&apos;astrologie traditionnelle affirme à juste titre que sans les Jupitériens, il n&apos;existerait ni associations caritatives, ni fondations philanthropiques. Ce sont eux qui arrondissent les angles d&apos;un monde souvent trop dur.
+          </p>
+          <p>
+            Son talon d&apos;Achille ? L&apos;Orgueil et le besoin de considération. Le Jupitérien est très pointilleux sur son honneur et sa respectabilité. Foncièrement généreux, il aime qu&apos;on le remarque et qu&apos;on le remercie. Pour garder son amitié et ses faveurs, il faut éviter à tout prix de le critiquer en public ou de douter de sa probité. Il est, avouons-le, très sensible à la flatterie, car il est convaincu (souvent à raison) de sa propre valeur morale.
           </p>
         </Card>
       </section>
@@ -614,86 +353,53 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>7) Vie sentimentale, union et famille</H2>
+        <H2>Amour et Sentiments : La Paix du Foyer et la Légalité</H2>
 
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          La vie affective du bon Jupitérien est souvent plus régulière qu’agitée.
-          Non qu’il manque d’attrait, mais il préfère généralement les formes stables,
-          reconnues, légales et durables de l’union.
-        </p>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="Jupiter harmonieux">
-            <p>
-              L’union légale peut se faire assez tôt et dans de bonnes conditions.
-              La vie familiale tend alors vers la durée, la protection, une certaine
-              aisance et une place importante donnée aux enfants.
-            </p>
-          </Card>
-
-          <Card title="Jupiter déformé">
-            <p>
-              Lorsque l’orgueil, le prestige ou les dépenses déraisonnables prennent le
-              dessus, les tensions matérielles, les écarts de conduite ou les ruptures
-              peuvent devenir plus fréquents.
-            </p>
-          </Card>
-        </div>
+        <Card title="L’amour">
+          <p>
+            La vie sentimentale du Jupitérien est le reflet de sa vie sociale : ordonnée, chaleureuse et respectueuse de l&apos;opinion publique. Il a une sainte horreur des scandales amoureux.
+          </p>
+          <p>
+            Le Jupitérien aime la régularité, le confort et la légalité. De ce fait, c&apos;est une signature astrale qui mène très souvent au mariage, et ce, dans d&apos;excellentes conditions. Le foyer d&apos;un Jupitérien est pensé comme un havre de paix, souvent marqué par une large aisance matérielle, de belles réceptions et une grande table ouverte aux amis. Les enfants y tiennent une place centrale.
+          </p>
+          <p>
+            C&apos;est très certainement sous l&apos;égide de Jupiter que l&apos;on compte le taux le plus bas de divorces et de séparations fracassantes. Même en cas de brillante ascension sociale l&apos;exposant à de multiples tentations, le Jupitérien préfèrera toujours préserver l&apos;équilibre, le prestige et le confort de son foyer légal plutôt que de tout détruire pour une aventure passagère.
+          </p>
+        </Card>
       </section>
 
       <Divider />
 
       <section className="space-y-6">
-        <H2>8) Le bon Jupitérien et le mauvais Jupitérien</H2>
+        <H2>Destinée et Vocation : L&apos;Appel des Sommets (en Temps de Paix)</H2>
 
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          Comme toujours en astrologie, une signature n’est jamais purement “bonne”
-          ou “mauvaise”. Tout dépend de la qualité de Jupiter, de ses aspects, de son
-          état céleste et de la manière dont le sujet l’incarne.
-        </p>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="Le bon type jupitérien" subtitle="Noblesse, largeur, sens du juste">
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span className="mt-1 text-emerald-400">✔</span>
-                <span>Généreux, protecteur, loyal, fiable</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="mt-1 text-emerald-400">✔</span>
-                <span>Capable d’organiser, diriger, rassurer, conseiller</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="mt-1 text-emerald-400">✔</span>
-                <span>Attaché à l’ordre, au cadre, à la légalité et à la mesure</span>
-              </li>
-            </ul>
-          </Card>
-
-          <Card title="Le type jupitérien mal équilibré" subtitle="Prétention, illusion, surévaluation de soi">
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2">
-                <span className="mt-1 text-red-400">✘</span>
-                <span>Prétentions insupportables, sentiment que tout lui est dû</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="mt-1 text-red-400">✘</span>
-                <span>Projets trop grands pour ses moyens réels</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="mt-1 text-red-400">✘</span>
-                <span>Bluff, prestige, dépenses déraisonnables, jugement faussé</span>
-              </li>
-            </ul>
-          </Card>
-        </div>
-
-        <Callout tone="warn" title="Point clé de diagnostic">
+        <Card title="La vocation">
           <p>
-            Le mauvais Jupitérien ne perd pas forcément le goût de la grandeur.
-            Il garde souvent l’ambition, mais perd la{" "}
-            <strong className="text-white">justesse de mesure</strong> qui permettrait
-            de la rendre féconde.
+            La destinée d&apos;un bon Jupitérien se place presque toujours &quot;au-dessus de la moyenne&quot;. Ce n&apos;est pas le signe des tâches ingrates de l&apos;ombre. Son épanouissement naturel se trouve dans la direction, la gestion et le pouvoir.
+          </p>
+          <p>
+            On le retrouvera avec une facilité déconcertante aux postes de direction : PDG, cadres supérieurs, banquiers, administrateurs, ou hommes et femmes politiques de haut rang. (Fait historique passionnant : L&apos;astrologie mondiale associe souvent les périodes de grande prospérité, comme la &quot;Belle Époque&quot;, à des cycles jupitériens, caractérisés par l&apos;expansion économique et la diplomatie, par opposition aux cycles de Mars ou Saturne qui engendrent des guerres et des crises).
+          </p>
+          <p>
+            C&apos;est évidemment un &quot;bon vivant&quot;. Il aime le confort d&apos;une belle demeure, les plaisirs de la table, les bons vins et les voyages d&apos;agrément, tout en sachant (s&apos;il est équilibré) garder le sens de la mesure.
+          </p>
+        </Card>
+      </section>
+
+      <Divider />
+
+      <section className="space-y-6">
+        <H2>La Face Sombre (Quand Jupiter est affligé)</H2>
+
+        <Callout tone="warn" title="L’ombre de Jupiter">
+          <p>
+            Lorsque Jupiter est gravement dissonant dans le thème (en carré ou opposition avec des planètes difficiles), l&apos;optimisme se mue en prétention, et l&apos;abondance devient excès.
+          </p>
+          <p>
+            Le &quot;mauvais&quot; Jupitérien souffre d&apos;un complexe de supériorité insupportable. Son jugement faussé le pousse à surestimer ses capacités. Il élabore des projets grandioses et mégalomanes qui finissent par s&apos;effondrer, entraînant la ruine de ses collaborateurs ou de sa famille (dont il rejettera toujours la faute sur les autres ou sur la &quot;malchance&quot;).
+          </p>
+          <p>
+            S&apos;il n&apos;atteint pas la position sociale qu&apos;il estime lui être due de droit divin, ce type dissonant peut devenir cynique. Au lieu d&apos;être un pilier de la loi, il peut être tenté par l&apos;escroquerie financière, le &quot;bluff&quot; intellectuel, ou se transformer en révolutionnaire de salon, cherchant à détruire un système qui a refusé de le couronner. C&apos;est également dans ces configurations que l&apos;on trouve les excès physiques majeurs : gourmandise irrépressible, obésité ou addiction au luxe.
           </p>
         </Callout>
       </section>
@@ -701,118 +407,93 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>9) Aspect physique attribué au type jupitérien</H2>
+        <H2>L&apos;Expression Féminine et Yin : L&apos;Archétype de la Grande Dame</H2>
 
-        <p className="text-base leading-relaxed text-white/80 md:text-lg">
-          Dans les descriptions classiques, le type jupitérien est souvent associé
-          à une présence pleine, charnue, assurée, avec une certaine largeur corporelle
-          et un air de confiance paisible.
-        </p>
-
-        <section
-          aria-label="Traits physiques du jupitérien"
-          className="overflow-hidden rounded-[2rem] border border-white/10 bg-black/40 shadow-2xl backdrop-blur-sm"
-        >
-          <div className="grid grid-cols-1 border-b border-white/10 bg-white/[0.05] md:grid-cols-3">
-            <div className="p-5 font-serif text-lg font-medium text-white/90">Zone</div>
-            <div className="p-5 font-serif text-lg font-medium text-white/90">Tendance</div>
-            <div className="p-5 font-serif text-lg font-medium text-white/90">Impression générale</div>
-          </div>
-
-          <TableRow
-            title="Corps"
-            effect="Stature moyenne à large, tendance à l’embonpoint"
-            reading="Présence ample, rassurante, solide"
-          />
-          <TableRow
-            title="Visage"
-            effect="Teint frais, traits charnus, regard ouvert"
-            reading="Expression optimiste, bienveillante, assurée"
-          />
-          <TableRow
-            title="Voix et allure"
-            effect="Voix grave, diction nette, allure modérée"
-            reading="Autorité calme, présence de représentation"
-          />
-        </section>
-
-        <Callout title="Précaution d’usage">
+        <Card title="L’expression Yin">
           <p>
-            Ces portraits physiques appartiennent à la tradition symbolique. Ils peuvent
-            inspirer une observation, mais ne remplacent jamais l’étude complète du thème
-            ni la réalité concrète de la personne.
+            Dans un thème astral à forte dominante Yin ou chez la femme, une belle signature jupitérienne incarne la &quot;Grande Dame&quot;, l&apos;organisatrice brillante et la parfaite maîtresse de maison.
           </p>
-        </Callout>
+          <p>
+            L&apos;occultiste français Péladan disait d&apos;elle : &quot;En évoquant les femmes de la cour de Louis XIV, on a les plus beaux spécimens de cette influence. Elle réunit les qualités de sérieux et d&apos;élégance nécessaires à toute représentation.&quot;
+          </p>
+          <p>
+            Aujourd&apos;hui, si elle ne seconde pas la carrière d&apos;un époux influent, la Jupitérienne prend elle-même les rênes. Elle excelle dans les carrières libérales, la magistrature ou la direction d&apos;entreprise. Elle impose le respect par son autorité naturelle, toujours mâtinée de bienveillance.
+          </p>
+          <p>
+            Si Jupiter est maléficié, l&apos;orgueil prend le dessus. Convaincue que &quot;tout lui est dû&quot;, elle exige de la vie des honneurs et un train de vie luxueux sans vouloir en fournir l&apos;effort. Elle peut ruiner son ménage par des dépenses de prestige inconsidérées (le fameux &quot;paraître à tout prix&quot;) et crier à l&apos;injustice cosmique si on lui refuse la moindre de ses exigences.
+          </p>
+        </Card>
+      </section>
+
+        <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[7/3]">
+        <Image
+          src={JupiterienImage2}
+          alt="Portrait de Zeus en astrologie"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
+      </div>
+
+      <section className="space-y-6">
+        <H2>Le Portrait Physique du Jupitérien (Morphopsychologie Astrologique)</H2>
+
+        <Card title="Le portrait physique">
+          <p>
+            La morphologie du Jupitérien transpire l&apos;abondance, l&apos;autorité tranquille et la santé. Tout chez lui est pensé à l&apos;échelle de l&apos;expansion :
+          </p>
+          <ul className="list-disc space-y-2 pl-5">
+            <li>L&apos;allure générale : Des formes puissantes, amples et majestueuses. Une carrure souvent imposante, tendant naturellement vers l&apos;embonpoint avec les années (Jupiter dilate ce qu&apos;il touche). Sa démarche est modérée, ancrée, jamais précipitée.</li>
+            <li>Le visage : Une carnation charnue, souvent rosée ou fraîche. Le contour du visage rappelle un trapèze. Le front est vaste, légèrement convexe, signalant une grande capacité de synthèse intellectuelle.</li>
+            <li>Le regard : Des yeux grands, bien ouverts, riants et profondément bienveillants. Les sourcils sont généralement très développés, parfois dessinés en &quot;accent circonflexe&quot;, donnant au visage une expression d&apos;autorité naturelle.</li>
+            <li>Les détails : Un nez charnu, une bouche grande et sinueuse aux lèvres colorées et gourmandes (le signe par excellence des bons vivants). La voix du Jupitérien est inoubliable : grave, chaleureuse, avec une diction nette et parfois un brin emphatique, idéale pour captiver un auditoire. (Chez l&apos;homme, le port de la barbe — rappelant la figure mythologique de Zeus — est très fréquent).</li>
+          </ul>
+        </Card>
       </section>
 
       <Divider />
 
       <section className="space-y-6">
-        <H2>Synthèse : reconnaître une forte signature de Jupiter</H2>
+        <H2>En conclusion</H2>
 
-        <section className="rounded-[2rem] border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-transparent p-8 shadow-2xl backdrop-blur-md">
-          <ol className="list-decimal space-y-4 pl-6 text-lg text-white/90 marker:font-serif marker:font-bold marker:text-emerald-400">
-            <li>Un esprit plus ordonné que rapide</li>
-            <li>Un besoin de sens, de cadre et de respectabilité</li>
-            <li>Une générosité réelle et un ton protecteur</li>
-            <li>Une aptitude naturelle à organiser, représenter, encadrer</li>
-            <li>Un goût du confort, mais normalement avec mesure</li>
-            <li>Une sensibilité forte à l’honneur et à l’image morale</li>
-            <li>
-              <strong className="text-emerald-300">
-                Un risque d’orgueil ou de prétention si Jupiter est mal tenu
-              </strong>
-            </li>
-          </ol>
-        </section>
-
-        <Callout tone="ok" title="Conclusion astrologique">
+        <Callout tone="ok" title="Conclusion">
           <p>
-            Le Jupitérien bien construit n’est pas seulement “chanceux”. Il incarne
-            une forme de <strong className="text-white">maîtrise tranquille</strong> :
-            il sait ordonner, protéger, faire grandir, représenter et donner une forme
-            sociale digne à ce qu’il entreprend.
-          </p>
-          <p>
-            Quand Jupiter est beau, il élève. Quand il est déformé, il grossit.
-            Toute la différence est là.
+            En conclusion : Avoir une forte dominante Jupitérienne dans son thème astral est un immense privilège, mais aussi une grande responsabilité sociale. Le Jupitérien est le berger du zodiaque. Sa véritable mission karmique n&apos;est pas seulement d&apos;accumuler les succès et le confort pour lui-même, mais de veiller à ce que la prospérité, la justice et la chaleur humaine ruissellent sur tous ceux qui croisent son chemin.
           </p>
         </Callout>
       </section>
 
-      <section className="mt-16 space-y-8">
-        <H2>FAQ — Le Jupitérien en astrologie</H2>
-
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="Qu’est-ce qu’un Jupitérien ?">
-            <p>
-              C’est un tempérament fortement marqué par Jupiter : goût de l’ordre,
-              sens moral, bienveillance, besoin de reconnaissance, aptitude à guider,
-              administrer, représenter ou protéger.
-            </p>
-          </Card>
-
-          <Card title="Quels métiers lui conviennent le mieux ?">
-            <p>
-              Droit, administration, gestion, banque, représentation, encadrement,
-              philosophie, religion, transmission, direction, conseil ou postes de dignité.
-            </p>
-          </Card>
-
-          <Card title="Pourquoi les Jupitériens aiment-ils tant le respect ?">
-            <p>
-              Parce que Jupiter touche à la valeur morale, à l’honneur, à la dignité
-              sociale et à l’estime. Leur équilibre dépend souvent fortement de cette reconnaissance.
-            </p>
-          </Card>
-
-          <Card title="Quelle est l’ombre de Jupiter ?">
-            <p>
-              La démesure : se croire au-dessus, exiger les honneurs, dépenser pour paraître,
-              surestimer ses moyens ou remplacer la vraie valeur par le prestige.
-            </p>
-          </Card>
+      <section
+        aria-label="Synthèse du portrait jupitérien"
+        className="overflow-hidden rounded-[2rem] border border-white/10 bg-black/40 shadow-2xl backdrop-blur-sm"
+      >
+        <div className="grid grid-cols-1 border-b border-white/10 bg-white/[0.05] md:grid-cols-3">
+          <div className="p-5 font-serif text-lg font-medium text-white/90">Axe</div>
+          <div className="p-5 font-serif text-lg font-medium text-white/90">Expression</div>
+          <div className="p-5 font-serif text-lg font-medium text-white/90">Risque</div>
         </div>
+
+        <TableRow
+          title="Intellect"
+          effect="Méthode, discernement, synthèse, jugement"
+          reading="Surestimation, certitudes excessives, suffisance"
+        />
+        <TableRow
+          title="Vie sociale"
+          effect="Protection, générosité, chaleur, influence"
+          reading="Orgueil, besoin de considération, flatterie"
+        />
+        <TableRow
+          title="Amour"
+          effect="Foyer stable, respectabilité, paix, confort"
+          reading="Rigidité sociale, attachement excessif au prestige"
+        />
+        <TableRow
+          title="Vocation"
+          effect="Direction, loi, administration, diplomatie"
+          reading="Mégalomanie, bluff, excès matériels et luxe"
+        />
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">
@@ -821,23 +502,23 @@ export default function JupiterienPost() {
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           <Pill>Jupiter</Pill>
           <Pill tone="sky">Portrait astrologique</Pill>
-          <Pill tone="violet">Psychologie</Pill>
+          <Pill tone="violet">Organisation</Pill>
           <Pill tone="emerald">Thème astral</Pill>
         </div>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
-            href="/blog/orientation-professionnelle-theme-astral"
+            href="/blog/venusien"
             className="group relative inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-medium text-white/90 backdrop-blur-md transition-all hover:border-white/40 hover:bg-white/10"
           >
-            Lire l’article sur la vocation
+            Lire le portrait du Vénusien
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
           <Link
-            href="/blog/finances-theme-astral"
+            href="/blog/solarien"
             className="group relative inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-medium text-white/90 backdrop-blur-md transition-all hover:border-white/40 hover:bg-white/10"
           >
-            Lire l’article sur les finances
+            Lire le portrait du Solarien
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
         </div>
