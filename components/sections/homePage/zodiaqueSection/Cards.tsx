@@ -26,7 +26,10 @@ export default function Cards({ item, basePath }: Props) {
       className="group relative flex flex-col overflow-hidden rounded-[2rem] border border-white/5 bg-[#0c0c0e] p-6 shadow-lg transition-all duration-500 hover:-translate-y-2 hover:bg-[#111] hover:border-violet-500/30 hover:shadow-[0_15px_40px_rgba(167,139,250,0.1)] focus-within:ring-2 focus-within:ring-violet-500 focus-within:ring-offset-4 focus-within:ring-offset-[#09090b]"
     >
       {/* Lueur interne au survol */}
-      <div className="absolute -inset-px rounded-[2rem] bg-gradient-to-b from-violet-500/0 to-violet-500/0 opacity-0 transition-opacity duration-500 group-hover:from-violet-500/10 group-hover:opacity-100 pointer-events-none" aria-hidden="true" />
+      <div
+        className="absolute -inset-px rounded-[2rem] bg-gradient-to-b from-violet-500/0 to-violet-500/0 opacity-0 transition-opacity duration-500 group-hover:from-violet-500/10 group-hover:opacity-100 pointer-events-none"
+        aria-hidden="true"
+      />
 
       {/* En-tête : Nom du signe */}
       <header className="relative z-10 flex items-center justify-between mb-6">
@@ -38,7 +41,7 @@ export default function Cards({ item, basePath }: Props) {
             Lien principal de la carte. 
             Le pseudo-élément ::after étend la zone de clic à toute la carte. 
           */}
-          <Link 
+          <Link
             href={`/${basePath}/${item.slug}`}
             className="focus:outline-none after:absolute after:inset-0"
             aria-label={`Lire le cours complet sur le signe du ${item.name}`}
@@ -47,7 +50,10 @@ export default function Cards({ item, basePath }: Props) {
           </Link>
         </h3>
         {/* Petite icône discrète qui glisse au survol */}
-        <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/5 text-white/40 transition-all duration-300 group-hover:bg-violet-500/20 group-hover:text-violet-300 group-hover:translate-x-1" aria-hidden="true">
+        <span
+          className="flex h-8 w-8 items-center justify-center rounded-full bg-white/5 text-white/40 transition-all duration-300 group-hover:bg-violet-500/20 group-hover:text-violet-300 group-hover:translate-x-1"
+          aria-hidden="true"
+        >
           <ChevronRight size={16} />
         </span>
       </header>
@@ -59,6 +65,7 @@ export default function Cards({ item, basePath }: Props) {
             src={item.image.src}
             alt={item.image.alt}
             fill
+            quality={75}
             className="object-contain"
             sizes="(max-width: 768px) 160px, 192px"
           />
