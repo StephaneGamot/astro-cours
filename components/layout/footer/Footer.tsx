@@ -468,7 +468,7 @@ export default function Footer() {
                   <Link
                     href="/#zodiaque"
                     className={[
-                      "inline-flex items-center gap-2 rounded-full bg-violet-600 px-5 py-2.5",
+                      "inline-flex items-center gap-2 rounded-full bg-[#8F5BF7] px-5 py-2.5",
                       "text-sm font-semibold !text-black shadow-lg shadow-violet-950/30",
                       "transition-all duration-200 hover:bg-violet-500 hover:shadow-violet-900/30",
                       "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
