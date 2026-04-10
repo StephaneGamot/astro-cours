@@ -14,7 +14,7 @@
   "temperament": "Nerveux",
   "maisonNaturelle": 10,
   "couleur": {
-    "primaire": "#475569",
+    "primaire": "#7085A2",
     "secondaire": "#94A3B8",
     "accent": "#CBD5E1",
     "gradient": "from-slate-600 via-slate-500 to-slate-400"

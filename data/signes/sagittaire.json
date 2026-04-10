@@ -14,7 +14,7 @@
   "temperament": "Bilieux",
   "maisonNaturelle": 9,
   "couleur": {
-    "primaire": "#8B5CF6",
+    "primaire": "#A88BFD",
     "secondaire": "#F59E0B",
     "accent": "#C084FC",
     "gradient": "from-violet-500 via-purple-500 to-amber-500"

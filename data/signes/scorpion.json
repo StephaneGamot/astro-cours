@@ -14,7 +14,7 @@
   "temperament": "Lymphatique",
   "maisonNaturelle": 8,
   "couleur": {
-    "primaire": "#7C3AED",
+    "primaire": "#7173FC",
     "secondaire": "#EF4444",
     "accent": "#A78BFA",
     "gradient": "from-violet-600 via-purple-600 to-red-600"
