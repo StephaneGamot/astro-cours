@@ -1,862 +1,442 @@
 {
   "slug": "belier",
-  "name": "Bélier",
+  "nom": "Bélier",
+  "sousTitre": "Le premier signe du Zodiaque",
+  "devise": "Je suis",
   "periode": "21 mars – 20 avril",
-  "polarite": "Actif (masculin)",
-  "mode": "Cardinal",
   "element": "Feu",
+  "mode": "Cardinal",
   "maitre": "Mars",
   "exaltation": "Soleil",
   "exil": "Vénus",
   "chute": "Saturne",
-  "motCle": "Je suis",
-  "mythologie": "Le Bélier est relié au mythe du bélier à la Toison d’or. Dans ce récit, l’animal sauve, transporte et ouvre une étape décisive, puis devient un symbole de quête et d’épreuve initiatique. La Toison d’or représente ce qui se mérite : un but qui exige courage, audace et passage à l’acte. Dans la logique astrologique, cela correspond au moment où l’on dit « oui » à la vie, où l’on commence, où l’on ose franchir le seuil.",
-  "analogie": {
+  "polarite": "Masculin",
+  "temperament": "Bilieux",
+  "maisonNaturelle": 1,
+  "couleur": {
+    "primaire": "#FC2D2D",
+    "secondaire": "#F97316",
+    "accent": "#FBBF24",
+    "gradient": "from-red-600 via-orange-500 to-amber-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "poissons", "nom": "Poissons" },
+    "suivant": { "slug": "taureau", "nom": "Taureau" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/belier.webp",
+    "planete": "/images/planetes/mars.webp"
+  },
+  "introduction": "Le Bélier est le premier signe du Zodiaque. Il commence avec l'équinoxe de printemps, entre le 21 mars et le 20 avril environ, au moment précis où la nature reprend son élan, où la lumière regagne du terrain sur l'obscurité, où tout recommence. Ce n'est pas un hasard si l'astrologie place ici le point de départ du cycle : le Bélier incarne la naissance, l'impulsion première, le geste qui dit « j'existe ».",
+  "fondationsCosmiques": {
+    "texte": "Le Bélier appartient à l'élément Feu (chaud et sec), ce qui lui confère un tempérament bilieux : énergie, volonté, action créatrice ou destructrice. C'est le premier niveau du Feu — celui de l'instinct, de l'élan primaire, de l'enthousiasme qui se consume vite mais qui embrase tout sur son passage. Son mode est cardinal : il inaugure une saison. Les signes cardinaux sont des initiateurs, des déclencheurs. Là où le Taureau stabilise et les Gémeaux dispersent, le Bélier démarre. Il est le pionnier par excellence.",
+    "courteAscension": "L'Ascendant Bélier se lève rapidement à l'horizon — on parle de signe de « courte ascension » — ce qui signifie que statistiquement, moins de personnes ont le Bélier comme Ascendant.",
+    "pluton": "Depuis la découverte de Pluton, certains astrologues ont proposé de lui attribuer le Bélier comme domicile plutôt que le Scorpion, afin de préserver la logique d'enchaînement Uranus-Neptune-Pluton dans le Zodiaque. Cette question reste ouverte et demeure impossible à trancher par les chiffres seuls."
+  },
+  "analogies": {
     "animal": "Le bélier",
-    "objet": "L’étincelle, la lame, l’outil qui ouvre un passage",
-    "fonction": "Initier, percer, affirmer"
+    "objet": "L'étincelle, la lame, l'outil qui ouvre un passage",
+    "fonction": "Initier, percer, affirmer",
+    "texte": "Le Bélier, c'est le début de toutes choses. L'initiative. Le progrès. L'action rapide — souvent précipitée. L'esprit d'aventure, le désir de découvrir, la pulsion de l'explorateur. C'est le pionnier, le guide, le chef naturel. De même que le bélier prend la tête du troupeau, le natif de ce signe cherchera toujours à se placer en avant, à ne pas rester confondu dans la masse."
   },
-  "anatomie": ["Tête", "Visage", "Cerveau", "Yeux"],
-  "generalites": [
-    "Le Bélier symbolise la naissance d’un cycle : l’élan du départ, le premier pas, la décision qui met en mouvement. Il cherche à vivre intensément, à agir, à tester, à se confronter au réel plutôt qu’à rester dans l’attente.",
-    "Dans la vie quotidienne, cette énergie se manifeste par un style direct, une franchise spontanée et une capacité à démarrer là où d’autres hésitent. Le Bélier peut être très efficace dans les situations qui demandent initiative, courage et réactivité.",
-    "Son apprentissage principal est de transformer l’impulsion en direction. Avec le temps, il gagne en puissance lorsqu’il apprend à doser l’effort, à écouter, et à choisir ses combats plutôt que de réagir à tout."
-  ],
-  "caractere": [
-    "Le Bélier agit avant de théoriser : il a besoin de se confronter au réel pour savoir.",
-    "Son caractère est franc, entier, souvent spontané, avec peu de goût pour les détours inutiles.",
-    "Il préfère l’élan et la simplicité d’action à l’analyse trop longue ou aux compromis mous.",
-    "Lorsqu’il est immature, il peut confondre force et précipitation ; lorsqu’il mûrit, il devient un initiateur lucide."
-  ],
-  "aptitudesNaturelles": [
-    "Prendre une initiative sans attendre l’approbation générale",
-    "Ouvrir un chemin nouveau",
-    "Décider vite dans l’urgence",
-    "Mobiliser de l’énergie au démarrage d’un projet",
-    "Agir avec courage quand la situation demande de trancher",
-    "Entraîner les autres par l’exemple"
-  ],
-  "ceQuIlRegitDansLeMonde": [
-    "Les commencements",
-    "L’élan vital",
-    "L’initiative individuelle",
-    "Le combat",
-    "Le courage d’agir",
-    "La prise de risque",
-    "L’affirmation de soi",
-    "La percée, l’ouverture, la rupture d’inertie"
-  ],
-  "maisonCorrespondante": {
-    "numero": 1,
-    "nom": "Maison I",
-    "resume": "La première maison parle de l’incarnation, du tempérament, de la façon d’entrer dans la vie, de l’allure, de l’élan personnel et de la manière de se présenter au monde. Son analogie naturelle avec le Bélier souligne une dynamique de départ, d’affirmation et de présence immédiate.",
-    "themes": [
-      "Identité immédiate",
-      "Tempérament",
-      "Présence",
-      "Initiative",
-      "Manière d’entrer dans la vie",
-      "Rapport instinctif au monde"
-    ]
+  "mythologie": {
+    "titre": "La Toison d'Or",
+    "texte": "Le Bélier est relié au mythe de la Toison d'Or. Jason, archétype du héros bélier — dynamique, intrépide, courageux, conquérant jusque dans ses amours tumultueuses — part à la conquête d'un trésor qui ne se donne pas : il se mérite. Les épreuves surhumaines imposées au héros font de son voyage un véritable chemin initiatique, fait de rebondissements, de projets abandonnés et d'enthousiasme de pionnier.",
+    "civilisations": "Chez les anciens Égyptiens, le Bélier était l'emblème d'Amon, dieu de la fécondité et de l'air. Dans la civilisation védique indienne, il s'apparente à Agni, le dieu du feu. Le bélier comme symbole viril et fécondateur traverse de nombreuses civilisations, portant partout la même charge : celle d'une énergie première, fondatrice, qui met le monde en mouvement."
   },
-  "forces": [
-    "Capacité à commencer sans garantie",
-    "Énergie pour agir vite et trancher",
-    "Leadership naturel quand il assume sa responsabilité"
-  ],
-  "ombres": [
-    "Réaction immédiate au lieu d’une réponse réfléchie",
-    "Difficulté à ralentir ou à attendre",
-    "Conflit inutile quand l’énergie n’est pas canalisée"
-  ],
-  "besoins": [
-    "Se sentir libre d’agir",
-    "Avoir un défi clair",
-    "Pouvoir exprimer sa volonté sans se justifier en permanence"
-  ],
-  "aTravailler": [
-    "La patience et le timing",
-    "L’écoute et la coopération",
-    "La constance : finir ce qui a été commencé",
-    "La maîtrise de l’impulsivité",
-    "La capacité à choisir ses combats"
-  ],
-  "quandCestEquilibre": [
-    "Le Bélier devient courageux sans être agressif, affirmé sans écraser, et capable d’entraîner les autres sans les brusquer.",
-    "Il garde l’énergie du départ, tout en apprenant à construire dans la durée.",
-    "Sa franchise devient limpide plutôt que brutale, et son feu devient une force créatrice."
-  ],
-  "aptitudes": {
-    "atouts": [
-      "Spontané",
-      "Courageux",
-      "Entreprenant",
-      "Dynamique",
-      "Franc",
-      "Volontaire",
-      "Pionnier"
+  "portrait": {
+    "temperament": "Le Bélier agit avant de théoriser. Il a besoin de se confronter au réel pour savoir. Son caractère est franc, entier, souvent spontané, avec peu de goût pour les détours. Il préfère l'élan et la simplicité d'action à l'analyse trop longue ou aux compromis mous. L'esprit est vif, actif, porté par une compréhension rapide et une grande puissance de travail. L'imagination peut être bouillonnante. Lorsqu'il est immature, il peut confondre force et précipitation. Lorsqu'il mûrit, il devient un initiateur lucide, capable de canaliser son feu intérieur au service d'une vision claire.",
+    "forces": [
+      "Prendre une initiative sans attendre l'approbation générale",
+      "Ouvrir un chemin nouveau",
+      "Décider vite dans l'urgence",
+      "Mobiliser de l'énergie au démarrage d'un projet",
+      "Agir avec courage quand la situation l'exige",
+      "Entraîner les autres par l'exemple"
     ],
-    "defis": [
-      "Impulsif",
-      "Impatient",
-      "Agressif",
-      "Autoritaire",
-      "Manque de recul",
-      "Tendance à brûler ses étapes"
-    ]
+    "ombres": [
+      "Réaction immédiate au lieu d'une réponse réfléchie",
+      "Difficulté à ralentir ou à attendre",
+      "Conflit inutile quand l'énergie n'est pas canalisée",
+      "Impatience et précipitation",
+      "Colères véhémentes pouvant dicter des actes irréparables"
+    ],
+    "besoinsVitaux": [
+      "Se sentir libre d'agir",
+      "Avoir un défi clair",
+      "Pouvoir exprimer sa volonté sans se justifier en permanence"
+    ],
+    "aTravailler": [
+      "La patience et le sens du timing",
+      "L'écoute et la coopération",
+      "La constance : finir ce qui a été commencé",
+      "La maîtrise de l'impulsivité",
+      "La capacité à choisir ses combats"
+    ],
+    "equilibre": "Le Bélier en pleine possession de ses moyens devient courageux sans être agressif, affirmé sans écraser, capable d'entraîner les autres sans les brusquer. Sa franchise devient limpide plutôt que brutale, et son feu devient une force créatrice, durable, maîtrisée."
   },
+  "sante": {
+    "zones": ["Tête", "Visage", "Cerveau", "Yeux"],
+    "texte": "Le Bélier gouverne la tête, le visage, le cerveau, les yeux et les organes qui s'y trouvent. Il prédispose aux migraines, maux de dents, troubles oculaires et auriculaires, et parfois aux congestions cérébrales. Les fièvres d'origines diverses sont fréquentes, mais le natif du Bélier peut supporter de très fortes températures sans en souffrir outre mesure. La constitution est généralement robuste, mais il y a un risque d'usure par effort excessif ou imprudences."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "L'identité et le tempérament",
+      "texte": "La position la plus naturelle. L'énergie du Bélier s'exprime ici dans toute sa puissance : esprit vif, compréhension rapide, fougue, courage, combativité. La confiance en soi pousse à l'audace, parfois à la témérité. L'ambition est marquée, la volonté puissante — mais elle se manifeste davantage en intensité qu'en durée. Le natif fait toujours preuve d'une grande indépendance. L'activité est rapide et fougueuse. La réalisation suit immédiatement la conception, mais elle est souvent compromise par la précipitation."
+    },
+    {
+      "numero": 2,
+      "titre": "Les ressources",
+      "texte": "Larges possibilités de gains grâce à une activité considérable, mais les dépenses impulsives et le manque de prévoyance maintiennent une situation financière instable, au moins jusqu'à la maturité. Une carrière indépendante est préférable. En cas de revers, le Bélier sait surmonter le découragement et redresser la barre par des mesures énergiques. Les jeux et spéculations sont à éviter."
+    },
+    {
+      "numero": 3,
+      "titre": "La communication",
+      "texte": "Esprit très curieux, travailleur mais critique, voire caustique — excellente position pour un polémiste. Attrait pour les voyages et les grandes vitesses, d'où un risque d'accidents. Les relations familiales sont souvent perturbées par de violentes discussions et des brouilles, le plus souvent passagères."
+    },
+    {
+      "numero": 4,
+      "titre": "Les racines",
+      "texte": "Le père est souvent très autoritaire et la famille peu unie. Possibilité d'accidents, de deuils prématurés, d'incendies ou de calamités touchant les possessions immobilières familiales. La fin de vie peut être mouvementée, mais le sujet surmonte généralement les difficultés grâce à la configuration globale du thème."
+    },
+    {
+      "numero": 5,
+      "titre": "La création et les amours",
+      "texte": "Tendance aux imprudences amoureuses, nombreuses aventures, caprices passionnels et jalousies possibles. Les pertes financières liées à des spéculations aventureuses sont significatives. Position peu favorable à la naissance d'enfants, ou bien ceux-ci sont turbulents et difficiles à élever."
+    },
+    {
+      "numero": 6,
+      "titre": "Le quotidien et la santé",
+      "texte": "Prédisposition accentuée aux maladies du signe : migraines fréquentes, troubles oculaires, dentaires ou auriculaires, fièvres et inflammations. Les collaborateurs font preuve de trop d'indépendance, entraînant des changements fréquents. Le natif peine parfois à conserver son travail en raison de son impulsivité."
+    },
+    {
+      "numero": 7,
+      "titre": "Les associations et le mariage",
+      "texte": "Souvent un mariage précoce, décidé par coup de tête ou coup de foudre, mais une vie conjugale agitée avec de sérieuses discussions. Le conjoint est autoritaire et impulsif. Les associations professionnelles sont rarement favorables. Les ennemis déclarés agissent ouvertement, ce qui les rend paradoxalement moins dangereux."
+    },
+    {
+      "numero": 8,
+      "titre": "Les transformations",
+      "texte": "Présage une fin pouvant survenir de façon assez brusque. Ne favorise guère les héritages ou indique leur dilapidation. Cependant, le Bélier ici porte aussi la capacité de renaître après les épreuves, de se régénérer avec une force considérable."
+    },
+    {
+      "numero": 9,
+      "titre": "Les horizons lointains",
+      "texte": "Les tendances spirituelles pures sont plutôt faibles, mais si le sujet s'intéresse à la religion ou à la philosophie, ce sera dans un sens actif : missionnaire, propagandiste, militant. Grand attrait pour les longs voyages et l'exploration, mais tendance aux accidents liés à des actes téméraires."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocation",
+      "texte": "Destin mouvementé avec plusieurs changements de carrière ou de résidence. Réussite grâce à l'esprit d'initiative. Le natif est souvent appelé à des postes en vue, ou recherche une situation indépendante. Signe assez favorable à la notoriété. La mère du sujet est souvent une femme autoritaire et énergique."
+    },
+    {
+      "numero": 11,
+      "titre": "Les amitiés",
+      "texte": "Des amis qui ne se font pas prier pour donner un coup de main, mais qui sont peu économes. Ce signe peut assurer des relations puissantes dans l'armée, la magistrature ou la grande industrie. Les amis sont impulsifs, d'où des discussions et brouilles fréquentes, mais rarement définitives."
+    },
+    {
+      "numero": 12,
+      "titre": "Les épreuves cachées",
+      "texte": "Prédisposition aux maladies du Bélier pouvant passer à l'état chronique. Les ennemis cachés sont peu nombreux — le Bélier indiquant plutôt des adversaires ouverts — et il y a peu de mystères dans la vie du sujet. Les initiatives sont souvent compromises par des difficultés inattendues."
+    }
+  ],
   "amour": {
-    "intro": "Le Bélier aime avec spontanéité, intensité et franchise. Il a besoin de sentir qu’il se passe quelque chose : une montée d’énergie, une attraction vive, un mouvement. Il préfère souvent une relation claire, vivante et incarnée à une histoire trop prudente ou trop lente.",
+    "texte": "Le Bélier aime avec spontanéité, intensité et franchise. Il a besoin de sentir qu'il se passe quelque chose : une montée d'énergie, une attraction vive, un mouvement. Il préfère une relation claire, vivante et incarnée à une histoire trop prudente ou trop lente.",
     "qualites": [
-      "Prend l’initiative affective",
+      "Prend l'initiative affective",
       "Aime franchement et montre rapidement son intérêt",
       "Apporte chaleur, vitalité et intensité au lien",
-      "Peut être courageux en amour quand il tient réellement à quelqu’un"
+      "Peut être courageux en amour quand il tient réellement à quelqu'un"
     ],
     "vigilances": [
-      "Peut se lasser si la relation devient trop passive ou sans relief",
-      "Réagit parfois trop vite sous le coup de l’émotion ou du désir",
+      "Peut se lasser si la relation devient trop passive",
+      "Réagit parfois trop vite sous le coup de l'émotion",
       "Risque de confondre conquête et profondeur",
-      "Supporte mal les non-dits prolongés ou les jeux relationnels compliqués"
+      "Supporte mal les non-dits prolongés ou les jeux relationnels"
     ],
-    "compatibleAvec": ["Lion", "Sagittaire", "Gémeaux", "Verseau"],
-    "attirePar": [
-      "Les personnes vives et franches",
-      "Les liens qui bougent",
-      "Les personnalités indépendantes",
-      "Les relations où il y a du désir, de la tension créatrice et de la spontanéité"
-    ]
+    "affinites": ["lion", "sagittaire", "gemeaux", "scorpion"]
   },
   "travail": {
-    "intro": "Le Bélier travaille comme il vit : il a besoin d’action, de marge de manœuvre, d’un objectif clair et d’un sentiment d’utilité immédiate. Il excelle souvent dans les phases de lancement, de conquête, de décision ou de crise, là où il faut agir plus que commenter.",
-    "qualites": [
-      "Réactif",
-      "Capable de lancer vite un projet",
+    "texte": "Le Bélier travaille comme il vit : il a besoin d'action, de marge de manœuvre, d'un objectif clair et d'un sentiment d'utilité immédiate. Il excelle dans les phases de lancement, de conquête, de décision ou de crise.",
+    "atouts": [
+      "Réactif et capable de lancer vite un projet",
       "Courageux face à la pression",
-      "À l’aise quand il faut trancher ou ouvrir une voie",
-      "Énergique dans les contextes compétitifs ou exigeants"
+      "À l'aise quand il faut trancher ou ouvrir une voie",
+      "Énergique dans les contextes compétitifs"
     ],
-    "vigilances": [
-      "S’ennuie dans la routine trop lente",
+    "defis": [
+      "S'ennuie dans la routine trop lente",
       "Peut négliger les finitions",
-      "Supporte mal l’autorité incohérente",
-      "Risque de se disperser s’il démarre trop de choses à la fois",
-      "Peut brusquer l’entourage professionnel"
-    ],
-    "domainesFavorables": [
-      "Entrepreneuriat",
-      "Sport",
-      "Vente terrain",
-      "Urgence / intervention",
-      "Milieux compétitifs",
-      "Postes de lancement",
-      "Fonctions où il faut ouvrir un marché ou initier un mouvement"
+      "Supporte mal l'autorité incohérente",
+      "Risque de brusquer l'entourage professionnel"
     ]
   },
   "argent": {
-    "intro": "Le Bélier a souvent un rapport direct à l’argent : il le voit comme un moyen d’agir, d’avancer, de gagner en autonomie ou de relever un défi. Il cherche moins la possession pour elle-même que la capacité d’aller vite et librement vers ce qu’il veut faire.",
+    "texte": "Le Bélier voit l'argent comme un moyen d'agir, d'avancer, de gagner en autonomie. Il cherche moins la possession que la capacité d'aller vite et librement vers ce qu'il veut faire.",
     "forces": [
-      "Peut prendre des décisions financières rapides",
-      "Sait investir de l’énergie pour gagner",
-      "Aime sentir qu’il a les moyens d’agir"
+      "Décisions financières rapides",
+      "Sait investir de l'énergie pour gagner",
+      "Aime sentir qu'il a les moyens d'agir"
     ],
     "risques": [
       "Dépenses impulsives",
       "Décisions prises trop vite",
-      "Goût du risque sans évaluation suffisante",
-      "Difficulté à patienter pour des stratégies très lentes"
+      "Goût du risque sans évaluation suffisante"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Soleil",
+      "slug": "soleil",
+      "description": "Le Soleil en Bélier affirme une identité pionnière, volontaire et directe. Il a besoin d'agir pour se sentir vivant.",
+      "manifestations": ["Courage d'être soi", "Volonté d'exister clairement", "Goût du défi", "Leadership spontané"]
+    },
+    {
+      "nom": "Lune",
+      "slug": "lune",
+      "description": "La Lune en Bélier vit vite, réagit vite et a besoin d'autonomie émotionnelle. L'émotion monte rapidement et redescend souvent aussi vite.",
+      "manifestations": ["Franchise émotionnelle", "Capacité à rebondir", "Réactivité instinctive", "Besoin d'espace"]
+    },
+    {
+      "nom": "Mercure",
+      "slug": "mercure",
+      "description": "Mercure en Bélier pense vite, parle vite et tranche vite. L'esprit va droit au point central.",
+      "manifestations": ["Esprit vif", "Décision rapide", "Parole directe", "Capacité à simplifier"]
+    },
+    {
+      "nom": "Vénus",
+      "slug": "venus",
+      "description": "Vénus en Bélier aime avec élan, désir, spontanéité et goût de la conquête. Le plaisir passe par la vivacité du lien.",
+      "manifestations": ["Passion", "Sincérité du désir", "Charme direct", "Capacité à déclarer ses sentiments"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars en Bélier est dans une de ses expressions les plus naturelles : action franche, offensive, directe, instinctive.",
+      "manifestations": ["Combativité", "Puissance de démarrage", "Courage d'action", "Force de décision"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter en Bélier amplifie l'élan, la foi dans l'action et la confiance à avancer.",
+      "manifestations": ["Enthousiasme", "Foi dans l'initiative", "Audace", "Confiance dans les nouveaux départs"]
+    },
+    {
+      "nom": "Saturne",
+      "slug": "saturne",
+      "description": "Saturne en Bélier demande d'apprendre la maîtrise de l'élan. Il ne bloque pas le feu, mais l'oblige à devenir plus juste.",
+      "manifestations": ["Courage discipliné", "Force durable", "Maîtrise progressive de soi"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus en Bélier produit une impulsion de rupture, une volonté de se libérer vite et de casser l'inertie.",
+      "manifestations": ["Audace", "Originalité d'action", "Capacité à provoquer un nouveau départ"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune en Bélier cherche un idéal à vivre dans l'action. L'inspiration passe par l'engagement, le feu, le mouvement.",
+      "manifestations": ["Inspiration ardente", "Idéal incarné", "Foi intuitive dans l'action"]
+    },
+    {
+      "nom": "Pluton",
+      "slug": "pluton",
+      "description": "Pluton en Bélier transforme profondément le rapport à la volonté, au combat et à la puissance personnelle.",
+      "manifestations": ["Force de régénération", "Puissance d'affirmation", "Capacité à renaître après des chocs"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Bélier",
+      "type": "intense",
+      "titre": "Feu contre feu",
+      "texte": "Deux Béliers peuvent se comprendre très vite, se stimuler fortement et avancer sans hésiter. La relation est vive, directe, passionnée, mais aussi potentiellement explosive si chacun veut mener seul.",
+      "forces": ["Énergie immédiate", "Compréhension instinctive", "Passion", "Goût de l'action"],
+      "frictions": ["Compétition", "Impatience", "Conflits d'ego", "Difficulté à céder"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taureau",
+      "type": "delicate",
+      "titre": "Élan et stabilité",
+      "texte": "Le Bélier veut aller vite, le Taureau veut construire lentement. Le lien peut être complémentaire, mais les rythmes sont très différents.",
+      "forces": ["Complémentarité initiative/endurance", "Possibilité de construire du concret"],
+      "frictions": ["Le Bélier trouve le Taureau lent", "Le Taureau trouve le Bélier brusque", "Entêtement des deux côtés"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gémeaux",
+      "type": "stimulante",
+      "titre": "Action et vivacité mentale",
+      "texte": "Le Bélier aime l'élan, les Gémeaux aiment le mouvement. Le duo peut être rapide, vivant, stimulant et mobile.",
+      "forces": ["Vivacité", "Spontanéité", "Légèreté", "Capacité à rebondir"],
+      "frictions": ["Dispersion", "Instabilité", "Difficulté à approfondir"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "delicate",
+      "titre": "Feu et sensibilité",
+      "texte": "Le Bélier peut heurter ce que le Cancer ressent profondément. La relation demande tact, sécurité affective et respect des rythmes émotionnels.",
+      "forces": ["Complémentarité action/protection", "Possibilité de soutien mutuel"],
+      "frictions": ["Réactivité du Bélier", "Susceptibilité du Cancer", "Malentendus émotionnels"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Lion",
+      "type": "fluide",
+      "titre": "Feu et rayonnement",
+      "texte": "Le Bélier et le Lion partagent l'élan, la chaleur et la franchise. Ensemble, ils peuvent se dynamiser très fortement.",
+      "forces": ["Énergie", "Enthousiasme", "Fierté saine", "Motivation mutuelle"],
+      "frictions": ["Compétition d'ego", "Besoin d'être reconnu", "Difficulté à partager le centre"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Vierge",
+      "type": "variable",
+      "titre": "Impulsion et méthode",
+      "texte": "Le Bélier veut agir vite ; la Vierge veut comprendre, corriger et organiser. L'un pousse, l'autre ajuste.",
+      "forces": ["Complémentarité élan/précision", "Projets efficaces"],
+      "frictions": ["Le Bélier trouve la Vierge critique", "La Vierge trouve le Bélier brut", "Différence de rythme"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Balance",
+      "type": "complementaire",
+      "titre": "Axe Bélier–Balance",
+      "texte": "Le Bélier affirme le moi, la Balance rappelle l'autre. C'est un axe très fort de complémentarité, d'attraction et d'apprentissage relationnel.",
+      "forces": ["Attraction naturelle", "Complémentarité affirmation/coopération"],
+      "frictions": ["Le Bélier veut aller droit", "La Balance hésite ou nuance", "Conflit impulsion/diplomatie"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpion",
+      "type": "intense",
+      "titre": "Mars frontal et Mars profond",
+      "texte": "Le Bélier agit au grand jour, le Scorpion agit en profondeur. Le rapport est fort, magnétique, parfois conflictuel, mais jamais tiède.",
+      "forces": ["Puissance", "Courage", "Loyauté possible", "Intensité"],
+      "frictions": ["Rapports de force", "Jalousie ou contrôle", "Conflits violents"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittaire",
+      "type": "fluide",
+      "titre": "Feu et horizon",
+      "texte": "Le Bélier donne l'élan, le Sagittaire donne la vision. Ensemble, ils peuvent avancer vite et loin.",
+      "forces": ["Aventure", "Optimisme", "Mouvement", "Sincérité"],
+      "frictions": ["Excès", "Impatience", "Manque d'ancrage"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorne",
+      "type": "intense",
+      "titre": "Élan et structure",
+      "texte": "Le Bélier veut aller vite, le Capricorne veut bâtir dans le temps. Le rapport peut être très productif ou très conflictuel.",
+      "forces": ["Complémentarité attaque/stratégie", "Capacité à accomplir du solide"],
+      "frictions": ["Frustration", "Rythmes opposés", "Rapports de force"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Verseau",
+      "type": "complementaire",
+      "titre": "Action et liberté",
+      "texte": "Le Bélier agit, le Verseau pense autrement. Le lien peut être très stimulant si chacun respecte l'indépendance de l'autre.",
+      "forces": ["Liberté", "Stimulation", "Originalité", "Élan vers l'avenir"],
+      "frictions": ["Distance émotionnelle du Verseau", "Impulsivité du Bélier", "Conflits idéologiques"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Poissons",
+      "type": "variable",
+      "titre": "Feu et porosité",
+      "texte": "Le Bélier agit clairement, les Poissons ressentent largement. Le lien peut être inspirant ou déroutant selon la capacité à se comprendre.",
+      "forces": ["Inspiration", "Complémentarité action/imagination", "Ouverture de nouveaux mondes"],
+      "frictions": ["Le Bélier peut brusquer", "Les Poissons semblent flous", "Difficulté de rythme"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si votre ascendant est Bélier, vous entrez dans la vie avec franchise, rapidité et besoin d'initiative. Même si votre Soleil est dans un autre signe, votre manière spontanée d'agir, de vous présenter et de réagir porte une tonalité bélier.",
+    "apparence": [
+      "Présence vive et directe",
+      "Allure dynamique",
+      "Regard franc ou perçant",
+      "Impression de mouvement et de tonicité"
     ],
-    "rapportTypique": [
-      "Peut dépenser vite quand quelque chose l’enthousiasme",
-      "Préfère souvent l’argent en mouvement à l’argent immobilisé",
-      "Gère mieux quand il a un objectif clair, un défi ou une direction précise",
-      "Peut devenir très combatif pour défendre son indépendance matérielle"
+    "temperament": [
+      "Réagit vite",
+      "Préfère essayer plutôt qu'attendre",
+      "A besoin d'autonomie et de mouvement",
+      "Entre dans les situations de façon directe"
+    ],
+    "vigilances": [
+      "Impatience",
+      "Réactivité excessive",
+      "Tendance à aller trop vite",
+      "Risque de paraître abrupt"
     ]
   },
   "etoilesFixes": [
     {
       "nom": "Hamal",
       "nature": "Mars / Saturne",
-      "motsCles": ["Affirmation", "Tête", "Percée", "Force de décision"],
-      "description": "Hamal est souvent associée à une énergie de frontalité, de courage et d’impact. Dans une lecture symbolique du Bélier, elle renforce l’idée d’une poussée qui veut exister et aller de l’avant."
+      "texte": "Énergie de frontalité, de courage et d'impact. Renforce l'idée d'une poussée qui veut exister et aller de l'avant.",
+      "motsCles": ["Affirmation", "Percée", "Force de décision"]
     },
     {
       "nom": "Sheratan",
       "nature": "Mars",
-      "motsCles": ["Impulsion", "Vivacité", "Risque", "Rapidité"],
-      "description": "Sheratan accentue une tonalité nerveuse, rapide, entreprenante. Elle va bien avec la lecture du Bélier comme signe de l’initiative et de la réaction immédiate, tout en rappelant l’importance de canaliser le feu."
+      "texte": "Tonalité nerveuse, rapide, entreprenante. Accentue l'initiative et la réaction immédiate, tout en rappelant l'importance de canaliser le feu.",
+      "motsCles": ["Impulsion", "Vivacité", "Risque", "Rapidité"]
     }
   ],
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Bélier prend un style direct, rapide et orienté vers l’action. Le principe de la planète cherche à initier, à s’affirmer et à agir sans détour. Cela donne de la franchise, du courage et de la spontanéité — mais peut aussi rendre impatient ou trop réactif si l’énergie n’est pas maîtrisée.",
-    "motsCles": [
-      "Initiative",
-      "Franchise",
-      "Courage",
-      "Impulsion",
-      "Réactivité",
-      "Affirmation"
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Rubis", "motsCles": ["feu", "vitalité", "courage", "affirmation"] },
+      { "nom": "Grenat", "motsCles": ["élan", "ancrage", "tonus", "combat"] },
+      { "nom": "Fer", "motsCles": ["mars", "force", "combat", "volonté"] }
     ],
-    "planetes": {
-      "soleil": {
-        "tonalite": "Le Soleil en Bélier affirme une identité pionnière, volontaire et directe. Il a besoin d’agir pour se sentir vivant.",
-        "forces": [
-          "Courage d’être soi",
-          "Volonté d’exister clairement",
-          "Goût du défi",
-          "Leadership spontané"
-        ],
-        "defis": [
-          "Impatience",
-          "Réactivité de l’ego",
-          "Difficulté à temporiser",
-          "Tendance à vouloir aller plus vite que le temps"
-        ],
-        "enAmour": [
-          "Aime initier",
-          "Veut sentir la vie dans le lien",
-          "Supporte mal les relations trop molles"
-        ],
-        "auTravail": [
-          "Très fort pour lancer",
-          "A besoin d’autonomie",
-          "Peut perdre l’intérêt une fois la phase d’attaque passée"
-        ],
-        "avecArgent": [
-          "Décide vite",
-          "Dépense volontiers pour avancer ou conquérir",
-          "A besoin d’apprendre la stratégie de long terme"
-        ]
-      },
-      "lune": {
-        "tonalite": "La Lune en Bélier vit vite, réagit vite et a besoin d’autonomie émotionnelle. L’émotion monte rapidement et redescend souvent aussi vite.",
-        "forces": [
-          "Franchise émotionnelle",
-          "Capacité à rebondir",
-          "Réactivité instinctive",
-          "Besoin sain d’air et d’espace"
-        ],
-        "defis": [
-          "Impatience affective",
-          "Colères brèves",
-          "Difficulté à attendre",
-          "Réactions spontanées qui dépassent parfois la pensée"
-        ],
-        "enAmour": [
-          "A besoin de spontanéité",
-          "Peut aimer fort sur l’instant",
-          "Supporte mal les lenteurs affectives"
-        ],
-        "auTravail": [
-          "Travaille mieux dans le mouvement",
-          "Réagit bien dans l’urgence",
-          "Moins à l’aise dans les atmosphères trop passives"
-        ],
-        "avecArgent": [
-          "Achats impulsifs possibles",
-          "Peut compenser une tension émotionnelle par une dépense d’élan"
-        ]
-      },
-      "mercure": {
-        "tonalite": "Mercure en Bélier pense vite, parle vite et tranche vite. L’esprit va droit au point central.",
-        "forces": [
-          "Esprit vif",
-          "Décision rapide",
-          "Parole directe",
-          "Capacité à simplifier"
-        ],
-        "defis": [
-          "Formulation abrupte",
-          "Manque de nuance",
-          "Peu de patience pour les détours intellectuels"
-        ],
-        "enAmour": [
-          "Va rapidement au concret",
-          "Exprime franchement son intérêt",
-          "N’aime pas les jeux trop cérébraux ou ambigus"
-        ],
-        "auTravail": [
-          "Bon pour décider vite",
-          "Très utile dans les réunions où il faut trancher",
-          "Peut agacer par excès de franchise"
-        ],
-        "avecArgent": [
-          "Décide vite",
-          "Peut manquer de recul avant un achat ou un engagement"
-        ]
-      },
-      "venus": {
-        "tonalite": "Vénus en Bélier aime avec élan, désir, spontanéité et goût de la conquête. Le plaisir passe par la vivacité du lien.",
-        "forces": [
-          "Passion",
-          "Sincérité du désir",
-          "Charme direct",
-          "Capacité à déclarer clairement ses sentiments"
-        ],
-        "defis": [
-          "Impatience relationnelle",
-          "Goût de la nouveauté plus que de la profondeur",
-          "Difficulté avec la lenteur affective"
-        ],
-        "enAmour": [
-          "Aime séduire et être stimulée",
-          "Veut sentir l’élan, le désir, l’intensité",
-          "Peut confondre excitation et stabilité"
-        ],
-        "auTravail": [
-          "Aime les environnements vivants",
-          "A besoin de sentir du désir pour le projet"
-        ],
-        "avecArgent": [
-          "Dépense volontiers pour le plaisir immédiat",
-          "Aime se faire plaisir vite"
-        ]
-      },
-      "mars": {
-        "tonalite": "Mars en Bélier est dans une de ses expressions les plus naturelles : action franche, offensive, directe, instinctive.",
-        "forces": [
-          "Combativité",
-          "Puissance de démarrage",
-          "Courage d’action",
-          "Force de décision"
-        ],
-        "defis": [
-          "Excès",
-          "Brutalité",
-          "Précipitation",
-          "Difficulté à doser l’effort"
-        ],
-        "enAmour": [
-          "Très fort désir",
-          "Besoin d’intensité",
-          "Prend l’initiative"
-        ],
-        "auTravail": [
-          "Très bon dans l’action",
-          "Aime relever des défis",
-          "Supporte mal les cadres inertes"
-        ],
-        "avecArgent": [
-          "Prend des risques",
-          "Peut agir avant de calculer",
-          "A besoin d’une discipline stratégique"
-        ]
-      },
-      "jupiter": {
-        "tonalite": "Jupiter en Bélier amplifie l’élan, la foi dans l’action et la confiance à avancer.",
-        "forces": [
-          "Enthousiasme",
-          "Foi dans l’initiative",
-          "Audace",
-          "Confiance dans les nouveaux départs"
-        ],
-        "defis": [
-          "Excès de confiance",
-          "Promesses trop rapides",
-          "Surestimation de ses forces"
-        ],
-        "enAmour": [
-          "Généreux dans l’élan",
-          "Aime les histoires qui stimulent et font grandir"
-        ],
-        "auTravail": [
-          "Très bon pour lancer un projet ambitieux",
-          "Aime quand il y a de l’expansion et du mouvement"
-        ],
-        "avecArgent": [
-          "Peut oser investir",
-          "Risque d’optimisme excessif"
-        ]
-      },
-      "saturne": {
-        "tonalite": "Saturne en Bélier demande d’apprendre la maîtrise de l’élan. Il ne bloque pas forcément le feu, mais l’oblige à devenir plus juste.",
-        "forces": [
-          "Courage discipliné",
-          "Capacité à construire une force durable",
-          "Maîtrise progressive de soi"
-        ],
-        "defis": [
-          "Tension entre envie d’agir et peur d’échouer",
-          "Colère contenue",
-          "Sentiment de frustration"
-        ],
-        "enAmour": [
-          "Aime moins vite mais plus sérieusement",
-          "Doit apprendre à faire confiance sans se crisper"
-        ],
-        "auTravail": [
-          "Très fort quand il accepte la discipline",
-          "Peut devenir redoutablement efficace"
-        ],
-        "avecArgent": [
-          "Peut apprendre une bonne rigueur",
-          "Agit mieux quand il construit une stratégie solide"
-        ]
-      },
-      "uranus": {
-        "tonalite": "Uranus en Bélier produit une impulsion de rupture, une volonté de se libérer vite et de casser l’inertie.",
-        "forces": [
-          "Audace",
-          "Originalité d’action",
-          "Capacité à provoquer un nouveau départ"
-        ],
-        "defis": [
-          "Rébellion impulsive",
-          "Décisions brusques",
-          "Difficulté à supporter les contraintes"
-        ],
-        "enAmour": [
-          "A besoin de liberté",
-          "Cherche des liens vifs, non étouffants"
-        ],
-        "auTravail": [
-          "Très bon pour innover vite",
-          "Moins à l’aise dans les systèmes rigides"
-        ],
-        "avecArgent": [
-          "Décisions financières soudaines possibles",
-          "Recherche d’indépendance matérielle"
-        ]
-      },
-      "neptune": {
-        "tonalite": "Neptune en Bélier cherche un idéal à vivre dans l’action. L’inspiration passe par l’engagement, le feu, le mouvement.",
-        "forces": [
-          "Inspiration ardente",
-          "Idéal incarné",
-          "Foi intuitive dans l’action"
-        ],
-        "defis": [
-          "Confusion dans l’élan",
-          "Combats mal orientés",
-          "Tendance à agir au nom d’un rêve flou"
-        ],
-        "enAmour": [
-          "Peut idéaliser le désir",
-          "Cherche une intensité presque héroïque"
-        ],
-        "auTravail": [
-          "Fonctionne bien quand l’action a du sens",
-          "Peut se perdre si la direction manque de clarté"
-        ],
-        "avecArgent": [
-          "Peut agir par inspiration plus que par calcul",
-          "Doit apprendre à distinguer élan juste et illusion"
-        ]
-      },
-      "pluton": {
-        "tonalite": "Pluton en Bélier transforme profondément le rapport à la volonté, au combat et à la puissance personnelle.",
-        "forces": [
-          "Force de régénération",
-          "Puissance d’affirmation",
-          "Capacité à renaître après des chocs"
-        ],
-        "defis": [
-          "Rapports de force",
-          "Volonté radicale",
-          "Tendance au tout ou rien"
-        ],
-        "enAmour": [
-          "Veut du vrai, du fort, du vivant",
-          "Peut vivre les débuts relationnels avec une intensité extrême"
-        ],
-        "auTravail": [
-          "Très fort dans les contextes de transformation",
-          "Peut imposer une volonté puissante"
-        ],
-        "avecArgent": [
-          "Rapport intense à l’autonomie matérielle",
-          "Peut prendre des décisions radicales"
-        ]
-      }
-    }
+    "vegetaux": [
+      { "nom": "Ortie", "motsCles": ["stimulation", "réveil", "défense", "vitalité"] },
+      { "nom": "Ail", "motsCles": ["protection", "force", "tranchant", "défense"] },
+      { "nom": "Piment", "motsCles": ["feu", "intensité", "chaleur", "impulsion"] }
+    ],
+    "animaux": [
+      { "nom": "Bélier", "motsCles": ["impulsion", "force", "initiative", "percée"] },
+      { "nom": "Loup", "motsCles": ["instinct", "combativité", "réactivité", "audace"] },
+      { "nom": "Faucon", "motsCles": ["vitesse", "cible", "attaque", "vision"] }
+    ]
   },
-  "dansUnTheme": [
-    "Le Bélier montre où l’on démarre vite, où l’on ose, et où l’on préfère l’action à l’attente.",
-    "Il indique aussi un secteur de vie où l’on apprend à transformer l’impulsion en maîtrise.",
-    "Selon la maison et les aspects, il peut montrer un lieu de combat, d’initiative ou de naissance de soi."
+  "geographie": [
+    { "pays": "Angleterre", "texte": "Force d'initiative, volonté affirmée et élan actif." },
+    { "pays": "France", "texte": "Impulsion, affirmation, centralité du moi collectif." },
+    { "pays": "Allemagne", "texte": "Force, élan, structure de volonté et puissance active." },
+    { "pays": "Danemark", "texte": "Attribution symbolique traditionnelle." }
   ],
- "relationsAuxAutresSignes": [
-  {
-    "sign": "belier",
-    "level": "intense",
-    "title": "Feu contre feu",
-    "summary": "Deux Béliers peuvent se comprendre très vite, se stimuler fortement et avancer sans hésiter. La relation est vive, directe, passionnée, mais aussi potentiellement explosive si chacun veut mener seul.",
-    "pointsFortes": [
-      "Énergie immédiate",
-      "Compréhension instinctive",
-      "Passion",
-      "Goût de l’action"
-    ],
-    "pointsDeTension": [
-      "Compétition",
-      "Impatience",
-      "Conflits d’ego",
-      "Difficulté à céder"
-    ]
-  },
-  {
-    "sign": "taureau",
-    "level": "delicate",
-    "title": "Élan et stabilité",
-    "summary": "Le Bélier veut aller vite, le Taureau veut construire lentement. Le lien peut être complémentaire, mais les rythmes sont très différents.",
-    "pointsFortes": [
-      "Complémentarité entre initiative et endurance",
-      "Possibilité de construire du concret"
-    ],
-    "pointsDeTension": [
-      "Le Bélier trouve le Taureau lent",
-      "Le Taureau trouve le Bélier brusque",
-      "Entêtement des deux côtés"
-    ]
-  },
-  {
-    "sign": "gemeaux",
-    "level": "stimulante",
-    "title": "Action et vivacité mentale",
-    "summary": "Le Bélier aime l’élan, les Gémeaux aiment le mouvement. Le duo peut être rapide, vivant, stimulant et mobile.",
-    "pointsFortes": [
-      "Vivacité",
-      "Spontanéité",
-      "Légèreté",
-      "Capacité à rebondir"
-    ],
-    "pointsDeTension": [
-      "Dispersion",
-      "Instabilité",
-      "Difficulté à approfondir"
-    ]
-  },
-  {
-    "sign": "cancer",
-    "level": "delicate",
-    "title": "Feu et sensibilité",
-    "summary": "Le Bélier peut heurter ce que le Cancer ressent profondément. La relation demande tact, sécurité affective et respect des rythmes émotionnels.",
-    "pointsFortes": [
-      "Complémentarité action / protection",
-      "Possibilité d’un vrai soutien mutuel"
-    ],
-    "pointsDeTension": [
-      "Réactivité du Bélier",
-      "Susceptibilité du Cancer",
-      "Malentendus émotionnels"
-    ]
-  },
-  {
-    "sign": "lion",
-    "level": "fluide",
-    "title": "Feu et rayonnement",
-    "summary": "Le Bélier et le Lion partagent l’élan, la chaleur et la franchise. Ensemble, ils peuvent se dynamiser très fortement.",
-    "pointsFortes": [
-      "Énergie",
-      "Enthousiasme",
-      "Fierté saine",
-      "Motivation mutuelle"
-    ],
-    "pointsDeTension": [
-      "Compétition d’ego",
-      "Besoin d’être reconnu",
-      "Difficulté à partager le centre"
-    ]
-  },
-  {
-    "sign": "vierge",
-    "level": "variable",
-    "title": "Impulsion et méthode",
-    "summary": "Le Bélier veut agir vite ; la Vierge veut comprendre, corriger et organiser. L’un pousse, l’autre ajuste.",
-    "pointsFortes": [
-      "Complémentarité entre élan et précision",
-      "Possibilité de rendre un projet efficace"
-    ],
-    "pointsDeTension": [
-      "Le Bélier trouve la Vierge trop critique",
-      "La Vierge trouve le Bélier trop brut",
-      "Différence de rythme"
-    ]
-  },
-  {
-    "sign": "balance",
-    "level": "complementaire",
-    "title": "Axe Bélier–Balance",
-    "summary": "Le Bélier affirme le moi, la Balance rappelle l’autre. C’est un axe très fort de complémentarité, d’attraction et d’apprentissage relationnel.",
-    "pointsFortes": [
-      "Attraction naturelle",
-      "Complémentarité entre action et relation",
-      "Possibilité d’équilibrer affirmation et coopération"
-    ],
-    "pointsDeTension": [
-      "Le Bélier veut aller droit",
-      "La Balance hésite ou nuance",
-      "Conflit entre impulsion et diplomatie"
-    ]
-  },
-  {
-    "sign": "scorpion",
-    "level": "intense",
-    "title": "Mars frontal et Mars profond",
-    "summary": "Le Bélier agit au grand jour, le Scorpion agit en profondeur. Le rapport est fort, magnétique, parfois conflictuel, mais rarement tiède.",
-    "pointsFortes": [
-      "Puissance",
-      "Courage",
-      "Loyauté possible",
-      "Intensité"
-    ],
-    "pointsDeTension": [
-      "Rapports de force",
-      "Jalousie ou contrôle",
-      "Conflits violents si la confiance manque"
-    ]
-  },
-  {
-    "sign": "sagittaire",
-    "level": "fluide",
-    "title": "Feu et horizon",
-    "summary": "Le Bélier donne l’élan, le Sagittaire donne la vision. Ensemble, ils peuvent avancer vite et loin.",
-    "pointsFortes": [
-      "Aventure",
-      "Optimisme",
-      "Mouvement",
-      "Sincérité"
-    ],
-    "pointsDeTension": [
-      "Excès",
-      "Impatience",
-      "Manque d’ancrage"
-    ]
-  },
-  {
-    "sign": "capricorne",
-    "level": "intense",
-    "title": "Élan et structure",
-    "summary": "Le Bélier veut aller vite, le Capricorne veut bâtir dans le temps. Le rapport peut être très productif ou très conflictuel.",
-    "pointsFortes": [
-      "Complémentarité entre attaque et stratégie",
-      "Capacité à accomplir du solide"
-    ],
-    "pointsDeTension": [
-      "Frustration",
-      "Rythmes opposés",
-      "Rapports de force"
-    ]
-  },
-  {
-    "sign": "verseau",
-    "level": "complementaire",
-    "title": "Action et liberté",
-    "summary": "Le Bélier agit, le Verseau pense autrement. Le lien peut être très stimulant si chacun respecte l’indépendance de l’autre.",
-    "pointsFortes": [
-      "Liberté",
-      "Stimulation",
-      "Originalité",
-      "Élan vers l’avenir"
-    ],
-    "pointsDeTension": [
-      "Distance émotionnelle du Verseau",
-      "Impulsivité du Bélier",
-      "Conflits idéologiques"
-    ]
-  },
-  {
-    "sign": "poissons",
-    "level": "variable",
-    "title": "Feu et porosité",
-    "summary": "Le Bélier agit clairement, les Poissons ressentent largement. Le lien peut être inspirant ou déroutant selon la capacité à se comprendre.",
-    "pointsFortes": [
-      "Inspiration",
-      "Complémentarité entre action et imagination",
-      "Capacité à ouvrir de nouveaux mondes"
-    ],
-    "pointsDeTension": [
-      "Le Bélier peut brusquer",
-      "Les Poissons peuvent sembler flous",
-      "Difficulté à accorder rythme et limites"
-    ]
-  }
-],
-"paysAssocies": [
-  {
-    "pays": "Angleterre",
-    "niveau": "traditionnel",
-    "justification": "Dans certaines traditions d’astrologie mondiale, l’Angleterre est associée au signe du Bélier pour une symbolique de force d’initiative, de volonté affirmée et d’élan actif. Cette attribution reste une correspondance traditionnelle, non une vérité absolue."
-  },
-  {
-    "pays": "France",
-    "niveau": "traditionnel",
-    "justification": "La France est parfois rattachée au Bélier dans plusieurs listes astrologiques traditionnelles, avec l’idée d’un pays marqué par l’impulsion, l’affirmation, la centralité du moi collectif et une dynamique historique de projection."
-  },
-  {
-    "pays": "Allemagne",
-    "niveau": "traditionnel",
-    "justification": "L’Allemagne est souvent citée parmi les pays associés symboliquement au Bélier dans certaines écoles d’astrologie mondiale, avec une lecture orientée vers la force, l’élan, la structure de volonté et la puissance active."
-  },
-  {
-    "pays": "Danemark",
-    "niveau": "traditionnel",
-    "justification": "Le Danemark apparaît aussi dans certaines listes de correspondances traditionnelles liées au Bélier. Comme pour les autres pays, il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
-  }
-],
+  "figuresCelebres": [
+    { "nom": "Lady Gaga", "domaine": "Musique", "date": "28 mars 1986", "texte": "Audace, force de présence et capacité à imposer une identité très affirmée." },
+    { "nom": "Robert Downey Jr.", "domaine": "Cinéma", "date": "4 avril 1965", "texte": "Énergie vive, tempérament combatif et présence directe." },
+    { "nom": "Emma Watson", "domaine": "Cinéma", "date": "15 avril 1990", "texte": "Franchise, engagement et netteté dans la prise de position." },
+    { "nom": "Marlon Brando", "domaine": "Cinéma", "date": "3 avril 1924", "texte": "Puissance instinctive, présence brute et intensité incarnée." }
+  ],
   "faq": [
     {
       "question": "Quel est le caractère du Bélier ?",
-      "answer": "Le Bélier a un tempérament direct, vivant, spontané et souvent courageux. Il agit rapidement, aime initier, et supporte mal l’inertie ou les détours inutiles."
+      "reponse": "Le Bélier se caractérise par la franchise, le courage, l'initiative et l'énergie. C'est un tempérament direct, entier, qui a besoin d'agir pour se sentir vivant. Il peut être impatient et impulsif, mais c'est aussi un des signes les plus courageux et les plus généreux du Zodiaque."
     },
     {
-      "question": "Quel type d’amoureux est le Bélier ?",
-      "answer": "Le Bélier aime avec spontanéité, désir et franchise. Il apprécie les relations vivantes, sincères et stimulantes, mais doit apprendre à ne pas confondre intensité immédiate et profondeur durable."
+      "question": "Quel type d'amoureux est le Bélier ?",
+      "reponse": "Passionné, spontané, direct. Il prend l'initiative, montre vite son intérêt et apporte intensité et chaleur à la relation. Il a besoin d'une relation vivante et franche, et supporte mal la passivité ou les non-dits."
     },
     {
       "question": "Quel type de travailleur est le Bélier ?",
-      "answer": "Le Bélier est souvent très bon pour lancer, décider, prendre des risques mesurés et agir dans l’urgence. Il excelle dans les débuts de projet et dans les environnements qui demandent courage et initiative."
+      "reponse": "Un lanceur, un démarreur, un décideur. Il excelle dans les phases de création, de conquête et de crise. Il a besoin d'autonomie et d'un objectif clair. Il est moins à l'aise dans la routine ou les environnements trop hiérarchiques."
     },
     {
       "question": "Quelle maison correspond au Bélier ?",
-      "answer": "Le Bélier est naturellement relié à la maison I, celle du tempérament, de la présence, de l’identité immédiate et de la manière d’entrer dans la vie."
+      "reponse": "La Maison I, celle de l'identité, du tempérament, de la façon d'entrer dans la vie. Son analogie naturelle avec le Bélier souligne une dynamique de départ, d'affirmation et de présence immédiate."
     }
-  ], 
-  "pierresEtMetaux": [
-  {
-    "nom": "Rubis",
-    "type": "pierre",
-    "description": "Le rubis évoque l’énergie vitale, l’élan, la force du sang et l’affirmation.",
-    "motsCles": ["feu", "vitalité", "courage", "affirmation"]
-  },
-  {
-    "nom": "Grenat",
-    "type": "pierre",
-    "description": "Le grenat est souvent rapproché d’une force active, d’un ancrage combatif et d’une énergie de mise en mouvement.",
-    "motsCles": ["élan", "ancrage", "tonus", "combat"]
-  },
-  {
-    "nom": "Fer",
-    "type": "métal",
-    "description": "Le fer est traditionnellement lié à Mars : action, combat, volonté, tranchant.",
-    "motsCles": ["mars", "force", "combat", "volonté"]
-  }
-], 
-"plantes": [
-  {
-    "nom": "Ortie",
-    "type": "plante",
-    "description": "L’ortie évoque une énergie piquante, active, stimulante et tonique, souvent rapprochée d’une logique martienne.",
-    "usagesSymboliques": ["stimulation", "réveil", "défense", "vitalité"]
-  },{
-    "nom": "Ail",
-    "type": "plante",
-    "description": "L’ail est souvent relié à la force, à la protection et à une énergie franche, directe et combative.",
-    "usagesSymboliques": ["protection", "force", "tranchant", "défense"]
-  },
-  {
-    "nom": "Piment",
-    "type": "plante",
-    "description": "Le piment symbolise l’intensité, la chaleur, la montée rapide d’énergie et le feu.",
-    "usagesSymboliques": ["feu", "intensité", "chaleur", "impulsion"]
-  }
-], 
-"animaux": [
-  {
-    "nom": "Mouton",
-    "type": "animal-symbolique",
-    "description": "Le bélier (mouton)incarne l’élan, la poussée, la force qui ouvre un passage et la capacité à prendre la tête du mouvement.",
-    "motsCles": ["impulsion", "force", "initiative", "percée"]
-  },
-  {
-    "nom": "Loup",
-    "type": "animal",
-    "description": "Dans une lecture symbolique, le loup peut évoquer l’instinct, la combativité, la rapidité d’engagement et la survie active.",
-    "motsCles": ["instinct", "combativité", "réactivité", "audace"]
-  },
-  {
-    "nom": "Faucon",
-    "type": "oiseau",
-    "description": "Le faucon renvoie à une énergie de visée directe, d’attaque rapide et de décision immédiate, en affinité avec le style du Bélier.",
-    "motsCles": ["vitesse", "cible", "attaque", "vision"]
-  }
-],
-"ascendant": {
-  "intro": "Si votre ascendant est Bélier, cela signifie souvent que vous entrez dans la vie avec franchise, rapidité et besoin d’initiative. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité bélier.",
-  "apparence": [
-    "présence vive et directe",
-    "allure dynamique",
-    "regard franc ou perçant",
-    "impression de mouvement, de tonicité ou de réactivité immédiate",
-    "visage souvent marqué par une certaine netteté ou expressivité"
-  ],
-  "temperament": [
-    "réagit vite",
-    "préfère essayer plutôt que rester dans l’attente",
-    "a besoin d’autonomie et de mouvement",
-    "entre souvent dans les situations de façon directe",
-    "supporte mal l’inertie ou les détours trop longs"
-  ],
-  "enRelation": [
-    "donne une impression de franchise immédiate",
-    "peut paraître entreprenant, spontané ou parfois brusque",
-    "cherche souvent des rapports clairs et vivants",
-    "aime que les choses avancent"
-  ],
-  "pointsDeVigilance": [
-    "impatience",
-    "réactivité excessive",
-    "tendance à aller trop vite",
-    "difficulté à laisser le temps faire son œuvre",
-    "risque de paraître abrupt sans le vouloir"
   ]
-},
-"signeDominant": {
-  "intro": "Si le Bélier est dominant dans un thème, cela signifie souvent que la personne aborde la vie avec spontanéité, franchise, besoin d’initiative et goût du mouvement. Elle entre dans les situations rapidement, préfère agir plutôt que trop attendre, et se construit à travers l’expérience directe.",
-  "forces": [
-    "capacité à démarrer",
-    "courage d’agir",
-    "présence énergique",
-    "affirmation rapide",
-    "élan de vie"
-  ],
-  "vigilances": [
-    "impatience",
-    "réactivité excessive",
-    "difficulté à attendre",
-    "tendance à forcer",
-    "confusion entre vitesse et justesse"
-  ],
-  "dansLaVie": [
-    "la personne préfère essayer plutôt que rester longtemps dans l’hypothèse",
-    "elle apprend par confrontation directe au réel",
-    "elle a besoin de défis, d’action et d’autonomie",
-    "elle supporte mal l’inertie et les cadres étouffants"
-  ],
-  "enAmour": [
-    "elle aime les liens vivants, francs et dynamiques",
-    "elle a besoin de sentir qu’il se passe quelque chose",
-    "elle supporte mal les relations passives ou trop ambiguës"
-  ],
-  "auTravail": [
-    "elle excelle souvent dans les démarrages, les urgences et les postes d’initiative",
-    "elle a besoin d’une marge de manœuvre réelle",
-    "elle fonctionne mieux quand l’action est claire et incarnée"
-  ]
-},"celebrites": [
-  {
-    "nom": "Lady Gaga",
-    "dateNaissance": "28 mars 1986",
-    "domaine": "Musique",
-    "description": "Souvent citée pour son audace, sa force de présence et sa capacité à imposer une identité très affirmée."
-  },
-  {
-    "nom": "Robert Downey Jr.",
-    "dateNaissance": "4 avril 1965",
-    "domaine": "Cinéma",
-    "description": "Exemple d’énergie vive, de tempérament combatif et de présence directe."
-  },
-  {
-    "nom": "Emma Watson",
-    "dateNaissance": "15 avril 1990",
-    "domaine": "Cinéma",
-    "description": "Souvent associée à une forme de franchise, d’engagement et de netteté dans la prise de position."
-  },
-  {
-    "nom": "Marlon Brando",
-    "dateNaissance": "3 avril 1924",
-    "domaine": "Cinéma",
-    "description": "Figure de puissance instinctive, de présence brute et d’intensité incarnée."
-  }
-]
 }

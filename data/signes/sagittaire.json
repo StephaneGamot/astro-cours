@@ -1,876 +1,447 @@
 {
   "slug": "sagittaire",
-  "name": "Sagittaire",
+  "nom": "Sagittaire",
+  "sousTitre": "Le neuvième signe du Zodiaque",
+  "devise": "Je cherche",
   "periode": "22 novembre – 21 décembre",
-  "polarite": "Actif (masculin)",
-  "mode": "Mutable",
   "element": "Feu",
+  "mode": "Mutable",
   "maitre": "Jupiter",
-  "exaltation": null,
+  "exaltation": "—",
   "exil": "Mercure",
-  "chute": null,
-  "motCle": "Je cherche",
-  "mythologie": "Le Sagittaire est associé au centaure Chiron, être mi-homme mi-cheval, à la fois instinctif et sage. Archer tourné vers le ciel, il symbolise la quête de sens, la transmission du savoir et la recherche d’un idéal qui dépasse l’individu. Le mythe du Sagittaire parle d’élévation : transformer l’expérience vécue en compréhension et en vision globale. Il représente le moment où l’être humain cesse de seulement vivre ou ressentir : il veut comprendre vers quoi il avance, ce qui donne une direction à son énergie, et comment faire de son existence une aventure signifiante.",
-  "analogie": {
+  "chute": "—",
+  "polarite": "Masculin",
+  "temperament": "Bilieux",
+  "maisonNaturelle": 9,
+  "couleur": {
+    "primaire": "#8B5CF6",
+    "secondaire": "#F59E0B",
+    "accent": "#C084FC",
+    "gradient": "from-violet-500 via-purple-500 to-amber-500"
+  },
+  "navigation": {
+    "precedent": { "slug": "scorpion", "nom": "Scorpion" },
+    "suivant": { "slug": "capricorne", "nom": "Capricorne" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/sagittaire.webp",
+    "planete": "/images/planetes/jupiter.webp"
+  },
+  "introduction": "Le Sagittaire est le neuvième signe du Zodiaque. Le Soleil le traverse entre le 22 novembre et le 21 décembre environ, à la fin de l'automne, quand il n'y a plus rien à faire dans les champs sinon penser à l'année suivante, replanter, préparer les fêtes — une forme naturelle d'enthousiasme et d'organisation tournée vers l'avenir. Après la plongée dans les profondeurs du Scorpion, le Sagittaire cherche à donner un sens à ce qui a été traversé, à comprendre et à élargir la perspective. C'est le signe de la quête d'horizon, de l'élan vers ce qui est plus grand que soi, de la recherche d'un idéal qui dépasse l'individu pour embrasser le monde. Le Sagittaire ne se contente pas de vivre ou de ressentir : il veut comprendre vers quoi il avance, ce qui donne une direction à son énergie, et comment faire de son existence une aventure signifiante.",
+  "fondationsCosmiques": {
+    "texte": "Le Sagittaire appartient à l'élément Feu (chaud et sec), ce qui lui confère un tempérament bilieux : énergie, volonté, action créatrice, dynamisme et passion. C'est le troisième et dernier niveau du Feu — celui de la sublimation. Après l'instinct du Bélier et le rayonnement du Lion, le feu du Sagittaire se met au service d'une cause, d'une vision, d'une collectivité. Sa créativité doit servir à quelque chose de plus vaste que lui-même. Son mode est mutable : il s'adapte à toutes les situations, fait le pont entre deux saisons, navigue entre les contraires. C'est aussi un signe double — mi-homme mi-cheval, comme le centaure qui le représente — ce qui explique l'oscillation constante entre l'élan instinctif et la quête de sagesse. Signe actif, émetteur et extraverti, le Sagittaire est caractérisé par une vitalité qui se dépense sans compter pour pénétrer le monde et introduire du mouvement partout où il passe.",
+    "courteAscension": "Le Sagittaire est un signe de longue ascension — il reste longtemps au-dessus de l'horizon — ce qui signifie que statistiquement, davantage de personnes naissent avec le Sagittaire comme Ascendant.",
+    "pluton": "Le Sagittaire est le domicile diurne de Jupiter, la planète de l'expansion, de la chance et de la protection. Jupiter se sent particulièrement bien dans ce signe d'ouverture qui correspond à sa nature profonde : rassembler, protéger, élargir l'horizon. L'axe Sagittaire-Gémeaux oppose et complète la synthèse et la dispersion, la vision globale et la circulation des faits."
+  },
+  "analogies": {
     "animal": "Le cheval, le centaure",
-    "objet": "L’arc, la flèche, le chemin, la carte",
-    "fonction": "Explorer, comprendre, transmettre"
+    "objet": "L'arc, la flèche, le chemin, la carte",
+    "fonction": "Explorer, comprendre, transmettre",
+    "texte": "Le Sagittaire, c'est l'élan vers l'horizon. Idéalisme, religion, voyages, aventures, étranger — tout dans ce signe parle de quête, d'ouverture et de dépassement. De même que l'archer lance sa flèche vers le ciel, le natif de ce signe cherche toujours à viser plus haut, plus loin, plus large. C'est le président, le juge, le prélat, le grand voyageur, l'explorateur des terres et des idées. Il incarne le désir de s'élever tout en élevant les autres, la passion de comprendre et de transmettre, la conviction qu'il existe toujours un horizon plus vaste à découvrir."
   },
-  "anatomie": ["Hanches", "Cuisses", "Foie", "Système locomoteur"],
-  "generalites": [
-    "Le Sagittaire représente l’élan vers l’horizon. Après la transformation du Scorpion, il cherche à donner un sens à ce qui a été traversé, à comprendre et à élargir la perspective.",
-    "Ce signe fonctionne par vision globale, enthousiasme et quête de vérité. Il a besoin d’espace, de mouvement et de projets porteurs de sens.",
-    "Son défi est de ne pas confondre quête de vérité et certitude dogmatique. Lorsqu’il est équilibré, le Sagittaire devient un guide inspirant, capable d’ouvrir des voies sans imposer une seule vérité.",
-    "Le Sagittaire relie aussi l’être humain à l’apprentissage supérieur, à la philosophie, au voyage, à la transmission et à l’élargissement du champ de conscience. Il veut grandir, comprendre plus grand que lui, et inscrire sa vie dans une trajectoire."
-  ],
-  "caractere": [
-    "Le Sagittaire voit loin, pense large, agit avec enthousiasme et supporte mal les limites qui lui paraissent étroites ou stériles.",
-    "Son caractère est chaleureux, franc, expansif, mobile, souvent idéaliste, avec un fort besoin de liberté et de perspective.",
-    "Il préfère l’élan, la sincérité, l’horizon et la dynamique de progression aux cadres trop serrés, aux petites logiques ou aux ambiances confinées.",
-    "Lorsqu’il est immature, il peut devenir excessif, impatient ou dogmatique ; lorsqu’il mûrit, il devient un véritable éclaireur, capable de transmettre du sens avec générosité."
-  ],
-  "aptitudesNaturelles": [
-    "Voir loin et penser large",
-    "Donner du sens à une expérience",
-    "Transmettre une vision",
-    "Enthousiasmer un groupe ou un projet",
-    "Relier la vie concrète à une philosophie ou à un idéal",
-    "Explorer, voyager, apprendre et ouvrir des voies nouvelles"
-  ],
-  "ceQuIlRegitDansLeMonde": [
-    "Le voyage",
-    "L’horizon",
-    "La philosophie",
-    "La foi",
-    "La connaissance supérieure",
-    "Les études longues",
-    "La transmission d’une vision",
-    "L’expansion, la quête, l’élargissement du sens"
-  ],
-  "maisonCorrespondante": {
-    "numero": 9,
-    "nom": "Maison IX",
-    "resume": "La neuvième maison parle du sens, des croyances, de la philosophie, des études supérieures, des voyages lointains et de la manière d’élargir sa compréhension du monde. Son analogie naturelle avec le Sagittaire souligne la quête d’horizon, la transmission d’une vision et la recherche d’un axe intérieur plus vaste.",
-    "themes": [
-      "Sens",
-      "Philosophie",
-      "Études supérieures",
-      "Voyages lointains",
-      "Croyances",
-      "Expansion de conscience"
-    ]
+  "mythologie": {
+    "titre": "Chiron et les Centaures",
+    "texte": "Le Sagittaire est associé au centaure Chiron, être mi-homme mi-cheval, à la fois instinctif et sage. Archer tourné vers le ciel, il symbolise la quête de sens, la transmission du savoir et la recherche d'un idéal qui dépasse l'individu. Chiron était le plus sage des centaures : guérisseur, pédagogue, maître d'Achille et de Jason, il représente l'alliance réussie entre la puissance animale et la connaissance élevée. Le mythe du Sagittaire parle de cette dualité fondamentale : d'un côté la voie des instincts et des pulsions animales, de l'autre le chemin de la connaissance et de la sagesse. La main de l'archer qui lance une flèche en direction du ciel indique la direction ascendante de l'Homme réalisé qui accède au plan divin. Blessé par une flèche empoisonnée et incapable de mourir en raison de son immortalité, Chiron finit par échanger sa vie contre la liberté de Prométhée — sacrifice ultime qui transforme la souffrance en don pour l'humanité.",
+    "civilisations": "Dans la mythologie grecque, les centaures incarnaient la tension entre la bestialité et la sagesse. En Mésopotamie, l'archer sacré Nergal était associé aux expéditions lointaines et à la protection des frontières. Dans les traditions védiques, le Sagittaire évoque Dhanusha, l'arc divin qui relie la terre au ciel. Partout, le symbole de l'archer tourné vers les étoiles traverse les civilisations comme une promesse : celle que l'être humain peut dépasser sa condition animale pour atteindre la connaissance et le sens."
   },
-  "forces": [
-    "Capacité à voir loin",
-    "Énergie d’expansion et d’enthousiasme",
-    "Goût de la connaissance, du sens et de la transmission"
-  ],
-  "ombres": [
-    "Fuite des contraintes",
-    "Certitudes trop rapides",
-    "Promesses non tenues"
-  ],
-  "besoins": [
-    "Liberté de mouvement",
-    "Idéal porteur de sens",
-    "Exploration intellectuelle, humaine ou physique"
-  ],
-  "aTravailler": [
-    "L’écoute des autres points de vue",
-    "La cohérence entre parole et actes",
-    "L’ancrage dans le concret",
-    "La mesure dans l’enthousiasme",
-    "Le fait de ne pas transformer la vérité en doctrine rigide"
-  ],
-  "quandCestEquilibre": [
-    "Le Sagittaire devient un éclaireur : il ouvre des chemins sans imposer sa route.",
-    "Il incarne une sagesse vivante, nourrie par l’expérience, l’ouverture et le sens.",
-    "Son enthousiasme devient contagieux sans être envahissant, et sa vision inspire sans enfermer."
-  ],
-  "aptitudes": {
-    "atouts": [
-      "Optimiste",
-      "Visionnaire",
-      "Curieux",
-      "Sincère",
-      "Enthousiaste",
-      "Idéaliste"
+  "portrait": {
+    "temperament": "Le Sagittaire voit loin, pense large, agit avec enthousiasme et supporte mal les limites qui lui paraissent étroites ou stériles. Son caractère est chaleureux, franc, expansif, mobile, souvent idéaliste, avec un fort besoin de liberté et de perspective. Le trait saillant de ce signe est la jeunesse de caractère : très accommodant, généreux et bienveillant, il inspire la sympathie et sa compagnie est recherchée en raison de sa jovialité communicative. Le jugement est rapide, le sens de l'organisation très développé, l'aisance dans la parole et l'intuition remarquables. La nature est bienveillante, libérale, aux émotions profondes et d'une grande sincérité. Toutefois, il est exceptionnellement susceptible pour les questions de prestige et d'honorabilité. Lorsqu'il est immature, il peut devenir excessif, impatient ou dogmatique, se laisser séduire par des théories plus brillantes que profondes ; lorsqu'il mûrit, il devient un véritable éclaireur, capable de transmettre du sens avec générosité et discernement.",
+    "forces": [
+      "Voir loin et penser large, donner du sens à une expérience",
+      "Transmettre une vision avec enthousiasme communicatif",
+      "Enthousiasmer un groupe, un projet ou une cause",
+      "Relier la vie concrète à une philosophie ou à un idéal élevé",
+      "Explorer, voyager, apprendre et ouvrir des voies nouvelles",
+      "Organiser et diriger avec une efficacité méthodique et ordonnée"
     ],
-    "defis": [
-      "Impatient",
-      "Excessif",
-      "Dogmatique",
-      "Manque de mesure",
-      "Difficulté à se poser"
-    ]
+    "ombres": [
+      "Fuite des contraintes et des cadres jugés trop étroits",
+      "Certitudes trop rapides qui deviennent dogmatisme",
+      "Promesses faites dans l'élan mais non tenues dans le temps",
+      "Excès d'optimisme qui se heurte aux réalités de l'existence",
+      "Orgueil qui s'apparente à de la vanité et susceptibilité excessive"
+    ],
+    "besoinsVitaux": [
+      "Liberté de mouvement, d'espace et de respiration",
+      "Un idéal porteur de sens qui dépasse le quotidien",
+      "Exploration intellectuelle, humaine ou physique permanente"
+    ],
+    "aTravailler": [
+      "L'écoute des autres points de vue sans les balayer",
+      "La cohérence entre parole et actes dans la durée",
+      "L'ancrage dans le concret et la patience du détail",
+      "La mesure dans l'enthousiasme pour ne pas disperser ses forces",
+      "Le fait de ne pas transformer sa vérité en doctrine rigide"
+    ],
+    "equilibre": "Le Sagittaire en pleine possession de ses moyens devient un éclaireur : il ouvre des chemins sans imposer sa route. Il incarne une sagesse vivante, nourrie par l'expérience, l'ouverture et le sens. Son enthousiasme devient contagieux sans être envahissant, et sa vision inspire sans enfermer. Sa franchise se fait lumineuse plutôt que blessante, et sa quête de vérité se met au service de la transmission plutôt que de la prédication."
   },
+  "sante": {
+    "zones": ["Hanches", "Cuisses", "Foie", "Système locomoteur"],
+    "texte": "Le Sagittaire gouverne les hanches, les cuisses, le foie, la vésicule biliaire, le pancréas, le sacrum, le coccyx, l'os iliaque et les muscles. Il prédispose aux sciatiques, aux troubles hépatiques, aux coliques, aux maladies artérielles et à l'arthritisme. C'est cependant un signe de bonne santé, de puissance physique et de longévité, à condition que le natif sache éviter les excès susceptibles de déterminer des troubles du foie ou de la circulation. Le Sagittaire aime le mouvement, le grand air, le sport — chasseurs, marcheurs, sportifs se retrouvent souvent sous cette influence. Sa constitution est généralement robuste et endurante."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "L'identité et le tempérament",
+      "texte": "La position la plus naturelle pour le Sagittaire. Les aptitudes philosophiques, théologiques et sociologiques sont marquées. Le sens de l'organisation est très développé, le jugement rapide, l'aisance dans la parole et l'intuition remarquables. Le natif aime l'indépendance et se montre insouciant, optimiste et confiant. Nature bienveillante, libérale, aux émotions profondes et d'une grande sincérité. Très accommodant, généreux, jovial et serviable, mais exceptionnellement susceptible pour les questions de prestige. L'activité est méthodique, très ordonnée et partant très efficiente. Très doué pour l'organisation et la direction. Confiant et optimiste dans l'issue de ses entreprises, mais disperse parfois ses forces inutilement."
+    },
+    {
+      "numero": 2,
+      "titre": "Les ressources",
+      "texte": "En général, très bon pronostic pour les gains personnels, même si ceux-ci sont réalisés au cours de grands voyages ou loin du lieu de naissance. Ce signe indique un rôle appréciable de la chance qui appuie les initiatives financières du sujet. Il y a cependant de fortes tendances dépensières et un esprit quelque peu aventureux, ce qui peut retarder la stabilité de la situation. Position propice pour les postes administratifs ou officiels, pour la grosse industrie et les commerces d'importation ou d'exportation."
+    },
+    {
+      "numero": 3,
+      "titre": "La communication",
+      "texte": "Bonne indication pour les tendances philosophiques et religieuses ainsi que pour l'intuition. Position propice pour aller effectuer des études à l'étranger ou pour y aller enseigner. Les voyages sont favorisés et parfois les déplacements durent beaucoup plus longtemps que prévu. Bonne entente avec frères, sœurs et voisins. L'esprit est curieux, synthétique et orienté vers la vision d'ensemble. Le natif excelle dans l'art de transmettre et de communiquer ses convictions."
+    },
+    {
+      "numero": 4,
+      "titre": "Les racines",
+      "texte": "L'atmosphère familiale comporte souvent des séparations ou des éloignements géographiques. Le sujet lui-même peut être tenté par une installation lointaine ou des acquisitions immobilières loin de son lieu de naissance. La fin de sa vie est généralement paisible et aisée, mais comporte souvent de longs voyages d'agrément. Ce n'est que si les dissonances sont très mauvaises qu'on peut pronostiquer des ennuis liés aux déplacements tardifs."
+    },
+    {
+      "numero": 5,
+      "titre": "La création et les amours",
+      "texte": "Accentue la sensualité s'il y a d'autres indices concordants et accroît les goûts esthétiques et artistiques, en particulier l'attrait pour les manifestations spectaculaires ou sportives de plein air. Le signe n'indique pas une progéniture très nombreuse, mais surtout des enfants respectueux et bien portants. Le sujet est plutôt chanceux en matière de jeu ou de spéculation. Bonne configuration pour les succès sentimentaux et la vie mondaine. Dans certains cas, la situation des enfants devient brillante."
+    },
+    {
+      "numero": 6,
+      "titre": "Le quotidien et la santé",
+      "texte": "Indice de bonne santé et de longue vie, à condition que le natif sache éviter les excès susceptibles de déterminer des troubles du foie ou de la circulation. Le travail est généralement agréable et rémunérateur. Le natif peut devenir un homme de confiance ou exploiter une entreprise et trouver facilement des collaborateurs honnêtes et dévoués. Position favorable pour les métiers d'organisation et de gestion au quotidien."
+    },
+    {
+      "numero": 7,
+      "titre": "Les associations et le mariage",
+      "texte": "Les liaisons sont plutôt rares car cette position indique le souci de la forme et de la respectabilité. Le mariage a souvent lieu de bonne heure et se passe habituellement dans de bonnes conditions. S'il y a cependant des dissonances provoquant un divorce ou un veuvage, on peut pronostiquer une seconde union légale. Les associations permettent souvent de gagner davantage. Les procès sont plutôt rares à moins de dissonances importantes. Possibilité de mariage ou d'association en pays lointains ou avec des étrangers."
+    },
+    {
+      "numero": 8,
+      "titre": "Les transformations",
+      "texte": "Position qui favorise les héritages, pouvant provenir non seulement de la famille ascendante mais parfois de parents éloignés — éloignés en degré de parenté ou en distance géographique. Cependant, si les aspects sont mauvais, toute liquidation risque de donner lieu à des complications légales. Généralement, le décès survient hors de la région natale, mais la vie est plutôt longue et la fin normale et douce."
+    },
+    {
+      "numero": 9,
+      "titre": "Les horizons lointains",
+      "texte": "C'est une des meilleures positions du Zodiaque pour conférer un esprit philosophique, religieux, ainsi que des aptitudes pour la sociologie. Les astrologues estiment que cette position est très favorable à l'évolution spirituelle et intellectuelle. Excellent indice pour les longs voyages, les résidences en pays lointains, l'attrait pour la vie au grand air, le mouvement et l'aventure. En raison de la nature double du signe, ce sont tantôt les tendances spirituelles qui prédominent, tantôt les tendances plus matérielles."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocation",
+      "texte": "Peut prédisposer aux longs voyages, aux séjours et à la réussite à l'étranger. Souvent deux changements importants dans la vie professionnelle. Dans l'ensemble, une chance à peu près constante si les dissonances ne sont pas graves. Facteur de réussite financière et honorifique. Même si les dissonances sont importantes, le sujet réussit encore à éviter les épreuves réellement pénibles. Convient pour les professions liées à la loi, aux banques, aux assurances, aux transactions internationales. Cette position facilite la réussite sociale ou politique et l'accès aux postes de direction."
+    },
+    {
+      "numero": 11,
+      "titre": "Les amitiés",
+      "texte": "Accroît les chances de contracter des amitiés agréables ou utiles au cours des voyages ou des séjours à l'étranger. Les amis sont généralement de bonne situation et souvent fortunés, mais ces relations peuvent être éphémères et peu nombreuses, parce que le natif est plutôt réservé dans sa manière de choisir ses proches. Possibilité de placements importants effectués sur l'instigation d'amis ou pour leur rendre service."
+    },
+    {
+      "numero": 12,
+      "titre": "Les épreuves cachées",
+      "texte": "Prédispose aux maladies du signe et à celles de Jupiter : troubles hépatiques, excès, problèmes de circulation. En ce qui concerne les inimitiés cachées ainsi que les risques d'emprisonnement ou d'internement, ce signe en Maison XII neutralise les menaces s'il n'y a pas, par ailleurs, de mauvais aspects graves. Le natif peut être amené à se retirer dans de grandes villes pour y travailler en paix. Position qui protège dans l'épreuve et transforme les obstacles en leçons de sagesse."
+    }
+  ],
   "amour": {
-    "intro": "Le Sagittaire aime avec franchise, enthousiasme, mouvement et besoin d’horizon. Il a besoin de sentir que la relation ouvre quelque chose, qu’elle grandit, qu’elle inspire, qu’elle respire. Il supporte mal les liens trop fermés, trop possessifs ou trop lourds, et cherche souvent une relation qui conjugue sincérité, liberté et élan.",
+    "texte": "Le Sagittaire aime avec franchise, enthousiasme, mouvement et besoin d'horizon. Il a besoin de sentir que la relation ouvre quelque chose, qu'elle grandit, qu'elle inspire, qu'elle respire. Il supporte mal les liens trop fermés, trop possessifs ou trop lourds. Sentimentalement, c'est un enthousiaste porté aux coups de foudre et aux emballements, dont la fougue jointe à des manières distinguées peuvent faire impression. Il existe toujours chez lui un certain respect pour les usages et la légalité : dès qu'il aura rencontré l'âme sœur, il songera à l'union légale et sera presque toujours un bon époux et un bon père. Le mariage a lieu souvent de bonne heure, parfois avec une personne née à l'étranger ou dans une région éloignée. Les voyages jouent souvent un rôle dans la vie amoureuse.",
     "qualites": [
-      "Sincérité affective",
-      "Élan généreux",
+      "Sincérité affective totale et franchise du cœur",
+      "Élan généreux qui porte le couple vers l'avant",
       "Capacité à insuffler de la vie et du mouvement dans le lien",
-      "Goût du partage, de l’aventure et de l’ouverture",
-      "Chaleur enthousiaste"
+      "Goût du partage, de l'aventure et de l'ouverture",
+      "Chaleur enthousiaste et fidélité quand le cœur est engagé"
     ],
     "vigilances": [
-      "Peut fuir ce qui lui paraît trop enfermant",
-      "Risque de promesses faites dans l’élan mais non tenues dans le temps",
-      "Tendance à chercher l’idéal plus que la réalité du lien",
-      "Difficulté avec les cadres affectifs trop serrés"
+      "Peut fuir ce qui lui paraît trop enfermant ou trop lourd",
+      "Risque de promesses faites dans l'élan mais non tenues dans le temps",
+      "Tendance à chercher l'idéal plus que la réalité du lien",
+      "Difficulté avec les cadres affectifs trop serrés ou possessifs"
     ],
-    "compatibleAvec": ["Bélier", "Lion", "Balance", "Verseau"],
-    "attirePar": [
-      "Les personnes ouvertes, vivantes et sincères",
-      "Les liens où il y a de l’espace et de l’élan",
-      "Les relations qui permettent de grandir ou de découvrir",
-      "Les personnes qui savent conjuguer liberté, joie et profondeur de sens"
-    ]
+    "affinites": ["belier", "lion", "balance", "verseau"]
   },
   "travail": {
-    "intro": "Le Sagittaire travaille bien lorsqu’il peut avancer vers un objectif porteur de sens, transmettre une vision, apprendre, voyager, inspirer ou élargir un champ. Il excelle souvent dans les domaines où l’on a besoin d’initiative, d’ouverture, de pédagogie ou de perspective.",
-    "qualites": [
-      "Vision globale",
-      "Enthousiasme",
-      "Capacité à motiver",
-      "Goût d’apprendre et de transmettre",
-      "Aisance dans les contextes ouverts, internationaux ou évolutifs"
+    "texte": "Le Sagittaire travaille bien lorsqu'il peut avancer vers un objectif porteur de sens, transmettre une vision, apprendre, voyager, inspirer ou élargir un champ. Il excelle dans les domaines où l'on a besoin d'initiative, d'ouverture, de pédagogie ou de perspective. Haut fonctionnaire, administrateur, magistrat, diplomate, voyageur, enseignant, directeur, chef de service, agences de voyages, entreprises de transport, exportation et importation — les professions du Sagittaire touchent toutes à l'organisation, à la transmission et à l'ouverture sur le monde. C'est un collaborateur précieux en raison de ses capacités d'organisation, de sa fidélité et du sérieux qu'il apporte en toutes choses. C'est probablement sous ce signe que l'on trouverait le plus grand nombre d'expatriés.",
+    "atouts": [
+      "Vision globale et capacité à fédérer autour d'un projet",
+      "Enthousiasme communicatif qui entraîne les équipes",
+      "Capacité naturelle à motiver, enseigner et transmettre",
+      "Goût d'apprendre et de se perfectionner en permanence",
+      "Aisance remarquable dans les contextes internationaux et évolutifs"
     ],
-    "vigilances": [
-      "Supporte mal l’enfermement ou la répétition vide",
-      "Peut se disperser vers trop d’objectifs",
-      "Risque de manquer de suivi ou de rigueur",
-      "Peut rejeter trop vite ce qui lui paraît trop étroit"
-    ],
-    "domainesFavorables": [
-      "Enseignement",
-      "Voyage",
-      "Formation",
-      "Philosophie",
-      "Droit",
-      "Communication inspirante",
-      "International",
-      "Fonctions où il faut ouvrir, transmettre, guider, explorer ou donner du sens"
+    "defis": [
+      "Supporte mal l'enfermement, la routine vide ou la répétition",
+      "Peut se disperser vers trop d'objectifs simultanés",
+      "Risque de manquer de suivi ou de rigueur dans les détails",
+      "Peut rejeter trop vite ce qui lui paraît trop étroit ou trop lent"
     ]
   },
   "argent": {
-    "intro": "Le Sagittaire entretient souvent un rapport large et dynamique à l’argent. Il le voit comme un moyen d’exploration, de liberté, d’apprentissage, de déplacement ou d’expansion. Il peut gagner avec audace, avec réseau, avec vision, mais doit apprendre à mieux cadrer certains excès d’optimisme.",
+    "texte": "Le Sagittaire entretient un rapport large et dynamique à l'argent. Il le voit comme un moyen d'exploration, de liberté, d'apprentissage et d'expansion — jamais comme une fin en soi. Ses rentrées sont souvent très appréciables, car il bénéficie d'une part de chance importante qui appuie ses initiatives financières. Mais il se laisse trop aller aux dépenses de prestige pour se constituer des réserves, et il lui arrive de s'imposer des périodes de privation — relatives — pendant la première partie de la vie. Par la suite, il s'assagit.",
     "forces": [
-      "Capacité à voir grand",
+      "Capacité à voir grand et à saisir les opportunités",
       "Aisance à créer du mouvement autour des ressources",
-      "Confiance dans la croissance",
-      "Rapport vivant à l’argent comme vecteur d’expansion"
+      "Confiance dans la croissance et sens du commerce international",
+      "Part de chance appréciable qui favorise les initiatives"
     ],
     "risques": [
-      "Excès de confiance",
-      "Dépenses d’enthousiasme ou de liberté",
-      "Difficulté à rester dans une gestion précise",
-      "Tendance à penser que tout finira toujours par s’arranger"
+      "Excès de confiance et optimisme financier non fondé",
+      "Dépenses de prestige, d'enthousiasme ou de liberté",
+      "Difficulté à rester dans une gestion précise et rigoureuse",
+      "Tendance à penser que tout finira toujours par s'arranger"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Soleil",
+      "slug": "soleil",
+      "description": "Le Soleil en Sagittaire construit une identité tournée vers l'idéal, le mouvement, la connaissance et l'ouverture. Il est au service de Jupiter avec la passion d'un signe de feu, donnant un idéal élevé et de nobles aspirations.",
+      "manifestations": ["Optimisme et confiance naturelle", "Vision globale et sens de l'horizon", "Sincérité et franchise du caractère", "Élan naturel vers l'expansion et la découverte"]
+    },
+    {
+      "nom": "Lune",
+      "slug": "lune",
+      "description": "La Lune en Sagittaire vit les émotions avec besoin d'espace, d'élan, de confiance et de souffle. Elle se régule par le mouvement, la perspective et l'ouverture plutôt que par le repli.",
+      "manifestations": ["Chaleur émotionnelle et générosité du cœur", "Capacité remarquable à rebondir après les épreuves", "Besoin sain d'air, d'espace et de liberté", "Confiance affective dans le mouvement et l'avenir"]
+    },
+    {
+      "nom": "Mercure",
+      "slug": "mercure",
+      "description": "Mercure en Sagittaire (en exil) pense large, synthétique, orienté vers la vision d'ensemble. Il aime les grandes idées, les concepts et les perspectives, mais peut manquer de précision dans les détails.",
+      "manifestations": ["Vision globale et pensée synthétique", "Capacité de synthèse rapide", "Franc-parler et aisance dans la parole", "Goût du sens et des grandes idées"]
+    },
+    {
+      "nom": "Vénus",
+      "slug": "venus",
+      "description": "Vénus en Sagittaire aime avec enthousiasme, liberté, sincérité et goût de l'aventure. Le plaisir passe par la découverte, la spontanéité et l'ouverture du lien à des horizons partagés.",
+      "manifestations": ["Fraîcheur affective et spontanéité", "Enthousiasme amoureux et emballements", "Sincérité relationnelle sans arrière-pensée", "Goût du mouvement et des voyages partagés"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars en Sagittaire agit avec enthousiasme, énergie expansive et désir de progression. L'action cherche un but, une vision ou un terrain plus vaste. La combativité est portée par un idéal.",
+      "manifestations": ["Dynamisme et énergie inépuisable", "Courage d'exploration et d'aventure", "Action portée par un idéal ou une vision", "Grande énergie de mouvement et de conquête"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter en Sagittaire est dans son domicile diurne — une de ses expressions les plus naturelles et les plus puissantes. Foi, expansion, quête de sens, ouverture et enthousiasme visionnaire s'expriment pleinement.",
+      "manifestations": ["Grande confiance dans la vie et dans l'avenir", "Vision ample et sens de l'horizon", "Ouverture d'esprit et tolérance", "Capacité à fédérer autour d'un sens et d'un projet"]
+    },
+    {
+      "nom": "Saturne",
+      "slug": "saturne",
+      "description": "Saturne en Sagittaire structure les croyances, la vision et le rapport au sens et à la transmission. Il oblige à construire une pensée ou une philosophie plus solide et moins dispersée.",
+      "manifestations": ["Maturité dans la vision et le jugement", "Sérieux philosophique et intellectuel", "Capacité à structurer un savoir et à le transmettre", "Responsabilité dans la transmission et l'enseignement"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus en Sagittaire ouvre des ruptures de croyances, des élans soudains vers d'autres horizons et une liberté forte dans la pensée ou le mode de vie.",
+      "manifestations": ["Esprit libre et iconoclaste", "Vision novatrice et avant-gardiste", "Capacité à rompre avec les cadres idéologiques étroits"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune en Sagittaire cherche un idéal spirituel, philosophique ou mystique. Il donne une inspiration ample, une foi imagée et une attirance profonde pour le sens vaste des choses.",
+      "manifestations": ["Inspiration spirituelle et philosophique", "Ouverture symbolique et poétique", "Intuition du sens profond des événements"]
+    },
+    {
+      "nom": "Pluton",
+      "slug": "pluton",
+      "description": "Pluton en Sagittaire transforme profondément le rapport aux croyances, à la vérité, aux systèmes de pensée et à la quête de sens. Il pousse à mourir à certaines certitudes pour trouver une vision plus vraie et plus vaste.",
+      "manifestations": ["Puissance de conviction qui peut ébranler les structures", "Capacité à transformer une vision du monde", "Force intérieure dans la quête de vérité", "Intensité philosophique et spirituelle"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Bélier",
+      "type": "fluide",
+      "titre": "Feu et mouvement",
+      "texte": "Le Sagittaire et le Bélier partagent l'élan, l'enthousiasme et la franchise. Ensemble, ils peuvent avancer vite et loin, portés par une énergie commune qui ne connaît ni la tiédeur ni l'hésitation. Le lien est vif, motivant et très vivant.",
+      "forces": ["Action immédiate et sincérité partagée", "Dynamique puissante et goût du mouvement", "Courage et audace des deux côtés", "Complicité instinctive entre deux feux"],
+      "frictions": ["Impatience réciproque", "Excès et manque de cadre", "Absence d'ancrage commun dans la durée"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taureau",
+      "type": "variable",
+      "titre": "Horizon et ancrage",
+      "texte": "Le Sagittaire veut ouvrir l'horizon, le Taureau veut stabiliser le terrain. Le rapport peut être enrichissant si chacun respecte le rythme et le besoin fondamental de l'autre : liberté pour l'un, sécurité pour l'autre.",
+      "forces": ["L'un apporte la vision, l'autre la stabilité", "Possibilité de croissance concrète et durable", "Complémentarité entre élan et ancrage"],
+      "frictions": ["Le Sagittaire trouve le Taureau trop fixe et trop lent", "Le Taureau trouve le Sagittaire trop mobile et trop imprévisible", "Conflit entre besoin de liberté et besoin de sécurité"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gémeaux",
+      "type": "complementaire",
+      "titre": "Axe Sagittaire–Gémeaux",
+      "texte": "Le Sagittaire cherche le sens global, les Gémeaux circulent entre les faits et les informations. C'est un axe puissant de complémentarité entre horizon et détail, synthèse et multiplicité, conviction et curiosité.",
+      "forces": ["Complémentarité entre vision d'ensemble et sens du détail", "Goût partagé du savoir et de l'apprentissage", "Mouvement et stimulation intellectuelle mutuelle"],
+      "frictions": ["Le Sagittaire peut sembler trop affirmatif et dogmatique", "Les Gémeaux peuvent sembler trop dispersés et superficiels", "Conflit entre conviction profonde et relativité permanente"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "variable",
+      "titre": "Horizon et refuge",
+      "texte": "Le Sagittaire cherche l'espace et le sens ; le Cancer cherche la sécurité et l'intimité. Le lien peut enrichir les deux mondes, mais demande une vraie compréhension mutuelle et un respect profond des besoins de chacun.",
+      "forces": ["L'un ouvre les horizons, l'autre protège le foyer", "Possibilité de croissance affective profonde", "Complémentarité entre aventure et attachement"],
+      "frictions": ["Le Sagittaire peut sembler trop libre ou trop direct", "Le Cancer peut sembler trop prudent ou trop attaché", "Différence fondamentale entre besoin d'espace et besoin de sécurité"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Lion",
+      "type": "fluide",
+      "titre": "Feu royal et feu de l'horizon",
+      "texte": "Le Lion et le Sagittaire partagent la chaleur, l'enthousiasme, la créativité et le goût du vivant. Le lien peut être inspirant, joyeux, très généreux et porté par une dynamique expansive commune.",
+      "forces": ["Joie et énergie partagées", "Confiance et optimisme réciproques", "Générosité sans compter de part et d'autre", "Élan commun vers la grandeur"],
+      "frictions": ["Excès et démesure des deux côtés", "Besoin de centralité du Lion face au besoin de mouvement du Sagittaire", "Tendance commune à vivre grand sans mesure"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Vierge",
+      "type": "delicate",
+      "titre": "Vision et précision",
+      "texte": "Le Sagittaire pense grand, la Vierge vérifie chaque détail. Le lien peut être très constructif s'ils acceptent que la vérité a besoin à la fois d'horizon et de rigueur, de vision et de méthode.",
+      "forces": ["L'un donne le sens, l'autre la méthode", "Possibilité de construire une pensée plus complète", "Complémentarité entre expansion et discernement"],
+      "frictions": ["La Vierge trouve le Sagittaire trop large et trop imprécis", "Le Sagittaire trouve la Vierge trop limitée et trop critique", "Conflit entre vision d'ensemble et minutie du détail"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Balance",
+      "type": "fluide",
+      "titre": "Ouverture et relation",
+      "texte": "Le Sagittaire apporte l'élan et la franchise, la Balance apporte l'harmonie et l'intelligence du lien. Le rapport peut être agréable, ouvert, vivant et porté par un goût commun de la beauté et de la sociabilité.",
+      "forces": ["Dialogue facile et ouverture réciproque", "Goût partagé du lien et de la sociabilité", "Capacité à avancer ensemble dans l'harmonie"],
+      "frictions": ["Le Sagittaire peut sembler trop direct ou trop brusque", "La Balance peut sembler trop prudente ou trop nuancée", "Conflit entre vérité franche et diplomatie mesurée"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpion",
+      "type": "intense",
+      "titre": "Profondeur et horizon",
+      "texte": "Le Scorpion plonge dans les profondeurs, le Sagittaire élargit vers les horizons. Le lien peut être transformateur et fécond, mais aussi très difficile si chacun veut imposer sa manière de chercher la vérité.",
+      "forces": ["Quête commune de vérité et d'authenticité", "Intensité et profondeur du lien", "Capacité mutuelle de transformation", "Sincérité brute des deux côtés"],
+      "frictions": ["Le Scorpion peut sembler trop intense ou contrôlant", "Le Sagittaire peut sembler trop naïf ou trop rapide", "Conflit entre profondeur fermée et horizon ouvert"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittaire",
+      "type": "fluide",
+      "titre": "Horizon partagé",
+      "texte": "Deux Sagittaires se comprennent dans leur besoin de liberté, de vérité, de mouvement et d'enthousiasme. Le lien peut être joyeux, vivant, très ouvert et porté par une énergie expansive commune.",
+      "forces": ["Optimisme et joie de vivre partagés", "Ouverture et tolérance mutuelles", "Mouvement et aventure permanents", "Vision partagée du monde"],
+      "frictions": ["Excès d'optimisme et manque de réalisme", "Difficulté à se poser et à construire dans la durée", "Promesses trop grandes de part et d'autre", "Manque de cadre et de structure"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorne",
+      "type": "variable",
+      "titre": "Vision et construction",
+      "texte": "Le Sagittaire veut ouvrir l'horizon, le Capricorne veut bâtir dans le temps. Le lien peut être fort et productif s'il accepte de relier l'enthousiasme à la responsabilité, la vision à la stratégie.",
+      "forces": ["L'un inspire et entraîne, l'autre structure et construit", "Complémentarité entre vision et stratégie à long terme", "Capacité à accomplir quelque chose de solide et de durable"],
+      "frictions": ["Le Capricorne peut sembler trop fermé ou austère", "Le Sagittaire peut sembler trop imprévisible ou trop large", "Conflit entre expansion et contrôle"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Verseau",
+      "type": "fluide",
+      "titre": "Ouverture et liberté",
+      "texte": "Le Sagittaire et le Verseau partagent le goût de l'espace, de l'idée, du mouvement et d'une certaine indépendance fondamentale. Le lien peut être très stimulant intellectuellement et humainement.",
+      "forces": ["Liberté et indépendance partagées", "Ouverture d'esprit et tolérance mutuelles", "Stimulation intellectuelle permanente", "Vision d'avenir et goût de l'innovation"],
+      "frictions": ["Distance émotionnelle possible du côté Verseau", "Instabilité et manque d'ancrage commun", "Difficulté à s'ancrer dans un cadre affectif durable"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Poissons",
+      "type": "stimulante",
+      "titre": "Sens, foi et imaginaire",
+      "texte": "Le Sagittaire cherche une vérité à l'horizon, les Poissons ressentent une vérité diffuse et profonde. Le lien peut être spirituel, inspirant et subtil, mais aussi flou et déstabilisant si les deux ne trouvent pas un terrain commun.",
+      "forces": ["Inspiration et ouverture intérieure partagées", "Sensibilité commune au mystère et au sens", "Capacité à élever le lien vers le spirituel", "Compassion et générosité mutuelles"],
+      "frictions": ["Le Sagittaire peut trouver les Poissons trop flous et insaisissables", "Les Poissons peuvent trouver le Sagittaire trop affirmatif et trop sûr de lui", "Conflit entre conviction ferme et dissolution des certitudes"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si votre ascendant est Sagittaire, vous entrez dans la vie avec ouverture, franchise, besoin d'espace et désir d'aller vers un horizon plus large. Même si votre Soleil est dans un autre signe, votre manière spontanée d'agir, de vous présenter et de réagir porte une tonalité expansive, vivante et mobile. Vous abordez les situations avec enthousiasme et cherchez spontanément une perspective plus grande.",
+    "apparence": [
+      "Présence ouverte et dynamique qui inspire confiance",
+      "Allure mobile, directe ou ample avec une impression de liberté",
+      "Regard vivant, tourné vers l'extérieur et l'horizon",
+      "Corps ou maintien évoquant l'élan, la projection et le mouvement"
     ],
-    "rapportTypique": [
-      "Peut dépenser pour voyager, apprendre, découvrir ou vivre plus grand",
-      "Peut gagner lorsqu’il suit une vision claire et porteuse",
-      "A souvent besoin de sentir que l’argent sert un projet plus vaste que la simple accumulation",
-      "Doit apprendre à allier optimisme et discipline"
+    "temperament": [
+      "Réagit avec spontanéité et franchise naturelle",
+      "A besoin d'espace et de mouvement pour bien vivre",
+      "Entre dans les situations avec enthousiasme et optimisme",
+      "Supporte mal les cadres trop serrés et cherche toujours la perspective plus grande"
+    ],
+    "vigilances": [
+      "Excès d'optimisme qui peut aveugler",
+      "Impatience face à la lenteur et aux contraintes",
+      "Tendance à fuir l'étroitesse ou les obligations trop lourdes",
+      "Difficulté à se poser durablement dans un lieu ou un lien",
+      "Risque de promettre plus que ce qui sera tenu dans la durée"
     ]
   },
   "etoilesFixes": [
     {
       "nom": "Antarès",
       "nature": "Mars / Jupiter",
-      "motsCles": ["Intensité", "Grandeur", "Élan", "Vision guerrière"],
-      "description": "Antarès est l’une des grandes étoiles royales de la tradition astrologique. Dans une lecture symbolique du Sagittaire, elle renforce l’idée d’une quête puissante, d’un désir d’aller loin, d’une intensité orientée vers un but et d’un rapport courageux à l’horizon."
+      "texte": "Antarès est l'une des grandes étoiles royales de la tradition astrologique. Dans le Sagittaire, elle renforce l'idée d'une quête puissante, d'un désir d'aller loin, d'une intensité orientée vers un but et d'un rapport courageux à l'horizon. Elle promet la grandeur à condition de ne pas se laisser consumer par l'excès.",
+      "motsCles": ["Intensité", "Grandeur", "Élan", "Vision guerrière"]
     },
     {
       "nom": "Rasalhague",
       "nature": "Saturne / Vénus",
-      "motsCles": ["Recherche", "Savoir", "Quête", "Noblesse intérieure"],
-      "description": "Rasalhague ajoute une note de noblesse intellectuelle, de curiosité élevée et de recherche de sens. Elle s’accorde bien avec la dimension philosophique et exploratrice du Sagittaire."
+      "texte": "Rasalhague ajoute une note de noblesse intellectuelle, de curiosité élevée et de recherche de sens. Elle s'accorde bien avec la dimension philosophique et exploratrice du Sagittaire, évoquant la quête d'un savoir qui ennoblit l'âme.",
+      "motsCles": ["Recherche", "Savoir", "Quête", "Noblesse intérieure"]
     }
   ],
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Sagittaire s’exprime par l’expansion, la recherche de sens, l’enthousiasme et la vision. Le principe de la planète devient plus orienté vers l’avenir, l’exploration et la compréhension globale. Cela favorise l’ouverture, l’optimisme et l’élargissement de perspective, mais peut aussi conduire à l’excès ou à la dispersion si l’énergie manque d’ancrage.",
-    "motsCles": [
-      "Expansion",
-      "Sens",
-      "Horizon",
-      "Vision",
-      "Exploration",
-      "Foi"
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Turquoise", "motsCles": ["voyage", "protection", "ouverture", "confiance"] },
+      { "nom": "Améthyste", "motsCles": ["sagesse", "vision", "spiritualité", "hauteur"] },
+      { "nom": "Étain", "motsCles": ["jupiter", "expansion", "croissance", "protection"] }
     ],
-    "planetes": {
-      "soleil": {
-        "tonalite": "Le Soleil en Sagittaire construit une identité tournée vers l’idéal, le mouvement, la connaissance et l’ouverture. Il a besoin d’horizon pour se sentir pleinement vivant.",
-        "forces": [
-          "Optimisme",
-          "Vision globale",
-          "Sincérité",
-          "Élan naturel vers l’expansion"
-        ],
-        "defis": [
-          "Excès",
-          "Impatience",
-          "Difficulté à se limiter",
-          "Tendance à croire trop vite à une vérité"
-        ],
-        "enAmour": [
-          "A besoin de liberté et de sincérité",
-          "Cherche un amour qui ouvre et fait grandir"
-        ],
-        "auTravail": [
-          "Très fort dans les univers porteurs de sens, de transmission ou d’exploration",
-          "A besoin de perspective"
-        ],
-        "avecArgent": [
-          "Peut penser grand",
-          "Doit apprendre à cadrer ses élans"
-        ]
-      },
-      "lune": {
-        "tonalite": "La Lune en Sagittaire vit les émotions avec besoin d’espace, d’élan, de confiance et de souffle. Elle se régule par le mouvement, la perspective et l’ouverture.",
-        "forces": [
-          "Chaleur émotionnelle",
-          "Capacité à rebondir",
-          "Besoin sain d’air et d’espace",
-          "Confiance affective dans le mouvement"
-        ],
-        "defis": [
-          "Fuite possible des émotions trop lourdes",
-          "Difficulté à rester dans une douleur sans la dépasser trop vite",
-          "Besoin de liberté parfois mal compris"
-        ],
-        "enAmour": [
-          "A besoin de respirer dans le lien",
-          "Cherche de la joie, de la sincérité et de l’élan"
-        ],
-        "auTravail": [
-          "Travaille mieux dans des contextes ouverts et évolutifs",
-          "Supporte mal l’étouffement émotionnel"
-        ],
-        "avecArgent": [
-          "Peut dépenser pour se sentir libre ou mieux respirer",
-          "A besoin d’éviter les décisions prises dans l’euphorie"
-        ]
-      },
-      "mercure": {
-        "tonalite": "Mercure en Sagittaire pense large, synthétique, orienté vers la vision d’ensemble. Il aime les grandes idées, les concepts, les perspectives et les formulations franches.",
-        "forces": [
-          "Vision globale",
-          "Capacité de synthèse",
-          "Franc-parler",
-          "Goût du sens"
-        ],
-        "defis": [
-          "Manque de détail",
-          "Tendance à aller trop vite dans les conclusions",
-          "Simplification excessive",
-          "Dogmatisme intellectuel possible"
-        ],
-        "enAmour": [
-          "A besoin de parler vrai",
-          "Cherche un échange stimulant et ouvert"
-        ],
-        "auTravail": [
-          "Très fort pour enseigner, vulgariser, inspirer ou donner une direction",
-          "Aime les idées porteuses"
-        ],
-        "avecArgent": [
-          "Peut penser en grand mais manquer de minutie",
-          "A besoin de relier vision et gestion"
-        ]
-      },
-      "venus": {
-        "tonalite": "Vénus en Sagittaire aime avec enthousiasme, liberté, sincérité et goût de l’aventure. Le plaisir passe par la découverte, la spontanéité et l’ouverture du lien.",
-        "forces": [
-          "Fraîcheur affective",
-          "Enthousiasme amoureux",
-          "Sincérité relationnelle",
-          "Goût du mouvement partagé"
-        ],
-        "defis": [
-          "Difficulté avec l’enfermement",
-          "Besoin de variété ou d’espace mal compris",
-          "Risque de fuir la pesanteur émotionnelle"
-        ],
-        "enAmour": [
-          "A besoin d’un lien vivant et libre",
-          "Cherche une relation qui ouvre des horizons",
-          "Aime les partenaires qui font grandir"
-        ],
-        "auTravail": [
-          "Aime les univers créatifs, ouverts, culturels ou internationaux",
-          "A besoin d’une forme de respiration"
-        ],
-        "avecArgent": [
-          "Peut dépenser pour voyager, sortir, apprendre, découvrir",
-          "A besoin de garder une mesure concrète"
-        ]
-      },
-      "mars": {
-        "tonalite": "Mars en Sagittaire agit avec enthousiasme, énergie expansive et désir de progression. L’action cherche un but, une vision ou un terrain plus vaste.",
-        "forces": [
-          "Dynamisme",
-          "Courage d’exploration",
-          "Action portée par un idéal",
-          "Grande énergie de mouvement"
-        ],
-        "defis": [
-          "Excès",
-          "Impulsivité optimiste",
-          "Difficulté à finir ce qui ne passionne plus",
-          "Tendance à viser trop loin sans étapes intermédiaires"
-        ],
-        "enAmour": [
-          "Aime avec désir, mouvement et spontanéité",
-          "Cherche des liens qui respirent et avancent"
-        ],
-        "auTravail": [
-          "Très fort pour lancer, motiver, explorer, prospecter",
-          "A besoin d’un objectif inspirant"
-        ],
-        "avecArgent": [
-          "Peut prendre des risques pour suivre une vision",
-          "A besoin d’un cadre pour ne pas surestimer ses chances"
-        ]
-      },
-      "jupiter": {
-        "tonalite": "Jupiter en Sagittaire est dans une de ses expressions les plus naturelles : foi, expansion, quête de sens, ouverture et enthousiasme visionnaire.",
-        "forces": [
-          "Grande confiance",
-          "Vision",
-          "Ouverture d’esprit",
-          "Capacité à fédérer autour d’un sens"
-        ],
-        "defis": [
-          "Démesure",
-          "Dogmatisme",
-          "Excès d’optimisme",
-          "Promesses trop larges"
-        ],
-        "enAmour": [
-          "Aime grand, avec générosité et ouverture",
-          "Cherche un lien qui fait grandir"
-        ],
-        "auTravail": [
-          "Très fort pour transmettre, enseigner, guider ou ouvrir des voies",
-          "A besoin d’un projet porteur"
-        ],
-        "avecArgent": [
-          "Peut attirer des ressources par sa vision",
-          "Doit apprendre à mesurer ses élans"
-        ]
-      },
-      "saturne": {
-        "tonalite": "Saturne en Sagittaire structure les croyances, la vision, le rapport au sens et à la transmission. Il oblige à construire une pensée ou une philosophie plus solide.",
-        "forces": [
-          "Maturité dans la vision",
-          "Sérieux philosophique",
-          "Capacité à structurer un savoir",
-          "Responsabilité dans la transmission"
-        ],
-        "defis": [
-          "Rigidité idéologique",
-          "Peur de se tromper dans sa direction",
-          "Tension entre aspiration et réalité"
-        ],
-        "enAmour": [
-          "Aime sérieusement mais a besoin d’un sens partagé",
-          "Cherche un lien qui tienne dans le temps et dans la vision"
-        ],
-        "auTravail": [
-          "Très fort pour enseigner, encadrer ou transmettre avec rigueur",
-          "Aime bâtir une perspective stable"
-        ],
-        "avecArgent": [
-          "Peut apprendre une bonne discipline d’expansion",
-          "Cherche à sécuriser la croissance"
-        ]
-      },
-      "uranus": {
-        "tonalite": "Uranus en Sagittaire ouvre des ruptures de croyances, des élans soudains vers d’autres horizons et une liberté forte dans la pensée ou le mode de vie.",
-        "forces": [
-          "Esprit libre",
-          "Vision novatrice",
-          "Capacité à rompre avec les cadres idéologiques étroits",
-          "Ouverture imprévisible"
-        ],
-        "defis": [
-          "Instabilité doctrinale",
-          "Ruptures brusques de direction",
-          "Besoin excessif de liberté"
-        ],
-        "enAmour": [
-          "A besoin d’espace, de sincérité et d’évolution",
-          "Peut rejeter les formes relationnelles trop limitantes"
-        ],
-        "auTravail": [
-          "Très bon dans les contextes de rupture, d’innovation, d’international ou de pédagogie nouvelle",
-          "Aime ouvrir de nouveaux terrains"
-        ],
-        "avecArgent": [
-          "Peut changer brutalement de stratégie",
-          "Suit souvent l’élan d’une vision"
-        ]
-      },
-      "neptune": {
-        "tonalite": "Neptune en Sagittaire cherche un idéal spirituel, philosophique ou mystique. Il donne une inspiration ample, une foi imagée et une attirance pour le sens vaste des choses.",
-        "forces": [
-          "Inspiration spirituelle",
-          "Ouverture symbolique",
-          "Intuition du sens",
-          "Imagination philosophique"
-        ],
-        "defis": [
-          "Idéalisation excessive des croyances",
-          "Confusion entre foi et illusion",
-          "Tendance à suivre un rêve trop vague"
-        ],
-        "enAmour": [
-          "Peut idéaliser un amour inspirant, libre et lumineux",
-          "Cherche une relation qui élève"
-        ],
-        "auTravail": [
-          "Très inspiré dans les univers symboliques, spirituels, artistiques ou éducatifs",
-          "A besoin d’un sens plus vaste"
-        ],
-        "avecArgent": [
-          "Peut dépenser au nom d’un idéal ou d’un rêve",
-          "Doit garder une clarté concrète"
-        ]
-      },
-      "pluton": {
-        "tonalite": "Pluton en Sagittaire transforme profondément le rapport aux croyances, à la vérité, aux systèmes de pensée et à la quête de sens. Il pousse à mourir à certaines certitudes pour trouver une vision plus vraie.",
-        "forces": [
-          "Puissance de conviction",
-          "Capacité à transformer une vision du monde",
-          "Force intérieure dans la quête",
-          "Intensité philosophique"
-        ],
-        "defis": [
-          "Fanatisme ou rigidité idéologique",
-          "Rapports de pouvoir liés à la vérité",
-          "Besoin d’imposer sa vision"
-        ],
-        "enAmour": [
-          "Veut un lien qui transforme et élargit",
-          "Peut vivre la relation comme une aventure de sens"
-        ],
-        "auTravail": [
-          "Très fort pour faire évoluer des systèmes de pensée ou de transmission",
-          "Travaille en profondeur sur la vision"
-        ],
-        "avecArgent": [
-          "Peut lier argent, pouvoir et expansion",
-          "Traverse souvent des cycles forts autour des croyances matérielles"
-        ]
-      }
-    }
+    "vegetaux": [
+      { "nom": "Sauge", "motsCles": ["sagesse", "clarté", "souffle", "vision"] },
+      { "nom": "Cèdre", "motsCles": ["hauteur", "élévation", "vision", "noblesse"] },
+      { "nom": "Menthe", "motsCles": ["mouvement", "fraîcheur", "élan", "ouverture"] }
+    ],
+    "animaux": [
+      { "nom": "Cheval", "motsCles": ["liberté", "élan", "mouvement", "puissance"] },
+      { "nom": "Centaure", "motsCles": ["quête", "instinct", "vision", "élévation"] },
+      { "nom": "Aigle", "motsCles": ["vision", "hauteur", "noblesse", "horizon"] }
+    ]
   },
-  "dansUnTheme": [
-    "Le Sagittaire indique un domaine où l’on cherche à grandir, comprendre et élargir son horizon.",
-    "Il montre aussi où l’on apprend à transformer l’enthousiasme en sagesse.",
-    "Selon la maison et les aspects, il peut montrer un secteur de vie où l’on voyage, enseigne, explore, transmet ou cherche une vérité plus vaste."
+  "geographie": [
+    { "pays": "Espagne", "texte": "Associée au Sagittaire pour son élan, son feu intérieur, son expansion historique et une culture du panache et de l'horizon." },
+    { "pays": "Australie", "texte": "Reliée au Sagittaire par ses grands espaces, son esprit d'aventure et sa jeunesse de caractère en tant que nation." },
+    { "pays": "Hongrie", "texte": "Citée dans les traditions classiques pour son tempérament passionné et son histoire marquée par la quête de liberté." },
+    { "pays": "Afrique du Sud", "texte": "Associée au Sagittaire dans les correspondances traditionnelles, évoquant les grands espaces, l'aventure et la transformation." }
   ],
-  "relationsAuxAutresSignes": [
-    {
-      "sign": "belier",
-      "level": "fluide",
-      "title": "Feu et mouvement",
-      "summary": "Le Sagittaire et le Bélier partagent l’élan, l’enthousiasme et la franchise. Le lien peut être vif, motivant et très vivant.",
-      "pointsFortes": [
-        "Action",
-        "Sincérité",
-        "Dynamique",
-        "Goût du mouvement"
-      ],
-      "pointsDeTension": [
-        "Impatience",
-        "Excès",
-        "Manque d’ancrage"
-      ]
-    },
-    {
-      "sign": "taureau",
-      "level": "variable",
-      "title": "Horizon et ancrage",
-      "summary": "Le Sagittaire veut ouvrir, le Taureau veut stabiliser. Le rapport peut être enrichissant si chacun respecte le rythme et le besoin de l’autre.",
-      "pointsFortes": [
-        "L’un apporte la vision, l’autre la stabilité",
-        "Possibilité de croissance concrète",
-        "Complémentarité entre élan et ancrage"
-      ],
-      "pointsDeTension": [
-        "Le Sagittaire peut trouver le Taureau trop fixe",
-        "Le Taureau peut trouver le Sagittaire trop mobile",
-        "Conflit entre liberté et sécurité"
-      ]
-    },
-    {
-      "sign": "gemeaux",
-      "level": "complementaire",
-      "title": "Axe Sagittaire–Gémeaux",
-      "summary": "Le Sagittaire cherche le sens global, les Gémeaux circulent entre les faits. C’est un axe puissant entre horizon et information, synthèse et multiplicité.",
-      "pointsFortes": [
-        "Complémentarité entre détail et vision",
-        "Goût du savoir",
-        "Mouvement",
-        "Stimulation mutuelle"
-      ],
-      "pointsDeTension": [
-        "Le Sagittaire peut sembler trop affirmatif",
-        "Les Gémeaux peuvent sembler trop dispersés",
-        "Conflit entre conviction et relativité"
-      ]
-    },
-    {
-      "sign": "cancer",
-      "level": "variable",
-      "title": "Horizon et refuge",
-      "summary": "Le Sagittaire cherche l’espace et le sens ; le Cancer cherche la sécurité et l’intimité. Le lien peut enrichir les deux mondes, mais demande une vraie compréhension mutuelle.",
-      "pointsFortes": [
-        "L’un ouvre, l’autre protège",
-        "Possibilité de croissance affective",
-        "Complémentarité entre aventure et attachement"
-      ],
-      "pointsDeTension": [
-        "Le Sagittaire peut sembler trop libre ou trop direct",
-        "Le Cancer peut sembler trop prudent ou trop attaché",
-        "Différence entre besoin d’espace et besoin de sécurité"
-      ]
-    },
-    {
-      "sign": "lion",
-      "level": "fluide",
-      "title": "Feu royal et feu de l’horizon",
-      "summary": "Le Lion et le Sagittaire partagent chaleur, enthousiasme, créativité et goût du vivant. Le lien peut être inspirant, joyeux et très généreux.",
-      "pointsFortes": [
-        "Joie",
-        "Confiance",
-        "Générosité",
-        "Élan commun"
-      ],
-      "pointsDeTension": [
-        "Excès",
-        "Besoin de centralité du Lion face au besoin de mouvement du Sagittaire",
-        "Tendance à vivre grand sans mesure"
-      ]
-    },
-    {
-      "sign": "vierge",
-      "level": "delicate",
-      "title": "Vision et précision",
-      "summary": "Le Sagittaire pense grand, la Vierge vérifie. Le lien peut être très utile s’il accepte que la vérité a besoin à la fois d’horizon et de détail.",
-      "pointsFortes": [
-        "L’un donne le sens, l’autre la méthode",
-        "Possibilité de construire une pensée plus complète",
-        "Complémentarité entre expansion et discernement"
-      ],
-      "pointsDeTension": [
-        "La Vierge peut trouver le Sagittaire trop large ou trop imprécis",
-        "Le Sagittaire peut trouver la Vierge trop limitée ou critique",
-        "Conflit entre vision et minutie"
-      ]
-    },
-    {
-      "sign": "balance",
-      "level": "fluide",
-      "title": "Ouverture et relation",
-      "summary": "Le Sagittaire apporte l’élan et la franchise ; la Balance apporte l’harmonie et l’intelligence du lien. Le rapport peut être agréable, ouvert et vivant.",
-      "pointsFortes": [
-        "Dialogue",
-        "Ouverture",
-        "Goût du lien",
-        "Capacité à avancer ensemble"
-      ],
-      "pointsDeTension": [
-        "Le Sagittaire peut sembler trop direct",
-        "La Balance peut sembler trop prudente ou trop nuancée",
-        "Conflit entre vérité franche et diplomatie"
-      ]
-    },
-    {
-      "sign": "scorpion",
-      "level": "intense",
-      "title": "Profondeur et horizon",
-      "summary": "Le Scorpion plonge, le Sagittaire élargit. Le lien peut être transformateur, puissant et fécond, mais aussi difficile si chacun veut imposer sa manière de chercher la vérité.",
-      "pointsFortes": [
-        "Quête de vérité",
-        "Intensité",
-        "Capacité de transformation",
-        "Profondeur du lien"
-      ],
-      "pointsDeTension": [
-        "Le Scorpion peut sembler trop intense ou contrôlant",
-        "Le Sagittaire peut sembler trop libre ou trop rapide",
-        "Conflit entre profondeur fermée et horizon ouvert"
-      ]
-    },
-    {
-      "sign": "sagittaire",
-      "level": "fluide",
-      "title": "Horizon partagé",
-      "summary": "Deux Sagittaires peuvent se comprendre dans leur besoin de liberté, de vérité, de mouvement et d’enthousiasme. Le lien peut être joyeux, vivant et très ouvert.",
-      "pointsFortes": [
-        "Optimisme",
-        "Ouverture",
-        "Mouvement",
-        "Vision partagée"
-      ],
-      "pointsDeTension": [
-        "Excès",
-        "Difficulté à se poser",
-        "Promesses trop grandes",
-        "Manque de cadre"
-      ]
-    },
-    {
-      "sign": "capricorne",
-      "level": "variable",
-      "title": "Vision et construction",
-      "summary": "Le Sagittaire veut ouvrir l’horizon ; le Capricorne veut bâtir dans le temps. Le lien peut être fort s’il accepte de relier enthousiasme et responsabilité.",
-      "pointsFortes": [
-        "L’un inspire, l’autre structure",
-        "Complémentarité entre vision et stratégie",
-        "Capacité à accomplir quelque chose de solide"
-      ],
-      "pointsDeTension": [
-        "Le Capricorne peut sembler trop fermé ou austère",
-        "Le Sagittaire peut sembler trop imprévisible ou trop large",
-        "Conflit entre expansion et contrôle"
-      ]
-    },
-    {
-      "sign": "verseau",
-      "level": "fluide",
-      "title": "Ouverture et liberté",
-      "summary": "Le Sagittaire et le Verseau partagent le goût de l’espace, de l’idée, du mouvement et d’une certaine indépendance. Le lien peut être très stimulant.",
-      "pointsFortes": [
-        "Liberté",
-        "Ouverture d’esprit",
-        "Stimulation",
-        "Vision d’avenir"
-      ],
-      "pointsDeTension": [
-        "Distance émotionnelle possible",
-        "Instabilité",
-        "Difficulté à s’ancrer dans un cadre commun"
-      ]
-    },
-    {
-      "sign": "poissons",
-      "level": "stimulante",
-      "title": "Sens, foi et imaginaire",
-      "summary": "Le Sagittaire cherche une vérité à l’horizon ; les Poissons ressentent une vérité diffuse et profonde. Le lien peut être spirituel, inspirant et subtil, mais aussi flou.",
-      "pointsFortes": [
-        "Inspiration",
-        "Ouverture intérieure",
-        "Sensibilité au mystère et au sens",
-        "Capacité à élever le lien"
-      ],
-      "pointsDeTension": [
-        "Le Sagittaire peut trouver les Poissons trop flous",
-        "Les Poissons peuvent trouver le Sagittaire trop affirmatif",
-        "Conflit entre conviction et dissolution"
-      ]
-    }
-  ],
-  "paysAssocies": [
-    {
-      "pays": "Espagne",
-      "niveau": "traditionnel",
-      "justification": "Dans certaines traditions de géographie astrologique, l’Espagne est associée au Sagittaire pour des raisons symboliques liées à l’élan, au feu, à l’expansion, au mouvement et à une culture du panache ou de l’horizon."
-    },
-    {
-      "pays": "Australie",
-      "niveau": "traditionnel",
-      "justification": "L’Australie apparaît dans plusieurs listes traditionnelles de correspondances astrologiques liées au Sagittaire. Il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
-    },
-    {
-      "pays": "Hongrie",
-      "niveau": "traditionnel",
-      "justification": "La Hongrie figure dans certaines listes classiques de géographie astrologique associées au Sagittaire. Cette correspondance relève d’une tradition symbolique, non d’une certitude objective."
-    },
-    {
-      "pays": "Afrique du Sud",
-      "niveau": "traditionnel",
-      "justification": "L’Afrique du Sud est parfois citée parmi les pays associés au Sagittaire dans les traditions astrologiques classiques, dans une logique de correspondance symbolique."
-    },
-    {
-      "pays": "Arabie",
-      "niveau": "traditionnel",
-      "justification": "L’Arabie figure dans certaines listes anciennes ou traditionnelles de pays associés au Sagittaire, avec une lecture purement symbolique."
-    },
-    {
-      "pays": "Yougoslavie",
-      "niveau": "traditionnel",
-      "justification": "La Yougoslavie apparaît également dans certaines listes traditionnelles de correspondances astrologiques liées au Sagittaire. Il s’agit d’un repère classique de géographie astrologique."
-    }
+  "figuresCelebres": [
+    { "nom": "Brad Pitt", "domaine": "Cinéma", "date": "18 décembre 1963", "texte": "Incarne l'ouverture, la mobilité et la présence expansive du Sagittaire à travers une carrière marquée par la diversité des rôles." },
+    { "nom": "Taylor Swift", "domaine": "Musique", "date": "13 décembre 1989", "texte": "Illustre la capacité de projection, de narration et d'expansion créative typique du Sagittaire." },
+    { "nom": "Britney Spears", "domaine": "Musique", "date": "2 décembre 1981", "texte": "Incarne l'énergie vive, mobile et fortement visible du Sagittaire avec ses hauts et ses bas caractéristiques." },
+    { "nom": "Miley Cyrus", "domaine": "Musique", "date": "23 novembre 1992", "texte": "Illustre le besoin de liberté, d'expression et de mouvement perpétuel du Sagittaire." }
   ],
   "faq": [
     {
       "question": "Quel est le caractère du Sagittaire ?",
-      "answer": "Le Sagittaire a un tempérament enthousiaste, franc, expansif et tourné vers l’horizon. Il aime comprendre, explorer, apprendre et grandir, mais doit veiller à ne pas se disperser, exagérer ou transformer sa vision en certitude rigide."
+      "reponse": "Le Sagittaire se caractérise par l'enthousiasme, la franchise, l'optimisme et une quête permanente de sens et d'horizon. C'est un tempérament chaleureux, généreux, jovial et serviable, doté d'un sens aigu de l'organisation et d'une intuition remarquable. Il aime l'indépendance, le mouvement et les grands espaces, mais peut être excessif, impatient et susceptible pour les questions de prestige."
     },
     {
-      "question": "Quel type d’amoureuse ou d’amoureux est le Sagittaire ?",
-      "answer": "Le Sagittaire aime avec sincérité, élan, mouvement et besoin de liberté. Il cherche souvent une relation vivante, inspirante et ouverte, mais doit apprendre à conjuguer enthousiasme et engagement concret."
+      "question": "Quel type d'amoureuse ou d'amoureux est le Sagittaire ?",
+      "reponse": "Enthousiaste, sincère, franc et porté par le mouvement. Le Sagittaire aime avec chaleur et besoin d'horizon : il cherche une relation qui ouvre, inspire et respire. Porté aux coups de foudre et aux emballements, il reste néanmoins respectueux des usages et aspire à l'union légale quand il a trouvé l'âme sœur. Il supporte mal les liens trop possessifs ou trop fermés."
     },
     {
       "question": "Quel type de travailleur est le Sagittaire ?",
-      "answer": "Le Sagittaire est souvent très bon dans les métiers où il faut transmettre, ouvrir, enseigner, explorer, voyager, motiver ou donner du sens. Il excelle lorsqu’il peut porter une vision et avancer vers un horizon plus vaste."
+      "reponse": "Un organisateur, un visionnaire et un fédérateur. Le Sagittaire excelle quand il peut avancer vers un objectif porteur de sens, transmettre une vision, apprendre ou élargir un champ. Il est doué pour la direction, l'administration, la diplomatie, l'enseignement et le commerce international. Il supporte mal la routine et les environnements confinés."
     },
     {
       "question": "Quelle maison correspond au Sagittaire ?",
-      "answer": "Le Sagittaire est naturellement relié à la maison IX, celle du sens, de la philosophie, des études supérieures, des voyages lointains, des croyances et de l’expansion de conscience."
-    }
-  ],
-  "pierresEtMetaux": [
-    {
-      "nom": "Turquoise",
-      "type": "pierre",
-      "description": "La turquoise évoque le voyage, la protection, l’ouverture, la confiance et l’élargissement de l’horizon. Elle s’accorde bien avec la tonalité expansive du Sagittaire.",
-      "motsCles": ["voyage", "protection", "ouverture", "confiance"]
-    },
-    {
-      "nom": "Améthyste",
-      "type": "pierre",
-      "description": "L’améthyste renvoie à une recherche de hauteur, de clarté intérieure, de sagesse et de sens, en cohérence avec la dimension philosophique et spirituelle du Sagittaire.",
-      "motsCles": ["sagesse", "vision", "spiritualité", "hauteur"]
-    },
-    {
-      "nom": "Étain",
-      "type": "métal",
-      "description": "L’étain est traditionnellement lié à Jupiter : expansion, protection, croissance, ampleur et confiance dans l’ouverture du possible.",
-      "motsCles": ["jupiter", "expansion", "croissance", "protection"]
-    }
-  ],
-  "plantes": [
-    {
-      "nom": "Sauge",
-      "type": "plante",
-      "description": "La sauge évoque la sagesse, la clarté, le souffle et une forme de discernement élevé, en affinité avec le Sagittaire lorsqu’il cherche le sens juste.",
-      "usagesSymboliques": ["sagesse", "clarté", "souffle", "vision"]
-    },
-    {
-      "nom": "Cèdre",
-      "type": "arbre",
-      "description": "Le cèdre renvoie à la hauteur, à l’élévation, à la tenue et à la vision qui s’inscrit dans le temps. Il convient bien au Sagittaire dans sa dimension noble et orientée vers l’horizon.",
-      "usagesSymboliques": ["hauteur", "élévation", "vision", "noblesse"]
-    },
-    {
-      "nom": "Menthe",
-      "type": "plante",
-      "description": "La menthe apporte une symbolique de fraîcheur, de mouvement, de vivacité et d’air qui accompagne bien le besoin sagittaire de circulation et d’ouverture.",
-      "usagesSymboliques": ["mouvement", "fraîcheur", "élan", "ouverture"]
-    }
-  ],
-  "animaux": [
-    {
-      "nom": "Cheval",
-      "type": "animal-symbolique",
-      "description": "Le cheval incarne la liberté, l’élan, le mouvement, la force vitale et le besoin d’espace. Il correspond naturellement à la tonalité sagittaire.",
-      "motsCles": ["liberté", "élan", "mouvement", "puissance"]
-    },
-    {
-      "nom": "Centaure",
-      "type": "animal-symbolique",
-      "description": "Le centaure réunit l’instinct et la conscience, le corps et la visée, l’élan et la quête. Il exprime parfaitement la dynamique du Sagittaire.",
-      "motsCles": ["quête", "instinct", "vision", "élévation"]
-    },
-    {
-      "nom": "Aigle",
-      "type": "oiseau",
-      "description": "L’aigle apporte une symbolique de hauteur, de vision lointaine, de noblesse et d’élévation de regard, en affinité avec la perspective sagittaire.",
-      "motsCles": ["vision", "hauteur", "noblesse", "horizon"]
-    }
-  ],
-  "ascendant": {
-    "intro": "Si votre ascendant est Sagittaire, cela signifie souvent que vous entrez dans la vie avec ouverture, franchise, besoin d’espace et désir d’aller vers un horizon plus large. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité expansive, vivante et mobile.",
-    "apparence": [
-      "Présence ouverte et dynamique",
-      "Allure mobile, directe ou ample",
-      "Regard vivant, tourné vers l’extérieur",
-      "Impression de liberté, de mouvement ou de souffle",
-      "Corps ou maintien pouvant évoquer l’élan et la projection"
-    ],
-    "temperament": [
-      "Réagit avec spontanéité et franchise",
-      "A besoin d’espace pour bien vivre",
-      "Entre souvent dans les situations avec enthousiasme",
-      "Supporte mal les cadres trop serrés",
-      "Cherche spontanément une perspective plus grande"
-    ],
-    "enRelation": [
-      "Donne une impression d’ouverture et de sincérité",
-      "Peut paraître libre, enthousiaste, direct ou difficile à enfermer",
-      "Cherche des rapports vivants et inspirants",
-      "Aime que le lien laisse respirer"
-    ],
-    "pointsDeVigilance": [
-      "Excès d’optimisme",
-      "Impatience",
-      "Tendance à fuir l’étroitesse ou les contraintes",
-      "Difficulté à se poser durablement",
-      "Risque de promettre plus que ce qui sera tenu"
-    ]
-  },
-  "signeDominant": {
-    "intro": "Si le Sagittaire est dominant dans un thème, cela signifie souvent que la personne aborde la vie avec un fort besoin de sens, d’ouverture, de croissance, de vision et de liberté. Elle se construit à travers l’exploration, l’apprentissage, la transmission et la quête d’un horizon plus vaste.",
-    "forces": [
-      "Optimisme",
-      "Vision",
-      "Ouverture",
-      "Sincérité",
-      "Capacité à inspirer"
-    ],
-    "vigilances": [
-      "Excès",
-      "Dispersion",
-      "Dogmatisme",
-      "Difficulté à tenir dans la contrainte",
-      "Tendance à confondre élan et vérité"
-    ],
-    "dansLaVie": [
-      "La personne a souvent besoin de grandir, d’apprendre et d’aller plus loin",
-      "Elle cherche un sens à ce qu’elle vit",
-      "Elle supporte mal l’enfermement ou les horizons trop courts",
-      "Elle peut être très motivante lorsqu’elle croit à quelque chose"
-    ],
-    "enAmour": [
-      "Elle aime souvent avec enthousiasme, sincérité et besoin d’espace",
-      "Elle cherche un lien qui ouvre et inspire",
-      "Elle supporte mal les relations trop fermées ou trop pesantes"
-    ],
-    "auTravail": [
-      "Elle excelle souvent dans les fonctions d’enseignement, d’ouverture, de transmission, de voyage ou de vision",
-      "Elle a besoin d’un projet porteur de sens",
-      "Elle fonctionne mieux quand elle voit loin et grand"
-    ]
-  },
-  "celebrites": [
-    {
-      "nom": "Brad Pitt",
-      "dateNaissance": "18 décembre 1963",
-      "domaine": "Cinéma",
-      "description": "Souvent cité parmi les célébrités Sagittaire, avec une image d’ouverture, de mobilité et de présence expansive."
-    },
-    {
-      "nom": "Taylor Swift",
-      "dateNaissance": "13 décembre 1989",
-      "domaine": "Musique",
-      "description": "Souvent associée à une forte capacité de projection, de narration et d’expansion créative, très cohérente avec le Sagittaire."
-    },
-    {
-      "nom": "Britney Spears",
-      "dateNaissance": "2 décembre 1981",
-      "domaine": "Musique",
-      "description": "Souvent mentionnée parmi les natives Sagittaire, avec une énergie vive, mobile et fortement visible."
-    },
-    {
-      "nom": "Miley Cyrus",
-      "dateNaissance": "23 novembre 1992",
-      "domaine": "Musique",
-      "description": "Souvent citée pour son besoin de liberté, d’expression et de mouvement, très en phase avec la tonalité sagittaire."
+      "reponse": "La Maison IX, celle du sens, de la philosophie, des études supérieures, des voyages lointains et des croyances. Son analogie naturelle avec le Sagittaire souligne la quête d'horizon, la transmission d'une vision et la recherche d'un axe intérieur plus vaste que le quotidien."
     }
   ]
 }

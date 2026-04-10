@@ -1,1322 +1,955 @@
+// app/signes/[slug]/page.tsx
+
+import { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import type { Metadata } from "next";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
-import type { ReactNode } from "react";
+import fs from "fs";
+import path from "path";
+import ScrollReveal from "@/components/ScrollReveal";
 
-// Icônes Professionnelles pour le design Premium
-import {
-  Star,
-  Sparkles,
-  Heart,
-  Zap,
-  Moon,
-  Sun,
-  Compass,
-  Target,
-  Gem,
-  Leaf,
-  User,
-  Briefcase,
-  Coins,
-  HelpCircle,
-  Droplets,
-  Anchor,
-  Activity,
-  Layers,
-  Globe,
-  BookOpen,
-} from "lucide-react";
+// ─── Types ──────────────────────────────────────────────────────────────────
 
-import { elementTheme } from "@/components/sections/zodiaque/Helpers";
-import signesIndex from "@/data/signes/index.json";
-
-// ==========================================
-// 1. TYPAGES
-// ==========================================
-type PlanetKey =
-  | "soleil"
-  | "lune"
-  | "mercure"
-  | "venus"
-  | "mars"
-  | "jupiter"
-  | "saturne"
-  | "uranus"
-  | "neptune"
-  | "pluton";
-type CompatibilityLevel =
-  | "fluide"
-  | "stimulante"
-  | "complementaire"
-  | "intense"
-  | "delicate"
-  | "variable";
-
-interface Sign {
+interface SigneData {
   slug: string;
-  nom?: string;
-  name?: string;
-  element?: string;
-  periode?: string;
-  polarite?: string;
-  mode?: string;
-  maitre?: string;
-  exaltation?: string | null;
-  exil?: string | null;
-  chute?: string | null;
-  motCle?: string;
-  mythologie?: string;
-  analogie?: { animal?: string; objet?: string; fonction?: string };
-  anatomie?: string[];
-  generalites?: string[];
-  caractere?: string[];
-  aptitudesNaturelles?: string[];
-  ceQuIlRegitDansLeMonde?: string[];
-  forces?: string[];
-  ombres?: string[];
-  besoins?: string[];
-  aTravailler?: string[];
-  quandCestEquilibre?: string[];
-  maisonCorrespondante?: {
+  nom: string;
+  sousTitre: string;
+  devise: string;
+  periode: string;
+  element: string;
+  mode: string;
+  maitre: string;
+  exaltation: string;
+  exil: string;
+  chute: string;
+  polarite: string;
+  temperament: string;
+  maisonNaturelle: number;
+  couleur: {
+    primaire: string;
+    secondaire: string;
+    accent: string;
+    gradient: string;
+  };
+  navigation: {
+    precedent: { slug: string; nom: string };
+    suivant: { slug: string; nom: string };
+  };
+  images: {
+    signe: string;
+    planete: string;
+  };
+  introduction: string;
+  fondationsCosmiques: {
+    texte: string;
+    courteAscension: string;
+    pluton: string;
+  };
+  analogies: {
+    animal: string;
+    objet: string;
+    fonction: string;
+    texte: string;
+  };
+  mythologie: {
+    titre: string;
+    texte: string;
+    civilisations: string;
+  };
+  portrait: {
+    temperament: string;
+    forces: string[];
+    ombres: string[];
+    besoinsVitaux: string[];
+    aTravailler: string[];
+    equilibre: string;
+  };
+  sante: {
+    zones: string[];
+    texte: string;
+  };
+  maisons: Array<{
     numero: number;
-    nom: string;
-    resume: string;
-    themes: string[];
-  };
-  amour?: {
-    intro: string;
+    titre: string;
+    texte: string;
+  }>;
+  amour: {
+    texte: string;
     qualites: string[];
     vigilances: string[];
-    compatibleAvec?: string[];
-    attirePar?: string[];
+    affinites: string[];
   };
-  travail?: {
-    intro: string;
-    qualites: string[];
-    vigilances: string[];
-    domainesFavorables?: string[];
+  travail: {
+    texte: string;
+    atouts: string[];
+    defis: string[];
   };
-  argent?: {
-    intro: string;
+  argent: {
+    texte: string;
     forces: string[];
     risques: string[];
-    rapportTypique: string[];
   };
-  planeteDansLeSigne?: { intro?: string; planetes?: Record<PlanetKey, any> };
-  relationsAuxAutresSignes?: {
-    sign: string;
-    level: CompatibilityLevel;
-    title: string;
-    summary: string;
-    pointsFortes?: string[];
-    pointsDeTension?: string[];
-  }[];
-  pierresEtMetaux?: { nom: string; description: string; motsCles?: string[] }[];
-  plantes?: {
+  planetes: Array<{
     nom: string;
+    slug: string;
     description: string;
-    usagesSymboliques?: string[];
-  }[];
-  animaux?: { nom: string; description: string; motsCles?: string[] }[];
-  celebrites?: {
+    manifestations: string[];
+  }>;
+  compatibilites: Array<{
+    signe: string;
     nom: string;
-    dateNaissance?: string;
-    domaine?: string;
-    description?: string;
-  }[];
-  faq?: { question: string; answer: string }[];
-  ascendant?: {
-    intro: string;
-    apparence?: string[];
-    temperament?: string[];
-    enRelation?: string[];
-    pointsDeVigilance?: string[];
-  };
-  signeDominant?: {
-    intro: string;
+    type: string;
+    titre: string;
+    texte: string;
     forces: string[];
+    frictions: string[];
+  }>;
+  ascendant: {
+    texte: string;
+    apparence: string[];
+    temperament: string[];
     vigilances: string[];
-    dansLaVie: string[];
-    enAmour?: string[];
-    auTravail?: string[];
   };
-  dansUnTheme?: string[];
-  etoilesFixes?: {
+  etoilesFixes: Array<{
     nom: string;
-    nature?: string;
-    motsCles?: string[];
-    description: string;
-  }[];
-  paysAssocies?: { pays: string; niveau: string; justification: string }[];
-}
-
-// ==========================================
-// 2. CONSTANTES & HELPERS
-// ==========================================
-const SITE_URL = "https://www.astro-cours.com";
-const SITE_NAME = "Astro Cours";
-const SIGNS = signesIndex as any[];
-
-function normalizeSlug(raw: string) {
-  return decodeURIComponent(raw).trim().toLowerCase();
-}
-function getSignLabel(sign: Sign) {
-  return sign.nom ?? sign.name ?? sign.slug;
-}
-function hasItems<T>(value?: T[] | null): value is T[] {
-  return Array.isArray(value) && value.length > 0;
-}
-
-function humanizePlanetKey(planet: PlanetKey) {
-  const map: Record<PlanetKey, string> = {
-    soleil: "Soleil",
-    lune: "Lune",
-    mercure: "Mercure",
-    venus: "Vénus",
-    mars: "Mars",
-    jupiter: "Jupiter",
-    saturne: "Saturne",
-    uranus: "Uranus",
-    neptune: "Neptune",
-    pluton: "Pluton",
+    nature: string;
+    texte: string;
+    motsCles: string[];
+  }>;
+  correspondances: {
+    mineraux: Array<{ nom: string; motsCles: string[] }>;
+    vegetaux: Array<{ nom: string; motsCles: string[] }>;
+    animaux: Array<{ nom: string; motsCles: string[] }>;
   };
-  return map[planet];
+  geographie: Array<{ pays: string; texte: string }>;
+  figuresCelebres: Array<{
+    nom: string;
+    domaine: string;
+    date: string;
+    texte: string;
+  }>;
+  faq: Array<{ question: string; reponse: string }>;
 }
 
-function getPlanetTheme(planet: PlanetKey) {
-  const themes: Record<string, any> = {
-    soleil: {
-      border: "border-amber-400/30",
-      bg: "bg-amber-400/10",
-      text: "text-amber-400",
-    },
-    lune: {
-      border: "border-slate-300/30",
-      bg: "bg-slate-300/10",
-      text: "text-slate-200",
-    },
-    venus: {
-      border: "border-pink-400/30",
-      bg: "bg-pink-400/10",
-      text: "text-pink-300",
-    },
-    mars: {
-      border: "border-red-500/30",
-      bg: "bg-red-500/10",
-      text: "text-red-400",
-    },
-    jupiter: {
-      border: "border-purple-400/30",
-      bg: "bg-purple-400/10",
-      text: "text-purple-300",
-    },
-  };
-  return (
-    themes[planet] || {
-      border: "border-sky-400/30",
-      bg: "bg-sky-400/10",
-      text: "text-sky-300",
-    }
-  );
-}
+// ─── Data loader ────────────────────────────────────────────────────────────
 
-async function readSignFile(slug: string): Promise<Sign | null> {
+function getSigneData(slug: string): SigneData | null {
   try {
     const filePath = path.join(process.cwd(), "data", "signes", `${slug}.json`);
-    const file = await readFile(filePath, "utf8");
-    return JSON.parse(file) as Sign;
+    const raw = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as SigneData;
   } catch {
     return null;
   }
 }
 
-// ==========================================
-// 3. COMPOSANTS UI PREMIUM
-// ==========================================
-const PremiumCard = ({
-  children,
-  accent,
-  className = "",
-}: {
-  children: ReactNode;
-  accent: any;
-  className?: string;
-}) => (
-  <article
-    className={`relative overflow-hidden rounded-[2.5rem] border ${accent.border} bg-[#0c0c0e]/80 backdrop-blur-2xl p-8 md:p-12 transition-all duration-700 hover:shadow-2xl hover:bg-[#111] focus-within:ring-2 ${accent.ring} ${className}`}
-  >
-    {children}
-  </article>
-);
+function getAllSigneSlugs(): string[] {
+  const dir = path.join(process.cwd(), "data", "signes");
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => f.replace(".json", ""));
+}
 
-const SectionHeader = ({ title, subtitle, icon: Icon, accent, id }: any) => (
-  <header
-    id={id}
-    className="mb-16 mt-32 flex flex-col items-center text-center scroll-mt-28"
-  >
-    {Icon && (
-      <Icon
-        className={`mb-6 h-12 w-12 ${accent.text} opacity-80`}
-        aria-hidden={true}
-      />
-    )}
-    <h2 className="font-serif text-4xl md:text-6xl tracking-tight text-white">
-      {title}
-    </h2>
-    <div
-      aria-hidden={true}
-      className={`mt-8 h-1 w-24 ${accent.dot} rounded-full shadow-[0_0_15px_currentColor]`}
-    />
-    {subtitle && (
-      <p className="mt-8 max-w-3xl text-slate-400 font-light italic text-xl md:text-2xl leading-relaxed">
-        {subtitle}
-      </p>
-    )}
-  </header>
-);
+// ─── Static params (Next.js 16) ────────────────────────────────────────────
 
-const BulletList = ({ title, items, accent, icon: Icon }: any) => (
-  <div className="flex flex-col space-y-6">
-    <div className="flex items-center gap-3 border-b border-white/5 pb-3">
-      {Icon && <Icon className={`h-5 w-5 ${accent.text}`} aria-hidden={true} />}
-      <h3 className="text-[13px] uppercase tracking-[0.3em] text-slate-300 font-bold">
-        {title}
-      </h3>
-    </div>
-    <ul className="space-y-4">
-      {items?.map((item: string, i: number) => (
-        <li
-          key={i}
-          className="text-slate-400 hover:text-slate-300 transition-colors font-light flex items-start gap-4 text-base md:text-lg leading-relaxed"
-        >
-          <span
-            aria-hidden={true}
-            className={`${accent.dot} mt-2.5 h-1.5 w-1.5 rounded-full shrink-0 shadow-[0_0_8px_currentColor]`}
-          />
-          {item}
-        </li>
-      ))}
-    </ul>
-  </div>
-);
+export async function generateStaticParams() {
+  return getAllSigneSlugs().map((slug) => ({ slug }));
+}
 
-const PillList = ({
-  items,
-  accent,
-  soft = false,
-}: {
-  items: string[];
-  accent: any;
-  soft?: boolean;
-}) => (
-  <div className="flex flex-wrap gap-3">
-    {items.map((item, i) => (
-      <span
-        key={i}
-        className={
-          soft
-            ? "px-4 py-2 rounded-xl bg-white/5 border border-white/10 text-sm text-slate-400"
-            : `px-5 py-2 rounded-full border ${accent.border} ${accent.bgSolid} text-sm font-medium ${accent.text}`
-        }
-      >
-        {item}
-      </span>
-    ))}
-  </div>
-);
+// ─── Metadata + SEO ─────────────────────────────────────────────────────────
 
-// ==========================================
-// 4. METADATA & SEO GENERATION
-// ==========================================
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const { slug: raw } = await params;
-  const slug = normalizeSlug(raw);
-  const sign = await readSignFile(slug);
-  if (!sign) return {};
+  const { slug } = await params;
+  const data = getSigneData(slug);
+  if (!data) return {};
 
-  const label = getSignLabel(sign);
+  const title = `${data.nom} — Encyclopédie complète du signe astrologique`;
+  const description = `Tout savoir sur le signe du ${data.nom} : portrait, tempérament, compatibilités, planètes, 12 maisons, mythologie. Guide astrologique de référence.`;
+  const url = `https://www.astro-cours.com/signes/${data.slug}`;
+
   return {
-    title: `${label} : Caractère, Amour et Symbolique Astrologique`,
-    description:
-      sign.generalites?.[0]?.slice(0, 160) ||
-      `Découvrez le portrait complet du signe ${label}. Caractère, amour, travail et correspondances.`,
-    alternates: { canonical: `${SITE_URL}/signes/${slug}` },
+    title,
+    description,
+    keywords: [
+      `signe du ${data.nom}`,
+      `${data.nom} astrologie`,
+      `compatibilité ${data.nom}`,
+      `Ascendant ${data.nom}`,
+      `${data.nom} ${data.element}`,
+      `${data.maitre} astrologie`,
+      `portrait ${data.nom}`,
+      `${data.nom} amour`,
+      `${data.nom} travail`,
+      `thème astral ${data.nom}`,
+    ],
+    alternates: { canonical: url },
     openGraph: {
-      title: `${label} — Signe astrologique complet`,
-      description: `Explorez la personnalité, le karma et la symbolique du signe ${label}.`,
-      images: [`${SITE_URL}/images/zodiaque/${slug}.webp`],
+      type: "article",
+      title,
+      description,
+      url,
+      images: [{ url: data.images.signe, alt: `Signe du ${data.nom}` }],
+      locale: "fr_FR",
+      siteName: "Astro-Cours",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${data.nom} — Premier signe du Zodiaque`,
+      description,
     },
   };
 }
 
-export const dynamicParams = false;
-export async function generateStaticParams() {
-  return SIGNS.map((s) => ({ slug: s.slug }));
-}
+// ─── Compat type styles ─────────────────────────────────────────────────────
 
-// ==========================================
-// 5. COMPOSANT PAGE PRINCIPAL
-// ==========================================
-export default async function SignPage({
+const COMPAT_TYPE_STYLES: Record<string, { label: string; color: string }> = {
+  intense:        { label: "Intense",        color: "#EF4444" },
+  fluide:         { label: "Fluide",         color: "#10B981" },
+  delicate:       { label: "Délicate",       color: "#F59E0B" },
+  stimulante:     { label: "Stimulante",     color: "#06B6D4" },
+  complementaire: { label: "Complémentaire", color: "#8B5CF6" },
+  variable:       { label: "Variable",       color: "#94A3B8" },
+};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// PAGE COMPONENT
+// ═══════════════════════════════════════════════════════════════════════════════
+
+export default async function SignePage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
-  const { slug: raw } = await params;
-  const slug = normalizeSlug(raw);
-  const sign = await readSignFile(slug);
-  if (!sign) notFound();
+  const { slug } = await params;
+  const data = getSigneData(slug);
+  if (!data) notFound();
 
-  const label = getSignLabel(sign);
-  const accent = elementTheme(sign.element);
-
-  // Chemins d'images adaptables selon ta structure
-  const heroSrc = `/images/signes/${sign.slug}/a.webp`;
-
-  // Pagination Zodiaque
-  const idx = SIGNS.findIndex((s) => s.slug === slug);
-  const prevSign = SIGNS[(idx - 1 + SIGNS.length) % SIGNS.length];
-  const nextSign = SIGNS[(idx + 1) % SIGNS.length];
-
-  // Schema.org
-  const canonical = `${SITE_URL}/signes/${slug}`;
-  const pageJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: `${label} — Signe astrologique`,
-    description: sign.generalites?.[0] || "",
-    url: canonical,
-  };
-
-  const articleJsonLd = {
+  // Schema.org JSON-LD
+  const schemaArticle = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: `Tout savoir sur le signe astrologique : ${label}`,
-    image: [`${SITE_URL}/images/zodiaque/${slug}.webp`],
-    author: { "@type": "Person", name: "Stéphane Gamot" },
-    publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+    headline: `${data.nom} — Encyclopédie complète du signe astrologique`,
+    description: `Tout savoir sur le signe du ${data.nom} : portrait, tempérament, compatibilités, planètes, 12 maisons.`,
+    image: `https://www.astro-cours.com${data.images.signe}`,
+    author: { "@type": "Organization", name: "Astro-Cours" },
+    publisher: {
+      "@type": "Organization",
+      name: "Astro-Cours",
+      logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/logo.png" },
+    },
+    mainEntityOfPage: `https://www.astro-cours.com/signes/${data.slug}`,
+    datePublished: "2026-04-09",
+    dateModified: new Date().toISOString().split("T")[0],
+    articleSection: "Astrologie",
+    inLanguage: "fr",
   };
 
-  const breadcrumbJsonLd = {
+  const schemaFAQ = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: data.faq.map((f) => ({
+      "@type": "Question",
+      name: f.question,
+      acceptedAnswer: { "@type": "Answer", text: f.reponse },
+    })),
+  };
+
+  const schemaBreadcrumb = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Signes du Zodiaque",
-        item: `${SITE_URL}/#zodiaque`,
-      },
-      { "@type": "ListItem", position: 3, name: label, item: canonical },
+      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.astro-cours.com/" },
+      { "@type": "ListItem", position: 2, name: "Signes", item: "https://www.astro-cours.com/signes" },
+      { "@type": "ListItem", position: 3, name: data.nom, item: `https://www.astro-cours.com/signes/${data.slug}` },
     ],
   };
 
-  const faqJsonLd = sign.faq
-    ? {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: sign.faq.map((f) => ({
-          "@type": "Question",
-          name: f.question,
-          acceptedAnswer: { "@type": "Answer", text: f.answer },
-        })),
-      }
-    : null;
+  return (
+    <>
+      {/* Schema.org */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaBreadcrumb) }} />
+
+      <article className="min-h-screen antialiased">
+
+        {/* ━━━━━━━━━━━ HERO ━━━━━━━━━━━ */}
+        <HeroSection data={data} />
+
+        {/* ━━━━━━━━━━━ QUICK FACTS ━━━━━━━━━━━ */}
+        <QuickFacts data={data} />
+
+        {/* ━━━━━━━━━━━ INTRODUCTION ━━━━━━━━━━━ */}
+        <ContentSection id="introduction" className="pt-20 md:pt-28">
+          <ScrollReveal>
+            <SectionTitle title="Introduction" color={data.couleur.primaire} />
+            <Prose>{data.introduction}</Prose>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ FONDATIONS COSMIQUES ━━━━━━━━━━━ */}
+        <ContentSection id="fondations">
+          <ScrollReveal>
+            <SectionTitle title="Fondations cosmiques" color={data.couleur.primaire} />
+            <Prose>{data.fondationsCosmiques.texte}</Prose>
+          </ScrollReveal>
+
+          <ScrollReveal delay={100}>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              <CosmicCard label="Maître" value={data.maitre} sub="Domicile" color={data.couleur.primaire} />
+              <CosmicCard label="Exaltation" value={data.exaltation} sub="Force maximale" color={data.couleur.secondaire} />
+              <CosmicCard label="Exil" value={data.exil} sub="En difficulté" color="rgb(var(--muted))" />
+              <CosmicCard label="Chute" value={data.chute} sub="Contrariée" color="rgb(var(--muted) / 0.8)" />
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={200}>
+            <aside className="mt-8 rounded-2xl border border-[rgb(var(--border)/0.08)] bg-[rgb(var(--surface))] p-5 text-sm leading-relaxed italic"
+                   style={{ color: "rgb(var(--muted))" }}>
+              {data.fondationsCosmiques.courteAscension}
+            </aside>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ MYTHOLOGIE ━━━━━━━━━━━ */}
+        <ContentSection id="mythologie">
+          <ScrollReveal>
+            <SectionTitle title={`Mythologie — ${data.mythologie.titre}`} color={data.couleur.primaire} />
+            <Prose>{data.mythologie.texte}</Prose>
+            <Prose className="mt-4 opacity-70">{data.mythologie.civilisations}</Prose>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ PORTRAIT INTIME ━━━━━━━━━━━ */}
+        <ContentSection id="portrait">
+          <ScrollReveal>
+            <SectionTitle title="Portrait intime" color={data.couleur.primaire} />
+            <Prose>{data.portrait.temperament}</Prose>
+          </ScrollReveal>
+
+          <ScrollReveal delay={100}>
+            <div className="mt-10 grid gap-6 md:grid-cols-2">
+              <TagListCard title="Forces" items={data.portrait.forces} color="#10B981" />
+              <TagListCard title="Ombres" items={data.portrait.ombres} color="#EF4444" />
+              <TagListCard title="Besoins vitaux" items={data.portrait.besoinsVitaux} color="#F59E0B" />
+              <TagListCard title="À travailler" items={data.portrait.aTravailler} color="#38BDF8" />
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={200}>
+            <div className="mt-10 rounded-2xl border border-[rgb(var(--border)/0.1)] p-6 md:p-8"
+                 style={{ background: `linear-gradient(135deg, ${data.couleur.primaire}08, transparent)` }}>
+              <h3 className="mb-3 text-lg font-semibold">État d&apos;équilibre</h3>
+              <p className="leading-relaxed" style={{ color: "rgb(var(--text) / 0.84)" }}>{data.portrait.equilibre}</p>
+            </div>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ SANTÉ ━━━━━━━━━━━ */}
+        <ContentSection id="sante">
+          <ScrollReveal>
+            <SectionTitle title="Correspondances anatomiques" color={data.couleur.primaire} />
+            <div className="mb-6 flex flex-wrap gap-2">
+              {data.sante.zones.map((z) => (
+                <span key={z} className="rounded-full border border-[rgb(var(--border)/0.1)] px-4 py-1.5 text-sm font-medium"
+                      style={{ color: data.couleur.primaire, borderColor: `${data.couleur.primaire}30` }}>
+                  {z}
+                </span>
+              ))}
+            </div>
+            <Prose>{data.sante.texte}</Prose>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ 12 MAISONS ━━━━━━━━━━━ */}
+        <ContentSection id="maisons">
+          <ScrollReveal>
+            <SectionTitle title={`Le ${data.nom} dans les 12 Maisons`} color={data.couleur.primaire} />
+          </ScrollReveal>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {data.maisons.map((m, i) => (
+              <ScrollReveal key={m.numero} delay={i * 50}>
+                <MaisonCard maison={m} color={data.couleur.primaire} />
+              </ScrollReveal>
+            ))}
+          </div>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ AMOUR ━━━━━━━━━━━ */}
+        <ContentSection id="amour">
+          <ScrollReveal>
+            <SectionTitle title="Cœur & Alchimie" color={data.couleur.primaire} />
+            <Prose>{data.amour.texte}</Prose>
+          </ScrollReveal>
+
+          <ScrollReveal delay={100}>
+            <div className="mt-8 grid gap-6 md:grid-cols-2">
+              <TagListCard title="Qualités du cœur" items={data.amour.qualites} color="#F43F5E" />
+              <TagListCard title="Points de vigilance" items={data.amour.vigilances} color="#F59E0B" />
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={200}>
+            <div className="mt-8">
+              <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest" style={{ color: "rgb(var(--muted))" }}>
+                Affinités naturelles
+              </h3>
+              <div className="flex flex-wrap gap-3 md:justify-center">
+                {data.amour.affinites.map((a) => (
+                  <Link
+                    key={a}
+                    href={`/signes/${a}`}
+                    className="group flex items-center gap-2 rounded-xl border border-[rgb(var(--border)/0.08)] bg-[rgb(var(--surface))] px-4 py-2.5 transition-all duration-300 hover:border-[rgb(var(--border)/0.18)] hover:scale-[1.03]"
+                  >
+                    <Image
+                      src={`/images/zodiaque/${a}.webp`}
+                      alt={`${a} + (${data.nom})`}
+                      width={28}
+                      height={28}
+                      className="rounded-full opacity-70 transition-opacity group-hover:opacity-100"
+                    />
+                    <span className="text-sm font-medium capitalize transition-colors group-hover:text-[rgb(var(--accent))]">
+                      {a}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ TRAVAIL & ARGENT ━━━━━━━━━━━ */}
+        <ContentSection id="travail">
+          <ScrollReveal>
+            <SectionTitle title="Réalisation & Matière" color={data.couleur.primaire} />
+            <Prose>{data.travail.texte}</Prose>
+          </ScrollReveal>
+
+          <ScrollReveal delay={100}>
+            <div className="mt-8 grid gap-6 md:grid-cols-2">
+              <TagListCard title="Atouts professionnels" items={data.travail.atouts} color="#10B981" />
+              <TagListCard title="Défis à relever" items={data.travail.defis} color="#F59E0B" />
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={200}>
+            <div className="mt-10 rounded-2xl border border-[rgb(var(--border)/0.08)] bg-[rgb(var(--surface))] p-6 md:p-8">
+              <h3 className="mb-3 text-lg font-semibold">Énergie de l&apos;argent</h3>
+              <p className="mb-6 leading-relaxed" style={{ color: "rgb(var(--text) / 0.84)" }}>{data.argent.texte}</p>
+              <div className="grid gap-6 sm:grid-cols-2">
+                <div>
+                  <h4 className="mb-3 text-xs font-semibold uppercase tracking-widest" style={{ color: "#10B981" }}>Forces</h4>
+                  <ul className="space-y-2">
+                    {data.argent.forces.map((f) => (
+                      <li key={f} className="text-sm" style={{ color: "rgb(var(--text) / 0.7)" }}>— {f}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="mb-3 text-xs font-semibold uppercase tracking-widest" style={{ color: "#EF4444" }}>Risques</h4>
+                  <ul className="space-y-2">
+                    {data.argent.risques.map((r) => (
+                      <li key={r} className="text-sm" style={{ color: "rgb(var(--text) / 0.7)" }}>— {r}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ PLANÈTES ━━━━━━━━━━━ */}
+        <ContentSection id="planetes">
+          <ScrollReveal>
+            <SectionTitle title={`Les planètes en ${data.nom}`} color={data.couleur.primaire} />
+          </ScrollReveal>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {data.planetes.map((p, i) => (
+              <ScrollReveal key={p.slug} delay={i * 60}>
+                <PlaneteCard planete={p } accentColor={data.couleur.primaire} />
+              </ScrollReveal>
+            ))}
+          </div>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ COMPATIBILITÉS ━━━━━━━━━━━ */}
+        <ContentSection id="compatibilites">
+          <ScrollReveal>
+            <SectionTitle title="Duo & Dynamiques" color={data.couleur.primaire} />
+            <p className="mb-8" style={{ color: "rgb(var(--muted))" }}>
+              Comment le {data.nom} interagit avec chacun des 12 signes du Zodiaque.
+            </p>
+          </ScrollReveal>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {data.compatibilites.map((c, i) => (
+              <ScrollReveal key={c.signe} delay={i * 50}>
+                <CompatCard compat={c} currentSlug={data.slug} />
+              </ScrollReveal>
+            ))}
+          </div>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ ASCENDANT ━━━━━━━━━━━ */}
+        <ContentSection id="ascendant">
+          <ScrollReveal>
+            <SectionTitle title={`L'Ascendant ${data.nom}`} color={data.couleur.primaire} />
+            <Prose>{data.ascendant.texte}</Prose>
+          </ScrollReveal>
+
+          <ScrollReveal delay={100}>
+            <div className="mt-8 grid gap-6 sm:grid-cols-3">
+              <MiniListCard title="Apparence" items={data.ascendant.apparence} color={data.couleur.primaire} />
+              <MiniListCard title="Tempérament" items={data.ascendant.temperament} color={data.couleur.secondaire} />
+              <MiniListCard title="Vigilances" items={data.ascendant.vigilances} color="#F59E0B" />
+            </div>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ CORRESPONDANCES ━━━━━━━━━━━ */}
+        <ContentSection id="correspondances">
+          <ScrollReveal>
+            <SectionTitle title="Correspondances symboliques" color={data.couleur.primaire} />
+          </ScrollReveal>
+
+          {/* Étoiles fixes */}
+          {data.etoilesFixes.length > 0 && (
+            <ScrollReveal delay={100}>
+              <div className="mb-10">
+                <h3 className="mb-4 text-sm font-semibold uppercase tracking-widest" style={{ color: "rgb(var(--muted))" }}>
+                  Étoiles fixes
+                </h3>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {data.etoilesFixes.map((e) => (
+                    <div key={e.nom} className="rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5">
+                      <div className="mb-2 flex items-baseline gap-2">
+                        <span className="text-base font-semibold">{e.nom}</span>
+                        <span className="text-xs" style={{ color: "rgb(var(--muted))" }}>{e.nature}</span>
+                      </div>
+                      <p className="mb-3 text-sm leading-relaxed" style={{ color: "rgb(var(--text) / 0.7)" }}>{e.texte}</p>
+                      <div className="flex flex-wrap gap-1.5">
+                        {e.motsCles.map((m) => (
+                          <span key={m} className="rounded-full border border-[rgb(var(--border)/0.08)] px-2.5 py-0.5 text-xs"
+                                style={{ color: "rgb(var(--muted))" }}>
+                            {m}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </ScrollReveal>
+          )}
+
+          {/* Minéraux / Végétaux / Animaux */}
+          <ScrollReveal delay={200}>
+            <div className="grid gap-6 sm:grid-cols-3">
+              <CorrespondanceGroup title="Minéraux" icon="◆" items={data.correspondances.mineraux} color={data.couleur.primaire} />
+              <CorrespondanceGroup title="Végétaux" icon="❁" items={data.correspondances.vegetaux} color={data.couleur.secondaire} />
+              <CorrespondanceGroup title="Animaux" icon="◈" items={data.correspondances.animaux} color={data.couleur.accent} />
+            </div>
+          </ScrollReveal>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ GÉOGRAPHIE ━━━━━━━━━━━ */}
+        {data.geographie.length > 0 && (
+          <ContentSection id="geographie">
+            <ScrollReveal>
+              <SectionTitle title="Géographie traditionnelle" color={data.couleur.primaire} />
+              <div className="grid gap-3 sm:grid-cols-2">
+                {data.geographie.map((g) => (
+                  <div key={g.pays} className="rounded-xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] px-5 py-4">
+                    <span className="text-sm font-semibold">{g.pays}</span>
+                    <p className="mt-1 text-sm" style={{ color: "rgb(var(--muted))" }}>{g.texte}</p>
+                  </div>
+                ))}
+              </div>
+            </ScrollReveal>
+          </ContentSection>
+        )}
+
+        {/* ━━━━━━━━━━━ FIGURES CÉLÈBRES ━━━━━━━━━━━ */}
+        {data.figuresCelebres.length > 0 && (
+          <ContentSection id="celebrites">
+            <ScrollReveal>
+              <SectionTitle title="Figures de légende" color={data.couleur.primaire} />
+            </ScrollReveal>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {data.figuresCelebres.map((f, i) => (
+                <ScrollReveal key={f.nom} delay={i * 80}>
+                  <div className="rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5 transition-all duration-300 hover:border-[rgb(var(--border)/0.14)]">
+                    <div className="mb-1 flex items-baseline gap-2">
+                      <span className="text-base font-semibold">{f.nom}</span>
+                      <span className="text-xs" style={{ color: data.couleur.primaire }}>{f.domaine}</span>
+                    </div>
+                    <p className="mb-2 text-xs" style={{ color: "rgb(var(--muted) / 0.8)" }}>{f.date}</p>
+                    <p className="text-sm italic leading-relaxed" style={{ color: "rgb(var(--text) / 0.7)" }}>{f.texte}</p>
+                  </div>
+                </ScrollReveal>
+              ))}
+            </div>
+          </ContentSection>
+        )}
+
+        {/* ━━━━━━━━━━━ FAQ ━━━━━━━━━━━ */}
+        <ContentSection id="faq">
+          <ScrollReveal>
+            <SectionTitle title="Foire aux questions" color={data.couleur.primaire} />
+          </ScrollReveal>
+          <div className="space-y-4">
+            {data.faq.map((f, i) => (
+              <ScrollReveal key={i} delay={i * 80}>
+                <details className="group rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] transition-colors open:border-[rgb(var(--border)/0.14)]">
+                  <summary className="cursor-pointer select-none px-6 py-5 text-base font-medium transition-colors hover:opacity-80">
+                    {f.question}
+                  </summary>
+                  <div className="px-6 pb-5 text-sm leading-relaxed" style={{ color: "rgb(var(--text) / 0.7)" }}>
+                    {f.reponse}
+                  </div>
+                </details>
+              </ScrollReveal>
+            ))}
+          </div>
+        </ContentSection>
+
+        {/* ━━━━━━━━━━━ NAVIGATION SIGNES ━━━━━━━━━━━ */}
+        <nav className="border-t border-[rgb(var(--border)/0.08)]" style={{ background: "rgb(var(--surface))" }}>
+          <div className="mx-auto flex max-w-5xl items-stretch">
+            <Link
+              href={`/signes/${data.navigation.precedent.slug}`}
+              className="group flex flex-1 items-center gap-3 px-6 py-8 no-underline transition-all duration-300 hover:bg-[rgb(var(--border)/0.03)] md:px-10"
+            >
+              <span className="text-xl transition-transform group-hover:-translate-x-1" style={{ color: "rgb(var(--muted))" }}>←</span>
+              <div>
+                <span className="block text-xs uppercase tracking-widest" style={{ color: "rgb(var(--muted) / 0.8)" }}>Précédent</span>
+                <span className="text-base font-semibold transition-colors group-hover:text-[rgb(var(--accent))]">
+                  {data.navigation.precedent.nom}
+                </span>
+              </div>
+            </Link>
+
+            <div className="w-px" style={{ background: "rgb(var(--border) / 0.08)" }} />
+
+            <Link
+              href={`/signes/${data.navigation.suivant.slug}`}
+              className="group flex flex-1 items-center justify-end gap-3 px-6 py-8 no-underline transition-all duration-300 hover:bg-[rgb(var(--border)/0.03)] md:px-10"
+            >
+              <div className="text-right">
+                <span className="block text-xs uppercase tracking-widest" style={{ color: "rgb(var(--muted) / 0.7)" }}>Suivant</span>
+                <span className="text-base font-semibold transition-colors group-hover:text-[rgb(var(--accent))]">
+                  {data.navigation.suivant.nom}
+                </span>
+              </div>
+              <span className="text-xl transition-transform group-hover:translate-x-1" style={{ color: "rgb(var(--muted))" }}>→</span>
+            </Link>
+          </div>
+        </nav>
+
+      </article>
+    </>
+  );
+}
+
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// SUB-COMPONENTS
+// ═══════════════════════════════════════════════════════════════════════════════
+
+/* ── Hero ───────────────────────────────────────────────────────────────────── */
+
+function HeroSection({ data }: { data: SigneData }) {
+  return (
+    <header className="relative flex min-h-[85vh] flex-col items-center justify-center overflow-hidden px-6 text-center md:min-h-[90vh]">
+
+      {/* Orbe de couleur du signe — glow animé */}
+      <div
+        className="pointer-events-none absolute top-1/2 left-1/2 -z-10 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full animate-glow-pulse blur-[120px] md:h-[800px] md:w-[800px]"
+        style={{
+          background: `radial-gradient(circle, ${data.couleur.primaire}25, ${data.couleur.secondaire}15, transparent 70%)`,
+        }}
+      />
+
+      {/* Vignette sombre */}
+      <div className="pointer-events-none absolute inset-0 -z-20"
+           style={{ background: "radial-gradient(ellipse at center, transparent 0%, rgb(var(--bg)) 70%)" }} />
+
+      {/* Image du signe */}
+      <div className="animate-fade-in-up relative mb-8 h-32 w-32 md:h-44 md:w-44">
+        <Image
+          src={data.images.signe}
+          alt={`Signe du ${data.nom}`}
+          fill
+          className="object-contain"
+          style={{ filter: `drop-shadow(0 0 40px ${data.couleur.primaire}30)` }}
+          priority
+        />
+      </div>
+
+      {/* Titre principal */}
+      <h1 className="animate-fade-in-up animation-delay-100 mb-3">
+        {data.nom}
+      </h1>
+
+      {/* Sous-titre */}
+      <p className="animate-fade-in-up animation-delay-200 mb-2 text-lg font-light tracking-wide md:text-xl"
+         style={{ color: "rgb(var(--muted))" }}>
+        {data.sousTitre}
+      </p>
+
+      {/* Devise */}
+      <p className="animate-fade-in-up animation-delay-300 text-2xl font-light italic md:text-3xl"
+         style={{ color: "rgb(var(--muted) / 0.8)" }}>
+        « {data.devise} »
+      </p>
+
+      {/* Badge période / élément / mode */}
+      <div className="animate-fade-in-up animation-delay-400 mt-8 inline-flex items-center gap-3 rounded-full border border-[rgb(var(--border)/0.1)] px-5 py-2.5"
+           style={{ background: "rgb(var(--surface) / 0.6)", backdropFilter: "blur(12px)" }}>
+        <span className="text-sm" style={{ color: "rgb(var(--text) / 0.7)" }}>{data.periode}</span>
+        <span className="h-1 w-1 rounded-full" style={{ background: "rgb(var(--muted) / 0.7)" }} />
+        <span className="text-sm font-medium" style={{ color: data.couleur.primaire }}>{data.element}</span>
+        <span className="h-1 w-1 rounded-full" style={{ background: "rgb(var(--muted) / 0.7)" }} />
+        <span className="text-sm" style={{ color: "rgb(var(--text) / 0.7)" }}>{data.mode}</span>sub
+      </div>
+
+      {/* Indicateur scroll */}
+      <div className="absolute bottom-10 animate-bounce">
+        <div className="h-8 w-5 rounded-full border-2" style={{ borderColor: "rgb(var(--border) / 0.15)" }}>
+          <div className="mx-auto mt-1.5 h-2 w-1 rounded-full animate-pulse" style={{ background: "rgb(var(--border) / 0.25)" }} />
+        </div>
+      </div>
+    </header>
+  );
+}
+
+/* ── Quick Facts ────────────────────────────────────────────────────────────── */
+
+function QuickFacts({ data }: { data: SigneData }) {
+  const facts = [
+    { label: "Élément", value: data.element },
+    { label: "Mode", value: data.mode },
+    { label: "Maître", value: data.maitre },
+    { label: "Exaltation", value: data.exaltation },
+    { label: "Polarité", value: data.polarite },
+    { label: "Maison", value: `Maison ${data.maisonNaturelle}` },
+  ];
 
   return (
-    <div
-      className={`bg-[#09090b] min-h-screen text-slate-300 selection:${accent.bgSolid} selection:text-white`}
+    <div className="border-y border-[rgb(var(--border)/0.08)]" style={{ background: "rgb(var(--surface))" }}>
+      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-6 py-5">
+        {facts.map((f) => (
+          <div key={f.label} className="flex items-center gap-2 text-sm">
+            <span style={{ color: "rgb(var(--muted) )" }}>{f.label}</span>
+            <span className="font-medium ">{f.value}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ── Content section ────────────────────────────────────────────────────────── */
+
+function ContentSection({
+  id,
+  children,
+  className = "",
+}: {
+  id?: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <section id={id} className={`mx-auto max-w-3xl px-6 py-16 md:py-24 ${className}`}>
+      {children}
+    </section>
+  );
+}
+
+/* ── Section title ──────────────────────────────────────────────────────────── */
+
+function SectionTitle({ title, color }: { title: string; color: string }) {
+  return (
+    <div className="mb-8 flex items-center gap-3">
+      <div className="h-6 w-1 rounded-full" style={{ background: color }} />
+      <h2 className="!mt-0 !border-b-0 !pb-0">{title}</h2>
+    </div>
+  );
+}
+
+/* ── Prose ───────────────────────────────────────────────────────────────────── */
+
+function Prose({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+  return (
+    <p className={`text-base leading-relaxed md:text-lg md:leading-8 ${className}`}
+       style={{ color: "rgb(var(--text) / 0.84)" }}>
+      {children}
+    </p>
+  );
+}
+
+/* ── Cosmic card ────────────────────────────────────────────────────────────── */
+
+function CosmicCard({ label, value, sub, color }: { label: string; value: string; sub: string; color: string }) {
+  return (
+    <div className="group rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5 transition-all duration-300 hover:border-[rgb(var(--border)/0.14)] hover:scale-[1.02]">
+      <span className="mb-1 block text-xs font-semibold uppercase tracking-widest" style={{ color: "rgb(var(--muted))" }}>
+        {label}
+      </span>
+      <span className="text-xl font-bold" style={{ color }}>{value}</span>
+      <span className="mt-0.5 block text-xs" style={{ color: "rgb(var(--muted) / 0.7)" }}>{sub}</span>
+    </div>
+  );
+}
+
+/* ── Tag list card ──────────────────────────────────────────────────────────── */
+
+function TagListCard({ title, items, color }: { title: string; items: string[]; color: string }) {
+  return (
+    <div className="rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5">
+      <h3 className="!mt-0 !border-b-0 !pb-0 mb-4 !text-xs !font-semibold uppercase tracking-widest" style={{ color }}>
+        {title}
+      </h3>
+      <ul className="space-y-2.5">
+        {items.map((item) => (
+          <li key={item} className="flex items-start gap-2.5 text-sm leading-relaxed" style={{ color: "rgb(var(--text) / 0.7)" }}>
+            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full" style={{ background: `${color}40`, border: `1px solid ${color}60` }} />
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/* ── Maison card ────────────────────────────────────────────────────────────── */
+
+function MaisonCard({ maison, color }: { maison: { numero: number; titre: string; texte: string }; color: string }) {
+  return (
+    <div className="group rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5 transition-all duration-300 hover:border-[rgb(var(--border)/0.14)] hover:scale-[1.02]">
+      <div className="mb-3 flex items-center gap-3">
+        <span
+          className="flex h-9 w-9 items-center justify-center rounded-lg text-sm font-bold"
+          style={{ backgroundColor: `${color}18`, color }}
+        >
+          {maison.numero}
+        </span>
+        <h3 className="!mt-0 !border-b-0 !pb-0 !text-sm !font-semibold">{maison.titre}</h3>
+      </div>
+      <p className="text-sm leading-relaxed" style={{ color: "rgb(var(--text) / 0.7)" }}>{maison.texte}</p>
+    </div>
+  );
+}
+
+/* ── Planete card ───────────────────────────────────────────────────────────── */
+
+function PlaneteCard({ planete, accentColor }: { planete: SigneData["planetes"][number]; accentColor: string }) {
+  return (
+    <div className="group rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5 transition-all duration-300 hover:border-[rgb(var(--border)/0.14)] hover:scale-[1.02]">
+      <div className="mb-3 flex items-center gap-3">
+        <div className="relative h-9 w-9 overflow-hidden rounded-full" style={{ boxShadow: `0 0 12px ${accentColor}25` }}>
+          <Image src={`/images/planetes/${planete.slug}.webp`} alt={`Illustration de la planète ${planete.nom}`} fill className="object-cover" />
+        </div>
+        <h3 className="!mt-0 !border-b-0 !pb-0 !text-sm !font-semibold">{planete.nom}</h3>
+      </div>
+      <p className="mb-3 text-sm italic leading-relaxed" style={{ color: "rgb(var(--text) / 0.7)" }}>
+        {planete.description}
+      </p>
+      <div className="flex flex-wrap gap-1.5">
+        {planete.manifestations.map((m) => (
+          <span key={m} className="rounded-full border border-[rgb(var(--border)/0.08)] px-2.5 py-0.5 text-xs"
+                style={{ color: "rgb(var(--muted))" }}>
+            {m}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/* ── Compat card ────────────────────────────────────────────────────────────── */
+
+function CompatCard({ compat, currentSlug }: { compat: SigneData["compatibilites"][number]; currentSlug: string }) {
+  const style = COMPAT_TYPE_STYLES[compat.type] || COMPAT_TYPE_STYLES.variable;
+
+  return (
+    <Link
+      href={compat.signe === currentSlug ? "#compatibilites" : `/signes/${compat.signe}`}
+      className="group block rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5 no-underline transition-all duration-300 hover:border-[rgb(var(--border)/0.14)] hover:scale-[1.02]"
     >
-      {/* Scripts SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pageJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
-      {faqJsonLd && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
-      )}
-
-      <main className="mx-auto max-w-7xl px-6 pb-40" id="main-content">
-        {/* --- HERO SECTION --- */}
-        <header className="relative pt-24 mb-40 flex flex-col items-center text-center overflow-x-clip">
-          <div
-            aria-hidden={true}
-            className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] opacity-20 blur-[150px] pointer-events-none"
-            style={{
-              background: `radial-gradient(circle, ${accent.dot} 0%, transparent 70%)`,
-            }}
-          />
-
-          <div
-            className={`px-6 py-2 rounded-full border ${accent.border} ${accent.bgSolid} text-[11px] uppercase tracking-[0.6em] font-bold ${accent.text} mb-12 flex items-center gap-3 backdrop-blur-md`}
-          >
-            <Sparkles className="h-3 w-3" aria-hidden={true} />
-            Signe du Zodiaque
+      <div className="mb-3 flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <div className="relative h-8 w-8 overflow-hidden rounded-full">
+            <Image src={`/images/zodiaque/${compat.signe}.webp`} alt={`Illustration de la planète ${compat.nom}`} fill className="object-cover opacity-70 transition-opacity group-hover:opacity-100" />
           </div>
+          <h3 className="!mt-0 !border-b-0 !pb-0 !text-sm !font-semibold">{compat.nom}</h3>
+        </div>
+        <span className="rounded-full px-2.5 py-0.5 text-xs font-medium"
+              style={{ background: `${style.color}20`, color: style.color }}>
+          {style.label}
+        </span>
+      </div>
+      <p className="mb-1 text-xs font-medium" style={{ color: "rgb(var(--muted) / 0.8)" }}>{compat.titre}</p>
+      <p className="text-sm leading-relaxed" style={{ color: "rgb(var(--text) / 0.7)" }}>{compat.texte}</p>
+    </Link>
+  );
+}
 
-          <h1 className="font-serif text-[6rem] md:text-[10rem] lg:text-[12rem] text-white tracking-tighter leading-[0.8] mb-10 drop-shadow-2xl">
-            {label}
-          </h1>
+/* ── Mini list card ─────────────────────────────────────────────────────────── */
 
-          <p className="font-serif text-3xl md:text-5xl italic text-slate-400 opacity-90 mb-20 max-w-3xl">
-            « {sign.motCle} »
-          </p>
+function MiniListCard({ title, items, color }: { title: string; items: string[]; color: string }) {
+  return (
+    <div className="rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5">
+      <h3 className="!mt-0 !border-b-0 !pb-0 mb-3 !text-xs !font-semibold uppercase tracking-widest" style={{ color }}>
+        {title}
+      </h3>
+      <ul className="space-y-2">
+        {items.map((item) => (
+          <li key={item} className="text-sm" style={{ color: "rgb(var(--text) / 0.7)" }}>— {item}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
-          <div className="w-full relative group">
-            {/* Image Placeholder ou réelle */}
-            <div
-              className={`absolute -inset-4 rounded-[4rem] opacity-20 blur-3xl transition duration-1000 group-hover:opacity-40 ${accent.bg}`}
-              aria-hidden={true}
-            />
-<div className="relative overflow-hidden rounded-[2rem] md:rounded-[3rem] border border-white/10 bg-[#0c0c0e] shadow-2xl min-h-[360px] sm:min-h-[420px] md:min-h-[600px]">
-              <Image
-                src={heroSrc}
-                alt={`Illustration cosmique du signe ${label}`}
-                width={2000}
-                height={1000}
-                priority
-                className="w-full h-full object-cover transition duration-[2s] group-hover:scale-105"
-                sizes="100vw"
-              />
+/* ── Correspondance group ───────────────────────────────────────────────────── */
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10" />
-
-              {/* Floating Stats Dashboard */}
-              <div className="absolute bottom-1  md:bottom-12  left-1/2 -translate-x-1/2 w-[92%] sm:w-[90%] md:w-[85%] grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 p-3 sm:p-4 md:p-10 backdrop-blur-2xl bg-black/45 rounded-[1.5rem] md:rounded-[2.5rem] border border-white/10 shadow-2xl z-20">
-                {[
-                  { l: "Élément", v: sign.element, i: Droplets },
-                  { l: "Maître", v: sign.maitre, i: Sun },
-                  { l: "Mode", v: sign.mode, i: Zap },
-                  { l: "Période", v: sign.periode, i: Moon },
-                ].map((item, i) => (
-                  <div
-                    key={i}
-                    className="flex flex-col items-center text-center"
-                  >
-                    <span className="text-[9px] md:text-[10px] uppercase tracking-[0.2em] md:tracking-[0.3em] text-slate-500 mb-1 md:mb-2 font-bold">
-                      {item.l}
-                    </span>
-                    <span className="text-xs sm:text-sm md:text-lg font-medium text-white flex flex-col md:flex-row items-center gap-1 md:gap-2">
-                      <item.i
-                        className={`h-4 w-4 md:h-5 md:w-5 ${accent.text}`}
-                        aria-hidden={true}
-                      />
-                      {item.v}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </header>
-
-        {/* --- SECTION 1 : ESSENTIEL & ANALOGIES --- */}
-        <section
-          aria-labelledby="fondations"
-          className="grid lg:grid-cols-12 gap-8 mb-24"
-        >
-          <div className="lg:col-span-8">
-            <PremiumCard accent={accent} className="h-full">
-              <h3
-                id="fondations"
-                className="font-serif text-3xl text-white mb-8 flex items-center gap-4"
-              >
-                <Target className={accent.text} aria-hidden={true} /> Fondations
-                Cosmiques
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                {[
-                  ["Maître", sign.maitre],
-                  ["Exaltation", sign.exaltation],
-                  ["Exil", sign.exil],
-                  ["Chute", sign.chute],
-                ].map(([title, val], i) => (
-                  <div
-                    key={i}
-                    className="p-6 rounded-3xl bg-white/[0.02] border border-white/5 hover:border-white/10 transition-colors"
-                  >
-                    <p className="text-[10px] uppercase tracking-widest text-slate-500 mb-2 font-bold">
-                      {title}
-                    </p>
-                    <p className="text-lg text-white font-serif">
-                      {val || "—"}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </PremiumCard>
-          </div>
-          <div className="lg:col-span-4">
-            <PremiumCard
-              accent={accent}
-              className="h-full flex flex-col justify-center"
-            >
-              <h3 className="text-xs uppercase tracking-[0.3em] text-slate-400 mb-8 font-bold flex items-center gap-3 border-b border-white/5 pb-4">
-                <Layers className="h-4 w-4" aria-hidden={true} /> Analogies
-              </h3>
-              <div className="space-y-6">
-                {Object.entries(sign.analogie || {}).map(([key, val]) => (
-                  <div key={key} className="flex justify-between items-center">
-                    <p className="text-[11px] text-slate-500 uppercase tracking-widest">
-                      {key}
-                    </p>
-                    <p className="text-white text-base font-serif text-right max-w-[60%]">
-                      {val}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </PremiumCard>
-          </div>
-        </section>
-
-        {/* --- MAISON & MYTHOLOGIE --- */}
-        <section className="grid md:grid-cols-2 gap-8 mb-36">
-          {sign.maisonCorrespondante && (
-            <PremiumCard accent={accent}>
-              <div className="flex items-center gap-5 mb-8">
-                <div
-                  className={`w-14 h-14 rounded-2xl ${accent.bgSolid} flex items-center justify-center border ${accent.border}`}
-                >
-                  <span
-                    className={`text-2xl font-serif font-bold ${accent.text}`}
-                  >
-                    {sign.maisonCorrespondante.numero}
-                  </span>
-                </div>
-                <h3 className="text-3xl font-serif text-white">
-                  Maison {sign.maisonCorrespondante.nom}
-                </h3>
-              </div>
-              <p className="text-lg text-slate-400 italic mb-8 leading-relaxed border-l-2 border-white/10 pl-6">
-                "{sign.maisonCorrespondante.resume}"
-              </p>
-              <PillList
-                items={sign.maisonCorrespondante.themes}
-                accent={accent}
-              />
-            </PremiumCard>
-          )}
-          {sign.mythologie && (
-            <PremiumCard accent={accent}>
-              <h3 className="text-3xl font-serif text-white mb-8 flex items-center gap-4 border-b border-white/5 pb-4">
-                <BookOpen className={accent.text} aria-hidden={true} />{" "}
-                Référence Mythologique
-              </h3>
-              <p className="text-[15px] md:text-base text-slate-400 font-light leading-relaxed">
-                {sign.mythologie}
-              </p>
-            </PremiumCard>
-          )}
-        </section>
-
-        {/* --- PORTRAIT PSYCHOLOGIQUE --- */}
-        <section className="grid lg:grid-cols-12 gap-16 items-start mb-40">
-          <div className="lg:col-span-5 space-y-12 sticky top-32">
-            <SectionHeader
-              title="Portrait Intime"
-              accent={accent}
-              className="!mt-0 !text-left !items-start"
-            />
-            <p className="text-2xl md:text-3xl text-slate-300 font-light leading-relaxed italic border-l-4 border-white/10 pl-8">
-              {sign.generalites?.[0]}
-            </p>
-            {hasItems(sign.anatomie) && (
-              <div className="pt-8">
-                <p className="text-[11px] uppercase tracking-[0.3em] text-slate-500 mb-4 font-bold flex items-center gap-3">
-                  <Activity className="h-4 w-4" aria-hidden={true} />{" "}
-                  Gouvernance Physique
-                </p>
-                <PillList items={sign.anatomie} accent={accent} soft />
-              </div>
-            )}
-          </div>
-          <div className="lg:col-span-7">
-            <PremiumCard accent={accent}>
-              <div className="grid md:grid-cols-2 gap-12">
-                <BulletList
-                  title="Tempérament"
-                  items={sign.caractere}
-                  icon={User}
-                  accent={accent}
-                />
-                <BulletList
-                  title="Aptitudes"
-                  items={sign.aptitudesNaturelles}
-                  icon={Zap}
-                  accent={accent}
-                />
-              </div>
-              <div className="mt-16 pt-12 border-t border-white/5">
-                <p className="text-[11px] uppercase tracking-[0.3em] text-slate-500 mb-6 font-bold flex items-center gap-3">
-                  <Globe className="h-4 w-4" aria-hidden={true} /> Ce qu'il
-                  régit dans le monde
-                </p>
-                <PillList
-                  items={sign.ceQuIlRegitDansLeMonde || []}
-                  accent={accent}
-                />
-              </div>
-            </PremiumCard>
-          </div>
-        </section>
-
-        {/* --- DYNAMIQUE ÉVOLUTIVE --- */}
-        <section className="mb-40">
-          <div className="grid md:grid-cols-3 gap-6 mb-6">
-            <PremiumCard accent={accent} className="!p-8">
-              <BulletList
-                title="Les Forces"
-                items={sign.forces}
-                accent={accent}
-              />
-            </PremiumCard>
-            <PremiumCard accent={accent} className="!p-8">
-              <BulletList
-                title="Les Ombres"
-                items={sign.ombres}
-                accent={accent}
-              />
-            </PremiumCard>
-            <PremiumCard accent={accent} className="!p-8">
-              <BulletList
-                title="Besoins Vitaux"
-                items={sign.besoins}
-                accent={accent}
-              />
-            </PremiumCard>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6">
-            <PremiumCard accent={accent} className="!p-8">
-              <BulletList
-                title="À Travailler"
-                items={sign.aTravailler}
-                accent={accent}
-              />
-            </PremiumCard>
-            <PremiumCard accent={accent} className="!p-8">
-              <BulletList
-                title="État d'Équilibre"
-                items={sign.quandCestEquilibre}
-                accent={accent}
-              />
-            </PremiumCard>
-          </div>
-        </section>
-
-        {/* --- AMOUR --- */}
-        <SectionHeader
-          title="Cœur & Alchimie"
-          subtitle="L'art d'aimer, de s'unir et de fusionner."
-          icon={Heart}
-          accent={accent}
-        />
-        <section className="grid lg:grid-cols-3 gap-8 mb-40">
-          <PremiumCard
-            className="lg:col-span-2 flex flex-col justify-center"
-            accent={accent}
-          >
-            <p className="text-2xl md:text-3xl text-white font-serif italic leading-[1.5] mb-12 border-l-2 border-white/10 pl-6">
-              "{sign.amour?.intro}"
-            </p>
-            <div className="grid md:grid-cols-2 gap-12 pt-8 border-t border-white/5">
-              <BulletList
-                title="Qualités du Cœur"
-                items={sign.amour?.qualites}
-                accent={accent}
-              />
-              <BulletList
-                title="Points de Vigilance"
-                items={sign.amour?.vigilances}
-                accent={accent}
-              />
-            </div>
-          </PremiumCard>
-          <div
-            className={`rounded-[2.5rem] border ${accent.border} ${accent.bg} p-10 flex flex-col items-center text-center justify-center space-y-10 shadow-inner`}
-          >
-            <Gem className={`h-12 w-12 ${accent.text}`} aria-hidden={true} />
-            <div className="space-y-6">
-              <h4 className="text-white font-serif text-2xl border-b border-white/10 pb-4">
-                Affinités Naturelles
-              </h4>
-              <div className="flex flex-wrap justify-center gap-3">
-                {sign.amour?.compatibleAvec?.map((c) => (
-                  <span
-                    key={c}
-                    className="px-5 py-2.5 rounded-xl bg-[#09090b]/80 border border-white/10 text-sm font-medium text-white shadow-sm"
-                  >
-                    {c}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* --- VOCATION & MATIÈRE --- */}
-        <SectionHeader
-          title="Réalisation & Matière"
-          subtitle="Vocation professionnelle et gestion des ressources."
-          icon={Briefcase}
-          accent={accent}
-        />
-        <section className="grid lg:grid-cols-2 gap-8 mb-40">
-          <PremiumCard accent={accent}>
-            <div className="flex items-center gap-5 mb-8">
-              <div
-                className={`p-3 rounded-xl ${accent.bgSolid} border ${accent.border}`}
-              >
-                <Briefcase
-                  className={`h-6 w-6 ${accent.text}`}
-                  aria-hidden={true}
-                />
-              </div>
-              <h3 className="text-3xl font-serif text-white">
-                L'Œuvre au Travail
-              </h3>
-            </div>
-            <p className="text-lg text-slate-400 mb-10 italic leading-relaxed">
-              {sign.travail?.intro}
-            </p>
-            <div className="grid md:grid-cols-2 gap-8 pt-8 border-t border-white/5">
-              <BulletList
-                title="Atouts"
-                items={sign.travail?.qualites}
-                accent={accent}
-              />
-              <BulletList
-                title="Défis"
-                items={sign.travail?.vigilances}
-                accent={accent}
-              />
-            </div>
-          </PremiumCard>
-          <PremiumCard accent={accent}>
-            <div className="flex items-center gap-5 mb-8">
-              <div
-                className={`p-3 rounded-xl ${accent.bgSolid} border ${accent.border}`}
-              >
-                <Coins
-                  className={`h-6 w-6 ${accent.text}`}
-                  aria-hidden={true}
-                />
-              </div>
-              <h3 className="text-3xl font-serif text-white">
-                Énergie de l'Argent
-              </h3>
-            </div>
-            <p className="text-lg text-slate-400 mb-10 italic leading-relaxed">
-              {sign.argent?.intro}
-            </p>
-            <div className="grid md:grid-cols-2 gap-8 pt-8 border-t border-white/5">
-              <BulletList
-                title="Forces"
-                items={sign.argent?.forces}
-                accent={accent}
-              />
-              <BulletList
-                title="Risques"
-                items={sign.argent?.risques}
-                accent={accent}
-              />
-            </div>
-          </PremiumCard>
-        </section>
-
-        {/* --- ÉTOILES FIXES --- */}
-        {hasItems(sign.etoilesFixes) && (
-          <section className="mb-40">
-            <SectionHeader title="Étoiles Fixes" accent={accent} icon={Star} />
-            <div className="grid md:grid-cols-2 gap-8">
-              {sign.etoilesFixes.map((star) => (
-                <PremiumCard key={star.nom} accent={accent}>
-                  <div className="flex justify-between items-start mb-6">
-                    <h4 className="text-3xl font-serif text-white">
-                      {star.nom}
-                    </h4>
-                    <span className="text-[10px] uppercase tracking-widest text-slate-500 border border-white/10 px-3 py-1 rounded-full">
-                      {star.nature}
-                    </span>
-                  </div>
-                  <p className="text-slate-400 leading-relaxed mb-6 italic">
-                    {star.description}
-                  </p>
-                  <PillList items={star.motsCles || []} accent={accent} soft />
-                </PremiumCard>
+function CorrespondanceGroup({
+  title,
+  icon,
+  items,
+  color,
+}: {
+  title: string;
+  icon: string;
+  items: Array<{ nom: string; motsCles: string[] }>;
+  color: string;
+}) {
+  return (
+    <div>
+      <h3 className="!mt-0 !border-b-0 !pb-0 mb-4 flex items-center gap-2 !text-sm !font-semibold uppercase tracking-widest" style={{ color }}>
+        <span>{icon}</span> {title}
+      </h3>
+      <div className="space-y-3">
+        {items.map((item) => (
+          <div key={item.nom} className="rounded-xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] px-4 py-3">
+            <span className="mb-1.5 block text-sm font-medium">{item.nom}</span>
+            <div className="flex flex-wrap gap-1.5">
+              {item.motsCles.map((m) => (
+                <span key={m} className="rounded-full border border-[rgb(var(--border)/0.06)] px-2 py-0.5 text-xs"
+                      style={{ color: "rgb(var(--muted))" }}>
+                  {m}
+                </span>
               ))}
             </div>
-          </section>
-        )}
-
-        {/* --- PLANÈTES --- */}
-        <section className="mb-56">
-          <SectionHeader
-            title="Influences Planétaires"
-            icon={Compass}
-            accent={accent}
-          />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {Object.entries(sign.planeteDansLeSigne?.planetes || {}).map(
-              ([planet, entry]: any) => {
-                const pTheme = getPlanetTheme(planet as PlanetKey);
-                return (
-                  <div
-                    key={planet}
-                    className={`group rounded-[3rem] border ${pTheme.border} bg-[#0c0c0e] p-10 md:p-12 transition-all duration-700 hover:-translate-y-4 hover:shadow-[0_20px_50px_rgba(0,0,0,0.5)]`}
-                  >
-                    <div className="flex items-center gap-6 mb-10">
-                      <div
-                        className={`w-20 h-20 rounded-[1.5rem]  flex items-center justify-center border ${pTheme.border}`}
-                      >
-                        <Image
-                          src={`/images/planetes/${planet}.webp`}
-                          alt={planet}
-                          width={80}
-                          height={80}
-                          className="object-contain drop-shadow-lg"
-                        />
-                      </div>
-                      <h3 className="font-serif text-3xl md:text-4xl text-white tracking-tight">
-                        {humanizePlanetKey(planet as PlanetKey)}
-                      </h3>
-                    </div>
-                    <p className="text-lg text-slate-400 italic mb-10 leading-relaxed opacity-90">
-                      "{entry.tonalite}"
-                    </p>
-                    <div className="space-y-4 border-t border-white/5 pt-10">
-                      <BulletList
-                        title="Manifestations"
-                        items={entry.forces}
-                        accent={accent}
-                      />
-                    </div>
-                  </div>
-                );
-              },
-            )}
           </div>
-        </section>
-
-        {/* --- RELATIONS --- */}
-        {hasItems(sign.relationsAuxAutresSignes) && (
-          <section className="mb-40">
-            <SectionHeader
-              title="Duo & Dynamiques"
-              accent={accent}
-              icon={Globe}
-            />
-            <div className="grid md:grid-cols-2 gap-8">
-              {sign.relationsAuxAutresSignes.map((rel) => {
-                const relMeta = SIGNS.find((s) => s.slug === rel.sign);
-                const relAccent = elementTheme(relMeta?.element);
-                return (
-                  <PremiumCard key={rel.sign} accent={relAccent}>
-                    <div className="flex items-center gap-6 mb-8">
-                      <div className="w-20 h-20 rounded-full border border-white/10 overflow-hidden bg-[#09090b]">
-                        <Image
-                          src={`/images/zodiaque/${rel.sign}.webp`}
-                          alt={rel.sign}
-                          width={80}
-                          height={80}
-                          className="object-cover"
-                        />
-                      </div>
-                      <div>
-                        <div className="flex flex-wrap items-center gap-3 mb-2">
-                          <h4 className="text-2xl md:text-3xl font-serif text-white">
-                            {relMeta?.name || rel.sign}
-                          </h4>
-                          <span
-                            className={`text-[10px] border ${relAccent.border} ${relAccent.text} px-3 py-1 rounded-full uppercase font-bold tracking-wider`}
-                          >
-                            {rel.level}
-                          </span>
-                        </div>
-                        <p className="text-sm text-slate-500 font-bold uppercase tracking-widest">
-                          {rel.title}
-                        </p>
-                      </div>
-                    </div>
-                    <p className="text-slate-400 leading-relaxed mb-8 italic">
-                      {rel.summary}
-                    </p>
-                    <div className="grid md:grid-cols-2 gap-8 pt-8 border-t border-white/5">
-                      <BulletList
-                        title="Forces"
-                        items={rel.pointsFortes}
-                        accent={relAccent}
-                      />
-                      <BulletList
-                        title="Frictions"
-                        items={rel.pointsDeTension}
-                        accent={relAccent}
-                      />
-                    </div>
-                  </PremiumCard>
-                );
-              })}
-            </div>
-          </section>
-        )}
-
-        {/* --- SIGNE DOMINANT & DANS UN THÈME --- */}
-        <section className="grid lg:grid-cols-2 gap-12 mb-56">
-          {sign.signeDominant && (
-            <PremiumCard accent={accent}>
-              <SectionHeader
-                title="Signe Dominant"
-                accent={accent}
-                className="!mt-0 !mb-12 !text-left !items-start"
-              />
-              <p className="text-xl text-slate-300 italic mb-12 leading-relaxed">
-                "{sign.signeDominant.intro}"
-              </p>
-              <div className="grid md:grid-cols-3 gap-8 mb-12">
-                <BulletList
-                  title="Forces"
-                  items={sign.signeDominant.forces}
-                  accent={accent}
-                />
-                <BulletList
-                  title="Vigilances"
-                  items={sign.signeDominant.vigilances}
-                  accent={accent}
-                />
-                <BulletList
-                  title="Dans la Vie"
-                  items={sign.signeDominant.dansLaVie}
-                  accent={accent}
-                />
-              </div>
-              <div className="grid md:grid-cols-2 gap-8 pt-8 border-t border-white/5">
-                <BulletList
-                  title="En Amour"
-                  items={sign.signeDominant.enAmour}
-                  accent={accent}
-                />
-                <BulletList
-                  title="Au Travail"
-                  items={sign.signeDominant.auTravail}
-                  accent={accent}
-                />
-              </div>
-            </PremiumCard>
-          )}
-          {hasItems(sign.dansUnTheme) && (
-            <PremiumCard accent={accent} className="flex flex-col">
-              <SectionHeader
-                title="Dans un Thème"
-                accent={accent}
-                icon={Compass}
-                className="!mt-0 !mb-12 !text-left !items-start"
-              />
-              <div className="space-y-6 flex-1">
-                {sign.dansUnTheme.map((p, i) => (
-                  <p
-                    key={i}
-                    className="text-lg md:text-xl text-slate-400 font-light leading-relaxed border-l-2 border-white/10 pl-6"
-                  >
-                    {p}
-                  </p>
-                ))}
-              </div>
-            </PremiumCard>
-          )}
-        </section>
-
-        {/* --- CÉLÉBRITÉS & PAYS --- */}
-        <section className="mb-40">
-          <div className="grid lg:grid-cols-12 gap-12">
-            <div className="lg:col-span-8">
-              <SectionHeader
-                title="Figures de Légende"
-                icon={User}
-                accent={accent}
-                className="!text-left !items-start"
-              />
-              <div className="grid md:grid-cols-2 gap-6">
-                {sign.celebrites?.map((c, i) => (
-                  <div
-                    key={i}
-                    className="p-8 rounded-[2rem] border border-white/5 bg-[#0c0c0e] hover:bg-[#111] hover:border-white/20 transition-all duration-500"
-                  >
-                    <p className="text-white font-serif text-2xl md:text-3xl mb-2">
-                      {c.nom}
-                    </p>
-                    <p
-                      className={`text-[10px] uppercase tracking-[0.3em] ${accent.text} font-bold mb-4`}
-                    >
-                      {c.domaine}{" "}
-                      {c.dateNaissance ? `• ${c.dateNaissance}` : ""}
-                    </p>
-                    <p className="text-[15px] text-slate-400 font-light italic leading-relaxed">
-                      "{c.description}"
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="lg:col-span-4">
-              <SectionHeader
-                title="Géographie"
-                icon={Globe}
-                accent={accent}
-                className="!text-left !items-start"
-              />
-              <div className="space-y-6">
-                {sign.paysAssocies?.map((p, i) => (
-                  <div
-                    key={i}
-                    className="p-8 rounded-[2rem] border border-white/5 bg-[#0c0c0e] hover:bg-[#111] transition-colors"
-                  >
-                    <div className="flex justify-between items-center mb-4">
-                      <h4 className="text-xl md:text-2xl font-serif text-white">
-                        {p.pays}
-                      </h4>
-                      <span className="text-[10px] text-slate-500 uppercase tracking-widest font-bold bg-white/5 px-3 py-1 rounded-full">
-                        {p.niveau}
-                      </span>
-                    </div>
-                    <p className="text-sm text-slate-400 leading-relaxed italic">
-                      {p.justification}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* --- ASCENDANT --- */}
-        {sign.ascendant && (
-          <section className="mb-40">
-            <SectionHeader
-              title={`L'Ascendant ${label}`}
-              accent={accent}
-              icon={User}
-              subtitle="Votre masque social et votre force vitale."
-            />
-            <PremiumCard accent={accent}>
-              <p className="text-xl md:text-2xl text-slate-300 italic mb-12 text-center max-w-4xl mx-auto leading-relaxed">
-                "{sign.ascendant.intro}"
-              </p>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pt-10 border-t border-white/5">
-                <BulletList
-                  title="Apparence"
-                  items={sign.ascendant.apparence}
-                  accent={accent}
-                />
-                <BulletList
-                  title="Tempérament"
-                  items={sign.ascendant.temperament}
-                  accent={accent}
-                />
-                <BulletList
-                  title="En Relation"
-                  items={sign.ascendant.enRelation}
-                  accent={accent}
-                />
-                <BulletList
-                  title="Vigilances"
-                  items={sign.ascendant.pointsDeVigilance}
-                  accent={accent}
-                />
-              </div>
-            </PremiumCard>
-          </section>
-        )}
-
-        {/* --- RÈGNES --- */}
-        <section className="grid md:grid-cols-3 gap-8 mb-40">
-          {hasItems(sign.pierresEtMetaux) && (
-            <div className="space-y-6">
-              <SectionHeader
-                title="Minéral"
-                icon={Gem}
-                accent={accent}
-                className="!mt-0 !mb-8"
-              />
-              {sign.pierresEtMetaux.map((p, i) => (
-                <PremiumCard key={i} accent={accent} className="!p-8">
-                  <h4 className="text-xl font-serif text-white mb-3">
-                    {p.nom}
-                  </h4>
-                  <p className="text-sm text-slate-400 font-light leading-relaxed mb-6">
-                    {p.description}
-                  </p>
-                  <PillList items={p.motsCles || []} accent={accent} soft />
-                </PremiumCard>
-              ))}
-            </div>
-          )}
-          {hasItems(sign.plantes) && (
-            <div className="space-y-6">
-              <SectionHeader
-                title="Végétal"
-                icon={Leaf}
-                accent={accent}
-                className="!mt-0 !mb-8"
-              />
-              {sign.plantes.map((p, i) => (
-                <PremiumCard key={i} accent={accent} className="!p-8">
-                  <h4 className="text-xl font-serif text-white mb-3">
-                    {p.nom}
-                  </h4>
-                  <p className="text-sm text-slate-400 font-light leading-relaxed mb-6">
-                    {p.description}
-                  </p>
-                  <PillList
-                    items={p.usagesSymboliques || []}
-                    accent={accent}
-                    soft
-                  />
-                </PremiumCard>
-              ))}
-            </div>
-          )}
-          {hasItems(sign.animaux) && (
-            <div className="space-y-6">
-              <SectionHeader
-                title="Animal"
-                icon={Anchor}
-                accent={accent}
-                className="!mt-0 !mb-8"
-              />
-              {sign.animaux.map((p, i) => (
-                <PremiumCard key={i} accent={accent} className="!p-8">
-                  <h4 className="text-xl font-serif text-white mb-3">
-                    {p.nom}
-                  </h4>
-                  <p className="text-sm text-slate-400 font-light leading-relaxed mb-6">
-                    {p.description}
-                  </p>
-                  <PillList items={p.motsCles || []} accent={accent} soft />
-                </PremiumCard>
-              ))}
-            </div>
-          )}
-        </section>
-
-        {/* --- FAQ --- */}
-        {hasItems(sign.faq) && (
-          <section className="mb-40 max-w-4xl mx-auto">
-            <SectionHeader
-              title="Foire Aux Questions"
-              icon={HelpCircle}
-              accent={accent}
-            />
-            <div className="space-y-6">
-              {sign.faq.map((item, i) => (
-                <details
-                  key={i}
-                  className="group rounded-[2rem] border border-white/10 bg-[#0c0c0e] p-8 transition-all hover:bg-[#111] hover:border-white/20"
-                >
-                  <summary
-                    className={`flex cursor-pointer list-none items-center justify-between font-serif text-xl md:text-2xl text-white outline-none focus-visible:ring-2 ${accent.ring} rounded-lg`}
-                  >
-                    <span className="pr-6 flex items-center gap-4">
-                      <span className={`${accent.text} font-bold`}>?</span>{" "}
-                      {item.question}
-                    </span>
-                  </summary>
-                  <p className="mt-6 text-[15px] md:text-base leading-relaxed text-slate-400 border-t border-white/5 pt-6">
-                    {item.answer}
-                  </p>
-                </details>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* --- NAVIGATION FOOTER --- */}
-        <footer
-          className={`mt-40 pt-20 border-t border-white/10 flex flex-col items-center`}
-        >
-          <div className="mb-24 px-10 py-6 rounded-full border border-white/5 bg-white/[0.02] shadow-inner backdrop-blur-sm">
-            <p
-              className={`font-serif text-3xl md:text-5xl ${accent.text} tracking-[0.3em] uppercase opacity-80`}
-            >
-              {sign.motCle}
-            </p>
-          </div>
-
-          <nav
-            aria-label="Pagination des signes"
-            className="w-full flex flex-col md:flex-row justify-between items-center gap-12"
-          >
-            <Link
-              href={`/signes/${prevSign.slug}`}
-              className={`group flex flex-col md:flex-row items-center gap-8 focus-visible:outline-none focus-visible:ring-2 ${accent.ring} rounded-3xl p-4 transition-all hover:bg-white/[0.02]`}
-            >
-              <div className="text-center md:text-right order-2 md:order-1">
-                <p className="text-[11px] uppercase tracking-[0.3em] text-slate-500 mb-2 font-bold group-hover:text-slate-400 transition-colors">
-                  Signe Précédent
-                </p>
-                <p className="text-3xl md:text-4xl text-white font-serif">
-                  {prevSign.name}
-                </p>
-              </div>
-              <div className="w-20 h-20 rounded-full border border-white/10 overflow-hidden bg-[#09090b] order-1 md:order-2 group-hover:border-white/30 transition-colors">
-                <Image
-                  src={`/images/zodiaque/${prevSign.slug}.webp`}
-                  alt={prevSign.name}
-                  width={80}
-                  height={80}
-                  className="object-cover opacity-70 group-hover:opacity-100 transition-opacity"
-                />
-              </div>
-            </Link>
-
-            <div
-              className="hidden md:block h-20 w-px bg-white/10"
-              aria-hidden={true}
-            />
-
-            <Link
-              href={`/signes/${nextSign.slug}`}
-              className={`group flex flex-col md:flex-row items-center gap-8 focus-visible:outline-none focus-visible:ring-2 ${accent.ring} rounded-3xl p-4 transition-all hover:bg-white/[0.02]`}
-            >
-              <div className="w-20 h-20 rounded-full border border-white/10 overflow-hidden bg-[#09090b] group-hover:border-white/30 transition-colors">
-                <Image
-                  src={`/images/zodiaque/${nextSign.slug}.webp`}
-                  alt={nextSign.name}
-                  width={80}
-                  height={80}
-                  className="object-cover opacity-70 group-hover:opacity-100 transition-opacity"
-                />
-              </div>
-              <div className="text-center md:text-left">
-                <p className="text-[11px] uppercase tracking-[0.3em] text-slate-500 mb-2 font-bold group-hover:text-slate-400 transition-colors">
-                  Signe Suivant
-                </p>
-                <p className="text-3xl md:text-4xl text-white font-serif">
-                  {nextSign.name}
-                </p>
-              </div>
-            </Link>
-          </nav>
-        </footer>
-      </main>
+        ))}
+      </div>
     </div>
   );
 }

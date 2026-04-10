@@ -1,876 +1,445 @@
 {
   "slug": "verseau",
-  "name": "Verseau",
+  "nom": "Verseau",
+  "sousTitre": "Le onzième signe du Zodiaque",
+  "devise": "Je comprends",
   "periode": "20 janvier – 18 février",
-  "polarite": "Actif (masculin)",
-  "mode": "Fixe",
   "element": "Air",
+  "mode": "Fixe",
   "maitre": "Saturne (tradition) / Uranus (moderne)",
-  "exaltation": null,
+  "exaltation": "—",
   "exil": "Soleil",
-  "chute": null,
-  "motCle": "Je comprends",
-  "mythologie": "Le Verseau est associé à la figure du porteur d’eau, celui qui verse une eau vivifiante sur le monde. Cette eau n’est pas émotionnelle, mais symbolique : elle représente le savoir, la conscience et la vision nouvelle. Le Verseau incarne l’esprit qui se détache du personnel pour servir le collectif, apportant des idées novatrices destinées à faire évoluer la société. Il représente le moment où l’être humain cherche à penser au-delà de lui-même, à relier l’individuel au collectif, et à ouvrir un futur différent.",
-  "analogie": {
-    "animal": "Aucun animal spécifique",
-    "objet": "Le courant, le réseau, le vase qui verse, l’éclair",
-    "fonction": "Innover, relier, éveiller"
+  "chute": "—",
+  "polarite": "Masculin",
+  "temperament": "Sanguin",
+  "maisonNaturelle": 11,
+  "couleur": {
+    "primaire": "#3B82F6",
+    "secondaire": "#06B6D4",
+    "accent": "#818CF8",
+    "gradient": "from-blue-500 via-cyan-400 to-teal-400"
   },
-  "anatomie": ["Chevilles", "Mollets", "Circulation nerveuse", "Système circulatoire"],
-  "generalites": [
-    "Le Verseau représente l’ouverture à une conscience plus large. Après la construction du Capricorne, il cherche à dépasser les structures existantes pour imaginer de nouvelles formes de vie collective.",
-    "Ce signe fonctionne par idées, principes et visions d’avenir. Il valorise l’indépendance, la liberté de pensée et l’originalité.",
-    "Son défi est de ne pas se couper de l’humain ou des émotions. Lorsqu’il est équilibré, le Verseau devient un éclaireur : libre, lucide et profondément humaniste.",
-    "Le Verseau relie aussi l’être humain au collectif, à l’amitié, aux réseaux, aux causes, aux innovations et à la possibilité de vivre autrement. Il a besoin d’espace mental, d’air, de vision et d’une forme de fidélité à ce qui vient plutôt qu’à ce qui est déjà figé."
-  ],
-  "caractere": [
-    "Le Verseau pense autrement, observe à distance et cherche à comprendre les systèmes, les groupes, les idées et les futurs possibles.",
-    "Son caractère est indépendant, original, souvent surprenant, avec un fort besoin de liberté intellectuelle et de cohérence intérieure.",
-    "Il préfère l’autonomie, la vision, l’ouverture et l’intelligence du collectif aux attachements étroits, aux conventions figées ou aux rapports trop possessifs.",
-    "Lorsqu’il est immature, il peut devenir imprévisible, détaché ou rebelle sans axe ; lorsqu’il mûrit, il devient une force de renouvellement, de lucidité et d’ouverture humaine."
-  ],
-  "aptitudesNaturelles": [
-    "Penser différemment",
-    "Relier des personnes ou des idées dans un réseau",
-    "Anticiper des évolutions",
-    "Remettre en question les normes devenues stériles",
-    "Servir une cause plus large que lui-même",
-    "Introduire de l’innovation dans un système"
-  ],
-  "ceQuIlRegitDansLeMonde": [
-    "Le collectif",
-    "Les réseaux",
-    "L’innovation",
-    "La réforme",
-    "L’avenir",
-    "Les amitiés électives",
-    "Les idéaux de progrès",
-    "La liberté de pensée et les systèmes nouveaux"
-  ],
-  "maisonCorrespondante": {
-    "numero": 11,
-    "nom": "Maison XI",
-    "resume": "La onzième maison parle des amitiés, des groupes, des réseaux, des projets collectifs, des idéaux, des soutiens et de la façon de se relier à un futur plus vaste que soi. Son analogie naturelle avec le Verseau souligne l’innovation, la vision d’avenir, la contribution au collectif et l’ouverture à d’autres possibles.",
-    "themes": [
-      "Amitiés",
-      "Collectif",
-      "Réseaux",
-      "Projets",
-      "Idéaux",
-      "Avenir"
-    ]
+  "navigation": {
+    "precedent": { "slug": "capricorne", "nom": "Capricorne" },
+    "suivant": { "slug": "poissons", "nom": "Poissons" }
   },
-  "forces": [
-    "Capacité à penser autrement",
-    "Vision collective et futuriste",
-    "Indépendance intellectuelle"
-  ],
-  "ombres": [
-    "Difficulté à s’impliquer émotionnellement",
-    "Opposition systématique",
-    "Déconnexion du concret ou de l’humain proche"
-  ],
-  "besoins": [
-    "Liberté de pensée",
-    "Espaces d’échange collectif",
-    "Idéaux porteurs de sens"
-  ],
-  "aTravailler": [
-    "Relier l’idée à l’émotion",
-    "Ancrer l’innovation dans le réel",
-    "Accepter les limites humaines",
-    "Ne pas se réfugier dans la distance pour éviter l’intimité",
-    "Distinguer indépendance et coupure"
-  ],
-  "quandCestEquilibre": [
-    "Le Verseau devient un visionnaire accessible, capable d’inspirer sans exclure.",
-    "Il met son originalité au service du collectif et du progrès humain.",
-    "Sa liberté ne détruit plus le lien : elle ouvre de nouvelles formes de relation, de pensée et de solidarité."
-  ],
-  "aptitudes": {
-    "atouts": [
-      "Indépendant",
-      "Original",
-      "Visionnaire",
-      "Humaniste",
-      "Inventif",
-      "Libre penseur"
+  "images": {
+    "signe": "/images/zodiaque/verseau.webp",
+    "planete": "/images/planetes/uranus.webp"
+  },
+  "introduction": "Le Verseau est le onzième signe du Zodiaque. Le Soleil le traverse entre le 20 janvier et le 18 février environ, au cœur de l'hiver, au moment où la lumière revient discrètement gagner du terrain sur l'obscurité, où une exubérance intérieure succède à l'austérité du Capricorne, où l'esprit cherche à s'élancer au-delà des structures établies. Avec ses deux vagues qui le symbolisent, le Verseau est un porteur d'eau — non pas une eau émotionnelle, mais une eau de connaissance, de vision, de conscience versée sur le monde. Après la construction patiente du Capricorne, le Verseau ouvre les portes : il questionne, réforme, relie, invente. Ce n'est pas un hasard si l'astrologie le place à la charnière entre l'architecture du passé et la promesse du futur : le Verseau incarne le geste qui dit « je comprends » — et qui, ayant compris, cherche à faire évoluer le monde.",
+  "fondationsCosmiques": {
+    "texte": "Le Verseau appartient à l'élément Air (chaud et humide), ce qui lui confère un tempérament sanguin : échanges, mobilité mentale, capacité de communication et d'adaptation. C'est le troisième niveau de l'Air — celui de la sublimation. Là où les Gémeaux explorent et circulent, là où la Balance relie et harmonise, le Verseau transcende : il utilise l'intelligence pour penser au-delà du connu, pour relier l'individuel au collectif, pour imaginer des formes de vie et de pensée qui n'existent pas encore. Son mode est fixe : contrairement à l'image d'instabilité qu'on lui prête parfois, le Verseau possède une stabilité, une fermeté et une indépendance puissantes. Il mène ses projets à terme avec une persévérance qui peut surprendre. Les opinions sont constantes, la volonté persistante, l'engagement intellectuel profond. Signe actif, émetteur et extraverti, il projette son énergie vers l'extérieur — mais cette énergie est d'abord mentale et conceptuelle avant d'être physique.",
+    "courteAscension": "Le Verseau est un signe de courte ascension — il passe rapidement au-dessus de l'horizon — ce qui signifie que statistiquement, moins de personnes naissent avec le Verseau comme Ascendant.",
+    "pluton": "Le Verseau est le domicile traditionnel diurne de Saturne, la planète du temps, de la structure et de la sagesse acquise par l'expérience. Depuis la découverte d'Uranus en 1781, de nombreux astrologues modernes lui ont attribué la maîtrise du Verseau, tant cette planète de rupture, d'innovation et de liberté correspond au tempérament profond de ce signe. La question de la double maîtrise Saturne-Uranus est essentielle pour comprendre le Verseau : Saturne lui donne sa rigueur, sa constance et sa capacité à structurer le temps ; Uranus lui donne sa fulgurance, son originalité et son besoin viscéral de liberté. Le destin de tout Verseau est de passer de l'un à l'autre — de la conservation à l'invention, du portail du passé à l'horizon du futur."
+  },
+  "analogies": {
+    "animal": "Aucun animal spécifique — le porteur d'eau est humain",
+    "objet": "Le courant, le réseau, le vase qui verse, l'éclair",
+    "fonction": "Innover, relier, éveiller",
+    "texte": "Le Verseau est le signe de l'originalité, de l'inspiration, de l'invention et de la nouveauté. Le savant, l'ingénieur, l'inventeur, l'excentrique — tous sont des archétypes de ce signe. De même que le porteur d'eau verse sur le monde une eau destinée à étancher la soif des esprits plutôt que celle des corps, le natif du Verseau cherche à transmettre, relier, faire progresser. C'est le progrès avec ses promesses et ses servitudes. C'est l'élan vers le futur, le goût des théories nouvelles, l'attraction pour tout ce qui sort des sentiers battus. Le Verseau inscrit dans le Zodiaque, comme un fait inéluctable, son appartenance à l'ensemble des hommes."
+  },
+  "mythologie": {
+    "titre": "Prométhée et Pandore",
+    "texte": "Le Verseau est lié au mythe de Prométhée, le titan visionnaire qui déroba le feu aux dieux pour le donner aux hommes — non pas un feu physique, mais le feu de l'intelligence, de la connaissance et de la conscience. Ce geste, naturel pour Prométhée, était un crime pour les dieux. Zeus le fit enchaîner à un rocher où un aigle lui dévorait éternellement le foie, organe qui ne cesse de se régénérer. Prométhée incarne le héros verseau par excellence : visionnaire, rebelle par altruisme, prêt à affronter l'autorité suprême pour faire accéder l'humanité à un niveau supérieur. L'autre versant du mythe, Pandore, rappelle que la connaissance a un prix : ouvrir la jarre, c'est libérer tous les maux — mais aussi l'espérance. Les deux récits disent la même chose : la connaissance ne doit pas être vaine curiosité, elle n'apporte rien si elle ne s'allie pas à la sagesse. Uranus doit s'allier à Saturne. Il n'y a pas de raccourci pour acquérir la connaissance vraie.",
+    "civilisations": "Le Verseau est aussi associé à Janus, le dieu aux deux visages : l'un tourné vers le passé (Saturne), l'autre vers l'avenir (Uranus). D'une main Janus ferme une porte — pour trouver la solitude chère à Saturne — de l'autre il en ouvre une donnant sur un large horizon — pour trouver la liberté, oxygène primordial d'Uranus. Dans la mythologie mésopotamienne, Ea, le dieu de l'eau douce et de la sagesse, versait l'eau de la connaissance sur la terre. En Égypte, le dieu Hâpi versait les eaux du Nil en tenant deux vases — symbole nourricier et civilisateur. Le Verseau traverse les civilisations comme porteur d'une même promesse : celle d'une eau qui n'est pas faite pour le corps mais pour l'esprit."
+  },
+  "portrait": {
+    "temperament": "Le Verseau pense autrement, observe à distance et cherche à comprendre les systèmes, les groupes, les idées et les futurs possibles. La curiosité est habituellement très grande, on pourrait dire universelle ; l'assimilation est aisée, ce qui permet l'acquisition de vastes connaissances. Le sujet est principalement attiré par les théories nouvelles, les découvertes récentes et tout ce qui se place à l'avant du progrès. Les dons d'invention sont très appréciables et l'intuition intervient souvent d'une façon heureuse. Son caractère est indépendant, original, souvent surprenant, avec un fort besoin de liberté intellectuelle et de cohérence intérieure. Très épris d'indépendance, parfois porté à l'esprit de contradiction, il dédaigne les bavardages et les relations inutiles, n'appréciant que les fortes personnalités avec qui il peut se livrer à de savantes discussions. Ce n'est jamais un mondain, mais un penseur, un indépendant, un original qui se soumet difficilement aux conventions. L'activité est considérable mais parfois diffuse : le sujet peut fournir des efforts très prolongés lorsqu'il est absorbé par une recherche, mais il peut aussi gaspiller ses facultés dans la poursuite de réalisations utopiques. Lorsqu'il est immature, il peut devenir imprévisible, détaché ou rebelle sans axe ; lorsqu'il mûrit, il devient une force de renouvellement, de lucidité et d'ouverture humaine.",
+    "forces": [
+      "Penser différemment et remettre en question les normes devenues stériles",
+      "Relier des personnes, des idées et des systèmes dans un réseau fécond",
+      "Anticiper des évolutions que la plupart ne voient pas encore",
+      "Servir une cause plus large que lui-même avec désintéressement",
+      "Introduire de l'innovation dans un système figé",
+      "Maintenir une indépendance intellectuelle même sous la pression"
     ],
-    "defis": [
-      "Détaché",
-      "Imprévisible",
-      "Rebelle sans cause",
-      "Rigidité idéologique"
-    ]
+    "ombres": [
+      "Difficulté à s'impliquer émotionnellement dans les relations proches",
+      "Opposition systématique ou esprit de contradiction stérile",
+      "Déconnexion du concret ou de l'humain proche au profit de l'abstraction",
+      "Conceptions utopiques qui compromettent la réussite par manque de sens pratique",
+      "Tendance à se réfugier dans la distance mentale pour éviter l'intimité"
+    ],
+    "besoinsVitaux": [
+      "Liberté de pensée et d'action, sans contrainte arbitraire",
+      "Espaces d'échange intellectuel et de projet collectif",
+      "Idéaux porteurs de sens qui dépassent l'intérêt strictement personnel"
+    ],
+    "aTravailler": [
+      "Relier l'idée à l'émotion et la vision au ressenti",
+      "Ancrer l'innovation dans le réel et le concret",
+      "Accepter les limites humaines et les imperfections du quotidien",
+      "Ne pas se réfugier dans la distance pour éviter l'intimité véritable",
+      "Distinguer indépendance saine et coupure relationnelle"
+    ],
+    "equilibre": "Le Verseau en pleine possession de ses moyens devient un visionnaire accessible, capable d'inspirer sans exclure, de réformer sans détruire. Il met son originalité au service du collectif et du progrès humain. Sa liberté ne détruit plus le lien : elle ouvre de nouvelles formes de relation, de pensée et de solidarité. Son détachement devient une sérénité lucide, et sa pensée, au lieu de l'isoler, le relie au monde d'une manière plus vraie et plus vaste."
   },
+  "sante": {
+    "zones": ["Chevilles", "Mollets", "Circulation nerveuse", "Système circulatoire"],
+    "texte": "Le Verseau gouverne les chevilles, les mollets, le système nerveux et la circulation du sang. Il prédispose aux varices, aux ulcères variqueux, aux troubles médullaires, aux entorses et aux complications nerveuses ou cardiaques. Le système nerveux est particulièrement sollicité chez ce signe cérébral, et les affections venant de cet axe peuvent se transmettre par hérédité. Les natifs du Verseau doivent veiller à ne pas épuiser leur énergie nerveuse dans des activités trop exclusivement mentales, et à entretenir une bonne circulation sanguine par l'exercice physique régulier. Les jambes, les chevilles et tout le réseau circulatoire demandent une attention particulière, surtout en période de surmenage intellectuel."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "L'identité et le tempérament",
+      "texte": "La curiosité est universelle, l'assimilation aisée, les connaissances vastes. Le sujet est attiré par les théories nouvelles, les découvertes récentes et tout ce qui sort des sentiers officiels. Les dons d'invention sont très appréciables et l'intuition intervient souvent de façon heureuse. Très épris d'indépendance, peu expansif en apparence, il n'apprécie que les fortes personnalités. L'activité est considérable mais souvent diffuse : il peut fournir des efforts prolongés quand une recherche le passionne, mais risque de gaspiller ses facultés dans des réalisations utopiques. Il peut réussir grâce à ses dons d'invention, mais échoue fréquemment lorsqu'il veut appliquer des conceptions trop originales."
+    },
+    {
+      "numero": 2,
+      "titre": "Les ressources",
+      "texte": "Contrairement aux autres signes fixes, cette position ne confère pas une grande stabilité financière. Les fluctuations sont nombreuses, imprévues et importantes, dues le plus souvent à la mise en pratique de nouvelles méthodes ou de procédés innovants. Le natif peut dépenser largement pour des expériences, des essais ou un équipement de pointe. Si les aspects sont favorables, d'importants gains peuvent être réalisés dans l'exploitation d'inventions ou d'affaires nouvelles. Le sujet est particulièrement sensible à l'ambiance mondiale : crises, révolutions, krachs boursiers. Les revirements, bons et mauvais, s'effectuent de façon rapide, voire brutale."
+    },
+    {
+      "numero": 3,
+      "titre": "La communication",
+      "texte": "Accroît la curiosité intellectuelle, l'esprit scientifique et prédestine aux recherches ou inventions. Attrait marqué pour les théories révolutionnaires dans tous les domaines. Bien que ce soit un signe fixe, cette position ne contrarie pas les voyages ; elle indiquerait plutôt des déplacements entrepris dans un but d'étude ou d'enquête. L'entente avec les frères, cousins et voisins n'est pas toujours harmonieuse : les rapports manquent parfois de chaleur car les proches peuvent être excentriques et peu sociables."
+    },
+    {
+      "numero": 4,
+      "titre": "Les racines",
+      "texte": "Si les autres indications du thème sont concordantes, il y a des risques de divergences familiales et même de brouilles, parfois perte précoce d'un parent. Il semble préférable pour le sujet d'aller tenter sa chance en dehors du lieu de naissance. Ne semble guère propice à l'acquisition de biens immobiliers ni à la création d'un foyer harmonieux. La fin de la vie manque souvent de sécurité. Dans des cas très rares, succès scientifiques ou découverte importante pendant la dernière partie de l'existence."
+    },
+    {
+      "numero": 5,
+      "titre": "La création et les amours",
+      "texte": "Position assez dangereuse pour les spéculations : le sujet bénéficie à certains moments d'intuitions heureuses permettant des gains encourageants, ce qui l'incite ensuite à des imprudences causant des pertes irréparables. N'est guère favorable aux satisfactions sentimentales ni à la progéniture. Les chagrins d'amour sont fréquents. Légèrement favorable pour une carrière artistique, théâtrale ou cinématographique, où l'originalité du Verseau peut trouver un terrain d'expression."
+    },
+    {
+      "numero": 6,
+      "titre": "Le quotidien et la santé",
+      "texte": "Prédispose aux maladies du signe : troubles nerveux, circulatoires, varices. Le sujet est souvent obligé de s'astreindre à un travail qui lui déplaît, et dans le cas où il parvient à une situation indépendante, il peut difficilement compter sur des collaborateurs trop irréguliers. Si le sujet embrasse la carrière médicale, cette position accroît son intuition en matière de diagnostic. Il aura tendance à soigner par les méthodes nouvelles : électricité, radiations et techniques d'avant-garde."
+    },
+    {
+      "numero": 7,
+      "titre": "Les associations et le mariage",
+      "texte": "Retarde souvent le mariage ou le rend difficile, avec risques de divorce si l'union a lieu trop tôt. Des circonstances imprévues peuvent hâter ou retarder les projets. Le caractère du conjoint manque souvent de douceur et de docilité. Au sujet des procès, cette position est assez dangereuse si les aspects sont mauvais : il est préférable de rechercher des arrangements à l'amiable. Les ennemis déclarés ne sont pas très nombreux, mais ils sont tenaces et subtils. Il est préférable d'éviter les associations."
+    },
+    {
+      "numero": 8,
+      "titre": "Les transformations",
+      "texte": "Augmente les risques de mort subite ou accidentelle qui pourraient exister par ailleurs. Plus souvent, cette position présage une fin hâtée par des complications nerveuses ou cardiaques. Si les aspects sont excellents, possibilité d'un héritage inattendu ou d'une succession plus importante qu'espéré, arrivant à point nommé. Dans le cas contraire, des déceptions imprévues dans le règlement des affaires de famille sont à envisager."
+    },
+    {
+      "numero": 9,
+      "titre": "Les horizons lointains",
+      "texte": "Les tendances scientifiques du Verseau se teintent parfois de mysticisme : le sujet s'intéresse aux questions métaphysiques, spirituelles ou occultes. L'intuition est généralement appréciable, mais si les aspects sont dissonants, le sujet risque de devenir un utopique ou un illuminé. Cette position restreint les possibilités de longs voyages, mais si les déplacements sont peu nombreux, ils sont parfois très importants et peuvent correspondre à des changements de situation significatifs."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocation",
+      "texte": "Bonne position pour une carrière intellectuelle, notamment pour le journalisme, la littérature et toutes les occupations se rapportant aux écrits ou aux sciences. La situation subit quelques changements inattendus pouvant la modifier totalement. Le désir d'appliquer des méthodes personnelles peut provoquer des échecs, mais le sujet parvient à se redresser grâce à son ingéniosité et sa souplesse. Dans des cas très rares, notoriété due à une découverte ou une innovation majeure."
+    },
+    {
+      "numero": 11,
+      "titre": "Les amitiés",
+      "texte": "La position la plus naturelle pour le Verseau. Les amis ne sont guère expansifs ni complaisants et ne s'intéressent qu'aux questions d'ordre intellectuel, mais ils peuvent rendre de grands services et influencer considérablement l'évolution mentale du natif. Si les aspects sont excellents, le sujet trouve des amis au moment exact où ils sont susceptibles de lui être utiles, dans des circonstances imprévisibles. Si la maison est mal aspectée, les amis sont trop originaux, voire maniaques, et il devient difficile de compter sur eux."
+    },
+    {
+      "numero": 12,
+      "titre": "Les épreuves cachées",
+      "texte": "Les jalousies, les inimitiés cachées et les calomnies sont toujours nombreuses avec cette position. Selon que les aspects sont harmoniques ou dissonants, les ennemis cachés peuvent évoluer pour devenir des amis, ou au contraire ce sont les amis qui se détachent lentement pour faire une opposition sournoise. Les recherches de laboratoire et les études d'occultisme sont facilitées par cette position. Dans les thèmes très difficiles, risques de réclusion ou d'exil à la suite de prises de position trop radicales."
+    }
+  ],
   "amour": {
-    "intro": "Le Verseau aime avec liberté, originalité, complicité mentale et besoin d’espace. Il cherche souvent une relation vivante, intelligente, non étouffante, où chacun peut rester lui-même sans être possédé. Il aime le lien, mais il le veut respirable, conscient et dégagé des formes trop figées.",
+    "texte": "Le Verseau aime avec liberté, originalité, complicité mentale et besoin d'espace. Il cherche une relation vivante, intelligente, non étouffante, où chacun peut rester lui-même sans être possédé. Le plan cérébral prédomine habituellement sur les sens et les sentiments : il n'est ni très émotif, ni très sensuel, ce qui peut le rendre déroutant pour les signes plus passionnels. Cependant, il sait faire preuve de fidélité et d'honnêteté dans ses sentiments. L'union est souvent imprévue, et le conjoint d'une condition ou de goûts très différents des siens. Le Verseau aime le lien, mais il le veut respirable, conscient et dégagé des formes trop figées.",
     "qualites": [
-      "Grande liberté dans le lien",
-      "Ouverture d’esprit",
-      "Complicité mentale et amicale",
+      "Grande liberté accordée à l'autre dans le lien",
+      "Ouverture d'esprit et refus des possessions étouffantes",
+      "Complicité mentale et amicale profonde",
       "Capacité à aimer sans vouloir enfermer",
       "Goût des relations singulières et sincères"
     ],
     "vigilances": [
       "Peut sembler distant ou difficile à saisir affectivement",
-      "Risque de se protéger derrière l’idée ou l’humour",
+      "Risque de se protéger derrière l'idée ou l'humour",
       "Difficulté avec les demandes de fusion ou de possession",
-      "Tendance à valoriser la liberté au point d’éviter certaines profondeurs émotionnelles"
+      "Tendance à valoriser la liberté au point d'éviter certaines profondeurs émotionnelles"
     ],
-    "compatibleAvec": ["Gémeaux", "Balance", "Sagittaire", "Bélier"],
-    "attirePar": [
-      "Les personnes libres, intelligentes et originales",
-      "Les liens fondés sur la complicité et le respect mutuel",
-      "Les relations où chacun peut respirer",
-      "Les personnes qui savent conjuguer profondeur et indépendance"
-    ]
+    "affinites": ["gemeaux", "balance", "sagittaire", "belier"]
   },
   "travail": {
-    "intro": "Le Verseau travaille bien lorsqu’il peut innover, penser autrement, relier des personnes, transformer des systèmes ou servir une vision d’avenir. Il excelle souvent dans les domaines où l’on a besoin de créativité conceptuelle, de recul, d’invention ou de travail en réseau.",
-    "qualites": [
-      "Originalité",
-      "Capacité à voir autrement",
-      "Vision d’ensemble",
-      "Esprit d’innovation",
-      "Aptitude à relier personnes, idées et systèmes"
+    "texte": "Le Verseau travaille bien lorsqu'il peut innover, penser autrement, relier des personnes, transformer des systèmes ou servir une vision d'avenir. Il excelle dans les domaines où l'on a besoin de créativité conceptuelle, de recul, d'invention ou de travail en réseau. Dans les destinées modestes, réussite dans tout ce qui touche aux technologies, aux sciences et aux métiers d'avant-garde. Dans les thèmes puissants, le succès peut venir à la suite d'une innovation ou d'une invention. Dans tous les cas, la réussite matérielle reste souvent précaire par rapport à la réussite intellectuelle.",
+    "atouts": [
+      "Originalité et capacité à voir autrement",
+      "Vision d'ensemble et esprit d'innovation",
+      "Aptitude à relier personnes, idées et systèmes",
+      "Capacité à anticiper les évolutions futures"
     ],
-    "vigilances": [
+    "defis": [
       "Supporte mal les cadres absurdes ou trop rigides",
-      "Peut se détacher excessivement du concret",
-      "Risque de s’opposer par principe",
+      "Peut se détacher excessivement du concret ou du pratique",
+      "Risque de s'opposer par principe plutôt que par nécessité",
       "Peut avoir du mal avec les hiérarchies fermées ou les routines sans sens"
-    ],
-    "domainesFavorables": [
-      "Technologie",
-      "Innovation",
-      "Sciences humaines",
-      "Réseaux",
-      "Recherche",
-      "Associatif",
-      "Communication d’idées",
-      "Fonctions où il faut relier, réformer, anticiper ou inventer"
     ]
   },
   "argent": {
-    "intro": "Le Verseau a souvent un rapport original et parfois détaché à l’argent. Il peut le voir comme un outil d’autonomie, de liberté, de projet ou de contribution à une vision plus large. Il n’est pas toujours attaché à la possession pour elle-même, mais plutôt à ce qu’elle permet d’inventer, de soutenir ou de rendre possible.",
+    "texte": "Le Verseau a un rapport souvent original et parfois détaché à l'argent. Il le voit comme un outil d'autonomie, de liberté, de projet ou de contribution à une vision plus large. L'aisance est généralement limitée ; il y a peu d'acquisivité au sens classique. Les gains sont irréguliers, souvent liés à des affaires sortant de l'ordinaire. Le Verseau n'est pas attaché à la possession pour elle-même, mais plutôt à ce qu'elle permet d'inventer, de soutenir ou de rendre possible.",
     "forces": [
-      "Capacité à penser autrement les ressources",
+      "Capacité à penser autrement les ressources et la valeur",
       "Rapport libre aux modes classiques de possession",
-      "Aptitude à financer un projet ou une idée",
-      "Vision non conventionnelle de la valeur"
+      "Aptitude à financer un projet ou à soutenir une idée",
+      "Vision non conventionnelle de la richesse"
     ],
     "risques": [
-      "Irrégularité",
+      "Irrégularité des revenus et fluctuations imprévues",
       "Détachement trop abstrait des réalités matérielles",
-      "Décisions soudaines",
-      "Difficulté à entrer dans une logique de gestion trop classique"
+      "Décisions financières soudaines ou insuffisamment réfléchies",
+      "Difficulté à entrer dans une logique de gestion classique"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Soleil",
+      "slug": "soleil",
+      "description": "Le Soleil en Verseau construit une identité indépendante, originale et tournée vers un futur plus large que le seul moi. Il a besoin d'être lui-même hors des normes imposées.",
+      "manifestations": ["Indépendance", "Originalité", "Vision d'avenir", "Capacité à penser autrement"]
+    },
+    {
+      "nom": "Lune",
+      "slug": "lune",
+      "description": "La Lune en Verseau vit les émotions avec besoin d'espace, de recul et de respiration. Elle se protège souvent en mentalisant ou en prenant de la distance.",
+      "manifestations": ["Liberté intérieure", "Capacité à ne pas se noyer dans l'émotion", "Souplesse relationnelle", "Besoin d'amitié et d'air"]
+    },
+    {
+      "nom": "Mercure",
+      "slug": "mercure",
+      "description": "Mercure en Verseau pense de manière originale, inventive, libre et souvent non conventionnelle. L'esprit cherche à comprendre des systèmes, des réseaux, des idées nouvelles.",
+      "manifestations": ["Pensée inventive", "Esprit libre", "Capacité à relier des concepts", "Vision d'ensemble"]
+    },
+    {
+      "nom": "Vénus",
+      "slug": "venus",
+      "description": "Vénus en Verseau aime avec liberté, originalité, distance juste et goût de l'inattendu. Le plaisir passe par la singularité, la complicité mentale et le refus des liens étouffants.",
+      "manifestations": ["Ouverture relationnelle", "Capacité à aimer sans posséder", "Charme original", "Goût des liens atypiques"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars en Verseau agit de manière originale, libre, parfois imprévisible, souvent orientée vers une cause, un idéal ou un besoin de rupture avec l'ancien.",
+      "manifestations": ["Indépendance d'action", "Audace mentale", "Capacité à défendre une cause", "Énergie de réforme"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter en Verseau amplifie la vision collective, la confiance dans le progrès, l'ouverture aux réseaux et la foi dans des idées capables de faire évoluer le monde.",
+      "manifestations": ["Humanisme", "Vision large", "Ouverture au collectif", "Capacité à fédérer autour d'une idée"]
+    },
+    {
+      "nom": "Saturne",
+      "slug": "saturne",
+      "description": "Saturne en Verseau structure la pensée collective, les réseaux, les responsabilités sociales et le rapport à la liberté. Il cherche une forme juste de système ou d'organisation humaine.",
+      "manifestations": ["Sens de la responsabilité collective", "Capacité à structurer des réseaux ou des idées", "Maturité intellectuelle", "Vision réformiste construite"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus en Verseau est dans une de ses expressions les plus naturelles : rupture, innovation, éveil collectif, liberté, invention de formes nouvelles.",
+      "manifestations": ["Très grande originalité", "Vision de rupture", "Capacité à inventer autrement", "Intuition du futur"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune en Verseau cherche un idéal collectif, une utopie humaine, une fraternité possible et une inspiration tournée vers le futur et les réseaux.",
+      "manifestations": ["Idéal humaniste", "Imagination sociale", "Vision inspirée du collectif", "Ouverture à de nouvelles formes de sens"]
+    },
+    {
+      "nom": "Pluton",
+      "slug": "pluton",
+      "description": "Pluton en Verseau transforme profondément les systèmes, les réseaux, les technologies, les formes de pouvoir collectif et les modèles d'organisation du futur.",
+      "manifestations": ["Puissance de transformation collective", "Lucidité sur les systèmes", "Capacité à refonder un modèle", "Volonté d'évolution radicale"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Bélier",
+      "type": "complementaire",
+      "titre": "Action et liberté",
+      "texte": "Le Verseau pense autrement, le Bélier agit vite. Le lien peut être très stimulant si chacun respecte l'indépendance de l'autre. Les deux partagent un goût de la liberté et une aversion pour la routine.",
+      "forces": ["Liberté", "Stimulation", "Originalité", "Élan vers l'avenir"],
+      "frictions": ["Impulsivité du Bélier", "Distance du Verseau", "Conflits idéologiques ou de rythme"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taureau",
+      "type": "delicate",
+      "titre": "Stabilité et rupture",
+      "texte": "Le Taureau veut conserver ce qui a de la valeur ; le Verseau veut parfois casser ce qui fige. Le lien peut être fascinant mais très déstabilisant pour les deux parties.",
+      "forces": ["Possibilité de réinventer des fondations", "Complémentarité entre concret et vision", "Stimulation réelle"],
+      "frictions": ["Le Taureau supporte mal l'imprévisible", "Le Verseau supporte mal la fixation", "Conflit entre sécurité et liberté"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gémeaux",
+      "type": "fluide",
+      "titre": "Air, esprit et ouverture",
+      "texte": "Le Verseau et les Gémeaux partagent le goût de l'intelligence, de la circulation, de l'échange et d'une certaine liberté mentale. Le lien peut être très vivant et stimulant intellectuellement.",
+      "forces": ["Stimulation intellectuelle", "Ouverture d'esprit", "Liberté", "Complicité mentale"],
+      "frictions": ["Excès de mental", "Difficulté à ancrer le lien", "Tendance à éviter certaines profondeurs"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "delicate",
+      "titre": "Distance et attachement",
+      "texte": "Le Verseau cherche de l'espace, le Cancer cherche de la sécurité affective. Le lien peut être enrichissant mais demande une vraie compréhension des besoins profondément opposés de chacun.",
+      "forces": ["Le Cancer humanise, le Verseau ouvre", "Possibilité d'élargir le monde affectif", "Complémentarité entre intime et collectif"],
+      "frictions": ["Le Cancer peut souffrir de la distance du Verseau", "Le Verseau peut étouffer face au besoin d'attachement", "Conflit entre sécurité émotionnelle et liberté"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Lion",
+      "type": "complementaire",
+      "titre": "Axe Verseau–Lion",
+      "texte": "Le Verseau ouvre au collectif et à la vision, le Lion affirme le cœur créateur et le rayonnement personnel. C'est un axe très fort entre singularité et groupe, entre le moi et le futur partagé.",
+      "forces": ["Stimulation forte", "Originalité", "Complémentarité entre cœur et idée", "Capacité à créer quelque chose de visible et différent"],
+      "frictions": ["Le Lion peut trouver le Verseau trop distant", "Le Verseau peut trouver le Lion trop centré sur lui", "Conflit entre reconnaissance personnelle et détachement"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Vierge",
+      "type": "variable",
+      "titre": "Réforme et précision",
+      "texte": "Le Verseau veut repenser les systèmes ; la Vierge veut améliorer le réel dans le détail. Le lien peut être intelligent et productif s'il accepte deux styles de lucidité très différents.",
+      "forces": ["Intelligence", "Complémentarité entre réforme et méthode", "Capacité à faire évoluer concrètement"],
+      "frictions": ["Le Verseau peut sembler trop abstrait ou imprévisible", "La Vierge peut sembler trop normative ou trop critique", "Conflit entre innovation et contrôle"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Balance",
+      "type": "fluide",
+      "titre": "Air relationnel et air libre",
+      "texte": "La Balance relie dans la douceur du lien, le Verseau ouvre dans la liberté mentale. Le rapport peut être élégant, stimulant et très respirable pour les deux.",
+      "forces": ["Ouverture", "Dialogue", "Élégance mentale", "Respect de l'espace"],
+      "frictions": ["La Balance peut vouloir plus de lien", "Le Verseau peut vouloir plus de distance", "Conflit entre harmonie relationnelle et indépendance"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpion",
+      "type": "intense",
+      "titre": "Profondeur et détachement",
+      "texte": "Le Scorpion veut aller au fond, le Verseau prend du recul. Le lien peut être très magnétique mais aussi très complexe à accorder, tant les besoins sont opposés.",
+      "forces": ["Lucidité", "Intensité", "Capacité à transformer des visions", "Attraction entre deux puissances très différentes"],
+      "frictions": ["Le Scorpion peut trouver le Verseau trop froid", "Le Verseau peut trouver le Scorpion trop intense ou contrôlant", "Conflit entre fusion et liberté"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittaire",
+      "type": "fluide",
+      "titre": "Ouverture et horizon",
+      "texte": "Le Verseau et le Sagittaire partagent le goût de l'espace, de l'idée, de la liberté et d'un avenir plus vaste. Le lien peut être très stimulant et mutuellement inspirant.",
+      "forces": ["Ouverture d'esprit", "Liberté", "Vision", "Mouvement"],
+      "frictions": ["Manque d'ancrage", "Distance émotionnelle", "Tendance à vivre dans l'idée ou l'horizon"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorne",
+      "type": "complementaire",
+      "titre": "Structure et réforme",
+      "texte": "Le Capricorne organise et conserve ce qui tient ; le Verseau réforme et ouvre des voies nouvelles. C'est un axe fort entre système établi et futur possible, entre Saturne conservateur et Uranus innovateur.",
+      "forces": ["Complémentarité entre cadre et innovation", "Vision stratégique", "Capacité à transformer utilement"],
+      "frictions": ["Le Capricorne peut sembler trop rigide", "Le Verseau peut sembler trop imprévisible", "Conflit entre sécurité et changement"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Verseau",
+      "type": "fluide",
+      "titre": "Liberté face à liberté",
+      "texte": "Deux Verseaux peuvent se comprendre dans leur besoin d'espace, d'originalité, de pensée libre et de non-conformisme. Le lien peut être stimulant et très singulier, mais aussi très désincarné.",
+      "forces": ["Liberté", "Originalité", "Complicité d'esprit", "Respect de l'indépendance"],
+      "frictions": ["Distance affective", "Trop de mental", "Difficulté à incarner la relation"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Poissons",
+      "type": "variable",
+      "titre": "Vision collective et sensibilité diffuse",
+      "texte": "Le Verseau pense en réseaux et en idées ; les Poissons ressentent en profondeur et en intuition. Le lien peut être très inspirant mais aussi déroutant par ses contrastes.",
+      "forces": ["Inspiration", "Ouverture à d'autres possibles", "Complémentarité entre vision et compassion", "Créativité subtile"],
+      "frictions": ["Le Verseau peut sembler trop distant ou cérébral", "Les Poissons peuvent sembler trop flous ou poreux", "Conflit entre détachement et fusion sensible"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si votre ascendant est Verseau, vous entrez dans la vie avec originalité, distance, liberté de ton et besoin de rester vous-même. Même si votre Soleil est dans un autre signe, votre manière spontanée d'agir, de vous présenter et de réagir porte une tonalité indépendante, ouverte et non conventionnelle.",
+    "apparence": [
+      "Présence singulière ou atypique",
+      "Allure libre, détachée ou originale",
+      "Regard souvent curieux, direct ou lointain",
+      "Impression d'indépendance et de décalage subtil"
     ],
-    "rapportTypique": [
-      "Peut dépenser pour la liberté, la technologie, les projets ou les causes",
-      "Peut chercher des modes de vie moins conventionnels",
-      "A besoin de sentir que l’argent sert une autonomie ou une vision",
-      "Doit apprendre à relier indépendance et stabilité concrète"
+    "temperament": [
+      "Réagit à sa manière, rarement selon les conventions",
+      "A besoin d'espace et d'autonomie pour s'exprimer",
+      "Supporte mal les cadres trop fermés ou les contraintes arbitraires",
+      "Entre souvent dans les situations par l'idée, l'observation ou l'originalité"
+    ],
+    "vigilances": [
+      "Distance affective pouvant dérouter l'entourage",
+      "Besoin de rupture trop rapide face aux situations contraignantes",
+      "Difficulté à se laisser dépendre de quelqu'un",
+      "Tendance à se protéger par la cérébralité plutôt que par le ressenti"
     ]
   },
   "etoilesFixes": [
     {
       "nom": "Sadalmelik",
       "nature": "Mercure / Saturne",
-      "motsCles": ["Vision", "Collectif", "Responsabilité", "Élévation mentale"],
-      "description": "Sadalmelik peut évoquer une capacité à porter une vision collective, à penser sur une large échelle et à structurer une perspective tournée vers l’avenir. Elle s’accorde bien avec la dimension sociale et cérébrale du Verseau."
+      "texte": "Sadalmelik évoque une capacité à porter une vision collective, à penser sur une large échelle et à structurer une perspective tournée vers l'avenir. Elle s'accorde avec la dimension sociale et cérébrale du Verseau.",
+      "motsCles": ["Vision", "Collectif", "Responsabilité", "Élévation mentale"]
     },
     {
       "nom": "Sadalsuud",
       "nature": "Jupiter / Mercure",
-      "motsCles": ["Ouverture", "Réseau", "Intelligence sociale", "Protection du futur"],
-      "description": "Sadalsuud apporte une tonalité d’ouverture, de chance liée aux connexions, de circulation des idées et d’optimisme tourné vers le collectif. Elle résonne bien avec l’esprit du Verseau."
+      "texte": "Sadalsuud apporte une tonalité d'ouverture, de chance liée aux connexions, de circulation des idées et d'optimisme tourné vers le collectif. Elle résonne avec l'esprit du Verseau et sa quête d'un futur meilleur.",
+      "motsCles": ["Ouverture", "Réseau", "Intelligence sociale", "Protection du futur"]
     }
   ],
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Verseau s’exprime par l’originalité, l’indépendance, la vision collective et la liberté de pensée. Le principe de la planète devient plus détaché, plus tourné vers l’avenir, les systèmes, les idées nouvelles ou les formes alternatives. Cela favorise l’innovation et l’ouverture, mais peut aussi créer de la distance affective ou une certaine rigidité intellectuelle.",
-    "motsCles": [
-      "Innovation",
-      "Liberté",
-      "Collectif",
-      "Vision",
-      "Originalité",
-      "Avenir"
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Améthyste", "motsCles": ["vision", "lucidité", "élévation", "air"] },
+      { "nom": "Labradorite", "motsCles": ["intuition", "protection", "originalité", "réseau"] },
+      { "nom": "Uranium (symbolique)", "motsCles": ["uranus", "innovation", "électricité", "rupture"] }
     ],
-    "planetes": {
-      "soleil": {
-        "tonalite": "Le Soleil en Verseau construit une identité indépendante, originale et tournée vers un futur plus large que le seul moi. Il a besoin d’être lui-même hors des normes imposées.",
-        "forces": [
-          "Indépendance",
-          "Originalité",
-          "Vision d’avenir",
-          "Capacité à penser autrement"
-        ],
-        "defis": [
-          "Distance affective",
-          "Besoin d’être différent à tout prix",
-          "Difficulté à habiter certaines conventions nécessaires",
-          "Tendance à se définir contre plutôt que pour"
-        ],
-        "enAmour": [
-          "A besoin de liberté et de respect mutuel",
-          "Cherche un lien intelligent et non possessif"
-        ],
-        "auTravail": [
-          "Très fort dans les univers d’innovation, de réseau ou de réforme",
-          "A besoin d’un projet qui a du sens collectif"
-        ],
-        "avecArgent": [
-          "Peut penser en termes d’autonomie et de projet",
-          "Doit relier vision et stabilité"
-        ]
-      },
-      "lune": {
-        "tonalite": "La Lune en Verseau vit les émotions avec besoin d’espace, de recul et de respiration. Elle se protège souvent en mentalisant ou en prenant de la distance.",
-        "forces": [
-          "Liberté intérieure",
-          "Capacité à ne pas se noyer dans l’émotion",
-          "Souplesse relationnelle",
-          "Besoin d’amitié et d’air"
-        ],
-        "defis": [
-          "Détachement excessif",
-          "Difficulté à exprimer certains besoins affectifs",
-          "Sentiment d’être à part",
-          "Tendance à intellectualiser l’émotion"
-        ],
-        "enAmour": [
-          "A besoin d’un lien respirable",
-          "Cherche une relation fondée sur le respect, l’amitié et l’espace"
-        ],
-        "auTravail": [
-          "Travaille mieux dans des environnements ouverts, souples et non oppressants",
-          "A besoin d’un climat mental stimulant"
-        ],
-        "avecArgent": [
-          "Peut gérer de manière irrégulière mais inventive",
-          "A besoin d’un minimum de liberté matérielle pour se sentir bien"
-        ]
-      },
-      "mercure": {
-        "tonalite": "Mercure en Verseau pense de manière originale, inventive, libre et souvent non conventionnelle. L’esprit cherche à comprendre des systèmes, des réseaux, des idées nouvelles.",
-        "forces": [
-          "Pensée inventive",
-          "Esprit libre",
-          "Capacité à relier des concepts",
-          "Vision d’ensemble"
-        ],
-        "defis": [
-          "Rigidité idéologique",
-          "Distance dans l’expression",
-          "Tendance à privilégier l’idée au détriment du vécu",
-          "Volonté de se démarquer intellectuellement"
-        ],
-        "enAmour": [
-          "A besoin d’un dialogue intelligent, libre et stimulant",
-          "Peut séduire par l’esprit plus que par l’effusion"
-        ],
-        "auTravail": [
-          "Excellent pour conceptualiser, relier, innover ou sortir des cadres",
-          "Aime penser autrement"
-        ],
-        "avecArgent": [
-          "Peut imaginer des stratégies non conventionnelles",
-          "Doit éviter de négliger les bases concrètes"
-        ]
-      },
-      "venus": {
-        "tonalite": "Vénus en Verseau aime avec liberté, originalité, distance juste et goût de l’inattendu. Le plaisir passe par la singularité, la complicité mentale et le refus des liens étouffants.",
-        "forces": [
-          "Ouverture relationnelle",
-          "Capacité à aimer sans posséder",
-          "Charme original",
-          "Goût des liens atypiques"
-        ],
-        "defis": [
-          "Distance affective",
-          "Difficulté avec les attentes trop fusionnelles",
-          "Tendance à se protéger derrière l’indépendance"
-        ],
-        "enAmour": [
-          "Cherche un lien libre, intelligent, vivant",
-          "A besoin d’amitié autant que d’amour",
-          "Peut aimer différemment des modèles classiques"
-        ],
-        "auTravail": [
-          "Aime les univers créatifs, innovants ou relationnels ouverts",
-          "A besoin d’un environnement qui laisse respirer"
-        ],
-        "avecArgent": [
-          "Peut dépenser pour la liberté, l’originalité ou la technologie",
-          "Cherche souvent une valeur moins conventionnelle"
-        ]
-      },
-      "mars": {
-        "tonalite": "Mars en Verseau agit de manière originale, libre, parfois imprévisible, souvent orientée vers une cause, un idéal ou un besoin de rupture avec l’ancien.",
-        "forces": [
-          "Indépendance d’action",
-          "Audace mentale",
-          "Capacité à défendre une cause",
-          "Énergie de réforme"
-        ],
-        "defis": [
-          "Rébellion systématique",
-          "Imprévisibilité",
-          "Difficulté à suivre les cadres imposés",
-          "Conflit avec l’autorité"
-        ],
-        "enAmour": [
-          "A besoin de mouvement, de liberté et d’un partenaire non possessif",
-          "Réagit mal à l’étouffement"
-        ],
-        "auTravail": [
-          "Très fort pour faire bouger les lignes",
-          "Aime les terrains d’innovation ou de transformation"
-        ],
-        "avecArgent": [
-          "Peut faire des choix soudains",
-          "Veut souvent une indépendance matérielle forte"
-        ]
-      },
-      "jupiter": {
-        "tonalite": "Jupiter en Verseau amplifie la vision collective, la confiance dans le progrès, l’ouverture aux réseaux et la foi dans des idées capables de faire évoluer le monde.",
-        "forces": [
-          "Humanisme",
-          "Vision large",
-          "Ouverture au collectif",
-          "Capacité à fédérer autour d’une idée"
-        ],
-        "defis": [
-          "Idéalisme excessif",
-          "Foi trop grande dans certaines utopies",
-          "Distance avec les réalités humaines immédiates"
-        ],
-        "enAmour": [
-          "Aime les liens libres, ouverts et évolutifs",
-          "Cherche un partenaire qui respecte la singularité"
-        ],
-        "auTravail": [
-          "Très bon dans les projets collectifs, les réseaux, les réformes, l’innovation",
-          "Aime contribuer à quelque chose de plus vaste"
-        ],
-        "avecArgent": [
-          "Peut investir dans des idées, des projets, des communautés ou des innovations",
-          "Doit garder un sens pratique"
-        ]
-      },
-      "saturne": {
-        "tonalite": "Saturne en Verseau structure la pensée collective, les réseaux, les responsabilités sociales et le rapport à la liberté. Il cherche une forme juste de système ou d’organisation humaine.",
-        "forces": [
-          "Sens de la responsabilité collective",
-          "Capacité à structurer des réseaux ou des idées",
-          "Maturité intellectuelle",
-          "Vision réformiste construite"
-        ],
-        "defis": [
-          "Rigidité idéologique",
-          "Distance émotionnelle forte",
-          "Tension entre liberté et règle",
-          "Exigence excessive envers les systèmes et les groupes"
-        ],
-        "enAmour": [
-          "A besoin de liberté mais aussi de loyauté dans les principes du lien",
-          "Cherche un rapport adulte et respectueux"
-        ],
-        "auTravail": [
-          "Très fort pour organiser le collectif, penser les systèmes, porter une réforme structurée",
-          "Aime que les idées aient une ossature"
-        ],
-        "avecArgent": [
-          "Peut construire une autonomie matérielle originale mais disciplinée",
-          "Cherche la cohérence entre valeur et liberté"
-        ]
-      },
-      "uranus": {
-        "tonalite": "Uranus en Verseau est dans une de ses expressions les plus naturelles : rupture, innovation, éveil collectif, liberté, invention de formes nouvelles.",
-        "forces": [
-          "Très grande originalité",
-          "Vision de rupture",
-          "Capacité à inventer autrement",
-          "Intuition du futur"
-        ],
-        "defis": [
-          "Instabilité",
-          "Besoin permanent de nouveauté",
-          "Difficulté avec la lenteur",
-          "Risque de coupure avec certaines réalités humaines"
-        ],
-        "enAmour": [
-          "Cherche une relation très libre et évolutive",
-          "Refuse les cadres morts"
-        ],
-        "auTravail": [
-          "Très fort dans l’innovation radicale, les systèmes nouveaux, les technologies ou les mouvements de changement",
-          "A besoin d’avant-garde"
-        ],
-        "avecArgent": [
-          "Peut gérer de manière très atypique",
-          "Suit souvent une logique d’indépendance et d’innovation"
-        ]
-      },
-      "neptune": {
-        "tonalite": "Neptune en Verseau cherche un idéal collectif, une utopie humaine, une fraternité possible et une inspiration tournée vers le futur et les réseaux.",
-        "forces": [
-          "Idéal humaniste",
-          "Imagination sociale",
-          "Vision inspirée du collectif",
-          "Ouverture à de nouvelles formes de sens"
-        ],
-        "defis": [
-          "Utopisme flou",
-          "Dissolution dans le groupe ou l’idée",
-          "Confusion entre progrès rêvé et réalité vécue"
-        ],
-        "enAmour": [
-          "Peut idéaliser une relation libre, fraternelle, inspirée et non possessive",
-          "Cherche une affinité d’âme et d’esprit"
-        ],
-        "auTravail": [
-          "Très inspiré dans les projets sociaux, artistiques, collectifs ou visionnaires",
-          "A besoin d’un idéal"
-        ],
-        "avecArgent": [
-          "Peut investir dans un rêve collectif ou une vision",
-          "Doit garder un ancrage concret"
-        ]
-      },
-      "pluton": {
-        "tonalite": "Pluton en Verseau transforme profondément les systèmes, les réseaux, les technologies, les formes de pouvoir collectif et les modèles d’organisation du futur.",
-        "forces": [
-          "Puissance de transformation collective",
-          "Lucidité sur les systèmes",
-          "Capacité à refonder un modèle",
-          "Volonté d’évolution radicale"
-        ],
-        "defis": [
-          "Rapports de pouvoir idéologiques ou technologiques",
-          "Radicalité",
-          "Tension entre liberté et contrôle collectif"
-        ],
-        "enAmour": [
-          "Veut un lien vrai mais non enfermant",
-          "Peut transformer profondément sa vision du couple et de l’attachement"
-        ],
-        "auTravail": [
-          "Très fort pour transformer les structures de réseau, d’innovation ou d’organisation collective",
-          "Porte des évolutions profondes"
-        ],
-        "avecArgent": [
-          "Peut lier argent et pouvoir dans les systèmes, les groupes ou l’innovation",
-          "Traverse des cycles forts de refonte de valeurs"
-        ]
-      }
-    }
+    "vegetaux": [
+      { "nom": "Lavande", "motsCles": ["air", "clarté", "apaisement", "souplesse"] },
+      { "nom": "Ginkgo", "motsCles": ["adaptation", "singularité", "résistance", "avenir"] },
+      { "nom": "Eucalyptus", "motsCles": ["souffle", "ouverture", "fraîcheur", "circulation"] }
+    ],
+    "animaux": [
+      { "nom": "Dauphin", "motsCles": ["intelligence", "collectif", "jeu", "réseau"] },
+      { "nom": "Albatros", "motsCles": ["espace", "liberté", "horizon", "vision"] },
+      { "nom": "Luciole", "motsCles": ["lumière", "étincelle", "originalité", "subtilité"] }
+    ]
   },
-  "dansUnTheme": [
-    "Le Verseau indique un domaine où l’on cherche à innover, à se détacher des normes et à penser collectif.",
-    "Il montre aussi où l’on peut apporter une contribution originale au monde.",
-    "Selon la maison et les aspects, il peut montrer un secteur de vie où l’on relie, réforme, expérimente, libère ou ouvre un futur différent."
+  "geographie": [
+    { "pays": "Russie", "texte": "Immensité, systèmes collectifs, ruptures historiques et destinée tournée vers le futur." },
+    { "pays": "Suède", "texte": "Innovation sociale, progressisme et sens aigu de la communauté." },
+    { "pays": "Pologne", "texte": "Attribution symbolique traditionnelle de géographie astrologique." },
+    { "pays": "Israël", "texte": "Attribution traditionnelle dans certaines écoles de correspondance astrologique." }
   ],
-  "relationsAuxAutresSignes": [
-    {
-      "sign": "belier",
-      "level": "complementaire",
-      "title": "Action et liberté",
-      "summary": "Le Verseau pense autrement, le Bélier agit vite. Le lien peut être très stimulant si chacun respecte l’indépendance de l’autre.",
-      "pointsFortes": [
-        "Liberté",
-        "Stimulation",
-        "Originalité",
-        "Élan vers l’avenir"
-      ],
-      "pointsDeTension": [
-        "Impulsivité du Bélier",
-        "Distance du Verseau",
-        "Conflits idéologiques ou de rythme"
-      ]
-    },
-    {
-      "sign": "taureau",
-      "level": "delicate",
-      "title": "Stabilité et rupture",
-      "summary": "Le Taureau veut conserver ce qui a de la valeur ; le Verseau veut parfois casser ce qui fige. Le lien peut être fascinant mais très déstabilisant.",
-      "pointsFortes": [
-        "Possibilité de réinventer des fondations",
-        "Complémentarité entre concret et vision",
-        "Stimulation réelle"
-      ],
-      "pointsDeTension": [
-        "Le Taureau supporte mal l’imprévisible",
-        "Le Verseau supporte mal la fixation",
-        "Conflit entre sécurité et liberté"
-      ]
-    },
-    {
-      "sign": "gemeaux",
-      "level": "fluide",
-      "title": "Air, esprit et ouverture",
-      "summary": "Le Verseau et les Gémeaux partagent le goût de l’intelligence, de la circulation, de l’échange et d’une certaine liberté mentale. Le lien peut être très vivant.",
-      "pointsFortes": [
-        "Stimulation intellectuelle",
-        "Ouverture d’esprit",
-        "Liberté",
-        "Complicité mentale"
-      ],
-      "pointsDeTension": [
-        "Excès de mental",
-        "Difficulté à ancrer le lien",
-        "Tendance à éviter certaines profondeurs"
-      ]
-    },
-    {
-      "sign": "cancer",
-      "level": "delicate",
-      "title": "Distance et attachement",
-      "summary": "Le Verseau cherche de l’espace, le Cancer cherche de la sécurité affective. Le lien peut être enrichissant mais demande une vraie compréhension des besoins opposés.",
-      "pointsFortes": [
-        "Le Cancer humanise, le Verseau ouvre",
-        "Possibilité d’élargir le monde affectif",
-        "Complémentarité entre intime et collectif"
-      ],
-      "pointsDeTension": [
-        "Le Cancer peut souffrir de la distance du Verseau",
-        "Le Verseau peut étouffer face au besoin d’attachement",
-        "Conflit entre sécurité émotionnelle et liberté"
-      ]
-    },
-    {
-      "sign": "lion",
-      "level": "complementaire",
-      "title": "Axe Verseau–Lion",
-      "summary": "Le Verseau ouvre au collectif et à la vision, le Lion affirme le cœur créateur et le rayonnement personnel. C’est un axe fort entre singularité et groupe, moi et futur partagé.",
-      "pointsFortes": [
-        "Stimulation forte",
-        "Originalité",
-        "Complémentarité entre cœur et idée",
-        "Capacité à créer quelque chose de visible et différent"
-      ],
-      "pointsDeTension": [
-        "Le Lion peut trouver le Verseau trop distant",
-        "Le Verseau peut trouver le Lion trop centré sur lui",
-        "Conflit entre reconnaissance personnelle et détachement"
-      ]
-    },
-    {
-      "sign": "vierge",
-      "level": "variable",
-      "title": "Réforme et précision",
-      "summary": "Le Verseau veut repenser les systèmes ; la Vierge veut améliorer le réel dans le détail. Le lien peut être intelligent s’il accepte deux styles de lucidité.",
-      "pointsFortes": [
-        "Intelligence",
-        "Complémentarité entre réforme et méthode",
-        "Capacité à faire évoluer concrètement"
-      ],
-      "pointsDeTension": [
-        "Le Verseau peut sembler trop abstrait ou imprévisible",
-        "La Vierge peut sembler trop normative ou trop critique",
-        "Conflit entre innovation et contrôle"
-      ]
-    },
-    {
-      "sign": "balance",
-      "level": "fluide",
-      "title": "Air relationnel et air libre",
-      "summary": "La Balance relie dans la douceur du lien, le Verseau ouvre dans la liberté mentale. Le rapport peut être élégant, stimulant et très respirable.",
-      "pointsFortes": [
-        "Ouverture",
-        "Dialogue",
-        "Élégance mentale",
-        "Respect de l’espace"
-      ],
-      "pointsDeTension": [
-        "La Balance peut vouloir plus de lien",
-        "Le Verseau peut vouloir plus de distance",
-        "Conflit entre harmonie relationnelle et indépendance"
-      ]
-    },
-    {
-      "sign": "scorpion",
-      "level": "intense",
-      "title": "Profondeur et détachement",
-      "summary": "Le Scorpion veut aller au fond, le Verseau prend du recul. Le lien peut être très magnétique mais aussi très complexe à accorder.",
-      "pointsFortes": [
-        "Lucidité",
-        "Intensité",
-        "Capacité à transformer des visions",
-        "Attraction entre deux puissances très différentes"
-      ],
-      "pointsDeTension": [
-        "Le Scorpion peut trouver le Verseau trop froid",
-        "Le Verseau peut trouver le Scorpion trop intense ou contrôlant",
-        "Conflit entre fusion et liberté"
-      ]
-    },
-    {
-      "sign": "sagittaire",
-      "level": "fluide",
-      "title": "Ouverture et horizon",
-      "summary": "Le Verseau et le Sagittaire partagent le goût de l’espace, de l’idée, de la liberté et d’un avenir plus vaste. Le lien peut être très stimulant et inspirant.",
-      "pointsFortes": [
-        "Ouverture d’esprit",
-        "Liberté",
-        "Vision",
-        "Mouvement"
-      ],
-      "pointsDeTension": [
-        "Manque d’ancrage",
-        "Distance émotionnelle",
-        "Tendance à vivre dans l’idée ou l’horizon"
-      ]
-    },
-    {
-      "sign": "capricorne",
-      "level": "complementaire",
-      "title": "Structure et réforme",
-      "summary": "Le Capricorne organise et conserve ce qui tient ; le Verseau réforme et ouvre des voies nouvelles. C’est un axe fort entre système établi et futur possible.",
-      "pointsFortes": [
-        "Complémentarité entre cadre et innovation",
-        "Vision stratégique",
-        "Capacité à transformer utilement"
-      ],
-      "pointsDeTension": [
-        "Le Capricorne peut sembler trop rigide",
-        "Le Verseau peut sembler trop imprévisible",
-        "Conflit entre sécurité et changement"
-      ]
-    },
-    {
-      "sign": "verseau",
-      "level": "fluide",
-      "title": "Liberté face à liberté",
-      "summary": "Deux Verseaux peuvent se comprendre dans leur besoin d’espace, d’originalité, de pensée libre et de non-conformisme. Le lien peut être stimulant et très singulier.",
-      "pointsFortes": [
-        "Liberté",
-        "Originalité",
-        "Complicité d’esprit",
-        "Respect de l’indépendance"
-      ],
-      "pointsDeTension": [
-        "Distance affective",
-        "Trop de mental",
-        "Difficulté à incarner la relation"
-      ]
-    },
-    {
-      "sign": "poissons",
-      "level": "variable",
-      "title": "Vision collective et sensibilité diffuse",
-      "summary": "Le Verseau pense en réseaux et en idées ; les Poissons ressentent en profondeur et en intuition. Le lien peut être inspirant mais parfois flou.",
-      "pointsFortes": [
-        "Inspiration",
-        "Ouverture à d’autres possibles",
-        "Complémentarité entre vision et compassion",
-        "Créativité subtile"
-      ],
-      "pointsDeTension": [
-        "Le Verseau peut sembler trop distant ou cérébral",
-        "Les Poissons peuvent sembler trop flous ou poreux",
-        "Conflit entre détachement et fusion sensible"
-      ]
-    }
-  ],
-  "paysAssocies": [
-    {
-      "pays": "Russie",
-      "niveau": "traditionnel",
-      "justification": "Dans certaines traditions de géographie astrologique, la Russie est associée au Verseau pour des raisons symboliques liées à l’immensité, aux systèmes collectifs, aux ruptures historiques et à une forme de destinée tournée vers le futur."
-    },
-    {
-      "pays": "Suède",
-      "niveau": "traditionnel",
-      "justification": "La Suède apparaît dans plusieurs listes traditionnelles de correspondances astrologiques liées au Verseau. Il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
-    },
-    {
-      "pays": "Pologne",
-      "niveau": "traditionnel",
-      "justification": "La Pologne figure dans certaines listes classiques de géographie astrologique associées au Verseau. Cette correspondance relève d’une tradition symbolique, non d’une certitude objective."
-    },
-    {
-      "pays": "Israël",
-      "niveau": "traditionnel",
-      "justification": "Israël est parfois cité parmi les pays associés au Verseau dans certaines traditions astrologiques, dans une logique de correspondance symbolique."
-    },
-    {
-      "pays": "Iran",
-      "niveau": "traditionnel",
-      "justification": "L’Iran figure dans certaines listes traditionnelles de pays associés au Verseau. Il s’agit ici d’un repère classique de géographie astrologique symbolique."
-    },
-    {
-      "pays": "Abyssinie",
-      "niveau": "traditionnel",
-      "justification": "L’Abyssinie apparaît également dans certaines listes anciennes ou traditionnelles rattachées au Verseau, selon un symbolisme classique de géographie astrologique."
-    }
+  "figuresCelebres": [
+    { "nom": "Oprah Winfrey", "domaine": "Médias", "date": "29 janvier 1954", "texte": "Vision large, influence collective et capacité à porter des idées au service d'un public vaste." },
+    { "nom": "Jennifer Aniston", "domaine": "Cinéma", "date": "11 février 1969", "texte": "Indépendance, distance maîtrisée et singularité tranquille portée avec constance." },
+    { "nom": "Shakira", "domaine": "Musique", "date": "2 février 1977", "texte": "Originalité forte, liberté d'expression et capacité à rester singulière tout en touchant un large public." },
+    { "nom": "Harry Styles", "domaine": "Musique", "date": "1 février 1994", "texte": "Style libre, originalité assumée et manière de porter une singularité très compatible avec l'esprit du Verseau." }
   ],
   "faq": [
     {
       "question": "Quel est le caractère du Verseau ?",
-      "answer": "Le Verseau a un tempérament indépendant, original, visionnaire et tourné vers le collectif. Il aime penser autrement, rester libre et ouvrir de nouvelles voies, mais doit veiller à ne pas se couper des émotions ou du concret."
+      "reponse": "Le Verseau se caractérise par l'indépendance, l'originalité, la curiosité intellectuelle et un fort besoin de liberté. C'est un tempérament cérébral, tourné vers l'avenir, qui cherche à comprendre et à faire évoluer le monde. Il peut être imprévisible et distant émotionnellement, mais c'est aussi un des signes les plus inventifs et les plus visionnaires du Zodiaque."
     },
     {
-      "question": "Quel type d’amoureuse ou d’amoureux est le Verseau ?",
-      "answer": "Le Verseau aime avec liberté, complicité mentale et besoin d’espace. Il cherche souvent une relation sincère, intelligente et non possessive, mais doit apprendre à ne pas se protéger excessivement par la distance."
+      "question": "Quel type d'amoureux est le Verseau ?",
+      "reponse": "Libre, original et mental. Le Verseau aime dans la complicité intellectuelle, le respect mutuel et l'espace. Il a besoin d'un lien respirable et non possessif, et cherche une relation où chacun reste lui-même. Il peut sembler détaché, mais il est fidèle et profondément honnête dans ses sentiments."
     },
     {
       "question": "Quel type de travailleur est le Verseau ?",
-      "answer": "Le Verseau est souvent très bon dans les domaines d’innovation, de réseau, de réforme, de technologie ou de réflexion collective. Il excelle lorsqu’il peut penser autrement, relier et faire évoluer un système."
+      "reponse": "Un innovateur, un penseur, un réformateur. Il excelle dans les environnements qui valorisent la créativité, la vision d'ensemble et l'originalité. Il a besoin d'un projet qui dépasse l'intérêt personnel et qui lui permette de penser autrement. Il est moins à l'aise dans les cadres rigides ou les routines sans sens."
     },
     {
       "question": "Quelle maison correspond au Verseau ?",
-      "answer": "Le Verseau est naturellement relié à la maison XI, celle des amitiés, des groupes, des réseaux, des idéaux, des projets collectifs et de l’avenir."
-    }
-  ],
-  "pierresEtMetaux": [
-    {
-      "nom": "Améthyste",
-      "type": "pierre",
-      "description": "L’améthyste évoque la clarté de vision, le détachement, l’élévation mentale et une forme de lucidité tournée vers plus grand que soi, en accord avec le Verseau.",
-      "motsCles": ["vision", "lucidité", "élévation", "air"]
-    },
-    {
-      "nom": "Labradorite",
-      "type": "pierre",
-      "description": "La labradorite renvoie à l’intuition moderne, à la circulation des perceptions, à la protection mentale et à une originalité subtile qui convient bien au Verseau.",
-      "motsCles": ["intuition", "protection", "originalité", "réseau"]
-    },
-    {
-      "nom": "Uranium (référence symbolique uniquement)",
-      "type": "métal",
-      "description": "Dans une logique symbolique moderne, on associe parfois le Verseau à des matières évoquant Uranus, la rupture, l’électricité, l’innovation ou la transformation des systèmes. Il s’agit ici d’une référence astrologique symbolique, non d’un usage pratique.",
-      "motsCles": ["uranus", "innovation", "électricité", "rupture"]
-    }
-  ],
-  "plantes": [
-    {
-      "nom": "Lavande",
-      "type": "plante",
-      "description": "La lavande évoque l’air, la clarté, la circulation, l’apaisement du mental et une finesse légère bien accordée au Verseau.",
-      "usagesSymboliques": ["air", "clarté", "apaisement", "souplesse"]
-    },
-    {
-      "nom": "Ginkgo",
-      "type": "arbre",
-      "description": "Le ginkgo peut symboliser la longévité, la singularité, la résistance à travers le temps et l’adaptation intelligente, qualités en affinité avec le Verseau.",
-      "usagesSymboliques": ["adaptation", "singularité", "résistance", "avenir"]
-    },
-    {
-      "nom": "Eucalyptus",
-      "type": "plante",
-      "description": "L’eucalyptus évoque le souffle, l’ouverture, la fraîcheur et la circulation, ce qui résonne bien avec le besoin verseau d’air et de dégagement.",
-      "usagesSymboliques": ["souffle", "ouverture", "fraîcheur", "circulation"]
-    }
-  ],
-  "animaux": [
-    {
-      "nom": "Dauphin",
-      "type": "animal-symbolique",
-      "description": "Le dauphin incarne l’intelligence relationnelle, le jeu collectif, la fluidité dans les réseaux et une forme d’ouverture amicale qui convient bien au Verseau.",
-      "motsCles": ["intelligence", "collectif", "jeu", "réseau"]
-    },
-    {
-      "nom": "Albatros",
-      "type": "oiseau",
-      "description": "L’albatros évoque les grands espaces, la liberté, la distance, la hauteur de vue et le rapport à l’horizon, très en affinité avec le Verseau.",
-      "motsCles": ["espace", "liberté", "horizon", "vision"]
-    },
-    {
-      "nom": "Luciole",
-      "type": "animal",
-      "description": "La luciole apporte une symbolique d’étincelle, de lumière singulière, d’électricité subtile et de présence discrètement originale, cohérente avec le Verseau.",
-      "motsCles": ["lumière", "étincelle", "originalité", "subtilité"]
-    }
-  ],
-  "ascendant": {
-    "intro": "Si votre ascendant est Verseau, cela signifie souvent que vous entrez dans la vie avec originalité, distance, liberté de ton et besoin de rester vous-même. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité indépendante, ouverte et non conventionnelle.",
-    "apparence": [
-      "Présence singulière ou atypique",
-      "Allure libre, détachée ou originale",
-      "Regard souvent curieux, direct ou lointain",
-      "Impression d’indépendance, d’air ou de décalage",
-      "Style pouvant sortir discrètement ou clairement des normes"
-    ],
-    "temperament": [
-      "Réagit à sa manière",
-      "A besoin d’espace et d’autonomie",
-      "Supporte mal les cadres trop fermés",
-      "Entre souvent dans les situations par l’idée, l’observation ou l’originalité",
-      "Cherche spontanément une marge de liberté"
-    ],
-    "enRelation": [
-      "Donne une impression d’indépendance ou de distance sympathique",
-      "Peut paraître libre, intelligent, imprévisible ou difficile à enfermer",
-      "Cherche des rapports respectueux et non possessifs",
-      "Aime que chacun reste lui-même"
-    ],
-    "pointsDeVigilance": [
-      "Distance affective",
-      "Besoin de rupture trop rapide",
-      "Difficulté à se laisser dépendre de quelqu’un",
-      "Tendance à se protéger par la cérébralité",
-      "Risque de se couper du sensible pour garder sa liberté"
-    ]
-  },
-  "signeDominant": {
-    "intro": "Si le Verseau est dominant dans un thème, cela signifie souvent que la personne aborde la vie avec un fort besoin de liberté, d’originalité, de vision, d’ouverture et de contribution au collectif. Elle se construit à travers la différence assumée, l’intelligence des systèmes, les réseaux, les causes ou les futurs possibles.",
-    "forces": [
-      "Indépendance",
-      "Originalité",
-      "Vision collective",
-      "Capacité à penser autrement",
-      "Ouverture au futur"
-    ],
-    "vigilances": [
-      "Distance émotionnelle",
-      "Rigidité idéologique",
-      "Besoin d’être différent à tout prix",
-      "Difficulté avec l’intimité dépendante",
-      "Tendance à vivre davantage dans l’idée que dans l’incarnation"
-    ],
-    "dansLaVie": [
-      "La personne cherche souvent des formes de vie plus libres ou plus vraies",
-      "Elle a besoin de comprendre les systèmes, les groupes ou les futurs possibles",
-      "Elle supporte mal les conventions sans sens",
-      "Elle peut apporter de l’air, de l’innovation et une vision différente là où elle passe"
-    ],
-    "enAmour": [
-      "Elle aime souvent dans la complicité mentale, la liberté et le respect mutuel",
-      "Elle a besoin d’espace pour rester authentique",
-      "Elle cherche un lien qui laisse exister les deux individualités"
-    ],
-    "auTravail": [
-      "Elle excelle souvent dans les univers d’innovation, de réseau, de technologie, de réforme ou de pensée collective",
-      "Elle a besoin d’un projet qui dépasse l’intérêt strictement personnel",
-      "Elle fonctionne mieux quand elle peut imaginer autrement"
-    ]
-  },
-  "celebrites": [
-    {
-      "nom": "Jennifer Aniston",
-      "dateNaissance": "11 février 1969",
-      "domaine": "Cinéma",
-      "description": "Souvent citée parmi les célébrités Verseau, avec une image d’indépendance, de distance maîtrisée et de singularité tranquille."
-    },
-    {
-      "nom": "Shakira",
-      "dateNaissance": "2 février 1977",
-      "domaine": "Musique",
-      "description": "Souvent associée à une originalité forte, une liberté d’expression et une capacité à rester singulière tout en touchant un large public."
-    },
-    {
-      "nom": "Oprah Winfrey",
-      "dateNaissance": "29 janvier 1954",
-      "domaine": "Médias",
-      "description": "Souvent citée pour sa vision large, son influence collective et sa capacité à porter des idées au service d’un public vaste."
-    },
-    {
-      "nom": "Harry Styles",
-      "dateNaissance": "1 février 1994",
-      "domaine": "Musique",
-      "description": "Souvent mentionné pour son style libre, son originalité d’image et sa manière d’assumer une singularité très compatible avec le Verseau."
+      "reponse": "La Maison XI, celle des amitiés, des réseaux, des projets collectifs, des idéaux et de la façon de se relier à un futur plus vaste que soi. Son analogie naturelle avec le Verseau souligne l'innovation, la contribution au collectif et l'ouverture à d'autres possibles."
     }
   ]
 }

@@ -1,860 +1,447 @@
 {
   "slug": "capricorne",
-  "name": "Capricorne",
+  "nom": "Capricorne",
+  "sousTitre": "Le dixième signe du Zodiaque",
+  "devise": "Je construis",
   "periode": "22 décembre – 19 janvier",
-  "polarite": "Passif (féminin)",
-  "mode": "Cardinal",
   "element": "Terre",
+  "mode": "Cardinal",
   "maitre": "Saturne",
   "exaltation": "Mars",
   "exil": "Lune",
   "chute": "Jupiter",
-  "motCle": "Je construis",
-  "mythologie": "Le Capricorne est associé à la figure de Pan et au symbole ancien de la chèvre-poisson. Cette image paradoxale relie les hauteurs et les profondeurs : la chèvre qui gravit la montagne et le poisson qui plonge dans l’inconscient. Le Capricorne incarne ainsi l’ambition patiente, la maîtrise du temps et la capacité à construire une autorité intérieure fondée sur l’expérience et la persévérance. Il représente le moment où l’être humain accepte l’effort, la durée, la responsabilité et la réalité comme chemins de maturation.",
-  "analogie": {
+  "polarite": "Féminin",
+  "temperament": "Nerveux",
+  "maisonNaturelle": 10,
+  "couleur": {
+    "primaire": "#475569",
+    "secondaire": "#94A3B8",
+    "accent": "#CBD5E1",
+    "gradient": "from-slate-600 via-slate-500 to-slate-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "sagittaire", "nom": "Sagittaire" },
+    "suivant": { "slug": "verseau", "nom": "Verseau" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/capricorne.webp",
+    "planete": "/images/planetes/saturne.webp"
+  },
+  "introduction": "Le Capricorne est le dixième signe du Zodiaque. Le Soleil le traverse entre le 22 décembre et le 19 janvier environ, au début de l'hiver, quand la nature est au repos, quand la sève s'est concentrée dans les profondeurs de la terre, quand on ne conserve que l'essentiel et où le superflu n'a plus sa place. C'est le moment de l'année où il fait le plus froid, où les nuits sont les plus longues — et pourtant, c'est précisément au cœur de cette nuit que brille l'étoile de Noël, que la lumière recommence imperceptiblement à croître. Après la quête d'horizon du Sagittaire, le Capricorne invite à concrétiser, à structurer, à inscrire les ambitions dans la durée. Il ne rêve pas le sommet : il le gravit, marche après marche, avec la patience de celui qui sait que le temps est son allié le plus sûr.",
+  "fondationsCosmiques": {
+    "texte": "Le Capricorne appartient à l'élément Terre (froid et sec), ce qui lui confère un tempérament nerveux : efficacité pratique, endurance, sens de la réalisation concrète. C'est le troisième et dernier niveau de la Terre — celui de la sublimation. Après le concret du Taureau et la précision de la Vierge, la terre du Capricorne se dépasse elle-même : c'est la montagne, les sommets à atteindre, le roc où l'air se raréfie, la terre froide et dense qui ne garde que l'essentiel. Son mode est cardinal : il inaugure l'hiver, il lance une saison nouvelle. Les signes cardinaux sont des initiateurs, mais l'initiative du Capricorne est lente, réfléchie, stratégique — elle ne se précipite pas, elle se prépare. Signe passif, récepteur et introverti, le Capricorne encaisse plutôt qu'il ne se défend, mais il possède une endurance considérable, une énergie profonde et stable, et des ressources intérieures qui lui permettent de se régénérer là où d'autres s'effondrent.",
+    "courteAscension": "Le Capricorne est un signe de courte ascension — il se lève rapidement à l'horizon — ce qui signifie que statistiquement, moins de personnes naissent avec le Capricorne comme Ascendant.",
+    "pluton": "Le Capricorne est le domicile nocturne de Saturne, la planète du temps, de la structure et de la responsabilité. Saturne se sent particulièrement bien dans ce signe concret et volontaire où toutes ses qualités sont renforcées. Mars y est en exaltation : l'action martienne atteint son apogée dans ce signe ambitieux, gagnant en discipline et en stratégie ce qu'elle perd en spontanéité. L'axe Capricorne-Cancer oppose et complète la rigueur et la tendresse, la structure et la protection, le monde extérieur et le monde intérieur."
+  },
+  "analogies": {
     "animal": "La chèvre de montagne",
-    "objet": "La montagne, l’échelle, la pierre, l’outil de construction",
-    "fonction": "Structurer, bâtir, assumer"
+    "objet": "La montagne, l'échelle, la pierre, l'outil de construction",
+    "fonction": "Structurer, bâtir, assumer",
+    "texte": "Le Capricorne, c'est l'ambition patiente, la méditation, les ascensions lentes et difficiles, le travail minutieux. De même que la chèvre de montagne gravit les pentes les plus escarpées avec une prudence infaillible, le natif de ce signe cherche à atteindre les plus hauts sommets — qu'il s'agisse d'ambition sociale ou de quête de sagesse. C'est le penseur, le philosophe, l'agriculteur, le mineur : tous ceux qui travaillent dans la durée, la profondeur et la patience. Tel les alchimistes qui cherchent l'or à travers le plomb, le Capricorne sait que les plus grandes réussites se construisent dans l'effort, le silence et la persévérance."
   },
-  "anatomie": ["Os", "Articulations", "Genoux", "Peau", "Structure du corps"],
-  "generalites": [
-    "Le Capricorne représente la conscience du temps et de la responsabilité. Après la quête de sens du Sagittaire, il invite à concrétiser, structurer et inscrire les ambitions dans la durée.",
-    "Ce signe fonctionne par objectif, discipline et endurance. Il accepte l’effort, le retard et la contrainte comme des étapes nécessaires à la construction.",
-    "Son défi est de ne pas se couper de la sensibilité ou de la joie de vivre. Lorsqu’il est équilibré, le Capricorne devient un pilier : solide, fiable et porteur d’une sagesse issue de l’expérience.",
-    "Le Capricorne relie aussi l’être humain à la notion de sommet : sommet social, sommet de compétence, sommet de maturité. Il a besoin de bâtir quelque chose qui tienne, qui dure, qui résiste à l’épreuve du temps."
-  ],
-  "caractere": [
-    "Le Capricorne observe la réalité sans fard et cherche à comprendre ce qui peut vraiment être construit.",
-    "Son caractère est réservé, solide, exigeant, souvent prudent, avec un fort besoin de maîtrise et de cohérence.",
-    "Il préfère la crédibilité, la tenue et l’endurance aux démonstrations immédiates ou aux enthousiasmes sans suite.",
-    "Lorsqu’il est immature, il peut devenir dur, fermé, pessimiste ou excessivement contrôlant ; lorsqu’il mûrit, il devient une force de stabilité, de responsabilité et de hauteur intérieure."
-  ],
-  "aptitudesNaturelles": [
-    "Construire sur le long terme",
-    "Supporter l’effort sans se disperser",
-    "Assumer des responsabilités",
-    "Donner une structure à un projet",
-    "Transformer une ambition en réalisation concrète",
-    "Tenir quand d’autres se lassent"
-  ],
-  "ceQuIlRegitDansLeMonde": [
-    "Le temps long",
-    "La structure",
-    "La responsabilité",
-    "L’ambition",
-    "Les institutions",
-    "La hiérarchie",
-    "La maîtrise",
-    "La construction durable, la solidité, le mérite"
-  ],
-  "maisonCorrespondante": {
-    "numero": 10,
-    "nom": "Maison X",
-    "resume": "La dixième maison parle de la vocation, de la place sociale, de la réussite, des responsabilités, de l’autorité et de ce que l’on construit au sommet de sa trajectoire. Son analogie naturelle avec le Capricorne souligne l’effort, la structuration, la maturité et la conquête d’une légitimité durable.",
-    "themes": [
-      "Vocation",
-      "Réussite",
-      "Responsabilité",
-      "Autorité",
-      "Place sociale",
-      "Construction durable"
-    ]
+  "mythologie": {
+    "titre": "Les mésaventures du dieu Pan",
+    "texte": "Le Capricorne est associé à la figure de Pan, petit dieu solitaire et bucolique, et au symbole ancien de la chèvre-poisson. Pour échapper au terrible Typhon, Pan prit un curieux déguisement : un bouquetin à queue de poisson. Cette image paradoxale relie les hauteurs et les profondeurs — la chèvre qui gravit la montagne et le poisson qui plonge dans l'inconscient. Tel le bouquetin qui s'élance vers les cimes, les natifs du Capricorne cherchent à gravir les plus hauts sommets, mais il leur arrive de sombrer dans le pessimisme lorsqu'ils se laissent emporter par les forces régressives de l'inconscient. Pan, le petit dieu à l'apparence fruste et sauvage, est aussi le grand Tout, dieu de la sagesse. Celle-ci se cache sous des allures simples et sous sa laideur apparente. C'est à travers le plomb que les alchimistes cherchent l'or, et c'est au cours de la nuit la plus longue de l'année que brille la plus belle étoile.",
+    "civilisations": "En Mésopotamie, la chèvre-poisson Suhur-Mash était l'un des symboles les plus anciens du zodiaque, représentant la dualité entre ascension terrestre et profondeur marine. Dans la mythologie grecque, Pan incarne la sagesse cachée sous une apparence rustique. L'axe symbolique Capricorne-Cancer, signes solsticiaux, traverse toutes les traditions : la terre et l'eau, le sommet et l'océan, la structure et l'émotion. Dans la tradition hindoue, Makara (le Capricorne) est le véhicule de Varuna, dieu des eaux et de l'ordre cosmique — une autre expression de cette alliance paradoxale entre la rigueur de la forme et la profondeur de l'invisible."
   },
-  "forces": [
-    "Capacité à construire sur le long terme",
-    "Sens aigu des responsabilités",
-    "Maîtrise progressive de soi et du réel"
-  ],
-  "ombres": [
-    "Peurs liées à l’échec",
-    "Dureté envers soi-même",
-    "Isolement émotionnel"
-  ],
-  "besoins": [
-    "Objectifs clairs",
-    "Reconnaissance méritée",
-    "Cadre structurant et fiable"
-  ],
-  "aTravailler": [
-    "Lâcher la dureté excessive",
-    "Intégrer la sensibilité sans la vivre comme une faiblesse",
-    "S’autoriser la satisfaction du chemin parcouru",
-    "Ne pas réduire la vie à la performance ou à l’effort",
-    "Distinguer maîtrise et fermeture"
-  ],
-  "quandCestEquilibre": [
-    "Le Capricorne devient une autorité tranquille, fondée sur l’exemple et la constance.",
-    "Il incarne une sagesse mature, capable de guider sans dominer.",
-    "Sa rigueur devient féconde : elle protège, elle structure, elle permet l’accomplissement au lieu de figer."
-  ],
-  "aptitudes": {
-    "atouts": [
-      "Responsable",
-      "Persévérant",
-      "Discipliné",
-      "Structuré",
-      "Fiable",
-      "Endurant"
+  "portrait": {
+    "temperament": "Le Capricorne observe la réalité sans fard et cherche à comprendre ce qui peut vraiment être construit. Son caractère est réservé, solide, exigeant, souvent prudent, avec un fort besoin de maîtrise et de cohérence. Dès l'enfance, il se signale par son allure sérieuse, pondérée et réfléchie, étonnant son entourage par ses réflexions consécutives à de longues méditations. Manifestant peu ses sentiments et émotions, ce qui fait croire à la froideur ou à l'indifférence, il possède cependant une sensibilité vive, une grande constance dans ses affections et dans ses opinions. L'assimilation intellectuelle est lente, mais ce qui est bien compris ne s'oublie jamais. Doué pour la réflexion, la méditation, les mathématiques et les longs travaux d'érudition, il compense un certain manque d'imagination par une rigueur et une persévérance sans faille. Lorsqu'il est immature, il peut devenir dur, fermé, pessimiste ou excessivement contrôlant ; lorsqu'il mûrit, il devient une force de stabilité, de responsabilité et de hauteur intérieure, capable de guider sans dominer.",
+    "forces": [
+      "Construire sur le long terme avec une patience inébranlable",
+      "Supporter l'effort sans se disperser ni se décourager",
+      "Assumer des responsabilités que d'autres fuient",
+      "Donner une structure solide et durable à un projet",
+      "Transformer une ambition en réalisation concrète par le mérite personnel",
+      "Tenir quand tous les autres se lassent ou abandonnent"
     ],
-    "defis": [
-      "Rigide",
-      "Pessimiste",
-      "Exigeant",
-      "Froid en apparence",
-      "Surcontrôle"
-    ]
+    "ombres": [
+      "Peurs liées à l'échec qui paralysent l'action ou assombrissent la vision",
+      "Dureté envers soi-même et envers les autres qui isole",
+      "Isolement émotionnel et difficulté à montrer sa vulnérabilité",
+      "Pessimisme communicatif et tendances mélancoliques",
+      "Rancunes tenaces et susceptibilité excessive face à l'injustice"
+    ],
+    "besoinsVitaux": [
+      "Objectifs clairs et réalistes à poursuivre avec constance",
+      "Reconnaissance méritée de ses efforts et de sa valeur",
+      "Un cadre structurant et fiable dans lequel construire"
+    ],
+    "aTravailler": [
+      "Lâcher la dureté excessive envers soi et les autres",
+      "Intégrer la sensibilité sans la vivre comme une faiblesse",
+      "S'autoriser la satisfaction du chemin parcouru au lieu de ne voir que le sommet",
+      "Ne pas réduire la vie à la performance ou à l'effort",
+      "Distinguer maîtrise et fermeture, rigueur et rigidité"
+    ],
+    "equilibre": "Le Capricorne en pleine possession de ses moyens devient une autorité tranquille, fondée sur l'exemple et la constance. Il incarne une sagesse mature, capable de guider sans dominer. Sa rigueur devient féconde : elle protège, elle structure, elle permet l'accomplissement au lieu de figer. Sa réserve n'est plus de la froideur mais une forme de profondeur, et sa patience n'est plus de la résignation mais la conscience sereine que le temps est son allié le plus fidèle."
   },
+  "sante": {
+    "zones": ["Os", "Articulations", "Genoux", "Peau"],
+    "texte": "Le Capricorne gouverne principalement les genoux, les os, la peau, les ongles, les cheveux, les articulations et le squelette dans son ensemble. Il prédispose à l'arthrite, aux rhumatismes, à la goutte, à la tuberculose osseuse et en général à toutes les douleurs affectant les membres inférieurs et le système osseux. Ce n'est pas nécessairement un indice de constitution délicate — les natifs du Capricorne possèdent souvent une résistance profonde et une longévité remarquable — mais la tendance est aux affections chroniques plutôt qu'aiguës. Le Capricorne doit veiller à ne pas s'imposer un rythme trop austère qui finirait par user la structure même sur laquelle il s'appuie."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "L'identité et le tempérament",
+      "texte": "La position la plus naturelle pour le Capricorne. L'assimilation est lente, mais ce qui est bien compris ne s'oublie pas. Le natif est doué pour la réflexion, la méditation, capable de se concentrer longuement. Il étudie avec méthode, application et patience. Aptitudes mathématiques marquées, goût pour les longs travaux d'érudition. Il manifeste peu ses émotions, mais possède une sensibilité vive et une grande constance dans ses affections. L'activité est lente mais régulière, assidue, méthodique et consciencieuse. Son sens pratique l'empêche de se lancer dans des réalisations aventureuses. Il réussit grâce à sa patience et à sa persévérance ; il échoue parfois par malchance ou manque d'audace."
+    },
+    {
+      "numero": 2,
+      "titre": "Les ressources",
+      "texte": "De l'opiniâtreté et de la patience en vue de réaliser des gains réguliers et suffisants. L'acquisivité est généralement marquée, de même que la prévoyance et le sens de l'économie. L'avarice peut se manifester si Saturne et Jupiter sont mal disposés. Situation assez stable, acquisition possible de terres ou d'immeubles. Position favorable pour les gains touchant à l'agriculture, à l'élevage, au commerce des matières premières. Parfois, le sujet est aidé financièrement par sa mère. La prudence du Capricorne lui permet d'éviter les situations critiques."
+    },
+    {
+      "numero": 3,
+      "titre": "La communication",
+      "texte": "Attrait pour les études minutieuses et patientes, pour les recherches dans les archives, pour les collections et la documentation. Sens pratique très développé. Cette position ne favorise guère les déplacements fréquents, mais ceux qui ont lieu peuvent avoir une grande influence sur la situation. De l'indifférence ou même de la jalousie possible dans les rapports avec frères, sœurs et cousins. Dans certains cas, réussite intellectuelle ou scientifique difficile mais pouvant conduire à la notoriété."
+    },
+    {
+      "numero": 4,
+      "titre": "Les racines",
+      "texte": "Ne semble pas favoriser l'harmonie familiale. Assez souvent deuil prématuré, mais une famille d'une situation au-dessus de la moyenne, pouvant posséder des biens immobiliers appréciables. Le sujet se heurte parfois à de sérieuses difficultés sur le tard, ou ne réussit qu'après de très longs efforts. Le foyer du natif est assez solide, mais il y manque presque toujours de la chaleur et de la spontanéité. Souvent les exigences de la situation provoquent une dispersion familiale. Dans les nativités exceptionnelles, notoriété tardive."
+    },
+    {
+      "numero": 5,
+      "titre": "La création et les amours",
+      "texte": "Ce n'est pas un indice très propice aux aventures amoureuses, qui sont habituellement difficiles à amorcer et se soldent le plus souvent par des déceptions longtemps ressenties. Ce signe de Terre ne semble pas restreindre la progéniture, mais les enfants sont parfois de constitution délicate et d'humeur un peu chagrine. Si Saturne est bien aspecté, le sujet se méfie du jeu et de la spéculation, mais peut réaliser des gains intéressants dans des placements immobiliers. En matière de création, le Capricorne privilégie l'œuvre durable sur l'éclat éphémère."
+    },
+    {
+      "numero": 6,
+      "titre": "Le quotidien et la santé",
+      "texte": "Prédispose aux maladies du signe et de Saturne : rhumatismes, problèmes osseux et articulaires, affections de la peau. Ce n'est cependant pas nécessairement un indice de constitution délicate. Le travail est plutôt pénible et parfois peu rémunérateur, surtout s'il n'est pas conforme aux aspirations du sujet, néanmoins les efforts sont soutenus et l'emploi stable. Le natif remplit ses fonctions avec conscience et rigueur. Si le natif a des subalternes, ils sont peu empressés et susceptibles, mais assez fidèles et ponctuels."
+    },
+    {
+      "numero": 7,
+      "titre": "Les associations et le mariage",
+      "texte": "Le conjoint est ordinairement plus âgé. Ce n'est pas un indice de parfaite entente conjugale, mais le mariage — plutôt tardif — est souvent avantageux ou exerce une influence bénéfique sur la situation, de sorte que cette position peut être considérée comme favorable dans l'ensemble. En cas de séparation ou de veuvage prématuré, les remariages sont rares. Les associations sont solides et utiles si Saturne est bien aspecté. Les inimitiés sont dangereuses parce que particulièrement tenaces et inaccessibles aux concessions."
+    },
+    {
+      "numero": 8,
+      "titre": "Les transformations",
+      "texte": "Peut indiquer la perte prématurée de la mère. Position peu favorable aux héritages, qui donnent souvent lieu à des contestations et des complications juridiques. La fin survient par les maladies du signe ou de Saturne, parfois de façon accidentelle. Le Capricorne en Maison VIII enseigne que les transformations profondes passent par l'acceptation de la durée et du dépouillement — mourir à ce qui n'est pas essentiel pour ne garder que la structure fondamentale."
+    },
+    {
+      "numero": 9,
+      "titre": "Les horizons lointains",
+      "texte": "Les exigences de la situation ou les ambitions professionnelles peuvent inciter le sujet à changer de résidence ou à effectuer un long voyage pour tenter sa chance. Les résultats sont en général peu brillants au départ : le sujet doit fournir d'immenses efforts pour tirer parti de sa nouvelle situation. Par la suite, il cherche à se fixer définitivement. Sur le plan intellectuel, cette configuration accroît la réflexion, la patience, la concentration et l'aptitude aux hautes spéculations de l'esprit. Position favorable pour les exploitations agricoles lointaines ou le commerce international."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocation",
+      "texte": "Ce n'est pas une position très chanceuse, mais c'est une position qui conduit souvent au succès parce qu'elle accroît l'ambition, l'activité et la persévérance. Élévation lente mais régulière grâce aux efforts personnels. Convient pour toute activité industrielle, agricole, immobilière ou minière. Facilite aussi la réussite politique et la carrière militaire. Si les dissonances sont très graves, risque de scandale, de revers irréparables ou de chute après une ascension remarquable — la fatalité inhérente au signe rappelant que celui qui monte très haut doit parfois payer un tribut."
+    },
+    {
+      "numero": 11,
+      "titre": "Les amitiés",
+      "texte": "Restreint le nombre des amis parce que le natif ne recherche pas de nombreuses relations, mais bien des amitiés sûres et surtout des personnalités de valeur susceptibles de le conseiller utilement. Ces amis, rarement favorisés par la chance matérielle, offrent un appui moral d'une valeur considérable. L'influence des amis sur l'évolution de la situation peut être décisive. Parfois, le sujet est obligé d'entretenir certaines relations pour des raisons professionnelles ou sociales."
+    },
+    {
+      "numero": 12,
+      "titre": "Les épreuves cachées",
+      "texte": "S'il s'agit d'une destinée brillante, le natif risque de voir son ascension entravée par des manœuvres d'ennemis cachés, notamment des calomnies, même si les dissonances sont bénignes. Dans les situations ordinaires, hostilité sournoise de supérieurs ou de patrons, avancement entravé ou retardé sans causes apparentes. C'est toujours un indice de difficultés et d'épreuves sérieuses. Prédisposition aux maladies du Capricorne et de Saturne. Mais le Capricorne en Maison XII possède aussi la patience de transmuter l'épreuve en sagesse."
+    }
+  ],
   "amour": {
-    "intro": "Le Capricorne aime avec sérieux, retenue et profondeur. Il ne se livre pas toujours vite, mais lorsqu’il s’engage, il cherche souvent quelque chose de solide, de fiable et de durable. Il a besoin de respect, de confiance et de cohérence. Son amour peut sembler discret, mais il est souvent plus stable et plus profond qu’il n’en a l’air.",
+    "texte": "Le Capricorne aime avec sérieux, retenue et profondeur. Il ne se livre pas toujours vite, mais lorsqu'il s'engage, il cherche quelque chose de solide, de fiable et de durable. Son amour peut sembler discret, mais il est souvent plus stable et plus profond qu'il n'en a l'air. L'éveil à la vie amoureuse est souvent tardif : ce signe est froid en apparence, peu compatible avec les coups de foudre, et le natif est souvent timide face à l'autre. Mais s'il n'est pas expansif, il est très stable dans ses sentiments, très fidèle et très scrupuleux lorsqu'il s'agit de tenir une promesse. Le mariage est généralement tardif mais solide, fondé sur une part de raison et un sens du devoir qui garantit la durée du lien.",
     "qualites": [
-      "Fidélité",
-      "Sérieux de l’engagement",
-      "Capacité à aimer dans la durée",
-      "Fiabilité concrète",
-      "Présence stable quand la confiance est installée"
+      "Fidélité exemplaire et constance dans les sentiments",
+      "Sérieux de l'engagement qui ne se donne pas à la légère",
+      "Capacité à aimer dans la durée et à traverser les épreuves ensemble",
+      "Fiabilité concrète dans les actes plus que dans les mots",
+      "Présence stable et rassurante quand la confiance est installée"
     ],
     "vigilances": [
-      "Peut avoir du mal à montrer sa vulnérabilité",
-      "Risque de vivre l’amour comme une responsabilité plus que comme un élan",
-      "Tendance à se protéger par la distance ou la retenue",
-      "Peut craindre le désordre émotionnel"
+      "Peut avoir du mal à montrer sa vulnérabilité et ses émotions",
+      "Risque de vivre l'amour comme une responsabilité plus que comme un élan",
+      "Tendance à se protéger par la distance ou la retenue excessive",
+      "Peut craindre le désordre émotionnel et fuir l'intensité du sentiment"
     ],
-    "compatibleAvec": ["Taureau", "Vierge", "Scorpion", "Poissons"],
-    "attirePar": [
-      "Les personnes fiables et solides",
-      "Les liens qui tiennent dans le temps",
-      "Les relations où le respect mutuel est réel",
-      "Les personnes capables d’allier profondeur, patience et maturité"
-    ]
+    "affinites": ["taureau", "vierge", "scorpion", "poissons"]
   },
   "travail": {
-    "intro": "Le Capricorne travaille avec rigueur, endurance et sens de la construction. Il excelle souvent dans les domaines qui demandent du temps, de la discipline, de la responsabilité et une vision stratégique. Il n’a pas toujours besoin d’aller vite : il a besoin d’aller loin et de bâtir quelque chose qui compte.",
-    "qualites": [
-      "Discipline",
-      "Endurance",
-      "Sens stratégique",
-      "Capacité à structurer",
-      "Fiabilité dans la durée"
+    "texte": "Le Capricorne travaille avec rigueur, endurance et sens de la construction. Il excelle dans les domaines qui demandent du temps, de la discipline, de la responsabilité et une vision stratégique. Architecte, ingénieur, juriste, agriculteur, administrateur, archiviste, expert-comptable, chercheur, homme politique — les professions du Capricorne touchent toutes à la construction patiente, à la rigueur méthodique et à l'exercice d'une autorité fondée sur le mérite. Il n'a pas besoin d'aller vite : il a besoin d'aller loin et de bâtir quelque chose qui compte. C'est probablement sous ce signe que l'on trouve les travailleurs les plus sérieux, les plus ponctuels et les plus soucieux de bien remplir leur tâche. Le succès est presque toujours dû au mérite personnel et à la constance dans la poursuite d'un but bien défini.",
+    "atouts": [
+      "Discipline et rigueur méthodique sans faille",
+      "Endurance dans l'effort qui surpasse celle de tous les autres signes",
+      "Sens stratégique et capacité à structurer sur le long terme",
+      "Fiabilité absolue dans la durée et le respect des engagements",
+      "Capacité à mener à bien des projets que d'autres abandonnent"
     ],
-    "vigilances": [
-      "Tendance au surtravail",
-      "Peut devenir trop dur ou trop exigeant",
-      "Supporte mal l’incompétence ou l’improvisation permanente",
-      "Risque de sacrifier le vivant à l’objectif"
-    ],
-    "domainesFavorables": [
-      "Gestion",
-      "Direction",
-      "Finance",
-      "Administration",
-      "Droit",
-      "Bâtiment / structure",
-      "Organisation",
-      "Fonctions où il faut encadrer, tenir, planifier, construire ou assumer"
+    "defis": [
+      "Tendance au surtravail qui peut mener à l'épuisement",
+      "Peut devenir trop dur ou trop exigeant envers ses collaborateurs",
+      "Supporte mal l'incompétence ou l'improvisation permanente",
+      "Risque de sacrifier le vivant — relations, plaisirs, santé — à l'objectif"
     ]
   },
   "argent": {
-    "intro": "Le Capricorne entretient souvent un rapport sérieux, stratégique et prudent à l’argent. Il le voit comme un outil de sécurité, de maîtrise, d’indépendance et de construction. Il préfère souvent le durable, le solide et le mesuré à la dépense impulsive. Son rapport à l’argent est lié à la notion de responsabilité et de maîtrise du temps.",
+    "texte": "Le Capricorne entretient un rapport sérieux, stratégique et prudent à l'argent. Il le voit comme un outil de sécurité, de maîtrise, d'indépendance et de construction — jamais comme un instrument de plaisir ou de prestige. Les gains sont réguliers mais pas toujours importants, compensés par une prudence et un sens de l'économie remarquables. L'aisance est rare dans la jeunesse, mais le Capricorne sait éviter les situations critiques grâce à sa prévoyance. Il conservera toujours le montant de la prochaine échéance. L'aisance vient sur le tard, récompense de la patience.",
     "forces": [
-      "Capacité à gérer sur le long terme",
-      "Prudence",
-      "Sens de la stratégie",
-      "Volonté de construire une sécurité réelle"
+      "Capacité à gérer sur le long terme avec rigueur",
+      "Prudence et sens de l'économie qui évitent les crises",
+      "Sens de la stratégie financière et de la prévoyance",
+      "Volonté de construire une sécurité réelle et durable"
     ],
     "risques": [
-      "Peur de manquer",
-      "Rigidité excessive",
-      "Difficulté à se détendre dans l’usage de l’argent",
+      "Peur de manquer qui peut devenir obsessionnelle",
+      "Rigidité excessive dans la gestion qui empêche de profiter",
+      "Difficulté à se détendre dans l'usage de l'argent",
       "Tendance à confondre valeur personnelle et réussite matérielle"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Soleil",
+      "slug": "soleil",
+      "description": "Le Soleil en Capricorne construit une identité par l'effort, la maîtrise, la responsabilité et la capacité à bâtir quelque chose de durable. L'ambition est le moteur, la patience le carburant, le mérite la seule récompense acceptable.",
+      "manifestations": ["Volonté structurée et persévérante", "Endurance hors du commun", "Sens aigu du réel et du concret", "Capacité à tenir un cap sans dévier"]
+    },
+    {
+      "nom": "Lune",
+      "slug": "lune",
+      "description": "La Lune en Capricorne (en exil) vit les émotions avec retenue, besoin de maîtrise et recherche de sécurité par le contrôle ou la fiabilité. Les sentiments sont profonds mais rarement exprimés spontanément.",
+      "manifestations": ["Stabilité intérieure profonde", "Maîtrise émotionnelle acquise par l'effort", "Capacité à porter des charges lourdes sans se plaindre", "Résistance face aux tempêtes affectives"]
+    },
+    {
+      "nom": "Mercure",
+      "slug": "mercure",
+      "description": "Mercure en Capricorne pense avec structure, logique, prudence et sens de la hiérarchie des priorités. L'esprit cherche l'essentiel et le durable, écartant le superflu avec méthode.",
+      "manifestations": ["Pensée structurée et méthodique", "Capacité de planification sur le long terme", "Rigueur intellectuelle sans concession", "Pragmatisme et sens de l'essentiel"]
+    },
+    {
+      "nom": "Vénus",
+      "slug": "venus",
+      "description": "Vénus en Capricorne aime avec retenue, fidélité, sérieux et volonté de construire. Le plaisir passe par la qualité, la fiabilité et la durée plutôt que par l'éclat ou la passion instantanée.",
+      "manifestations": ["Loyauté et constance dans les sentiments", "Goût des liens solides et éprouvés par le temps", "Sérieux relationnel et sens de l'engagement", "Beauté sobre et dignité naturelle"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars en Capricorne est en exaltation — une de ses expressions les plus efficaces. L'action est disciplinée, ambitieuse, puissamment contenue et stratégiquement déployée. La combativité atteint ici son apogée.",
+      "manifestations": ["Grande efficacité dans l'action", "Volonté inébranlable", "Discipline martiale et sens de la stratégie", "Puissance d'endurance qui use les obstacles"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter en Capricorne (en chute) fait croître par la rigueur, la patience et la construction progressive. L'expansion se fait par la structure plutôt que par l'élan, lentement mais solidement.",
+      "manifestations": ["Croissance durable et mesurée", "Prudence féconde dans les entreprises", "Capacité à faire grandir lentement mais sûrement", "Sens de l'accomplissement par le mérite"]
+    },
+    {
+      "nom": "Saturne",
+      "slug": "saturne",
+      "description": "Saturne en Capricorne est dans son domicile nocturne — une de ses expressions les plus fortes et les plus authentiques. Sens aigu des responsabilités, maîtrise, endurance et conscience profonde du temps.",
+      "manifestations": ["Maturité et autorité naturelle", "Rigueur morale et intellectuelle", "Capacité à devenir une référence pour les autres", "Conscience du temps comme allié de la construction"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus en Capricorne réveille les structures, bouscule les systèmes établis et pousse à réinventer les formes de pouvoir, d'organisation et d'autorité de fond en comble.",
+      "manifestations": ["Innovation structurelle et institutionnelle", "Capacité à moderniser des cadres anciens", "Vision stratégique du changement nécessaire"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune en Capricorne cherche un idéal de construction, de réussite, d'ordre ou de mission. Il peut spiritualiser la structure ou rêver d'une forme parfaite d'accomplissement terrestre.",
+      "manifestations": ["Vision inspirée de la construction et de l'architecture", "Capacité à rêver une œuvre durable et signifiante", "Sens d'une vocation ou d'une mission qui transcende l'ego"]
+    },
+    {
+      "nom": "Pluton",
+      "slug": "pluton",
+      "description": "Pluton en Capricorne transforme profondément le rapport au pouvoir, à la structure, à la hiérarchie, à la réussite et à la responsabilité. Il détruit les institutions obsolètes pour en reconstruire de plus solides.",
+      "manifestations": ["Puissance stratégique de transformation", "Capacité à restructurer en profondeur les systèmes", "Volonté de transformation durable des structures", "Endurance dans les processus de reconstruction les plus difficiles"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Bélier",
+      "type": "intense",
+      "titre": "Élan et structure",
+      "texte": "Le Bélier veut aller vite, le Capricorne veut bâtir dans le temps. Le lien peut être très productif ou très conflictuel selon la maturité des deux protagonistes et leur capacité à respecter le rythme de l'autre.",
+      "forces": ["Complémentarité entre attaque et stratégie", "Capacité à accomplir du solide", "L'un lance, l'autre construit dans la durée"],
+      "frictions": ["Frustration réciproque face aux rythmes opposés", "Rapports de force entre deux autorités naturelles", "Différence profonde de rythme et de méthode"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taureau",
+      "type": "fluide",
+      "titre": "Terre et endurance",
+      "texte": "Le Capricorne et le Taureau partagent le goût du concret, de la durée et de la stabilité. Deux signes de Terre qui se comprennent dans leur besoin de construire quelque chose de réel et de durable.",
+      "forces": ["Réalisme et sens du concret partagés", "Endurance et fiabilité mutuelles", "Construction durable et solide", "Fidélité et constance des deux côtés"],
+      "frictions": ["Rigidité et entêtement de part et d'autre", "Routine et manque de renouvellement", "Difficulté à se surprendre mutuellement"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gémeaux",
+      "type": "variable",
+      "titre": "Structure et mobilité",
+      "texte": "Le Capricorne veut construire et tenir, les Gémeaux veulent circuler et varier. Le lien peut être enrichissant si chacun accepte la différence de rythme et de priorité fondamentale.",
+      "forces": ["L'un structure, l'autre ouvre des pistes nouvelles", "Complémentarité entre stratégie et souplesse", "Apprentissage mutuel de la rigueur et de la légèreté"],
+      "frictions": ["Le Capricorne trouve les Gémeaux trop volatils", "Les Gémeaux trouvent le Capricorne trop rigide", "Conflit entre durée et mobilité"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "complementaire",
+      "titre": "Axe Capricorne–Cancer",
+      "texte": "Le Capricorne structure le monde extérieur, le Cancer protège le monde intérieur. C'est un axe très fort de complémentarité entre responsabilité et appartenance, maîtrise et vulnérabilité, sommet et racines.",
+      "forces": ["Complémentarité profonde entre structure et tendresse", "Capacité à construire un lien solide et humain", "Équilibre possible entre cœur et rigueur"],
+      "frictions": ["Le Capricorne peut sembler froid et distant", "Le Cancer peut sembler trop sensible et dépendant", "Conflit entre maîtrise rationnelle et besoin affectif"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Lion",
+      "type": "variable",
+      "titre": "Structure et rayonnement",
+      "texte": "Le Capricorne veut bâtir avec sérieux, le Lion veut rayonner avec cœur. Le lien peut être puissant mais demande d'accepter deux styles d'autorité très différents.",
+      "forces": ["L'un structure, l'autre inspire et motive", "Possibilité de construire quelque chose de visible et fort", "Complémentarité entre ambition discrète et présence éclatante"],
+      "frictions": ["Le Lion peut sembler trop démonstratif", "Le Capricorne peut sembler trop austère", "Conflit entre besoin de reconnaissance et exigence de résultats"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Vierge",
+      "type": "fluide",
+      "titre": "Terre et méthode",
+      "texte": "Le Capricorne et la Vierge peuvent travailler, construire et avancer ensemble avec rigueur, méthode et sérieux. Un duo d'une efficacité et d'une fiabilité remarquables.",
+      "forces": ["Rigueur et compétence partagées", "Sens du réel et attention au détail", "Construction patiente et minutieuse"],
+      "frictions": ["Excès d'exigence des deux côtés", "Tendance commune à tout contrôler", "Risque de relation trop fonctionnelle manquant de chaleur"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Balance",
+      "type": "variable",
+      "titre": "Structure et relation",
+      "texte": "Le Capricorne veut solidifier, la Balance veut équilibrer et embellir. Le rapport peut être utile et élégant, mais il demande d'unir responsabilité et souplesse relationnelle.",
+      "forces": ["Capacité commune à formaliser des accords durables", "Sens du cadre et du lien social", "Complémentarité entre structure et diplomatie"],
+      "frictions": ["La Balance peut sembler trop indécise et changeante", "Le Capricorne peut sembler trop dur et inflexible", "Conflit entre compromis et fermeté"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpion",
+      "type": "fluide",
+      "titre": "La roche et l'abîme",
+      "texte": "Le Capricorne et le Scorpion partagent une intensité contenue, du sérieux et une capacité à aller très loin dans ce qu'ils entreprennent. Le lien peut être d'une solidité et d'une profondeur exceptionnelles.",
+      "forces": ["Profondeur et endurance partagées", "Volonté et détermination communes", "Loyauté puissante et respect mutuel"],
+      "frictions": ["Rapports de force possibles entre deux natures dominantes", "Contrôle excessif des deux côtés", "Difficulté commune à lâcher prise et à s'abandonner"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittaire",
+      "type": "variable",
+      "titre": "Vision et construction",
+      "texte": "Le Sagittaire veut ouvrir l'horizon, le Capricorne veut bâtir dans la durée. Le lien peut être fort et fécond s'il relie l'enthousiasme à la responsabilité, la vision à la stratégie.",
+      "forces": ["L'un inspire et entraîne, l'autre structure et construit", "Complémentarité entre vision et stratégie à long terme", "Capacité à accomplir quelque chose de solide et de vaste"],
+      "frictions": ["Le Capricorne peut sembler trop fermé ou austère", "Le Sagittaire peut sembler trop imprévisible", "Conflit entre expansion et contrôle"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorne",
+      "type": "fluide",
+      "titre": "Structure face à structure",
+      "texte": "Deux Capricornes se comprennent dans leur besoin de sérieux, de fiabilité et de construction. Le lien peut être d'une solidité remarquable, mais demande de ne pas se dessécher émotionnellement.",
+      "forces": ["Solidité et fiabilité du lien", "Respect mutuel profond", "Capacité à bâtir ensemble dans la durée"],
+      "frictions": ["Rigidité et retenue émotionnelle des deux côtés", "Risque de vivre trop dans le devoir au détriment du plaisir", "Difficulté à se montrer vulnérable l'un devant l'autre"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Verseau",
+      "type": "complementaire",
+      "titre": "Structure et réforme",
+      "texte": "Le Capricorne conserve et organise, le Verseau réinvente et ouvre. C'est un axe puissant entre forme établie et transformation du collectif, tradition et innovation.",
+      "forces": ["Complémentarité entre cadre et innovation", "Vision stratégique partagée", "Capacité commune à transformer le monde utilement"],
+      "frictions": ["Le Capricorne peut sembler trop rigide et conservateur", "Le Verseau peut sembler trop détaché ou imprévisible", "Conflit entre sécurité et liberté radicale"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Poissons",
+      "type": "stimulante",
+      "titre": "Structure et compassion",
+      "texte": "Le Capricorne donne une forme solide au monde, les Poissons l'ouvrent au sensible et à l'invisible. Le lien peut être profondément complémentaire si chacun respecte l'univers de l'autre.",
+      "forces": ["L'un ancre et structure, l'autre adoucit et inspire", "Complémentarité entre cadre et compassion", "Possibilité de relier réalité concrète et inspiration spirituelle"],
+      "frictions": ["Le Capricorne trouve les Poissons trop flous et insaisissables", "Les Poissons trouvent le Capricorne trop dur et trop froid", "Conflit entre contrôle et abandon"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si votre ascendant est Capricorne, vous entrez dans la vie avec réserve, sérieux, prudence et besoin de maîtrise. Même si votre Soleil est dans un autre signe, votre manière spontanée d'agir, de vous présenter et de réagir porte une tonalité structurée, sobre et responsable. Vous observez avant d'agir, vous évaluez avant de vous engager, et vous cherchez ce qui est solide avant de vous y fier.",
+    "apparence": [
+      "Présence sobre et contenue qui inspire le respect",
+      "Allure sérieuse ou maîtrisée avec une impression de maturité",
+      "Regard attentif, prudent ou distant qui observe avant de se livrer",
+      "Corps ou maintien évoquant la verticalité et le contrôle de soi"
     ],
-    "rapportTypique": [
-      "Peut économiser avec constance",
-      "Cherche à bâtir des bases solides",
-      "Préfère souvent les investissements prudents et durables",
-      "A besoin de sentir que l’argent sert une structure ou une sécurité réelle"
+    "temperament": [
+      "Observe longuement avant d'agir et de s'engager",
+      "Réagit avec prudence et mesure en toutes circonstances",
+      "A besoin de comprendre ce qui est solide avant de s'y fier",
+      "Supporte mal l'improvisation vide et les enthousiasmes sans suite"
+    ],
+    "vigilances": [
+      "Rigidité qui ferme les portes au lieu de les ouvrir",
+      "Retenue excessive qui empêche l'expression des sentiments",
+      "Peur de la vulnérabilité vécue comme une faiblesse",
+      "Tendance à trop se contrôler jusque dans les moments intimes",
+      "Risque de paraître fermé ou inaccessible à ceux qui l'entourent"
     ]
   },
   "etoilesFixes": [
     {
       "nom": "Vega",
       "nature": "Vénus / Mercure",
-      "motsCles": ["Excellence", "Noblesse intérieure", "Maîtrise", "Rayonnement sobre"],
-      "description": "Vega peut apporter une note de qualité, de raffinement maîtrisé et de réussite obtenue par talent et discipline. Dans une lecture symbolique du Capricorne, elle soutient l’idée d’un sommet atteint par exigence et constance."
+      "texte": "Vega apporte une note de qualité, de raffinement maîtrisé et de réussite obtenue par talent et discipline. Dans le Capricorne, elle soutient l'idée d'un sommet atteint par exigence et constance, où l'excellence devient naturelle.",
+      "motsCles": ["Excellence", "Noblesse intérieure", "Maîtrise", "Rayonnement sobre"]
     },
     {
       "nom": "Nunki",
       "nature": "Jupiter / Mercure",
-      "motsCles": ["Vision", "Direction", "Maîtrise", "Navigation"],
-      "description": "Nunki renforce l’idée d’une trajectoire maîtrisée, d’une direction tenue et d’une capacité à avancer vers un but avec intelligence et contrôle. Elle s’accorde bien avec la dimension stratégique du Capricorne."
+      "texte": "Nunki renforce l'idée d'une trajectoire maîtrisée, d'une direction tenue avec intelligence et contrôle. Elle s'accorde avec la dimension stratégique du Capricorne, évoquant la navigation patiente vers un port lointain mais certain.",
+      "motsCles": ["Vision", "Direction", "Maîtrise", "Navigation"]
     }
   ],
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Capricorne s’exprime avec sérieux, structure, sens du devoir et orientation vers le temps long. Le principe de la planète devient plus maîtrisé, plus exigeant, plus orienté vers le résultat durable. Cela favorise la fiabilité et la maturité, mais peut aussi rigidifier si la pression ou la peur prennent trop de place.",
-    "motsCles": [
-      "Structure",
-      "Temps",
-      "Responsabilité",
-      "Ambition",
-      "Discipline",
-      "Maturité"
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Onyx", "motsCles": ["solidité", "maîtrise", "endurance", "structure"] },
+      { "nom": "Grenat almandin", "motsCles": ["endurance", "effort", "tenue", "profondeur"] },
+      { "nom": "Plomb", "motsCles": ["saturne", "temps", "structure", "responsabilité"] }
     ],
-    "planetes": {
-      "soleil": {
-        "tonalite": "Le Soleil en Capricorne construit une identité par l’effort, la maîtrise, la responsabilité et la capacité à bâtir quelque chose de durable.",
-        "forces": [
-          "Volonté structurée",
-          "Endurance",
-          "Sens du réel",
-          "Capacité à tenir un cap"
-        ],
-        "defis": [
-          "Dureté envers soi-même",
-          "Peur de l’échec",
-          "Difficulté à se détendre",
-          "Tendance à se définir par la performance"
-        ],
-        "enAmour": [
-          "Aime sérieusement",
-          "Cherche un lien fiable et durable",
-          "A besoin de respect et de stabilité"
-        ],
-        "auTravail": [
-          "Très fort pour construire, tenir, diriger ou organiser",
-          "A besoin d’un objectif solide"
-        ],
-        "avecArgent": [
-          "Gère prudemment",
-          "Pense en termes de sécurité et de stratégie"
-        ]
-      },
-      "lune": {
-        "tonalite": "La Lune en Capricorne vit les émotions avec retenue, besoin de maîtrise et recherche de sécurité par le contrôle ou la fiabilité.",
-        "forces": [
-          "Stabilité intérieure",
-          "Maîtrise émotionnelle",
-          "Capacité à porter",
-          "Résistance"
-        ],
-        "defis": [
-          "Réserve affective",
-          "Difficulté à montrer ses besoins",
-          "Tendance à se protéger par la distance",
-          "Sentiment de solitude émotionnelle"
-        ],
-        "enAmour": [
-          "Aime sérieusement mais se livre lentement",
-          "A besoin de confiance et de solidité"
-        ],
-        "auTravail": [
-          "Travaille mieux dans un cadre structuré et fiable",
-          "Supporte de fortes responsabilités"
-        ],
-        "avecArgent": [
-          "Peut gérer avec une grande prudence",
-          "Lie argent et sécurité psychique"
-        ]
-      },
-      "mercure": {
-        "tonalite": "Mercure en Capricorne pense avec structure, logique, prudence et sens de la hiérarchie des priorités. L’esprit cherche l’essentiel et le durable.",
-        "forces": [
-          "Pensée structurée",
-          "Capacité de planification",
-          "Rigueur intellectuelle",
-          "Pragmatisme"
-        ],
-        "defis": [
-          "Manque de souplesse",
-          "Pensée trop sévère ou trop prudente",
-          "Difficulté avec l’improvisation"
-        ],
-        "enAmour": [
-          "Parle peu mais sérieusement",
-          "A besoin d’un lien fondé sur la confiance"
-        ],
-        "auTravail": [
-          "Excellent pour organiser, décider, hiérarchiser, planifier",
-          "Aime les raisonnements solides"
-        ],
-        "avecArgent": [
-          "Réfléchit en termes de stratégie et de long terme",
-          "Préfère les choix maîtrisés"
-        ]
-      },
-      "venus": {
-        "tonalite": "Vénus en Capricorne aime avec retenue, fidélité, sérieux et volonté de construire. Le plaisir passe par la qualité, la fiabilité et la durée.",
-        "forces": [
-          "Loyauté",
-          "Constante affective",
-          "Goût des liens solides",
-          "Sérieux relationnel"
-        ],
-        "defis": [
-          "Retenue émotionnelle",
-          "Difficulté à exprimer la tendresse spontanément",
-          "Peur de dépendre"
-        ],
-        "enAmour": [
-          "Cherche un lien mature et fiable",
-          "Aime plus dans le temps que dans l’éclat immédiat"
-        ],
-        "auTravail": [
-          "Aime les environnements sobres, structurés et élégants",
-          "Cherche la qualité durable"
-        ],
-        "avecArgent": [
-          "Dépense avec prudence",
-          "Préfère la valeur sûre au plaisir immédiat"
-        ]
-      },
-      "mars": {
-        "tonalite": "Mars en Capricorne est dans une de ses expressions les plus efficaces : action disciplinée, ambition, puissance contenue et capacité à avancer stratégiquement.",
-        "forces": [
-          "Grande efficacité",
-          "Volonté",
-          "Discipline",
-          "Puissance d’endurance"
-        ],
-        "defis": [
-          "Surcontrôle",
-          "Dureté",
-          "Action trop calculée ou trop tendue",
-          "Difficulté à relâcher la pression"
-        ],
-        "enAmour": [
-          "Désir maîtrisé mais profond",
-          "A besoin de respect et de confiance"
-        ],
-        "auTravail": [
-          "Très fort pour mener un projet long et exigeant",
-          "Aime les objectifs ambitieux mais réalistes"
-        ],
-        "avecArgent": [
-          "Agit avec stratégie",
-          "Peut construire de manière très efficace"
-        ]
-      },
-      "jupiter": {
-        "tonalite": "Jupiter en Capricorne fait croître par la rigueur, la patience et la construction progressive. L’expansion se fait par la structure plutôt que par l’élan.",
-        "forces": [
-          "Croissance durable",
-          "Prudence féconde",
-          "Capacité à faire grandir lentement mais sûrement",
-          "Sens de l’accomplissement"
-        ],
-        "defis": [
-          "Manque d’enthousiasme spontané",
-          "Tendance à limiter les possibles",
-          "Difficulté à voir grand sans garanties"
-        ],
-        "enAmour": [
-          "Cherche un lien qui tient dans le temps",
-          "Aime construire pas à pas"
-        ],
-        "auTravail": [
-          "Très bon pour faire croître une structure ou une responsabilité",
-          "A besoin de résultats concrets"
-        ],
-        "avecArgent": [
-          "Privilégie les stratégies solides",
-          "Aime les croissances mesurées et maîtrisées"
-        ]
-      },
-      "saturne": {
-        "tonalite": "Saturne en Capricorne est dans une de ses expressions les plus fortes : sens aigu des responsabilités, maîtrise, endurance et conscience du temps.",
-        "forces": [
-          "Maturité",
-          "Autorité",
-          "Rigueur",
-          "Capacité à devenir une référence"
-        ],
-        "defis": [
-          "Rigidité",
-          "Exigence excessive",
-          "Poids intérieur fort",
-          "Difficulté à lâcher prise"
-        ],
-        "enAmour": [
-          "Aime sérieusement et profondément",
-          "Cherche une solidité irréprochable"
-        ],
-        "auTravail": [
-          "Très fort dans les fonctions de cadre, de direction ou de responsabilité",
-          "Supporte de lourdes charges"
-        ],
-        "avecArgent": [
-          "Très prudent",
-          "Cherche une maîtrise durable des ressources"
-        ]
-      },
-      "uranus": {
-        "tonalite": "Uranus en Capricorne réveille les structures, bouscule les systèmes établis et pousse à réinventer les formes de pouvoir, d’organisation et d’autorité.",
-        "forces": [
-          "Innovation structurelle",
-          "Capacité à moderniser des cadres",
-          "Vision stratégique du changement"
-        ],
-        "defis": [
-          "Tension entre contrôle et rupture",
-          "Changements soudains dans des structures stables",
-          "Difficulté à concilier sécurité et innovation"
-        ],
-        "enAmour": [
-          "A besoin de stabilité mais refuse les carcans morts",
-          "Peut réinventer les formes d’engagement"
-        ],
-        "auTravail": [
-          "Très bon pour réformer des institutions ou systèmes",
-          "Aime transformer ce qui est figé"
-        ],
-        "avecArgent": [
-          "Peut revoir radicalement sa stratégie matérielle",
-          "Cherche l’efficacité du changement"
-        ]
-      },
-      "neptune": {
-        "tonalite": "Neptune en Capricorne cherche un idéal de construction, de réussite, d’ordre ou de mission. Il peut spiritualiser la structure ou rêver d’une forme parfaite d’accomplissement.",
-        "forces": [
-          "Vision inspirée de la construction",
-          "Capacité à rêver une œuvre durable",
-          "Sens d’une vocation ou d’une mission"
-        ],
-        "defis": [
-          "Illusions liées à la réussite ou au statut",
-          "Confusion entre vocation et pression sociale",
-          "Risque d’idéaliser le contrôle"
-        ],
-        "enAmour": [
-          "Peut idéaliser un amour fiable, solide, irréprochable",
-          "A besoin de sentir une dignité dans le lien"
-        ],
-        "auTravail": [
-          "Très inspiré quand la structure sert un sens plus grand",
-          "Peut porter une vision forte d’accomplissement"
-        ],
-        "avecArgent": [
-          "Peut rêver de sécurité parfaite",
-          "Doit garder un lien clair avec le réel"
-        ]
-      },
-      "pluton": {
-        "tonalite": "Pluton en Capricorne transforme profondément le rapport au pouvoir, à la structure, à la hiérarchie, à la réussite et à la responsabilité.",
-        "forces": [
-          "Puissance stratégique",
-          "Capacité à restructurer en profondeur",
-          "Volonté de transformation durable",
-          "Endurance dans les processus difficiles"
-        ],
-        "defis": [
-          "Rapports de pouvoir",
-          "Contrôle excessif",
-          "Crises autour de l’autorité, du statut ou de la structure",
-          "Rigidité dure"
-        ],
-        "enAmour": [
-          "Veut un lien solide mais peut vouloir trop maîtriser",
-          "Transforme profondément sa manière d’aimer avec le temps"
-        ],
-        "auTravail": [
-          "Très fort pour transformer des systèmes, des institutions ou des hiérarchies",
-          "Peut porter des responsabilités considérables"
-        ],
-        "avecArgent": [
-          "Rapport intense à la maîtrise matérielle",
-          "Peut traverser de grands cycles de contrôle, perte et reconstruction"
-        ]
-      }
-    }
+    "vegetaux": [
+      { "nom": "Cyprès", "motsCles": ["verticalité", "tenue", "durée", "sobriété"] },
+      { "nom": "Lierre", "motsCles": ["persistance", "durée", "patience", "ascension"] },
+      { "nom": "Prêle", "motsCles": ["structure", "consolidation", "solidité", "discipline"] }
+    ],
+    "animaux": [
+      { "nom": "Chèvre de montagne", "motsCles": ["ascension", "prudence", "endurance", "hauteur"] },
+      { "nom": "Bouquetin", "motsCles": ["maîtrise", "hauteur", "résistance", "ténacité"] },
+      { "nom": "Corbeau", "motsCles": ["lucidité", "gravité", "intelligence", "distance"] }
+    ]
   },
-  "dansUnTheme": [
-    "Le Capricorne indique un domaine où l’on construit lentement mais solidement.",
-    "Il montre aussi où l’on apprend à assumer ses responsabilités et à devenir une référence.",
-    "Selon la maison et les aspects, il peut montrer un secteur de vie où l’on structure, endure, maîtrise, hiérarchise ou cherche à bâtir quelque chose de durable."
+  "geographie": [
+    { "pays": "Inde", "texte": "Associée au Capricorne pour son ancienneté, sa structure sociale complexe et une profondeur temporelle qui défie les siècles." },
+    { "pays": "Mexique", "texte": "Cité dans les traditions classiques pour ses civilisations anciennes, ses pyramides et une culture de l'endurance face à l'adversité." },
+    { "pays": "Afghanistan", "texte": "Relié au Capricorne par ses montagnes austères, sa résistance séculaire et un tempérament forgé par les épreuves." },
+    { "pays": "Bulgarie", "texte": "Citée dans les correspondances traditionnelles pour son ancrage terrien, son histoire de résistance et sa culture de la persévérance." }
   ],
-  "relationsAuxAutresSignes": [
-    {
-      "sign": "belier",
-      "level": "intense",
-      "title": "Élan et structure",
-      "summary": "Le Bélier veut aller vite, le Capricorne veut bâtir dans le temps. Le lien peut être très productif ou très conflictuel selon la maturité des deux.",
-      "pointsFortes": [
-        "Complémentarité entre attaque et stratégie",
-        "Capacité à accomplir du solide",
-        "L’un lance, l’autre construit"
-      ],
-      "pointsDeTension": [
-        "Frustration",
-        "Rapports de force",
-        "Différence de rythme"
-      ]
-    },
-    {
-      "sign": "taureau",
-      "level": "fluide",
-      "title": "Terre et endurance",
-      "summary": "Le Capricorne et le Taureau partagent le goût du concret, de la durée et de la stabilité. Le lien peut être très solide, fiable et productif.",
-      "pointsFortes": [
-        "Réalité",
-        "Endurance",
-        "Construction durable",
-        "Fiabilité"
-      ],
-      "pointsDeTension": [
-        "Rigidité",
-        "Routine",
-        "Difficulté à se renouveler"
-      ]
-    },
-    {
-      "sign": "gemeaux",
-      "level": "variable",
-      "title": "Structure et mobilité",
-      "summary": "Le Capricorne veut construire et tenir ; les Gémeaux veulent circuler et varier. Le lien peut être enrichissant s’il accepte la différence de rythme et de priorité.",
-      "pointsFortes": [
-        "L’un structure, l’autre ouvre des pistes",
-        "Complémentarité entre stratégie et souplesse",
-        "Apprentissage mutuel"
-      ],
-      "pointsDeTension": [
-        "Le Capricorne peut trouver les Gémeaux trop volatils",
-        "Les Gémeaux peuvent trouver le Capricorne trop rigide",
-        "Conflit entre durée et mobilité"
-      ]
-    },
-    {
-      "sign": "cancer",
-      "level": "complementaire",
-      "title": "Axe Capricorne–Cancer",
-      "summary": "Le Capricorne structure le monde extérieur, le Cancer protège le monde intérieur. C’est un axe très fort entre responsabilité et appartenance, maîtrise et vulnérabilité.",
-      "pointsFortes": [
-        "Complémentarité profonde",
-        "Capacité à construire un lien solide et humain",
-        "Équilibre possible entre cœur et structure"
-      ],
-      "pointsDeTension": [
-        "Le Capricorne peut sembler froid",
-        "Le Cancer peut sembler trop sensible",
-        "Conflit entre maîtrise et besoin affectif"
-      ]
-    },
-    {
-      "sign": "lion",
-      "level": "variable",
-      "title": "Structure et rayonnement",
-      "summary": "Le Capricorne veut bâtir avec sérieux ; le Lion veut rayononner avec cœur. Le lien peut être puissant mais demande d’accepter deux styles d’autorité très différents.",
-      "pointsFortes": [
-        "L’un structure, l’autre inspire",
-        "Possibilité de construire quelque chose de visible et fort",
-        "Complémentarité entre ambition et présence"
-      ],
-      "pointsDeTension": [
-        "Le Lion peut sembler trop démonstratif",
-        "Le Capricorne peut sembler trop austère",
-        "Conflit entre besoin de reconnaissance et exigence"
-      ]
-    },
-    {
-      "sign": "vierge",
-      "level": "fluide",
-      "title": "Terre et méthode",
-      "summary": "Le Capricorne et la Vierge peuvent travailler, construire et avancer ensemble avec rigueur, méthode et sérieux. Le lien peut être très fiable.",
-      "pointsFortes": [
-        "Rigueur",
-        "Compétence",
-        "Sens du réel",
-        "Construction patiente"
-      ],
-      "pointsDeTension": [
-        "Excès d’exigence",
-        "Tendance à tout contrôler",
-        "Risque de relation trop fonctionnelle"
-      ]
-    },
-    {
-      "sign": "balance",
-      "level": "variable",
-      "title": "Structure et relation",
-      "summary": "Le Capricorne veut solidifier, la Balance veut équilibrer. Le rapport peut être utile et élégant, mais il demande d’unir responsabilité et souplesse.",
-      "pointsFortes": [
-        "Capacité à formaliser des accords",
-        "Sens du cadre et du lien",
-        "Complémentarité entre structure et diplomatie"
-      ],
-      "pointsDeTension": [
-        "La Balance peut sembler trop indécise",
-        "Le Capricorne peut sembler trop dur",
-        "Conflit entre compromis et fermeté"
-      ]
-    },
-    {
-      "sign": "scorpion",
-      "level": "fluide",
-      "title": "Profondeur et maîtrise",
-      "summary": "Le Capricorne et le Scorpion partagent une intensité contenue, du sérieux et une capacité à aller loin dans ce qu’ils entreprennent. Le lien peut être très fort.",
-      "pointsFortes": [
-        "Profondeur",
-        "Endurance",
-        "Volonté",
-        "Loyauté possible"
-      ],
-      "pointsDeTension": [
-        "Rapports de force",
-        "Contrôle",
-        "Difficulté à lâcher prise"
-      ]
-    },
-    {
-      "sign": "sagittaire",
-      "level": "variable",
-      "title": "Horizon et construction",
-      "summary": "Le Sagittaire veut ouvrir l’horizon ; le Capricorne veut bâtir dans la durée. Le lien peut être fécond s’il relie vision et réalisme.",
-      "pointsFortes": [
-        "L’un inspire, l’autre structure",
-        "Capacité à donner une forme concrète à une vision",
-        "Complémentarité entre horizon et stratégie"
-      ],
-      "pointsDeTension": [
-        "Le Sagittaire peut sembler trop mobile",
-        "Le Capricorne peut sembler trop fermé",
-        "Conflit entre expansion et prudence"
-      ]
-    },
-    {
-      "sign": "capricorne",
-      "level": "fluide",
-      "title": "Structure face à structure",
-      "summary": "Deux Capricornes peuvent se comprendre dans leur besoin de sérieux, de fiabilité et de construction. Le lien peut être très solide, mais demande de ne pas se dessécher émotionnellement.",
-      "pointsFortes": [
-        "Solidité",
-        "Fiabilité",
-        "Respect",
-        "Capacité à bâtir ensemble"
-      ],
-      "pointsDeTension": [
-        "Rigidité",
-        "Retenue émotionnelle",
-        "Risque de vivre trop dans le devoir"
-      ]
-    },
-    {
-      "sign": "verseau",
-      "level": "complementaire",
-      "title": "Structure et réforme",
-      "summary": "Le Capricorne conserve et organise ; le Verseau réinvente et ouvre. C’est un axe puissant entre forme établie et transformation du collectif.",
-      "pointsFortes": [
-        "Complémentarité entre cadre et innovation",
-        "Vision stratégique",
-        "Capacité à transformer utilement"
-      ],
-      "pointsDeTension": [
-        "Le Capricorne peut sembler trop rigide",
-        "Le Verseau peut sembler trop détaché ou imprévisible",
-        "Conflit entre sécurité et liberté"
-      ]
-    },
-    {
-      "sign": "poissons",
-      "level": "stimulante",
-      "title": "Structure et compassion",
-      "summary": "Le Capricorne donne une forme, les Poissons ouvrent au sensible et à l’invisible. Le lien peut être profondément complémentaire si chacun respecte l’univers de l’autre.",
-      "pointsFortes": [
-        "L’un ancre, l’autre adoucit",
-        "Complémentarité entre cadre et compassion",
-        "Possibilité de relier réalité et inspiration"
-      ],
-      "pointsDeTension": [
-        "Le Capricorne peut trouver les Poissons trop flous",
-        "Les Poissons peuvent trouver le Capricorne trop dur",
-        "Conflit entre contrôle et abandon"
-      ]
-    }
-  ],
-  "paysAssocies": [
-    {
-      "pays": "Inde",
-      "niveau": "traditionnel",
-      "justification": "Dans certaines traditions de géographie astrologique, l’Inde est associée au Capricorne dans une logique symbolique liée à l’ancienneté, à la structure, à l’ordre et à une forme de profondeur temporelle."
-    },
-    {
-      "pays": "Mexique",
-      "niveau": "traditionnel",
-      "justification": "Le Mexique apparaît dans certaines listes classiques de correspondances astrologiques liées au Capricorne. Il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
-    },
-    {
-      "pays": "Afghanistan",
-      "niveau": "traditionnel",
-      "justification": "L’Afghanistan figure dans certaines listes traditionnelles de géographie astrologique rattachées au Capricorne. Cette correspondance relève d’un symbolisme classique."
-    },
-    {
-      "pays": "Bulgarie",
-      "niveau": "traditionnel",
-      "justification": "La Bulgarie est parfois citée parmi les pays associés au Capricorne dans les traditions astrologiques classiques, selon une logique de correspondance symbolique."
-    }
+  "figuresCelebres": [
+    { "nom": "David Bowie", "domaine": "Musique", "date": "8 janvier 1947", "texte": "Incarne la maîtrise du Capricorne à travers une construction d'œuvre patiente, disciplinée et d'une longévité remarquable." },
+    { "nom": "Kate Middleton", "domaine": "Vie publique", "date": "9 janvier 1982", "texte": "Illustre la tenue, la maîtrise et la sobriété d'image caractéristiques du Capricorne." },
+    { "nom": "Denzel Washington", "domaine": "Cinéma", "date": "28 décembre 1954", "texte": "Incarne la présence solide, la crédibilité durable et la maîtrise du Capricorne à l'écran." },
+    { "nom": "Michelle Obama", "domaine": "Vie publique", "date": "17 janvier 1964", "texte": "Illustre la discipline, l'autorité posée et la force structurée propres au Capricorne." }
   ],
   "faq": [
     {
       "question": "Quel est le caractère du Capricorne ?",
-      "answer": "Le Capricorne a un tempérament sérieux, structuré, prudent et endurant. Il aime construire, assumer et maîtriser, mais doit veiller à ne pas se durcir excessivement ou réduire la vie à la seule exigence."
+      "reponse": "Le Capricorne se caractérise par la patience, la rigueur, l'ambition et une capacité remarquable à construire dans la durée. C'est un tempérament réservé, solide et exigeant, doté d'une grande constance dans ses sentiments et ses opinions. Il manifeste peu ses émotions mais possède une sensibilité vive. Son sens des responsabilités, sa persévérance et sa conscience professionnelle sont ses atouts majeurs."
     },
     {
-      "question": "Quel type d’amoureuse ou d’amoureux est le Capricorne ?",
-      "answer": "Le Capricorne aime avec sérieux, fidélité et profondeur. Il cherche souvent une relation fiable, mature et durable, mais doit apprendre à montrer davantage sa vulnérabilité et sa tendresse."
+      "question": "Quel type d'amoureuse ou d'amoureux est le Capricorne ?",
+      "reponse": "Sérieux, fidèle, constant et profond. Le Capricorne ne se livre pas vite mais aime avec durée et fiabilité. L'éveil amoureux est souvent tardif, le mariage plutôt de raison, mais le lien est solide et durable. Il a besoin de respect, de confiance et de cohérence. Son amour peut sembler discret, mais il est plus stable et plus profond qu'il n'en a l'air."
     },
     {
       "question": "Quel type de travailleur est le Capricorne ?",
-      "answer": "Le Capricorne est souvent un travailleur très fiable, discipliné et stratégique. Il excelle dans les domaines où il faut construire, gérer, structurer, encadrer ou assumer sur le long terme."
+      "reponse": "Un bâtisseur, un stratège et un travailleur infatigable. Le Capricorne excelle dans les domaines qui demandent du temps, de la discipline et de la responsabilité. Il réussit grâce au mérite personnel et à la constance dans la poursuite d'un but bien défini. Il est imbattable sur le plan de la concentration et de la persévérance dans l'effort."
     },
     {
       "question": "Quelle maison correspond au Capricorne ?",
-      "answer": "Le Capricorne est naturellement relié à la maison X, celle de la vocation, de la réussite, de la responsabilité, de la place sociale et de l’autorité."
-    }
-  ],
-  "pierresEtMetaux": [
-    {
-      "nom": "Onyx",
-      "type": "pierre",
-      "description": "L’onyx évoque la solidité intérieure, la maîtrise, l’endurance et la tenue dans le temps. Il s’accorde bien avec la dimension sobre et structurée du Capricorne.",
-      "motsCles": ["solidité", "maîtrise", "endurance", "structure"]
-    },
-    {
-      "nom": "Grenat almandin",
-      "type": "pierre",
-      "description": "Le grenat almandin renvoie à une force contenue, une endurance profonde et une énergie capable de soutenir l’effort dans la durée.",
-      "motsCles": ["endurance", "effort", "tenue", "profondeur"]
-    },
-    {
-      "nom": "Plomb",
-      "type": "métal",
-      "description": "Le plomb est traditionnellement lié à Saturne : densité, pesanteur, durée, structure, responsabilité et conscience du temps.",
-      "motsCles": ["saturne", "temps", "structure", "responsabilité"]
-    }
-  ],
-  "plantes": [
-    {
-      "nom": "Cyprès",
-      "type": "arbre",
-      "description": "Le cyprès évoque la verticalité, la tenue, la sobriété et la permanence. Il correspond très bien à l’énergie du Capricorne.",
-      "usagesSymboliques": ["verticalité", "tenue", "durée", "sobriété"]
-    },
-    {
-      "nom": "Lierre",
-      "type": "plante",
-      "description": "Le lierre renvoie à la persistance, à la montée progressive, à la capacité de s’accrocher et de durer, en affinité avec la logique capricornienne.",
-      "usagesSymboliques": ["persistance", "durée", "patience", "ascension"]
-    },
-    {
-      "nom": "Prêle",
-      "type": "plante",
-      "description": "La prêle porte une symbolique de structure, de consolidation et de rapport aux os, ce qui s’accorde bien avec le Capricorne.",
-      "usagesSymboliques": ["structure", "consolidation", "solidité", "discipline"]
-    }
-  ],
-  "animaux": [
-    {
-      "nom": "Chèvre de montagne",
-      "type": "animal-symbolique",
-      "description": "La chèvre de montagne incarne l’endurance, l’ascension, la prudence, la capacité à gravir lentement et sûrement des pentes difficiles.",
-      "motsCles": ["ascension", "prudence", "endurance", "hauteur"]
-    },
-    {
-      "nom": "Bouquetin",
-      "type": "animal",
-      "description": "Le bouquetin renforce l’image d’une force adaptée aux terrains rudes, d’une maîtrise du relief et d’une puissance sobre et tenace.",
-      "motsCles": ["maîtrise", "hauteur", "résistance", "tenacité"]
-    },
-    {
-      "nom": "Corbeau",
-      "type": "oiseau",
-      "description": "Le corbeau peut évoquer la lucidité, la gravité, l’intelligence stratégique et une forme de présence sobre, en affinité avec le Capricorne.",
-      "motsCles": ["lucidité", "gravité", "intelligence", "distance"]
-    }
-  ],
-  "ascendant": {
-    "intro": "Si votre ascendant est Capricorne, cela signifie souvent que vous entrez dans la vie avec réserve, sérieux, prudence et besoin de maîtrise. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité structurée, sobre et responsable.",
-    "apparence": [
-      "Présence sobre et contenue",
-      "Allure sérieuse ou maîtrisée",
-      "Regard attentif, prudent ou distant",
-      "Impression de tenue, de maturité ou de retenue",
-      "Corps ou maintien pouvant évoquer la verticalité et le contrôle"
-    ],
-    "temperament": [
-      "Observe avant d’agir",
-      "Réagit avec prudence",
-      "A besoin de comprendre ce qui est solide avant de s’engager",
-      "Supporte mal l’improvisation vide",
-      "Entre souvent dans les situations par la maîtrise et la réserve"
-    ],
-    "enRelation": [
-      "Donne une impression de sérieux, de fiabilité ou de distance",
-      "Peut paraître froid au début mais solide ensuite",
-      "Cherche des rapports respectueux, clairs et durables",
-      "Aime que le lien tienne réellement"
-    ],
-    "pointsDeVigilance": [
-      "Rigidité",
-      "Retenue excessive",
-      "Peur de la vulnérabilité",
-      "Tendance à trop se contrôler",
-      "Risque de paraître fermé ou inaccessible"
-    ]
-  },
-  "signeDominant": {
-    "intro": "Si le Capricorne est dominant dans un thème, cela signifie souvent que la personne aborde la vie avec un fort besoin de construction, de maîtrise, de responsabilité et de durée. Elle se construit à travers l’effort, le temps, la crédibilité, la solidité et la capacité à assumer.",
-    "forces": [
-      "Endurance",
-      "Rigueur",
-      "Responsabilité",
-      "Maîtrise",
-      "Capacité à construire"
-    ],
-    "vigilances": [
-      "Rigidité",
-      "Peurs liées à l’échec",
-      "Dureté envers soi-même",
-      "Surcontrôle",
-      "Tendance à réduire la vie à la performance"
-    ],
-    "dansLaVie": [
-      "La personne cherche souvent à bâtir quelque chose qui dure",
-      "Elle supporte mieux les efforts longs que les improvisations instables",
-      "Elle a besoin de repères solides et de résultats concrets",
-      "Elle supporte mal le flou prolongé ou l’absence de responsabilité"
-    ],
-    "enAmour": [
-      "Elle aime souvent sérieusement, prudemment et durablement",
-      "Elle a besoin de respect, de fiabilité et de temps",
-      "Elle peut mettre longtemps à s’ouvrir, mais le fait profondément"
-    ],
-    "auTravail": [
-      "Elle excelle souvent dans les fonctions de structure, de gestion, de responsabilité ou de direction",
-      "Elle a besoin d’un objectif solide et réaliste",
-      "Elle fonctionne mieux quand le temps, l’effort et le mérite ont un sens"
-    ]
-  },
-  "celebrites": [
-    {
-      "nom": "David Bowie",
-      "dateNaissance": "8 janvier 1947",
-      "domaine": "Musique",
-      "description": "Souvent cité parmi les célébrités Capricorne, avec une image de maîtrise, de construction d’œuvre et de trajectoire durable."
-    },
-    {
-      "nom": "Kate Middleton",
-      "dateNaissance": "9 janvier 1982",
-      "domaine": "Vie publique",
-      "description": "Souvent associée à une tenue, une maîtrise et une sobriété d’image très cohérentes avec le Capricorne."
-    },
-    {
-      "nom": "Denzel Washington",
-      "dateNaissance": "28 décembre 1954",
-      "domaine": "Cinéma",
-      "description": "Souvent évoqué pour sa présence solide, sa maîtrise et sa crédibilité durable."
-    },
-    {
-      "nom": "Michelle Obama",
-      "dateNaissance": "17 janvier 1964",
-      "domaine": "Vie publique",
-      "description": "Souvent citée pour sa discipline, sa tenue, son autorité posée et sa force structurée."
+      "reponse": "La Maison X, celle de la vocation, de la place sociale, de la réussite et des responsabilités. Son analogie naturelle avec le Capricorne souligne l'effort, la structuration, la maturité et la conquête d'une légitimité durable fondée sur le mérite et la constance."
     }
   ]
 }

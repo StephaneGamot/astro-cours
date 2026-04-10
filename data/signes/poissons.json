@@ -1,886 +1,444 @@
 {
   "slug": "poissons",
-  "name": "Poissons",
+  "nom": "Poissons",
+  "sousTitre": "Le douzième signe du Zodiaque",
+  "devise": "Je ressens tout",
   "periode": "19 février – 20 mars",
-  "polarite": "Passif (féminin)",
-  "mode": "Mutable",
   "element": "Eau",
+  "mode": "Mutable",
   "maitre": "Jupiter (tradition) / Neptune (moderne)",
   "exaltation": "Vénus",
   "exil": "Mercure",
   "chute": "Mercure",
-  "motCle": "Je ressens tout",
-  "mythologie": "Les Poissons sont associés à plusieurs récits mythologiques évoquant la fuite, la dissolution et le salut. Dans la mythologie grecque, Aphrodite et Éros se transforment en poissons pour échapper à Typhon. Ce mythe parle de l’abandon des formes rigides pour survivre autrement. Les Poissons symbolisent ainsi la fin d’un cycle, le retour à l’unité et la capacité à se fondre dans quelque chose de plus vaste que soi. Ils représentent le moment où la conscience n’affirme plus seulement une identité distincte : elle perçoit les liens invisibles, les frontières poreuses, les résonances subtiles et la possibilité de s’ouvrir à l’infini du vivant.",
-  "analogie": {
+  "polarite": "Féminin",
+  "temperament": "Lymphatique",
+  "maisonNaturelle": 12,
+  "couleur": {
+    "primaire": "#6366F1",
+    "secondaire": "#818CF8",
+    "accent": "#C4B5FD",
+    "gradient": "from-indigo-600 via-violet-500 to-purple-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "verseau", "nom": "Verseau" },
+    "suivant": { "slug": "belier", "nom": "Bélier" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/poissons.webp",
+    "planete": "/images/planetes/neptune.webp"
+  },
+  "introduction": "Les Poissons sont le douzième et dernier signe du Zodiaque. Le Soleil le traverse entre le 19 février et le 20 mars environ, à la fin de l'hiver, quand la nature semble encore endormie mais prépare déjà en silence le grand renouveau du printemps. C'est l'aboutissement du cycle, la dernière phase d'attente, un moment de méditation et d'harmonie intérieure. Après la vision collective du Verseau, les Poissons invitent à ressentir l'unité du vivant, à se relier à ce qui dépasse l'individu, à dissoudre les frontières entre soi et le monde. Ce n'est pas un hasard si l'astrologie place ici la fin du parcours zodiacal : les Poissons incarnent le retour à l'océan originel, la compassion universelle, le rêve d'une conscience qui ne sépare plus mais qui accueille tout — le visible et l'invisible, le réel et l'imaginaire, la souffrance et la grâce.",
+  "fondationsCosmiques": {
+    "texte": "Les Poissons appartiennent à l'élément Eau (froid et humide), ce qui leur confère un tempérament lymphatique : grande réceptivité intérieure, sensibilité profonde, vie émotionnelle riche et souterraine. C'est le troisième niveau de l'Eau — celui de la sublimation. Là où le Cancer ressent et protège, là où le Scorpion sonde et transforme, les Poissons dissolvent les frontières et se relient à l'unité du vivant. L'élément psychique est sublimé : on ressent la souffrance des autres, on perçoit les courants invisibles, on capte ce qui ne se dit pas. Leur mode est mutable : ils s'adaptent à toutes les situations, se fondent dans les ambiances, épousent les formes qu'on leur propose. C'est aussi un signe double — deux poissons nageant en sens contraire symbolisent la tension permanente entre le rêve et la réalité, l'évasion et l'incarnation, le sacrifice et la plénitude. Signe passif, récepteur et introverti, il encaisse plutôt qu'il ne se défend, mais possède une endurance considérable et des ressources intérieures profondes.",
+    "courteAscension": "Les Poissons sont un signe de courte ascension — ils passent rapidement au-dessus de l'horizon — ce qui signifie que statistiquement, moins de personnes naissent avec les Poissons comme Ascendant.",
+    "pluton": "Les Poissons sont le domicile traditionnel nocturne de Jupiter, la planète de l'expansion, de la foi et de la générosité. Le généreux Jupiter se sent bien dans le signe de la compassion. Depuis la découverte de Neptune en 1846, de nombreux astrologues modernes lui ont attribué la maîtrise des Poissons, tant cette planète d'imagination, de dissolution et de spiritualité correspond au tempérament profond de ce signe. La question de la double maîtrise Jupiter-Neptune reste ouverte : Jupiter donne aux Poissons leur bienveillance, leur sens de la protection et leur capacité à voir grand ; Neptune leur donne leur porosité, leur imaginaire et leur aspiration à l'infini. L'exaltation de Vénus dans ce signe ajoute une dimension d'amour inconditionnel : ici, l'amour ne calcule plus, il embrasse tout."
+  },
+  "analogies": {
     "animal": "Les poissons",
-    "objet": "L’océan, le voile, la coupe, la marée",
-    "fonction": "Ressentir, dissoudre, unir"
+    "objet": "L'océan, le voile, la coupe, la marée",
+    "fonction": "Ressentir, dissoudre, unir",
+    "texte": "Les Poissons sont le signe du mysticisme, de la bonté, de la compassion, de la timidité, de l'indécision et de la philanthropie. Le mystique, le marin, l'infirmier, l'assistante sociale — tous sont des archétypes de ce signe. De même que les poissons vivent dans un milieu sans frontières visibles, se laissant porter par les courants et les marées, le natif des Poissons évolue dans un monde de sensations, d'intuitions et de résonances subtiles. C'est le signe des choses cachées et mystérieuses, de la crainte de l'inconnu qui se transforme en fascination. Les Poissons inscrivent dans le Zodiaque la possibilité d'une conscience qui ne sépare plus : une conscience océanique, capable d'accueillir la totalité du vivant."
   },
-  "anatomie": ["Pieds", "Système lymphatique", "Fonctions de dissolution", "Fluides subtils"],
-  "generalites": [
-    "Les Poissons représentent la dissolution des frontières. Après la vision collective du Verseau, ils invitent à ressentir l’unité du vivant, à se relier à ce qui dépasse l’individu.",
-    "Ce signe fonctionne par intuition, empathie et sensibilité profonde. Il perçoit les ambiances, les émotions et les non-dits avec une grande finesse.",
-    "Son défi est de ne pas se perdre dans la confusion, la fuite ou le sacrifice excessif. Lorsqu’il est équilibré, le Poissons devient une conscience compatissante, capable d’accueillir sans se dissoudre.",
-    "Les Poissons relient aussi l’être humain à la fin d’un cycle, au rêve, à l’imaginaire, à la spiritualité, à la compassion et au mystère. Ils ont besoin de sens intérieur, de silence, de fluidité et d’un espace où l’âme peut respirer."
-  ],
-  "caractere": [
-    "Les Poissons sentent avant de définir : ils captent, absorbent, devinent, imaginent et se laissent traverser par ce qui ne se dit pas toujours clairement.",
-    "Leur caractère est sensible, réceptif, intuitif, souvent rêveur, avec un rapport très fin aux ambiances et aux mouvements intérieurs.",
-    "Ils préfèrent les chemins de la résonance, de l’inspiration, de la douceur ou du mystère aux cadres trop durs, trop rationnels ou trop fermés.",
-    "Lorsqu’ils sont immatures, ils peuvent devenir flous, fuyants ou trop influençables ; lorsqu’ils mûrissent, ils deviennent une force de compassion, d’inspiration et de compréhension profonde."
-  ],
-  "aptitudesNaturelles": [
-    "Percevoir les ambiances et les non-dits",
-    "Accueillir et comprendre le vécu émotionnel d’autrui",
-    "Créer à partir de l’imaginaire ou de l’inspiration",
-    "Relier les êtres par la compassion",
-    "Sentir les mouvements subtils d’une situation",
-    "Apporter de la douceur, du sens ou une forme de guérison invisible"
-  ],
-  "ceQuIlRegitDansLeMonde": [
-    "Le rêve",
-    "La spiritualité",
-    "L’imaginaire",
-    "La compassion",
-    "Les mondes invisibles",
-    "La dissolution des frontières",
-    "Les retraits, les refuges, les marges",
-    "La fin d’un cycle, la fusion, la sensibilité universelle"
-  ],
-  "maisonCorrespondante": {
-    "numero": 12,
-    "nom": "Maison XII",
-    "resume": "La douzième maison parle des retraits, de l’invisible, des épreuves intérieures, de la vie cachée, des mondes subtils, du lâcher-prise et de la fin d’un cycle. Son analogie naturelle avec les Poissons souligne la dissolution, la compassion, l’inconscient, la spiritualité et la nécessité d’accueillir ce qui échappe au contrôle.",
-    "themes": [
-      "Invisible",
-      "Retrait",
-      "Spiritualité",
-      "Inconscient",
-      "Fin de cycle",
-      "Lâcher-prise"
-    ]
+  "mythologie": {
+    "titre": "Le poisson sauveur et Jonas",
+    "texte": "Les Poissons sont liés à plusieurs récits mythologiques évoquant le salut, la dissolution et la renaissance. Dans la mythologie grecque, Aphrodite et Éros se transforment en poissons pour échapper au monstrueux Typhon — abandonner sa forme pour survivre autrement. Dans la mythologie hindoue, c'est un poisson nommé Manou qui sauve l'humanité d'un immense déluge et devient le père de l'humanité nouvelle. Dans la tradition biblique, Jonas est dévoré par la baleine et séjourne trois jours dans le ventre de l'animal au fond des eaux avant de ressortir vivant, préfigurant la résurrection. Le poisson dessiné sur les murs des catacombes était le signe de ralliement des premiers chrétiens — ICHTUS, « poisson » en grec, formé des initiales de « Jésus est le Christ, le fils de Dieu, le Sauveur ». Dans tous ces mythes apparaît la même promesse : un temps d'épreuves et de purification est nécessaire pour accéder à une vie nouvelle.",
+    "civilisations": "La figure du poisson sauveur traverse les civilisations : en Mésopotamie, le dieu Ea prenait la forme d'un poisson pour enseigner la sagesse aux hommes. En Inde, Vishnou s'incarna en poisson (Matsya) pour sauver le monde du déluge. La petite sirène d'Andersen, amoureuse de son prince, se sacrifie en silence pour qu'il soit heureux — mythe poissons par excellence. Les deux poissons nageant en sens contraire symbolisent dans toutes les traditions la dualité entre le monde visible et le monde invisible, entre la chair et l'esprit, entre l'attachement et le détachement. Les Poissons portent la promesse que la fin d'un cycle n'est pas une mort, mais un retour à la source."
   },
-  "forces": [
-    "Grande sensibilité au vivant",
-    "Capacité de compassion et de compréhension universelle",
-    "Imagination et inspiration profondes"
-  ],
-  "ombres": [
-    "Perte de repères",
-    "Évasion face au réel",
-    "Difficulté à poser des limites"
-  ],
-  "besoins": [
-    "Temps de retrait et de ressourcement",
-    "Connexion spirituelle ou artistique",
-    "Cadre protecteur"
-  ],
-  "aTravailler": [
-    "L’ancrage dans le réel",
-    "La clarté et le discernement",
-    "La capacité à dire non",
-    "Le fait de ne pas confondre compassion et sacrifice",
-    "L’apprentissage de limites saines"
-  ],
-  "quandCestEquilibre": [
-    "Les Poissons deviennent une présence apaisante, capable de soulager et d’inspirer.",
-    "Ils incarnent une sagesse sensible, tournée vers l’unité et la compassion.",
-    "Leur réceptivité ne les dissout plus : elle devient une force de présence, de soin subtil et de création inspirée."
-  ],
-  "aptitudes": {
-    "atouts": [
-      "Empathique",
-      "Intuitif",
-      "Compatissant",
-      "Inspiré",
-      "Créatif",
-      "Réceptif"
+  "portrait": {
+    "temperament": "Les Poissons sentent avant de définir : ils captent, absorbent, devinent, imaginent et se laissent traverser par ce qui ne se dit pas toujours clairement. Leur caractère est sensible, réceptif, intuitif, souvent rêveur, avec un rapport très fin aux ambiances et aux mouvements intérieurs. Les facultés créatrices ne sont pas toujours spectaculaires, mais l'assimilation est aisée et la compréhension se trouve facilitée par une intuition généralement très appréciable. Le sujet des Poissons a souvent des pressentiments exacts et parfois des dons de clairvoyance. Il est sincère, dévoué, conciliant, confiant et hospitalier, ne demandant qu'à rendre service et à plaire. Sa timidité le gêne souvent, de même que sa naïveté et sa trop grande spontanéité. La volonté est instable et il y a souvent un manque de confiance en soi. La modestie est parfois excessive et ne permet pas de mettre en relief ses aptitudes véritables. Lorsqu'il est immature, il peut devenir flou, fuyant ou trop influençable ; lorsqu'il mûrit, il devient une force de compassion, d'inspiration et de compréhension profonde.",
+    "forces": [
+      "Percevoir les ambiances et les non-dits avec une finesse rare",
+      "Accueillir et comprendre le vécu émotionnel d'autrui sans jugement",
+      "Créer à partir de l'imaginaire, de l'inspiration ou du rêve",
+      "Relier les êtres par la compassion et la douceur",
+      "Sentir les mouvements subtils d'une situation avant qu'ils ne se manifestent",
+      "Apporter du sens, de la douceur ou une forme de guérison invisible"
     ],
-    "defis": [
-      "Fuyant",
-      "Confus",
-      "Influençable",
-      "Manque de limites",
-      "Sacrifice excessif"
-    ]
+    "ombres": [
+      "Perte de repères et flou identitaire dans les moments de crise",
+      "Évasion face au réel quand la pression devient trop forte",
+      "Difficulté à poser des limites claires dans les relations",
+      "Tendance à absorber les émotions négatives de l'entourage",
+      "Risque de confondre compassion et sacrifice de soi"
+    ],
+    "besoinsVitaux": [
+      "Temps de retrait et de ressourcement loin du bruit du monde",
+      "Connexion spirituelle, artistique ou imaginaire qui nourrit l'âme",
+      "Cadre protecteur qui respecte la sensibilité sans l'étouffer"
+    ],
+    "aTravailler": [
+      "L'ancrage dans le réel et le concret quotidien",
+      "La clarté et le discernement face aux sollicitations émotionnelles",
+      "La capacité à dire non sans culpabilité",
+      "Ne pas confondre compassion et sacrifice de soi",
+      "L'apprentissage de limites saines qui protègent sans isoler"
+    ],
+    "equilibre": "Les Poissons en pleine possession de leurs moyens deviennent une présence apaisante, capable de soulager et d'inspirer sans se perdre. Ils incarnent une sagesse sensible, tournée vers l'unité et la compassion. Leur réceptivité ne les dissout plus : elle devient une force de présence, de soin subtil et de création inspirée. Leur douceur n'est plus de la faiblesse mais une forme de courage silencieux, et leur imaginaire devient un pont entre le visible et l'invisible."
   },
+  "sante": {
+    "zones": ["Pieds", "Système lymphatique", "Fluides organiques", "Psychisme"],
+    "texte": "Les Poissons gouvernent principalement les pieds, le système lymphatique, les fluides organiques, les glandes et ganglions. Ils prédisposent aux malaises liés aux pieds, à la pituite, au coryza, à l'obésité, et par le signe opposé à des troubles respiratoires et intestinaux. Le psychisme est particulièrement sollicité : les natifs des Poissons peuvent être sujets aux affections psychosomatiques, à l'angoisse affective, aux ulcères, aux colites spasmodiques et à l'asthme. La constitution est souvent plus fragile que la moyenne, et l'activité peut être limitée par la nonchalance ou la faiblesse physique. Les Poissons doivent veiller à protéger leur système nerveux de la surcharge émotionnelle et à entretenir leur vitalité par des pratiques douces qui respectent leur rythme intérieur."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "L'identité et le tempérament",
+      "texte": "Les facultés créatrices sont parfois discrètes, mais l'assimilation est aisée et l'intuition très appréciable. Le sujet a souvent des pressentiments exacts et parfois des dons de clairvoyance. Très grande sensibilité et émotivité : il subit facilement l'empreinte des influences bonnes ou mauvaises de son entourage. Très conciliant, confiant et hospitalier, c'est un ami sincère et dévoué. L'activité est limitée par la nonchalance ou le manque de confiance en soi, mais il sait faire preuve d'aptitudes organisatrices et réussit surtout dans les postes de confiance. Malgré sa timidité, il lui arrive, à la suite d'une puissante intuition, de prendre des décisions d'une audace inconsciente souvent couronnées de succès."
+    },
+    {
+      "numero": 2,
+      "titre": "Les ressources",
+      "texte": "La situation financière est souvent précaire pendant longtemps, avec une amélioration fréquente à partir de la quarantaine. Les dépenses sont assez élevées, les réserves faibles. Parfois deux sources de revenus. La question de la santé est toujours à prendre en considération, car la faiblesse physique peut diminuer considérablement les gains. Le natif bénéficie cependant de temps à autre de circonstances favorables inattendues. Dans les emplois subalternes, les gains sont plus réguliers et le sujet sait souvent se rendre indispensable."
+    },
+    {
+      "numero": 3,
+      "titre": "La communication",
+      "texte": "La curiosité intellectuelle est parfois faible, ce qui peut gêner les études, cependant c'est un bon indice d'imagination et d'intuition. Les voyages sont assez fréquents et le sujet est attiré par les déplacements sur l'eau, mais souvent ceux-ci restent à l'état de projet. Les relations familiales sont plutôt nombreuses et peuvent jouer un rôle moral favorable, mais parfois des inimitiés surgissent parmi les voisins ou les proches. Possibilité d'études entreprises en secret, surtout en matière d'occultisme ou de spiritualité."
+    },
+    {
+      "numero": 4,
+      "titre": "Les racines",
+      "texte": "Bon indice pour l'entente familiale. Les parents sont dévoués et conciliants, faisant tout leur possible pour aider le sujet. Le foyer est généralement confortable et la vie familiale harmonieuse. Le natif affectionne souvent le séjour au bord de l'eau. C'est aussi un facteur d'instabilité dans la résidence, avec au moins deux changements importants de domicile au cours de la vie. Parfois des secrets de famille ou des circonstances mystérieuses entourant la naissance. Fin de vie souvent paisible et sans soucis matériels."
+    },
+    {
+      "numero": 5,
+      "titre": "La création et les amours",
+      "texte": "Présage plusieurs aventures sentimentales discrètes et même cachées, avec de l'instabilité, de l'indécision et parfois de la timidité. Ce signe très fécond indique généralement plusieurs enfants. Au sujet des spéculations, cette position peut indiquer des intuitions très heureuses et c'est plutôt un signe de chance si les aspects sont favorables. Si les aspects sont très mauvais, risque de sérieux ennuis sentimentaux à la suite de calomnies ou de jalousies."
+    },
+    {
+      "numero": 6,
+      "titre": "Le quotidien et la santé",
+      "texte": "Prédispose aux maladies du signe et à celles de Jupiter et de Neptune. Les maladies accidentelles risquent de devenir chroniques. C'est un indice de vitalité restreinte. L'activité du natif est plus ou moins entravée par son état de santé et les changements de situation sont fréquents. Si les aspects sont bons, les collaborateurs éventuels sont habituellement dévoués ; si les aspects sont mauvais, il faut se méfier de leurs trahisons ou indiscrétions."
+    },
+    {
+      "numero": 7,
+      "titre": "Les associations et le mariage",
+      "texte": "Compromet quelque peu l'harmonie et la durée de l'union, avec parfois deux mariages dont le premier a souvent lieu assez tôt. Si la première union est un peu tardive, les chances d'entente s'en trouvent accrues. Les associations ne sont pas à conseiller : elles apportent plus de soucis que de satisfactions. En revanche, les ennemis déclarés sont peu dangereux, ce signe tendant à réduire les antagonismes ouverts. Si les aspects sont mauvais, les inimitiés cachées deviennent plus nombreuses."
+    },
+    {
+      "numero": 8,
+      "titre": "Les transformations",
+      "texte": "Si les autres indices du thème sont concordants, il peut y avoir des dangers liés à l'eau ou à l'empoisonnement. Plus souvent, cette position présage une fin liée aux maladies du signe, souvent dans un lieu de retraite ou de soin. C'est plutôt un indice favorable aux héritages, mais ceux-ci risquent de susciter des jalousies dans la famille. Si les dissonances sont graves, une partie du patrimoine peut être dilapidée en procès ou diminuée par des décisions préjudiciables."
+    },
+    {
+      "numero": 9,
+      "titre": "Les horizons lointains",
+      "texte": "Il y a souvent, au cours de la vie, deux grands voyages nettement plus importants que tous les autres. Plutôt propice pour vivre loin du lieu de naissance. Tendance aux déplacements sur l'eau. Indice très propice pour l'étude de l'occultisme et de la spiritualité. Accroît les tendances religieuses ou mystiques, avec parfois une retraite religieuse ou un engagement contemplatif."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocation",
+      "texte": "Le sujet est souvent obligé de tâtonner avant de trouver sa vocation, d'où la probabilité de deux changements marquants dans la carrière et une réussite plutôt tardive. L'accès aux honneurs et à la notoriété n'est pas facilité par cette position : même si le sujet réussit brillamment, son succès risque d'être terni par des calomnies ou des manœuvres d'ennemis et de jaloux. Toute élévation des natifs ayant les Poissons en position importante suscite automatiquement des jalousies parfois inattendues."
+    },
+    {
+      "numero": 11,
+      "titre": "Les amitiés",
+      "texte": "Les relations amicales sont assez nombreuses, conciliantes et surtout serviables. Cependant, des brouilles peuvent se produire et certains amis risquent de passer dans le rang des inimitiés cachées sans que le natif s'en aperçoive. Il faut éviter de vexer des amis habituellement très susceptibles. Parfois, cette position présage la rencontre d'amis dans des circonstances imprévues et quelque peu mystérieuses. En général, amitiés agréables mais un peu inconstantes."
+    },
+    {
+      "numero": 12,
+      "titre": "Les épreuves cachées",
+      "texte": "La superposition du signe et de sa maison naturelle accentue les risques de soucis occasionnés par les inimitiés cachées. Les jalousies, les calomnies et les obstacles sourds sont toujours possibles avec cette position. Elle semble accroître l'attrait pour les sciences occultes et accentuer les tendances philanthropiques. S'il n'y a pas de dissonance sérieuse, les inimitiés cachées ne pourront jamais nuire considérablement. Prédisposition aux maladies du signe ou à celles de Jupiter et Neptune."
+    }
+  ],
   "amour": {
-    "intro": "Les Poissons aiment avec une immense sensibilité, beaucoup de douceur, de fusion, d’imaginaire et de compassion. Ils ont besoin de sentir qu’un lien touche l’âme, qu’il ouvre un espace d’intimité subtile, de confiance et de tendresse. Ils peuvent aimer très profondément, mais doivent apprendre à ne pas se perdre dans l’autre ou dans l’idéal qu’ils projettent sur lui.",
+    "texte": "Les Poissons aiment avec une immense sensibilité, beaucoup de douceur, de fusion, d'imaginaire et de compassion. Ils ont besoin de sentir qu'un lien touche l'âme, qu'il ouvre un espace d'intimité subtile, de confiance et de tendresse. Le natif des Poissons est sincère et dévoué, mais parfois indécis et sujet aux caprices. Il est sentimental, très enclin à croire à la sincérité de son partenaire, ce qui l'expose à des déceptions qui l'affecteront profondément en raison de sa grande sensibilité. Il peut aimer très profondément, mais doit apprendre à ne pas se perdre dans l'autre ou dans l'idéal qu'il projette sur lui.",
     "qualites": [
-      "Grande tendresse affective",
-      "Capacité à aimer avec dévouement",
-      "Empathie profonde",
-      "Imagination romantique",
-      "Sensibilité aux besoins invisibles du lien"
+      "Grande tendresse affective et dévouement sincère",
+      "Capacité à aimer avec empathie et compassion profondes",
+      "Imagination romantique et sensibilité aux besoins invisibles du lien",
+      "Fidélité et honnêteté dans les sentiments"
     ],
     "vigilances": [
-      "Peut idéaliser la relation ou le partenaire",
-      "Risque de fusion excessive",
-      "Difficulté à poser des limites claires",
+      "Peut idéaliser la relation ou le partenaire au-delà du réel",
+      "Risque de fusion excessive qui efface les contours de soi",
+      "Difficulté à poser des limites claires dans l'intimité",
       "Tendance à confondre sauver, comprendre et aimer"
     ],
-    "compatibleAvec": ["Cancer", "Scorpion", "Taureau", "Capricorne"],
-    "attirePar": [
-      "Les personnes douces, profondes et réceptives",
-      "Les liens subtils, inspirés et sincères",
-      "Les relations où l’on peut se sentir compris au-delà des mots",
-      "Les personnes capables d’apporter à la fois tendresse et cadre"
-    ]
+    "affinites": ["cancer", "scorpion", "taureau", "capricorne"]
   },
   "travail": {
-    "intro": "Les Poissons travaillent bien lorsqu’ils peuvent servir, inspirer, créer, soigner, écouter ou donner forme à quelque chose de plus vaste qu’eux-mêmes. Ils excellent souvent dans les domaines où l’intuition, l’imagination, la compassion ou la sensibilité au vivant ont une vraie place. Ils ont besoin de sens et d’un climat qui ne brutalise pas leur monde intérieur.",
-    "qualites": [
-      "Empathie",
-      "Créativité",
-      "Sens du subtil",
-      "Capacité à écouter et ressentir",
-      "Inspiration profonde"
+    "texte": "Les Poissons travaillent bien lorsqu'ils peuvent servir, inspirer, créer, soigner, écouter ou donner forme à quelque chose de plus vaste qu'eux-mêmes. Ils excellent dans les domaines où l'intuition, l'imagination, la compassion ou la sensibilité au vivant ont une vraie place. Les rôles de confiance, de collaboration ou de soutien leur conviennent souvent mieux que les postes de commandement. Le succès est généralement obtenu dans une activité exigeant du dévouement ou de l'abnégation. Les échecs sont habituellement dus à la timidité, à la mauvaise santé ou aux obstacles imprévisibles.",
+    "atouts": [
+      "Empathie et capacité d'écoute exceptionnelles",
+      "Créativité nourrie par l'imaginaire et l'inspiration",
+      "Sens du subtil et intuition professionnelle fine",
+      "Dévouement et capacité à se rendre indispensable"
     ],
-    "vigilances": [
+    "defis": [
       "Supporte mal les environnements trop durs ou trop mécaniques",
-      "Peut manquer de cadre ou de précision",
-      "Risque d’absorption émotionnelle",
-      "Peut se disperser si l’objectif manque de clarté"
-    ],
-    "domainesFavorables": [
-      "Art",
-      "Musique",
-      "Cinéma",
-      "Soin",
-      "Psychologie",
-      "Spiritualité",
-      "Accompagnement humain",
-      "Fonctions où il faut écouter, créer, inspirer, soulager ou accueillir"
+      "Peut manquer de cadre, de précision ou d'énergie soutenue",
+      "Risque d'absorption émotionnelle dans les situations difficiles",
+      "Peut se disperser si l'objectif manque de clarté ou de sens"
     ]
   },
   "argent": {
-    "intro": "Les Poissons entretiennent souvent un rapport mouvant à l’argent. Ils peuvent le vivre comme une énergie qui circule, comme un moyen de soulager, d’aider, de créer ou de se sentir moins prisonniers du monde dur. Ils ont souvent besoin de sens dans l’usage de l’argent, mais doivent apprendre à poser des limites, à clarifier leurs choix et à ne pas laisser la confusion s’installer.",
+    "texte": "Les Poissons entretiennent un rapport mouvant à l'argent. Ils peuvent le vivre comme une énergie qui circule, un moyen de soulager, d'aider, de créer ou de se sentir moins prisonniers du monde dur. Les gains sont souvent modestes et irréguliers, les dépenses assez élevées, les réserves faibles. Parfois deux sources de revenus coexistent. Le natif des Poissons a besoin de sens dans l'usage de l'argent, mais doit apprendre à poser des limites et à ne pas laisser la confusion s'installer.",
     "forces": [
-      "Générosité",
-      "Capacité à utiliser l’argent pour aider ou créer",
-      "Moins d’attachement matérialiste pur",
-      "Rapport inspiré à la valeur"
+      "Générosité naturelle et capacité à donner sans calcul",
+      "Capacité à utiliser l'argent pour aider ou créer",
+      "Moins d'attachement matérialiste que d'autres signes",
+      "Rapport inspiré et intuitif à la valeur"
     ],
     "risques": [
-      "Flou dans la gestion",
-      "Difficulté à dire non financièrement",
-      "Dépenses d’évasion ou de compensation",
-      "Manque de cadre ou d’ancrage"
+      "Flou dans la gestion et manque de cadre financier",
+      "Difficulté à refuser les demandes d'aide financière",
+      "Dépenses d'évasion ou de compensation émotionnelle",
+      "Instabilité des revenus liée aux changements de situation"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Soleil",
+      "slug": "soleil",
+      "description": "Le Soleil en Poissons construit une identité sensible, intuitive, réceptive et tournée vers ce qui dépasse les frontières visibles du moi.",
+      "manifestations": ["Empathie", "Imagination", "Ouverture au subtil", "Capacité à ressentir profondément"]
+    },
+    {
+      "nom": "Lune",
+      "slug": "lune",
+      "description": "La Lune en Poissons vit les émotions de façon très poreuse, profonde et subtile. Elle capte beaucoup, ressent beaucoup et a besoin de silence intérieur.",
+      "manifestations": ["Grande réceptivité", "Compassion", "Intuition affective", "Capacité à comprendre sans mots"]
+    },
+    {
+      "nom": "Mercure",
+      "slug": "mercure",
+      "description": "Mercure en Poissons pense de manière intuitive, imagée, symbolique et parfois diffuse. L'esprit capte des correspondances invisibles plutôt que de suivre une ligne rationnelle stricte.",
+      "manifestations": ["Pensée intuitive", "Imagination verbale", "Sens du symbole", "Capacité à comprendre l'implicite"]
+    },
+    {
+      "nom": "Vénus",
+      "slug": "venus",
+      "description": "Vénus en Poissons est dans une de ses expressions les plus inspirées : amour inconditionnel, romantisme, douceur, fusion subtile et immense compassion.",
+      "manifestations": ["Tendresse", "Romantisme", "Compassion", "Grande délicatesse affective"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars en Poissons agit de manière indirecte, intuitive, inspirée ou émotionnelle. L'énergie contourne, ressent, cherche un sens avant d'attaquer.",
+      "manifestations": ["Action inspirée", "Sens du bon moment subtil", "Capacité à agir pour aider ou soulager", "Grande imagination dans l'action"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter en Poissons amplifie la compassion, la foi universelle, l'imaginaire spirituel et la capacité à ressentir l'unité du vivant.",
+      "manifestations": ["Foi", "Générosité", "Ouverture spirituelle", "Capacité à accueillir largement"]
+    },
+    {
+      "nom": "Saturne",
+      "slug": "saturne",
+      "description": "Saturne en Poissons structure la sensibilité, oblige à poser des limites dans le flou et à construire une forme de maturité dans l'accueil du subtil.",
+      "manifestations": ["Discipline intérieure", "Capacité à donner une forme à l'inspiration", "Maturité spirituelle", "Solidification du monde intérieur"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus en Poissons introduit des éveils intuitifs, des perceptions soudaines, des ruptures subtiles dans la manière de croire, de ressentir ou de se relier à l'invisible.",
+      "manifestations": ["Intuition fulgurante", "Créativité non conventionnelle", "Ouverture à d'autres dimensions", "Capacité à libérer des schémas subtils"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune en Poissons est dans une de ses expressions les plus naturelles : sensibilité maximale, inspiration spirituelle, imaginaire océanique et compassion universelle.",
+      "manifestations": ["Inspiration profonde", "Mystique", "Sensibilité immense", "Capacité de communion"]
+    },
+    {
+      "nom": "Pluton",
+      "slug": "pluton",
+      "description": "Pluton en Poissons transforme profondément le rapport à la fin des cycles, à la compassion, aux croyances invisibles, à l'unité et au mystère du vivant.",
+      "manifestations": ["Puissance de régénération intérieure", "Transformation spirituelle", "Capacité à aller au fond du mystère humain", "Intensité subtile"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Bélier",
+      "type": "variable",
+      "titre": "Élan et porosité",
+      "texte": "Les Poissons ressentent largement, le Bélier agit clairement. Le lien peut être inspirant ou déroutant selon la capacité de chacun à comprendre l'univers de l'autre.",
+      "forces": ["Complémentarité entre imagination et action", "Capacité à ouvrir de nouveaux mondes", "L'un ressent, l'autre initie"],
+      "frictions": ["Le Bélier peut brusquer", "Les Poissons peuvent sembler flous", "Conflit entre franchise directe et sensibilité poreuse"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taureau",
+      "type": "fluide",
+      "titre": "Douceur, chair et sensibilité",
+      "texte": "Le Taureau apporte la forme, la stabilité et la douceur concrète ; les Poissons apportent l'imaginaire, la compassion et la délicatesse intérieure. Le lien peut être très apaisant et enveloppant.",
+      "forces": ["Tendresse", "Apaisement", "Complémentarité entre incarnation et imaginaire", "Capacité à créer un lien enveloppant"],
+      "frictions": ["Le Taureau peut trouver les Poissons trop flous", "Les Poissons peuvent trouver le Taureau trop concret", "Conflit entre sécurité et dissolution"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gémeaux",
+      "type": "variable",
+      "titre": "Pensée mobile et ressenti diffus",
+      "texte": "Les Gémeaux nomment et circulent, les Poissons ressentent et absorbent. Le lien peut être poétique et subtil, mais aussi difficile à stabiliser pour les deux parties.",
+      "forces": ["Imagination", "Richesse d'échange", "Complémentarité entre mots et ressenti", "Créativité"],
+      "frictions": ["Les Gémeaux peuvent sembler trop cérébraux", "Les Poissons peuvent sembler trop flous", "Conflit entre logique et intuition"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "fluide",
+      "titre": "Eau sensible et compassion",
+      "texte": "Les Poissons et le Cancer partagent l'eau, la sensibilité, la tendresse et l'intuition. Le lien peut être très doux, protecteur et profond, avec une compréhension qui passe au-delà des mots.",
+      "forces": ["Empathie", "Tendresse", "Profondeur du lien", "Capacité à se comprendre sans trop de mots"],
+      "frictions": ["Manque de limites", "Fusion excessive", "Risque de nourrir ensemble les peurs ou les vagues émotionnelles"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Lion",
+      "type": "variable",
+      "titre": "Rayonnement et imaginaire",
+      "texte": "Le Lion affirme et éclaire ; les Poissons ressentent, rêvent et diffusent. Le lien peut être créatif et tendre, mais demande de relier présence et subtilité.",
+      "forces": ["Créativité", "Romantisme", "Complémentarité entre cœur et imaginaire", "Beauté du lien"],
+      "frictions": ["Le Lion peut sembler trop affirmé", "Les Poissons peuvent sembler trop fuyants", "Conflit entre besoin de visibilité et besoin de retrait"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Vierge",
+      "type": "complementaire",
+      "titre": "Axe Poissons–Vierge",
+      "texte": "Les Poissons ouvrent à l'unité, la Vierge distingue et trie. C'est un axe majeur entre compassion et discernement, flou et méthode, inspiration et service concret.",
+      "forces": ["Complémentarité profonde", "Équilibre possible entre intuition et précision", "Capacité à unir sensibilité et efficacité"],
+      "frictions": ["Les Poissons peuvent trouver la Vierge trop critique", "La Vierge peut trouver les Poissons trop flous", "Conflit entre abandon et contrôle"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Balance",
+      "type": "variable",
+      "titre": "Harmonie et fusion subtile",
+      "texte": "La Balance cherche une relation juste et belle ; les Poissons cherchent un lien sensible, profond et presque fusionnel. Le rapport peut être délicat et romantique, mais parfois imprécis.",
+      "forces": ["Douceur", "Romantisme", "Recherche d'une belle qualité de lien", "Capacité à créer une atmosphère subtile"],
+      "frictions": ["La Balance peut éviter certaines vérités", "Les Poissons peuvent manquer de limites", "Conflit entre clarté relationnelle et flou affectif"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpion",
+      "type": "fluide",
+      "titre": "Eau profonde et mystère",
+      "texte": "Les Poissons et le Scorpion partagent l'eau, l'intuition, l'intensité et une capacité à sentir l'invisible. Le lien peut être très fort, magnétique et transformateur.",
+      "forces": ["Profondeur", "Intuition", "Magnétisme", "Capacité à comprendre ce qui n'est pas dit"],
+      "frictions": ["Le Scorpion peut vouloir trop contrôler", "Les Poissons peuvent se dissoudre ou fuir", "Conflit entre intensité structurée et porosité"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittaire",
+      "type": "stimulante",
+      "titre": "Foi, sens et mystère",
+      "texte": "Le Sagittaire cherche une vérité orientée vers l'horizon ; les Poissons ressentent une vérité diffuse, intuitive, intérieure. Le lien peut être très inspirant s'il ne se perd pas dans l'idéal.",
+      "forces": ["Inspiration", "Ouverture intérieure", "Capacité à élever le lien", "Sens du mystère et du sens"],
+      "frictions": ["Le Sagittaire peut sembler trop affirmatif", "Les Poissons peuvent sembler trop flous", "Conflit entre conviction et dissolution"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorne",
+      "type": "stimulante",
+      "titre": "Structure et compassion",
+      "texte": "Le Capricorne donne un cadre, les Poissons adoucissent et ouvrent au sensible. Le lien peut être profondément complémentaire si chacun respecte l'univers de l'autre.",
+      "forces": ["L'un ancre, l'autre inspire", "Complémentarité entre cadre et compassion", "Capacité à relier réalité et sensibilité"],
+      "frictions": ["Le Capricorne peut sembler trop dur ou fermé", "Les Poissons peuvent sembler trop insaisissables", "Conflit entre contrôle et abandon"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Verseau",
+      "type": "variable",
+      "titre": "Vision et océan intérieur",
+      "texte": "Le Verseau pense le collectif et les systèmes ; les Poissons ressentent l'unité et l'invisible. Le lien peut être créatif et inspirant, mais parfois difficile à stabiliser.",
+      "forces": ["Ouverture à d'autres possibles", "Créativité", "Complémentarité entre vision et compassion", "Capacité à imaginer autrement"],
+      "frictions": ["Le Verseau peut sembler trop distant", "Les Poissons peuvent sembler trop poreux", "Conflit entre idée et ressenti"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Poissons",
+      "type": "fluide",
+      "titre": "Océan face à océan",
+      "texte": "Deux Poissons peuvent se comprendre dans la douceur, l'intuition, la compassion et le besoin de subtilité. Le lien peut être très tendre, fusionnel et inspiré, mais risque de manquer d'ancrage.",
+      "forces": ["Empathie", "Romantisme", "Compréhension intuitive", "Grande douceur"],
+      "frictions": ["Flou à deux", "Manque de limites", "Fusion excessive", "Difficulté à ancrer concrètement le lien"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si votre ascendant est Poissons, vous entrez dans la vie avec douceur, intuition, réceptivité et une grande sensibilité à l'ambiance. Même si votre Soleil est dans un autre signe, votre manière spontanée d'agir, de vous présenter et de réagir porte une tonalité subtile, rêveuse, inspirée ou difficile à enfermer dans des contours trop nets.",
+    "apparence": [
+      "Présence douce ou enveloppante",
+      "Regard rêveur, lointain ou très sensible",
+      "Impression de mystère, de fluidité ou de discrétion",
+      "Allure parfois changeante, difficile à saisir complètement"
     ],
-    "rapportTypique": [
-      "Peut dépenser pour soulager, offrir, créer ou s’évader",
-      "A souvent besoin d’un cadre externe ou d’une méthode pour bien gérer",
-      "Peut être très généreux mais peu protégé",
-      "Gagne mieux quand ce qu’il fait a du sens, touche les autres ou nourrit l’âme"
+    "temperament": [
+      "Réagit beaucoup à l'ambiance et à l'énergie des lieux",
+      "A besoin de se sentir en confiance pour se définir clairement",
+      "Observe et ressent avant de trancher ou de s'engager",
+      "Supporte mal la brutalité ou la sécheresse relationnelle"
+    ],
+    "vigilances": [
+      "Flou identitaire pouvant dérouter l'entourage",
+      "Manque de limites dans les relations ou les engagements",
+      "Tendance à absorber les ambiances négatives",
+      "Difficulté à s'affirmer clairement face à la pression"
     ]
   },
   "etoilesFixes": [
     {
       "nom": "Fomalhaut",
       "nature": "Vénus / Mercure",
-      "motsCles": ["Inspiration", "Mystique", "Vision", "Pureté intérieure"],
-      "description": "Fomalhaut est l’une des grandes étoiles royales de la tradition astrologique. Dans une lecture symbolique des Poissons, elle renforce l’idée d’un idéal inspiré, d’une ouverture à l’invisible et d’une aspiration à une beauté ou une vérité plus subtile que le monde ordinaire."
+      "texte": "Fomalhaut est l'une des grandes étoiles royales de la tradition astrologique. Elle renforce l'idée d'un idéal inspiré, d'une ouverture à l'invisible et d'une aspiration à une beauté ou une vérité plus subtile que le monde ordinaire.",
+      "motsCles": ["Inspiration", "Mystique", "Vision", "Pureté intérieure"]
     },
     {
       "nom": "Achernar",
       "nature": "Jupiter",
-      "motsCles": ["Fluidité", "Fin de cycle", "Élan subtil", "Imagination"],
-      "description": "Achernar apporte une tonalité de mouvement liquide, de transition et d’élan intérieur. Elle s’accorde bien avec la dimension mutable, inspirée et fluide des Poissons."
+      "texte": "Achernar apporte une tonalité de mouvement liquide, de transition et d'élan intérieur. Elle s'accorde avec la dimension mutable, inspirée et fluide des Poissons.",
+      "motsCles": ["Fluidité", "Fin de cycle", "Élan subtil", "Imagination"]
     }
   ],
-  "planeteDansLeSigne": {
-    "intro": "Une planète en Poissons s’exprime de manière intuitive, sensible, inspirée et perméable. Le principe de la planète se dilue, se spiritualise ou se rend plus poreux. Cela favorise l’empathie, l’imagination et la créativité, mais peut aussi générer flou ou manque de repères si les limites ne sont pas posées.",
-    "motsCles": [
-      "Intuition",
-      "Compassion",
-      "Dissolution",
-      "Inspiration",
-      "Sensibilité",
-      "Unité"
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Améthyste", "motsCles": ["spiritualité", "intuition", "douceur", "élévation"] },
+      { "nom": "Aigue-marine", "motsCles": ["eau", "fluidité", "paix", "sensibilité"] },
+      { "nom": "Étain", "motsCles": ["jupiter", "ouverture", "protection", "foi"] }
     ],
-    "planetes": {
-      "soleil": {
-        "tonalite": "Le Soleil en Poissons construit une identité sensible, intuitive, réceptive et tournée vers ce qui dépasse les frontières visibles.",
-        "forces": [
-          "Empathie",
-          "Imagination",
-          "Ouverture au subtil",
-          "Capacité à ressentir profondément"
-        ],
-        "defis": [
-          "Flou identitaire",
-          "Tendance à se fondre dans l’environnement",
-          "Difficulté à se définir nettement",
-          "Risque de fuite"
-        ],
-        "enAmour": [
-          "Aime profondément et avec idéal",
-          "Cherche un lien d’âme, de tendresse et de résonance"
-        ],
-        "auTravail": [
-          "Très fort dans les domaines créatifs, humains ou spirituels",
-          "A besoin de sens et d’un climat protecteur"
-        ],
-        "avecArgent": [
-          "Doit apprendre à clarifier sa gestion",
-          "Cherche souvent à faire de l’argent un moyen de vie plus douce ou inspirée"
-        ]
-      },
-      "lune": {
-        "tonalite": "La Lune en Poissons vit les émotions de façon très poreuse, profonde et subtile. Elle capte beaucoup, ressent beaucoup et a besoin de silence intérieur.",
-        "forces": [
-          "Grande réceptivité",
-          "Compassion",
-          "Intuition affective",
-          "Capacité à comprendre sans mots"
-        ],
-        "defis": [
-          "Hypersensibilité",
-          "Confusion émotionnelle",
-          "Difficulté à poser une frontière claire",
-          "Absorption des émotions ambiantes"
-        ],
-        "enAmour": [
-          "A besoin de douceur, de sécurité et d’un lien très subtil",
-          "Peut aimer avec un immense dévouement"
-        ],
-        "auTravail": [
-          "Travaille mieux dans des cadres calmes, humains ou inspirants",
-          "Supporte mal la brutalité ambiante"
-        ],
-        "avecArgent": [
-          "Peut gérer de manière émotionnelle ou fluctuante",
-          "A besoin d’un cadre simple et rassurant"
-        ]
-      },
-      "mercure": {
-        "tonalite": "Mercure en Poissons pense de manière intuitive, imagée, symbolique et parfois diffuse. L’esprit ne suit pas toujours une ligne rationnelle stricte mais capte des correspondances invisibles.",
-        "forces": [
-          "Pensée intuitive",
-          "Imagination verbale",
-          "Sens du symbole",
-          "Capacité à comprendre l’implicite"
-        ],
-        "defis": [
-          "Flou mental",
-          "Difficulté à structurer certaines idées",
-          "Risque de malentendu ou de confusion",
-          "Manque de netteté"
-        ],
-        "enAmour": [
-          "Parle avec douceur, sensibilité ou poésie",
-          "Cherche une communication d’âme plus que purement mentale"
-        ],
-        "auTravail": [
-          "Très fort dans l’écriture sensible, l’image, l’art, l’écoute ou l’accompagnement",
-          "A besoin d’un cadre pour clarifier"
-        ],
-        "avecArgent": [
-          "Doit éviter les décisions prises dans le flou ou la projection",
-          "A besoin de points concrets"
-        ]
-      },
-      "venus": {
-        "tonalite": "Vénus en Poissons est dans une de ses expressions les plus inspirées : amour inconditionnel, romantisme, douceur, fusion subtile et immense compassion.",
-        "forces": [
-          "Tendresse",
-          "Romantisme",
-          "Compassion",
-          "Grande délicatesse affective"
-        ],
-        "defis": [
-          "Idéalisation amoureuse",
-          "Sacrifice excessif",
-          "Difficulté à poser des limites",
-          "Tendance à aimer le rêve autant que la personne réelle"
-        ],
-        "enAmour": [
-          "Aime intensément, doucement et profondément",
-          "Cherche une union sensible, inspirée et presque sacrée"
-        ],
-        "auTravail": [
-          "Aime les univers artistiques, délicats, sensibles ou dévoués",
-          "A besoin de beauté et de douceur"
-        ],
-        "avecArgent": [
-          "Peut dépenser par générosité ou par élan affectif",
-          "Doit apprendre à protéger ses ressources"
-        ]
-      },
-      "mars": {
-        "tonalite": "Mars en Poissons agit de manière indirecte, intuitive, inspirée ou émotionnelle. L’énergie ne va pas toujours droit : elle contourne, ressent, cherche un sens avant d’attaquer.",
-        "forces": [
-          "Action inspirée",
-          "Sens du bon moment subtil",
-          "Capacité à agir pour aider ou soulager",
-          "Grande imagination dans l’action"
-        ],
-        "defis": [
-          "Manque de netteté",
-          "Difficulté à s’affirmer frontalement",
-          "Énergie fluctuante",
-          "Tendance à se disperser ou à fuir le conflit"
-        ],
-        "enAmour": [
-          "Aime avec beaucoup de sensibilité et de désir de fusion",
-          "Peut agir par intuition plus que par stratégie"
-        ],
-        "auTravail": [
-          "Très fort quand l’action sert une cause humaine, artistique ou spirituelle",
-          "Supporte mal les logiques brutales"
-        ],
-        "avecArgent": [
-          "Peut agir sans assez calculer quand l’émotion ou l’élan de compassion domine",
-          "A besoin d’un cadre clair"
-        ]
-      },
-      "jupiter": {
-        "tonalite": "Jupiter en Poissons amplifie la compassion, la foi universelle, l’imaginaire spirituel et la capacité à ressentir l’unité du vivant.",
-        "forces": [
-          "Foi",
-          "Générosité",
-          "Ouverture spirituelle",
-          "Capacité à accueillir largement"
-        ],
-        "defis": [
-          "Excès d’idéalisme",
-          "Manque de discernement",
-          "Tendance à trop donner ou trop croire"
-        ],
-        "enAmour": [
-          "Cherche un amour inspiré, profond et généreux",
-          "Aime avec beaucoup de douceur et d’espérance"
-        ],
-        "auTravail": [
-          "Très fort dans les univers de soin, de spiritualité, de création ou d’aide",
-          "A besoin d’un sens élevé"
-        ],
-        "avecArgent": [
-          "Peut donner beaucoup",
-          "Doit apprendre à distinguer générosité et sacrifice"
-        ]
-      },
-      "saturne": {
-        "tonalite": "Saturne en Poissons structure la sensibilité, oblige à poser des limites dans le flou et à construire une forme de maturité dans l’accueil du subtil.",
-        "forces": [
-          "Discipline intérieure",
-          "Capacité à donner une forme à l’inspiration",
-          "Maturité spirituelle ou humaine",
-          "Solidification du monde intérieur"
-        ],
-        "defis": [
-          "Peur de se dissoudre",
-          "Tension entre besoin de structure et univers flou",
-          "Mélancolie",
-          "Difficulté à faire confiance au sensible sans l’enfermer"
-        ],
-        "enAmour": [
-          "Aime profondément mais a besoin de sécurité et de cadre",
-          "Cherche à rendre le lien plus fiable sans perdre sa douceur"
-        ],
-        "auTravail": [
-          "Très fort pour donner une forme concrète à une vocation sensible ou créative",
-          "A besoin d’un cadre protecteur"
-        ],
-        "avecArgent": [
-          "Peut apprendre à mieux structurer sa gestion",
-          "Cherche à sécuriser un univers souvent mouvant"
-        ]
-      },
-      "uranus": {
-        "tonalite": "Uranus en Poissons introduit des éveils intuitifs, des perceptions soudaines, des ruptures subtiles dans la manière de croire, de ressentir ou de se relier à l’invisible.",
-        "forces": [
-          "Intuition fulgurante",
-          "Créativité non conventionnelle",
-          "Ouverture à d’autres dimensions",
-          "Capacité à libérer des schémas subtils"
-        ],
-        "defis": [
-          "Instabilité intérieure",
-          "Fluctuations imprévisibles",
-          "Tendance à décrocher du réel",
-          "Besoin de liberté difficile à formuler"
-        ],
-        "enAmour": [
-          "A besoin d’un lien inspiré mais non enfermant",
-          "Peut vivre des éveils relationnels soudains"
-        ],
-        "auTravail": [
-          "Très fort dans la création innovante, l’accompagnement subtil ou les approches atypiques",
-          "Aime ouvrir d’autres voies"
-        ],
-        "avecArgent": [
-          "Peut avoir une gestion imprévisible",
-          "Doit éviter les décisions trop intuitives sans base"
-        ]
-      },
-      "neptune": {
-        "tonalite": "Neptune en Poissons est dans une de ses expressions les plus naturelles : sensibilité maximale, inspiration spirituelle, imaginaire océanique et compassion universelle.",
-        "forces": [
-          "Inspiration profonde",
-          "Mystique",
-          "Sensibilité immense",
-          "Capacité de communion"
-        ],
-        "defis": [
-          "Confusion",
-          "Idéalisation",
-          "Perte de frontières",
-          "Risque de fuite dans le rêve ou l’échappatoire"
-        ],
-        "enAmour": [
-          "Cherche un amour quasi absolu, inspiré et fusionnel",
-          "A besoin de poésie, de douceur et de mystère"
-        ],
-        "auTravail": [
-          "Très fort dans les arts, la spiritualité, le soin ou les univers d’image et de musique",
-          "A besoin d’inspiration réelle"
-        ],
-        "avecArgent": [
-          "Doit apprendre à ne pas se dissoudre matériellement",
-          "Peut chercher à vivre selon un idéal plus qu’un calcul"
-        ]
-      },
-      "pluton": {
-        "tonalite": "Pluton en Poissons transforme profondément le rapport à la fin des cycles, à la compassion, aux croyances invisibles, à l’unité et au mystère du vivant.",
-        "forces": [
-          "Puissance de régénération intérieure",
-          "Transformation spirituelle",
-          "Capacité à aller au fond du mystère humain",
-          "Intensité subtile"
-        ],
-        "defis": [
-          "Dissolution extrême",
-          "Rapports de pouvoir invisibles",
-          "Fascination pour l’échappée ou le sacrifice",
-          "Difficulté à poser des limites dans l’invisible"
-        ],
-        "enAmour": [
-          "Veut un lien profond, total, presque rédempteur",
-          "Peut vivre l’amour comme une traversée de transformation"
-        ],
-        "auTravail": [
-          "Très fort dans les univers de soin profond, de création, de psyché ou de spiritualité",
-          "Transforme les mondes invisibles en force"
-        ],
-        "avecArgent": [
-          "Peut traverser de grands cycles de perte et de renaissance matérielle",
-          "Doit apprendre la puissance des limites concrètes"
-        ]
-      }
-    }
+    "vegetaux": [
+      { "nom": "Lotus", "motsCles": ["spiritualité", "pureté", "mystère", "élévation"] },
+      { "nom": "Nénuphar", "motsCles": ["eau", "rêve", "repos", "intériorité"] },
+      { "nom": "Mélisse", "motsCles": ["apaisement", "douceur", "réconfort", "sensibilité"] }
+    ],
+    "animaux": [
+      { "nom": "Poisson", "motsCles": ["fluidité", "adaptation", "sensibilité", "mystère"] },
+      { "nom": "Dauphin", "motsCles": ["intuition", "douceur", "eau", "lien"] },
+      { "nom": "Méduse", "motsCles": ["transparence", "porosité", "dérive", "subtilité"] }
+    ]
   },
-  "dansUnTheme": [
-    "Les Poissons indiquent un domaine où l’on ressent, accueille et se relie au-delà des mots.",
-    "Ils montrent aussi où l’on apprend à transformer la sensibilité en conscience.",
-    "Selon la maison et les aspects, ils peuvent montrer un secteur de vie où l’on rêve, soigne, imagine, se retire, se dissout ou cherche une unité plus profonde."
+  "geographie": [
+    { "pays": "Portugal", "texte": "Mer, mélancolie, ouverture imaginaire et sensibilité tournée vers le lointain." },
+    { "pays": "Scandinavie", "texte": "Attribution symbolique traditionnelle de géographie astrologique." },
+    { "pays": "Égypte", "texte": "Mystère, sacré, fleuve nourricier et ancienneté spirituelle." },
+    { "pays": "Nubie", "texte": "Attribution symbolique traditionnelle des correspondances classiques des Poissons." }
   ],
-  "relationsAuxAutresSignes": [
-    {
-      "sign": "belier",
-      "level": "variable",
-      "title": "Élan et porosité",
-      "summary": "Les Poissons ressentent largement, le Bélier agit clairement. Le lien peut être inspirant, mais aussi déroutant s’il manque de tact ou de compréhension mutuelle.",
-      "pointsFortes": [
-        "Complémentarité entre imagination et action",
-        "Capacité à ouvrir de nouveaux mondes",
-        "L’un ressent, l’autre initie"
-      ],
-      "pointsDeTension": [
-        "Le Bélier peut brusquer",
-        "Les Poissons peuvent sembler flous",
-        "Conflit entre franchise directe et sensibilité poreuse"
-      ]
-    },
-    {
-      "sign": "taureau",
-      "level": "fluide",
-      "title": "Douceur, chair et sensibilité",
-      "summary": "Le Taureau apporte la forme, la stabilité et la douceur concrète ; les Poissons apportent l’imaginaire, la compassion et la délicatesse intérieure. Le lien peut être très apaisant.",
-      "pointsFortes": [
-        "Tendresse",
-        "Apaisement",
-        "Complémentarité entre incarnation et imaginaire",
-        "Capacité à créer un lien enveloppant"
-      ],
-      "pointsDeTension": [
-        "Le Taureau peut trouver les Poissons trop flous",
-        "Les Poissons peuvent trouver le Taureau trop concret ou trop fixe",
-        "Conflit entre sécurité et dissolution"
-      ]
-    },
-    {
-      "sign": "gemeaux",
-      "level": "variable",
-      "title": "Pensée mobile et ressenti diffus",
-      "summary": "Les Gémeaux nomment et circulent, les Poissons ressentent et absorbent. Le lien peut être poétique, riche, subtil, mais aussi difficile à stabiliser.",
-      "pointsFortes": [
-        "Imagination",
-        "Richesse d’échange",
-        "Complémentarité entre mots et ressenti",
-        "Créativité"
-      ],
-      "pointsDeTension": [
-        "Les Gémeaux peuvent sembler trop cérébraux",
-        "Les Poissons peuvent sembler trop flous",
-        "Conflit entre logique et intuition"
-      ]
-    },
-    {
-      "sign": "cancer",
-      "level": "fluide",
-      "title": "Eau sensible et compassion",
-      "summary": "Les Poissons et le Cancer partagent l’eau, la sensibilité, la tendresse et l’intuition. Le lien peut être très doux, protecteur et profond.",
-      "pointsFortes": [
-        "Empathie",
-        "Tendresse",
-        "Profondeur du lien",
-        "Capacité à se comprendre sans trop de mots"
-      ],
-      "pointsDeTension": [
-        "Manque de limites",
-        "Fusion excessive",
-        "Risque de nourrir ensemble les peurs ou les vagues émotionnelles"
-      ]
-    },
-    {
-      "sign": "lion",
-      "level": "variable",
-      "title": "Rayonnement et imaginaire",
-      "summary": "Le Lion affirme et éclaire ; les Poissons ressentent, rêvent et diffusent. Le lien peut être créatif, tendre et inspiré, mais demande de relier présence et subtilité.",
-      "pointsFortes": [
-        "Créativité",
-        "Romantisme",
-        "Complémentarité entre cœur et imaginaire",
-        "Beauté du lien"
-      ],
-      "pointsDeTension": [
-        "Le Lion peut sembler trop affirmé",
-        "Les Poissons peuvent sembler trop flous ou trop fuyants",
-        "Conflit entre besoin de visibilité et besoin de retrait"
-      ]
-    },
-    {
-      "sign": "vierge",
-      "level": "complementaire",
-      "title": "Axe Poissons–Vierge",
-      "summary": "Les Poissons ouvrent à l’unité, la Vierge distingue et trie. C’est un axe majeur entre compassion et discernement, flou et méthode, inspiration et service concret.",
-      "pointsFortes": [
-        "Complémentarité profonde",
-        "Équilibre possible entre intuition et précision",
-        "Capacité à unir sensibilité et efficacité"
-      ],
-      "pointsDeTension": [
-        "Les Poissons peuvent trouver la Vierge trop critique ou sèche",
-        "La Vierge peut trouver les Poissons trop flous",
-        "Conflit entre abandon et contrôle"
-      ]
-    },
-    {
-      "sign": "balance",
-      "level": "variable",
-      "title": "Harmonie et fusion subtile",
-      "summary": "La Balance cherche une relation juste et belle ; les Poissons cherchent un lien sensible, profond et presque fusionnel. Le rapport peut être délicat et romantique, mais parfois imprécis.",
-      "pointsFortes": [
-        "Douceur",
-        "Romantisme",
-        "Recherche d’une belle qualité de lien",
-        "Capacité à créer une atmosphère subtile"
-      ],
-      "pointsDeTension": [
-        "La Balance peut éviter certaines vérités",
-        "Les Poissons peuvent manquer de limites",
-        "Conflit entre clarté relationnelle et flou affectif"
-      ]
-    },
-    {
-      "sign": "scorpion",
-      "level": "fluide",
-      "title": "Eau profonde et mystère",
-      "summary": "Les Poissons et le Scorpion partagent l’eau, l’intuition, l’intensité et une capacité à sentir l’invisible. Le lien peut être très fort et transformateur.",
-      "pointsFortes": [
-        "Profondeur",
-        "Intuition",
-        "Magnétisme",
-        "Capacité à comprendre ce qui n’est pas dit"
-      ],
-      "pointsDeTension": [
-        "Le Scorpion peut vouloir trop contrôler",
-        "Les Poissons peuvent se dissoudre ou fuir",
-        "Conflit entre intensité structurée et porosité"
-      ]
-    },
-    {
-      "sign": "sagittaire",
-      "level": "stimulante",
-      "title": "Foi, sens et mystère",
-      "summary": "Le Sagittaire cherche une vérité orientée vers l’horizon ; les Poissons ressentent une vérité diffuse, intuitive, intérieure. Le lien peut être très inspirant s’il ne se perd pas dans l’idéal.",
-      "pointsFortes": [
-        "Inspiration",
-        "Ouverture intérieure",
-        "Capacité à élever le lien",
-        "Sens du mystère et du sens"
-      ],
-      "pointsDeTension": [
-        "Le Sagittaire peut sembler trop affirmatif",
-        "Les Poissons peuvent sembler trop flous",
-        "Conflit entre conviction et dissolution"
-      ]
-    },
-    {
-      "sign": "capricorne",
-      "level": "stimulante",
-      "title": "Structure et compassion",
-      "summary": "Le Capricorne donne un cadre, les Poissons adoucissent et ouvrent au sensible. Le lien peut être profondément complémentaire si chacun respecte l’univers de l’autre.",
-      "pointsFortes": [
-        "L’un ancre, l’autre inspire",
-        "Complémentarité entre cadre et compassion",
-        "Capacité à relier réalité et sensibilité"
-      ],
-      "pointsDeTension": [
-        "Le Capricorne peut sembler trop dur ou fermé",
-        "Les Poissons peuvent sembler trop insaisissables",
-        "Conflit entre contrôle et abandon"
-      ]
-    },
-    {
-      "sign": "verseau",
-      "level": "variable",
-      "title": "Vision et océan intérieur",
-      "summary": "Le Verseau pense le collectif et les systèmes ; les Poissons ressentent l’unité et l’invisible. Le lien peut être créatif, inspirant, subtil, mais parfois difficile à stabiliser.",
-      "pointsFortes": [
-        "Ouverture à d’autres possibles",
-        "Créativité",
-        "Complémentarité entre vision et compassion",
-        "Capacité à imaginer autrement"
-      ],
-      "pointsDeTension": [
-        "Le Verseau peut sembler trop distant",
-        "Les Poissons peuvent sembler trop poreux",
-        "Conflit entre idée et ressenti"
-      ]
-    },
-    {
-      "sign": "poissons",
-      "level": "fluide",
-      "title": "Océan face à océan",
-      "summary": "Deux Poissons peuvent se comprendre dans la douceur, l’intuition, la compassion et le besoin de subtilité. Le lien peut être très tendre, fusionnel et inspiré.",
-      "pointsFortes": [
-        "Empathie",
-        "Romantisme",
-        "Compréhension intuitive",
-        "Grande douceur"
-      ],
-      "pointsDeTension": [
-        "Flou à deux",
-        "Manque de limites",
-        "Fusion excessive",
-        "Difficulté à ancrer concrètement le lien"
-      ]
-    }
-  ],
-  "paysAssocies": [
-    {
-      "pays": "Portugal",
-      "niveau": "traditionnel",
-      "justification": "Dans certaines traditions de géographie astrologique, le Portugal est associé aux Poissons pour des raisons symboliques liées à la mer, à la mélancolie, à l’ouverture imaginaire et à une sensibilité tournée vers le lointain."
-    },
-    {
-      "pays": "Scandinavie",
-      "niveau": "traditionnel",
-      "justification": "La Scandinavie figure dans certaines listes traditionnelles de correspondances astrologiques liées aux Poissons. Il s’agit d’une attribution symbolique dépendant des écoles et des auteurs."
-    },
-    {
-      "pays": "Petites îles de la Méditerranée",
-      "niveau": "traditionnel",
-      "justification": "Les petites îles de la Méditerranée apparaissent dans certaines listes classiques liées aux Poissons, dans une logique symbolique associant mer, insularité, fluidité et sensibilité."
-    },
-    {
-      "pays": "Désert de Gobi",
-      "niveau": "traditionnel",
-      "justification": "Le désert de Gobi est parfois cité parmi les correspondances traditionnelles des Poissons. Comme souvent en géographie astrologique, cette attribution relève d’un symbolisme classique."
-    },
-    {
-      "pays": "Sahara",
-      "niveau": "traditionnel",
-      "justification": "Le Sahara apparaît aussi dans certaines listes anciennes ou traditionnelles de géographie astrologique rattachées aux Poissons, selon une logique symbolique."
-    },
-    {
-      "pays": "Égypte",
-      "niveau": "traditionnel",
-      "justification": "L’Égypte figure dans certaines listes traditionnelles associées aux Poissons, avec une lecture symbolique liée au mystère, au sacré, au fleuve et à l’ancienneté spirituelle."
-    },
-    {
-      "pays": "Nubie",
-      "niveau": "traditionnel",
-      "justification": "La Nubie apparaît également dans certaines correspondances classiques des Poissons. Il s’agit d’un repère traditionnel de géographie astrologique symbolique."
-    }
+  "figuresCelebres": [
+    { "nom": "Rihanna", "domaine": "Musique", "date": "20 février 1988", "texte": "Sensibilité, créativité, magnétisme et capacité à changer de registre avec fluidité." },
+    { "nom": "Emily Blunt", "domaine": "Cinéma", "date": "23 février 1983", "texte": "Finesse d'expression, sensibilité et capacité à incarner des registres émotionnels subtils." },
+    { "nom": "Eva Longoria", "domaine": "Cinéma", "date": "15 mars 1975", "texte": "Présence à la fois douce, séduisante et intuitive, en affinité avec les Poissons." },
+    { "nom": "Justin Bieber", "domaine": "Musique", "date": "1 mars 1994", "texte": "Forte réceptivité émotionnelle, image mouvante et sensibilité très visible." }
   ],
   "faq": [
     {
       "question": "Quel est le caractère des Poissons ?",
-      "answer": "Les Poissons ont un tempérament sensible, intuitif, compatissant et imaginatif. Ils ressentent beaucoup, perçoivent les ambiances avec finesse et cherchent souvent à se relier à quelque chose de plus vaste qu’eux, mais doivent veiller à ne pas se perdre dans le flou ou le sacrifice."
+      "reponse": "Les Poissons se caractérisent par une immense sensibilité, une intuition profonde, une grande compassion et un besoin de rêve et de sens. C'est un tempérament réceptif, tourné vers l'invisible, qui capte les ambiances et les émotions avec une finesse rare. Ils peuvent être indécis et influençables, mais c'est aussi un des signes les plus dévoués, les plus imaginatifs et les plus capables de comprendre autrui en profondeur."
     },
     {
-      "question": "Quel type d’amoureuse ou d’amoureux sont les Poissons ?",
-      "answer": "Les Poissons aiment avec douceur, profondeur, romantisme et compassion. Ils cherchent souvent un lien d’âme, inspiré et très subtil, mais doivent apprendre à poser des limites et à ne pas idéaliser excessivement l’autre."
+      "question": "Quel type d'amoureux sont les Poissons ?",
+      "reponse": "Tendres, dévoués, romantiques et profondément sensibles. Les Poissons aiment avec compassion et imaginaire, cherchant un lien qui touche l'âme. Ils ont besoin d'un espace d'intimité subtile et de confiance. Ils peuvent idéaliser leur partenaire et doivent apprendre à ne pas se perdre dans la fusion ou le sacrifice."
     },
     {
       "question": "Quel type de travailleur sont les Poissons ?",
-      "answer": "Les Poissons sont souvent très bons dans les domaines créatifs, humains, artistiques, spirituels ou de soin. Ils excellent quand ils peuvent écouter, inspirer, soulager, imaginer ou accompagner avec sensibilité."
+      "reponse": "Des collaborateurs inspirés, intuitifs et dévoués. Ils excellent dans les postes de confiance, les métiers du soin, de la création, de l'écoute et de l'accompagnement. Ils ont besoin de sens et d'un climat qui ne brutalise pas leur sensibilité. Ils réussissent souvent dans les activités exigeant dévouement ou abnégation."
     },
     {
       "question": "Quelle maison correspond aux Poissons ?",
-      "answer": "Les Poissons sont naturellement reliés à la maison XII, celle de l’invisible, du retrait, de l’inconscient, du lâcher-prise, de la spiritualité et de la fin des cycles."
-    }
-  ],
-  "pierresEtMetaux": [
-    {
-      "nom": "Améthyste",
-      "type": "pierre",
-      "description": "L’améthyste évoque la spiritualité, la douceur intérieure, l’élévation et la capacité à se relier à des plans plus subtils, en forte affinité avec les Poissons.",
-      "motsCles": ["spiritualité", "intuition", "douceur", "élévation"]
-    },
-    {
-      "nom": "Aigue-marine",
-      "type": "pierre",
-      "description": "L’aigue-marine renvoie à l’eau, à la fluidité, à la paix intérieure, à la sensibilité et à une forme de circulation émotionnelle apaisée qui convient bien aux Poissons.",
-      "motsCles": ["eau", "fluidité", "paix", "sensibilité"]
-    },
-    {
-      "nom": "Étain",
-      "type": "métal",
-      "description": "L’étain est traditionnellement lié à Jupiter, maître ancien des Poissons : ampleur, ouverture, protection, foi et expansion intérieure.",
-      "motsCles": ["jupiter", "ouverture", "protection", "foi"]
-    }
-  ],
-  "plantes": [
-    {
-      "nom": "Lotus",
-      "type": "fleur",
-      "description": "Le lotus évoque l’élévation spirituelle, la douceur, le mystère, l’ouverture de la conscience et la pureté qui naît du trouble, en affinité avec les Poissons.",
-      "usagesSymboliques": ["spiritualité", "pureté", "mystère", "élévation"]
-    },
-    {
-      "nom": "Nénuphar",
-      "type": "plante",
-      "description": "Le nénuphar renvoie à l’eau, au repos intérieur, au silence et à la sensibilité rêveuse. Il correspond bien à la tonalité flottante et contemplative des Poissons.",
-      "usagesSymboliques": ["eau", "rêve", "repos", "intériorité"]
-    },
-    {
-      "nom": "Mélisse",
-      "type": "plante",
-      "description": "La mélisse évoque l’apaisement, la douceur émotionnelle, la sensibilité soignée et une forme de consolation subtile, très cohérente avec les Poissons.",
-      "usagesSymboliques": ["apaisement", "douceur", "réconfort", "sensibilité"]
-    }
-  ],
-  "animaux": [
-    {
-      "nom": "Poisson",
-      "type": "animal-symbolique",
-      "description": "Le poisson incarne la fluidité, l’adaptation, la sensibilité au courant, le mouvement intérieur et la vie dans les mondes subtils ou invisibles.",
-      "motsCles": ["fluidité", "adaptation", "sensibilité", "mystère"]
-    },
-    {
-      "nom": "Dauphin",
-      "type": "animal",
-      "description": "Le dauphin évoque l’intelligence sensible, la douceur, le lien invisible, le jeu et une présence profondément reliée à l’eau et à la communication subtile.",
-      "motsCles": ["intuition", "douceur", "eau", "lien"]
-    },
-    {
-      "nom": "Méduse",
-      "type": "animal-symbolique",
-      "description": "Dans une lecture symbolique, la méduse peut évoquer la transparence, la dérive, la porosité et la difficulté à séparer totalement soi et le milieu environnant.",
-      "motsCles": ["transparence", "porosité", "dérive", "subtilité"]
-    }
-  ],
-  "ascendant": {
-    "intro": "Si votre ascendant est Poissons, cela signifie souvent que vous entrez dans la vie avec douceur, intuition, réceptivité et une grande sensibilité à l’ambiance. Même si votre Soleil est dans un autre signe, votre manière spontanée d’agir, de vous présenter et de réagir porte souvent une tonalité subtile, rêveuse, inspirée ou difficile à enfermer dans des contours trop nets.",
-    "apparence": [
-      "Présence douce ou enveloppante",
-      "Regard rêveur, lointain ou très sensible",
-      "Impression de mystère, de fluidité ou de discrétion",
-      "Allure parfois changeante, difficile à saisir complètement",
-      "Visage ou expression pouvant refléter facilement l’émotion ou la rêverie"
-    ],
-    "temperament": [
-      "Réagit beaucoup à l’ambiance",
-      "A besoin de se sentir en confiance pour se définir clairement",
-      "Observe et ressent avant de trancher",
-      "Supporte mal la brutalité ou la sécheresse",
-      "Entre souvent dans les situations par l’intuition ou par la résonance"
-    ],
-    "enRelation": [
-      "Donne une impression de douceur, de sensibilité ou de mystère",
-      "Peut paraître tendre, flou, inspiré ou très réceptif",
-      "Cherche des rapports subtils, sincères et non violents",
-      "Aime sentir un lien d’âme ou d’atmosphère"
-    ],
-    "pointsDeVigilance": [
-      "Flou",
-      "Manque de limites",
-      "Tendance à absorber les ambiances",
-      "Difficulté à s’affirmer clairement",
-      "Risque de fuite ou d’évitement du trop dur"
-    ]
-  },
-  "signeDominant": {
-    "intro": "Si les Poissons sont dominants dans un thème, cela signifie souvent que la personne aborde la vie avec une immense sensibilité, une intuition forte, un besoin de sens intérieur et une capacité à se relier à l’invisible ou à la souffrance humaine. Elle se construit à travers la réceptivité, l’imaginaire, la compassion, la création ou la spiritualité.",
-    "forces": [
-      "Empathie",
-      "Intuition",
-      "Imagination",
-      "Compassion",
-      "Capacité à ressentir le subtil"
-    ],
-    "vigilances": [
-      "Flou identitaire",
-      "Manque de limites",
-      "Tendance à la fuite",
-      "Sacrifice excessif",
-      "Difficulté à rester ancré quand l’émotion déborde"
-    ],
-    "dansLaVie": [
-      "La personne capte souvent beaucoup plus qu’elle ne le dit",
-      "Elle cherche du sens, du subtil et de l’unité",
-      "Elle supporte mal les environnements trop bruts ou trop secs",
-      "Elle peut être très inspirante, consolante ou créative lorsqu’elle est protégée"
-    ],
-    "enAmour": [
-      "Elle aime souvent profondément, avec idéal et compassion",
-      "Elle a besoin d’un lien tendre, sincère et subtil",
-      "Elle cherche souvent une forme de communion plus que de simple relation"
-    ],
-    "auTravail": [
-      "Elle excelle souvent dans les univers créatifs, humains, spirituels ou thérapeutiques",
-      "Elle a besoin d’un climat qui ne nie pas le sensible",
-      "Elle fonctionne mieux quand ce qu’elle fait soulage, inspire ou relie"
-    ]
-  },
-  "celebrites": [
-    {
-      "nom": "Rihanna",
-      "dateNaissance": "20 février 1988",
-      "domaine": "Musique",
-      "description": "Souvent citée parmi les célébrités Poissons, avec une image mêlant sensibilité, créativité, magnétisme et capacité à changer de registre."
-    },
-    {
-      "nom": "Justin Bieber",
-      "dateNaissance": "1 mars 1994",
-      "domaine": "Musique",
-      "description": "Souvent associé à une forte réceptivité émotionnelle, à une image mouvante et à une sensibilité très visible, cohérente avec les Poissons."
-    },
-    {
-      "nom": "Eva Longoria",
-      "dateNaissance": "15 mars 1975",
-      "domaine": "Cinéma",
-      "description": "Souvent mentionnée parmi les natives Poissons, avec une présence à la fois douce, séduisante et intuitive."
-    },
-    {
-      "nom": "Emily Blunt",
-      "dateNaissance": "23 février 1983",
-      "domaine": "Cinéma",
-      "description": "Souvent citée pour sa finesse d’expression, sa sensibilité et sa capacité à incarner des registres émotionnels subtils."
+      "reponse": "La Maison XII, celle des retraits, de l'invisible, des épreuves intérieures, de la vie cachée, des mondes subtils et du lâcher-prise. Son analogie naturelle avec les Poissons souligne la dissolution, la compassion, l'inconscient, la spiritualité et la nécessité d'accueillir ce qui échappe au contrôle."
     }
   ]
-}
+}  
