@@ -148,7 +148,8 @@ function getAllSigneSlugs(): string[] {
   return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
-    .map((f) => f.replace(".json", ""));
+    .map((f) => f.replace(".json", ""))
+    .filter((slug) => slug !== "index");
 }
 
 // ─── Static params (Next.js 16) ────────────────────────────────────────────
@@ -227,7 +228,9 @@ export default async function SignePage({
 }) {
   const { slug } = await params;
   const data = getSigneData(slug);
-  if (!data) notFound();
+   if (!data) {
+    notFound(); 
+  }
 
   // Schema.org JSON-LD
   const schemaArticle = {

@@ -167,10 +167,12 @@ const NAV_COLUMNS: Record<string, { title: string; mobileTitle: string; items: F
   signes: {
     title: "Signes",
     mobileTitle: "Signes du Zodiaque",
-    items: (signes as RawItem[]).map((s) => ({
-      name: s.nom ?? s.name ?? s.slug,
-      href: `/signes/${s.slug}`,
-    })),
+  items: (signes as RawItem[])
+  .filter(s => s.slug && s.slug !== "index") // <-- Ajout de cette sécurité
+  .map((s) => ({
+    name: s.nom ?? s.name ?? s.slug,
+    href: `/signes/${s.slug}`,
+  })),
   },
   planetes: {
     title: "Planètes",
