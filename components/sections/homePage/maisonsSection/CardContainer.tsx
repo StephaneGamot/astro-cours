@@ -1,29 +1,53 @@
-import Cards from "./Cards";
+import ContentCard from "@/components/sections/homePage/ContentCard";
 import maisons from "@/data/maisons.json";
-import { Layers } from "lucide-react";
 
 type House = (typeof maisons)[number];
 
+/** Inline layers icon */
+function LayersIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}
+      strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+      <path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" />
+      <path d="m22.18 12.09-8.58 3.91a2 2 0 0 1-1.66 0L2.6 12.09" />
+      <path d="m22.18 16.09-8.58 3.91a2 2 0 0 1-1.66 0L2.6 16.09" />
+    </svg>
+  );
+}
+
 export default function MaisonsCardContainer() {
   return (
-    <section 
+    <section
       id="maisons"
       aria-labelledby="maisons-title"
-      className="mx-auto max-w-7xl px-6 py-12 lg:px-8"
+      className="mx-auto max-w-7xl px-5 py-12 sm:px-6 lg:px-8"
     >
-      <div className="group mb-16 flex items-center gap-5">
-        <div aria-hidden="true" className="flex h-14 w-14 items-center justify-center rounded-2xl border border-emerald-500/30 bg-gradient-to-br from-emerald-500/20 to-transparent text-emerald-300 shadow-[0_0_20px_rgba(16,185,129,0.15)] transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
-          <Layers size={26} strokeWidth={1.5} />
-        </div>
-        <h2 id="maisons-title" className="font-serif text-3xl md:text-5xl tracking-tight text-white">
+      {/* ── Section header ─────────────────────────────── */}
+      <div className="group mb-14 flex items-center gap-4">
+        <span className="flex size-12 shrink-0 items-center justify-center rounded-xl border border-emerald-500/25 bg-gradient-to-br from-emerald-500/15 to-transparent text-emerald-300 shadow-[0_0_20px_rgba(16,185,129,.1)] transition-transform duration-500 motion-reduce:transition-none group-hover:rotate-6 group-hover:scale-110 sm:size-14 sm:rounded-2xl">
+          <LayersIcon className="size-6 sm:size-7" />
+        </span>
+        <h2
+          id="maisons-title"
+          className="font-serif text-3xl tracking-tight text-white md:text-5xl"
+        >
           Les 12 Maisons Astrologiques
         </h2>
-        <div className="hidden md:block h-px flex-1 bg-gradient-to-r from-emerald-500/30 via-emerald-500/5 to-transparent ml-4" />
+        <div
+          aria-hidden="true"
+          className="ml-4 hidden h-px flex-1 bg-gradient-to-r from-emerald-500/25 via-emerald-500/[.04] to-transparent md:block"
+        />
       </div>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {/* ── Card grid ──────────────────────────────────── */}
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {(maisons as House[]).map((item) => (
-          <Cards key={item.slug} item={item} basePath="maisons" />
+          <ContentCard
+            key={item.slug}
+            item={item}
+            basePath="maisons"
+            accent="emerald"
+          />
         ))}
       </div>
     </section>

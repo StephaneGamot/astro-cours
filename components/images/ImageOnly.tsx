@@ -11,7 +11,7 @@ export default function ImageOnly() {
         fill
         priority
         fetchPriority="high" 
-        quality={85}
+        quality={75}
         className="object-cover object-center"
         sizes="100vw"
       />
