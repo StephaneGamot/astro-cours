@@ -314,7 +314,7 @@ export default async function PlanetPage({
 
           {/* Keyword */}
           {(planet.motCle || planet.identite?.motCle) && (
-            <p className="mx-auto mt-4 max-w-3xl font-serif text-xl md:text-3xl italic text-slate-400">
+            <p className="!mx-auto mt-4 max-w-3xl  font-serif text-xl md:text-3xl italic text-slate-400">
               « {planet.motCle || planet.identite?.motCle} »
             </p>
           )}
@@ -325,18 +325,18 @@ export default async function PlanetPage({
               className={`absolute -inset-3 rounded-[36px] opacity-20 blur-3xl ${t.bg}`}
               aria-hidden="true"
             />
-            <div className="relative overflow-hidden rounded-3xl md:rounded-[36px] border border-white/10 bg-[#0a0f1e] shadow-2xl">
+            <div className="relative overflow-hidden rounded-3xl md:rounded-[36px] border border-white/10 bg-[#0a0f1e] shadow-2xl ">
               <Image
                 src={heroSrc}
                 alt={`Illustration de ${planet.name} en astrologie`}
-                width={2000}
-                height={1100}
+                width={1200}
+                height={800}
                 priority
                 className="w-full h-[280px] sm:h-[380px] md:h-[560px] object-cover transition-transform duration-[2s] group-hover:scale-[1.02]"
               />
 
               {/* Stats overlay */}
-              <div className="absolute bottom-3 left-3 right-3 md:bottom-6 md:left-6 md:right-6 grid grid-cols-3 gap-3 rounded-2xl md:rounded-3xl border border-white/10 bg-black/60 p-4 md:p-6 backdrop-blur-xl">
+              <div className=" bottom-3 left-3 right-3 md:bottom-6 md:left-6 md:right-6 grid grid-cols-3 gap-3 rounded-2xl md:rounded-3xl border border-white/10 bg-black/60 p-4 md:p-6 backdrop-blur-xl lg:mt-12 ">
                 <StatBadge
                   label="Famille"
                   value={planet.famille}
