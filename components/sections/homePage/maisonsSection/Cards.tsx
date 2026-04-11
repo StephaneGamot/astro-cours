@@ -56,6 +56,7 @@ export default function Cards({ item, basePath }: Props) {
             alt={item.image.alt}
             fill
             className="object-contain"
+            quality={60}
             sizes="(max-width: 640px) 160px, 192px"
           />
         </div>
