@@ -1,835 +1,768 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import Image from "next/image";
 import type { Metadata } from "next";
-import maisons from "../../../data/maisons.details.json";
-import planetes from "../../../data/planetes.details.json";
-import { buildMeta, buildTitle } from "@/lib/seo";
 
-/* ---------------- Types ---------------- */
+import { buildMeta, buildTitle, absoluteUrl, SITE_NAME } from "@/lib/seo";
+import {
+  HOUSES,
+  PLANETS,
+  getHouse,
+  getHouseIndex,
+  has,
+  houseTheme,
+  quadrantLabel,
+  toRoman,
+  buildBreadcrumbs,
+  sectionId,
+  planetInHouseText,
+  planetInHouseKeywords,
+  planetInHouseTitle,
+} from "./helpers";
 
-type HouseType = "angulaire" | "succedente" | "cadente";
-type Quadrant = "Est" | "Ouest" | "Nord" | "Sud";
+import {
+  AuraGlow,
+  Section,
+  SectionHeading,
+  GlassCard,
+  ProseBlock,
+  TagList,
+  DetailList,
+  TriplePanels,
+  PlanetInHouseCard,
+  TableOfContents,
+  HouseNav,
+  Breadcrumbs,
+} from "./ui";
 
-type House = {
-  numero: number;
-  slug: string;
-  titreCourt?: string;
-  nom: string;
-  axe?: string;
-  type?: HouseType;
-  quadrant?: Quadrant;
+import {
+  Sparkles,
+  Compass,
+  Target,
+  BookOpen,
+  Brain,
+  Shield,
+  Activity,
+  Layers,
+  ScrollText,
+  Scale,
+  Star,
+} from "lucide-react";
 
-  niveauLecture?: {
-    motsCles?: string[];
-    fonction?: string;
-    arena?: string;
-    verbes?: string[];
-    questions?: string[];
-  };
+/* ------------------------------------------------------------------ */
+/*  Static generation                                                  */
+/* ------------------------------------------------------------------ */
 
-  domaines: {
-    principaux?: string[];
-    secondaires?: string[];
-    dansLaVie?: string[];
-  };
-
-  pedagogie?: {
-    aRetenir?: string[];
-    erreursFrequences?: string[];
-    repereInterpretation?: string[];
-  };
-
-  polarites?: {
-    forces?: string[];
-    ombres?: string[];
-    besoins?: string[];
-  };
-
-  pratique?: {
-    phrasesCles?: string[];
-    exemplesConcrets?: string[];
-    exercices?: string[];
-  };
-
-  planetesDansLaMaisonOverrides?: Record<
-    string,
-    { angle?: string; texte: string; motsCles?: string[] }
-  >;
-};
-
-type Planet = {
-  slug: string;
-  name: string;
-  motCle?: string;
-  fonction?: string;
-  categorie?: string;
-};
-const HOUSES = maisons as House[];
-
-// ✅ force le statique comme tes signes
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return HOUSES.map((h) => ({ slug: h.slug }));
+  return HOUSES.filter(
+    (h) => typeof h.slug === "string" && h.slug.trim() !== ""
+  ).map((h) => ({ slug: h.slug }));
 }
 
-function getHouse(slug: string) {
-  const s = decodeURIComponent(slug).trim().toLowerCase();
-  return HOUSES.find((h) => h.slug === s);
-}
+/* ------------------------------------------------------------------ */
+/*  Metadata + SEO                                                     */
+/* ------------------------------------------------------------------ */
 
-// coupe proprement la meta description (≈ 160–170 caractères)
 function clampMeta(s: string, max = 170) {
   const clean = s.replace(/\s+/g, " ").trim();
   if (clean.length <= max) return clean;
-
   const cut = clean.slice(0, max - 1);
   const last = cut.lastIndexOf(".");
   return last > 80 ? cut.slice(0, last + 1) : cut.trimEnd() + "…";
 }
 
-// ✅ Next 16: params peut être une Promise
-export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
-  const { slug: raw } = await params;
-  const house = getHouse(raw);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const house = getHouse(slug.toLowerCase());
   if (!house) return {};
 
-  const titreCourt = house.titreCourt ?? `Maison ${house.numero}`;
-  const title = buildTitle(`${titreCourt} — ${house.nom}`);
+  const titreCourt = house.titreCourt ?? `Maison ${toRoman(house.numero)}`;
+  const title = buildTitle(
+    `${titreCourt} en astrologie : signification, planètes et interprétation`
+  );
 
   const arena = house.niveauLecture?.arena?.trim();
-  const motsCles = (house.niveauLecture?.motsCles ?? []).filter(Boolean).slice(0, 3);
-  const verbes = (house.niveauLecture?.verbes ?? []).filter(Boolean).slice(0, 2);
-  const principaux = (house.domaines?.principaux ?? []).filter(Boolean).slice(0, 4);
-
-  // Infos structurelles (différencient encore)
-  const metaPlusParts = [
-    house.type ? `Maison ${house.type}` : null,
-    house.quadrant ? `Quadrant ${house.quadrant}` : null,
-    house.axe ? `Axe ${house.axe}` : null,
-  ].filter(Boolean);
-
-  const metaPlus = metaPlusParts.length ? `${metaPlusParts.join(" • ")}. ` : "";
-
-  // Contenu différenciant
-  const hook = arena ? `Thème : ${arena}. ` : "";
-  const kw = motsCles.length ? `Mots-clés : ${motsCles.join(", ")}. ` : "";
-  const dom = principaux.length ? `Domaines : ${principaux.join(", ")}. ` : "";
-
-  const action = verbes.length
-    ? `Méthode + repères pour ${verbes.join(" et ")} sans te perdre.`
-    : "Méthode, repères, exemples et erreurs fréquentes.";
+  const motsCles = (house.niveauLecture?.motsCles ?? []).slice(0, 3);
+  const principaux = (house.domaines?.principaux ?? []).slice(0, 4);
 
   const description = clampMeta(
-    `Maison ${house.numero} (${house.nom}) : sens et interprétation. ` +
-      metaPlus +
-      hook +
-      kw +
-      dom +
-      action,
+    `${titreCourt} (${house.nom}) : sens et interprétation. ` +
+      (house.type ? `Maison ${house.type}. ` : "") +
+      (arena ? `Thème : ${arena}. ` : "") +
+      (motsCles.length ? `Mots-clés : ${motsCles.join(", ")}. ` : "") +
+      (principaux.length ? `Domaines : ${principaux.join(", ")}. ` : "") +
+      "Significations traditionnelles et modernes, les 10 planètes dans cette maison.",
     170
   );
 
-  return buildMeta({
-  title,
-  description,
-  canonicalPath: `/maisons/${house.slug}`,
-  type: "article",
-  ogImage: `/images/maisons/${house.numero}.webp`, // adapte si besoin
-});
+  const keywords = [
+    `maison ${house.numero}`,
+    `maison ${toRoman(house.numero)}`,
+    house.nom.toLowerCase(),
+    "astrologie",
+    "maison astrologique",
+    ...(house.niveauLecture?.motsCles ?? []),
+  ];
 
-}
-
-
-const ROMAN = [
-  "",
-  "I",
-  "II",
-  "III",
-  "IV",
-  "V",
-  "VI",
-  "VII",
-  "VIII",
-  "IX",
-  "X",
-  "XI",
-  "XII",
-] as const;
-
-function toRoman(n: number) {
-  return ROMAN[n] ?? String(n);
-}
-
-
-const PLANETS = planetes as Planet[];
-
-const has = <T,>(v: T | undefined | null): v is T =>
-  v !== undefined && v !== null;
-
-/* ---------------- Data helpers ---------------- */
-
-
-function getHouseIndex(slug: string) {
-  return HOUSES.findIndex((h) => h.slug === slug);
-}
-
-function themeForHouse(h: House) {
-  const byType: Record<
-    HouseType,
-    { border: string; pill: string; dot: string; ring: string }
-  > = {
-    angulaire: {
-      border: "border-emerald-400/25",
-      pill: "bg-emerald-500/10 text-emerald-200 border-emerald-400/20",
-      dot: "bg-emerald-400/70",
-      ring: "focus-visible:ring-emerald-400/35",
-    },
-    succedente: {
-      border: "border-sky-400/25",
-      pill: "bg-sky-500/10 text-sky-200 border-sky-400/20",
-      dot: "bg-sky-400/70",
-      ring: "focus-visible:ring-sky-400/35",
-    },
-    cadente: {
-      border: "border-violet-400/25",
-      pill: "bg-violet-500/10 text-violet-200 border-violet-400/20",
-      dot: "bg-violet-400/70",
-      ring: "focus-visible:ring-violet-400/35",
-    },
+  return {
+    ...buildMeta({
+      title,
+      description,
+      canonicalPath: `/maisons/${house.slug}`,
+      type: "article",
+      ogImage: `/images/maisons/${toRoman(house.numero)}.webp`,
+    }),
+    keywords,
   };
-
-  const t = byType[h.type ?? "cadente"];
-
-  const quadrantLabel =
-    h.quadrant === "Est"
-      ? "Est (moi)"
-      : h.quadrant === "Ouest"
-      ? "Ouest (autre)"
-      : h.quadrant === "Nord"
-      ? "Nord (racines)"
-      : h.quadrant === "Sud"
-      ? "Sud (monde)"
-      : undefined;
-
-  return { ...t, quadrantLabel };
 }
 
-function planetInHouseText(planet: Planet, house: House) {
-  const override = house.planetesDansLaMaisonOverrides?.[planet.slug];
-  if (override?.texte) return override.texte;
+/* ------------------------------------------------------------------ */
+/*  Schema.org JSON-LD                                                 */
+/* ------------------------------------------------------------------ */
 
-  const arena = house.niveauLecture?.arena ?? `Maison ${house.numero}`;
-  const pf = planet.fonction ?? planet.name;
-  const motCle = planet.motCle ? ` (${planet.motCle})` : "";
+function buildJsonLd(house: typeof HOUSES[number]) {
+  const titreCourt = house.titreCourt ?? `Maison ${toRoman(house.numero)}`;
+  const url = absoluteUrl(`/maisons/${house.slug}`);
 
-  // Gabarit volontairement clair, pédagogique, pas ésotérique flou.
-  return `${planet.name}${motCle} en ${arena} : la fonction de ${pf} s’exprime ici de manière concrète. Elle colore les expériences liées à cette maison, devient un thème récurrent et indique un “point d’action” privilégié. Le défi est d’éviter l’excès (sur-investir ce domaine) ou l’évitement (ne pas assumer la leçon de cette maison) ; la maturité consiste à canaliser cette énergie vers des choix simples et cohérents.`;
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `${titreCourt} — ${house.nom}`,
+      description:
+        house.niveauLecture?.fonction ??
+        `Étude approfondie de la ${titreCourt} en astrologie.`,
+      url,
+      image: absoluteUrl(`/images/maisons/hero/${toRoman(house.numero)}.webp`),
+      author: { "@type": "Organization", name: SITE_NAME },
+      publisher: { "@type": "Organization", name: SITE_NAME },
+      inLanguage: "fr",
+      mainEntityOfPage: url,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: buildBreadcrumbs(house).map((crumb, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: crumb.name,
+        item: absoluteUrl(crumb.href),
+      })),
+    },
+  ];
 }
 
+/* ------------------------------------------------------------------ */
+/*  Dynamic TOC builder                                                */
+/* ------------------------------------------------------------------ */
 
+function buildTocSections(house: typeof HOUSES[number]) {
+  const sections: Array<{ id: string; label: string }> = [];
+  const push = (label: string) => sections.push({ id: sectionId(label), label });
+
+  if (has(house.niveauLecture?.fonction)) push("Fonction");
+  if (has(house.significationTraditionnelle)) push("Signification traditionnelle");
+  if (has(house.conceptionModerne)) push("Conception moderne");
+  if (has(house.niveauLecture?.questions)) push("Questions clés");
+  if (has(house.domaines?.principaux) || has(house.domaines?.secondaires)) push("Domaines");
+  if (has(house.polarites?.forces) || has(house.polarites?.ombres)) push("Repères");
+  if (has(house.axeAnalyse)) push("Axe");
+  if (has(house.triangle) || has(house.carre)) push("Triangle et Carré");
+  if (has(house.pedagogie?.aRetenir)) push("Pédagogie");
+  if (has(house.pratique?.phrasesCles)) push("Pratique");
+  push("Planètes dans cette maison");
+
+  return sections;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Page component                                                     */
+/* ------------------------------------------------------------------ */
 
 export default async function HousePage({
   params,
 }: {
-params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-
   const house = getHouse(slug);
   if (!house) notFound();
 
-  const heroSrc = `/images/maisons/hero/${toRoman(house.numero)}.webp`;
-
+  const theme = houseTheme(house);
   const idx = getHouseIndex(house.slug);
   if (idx === -1) notFound();
 
-const prev = HOUSES[(idx - 1 + HOUSES.length) % HOUSES.length];
-const next = HOUSES[(idx + 1) % HOUSES.length];
+  const prev = HOUSES[(idx - 1 + HOUSES.length) % HOUSES.length];
+  const next = HOUSES[(idx + 1) % HOUSES.length];
 
-
-  const theme = themeForHouse(house);
+  const titreCourt = house.titreCourt ?? `Maison ${toRoman(house.numero)}`;
+  const heroSrc = `/images/maisons/hero/${toRoman(house.numero)}.webp`;
+  const breadcrumbs = buildBreadcrumbs(house);
+  const tocSections = buildTocSections(house);
+  const jsonLd = buildJsonLd(house);
 
   const chips: Array<{ label: string; value?: string }> = [
     { label: "Axe", value: house.axe },
     { label: "Type", value: house.type },
-    { label: "Quadrant", value: theme.quadrantLabel },
+    { label: "Quadrant", value: quadrantLabel(house.quadrant) },
     { label: "Arena", value: house.niveauLecture?.arena },
-  ].filter((x) => !!x.value);
+  ].filter((x): x is { label: string; value: string } => !!x.value);
 
   return (
-    <main className="mx-auto max-w-4xl px-6 pb-12 text-text">
-      {/* Header */}
-      <section className="mb-10">
-        {/* HERO IMAGE */}
-        <div
-          className={`relative overflow-hidden rounded-[2.5rem] border ${theme.border} bg-white/5`}
-        >
-          <div className="relative h-[38vh] min-h-[320px] w-full">
-            <Image
-              src={heroSrc}
-              alt={`${
-                house.titreCourt ?? `Maison ${toRoman(house.numero)}`
-              } — ${house.nom}`}
-              fill
-              priority
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 896px"
-            />
-          </div>
+    <>
+      {/* Schema.org JSON-LD */}
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
 
-          {/* overlays */}
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/25 to-transparent" />
-          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(80%_70%_at_50%_10%,rgba(255,255,255,0.14),transparent_55%)]" />
+      {/* Skip link */}
+      <a
+        href="#contenu-principal"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-black focus:shadow-lg"
+      >
+        Aller au contenu principal
+      </a>
 
-          {/* Badge type (dans le hero) */}
-          <div className="absolute right-5 top-5 sm:right-7 sm:top-7">
-            <span
-              className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm ${theme.pill} backdrop-blur`}
-            >
-              <span className={`h-2 w-2 rounded-full ${theme.dot}`} />
-              {house.type ?? "cadente"}
-            </span>
-          </div>
+      {/* Background aura */}
+      <AuraGlow aura={theme.aura} />
 
-          {/* Titre (dans le hero) */}
-          <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
-            <p className="text-xs uppercase tracking-[0.18em] text-white/70">
-              Maisons astrologiques
-            </p>
+      <div className="relative mx-auto max-w-6xl px-4 pb-16 sm:px-6">
+        {/* Breadcrumbs */}
+        <Breadcrumbs items={breadcrumbs} />
 
-            <h1 className="mt-2 font-serif text-4xl text-white sm:text-5xl">
-              {house.titreCourt ?? `Maison ${toRoman(house.numero)}`}{" "}
-              <span className="text-white/70">— {house.nom}</span>
-            </h1>
-
-            {house.niveauLecture?.arena ? (
-              <p className="mt-3 max-w-2xl text-sm text-white/80">
-                {house.niveauLecture.arena}
-              </p>
-            ) : null}
-          </div>
-        </div>
-
-        {/* HEADER “CARTE” (tes chips + mots-clés) */}
-        <header
-          className={`mt-6 rounded-3xl border ${theme.border} bg-white/5 p-6 backdrop-blur`}
-        >
-          {chips.length > 0 && (
-            <div className="flex flex-wrap gap-2 text-sm">
-              {chips.map((c) => (
-                <span
-                  key={c.label}
-                  className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-text/90"
-                >
-                  <span className="text-muted">{c.label} :</span> {c.value}
-                </span>
-              ))}
-            </div>
-          )}
-
-          {house.niveauLecture?.motsCles?.length ? (
-            <div className="mt-4 flex flex-wrap gap-2">
-              {house.niveauLecture.motsCles.map((k) => (
-                <span
-                  key={k}
-                  className={`rounded-full border ${theme.border} bg-white/5 px-3 py-1 text-sm`}
-                >
-                  {k}
-                </span>
-              ))}
-            </div>
-          ) : null}
-        </header>
-      </section>
-
-      {/* Fonction */}
-      {has(house.niveauLecture?.fonction) && (
-        <section className="mb-10">
-          <h2 className="font-serif text-2xl sm:text-3xl">
-            <span
-              className={`mr-3 inline-block h-2 w-2 rounded-full ${theme.dot}`}
-            />
-            Fonction
-          </h2>
+        {/* ============================================================ */}
+        {/*  HERO                                                        */}
+        {/* ============================================================ */}
+        <section className="mb-12">
           <div
-            className={`mt-4 rounded-3xl border ${theme.border} bg-white/5 p-6`}
+            className={`relative overflow-hidden rounded-[2.5rem] border ${theme.border} bg-white/5`}
           >
-            <p className="text-sm leading-relaxed text-text/85">
-              {house.niveauLecture?.fonction}
-            </p>
-            {house.niveauLecture?.verbes?.length ? (
-              <div className="mt-4 flex flex-wrap gap-2">
-                {house.niveauLecture.verbes.map((v) => (
+            <div className="relative h-[38vh] min-h-[320px] w-full">
+              <Image
+                src={heroSrc}
+                alt={`${titreCourt} — ${house.nom}`}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width:768px) 100vw, 1152px"
+              />
+            </div>
+
+            {/* Gradient overlays */}
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/65 via-black/25 to-transparent" />
+            <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(80%_70%_at_50%_10%,rgba(255,255,255,0.14),transparent_55%)]" />
+
+            {/* Type badge */}
+            <div className="absolute right-5 top-5 sm:right-7 sm:top-7">
+              <span
+                className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm ${theme.pill} backdrop-blur`}
+              >
+                <span className={`h-2 w-2 rounded-full ${theme.dot}`} />
+                {house.type ?? "cadente"}
+              </span>
+            </div>
+
+            {/* Title over hero */}
+            <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+              <p className="text-xs uppercase tracking-[0.18em] text-white/70">
+                Maisons astrologiques
+              </p>
+              <h1 className="mt-2 font-serif text-4xl text-white sm:text-5xl">
+                {titreCourt}{" "}
+                <span className="text-white/70">— {house.nom}</span>
+              </h1>
+              {house.niveauLecture?.arena && (
+                <p className="mt-3 max-w-2xl text-sm text-white/80">
+                  {house.niveauLecture.arena}
+                </p>
+              )}
+            </div>
+          </div>
+
+          {/* Chips + keywords card */}
+          <header
+            className={`mt-6 rounded-3xl border ${theme.border} bg-white/[0.02] p-6 backdrop-blur`}
+          >
+            {chips.length > 0 && (
+              <div className="flex flex-wrap gap-2 text-sm">
+                {chips.map((c) => (
                   <span
-                    key={v}
-                    className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm"
+                    key={c.label}
+                    className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-text/90"
                   >
-                    {v}
+                    <span className="text-muted">{c.label} :</span> {c.value}
                   </span>
                 ))}
               </div>
-            ) : null}
-          </div>
+            )}
+            {has(house.niveauLecture?.motsCles) && (
+              <div className="mt-4">
+                <TagList
+                  items={house.niveauLecture!.motsCles!}
+                  border={theme.border}
+                  text={theme.text}
+                />
+              </div>
+            )}
+          </header>
         </section>
-      )}
 
-      {/* Questions */}
-      {house.niveauLecture?.questions?.length ? (
-        <section className="mb-10">
-          <h2 className="font-serif text-2xl sm:text-3xl">
-            <span
-              className={`mr-3 inline-block h-2 w-2 rounded-full ${theme.dot}`}
-            />
-            Questions clés
-          </h2>
-          <div
-            className={`mt-4 rounded-3xl border ${theme.border} bg-white/5 p-6`}
-          >
-            <ul className="space-y-2 text-sm text-text/85">
-              {house.niveauLecture.questions.map((q) => (
-                <li key={q} className="flex gap-3">
-                  <span
-                    className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${theme.dot}`}
-                  />
-                  <span>{q}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </section>
-      ) : null}
-
-      {/* Domaines */}
-      {(house.domaines?.principaux?.length ||
-        house.domaines?.secondaires?.length ||
-        house.domaines?.dansLaVie?.length) && (
-        <section className="mb-10">
-          <h2 className="font-serif text-2xl sm:text-3xl">
-            <span
-              className={`mr-3 inline-block h-2 w-2 rounded-full ${theme.dot}`}
-            />
-            Domaines
-          </h2>
-
-          <div className="mt-4 grid gap-4 sm:grid-cols-2">
-            {house.domaines?.principaux?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Principaux
-                </p>
-                <ul className="mt-3 flex flex-wrap gap-2">
-                  {house.domaines.principaux.map((d) => (
-                    <li
-                      key={d}
-                      className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm"
-                    >
-                      {d}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-
-            {house.domaines?.secondaires?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Secondaires
-                </p>
-                <ul className="mt-3 flex flex-wrap gap-2">
-                  {house.domaines.secondaires.map((d) => (
-                    <li
-                      key={d}
-                      className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm"
-                    >
-                      {d}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-
-            {house.domaines?.dansLaVie?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6 sm:col-span-2`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Dans la vie
-                </p>
-                <ul className="mt-3 flex flex-wrap gap-2">
-                  {house.domaines.dansLaVie.map((d) => (
-                    <li
-                      key={d}
-                      className="rounded-full border border-white/10 bg-black/20 px-3 py-1 text-sm"
-                    >
-                      {d}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </section>
-      )}
-
-      {/* Forces / Ombres / Besoins */}
-      {(house.polarites?.forces?.length ||
-        house.polarites?.ombres?.length ||
-        house.polarites?.besoins?.length) && (
-        <section className="mb-10">
-          <h2 className="font-serif text-2xl sm:text-3xl">
-            <span
-              className={`mr-3 inline-block h-2 w-2 rounded-full ${theme.dot}`}
-            />
-            Repères
-          </h2>
-          <div className="mt-4 grid gap-4 sm:grid-cols-3">
-            <div
-              className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-            >
-              <p className="text-xs uppercase tracking-wide text-muted">
-                Forces
-              </p>
-              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                {house.polarites?.forces?.map((x) => (
-                  <li key={x}>{x}</li>
-                ))}
-              </ul>
-            </div>
-            <div
-              className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-            >
-              <p className="text-xs uppercase tracking-wide text-muted">
-                Ombres
-              </p>
-              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                {house.polarites?.ombres?.map((x) => (
-                  <li key={x}>{x}</li>
-                ))}
-              </ul>
-            </div>
-            <div
-              className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-            >
-              <p className="text-xs uppercase tracking-wide text-muted">
-                Besoins
-              </p>
-              <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                {house.polarites?.besoins?.map((x) => (
-                  <li key={x}>{x}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Pédagogie */}
-      {(house.pedagogie?.aRetenir?.length ||
-        house.pedagogie?.erreursFrequences?.length ||
-        house.pedagogie?.repereInterpretation?.length) && (
-        <section className="mb-10">
-          <h2 className="font-serif text-2xl sm:text-3xl">
-            <span
-              className={`mr-3 inline-block h-2 w-2 rounded-full ${theme.dot}`}
-            />
-            Pédagogie
-          </h2>
-
-          <div className="mt-4 grid gap-4 sm:grid-cols-2">
-            {house.pedagogie?.aRetenir?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  À retenir
-                </p>
-                <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                  {house.pedagogie.aRetenir.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-
-            {house.pedagogie?.erreursFrequences?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Erreurs fréquentes
-                </p>
-                <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                  {house.pedagogie.erreursFrequences.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-
-            {house.pedagogie?.repereInterpretation?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6 sm:col-span-2`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Repères d’interprétation
-                </p>
-                <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                  {house.pedagogie.repereInterpretation.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </section>
-      )}
-
-      {/* Pratique */}
-      {(house.pratique?.phrasesCles?.length ||
-        house.pratique?.exemplesConcrets?.length ||
-        house.pratique?.exercices?.length) && (
-        <section className="mb-10">
-          <h2 className="font-serif text-2xl sm:text-3xl">
-            <span
-              className={`mr-3 inline-block h-2 w-2 rounded-full ${theme.dot}`}
-            />
-            Pratique
-          </h2>
-
-          <div className="mt-4 grid gap-4 sm:grid-cols-2">
-            {house.pratique?.phrasesCles?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Phrases clés
-                </p>
-                <ul className="mt-3 space-y-2 text-sm text-text/85">
-                  {house.pratique.phrasesCles.map((x) => (
-                    <li key={x} className="flex gap-3">
-                      <span
-                        className={`mt-2 h-1.5 w-1.5 shrink-0 rounded-full ${theme.dot}`}
-                      />
-                      <span>{x}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-
-            {house.pratique?.exemplesConcrets?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Exemples concrets
-                </p>
-                <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                  {house.pratique.exemplesConcrets.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-
-            {house.pratique?.exercices?.length ? (
-              <div
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6 sm:col-span-2`}
-              >
-                <p className="text-xs uppercase tracking-wide text-muted">
-                  Exercices
-                </p>
-                <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-text/85">
-                  {house.pratique.exercices.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </section>
-      )}
-
-      {/* ✅ Planètes dans la maison */}
-      <section className="mb-10">
-        <h2 className="font-serif text-2xl sm:text-3xl">
-          <span
-            className={`mr-3 inline-block h-2 w-2 rounded-full ${theme.dot}`}
-          />
-          Planètes dans cette maison
-        </h2>
-
-        <p className="mt-3 text-sm text-text/75">
-          Interprétations générées (premium) à partir de la fonction de chaque
-          planète + l’arène de la maison. Tu peux affiner des cas précis via{" "}
-          <code className="rounded bg-black/30 px-1 py-0.5">
-            planetesDansLaMaisonOverrides
-          </code>{" "}
-          dans le JSON.
-        </p>
-
-        <div className="mt-4 grid gap-4 sm:grid-cols-2">
-          {PLANETS.map((p) => {
-            const override = house.planetesDansLaMaisonOverrides?.[p.slug];
-            const title =
-              override?.angle ?? `${p.name} en Maison ${house.numero}`;
-            const text = planetInHouseText(p, house);
-            return (
-              <article
-                key={p.slug}
-                className={`rounded-3xl border ${theme.border} bg-white/5 p-6`}
-              >
-               <div className="flex items-start justify-between gap-3">
-  <div>
-    <h3 className="font-serif text-2xl">{title}</h3>
-    <p className="mt-1 text-sm text-text/70">
-      {p.categorie ? `${p.categorie} • ` : ""}
-      {p.motCle ?? ""}
-    </p>
-  </div>
-
-  {/* ✅ Remplace le badge slug par une image planète */}
-  <div
-    className={`relative h-12 w-12 shrink-0 overflow-hidden rounded-2xl border ${theme.border} bg-white/5`}
-    aria-hidden="true"
-    title={p.name}
-  >
-    <Image
-      src={`/images/planetes/${p.slug}.webp`} // ex: /images/planetes/jupiter.webp
-      alt={`Planète ${p.name}`}
-      fill
-      className="object-cover transition duration-300 group-hover:scale-[1.04]"
-      sizes="48px"
-    />
-    <div className="absolute inset-0 bg-black/10" />
-  </div>
-</div>
-
-
-                {override?.motsCles?.length ? (
-                  <div className="mt-3 flex flex-wrap gap-2">
-                    {override.motsCles.map((k) => (
-                      <span
-                        key={k}
-                        className={`rounded-full border ${theme.border} bg-white/5 px-3 py-1 text-xs`}
-                      >
-                        {k}
-                      </span>
-                    ))}
-                  </div>
-                ) : null}
-
-                <p className="mt-4 text-sm leading-relaxed text-text/85">
-                  {text}
-                </p>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* Footer nav */}
-      <footer className="mt-12 border-t border-white/10 pt-8">
-        <nav
-          className="mt-6 grid gap-3 sm:grid-cols-2"
-          aria-label="Navigation entre les maisons"
+        {/* ============================================================ */}
+        {/*  MAIN LAYOUT: content + sticky TOC                           */}
+        {/* ============================================================ */}
+        <div
+          id="contenu-principal"
+          className="lg:grid lg:grid-cols-[1fr_220px] lg:gap-10"
         >
-          {/* ✅ PREV (à gauche) : TEXTE -> PHOTO (à droite) */}
-          {prev ? (
-            <Link
-              href={`/maisons/${prev.slug}`}
-              className={`group rounded-3xl border ${theme.border} bg-white/5 p-5 transition hover:bg-white/10 focus:outline-none focus-visible:ring-2 ${theme.ring}`}
-              aria-label={`Aller à la maison précédente : Maison ${prev.numero}`}
-            >
-              <div className="flex items-center gap-5">
-                {/* Texte */}
-                <div className="min-w-0 flex-1">
-                  <p className="text-xs uppercase tracking-wide text-muted">
-                    Précédent
-                  </p>
-                  <p className="mt-1 font-serif text-2xl group-hover:underline">
-                    {prev.titreCourt ?? `Maison ${toRoman(prev.numero)}`} —{" "}
-                    {prev.nom}
-                  </p>
-                </div>
+          {/* ---------- Content column ---------- */}
+          <div className="min-w-0">
+            {/* ---- Fonction ---- */}
+            {has(house.niveauLecture?.fonction) && (
+              <Section id={sectionId("Fonction")}>
+                <SectionHeading
+                  title="Fonction"
+                  subtitle={house.niveauLecture?.arena}
+                  icon={Target}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Fonction")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ProseBlock text={house.niveauLecture!.fonction!} />
+                    {has(house.niveauLecture?.verbes) && (
+                      <div className="mt-6">
+                        <TagList
+                          items={house.niveauLecture!.verbes!}
+                          border={theme.border}
+                          text={theme.text}
+                        />
+                      </div>
+                    )}
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
 
-                {/* ✅ Image à l’intérieur, à droite */}
-                <div
-                  className={`relative h-20 w-32 shrink-0 overflow-hidden rounded-2xl border ${theme.border} bg-white/5`}
-                  aria-hidden="true"
-                >
-                  <Image
-                    src={`/images/maisons/${toRoman(prev.numero)}.webp`}
-                    alt={`${`Maison ${toRoman(house.numero)}`} — ${prev.nom}`}
-                    fill
-                    className="object-cover transition duration-300 group-hover:scale-[1.04]"
-                    sizes="128px"
+            {/* ---- Signification traditionnelle ---- */}
+            {has(house.significationTraditionnelle) && (
+              <Section id={sectionId("Signification traditionnelle")}>
+                <SectionHeading
+                  title="Signification traditionnelle"
+                  subtitle="D'après Ptolémée, Fludd, Alchabitius, Gadbury"
+                  icon={ScrollText}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Signification traditionnelle")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ProseBlock text={house.significationTraditionnelle!} />
+                    {has(house.sensSocial) && (
+                      <div className={`mt-6 rounded-2xl border ${theme.border} bg-white/[0.02] p-5`}>
+                        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">
+                          En astrologie mondiale
+                        </p>
+                        <p className="text-sm leading-relaxed text-text/85">
+                          {house.sensSocial}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Conception moderne ---- */}
+            {has(house.conceptionModerne) && (
+              <Section id={sectionId("Conception moderne")}>
+                <SectionHeading
+                  title="Conception moderne"
+                  subtitle="Synthèse contemporaine"
+                  icon={Brain}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Conception moderne")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ProseBlock text={house.conceptionModerne!} />
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Questions clés ---- */}
+            {has(house.niveauLecture?.questions) && (
+              <Section id={sectionId("Questions clés")}>
+                <SectionHeading
+                  title="Questions clés"
+                  icon={Compass}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Questions clés")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ul className="space-y-3">
+                      {house.niveauLecture!.questions!.map((q, i) => (
+                        <li key={i} className="flex items-start gap-3">
+                          <span
+                            className={`mt-2 h-2 w-2 shrink-0 rounded-full ${theme.dot}`}
+                            aria-hidden="true"
+                          />
+                          <span className="text-sm text-text/85 md:text-base">{q}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Domaines ---- */}
+            {(has(house.domaines?.principaux) ||
+              has(house.domaines?.secondaires) ||
+              has(house.domaines?.dansLaVie)) && (
+              <Section id={sectionId("Domaines")}>
+                <SectionHeading
+                  title="Domaines"
+                  icon={Layers}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Domaines")}
+                />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {has(house.domaines?.principaux) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <p className="mb-4 text-xs font-semibold uppercase tracking-wide text-muted">
+                          Principaux
+                        </p>
+                        <TagList
+                          items={house.domaines!.principaux!}
+                          border={theme.border}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                  {has(house.domaines?.secondaires) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <p className="mb-4 text-xs font-semibold uppercase tracking-wide text-muted">
+                          Secondaires
+                        </p>
+                        <TagList
+                          items={house.domaines!.secondaires!}
+                          border={theme.border}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                  {has(house.domaines?.dansLaVie) && (
+                    <GlassCard border={theme.border} className="sm:col-span-2">
+                      <div className="p-6">
+                        <p className="mb-4 text-xs font-semibold uppercase tracking-wide text-muted">
+                          Dans la vie
+                        </p>
+                        <TagList
+                          items={house.domaines!.dansLaVie!}
+                          border={theme.border}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                </div>
+              </Section>
+            )}
+
+            {/* ---- Repères (Forces / Ombres / Besoins) ---- */}
+            {(has(house.polarites?.forces) ||
+              has(house.polarites?.ombres) ||
+              has(house.polarites?.besoins)) && (
+              <Section id={sectionId("Repères")}>
+                <SectionHeading
+                  title="Repères"
+                  subtitle="Forces, ombres et besoins"
+                  icon={Shield}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Repères")}
+                />
+                <TriplePanels
+                  panels={[
+                    { label: "Forces", items: house.polarites?.forces },
+                    { label: "Ombres", items: house.polarites?.ombres },
+                    { label: "Besoins", items: house.polarites?.besoins },
+                  ]}
+                  border={theme.border}
+                  dot={theme.dot}
+                />
+              </Section>
+            )}
+
+            {/* ---- Axe ---- */}
+            {has(house.axeAnalyse) && (
+              <Section id={sectionId("Axe")}>
+                <SectionHeading
+                  title="Axe"
+                  subtitle={house.axeAnalyse!.nom}
+                  icon={Scale}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Axe")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ProseBlock text={house.axeAnalyse!.description} />
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Triangle et Carré ---- */}
+            {(has(house.triangle) || has(house.carre)) && (
+              <Section id={sectionId("Triangle et Carré")}>
+                <SectionHeading
+                  title="Triangle et Carré"
+                  subtitle="Classification de Bailey"
+                  icon={Star}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Triangle et Carré")}
+                />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {has(house.triangle) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">
+                          Triangle
+                        </p>
+                        <p className={`mb-3 font-serif text-xl ${theme.text}`}>
+                          {house.triangle!.nom}
+                        </p>
+                        <p className="text-sm text-text/85">
+                          {house.triangle!.role}
+                        </p>
+                      </div>
+                    </GlassCard>
+                  )}
+                  {has(house.carre) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">
+                          Carré
+                        </p>
+                        <p className={`mb-3 font-serif text-xl ${theme.text}`}>
+                          {house.carre!.nom}
+                        </p>
+                        <p className="text-sm text-text/85">
+                          {house.carre!.role}
+                        </p>
+                      </div>
+                    </GlassCard>
+                  )}
+                </div>
+              </Section>
+            )}
+
+            {/* ---- Pédagogie ---- */}
+            {(has(house.pedagogie?.aRetenir) ||
+              has(house.pedagogie?.erreursFrequences) ||
+              has(house.pedagogie?.repereInterpretation)) && (
+              <Section id={sectionId("Pédagogie")}>
+                <SectionHeading
+                  title="Pédagogie"
+                  icon={BookOpen}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Pédagogie")}
+                />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {has(house.pedagogie?.aRetenir) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <DetailList
+                          title="À retenir"
+                          items={house.pedagogie!.aRetenir}
+                          dot={theme.dot}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                  {has(house.pedagogie?.erreursFrequences) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <DetailList
+                          title="Erreurs fréquentes"
+                          items={house.pedagogie!.erreursFrequences}
+                          dot={theme.dot}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                  {has(house.pedagogie?.repereInterpretation) && (
+                    <GlassCard border={theme.border} className="sm:col-span-2">
+                      <div className="p-6">
+                        <DetailList
+                          title="Repères d'interprétation"
+                          items={house.pedagogie!.repereInterpretation}
+                          dot={theme.dot}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                </div>
+              </Section>
+            )}
+
+            {/* ---- Pratique ---- */}
+            {(has(house.pratique?.phrasesCles) ||
+              has(house.pratique?.exemplesConcrets) ||
+              has(house.pratique?.exercices)) && (
+              <Section id={sectionId("Pratique")}>
+                <SectionHeading
+                  title="Pratique"
+                  icon={Activity}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Pratique")}
+                />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {has(house.pratique?.phrasesCles) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <DetailList
+                          title="Phrases clés"
+                          items={house.pratique!.phrasesCles}
+                          dot={theme.dot}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                  {has(house.pratique?.exemplesConcrets) && (
+                    <GlassCard border={theme.border}>
+                      <div className="p-6">
+                        <DetailList
+                          title="Exemples concrets"
+                          items={house.pratique!.exemplesConcrets}
+                          dot={theme.dot}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                  {has(house.pratique?.exercices) && (
+                    <GlassCard border={theme.border} className="sm:col-span-2">
+                      <div className="p-6">
+                        <DetailList
+                          title="Exercices"
+                          items={house.pratique!.exercices}
+                          dot={theme.dot}
+                          text={theme.text}
+                        />
+                      </div>
+                    </GlassCard>
+                  )}
+                </div>
+              </Section>
+            )}
+
+            {/* ---- Planètes dans cette maison ---- */}
+            <Section id={sectionId("Planètes dans cette maison")}>
+              <SectionHeading
+                title="Planètes dans cette maison"
+                subtitle={`Interprétation des 10 planètes en ${titreCourt}`}
+                icon={Sparkles}
+                dot={theme.dot}
+                text={theme.text}
+                id={sectionId("Planètes dans cette maison")}
+              />
+              <div className="grid gap-4 sm:grid-cols-2">
+                {PLANETS.map((p) => (
+                  <PlanetInHouseCard
+                    key={p.slug}
+                    planetName={p.name}
+                    planetSlug={p.slug}
+                    title={planetInHouseTitle(p, house)}
+                    text={planetInHouseText(p, house)}
+                    keywords={planetInHouseKeywords(p, house)}
+                    border={theme.border}
                   />
-                  <div className="absolute inset-0 bg-black/10" />
-                </div>
+                ))}
               </div>
-            </Link>
-          ) : (
-            <div className="hidden sm:block" />
-          )}
+            </Section>
+          </div>
 
-          {/* ✅ NEXT (à droite) : PHOTO (à gauche) -> TEXTE */}
-          {next ? (
-            <Link
-              href={`/maisons/${next.slug}`}
-              className={`group rounded-3xl border ${theme.border} bg-white/5 p-5 transition hover:bg-white/10 focus:outline-none focus-visible:ring-2 ${theme.ring}`}
-              aria-label={`Aller à la maison suivante : Maison ${next.numero}`}
-            >
-              <div className="flex items-center gap-5">
-                {/* ✅ Image à l’intérieur, à gauche */}
-                <div
-                  className={`relative h-20 w-32 shrink-0 overflow-hidden rounded-2xl border ${theme.border} bg-white/5`}
-                  aria-hidden="true"
-                >
-                  <Image
-                    src={`/images/maisons/${toRoman(next.numero)}.webp`}
-               alt={`${next.titreCourt ?? `Maison ${toRoman(next.numero)}`} — ${next.nom}`}
-                    fill
-                    className="object-cover transition duration-300 group-hover:scale-[1.04]"
-                    sizes="128px"
-                  />
-                  <div className="absolute inset-0 bg-black/10" />
-                </div>
-
-                {/* Texte (aligné à droite pour la carte de droite) */}
-                <div className="min-w-0 flex-1 text-right">
-                  <p className="text-xs uppercase tracking-wide text-muted">
-                    Suivant
-                  </p>
-                  <p className="mt-1 font-serif text-2xl group-hover:underline">
-                    {next.titreCourt ?? `Maison ${toRoman(next.numero)}`} —{" "}
-                    {next.nom}
-                  </p>
-                </div>
-              </div>
-            </Link>
-          ) : (
-            <div className="hidden sm:block" />
-          )}
-        </nav>
-
-        <div className="mt-8 flex justify-center">
-          <Link
-            href="/#maisons"
-            className={`rounded-full border ${theme.border} bg-white/5 px-5 py-2 text-sm text-text/90 hover:bg-white/10`}
-          >
-            ← Retour aux maisons
-          </Link>
+          {/* ---------- Sticky TOC sidebar ---------- */}
+          <aside className="hidden lg:block">
+            <TableOfContents sections={tocSections} text={theme.text} />
+          </aside>
         </div>
-      </footer>
-    </main>
+
+        {/* Mobile TOC (above footer) */}
+        <div className="mb-12 lg:hidden">
+          <TableOfContents sections={tocSections} text={theme.text} />
+        </div>
+
+        {/* ============================================================ */}
+        {/*  Footer nav                                                   */}
+        {/* ============================================================ */}
+        <footer className="border-t border-white/10 pt-10">
+          <HouseNav
+            prev={
+              prev
+                ? {
+                    slug: prev.slug,
+                    titreCourt: prev.titreCourt ?? `Maison ${toRoman(prev.numero)}`,
+                    nom: prev.nom,
+                    numero: prev.numero,
+                    roman: toRoman(prev.numero),
+                  }
+                : undefined
+            }
+            next={
+              next
+                ? {
+                    slug: next.slug,
+                    titreCourt: next.titreCourt ?? `Maison ${toRoman(next.numero)}`,
+                    nom: next.nom,
+                    numero: next.numero,
+                    roman: toRoman(next.numero),
+                  }
+                : undefined
+            }
+            border={theme.border}
+            ring={theme.ring}
+          />
+
+          <div className="mt-8 flex justify-center">
+            <Link
+              href="/#maisons"
+              className={`rounded-full border ${theme.border} bg-white/5 px-5 py-2 text-sm text-text/90 transition hover:bg-white/10`}
+            >
+              ← Retour aux maisons
+            </Link>
+          </div>
+        </footer>
+      </div>
+    </>
   );
 }

@@ -1,0 +1,379 @@
+[
+  {
+    "numero": 7,
+    "slug": "maison-7",
+    "titreCourt": "Maison VII",
+    "nom": "La relation",
+    "axe": "I–VII",
+    "type": "angulaire",
+    "quadrant": "Ouest",
+    "significationTraditionnelle": "Mariage, femmes, procès et discussions, vols, ennemis, la vente et l'achat de maisons, les contrats, les associés, l'individualité par opposition à la personnalité. La Maison VII traditionnellement gouverne tous les types de partenariats légaux et les ennemis publics déclarés.",
+    "sensSocial": "Les guerres, les ennemis, les alliances, traités, affaires étrangères, voleurs assassins. C'est le domaine des interactions collectives, de la façon dont la personne est perçue et réagit dans la sphère sociale.",
+    "conceptionModerne": "Le natif dans la société. Le peuple. Les réactions de la société par rapport à l'attitude du natif: a) répulsion = ennemis publics, querelles, procès, divorce; b) attraction = associations, unions légales, contrats. La Maison VII révèle comment on se projette sur l'autre et ce que nous cherchons en miroir.",
+    "axeAnalyse": {
+      "nom": "Axe I–VII",
+      "description": "Le Natif. I = moi, VII = le natif dans la société. Cet axe pose la question du rapport à l'Autre et à l'équilibre entre identité personnelle et identité sociale."
+    },
+    "triangle": {
+      "nom": "Relations (VII, XI, III)",
+      "role": "Mariage et associations — le domaine du partenariat conscient et choisi."
+    },
+    "carre": {
+      "nom": "Progrès (I, X, VII, IV)",
+      "role": "Luttes, épreuves — défis qui sculptent notre capacité à nous engager et nous adapter."
+    },
+    "niveauLecture": {
+      "arena": "le face-à-face et le contrat",
+      "motsCles": ["partenariat", "couple", "miroir", "contrat", "équilibre"],
+      "verbes": ["rencontrer", "négocier", "s'engager", "coopérer", "ajuster"],
+      "fonction": "La Maison VII décrit la rencontre : couple, associations, contrats. L'autre comme miroir et apprentissage du lien."
+    },
+    "domaines": {
+      "principaux": ["couple", "associations", "contrats", "clients", "alliances"],
+      "secondaires": ["diplomatie", "miroir", "négociation", "engagement", "équilibre"],
+      "dansLaVie": ["partenariats pro", "mariage", "clients", "accords", "conflits à résoudre"]
+    },
+    "polarites": {
+      "forces": ["diplomatie", "écoute", "capacité à négocier", "sens du partenariat"],
+      "ombres": ["projection", "dépendance", "compromis excessif", "conflits de miroir"],
+      "besoins": ["dialogue honnête", "cadre clair", "équilibre donner/recevoir"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison VII = relation choisie (contrat explicite ou implicite).", "Elle montre ce que tu projettes sur l'autre.", "Planètes en VII = thèmes relationnels majeurs."],
+      "erreursFrequences": ["Tout réduire au couple.", "Oublier les contrats/clients.", "Confondre compromis et effacement."],
+      "repereInterpretation": ["Signe en VII = style relationnel.", "Planètes en VII = besoins/défis.", "Maître de VII = manière de s'engager."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je rencontre.", "Je coopère.", "Je m'ajuste."],
+      "exemplesConcrets": ["Tu apprends via les relations.", "Tu cherches des alliances stables.", "Tu as besoin d'accords clairs."],
+      "exercices": ["Lister tes non-négociables relationnels.", "Pratiquer un 'non' clair.", "Clarifier un contrat (même verbal)."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Le Soleil en Maison VII est l'un des indices majeurs de notoriété. Le natif est destiné à jouer un rôle social notable et sa vie relationnelle devient le vecteur principal de son expression personnelle. Le mariage ou les alliances importantes marquent souvent le point de départ d'une élévation sociale brillante, mettant en lumière le rôle public et les responsabilités partagées.",
+      "lune": "La Lune en Maison VII favorise grandement le mariage et les succès sociaux. Elle incline le natif vers des occupations le mettant en contact direct avec le public et lui confère une popularité naturelle. L'émotion devient véhicule de connexion avec l'autre, bien que le natif doive cultiver la stabilité émotionnelle dans ses engagements.",
+      "mercure": "Mercure en Maison VII révèle une affinité pour les mariages où règne l'entente intellectuelle, souvent avec une personne mercurienne, un cousin ou une personne en position de collaborateur. Le dialogue, la négociation et la parole deviennent fondamentaux dans les alliances du natif, le prédisposant à des carrières d'orateur ou d'intermédiaire.",
+      "venus": "Vénus en Maison VII est la meilleure configuration pour un mariage heureux et durable. Elle facilite les relations harmonieuses, les associations heureuses et les succès dans les affaires en partenariat. Le charme et la diplomatie naturelle du natif lui permettent de naviguer les conflits avec élégance et de conclure des contrats avantageux.",
+      "mars": "Mars en Maison VII peut indiquer un mariage précoce suivi de mésententes, de veuvage ou de séparation. Pour les femmes, il porte le risque de mort du conjoint ou d'accident. Le dynamisme martial manifeste dans les relations peut créer des frictions, bien qu'une femme au tempérament fort puisse être gouvernante ou indépendante de nature.",
+      "jupiter": "Jupiter en Maison VII est une très bonne configuration pour le mariage et les alliances publiques. Elle apporte gains substantiels par associations légales et associations commerciales. Le natif favorise l'action sociale et bénéficie d'une popularité croissante, trouvant soutien et abondance via ses partenaires.",
+      "saturne": "Saturne en Maison VII rend le natif froid, mélancolique et morose dans les relations. Il porte souvent le risque de veuvage, de mésentente conjugale ou d'impopularité sociale. Cependant, bien aspecté, ce placement développe une fidélité de longue durée et une capacité à s'engager sérieusement.",
+      "uranus": "Uranus en Maison VII est probablement l'une des configurations les plus néfastes pour le mariage traditionnel, porteur de divorce fréquent et d'instabilité relationnelle. Le natif aux idées non-conformistes risque de se faire des ennemis. Bien aspecté, il peut cependant réaliser une œuvre sociale révolutionnaire ou des associations avant-gardistes.",
+      "neptune": "Neptune en Maison VII rend difficile le mariage par manque de décision ou aspirations irréalisables concernant le partenaire. Le conjoint peut être capricieux ou peu apte à contribuer à la prospérité commune. Les associations sont souvent malheureuses. Très bien aspecté, Neptune peut apporter réussite via un bon mariage favorisé par l'évolution économique.",
+      "pluton": "Pluton en Maison VII crée une intensité remarquable dans les relations, avec transformations profondes provoquées par l'autre. Le défi réside dans les luttes de pouvoir conjugal et les dynamiques de contrôle ; la maturité consiste à accepter la métamorphose relationnelle et les profonds changements qu'elle apporte."
+    }
+  },
+
+  {
+    "numero": 8,
+    "slug": "maison-8",
+    "titreCourt": "Maison VIII",
+    "nom": "La transformation",
+    "axe": "II–VIII",
+    "type": "succedente",
+    "quadrant": "Ouest",
+    "significationTraditionnelle": "La mort, le genre de mort, le travail et la tristesse, les héritages des morts, les dernières années de la vie, les antiquités, la fortune des époux, la crainte. Traditionnellement, la Maison VIII gouverne tout ce qui touche à la fin de vie et aux possessions transmises après décès.",
+    "sensSocial": "La moralité, les suicides. La Maison VIII dans sa perspective sociale révèle les questions de conscience collective et les tabous touchant la fin de vie.",
+    "conceptionModerne": "Possessions acquises par associations (sens dérivé de la Maison VII); gains ou pertes résultant soit de contentions publiques (procès, divorces), soit d'associations légales (mariage, contrats). Fin des acquisitions (par opposition à la Maison II) = la mort, par extension le testament et l'héritage du natif. La Maison VIII révèle aussi l'intimité psychique et sexuelle.",
+    "axeAnalyse": {
+      "nom": "Axe II–VIII",
+      "description": "Possessions extérieures. II = acquis par soi, VIII = acquis par associations, fin des acquisitions. Cet axe explore la relation au matériel et à ce qui est partagé."
+    },
+    "triangle": {
+      "nom": "Finalité (IV, XII, VIII)",
+      "role": "Mort de la nature psychique — les cycles de fin et de transformation intérieure."
+    },
+    "carre": {
+      "nom": "Avoir (II, XI, VIII, V)",
+      "role": "Argent provenant des associés — ressources partagées et accumulées collectivement."
+    },
+    "niveauLecture": {
+      "arena": "la crise, la fusion et le passage",
+      "motsCles": ["intimité", "partage", "crise", "héritage", "transmutation"],
+      "verbes": ["transformer", "fusionner", "lâcher", "renaître", "traverser"],
+      "fonction": "La Maison VIII décrit les transformations : crises, pertes, intimité profonde, ressources partagées, vérité et lâcher-prise."
+    },
+    "domaines": {
+      "principaux": ["intimité", "sexualité", "héritages", "finances partagées", "psychologie"],
+      "secondaires": ["secrets", "crises", "tabous", "pouvoir", "résilience"],
+      "dansLaVie": ["thérapie", "héritage", "dettes", "fusion", "renaissance"]
+    },
+    "polarites": {
+      "forces": ["lucidité", "résilience", "profondeur", "pouvoir de transformation"],
+      "ombres": ["peur de perdre", "contrôle", "obsession", "fusion toxique"],
+      "besoins": ["confiance", "vérité", "capacité à lâcher"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison VIII = transformation, pas 'malheur'.", "Elle parle aussi du partagé (argent/énergie).", "Elle demande vérité et maturité."],
+      "erreursFrequences": ["Lire VIII comme uniquement sexualité.", "Dramatiser systématiquement.", "Confondre VIII et XII (dissolution)."],
+      "repereInterpretation": ["Signe en VIII = style de transformation.", "Planètes en VIII = zones sensibles.", "Maître de VIII = chemin de régénération."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je traverse.", "Je transforme.", "Je lâche."],
+      "exemplesConcrets": ["Tu vis des tournants profonds.", "Tu captes les non-dits.", "Tu as un flair psychologique."],
+      "exercices": ["Identifier 1 peur de perte et 1 antidote concret.", "Clarifier un partage (argent/temps/émotion).", "Rituel de clôture d'un cycle."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Le Soleil en Maison VIII promet d'importantes successions et marque une destinée de transformations majeures. Il porte aussi un danger de mort vers l'âge moyen ; pour les femmes, un risque de veuvage. Ce placement incline naturellement le natif vers les études occultes et les mystères de la mort, lui conférant une autorité intérieure sur ces sujets.",
+      "lune": "La Lune en Maison VIII apporte des héritages provenant de préférence de parentes. Elle favorise l'argent via mariage ou association, mais le natif craint innément la mort et les changements radicaux. L'émotivité face aux crises demande un travail d'acceptation du cycle naturel de transformation.",
+      "mercure": "Mercure en Maison VIII confère un caractère plutôt triste, rêveur et porté vers le spiritualisme. C'est une excellente position pour l'historien, l'occultiste ou le mystique. L'esprit enquêteur du natif creuse les secrets et les vérités cachées, lui donnant une compréhension psychologique rare.",
+      "venus": "Vénus en Maison VIII apporte des gains substantiels par mariage ou héritage, assortis généralement d'une mort douce et naturelle. Le natif jouit d'une relative protection dans les transitions difficiles. Cette position sucre les eaux de la transformation par l'amour et les alliances avantageuses.",
+      "mars": "Mars en Maison VIII porte le risque de mort subite ou violente, d'absence d'héritages ou de leur dilapidation rapide. Le conjoint peut manifester une extravagance ruineuse. Le natif doit cultiver la prudence et contrôler les impulsions destructrices qui pourraient compromettre sa sécurité matérielle.",
+      "jupiter": "Jupiter en Maison VIII est la meilleure position pour bénéficier d'héritages importants et de gains via procès. Il assure une mort naturelle et douce, avec protection divine dans les crises. Les ressources partagées prospèrent, et le natif trouve fortune via les legs et les alliances.",
+      "saturne": "Saturne en Maison VIII indique une absence d'héritages à espérer et met en danger crédit et réputation. Il peut aussi signifier la mort prématurée du père. Cependant, bien aspecté, ce placement développe une prudence de fer et une gestion rigoureuse des biens partagés.",
+      "uranus": "Uranus en Maison VIII semble indiquer une fin rapide, sinon violente. Il peut apporter des héritages inattendus difficiles à conserver. Bien aspecté, il confère à l'occultiste une intuition fulgurante et des capacités remarquables pour les sciences occultes et la transformation radicale.",
+      "neptune": "Neptune en Maison VIII, bien aspecté, promet un héritage inattendu dont les avantages sont plus moraux que matériels. Il donne une fin de vie sortant de l'ordinaire. Mal aspecté, il porte danger d'ennuis en relation avec l'eau et des illusions dans les partages financiers.",
+      "pluton": "Pluton en Maison VIII reste en tant que texte existant : transformations intenses, pouvoir d'alchimie personnelle. Le défi : maitrise des dynamiques de contrôle et d'obsession ; la maturité : renaissance totale et régénération cyclique."
+    }
+  },
+
+  {
+    "numero": 9,
+    "slug": "maison-9",
+    "titreCourt": "Maison IX",
+    "nom": "Le sens",
+    "axe": "III–IX",
+    "type": "cadente",
+    "quadrant": "Ouest",
+    "significationTraditionnelle": "La religion, la foi, la vision, la sagesse, le culte, les propos, les songes, les longs voyages, la philosophie, les œuvres de l'esprit, tendances élevées du cerveau, l'occultisme, sciences divinatoires. La Maison IX gouverne traditionnellement l'expansion de l'esprit par la connaissance et l'expérience.",
+    "sensSocial": "Le clergé, la magistrature, la science, les juges, les affaires coloniales, la puissance commerciale, les navires. C'est le domaine des institutions qui structurent la pensée collective et des échanges internationaux.",
+    "conceptionModerne": "La pensée abstraite du natif, ses inspirations et aspirations, son évolution morale, ses déplacements lointains et aussi les déplacements en pensée (visions, intuitions). La Maison IX révèle comment on construit une vision du monde et on l'exprime.",
+    "axeAnalyse": {
+      "nom": "Axe III–IX",
+      "description": "La pensée du natif. III = pensée concrète, IX = pensée abstraite, inspirations. Cet axe oppose le quotidien parlé à la quête supérieure de sens."
+    },
+    "triangle": {
+      "nom": "Vie (I, V, IX)",
+      "role": "La vie en Dieu — spiritualité et créativité transcendante."
+    },
+    "carre": {
+      "nom": "Silence/Raison (III, IX, VI, XII)",
+      "role": "Travail spirituel — intégration des savoirs dans l'action quotidienne."
+    },
+    "niveauLecture": {
+      "arena": "le voyage, la vision et l'horizon",
+      "motsCles": ["voyages", "philosophie", "études", "spiritualité", "vision"],
+      "verbes": ["élargir", "explorer", "comprendre", "enseigner", "donner du sens"],
+      "fonction": "La Maison IX décrit la quête de sens : voyager, apprendre en profondeur, bâtir une vision, transmettre et élargir la perspective."
+    },
+    "domaines": {
+      "principaux": ["voyages", "études supérieures", "philosophie", "spiritualité", "international"],
+      "secondaires": ["langues", "transmission", "vision", "foi", "éthique"],
+      "dansLaVie": ["horizon", "sens", "voyages", "enseignements", "croyances"]
+    },
+    "polarites": {
+      "forces": ["ouverture", "optimisme", "vision", "capacité à enseigner"],
+      "ombres": ["dogmatisme", "fuite", "moralisme", "certitudes rigides"],
+      "besoins": ["horizon", "apprentissage profond", "cohérence de valeurs"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison IX = vision (pas mental quotidien : III).", "Elle parle d'horizon et d'éthique.", "Planètes en IX = style de quête de sens."],
+      "erreursFrequences": ["Dogmatisme.", "Confondre savoir et sagesse.", "Fuite dans l'idéal."],
+      "repereInterpretation": ["Signe en IX = ton philosophique.", "Planètes en IX = moteurs de sens.", "Maître de IX = voie d'expansion."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je vois plus loin.", "Je cherche le sens.", "Je transmets."],
+      "exemplesConcrets": ["Tu apprends par l'expérience.", "Tu aimes transmettre une vision.", "Tu as besoin d'élargir ton cadre."],
+      "exercices": ["Écrire ta 'boussole de valeurs'.", "Étudier un sujet 30 jours.", "Planifier un voyage/une exploration (même mentale)."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Le Soleil en Maison IX favorise toutes les spéculations de l'esprit et cultive l'amour des études philosophiques et religieuses. Au plan du destin, il assure des séjours heureux hors du pays natal et de nombreux déplacements avantageux. C'est une excellente position pour le magistrat, l'homme politique ou l'ecclésiastique.",
+      "lune": "La Lune en Maison IX incite fortement aux longs voyages sur eau et aux études scientifiques et mystiques. Elle favorise la médiumnité et le développement psychique, mais le natif doit apprendre à naviguer ses émotions face aux horizons lointains et aux vérités transcendantes.",
+      "mercure": "Mercure en Maison IX crée une grande activité mentale et des aptitudes remarquables pour l'étude religieuse, philosophique et mystique. Le natif entreprendra de longs voyages et ses talents intellectuels brilleront dans tous les domaines de pensée abstraite et comparative.",
+      "venus": "Vénus en Maison IX façonne un esprit sincère à tournure religieuse, amateur de poésies et de beauté spirituelle. Les sentiments philanthropiques du natif l'animent, et ses voyages sont souvent agréables, agrémentés d'aventures amoureuses et de rencontres enrichissantes.",
+      "mars": "Mars en Maison IX rend le natif sceptique en matière de religion et spiritualité. Ses grands voyages et séjours lointains comportent des dangers potentiels. Cependant, cette énergie guerrière peut aussi servir à défendre une cause éthique ou explorer des horizons hostiles.",
+      "jupiter": "Jupiter en Maison IX est extrêmement favorable : l'esprit profondément religieux, sincère et moral du natif attire voyages agréables et avantageux financièrement. Les gains en pays étrangers abondent, et la chance accompagne chaque projet d'expansion ou d'enseignement.",
+      "saturne": "Saturne en Maison IX porte vers des grands voyages, principalement sur eau, mais souvent dangereux ou frustrés. Les séjours lointains manquent de favorabilité. Pourtant, l'intérêt profond pour les questions philosophiques, religieuses et métaphysiques s'approfondit par l'épreuve.",
+      "uranus": "Uranus en Maison IX crée un attrait puissant pour les grands voyages, notamment par avion, mais non sans risques si l'horoscope est chargé de dissonances. Dans un horoscope harmonique, il confère des aptitudes remarquables pour les études philosophiques ou sociales, avec tendances sceptiques envers la religion dogmatique.",
+      "neptune": "Neptune en Maison IX porte un idéal assez élevé et des tendances mystiques ou religieuses profondes. L'amour des voyages existe, mais reste souvent un rêve plus qu'une réalité. Neptune propice à l'intuition éclair, mais mal aspecté, il provoque des échecs en pays lointains ou dans les explorations.",
+      "pluton": "Pluton en Maison IX, selon le texte existant, crée une transformation radicale des croyances et une intensité spirituelle. Le défi : fanatisme dogmatique ; la maturité : accès à la vérité profonde et transmutation des convictions anciennes."
+    }
+  },
+
+  {
+    "numero": 10,
+    "slug": "maison-10",
+    "titreCourt": "Maison X",
+    "nom": "La vocation",
+    "axe": "IV–X",
+    "type": "angulaire",
+    "quadrant": "Sud",
+    "significationTraditionnelle": "Les dignités, la profession, la maison de la mère, maison de la mémoire, la position, les honneurs. La Maison X est traditionnellement le sommet du ciel et gouverne tout ce qui place le natif en évidence publique.",
+    "sensSocial": "La maison des rois, du pouvoir, l'aristocratie. C'est le domaine des autorités reconnues et des structures hiérarchiques que la société valorise.",
+    "conceptionModerne": "Pouvoir potentiel du natif. Son action dans la société, sa montée sociale, son niveau, son honneur social (crédit, réputation, distinctions), son degré de popularité, la voie choisie pour se développer dans la société. Par opposition à la Maison IV, la Maison X révèle la mère publique ou celui des parents qui a eu le plus d'influence externe.",
+    "axeAnalyse": {
+      "nom": "Axe IV–X",
+      "description": "L'entourage du natif. IV = hérédité/origine, X = pouvoir potentiel, action dans la société. Cet axe relie les racines à la branche visible."
+    },
+    "triangle": {
+      "nom": "Action (X, II, VI)",
+      "role": "Situation sociale, honneurs, profession — la loi du succès par le travail."
+    },
+    "carre": {
+      "nom": "Progrès (I, X, VII, IV)",
+      "role": "Aspirations et épreuves — les défis qui élèvent ou ruinent."
+    },
+    "niveauLecture": {
+      "arena": "la place sociale et la direction",
+      "motsCles": ["carrière", "statut", "réputation", "responsabilité", "objectif"],
+      "verbes": ["diriger", "construire", "assumer", "viser", "réaliser"],
+      "fonction": "La Maison X décrit la vocation : place sociale, carrière, responsabilités, réputation et direction à long terme."
+    },
+    "domaines": {
+      "principaux": ["carrière", "image publique", "statut", "responsabilité", "réalisation"],
+      "secondaires": ["objectifs", "autorité", "ambition", "trace", "succès"],
+      "dansLaVie": ["réputation", "direction pro", "responsabilités", "leadership", "public"]
+    },
+    "polarites": {
+      "forces": ["vision long terme", "leadership", "sens des responsabilités", "ambition saine"],
+      "ombres": ["pression", "peur de l'échec", "surcontrôle", "image rigide"],
+      "besoins": ["objectif clair", "structure", "reconnaissance méritée"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison X = direction et statut.", "Elle n'est pas forcément 'job', mais place sociale.", "Planètes en X = visibilité publique."],
+      "erreursFrequences": ["Confondre X et VI (quotidien).", "Faire dépendre la valeur de la réussite.", "Rester prisonnier de l'image."],
+      "repereInterpretation": ["Signe en X = style de carrière.", "Planètes en X = moteurs publics.", "Maître de X = trajectoire."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je construis.", "Je dirige.", "Je laisse une trace."],
+      "exemplesConcrets": ["Tu cherches un cap.", "Tu prends des responsabilités.", "Ton image publique compte."],
+      "exercices": ["Écrire ton objectif à 3 ans.", "Définir 3 piliers de réputation.", "Identifier 1 responsabilité à déléguer."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Le Soleil en Maison X est la configuration la plus favorable pour la célébrité ou l'élévation sociale. Le natif sera le membre réussissant le mieux de sa famille, occupera des postes importants ou honorifiques et s'affranchira de la tutelle d'autrui. Son autorité naturelle le place naturellement en évidence.",
+      "lune": "La Lune en Maison X marque un indice important de succès et d'élévation, souvent grâce à la protection de femmes influentes. Elle favorise les succès dans les occupations intellectuelles et confère une popularité persistante. Cependant, les changements fréquents de situation demandent flexibilité.",
+      "mercure": "Mercure en Maison X assure succès en littérature et élocution brillante. Le natif excelle comme orateur, ambassadeur ou diplomate et accumule des gains dans toutes les occupations mercuriennes. C'est une excellente position pour le commerce et les professions de communication.",
+      "venus": "Vénus en Maison X favorise le succès, souvent grâce à l'appui de femmes influentes ou de l'épouse. C'est une bonne position pour l'artiste et le musicien, conférant charme et grâce. Le natif se marie souvent au-dessus de sa condition et jouit d'une image agréable.",
+      "mars": "Mars en Maison X apporte l'ennui dans la famille et une ambition féroce de s'élever coûte que coûte. En cas de réussite, le danger de discrédit, scandale et fin violente menace. Le natif doit cultiver l'intégrité pour éviter la chute inévitable.",
+      "jupiter": "Jupiter en Maison X est l'un des indices les plus sûrs du succès dans la vie. Le natif peut parvenir à la notoriété et occupera dans tous les cas des postes en vue. Gains, protections et progressions constantes marquent sa trajectoire ascendante.",
+      "saturne": "Saturne en Maison X donne ambition et rigueur, mais si le natif s'élève, une chute finale est inévitable avec discrédit et scandale. Ce placement exige prudence morale. Les troubles familiaux compliquent souvent la trajectoire publique.",
+      "uranus": "Uranus en Maison X peut indiquer des ascensions soudaines suite à innovations ou découvertes bien soutenues. C'est une position propice pour l'ingénieur, l'électronicien ou l'aviateur. Mal aspecté, il provoque des échecs pénibles ou des revers brusques de fortune.",
+      "neptune": "Neptune en Maison X crée une situation aux hauts et bas. Bien aspecté, il assure une élévation inattendue suite à revirements sociaux, politiques ou économiques, ou grâce à une bonne idée garantissant réussite dans une activité peu commune. Mal aspecté, la destinée publique s'écroule.",
+      "pluton": "Pluton en Maison X, selon le texte existant, apporte pouvoir et transformations professionnelles intenses. Le défi : exercice coercitif du pouvoir ; la maturité : influence éthique et leadership authentique."
+    }
+  },
+
+  {
+    "numero": 11,
+    "slug": "maison-11",
+    "titreCourt": "Maison XI",
+    "nom": "Le collectif",
+    "axe": "V–XI",
+    "type": "succedente",
+    "quadrant": "Sud",
+    "significationTraditionnelle": "Fortune, espérances, confiance, amis et leur utilité, la fidélité, les désirs, les projets. La Maison XI gouverne traditionnellement ce vers quoi le natif se projette et ce qui le soutient collectivement.",
+    "sensSocial": "Parlement, la législation, les ministres. C'est le domaine des structures qui organisent le collectif et des alliances qui façonnent la politique.",
+    "conceptionModerne": "Les espérances, les préférences, amitiés, les compagnons et l'attitude du natif vis-à-vis d'eux. La Maison XI révèle comment on s'inscrit dans une vision future et une communauté d'intérêts.",
+    "axeAnalyse": {
+      "nom": "Axe V–XI",
+      "description": "Possessions intérieures. V = désirs créatifs personnels, XI = espérances et amitiés collectives. Cet axe prolonge la création personnelle vers la contribution au groupe."
+    },
+    "triangle": {
+      "nom": "Relations (VII, XI, III)",
+      "role": "Amis et alliances — le partenariat prolongé dans le temps et la communauté."
+    },
+    "carre": {
+      "nom": "Avoir (II, XI, VIII, V)",
+      "role": "Argent gagné — ressources accumulées via collaborations et réseaux."
+    },
+    "niveauLecture": {
+      "arena": "le réseau, les projets et le futur",
+      "motsCles": ["amis", "réseaux", "projets", "communauté", "avenir"],
+      "verbes": ["réseauter", "collaborer", "projeter", "rassembler", "innover"],
+      "fonction": "La Maison XI décrit le collectif : amis, réseaux, projets d'avenir, causes et capacité à construire avec d'autres."
+    },
+    "domaines": {
+      "principaux": ["amis", "réseaux", "associations", "projets", "communautés"],
+      "secondaires": ["vision future", "alliances", "collectif", "innovation sociale", "tribu"],
+      "dansLaVie": ["réseaux pro", "communautés", "projets long terme", "soutiens", "amitiés"]
+    },
+    "polarites": {
+      "forces": ["esprit d'équipe", "vision", "sens du réseau", "innovation"],
+      "ombres": ["détachement", "opportunisme", "utopie floue", "perte du soi"],
+      "besoins": ["tribu", "projet clair", "alignement collectif"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison XI = futur + réseau.", "Elle prolonge la créativité (V) dans le collectif.", "Planètes en XI = style d'alliance."],
+      "erreursFrequences": ["Confondre XI et VII (duo).", "Se dissoudre dans le groupe.", "Rester dans l'idée sans action."],
+      "repereInterpretation": ["Signe en XI = style social.", "Planètes en XI = moteur de réseau.", "Maître de XI = construction du futur."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je me relie.", "Je construis le futur.", "Je participe."],
+      "exemplesConcrets": ["Tu te nourris de projets communs.", "Tu développes un réseau.", "Tu penses 'système'."],
+      "exercices": ["Lister 5 alliés clés.", "Choisir 1 projet à 6 mois.", "Créer 1 rituel de réseau (1 contact/sem)."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Le Soleil en Maison XI crée des relations amicales puissantes parmi les personnalités notoires et politiques. Le natif peut espérer beaucoup de ses amis, qui deviennent vecteurs de son expression et de sa réalisation. Son identité se nourrit des projets collectifs qu'il impulse.",
+      "lune": "La Lune en Maison XI assure des relations amicales nombreuses, particulièrement parmi le sexe féminin, quoique manquant parfois de constance. Le natif trouve sécurité affective dans la tribu et son bien-être émotionnel dépend fortement de l'harmonie du groupe.",
+      "mercure": "Mercure en Maison XI crée de nombreuses amitiés parmi les savants et les écrivains. Les amis sont généralement plus jeunes que le natif. L'échange d'idées anime les réseaux du natif, qui excelle dans la coordination et la communication de groupe.",
+      "venus": "Vénus en Maison XI apporte des amitiés nombreuses, souvent parmi le sexe féminin et les artistes. Les amis rendront au natif de grands services et sa popularité naturelle l'aide à se constituer un réseau solide d'alliés dévoués.",
+      "mars": "Mars en Maison XI crée des désagréments venant d'amis ou de relations. Les amitiés peuvent égarer le natif et lui faire du tort. Nombreuses discussions et ruptures marquent ses liens collectifs, exigeant discernement dans le choix des alliances.",
+      "jupiter": "Jupiter en Maison XI assure amis fidèles et dévoués dont les conseils seront précieux. Le natif jouit de relations nombreuses parmi personnages officiels, hommes de loi et gens en place. Ses projets collectifs attirent soutiens et ressources abondantes.",
+      "saturne": "Saturne en Maison XI révèle des amis faux et perfides qui causent de lourdes pertes. Le natif ne doit jamais prêter d'argent et doit rester vigilant face aux trahisons. Cependant, bien aspecté, ce placement crée des amitiés rares mais durables et fiables.",
+      "uranus": "Uranus en Maison XI indique que le natif ne semble guère rechercher les relations et les conserve difficilement à cause de ses conceptions déroutantes, ou devient victime de promesses mirifiques. Cependant, bien aspecté, il crée un réseau avant-gardiste d'alliés partageant une vision novatrice.",
+      "neptune": "Neptune en Maison XI présage des amis parmi intellectuels, occultistes ou astrologues. Mal aspecté, il crée de grandes difficultés pour entretenir des relations durables, avec des brouilles consécutives à malentendus. Bien aspecté, il unit le natif à des compagnons d'âme idéalistes.",
+      "pluton": "Pluton en Maison XI, selon le texte existant, crée du pouvoir social et des alliances intenses transformatrices. Le défi : jeux de pouvoir et domination de groupe ; la maturité : influence éthique et leadership catalyseur."
+    }
+  },
+
+  {
+    "numero": 12,
+    "slug": "maison-12",
+    "titreCourt": "Maison XII",
+    "nom": "L'invisible",
+    "axe": "VI–XII",
+    "type": "cadente",
+    "quadrant": "Sud",
+    "significationTraditionnelle": "Ennemis cachés, tromperie, afflictions, prison, mauvaises résolutions, biens et maux provenant des femmes, les peines, les tristesses, les embûches, les bêtes féroces, ce qui touche en bien ou en mal à l'enfantement, maladies chroniques, les travaux. La Maison XII est traditionnellement le lieu des fardeaux cachés et des limitations à la liberté.",
+    "sensSocial": "Prisons, hôpitaux, asiles, lieu où l'on travaille, crimes, ennemis. C'est le domaine des institutions qui enferment et où se cachent les transgression sociales.",
+    "conceptionModerne": "Le travail secret du natif, les limitations à sa liberté : épreuves, hôpital, maladies chroniques, interventions chirurgicales, réclusions, asiles, laboratoires, prison. Les oppositions secrètes (ennemis non déclarés); la mort de soi-même (détachement, suicide), l'évolution intérieure. La Maison XII révèle le travail invisible qui façonne le natif.",
+    "axeAnalyse": {
+      "nom": "Axe VI–XII",
+      "description": "Le travail du natif. VI = travail public, XII = travail secret, limitations. Cet axe distingue l'action visible du labeur occulte."
+    },
+    "triangle": {
+      "nom": "Finalité (IV, XII, VIII)",
+      "role": "Mort de la vie spirituelle — cycles de fin intérieure et transformation."
+    },
+    "carre": {
+      "nom": "Silence/Raison (III, IX, VI, XII)",
+      "role": "Travail physique — service et intégration pratique."
+    },
+    "niveauLecture": {
+      "arena": "le retrait, l'inconscient et la clôture",
+      "motsCles": ["inconscient", "solitude", "spiritualité", "dissolution", "fin de cycle"],
+      "verbes": ["se retirer", "dissoudre", "guérir", "pardonner", "clôturer"],
+      "fonction": "La Maison XII décrit l'invisible : inconscient, retraits nécessaires, fin de cycle, guérison, spiritualité et dissolution des repères."
+    },
+    "domaines": {
+      "principaux": ["inconscient", "solitude", "spiritualité", "secrets", "fin de cycle"],
+      "secondaires": ["rêves", "fatigue", "compassion", "coulisses", "guérison"],
+      "dansLaVie": ["retrait", "rêves", "besoin de silence", "guérison", "clôture"]
+    },
+    "polarites": {
+      "forces": ["intuition", "compassion", "profondeur", "capacité de guérison"],
+      "ombres": ["fuite", "confusion", "auto-sabotage", "victimisation"],
+      "besoins": ["repos psychique", "limites", "rituels de clôture"]
+    },
+    "pedagogie": {
+      "aRetenir": ["Maison XII = invisible, pas faiblesse.", "Elle parle de cycles et de guérison.", "Planètes en XII = travail en coulisses."],
+      "erreursFrequences": ["Tout pathologiser.", "Fuir au lieu de clôturer.", "Confondre XII et IV (foyer)."],
+      "repereInterpretation": ["Signe en XII = style d'inconscient.", "Planètes en XII = zones sensibles.", "Maître de XII = voie de guérison."]
+    },
+    "pratique": {
+      "phrasesCles": ["Je me retire.", "Je guéris.", "Je clôture."],
+      "exemplesConcrets": ["Tu as besoin de solitude.", "Tu captes les ambiances.", "Tu fonctionnes par cycles."],
+      "exercices": ["Journal de rêves 7 jours.", "Rituel de fin de journée.", "Dire 'non' à 1 fuite habituelle."]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Le Soleil en Maison XII assure succès dans une occupation retirée, tranquille ou même obscure, rattachée aux maisons de santé ou hôtels. Cependant, afflicté, ce placement porte danger d'emprisonnement ou de claustration. Le natif trouve dignité dans le service discret et la contribution invisible.",
+      "lune": "La Lune en Maison XII est bonne pour la vie domestique et pour toute occupation nécessitant retrait plutôt que publicité. Elle favorise les sciences psychiques et développe une grande sensibilité aux ambiances et aux dimensions cachées de la réalité.",
+      "mercure": "Mercure en Maison XII crée une tendance du mental à se gaspiller dans les petits détails. Bien que le natif ait de bonnes aptitudes mentales, il n'aura pas l'occasion de s'en servir utilement. Cependant, cela peut favoriser l'écriture privée ou la recherche en retrait.",
+      "venus": "Vénus en Maison XII indique peu d'inimitiés. Les ennemis secrets ne réussiront pas à nuire au natif, qui jouit d'une protection cachée. La douceur et la grâce du natif le préservent de mauvaises intentions non manifestées.",
+      "mars": "Mars en Maison XII crée manque de franchise et présage d'ennemis secrets qui calomnient. Le danger d'emprisonnement menace ainsi que la perte de réputation. Le natif souffre aussi de maladies ''martiennes'' et doit apprendre à canaliser son énergie de manière constructive.",
+      "jupiter": "Jupiter en Maison XII assure des épreuves peu nombreuses et facilement surmontables. Le natif est attiré vers les œuvres humanitaires et bénéficie de succès dans une occupation retirée. Sa conscience étendue lui permet de servir discrètement et de bénéficier d'une protection invisible.",
+      "saturne": "Saturne en Maison XII révèle des ennemis cachés et sournois. La vie est retirée, triste et mélancolique, exposée à de fausses accusations et même à l'emprisonnement. Cependant, bien aspecté, ce placement développe une maîtrise intérieure et une solitude féconde.",
+      "uranus": "Uranus en Maison XII peut être très propice pour l'occultisme et l'astrologie. Le natif est attiré par tout ce qui est caché. Avec graves dissonances, il subit des attaques sournoises d'ennemis difficiles à neutraliser et des maladies mystérieuses avec brusques hospitalisations.",
+      "neptune": "Neptune en Maison XII crée malaise mystérieux, inimitiés sournoises et risques de privation de liberté ou accusations injustes. Bien aspecté, c'est une position excellente pour occultistes, astrologues et professions médicales ou para-médicales. Le natif accède à la sagesse par la dissolution progressive.",
+      "pluton": "Pluton en Maison XII, selon le texte existant, porte transformations profondes et guérison radicale possible. Le défi : peurs ancestrales et auto-sabotage inconscient ; la maturité : renaissance intérieure totale et transmutation de l'âme."
+    }
+  }
+]

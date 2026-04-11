@@ -40,7 +40,7 @@ export default function HeroHomePage() {
         {/* ── Heading ─────────────────────────────────── */}
         <h1
           id="hero-title"
-          className="mb-12 font-serif text-4xl leading-[1.1] text-white md:text-5xl lg:text-6xl"
+          className="mb-12 pt-8 font-serif text-4xl leading-[1.1] text-white md:text-5xl lg:text-6xl"
         >
           Apprendre l'astrologie de manière{" "}
           <span className="italic text-violet-300">claire et structurée.</span>
