@@ -64,9 +64,9 @@ export default function Cards({ item, basePath }: Props) {
           <Image
             src={item.image.src}
             alt={item.image.alt}
-      width={280} height={280}
+      width={192} height={192}
             className="object-contain"
-            sizes="(max-width: 768px) 160px, 192px"
+            sizes="(max-width: 640px) 160px, 192px"
           />
         </div>
       </div>

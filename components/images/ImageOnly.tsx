@@ -13,7 +13,7 @@ export default function ImageOnly() {
         fetchPriority="high" 
         quality={75}
         className="object-cover object-center"
-        sizes="100vw"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 95vw, 1024px"
       />
       <div 
         aria-hidden={true}

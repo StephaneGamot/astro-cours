@@ -207,7 +207,7 @@ export default function ContentCard({
               alt={item.image.alt}
               fill
               className="object-contain"
-              sizes="(max-width: 768px) 160px, 192px"
+              sizes="(max-width: 640px) 160px, 192px"
             />
           </div>
         </div>
