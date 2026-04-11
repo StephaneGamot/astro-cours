@@ -154,12 +154,7 @@ export default function NavBar() {
   return (
     <>
       {/* Skip-to-content — WCAG 2.4.1 */}
-      <a
-        href="#main-content"
-        className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:rounded-lg focus:bg-violet-600 focus:px-4 focus:py-2.5 focus:text-sm focus:font-semibold focus:text-white focus:shadow-lg focus:outline-none"
-      >
-        Aller au contenu principal
-      </a>
+  
 
       <header
         className={cn(
@@ -195,7 +190,7 @@ export default function NavBar() {
             >
               <span className="sr-only">Astro Cours — Accueil</span>
               <Image
-                alt=""
+                alt="Pleine lune permettant d'illustrer le logo d'Astro Cours"
                 src={Logo}
                 className="h-9 w-auto sm:h-10 lg:h-11 transition-[filter] duration-300 drop-shadow-[0_0_10px_rgba(139,92,246,.12)] group-hover:drop-shadow-[0_0_18px_rgba(139,92,246,.3)]"
                 priority

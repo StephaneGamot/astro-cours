@@ -22,7 +22,7 @@ export type PlanetTheme = {
 };
 
 export type Planet = {
-slug: string;
+  slug: string;
   name: string;
 
   famille?: string;
@@ -69,6 +69,12 @@ slug: string;
   fonctionEssentielle?: string[];
   ceQueLeSoleilRepresente?: string[];
 
+  mythologie?: string[];
+  symboliqueGraphique?: string;
+  donneesAstronomiques?: string[];
+  ageDeLaVie?: string;
+  professions?: string[];
+
   lectureHumaine?: {
     psychologie?: {
       niveauBas?: string[];
@@ -88,6 +94,10 @@ slug: string;
   lecturePsychologiqueProfonde?: string[];
   champsExperience?: Record<string, string[]>;
 
+  destinSentimental?: string[];
+  destinFinancier?: string[];
+  portraitDuSolarien?: string[];
+
   rapportPereAutorite?: string[];
   rapportAuPere?: string[];
   rapportALAutorite?: string[];
@@ -105,6 +115,8 @@ slug: string;
     couleurs?: string[];
     animaux?: string[];
     lieux?: string[];
+    pierres?: string[];
+    jour?: string;
   };
 
   apparence?: string[];
@@ -164,6 +176,23 @@ export function normalizeDignitesExpliquees(
   if (!value) return [];
   if (Array.isArray(value)) return value;
   return Object.values(value).filter((v): v is string => Boolean(v));
+}
+
+export function buildBreadcrumbs(planet: Planet) {
+  return [
+    { name: "Accueil", href: "/" },
+    { name: "Planètes", href: "/planetes" },
+    { name: planet.name, href: `/planetes/${planet.slug}` },
+  ];
+}
+
+export function sectionId(label: string): string {
+  return label
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
 }
 
 export function planetTheme(slug?: string): PlanetTheme {
