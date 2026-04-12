@@ -203,9 +203,10 @@ export default function ContentCard({
         <div className="relative z-10 mb-5 flex justify-center overflow-hidden rounded-xl border border-white/[.05] bg-black/30 p-4 transition-colors duration-300 group-hover:border-white/[.08]">
           <div className="relative size-40 sm:size-48 transition-transform duration-700 motion-reduce:transition-none group-hover:scale-110">
             <Image
-        src={item.image.src}
+              src={item.image.src}
               alt={item.image.alt}
               fill
+              quality={50}
               className="object-contain"
               sizes="(max-width: 640px) 160px, 192px"
             />
