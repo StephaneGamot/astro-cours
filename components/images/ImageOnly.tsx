@@ -1,23 +1,22 @@
 import Image from "next/image";
-import HeroAstro from "@/public/images/astro-cours-l.webp"
-
+import HeroAstro from "@/public/images/astro-cours-l.webp";
 
 export default function ImageOnly() {
   return (
-    <div className="relative w-full h-[50vh] min-h-[400px] md:h-[70vh] max-h-[800px] overflow-hidden">
+    <div className="relative w-full min-h-[400px] h-[50vh] md:h-[70vh] max-h-[800px] overflow-hidden">
       <Image
         src={HeroAstro}
         alt="Illustration d'une magnifique pleine Lune"
         fill
-        priority
-        fetchPriority="high" 
-        quality={75}
+        preload
+       quality={70}
+        placeholder="blur"
         className="object-cover object-center"
-        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 95vw, 1024px"
+        sizes="100vw"
       />
-      <div 
-        aria-hidden={true}
-        className="absolute inset-0 bg-gradient-to-b from-[#09090b]/40 via-transparent to-transparent" 
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 bg-gradient-to-b from-[#09090b]/40 via-transparent to-transparent"
       />
     </div>
   );
