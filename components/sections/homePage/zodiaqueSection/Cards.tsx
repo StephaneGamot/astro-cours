@@ -13,9 +13,11 @@ type CardData = {
 type Props = {
   item: CardData;
   basePath: "planetes" | "signes" | "maisons";
+ accent?: string;      
+  priority?: boolean;
 };
 
-export default function Cards({ item, basePath }: Props) {
+export default function Cards({ item, basePath, priority = false }: Props) {
   const titleId = `${basePath}-title-${item.slug}`;
   const descId = `${basePath}-desc-${item.slug}`;
 
@@ -65,7 +67,9 @@ export default function Cards({ item, basePath }: Props) {
             src={item.image.src}
             alt={item.image.alt}
             fill
-                 quality={50}
+                 quality={60}
+                 priority={priority}
+                 unoptimized={item.image.src.endsWith(".svg")}
             className="object-contain"
             sizes="(max-width: 640px) 160px, 192px"
           />

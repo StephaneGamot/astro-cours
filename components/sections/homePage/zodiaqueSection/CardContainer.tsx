@@ -40,12 +40,13 @@ export default function ZodiacCardContainer() {
 
       {/* ── Card grid ──────────────────────────────────── */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {(zodiaque as Zodiac[]).map((item) => (
+        {(zodiaque as Zodiac[]).map((item, index) => (
           <ContentCard
             key={item.slug}
             item={item}
             basePath="signes"
             accent="violet"
+            priority={index < 4} /* Les 4 premiers signes seront chargés instantanément (Améliore le LCP de Google) */
           />
         ))}
       </div>

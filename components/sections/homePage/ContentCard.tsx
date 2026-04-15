@@ -1,19 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-/* ────────────────────────────────────────────────────────────────
-   ContentCard — shared card for Zodiac, Maisons & Planètes sections.
-   Pure Server Component, zero client JS.
-
-   Replaces the three nearly-identical Cards.tsx files that were
-   duplicated across zodiaqueSection, maisonsSection and planetesSection.
-
-   Usage:
-     <ContentCard item={item} basePath="signes" accent="violet" />
-     <ContentCard item={item} basePath="maisons" accent="emerald" />
-     <ContentCard item={item} basePath="planetes" accent="sky" layout="landscape" />
-   ──────────────────────────────────────────────────────────────── */
-
 export type CardData = {
   slug: string;
   name: string;
@@ -30,6 +17,7 @@ type Props = {
   basePath: "planetes" | "signes" | "maisons";
   accent?: AccentKey;
   layout?: ImageLayout;
+  priority?: boolean;
 };
 
 /* ────────────────────────────────────────────────────────────────
@@ -107,6 +95,7 @@ export default function ContentCard({
   basePath,
   accent: accentKey = "violet",
   layout = "icon",
+  priority = false
 }: Props) {
   const a = ACCENT[accentKey];
   const titleId = `${basePath}-title-${item.slug}`;
