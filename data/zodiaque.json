@@ -4,28 +4,28 @@
     "name": "Bélier",
     "headline": "Le Bélier représente l’élan initial",
     "description": "L’impulsion, le courage et le besoin d’agir. Il exprime la force du commencement et la capacité à se lancer sans attendre.",
-    "image": { "src": "/images/zodiaque/sm/belier.webp", "alt": "Symbole astrologique du Bélier" }
+    "image": { "src": "/images/zodiaque/sm-claude/belier.webp", "alt": "Symbole astrologique du Bélier" }
   },
   {
     "slug": "taureau",
     "name": "Taureau",
     "headline": "Le Taureau représente la stabilité",
     "description": "L’ancrage, la constance et la recherche de sécurité. Il parle du rapport au corps, aux plaisirs et à ce qui dure dans le temps.",
-    "image": { "src": "/images/zodiaque/sm/taureau.webp", "alt": "Symbole astrologique du Taureau" }
+    "image": { "src": "/images/zodiaque/sm-claude/taureau.webp", "alt": "Symbole astrologique du Taureau" }
   },
   {
     "slug": "gemeaux",
     "name": "Gémeaux",
     "headline": "Les Gémeaux représentent l’échange",
     "description": "La curiosité, le mouvement et la communication. Ils montrent comment l’esprit observe, relie et partage les informations.",
-    "image": { "src": "/images/zodiaque/sm/gemeaux.webp", "alt": "Symbole astrologique des Gémeaux" }
+    "image": { "src": "/images/zodiaque/sm-claude/gemeaux.webp", "alt": "Symbole astrologique des Gémeaux" }
   },
   {
     "slug": "cancer",
     "name": "Cancer",
     "headline": "Le Cancer représente la protection",
     "description": "La sensibilité, l’attachement et le besoin de sécurité émotionnelle. Il parle du foyer intérieur et des racines affectives.",
-    "image": { "src": "/images/zodiaque/sm/cancer.webp", "alt": "Symbole astrologique du Cancer" }
+    "image": { "src": "/images/zodiaque/sm-claude/cancer.webp", "alt": "Symbole astrologique du Cancer" }
   },
   {
     "slug": "lion",
