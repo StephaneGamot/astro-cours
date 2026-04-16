@@ -56,6 +56,9 @@ import MercurienienPost, { meta as mercurienMeta } from "./mercurien";
 
 import VenusPost, { meta as VenusMeta } from "./venusien";
 import PlutonienPost, { meta as plutonienMeta } from "./plutonien";
+import ManipulateursPNPost, {
+  meta as manipulateursPNMeta,
+} from "./manipulateurs-pervers-narcissiques-astrologie";
 
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
@@ -75,6 +78,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: manipulateursPNMeta, Component: ManipulateursPNPost },
   { meta: martienMeta, Component: MartienPost },
   { meta: solarienMeta, Component: SolarienPost },
   { meta: lunarienMeta, Component: LunarienPost },

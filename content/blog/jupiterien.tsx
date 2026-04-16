@@ -16,8 +16,6 @@ export const meta = {
     "Jupiter",
     "jupiterien",
     "portrait astrologique",
-    "abondance",
-    "organisation",
     "thème astral",
     "psychologie astrologique",
     "vocation",
