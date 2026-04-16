@@ -212,6 +212,7 @@ const LEGAL: FooterItem[] = [
   { name: "Mentions légales", href: "/mentions-legales" },
   { name: "Confidentialité", href: "/confidentialite" },
   { name: "Sitemap", href: "/sitemap.xml" },
+    { name: "A propos", href: "/a-propos" },
 ];
 
 /* ────────────────────────────────────────────────────────────────
@@ -518,7 +519,7 @@ export default function Footer() {
             </p>
             <address className="not-italic">
               <a
-                href="https://www.stephanegamot.com"
+                href="https://www.creation-site-internet-pays-basque.com/fr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={[
