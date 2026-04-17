@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, useEffect, useCallback } from "react";
+import { useRef, useState, useEffect } from "react";
 import type { DictCategory, DictEntry } from "@/lib/dictionnaire";
 
 /* ================================================================== */
@@ -67,8 +67,8 @@ function EntryCard({ entry }: { entry: DictEntry }) {
 /* ================================================================== */
 /*  BATCH_SIZE — nombre de cartes chargées par vague                  */
 /* ================================================================== */
-const INITIAL_BATCH = 8;   // cartes affichées immédiatement (eager)
-const LOAD_BATCH = 12;     // cartes ajoutées à chaque intersection
+const INITIAL_BATCH = 5;   // cartes affichées immédiatement (eager)
+const LOAD_BATCH = 10;     // cartes ajoutées à chaque intersection
 
 /* ================================================================== */
 /*  LazyLetterSection                                                 */

@@ -7,6 +7,7 @@ import {
   type DictCategory,
 } from "@/lib/dictionnaire";
 import LazyLetterSection from "./LazyLetterSection";
+import JsonLdScript from "./JsonLdScript";
 
 /* ================================================================== */
 /*  SEO — Metadata                                                    */
@@ -68,27 +69,8 @@ export default function DictionnairePage() {
 
   return (
     <main className="relative mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
-      {/* ── Schema.org ── */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "DefinedTermSet",
-            name: "Dictionnaire astrologique — Astro Cours",
-            description: DESCRIPTION,
-            url: absoluteUrl(CANONICAL),
-            inLanguage: "fr-FR",
-            hasDefinedTerm: ENTRIES.map((e) => ({
-              "@type": "DefinedTerm",
-              name: e.term,
-              description: e.short,
-              url: `${absoluteUrl(CANONICAL)}#${e.slug}`,
-              inDefinedTermSet: absoluteUrl(CANONICAL),
-            })),
-          }),
-        }}
-      />
+      {/* ── JSON-LD injecté en différé côté client ── */}
+      <JsonLdScript />
 
       {/* ── Glow ── */}
       <div
@@ -112,15 +94,15 @@ export default function DictionnairePage() {
         </h1>
 
         <p className="mx-auto max-w-xl text-sm leading-relaxed text-text/70 sm:text-[0.94rem]">
-          D&eacute;finitions claires et accessibles des termes essentiels
-          de l&rsquo;astrologie. Un outil de r&eacute;f&eacute;rence &agrave;
-          consulter &agrave; tout moment pour accompagner votre apprentissage.
+          Définitions claires et accessibles des termes essentiels
+          de l&rsquo;astrologie. Un outil de référence à
+          consulter à tout moment pour accompagner votre apprentissage.
         </p>
 
         <div className="flex items-center justify-center gap-2 pt-1">
           <Sparkles className="h-4 w-4 text-violet-400" />
           <span className="text-sm text-text/60">
-            {ENTRIES.length} termes d&eacute;finis &mdash; dictionnaire en construction
+            {ENTRIES.length} termes définis &mdash; dictionnaire en construction
           </span>
         </div>
       </header>
@@ -156,7 +138,7 @@ export default function DictionnairePage() {
         })}
       </div>
 
-      {/* ── Entrées (lazy) — seule la 1ère lettre est eager ── */}
+      {/* ── Entrées (lazy) — seule A est eager (8 cartes max) ── */}
       <div className="space-y-12 sm:space-y-16">
         {letters.map((letter, i) => (
           <LazyLetterSection
@@ -173,10 +155,10 @@ export default function DictionnairePage() {
         <div className="relative overflow-hidden rounded-2xl border border-white/[0.06] bg-gradient-to-br from-violet-500/[0.05] via-accent/[0.03] to-amber-500/[0.05] px-6 py-8 sm:px-10 sm:py-10">
           <Search className="relative mx-auto h-6 w-6 text-accent/60" />
           <p className="relative mt-3 font-serif text-base italic text-text/65 sm:text-lg">
-            Ce dictionnaire s&rsquo;enrichit r&eacute;guli&egrave;rement.
+            Ce dictionnaire s&rsquo;enrichit régulièrement.
           </p>
           <p className="relative mt-2 text-xs text-text/50 sm:text-sm">
-            Un terme manque&nbsp;? &Eacute;crivez-nous &agrave;{" "}
+            Un terme manque&nbsp;? Écrivez-nous à{" "}
             <a href="mailto:white-wolf-web@outlook.com" className="text-accent/70 underline decoration-accent/40 underline-offset-2 transition-colors hover:text-accent hover:decoration-accent/60">
               white-wolf-web@outlook.com
             </a>
