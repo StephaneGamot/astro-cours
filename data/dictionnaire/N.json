@@ -1,5 +1,21 @@
 [
   {
+    "term": "Nadir",
+    "slug": "nadir",
+    "category": "astronomique",
+    "short": "Point de la sph\u00e8re c\u00e9leste directement oppos\u00e9 au Z\u00e9nith.",
+    "body": "Le Nadir est le point le plus bas, situ\u00e9 sous les pieds de l\u2019observateur. En astrologie, il est techniquement confondu avec le Fond du Ciel (FC). Il symbolise la base de la conscience, le point de minuit, les profondeurs psychologiques et les racines ancestrales. C\u2019est le lieu du repos, du retrait et de la vie intime.",
+    "related": ["Fond du Ciel", "Z\u00e9nith", "Maison IV"]
+  },
+  {
+    "term": "Nocturne",
+    "slug": "nocturne",
+    "category": "concept",
+    "short": "Ce qui appartient \u00e0 la nuit ou favorise l\u2019int\u00e9riorit\u00e9.",
+    "body": "Un th\u00e8me est nocturne si le Soleil est sous l\u2019horizon. Dans ce cas, la Lune devient le luminaire de r\u00e9f\u00e9rence pour la vitalit\u00e9 et le destin. Les signes nocturnes (F\u00e9minins) privil\u00e9gient la r\u00e9ception, la r\u00e9flexion et la maturation interne.",
+    "related": ["Diurne", "Secte", "F\u00e9minin"]
+  },
+  {
     "term": "N\u0153uds lunaires",
     "slug": "noeuds-lunaires",
     "category": "point fictif",

@@ -6,5 +6,20 @@
     "short": "Synonyme classique du carr\u00e9 : aspect de 90\u00b0 entre deux plan\u00e8tes.",
     "body": "La quadrature est le terme classique et savant d\u00e9signant ce que l\u2019on appelle couramment un carr\u00e9 en astrologie moderne. Il s\u2019agit d\u2019un aspect de 90\u00b0 entre deux plan\u00e8tes, consid\u00e9r\u00e9 comme tendu et dynamique. Le terme \u00ab quadrature \u00bb vient du latin quadratura, qui d\u00e9signe la position angulaire d\u2019un quart de cercle. En astronomie, on parle de quadrature pour d\u00e9crire la position d\u2019un astre \u00e0 90\u00b0 du Soleil vu depuis la Terre. En astrologie, la quadrature conserve cette notion d\u2019angle droit g\u00e9n\u00e9rateur de tension. Les auteurs classiques fran\u00e7ais (Barbault, Gouchon, Antar\u00e8s) utilisaient volontiers ce terme. Aujourd\u2019hui, les deux termes coexistent : \u00ab quadrature \u00bb dans les textes techniques et \u00ab carr\u00e9 \u00bb dans le langage courant. L\u2019interpr\u00e9tation est strictement identique.",
     "related": ["Carr\u00e9", "Aspect", "Opposition", "Dissonance"]
-  }
+  },{
+    "term": "Quinconce",
+    "slug": "quinconce",
+    "category": "concept",
+    "short": "Aspect mineur de 150° indiquant un besoin d'ajustement entre deux énergies divergentes.",
+    "body": "Le quinconce est un aspect qui relie deux signes n'ayant rien en commun (ni l'élément, ni le mode, ni la polarité). Cela crée une tension sourde, un sentiment de malaise qui oblige à un ajustement permanent. Contrairement au carré qui est une crise ouverte, le quinconce est une irritation subtile. On le lie souvent à la santé ou au service (analogie avec les maisons VI et VIII). C'est un aspect de 'négociation' où l'on doit apprendre à faire cohabiter deux fonctions planétaires qui ne se comprennent pas naturellement.",
+    "related": ["Aspect", "Ajustement", "Maison VI", "Maison VIII"]
+  },
+  {
+    "term": "Quintile",
+    "slug": "quintile",
+    "category": "aspect",
+    "short": "Aspect mineur de 72° associé à la créativité, au talent et à l'expression unique.",
+    "body": "Le quintile est un aspect qui se forme lorsque deux planètes sont séparées par un angle de 72° (ou ses multiples : 144°, 216°, etc.). Il est traditionnellement associé à la créativité, au talent artistique ou à une expression originale. Le quintile indique une énergie qui ne suit pas les règles habituelles, une capacité à innover ou à trouver des solutions inédites. C'est un aspect de génie potentiel, mais aussi de singularité qui peut être difficile à intégrer socialement. En astrologie moderne, le quintile est souvent considéré comme un aspect de 'don' ou de 'mission', révélant une aptitude particulière dans un domaine spécifique.",
+    "related": ["Aspect", "Créativité", "Talent", "Originalité"]
+   }
 ]

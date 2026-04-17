@@ -1,5 +1,13 @@
 [
   {
+    "term": "Radical",
+    "slug": "radical",
+    "category": "technique",
+    "short": "Se dit de ce qui appartient au th\u00e8me de naissance (le Radix).",
+    "body": "Le terme radical d\u00e9signe l\u2019\u00e9tat originel des \u00e9l\u00e9ments au moment de la naissance. En astrologie pr\u00e9visionnelle, on oppose souvent les positions \u00ab radicales \u00bb (fixes dans le th\u00e8me natal) aux positions \u00ab de transit \u00bb (mobiles dans le ciel actuel). Un transit n\u2019aura un impact majeur que s\u2019il entre en r\u00e9sonance avec une promesse \u00ab radicale \u00bb pr\u00e9sente dans la carte du ciel initiale.",
+    "related": ["Radix", "Th\u00e8me natal", "Transit"]
+  },
+  {
     "term": "Radix",
     "slug": "radix",
     "category": "concept",
@@ -8,12 +16,37 @@
     "related": ["Th\u00e8me natal", "Carte du ciel", "Transit", "R\u00e9volution solaire"]
   },
   {
+    "term": "Rahu (N\u0153ud Nord)",
+    "slug": "rahu-noeud-nord",
+    "category": "concept",
+    "short": "Point d\u2019intersection ascendant de l\u2019orbite lunaire, symbolisant le but de vie.",
+    "body": "Dans l\u2019astrologie v\u00e9dique, le N\u0153ud Nord est appel\u00e9 Rahu. Il repr\u00e9sente l\u2019app\u00e9tit insatiable, la direction vers laquelle l\u2019\u00e2me doit tendre dans cette vie pour \u00e9voluer. C\u2019est un point d\u2019expansion, mais aussi de d\u00e9fi, car il nous pousse hors de notre zone de confort. Contrairement aux plan\u00e8tes, Rahu est un point math\u00e9matique fictif situ\u00e9 l\u00e0 o\u00f9 la Lune traverse l\u2019\u00e9cliptique vers le Nord.",
+    "related": ["Ketu", "N\u0153ud Sud", "N\u0153uds Lunaires", "Karma"]
+  },
+  {
     "term": "R\u00e9ception mutuelle",
     "slug": "reception-mutuelle",
     "category": "concept",
     "short": "Configuration o\u00f9 deux plan\u00e8tes occupent chacune le signe de domicile de l\u2019autre.",
     "body": "La r\u00e9ception mutuelle se produit lorsque deux plan\u00e8tes \u00e9changent leurs domiciles : par exemple, Mars en Taureau (domicile de V\u00e9nus) et V\u00e9nus en B\u00e9lier (domicile de Mars). Chaque plan\u00e8te est \u00ab h\u00e9berg\u00e9e \u00bb par l\u2019autre, cr\u00e9ant un lien de coop\u00e9ration implicite. En astrologie traditionnelle, la r\u00e9ception mutuelle att\u00e9nue consid\u00e9rablement la faiblesse d\u2019une plan\u00e8te en exil : m\u00eame si chaque plan\u00e8te est dans un signe inconfortable, elles se soutiennent mutuellement. Certains astrologues vont jusqu\u2019\u00e0 consid\u00e9rer qu\u2019une r\u00e9ception mutuelle \u00e9quivaut presque \u00e0 un aspect harmonique entre les deux plan\u00e8tes. La r\u00e9ception mutuelle peut \u00e9galement se faire par exaltation : le Soleil en B\u00e9lier (exaltation) et Mars en Lion (signe du Soleil) cr\u00e9ent une forme de r\u00e9ception crois\u00e9e. C\u2019est un outil subtil mais tr\u00e8s utile pour affiner la lecture d\u2019un th\u00e8me.",
     "related": ["Dignit\u00e9", "Exil", "Exaltation", "Domicile"]
+  },
+
+  {
+    "term": "R\u00e9ception mutuelle",
+    "slug": "reception-mutuelle",
+    "category": "concept",
+    "short": "Configuration o\u00f9 deux plan\u00e8tes occupent chacune le signe de domicile de l\u2019autre.",
+    "body": "La r\u00e9ception mutuelle se produit lorsque deux plan\u00e8tes \u00e9changent leurs domiciles : par exemple, Mars en Taureau (domicile de V\u00e9nus) et V\u00e9nus en B\u00e9lier (domicile de Mars). Chaque plan\u00e8te est \u00ab h\u00e9berg\u00e9e \u00bb par l\u2019autre, cr\u00e9ant un lien de coop\u00e9ration implicite. En astrologie traditionnelle, la r\u00e9ception mutuelle att\u00e9nue consid\u00e9rablement la faiblesse d\u2019une plan\u00e8te en exil : m\u00eame si chaque plan\u00e8te est dans un signe inconfortable, elles se soutiennent mutuellement. Certains astrologues vont jusqu\u2019\u00e0 consid\u00e9rer qu\u2019une r\u00e9ception mutuelle \u00e9quivaut presque \u00e0 un aspect harmonique entre les deux plan\u00e8tes. La r\u00e9ception mutuelle peut \u00e9galement se faire par exaltation : le Soleil en B\u00e9lier (exaltation) et Mars en Lion (signe du Soleil) cr\u00e9ent une forme de r\u00e9ception crois\u00e9e. C\u2019est un outil subtil mais tr\u00e8s utile pour affiner la lecture d\u2019un th\u00e8me.",
+    "related": ["Dignit\u00e9", "Exil", "Exaltation", "Domicile"]
+  },
+  {
+    "term": "Rétrogradation",
+    "slug": "retrogradation",
+    "category": "concept",
+    "short": "Mouvement apparent d'une planète qui semble reculer dans le zodiaque.",
+    "body": "La rétrogradation est une illusion d'optique due à la différence de vitesse entre la Terre et les autres planètes. Symboliquement, elle indique une intériorisation de l'énergie de la planète. Au lieu de s'exprimer vers l'extérieur, la fonction planétaire invite à la réflexion, à la révision ou au retour sur soi. Par exemple, Mercure rétrograde est souvent associé à des retards de communication obligeant à revoir ses plans.",
+    "related": ["Direct", "Stationnaire", "Transit"]
   },
   {
     "term": "R\u00e9volution solaire",

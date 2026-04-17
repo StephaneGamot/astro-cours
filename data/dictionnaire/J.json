@@ -1,1 +1,42 @@
-[]
+[
+    {
+    "term": "Joie (des plan\u00e8tes)",
+    "slug": "joie",
+    "category": "plan\u00e8te",
+    "short": "Position de force traditionnelle o\u00f9 une plan\u00e8te se trouve dans la maison qu\u00e9elle pr\u00e9f\u00e8re.",
+    "body": "La \u00ab Joie \u00bb est une dignit\u00e9 accidentelle ancienne. Chaque plan\u00e8te a une maison de pr\u00e9dilection o\u00f9 elle exprime ses vertus de mani\u00e8re optimale. Par exemple, Mercure se r\u00e9jouit en Maison I (intelligence), la Lune en Maison III (mouvement), Mars en Maison VI, le Soleil en Maison IX, Jupiter en Maison XI et Saturne en Maison XII. \u00catre en joie renforce la capacit\u00e9 de la plan\u00e8te \u00e0 produire des r\u00e9sultats positifs.",
+    "related": ["Dignit\u00e9s", "Maisons", "Tradition"]
+  },
+  {
+    "term": "Jupiter en chute",
+    "slug": "jupiter-en-chute",
+    "category": "concept",
+    "short": "Position de Jupiter en Capricorne, où il exprime ses énergies de manière plus difficile.",
+    "body": "Jupiter est en chute dans le signe du Capricorne. Cette position peut indiquer des défis liés à l'expansion, à la confiance et à la foi. Jupiter en Capricorne peut se traduire par une tendance à l'excès de prudence, au pessimisme ou à la difficulté à saisir les opportunités. Cependant, elle peut aussi conférer une grande discipline, une capacité à travailler dur pour atteindre ses objectifs et une sagesse pratique acquise par l'expérience.",
+    "related": ["Jupiter", "Capricorne", "Chute", "Défis"]
+  },
+  {
+    "term": "Junon",
+    "slug": "junon",
+    "category": "plan\u00e8te",
+    "short": "Ast\u00e9ro\u00efde du partenariat, du mariage et de l\u2019engagement.",
+    "body": "Junon d\u00e9crit notre besoin de relations stables et engag\u00e9es. Elle va au-del\u00e0 de l\u2019attraction de V\u00e9nus pour aborder les questions de loyaut\u00e9, de partage du pouvoir dans le couple et de fid\u00e9lit\u00e9. Elle indique le type de partenaire avec lequel nous cherchons \u00e0 construire une vie.",
+    "related": ["V\u00e9nus", "Maison VII", "Engagement"]
+  },
+  {
+    "term": "Jupiter",
+    "slug": "jupiter",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de l'expansion, de la chance et de la croissance personnelle.",
+    "body": "Jupiter est associ\u00e9 \u00e0 l\u2019optimisme, \u00e0 la foi et \u00e0 la recherche de sens. Il symbolise notre besoin d\u2019expansion, que ce soit par les voyages, les \u00e9tudes sup\u00e9rieures ou la spiritualit\u00e9. En astrologie traditionnelle, Jupiter est le plus grand des bienfaiteurs, apportant protection et opportunit\u00e9s. Cependant, il peut aussi indiquer une tendance \u00e0 l\u2019exag\u00e9ration ou au laisser-aller si mal g\u00e9r\u00e9.",
+    "related": ["Sagittaire", "Maison IX", "Chance", "Croissance"]
+  },
+  {
+    "term": "Jupiter en exaltation",
+    "slug": "jupiter-en-exaltation",
+    "category": "concept",
+    "short": "Position de Jupiter en Cancer, où il exprime son potentiel de manière optimale.",
+    "body": "Jupiter est en exaltation dans le signe du Cancer. Cette position lui conf\u00e8re une grande sensibilité, une intuition d\u00e9velopp\u00e9e et une capacité \u00e0 nourrir les autres, que ce soit sur le plan physique ou émotionnel. Jupiter en Cancer favorise les liens familiaux, la protection des proches et la recherche de sécurité affective. C'est une position qui encourage l'expansion à travers le cœur et les émotions.",
+    "related": ["Jupiter", "Cancer", "Exaltation", "Sensibilité"]
+  }
+]

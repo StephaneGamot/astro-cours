@@ -1,1 +1,56 @@
-[]
+[
+{
+    "term": "Harmonieux",
+    "slug": "harmonieux",
+    "category": "aspect",
+    "short": "Aspects ou configurations facilitant la libre circulation de l\u2019\u00e9nergie.",
+    "body": "Un aspect est dit harmonieux (principalement le trigone et le sextile) lorsque les deux plan\u00e8tes impliqu\u00e9es collaborent sans friction. Cela indique des talents inn\u00e9s, des facilit\u00e9s de destin ou une psych\u00e9 fluide dans le domaine concern\u00e9. Le risque d\u2019un th\u00e8me trop harmonieux est l\u2019inertie, car l\u2019individu ne ressent pas le besoin de se transformer ou de lutter pour obtenir ce qu\u2019il souhaite.",
+    "related": ["Trigone", "Sextile", "Dissonance", "Facilit\u00e9"]
+  },
+  {
+    "term": "H\u00e9liocentrisme",
+    "slug": "heliocentrisme",
+    "category": "concept",
+    "short": "Mod\u00e8le astronomique pla\u00e7ant le Soleil au centre du syst\u00e8me solaire, r\u00e9volutionnaire pour l'astrologie.",
+    "body": "L'h\u00e9liocentrisme, d\u00e9velopp\u00e9 par Copernic au XVIe si\u00e8cle, a radicalement transform\u00e9 notre compr\u00e9hension de l'univers en pla\u00e7ant le Soleil au centre du syst\u00e8me solaire. En astrologie, cela a ouvert la voie \u00e0 une vision plus dynamique et moins anthropocentrique du cosmos. L'astrologie h\u00e9liocentrique se concentre sur les positions des plan\u00e8tes par rapport au Soleil, offrant une perspective plus universelle et moins centr\u00e9e sur la Terre. Bien que moins courante que l'astrologie géocentrique, elle est utilis\u00e9e par certains astrologues pour explorer des th\u00e8mes plus spirituels ou g\u00e9n\u00e9rationnels.",
+    "related": ["Copernic", "Soleil", "Astrologie Géocentrique", "Cosmologie"]
+  },
+  {
+    "term": "H\u00e9micycle",
+    "slug": "hemicycle",
+    "category": "concept",
+    "short": "Disposition de plan\u00e8tes regroup\u00e9es dans une demi-circonf\u00e9rence du zodiaque, indiquant une concentration d\u2019\u00e9nergie.",
+    "body": "L\u2019h\u00e9micycle se produit lorsque plusieurs plan\u00e8tes sont regroup\u00e9es dans une zone de 180\u00b0 ou moins du zodiaque. Cette configuration indique une focalisation intense de l\u2019\u00e9nergie sur un secteur particulier de la vie, mais aussi une polarisation qui peut cr\u00e9er des tensions internes. Les plan\u00e8tes en h\u00e9micycle ont tendance \u00e0 se renforcer mutuellement, mais aussi \u00e0 se confronter \u00e0 des forces oppos\u00e9es dans les zones vides du th\u00e8me. L\u2019h\u00e9micycle peut indiquer un potentiel de croissance important si l\u2019individu apprend \u00e0 int\u00e9grer les \u00e9nergies concentr\u00e9es et \u00e0 faire face aux d\u00e9fis que cette configuration peut engendrer.",
+    "related": ["Concentration", "Polarisation", "Tension", "Intégration"]
+  },
+   {
+    "term": "H\u00e9r\u00e9dit\u00e9",
+    "slug": "heredite",
+    "category": "concept",
+    "short": "Transmission des traits, des talents et des défis d'une g\u00e9n\u00e9ration \u00e0 l'autre, symbolisée par les maisons IV et VIII.",
+    "body": "En astrologie, l'h\u00e9r\u00e9dit\u00e9 est souvent associ\u00e9e aux maisons IV (le foyer, les racines) et VIII (les ressources partag\u00e9es, les legs). Ces maisons r\u00e9v\u00e8lent les influences familiales, les talents inn\u00e9s et les d\u00e9fis transmis de g\u00e9n\u00e9ration en g\u00e9n\u00e9ration. Les plan\u00e8tes situ\u00e9es dans ces maisons ou en aspect avec leurs cuspides peuvent indiquer des dons h\u00e9rit\u00e9s ou des leçons karmiques issues de la lignée familiale. L'h\u00e9r\u00e9dit\u00e9 astrologique va au-del\u00e0 de la simple biologie pour englober les dynamiques psychologiques et spirituelles transmises au sein d'une famille.",
+    "related": ["Maison IV", "Maison VIII", "Karma", "Dynamiques familiales"]
+  },
+  {
+    "term": "Horizon",
+    "slug": "horizon",
+    "category": "astronomique",
+    "short": "Ligne de s\u00e9paration entre la partie visible et invisible du ciel.",
+    "body": "L\u2019horizon local d\u00e9termine l\u2019axe Ascendant-Descendant. Il divise le th\u00e8me en deux h\u00e9misph\u00e8res : sud (visible, conscient) et nord (invisible, nocturne). Symboliquement, l\u2019horizon est le plan de manifestation o\u00f9 l\u2019\u00e9nergie pure des astres rencontre la r\u00e9alit\u00e9 physique. Une plan\u00e8te situ\u00e9e sur l\u2019horizon au moment de la naissance est dite \u00ab angulaire \u00bb et marque profond\u00e9ment la personnalit\u00e9.",
+    "related": ["Ascendant", "Descendant", "Angularit\u00e9"]
+  },
+ 
+    {
+    "term": "Hyleg",
+    "slug": "hyleg",
+    "category": "concept",
+    "short": "Point vital ou \u00ab donneur de vie \u00bb dans un th\u00e8me natal selon l\u2019astrologie traditionnelle.",
+    "body": "Le Hyleg est un concept fondamental de l\u2019astrologie ancienne (hell\u00e9nistique et m\u00e9di\u00e9vale) servant \u00e0 d\u00e9terminer la force vitale et la long\u00e9vit\u00e9 d\u2019un individu. Sa d\u00e9termination suit un protocole strict de priorites : on examine d\u2019abord le Soleil, puis la Lune, puis l\u2019Ascendant, en fonction de leur position dans les maisons dites \u00ab hyl\u00e9giaques \u00bb (I, VII, IX, X, XI). Si le Hyleg est puissamment plac\u00e9 et bien aspect\u00e9 par les b\u00e9n\u00e9fiques (Jupiter, V\u00e9nus), on consid\u00e8re que la constitution physique est robuste. \u00c0 l\u2019inverse, des aspects de carr\u00e9 ou d\u2019opposition provenant de mal\u00e9fiques (Mars, Saturne) vers le Hyleg \u00e9taient interpr\u00e9t\u00e9s comme des menaces pour la sant\u00e9 ou la vitalit\u00e9.",
+    "related": [
+      "Alchocoden",
+      "Anar\u00e8te",
+      "Astrologie Traditionnelle",
+      "Vitalit\u00e9"
+    ]
+  }
+]

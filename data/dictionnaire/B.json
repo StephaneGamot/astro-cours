@@ -1,1 +1,17 @@
-[]
+[{
+    "term": "Bi-quintile",
+    "slug": "bi-quintile",
+    "category": "concept",
+    "short": "Aspect de 144°, extension du quintile, symbolisant la maîtrise créative.",
+    "body": "Le bi-quintile est le double du quintile (144°). Il partage les mêmes propriétés de talent et de créativité, mais avec une dimension souvent plus manifeste ou plus aboutie. Il indique une facilité à trouver des solutions ingénieuses ou à exprimer son originalité dans le monde extérieur. C'est un aspect de 'jeu' intellectuel ou artistique qui permet de relier des concepts de manière innovante.",
+    "related": ["Quintile", "Aspect", "Créativité"]
+  },
+  {
+    "term": "Biquintile",
+    "slug": "biquintile",
+    "category": "aspect",
+    "short": "Synonyme de bi-quintile : aspect de 144° indiquant une créativité maîtrisée.",
+    "body": "Le terme 'biquintile' est une variante orthographique de 'bi-quintile'. Il désigne le même aspect de 144° entre deux planètes, associé à la créativité, au talent et à l'expression originale. En astrologie moderne, les deux termes sont utilisés indifféremment pour parler de cet aspect mineur qui révèle une capacité à innover ou à trouver des solutions inédites.",
+    "related": ["Quintile", "Aspect", "Créativité"]
+  }
+]

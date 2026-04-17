@@ -1,11 +1,59 @@
 [
   {
+    "term": "Almuten",
+    "slug": "almuten",
+    "category": "concept",
+    "short": "La planète la plus puissante d'un thème ou d'un point précis, basée sur le calcul des dignités.",
+    "body": "L'Almuten (de l'arabe 'al-mutaizz', le gagnant) est la planète qui cumule le plus de points de dignités (domicile, exaltation, triplicité, terme, décan) sur un degré donné. On peut calculer l'Almuten d'une maison, d'une planète ou du thème entier (l'Almuten Figuris). C'est un indicateur de force réelle qui peut parfois supplanter le simple maître de l'Ascendant dans l'analyse de la capacité d'action d'un individu.",
+    "related": ["Dignité", "Maîtrise", "Hyleg"]
+  },
+  {
+    "term": "Androgynie",
+    "slug": "androgynie",
+    "category": "concept",
+    "short": "Mélange des énergies masculines et féminines dans un thème, indiquant une personnalité équilibrée ou fluide.",
+    "body": "L'androgynie en astrologie se manifeste par une répartition équilibrée ou une dominance mixte de signes et de planètes masculins (Feu, Air) et féminins (Terre, Eau). Un thème androgynique peut indiquer une personnalité qui intègre harmonieusement les qualités d'action et de réflexion, d'introversion et d'extraversion, de logique et d'émotion. Cela peut se traduire par une grande adaptabilité, une capacité à comprendre différentes perspectives et une approche nuancée de la vie.",
+    "related": ["Masculin", "Féminin", "Polarité", "Équilibre"]
+  },
+  {
     "term": "Air",
     "slug": "air",
     "category": "concept",
     "short": "L\u2019un des quatre \u00e9l\u00e9ments : communication, intellect, \u00e9change et abstraction.",
     "body": "L\u2019\u00e9l\u00e9ment Air regroupe les signes des G\u00e9meaux, de la Balance et du Verseau. Il repr\u00e9sente le monde des id\u00e9es, de la communication, des relations sociales et de la pens\u00e9e abstraite. Les natifs marqu\u00e9s par l\u2019Air ont besoin d\u2019\u00e9changer, de comprendre, de relier les concepts entre eux. Ils excellent dans le langage, la diplomatie et la mise en r\u00e9seau. L\u2019Air est le souffle qui transporte les id\u00e9es d\u2019un esprit \u00e0 l\u2019autre \u2014 sans lui, les \u00e9l\u00e9ments restent isol\u00e9s. Sa qualit\u00e9 est chaude et humide. En exc\u00e8s, l\u2019Air peut produire de l\u2019instabilit\u00e9, de la superficialit\u00e9 ou une intellectualisation excessive des \u00e9motions. Un th\u00e8me d\u00e9pourvu d\u2019Air peut signaler une difficult\u00e9 \u00e0 prendre du recul, \u00e0 communiquer ses id\u00e9es ou \u00e0 nouer des liens sociaux l\u00e9gers. En astrologie classique, les trois signes d\u2019Air forment le trigone de l\u2019intellect.",
     "related": ["Feu", "Terre", "Eau", "G\u00e9meaux", "Balance", "Verseau"]
+  },
+  {
+    "term": "Anar\u00e8te",
+    "slug": "anarete",
+    "category": "concept",
+    "short": "La plan\u00e8te ou le point destructeur dans un th\u00e8me natal.",
+    "body": "L\u2019Anar\u00e8te est le point oppos\u00e9 \u00e0 l\u2019Hyleg (le donneur de vie). Dans les techniques anciennes de calcul de la long\u00e9vit\u00e9, l\u2019Anar\u00e8te repr\u00e9sente la force qui \u00ab coupe \u00bb le fil de la vie. Il s\u2019agit souvent de la plan\u00e8te mal\u00e9fique (Mars ou Saturne) qui forme l\u2019aspect le plus dangereux vers le Hyleg. Aujourd\u2019hui, ce concept est utilis\u00e9 de mani\u00e8re plus symbolique pour d\u00e9signer les d\u00e9fis vitaux ou les crises de transformation profonde.",
+    "related": ["Hyleg", "Alchocoden", "Sant\u00e9", "Tradition"]
+  },
+   {
+    "term": "Antar\u00e8te",
+    "slug": "antarete",
+    "category": "concept",
+    "short": "La plan\u00e8te ou le point de d\u00e9sint\u00e9gration dans un th\u00e8me natal.",
+    "body": "L\u2019Antar\u00e8te est le point oppos\u00e9 \u00e0 l\u2019Almuten Figuris (la plan\u00e8te la plus puissante du th\u00e8me). C'est la force qui s'oppose à l'expression maximale de la personnalité. Elle peut indiquer les zones de faiblesse, les blocages ou les épreuves majeures que l'individu devra affronter pour évoluer. Comme l'Anarète, l'Antarète est souvent associée à des planètes maléfiques, mais elle peut aussi concerner n'importe quelle planète selon la configuration du thème.",
+    "related": ["Almuten Figuris", "Anarète", "Défis", "Évolution"]
+  },
+  {
+    "term": "Antisces",
+    "slug": "antisces",
+    "category": "concept",
+    "short": "Points de r\u00e9flexion sym\u00e9triques par rapport \u00e0 l\u2019axe des solstices (Cancer/Capricorne).",
+    "body": "L\u2019antisce d\u2019une plan\u00e8te est son \u00ab ombre \u00bb ou son point de miroir. Deux plan\u00e8tes en relation par antisce ont une affinit\u00e9 cach\u00e9e, m\u00eame sans aspect visible. C\u2019est une technique subtile de l\u2019astrologie hell\u00e9nistique et m\u00e9di\u00e9vale.",
+    "related": ["Aspects", "Sym\u00e9trie", "Contre-antisce"]
+  },
+   {
+    "term": "Application",
+    "slug": "application",
+    "category": "concept",
+    "short": "Moment où une planète s'approche de l'aspect exact avec une autre.",
+    "body": "L'application se produit lorsqu'une planète rapide se déplace vers le degré exact d'un aspect avec une planète plus lente. En astrologie, un aspect appliquant est considéré comme beaucoup plus puissant et actif qu'un aspect séparatif, car l'énergie est en phase de croissance et l'événement ou le trait de caractère est en devenir. C'est un critère fondamental en astrologie horaire pour déterminer si une action va se réaliser.",
+    "related": ["Séparation", "Orbe", "Transit"]
   },
   {
     "term": "Ascendant",
@@ -22,5 +70,120 @@
     "short": "Angle form\u00e9 entre deux plan\u00e8tes, d\u00e9terminant la nature de leur relation \u00e9nerg\u00e9tique.",
     "body": "Un aspect est un angle g\u00e9om\u00e9trique mesur\u00e9 en degr\u00e9s entre deux plan\u00e8tes (ou points sensibles) dans le th\u00e8me natal. Les aspects d\u00e9finissent comment les \u00e9nergies plan\u00e9taires interagissent : en harmonie, en tension ou en fusion. Les aspects majeurs sont la conjonction (0\u00b0), le sextile (60\u00b0), le carr\u00e9 (90\u00b0), le trigone (120\u00b0) et l\u2019opposition (180\u00b0). Les aspects mineurs incluent le semi-carr\u00e9 (45\u00b0), le sesqui-carr\u00e9 (135\u00b0), le quinconce (150\u00b0) et d\u2019autres. On distingue traditionnellement les aspects harmoniques (trigone, sextile) qui facilitent l\u2019expression des \u00e9nergies, et les aspects tendus (carr\u00e9, opposition) qui cr\u00e9ent des frictions mais aussi de la dynamique. Un th\u00e8me sans aspects tendus manque souvent de motivation ; un th\u00e8me sans aspects harmoniques peut rendre la vie int\u00e9rieure difficile. L\u2019interpr\u00e9tation fine d\u2019un th\u00e8me repose en grande partie sur la lecture des aspects et de leurs orbes.",
     "related": ["Conjonction", "Carr\u00e9", "Trigone", "Opposition", "Sextile", "Orbe"]
+  }, {
+    "term": "Astrologie G\u00e9n\u00e9thliaque",
+    "slug": "astrologie-genethliaque",
+    "category": "branche",
+    "short": "Branche de l\u2019astrologie consacr\u00e9e \u00e0 l\u2019\u00e9tude de la naissance et du destin individuel.",
+    "body": "L\u2019astrologie g\u00e9n\u00e9thliaque est le cœur de la pratique moderne. Elle postule que le th\u00e8me dress\u00e9 pour le moment et le lieu du premier souffle contient le potentiel de d\u00e9veloppement de l\u2019individu (caract\u00e8re, aptitudes, d\u00e9fis, sant\u00e9, destin\u00e9e). Elle combine l\u2019analyse psychologique (qui suis-je ?) et l\u2019analyse \u00e9v\u00e9nementielle (que va-t-il m\u2019arriver ?). Elle s\u2019appuie sur la carte du ciel natale, appel\u00e9e aussi Radix.",
+    "related": ["Th\u00e8me Natal", "Radix", "Personnalit\u00e9"]
+  },
+{
+    "term": "Astrologie Horaire",
+    "slug": "astrologie-horaire",
+    "category": "branche",
+    "short": "Discipline permettant de r\u00e9pondre \u00e0 une question pr\u00e9cise par le th\u00e8me de l\u2019instant.",
+    "body": "L\u2019astrologie horaire est l\u2019une des formes les plus anciennes et les plus rigoureuses de l\u2019astrologie. Elle ne n\u00e9cessite pas le th\u00e8me natal du consultant. L\u2019astrologue dresse la carte du ciel au moment pr\u00e9cis o\u00f9 il re\u00e7oit et comprend une question claire (ex: \u00ab Vais-je vendre ma maison ? \u00bb). Elle utilise des r\u00e8gles d\u2019interpr\u00e9tation tr\u00e8s strictes bas\u00e9es sur les ma\u00eetrises et le mouvement de la Lune pour fournir une r\u00e9ponse affirmative ou n\u00e9gative.",
+    "related": ["Astrologie Traditionnelle", "Question", "Lune"]
+  },
+  {
+    "term": "Astrologie Karmique",
+    "slug": "astrologie-karmique",
+    "category": "branche",
+    "short": "Approche \u00e9volutive li\u00e9e au concept de r\u00e9incarnation et aux le\u00e7ons de l\u2019\u00e2me.",
+    "body": "L\u2019astrologie karmique analyse le th\u00e8me natal sous l\u2019angle de la continuit\u00e9 de l\u2019\u00e2me. Elle accorde une importance capitale aux N\u0153uds Lunaires, aux plan\u00e8tes r\u00e9trogrades et \u00e0 la Maison XII. Elle cherche \u00e0 r\u00e9pondre aux questions sur le pass\u00e9 spirituel (qu\u2019ai-je appris ?) et les obligations de croissance pr\u00e9sentes (que dois-je transformer ?). C\u2019est une approche psychospirituelle centr\u00e9e sur la lib\u00e9ration des vieux sch\u00e9mas.",
+    "related": ["N\u0153uds Lunaires", "Saturne", "Karma", "\u00c9volution"]
+  },
+  {
+    "term": "Astrologie M\u00e9dicale",
+    "slug": "astrologie-medicale",
+    "category": "branche",
+    "short": "Syst\u00e8me de correspondances entre les astres et les fonctions anatomiques ou pathologiques.",
+    "body": "Historiquement indissociable de la m\u00e9decine jusqu\u2019au XVIIe si\u00e8cle, cette branche associe chaque signe et chaque plan\u00e8te \u00e0 une partie du corps ou \u00e0 un syst\u00e8me biologique (ex: le B\u00e9lier r\u00e9git la t\u00eate, Mars r\u00e9git le fer et les inflammations). L\u2019analyse du th\u00e8me permet d\u2019identifier les pr\u00e9dispositions constitutionnelles et les p\u00e9riodes de fragilit\u00e9 via les transits sur les points vitaux (Hyleg, Maison VI).",
+    "related": ["Sant\u00e9", "Maison VI", "Hyleg", "Anatomie"]
+  },{
+    "term": "Apex",
+    "slug": "apex",
+    "category": "technique",
+    "short": "Plan\u00e8te focale d\u2019une configuration g\u00e9om\u00e9trique comme un Carr\u00e9 en T ou un Yod.",
+    "body": "L\u2019Apex est la plan\u00e8te qui re\u00e7oit et doit canaliser toute l\u2019\u00e9nergie d\u2019une figure d\u2019aspects. Dans un Carr\u00e9 en T, c\u2019est la plan\u00e8te au sommet qui est au double carr\u00e9 des deux autres en opposition. Elle repr\u00e9sente le point de d\u00e9charge du stress de la figure et devient souvent le moteur principal de la r\u00e9ussite concr\u00e8te de l\u2019individu. Ma\u00eetriser l\u2019\u00e9nergie de l\u2019Apex est la cl\u00e9 pour r\u00e9soudre les tensions internes du th\u00e8me.",
+    "related": ["Carr\u00e9 en T", "Yod", "Configuration"]
+  },
+  {
+    "term": "Arc",
+    "slug": "arc",
+    "category": "technique",
+    "short": "Portion de cercle mesurant la distance entre deux points du th\u00e8me.",
+    "body": "L\u2019arc est l\u2019unit\u00e9 de mesure du mouvement astrologique, exprim\u00e9e en degr\u00e9s, minutes et secondes. On l\u2019utilise notamment dans la technique de l\u2019Arc Solaire, une m\u00e9thode pr\u00e9visionnelle o\u00f9 l\u2019on avance tous les points du th\u00e8me de la distance parcourue par le Soleil chaque jour (environ 1\u00b0 par an). L\u2019arc exprime ainsi la progression du temps par la g\u00e9om\u00e9trie.",
+    "related": ["Directions", "Longitude", "Arc Solaire"]
+  },
+  {
+    "term": "Astre",
+    "slug": "astre",
+    "category": "astronomique",
+    "short": "Terme g\u00e9n\u00e9rique d\u00e9signant tout corps c\u00e9leste utilis\u00e9 en astrologie.",
+    "body": "En astrologie, le terme \u00ab astre \u00bb englobe les plan\u00e8tes, les luminaires (Soleil, Lune), mais aussi les ast\u00e9ro\u00efdes et les points fictifs majeurs. Chaque astre est un r\u00e9cepteur et un \u00e9metteur d\u00e9di\u00e9 \u00e0 une fonction psychologique pr\u00e9cise (ex: Mercure pour le mental). Leur position relative sur l\u2019\u00e9cliptique au moment d\u2019un \u00e9v\u00e9nement constitue la base du calcul astrologique.",
+    "related": ["Plan\u00e8te", "Luminaire", "Ast\u00e9ro\u00efde"]
+  },
+  {
+    "term": "Ast\u00e9ro\u00efde",
+    "slug": "asteroide",
+    "category": "astronomique",
+    "short": "Petit corps rocheux du syst\u00e8me solaire dont l\u2019usage enrichit l\u2019interpr\u00e9tation moderne.",
+    "body": "Outre les plan\u00e8tes traditionnelles, les astrologues utilisent des ast\u00e9ro\u00efdes (principalement situ\u00e9s entre Mars et Jupiter) pour affiner la lecture psychologique. Les plus utilis\u00e9s sont C\u00e9r\u00e8s, Pallas, Junon et Vesta. Ils apportent des nuances suppl\u00e9mentaires sur le f\u00e9minin, la strat\u00e9gie, le d\u00e9vouement et les capacit\u00e9s de soin. Leur int\u00e9gration permet une lecture plus fine des arch\u00e9types modernes.",
+    "related": ["C\u00e9r\u00e8s", "Pallas", "Junon", "Vesta", "Chiron"]
+  },{
+    "term": "Astrologie Humaniste",
+    "slug": "astrologie-humaniste",
+    "category": "branche",
+    "short": "Approche centr\u00e9e sur le d\u00e9veloppement de la personne et le sens de l\u2019existence.",
+    "body": "Fond\u00e9e par Dane Rudhyar au XXe si\u00e8cle, cette approche se d\u00e9tourne de la pr\u00e9diction pour se concentrer sur la croissance psychologique. Le th\u00e8me natal n\u2019est plus vu comme une fatalit\u00e9, mais comme un plan de route pour l\u2019\u00e9panouissement du potentiel humain. Elle int\u00e8gre des concepts de psychologie analytique (Jung) et place l\u2019individu au centre de son propre destin.",
+    "related": ["Dane Rudhyar", "Psychologie", "Potentiel"]
+  },  {
+    "term": "Astrologie Mondiale",
+    "slug": "astrologie-mondiale",
+    "category": "branche",
+    "short": "\u00c9tude des cycles collectifs, des nations, de la politique et des \u00e9v\u00e9nements plan\u00e9taires.",
+    "body": "L\u2019astrologie mondiale est la branche la plus ancienne de la discipline. Elle analyse les grandes conjonctions (comme le cycle Saturne-Pluton) pour pr\u00e9voir les transformations g\u00e9opolitiques, les crises \u00e9conomiques ou les r\u00e9volutions soci\u00e9tales. Contrairement \u00e0 l\u2019astrologie individuelle, elle travaille sur les th\u00e8mes des capitales, des dirigeants ou des dates de fondation des \u00c9tats.",
+    "related": ["Ingr\u00e8s", "Cycle", "Grandes Conjonctions"]
+  },{
+    "term": "Astrologie Scientifique",
+    "slug": "astrologie-scientifique",
+    "category": "branche",
+    "short": "Tentative de validation de l\u2019astrologie par des m\u00e9thodes statistiques et observationnelles.",
+    "body": "Cette branche cherche \u00e0 isoler des corr\u00e9lations mesurables entre positions plan\u00e9taires et traits de caract\u00e8re ou destin\u00e9es professionnelles. Les travaux les plus c\u00e9l\u00e8bres sont ceux de Michel Gauquelin sur \u00ab l\u2019effet Mars \u00bb chez les sportifs. Elle rejette souvent les aspects les plus symboliques ou \u00e9sot\u00e9riques pour se concentrer sur ce qui est math\u00e9matiquement v\u00e9rifiable.",
+    "related": ["Michel Gauquelin", "Statistiques", "Corr\u00e9lation"]
+  },
+  {
+    "term": "Astrologue",
+    "slug": "astrologue",
+    "category": "concept",
+    "short": "Praticien qui interpr\u00e8te les positions c\u00e9lestes pour conseiller ou analyser.",
+    "body": "L\u2019astrologue combine des comp\u00e9tences techniques (calcul et astronomie de base) et des facult\u00e9s de synth\u00e8se et d\u2019empathie. Son r\u00f4le est de d\u00e9coder le langage symbolique du ciel pour le rendre compr\u00e9hensible et utile au consultant. Il doit respecter une \u00e9thique stricte, \u00e9vitant le d\u00e9terminisme absolu et pr\u00e9servant le libre-arbitre.",
+    "related": ["Conseil", "\u00c9thique", "Interpr\u00e9tation"]
+  },
+  {
+    "term": "Atlas",
+    "slug": "atlas",
+    "category": "technique",
+    "short": "Recueil de coordonn\u00e9es g\u00e9ographiques utilis\u00e9 pour dresser un th\u00e8me exact.",
+    "body": "En astrologie, l\u2019Atlas est indispensable pour d\u00e9terminer la latitude et la longitude d\u2019un lieu de naissance, ainsi que le fuseau horaire en vigueur \u00e0 la date donn\u00e9e. Sans ces coordonn\u00e9es, le calcul des maisons et de l\u2019Ascendant serait impossible. Aujourd\u2019hui, ces donn\u00e9es sont int\u00e9gr\u00e9es dans les logiciels astrologiques.",
+    "related": ["Longitude", "Latitude", "Domification"]
+  },
+  {
+    "term": "Autorit\u00e9",
+    "slug": "autorite",
+    "category": "concept",
+    "short": "Principe de pouvoir et de structure, principalement associ\u00e9 \u00e0 Saturne et au Milieu du Ciel.",
+    "body": "L\u2019autorit\u00e9 dans un th\u00e8me indique comment l\u2019individu se positionne face \u00e0 la loi, aux hi\u00e9rarchies et \u00e0 sa propre capacit\u00e9 de commandement. Elle est r\u00e9gie par Saturne (l\u2019autorit\u00e9 par la structure et le temps) et le Soleil (l\u2019autorit\u00e9 par le rayonnement personnel). La Maison X r\u00e9git l\u2019expression publique de cette autorit\u00e9.",
+    "related": ["Saturne", "Maison X", "Soleil"]
+  },
+  {
+    "term": "Axe",
+    "slug": "axe",
+    "category": "concept",
+    "short": "Ligne reliant deux points oppos\u00e9s du th\u00e8me, cr\u00e9ant un champ de tension compl\u00e9mentaire.",
+    "body": "Un th\u00e8me est structur\u00e9 par des axes majeurs : l\u2019axe horizontal (Ascendant-Descendant / Moi-L\u2019Autre) et l\u2019axe vertical (Milieu du Ciel-Fond du Ciel / Vie publique-Vie priv\u00e9e). L\u2019interpr\u00e9tation par axe permet de comprendre que deux maisons oppos\u00e9es fonctionnent comme les deux faces d\u2019une m\u00eame pi\u00e8ce.",
+    "related": ["Opposition", "Angles", "Maisons"]
   }
 ]

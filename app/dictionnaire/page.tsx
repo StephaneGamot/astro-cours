@@ -89,7 +89,36 @@ const CATEGORY_STYLE: Record<
     text: "text-fuchsia-300",
     border: "border-fuchsia-400/20",
     dot: "bg-fuchsia-400",
+  },  technique: {
+    bg: "bg-cyan-500/10",
+    text: "text-cyan-300",
+    border: "border-cyan-400/20",
+    dot: "bg-cyan-400",
   },
+  personnalité: {
+    bg: "bg-orange-500/10",
+    text: "text-orange-300",
+    border: "border-orange-400/20",
+    dot: "bg-orange-400",
+  },
+  astronomique: {
+  bg: "bg-indigo-500/10",
+  text: "text-indigo-300",
+  border: "border-indigo-400/20",
+  dot: "bg-indigo-400",
+},
+branche: {
+  bg: "bg-lime-500/10",
+  text: "text-lime-300",
+  border: "border-lime-400/20",
+  dot: "bg-lime-400",
+},
+constellation: {
+  bg: "bg-teal-500/10",
+  text: "text-teal-300",
+  border: "border-teal-400/20",
+  dot: "bg-teal-400",
+},
 };
 
 /* ================================================================== */
@@ -110,12 +139,37 @@ function CategoryBadge({ category }: { category: DictCategory }) {
 function EntryCard({ entry }: { entry: DictEntry }) {
   const s = CATEGORY_STYLE[entry.category];
 
+  if (!s) {
+    console.error("ENTREE SANS STYLE :", {
+      slug: entry.slug,
+      term: entry.term,
+      category: entry.category,
+      entry,
+    });
+
+    return (
+      <div
+        id={entry.slug}
+        className="scroll-mt-24 rounded-2xl border border-red-500/40 bg-red-500/10 p-5 text-red-200 sm:p-6 lg:p-7"
+      >
+        <p className="font-semibold">
+          Entrée sans style détectée : {entry.term}
+        </p>
+        <p className="mt-2 text-sm">
+          slug : <strong>{entry.slug}</strong>
+        </p>
+        <p className="mt-1 text-sm">
+          category : <strong>{String(entry.category)}</strong>
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div
       id={entry.slug}
       className={`group scroll-mt-24 rounded-2xl border bg-white/[0.02] p-5 backdrop-blur-sm transition-all duration-300 hover:bg-white/[0.04] hover:shadow-[0_8px_30px_rgba(0,0,0,0.2)] sm:p-6 lg:p-7 ${s.border}`}
     >
-      {/* Titre + badge */}
       <div className="flex flex-wrap items-start justify-between gap-3">
         <h3 className="font-serif text-xl font-semibold tracking-tight text-white sm:text-2xl">
           {entry.term}
@@ -123,17 +177,14 @@ function EntryCard({ entry }: { entry: DictEntry }) {
         <CategoryBadge category={entry.category} />
       </div>
 
-      {/* Définition courte */}
       <p className={`mt-2 text-sm font-medium italic ${s.text} opacity-80`}>
         {entry.short}
       </p>
 
-      {/* Corps */}
       <p className="mt-4 text-[0.92rem] leading-[1.8] text-white/70 sm:text-[0.95rem]">
         {entry.body}
       </p>
 
-      {/* Termes liés */}
       {entry.related && entry.related.length > 0 && (
         <div className="mt-5 flex flex-wrap items-center gap-2 border-t border-white/[0.06] pt-4">
           <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-white/30 sm:text-xs">
@@ -152,7 +203,6 @@ function EntryCard({ entry }: { entry: DictEntry }) {
     </div>
   );
 }
-
 /* ================================================================== */
 /*  Page                                                              */
 /* ================================================================== */

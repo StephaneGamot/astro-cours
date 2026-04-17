@@ -1,5 +1,35 @@
 [
   {
+    "term": "D\u00e9bilit\u00e9 des plan\u00e8tes",
+    "slug": "debilite-des-planetes",
+    "category": "concept",
+    "short": "Affaiblissement de la force d\u2019une plan\u00e8te selon sa position en signe ou en maison.",
+    "body": "La d\u00e9bilit\u00e9 peut \u00eatre essentielle (la plan\u00e8te est en Exil ou en Chute, ce qui alt\u00e8re sa nature) ou accidentelle (mauvaise position en maison, combustion par le Soleil, aspects difficiles). Une plan\u00e8te en d\u00e9bilit\u00e9 ne signifie pas un manque de talent, mais une difficult\u00e9 \u00e0 exprimer ses qualit\u00e9s de mani\u00e8re fluide ou conforme aux attentes sociales.",
+    "related": ["Exil", "Chute", "Combustion", "Dignit\u00e9s"]
+  },
+  {
+    "term": "D\u00e9couverte d'une plan\u00e8te",
+    "slug": "decouverte-planete",
+    "category": "concept",
+    "short": "Date de la d\u00e9couverte d'une plan\u00e8te, influen\u00e7ant son interpr\u00e9tation astrologique.",
+    "body": "La date de d\u00e9couverte d'une plan\u00e8te est un \u00e9l\u00e9ment important en astrologie. Elle marque le moment o\u00f9 l'humanité a pris conscience de cette influence cosmique. Par exemple, Uranus a \u00e9t\u00e9 d\u00e9couvert en 1781, Neptune en 1846 et Pluton en 1930. Ces dates correspondent souvent \u00e0 des changements sociaux majeurs : l'\u00e8re industrielle pour Uranus, l'\u00e8re de la psychologie pour Neptune, et les bouleversements du XXe si\u00e8cle pour Pluton. En astrologie moderne, on considère que les plan\u00e8tes d\u00e9couvertes plus r\u00e9cemment (Uranus, Neptune, Pluton) ont une influence plus collective ou générationnelle que les plan\u00e8tes classiques (Mercure, V\u00e9nus, Mars)."
+  },
+  {
+    "term": "D\u00e9g\u00e9n\u00e9rescence",
+    "slug": "degenerescence",
+    "category": "concept",
+    "short": "Affaiblissement extr\u00eame d'une plan\u00e8te, au-del\u00e0 de la d\u00e9bilit\u00e9.",
+    "body": "La d\u00e9g\u00e9n\u00e9rescence est un concept plus extr\u00eame que la d\u00e9bilit\u00e9. Elle se produit lorsque les conditions sont tellement défavorables qu'une planète perd presque toute sa capacité à exprimer ses qualités de manière constructive. Par exemple, une planète en chute dans une maison de malheur (Maison VIII ou XII) et en aspect difficile avec des planètes maléfiques peut être considérée comme dégénérée. Cela peut indiquer des blocages profonds, des défis majeurs ou des tendances autodestructrices liées à l'énergie de cette planète."
+  },
+  {
+    "term": "Déclinaison",
+    "slug": "declinaison",
+    "category": "astronomique",
+    "short": "Distance d'un astre au nord ou au sud de l'équateur céleste.",
+    "body": "En plus de leur position sur le zodiaque (longitude), les planètes ont une hauteur (déclinaison). Deux planètes ayant la même déclinaison sont dites en 'Parallèle', ce qui agit comme une conjonction. Si elles ont des déclinaisons opposées (Nord/Sud), elles sont en 'Contre-parallèle', agissant comme une opposition. C'est une dimension verticale souvent oubliée de l'astrologie.",
+    "related": ["Parallèle", "Aspect", "Équateur céleste"]
+  },
+  {
     "term": "D\u00e9can",
     "slug": "decan",
     "category": "concept",
@@ -15,6 +45,21 @@
     "body": "Le cercle zodiacal se divise en 360 degr\u00e9s, soit 30\u00b0 par signe. La position d\u2019une plan\u00e8te est toujours exprim\u00e9e en degr\u00e9s, minutes et secondes d\u2019arc au sein d\u2019un signe (par exemple : V\u00e9nus \u00e0 15\u00b027\u2019 du Taureau). Le degr\u00e9 exact est crucial pour calculer les aspects (angles entre plan\u00e8tes), les cuspides de maison et l\u2019Ascendant. Certains astrologues attribuent une signification sp\u00e9cifique \u00e0 chaque degr\u00e9 du zodiaque : les degr\u00e9s Sabians (imagin\u00e9s par Marc Edmund Jones et Dane Rudhyar) sont les plus connus. Un degr\u00e9 critique (0\u00b0, 13\u00b0, 26\u00b0 des signes cardinaux, par exemple) est consid\u00e9r\u00e9 comme un point de force particuli\u00e8re. La pr\u00e9cision du degr\u00e9 explique pourquoi l\u2019heure de naissance est si importante en astrologie : quelques minutes d\u2019\u00e9cart peuvent changer l\u2019Ascendant et d\u00e9caler toutes les cuspides de maison.",
     "related": ["Orbe", "D\u00e9can", "Ascendant", "Aspect"]
   },
+     {
+    "term": "D\u00e9pression",
+    "slug": "depression",
+    "category": "concept",
+    "short": "État de mal-être profond, souvent lié à des configurations astrologiques difficiles.",
+    "body": "La dépression est un état psychologique complexe qui peut être influencé par des facteurs astrologiques tels que des planètes en chute, des aspects difficiles (carrés, oppositions) impliquant la Lune, Saturne ou Pluton, ou des configurations comme les Carrés en T. Cependant, il est crucial de souligner que l'astrologie ne doit jamais être utilisée pour diagnostiquer ou traiter des troubles mentaux. Elle peut offrir une compréhension symbolique des défis émotionnels, mais toute personne souffrant de dépression devrait consulter un professionnel de la santé mentale."
+  },
+   {
+    "term": "Descendant",
+    "slug": "descendant",
+    "category": "concept",
+    "short": "Point opposé à l'Ascendant (Maison VII), régissant les relations aux autres et les partenariats.",
+    "body": "Le Descendant (DS) marque le début de la Maison VII. Il représente l'Autre, le partenaire (amoureux ou professionnel), mais aussi les 'ennemis déclarés'. En astrologie psychologique, il décrit souvent les qualités que nous ne reconnaissons pas en nous-mêmes et que nous projetons sur autrui. C'est par le Descendant que l'individu complète sa personnalité au travers de l'échange. Si l'Ascendant est le 'Moi', le Descendant est le 'Toi'. L'étude du signe au Descendant et de son maître donne des indications cruciales sur le type de partenaire vers lequel on est attiré et sur la manière dont on vit l'engagement contractuel.",
+    "related": ["Ascendant", "Maison VII", "Synastrie", "Angles"]
+  },
   {
     "term": "Dignit\u00e9",
     "slug": "dignite",
@@ -24,11 +69,49 @@
     "related": ["Exaltation", "Exil", "Domicile", "R\u00e9ception mutuelle"]
   },
   {
+    "term": "Direct",
+    "slug": "direct",
+    "category": "concept",
+    "short": "Mouvement normal d'une planète avançant dans l'ordre des signes du zodiaque.",
+    "body": "Une planète est dite 'directe' lorsqu'elle suit son cours naturel d'Ouest en Est sur l'écliptique. C'est l'état standard où l'énergie planétaire s'exprime de manière spontanée, fluide et orientée vers le futur. La majorité des planètes d'un thème natal sont généralement directes.",
+    "related": ["Rétrogradation", "Stationnaire"]
+  },
+  {
+    "term": "Directions Symboliques",
+    "slug": "directions-symboliques",
+    "category": "technique",
+    "short": "M\u00e9thode de pr\u00e9vision simple o\u00f9 tous les points du th\u00e8me avancent de 1\u00b0 par an.",
+    "body": "Aussi appel\u00e9e direction d\u2019un degr\u00e9 pour un an, cette technique est tr\u00e8s utilis\u00e9e pour dater des \u00e9v\u00e9nements majeurs de la vie. Lorsqu\u2019une plan\u00e8te dirig\u00e9e forme un aspect avec une plan\u00e8te natale, cela signale une p\u00e9riode cl\u00e9.",
+    "related": ["Progressions", "Pr\u00e9vision", "Arc Solaire"]
+  },
+  {
     "term": "Dissonance",
     "slug": "dissonance",
     "category": "concept",
     "short": "Qualit\u00e9 attribu\u00e9e aux aspects g\u00e9n\u00e9rateurs de tension : carr\u00e9, opposition, sesqui-carr\u00e9.",
     "body": "La dissonance, en astrologie, d\u00e9signe la nature des aspects qui cr\u00e9ent une friction entre deux \u00e9nergies plan\u00e9taires. Les principaux aspects dissonants sont le carr\u00e9 (90\u00b0), l\u2019opposition (180\u00b0), le semi-carr\u00e9 (45\u00b0) et le sesqui-carr\u00e9 (135\u00b0). Le terme \u00ab dissonant \u00bb a remplac\u00e9 les anciens qualificatifs de \u00ab mauvais \u00bb ou \u00ab mal\u00e9fique \u00bb, car l\u2019astrologie moderne consid\u00e8re que la tension est aussi n\u00e9cessaire que l\u2019harmonie. Une dissonance oblige le natif \u00e0 travailler, \u00e0 surmonter un d\u00e9fi, \u00e0 int\u00e9grer deux forces contradictoires. C\u2019est la friction qui produit la lumi\u00e8re. Un th\u00e8me enti\u00e8rement harmonique (trigones, sextiles) peut manquer de ressort ; un th\u00e8me riche en dissonances conf\u00e8re souvent une personnalit\u00e9 intense, r\u00e9siliente et combative. La cl\u00e9 r\u00e9side dans l\u2019\u00e9quilibre entre harmonie et dissonance.",
     "related": ["Carr\u00e9", "Opposition", "Sesqui-carr\u00e9", "Aspect"]
+  },{
+    "term": "Domicile",
+    "slug": "domicile",
+    "category": "concept",
+    "short": "Signe zodiacal où une planète possède sa plus grande force et affinité.",
+    "body": "Une planète est dite en 'Domicile' lorsqu'elle se trouve dans le signe qu'elle gouverne (ex: Mars en Bélier, Lune en Cancer). Dans cette position, la planète est en pleine possession de ses moyens, elle peut agir librement et exprimer sa nature de manière authentique et puissante. On distingue le domicile diurne et le domicile nocturne dans l'astrologie traditionnelle. C'est la plus importante des dignités essentielles.",
+    "related": ["Maîtrise", "Dignité", "Exaltation", "Exil"]
+  }, {
+    "term": "Domification",
+    "slug": "domification",
+    "category": "technique",
+    "short": "Méthode de calcul pour diviser le thème en douze maisons.",
+    "body": "La domification est le système utilisé pour déterminer l'espace occupé par les maisons. Il existe de nombreuses méthodes (Placidus, Koch, Regiomontanus, Signes Entiers, Porphyre) qui peuvent donner des tailles de maisons différentes, surtout pour les naissances aux latitudes extrêmes. Le choix de la domification est un sujet de débat technique constant entre astrologues.",
+    "related": ["Maisons", "Cuspide", "Ascendant", "Milieu du Ciel"]
+  }, 
+   {
+    "term": "Diurne",
+    "slug": "diurne",
+    "category": "concept",
+    "short": "Ce qui appartient au jour ou s\u2019exprime dans la clart\u00e9.",
+    "body": "En astrologie traditionnelle, on utilise la notion de \u00ab Secte \u00bb : un th\u00e8me est diurne si le Soleil est au-dessus de l\u2019horizon. Cela change la hi\u00e9rarchie des plan\u00e8tes (le Soleil devient le luminaire dominant). Les signes diurnes (Masculins) sont port\u00e9s vers l\u2019ext\u00e9riorisation et l\u2019action directe.",
+    "related": ["Nocturne", "Secte", "Masculin"]
   }
 ]

@@ -1,5 +1,21 @@
 [
   {
+    "term": "Cadente",
+    "slug": "cadente",
+    "category": "maison",
+    "short": "Maisons (III, VI, IX, XII) qui \u00ab tombent \u00bb apr\u00e8s les maisons succ\u00e9dentes.",
+    "body": "Les maisons cadentes sont traditionnellement per\u00e7ues comme moins puissantes pour l\u2019action concr\u00e8te, mais tr\u00e8s importantes pour le mental, la communication et la spiritualit\u00e9. Une plan\u00e8te en maison cadente agit plus sur le plan des id\u00e9es ou des pr\u00e9paratifs que sur celui de la r\u00e9alisation imm\u00e9diate. Elles pr\u00e9parent le terrain pour l\u2019angle suivant.",
+    "related": ["Angulaire", "Succ\u00e9dente", "Maisons"]
+  },
+  {
+    "term": "Cardinal",
+    "slug": "cardinal",
+    "category": "maison",
+    "short": "Mode d'énergie associé au début des saisons, symbolisant l'initiative et l'action.",
+    "body": "Le mode Cardinal regroupe les signes qui ouvrent les saisons : le Bélier (printemps), le Cancer (été), la Balance (automne) et le Capricorne (hiver). En astrologie, une forte dominance cardinale dans un thème indique un tempérament d'initiateur, une capacité à lancer des projets et une volonté d'impulsion. C'est une énergie qui va de l'avant, créatrice et dynamique, bien qu'elle puisse parfois manquer de persévérance une fois l'élan initial passé. Les signes cardinaux sont les 'moteurs' du zodiaque.",
+    "related": ["Fixe", "Mutable", "Modes", "Quadruplicité"]
+  },
+  {
     "term": "Carr\u00e9",
     "slug": "carre",
     "category": "aspect",
@@ -8,12 +24,85 @@
     "related": ["Opposition", "Trigone", "Conjonction", "Aspect", "Quadrature"]
   },
   {
+    "term": "Carr\u00e9 en T",
+    "slug": "carre-en-t",
+    "category": "concept",
+    "short": "Configuration de tension form\u00e9e par deux plan\u00e8tes en opposition, toutes deux au carr\u00e9 d\u2019une troisi\u00e8me.",
+    "body": "Le Carr\u00e9 en T est l\u2019une des figures les plus dynamiques du th\u00e8me. Il g\u00e9n\u00e8re une tension consid\u00e9rable qui pousse l\u2019individu \u00e0 agir et \u00e0 r\u00e9soudre des conflits. La plan\u00e8te \u00ab apex \u00bb (celle qui re\u00e7oit les deux carr\u00e9s) est le point de d\u00e9charge du stress. C\u2019est l\u00e0 que se manifestent les r\u00e9alisations les plus concr\u00e8tes, souvent apr\u00e8s avoir surmont\u00e9 de grandes difficult\u00e9s. C\u2019est une configuration fr\u00e9quente chez les personnes ayant un grand destin ou une volont\u00e9 de fer.",
+    "related": ["Carr\u00e9", "Opposition", "Configuration", "Dynamisme"]
+  },
+  {
     "term": "Carte du ciel",
     "slug": "carte-du-ciel",
     "category": "concept",
     "short": "Synonyme de th\u00e8me natal : repr\u00e9sentation graphique des positions plan\u00e9taires \u00e0 un instant donn\u00e9.",
     "body": "La carte du ciel est le terme historique d\u00e9signant ce que l\u2019on appelle aujourd\u2019hui le th\u00e8me natal ou th\u00e8me astral. Elle repr\u00e9sente, sous forme de diagramme circulaire, la position exacte des plan\u00e8tes, des signes et des maisons au moment pr\u00e9cis d\u2019un \u00e9v\u00e9nement \u2014 g\u00e9n\u00e9ralement une naissance. La carte du ciel peut \u00e9galement \u00eatre dress\u00e9e pour un \u00e9v\u00e9nement sp\u00e9cifique (astrologie horaire), pour la fondation d\u2019une entreprise ou pour un pays (astrologie mondiale). Le terme rappelle que l\u2019astrologie est d\u2019abord un art d\u2019observation du ciel, transpos\u00e9 sur papier ou sur \u00e9cran. Trois informations sont n\u00e9cessaires pour dresser une carte du ciel : la date, l\u2019heure exacte et le lieu g\u00e9ographique. La carte se lit en croisant les positions plan\u00e9taires en signe, en maison et les aspects qu\u2019elles forment entre elles.",
     "related": ["Th\u00e8me natal", "Ascendant", "Maison", "Radix"]
+  },
+    {
+    "term": "Cazimi",
+    "slug": "cazimi",
+    "category": "concept",
+    "short": "Le mot vient de l\u2019arabe \u00ab kashmimi \u00bb. État d'une planète située à moins de 17 minutes d'arc du Soleil, lui conférant une puissance exceptionnelle.",
+    "body": "Une planète 'Cazimi' est considérée comme étant 'au cœur du Soleil', ce qui lui confère une énergie extrêmement puissante et bénéfique. C'est une position rare et très favorable, car la planète est protégée par la lumière solaire et peut exprimer son potentiel de manière optimale. Par exemple, Mercure Cazimi est un indicateur de grande clarté mentale et de succès dans les communications.",
+    "related": ["Combustion", "Soleil", "Dignité", "Puissance planétaire"]
+  },
+  {
+    "term": "C\u00e9r\u00e8s",
+    "slug": "ceres",
+    "category": "plan\u00e8te",
+    "short": "Ast\u00e9ro\u00efde li\u00e9 \u00e0 la nutrition, \u00e0 la maternit\u00e9 et \u00e0 la productivit\u00e9.",
+    "body": "C\u00e9r\u00e8s est le plus grand ast\u00e9ro\u00efde de la ceinture principale. En astrologie, il compl\u00e8te la Lune en d\u00e9crivant comment nous prenons soin des autres au quotidien, notre rapport \u00e0 la nourriture, \u00e0 l\u2019agriculture et au cycle des pertes et des retrouvailles (mythe de Pers\u00e9phone).",
+    "related": ["Lune", "Vierge", "Nutrition"]
+  },
+  {
+    "term": "Chiron",
+    "slug": "chiron",
+    "category": "plan\u00e8te",
+    "short": "Ast\u00e9ro\u00efde/Centante symbolisant le \u00ab gu\u00e9risseur bless\u00e9 \u00bb.",
+    "body": "Situ\u00e9 entre Saturne et Uranus, Chiron repr\u00e9sente une blessure psychologique profonde qui semble impossible \u00e0 gu\u00e9rir pour soi-m\u00eame, mais qui devient une source de sagesse et de gu\u00e9rison pour les autres. Il montre comment transformer la souffrance en outil de compr\u00e9hension et de compassion. C\u2019est le pont entre les plan\u00e8tes personnelles et les plan\u00e8tes transpersonnelles.",
+    "related": ["Ast\u00e9ro\u00efdes", "Sant\u00e9", "Sagesse"]
+  },
+
+  {
+    "term": "Chute",
+    "slug": "chute",
+    "category": "concept",
+    "short": "État de faiblesse d'une planète située dans le signe opposé à son lieu d'exaltation.",
+    "body": "La chute est l'une des deux principales débilités essentielles avec l'exil. Lorsqu'une planète est en chute (par exemple, la Lune en Scorpion, car elle est exaltée en Taureau), ses qualités s'expriment avec difficulté, de manière détournée ou affaiblie. La planète perd de sa superbe et de son efficacité naturelle. Dans l'interprétation, cela suggère souvent un domaine où l'individu doit faire preuve de plus d'effort ou de conscience pour compenser un manque de fluidité originel.",
+    "related": ["Exaltation", "Dignité", "Débilité", "Exil"]
+  },
+  {
+    "term": "Combuste (Br\u00fbl\u00e9e)",
+    "slug": "combuste",
+    "category": "concept",
+    "short": "Plan\u00e8te affaiblie par sa proximit\u00e9 avec le Soleil (entre 17\u2019 et 8\u00b030\u2019).",
+    "body": "Lorsqu\u2019une plan\u00e8te est \u00ab br\u00fbl\u00e9e \u00bb par le Soleil, ses caract\u00e9ristiques propres sont occult\u00e9es ou consum\u00e9es par la puissance solaire. L\u2019individu peut avoir du mal \u00e0 exprimer cette fonction de mani\u00e8re objective. C\u2019est une débilit\u00e9 accidentelle majeure en astrologie traditionnelle. Seul le point de Cazimi (coeur du Soleil) annule cet effet n\u00e9gatif.",
+    "related": ["Cazimi", "Soleil", "D\u00e9bilit\u00e9"]
+  },
+  {
+    "term": "Combustion",
+    "slug": "combustion",
+    "category": "concept",
+    "short": "État d'une planète située trop près du Soleil (généralement moins de 8°30').",
+    "body": "Une planète 'combuste' est considérée comme affaiblie car elle est symboliquement brûlée par les rayons du Soleil, rendant son expression invisible ou soumise à la volonté solaire. Dans l'astrologie ancienne, c'est une débilité sérieuse. Cependant, si la planète est à moins de 17 minutes d'arc du Soleil, elle est dite 'Cazimi' (au cœur du Soleil) et devient au contraire extrêmement puissante.",
+    "related": ["Cazimi", "Soleil", "Débilité", "Sous les rayons"]
+  },
+  {
+    "term": "Com\u00e8te",
+    "slug": "comete",
+    "category": "astronomique",
+    "short": "Corps c\u00e9leste chevelu per\u00e7u comme un pr\u00e9sage d\u2019\u00e9v\u00e9nements exceptionnels.",
+    "body": "Historiquement, les com\u00e8tes n\u2019\u00e9taient pas incluses dans le th\u00e8me natal mais \u00e9taient \u00e9tudi\u00e9es en astrologie mondiale comme des signaux de bouleversements majeurs ou de chutes de dirigeants. Aujourd\u2019hui, certains astrologues \u00e9tudient leur passage en transit comme des d\u00e9clencheurs de transformations collectives rapides. Mais reste encore peu utilisé en astrologie individuelle, faute de données suffisantes pour l\u2019interpr\u00e9ter de mani\u00e8re fiable. Les com\u00e8tes sont des messagers du ciel, annonciateurs de changements profonds, mais leur symbolique reste encore \u00e0 d\u00e9velopper pleinement dans le langage astrologique contemporain.",
+    "related": ["Mondiale", "Pr\u00e9sage", "Transit"]
+  },
+  {
+    "term": "Conception",
+    "slug": "conception",
+    "category": "technique",
+    "short": "\u00c9tude du moment de la f\u00e9condation pour compl\u00e9ter le th\u00e8me natal.",
+    "body": "Certaines traditions (comme la Trutine d\u2019Herm\u00e8s) cherchent \u00e0 calculer le th\u00e8me de conception pour rectifier l\u2019heure de naissance. On consid\u00e8re que le moment de l\u2019incarnation biologique pr\u00e9pare le terrain pour le th\u00e8me de naissance (Radix), offrant des indices sur l\u2019h\u00e9r\u00e9dit\u00e9 et la p\u00e9riode de gestation.",
+    "related": ["Rectification", "Th\u00e8me Natal", "H\u00e9r\u00e9dit\u00e9"]
   },
   {
     "term": "Conjonction",
@@ -30,5 +119,45 @@
     "short": "Terme ancien d\u00e9signant un aspect brouillant la clart\u00e9 des \u00e9nergies plan\u00e9taires.",
     "body": "En astrologie traditionnelle, le terme \u00ab confusion \u00bb d\u00e9signe un \u00e9tat o\u00f9 les \u00e9nergies plan\u00e9taires se m\u00ealent de fa\u00e7on d\u00e9sordonn\u00e9e, rendant leur expression peu claire pour le natif. Ce concept est particuli\u00e8rement associ\u00e9 \u00e0 Neptune, plan\u00e8te de l\u2019illusion et de la dissolution des fronti\u00e8res. Un aspect de confusion se manifeste lorsqu\u2019une plan\u00e8te personnelle (Soleil, Lune, Mercure) re\u00e7oit des aspects multiples et contradictoires, ou lorsqu\u2019elle est prise en \u00e9tau entre des influx harmoniques et dissonants. Le natif peut alors ressentir une difficult\u00e9 \u00e0 d\u00e9finir clairement ses motivations, ses sentiments ou ses choix dans le domaine concern\u00e9. En astrologie moderne, on parle plus volontiers de \u00ab n\u00e9bulosit\u00e9 \u00bb ou de \u00ab flou \u00bb. Identifier ces zones de confusion dans un th\u00e8me permet de travailler consciemment \u00e0 les clarifier.",
     "related": ["Neptune", "Aspect", "Dissonance"]
+  },
+  {
+    "term": "Contre-antisce",
+    "slug": "contre-antisce",
+    "category": "concept",
+    "short": "Point de r\u00e9flexion sym\u00e9trique par rapport \u00e0 l\u2019axe des \u00e9quinoxes (B\u00e9lier/Balance).",
+    "body": "Le contre-antisce est le point oppos\u00e9 \u00e0 l\u2019antisce. Tandis que l\u2019antisce se calcule par rapport \u00e0 l\u2019axe des solstices (Cancer/Capricorne), le contre-antisce utilise l\u2019axe 0\u00b0 B\u00e9lier - 0\u00b0 Balance. Sur le plan interpr\u00e9tatif, une plan\u00e8te en contre-antisce avec une autre indique souvent un d\u00e9fi ou une opposition cach\u00e9e. C\u2019est une relation d\u2019ombre de nature similaire \u00e0 l\u2019opposition, mais qui agit de mani\u00e8re plus subtile, presque inconsciente, dans la structure psychique ou \u00e9v\u00e9nementielle du th\u00e8me.",
+    "related": ["Antisces", "Sym\u00e9trie", "Aspects"]
+  },
+   {
+    "term": "Croissante (Plan\u00e8te)",
+    "slug": "croissante",
+    "category": "concept",
+    "short": "\u00c9tat d\u2019un astre dont la lumi\u00e8re ou la distance s\u00e9parative augmente.",
+    "body": "On parle principalement de Lune croissante entre la Nouvelle Lune et la Pleine Lune. Par extension, une plan\u00e8te est dite croissante par rapport au Soleil lorsqu\u2019elle s\u2019en \u00e9loigne pour rejoindre l\u2019opposition. Symboliquement, la phase croissante repr\u00e9sente l\u2019ext\u00e9riorisation, l\u2019accumulation d\u2019exp\u00e9rience et la construction de formes concr\u00e8tes dans le monde.",
+    "related": ["Phases Lunaires", "D\u00e9croissante", "Synodique"]
+  },
+   {
+    "term": "Culminante (Plan\u00e8te)",
+    "slug": "culminante",
+    "category": "concept",
+    "short": "Plan\u00e8te situ\u00e9e au point le plus haut du th\u00e8me, proche du Milieu du Ciel.",
+    "body": "La plan\u00e8te culminante est l\u2019un des plus puissants indicateurs de la vocation et de la visibilit\u00e9 publique. Elle \u00ab colore \u00bb l\u2019ensemble du th\u00e8me par son \u00e9nergie, car elle est l\u2019astre le plus visible au moment de la naissance. Elle indique souvent la nature de la r\u00e9ussite sociale et la mani\u00e8re dont l\u2019individu est per\u00e7u par la collectivit\u00e9.",
+    "related": ["Milieu du Ciel", "Maison X", "Angularit\u00e9"]
+  },
+  {
+    "term": "Cuspide",
+    "slug": "cuspide",
+    "category": "maison",
+    "short": "La pointe ou la ligne de démarcation marquant le début d'une maison astrologique.",
+    "body": "La cuspide est le degré précis où commence une maison. La planète qui gouverne le signe sur lequel tombe la cuspide est appelée 'Maître de la Maison'. En astrologie, on considère qu'une planète située juste avant une cuspide (à 2 ou 3 degrés) appartient déjà à la maison suivante.",
+    "related": ["Maisons", "Domification", "Maître de maison"]
+  }, 
+  {
+    "term": "Cycle",
+    "slug": "cycle",
+    "category": "concept",
+    "short": "Retour p\u00e9riodique d\u2019un astre \u00e0 une position donn\u00e9e ou relation entre deux astres.",
+    "body": "L\u2019astrologie est une science des cycles. On distingue le cycle individuel (r\u00e9volution d\u2019une plan\u00e8te vers sa position natale, ex: retour de Saturne \u00e0 29 ans) et le cycle synodique (rencontre de deux plan\u00e8tes, ex: cycle Jupiter-Saturne). Chaque cycle comporte une phase de semence (conjonction), de crise (carr\u00e9), d\u2019\u00e9panouissement (opposition) et de bilan.",
+    "related": ["R\u00e9volution", "Transit", "Synodique"]
   }
 ]

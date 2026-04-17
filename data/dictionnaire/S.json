@@ -1,5 +1,38 @@
 [
   {
+    "term": "Semi-arc",
+    "slug": "semi-arc",
+    "category": "technique",
+    "short": "Moiti\u00e9 de l\u2019arc diurne ou nocturne d\u2019une plan\u00e8te.",
+    "body": "Le semi-arc repr\u00e9sente le temps mis par un astre pour aller de l\u2019horizon au m\u00e9ridien (semi-arc diurne) ou du m\u00e9ridien \u00e0 l\u2019horizon (semi-arc nocturne). C\u2019est une notion technique cruciale pour les syst\u00e8mes de domification temporels comme Placidus. Il permet de diviser l\u2019espace de mani\u00e8re dynamique en tenant compte de la vitesse de rotation de la Terre et de la latitude du lieu.",
+    "related": ["Placidus", "Domification", "M\u00e9ridien"]
+  },
+  {
+    "term": "Semi-sextile",
+    "slug": "semi-sextile",
+    "category": "concept",
+    "short": "Aspect mineur de 30° reliant deux signes consécutifs.",
+    "body": "Le semi-sextile est un aspect de 30 degrés. Puisqu'il relie des signes qui se suivent, il met en contact des énergies très différentes mais contiguës. Son influence est souvent considérée comme faible ou neutre, agissant comme un lien de croissance subtil. Il oblige l'individu à intégrer l'étape suivante ou précédente de son évolution. Bien que traditionnellement mineur, il peut indiquer une friction nécessaire pour passer d'un état de conscience à un autre.",
+    "related": ["Aspect", "Sextile", "Zodiaque"]
+  },
+  {
+    "term": "Semi-carré",
+    "slug": "semi-carre",
+    "category": "aspect",
+    "short": "Aspect mineur de 45° indiquant une tension modérée entre deux planètes.",
+    "body": "Le semi-carré est un aspect de 45 degrés, soit la moitié d'un carré. Il est considéré comme un aspect tendu, mais moins intense que le carré lui-même. Le semi-carré génère une irritation ou une frustration qui pousse à l'action, mais sans la crise ouverte du carré. Il peut indiquer des défis mineurs ou des obstacles à surmonter, souvent liés à des ajustements nécessaires dans la vie du natif. L'orbe généralement accordée au semi-carré est de 2 degrés.",
+    "related": ["Aspect", "Carré", "Dissonance"]
+  },
+  {
+    "term": "Séparation",
+    "slug": "separation",
+    "category": "concept",
+    "short": "Moment où deux planètes s'éloignent de l'aspect exact.",
+    "body": "La séparation survient quand la planète la plus rapide dépasse le degré de l'aspect exact avec une autre planète. L'influence de l'aspect diminue progressivement. En astrologie natale, cela peut indiquer une expérience déjà intégrée ou un trait de caractère moins impérieux. En astrologie prévisionnelle, un aspect séparatif indique souvent que l'événement majeur est déjà passé.",
+    "related": ["Application", "Orbe", "Aspect"]
+  },
+ 
+  {
     "term": "Sesqui-carr\u00e9",
     "slug": "sesqui-carre",
     "category": "aspect",
@@ -15,12 +48,61 @@
     "body": "Le sextile est un aspect majeur harmonique de 60\u00b0 (orbe de 4\u00b0 \u00e0 6\u00b0). Il relie g\u00e9n\u00e9ralement deux plan\u00e8tes situ\u00e9es dans des signes de m\u00eame polarit\u00e9 (\u00e9l\u00e9ments compatibles : Feu-Air ou Terre-Eau). Le sextile offre des opportunit\u00e9s, des ouvertures, des talents qui demandent un l\u00e9ger effort pour se manifester. C\u2019est un aspect moins puissant que le trigone (qui donne sans demander) mais plus constructif, car il stimule l\u2019initiative. Un sextile Mercure-Jupiter ouvre l\u2019esprit aux langues \u00e9trang\u00e8res et aux \u00e9tudes sup\u00e9rieures, mais le natif devra saisir cette chance activement. La tradition astrologique r\u00e9sume bien la diff\u00e9rence : \u00ab Le trigone est un cadeau, le sextile est une porte ouverte \u2014 encore faut-il la franchir. \u00bb En interpr\u00e9tation, les sextiles indiquent les domaines o\u00f9 le natif peut progresser avec un effort mod\u00e9r\u00e9.",
     "related": ["Trigone", "Aspect", "Conjonction"]
   },
-  {
+
+    {
     "term": "Sid\u00e9ral",
     "slug": "sideral",
+    "category": "astronomique",
+    "short": "Syst\u00e8me de r\u00e9f\u00e9rence bas\u00e9 sur les \u00e9toiles fixes.",
+    "body": "L\u2019astrologie sid\u00e9rale (utilis\u00e9e en Inde sous le nom de Jyotish) s\u2019appuie sur la position r\u00e9elle des constellations dans le ciel. Elle s\u2019oppose au syst\u00e8me tropical (occidental) qui se base sur les saisons. Le d\u00e9calage entre les deux syst\u00e8mes, appel\u00e9 Ayanamsa, est d\u2019environ 24 degr\u00e9s aujourd\u2019hui. Le temps sid\u00e9ral est \u00e9galement utilis\u00e9 par tous les astrologues pour calculer la domification (les maisons) d\u2019un th\u00e8me.",
+    "related": ["Zodiaque", "Tropical", "Ayanamsa", "Constellations"]
+  },
+   {
+    "term": "Signe",
+    "slug": "signe",
     "category": "concept",
-    "short": "Syst\u00e8me de r\u00e9f\u00e9rence zodiacal bas\u00e9 sur la position r\u00e9elle des constellations dans le ciel.",
-    "body": "Le zodiaque sid\u00e9ral est un syst\u00e8me de r\u00e9f\u00e9rence qui s\u2019aligne sur la position astronomique r\u00e9elle des constellations. Il s\u2019oppose au zodiaque tropique \u2014 utilis\u00e9 par l\u2019immense majorit\u00e9 des astrologues occidentaux \u2014 qui est cal\u00e9 sur les saisons (le point vernal, 0\u00b0 B\u00e9lier, correspond \u00e0 l\u2019\u00e9quinoxe de printemps). En raison de la pr\u00e9cession des \u00e9quinoxes, les deux zodiacs se d\u00e9calent d\u2019environ 1\u00b0 tous les 72 ans. Aujourd\u2019hui, l\u2019\u00e9cart (appel\u00e9 ayanamsa) est d\u2019environ 24\u00b0. L\u2019astrologie v\u00e9dique (Jyotish) utilise le zodiaque sid\u00e9ral ; l\u2019astrologie occidentale utilise le tropical. Les deux syst\u00e8mes sont coh\u00e9rents au sein de leur propre cadre : ils ne se \u00ab contredisent \u00bb pas, ils observent le ciel depuis deux r\u00e9f\u00e9rentiels diff\u00e9rents. Le d\u00e9bat tropical vs sid\u00e9ral est l\u2019un des plus anciens et des plus passionn\u00e9s de l\u2019astrologie.",
-    "related": ["Zodiaque", "\u00c9toiles fixes", "Degr\u00e9"]
-  }
+    "short": "Division du zodiaque en 12 parties de 30° chacune, chacune ayant des caractéristiques spécifiques.",
+    "body": "Le zodiaque est divisé en 12 signes de 30 degrés chacun, correspondant aux constellations que le Soleil traverse au cours de l'année. Chaque signe possède des qualités, des éléments et des modes qui lui sont propres, influençant la manière dont les planètes s'expriment lorsqu'elles y sont positionnées. Les signes sont les suivants : Bélier, Taureau, Gémeaux, Cancer, Lion, Vierge, Balance, Scorpion, Sagittaire, Capricorne, Verseau et Poissons. Ils forment la base de l'interprétation astrologique et colorent tous les aspects du thème natal.",
+    "related": ["Zodiaque", "Élément", "Mode", "Planète"]
+   },
+  {
+    "term": "Significateur",
+    "slug": "significateur",
+    "category": "concept",
+    "short": "Plan\u00e8te ou point d\u00e9sign\u00e9 pour repr\u00e9senter un domaine pr\u00e9cis de la vie.",
+    "body": "On distingue les significateurs naturels (ex: V\u00e9nus pour l\u2019amour, Saturne pour la mort ou la structure) et les significateurs accidentels (le ma\u00eetre de la Maison II pour les finances, ou de la Maison VII pour le mariage). L\u2019art de l\u2019interpr\u00e9tation consiste \u00e0 synth\u00e9tiser l\u2019action du significateur naturel et celle du ma\u00eetre de maison pour pr\u00e9dire l\u2019\u00e9volution d\u2019un domaine sp\u00e9cifique.",
+    "related": ["Ma\u00eetrise", "Maisons", "Dignit\u00e9s"]
+  },
+  {
+    "term": "Stationnaire",
+    "slug": "stationnaire",
+    "category": "concept",
+    "short": "Moment où une planète semble s'arrêter avant de changer de direction.",
+    "body": "La station se produit au début et à la fin d'une phase de rétrogradation. Une planète stationnaire voit son influence considérablement amplifiée dans le thème : elle est comme 'focalisée' sur un point précis du zodiaque. Une planète stationnaire-directe est souvent vue comme très positive, car elle s'apprête à libérer son énergie après une phase de recul.",
+    "related": ["Rétrogradation", "Direct"]
+  },
+  {
+    "term": "Stellium",
+    "slug": "stellium",
+    "category": "concept",
+    "short": "Concentration d'au moins trois (parfois quatre) planètes dans un même signe ou une même maison.",
+    "body": "Le stellium (ou amas planétaire) crée une focalisation énergétique massive dans un domaine de la vie ou un type de caractère. Cette concentration rend l'individu très typé par le signe concerné, occultant parfois même l'importance du signe solaire ou de l'Ascendant. C'est un point de force mais aussi un défi, car tous les transits sur cette zone impactent plusieurs planètes simultanément.",
+    "related": ["Amas", "Conjonction", "Thème natal"]
+  },
+   {
+    "term": "Synastrie",
+    "slug": "synastrie",
+    "category": "technique",
+    "short": "Technique de comparaison de deux thèmes nataux pour analyser une relation.",
+    "body": "La synastrie consiste à superposer le thème de deux individus pour observer comment les planètes de l'un interagissent avec les planètes et les maisons de l'autre. On analyse les aspects inter-thèmes (par exemple, la Vénus de A sur le Mars de B) pour comprendre la compatibilité, les points de tension et la dynamique relationnelle. C'est l'outil principal de l'astrologie relationnelle, qu'elle soit amoureuse, familiale ou professionnelle.",
+    "related": ["Thème Composite", "Inter-aspects", "Relationnel"]
+  },
+  {
+    "term": "Système de domification",
+    "slug": "systeme-de-domification",
+    "category": "concept",
+    "short": "Méthode de division du thème natal en 12 maisons, influençant l'interprétation des planètes.",
+    "body": "Le système de domification détermine comment les 12 maisons astrologiques sont réparties dans les signes du zodiaque. Il existe plusieurs systèmes, chacun avec ses propres règles pour calculer les cuspides des maisons. Les plus courants sont Placidus, Koch, Campanus, Regiomontanus et Equal House. Le choix du système peut influencer l'interprétation du thème natal, notamment la position des planètes dans les maisons et les aspects qu'elles forment avec les cuspides. Certains astrologues préfèrent un système pour sa simplicité, d'autres pour sa précision astronomique ou sa pertinence symbolique.",
+    "related": ["Maison", "Cuspide", "Thème natal"]
+   }
 ]

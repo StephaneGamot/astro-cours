@@ -1,5 +1,13 @@
 [
   {
+    "term": "Vesta",
+    "slug": "vesta",
+    "category": "plan\u00e8te",
+    "short": "Ast\u00e9ro\u00efde de la d\u00e9votion, du foyer int\u00e9rieur et du focus.",
+    "body": "Vesta symbolise le feu sacr\u00e9, le d\u00e9vouement \u00e0 une cause ou \u00e0 une pratique. Elle repr\u00e9sente la capacit\u00e9 de se concentrer intens\u00e9ment sur un objectif en sacrifiant parfois les plaisirs personnels. Elle est li\u00e9e \u00e0 la puret\u00e9 d\u2019intention et au travail solitaire.",
+    "related": ["Travail", "Spirituel", "Concentration"]
+  },
+  {
     "term": "Vicieux (aspect)",
     "slug": "vicieux-aspect",
     "category": "aspect",

@@ -14,5 +14,39 @@
     "short": "Bande céleste de 360° divisée en douze signes de 30° chacun, cadre de référence de l'astrologie.",
     "body": "Le zodiaque est la bande de ciel de 360° centrée sur l'écliptique (le plan de l'orbite terrestre autour du Soleil) dans laquelle se déplacent les planètes du système solaire. Il est divisé en douze signes de 30° chacun, du Bélier aux Poissons. Il existe deux zodiacs : le zodiaque tropique, fondé sur les saisons et utilisé en astrologie occidentale, et le zodiaque sidéral, calé sur les constellations et utilisé en astrologie védique. Le zodiaque tropique commence au point vernal (0° Bélier = équinoxe de printemps). Le mot « zodiaque » vient du grec zōidiakos kyklos, « cercle des petits animaux », en référence aux figures animales des constellations. Le zodiaque est le cadre fondamental de l'astrologie : c'est lui qui détermine les signes dans lesquels se trouvent les planètes, l'Ascendant et les cuspides des maisons.",
     "related": ["Sidéral", "Étoiles fixes", "Ascendant", "Degré"]
+  },
+  {
+    "term": "Zodiaque Tropical",
+    "slug": "zodiaque-tropical",
+    "category": "concept",
+    "short": "Zodiaque basé sur les saisons, commençant au point vernal (0° Bélier).",
+    "body": "Le zodiaque tropical est celui utilisé par la quasi-totalité des astrologues occidentaux. Il ne repose pas sur les constellations physiques mais sur le rapport Terre-Soleil. Le 0° du Bélier correspond à l'équinoxe de printemps. Ce zodiaque symbolise l'évolution psychologique humaine en lien avec les cycles de la nature terrestre.",
+    "related": ["Zodiaque Sidéral", "Équinoxes", "Précession des équinoxes"]
+  },
+  {
+    "term": "Zodiaque Sidéral",
+    "slug": "zodiaque-sideral",
+    "category": "concept",
+    "short": "Zodiaque basé sur les constellations réelles du ciel.",
+    "body": "Le zodiaque sidéral est principalement utilisé en astrologie védique (Inde) et par certains astrologues occidentaux. Il tient compte de la précession des équinoxes, ce qui crée actuellement un décalage d'environ 24 degrés avec le zodiaque tropical. Pour le zodiaque sidéral, le signe correspond à la position réelle des étoiles en arrière-plan des planètes.",
+    "related": ["Zodiaque Tropical", "Précession des équinoxes"]
+  },
+  {
+    "term": "Zodiaque des étoiles fixes",
+    "slug": "zodiaque-etoiles-fixes",
+    "category": "concept",
+    "short": "Zodiaque basé sur les constellations réelles, incluant les étoiles fixes.",
+    "body": "Le zodiaque des étoiles fixes est une approche plus ancienne et plus astronomique de l'astrologie, qui considère non seulement les planètes mais aussi les étoiles fixes (étoiles brillantes avec des positions relativement stables). Ces étoiles sont réparties dans les constellations du zodiaque et ont des significations spécifiques. Par exemple, l'étoile fixe Régulus en Lion est associée à la royauté et à la noblesse. Cette approche est moins courante aujourd'hui mais offre une dimension supplémentaire d'interprétation.",
+    "related": ["Zodiaque Sidéral", "Zodiaque Tropical", "Étoiles fixes"]
   }
+  ,
+  {
+    "term": "Zodiaque des constellations",
+    "slug": "zodiaque-constellations",
+    "category": "concept",
+    "short": "Zodiaque basé sur les constellations réelles, avec des divisions inégales.",
+    "body": "Le zodiaque des constellations est une approche qui divise le ciel en fonction des constellations réelles, sans les réduire à des segments de 30°. Les constellations du zodiaque ont des tailles très différentes : la Vierge couvre environ 44°, tandis que le Scorpion n'en couvre que 7°. Cette méthode est plus fidèle à l'astronomie mais moins pratique pour l'astrologie, car elle complique les calculs et les interprétations. Elle est rarement utilisée dans la pratique astrologique moderne.",
+    "related": ["Zodiaque Sidéral", "Zodiaque Tropical", "Étoiles fixes"]
+  }
+  
 ]

@@ -8,6 +8,38 @@
     "related": ["Maison VIII", "Ascendant", "Carte du ciel"]
   },
   {
+    "term": "Th\u00e8me",
+    "slug": "theme",
+    "category": "technique",
+    "short": "Carte du ciel repr\u00e9sentant les positions plan\u00e9taires \u00e0 un moment pr\u00e9cis.",
+    "body": "Le th\u00e8me (du grec \u00ab thema \u00bb, ce qui est pos\u00e9) est le diagramme circulaire divis\u00e9 en 12 signes et 12 maisons. Il constitue l\u2019outil de travail principal de l\u2019astrologue. Qu\u2019il soit natal, horaire ou mondial, il fige une configuration cosmique pour en extraire un sens symbolique. Le th\u00e8me est un miroir des forces en pr\u00e9sence, un potentiel \u00e0 d\u00e9ployer.",
+    "related": ["Radix", "Domification", "Interpr\u00e9tation"]
+  },
+  {
+    "term": "Th\u00e8me de naissance",
+    "slug": "theme-de-naissance",
+    "category": "concept",
+    "short": "Carte du ciel dress\u00e9e pour le moment et le lieu exacts de la naissance d\u2019un individu.",
+    "body": "Le th\u00e8me de naissance, ou th\u00e8me natal, est la photographie du ciel au moment pr\u00e9cis de la naissance, vue depuis le lieu de naissance. Il constitue le document fondateur de toute \u00e9tude astrologique individuelle. Le th\u00e8me de naissance comprend : la position des dix plan\u00e8tes dans les signes et les maisons, les aspects (angles) entre les plan\u00e8tes, l'Ascendant, le Milieu du Ciel, et \u00e9ventuellement des points fictifs (N\u0153uds lunaires, Lilith, parts arabes). Pour le calculer, trois donn\u00e9es sont indispensables : la date, l'heure exacte et le lieu de naissance. Le th\u00e8me de naissance ne change jamais \u2014 il repr\u00e9sente le potentiel de base du natif. C'est ensuite par les transits, les progressions et les r\u00e9volutions solaires que l'astrologue observe comment ce potentiel se d\u00e9ploie dans le temps.",
+    "related": ["Radix", "Carte du ciel", "Ascendant", "Thème Composite"]
+  },
+  {
+    "term": "Thème Composite",
+    "slug": "theme-composite",
+    "category": "technique",
+    "short": "Thème unique créé à partir des points médians de deux thèmes, représentant la relation elle-même.",
+    "body": "Contrairement à la synastrie qui compare deux individus, le thème composite fusionne deux thèmes en un seul en calculant les points mi-distance (midpoints) de chaque planète. Ce thème ne représente ni l'un ni l'autre des partenaires, mais l'entité 'Couple' ou 'Relation'. Il décrit le but de la relation, son destin propre et la manière dont elle fonctionne comme une unité autonome face au monde.",
+    "related": ["Synastrie", "Mi-points", "Relationnel"]
+  },
+  {
+    "term": "Termes",
+    "slug": "termes",
+    "category": "concept",
+    "short": "Subdivisions inégales de chaque signe zodiacal, gouvernées par les planètes sauf les luminaires.",
+    "body": "Chaque signe de 30° est divisé en cinq segments appelés 'Termes', chacun étant attribué à l'une des cinq planètes traditionnelles (Mercure, Vénus, Mars, Jupiter, Saturne). La planète qui gouverne le terme où se trouve un astre y imprime sa 'manière d'être'. C'est une dignité subtile utilisée pour affiner les descriptions de caractère ou pour la technique des directions primaires. Les deux systèmes les plus connus sont les Termes Égyptiens et les Termes Ptolémaïques.",
+    "related": ["Dignité", "Décans", "Almuten"]
+  },
+  {
     "term": "Terre",
     "slug": "terre",
     "category": "concept",
@@ -32,6 +64,14 @@
     "related": ["Radix", "Carte du ciel", "Ascendant", "Transit"]
   },
   {
+    "term": "Transaturnien",
+    "slug": "transaturnien",
+    "category": "concept",
+    "short": "Terme désignant les planètes situées au-delà de l'orbite de Saturne : Uranus, Neptune et Pluton.",
+    "body": "Les transaturniennes (ou planètes collectives/générationnelles) n'étaient pas connues de l'astrologie ancienne. Elles symbolisent des forces qui dépassent le contrôle individuel : révolutions, inconscient collectif, transformations lentes et profondes. En raison de leur lenteur, elles marquent des générations entières plutôt que des caractères purement personnels, sauf lorsqu'elles sont en aspect étroit avec un luminaire ou un angle.",
+    "related": ["Uranus", "Neptune", "Pluton", "Planètes"]
+  },
+  {
     "term": "Transit",
     "slug": "transit",
     "category": "concept",
@@ -40,11 +80,27 @@
     "related": ["Thème natal", "Radix", "Révolution solaire", "Pluton"]
   },
   {
+    "term": "Trigoncratie",
+    "slug": "trigoncratie",
+    "category": "concept",
+    "short": "Dignité d'une planète se trouvant dans un signe de même élément (triplicité) qu'elle gouverne.",
+    "body": "La trigoncratie (ou maîtrise par triplicité) est une dignité essentielle mineure. Elle indique qu'une planète dispose de ressources et de soutiens contextuels. En astrologie médiévale et de la Renaissance, on utilise des maîtres différents selon que le thème est diurne (né le jour) ou nocturne (né la nuit). Une planète en trigoncratie est comme un invité qui se sent à l'aise chez des amis : elle n'est pas le maître des lieux, mais elle bénéficie de conditions favorables pour agir.",
+    "related": ["Triplicité", "Dignité", "Almuten"]
+  },
+  {
     "term": "Trigone",
     "slug": "trigone",
     "category": "aspect",
     "short": "Aspect harmonique majeur formé par un angle de 120° entre deux planètes.",
     "body": "Le trigone est l'aspect harmonique par excellence. Il se forme lorsque deux planètes sont séparées de 120° (orbe de 6° à 8°), ce qui correspond généralement à des planètes situées dans des signes du même élément (Feu-Feu, Terre-Terre, Air-Air, Eau-Eau). Le trigone indique un flux naturel d'énergie entre les deux planètes : les fonctions qu'elles représentent coopèrent spontanément, sans effort apparent. Un trigone Vénus-Jupiter favorise l'épanouissement affectif et la générosité. Un trigone Soleil-Mars confère une vitalité et une confiance naturelles. Le trigone est parfois critiqué pour sa facilité : parce qu'il donne sans exiger, il peut mener à la passivité ou au gaspillage de talent. La tradition résume : « Le trigone est un don du ciel, mais il faut encore en faire quelque chose. » En interprétation, les trigones révèlent les ressources innées du natif.",
     "related": ["Sextile", "Aspect", "Carré", "Conjonction"]
+  },
+  {
+    "term": "Triplicité",
+    "slug": "triplicite",
+    "category": "concept",
+    "short": "Regroupement des douze signes en quatre groupes de trois, selon leur élément.",
+    "body": "La triplicité divise le zodiaque par élément : le Feu (Bélier, Lion, Sagittaire), la Terre (Taureau, Vierge, Capricorne), l'Air (Gémeaux, Balance, Verseau) et l'Eau (Cancer, Scorpion, Poissons). Chaque triplicité partage une nature élémentaire commune qui influence le tempérament de base. En astrologie traditionnelle, chaque triplicité est gouvernée par un groupe de planètes 'maîtres de triplicité' qui varient selon le cycle jour/nuit du thème.",
+    "related": ["Éléments", "Trigoncratie", "Quadruplicité"]
   }
 ]

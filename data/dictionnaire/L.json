@@ -1,1 +1,58 @@
-[]
+[
+    {
+    "term": "Latitude",
+    "slug": "latitude",
+    "category": "astronomique",
+    "short": "Distance angulaire d\u2019un lieu par rapport \u00e0 l\u2019\u00e9quateur.",
+    "body": "La latitude terrestre est cruciale pour le calcul de l\u2019Ascendant et la d\u00e9t\u00e9rmination de la taille des maisons dans la plupart des syst\u00e8mes de domification. Plus on s\u2019approche des p\u00f4les, plus les maisons deviennent in\u00e9gales, ce qui modifie la r\u00e9partition des plan\u00e8tes dans le th\u00e8me.",
+    "related": ["Longitude", "Domification", "Cuspide"]
+  },
+  {
+    "term": "Longitude",
+    "slug": "longitude",
+    "category": "astronomique",
+    "short": "Position d\u2019un lieu (Est/Ouest) ou d\u2019un astre sur l\u2019\u00e9cliptique.",
+    "body": "En astrologie, la longitude c\u00e9leste est la mesure de la position d\u2019une plan\u00e8te de 0\u00b0 \u00e0 360\u00b0 le long du zodiaque, en partant du point vernal. C\u2019est cette donn\u00e9e qui nous indique dans quel signe et \u00e0 quel degr\u00e9 se trouve une plan\u00e8te (ex: 15\u00b0 Lion).",
+    "related": ["\u00c9cliptique", "Point Vernal", "Zodiaque"]
+  },
+    {
+    "term": "Luminaires",
+    "slug": "luminaires",
+    "category": "concept",
+    "short": "Terme regroupant le Soleil et la Lune, les deux sources de lumi\u00e8re du ciel.",
+    "body": "Les Luminaires occupent une place hi\u00e9rarchique sup\u00e9rieure aux autres plan\u00e8tes. Le Soleil (Luminaire diurne) repr\u00e9sente la conscience, l\u2019esprit, la volont\u00e9 et le p\u00e8re. La Lune (Luminaire nocturne) incarne l\u2019inconscient, l\u2019instinct, les \u00e9motions et la m\u00e8re. Contrairement aux plan\u00e8tes, les Luminaires ne r\u00e9trogradent jamais. Ils sont les piliers de la personnalit\u00e9 : le Soleil donne la direction et le but, tandis que la Lune fournit le carburant \u00e9motionnel et la capacit\u00e9 de r\u00e9action. Leur relation (phases de la Lune) au moment de la naissance est d\u00e9terminante pour l\u2019\u00e9quilibre int\u00e9rieur.",
+    "related": ["Soleil", "Lune", "Phases Lunaires", "Hyleg"]
+  },
+  {
+    "term": "Lunaison",
+    "slug": "lunaison",
+    "category": "astronomique",
+    "short": "Cycle complet de la Lune par rapport au Soleil, d\u2019environ 29,5 jours.",
+    "body": "Aussi appel\u00e9e mois synodique, la lunaison d\u00e9finit les phases lunaires (Nouvelle Lune, Premier Quartier, Pleine Lune, Dernier Quartier). En astrologie, la lunaison de naissance (phase o\u00f9 se trouvait la Lune) d\u00e9termine le temp\u00e9rament de base de l\u2019individu : les \u00e9veill\u00e9s de Nouvelle Lune sont des pionniers instinctifs, tandis que ceux de Pleine Lune vivent dans la recherche d\u2019\u00e9quilibre et d\u2019objectivit\u00e9.",
+    "related": ["Phases Lunaires", "Soleil", "Lune", "Cycle Synodique"]
+  },
+  {
+    "term": "Lune Noire Moyenne",
+    "slug": "lune-noire-moyenne",
+    "category": "point fictif",
+    "short": "Position moyenne de la Lune Noire, calculée à partir de l\u2019apogée lunaire.",
+    "body": "La Lune Noire Moyenne est une position fictive calculée à partir de l\u2019apogée lunaire, mais en utilisant une moyenne mathématique plutôt que la position réelle. Certains astrologues préfèrent cette méthode pour sa simplicité et sa régularité, tandis que d'autres considèrent que la Lune Noire Vraie, qui suit l'apogée réelle, offre une lecture plus précise. Le choix entre les deux dépend souvent de l'approche astrologique adoptée.",
+    "related": ["Lune Noire Vraie", "Apogée lunaire", "Astrologie"]
+  },
+  {
+    "term": "Lune Noire (Lilith)",
+    "slug": "lune-noire-lilith",
+    "category": "point fictif",
+    "short": "Point focal vide de l\u2019orbite lunaire, symbolisant l\u2019ombre, le d\u00e9sir brut et le refus des compromis.",
+    "body": "La Lune Noire n\u2019est pas un corps c\u00e9leste, mais le second foyer de l\u2019ellipse lunaire (l\u2019apog\u00e9e). Elle repr\u00e9sente une part d\u2019ombre psychologique, un vide fascinant ou une blessure originelle. Lilith incarne la r\u00e9volte, l\u2019indomptable, la sexualit\u00e9 instinctive et la recherche d\u2019absolu. Dans un th\u00e8me, elle indique o\u00f9 l\u2019individu refuse de se soumettre et o\u00f9 il cherche une v\u00e9rit\u00e9 sans fard.",
+    "related": ["Lune", "Inconscient", "F\u00e9minin sacr\u00e9"]
+  },
+  {
+    "term": "Lune Noire Vraie",
+    "slug": "lune-noire-vraie",
+    "category": "point fictif",
+    "short": "Position réelle de la Lune Noire, calculée à partir de l\u2019apog\u00e9e lunaire.",
+    "body": "La Lune Noire Vraie est la position réelle de la Lune Noire, calculée à partir de l\u2019apog\u00e9e lunaire. Elle peut différer de la Lune Noire Moyenne, qui est une moyenne mathématique. Certains astrologues préfèrent utiliser la Lune Noire Vraie pour une lecture plus précise, tandis que d'autres considèrent que la Lune Noire Moyenne a une valeur symbolique plus forte. Le choix entre les deux dépend souvent de l'approche astrologique adoptée.",
+    "related": ["Lune Noire Moyenne", "Apogée lunaire", "Astrologie"]
+  }
+]

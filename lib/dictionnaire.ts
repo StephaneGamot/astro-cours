@@ -37,7 +37,13 @@ export type DictCategory =
   | "maison"
   | "aspect"
   | "concept"
-  | "point fictif";
+  | "point fictif"
+  | "technique"
+  | "personnalité"
+  | "astronomique"
+  | "branche"
+  | "constellation";
+  
 
 export interface DictEntry {
   term: string;
@@ -51,16 +57,37 @@ export interface DictEntry {
 
 /* ── Fusion ── */
 const ALL_RAW = [
-  ...A, ...B, ...C, ...D, ...E, ...F,
-  ...G, ...H, ...I, ...J, ...K, ...L,
-  ...M, ...N, ...O, ...P, ...Q, ...R,
-  ...S, ...T, ...U, ...V, ...W, ...X,
-  ...Y, ...Z,
+  ...A,
+  ...B,
+  ...C,
+  ...D,
+  ...E,
+  ...F,
+  ...G,
+  ...H,
+  ...I,
+  ...J,
+  ...K,
+  ...L,
+  ...M,
+  ...N,
+  ...O,
+  ...P,
+  ...Q,
+  ...R,
+  ...S,
+  ...T,
+  ...U,
+  ...V,
+  ...W,
+  ...X,
+  ...Y,
+  ...Z,
 ] as DictEntry[];
 
 /** Toutes les entrées triées alphabétiquement (français). */
 export const ENTRIES: DictEntry[] = ALL_RAW.sort((a, b) =>
-  a.term.localeCompare(b.term, "fr", { sensitivity: "base" })
+  a.term.localeCompare(b.term, "fr", { sensitivity: "base" }),
 );
 
 /** Regroupe les entrées par première lettre. */

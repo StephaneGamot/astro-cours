@@ -1,1 +1,74 @@
-[]
+[
+    {
+    "term": "Incompatibles (Signes)",
+    "slug": "incompatibles",
+    "category": "signe",
+    "short": "Signes dont les \u00e9l\u00e9ments ou les modes entrent en conflit structurel.",
+    "body": "Traditionnellement, les signes en Carr\u00e9 ou en Opposition sont jug\u00e9s incompatibles car ils poursuivent des buts divergents avec des m\u00e9thodes oppos\u00e9es (ex: B\u00e9lier/Feu/Impulsion vs Capricorne/Terre/Patience). Toutefois, en astrologie moderne, cette \u00ab incompatibilit\u00e9 \u00bb est per\u00e7ue comme une tension cr\u00e9atrice n\u00e9cessaire \u00e0 l\u2019\u00e9quilibre de la personnalit\u00e9.",
+    "related": ["Dissonance", "\u00c9l\u00e9ments", "Modes"]
+  }, {
+    "term": "Inconjonction",
+    "slug": "inconjonction",
+    "category": "aspect",
+    "short": "Aspect de 150\u00b0 indiquant une tension subtile entre deux plan\u00e8tes sans aspect majeur.",
+    "body": "L\u2019inconjonction, ou quincunce, est un aspect mineur qui se produit lorsque deux plan\u00e8tes sont s\u00e9par\u00e9es de 150\u00b0. Il indique une relation de tension latente entre les \u00e9nergies des deux plan\u00e8tes, souvent per\u00e7ue comme un d\u00e9calage ou une incompr\u00e9hension mutuelle. L'inconjonction suggère que les deux planètes ont des objectifs ou des modes d'expression différents qui nécessitent un ajustement conscient pour être intégrés harmonieusement dans le thème natal.",
+    "related": ["Aspect", "Tension", "Intégration"]
+  },
+  {
+    "term": "Ingr\u00e8s",
+    "slug": "ingres",
+    "category": "astronomique",
+    "short": "Moment pr\u00e9cis o\u00f9 un astre entre dans un nouveau signe du zodiaque.",
+    "body": "L\u2019ingr\u00e8s marque un changement de climat \u00e9nerg\u00e9tique radical. En astrologie mondiale, l\u2019Ingr\u00e8s Solaire au 0\u00b0 B\u00e9lier (l\u2019\u00e9quinoxe de printemps) est utilis\u00e9 pour dresser un th\u00e8me pr\u00e9visionnel pour l\u2019ann\u00e9e \u00e0 venir pour un pays donn\u00e9. Pour les plan\u00e8tes lentes comme Pluton ou Saturne, l\u2019ingr\u00e8s dans un nouveau signe est un \u00e9v\u00e9nement majeur qui d\u00e9finit les transformations d\u2019une g\u00e9n\u00e9ration ou les d\u00e9fis d\u2019une soci\u00e9t\u00e9. Au niveau individuel, l\u2019ingr\u00e8s d\u2019une plan\u00e8te de transit dans une nouvelle maison du th\u00e8me natal active un nouveau domaine d\u2019exp\u00e9rience concr\u00e8te.",
+    "related": ["Zodiaque", "Transits", "\u00c9quinoxe", "Astrologie Mondiale"]
+  },
+   {
+    "term": "Inharmonieux",
+    "slug": "inharmonieux",
+    "category": "aspect",
+    "short": "Aspects de tension n\u00e9cessitant un effort d\u2019int\u00e9gration.",
+    "body": "Les aspects inharmonieux (carr\u00e9, opposition, parfois le quinconce) cr\u00e9ent un inconfort psychologique ou \u00e9v\u00e9nementiel. Loin d\u2019\u00eatre \u00ab mauvais \u00bb, ils sont les moteurs de la croissance : ils obligent l\u2019individu \u00e0 d\u00e9velopper une conscience accrue et \u00e0 agir pour r\u00e9soudre le conflit. Sans aspects inharmonieux, il n\u2019y a que peu de r\u00e9alisation concr\u00e8te dans une vie.",
+    "related": ["Carr\u00e9", "Opposition", "Dissonance", "Dynamisme"]
+  },
+  {
+    "term": "Int\u00e9gration",
+    "slug": "integration",
+    "category": "concept",
+    "short": "Processus de synth\u00e8se des \u00e9nergies plan\u00e9taires en un tout coh\u00e9rent.",
+    "body": "L\u2019int\u00e9gration est l\u2019objectif ultime de l\u2019analyse astrologique. Il s'agit de comprendre comment les différentes planètes, signes, maisons et aspects interagissent pour former une personnalité unique. L'intégration implique de reconnaître les forces et les faiblesses d'un thème natal, d'accepter les contradictions apparentes et de trouver des moyens de concilier les énergies opposées. C'est un processus dynamique qui évolue tout au long de la vie, permettant à l'individu de grandir et de s'épanouir en harmonie avec son thème astrologique.",
+    "related": ["Synthèse", "Thème Natal", "Énergies Planétaires"]
+  },
+  {
+    "term": "Intercept\u00e9 (Signe)",
+    "slug": "intercepte",
+    "category": "technique",
+    "short": "Signe zodiacal contenu enti\u00e8rement dans une maison sans en toucher les cuspides.",
+    "body": "L\u2019interception se produit dans les syst\u00e8mes de domification in\u00e9gaux (comme Placidus) lorsque l\u2019amplitude d\u2019une maison d\u00e9passe 30 degr\u00e9s. Un signe intercept\u00e9 est per\u00e7u comme une \u00e9nergie \u00ab enferm\u00e9e \u00bb ou comprim\u00e9e. L\u2019individu a souvent du mal \u00e0 exprimer spontan\u00e9ment les qualit\u00e9s de ce signe dans sa jeunesse. Il faut souvent attendre un transit majeur sur les plan\u00e8tes s\u2019y trouvant pour \u00ab lib\u00e9rer \u00bb le potentiel du signe.",
+    "related": ["Maisons", "Domification", "Cuspide"]
+  },
+   {
+    "term": "Interpolation",
+    "slug": "interpolation",
+    "category": "technique",
+    "short": "M\u00e9thode math\u00e9matique pour calculer la position exacte d\u2019un astre entre deux relev\u00e9s.",
+    "body": "Les \u00e9ph\u00e9m\u00e9rides donnent g\u00e9n\u00e9ralement la position des plan\u00e8tes pour minuit ou midi. L\u2019interpolation permet de d\u00e9terminer par r\u00e8gle de trois la position pr\u00e9cise au moment de la naissance. Bien que les logiciels s\u2019en chargent aujourd\u2019hui, c\u2019est un fondement du calcul manuel qui garantit l\u2019exactitude du th\u00e8me, notamment pour la Lune qui se d\u00e9place tr\u00e8s rapidement.",
+    "related": ["\u00c9ph\u00e9m\u00e9rides", "Calcul", "Longitude"]
+  },
+  {
+    "term": "Interpr\u00e9tation",
+    "slug": "interpretation",
+    "category": "concept",
+    "short": "Art de synth\u00e9tiser les multiples symboles d\u2019un th\u00e8me en un discours coh\u00e9rent.",
+    "body": "L\u2019interpr\u00e9tation est le stade ultime de la pratique astrologique. Elle consiste \u00e0 ne pas lire les facteurs isol\u00e9ment (ex: V\u00e9nus en Lion), mais \u00e0 les int\u00e9grer dans un tout global. Une bonne interpr\u00e9tation hi\u00e9rarchise les forces du th\u00e8me (plan\u00e8tes dominantes) et d\u00e9gage les lignes de force de la personnalit\u00e9 et du destin, tout en respectant le niveau de conscience du consultant.",
+    "related": ["Synth\u00e8se", "Symbolisme", "Pratique"]
+  },
+  {
+    "term": "Inversion",
+    "slug": "inversion",
+    "category": "concept",
+    "short": "Renversement de la hi\u00e9rarchie plan\u00e9taire ou des polarit\u00e9s dans un th\u00e8me.",
+    "body": "L'inversion se produit lorsque les planètes d'un thème natal sont disposées de manière à renverser les rôles traditionnels. Par exemple, une planète normalement considérée comme faible (comme Mars en Cancer) peut devenir dominante si elle est en aspect majeur avec le Soleil ou l'Ascendant. De même, les polarités peuvent être inversées : un signe féminin peut exprimer des qualités masculines et vice versa. L'inversion est un phénomène qui souligne la complexité et la singularité de chaque thème natal, montrant que les règles générales de l'astrologie peuvent être contournées ou réinterprétées selon la configuration spécifique du thème.",
+    "related": ["Hiérarchie Planétaire", "Polarités", "Thème Natal"]
+  }
+ 
+]

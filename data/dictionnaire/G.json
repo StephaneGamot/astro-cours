@@ -1,1 +1,32 @@
-[]
+[
+    {
+    "term": "G\u00e9ocentrique",
+    "slug": "geocentrique",
+    "category": "astronomique",
+    "short": "Syst\u00e8me de r\u00e9f\u00e9rence pla\u00e7ant la Terre au centre de l\u2019univers.",
+    "body": "L\u2019astrologie est une discipline g\u00e9ocentrique par nature, car elle \u00e9tudie l\u2019influence des astres tels qu\u2019ils sont per\u00e7us depuis le lieu d\u2019exp\u00e9rience humaine (la Terre). Ce choix n\u2019ignore pas que la Terre tourne autour du Soleil, mais privil\u00e9gie la perspective phénom\u00e9nologique indispensable \u00e0 l\u2019interpr\u00e9tation symbolique.",
+    "related": ["H\u00e9liocentrique", "Astronomie", "Ph\u00e9nom\u00e9nologie"]
+  },
+   {
+    "term": "Gouverneur",
+    "slug": "gouverneur",
+    "category": "concept",
+    "short": "Plan\u00e8te qui exerce son autorit\u00e9 sur un signe, une maison ou le th\u00e8me entier.",
+    "body": "Le gouverneur (ou ma\u00eetre) est le dépositaire de l\u2019\u00e9nergie d\u2019un secteur. Par exemple, le gouverneur de la Maison VII renseigne sur la qualit\u00e9 des contrats et unions. Le \u00ab Gouverneur du Th\u00e8me \u00bb est souvent la plan\u00e8te la plus forte (l\u2019Almuten) ou celle qui ma\u00eetrise l\u2019Ascendant, agissant comme le guide de la destin\u00e9e.",
+    "related": ["Ma\u00eetrise", "Domicile", "Ma\u00eetre de l\u2019Ascendant"]
+  },
+  {
+    "term": "Grand Trigone",
+    "slug": "grand-trigone",
+    "category": "concept",
+    "short": "Figure form\u00e9e par trois plan\u00e8tes reli\u00e9es par des trigones dans le m\u00eame \u00e9l\u00e9ment.",
+    "body": "Le Grand Trigone forme un triangle \u00e9quilat\u00e9ral parfait dans le zodiaque. Il indique une circulation fluide de l\u2019\u00e9nergie, des talents inn\u00e9s et une grande facilit\u00e9 dans l\u2019\u00e9l\u00e9ment concern\u00e9 (Feu, Terre, Air ou Eau). Bien que per\u00e7u comme tr\u00e8s b\u00e9n\u00e9fique, il comporte un pi\u00e8ge : l\u2019inertie. L\u2019\u00e9nergie circulant en circuit ferm\u00e9 sans r\u00e9sistance, l\u2019individu peut manquer de motivation pour se d\u00e9passer ou faire face aux d\u00e9fis concrets, se contentant de ses facilit\u00e9s naturelles.",
+    "related": [
+      "Trigone",
+      "\u00c9l\u00e9ments",
+      "Configuration",
+      "Facilit\u00e9"
+    ]
+  }
+  
+]

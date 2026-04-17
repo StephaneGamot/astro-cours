@@ -14,5 +14,44 @@
     "short": "Marge de tol\u00e9rance en degr\u00e9s accord\u00e9e \u00e0 un aspect pour qu\u2019il soit consid\u00e9r\u00e9 comme actif.",
     "body": "L\u2019orbe est la marge de tol\u00e9rance, mesur\u00e9e en degr\u00e9s, que l\u2019astrologue accorde \u00e0 un aspect pour le consid\u00e9rer comme effectif. Par exemple, un trigone exact est de 120\u00b0 ; avec un orbe de 8\u00b0, deux plan\u00e8tes s\u00e9par\u00e9es de 112\u00b0 \u00e0 128\u00b0 formeront un trigone. Plus l\u2019orbe est serr\u00e9, plus l\u2019aspect est puissant. Un aspect exact (orbe de 0\u00b0 \u00e0 1\u00b0) est consid\u00e9r\u00e9 comme tr\u00e8s fort ; un aspect en orbe large (7\u00b0-8\u00b0) est pr\u00e9sent mais att\u00e9nu\u00e9. Les orbes varient selon les \u00e9coles : l\u2019astrologie traditionnelle utilisait des orbes plan\u00e9taires (chaque plan\u00e8te poss\u00e8de son propre orbe) tandis que l\u2019astrologie moderne utilise g\u00e9n\u00e9ralement des orbes par aspect (8\u00b0-10\u00b0 pour la conjonction, 6\u00b0-8\u00b0 pour le carr\u00e9 et le trigone, 4\u00b0-6\u00b0 pour le sextile). Les luminaires (Soleil, Lune) b\u00e9n\u00e9ficient traditionnellement d\u2019orbes plus larges que les plan\u00e8tes lentes.",
     "related": ["Aspect", "Degr\u00e9", "Carr\u00e9", "Trigone"]
+  },
+  {
+    "term": "Orbite",
+    "slug": "orbite",
+    "category": "astronomique",
+    "short": "Trajectoire d\u00e9crite par un astre autour de son centre de gravit\u00e9.",
+    "body": "L\u2019orbite d\u00e9termine la vitesse de chaque plan\u00e8te et donc la dur\u00e9e de son séjour dans chaque signe. En astrologie, on parle aussi d\u2019\u00ab orbe \u00bb (d\u00e9riv\u00e9 d\u2019orbite) pour d\u00e9signer la zone d\u2019influence d\u2019un aspect. Plus l\u2019orbe est serr\u00e9, plus l\u2019aspect est puissant, car il signifie que les deux plan\u00e8tes sont au plus proche de leur alignement parfait.",
+    "related": ["Orbe", "Cycle", "R\u00e9volution"]
+  },
+  {
+    "term": "Orientation",
+    "slug": "orientation",
+    "category": "concept",
+    "short": "Tendance fondamentale d\u2019un th\u00e8me \u00e0 se diriger vers l\u2019ext\u00e9rieur (diurne) ou l\u2019int\u00e9rieur (nocturne).",
+    "body": "L\u2019orientation d\u2019un th\u00e8me est d\u00e9termin\u00e9e par la position du Soleil : si le Soleil est au-dessus de l\u2019horizon, le th\u00e8me est diurne, sinon il est nocturne. Cette distinction influence la hi\u00e9rarchie des plan\u00e8tes et la dynamique psychologique du natif. Un th\u00e8me diurne privilégie les planètes diurnes (Soleil, Jupiter, Saturne) tandis qu'un th\u00e8me nocturne met en avant les planètes nocturnes (Lune, Vénus, Mars). L'orientation donne une indication sur la manière dont l'individu exprime son énergie : de manière plus extravertie et affirmée pour les diurnes, plus introvertie et réceptive pour les nocturnes.",
+    "related": ["Diurne", "Nocturne", "Secte", "Planètes diurnes et nocturnes"]
+  }, 
+  {
+    "term": "Orion",
+    "slug": "orion",
+    "category": "constellation",
+    "short": "Constellation majeure du ciel d'hiver, symbolisant le chasseur mythique.",
+    "body": "Orion est l'une des constellations les plus reconnaissables du ciel nocturne, visible principalement pendant les mois d'hiver dans l'hémisphère nord. Elle est composée de plusieurs étoiles brillantes, dont Bételgeuse (une supergéante rouge) et Rigel (une supergéante bleue). Dans la mythologie grecque, Orion était un chasseur géant qui a été placé parmi les étoiles par Zeus. En astrologie, Orion n'est pas traditionnellement utilisé comme point de référence, mais il peut être considéré comme un symbole de force, de courage et de quête héroïque.",
+    "related": ["Constellations", "Bételgeuse", "Rigel", "Mythologie"]
+  }, {
+    "term": "Ostentation",
+    "slug": "ostentation",
+    "category": "concept",
+    "short": "Visibilit\u00e9 d\u2019une plan\u00e8te sortant des rayons du Soleil pour devenir visible.",
+    "body": "Historiquement, l\u2019ostentation (ou lever h\u00e9liaque) est un moment cl\u00e9 o\u00f9 une plan\u00e8te, auparavant invisible car trop proche du Soleil, redevient observable \u00e0 l\u2019aube. Symboliquement, cela marque la \u00ab naissance \u00bb de l\u2019influence de la plan\u00e8te dans le monde concret. Une plan\u00e8te en ostentation gagne en autorit\u00e9 et en capacit\u00e9 d\u2019action.",
+    "related": ["Combustion", "Cazimi", "H\u00e9liaque"]
+  },
+  {
+    "term": "Outsider",
+    "slug": "outsider",
+    "category": "concept",
+    "short": "Individu dont le thème natal présente des configurations atypiques ou des planètes en signes rares.",
+    "body": "Un outsider en astrologie est une personne dont le thème natal se démarque par des configurations inhabituelles, telles que des planètes en signes rares (ex: Uranus en Taureau), des amas planétaires dans un signe peu commun, ou des aspects très serrés entre planètes lentes. Ces individus peuvent ressentir une certaine étrangeté ou un sentiment de ne pas appartenir aux normes sociales, mais ils possèdent souvent une perspective unique et une capacité d'innovation. L'astrologie peut aider à comprendre les forces et les défis spécifiques de ces outsiders, ainsi qu'à valoriser leur originalité.",
+    "related": ["Thème natal", "Planètes lentes", "Originalité", "Innovation"]
   }
 ]

@@ -1,11 +1,75 @@
 [
   {
+    "term": "Maisons",
+    "slug": "maisons",
+    "category": "concept",
+    "short": "Douze secteurs de la carte du ciel repr\u00e9sentant les diff\u00e9rents domaines de l\u2019existence.",
+    "body": "Si les signes indiquent \u00ab comment \u00bb l\u2019\u00e9nergie s\u2019exprime, les maisons indiquent \u00ab o\u00f9 \u00bb elle se manifeste concr\u00e8tement. Les 12 maisons couvrent tous les aspects de la vie : l\u2019identit\u00e9 (I), l\u2019argent (II), la communication (III), la famille (IV), les plaisirs (V), le travail (VI), les autres (VII), les crises (VIII), la sagesse (IX), la carri\u00e8re (X), les projets (XI) et les \u00e9preuves (XII).",
+    "related": ["Domification", "Cuspide", "Angles"]
+  },
+  {
+    "term": "Maison I",
+    "slug": "maison-i",
+    "category": "maison",
+    "short": "La maison de l'identité, du corps et de la personnalité.",
+    "body": "La maison I est la porte d'entrée du thème natal. Elle représente le consultant lui-même, son corps physique, son apparence et sa manière d'agir dans le monde. C'est la maison de l'ego, de l'expression personnelle et de la vitalité. La planète qui gouverne la maison I (le Maître de l'Ascendant) est souvent considérée comme la plus importante du thème, car elle indique la direction principale de l'énergie vitale.",
+    "related": ["Ascendant", "Maître de l'Ascendant", "Identité"]
+  },
+  {
+    "term": "Maison II",
+    "slug": "maison-ii",
+    "category": "maison",
+    "short": "La maison des possessions, des ressources et des valeurs personnelles.",
+    "body": "La maison II concerne tout ce qui a de la valeur pour l'individu : les biens matériels, les ressources financières, mais aussi les talents personnels et les valeurs morales. Elle indique comment une personne gagne sa vie, gère ses finances et ce qu'elle considère comme précieux. En analogie avec le Taureau et Vénus, cette maison reflète notre rapport à la sécurité matérielle et à l'estime de soi.",
+    "related": ["Taureau", "Vénus", "Ressources"]
+  },
+  {
     "term": "Maison VIII",
     "slug": "maison-viii",
     "category": "maison",
     "short": "La maison des crises, de la transformation, de la mort symbolique et de la sexualit\u00e9 profonde.",
     "body": "La maison VIII est l\u2019une des maisons les plus intenses et les plus mal comprises du th\u00e8me natal. Traditionnellement associ\u00e9e \u00e0 la mort, elle gouverne en r\u00e9alit\u00e9 tout ce qui touche \u00e0 la transformation profonde : les crises existentielles, les h\u00e9ritages (mat\u00e9riels et psychologiques), la sexualit\u00e9 intime, l\u2019argent des autres (pr\u00eats, imp\u00f4ts, assurances), les pertes et les renaissances. En analogie avec le Scorpion et Pluton, cette maison repr\u00e9sente le processus alchimique de destruction-reconstruction. Une maison VIII charg\u00e9e conf\u00e8re au natif une capacit\u00e9 remarquable \u00e0 traverser les \u00e9preuves et \u00e0 rena\u00eetre, mais aussi une attirance parfois inconsciente pour les situations de crise. En astrologie psychologique, la maison VIII r\u00e9v\u00e8le notre rapport au pouvoir partag\u00e9 dans l\u2019intimit\u00e9, notre capacit\u00e9 \u00e0 nous abandonner \u00e0 l\u2019autre et nos peurs les plus profondes.",
     "related": ["Pluton", "Scorpion", "Maison VII", "Maison XII"]
+  },
+  {
+    "term": "Ma\u00eetre de l\u2019Ascendant",
+    "slug": "maitre-de-l-ascendant",
+    "category": "concept",
+    "short": "Plan\u00e8te r\u00e9gissant le signe o\u00f9 se trouve l\u2019Ascendant, consid\u00e9r\u00e9e comme le pilote du th\u00e8me.",
+    "body": "Souvent confondu avec le \u00ab Gouverneur du Th\u00e8me \u00bb, le Ma\u00eetre de l\u2019Ascendant est la plan\u00e8te la plus personnelle et la plus importante pour l\u2019individu. Il repr\u00e9sente le consultant lui-m\u00eame, son corps physique et sa mani\u00e8re d\u2019agir dans le monde. Sa position en signe et surtout en maison indique vers quel domaine de la vie l\u2019individu dirige prioritairement son \u00e9nergie vitale. Par exemple, si l\u2019on est Ascendant Balance, le Ma\u00eetre de l\u2019Ascendant est V\u00e9nus. Si cette V\u00e9nus se trouve en Maison IX, la qu\u00eate de sens, les voyages ou la philosophie seront les moteurs centraux de l\u2019existence.",
+    "related": ["Ascendant", "Ma\u00eetrise", "Almuten", "Gouverneur"]
+  },
+  {
+    "term": "Masculin (Diurne/Positif)",
+    "slug": "masculin-diurne-positif",
+    "category": "concept",
+    "short": "Polarité énergétique active, extravertie et émettrice.",
+    "body": "Les signes dits 'Masculins' (ou Diurnes / Positifs) comprennent les signes de Feu (Bélier, Lion, Sagittaire) et d'Air (Gémeaux, Balance, Verseau). Cette classification ne concerne pas le genre de l'individu, mais la direction de l'énergie. Ces signes sont orientés vers l'extérieur, l'action, l'expression et la communication. Ils cherchent à influencer leur environnement plutôt qu'à être influencés par lui. Dans un thème, une prédominance de cette polarité favorise l'extraversion et la prise de décision rapide.",
+    "related": ["Féminin", "Feu", "Air", "Polarité"]
+  },
+  {
+    "term": "M\u00e9ridien",
+    "slug": "meridien",
+    "category": "astronomique",
+    "short": "Grand cercle passant par les p\u00f4les c\u00e9lestes, le Z\u00e9nith et le Nadir d\u2019un lieu.",
+    "body": "Le m\u00e9ridien local est l\u2019axe vertical fondamental d\u2019un th\u00e8me. L\u2019intersection de ce cercle avec l\u2019\u00e9cliptique d\u00e9termine l\u2019axe Milieu du Ciel (MC) et Fond du Ciel (FC). En astrologie, il repr\u00e9sente l\u2019axe de l\u2019incarnation sociale et de l\u2019h\u00e9r\u00e9dit\u00e9. Tout astre qui franchit le m\u00e9ridien atteint sa culmination, moment o\u00f9 sa puissance d\u2019influence sur le plan terrestre est \u00e0 son paroxysme.",
+    "related": ["Milieu du Ciel", "Fond du Ciel", "Culmination", "Z\u00e9nith"]
+  },
+  {
+    "term": "Milieu du Ciel",
+    "slug": "milieu-du-ciel",
+    "category": "concept",
+    "short": "Point le plus élevé du thème (Maison X), représentant la destinée sociale et la carrière.",
+    "body": "Le Milieu du Ciel (Medium Coeli ou MC) se situe à l'intersection de l'écliptique et du méridien local au sud. C'est la pointe de la Maison X. Il symbolise l'aspiration ultime de l'individu, sa réussite publique, son statut social et sa vocation professionnelle. Contrairement à l'Ascendant qui représente 'comment' on agit, le MC montre 'ce que' l'on devient aux yeux du monde. Il est souvent lié à la figure du père ou du parent qui incarne l'autorité et la loi sociale. Sa position en signe et les aspects qu'il reçoit indiquent la nature de l'ambition et les facilités ou obstacles rencontrés dans la vie publique.",
+    "related": ["Ascendant", "Maison X", "Fond du Ciel", "Angles"]
+  },
+  {
+    "term": "Mi-point (Midpoint)",
+    "slug": "mi-point",
+    "category": "technique",
+    "short": "Point math\u00e9matique exact situ\u00e9 \u00e0 mi-distance entre deux astres.",
+    "body": "Les mi-points sont des points de fusion \u00e9nerg\u00e9tique. Par exemple, le mi-point Soleil/Lune est consid\u00e9r\u00e9 comme un point vital d\u2019\u00e9quilibre psychique. Cette technique, popularis\u00e9e par l\u2019\u00e9cole allemande de Cosmobiologie (Reinhold Ebertin), permet d\u2019identifier des r\u00e9sonances subtiles entre plan\u00e8tes qui ne forment pas d\u2019aspects classiques par degr\u00e9.",
+    "related": ["Aspects", "Cosmobiologie", "Synth\u00e8se"]
   },
   {
     "term": "Mutable (qualit\u00e9)",

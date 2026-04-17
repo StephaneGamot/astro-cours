@@ -1,1 +1,17 @@
-[]
+[{
+    "term": "Ketu (N\u0153ud Sud / Queue du Dragon)",
+    "slug": "ketu-noeud-sud",
+    "category": "concept",
+    "short": "Point d\u2019intersection descendant de l\u2019orbite lunaire, li\u00e9 au pass\u00e9 et aux acquis.",
+    "body": "Appel\u00e9 Ketu en astrologie indienne ou Queue du Dragon dans la tradition m\u00e9di\u00e9vale, le N\u0153ud Sud repr\u00e9sente ce qui est d\u00e9j\u00e0 ma\u00eetris\u00e9, les habitudes h\u00e9rit\u00e9es ou le karma pass\u00e9. C\u2019est une zone de facilit\u00e9 mais aussi de stagnation potentielle. L\u2019astrologie karmique sugg\u00e8re qu\u2019il faut s\u2019appuyer sur les talents du N\u0153ud Sud pour r\u00e9aliser les objectifs du N\u0153ud Nord.",
+    "related": ["Rahu", "N\u0153ud Nord", "N\u0153uds Lunaires", "D\u00e9tachement"]
+  },
+  {
+    "term": "Karma",
+    "slug": "karma",
+    "category": "concept",
+    "short": "Concept de cause \u00e0 effet spirituelle, liant les actions pass\u00e9es aux exp\u00e9riences pr\u00e9sentes et futures.",
+    "body": "Le karma est une notion centrale dans les philosophies orientales, notamment l'hindouisme et le bouddhisme. En astrologie, il est souvent associé à la position des N\u0153uds Lunaires : le N\u0153ud Sud (Ketu) symbolise le bagage karmique, tandis que le N\u0153ud Nord (Rahu) indique la direction d'évolution. Le thème natal peut révéler les leçons karmiques à travers les aspects formés par les N\u0153uds avec les planètes personnelles. Comprendre son karma astrologique permet de travailler consciemment sur les schémas répétitifs et d'orienter sa vie vers une croissance spirituelle.",
+    "related": ["N\u0153uds Lunaires", "Ketu", "Rahu", "Astrologie karmique"]
+  }
+]
