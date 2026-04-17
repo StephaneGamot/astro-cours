@@ -89,7 +89,8 @@ const CATEGORY_STYLE: Record<
     text: "text-fuchsia-300",
     border: "border-fuchsia-400/20",
     dot: "bg-fuchsia-400",
-  },  technique: {
+  },
+  technique: {
     bg: "bg-cyan-500/10",
     text: "text-cyan-300",
     border: "border-cyan-400/20",
@@ -102,29 +103,29 @@ const CATEGORY_STYLE: Record<
     dot: "bg-orange-400",
   },
   astronomique: {
-  bg: "bg-indigo-500/10",
-  text: "text-indigo-300",
-  border: "border-indigo-400/20",
-  dot: "bg-indigo-400",
-},
-branche: {
-  bg: "bg-lime-500/10",
-  text: "text-lime-300",
-  border: "border-lime-400/20",
-  dot: "bg-lime-400",
-},
-constellation: {
-  bg: "bg-teal-500/10",
-  text: "text-teal-300",
-  border: "border-teal-400/20",
-  dot: "bg-teal-400",
-},
-personnage: {
-  bg: "bg-yellow-500/10",
-  text: "text-yellow-300",
-  border: "border-yellow-400/20",
-  dot: "bg-yellow-400",
-},
+    bg: "bg-indigo-500/10",
+    text: "text-indigo-300",
+    border: "border-indigo-400/20",
+    dot: "bg-indigo-400",
+  },
+  branche: {
+    bg: "bg-lime-500/10",
+    text: "text-lime-300",
+    border: "border-lime-400/20",
+    dot: "bg-lime-400",
+  },
+  constellation: {
+    bg: "bg-teal-500/10",
+    text: "text-teal-300",
+    border: "border-teal-400/20",
+    dot: "bg-teal-400",
+  },
+  personnage: {
+    bg: "bg-yellow-500/10",
+    text: "text-yellow-300",
+    border: "border-yellow-400/20",
+    dot: "bg-yellow-400",
+  },
 };
 
 /* ================================================================== */
@@ -193,22 +194,34 @@ function EntryCard({ entry }: { entry: DictEntry }) {
 
       {entry.related && entry.related.length > 0 && (
         <div className="mt-5 flex flex-wrap items-center gap-2 border-t border-white/[0.06] pt-4">
-          <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-white/30 sm:text-xs">
+          {/* FIX Accessibilité : contraste text-white/30 → text-white/50 */}
+          <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-white/50 sm:text-xs">
             Voir aussi
           </span>
-          {entry.related.map((r) => (
-            <span
-              key={r}
-              className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-0.5 text-xs text-white/50 transition-colors hover:border-white/20 hover:text-white/70"
-            >
-              {r}
-            </span>
-          ))}
+          {/* FIX SEO : <span> → <a> avec href vers l'ancre correspondante */}
+          {entry.related.map((r) => {
+            const relatedSlug = r
+              .toLowerCase()
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")
+              .replace(/\s+/g, "-")
+              .replace(/[^a-z0-9-]/g, "");
+            return (
+              <a
+                key={r}
+                href={`#${relatedSlug}`}
+                className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-0.5 text-xs text-white/60 transition-colors hover:border-white/20 hover:text-white/80"
+              >
+                {r}
+              </a>
+            );
+          })}
         </div>
       )}
     </div>
   );
 }
+
 /* ================================================================== */
 /*  Page                                                              */
 /* ================================================================== */
@@ -269,16 +282,17 @@ export default function DictionnairePage() {
           </span>
         </h1>
 
-        <p className="mx-auto max-w-xl text-sm leading-relaxed text-text/55 sm:text-[0.94rem]">
+        {/* FIX Accessibilité : contraste text-text/55 → text-text/70 */}
+        <p className="mx-auto max-w-xl text-sm leading-relaxed text-text/70 sm:text-[0.94rem]">
           D&eacute;finitions claires et accessibles des termes essentiels
           de l&rsquo;astrologie. Un outil de r&eacute;f&eacute;rence &agrave;
           consulter &agrave; tout moment pour accompagner votre apprentissage.
         </p>
 
-        {/* Compteur */}
+        {/* Compteur — FIX Accessibilité : contraste text-text/40 → text-text/60 */}
         <div className="flex items-center justify-center gap-2 pt-1">
           <Sparkles className="h-4 w-4 text-violet-400" />
-          <span className="text-sm text-text/40">
+          <span className="text-sm text-text/60">
             {ENTRIES.length} termes d&eacute;finis &mdash; dictionnaire en
             construction
           </span>
@@ -291,21 +305,28 @@ export default function DictionnairePage() {
         className="sticky top-16 z-30 -mx-4 mb-10 overflow-x-auto border-b border-white/[0.06] bg-[var(--bg)]/80 px-4 py-3 backdrop-blur-xl sm:mb-12 sm:rounded-xl sm:border sm:border-white/[0.06]"
       >
         <div className="flex gap-1 sm:flex-wrap sm:justify-center sm:gap-1.5">
+          {/* FIX SEO : les lettres inactives sont des <span> au lieu de <a> sans href */}
           {allLetters.map((l) => {
             const active = letters.includes(l);
-            return (
+            const cls =
+              "flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-xs font-semibold transition-colors sm:h-9 sm:w-9 sm:text-sm";
+
+            return active ? (
               <a
                 key={l}
-                href={active ? `#letter-${l}` : undefined}
-                aria-disabled={!active}
-                className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-xs font-semibold transition-colors sm:h-9 sm:w-9 sm:text-sm ${
-                  active
-                    ? "border border-white/10 bg-white/[0.04] text-white/80 hover:border-accent/30 hover:bg-accent/10 hover:text-accent"
-                    : "cursor-default text-white/15"
-                }`}
+                href={`#letter-${l}`}
+                className={`${cls} border border-white/10 bg-white/[0.04] text-white/80 hover:border-accent/30 hover:bg-accent/10 hover:text-accent`}
               >
                 {l}
               </a>
+            ) : (
+              <span
+                key={l}
+                aria-hidden="true"
+                className={`${cls} cursor-default text-white/15`}
+              >
+                {l}
+              </span>
             );
           })}
         </div>
@@ -322,13 +343,14 @@ export default function DictionnairePage() {
       <div className="space-y-12 sm:space-y-16">
         {letters.map((letter) => (
           <section key={letter} id={`letter-${letter}`} className="scroll-mt-28">
-            {/* Lettre */}
+            {/* FIX Accessibilité : <span> → <h2> pour la hiérarchie H1 → H2 → H3 */}
             <div className="mb-5 flex items-center gap-3 sm:mb-6">
-              <span className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-gradient-to-br from-accent/10 to-violet-500/10 font-serif text-xl font-bold text-white sm:h-12 sm:w-12 sm:text-2xl">
+              <h2 className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-gradient-to-br from-accent/10 to-violet-500/10 font-serif text-xl font-bold text-white sm:h-12 sm:w-12 sm:text-2xl">
                 {letter}
-              </span>
+              </h2>
               <div className="h-px flex-1 bg-gradient-to-r from-white/10 to-transparent" />
-              <span className="text-xs text-white/25">
+              {/* FIX Accessibilité : contraste text-white/25 → text-white/50 */}
+              <span className="text-xs text-white/50">
                 {grouped[letter].length} terme
                 {grouped[letter].length > 1 ? "s" : ""}
               </span>
@@ -355,15 +377,19 @@ export default function DictionnairePage() {
                 "radial-gradient(ellipse at 50% 0%, rgba(108,124,255,.12) 0%, transparent 60%)",
             }}
           />
-          <Search className="relative mx-auto h-6 w-6 text-accent/40" />
-          <p className="relative mt-3 font-serif text-base italic text-text/50 sm:text-lg">
+          {/* FIX Accessibilité : contraste text-accent/40 → text-accent/60 */}
+          <Search className="relative mx-auto h-6 w-6 text-accent/60" />
+          {/* FIX Accessibilité : contraste text-text/50 → text-text/65 */}
+          <p className="relative mt-3 font-serif text-base italic text-text/65 sm:text-lg">
             Ce dictionnaire s&rsquo;enrichit r&eacute;guli&egrave;rement.
           </p>
-          <p className="relative mt-2 text-xs text-text/30 sm:text-sm">
+          {/* FIX Accessibilité : contraste text-text/30 → text-text/50 */}
+          <p className="relative mt-2 text-xs text-text/50 sm:text-sm">
             Un terme manque&nbsp;? &Eacute;crivez-nous &agrave;{" "}
+            {/* FIX Accessibilité : contraste text-accent/50 → text-accent/70 */}
             <a
               href="mailto:white-wolf-web@outlook.com"
-              className="text-accent/50 underline decoration-accent/20 underline-offset-2 transition-colors hover:text-accent hover:decoration-accent/40"
+              className="text-accent/70 underline decoration-accent/40 underline-offset-2 transition-colors hover:text-accent hover:decoration-accent/60"
             >
               white-wolf-web@outlook.com
             </a>
