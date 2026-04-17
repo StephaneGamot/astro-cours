@@ -1,0 +1,34 @@
+[
+  {
+    "term": "Carr\u00e9",
+    "slug": "carre",
+    "category": "aspect",
+    "short": "Aspect de tension form\u00e9 par un angle de 90\u00b0 entre deux plan\u00e8tes.",
+    "body": "Le carr\u00e9 est un aspect majeur dit \u00ab dissonant \u00bb ou \u00ab tendu \u00bb. Il se forme lorsque deux plan\u00e8tes sont s\u00e9par\u00e9es de 90\u00b0 (avec un orbe g\u00e9n\u00e9ralement admis de 6\u00b0 \u00e0 8\u00b0 pour les luminaires, 5\u00b0 \u00e0 6\u00b0 pour les autres plan\u00e8tes). Contrairement \u00e0 une id\u00e9e re\u00e7ue, un carr\u00e9 n\u2019est pas \u00ab mauvais \u00bb : il est dynamique. Il cr\u00e9e une friction int\u00e9rieure, une tension qui pousse \u00e0 l\u2019action. Sans carr\u00e9s dans un th\u00e8me, il peut manquer de motivation, d\u2019ambition ou de combativit\u00e9. Le carr\u00e9 oblige le natif \u00e0 r\u00e9soudre un conflit entre deux \u00e9nergies qui ne s\u2019accordent pas naturellement. Par exemple, un carr\u00e9 Lune-Mars cr\u00e9e un tiraillement entre le besoin de s\u00e9curit\u00e9 \u00e9motionnelle (Lune) et l\u2019impulsion d\u2019agir (Mars). La r\u00e9solution de cette tension est un travail de toute une vie, mais c\u2019est pr\u00e9cis\u00e9ment ce travail qui construit la force de caract\u00e8re. En astrologie traditionnelle, le carr\u00e9 \u00e9tait redout\u00e9 ; en astrologie moderne, il est consid\u00e9r\u00e9 comme un moteur d\u2019\u00e9volution.",
+    "related": ["Opposition", "Trigone", "Conjonction", "Aspect", "Quadrature"]
+  },
+  {
+    "term": "Carte du ciel",
+    "slug": "carte-du-ciel",
+    "category": "concept",
+    "short": "Synonyme de th\u00e8me natal : repr\u00e9sentation graphique des positions plan\u00e9taires \u00e0 un instant donn\u00e9.",
+    "body": "La carte du ciel est le terme historique d\u00e9signant ce que l\u2019on appelle aujourd\u2019hui le th\u00e8me natal ou th\u00e8me astral. Elle repr\u00e9sente, sous forme de diagramme circulaire, la position exacte des plan\u00e8tes, des signes et des maisons au moment pr\u00e9cis d\u2019un \u00e9v\u00e9nement \u2014 g\u00e9n\u00e9ralement une naissance. La carte du ciel peut \u00e9galement \u00eatre dress\u00e9e pour un \u00e9v\u00e9nement sp\u00e9cifique (astrologie horaire), pour la fondation d\u2019une entreprise ou pour un pays (astrologie mondiale). Le terme rappelle que l\u2019astrologie est d\u2019abord un art d\u2019observation du ciel, transpos\u00e9 sur papier ou sur \u00e9cran. Trois informations sont n\u00e9cessaires pour dresser une carte du ciel : la date, l\u2019heure exacte et le lieu g\u00e9ographique. La carte se lit en croisant les positions plan\u00e9taires en signe, en maison et les aspects qu\u2019elles forment entre elles.",
+    "related": ["Th\u00e8me natal", "Ascendant", "Maison", "Radix"]
+  },
+  {
+    "term": "Conjonction",
+    "slug": "conjonction",
+    "category": "aspect",
+    "short": "Aspect de fusion form\u00e9 lorsque deux plan\u00e8tes occupent le m\u00eame degr\u00e9 du zodiaque (0\u00b0).",
+    "body": "La conjonction est l\u2019aspect le plus puissant et le plus concentr\u00e9 de l\u2019astrologie. Elle se produit lorsque deux plan\u00e8tes (ou plus) se trouvent au m\u00eame degr\u00e9 du zodiaque, \u00e0 l\u2019orbe pr\u00e8s (g\u00e9n\u00e9ralement 8\u00b0 \u00e0 10\u00b0 pour les luminaires, 6\u00b0 \u00e0 8\u00b0 pour les autres). Contrairement aux autres aspects, la conjonction n\u2019est ni harmonique ni tendue par nature : elle est une fusion. Les \u00e9nergies des deux plan\u00e8tes se m\u00e9langent de mani\u00e8re indissociable, pour le meilleur ou le pire selon la nature des plan\u00e8tes concern\u00e9es. Une conjonction V\u00e9nus-Jupiter est g\u00e9n\u00e9ralement un don de charme et d\u2019optimisme amoureux. Une conjonction Mars-Saturne peut canaliser une \u00e9nergie formidable mais aussi g\u00e9n\u00e9rer de la frustration. La conjonction amplifie consid\u00e9rablement les plan\u00e8tes impliqu\u00e9es et constitue souvent le point focal d\u2019un th\u00e8me natal. Lorsque trois plan\u00e8tes ou plus sont en conjonction, on parle de stellium.",
+    "related": ["Aspect", "Carr\u00e9", "Opposition", "Trigone", "Sextile"]
+  },
+  {
+    "term": "Confusion (aspect de)",
+    "slug": "confusion",
+    "category": "aspect",
+    "short": "Terme ancien d\u00e9signant un aspect brouillant la clart\u00e9 des \u00e9nergies plan\u00e9taires.",
+    "body": "En astrologie traditionnelle, le terme \u00ab confusion \u00bb d\u00e9signe un \u00e9tat o\u00f9 les \u00e9nergies plan\u00e9taires se m\u00ealent de fa\u00e7on d\u00e9sordonn\u00e9e, rendant leur expression peu claire pour le natif. Ce concept est particuli\u00e8rement associ\u00e9 \u00e0 Neptune, plan\u00e8te de l\u2019illusion et de la dissolution des fronti\u00e8res. Un aspect de confusion se manifeste lorsqu\u2019une plan\u00e8te personnelle (Soleil, Lune, Mercure) re\u00e7oit des aspects multiples et contradictoires, ou lorsqu\u2019elle est prise en \u00e9tau entre des influx harmoniques et dissonants. Le natif peut alors ressentir une difficult\u00e9 \u00e0 d\u00e9finir clairement ses motivations, ses sentiments ou ses choix dans le domaine concern\u00e9. En astrologie moderne, on parle plus volontiers de \u00ab n\u00e9bulosit\u00e9 \u00bb ou de \u00ab flou \u00bb. Identifier ces zones de confusion dans un th\u00e8me permet de travailler consciemment \u00e0 les clarifier.",
+    "related": ["Neptune", "Aspect", "Dissonance"]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "term": "Table des maisons",
+    "slug": "table-des-maisons",
+    "category": "concept",
+    "short": "Tableau permettant de calculer les cuspides des maisons astrologiques selon la latitude et l'heure sidérale.",
+    "body": "La table des maisons est un outil de calcul indispensable à l'érection d'un thème astral. Elle fournit, pour une latitude géographique et une heure sidérale données, les degrés zodiacaux correspondant aux cuspides (débuts) des douze maisons. Avant l'ère informatique, tout astrologue possédait sa propre table des maisons — les plus célèbres étant celles de Placidus et de Koch. Il existe autant de tables que de systèmes de domification : Placidus, Koch, Régiomontanus, Campanus, maisons égales, etc. Chaque système découpe différemment la sphère céleste, ce qui peut modifier sensiblement le placement des planètes dans les maisons. Aujourd'hui, les logiciels d'astrologie effectuent ces calculs instantanément, mais comprendre le principe de la table des maisons reste essentiel pour saisir la logique de la domification et l'importance de l'heure exacte de naissance.",
+    "related": ["Maison VIII", "Ascendant", "Carte du ciel"]
+  },
+  {
+    "term": "Terre",
+    "slug": "terre",
+    "category": "concept",
+    "short": "Élément associé aux signes Taureau, Vierge et Capricorne, symbolisant la matière et le concret.",
+    "body": "La Terre est l'un des quatre éléments classiques en astrologie, associé aux signes Taureau, Vierge et Capricorne. Elle représente le monde matériel, la stabilité, le sens pratique, la persévérance et l'ancrage dans la réalité. Les signes de Terre privilégient le concret, la sécurité, la construction lente et durable. Ils sont fiables, patients et méthodiques, mais peuvent aussi se montrer rigides, possessifs ou excessivement prudents. Le Taureau incarne la Terre fixe (les ressources, la sensualité) ; la Vierge, la Terre mutable (l'analyse, le service) ; le Capricorne, la Terre cardinale (l'ambition, la structure). Un thème riche en Terre indique un natif réaliste, efficace et doté d'un bon sens matériel. Un manque de Terre peut se traduire par une difficulté à concrétiser ses projets ou à gérer les aspects pratiques de la vie.",
+    "related": ["Feu", "Air", "Eau", "Fixe", "Mutable"]
+  },
+  {
+    "term": "Tête du Dragon",
+    "slug": "tete-du-dragon",
+    "category": "point fictif",
+    "short": "Nom traditionnel du Nœud Nord lunaire, indiquant la direction d'évolution de l'âme.",
+    "body": "La Tête du Dragon est le nom traditionnel du Nœud Nord de la Lune (☊). Ce point fictif correspond à l'intersection ascendante de l'orbite lunaire avec l'écliptique. En astrologie karmique et évolutive, la Tête du Dragon représente la direction de croissance, le potentiel à développer, les qualités que l'âme cherche à intégrer dans cette incarnation. C'est un point d'appel, parfois inconfortable car il pousse vers l'inconnu. Son signe et sa maison indiquent le domaine où le natif est invité à évoluer. La Tête du Dragon s'oppose toujours à la Queue du Dragon (Nœud Sud), qui représente les acquis passés et les automatismes à dépasser. L'axe des Nœuds forme ainsi un vecteur évolutif fondamental dans l'interprétation du thème natal.",
+    "related": ["Nœuds lunaires", "Carte du ciel"]
+  },
+  {
+    "term": "Thème natal",
+    "slug": "theme-natal",
+    "category": "concept",
+    "short": "Carte du ciel dressée pour le moment et le lieu exacts de la naissance d'un individu.",
+    "body": "Le thème natal (ou carte natale) est la photographie du ciel au moment précis de la naissance, vue depuis le lieu de naissance. Il constitue le document fondateur de toute étude astrologique individuelle. Le thème natal comprend : la position des dix planètes dans les signes et les maisons, les aspects (angles) entre les planètes, l'Ascendant, le Milieu du Ciel, et éventuellement des points fictifs (Nœuds lunaires, Lilith, parts arabes). Pour le calculer, trois données sont indispensables : la date, l'heure exacte et le lieu de naissance. Le thème natal ne change jamais — il représente le potentiel de base du natif. C'est ensuite par les transits, les progressions et les révolutions solaires que l'astrologue observe comment ce potentiel se déploie dans le temps. Synonyme savant : radix.",
+    "related": ["Radix", "Carte du ciel", "Ascendant", "Transit"]
+  },
+  {
+    "term": "Transit",
+    "slug": "transit",
+    "category": "concept",
+    "short": "Passage d'une planète en mouvement sur un point sensible du thème natal.",
+    "body": "Le transit est la technique prévisionnelle la plus courante en astrologie. Il consiste à observer le passage des planètes dans le ciel actuel (en temps réel) par rapport aux positions du thème natal. Lorsqu'une planète de transit forme un aspect exact avec une planète natale, elle « active » cette dernière et déclenche des événements ou des prises de conscience liés aux symboliques en jeu. Les transits des planètes rapides (Lune, Mercure, Vénus, Mars) sont brefs et quotidiens. Les transits des planètes lentes (Jupiter, Saturne, Uranus, Neptune, Pluton) marquent des périodes longues et profondes de transformation. Un transit de Saturne sur le Soleil natal, par exemple, dure plusieurs mois et impose un bilan de maturité. L'orbe d'application (la planète s'approche de l'aspect exact) est souvent ressenti plus intensément que l'orbe de séparation.",
+    "related": ["Thème natal", "Radix", "Révolution solaire", "Pluton"]
+  },
+  {
+    "term": "Trigone",
+    "slug": "trigone",
+    "category": "aspect",
+    "short": "Aspect harmonique majeur formé par un angle de 120° entre deux planètes.",
+    "body": "Le trigone est l'aspect harmonique par excellence. Il se forme lorsque deux planètes sont séparées de 120° (orbe de 6° à 8°), ce qui correspond généralement à des planètes situées dans des signes du même élément (Feu-Feu, Terre-Terre, Air-Air, Eau-Eau). Le trigone indique un flux naturel d'énergie entre les deux planètes : les fonctions qu'elles représentent coopèrent spontanément, sans effort apparent. Un trigone Vénus-Jupiter favorise l'épanouissement affectif et la générosité. Un trigone Soleil-Mars confère une vitalité et une confiance naturelles. Le trigone est parfois critiqué pour sa facilité : parce qu'il donne sans exiger, il peut mener à la passivité ou au gaspillage de talent. La tradition résume : « Le trigone est un don du ciel, mais il faut encore en faire quelque chose. » En interprétation, les trigones révèlent les ressources innées du natif.",
+    "related": ["Sextile", "Aspect", "Carré", "Conjonction"]
+  }
+]

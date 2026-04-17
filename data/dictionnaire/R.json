@@ -1,0 +1,26 @@
+[
+  {
+    "term": "Radix",
+    "slug": "radix",
+    "category": "concept",
+    "short": "Terme latin d\u00e9signant le th\u00e8me natal originel, la \u00ab racine \u00bb de toute interpr\u00e9tation.",
+    "body": "Radix (du latin \u00ab racine \u00bb) est le terme technique d\u00e9signant le th\u00e8me natal de naissance, par opposition aux th\u00e8mes d\u00e9riv\u00e9s (r\u00e9volution solaire, th\u00e8me horaire, th\u00e8me de transit). Le radix est le document fondateur en astrologie : c\u2019est lui qui contient le potentiel complet du natif et qui sert de r\u00e9f\u00e9rence pour toute \u00e9tude pr\u00e9visionnelle. Lorsqu\u2019on \u00e9tudie les transits, on superpose les positions plan\u00e9taires du moment au radix pour en mesurer l\u2019impact. Le terme \u00ab radical \u00bb est l\u2019adjectif associ\u00e9 : \u00ab la Lune radicale \u00bb d\u00e9signe la Lune du th\u00e8me natal, par opposition \u00e0 \u00ab la Lune de transit \u00bb. Cette distinction est essentielle en astrologie pr\u00e9visionnelle pour \u00e9viter toute confusion entre les positions natales et les positions en mouvement.",
+    "related": ["Th\u00e8me natal", "Carte du ciel", "Transit", "R\u00e9volution solaire"]
+  },
+  {
+    "term": "R\u00e9ception mutuelle",
+    "slug": "reception-mutuelle",
+    "category": "concept",
+    "short": "Configuration o\u00f9 deux plan\u00e8tes occupent chacune le signe de domicile de l\u2019autre.",
+    "body": "La r\u00e9ception mutuelle se produit lorsque deux plan\u00e8tes \u00e9changent leurs domiciles : par exemple, Mars en Taureau (domicile de V\u00e9nus) et V\u00e9nus en B\u00e9lier (domicile de Mars). Chaque plan\u00e8te est \u00ab h\u00e9berg\u00e9e \u00bb par l\u2019autre, cr\u00e9ant un lien de coop\u00e9ration implicite. En astrologie traditionnelle, la r\u00e9ception mutuelle att\u00e9nue consid\u00e9rablement la faiblesse d\u2019une plan\u00e8te en exil : m\u00eame si chaque plan\u00e8te est dans un signe inconfortable, elles se soutiennent mutuellement. Certains astrologues vont jusqu\u2019\u00e0 consid\u00e9rer qu\u2019une r\u00e9ception mutuelle \u00e9quivaut presque \u00e0 un aspect harmonique entre les deux plan\u00e8tes. La r\u00e9ception mutuelle peut \u00e9galement se faire par exaltation : le Soleil en B\u00e9lier (exaltation) et Mars en Lion (signe du Soleil) cr\u00e9ent une forme de r\u00e9ception crois\u00e9e. C\u2019est un outil subtil mais tr\u00e8s utile pour affiner la lecture d\u2019un th\u00e8me.",
+    "related": ["Dignit\u00e9", "Exil", "Exaltation", "Domicile"]
+  },
+  {
+    "term": "R\u00e9volution solaire",
+    "slug": "revolution-solaire",
+    "category": "concept",
+    "short": "Th\u00e8me dress\u00e9 pour le moment exact o\u00f9 le Soleil revient \u00e0 sa position natale chaque ann\u00e9e.",
+    "body": "La r\u00e9volution solaire (RS) est l\u2019une des techniques pr\u00e9visionnelles les plus utilis\u00e9es en astrologie. Elle consiste \u00e0 dresser un th\u00e8me pour le moment pr\u00e9cis o\u00f9 le Soleil de transit revient exactement au degr\u00e9, \u00e0 la minute et \u00e0 la seconde de sa position dans le th\u00e8me natal. Ce retour se produit chaque ann\u00e9e autour de la date d\u2019anniversaire. Le th\u00e8me de r\u00e9volution solaire est interpr\u00e9t\u00e9 comme une \u00ab photographie \u00e9nerg\u00e9tique \u00bb de l\u2019ann\u00e9e \u00e0 venir. L\u2019Ascendant de la RS, la position de la Lune et la r\u00e9partition des plan\u00e8tes dans les maisons donnent des indications pr\u00e9cieuses sur les domaines de vie qui seront activ\u00e9s. La RS ne remplace pas l\u2019\u00e9tude des transits : elle les compl\u00e8te en offrant un cadre annuel. Andr\u00e9 Barbault et Alexandre Volguine ont largement contribu\u00e9 \u00e0 populariser cette technique dans l\u2019astrologie francophone.",
+    "related": ["Transit", "Th\u00e8me natal", "Soleil", "Radix"]
+  }
+]

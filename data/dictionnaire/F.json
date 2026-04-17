@@ -1,0 +1,18 @@
+[
+  {
+    "term": "Feu",
+    "slug": "feu",
+    "category": "concept",
+    "short": "L\u2019un des quatre \u00e9l\u00e9ments : \u00e9nergie, enthousiasme, volont\u00e9 et impulsivit\u00e9 cr\u00e9atrice.",
+    "body": "L\u2019\u00e9l\u00e9ment Feu regroupe les signes du B\u00e9lier, du Lion et du Sagittaire. Il repr\u00e9sente l\u2019\u00e9nergie vitale, l\u2019enthousiasme, la volont\u00e9 d\u2019agir et le rayonnement personnel. Les natifs domin\u00e9s par le Feu sont spontan\u00e9s, courageux, passionn\u00e9s et tourn\u00e9s vers l\u2019avenir. Le Feu est chaud et sec par nature. Il \u00e9claire, r\u00e9chauffe et transforme, mais peut aussi br\u00fbler s\u2019il n\u2019est pas canalis\u00e9. En exc\u00e8s, le Feu produit de l\u2019imp\u00e9tuosit\u00e9, de l\u2019impatience, de l\u2019\u00e9gocentrisme ou de la col\u00e8re. Un th\u00e8me d\u00e9pourvu de Feu peut manquer de confiance en soi, d\u2019initiative ou de joie de vivre spontan\u00e9e. Le Feu est l\u2019\u00e9tincelle premi\u00e8re, le Big Bang de la personnalit\u00e9 \u2014 sans lui, rien ne d\u00e9marre. En astrologie classique, les trois signes de Feu forment le trigone de l\u2019\u00e9nergie et de la cr\u00e9ativit\u00e9.",
+    "related": ["Terre", "Air", "Eau", "B\u00e9lier", "Lion", "Sagittaire"]
+  },
+  {
+    "term": "Fixe (qualit\u00e9)",
+    "slug": "fixe",
+    "category": "concept",
+    "short": "L\u2019une des trois qualit\u00e9s : stabilit\u00e9, pers\u00e9v\u00e9rance, r\u00e9sistance au changement.",
+    "body": "Les signes fixes sont le Taureau, le Lion, le Scorpion et le Verseau. Ils occupent le c\u0153ur de chaque saison et incarnent la stabilit\u00e9, la d\u00e9termination et la continuit\u00e9. Si les signes cardinaux lancent et les signes mutables adaptent, les signes fixes maintiennent et consolident. Un natif fortement marqu\u00e9 par la qualit\u00e9 fixe est t\u00e9nace, fiable, endurant, parfois obstin\u00e9. Il a horreur qu\u2019on le bouscule et pr\u00e9f\u00e8re avancer \u00e0 son rythme. Sa force r\u00e9side dans la constance ; sa faiblesse dans la rigidit\u00e9. Les signes fixes sont r\u00e9put\u00e9s pour leur capacit\u00e9 \u00e0 r\u00e9sister \u00e0 la pression ext\u00e9rieure \u2014 mais aussi pour leur difficult\u00e9 \u00e0 l\u00e2cher prise lorsque le changement devient n\u00e9cessaire. Un grand carr\u00e9 en signes fixes, par exemple, est l\u2019une des configurations les plus puissantes (et les plus redout\u00e9es) du th\u00e8me natal : elle conf\u00e8re une volont\u00e9 de fer mais aussi une tendance aux blocages \u00e9motionnels.",
+    "related": ["Mutable", "Cardinal", "Signe", "Zodiaque"]
+  }
+]

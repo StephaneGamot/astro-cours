@@ -1,0 +1,26 @@
+[
+  {
+    "term": "Sesqui-carr\u00e9",
+    "slug": "sesqui-carre",
+    "category": "aspect",
+    "short": "Aspect mineur tendu form\u00e9 par un angle de 135\u00b0 entre deux plan\u00e8tes.",
+    "body": "Le sesqui-carr\u00e9 (ou sesquicarr\u00e9) est un aspect mineur de 135\u00b0, \u00e9quivalant \u00e0 un carr\u00e9 et demi (90\u00b0 + 45\u00b0). Il est class\u00e9 parmi les aspects tendus et poss\u00e8de une \u00e9nergie proche du carr\u00e9, mais avec une nuance d\u2019irritation plus sourde et plus chronique. L\u00e0 o\u00f9 le carr\u00e9 cr\u00e9e un conflit franc et identifiable, le sesqui-carr\u00e9 g\u00e9n\u00e8re une tension de fond, un malaise diffus qui peut se manifester par de l\u2019agacement, de la frustration accumul\u00e9e ou des petits ajustements constants. L\u2019orbe habituellement accord\u00e9 au sesqui-carr\u00e9 est de 2\u00b0 \u00e0 3\u00b0. Bien que souvent n\u00e9glig\u00e9 dans les interpr\u00e9tations rapides, le sesqui-carr\u00e9 m\u00e9rite attention car il r\u00e9v\u00e8le des zones o\u00f9 le natif se sent bloqu\u00e9 sans comprendre exactement pourquoi. Certains astrologues consid\u00e8rent que le sesqui-carr\u00e9 est particuli\u00e8rement actif lors des transits de plan\u00e8tes lentes.",
+    "related": ["Carr\u00e9", "Semi-carr\u00e9", "Dissonance", "Aspect"]
+  },
+  {
+    "term": "Sextile",
+    "slug": "sextile",
+    "category": "aspect",
+    "short": "Aspect harmonique form\u00e9 par un angle de 60\u00b0 entre deux plan\u00e8tes.",
+    "body": "Le sextile est un aspect majeur harmonique de 60\u00b0 (orbe de 4\u00b0 \u00e0 6\u00b0). Il relie g\u00e9n\u00e9ralement deux plan\u00e8tes situ\u00e9es dans des signes de m\u00eame polarit\u00e9 (\u00e9l\u00e9ments compatibles : Feu-Air ou Terre-Eau). Le sextile offre des opportunit\u00e9s, des ouvertures, des talents qui demandent un l\u00e9ger effort pour se manifester. C\u2019est un aspect moins puissant que le trigone (qui donne sans demander) mais plus constructif, car il stimule l\u2019initiative. Un sextile Mercure-Jupiter ouvre l\u2019esprit aux langues \u00e9trang\u00e8res et aux \u00e9tudes sup\u00e9rieures, mais le natif devra saisir cette chance activement. La tradition astrologique r\u00e9sume bien la diff\u00e9rence : \u00ab Le trigone est un cadeau, le sextile est une porte ouverte \u2014 encore faut-il la franchir. \u00bb En interpr\u00e9tation, les sextiles indiquent les domaines o\u00f9 le natif peut progresser avec un effort mod\u00e9r\u00e9.",
+    "related": ["Trigone", "Aspect", "Conjonction"]
+  },
+  {
+    "term": "Sid\u00e9ral",
+    "slug": "sideral",
+    "category": "concept",
+    "short": "Syst\u00e8me de r\u00e9f\u00e9rence zodiacal bas\u00e9 sur la position r\u00e9elle des constellations dans le ciel.",
+    "body": "Le zodiaque sid\u00e9ral est un syst\u00e8me de r\u00e9f\u00e9rence qui s\u2019aligne sur la position astronomique r\u00e9elle des constellations. Il s\u2019oppose au zodiaque tropique \u2014 utilis\u00e9 par l\u2019immense majorit\u00e9 des astrologues occidentaux \u2014 qui est cal\u00e9 sur les saisons (le point vernal, 0\u00b0 B\u00e9lier, correspond \u00e0 l\u2019\u00e9quinoxe de printemps). En raison de la pr\u00e9cession des \u00e9quinoxes, les deux zodiacs se d\u00e9calent d\u2019environ 1\u00b0 tous les 72 ans. Aujourd\u2019hui, l\u2019\u00e9cart (appel\u00e9 ayanamsa) est d\u2019environ 24\u00b0. L\u2019astrologie v\u00e9dique (Jyotish) utilise le zodiaque sid\u00e9ral ; l\u2019astrologie occidentale utilise le tropical. Les deux syst\u00e8mes sont coh\u00e9rents au sein de leur propre cadre : ils ne se \u00ab contredisent \u00bb pas, ils observent le ciel depuis deux r\u00e9f\u00e9rentiels diff\u00e9rents. Le d\u00e9bat tropical vs sid\u00e9ral est l\u2019un des plus anciens et des plus passionn\u00e9s de l\u2019astrologie.",
+    "related": ["Zodiaque", "\u00c9toiles fixes", "Degr\u00e9"]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "term": "Zénith",
+    "slug": "zenith",
+    "category": "concept",
+    "short": "Point du ciel situé exactement à la verticale au-dessus de l'observateur.",
+    "body": "Le zénith est le point de la sphère céleste situé exactement à la verticale au-dessus de l'observateur, à 90° de l'horizon dans toutes les directions. En astrologie, le zénith est souvent confondu avec le Milieu du Ciel (MC), mais les deux ne coïncident pas exactement. Le MC est l'intersection de l'écliptique avec le méridien local, tandis que le zénith est strictement le point le plus haut au-dessus de la tête. La différence entre les deux dépend de la latitude du lieu de naissance et de la déclinaison du point considéré. Dans la pratique courante, cette distinction technique est souvent négligée, mais elle a son importance dans certains systèmes de domification (notamment le système de Campanus, qui utilise le zénith comme référence). Le point diamétralement opposé au zénith est le nadir.",
+    "related": ["Carte du ciel", "Ascendant", "Thème natal"]
+  },
+  {
+    "term": "Zodiaque",
+    "slug": "zodiaque",
+    "category": "concept",
+    "short": "Bande céleste de 360° divisée en douze signes de 30° chacun, cadre de référence de l'astrologie.",
+    "body": "Le zodiaque est la bande de ciel de 360° centrée sur l'écliptique (le plan de l'orbite terrestre autour du Soleil) dans laquelle se déplacent les planètes du système solaire. Il est divisé en douze signes de 30° chacun, du Bélier aux Poissons. Il existe deux zodiacs : le zodiaque tropique, fondé sur les saisons et utilisé en astrologie occidentale, et le zodiaque sidéral, calé sur les constellations et utilisé en astrologie védique. Le zodiaque tropique commence au point vernal (0° Bélier = équinoxe de printemps). Le mot « zodiaque » vient du grec zōidiakos kyklos, « cercle des petits animaux », en référence aux figures animales des constellations. Le zodiaque est le cadre fondamental de l'astrologie : c'est lui qui détermine les signes dans lesquels se trouvent les planètes, l'Ascendant et les cuspides des maisons.",
+    "related": ["Sidéral", "Étoiles fixes", "Ascendant", "Degré"]
+  }
+]

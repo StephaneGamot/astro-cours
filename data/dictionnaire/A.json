@@ -1,0 +1,26 @@
+[
+  {
+    "term": "Air",
+    "slug": "air",
+    "category": "concept",
+    "short": "L\u2019un des quatre \u00e9l\u00e9ments : communication, intellect, \u00e9change et abstraction.",
+    "body": "L\u2019\u00e9l\u00e9ment Air regroupe les signes des G\u00e9meaux, de la Balance et du Verseau. Il repr\u00e9sente le monde des id\u00e9es, de la communication, des relations sociales et de la pens\u00e9e abstraite. Les natifs marqu\u00e9s par l\u2019Air ont besoin d\u2019\u00e9changer, de comprendre, de relier les concepts entre eux. Ils excellent dans le langage, la diplomatie et la mise en r\u00e9seau. L\u2019Air est le souffle qui transporte les id\u00e9es d\u2019un esprit \u00e0 l\u2019autre \u2014 sans lui, les \u00e9l\u00e9ments restent isol\u00e9s. Sa qualit\u00e9 est chaude et humide. En exc\u00e8s, l\u2019Air peut produire de l\u2019instabilit\u00e9, de la superficialit\u00e9 ou une intellectualisation excessive des \u00e9motions. Un th\u00e8me d\u00e9pourvu d\u2019Air peut signaler une difficult\u00e9 \u00e0 prendre du recul, \u00e0 communiquer ses id\u00e9es ou \u00e0 nouer des liens sociaux l\u00e9gers. En astrologie classique, les trois signes d\u2019Air forment le trigone de l\u2019intellect.",
+    "related": ["Feu", "Terre", "Eau", "G\u00e9meaux", "Balance", "Verseau"]
+  },
+  {
+    "term": "Ascendant",
+    "slug": "ascendant",
+    "category": "concept",
+    "short": "Le signe zodiacal qui se l\u00e8ve \u00e0 l\u2019horizon est au moment exact de la naissance.",
+    "body": "L\u2019Ascendant (abr\u00e9g\u00e9 AC ou ASC) est l\u2019un des points les plus importants du th\u00e8me natal. Il repr\u00e9sente la cuspide de la maison I et d\u00e9finit la mani\u00e8re dont une personne se pr\u00e9sente au monde, son apparence physique, ses r\u00e9flexes spontan\u00e9s et la premi\u00e8re impression qu\u2019elle donne aux autres. Contrairement au signe solaire \u2014 qui d\u00e9crit l\u2019identit\u00e9 profonde \u2014 l\u2019Ascendant est le masque social, la porte d\u2019entr\u00e9e de la personnalit\u00e9. Il \u00e9volue d\u2019environ un degr\u00e9 toutes les quatre minutes, ce qui rend l\u2019heure de naissance pr\u00e9cise indispensable pour le calculer correctement. Un natif peut avoir un Soleil en B\u00e9lier et un Ascendant en Poissons : il sera int\u00e9rieurement fonceur et combatif, mais appara\u00eetra doux, r\u00eaveur et insaisissable au premier abord. L\u2019Ascendant colore \u00e9galement l\u2019interpr\u00e9tation de toutes les maisons du th\u00e8me, puisqu\u2019il d\u00e9termine leur r\u00e9partition dans les signes.",
+    "related": ["Maison I", "Descendant", "Th\u00e8me natal"]
+  },
+  {
+    "term": "Aspect",
+    "slug": "aspect",
+    "category": "aspect",
+    "short": "Angle form\u00e9 entre deux plan\u00e8tes, d\u00e9terminant la nature de leur relation \u00e9nerg\u00e9tique.",
+    "body": "Un aspect est un angle g\u00e9om\u00e9trique mesur\u00e9 en degr\u00e9s entre deux plan\u00e8tes (ou points sensibles) dans le th\u00e8me natal. Les aspects d\u00e9finissent comment les \u00e9nergies plan\u00e9taires interagissent : en harmonie, en tension ou en fusion. Les aspects majeurs sont la conjonction (0\u00b0), le sextile (60\u00b0), le carr\u00e9 (90\u00b0), le trigone (120\u00b0) et l\u2019opposition (180\u00b0). Les aspects mineurs incluent le semi-carr\u00e9 (45\u00b0), le sesqui-carr\u00e9 (135\u00b0), le quinconce (150\u00b0) et d\u2019autres. On distingue traditionnellement les aspects harmoniques (trigone, sextile) qui facilitent l\u2019expression des \u00e9nergies, et les aspects tendus (carr\u00e9, opposition) qui cr\u00e9ent des frictions mais aussi de la dynamique. Un th\u00e8me sans aspects tendus manque souvent de motivation ; un th\u00e8me sans aspects harmoniques peut rendre la vie int\u00e9rieure difficile. L\u2019interpr\u00e9tation fine d\u2019un th\u00e8me repose en grande partie sur la lecture des aspects et de leurs orbes.",
+    "related": ["Conjonction", "Carr\u00e9", "Trigone", "Opposition", "Sextile", "Orbe"]
+  }
+]

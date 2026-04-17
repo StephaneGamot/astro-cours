@@ -1,0 +1,42 @@
+[
+  {
+    "term": "Eau",
+    "slug": "eau",
+    "category": "concept",
+    "short": "L\u2019un des quatre \u00e9l\u00e9ments : \u00e9motions, intuition, empathie et profondeur psychique.",
+    "body": "L\u2019\u00e9l\u00e9ment Eau regroupe les signes du Cancer, du Scorpion et des Poissons. Il repr\u00e9sente le monde des \u00e9motions, de l\u2019intuition, de l\u2019empathie et de l\u2019inconscient. Les natifs fortement marqu\u00e9s par l\u2019Eau ressentent les choses avant de les comprendre intellectuellement : ils captent les ambiances, absorbent les \u00e9motions d\u2019autrui et poss\u00e8dent souvent une sensibilit\u00e9 presque m\u00e9diumnique. L\u2019Eau est froide et humide par nature. Elle fertilise mais peut aussi submerger. En exc\u00e8s, l\u2019Eau produit de l\u2019hypersensibilit\u00e9, de la d\u00e9pendance \u00e9motionnelle ou une tendance \u00e0 fuir la r\u00e9alit\u00e9. Un th\u00e8me d\u00e9pourvu d\u2019Eau peut signaler une difficult\u00e9 \u00e0 acc\u00e9der \u00e0 ses \u00e9motions, \u00e0 faire preuve d\u2019empathie ou \u00e0 s\u2019abandonner dans l\u2019intimit\u00e9. L\u2019Eau est le lien invisible entre les \u00eatres \u2014 elle nous rappelle que nous sommes tous connect\u00e9s par la m\u00eame source \u00e9motionnelle.",
+    "related": ["Feu", "Terre", "Air", "Cancer", "Scorpion", "Poissons"]
+  },
+  {
+    "term": "\u00c9ph\u00e9m\u00e9rides",
+    "slug": "ephemerides",
+    "category": "concept",
+    "short": "Tables indiquant les positions exactes des plan\u00e8tes pour chaque jour de l\u2019ann\u00e9e.",
+    "body": "Les \u00e9ph\u00e9m\u00e9rides sont des tables astronomiques qui donnent la position de chaque plan\u00e8te en degr\u00e9s, minutes et secondes pour chaque jour \u00e0 une heure donn\u00e9e (g\u00e9n\u00e9ralement 0h ou 12h TU). Elles sont l\u2019outil de base de tout astrologue : sans \u00e9ph\u00e9m\u00e9rides, impossible de dresser un th\u00e8me natal ou de calculer des transits. Avant l\u2019\u00e8re informatique, les astrologues utilisaient des \u00e9ph\u00e9m\u00e9rides imprim\u00e9es, souvent publi\u00e9es sur plusieurs d\u00e9cennies (les \u00c9ph\u00e9m\u00e9rides de Raphael ou celles de Die Deutsche Ephemeriden \u00e9taient les plus r\u00e9put\u00e9es). Aujourd\u2019hui, les logiciels d\u2019astrologie int\u00e8grent directement les \u00e9ph\u00e9m\u00e9rides, mais les versions papier restent utilis\u00e9es par de nombreux praticiens qui pr\u00e9f\u00e8rent la rigueur du calcul manuel. Les \u00e9ph\u00e9m\u00e9rides incluent \u00e9galement les r\u00e9trogradations, les changements de signe et les phases de la Lune.",
+    "related": ["Table des maisons", "Transit", "Degr\u00e9", "Radix"]
+  },
+  {
+    "term": "\u00c9toiles fixes",
+    "slug": "etoiles-fixes",
+    "category": "concept",
+    "short": "Points stellaires quasi immobiles qui ajoutent une coloration sp\u00e9cifique aux degr\u00e9s du zodiaque.",
+    "body": "Les \u00e9toiles fixes sont les \u00e9toiles visibles du ciel nocturne, par opposition aux plan\u00e8tes (\u00ab astres errants \u00bb en grec). Bien qu\u2019elles se d\u00e9placent tr\u00e8s lentement (environ 1\u00b0 tous les 72 ans en raison de la pr\u00e9cession des \u00e9quinoxes), elles sont consid\u00e9r\u00e9es comme fixes \u00e0 l\u2019\u00e9chelle d\u2019une vie humaine. L\u2019astrologie traditionnelle accorde une grande importance \u00e0 certaines \u00e9toiles de premi\u00e8re magnitude. Alg\u00f6l (26\u00b0 Taureau), consid\u00e9r\u00e9e comme la plus violente, est associ\u00e9e aux p\u00e9rils extr\u00eames. R\u00e9gulus (0\u00b0 Vierge, anciennement en Lion) conf\u00e8re succ\u00e8s et rayonnement \u2014 mais avec un risque de chute si l\u2019orgueil domine. Spica (24\u00b0 Balance) est l\u2019une des plus b\u00e9n\u00e9fiques, apportant talent artistique et protection. Lorsqu\u2019une plan\u00e8te natale se trouve en conjonction \u00e9troite (orbe de 1\u00b0 \u00e0 2\u00b0) avec une \u00e9toile fixe majeure, l\u2019interpr\u00e9tation du th\u00e8me s\u2019en trouve consid\u00e9rablement enrichie.",
+    "related": ["Degr\u00e9", "D\u00e9can", "Zodiaque", "Sid\u00e9ral"]
+  },
+  {
+    "term": "Exaltation",
+    "slug": "exaltation",
+    "category": "concept",
+    "short": "Signe dans lequel une plan\u00e8te exprime ses qualit\u00e9s de mani\u00e8re amplifi\u00e9e et brillante.",
+    "body": "L\u2019exaltation est l\u2019une des quatre dignit\u00e9s essentielles en astrologie traditionnelle. Une plan\u00e8te en exaltation se trouve dans un signe o\u00f9 elle peut s\u2019exprimer avec \u00e9clat, parfois m\u00eame avec exc\u00e8s \u2014 comme un invit\u00e9 d\u2019honneur dans une f\u00eate qui lui est d\u00e9di\u00e9e. Les exaltations classiques sont : le Soleil en B\u00e9lier, la Lune en Taureau, Mercure en Vierge, V\u00e9nus en Poissons, Mars en Capricorne, Jupiter en Cancer et Saturne en Balance. Une plan\u00e8te exalt\u00e9e est puissante mais peut manquer de temp\u00e9rance : V\u00e9nus en Poissons aime avec d\u00e9votion, mais peut sombrer dans le sacrifice amoureux. L\u2019exaltation doit \u00eatre distingu\u00e9e du domicile : au domicile, la plan\u00e8te est chez elle et ma\u00eetrise son territoire ; en exaltation, elle brille mais ne gouverne pas. Le signe oppos\u00e9 \u00e0 l\u2019exaltation est la chute, o\u00f9 la plan\u00e8te est affaiblie.",
+    "related": ["Dignit\u00e9", "Exil", "Domicile", "R\u00e9ception mutuelle"]
+  },
+  {
+    "term": "Exil",
+    "slug": "exil",
+    "category": "concept",
+    "short": "Signe oppos\u00e9 au domicile d\u2019une plan\u00e8te, o\u00f9 son \u00e9nergie est contrainte et inconfortable.",
+    "body": "L\u2019exil (ou d\u00e9triment) est la position la plus inconfortable pour une plan\u00e8te : elle se trouve dans le signe oppos\u00e9 \u00e0 celui qu\u2019elle gouverne. Mars en Balance (oppos\u00e9 du B\u00e9lier), V\u00e9nus en Scorpion (oppos\u00e9 du Taureau), le Soleil en Verseau (oppos\u00e9 du Lion). La plan\u00e8te en exil doit composer avec des valeurs qui ne sont pas les siennes : Mars en Balance doit n\u00e9gocier au lieu de foncer, V\u00e9nus en Scorpion aime avec une intensit\u00e9 qui d\u00e9borde le cadre v\u00e9nusien habituel. L\u2019exil n\u2019est pas une condamnation : il indique simplement que l\u2019expression de cette \u00e9nergie demande un effort suppl\u00e9mentaire, une adaptation. De nombreuses personnalit\u00e9s remarquables ont des plan\u00e8tes en exil dans leur th\u00e8me \u2014 pr\u00e9cis\u00e9ment parce que la difficult\u00e9 les a pouss\u00e9es \u00e0 d\u00e9velopper des qualit\u00e9s compensatoires originales. L\u2019exil invite \u00e0 trouver une expression cr\u00e9ative et personnelle plut\u00f4t que conventionnelle.",
+    "related": ["Dignit\u00e9", "Exaltation", "Domicile"]
+  }
+]
