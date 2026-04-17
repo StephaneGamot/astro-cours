@@ -24,12 +24,100 @@
     "related": ["Taureau", "Vénus", "Ressources"]
   },
   {
+    "term": "Maison III",
+    "slug": "maison-3",
+    "category": "maison",
+    "short": "Secteur de la communication, de l\u2019entourage proche et de l\u2019apprentissage.",
+    "body": "En analogie avec les G\u00e9meaux et Mercure, la Maison III r\u00e9git l\u2019esprit pratique, la parole, l\u2019\u00e9criture et les d\u00e9placements de courte dur\u00e9e. Elle d\u00e9crit la relation avec les fr\u00e8res et s\u0153urs, les voisins et l\u2019environnement imm\u00e9diat. C\u2019est la maison de l\u2019intelligence adaptative et de l\u2019instruction primaire. Une Maison III valoris\u00e9e indique souvent une facilit\u00e9 pour les langues ou le commerce.",
+    "related": ["Mercure", "G\u00e9meaux", "Communication"]
+  },
+  {
+    "term": "Maison IV (Fond du Ciel)",
+    "slug": "maison-4",
+    "category": "maison",
+    "short": "Secteur des racines, de la famille, du foyer et de la vie priv\u00e9e.",
+    "body": "En analogie avec le Cancer et la Lune, la Maison IV repr\u00e9sente les fondations de l\u2019individu. Elle concerne l\u2019h\u00e9r\u00e9dit\u00e9, le p\u00e8re (ou la m\u00e8re selon les \u00e9coles), le foyer physique et le sentiment de s\u00e9curit\u00e9 int\u00e9rieure. C\u2019est aussi la maison de la \u00ab fin des choses \u00bb et de la vieillesse. Les plan\u00e8tes ici indiquent l\u2019ambiance familiale de l\u2019enfance et le besoin de ressourcement intime.",
+    "related": ["Fond du Ciel", "Lune", "Cancer", "Famille"]
+  },
+  {
+    "term": "Maison V",
+    "slug": "maison-5",
+    "category": "maison",
+    "short": "Secteur de la cr\u00e9ativit\u00e9, des plaisirs, des amours et des enfants.",
+    "body": "En analogie avec le Lion et le Soleil, la Maison V est celle de l\u2019expression de soi et de la joie de vivre. Elle r\u00e9git la vie sentimentale (les amours sans engagement contractuel), les loisirs, les jeux, la sp\u00e9culation et la cr\u00e9ation artistique. Elle symbolise \u00e9galement la descendance (les enfants). C\u2019est ici que l\u2019individu cherche \u00e0 briller et \u00e0 laisser une trace personnelle dans le monde.",
+    "related": ["Soleil", "Lion", "Cr\u00e9ativit\u00e9"]
+  },
+  {
+    "term": "Maison VI",
+    "slug": "maison-6",
+    "category": "maison",
+    "short": "Secteur du travail quotidien, de la sant\u00e9 et du service.",
+    "body": "En analogie avec la Vierge et Mercure, la Maison VI d\u00e9crit la vie routini\u00e8re, les obligations professionnelles subies, l\u2019hygi\u00e8ne et les petites maladies. Elle repr\u00e9sente \u00e9galement les subalternes et les animaux domestiques. C\u2019est la maison du perfectionnement technique et de l\u2019utilit\u00e9 concr\u00e8te. Une forte activit\u00e9 en VI indique souvent un besoin de se rendre indispensable par le soin ou l\u2019organisation.",
+    "related": ["Mercure", "Vierge", "Sant\u00e9"]
+  },
+  {
+    "term": "Maison VII (Descendant)",
+    "slug": "maison-7",
+    "category": "maison",
+    "short": "Secteur des unions, des partenariats et des ennemis d\u00e9clar\u00e9s.",
+    "body": "En analogie avec la Balance et V\u00e9nus, la Maison VII r\u00e9git toutes les formes d\u2019associations contractuelles : mariage, pactes d\u2019associ\u00e9s, proc\u00e8s. Contrairement \u00e0 l\u2019Ascendant (le Moi), elle repr\u00e9sente l\u2019Alt\u00e9rit\u00e9 (le Toi). Elle montre comment l\u2019individu interagit avec les autres et quel type de partenaire il attire pour se compl\u00e9ter ou se confronter.",
+    "related": ["Descendant", "V\u00e9nus", "Balance", "Mariage"]
+  },
+  {
     "term": "Maison VIII",
-    "slug": "maison-viii",
+    "slug": "maison-8",
     "category": "maison",
     "short": "La maison des crises, de la transformation, de la mort symbolique et de la sexualit\u00e9 profonde.",
     "body": "La maison VIII est l\u2019une des maisons les plus intenses et les plus mal comprises du th\u00e8me natal. Traditionnellement associ\u00e9e \u00e0 la mort, elle gouverne en r\u00e9alit\u00e9 tout ce qui touche \u00e0 la transformation profonde : les crises existentielles, les h\u00e9ritages (mat\u00e9riels et psychologiques), la sexualit\u00e9 intime, l\u2019argent des autres (pr\u00eats, imp\u00f4ts, assurances), les pertes et les renaissances. En analogie avec le Scorpion et Pluton, cette maison repr\u00e9sente le processus alchimique de destruction-reconstruction. Une maison VIII charg\u00e9e conf\u00e8re au natif une capacit\u00e9 remarquable \u00e0 traverser les \u00e9preuves et \u00e0 rena\u00eetre, mais aussi une attirance parfois inconsciente pour les situations de crise. En astrologie psychologique, la maison VIII r\u00e9v\u00e8le notre rapport au pouvoir partag\u00e9 dans l\u2019intimit\u00e9, notre capacit\u00e9 \u00e0 nous abandonner \u00e0 l\u2019autre et nos peurs les plus profondes.",
     "related": ["Pluton", "Scorpion", "Maison VII", "Maison XII"]
+  },
+  {
+    "term": "Maison IX",
+    "slug": "maison-ix",
+    "category": "maison",
+    "short": "Secteur de la philosophie, des voyages lointains et de la quête de sens.",
+    "body": "En analogie avec le Sagittaire et Jupiter, la Maison IX est celle de l'expansion mentale et spirituelle. Elle concerne les études supérieures, les voyages à l'étranger, la religion, la philosophie et tout ce qui élargit les horizons de l'individu. C'est la maison de la quête de vérité et de la sagesse. Une forte activité en IX indique souvent un besoin de comprendre le monde à travers une vision globale et de se connecter à des valeurs universelles.",
+    "related": ["Jupiter", "Sagittaire", "Philosophie", "Voyages"]
+  },
+  {
+    "term": "Maison IX",
+    "slug": "maison-9",
+    "category": "maison",
+    "short": "Secteur des grands voyages, de la philosophie et de la spiritualit\u00e9.",
+    "body": "En analogie avec le Sagittaire et Jupiter, la Maison IX repr\u00e9sente l\u2019\u00e9l\u00e9vation de l\u2019esprit. Elle r\u00e9git les hautes \u00e9tudes, la religion, la loi, les voyages lointains (physiques ou mentaux) et la qu\u00eate de sens. C\u2019est ici que l\u2019on cherche \u00e0 d\u00e9passer ses horizons habituels pour comprendre les lois universelles et d\u00e9velopper une vision globale du monde.",
+    "related": ["Jupiter", "Sagittaire", "Philosophie"]
+  },
+  {
+    "term": "Maison X (Milieu du Ciel)",
+    "slug": "maison-10",
+    "category": "maison",
+    "short": "Secteur de la carri\u00e8re, du destin social et de l\u2019autorit\u00e9.",
+    "body": "En analogie avec le Capricorne et Saturne, la Maison X est le point culminant du th\u00e8me. Elle symbolise la r\u00e9ussite professionnelle, le statut public, l\u2019ambition et l\u2019honneur. Elle est li\u00e9e \u00e0 la figure de l\u2019autorit\u00e9 ou du parent qui guide l\u2019individu vers sa place dans la soci\u00e9t\u00e9. C\u2019est l\u00e0 o\u00f9 l\u2019on r\u00e9colte les fruits de ses efforts pass\u00e9s.",
+    "related": ["Milieu du Ciel", "Saturne", "Capricorne", "Vocation"]
+  },
+  {
+    "term": "Maison XI",
+    "slug": "maison-11",
+    "category": "maison",
+    "short": "Secteur des projets, des amis et de la participation sociale.",
+    "body": "En analogie avec le Verseau et Uranus, la Maison XI d\u00e9crit les appuis, les protections et les groupes d\u2019appartenance. C\u2019est la maison de l\u2019espoir, des id\u00e9aux collectifs et de la fraternit\u00e9. Contrairement \u00e0 la V qui est cr\u00e9ation individuelle, la XI est cr\u00e9ation collective. Elle montre comment l\u2019individu s\u2019ins\u00e8re dans un r\u00e9seau pour r\u00e9aliser ses visions d\u2019avenir.",
+    "related": ["Uranus", "Verseau", "Amiti\u00e9"]
+  },
+  {
+    "term": "Maison XII",
+    "slug": "maison-12",
+    "category": "maison",
+    "short": "Secteur du subconscient, des \u00e9preuves et de la vie int\u00e9rieure.",
+    "body": "En analogie avec les Poissons et Neptune, la Maison XII est la plus complexe. Elle r\u00e9git les lieux d\u2019isolement (h\u00f4pitaux, retraites), les ennemis cach\u00e9s, le karma et les secrets. C\u2019est le secteur du renoncement au moi pour s\u2019unir au grand Tout. Une forte activit\u00e9 ici donne une grande int\u00e9riorit\u00e9, des facult\u00e9s m\u00e9diumniques, mais peut aussi provoquer un sentiment de solitude ou de flou face aux r\u00e9alit\u00e9s mat\u00e9rielles.",
+    "related": ["Neptune", "Poissons", "Subconscient", "Karma"]
+  },
+  {
+    "term": "Ma\u00eetrise (Ma\u00eetre)",
+    "slug": "maitrise",
+    "category": "concept",
+    "short": "Lien de propri\u00e9t\u00e9 symbolique entre une plan\u00e8te et un signe zodiacal.",
+    "body": "Chaque signe a un \u00ab Ma\u00eetre \u00bb. Par exemple, Mars ma\u00eetrise le B\u00e9lier. La plan\u00e8te est l\u2019agent ex\u00e9cutif du signe. L\u2019\u00e9tude des ma\u00eetrises (ou dispositaires) permet de tisser des liens entre diff\u00e9rentes parties du th\u00e8me : le ma\u00eetre de la maison II situ\u00e9 en maison X relie les finances \u00e0 la carri\u00e8re.",
+    "related": ["Domicile", "Dispositaire", "Dignit\u00e9 essentielle"]
   },
   {
     "term": "Ma\u00eetre de l\u2019Ascendant",
@@ -40,12 +128,36 @@
     "related": ["Ascendant", "Ma\u00eetrise", "Almuten", "Gouverneur"]
   },
   {
+    "term": "Mal\u00e9fique",
+    "slug": "malefique",
+    "category": "concept",
+    "short": "Traditionnellement, plan\u00e8te (Mars, Saturne) ou aspect g\u00e9n\u00e9rateur de d\u00e9fis et de restrictions.",
+    "body": "Dans l\u2019astrologie ancienne, Mars (\u00ab le petit mal\u00e9fique \u00bb) et Saturne (\u00ab le grand mal\u00e9fique \u00bb) \u00e9taient per\u00e7us comme porteurs de malheurs, de guerres ou de maladies. L\u2019astrologie moderne a transform\u00e9 cette vision : les mal\u00e9fiques sont d\u00e9sormais vues comme des forces de n\u00e9cessit\u00e9. Mars apporte l\u2019\u00e9nergie pour trancher et Saturne la structure pour b\u00e2tir. Une plan\u00e8te mal\u00e9fique bien plac\u00e9e (dignit\u00e9) devient un outil de r\u00e9ussite par l\u2019effort et la discipline.",
+    "related": ["B\u00e9n\u00e9fique", "Saturne", "Mars", "Dissonance"]
+  },
+  {
+    "term": "Mars",
+    "slug": "mars",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de l\u2019action, du d\u00e9sir, de la force combative et de la libido.",
+    "body": "Mars repr\u00e9sente l\u2019\u00e9nergie ext\u00e9rioris\u00e9e, le courage et la capacit\u00e9 de s\u2019affirmer. Elle d\u00e9crit comment nous agissons pour obtenir ce que nous voulons. Dans sa dimension positive, elle est l\u2019audace du pionnier ; dans sa dimension n\u00e9gative, elle symbolise la col\u00e8re, l\u2019impulsivit\u00e9 ou le conflit. Elle gouverne le B\u00e9lier et traditionnellement le Scorpion. Son cycle de deux ans marque des p\u00e9riodes de forte d\u00e9pense \u00e9nerg\u00e9tique.",
+    "related": ["B\u00e9lier", "Scorpion", "Action", "Vitalit\u00e9"]
+  },
+  {
     "term": "Masculin (Diurne/Positif)",
     "slug": "masculin-diurne-positif",
     "category": "concept",
     "short": "Polarité énergétique active, extravertie et émettrice.",
     "body": "Les signes dits 'Masculins' (ou Diurnes / Positifs) comprennent les signes de Feu (Bélier, Lion, Sagittaire) et d'Air (Gémeaux, Balance, Verseau). Cette classification ne concerne pas le genre de l'individu, mais la direction de l'énergie. Ces signes sont orientés vers l'extérieur, l'action, l'expression et la communication. Ils cherchent à influencer leur environnement plutôt qu'à être influencés par lui. Dans un thème, une prédominance de cette polarité favorise l'extraversion et la prise de décision rapide.",
     "related": ["Féminin", "Feu", "Air", "Polarité"]
+  },
+   {
+    "term": "Mercure",
+    "slug": "mercure",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de la communication, de l\u2019intellect, de l\u2019\u00e9change et de la jeunesse.",
+    "body": "Mercure est le messager entre le monde int\u00e9rieur et l\u2019ext\u00e9rieur. Elle r\u00e9git la mani\u00e8re dont nous traitons l\u2019information, notre style d\u2019apprentissage et notre capacit\u00e9 d\u2019adaptation. C\u2019est l\u2019astre des commer\u00e7ants, des \u00e9crivains et des transporteurs. Dans un th\u00e8me, elle indique si la pens\u00e9e est analytique (Vierge) ou associative (G\u00e9meaux). Sa proximit\u00e9 avec le Soleil fait qu\u2019elle ne s\u2019en \u00e9loigne jamais de plus de 28\u00b0.",
+    "related": ["G\u00e9meaux", "Vierge", "Communication", "R\u00e9trogradation"]
   },
   {
     "term": "M\u00e9ridien",
@@ -54,6 +166,14 @@
     "short": "Grand cercle passant par les p\u00f4les c\u00e9lestes, le Z\u00e9nith et le Nadir d\u2019un lieu.",
     "body": "Le m\u00e9ridien local est l\u2019axe vertical fondamental d\u2019un th\u00e8me. L\u2019intersection de ce cercle avec l\u2019\u00e9cliptique d\u00e9termine l\u2019axe Milieu du Ciel (MC) et Fond du Ciel (FC). En astrologie, il repr\u00e9sente l\u2019axe de l\u2019incarnation sociale et de l\u2019h\u00e9r\u00e9dit\u00e9. Tout astre qui franchit le m\u00e9ridien atteint sa culmination, moment o\u00f9 sa puissance d\u2019influence sur le plan terrestre est \u00e0 son paroxysme.",
     "related": ["Milieu du Ciel", "Fond du Ciel", "Culmination", "Z\u00e9nith"]
+  },
+  {
+    "term": "Midi Vrai",
+    "slug": "midi-vrai",
+    "category": "astronomique",
+    "short": "Le moment exact o\u00f9 le Soleil culmine au m\u00e9ridien d\u2019un lieu pr\u00e9cis.",
+    "body": "Le midi vrai (ou midi solaire) diff\u00e8re du midi l\u00e9gal donn\u00e9 par nos montres. C\u2019est l\u2019instant o\u00f9 le Soleil atteint sa plus haute \u00e9l\u00e9vation dans le ciel pour une longitude donn\u00e9e, marquant le d\u00e9but exact de la Maison X (Milieu du Ciel). En astrologie, le calcul du midi vrai est essentiel pour rectifier la domification d\u2019un th\u00e8me et d\u00e9terminer l\u2019\u00e9cart entre le temps civil et le temps sid\u00e9ral.",
+    "related": ["Temps sid\u00e9ral", "Milieu du Ciel", "M\u00e9ridien", "Longitude"]
   },
   {
     "term": "Milieu du Ciel",
@@ -70,6 +190,14 @@
     "short": "Point math\u00e9matique exact situ\u00e9 \u00e0 mi-distance entre deux astres.",
     "body": "Les mi-points sont des points de fusion \u00e9nerg\u00e9tique. Par exemple, le mi-point Soleil/Lune est consid\u00e9r\u00e9 comme un point vital d\u2019\u00e9quilibre psychique. Cette technique, popularis\u00e9e par l\u2019\u00e9cole allemande de Cosmobiologie (Reinhold Ebertin), permet d\u2019identifier des r\u00e9sonances subtiles entre plan\u00e8tes qui ne forment pas d\u2019aspects classiques par degr\u00e9.",
     "related": ["Aspects", "Cosmobiologie", "Synth\u00e8se"]
+  },
+  {
+    "term": "Modes (Modalit\u00e9s)",
+    "slug": "modes",
+    "category": "concept",
+    "short": "Classification des signes selon leur dynamique \u00e9nerg\u00e9tique (Cardinal, Fixe, Mutable).",
+    "body": "Les modes d\u00e9terminent comment l\u2019\u00e9nergie est utilis\u00e9e. Les signes Cardinaux lancent l\u2019action. Les signes Fixes stabilisent et consolident. Les signes Mutables adaptent et distribuent. Un \u00e9quilibre entre ces trois modes dans un th\u00e8me permet une personnalit\u00e9 capable \u00e0 la fois d\u2019initiative, de pers\u00e9v\u00e9rance et de flexibilit\u00e9.",
+    "related": ["Cardinal", "Fixe", "Mutable", "Quadruplicit\u00e9"]
   },
   {
     "term": "Mutable (qualit\u00e9)",

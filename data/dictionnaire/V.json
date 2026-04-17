@@ -1,5 +1,42 @@
 [
   {
+    "term": "Verseau",
+    "slug": "verseau",
+    "category": "signe",
+    "short": "Onzi\u00e8me signe (Air/Fixe), symbolisant l\u2019innovation, le collectif et la libert\u00e9.",
+    "body": "Le Verseau correspond au plein hiver. Gouvern\u00e9 par Saturne (traditionnel) et Uranus (moderne), il incarne la vision futuriste, l\u2019originalit\u00e9 et l\u2019id\u00e9alisme social. Il cherche \u00e0 briser les structures obsol\u00e8tes pour cr\u00e9er une fraternit\u00e9 universelle. C\u2019est le signe de l\u2019amiti\u00e9 et des projets humanistes. Son d\u00e9fi est d\u2019apprendre \u00e0 int\u00e9grer ses propres \u00e9motions plut\u00f4t que de rester uniquement dans le conceptuel et l\u2019ind\u00e9pendance radicale.",
+    "related": ["Saturne", "Uranus", "Air", "Futur"]
+  },
+  {
+    "term": "V\u00e9nus",
+    "slug": "venus",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de l\u2019amour, de la beaut\u00e9 et de l\u2019harmonie.",
+    "body": "V\u00e9nus symbolise les valeurs, les plaisirs et les relations. Elle gouverne le Taureau et la Balance, mettant en avant le besoin d\u2019esth\u00e9tique, de confort et d\u2019équilibre dans les interactions sociales. En astrologie, V\u00e9nus indique comment nous aimons, ce que nous trouvons attirant et comment nous exprimons notre affection. Son positionnement dans le thème natal révèle notre style relationnel et nos critères de choix amoureux.",
+    "related": ["Amour", "Beaut\u00e9", "Relations", "Taureau", "Balance"]
+  },
+  {
+    "term": "Vertex",
+    "slug": "vertex",
+    "category": "technique",
+    "short": "Point fictif situ\u00e9 \u00e0 l\u2019ouest, souvent appel\u00e9 le \u00ab troisi\u00e8me angle \u00bb du th\u00e8me.",
+    "body": "Le Vertex est le point d\u2019intersection entre l\u2019\u00e9cliptique et le premier vertical \u00e0 l\u2019ouest. En astrologie moderne, il est consid\u00e9r\u00e9 comme une porte de destin ou un point de \u00ab rencontre fatidique \u00bb. Alors que le Descendant d\u00e9crit les relations que nous choisissons consciemment, le Vertex active des \u00e9v\u00e9nements ou des rencontres sur lesquels nous n\u2019avons aucun contr\u00f4le et qui semblent impos\u00e9s par la vie. Il est tr\u00e8s utilis\u00e9 en synastrie pour rep\u00e9rer les connexions karmiques ou les tournants majeurs d\u2019existence provoqu\u00e9s par autrui. Son point oppos\u00e9 est l\u2019Anti-vertex.",
+    "related": ["Anti-vertex", "Synastrie", "Destin", "Points fictifs"]
+  },
+  {
+    "term": "V\u00e9n\u00e9rable",
+    "slug": "venerable",
+    "category": "concept",
+    "short": "Terme ancien désignant une planète ou un aspect considéré comme particulièrement bénéfique ou noble.",
+    "body": "En astrologie classique, le terme « vénérable » qualifiait certains astres ou configurations jugés particulièrement favorables, notamment les planètes bénéfiques (Vénus, Jupiter) et les aspects harmonieux (trigone, sextile). L'expression « planète vénérable » suggérait une influence noble, porteuse de chance et de bien-être. Cette terminologie reflète une vision déterministe de l'astrologie qui n'a plus cours dans la pratique moderne. Aujourd'hui, on préfère parler d'aspects bénéfiques ou de planètes en dignité, reconnaissant que même les configurations les plus favorables nécessitent une conscience et un travail sur soi pour être pleinement exploitées. Le terme reste utile pour comprendre les textes astrologiques anciens, où la distinction entre influences « vénérables » et « vicieuses » structurait toute l'interprétation.",
+    "related": [
+      "Bénéfique",
+      "Dignité essentielle",
+      "Aspect",
+      "Astrologie classique"
+    ]
+  },
+  {
     "term": "Vesta",
     "slug": "vesta",
     "category": "plan\u00e8te",
@@ -14,5 +51,29 @@
     "short": "Terme ancien désignant un aspect considéré comme particulièrement difficile ou pernicieux.",
     "body": "En astrologie classique, le terme « vicieux » qualifiait certains aspects jugés particulièrement néfastes, notamment le carré et l'opposition impliquant des maléfiques traditionnels (Mars, Saturne). L'expression « aspect vicieux » suggérait une influence corrompue, difficile à canaliser, produisant des effets nuisibles récurrents. Cette terminologie reflète une vision déterministe de l'astrologie qui n'a plus cours dans la pratique moderne. Aujourd'hui, on préfère parler d'aspects tendus, dissonants ou dynamiques, reconnaissant que même les configurations les plus difficiles peuvent être transformées en forces par la conscience et le travail sur soi. Le terme reste utile pour comprendre les textes astrologiques anciens, où la distinction entre aspects « bénéfiques » et « vicieux » structurait toute l'interprétation.",
     "related": ["Carré", "Opposition", "Dissonance", "Aspect"]
+  },
+  {
+    "term": "Via Combusta (Voie Br\u00fbl\u00e9e)",
+    "slug": "via-combusta",
+    "category": "concept",
+    "short": "Zone du zodiaque allant de 15\u00b0 Balance \u00e0 15\u00b0 Scorpion, jug\u00e9e n\u00e9faste.",
+    "body": "La Via Combusta est une portion du ciel historiquement consid\u00e9r\u00e9e comme tr\u00e8s instable et mal\u00e9fique. Une plan\u00e8te (particuli\u00e8rement la Lune) se trouvant dans cette zone est per\u00e7ue comme affaiblie ou soumise \u00e0 des \u00e9preuves impr\u00e9visibles. Cette croyance remonte au fait que cette zone combine la chute du Soleil (Balance) et l\u2019exil de V\u00e9nus avec la chute de la Lune (Scorpion). En astrologie horaire, la Lune en Via Combusta rend souvent le jugement incertain ou pr\u00e9sage d\u2019un r\u00e9sultat chaotique.",
+    "related": ["Balance", "Scorpion", "D\u00e9bilit\u00e9", "Astrologie Horaire"]
+  },
+  {
+    "term": "Vierge",
+    "slug": "vierge",
+    "category": "signe",
+    "short": "Sixi\u00e8me signe (Terre/Mutable), symbolisant l\u2019analyse, le service et le discernement.",
+    "body": "La Vierge marque la fin de l\u2019\u00e9t\u00e9 et le temps des moissons. Gouvern\u00e9e par Mercure, elle privil\u00e9gie l\u2019efficacit\u00e9, la m\u00e9thode et le souci du d\u00e9tail. C\u2019est le signe du perfectionnement technique et de la sant\u00e9. Elle cherche \u00e0 se rendre utile \u00e0 la collectivit\u00e9 par un travail soign\u00e9. Son d\u00e9fi est de d\u00e9passer l\u2019autocritique et l\u2019inqui\u00e9tude pour trouver la confiance en l\u2019ordre naturel des choses.",
+    "related": ["Mercure", "Terre", "Mutable", "Sant\u00e9"]
+  },
+  {
+    "term": "Vis\u00e9e",
+    "slug": "visee",
+    "category": "concept",
+    "short": "Orientation consciente vers un but ou une aspiration dans le thème natal.",
+    "body": "La visée est la direction que l'on choisit de donner à sa vie en fonction des indications du thème natal. Elle implique une prise de conscience des talents, des défis et des aspirations révélés par les planètes, les maisons et les aspects. La visée n'est pas déterminée par le thème, mais elle s'en inspire pour orienter les choix de vie vers une réalisation plus authentique et épanouissante. C'est un concept clé pour passer d'une lecture descriptive du thème à une approche plus dynamique et proactive de l'astrologie.",
+    "related": ["Thème natal", "Orientation", "Aspiration", "Choix de vie"]
   }
 ]

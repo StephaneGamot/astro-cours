@@ -8,6 +8,14 @@
     "related": ["Mercure", "Sagesse", "Justice"]
   },
   {
+    "term": "Parall\u00e8le de d\u00e9clinaison",
+    "slug": "parallele-de-declinaison",
+    "category": "technique",
+    "short": "Aspect bas\u00e9 sur la hauteur des plan\u00e8tes par rapport \u00e0 l\u2019\u00e9quateur c\u00e9leste.",
+    "body": "Deux plan\u00e8tes sont en parall\u00e8le lorsqu\u2019elles ont la m\u00eame d\u00e9clinaison (Nord ou Sud). Cet aspect agit avec une force similaire \u00e0 la conjonction, mais sur un plan plus occulte ou structurel. Si elles sont de d\u00e9clinaison oppos\u00e9e, on parle de Contre-parall\u00e8le (effet d\u2019opposition). C\u2019est la \u00ab troisi\u00e8me dimension \u00bb du th\u00e8me, qui peut expliquer des liens puissants entre deux astres qui n\u2019ont aucun aspect en longitude.",
+    "related": ["D\u00e9clinaison", "Aspect", "Longitude"]
+  },
+  {
     "term": "Part Arabe (Lot)",
     "slug": "part-arabe",
  "category": "point fictif",
@@ -152,6 +160,14 @@
     "body": "Ces parts (ex: AS + Saturne - Soleil pour le p\u00e8re ; AS + Jupiter - Saturne pour les enfants) permettent de d\u00e9terminer la nature du lien et le destin de ces proches par rapport au consultant. Elles \u00e9taient tr\u00e8s utilis\u00e9es avant l\u2019arriv\u00e9e de l\u2019astrologie psychologique.",
     "related": ["Maisons IV-V-III", "G\u00e9n\u00e9alogie", "Lien"]
   },
+  {
+    "term": "Partile (Aspect)",
+    "slug": "partile",
+    "category": "technique",
+    "short": "Aspect exact au degr\u00e9 pr\u00e9cis s\u00e9parant deux plan\u00e8tes.",
+    "body": "Un aspect est dit partile lorsqu\u2019il a un orbe de 0\u00b0 (ex: deux plan\u00e8tes \u00e0 15\u00b0). Son influence est alors \u00e0 son maximum de puissance et de pr\u00e9cision. Il s\u2019oppose \u00e0 l\u2019aspect \u00ab platick \u00bb, qui est valide par orbe mais moins percutant.",
+    "related": ["Orbe", "Application", "Platick"]
+  },
      {
     "term": "Pérégrine",
     "slug": "peregrine",
@@ -185,6 +201,22 @@
     "related": ["Domification", "Maisons", "Semi-arc"]
   },
   {
+    "term": "Pl\u00e9iades (M45)",
+    "slug": "pleiades",
+    "category": "constellation",
+    "short": "Amas d\u2019\u00e9toiles dans la constellation du Taureau, li\u00e9 \u00e0 la vision et au destin collectif.",
+    "body": "Aussi appel\u00e9es les \u00ab Sept S\u0153urs \u00bb, les Pl\u00e9iades se situent \u00e0 environ 29\u00b0 du signe du Taureau. Symboliquement, elles sont souvent associ\u00e9es aux pleurs, \u00e0 une grande sensibilit\u00e9 ou \u00e0 des probl\u00e8mes de vue au sens propre comme au figur\u00e9. Sur un plan plus \u00e9lev\u00e9, elles repr\u00e9sentent une forte intuition et une connexion avec les m\u00e9moires ancestrales de l\u2019humanit\u00e9. Leur influence est consid\u00e9r\u00e9e comme tr\u00e8s puissante lorsqu\u2019elles sont conjointes \u00e0 un luminaire.",
+    "related": ["Taureau", "\u00c9toiles Fixes", "Mythologie"]
+  },
+   {
+    "term": "Pluton",
+    "slug": "pluton",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de la transformation, du pouvoir, de la destruction et de la renaissance.",
+    "body": "Pluton est la plan\u00e8te la plus lointaine et la plus lente du syst\u00e8me astrologique. Il met environ 248 ans \u00e0 parcourir le zodiaque, s\u00e9journant entre 12 et 31 ans dans chaque signe \u2014 ce qui en fait un marqueur g\u00e9n\u00e9rationnel puissant. D\u00e9couvert en 1930, Pluton a \u00e9t\u00e9 associ\u00e9 par les astrologues au Scorpion et \u00e0 la maison VIII. Il symbolise les forces souterraines de l\u2019\u00e2me : le pouvoir, l\u2019obsession, la mort symbolique, la r\u00e9g\u00e9n\u00e9ration, la sexualit\u00e9 profonde et les m\u00e9canismes inconscients. Un Pluton harmonieux conf\u00e8re un charisme magn\u00e9tique, une capacit\u00e9 de r\u00e9silience exceptionnelle et un instinct psychologique redoutable. Un Pluton tendu peut indiquer des luttes de pouvoir, une tendance au contr\u00f4le ou une difficult\u00e9 \u00e0 l\u00e2cher prise. Le transit de Pluton sur un point sensible du th\u00e8me est toujours un moment charni\u00e8re : il d\u00e9truit ce qui n\u2019est plus authentique pour laisser \u00e9merger une v\u00e9rit\u00e9 plus profonde.",
+    "related": ["Scorpion", "Maison VIII", "Carr\u00e9", "Transit"]
+  },  
+  {
     "term": "Point de Chute",
     "slug": "point-de-chute",
     "category": "concept",
@@ -209,6 +241,14 @@
     "related": ["B\u00e9lier", "Zodiaque Tropical", "\u00c9quinoxe"]
   },
    {
+    "term": "Poissons",
+    "slug": "poissons",
+    "category": "signe",
+    "short": "Douzi\u00e8me signe (Eau/Mutable), symbolisant la sensibilit\u00e9, la spiritualit\u00e9 et l\u2019unit\u00e9.",
+    "body": "Les Poissons marquent la fin de l\u2019hiver, la fonte des neiges. Gouvern\u00e9 par Jupiter (traditionnel) et Neptune (moderne), il incarne la dissolution de l\u2019ego dans l\u2019infini. C\u2019est le signe de la compassion, du sacrifice, de l\u2019intuition et du r\u00eave. Il repr\u00e9sente l\u2019oc\u00e9an de l\u2019inconscient collectif. Son d\u00e9fi est de ne pas se noyer dans la confusion ou le victimage, mais d\u2019utiliser sa sensibilit\u00e9 pour inspirer et gu\u00e9rir par l\u2019amour inconditionnel.",
+    "related": ["Jupiter", "Neptune", "Eau", "Spiritualit\u00e9"]
+  },
+   {
     "term": "Précession des équinoxes",
     "slug": "precession-des-equinoxes",
     "category": "astronomique",
@@ -216,14 +256,7 @@
     "body": "Ce phénomène astronomique fait que le point de l'équinoxe de printemps (0° Bélier tropical) recule lentement par rapport aux constellations fixes (environ 1° tous les 72 ans). C'est ce mouvement qui définit les 'Grandes Ères' (comme l'Ère du Verseau) et qui explique la différence entre les zodiaques tropical et sidéral.",
     "related": ["Zodiaque Sidéral", "Équinoxes", "Ère Astrologique"]
   },
-  {
-    "term": "Pluton",
-    "slug": "pluton",
-    "category": "plan\u00e8te",
-    "short": "Plan\u00e8te de la transformation, du pouvoir, de la destruction et de la renaissance.",
-    "body": "Pluton est la plan\u00e8te la plus lointaine et la plus lente du syst\u00e8me astrologique. Il met environ 248 ans \u00e0 parcourir le zodiaque, s\u00e9journant entre 12 et 31 ans dans chaque signe \u2014 ce qui en fait un marqueur g\u00e9n\u00e9rationnel puissant. D\u00e9couvert en 1930, Pluton a \u00e9t\u00e9 associ\u00e9 par les astrologues au Scorpion et \u00e0 la maison VIII. Il symbolise les forces souterraines de l\u2019\u00e2me : le pouvoir, l\u2019obsession, la mort symbolique, la r\u00e9g\u00e9n\u00e9ration, la sexualit\u00e9 profonde et les m\u00e9canismes inconscients. Un Pluton harmonieux conf\u00e8re un charisme magn\u00e9tique, une capacit\u00e9 de r\u00e9silience exceptionnelle et un instinct psychologique redoutable. Un Pluton tendu peut indiquer des luttes de pouvoir, une tendance au contr\u00f4le ou une difficult\u00e9 \u00e0 l\u00e2cher prise. Le transit de Pluton sur un point sensible du th\u00e8me est toujours un moment charni\u00e8re : il d\u00e9truit ce qui n\u2019est plus authentique pour laisser \u00e9merger une v\u00e9rit\u00e9 plus profonde.",
-    "related": ["Scorpion", "Maison VIII", "Carr\u00e9", "Transit"]
-  },   
+  
   
   {
     "term": "Profections",

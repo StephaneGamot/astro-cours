@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "term": "William Lilly",
+    "short": "Le plus grand astrologue anglais du XVIIe si\u00e8cle, ma\u00eetre de l\u2019astrologie horaire.",
+    "slug": "william-lilly",
+    "category": "personnage",
+    "body": "Auteur de \u00ab Christian Astrology \u00bb (1647), Lilly est rest\u00e9 dans l\u2019histoire pour sa capacit\u00e9 de pr\u00e9diction stup\u00e9fiante, notamment celle du Grand Incendie de Londres en 1666. Il a port\u00e9 l\u2019astrologie horaire \u00e0 son plus haut niveau de perfection. Son travail est aujourd\u2019hui la base de la renaissance de l\u2019astrologie traditionnelle en Occident, car il d\u00e9taillait ses m\u00e9thodes avec une clart\u00e9 rare pour l\u2019\u00e9poque.",
+    "related": ["Astrologie Horaire", "Pr\u00e9vision", "Tradition"]
+  }
+]

@@ -1,1 +1,17 @@
-[]
+[{
+    "term": "Uranus",
+    "slug": "uranus",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de la r\u00e9volution, de l\u2019originalit\u00e9, du changement brusque et de l\u2019\u00e9veil.",
+    "body": "Premi\u00e8re des plan\u00e8tes transaturniennes, Uranus symbolise la rupture avec la tradition (Saturne). Elle repr\u00e9sente la foudre, l\u2019intuition fulgurante, l\u2019informatique, l\u2019aviation et tout ce qui est non conventionnel. Dans un th\u00e8me, Uranus indique o\u00f9 nous avons besoin de libert\u00e9 et d\u2019ind\u00e9pendance. Elle r\u00e9git le signe du Verseau et son cycle est de 84 ans.",
+    "related": ["Verseau", "Libert\u00e9", "Innovation", "Transaturnienne"]
+  },
+  {
+    "term": "Uranus en transit",
+    "slug": "uranus-en-transit",
+    "category": "concept",
+    "short": "P\u00e9riode de changement soudain, de r\u00e9bellion ou d'\u00e9veil provoqu\u00e9 par le passage d'Uranus sur un point sensible du th\u00e8me natal.",
+    "body": "Le transit d'Uranus est souvent synonyme de bouleversements inattendus, de prises de conscience soudaines ou de ruptures avec le pass\u00e9. Lorsqu'il transite une maison ou forme un aspect majeur avec une plan\u00e8te personnelle, il peut provoquer une envie irr\u00e9sistible de changement, que ce soit dans les relations, la carri\u00e8re ou les croyances. Bien que ces transits puissent \u00eatre d\u00e9stabilisants, ils offrent aussi l'opportunit\u00e9 de se lib\u00e9rer des sch\u00e9mas limitants et d'embrasser une version plus authentique de soi-m\u00eame.",
+    "related": ["Uranus", "Transit", "Changement", "Éveil"]
+  }
+]

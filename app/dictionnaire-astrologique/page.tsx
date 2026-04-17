@@ -119,6 +119,12 @@ constellation: {
   border: "border-teal-400/20",
   dot: "bg-teal-400",
 },
+personnage: {
+  bg: "bg-yellow-500/10",
+  text: "text-yellow-300",
+  border: "border-yellow-400/20",
+  dot: "bg-yellow-400",
+},
 };
 
 /* ================================================================== */

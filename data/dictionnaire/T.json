@@ -8,6 +8,22 @@
     "related": ["Maison VIII", "Ascendant", "Carte du ciel"]
   },
   {
+    "term": "Taureau",
+    "slug": "taureau",
+    "category": "signe",
+    "short": "Deuxi\u00e8me signe (Terre/Fixe), symbolisant la stabilit\u00e9, les sens et la mati\u00e8re.",
+    "body": "Le Taureau correspond au plein printemps, quand la nature se stabilise et s\u2019enracine. Gouvern\u00e9 par V\u00e9nus, il est reli\u00e9 aux plaisirs sensoriels, \u00e0 la s\u00e9curit\u00e9 mat\u00e9rielle et \u00e0 la patience. C\u2019est une \u00e9nergie de construction lente et durable. Le Taureau cherche \u00e0 pr\u00e9server ce qu\u00e9il poss\u00e8de. Son d\u00e9fi est de d\u00e9passer l\u2019attachement excessif \u00e0 la mati\u00e8re et de d\u00e9velopper une s\u00e9curit\u00e9 int\u00e9rieure ind\u00e9pendante des biens ext\u00e9rieurs.",
+    "related": ["V\u00e9nus", "Terre", "Fixe", "Mati\u00e8re"]
+  },
+  {
+    "term": "Technique de la Table des Maisons",
+    "slug": "technique-table-des-maisons",
+    "category": "technique",
+    "short": "Méthode de calcul des cuspides des maisons à partir de la table des maisons.",
+    "body": "Pour utiliser la table des maisons, il faut d'abord déterminer l'heure sidérale locale au moment de la naissance, en tenant compte du fuseau horaire et de la longitude du lieu de naissance. Ensuite, en fonction de la latitude, on consulte la table pour trouver les degrés zodiacaux correspondant aux cuspides des maisons. Par exemple, pour une latitude de 45° Nord et une heure sidérale de 10h, on peut trouver que la cuspide de la Maison I est à 15° Bélier, celle de la Maison II à 10° Taureau, etc. Ces degrés sont ensuite reportés sur le thème astral pour placer les planètes dans les maisons correspondantes. La précision de ce calcul est cruciale, car une erreur d'heure ou de latitude peut déplacer les cuspides et ainsi modifier l'interprétation du thème.",
+    "related": ["Table des maisons", "Domification", "Ascendant"]
+  },
+  {
     "term": "Th\u00e8me",
     "slug": "theme",
     "category": "technique",
@@ -32,6 +48,14 @@
     "related": ["Synastrie", "Mi-points", "Relationnel"]
   },
   {
+    "term": "Temps sid\u00e9ral",
+    "slug": "temps-sideral",
+    "category": "astronomique",
+    "short": "Mesure du temps bas\u00e9e sur la rotation de la Terre par rapport aux \u00e9toiles fixes.",
+    "body": "Le temps sid\u00e9ral est l\u2019outil indispensable pour calculer la domification (les maisons) d\u2019un th\u00e8me. Puisque la Terre tourne sur elle-m\u00eame tout en gravitant autour du Soleil, un jour solaire dure 24h, mais un jour sid\u00e9ral ne dure que 23h 56m 4s. Pour monter un th\u00e8me, l\u2019astrologue convertit l\u2019heure de naissance en \u00ab Temps Sid\u00e9ral Local \u00bb (TSL) en utilisant les Tables des Maisons. C\u2019est ce temps qui permet de d\u00e9terminer quel degr\u00e9 du zodiaque passait au m\u00e9ridien et quel signe se levait \u00e0 l\u2019horizon au moment exact de la naissance.",
+    "related": ["Domification", "Ascendant", "M\u00e9ridien", "\u00c9ph\u00e9m\u00e9rides"]
+  },
+  {
     "term": "Termes",
     "slug": "termes",
     "category": "concept",
@@ -54,6 +78,22 @@
     "short": "Nom traditionnel du Nœud Nord lunaire, indiquant la direction d'évolution de l'âme.",
     "body": "La Tête du Dragon est le nom traditionnel du Nœud Nord de la Lune (☊). Ce point fictif correspond à l'intersection ascendante de l'orbite lunaire avec l'écliptique. En astrologie karmique et évolutive, la Tête du Dragon représente la direction de croissance, le potentiel à développer, les qualités que l'âme cherche à intégrer dans cette incarnation. C'est un point d'appel, parfois inconfortable car il pousse vers l'inconnu. Son signe et sa maison indiquent le domaine où le natif est invité à évoluer. La Tête du Dragon s'oppose toujours à la Queue du Dragon (Nœud Sud), qui représente les acquis passés et les automatismes à dépasser. L'axe des Nœuds forme ainsi un vecteur évolutif fondamental dans l'interprétation du thème natal.",
     "related": ["Nœuds lunaires", "Carte du ciel"]
+  },
+  {
+    "term": "Th\u00e8me \u00e9v\u00e9nementiel",
+    "slug": "theme-evenementiel",
+    "category": "technique",
+    "short": "Carte du ciel dress\u00e9e pour le d\u00e9but d\u2019un \u00e9v\u00e9nement pr\u00e9cis.",
+    "body": "Le th\u00e8me \u00e9v\u00e9nementiel traite un moment de l\u2019histoire comme s\u2019il s\u2019agissait d\u2019une naissance. On l\u2019utilise pour analyser le potentiel et l\u2019issue d\u2019une signature de contrat, d\u2019un accident, d\u2019une catastrophe naturelle ou de l\u2019inauguration d\u2019un monument. Contrairement au th\u00e8me natal qui suit une personne, le th\u00e8me \u00e9v\u00e9nementiel fige \u00ab l\u2019\u00e2me \u00bb d\u2019une action entreprise. C\u2019est une branche cl\u00e9 de l\u2019astrologie mondiale et \u00e9lective qui permet d\u2019analyser les forces en pr\u00e9sence lors d\u2019un fait marquant.",
+    "related": ["Astrologie Mondiale", "Astrologie \u00c9lective", "Transit", "Radix"]
+  },
+  {
+    "term": "Th\u00e8me horaire",
+    "slug": "theme-horaire",
+    "category": "branche",
+    "short": "Carte du ciel dress\u00e9e au moment pr\u00e9cis o\u00f9 une question est pos\u00e9e \u00e0 l\u2019astrologue.",
+    "body": "L\u2019astrologie horaire est l\u2019une des branches les plus anciennes et les plus rigoureuses de la discipline. Elle repose sur le postulat que l\u2019instant o\u00f9 une question \u00ab na\u00eet \u00bb dans l\u2019esprit du consultant contient la r\u00e9ponse \u00e0 son probl\u00e8me. Contrairement \u00e0 l\u2019astrologie natale, elle n\u00e9cessite des r\u00e8gles d\u2019interpr\u00e9tation tr\u00e8s sp\u00e9cifiques (interdictions de juger, consid\u00e9rations avant jugement). On y analyse principalement les aspects que va former la Lune (co-significatrice du consultant) et les relations entre les ma\u00eetres des maisons concern\u00e9es par la question. C\u2019est un outil de pr\u00e9cision redoutable pour des questions concr\u00e8tes (\u00ab Vais-je obtenir ce contrat ? \u00bb, \u00ab O\u00f9 sont mes cl\u00e9s ? \u00bb).",
+    "related": ["Astrologie Traditionnelle", "Lune", "Significateur", "William Lilly"]
   },
   {
     "term": "Thème natal",
@@ -102,5 +142,13 @@
     "short": "Regroupement des douze signes en quatre groupes de trois, selon leur élément.",
     "body": "La triplicité divise le zodiaque par élément : le Feu (Bélier, Lion, Sagittaire), la Terre (Taureau, Vierge, Capricorne), l'Air (Gémeaux, Balance, Verseau) et l'Eau (Cancer, Scorpion, Poissons). Chaque triplicité partage une nature élémentaire commune qui influence le tempérament de base. En astrologie traditionnelle, chaque triplicité est gouvernée par un groupe de planètes 'maîtres de triplicité' qui varient selon le cycle jour/nuit du thème.",
     "related": ["Éléments", "Trigoncratie", "Quadruplicité"]
+  }, 
+  {
+    "term": "Trutine d\u2019Herm\u00e8s",
+    "slug": "trutine-d-hermes",
+    "category": "technique",
+    "short": "M\u00e9thode ancienne de rectification de l\u2019heure de naissance bas\u00e9e sur le moment de la conception.",
+    "body": "La Trutine d\u2019Herm\u00e8s repose sur une loi d\u2019analogie entre la naissance et la conception : l\u2019Ascendant du th\u00e8me de naissance correspond \u00e0 la position de la Lune au moment de la conception, et vice-versa. Utilis\u00e9e depuis l\u2019Antiquit\u00e9, cette r\u00e8gle permet de retrouver une heure de naissance inconnue ou impr\u00e9cise en calculant la date th\u00e9orique de la f\u00e9condation (g\u00e9n\u00e9ralement 273 jours avant la naissance). Bien que controvers\u00e9e car elle ne tient pas compte des dur\u00e9es de gestation variables, elle reste un outil fascinant de l\u2019astrologie traditionnelle pour l\u00e9gitimer l\u2019heure du premier souffle.",
+    "related": ["Rectification", "Lune", "Ascendant", "Conception"]
   }
 ]

@@ -193,6 +193,7 @@ const NAV_COLUMNS: Record<string, { title: string; mobileTitle: string; items: F
 };
 
 const ANNEXES: FooterItem[] = [
+ { name: "Dictionnaire astrologique", href: "/dictionnaire-astrologique" },
   { name: "Aspects", href: "/aspects" },
   { name: "Transits", href: "/transits" },
   { name: "Points fictifs", href: "/points-fictifs" },
@@ -206,6 +207,8 @@ const ANNEXES: FooterItem[] = [
   { name: "Révolutions solaires", href: "/revolution-solaire" },
   { name: "Astéroïdes", href: "/asteroides" },
   { name: "Décans du zodiaque", href: "/les-decans" },
+
+ 
 ];
 
 const LEGAL: FooterItem[] = [

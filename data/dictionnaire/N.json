@@ -8,6 +8,14 @@
     "related": ["Fond du Ciel", "Z\u00e9nith", "Maison IV"]
   },
   {
+    "term": "Neptune",
+    "slug": "neptune",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de l\u2019inspiration, du r\u00eave, de la spiritualit\u00e9 et de la dissolution des limites.",
+    "body": "Neptune r\u00e9git l\u2019invisible, l\u2019intuition, les arts mystiques et la compassion universelle. Elle symbolise la capacit\u00e9 de transcender l\u2019ego pour se connecter au collectif. Mal aspect\u00e9e, elle peut g\u00e9n\u00e9rer de la confusion, des illusions, des fuites hors de la r\u00e9alit\u00e9 ou des d\u00e9pendances. Elle r\u00e9git le signe des Poissons et met environ 165 ans \u00e0 faire le tour du zodiaque.",
+    "related": ["Poissons", "Spiritualit\u00e9", "Inconscient collectif", "Id\u00e9alisme"]
+  },
+  {
     "term": "Nocturne",
     "slug": "nocturne",
     "category": "concept",

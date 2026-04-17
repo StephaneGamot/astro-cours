@@ -1,5 +1,69 @@
 [
   {
+    "term": "Sagittaire",
+    "slug": "sagittaire",
+    "category": "signe",
+    "short": "Neuvi\u00e8me signe (Feu/Mutable), symbolisant l\u2019expansion, la philosophie et le voyage.",
+    "body": "Le Sagittaire marque la fin de l\u2019automne, quand on cherche la lumi\u00e8re dans l\u2019obscurit\u00e9 croissante. Gouvern\u00e9 par Jupiter, il incarne l\u2019optimisme, la soif de sens et l\u2019aventure. Il aspire \u00e0 l\u2019\u00e9l\u00e9vation spirituelle et \u00e0 la compr\u00e9hension des lois universelles. Son d\u00e9fi est de canaliser son enthousiasme pour ne pas tomber dans le fanatisme ou l\u2019exc\u00e8s d\u2019assurance, et de concr\u00e9tiser ses vastes id\u00e9aux.",
+    "related": ["Jupiter", "Feu", "Mutable", "Expansion"]
+  },
+  {
+    "term": "Saturne",
+    "slug": "saturne",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de la structure, de la discipline et des limites.",
+    "body": "Saturne est associ\u00e9 \u00e0 la responsabilit\u00e9, au temps qui passe et aux le\u00e7ons de vie. Il symbolise les obstacles, les retards et les restrictions, mais aussi la sagesse acquise par l'effort et la pers\u00e9v\u00e9rance. En astrologie karmique, Saturne indique les domaines o\u00f9 le consultant doit travailler pour \u00e9voluer. Son influence peut sembler lourde, mais elle est n\u00e9cessaire pour construire une vie solide et authentique.",
+    "related": ["Responsabilit\u00e9", "Temps", "Karma", "Sagesse"]
+  },
+  {
+    "term": "Secteur",
+    "slug": "secteur",
+    "category": "concept",
+    "short": "Synonyme technique d\u2019une maison astrologique.",
+    "body": "Le terme secteur est souvent pr\u00e9f\u00e9r\u00e9 par l\u2019astrologie statistique ou scientifique (ex: les secteurs de Gauquelin). Il d\u00e9signe une portion de l\u2019espace local (le ciel divis\u00e9 en 12).",
+    "related": ["Maisons", "Domification"]
+  },
+  {
+    "term": "Soleil",
+    "slug": "soleil",
+    "category": "plan\u00e8te",
+    "short": "Plan\u00e8te de l'identit\u00e9, de la vitalit\u00e9 et de l'expression de soi.",
+    "body": "Le Soleil repr\u00e9sente le centre de notre th\u00e8me natal, notre essence profonde et notre \u00ab Je suis \u00bb. Il symbolise la volont\u00e9, la confiance en soi et le besoin de briller. En astrologie traditionnelle, le Soleil est le plus grand des bienfaiteurs, apportant force et protection. Cependant, il peut aussi indiquer une tendance \u00e0 l'orgueil ou au narcissisme si mal g\u00e9r\u00e9.",
+    "related": ["Identit\u00e9", "Vitalit\u00e9", "Confiance en soi", "Expression"]
+  },
+  {
+    "term": "Soleil en exaltation",
+    "slug": "soleil-en-exaltation",
+    "category": "concept",
+    "short": "Position du Soleil en Bélier, où il exprime son potentiel de manière optimale.",
+    "body": "Le Soleil est en exaltation dans le signe du Bélier. Cette position lui conf\u00e8re une grande vitalit\u00e9, une forte volont\u00e9 et une capacité \u00e0 initier des projets avec enthousiasme. Le Soleil en Bélier favorise l'affirmation de soi, le courage et la prise d'initiative. C'est une position qui encourage à vivre pleinement sa singularité et à embrasser les défis avec audace.",
+    "related": ["Soleil", "Bélier", "Exaltation", "Vitalité"]
+  },
+  {
+    "term": "Soleil en chute",
+    "slug": "soleil-en-chute",
+    "category": "concept",
+    "short": "Position du Soleil en Balance, où il exprime ses énergies de manière plus difficile.",
+    "body": "Le Soleil est en chute dans le signe de la Balance. Cette position peut indiquer des défis liés à l'affirmation de soi, à la confiance et à la clarté d'identité. Le Soleil en Balance peut se traduire par une tendance à l'indécision, au besoin de plaire ou à la difficulté à s'affirmer sans compromis. Cependant, elle peut aussi conférer une grande diplomatie, une capacité à créer l'harmonie et une sensibilité aux besoins des autres.",
+    "related": ["Soleil", "Balance", "Chute", "Défis"]
+  },
+  {
+    "term": "Scorpion",
+    "slug": "scorpion",
+    "category": "signe",
+    "short": "Huiti\u00e8me signe (Eau/Fixe), symbolisant la transformation, l\u2019intensit\u00e9 et le myst\u00e8re.",
+    "body": "Le Scorpion correspond au plein automne, temps de la d\u00e9composition qui pr\u00e9pare la vie future. Gouvern\u00e9 par Mars (traditionnel) et Pluton (moderne), il explore les profondeurs de la psych\u00e9, la sexualit\u00e9 et les tabous. C\u2019est une \u00e9nergie de r\u00e9g\u00e9n\u00e9ration extr\u00eame (le Ph\u0153nix). Son d\u00e9fi est de transformer ses passions destructrices et son besoin de contr\u00f4le en une puissance de gu\u00e9rison et de sagesse occulte.",
+    "related": ["Mars", "Pluton", "Eau", "Transformation"]
+  },
+  {
+    "term": "Secte (Sect)",
+    "slug": "secte",
+    "category": "concept",
+    "short": "Classification fondamentale entre th\u00e8me diurne et th\u00e8me nocturne.",
+    "body": "La Secte est une notion pilier de l\u2019astrologie hell\u00e9nistique revenue en force aujourd\u2019hui. Un th\u00e8me est de la \u00ab secte du jour \u00bb si le Soleil est au-dessus de l\u2019horizon, ou de la \u00ab secte de la nuit \u00bb s\u2019il est en dessous. Cela change radicalement la puissance des plan\u00e8tes : Jupiter est plus b\u00e9n\u00e9fique le jour, tandis que V\u00e9nus l\u2019est davantage la nuit. De m\u00eame, Saturne est moins \u00ab mal\u00e9fique \u00bb le jour, et Mars est plus g\u00e9rable la nuit.",
+    "related": ["Diurne", "Nocturne", "B\u00e9n\u00e9fique", "Mal\u00e9fique"]
+  },
+  {
     "term": "Semi-arc",
     "slug": "semi-arc",
     "category": "technique",
@@ -65,6 +129,22 @@
     "body": "Le zodiaque est divisé en 12 signes de 30 degrés chacun, correspondant aux constellations que le Soleil traverse au cours de l'année. Chaque signe possède des qualités, des éléments et des modes qui lui sont propres, influençant la manière dont les planètes s'expriment lorsqu'elles y sont positionnées. Les signes sont les suivants : Bélier, Taureau, Gémeaux, Cancer, Lion, Vierge, Balance, Scorpion, Sagittaire, Capricorne, Verseau et Poissons. Ils forment la base de l'interprétation astrologique et colorent tous les aspects du thème natal.",
     "related": ["Zodiaque", "Élément", "Mode", "Planète"]
    },
+   {
+    "term": "Signes austraux",
+    "slug": "signes-austraux",
+    "category": "astronomique",
+    "short": "Les six derniers signes du zodiaque (Balance \u00e0 Poissons).",
+    "body": "Situ\u00e9s au sud de l\u2019\u00e9quateur c\u00e9leste. Ils marquent la p\u00e9riode o\u00f9 les nuits l\u2019emportent sur les jours (en h\u00e9misph\u00e8re nord). Symboliquement, ils concernent la relation aux autres, au collectif et \u00e0 la spiritualit\u00e9.",
+    "related": ["Signes bor\u00e9aux", "Zodiaque"]
+  },
+    {
+    "term": "Signes bor\u00e9aux",
+    "slug": "signes-boreaux",
+    "category": "astronomique",
+    "short": "Les six premiers signes du zodiaque (B\u00e9lier \u00e0 Vierge).",
+    "body": "Ce sont les signes situés au nord de l\u2019\u00e9quateur c\u00e9leste. Ils correspondent \u00e0 la p\u00e9riode o\u00f9 les jours sont plus longs que les nuits dans l\u2019h\u00e9misph\u00e8re nord. Symboliquement, ils sont li\u00e9s au d\u00e9veloppement de la personnalit\u00e9 individuelle.",
+    "related": ["Signes austraux", "\u00c9quateur c\u00e9leste"]
+  },
   {
     "term": "Significateur",
     "slug": "significateur",
@@ -72,6 +152,30 @@
     "short": "Plan\u00e8te ou point d\u00e9sign\u00e9 pour repr\u00e9senter un domaine pr\u00e9cis de la vie.",
     "body": "On distingue les significateurs naturels (ex: V\u00e9nus pour l\u2019amour, Saturne pour la mort ou la structure) et les significateurs accidentels (le ma\u00eetre de la Maison II pour les finances, ou de la Maison VII pour le mariage). L\u2019art de l\u2019interpr\u00e9tation consiste \u00e0 synth\u00e9tiser l\u2019action du significateur naturel et celle du ma\u00eetre de maison pour pr\u00e9dire l\u2019\u00e9volution d\u2019un domaine sp\u00e9cifique.",
     "related": ["Ma\u00eetrise", "Maisons", "Dignit\u00e9s"]
+  },
+  {
+    "term": "Sirius (L\u2019\u00c9toile du Chien)",
+    "slug": "sirius",
+    "category": "constellation",
+    "short": "L\u2019\u00e9toile la plus brillante du ciel nocturne (Grand Chien), li\u00e9e \u00e0 l\u2019immortalit\u00e9.",
+    "body": "Sirius (situ\u00e9e \u00e0 environ 14\u00b0 du Cancer) est une \u00e9toile d\u2019une puissance colossale. Dans l\u2019\u00c9gypte ancienne, son lever h\u00e9liaque annon\u00e7ait la crue du Nil. En astrologie, elle symbolise une r\u00e9ussite qui d\u00e9passe le cadre d\u2019une simple vie : elle apporte honneur, c\u00e9l\u00e9brit\u00e9 et parfois une forme de g\u00e9nie. Elle indique que les actions de l\u2019individu auront un impact durable sur la collectivit\u00e9.",
+    "related": ["Cancer", "Grand Chien", "Lever h\u00e9liaque"]
+  },
+  {
+    "term": "Solstices",
+    "slug": "solstices",
+    "category": "astronomique",
+    "short": "Moments de l\u2019ann\u00e9e o\u00f9 l\u2019\u00e9cart de dur\u00e9e entre le jour et la nuit est maximal.",
+    "body": "Les deux solstices marquent l\u2019entr\u00e9e du Soleil dans les signes Cardinaux du Cancer (21 juin - jour le plus long) et du Capricorne (21 d\u00e9cembre - nuit la plus longue). Symboliquement, ils repr\u00e9sentent des points d\u2019inflexion majeurs : le solstice d\u2019\u00e9t\u00e9 est l\u2019apog\u00e9e de la lumi\u00e8re mais aussi le d\u00e9but de son d\u00e9clin, tandis que le solstice d\u2019hiver est le moment le plus sombre qui porte en lui la promesse de la renaissance du Soleil.",
+    "related": ["\u00c9quinoxes", "Cancer", "Capricorne", "Saisons"]
+  },
+  {
+    "term": "Spica (L\u2019\u00c9pi de la Vierge)",
+    "slug": "spica",
+    "category": "constellation",
+    "short": "\u00c9toile la plus brillante de la Vierge, symbole de protection et de don.",
+    "body": "Spica (situ\u00e9e \u00e0 23\u00b0 Balance) est l\u2019une des \u00e9toiles les plus b\u00e9n\u00e9fiques. Elle repr\u00e9sente la moisson, le talent artistique, la r\u00e9ussite par la connaissance et la protection divine. Elle est souvent pr\u00e9sente dans les th\u00e8mes de personnes dot\u00e9es d\u2019une grande aisance d\u2019expression ou d\u2019une chance insolente dans leurs entreprises.",
+    "related": ["Balance", "Vierge", "Protection"]
   },
   {
     "term": "Stationnaire",
@@ -89,6 +193,14 @@
     "body": "Le stellium (ou amas planétaire) crée une focalisation énergétique massive dans un domaine de la vie ou un type de caractère. Cette concentration rend l'individu très typé par le signe concerné, occultant parfois même l'importance du signe solaire ou de l'Ascendant. C'est un point de force mais aussi un défi, car tous les transits sur cette zone impactent plusieurs planètes simultanément.",
     "related": ["Amas", "Conjonction", "Thème natal"]
   },
+  {
+    "term": "Synodique (Cycle)",
+    "slug": "synodique",
+    "category": "astronomique",
+    "short": "Cycle entre deux astres vus depuis la Terre, g\u00e9n\u00e9ralement par rapport au Soleil.",
+    "body": "Le cycle synodique le plus connu est celui de la Lune (29,5 jours). Chaque cycle plan\u00e9taire (ex: Jupiter/Saturne) d\u00e9finit des grandes phases de l\u2019histoire humaine et de la psych\u00e9 individuelle, de la semence (conjonction) \u00e0 la Pleine Lumi\u00e8re (opposition).",
+    "related": ["Lunaison", "Conjonction", "Opposition"]
+  },
    {
     "term": "Synastrie",
     "slug": "synastrie",
@@ -104,5 +216,13 @@
     "short": "Méthode de division du thème natal en 12 maisons, influençant l'interprétation des planètes.",
     "body": "Le système de domification détermine comment les 12 maisons astrologiques sont réparties dans les signes du zodiaque. Il existe plusieurs systèmes, chacun avec ses propres règles pour calculer les cuspides des maisons. Les plus courants sont Placidus, Koch, Campanus, Regiomontanus et Equal House. Le choix du système peut influencer l'interprétation du thème natal, notamment la position des planètes dans les maisons et les aspects qu'elles forment avec les cuspides. Certains astrologues préfèrent un système pour sa simplicité, d'autres pour sa précision astronomique ou sa pertinence symbolique.",
     "related": ["Maison", "Cuspide", "Thème natal"]
-   }
+   }, 
+   {
+    "term": "Syzygie",
+    "slug": "syzygie",
+    "category": "astronomique",
+    "short": "Alignement de trois corps c\u00e9lestes (Soleil-Terre-Lune).",
+    "body": "La syzygie correspond aux moments de Nouvelle Lune et de Pleine Lune. En astrologie ancienne, on accordait une importance capitale \u00e0 la \u00ab syzygie de la nativit\u00e9 \u00bb (la lunaison pr\u00e9c\u00e9dant la naissance) pour d\u00e9terminer certains points de destin.",
+    "related": ["Nouvelle Lune", "Pleine Lune", "\u00c9clipses"]
+  }
 ]

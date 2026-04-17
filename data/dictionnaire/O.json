@@ -1,4 +1,12 @@
 [
+   {
+    "term": "Occultation",
+    "slug": "occultation",
+    "category": "astronomique",
+    "short": "Disparition d\u2019un astre derri\u00e8re un autre corps c\u00e9leste plus grand (souvent la Lune).",
+    "body": "L\u2019occultation est une forme d\u2019\u00e9clipse. Lorsqu\u2019une plan\u00e8te est occult\u00e9e par la Lune, son influence est momentan\u00e9ment \u00ab mise entre parenth\u00e8ses \u00bb ou int\u00e9rioris\u00e9e de force. En astrologie mondiale, l\u2019occultation d\u2019une plan\u00e8te majeure (comme Jupiter ou Saturne) est un signal fort de changement radical ou de crise concernant les valeurs de cet astre pour la collectivit\u00e9.",
+    "related": ["\u00c9clipses", "Conjonction", "Syzygie"]
+  },
   {
     "term": "Opposition",
     "slug": "opposition",

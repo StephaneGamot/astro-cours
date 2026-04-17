@@ -42,8 +42,8 @@ export type DictCategory =
   | "personnalité"
   | "astronomique"
   | "branche"
-  | "constellation";
-  
+  | "constellation"
+  | "personnage";
 
 export interface DictEntry {
   term: string;

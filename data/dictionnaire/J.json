@@ -1,5 +1,21 @@
 [
     {
+    "term": "Jean-Baptiste Morin de Villefranche",
+    "slug": "morin-de-villefranche",
+    "category": "personnage",
+    "short": "M\u00e9decin et astrologue fran\u00e7ais (1583-1656), sommet de l\u2019astrologie technique traditionnelle.",
+    "body": "Morin de Villefranche est l\u2019auteur de l\u2019imposante \u00ab Astrologia Gallica \u00bb. Il est c\u00e9l\u00e8bre pour avoir apport\u00e9 une rigueur math\u00e9matique et logique sans pr\u00e9c\u00e9dent \u00e0 l\u2019interpr\u00e9tation des th\u00e8mes. Sa th\u00e9orie sur les d\u00e9terminations locales (le r\u00f4le crucial des maisons et des ma\u00eetres) a permis d\u2019affiner la pr\u00e9cision des jugements. Il fut l\u2019astrologue de personnalit\u00e9s puissantes comme le cardinal de Richelieu.",
+    "related": ["Ma\u00eetrise", "Domification", "Astrologie Traditionnelle"]
+  },
+    {
+  "term": "Jean-Marie Michiels",
+  "slug": "jean-marie-michiels",
+  "category": "personnage",
+  "short": "Astrologue et pédagogue belge, il a dédié sa vie à la recherche & l'enseignement de l'astrologie.",
+  "body": "Jean-Marie Michiels est un astrologue et enseignant belge. Il est devenu une référence francophone pour l'apprentissage de l'astrologie. Son approche est résolument pédagogique et accessible : son enseignement couvre aussi bien les fondamentaux (signes, maisons, aspects, planètes) que des domaines spécialisés comme l'astrologie horaire, l'astrologie médicale, les astéroïdes, les parts arabes ou l'ayanamsa. Son enseignement se distingue par un souci de rigueur, de clarté, contribuant à démocratiser l'accès au savoir astrologique en Europe francophone.",
+  "related": ["Astrologie horaire", "Astrologie médicale", "Enseignement"]
+},
+    {
     "term": "Joie (des plan\u00e8tes)",
     "slug": "joie",
     "category": "plan\u00e8te",

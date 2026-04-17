@@ -8,6 +8,22 @@
     "related": ["Longitude", "Domification", "Cuspide"]
   },
   {
+    "term": "Lion",
+    "slug": "lion",
+    "category": "signe",
+    "short": "Cinqui\u00e8me signe (Feu/Fixe), symbolisant la vitalit\u00e9, la cr\u00e9ativit\u00e9 et le rayonnement.",
+    "body": "Le Lion correspond au cœur de l\u2019\u00e9t\u00e9, quand le Soleil est au z\u00e9nith. Gouvern\u00e9 par le Soleil lui-m\u00eame, il incarne la volont\u00e9 de briller, la noblesse de cœur et l\u2019expression de soi. C\u2019est le signe des artistes, des leaders et des enfants. Il cherche la reconnaissance et l\u2019applaudissement. Son d\u00e9fi est d\u2019apprendre l\u2019humilit\u00e9 et de comprendre que son rayonnement doit servir \u00e0 \u00e9clairer les autres plut\u00f4t qu\u00e0 nourrir son seul ego.",
+    "related": ["Soleil", "Feu", "Fixe", "\u00c9t\u00e9"]
+  },
+  {
+    "term": "Liz Greene",
+    "slug": "liz-greene",
+    "category": "personnage",
+    "short": "Astrologue et analyste jungienne am\u00e9ricano-britannique, pionni\u00e8re de l\u2019astrologie psychologique.",
+    "body": "Co-fondatrice du Centre for Psychological Astrology \u00e0 Londres, Liz Greene a r\u00e9volutionn\u00e9 l\u2019astrologie moderne en y int\u00e9grant la psychologie des profondeurs de Carl Jung. Ses ouvrages, notamment sur Saturne (\u00ab Saturn: A New Look \u00bb), ont transform\u00e9 la vision des plan\u00e8tes dites \u00ab mal\u00e9fiques \u00bb en vecteurs de croissance et d\u2019individuation. Elle voit le th\u00e8me natal comme une carte de la psych\u00e9 humaine et de ses mythes personnels, plut\u00f4t que comme un outil de pr\u00e9diction purement \u00e9v\u00e9nementiel.",
+    "related": ["Astro-psychologie", "Carl Jung", "Saturne", "Individuation"]
+  },
+  {
     "term": "Longitude",
     "slug": "longitude",
     "category": "astronomique",
@@ -32,6 +48,46 @@
     "related": ["Phases Lunaires", "Soleil", "Lune", "Cycle Synodique"]
   },
   {
+    "term": "Lune",
+    "slug": "lune",
+    "category": "plan\u00e8te",
+    "short": "Luminaire nocturne r\u00e9gissant les \u00e9motions, l\u2019inconscient et le principe maternel.",
+    "body": "La Lune est l\u2019astre le plus rapide du zodiaque, parcourant les 12 signes en environ 28 jours. Elle symbolise notre part r\u00e9ceptive, notre capacit\u00e9 \u00e0 ressentir et \u00e0 r\u00e9agir. En astrologie, elle d\u00e9crit les besoins fondamentaux de s\u00e9curit\u00e9 affective, la relation \u00e0 la m\u00e8re, ainsi que la m\u00e9moire infantile. Tandis que le Soleil repr\u00e9sente l\u2019identit\u00e9 consciente, la Lune incarne l\u2019\u00e2me instinctive, les habitudes quotidiennes et le monde des r\u00eaves. Elle r\u00e9git le signe du Cancer.",
+    "related": ["Soleil", "Cancer", "Luminaires", "Phases lunaires"]
+  },
+  {
+    "term": "Lune croissante",
+    "slug": "lune-croissante",
+    "category": "astronomique",
+    "short": "Phase situ\u00e9e entre la Nouvelle Lune et la Pleine Lune.",
+    "body": "Pendant environ 14 jours, la portion \u00e9clair\u00e9e de la Lune augmente vue de la Terre. Symboliquement, c\u2019est la phase de construction, d\u2019assimilation, de croissance et d\u2019accumulation d\u2019\u00e9nergie. C\u2019est le moment id\u00e9al pour lancer des projets qui n\u00e9cessitent une augmentation de vitalit\u00e9.",
+    "related": ["Lune d\u00e9croissante", "Nouvelle Lune", "Pleine Lune"]
+  },
+  {
+    "term": "Lune d\u00e9croissante",
+    "slug": "lune-decroissante",
+    "category": "astronomique",
+    "short": "Phase situ\u00e9e entre la Pleine Lune et la Nouvelle Lune.",
+    "body": "La lumi\u00e8re de la Lune diminue progressivement. Cette p\u00e9riode est propice au nettoyage, \u00e0 l\u2019\u00e9limination, au d\u00e9m\u00e9nagement et \u00e0 l\u2019ach\u00e8vement des choses. C\u2019est un temps de bilan et de pr\u00e9paration au nouveau cycle.",
+    "related": ["Lune croissante", "Lunaison"]
+  },
+  {
+    "term": "Lune descendante",
+    "slug": "lune-descendante",
+    "category": "astronomique",
+    "short": "Mouvement de la Lune s\u2019abaissant chaque jour par rapport \u00e0 l\u2019horizon.",
+    "body": "La Lune est dite descendante lorsqu\u2019elle se dirige vers le sud de l\u2019\u00e9quateur c\u00e9leste. Symboliquement, cela marque un mouvement de retrait, d\u2019enracinement et de concentration vers les profondeurs ou la terre. C\u2019est une p\u00e9riode privil\u00e9gi\u00e9e pour le travail de fond et l\u2019introspections.",
+    "related": ["Lune montante", "D\u00e9clinaison"]
+  },
+  {
+    "term": "Lune montante (Ascendante)",
+    "slug": "lune-montante",
+    "category": "astronomique",
+    "short": "Mouvement de la Lune s\u2019\u00e9levant chaque jour plus haut au-dessus de l\u2019horizon.",
+    "body": "Attention \u00e0 ne pas confondre avec la Lune croissante. La Lune montante est un ph\u00e9nom\u00e8ne de d\u00e9clinaison : la Lune passe du point le plus bas de l\u2019\u00e9cliptique (Sagittaire) au plus haut (G\u00e9meaux). En astrologie et en jardinage biodynamique, cette phase est associ\u00e9e \u00e0 la mont\u00e9e de la s\u00e8ve et \u00e0 une \u00e9nergie d\u2019expansion ext\u00e9rieure.",
+    "related": ["Lune descendante", "D\u00e9clinaison", "Latitude"]
+  },
+  {
     "term": "Lune Noire Moyenne",
     "slug": "lune-noire-moyenne",
     "category": "point fictif",
@@ -54,5 +110,21 @@
     "short": "Position réelle de la Lune Noire, calculée à partir de l\u2019apog\u00e9e lunaire.",
     "body": "La Lune Noire Vraie est la position réelle de la Lune Noire, calculée à partir de l\u2019apog\u00e9e lunaire. Elle peut différer de la Lune Noire Moyenne, qui est une moyenne mathématique. Certains astrologues préfèrent utiliser la Lune Noire Vraie pour une lecture plus précise, tandis que d'autres considèrent que la Lune Noire Moyenne a une valeur symbolique plus forte. Le choix entre les deux dépend souvent de l'approche astrologique adoptée.",
     "related": ["Lune Noire Moyenne", "Apogée lunaire", "Astrologie"]
+  }, 
+  {
+    "term": "Lune Nouvelle",
+    "slug": "lune-nouvelle",
+    "category": "astronomique",
+    "short": "Conjonction exacte entre le Soleil et la Lune (0\u00b0).",
+    "body": "La Nouvelle Lune marque le d\u00e9but d\u2019un cycle synodique. La Lune est invisible dans le ciel nocturne. C\u2019est un moment de semence, d\u2019intention pure et de renouveau. Dans un th\u00e8me natal, na\u00eetre sous une Nouvelle Lune indique un temp\u00e9rament instinctif, o\u00f9 le d\u00e9sir (Soleil) et le besoin (Lune) sont fusionn\u00e9s.",
+    "related": ["Pleine Lune", "Syzygie", "Luminaires"]
+  },
+  {
+    "term": "Lune progr\u00e9ss\u00e9e",
+    "slug": "lune-progresse",
+    "category": "technique",
+    "short": "Position de la Lune selon la m\u00e9thode des progressions secondaires (1 jour = 1 an).",
+    "body": "La Lune progr\u00e9ss\u00e9e est l\u2019un des indicateurs les plus fiables du climat \u00e9motionnel int\u00e9rieur. Elle fait le tour du th\u00e8me en environ 27 ans et demi, restant environ 2 ans et demi par maison et par signe. Son passage indique sur quoi se focalise l\u2019attention psychique de l\u2019individu : d\u00e9m\u00e9nagements, changements d\u2019humeur profonds ou besoins de s\u00e9curit\u00e9 nouveaux.",
+    "related": ["Progressions secondaires", "Lunaison", "Cycle"]
   }
 ]

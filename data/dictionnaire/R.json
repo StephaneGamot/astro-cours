@@ -13,7 +13,12 @@
     "category": "concept",
     "short": "Terme latin d\u00e9signant le th\u00e8me natal originel, la \u00ab racine \u00bb de toute interpr\u00e9tation.",
     "body": "Radix (du latin \u00ab racine \u00bb) est le terme technique d\u00e9signant le th\u00e8me natal de naissance, par opposition aux th\u00e8mes d\u00e9riv\u00e9s (r\u00e9volution solaire, th\u00e8me horaire, th\u00e8me de transit). Le radix est le document fondateur en astrologie : c\u2019est lui qui contient le potentiel complet du natif et qui sert de r\u00e9f\u00e9rence pour toute \u00e9tude pr\u00e9visionnelle. Lorsqu\u2019on \u00e9tudie les transits, on superpose les positions plan\u00e9taires du moment au radix pour en mesurer l\u2019impact. Le terme \u00ab radical \u00bb est l\u2019adjectif associ\u00e9 : \u00ab la Lune radicale \u00bb d\u00e9signe la Lune du th\u00e8me natal, par opposition \u00e0 \u00ab la Lune de transit \u00bb. Cette distinction est essentielle en astrologie pr\u00e9visionnelle pour \u00e9viter toute confusion entre les positions natales et les positions en mouvement.",
-    "related": ["Th\u00e8me natal", "Carte du ciel", "Transit", "R\u00e9volution solaire"]
+    "related": [
+      "Th\u00e8me natal",
+      "Carte du ciel",
+      "Transit",
+      "R\u00e9volution solaire"
+    ]
   },
   {
     "term": "Rahu (N\u0153ud Nord)",
@@ -31,14 +36,21 @@
     "body": "La r\u00e9ception mutuelle se produit lorsque deux plan\u00e8tes \u00e9changent leurs domiciles : par exemple, Mars en Taureau (domicile de V\u00e9nus) et V\u00e9nus en B\u00e9lier (domicile de Mars). Chaque plan\u00e8te est \u00ab h\u00e9berg\u00e9e \u00bb par l\u2019autre, cr\u00e9ant un lien de coop\u00e9ration implicite. En astrologie traditionnelle, la r\u00e9ception mutuelle att\u00e9nue consid\u00e9rablement la faiblesse d\u2019une plan\u00e8te en exil : m\u00eame si chaque plan\u00e8te est dans un signe inconfortable, elles se soutiennent mutuellement. Certains astrologues vont jusqu\u2019\u00e0 consid\u00e9rer qu\u2019une r\u00e9ception mutuelle \u00e9quivaut presque \u00e0 un aspect harmonique entre les deux plan\u00e8tes. La r\u00e9ception mutuelle peut \u00e9galement se faire par exaltation : le Soleil en B\u00e9lier (exaltation) et Mars en Lion (signe du Soleil) cr\u00e9ent une forme de r\u00e9ception crois\u00e9e. C\u2019est un outil subtil mais tr\u00e8s utile pour affiner la lecture d\u2019un th\u00e8me.",
     "related": ["Dignit\u00e9", "Exil", "Exaltation", "Domicile"]
   },
-
   {
-    "term": "R\u00e9ception mutuelle",
-    "slug": "reception-mutuelle",
-    "category": "concept",
-    "short": "Configuration o\u00f9 deux plan\u00e8tes occupent chacune le signe de domicile de l\u2019autre.",
-    "body": "La r\u00e9ception mutuelle se produit lorsque deux plan\u00e8tes \u00e9changent leurs domiciles : par exemple, Mars en Taureau (domicile de V\u00e9nus) et V\u00e9nus en B\u00e9lier (domicile de Mars). Chaque plan\u00e8te est \u00ab h\u00e9berg\u00e9e \u00bb par l\u2019autre, cr\u00e9ant un lien de coop\u00e9ration implicite. En astrologie traditionnelle, la r\u00e9ception mutuelle att\u00e9nue consid\u00e9rablement la faiblesse d\u2019une plan\u00e8te en exil : m\u00eame si chaque plan\u00e8te est dans un signe inconfortable, elles se soutiennent mutuellement. Certains astrologues vont jusqu\u2019\u00e0 consid\u00e9rer qu\u2019une r\u00e9ception mutuelle \u00e9quivaut presque \u00e0 un aspect harmonique entre les deux plan\u00e8tes. La r\u00e9ception mutuelle peut \u00e9galement se faire par exaltation : le Soleil en B\u00e9lier (exaltation) et Mars en Lion (signe du Soleil) cr\u00e9ent une forme de r\u00e9ception crois\u00e9e. C\u2019est un outil subtil mais tr\u00e8s utile pour affiner la lecture d\u2019un th\u00e8me.",
-    "related": ["Dignit\u00e9", "Exil", "Exaltation", "Domicile"]
+    "term": "Rectification",
+    "slug": "rectification",
+    "category": "technique",
+    "short": "Processus de d\u00e9termination de l\u2019heure de naissance exacte \u00e0 partir des \u00e9v\u00e9nements de vie.",
+    "body": "La rectification est l\u2019un des exercices les plus complexes de l\u2019astrologue. Lorsque l\u2019heure de naissance est impr\u00e9cise ou inconnue, le praticien utilise les dates cl\u00e9s de la vie du consultant (mariage, d\u00e9c\u00e8s, accidents, succ\u00e8s) et fait \u00ab tourner \u00bb les techniques pr\u00e9visionnelles (directions, transits) \u00e0 l\u2019envers pour retrouver l\u2019heure qui fait co\u00efncider les aspects avec les faits r\u00e9els. Cela permet de fixer l\u2019Ascendant et les cuspides de maisons de mani\u00e8re fiable.",
+    "related": ["Th\u00e8me natal", "Directions", "Ascendant"]
+  },
+  {
+    "term": "Regulus (L\u2019\u00c9toile Royale)",
+    "slug": "regulus",
+    "category": "constellation",
+    "short": "L\u2019\u00e9toile la plus brillante du Lion, symbole de pouvoir et de gloire.",
+    "body": "Regulus est l\u2019une des quatre \u00ab \u00c9toiles Royales de Perse \u00bb. Elle se situe d\u00e9sormais au tout d\u00e9but du signe de la Vierge (d\u00f9 \u00e0 la pr\u00e9cession). Surnomm\u00e9e \u00ab le C\u0153ur du Lion \u00bb, elle conf\u00e8re ambition, noblesse et succ\u00e8s fulgurant. Cependant, elle porte un avertissement : la chute est possible si l\u2019individu c\u00e8de \u00e0 la vengeance. C\u2019est l\u2019\u00e9toile des rois et des grands destins publics.",
+    "related": ["Lion", "\u00c9toiles Royales", "Succ\u00e8s"]
   },
   {
     "term": "Rétrogradation",
@@ -47,6 +59,22 @@
     "short": "Mouvement apparent d'une planète qui semble reculer dans le zodiaque.",
     "body": "La rétrogradation est une illusion d'optique due à la différence de vitesse entre la Terre et les autres planètes. Symboliquement, elle indique une intériorisation de l'énergie de la planète. Au lieu de s'exprimer vers l'extérieur, la fonction planétaire invite à la réflexion, à la révision ou au retour sur soi. Par exemple, Mercure rétrograde est souvent associé à des retards de communication obligeant à revoir ses plans.",
     "related": ["Direct", "Stationnaire", "Transit"]
+  },
+  {
+    "term": "R\u00e9volution lunaire",
+    "slug": "revolution-lunaire",
+    "category": "technique",
+    "short": "Th\u00e8me dress\u00e9 chaque mois pour le retour de la Lune sur sa position natale.",
+    "body": "Moins connue que la R\u00e9volution Solaire, la R\u00e9volution Lunaire (RL) donne le climat émotionnel et \u00e9v\u00e9nementiel pour les 28 jours \u00e0 venir. Elle est tr\u00e8s utile pour une analyse pr\u00e9visionnelle fine, mois par mois.",
+    "related": ["R\u00e9volution solaire", "Lune"]
+  },
+  {
+    "term": "R\u00e9volution sid\u00e9rale",
+    "slug": "revolution-siderale",
+    "category": "astronomique",
+    "short": "Temps n\u00e9cessaire \u00e0 une plan\u00e8te pour revenir \u00e0 la m\u00eame \u00e9toile fixe.",
+    "body": "C\u2019est la r\u00e9volution r\u00e9elle dans l\u2019espace. Pour la Terre, elle dure 365,25 jours. Pour Saturne, environ 29,5 ans. En astrologie, le retour d\u2019une plan\u00e8te sur sa position sid\u00e9rale marque une \u00e9tape cl\u00e9 de maturation.",
+    "related": ["Ann\u00e9e sid\u00e9rale", "Cycle"]
   },
   {
     "term": "R\u00e9volution solaire",

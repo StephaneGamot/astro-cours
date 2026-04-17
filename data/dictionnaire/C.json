@@ -8,6 +8,22 @@
     "related": ["Angulaire", "Succ\u00e9dente", "Maisons"]
   },
   {
+    "term": "Cancer",
+    "slug": "cancer",
+    "category": "signe",
+    "short": "Quatri\u00e8me signe (Eau/Cardinal), symbolisant l\u2019\u00e9motion, la protection et la famille.",
+    "body": "Le Cancer ouvre le solstice d\u2019\u00e9t\u00e9. Gouvern\u00e9 par la Lune, il est le gardien de l\u2019intimit\u00e9, des souvenirs et de l\u2019imaginaire. Il repr\u00e9sente la matrice, le besoin de s\u00e9curit\u00e9 affective et le lien avec les origines. C\u2019est une \u00e9nergie de nutrition et de soin (care). Tr\u00e8s r\u00e9ceptif, il peut se montrer tr\u00e8s protecteur (sa carapace). Son d\u00e9fi est de ne pas s\u2019enfermer dans le pass\u00e9 ou dans une d\u00e9pendance affective excessive.",
+    "related": ["Lune", "Eau", "Cardinal", "Famille"]
+  },
+  {
+    "term": "Capricorne",
+    "slug": "capricorne",
+    "category": "signe",
+    "short": "Dixi\u00e8me signe (Terre/Cardinal), symbolisant l\u2019ambition, la structure et le temps.",
+    "body": "Le Capricorne ouvre le solstice d\u2019hiver. Gouvern\u00e9 par Saturne, il repr\u00e9sente l\u2019ascension lente vers les sommets, la rigueur, l\u2019autonomie et la responsabilit\u00e9. Il est le b\u00e2tisseur de la soci\u00e9t\u00e9, capable de grands sacrifices pour atteindre ses buts \u00e0 long terme. Son d\u00e9fi est de d\u00e9geler sa froideur apparente et son pessimisme pour r\u00e9v\u00e9ler la profonde int\u00e9grit\u00e9 et la sagesse qui l\u2019habitent.",
+    "related": ["Saturne", "Terre", "Cardinal", "Hiver"]
+  },
+  {
     "term": "Cardinal",
     "slug": "cardinal",
     "category": "maison",
@@ -73,6 +89,14 @@
     "related": ["Exaltation", "Dignité", "Débilité", "Exil"]
   },
   {
+    "term": "Claude Ptol\u00e9m\u00e9e",
+    "slug": "claude-ptolemee",
+    "category": "personnage",
+    "short": "Savant grec du IIe si\u00e8cle, auteur du Tetrabiblos, texte fondateur de l\u2019astrologie occidentale.",
+    "body": "Vivant \u00e0 Alexandrie, Ptol\u00e9m\u00e9e a synth\u00e9tis\u00e9 les connaissances astronomiques et astrologiques de son temps. Son ouvrage, le \u00ab Tetrabiblos \u00bb, a codifi\u00e9 les r\u00e8gles des signes, des plan\u00e8tes et des aspects qui sont encore utilis\u00e9es aujourd\u2019hui. Il a pos\u00e9 les bases de l\u2019astrologie tropicale en la liant au cycle des saisons, offrant une structure rationnelle \u00e0 la discipline qui a domin\u00e9 la pens\u00e9e savante pendant plus de mille ans.",
+    "related": ["Tetrabiblos", "Zodiaque Tropical", "Tradition"]
+  },
+  {
     "term": "Combuste (Br\u00fbl\u00e9e)",
     "slug": "combuste",
     "category": "concept",
@@ -127,6 +151,14 @@
     "short": "Point de r\u00e9flexion sym\u00e9trique par rapport \u00e0 l\u2019axe des \u00e9quinoxes (B\u00e9lier/Balance).",
     "body": "Le contre-antisce est le point oppos\u00e9 \u00e0 l\u2019antisce. Tandis que l\u2019antisce se calcule par rapport \u00e0 l\u2019axe des solstices (Cancer/Capricorne), le contre-antisce utilise l\u2019axe 0\u00b0 B\u00e9lier - 0\u00b0 Balance. Sur le plan interpr\u00e9tatif, une plan\u00e8te en contre-antisce avec une autre indique souvent un d\u00e9fi ou une opposition cach\u00e9e. C\u2019est une relation d\u2019ombre de nature similaire \u00e0 l\u2019opposition, mais qui agit de mani\u00e8re plus subtile, presque inconsciente, dans la structure psychique ou \u00e9v\u00e9nementielle du th\u00e8me.",
     "related": ["Antisces", "Sym\u00e9trie", "Aspects"]
+  },
+  {
+    "term": "Coucher h\u00e9liaque",
+    "slug": "coucher-heliaque",
+    "category": "astronomique",
+    "short": "Moment o\u00f9 un astre dispara\u00eet dans l\u2019\u00e9clat du Soleil couchant pour devenir invisible.",
+    "body": "Le coucher h\u00e9liaque est l\u2019inverse du lever h\u00e9liaque. Lorsqu\u2019une plan\u00e8te s\u2019approche trop pr\u00e8s du Soleil, elle s\u2019immerge dans sa lumi\u00e8re et cesse d\u2019\u00eatre visible \u00e0 l\u2019\u0153il nu. Symboliquement, cela repr\u00e9sente une phase d\u2019int\u00e9riorisation, de \u00ab mort symbolique \u00bb ou de retrait du monde ext\u00e9rieur. La fonction plan\u00e9taire n\u2019agit plus de mani\u00e8re manifeste mais travaille dans les profondeurs de l\u2019inconscient ou dans le secret.",
+    "related": ["Lever h\u00e9liaque", "Combustion", "Ostentation"]
   },
    {
     "term": "Croissante (Plan\u00e8te)",

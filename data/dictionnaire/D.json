@@ -1,5 +1,13 @@
 [
   {
+    "term": "Dane Rudhyar",
+    "slug": "dane-rudhyar",
+    "category": "personnage",
+    "short": "Astrologue et compositeur fran\u00e7ais (1895-1985), fondateur de l\u2019astrologie humaniste.",
+    "body": "Rudhyar a int\u00e9gr\u00e9 la philosophie orientale et la psychologie de Jung \u00e0 l\u2019astrologie. Il a red\u00e9fini le th\u00e8me natal comme un processus cyclique de croissance spirituelle. Son ouvrage \u00ab L\u2019Astrologie de la Personnalit\u00e9 \u00bb est le texte fondateur de l\u2019approche humaniste, o\u00f9 chaque aspect est vu comme une \u00e9tape de l\u2019\u00e9panouissement du potentiel humain plut\u00f4t que comme une influence ext\u00e9rieure.",
+    "related": ["Astrologie Humaniste", "Lunaison", "Potentiel"]
+  },
+  {
     "term": "D\u00e9bilit\u00e9 des plan\u00e8tes",
     "slug": "debilite-des-planetes",
     "category": "concept",
@@ -61,12 +69,28 @@
     "related": ["Ascendant", "Maison VII", "Synastrie", "Angles"]
   },
   {
+    "term": "D\u00e9triment (Exil)",
+    "slug": "detriment",
+    "category": "concept",
+    "short": "\u00c9tat d\u2019une plan\u00e8te situ\u00e9e dans le signe oppos\u00e9 \u00e0 son domicile.",
+    "body": "Une plan\u00e8te en d\u00e9triment est \u00ab hors de chez elle \u00bb. Ses qualit\u00e9s naturelles sont g\u00ean\u00e9es par un signe dont l\u2019\u00e9nergie lui est \u00e9trang\u00e8re (ex: Mars en Balance). Cela demande \u00e0 l\u2019individu une adaptation constante et un effort de conscience pour exprimer la fonction plan\u00e9taire sans frustration.",
+    "related": ["Domicile", "D\u00e9bilit\u00e9", "Exil"]
+  },
+  {
     "term": "Dignit\u00e9",
     "slug": "dignite",
     "category": "concept",
     "short": "Force d\u2019une plan\u00e8te selon le signe qu\u2019elle occupe : domicile, exaltation, exil ou chute.",
     "body": "En astrologie traditionnelle, la dignit\u00e9 d\u2019une plan\u00e8te d\u00e9signe sa force ou sa faiblesse en fonction du signe dans lequel elle se trouve. Il existe quatre niveaux principaux. Le domicile est le signe que la plan\u00e8te gouverne : Mars en B\u00e9lier, V\u00e9nus en Taureau \u2014 la plan\u00e8te y est chez elle, \u00e0 l\u2019aise, pleinement efficace. L\u2019exaltation est un signe o\u00f9 la plan\u00e8te exprime ses qualit\u00e9s de mani\u00e8re amplifi\u00e9e : le Soleil est exalt\u00e9 en B\u00e9lier, la Lune en Taureau. L\u2019exil (ou d\u00e9triment) est le signe oppos\u00e9 au domicile : la plan\u00e8te y est en terrain \u00e9tranger, contrainte, mal \u00e0 l\u2019aise. La chute est le signe oppos\u00e9 \u00e0 l\u2019exaltation : la plan\u00e8te y est affaiblie. Ces dignit\u00e9s ne sont pas des verdicts : une plan\u00e8te en exil peut s\u2019exprimer brillamment si elle re\u00e7oit de bons aspects. Mais conna\u00eetre les dignit\u00e9s permet de mesurer la \u00ab qualit\u00e9 \u00e9nerg\u00e9tique \u00bb naturelle d\u2019une plan\u00e8te dans un th\u00e8me.",
     "related": ["Exaltation", "Exil", "Domicile", "R\u00e9ception mutuelle"]
+  },
+  {
+    "term": "Dignit\u00e9 accidentelle",
+    "slug": "dignite-accidentelle",
+    "category": "concept",
+    "short": "Force d\u2019une plan\u00e8te d\u00e9riv\u00e9e de sa position en maison, de sa vitesse ou de ses aspects.",
+    "body": "Contrairement \u00e0 la dignit\u00e9 essentielle (li\u00e9e au signe), la dignit\u00e9 accidentelle d\u00e9pend des circonstances du moment. Une plan\u00e8te en maison angulaire (I, IV, VII, X), une plan\u00e8te rapide, ou une plan\u00e8te en Cazimi re\u00e7oit une dignit\u00e9 accidentelle. Cela signifie qu\u2019elle a les moyens concrets d\u2019agir dans le monde mat\u00e9riel. Une plan\u00e8te peut \u00eatre faible par signe (en exil) mais forte accidentellement (culminante), ce qui indique une capacit\u00e9 \u00e0 surmonter ses handicaps par l\u2019action.",
+    "related": ["Dignit\u00e9 essentielle", "Angularit\u00e9", "Cazimi"]
   },
   {
     "term": "Direct",
@@ -83,6 +107,14 @@
     "short": "M\u00e9thode de pr\u00e9vision simple o\u00f9 tous les points du th\u00e8me avancent de 1\u00b0 par an.",
     "body": "Aussi appel\u00e9e direction d\u2019un degr\u00e9 pour un an, cette technique est tr\u00e8s utilis\u00e9e pour dater des \u00e9v\u00e9nements majeurs de la vie. Lorsqu\u2019une plan\u00e8te dirig\u00e9e forme un aspect avec une plan\u00e8te natale, cela signale une p\u00e9riode cl\u00e9.",
     "related": ["Progressions", "Pr\u00e9vision", "Arc Solaire"]
+  },
+  {
+    "term": "Dispositaire",
+    "slug": "dispositaire",
+    "category": "concept",
+    "short": "Plan\u00e8te qui gouverne le signe o\u00f9 se trouve un autre astre.",
+    "body": "Le dispositaire est le \u00ab patron \u00bb d\u2019une autre plan\u00e8te. Par exemple, si votre Lune est en B\u00e9lier, Mars (ma\u00eetre du B\u00e9lier) est le dispositaire de votre Lune. Cela signifie que la mani\u00e8re dont vous exprimez vos \u00e9motions d\u00e9pend de l\u2019\u00e9tat de votre Mars. Cette notion est cruciale pour la synth\u00e8se d\u2019un th\u00e8me car elle permet de cr\u00e9er des cha\u00eenes de d\u00e9cision entre les plan\u00e8tes, aboutissant parfois \u00e0 un \u00ab Ma\u00eetre de r\u00e9ception \u00bb final.",
+    "related": ["Ma\u00eetrise", "Domicile", "R\u00e9ception mutuelle"]
   },
   {
     "term": "Dissonance",

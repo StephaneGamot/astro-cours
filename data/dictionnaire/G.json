@@ -1,5 +1,13 @@
 [
-    {
+  {
+    "term": "G\u00e9meaux",
+    "slug": "gemeaux",
+    "category": "signe",
+    "short": "Troisi\u00e8me signe (Air/Mutable), symbolisant la communication et la dualit\u00e9.",
+    "body": "Les G\u00e9meaux marquent la fin du printemps, le moment o\u00f9 la nature diffuse son pollen. Gouvern\u00e9 par Mercure, c\u2019est le signe de l\u2019intellect, de la curiosit\u00e9 insatiable et des \u00e9changes. Il repr\u00e9sente la capacit\u00e9 \u00e0 relier les id\u00e9es et les personnes. Sa nature double lui permet de voir toutes les facettes d\u2019une situation, mais peut le conduire \u00e0 la dispersion. Son d\u00e9fi est de passer de la simple information \u00e0 la connaissance profonde.",
+    "related": ["Mercure", "Air", "Mutable", "Communication"]
+  },
+  {
     "term": "G\u00e9ocentrique",
     "slug": "geocentrique",
     "category": "astronomique",
@@ -7,13 +15,37 @@
     "body": "L\u2019astrologie est une discipline g\u00e9ocentrique par nature, car elle \u00e9tudie l\u2019influence des astres tels qu\u2019ils sont per\u00e7us depuis le lieu d\u2019exp\u00e9rience humaine (la Terre). Ce choix n\u2019ignore pas que la Terre tourne autour du Soleil, mais privil\u00e9gie la perspective phénom\u00e9nologique indispensable \u00e0 l\u2019interpr\u00e9tation symbolique.",
     "related": ["H\u00e9liocentrique", "Astronomie", "Ph\u00e9nom\u00e9nologie"]
   },
-   {
+  {
+    "term": "Georges Antar\u00e8s",
+    "slug": "georges-antares",
+    "category": "personnage",
+    "short": "Astrologue belge influent (1905-1991), fondateur de l\u2019\u00e9cole d\u2019astrologie Antar\u00e8s.",
+    "body": "De son vrai nom Marcel Mestdagh, Georges Antar\u00e8s a jou\u00e9 un r\u00f4le majeur dans la vulgarisation d\u2019une astrologie s\u00e9rieuse et structur\u00e9e en Europe francophone. Auteur de nombreux ouvrages de r\u00e9f\u00e9rence comme \u00ab Manuel d\u2019Astrologie \u00bb, il a d\u00e9velopp\u00e9 une m\u00e9thode d\u2019interpr\u00e9tation synth\u00e9tique et p\u00e9dagogique. Son enseignement privil\u00e9gie la clart\u00e9 technique et la rigueur morale, s\u2019\u00e9loignant des d\u00e9rives sensationnalistes pour se concentrer sur l\u2019analyse caract\u00e9rologique.",
+    "related": ["Interpr\u00e9tation", "Synth\u00e8se", "Trait\u00e9"]
+  },
+  {
     "term": "Gouverneur",
     "slug": "gouverneur",
     "category": "concept",
     "short": "Plan\u00e8te qui exerce son autorit\u00e9 sur un signe, une maison ou le th\u00e8me entier.",
     "body": "Le gouverneur (ou ma\u00eetre) est le dépositaire de l\u2019\u00e9nergie d\u2019un secteur. Par exemple, le gouverneur de la Maison VII renseigne sur la qualit\u00e9 des contrats et unions. Le \u00ab Gouverneur du Th\u00e8me \u00bb est souvent la plan\u00e8te la plus forte (l\u2019Almuten) ou celle qui ma\u00eetrise l\u2019Ascendant, agissant comme le guide de la destin\u00e9e.",
     "related": ["Ma\u00eetrise", "Domicile", "Ma\u00eetre de l\u2019Ascendant"]
+  },
+  {
+    "term": "Gouverneur du th\u00e8me",
+    "slug": "gouverneur-du-theme",
+    "category": "concept",
+    "short": "La plan\u00e8te d\u00e9sign\u00e9e comme le \u00ab pilote \u00bb de la destin\u00e9e de l\u2019individu.",
+    "body": "Le gouverneur (ou Seigneur du G\u00e9nitur) est g\u00e9n\u00e9ralement le ma\u00eetre de l\u2019Ascendant, mais peut aussi \u00eatre l\u2019Almuten (la plan\u00e8te cumulant le plus de dignit\u00e9s). Il repr\u00e9sente l\u2019individu dans sa globalit\u00e9, son temp\u00e9rament et sa capacit\u00e9 \u00e0 diriger sa vie. L\u2019\u00e9tat de cette plan\u00e8te d\u00e9termine si le sujet sera ma\u00eetre de ses choix ou s\u2019il sera ballot\u00e9 par les circonstances ext\u00e9rieures.",
+    "related": ["Ma\u00eetre de l\u2019Ascendant", "Almuten", "Hyleg"]
+  },
+   {
+    "term": "Grand Carr\u00e9",
+    "slug": "grand-carre",
+    "category": "concept",
+    "short": "Configuration form\u00e9e par quatre plan\u00e8tes reli\u00e9es par quatre carr\u00e9s et deux oppositions.",
+    "body": "Le Grand Carr\u00e9 (ou Croix Cosmique) est l\u2019une des figures les plus rudes et les plus puissantes d\u2019un th\u00e8me. Il enferme l\u2019individu dans un d\u00e9fi permanent qui touche tous les secteurs de sa vie (si les plan\u00e8tes sont angulaires). Cette configuration oblige \u00e0 une action incessante et \u00e0 une structuration de fer. Tr\u00e8s fr\u00e9quente chez les grands b\u00e2tisseurs ou les personnes ayant un destin hors norme marqu\u00e9 par la lutte.",
+    "related": ["Carr\u00e9", "Opposition", "Configuration"]
   },
   {
     "term": "Grand Trigone",
@@ -28,5 +60,4 @@
       "Facilit\u00e9"
     ]
   }
-  
 ]

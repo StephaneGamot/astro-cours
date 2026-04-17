@@ -1,4 +1,52 @@
 [
+    {
+    "term": "Affliction",
+    "slug": "affliction",
+    "category": "concept",
+    "short": "Plan\u00e8te mal aspect\u00e9e ou situ\u00e9e dans une position de faiblesse.",
+    "body": "Une plan\u00e8te est dite \u00ab afflig\u00e9e \u00bb lorsqu\u2019elle re\u00e7oit des aspects de tension (carr\u00e9, opposition) provenant de plan\u00e8tes mal\u00e9fiques ou lorsqu\u2019elle est en exil ou en chute. L\u2019affliction n\u2019est pas une punition, mais l\u2019indication d\u2019une fonction psychologique qui rencontre des obstacles et qui n\u00e9cessite un travail de conscience particulier pour \u00eatre int\u00e9gr\u00e9e positivement.",
+    "related": ["D\u00e9bilit\u00e9", "Carr\u00e9", "Dissonance"]
+  },
+  {
+    "term": "Aigle",
+    "slug": "aigle",
+    "category": "constellation",
+    "short": "Constellation du zodiaque, associ\u00e9e \u00e0 la vision, au courage et \u00e0 la protection.",
+    "body": "L\u2019Aigle est une constellation mineure du zodiaque, située entre les constellations du Capricorne et du Verseau. En astrologie, elle est souvent associ\u00e9e au signe du Scorpion en raison de sa position proche de l\u2019écliptique. L\u2019Aigle symbolise la vision per\u00e7ante, le courage et la protection. Son influence peut indiquer une capacité à voir au-delà des apparences, à faire preuve de bravoure face aux défis et à protéger ce qui est précieux.",
+    "related": ["Scorpion", "Vision", "Courage"]
+  },
+  {
+    "term": "Alcyon",
+    "slug": "alcyon",
+    "category": "constellation",
+    "short": "Groupe d\u2019\u00e9toiles de la constellation du Taureau, symbolisant la douceur et la protection maternelle.",
+    "body": "Les Alcyons sont un groupe d\u2019étoiles situées dans la constellation du Taureau, également connues sous le nom de Pléiades. En astrologie, elles sont associées à la douceur, à la protection maternelle et à l\u2019harmonie familiale. Leur influence peut indiquer une tendance à rechercher la sécurité émotionnelle, à cultiver des relations proches et à faire preuve de compassion envers les autres.",
+    "related": ["Taureau", "Pléiades", "Protection"]
+  },
+    {
+    "term": "Alexandre Volguine",
+    "slug": "alexandre-volguine",
+    "category": "personnage",
+    "short": "Astrologue d\u2019origine russe (1903-1976), figure centrale de l\u2019astrologie savante en France et sp\u00e9cialiste des r\u00e9volutions solaires.",
+    "body": "Alexandre Volguine est l\u2019un des plus grands th\u00e9oriciens de l\u2019astrologie francophone. Fondateur de la c\u00e9l\u00e8bre revue \u00ab Les Cahiers Astrologiques \u00bb en 1937, il a \u0153uvr\u00e9 toute sa vie pour sortir l\u2019astrologie du charlatanisme en lui redonnant une base technique et historique solide. Son ouvrage majeur, \u00ab La Technique des R\u00e9volutions Solaires \u00bb, reste la r\u00e9f\u00e9rence absolue pour l\u2019\u00e9tude du th\u00e8me d\u2019anniversaire. On lui doit \u00e9galement une m\u00e9thode complexe de calcul du \u00ab Ma\u00eetre de Nativit\u00e9 \u00bb (bas\u00e9e sur un syst\u00e8me de points) et des recherches approfondies sur les demeures lunaires et les parts arabes. Son approche est une synth\u00e8se unique entre la tradition m\u00e9di\u00e9vale et les n\u00e9cessit\u00e9s de l\u2019analyse moderne.",
+    "related": ["R\u00e9volution solaire", "Ma\u00eetre de nativit\u00e9", "Demeures lunaires", "Tradition"]
+  },
+  {
+    "term": "Algol (La T\u00eate de la M\u00e9duse)",
+    "slug": "algol",
+    "category": "constellation",
+    "short": "\u00c9toile de la constellation de Pers\u00e9e, r\u00e9put\u00e9e pour sa violence ou sa puissance brute.",
+    "body": "Algol (situ\u00e9e \u00e0 26\u00b0 Taureau) est souvent consid\u00e9r\u00e9e comme l\u2019\u00e9toile la plus mal\u00e9fique du ciel. Elle repr\u00e9sente une \u00e9nergie primitive, passionn\u00e9e et potentiellement destructrice. Cependant, l\u2019astrologie moderne y voit aussi une force de r\u00e9sistance f\u00e9minine indomptable (M\u00e9duse). Conjointe \u00e0 une plan\u00e8te, elle indique une zone de tension o\u00f9 l\u2019individu doit apprendre \u00e0 ma\u00eetriser des instincts tr\u00e8s puissants.",
+    "related": ["Taureau", "Pers\u00e9e", "Passion"]
+  },
+  {
+    "term": "Ald\u00e9baran (L\u2019\u00c9toile du Scorpion)",
+    "slug": "aldebaran",
+    "category": "constellation",
+    "short": "\u00c9toile de la constellation du Taureau, associ\u00e9e \u00e0 la vision, au courage et \u00e0 la protection.",
+    "body": "Ald\u00e9baran est l\u2019une des quatre \u00ab \u00c9toiles Royales de Perse \u00bb. Situ\u00e9e \u00e0 9\u00b0 du signe du Taureau, elle est souvent associ\u00e9e au regard per\u00e7ant, au courage et \u00e0 la protection. En astrologie mondiale, son transit sur un point sensible d\u2019un th\u00e8me peut indiquer une p\u00e9riode de grande clart\u00e9 ou de reconnaissance publique. Cependant, elle peut aussi signaler des conflits liés à l'orgueil ou à la rivalité.",
+    "related": ["Taureau", "\u00c9toiles Royales", "Vision"]
+  },
   {
     "term": "Almuten",
     "slug": "almuten",
@@ -8,6 +56,14 @@
     "related": ["Dignité", "Maîtrise", "Hyleg"]
   },
   {
+    "term": "Andr\u00e9 Barbault",
+    "slug": "andre-barbault",
+    "category": "personnage",
+    "short": "Astrologue fran\u00e7ais (1921-2019), pionnier de l\u2019astrologie mondiale moderne.",
+    "body": "Figure dominante du XXe si\u00e8cle, Andr\u00e9 Barbault a renouvel\u00e9 l\u2019\u00e9tude des cycles plan\u00e9taires appliqu\u00e9s \u00e0 l\u2019histoire collective. Il est c\u00e9l\u00e8bre pour avoir pr\u00e9vu avec une pr\u00e9cision remarquable la chute de l\u2019Union Sovi\u00e9tique d\u00e8s les ann\u00e9es 50, en se basant sur le cycle Saturne-Neptune. Il a \u00e9galement travaill\u00e9 \u00e0 l\u2019unification de l\u2019astrologie et de la psychanalyse.",
+    "related": ["Astrologie Mondiale", "Cycles", "Saturne-Neptune"]
+  },
+  {
     "term": "Androgynie",
     "slug": "androgynie",
     "category": "concept",
@@ -15,6 +71,7 @@
     "body": "L'androgynie en astrologie se manifeste par une répartition équilibrée ou une dominance mixte de signes et de planètes masculins (Feu, Air) et féminins (Terre, Eau). Un thème androgynique peut indiquer une personnalité qui intègre harmonieusement les qualités d'action et de réflexion, d'introversion et d'extraversion, de logique et d'émotion. Cela peut se traduire par une grande adaptabilité, une capacité à comprendre différentes perspectives et une approche nuancée de la vie.",
     "related": ["Masculin", "Féminin", "Polarité", "Équilibre"]
   },
+
   {
     "term": "Air",
     "slug": "air",
@@ -24,12 +81,44 @@
     "related": ["Feu", "Terre", "Eau", "G\u00e9meaux", "Balance", "Verseau"]
   },
   {
+    "term": "Alchocoden",
+    "slug": "alchocoden",
+    "category": "concept",
+    "short": "La plan\u00e8te qui, par ses dignit\u00e9s sur le Hyleg, d\u00e9termine la dur\u00e9e de vie symbolique.",
+    "body": "L\u2019Alchocoden (de l\u2019arabe \u00ab al-kadkhudah \u00bb, le maître de maison) est le partenaire technique du Hyleg. Alors que le Hyleg d\u00e9signe le point vital, l\u2019Alchocoden est la plan\u00e8te qui a le plus de dignit\u00e9s (ma\u00eetrise, exaltation, etc.) sur ce point. En astrologie ancienne, on l\u2019utilisait pour calculer la long\u00e9vit\u00e9 : selon sa force et ses aspects, il \u00ab accordait \u00bb un certain nombre d\u2019ann\u00e9es (petites, moyennes ou grandes p\u00e9riodes). C\u2019est le v\u00e9ritable \u00ab intendant \u00bb de l\u2019\u00e9nergie vitale, montrant comment l\u2019individu g\u00e8re son capital sant\u00e9 sur le long terme.",
+    "related": ["Hyleg", "Anar\u00e8te", "Dignit\u00e9s", "Vitalit\u00e9"]
+  },
+  {
+    "term": "Amas plan\u00e9taires (Stellium)",
+    "slug": "amas-planetaires",
+    "category": "plan\u00e8te",
+    "short": "Concentration de trois plan\u00e8tes ou plus dans un m\u00eame signe ou une m\u00eame maison.",
+    "body": "Un amas plan\u00e9taire crée un foyer d\u2019\u00e9nergie massif qui domine souvent tout le th\u00e8me natal. Il indique une mission de vie focalis\u00e9e sur un domaine pr\u00e9cis. L\u2019individu poss\u00e8de une expertise ou une obsession naturelle li\u00e9e aux symboles de l\u2019amas. C\u2019est un point de force mais aussi de vuln\u00e9rabilit\u00e9, car tout transit majeur sur cette zone impacte plusieurs fonctions plan\u00e9taires simultan\u00e9ment.",
+    "related": ["Conjonction", "Stellium", "Focus"]
+  },
+  {
     "term": "Anar\u00e8te",
     "slug": "anarete",
     "category": "concept",
     "short": "La plan\u00e8te ou le point destructeur dans un th\u00e8me natal.",
     "body": "L\u2019Anar\u00e8te est le point oppos\u00e9 \u00e0 l\u2019Hyleg (le donneur de vie). Dans les techniques anciennes de calcul de la long\u00e9vit\u00e9, l\u2019Anar\u00e8te repr\u00e9sente la force qui \u00ab coupe \u00bb le fil de la vie. Il s\u2019agit souvent de la plan\u00e8te mal\u00e9fique (Mars ou Saturne) qui forme l\u2019aspect le plus dangereux vers le Hyleg. Aujourd\u2019hui, ce concept est utilis\u00e9 de mani\u00e8re plus symbolique pour d\u00e9signer les d\u00e9fis vitaux ou les crises de transformation profonde.",
     "related": ["Hyleg", "Alchocoden", "Sant\u00e9", "Tradition"]
+  },
+  {
+    "term": "Anatapex",
+    "slug": "anatapex",
+    "category": "astronomique",
+    "short": "Point oppos\u00e9 \u00e0 l\u2019Apex solaire, marquant la direction de laquelle le Soleil s\u2019\u00e9loigne.",
+    "body": "En astronomie et en astrologie galactique, l\u2019anatapex est le point de la sph\u00e8re c\u00e9leste dont le Soleil s\u2019\u00e9loigne dans son mouvement propre par rapport aux \u00e9toiles voisines. Il se situe g\u00e9n\u00e9ralement dans la constellation de la Colombe. Symboliquement, il peut repr\u00e9senter les origines galactiques ou le point de recul dans une analyse de la trajectoire cosmique de l\u2019\u00e2me.",
+    "related": ["Apex solaire", "Astronomie", "Galactique"]
+  },
+  {
+    "term": "Ann\u00e9e sid\u00e9rale",
+    "slug": "annee-siderale",
+    "category": "astronomique",
+    "short": "Dur\u00e9e de la r\u00e9volution de la Terre par rapport aux \u00e9toiles fixes.",
+    "body": "L\u2019ann\u00e9e sid\u00e9rale dure environ 365,256 jours. Elle est l\u00e9g\u00e8rement plus longue que l\u2019ann\u00e9e tropique (saisonni\u00e8re) d\u2019environ 20 minutes. Ce petit d\u00e9calage constant est la cause de la pr\u00e9cession des \u00e9quinoxes et de la diff\u00e9rence entre les zodiaques.",
+    "related": ["Ann\u00e9e tropique", "Sid\u00e9ral", "Zodiaque"]
   },
    {
     "term": "Antar\u00e8te",
@@ -39,6 +128,14 @@
     "body": "L\u2019Antar\u00e8te est le point oppos\u00e9 \u00e0 l\u2019Almuten Figuris (la plan\u00e8te la plus puissante du th\u00e8me). C'est la force qui s'oppose à l'expression maximale de la personnalité. Elle peut indiquer les zones de faiblesse, les blocages ou les épreuves majeures que l'individu devra affronter pour évoluer. Comme l'Anarète, l'Antarète est souvent associée à des planètes maléfiques, mais elle peut aussi concerner n'importe quelle planète selon la configuration du thème.",
     "related": ["Almuten Figuris", "Anarète", "Défis", "Évolution"]
   },
+   {
+    "term": "Antar\u00e8s",
+    "slug": "antares",
+    "category": "astronomique",
+    "short": "L\u2019\u00e9toile Royale du Scorpion (situ\u00e9e \u00e0 9\u00b0 Sagittaire), surnomm\u00e9e \u00ab le rival de Mars \u00bb.",
+    "body": "Antar\u00e8s (Anti-Ar\u00e8s) est le c\u0153ur de la constellation du Scorpion. C\u2019est l\u2019une des quatre \u00e9toiles royales de Perse, gardienne de l\u2019Ouest. Sa nature est martienne et jupit\u00e9rienne. Elle conf\u00e8re une immense force de volont\u00e9, un esprit combatif et un succ\u00e8s par l\u2019audace. Cependant, son influence porte un risque de destruction ou de chute brutale si l\u2019individu agit avec cruaut\u00e9 ou impulsivit\u00e9. Elle symbolise le cycle de la mort et de la renaissance, la capacit\u00e9 \u00e0 se r\u00e9g\u00e9n\u00e9rer apr\u00e8s une crise majeure.",
+    "related": ["Scorpion", "\u00c9toiles Royales", "Mars", "Regulus"]
+  },
   {
     "term": "Antisces",
     "slug": "antisces",
@@ -47,6 +144,30 @@
     "body": "L\u2019antisce d\u2019une plan\u00e8te est son \u00ab ombre \u00bb ou son point de miroir. Deux plan\u00e8tes en relation par antisce ont une affinit\u00e9 cach\u00e9e, m\u00eame sans aspect visible. C\u2019est une technique subtile de l\u2019astrologie hell\u00e9nistique et m\u00e9di\u00e9vale.",
     "related": ["Aspects", "Sym\u00e9trie", "Contre-antisce"]
   },
+  {
+    "term": "Aph\u00e9lie",
+    "slug": "aphelie",
+    "category": "astronomique",
+    "short": "Point o\u00f9 la Terre est la plus \u00e9loign\u00e9e du Soleil.",
+    "body": "L\u2019aph\u00e9lie terrestre a lieu d\u00e9but juillet. Astronomiquement, c\u2019est le moment o\u00f9 la vitesse de la Terre est la plus lente. En astrologie, cela influence subtilement le temp\u00e9rament global du signe du Cancer, lui apportant une dimension de recul et de maturation.",
+    "related": ["P\u00e9rih\u00e9lie", "Soleil", "Orbite"]
+  },
+  {
+    "term": "Apoastre",
+    "slug": "apoastre",
+    "category": "astronomique",
+    "short": "Point d\u2019une orbite o\u00f9 la distance par rapport \u00e0 l\u2019astre central est maximale.",
+    "body": "L\u2019apoastre est le terme g\u00e9n\u00e9rique. Pour la Terre autour du Soleil, on parle d\u2019aph\u00e9lie ; pour la Lune autour de la Terre, on parle d\u2019apog\u00e9e. En astrologie, une plan\u00e8te \u00e0 son apoastre est \u00e0 sa vitesse minimale. Symboliquement, cela peut indiquer un d\u00e9tachement, une prise de hauteur ou une expression plus froide et r\u00e9fl\u00e9chie de l\u2019\u00e9nergie plan\u00e9taire.",
+    "related": ["Aph\u00e9lie", "Apog\u00e9e", "Orbite"]
+  },
+  {
+    "term": "Apog\u00e9e",
+    "slug": "apogee",
+    "category": "astronomique",
+    "short": "Point le plus \u00e9loign\u00e9 de la Terre dans l\u2019orbite lunaire.",
+    "body": "C\u2019est \u00e0 l\u2019apog\u00e9e lunaire que se calcule la position de la Lune Noire (Lilith). Astronomiquement, la Lune y est plus petite et plus lente. Symboliquement, l\u2019apog\u00e9e repr\u00e9sente un point de vide, d\u2019absolu et de d\u00e9tachement des n\u00e9cessit\u00e9s biologiques terrestres.",
+    "related": ["Lune Noire", "P\u00e9rig\u00e9e", "Lilith"]
+  },
    {
     "term": "Application",
     "slug": "application",
@@ -54,6 +175,14 @@
     "short": "Moment où une planète s'approche de l'aspect exact avec une autre.",
     "body": "L'application se produit lorsqu'une planète rapide se déplace vers le degré exact d'un aspect avec une planète plus lente. En astrologie, un aspect appliquant est considéré comme beaucoup plus puissant et actif qu'un aspect séparatif, car l'énergie est en phase de croissance et l'événement ou le trait de caractère est en devenir. C'est un critère fondamental en astrologie horaire pour déterminer si une action va se réaliser.",
     "related": ["Séparation", "Orbe", "Transit"]
+  },
+  {
+    "term": "Arch\u00e9type",
+    "slug": "archetype",
+    "category": "concept",
+    "short": "Mod\u00e8le symbolique universel pr\u00e9sent dans l\u2019inconscient collectif.",
+    "body": "Concept popularis\u00e9 par Carl Jung, l\u2019arch\u00e9type est la structure de base qui donne forme aux symboles astrologiques. Les plan\u00e8tes sont des arch\u00e9types de fonctions psychologiques (le Guerrier pour Mars, le Sage pour Jupiter). L\u2019astrologie est l\u2019\u00e9tude de la g\u00e9om\u00e9trie de ces arch\u00e9types et de la mani\u00e8re dont ils interagissent pour former une personnalit\u00e9 unique.",
+    "related": ["Carl Jung", "Symbole", "Inconscient collectif"]
   },
   {
     "term": "Ascendant",
@@ -101,7 +230,32 @@
     "short": "Syst\u00e8me de correspondances entre les astres et les fonctions anatomiques ou pathologiques.",
     "body": "Historiquement indissociable de la m\u00e9decine jusqu\u2019au XVIIe si\u00e8cle, cette branche associe chaque signe et chaque plan\u00e8te \u00e0 une partie du corps ou \u00e0 un syst\u00e8me biologique (ex: le B\u00e9lier r\u00e9git la t\u00eate, Mars r\u00e9git le fer et les inflammations). L\u2019analyse du th\u00e8me permet d\u2019identifier les pr\u00e9dispositions constitutionnelles et les p\u00e9riodes de fragilit\u00e9 via les transits sur les points vitaux (Hyleg, Maison VI).",
     "related": ["Sant\u00e9", "Maison VI", "Hyleg", "Anatomie"]
-  },{
+  },
+  {
+    "term": "Astrologie m\u00e9t\u00e9orologique",
+    "slug": "astrologie-meteorologique",
+    "category": "branche",
+    "short": "Branche de l\u2019astrologie pr\u00e9voyant les changements climatiques et le temps.",
+    "body": "Aussi appel\u00e9e astrom\u00e9t\u00e9orologie, elle s\u2019appuie sur les ingr\u00e8s solaires (solstices et \u00e9quinoxes) et les phases lunaires pour d\u00e9terminer les p\u00e9riodes de s\u00e9cheresse, de pluie ou de froid. Tr\u00e8s utilis\u00e9e autrefois par les agriculteurs, elle se base sur la nature thermique des plan\u00e8tes (Mars/Chaleur, Saturne/Froid).",
+    "related": ["Ingr\u00e8s", "Mondiale", "Cycles"]
+  },
+  {
+    "term": "Astrophysique",
+    "slug": "astrophysique",
+    "category": "astronomique",
+    "short": "\u00c9tude des propri\u00e9t\u00e9s physiques des objets c\u00e9lestes.",
+    "body": "L\u2019astrophysique fournit les donn\u00e9es pr\u00e9cises (positions, magnitudes, orbites) n\u00e9cessaires au calcul des \u00e9ph\u00e9m\u00e9rides. Bien qu\u2019elle s\u2019oppose souvent \u00e0 l\u2019astrologie sur le plan de l\u2019interpr\u00e9tation, elle est son socle technique indispensable pour garantir la justesse math\u00e9matique d\u2019une carte du ciel.",
+    "related": ["Astronomie", "\u00c9ph\u00e9m\u00e9rides", "Calcul"]
+  },
+  {
+    "term": "Astro-psychologie",
+    "slug": "astro-psychologie",
+    "category": "branche",
+    "short": "Discipline mariant l\u2019astrologie aux concepts de la psychologie moderne.",
+    "body": "Cette branche ne cherche pas \u00e0 pr\u00e9dire l\u2019avenir mais \u00e0 d\u00e9coder la structure de la psych\u00e9. Elle voit le th\u00e8me natal comme une carte de l\u2019inconscient et des potentiels de croissance. Elle int\u00e8gre des notions de psychanalyse pour aider l\u2019individu \u00e0 r\u00e9soudre ses conflits internes et \u00e0 r\u00e9aliser son \u00ab Soi \u00bb.",
+    "related": ["Astrologie humaniste", "Carl Jung", "Psychologie"]
+  },
+  {
     "term": "Apex",
     "slug": "apex",
     "category": "technique",
@@ -185,5 +339,13 @@
     "short": "Ligne reliant deux points oppos\u00e9s du th\u00e8me, cr\u00e9ant un champ de tension compl\u00e9mentaire.",
     "body": "Un th\u00e8me est structur\u00e9 par des axes majeurs : l\u2019axe horizontal (Ascendant-Descendant / Moi-L\u2019Autre) et l\u2019axe vertical (Milieu du Ciel-Fond du Ciel / Vie publique-Vie priv\u00e9e). L\u2019interpr\u00e9tation par axe permet de comprendre que deux maisons oppos\u00e9es fonctionnent comme les deux faces d\u2019une m\u00eame pi\u00e8ce.",
     "related": ["Opposition", "Angles", "Maisons"]
+  },
+  {
+    "term": "Ayanamsa",
+    "slug": "ayanamsa",
+    "category": "astronomique",
+    "short": "Angle de d\u00e9calage entre le zodiaque tropical et le zodiaque sid\u00e9ral.",
+    "body": "D\u00f9 \u00e0 la pr\u00e9cession des \u00e9quinoxes, le point vernal (0\u00b0 B\u00e9lier tropical) recule par rapport aux \u00e9toiles. L\u2019ayanamsa est la valeur de ce d\u00e9calage (environ 24\u00b0 aujourd\u2019hui). C\u2019est l\u2019outil indispensable pour convertir un th\u00e8me occidental en th\u00e8me hindou (sid\u00e9ral). L\u2019ayanamsa Lahiri est le plus utilis\u00e9 par les praticiens.",
+    "related": ["Sid\u00e9ral", "Pr\u00e9cession des \u00e9quinoxes", "Zodiaque"]
   }
 ]

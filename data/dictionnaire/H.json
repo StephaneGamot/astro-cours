@@ -23,6 +23,14 @@
     "body": "L\u2019h\u00e9micycle se produit lorsque plusieurs plan\u00e8tes sont regroup\u00e9es dans une zone de 180\u00b0 ou moins du zodiaque. Cette configuration indique une focalisation intense de l\u2019\u00e9nergie sur un secteur particulier de la vie, mais aussi une polarisation qui peut cr\u00e9er des tensions internes. Les plan\u00e8tes en h\u00e9micycle ont tendance \u00e0 se renforcer mutuellement, mais aussi \u00e0 se confronter \u00e0 des forces oppos\u00e9es dans les zones vides du th\u00e8me. L\u2019h\u00e9micycle peut indiquer un potentiel de croissance important si l\u2019individu apprend \u00e0 int\u00e9grer les \u00e9nergies concentr\u00e9es et \u00e0 faire face aux d\u00e9fis que cette configuration peut engendrer.",
     "related": ["Concentration", "Polarisation", "Tension", "Intégration"]
   },
+  {
+    "term": "Henri Gouchon",
+    "slug": "henri-gouchon",
+    "category": "personnage",
+    "short": "Astrologue fran\u00e7ais (1898-1978), c\u00e9l\u00e8bre pour son dictionnaire et ses recherches sur la vitalit\u00e9.",
+    "body": "Henri Gouchon est une figure incontournable de l\u2019astrologie du XXe si\u00e8cle. Son \u00ab Dictionnaire Astrologique \u00bb est rest\u00e9 une r\u00e9f\u00e9rence pendant des d\u00e9cennies. Il est particuli\u00e8rement connu pour ses travaux sur l\u2019Indice de Concentration Plan\u00e9taire et ses recherches statistiques sur la vitalit\u00e9 et la long\u00e9vit\u00e9 (en lien avec le Hyleg). Gouchon a contribu\u00e9 \u00e0 codifier l\u2019astrologie traditionnelle tout en l\u2019ouvrant \u00e0 une v\u00e9rification plus moderne et factuelle.",
+    "related": ["Dictionnaire", "Hyleg", "Pr\u00e9vision"]
+  },
    {
     "term": "H\u00e9r\u00e9dit\u00e9",
     "slug": "heredite",
@@ -39,7 +47,14 @@
     "body": "L\u2019horizon local d\u00e9termine l\u2019axe Ascendant-Descendant. Il divise le th\u00e8me en deux h\u00e9misph\u00e8res : sud (visible, conscient) et nord (invisible, nocturne). Symboliquement, l\u2019horizon est le plan de manifestation o\u00f9 l\u2019\u00e9nergie pure des astres rencontre la r\u00e9alit\u00e9 physique. Une plan\u00e8te situ\u00e9e sur l\u2019horizon au moment de la naissance est dite \u00ab angulaire \u00bb et marque profond\u00e9ment la personnalit\u00e9.",
     "related": ["Ascendant", "Descendant", "Angularit\u00e9"]
   },
- 
+ {
+    "term": "Horoscope",
+    "slug": "horoscope",
+    "category": "concept",
+    "short": "Litt\u00e9ralement \u00ab qui examine l\u2019heure \u00bb ; d\u00e9signe l\u2019Ascendant ou la carte du ciel globale.",
+    "body": "Le mot vient du grec \u00ab h\u014dra \u00bb (heure) et \u00ab skopos \u00bb (observateur). Historiquement, l\u2019horoscope d\u00e9signait uniquement le signe qui se levait \u00e0 l\u2019horizon (l\u2019Ascendant). Par extension abusive, il d\u00e9signe aujourd\u2019hui les pr\u00e9visions m\u00e9diatiques par signe solaire. En astrologie technique, l\u2019horoscope est la structure g\u00e9om\u00e9trique du ciel au moment T, incluant positions plan\u00e9taires et domification.",
+    "related": ["Ascendant", "Th\u00e8me natal", "Domification"]
+  },
     {
     "term": "Hyleg",
     "slug": "hyleg",
