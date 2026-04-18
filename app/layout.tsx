@@ -8,7 +8,7 @@ import Footer from "@/components/layout/footer/Footer";
 const SITE_URL = "https://www.astro-cours.com";
 const SITE_NAME = "Astro Cours";
 const DEFAULT_DESC =
-  "Cours d’astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.";
+  "Cours d'astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.";
 
 const OG_IMAGE = `${SITE_URL}/og/cover.jpg`;
 
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: SITE_NAME,
     description: DEFAULT_DESC,
-    url: SITE_URL, // ✅ ABS
+    url: SITE_URL,
     siteName: SITE_NAME,
     locale: "fr_FR",
     type: "website",
     images: [
       {
-        url: OG_IMAGE, // ✅ og:image
+        url: OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: `${SITE_NAME} — cours d’astrologie`,
+        alt: `${SITE_NAME} — cours d'astrologie`,
       },
     ],
   },
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_NAME,
     description: DEFAULT_DESC,
-    images: [OG_IMAGE], // ✅ twitter:image
+    images: [OG_IMAGE],
   },
 };
 
@@ -77,10 +77,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${inter.variable} ${cormorant.variable}`}>
       <body>
+        {/* ✅ lazyOnload : ne charge qu'après que la page est totalement prête */}
         <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="JNM0DqC2SHxBN/ZLlVz+xA"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <NavBAr />
         {children}

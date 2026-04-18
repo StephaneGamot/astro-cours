@@ -7,7 +7,6 @@ import {
   type DictCategory,
 } from "@/lib/dictionnaire";
 import LazyLetterSection from "./LazyLetterSection";
-import JsonLdScript from "./JsonLdScript";
 
 /* ================================================================== */
 /*  SEO — Metadata                                                    */
@@ -40,37 +39,59 @@ export const metadata: Metadata = {
 };
 
 /* ================================================================== */
-/*  Styles catégories (légende uniquement)                            */
+/*  Styles catégories (légende)                                       */
 /* ================================================================== */
 const CAT_STYLE: Record<DictCategory, { bg: string; text: string; border: string; dot: string }> = {
-  planète: { bg: "bg-amber-500/10", text: "text-amber-300", border: "border-amber-400/20", dot: "bg-amber-400" },
-  signe: { bg: "bg-emerald-500/10", text: "text-emerald-300", border: "border-emerald-400/20", dot: "bg-emerald-400" },
-  maison: { bg: "bg-sky-500/10", text: "text-sky-300", border: "border-sky-400/20", dot: "bg-sky-400" },
-  aspect: { bg: "bg-violet-500/10", text: "text-violet-300", border: "border-violet-400/20", dot: "bg-violet-400" },
-  concept: { bg: "bg-rose-500/10", text: "text-rose-300", border: "border-rose-400/20", dot: "bg-rose-400" },
-  "point fictif": { bg: "bg-fuchsia-500/10", text: "text-fuchsia-300", border: "border-fuchsia-400/20", dot: "bg-fuchsia-400" },
-  technique: { bg: "bg-cyan-500/10", text: "text-cyan-300", border: "border-cyan-400/20", dot: "bg-cyan-400" },
-  personnalité: { bg: "bg-orange-500/10", text: "text-orange-300", border: "border-orange-400/20", dot: "bg-orange-400" },
-  astronomique: { bg: "bg-indigo-500/10", text: "text-indigo-300", border: "border-indigo-400/20", dot: "bg-indigo-400" },
-  branche: { bg: "bg-lime-500/10", text: "text-lime-300", border: "border-lime-400/20", dot: "bg-lime-400" },
-  constellation: { bg: "bg-teal-500/10", text: "text-teal-300", border: "border-teal-400/20", dot: "bg-teal-400" },
-  personnage: { bg: "bg-yellow-500/10", text: "text-yellow-300", border: "border-yellow-400/20", dot: "bg-yellow-400" },
+  planète:       { bg: "bg-amber-500/10",   text: "text-amber-300",   border: "border-amber-400/20",   dot: "bg-amber-400" },
+  signe:         { bg: "bg-emerald-500/10", text: "text-emerald-300", border: "border-emerald-400/20", dot: "bg-emerald-400" },
+  maison:        { bg: "bg-sky-500/10",     text: "text-sky-300",     border: "border-sky-400/20",     dot: "bg-sky-400" },
+  aspect:        { bg: "bg-violet-500/10",  text: "text-violet-300",  border: "border-violet-400/20",  dot: "bg-violet-400" },
+  concept:       { bg: "bg-rose-500/10",    text: "text-rose-300",    border: "border-rose-400/20",    dot: "bg-rose-400" },
+  "point fictif":{ bg: "bg-fuchsia-500/10", text: "text-fuchsia-300", border: "border-fuchsia-400/20", dot: "bg-fuchsia-400" },
+  technique:     { bg: "bg-cyan-500/10",    text: "text-cyan-300",    border: "border-cyan-400/20",    dot: "bg-cyan-400" },
+  personnalité:  { bg: "bg-orange-500/10",  text: "text-orange-300",  border: "border-orange-400/20",  dot: "bg-orange-400" },
+  astronomique:  { bg: "bg-indigo-500/10",  text: "text-indigo-300",  border: "border-indigo-400/20",  dot: "bg-indigo-400" },
+  branche:       { bg: "bg-lime-500/10",    text: "text-lime-300",    border: "border-lime-400/20",    dot: "bg-lime-400" },
+  constellation: { bg: "bg-teal-500/10",    text: "text-teal-300",    border: "border-teal-400/20",    dot: "bg-teal-400" },
+  personnage:    { bg: "bg-yellow-500/10",  text: "text-yellow-300",  border: "border-yellow-400/20",  dot: "bg-yellow-400" },
 };
 
 const CATEGORIES = Object.keys(CAT_STYLE) as DictCategory[];
 
 /* ================================================================== */
-/*  Page                                                              */
+/*  Page (Server Component)                                           */
 /* ================================================================== */
 export default function DictionnairePage() {
   const grouped = groupByLetter(ENTRIES);
   const letters = Object.keys(grouped).sort((a, b) => a.localeCompare(b, "fr"));
   const allLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
+  /* Seuls letter + count sont passés au client (pas les entries !) */
+  const letterData = letters.map((l) => ({ letter: l, count: grouped[l].length }));
+
   return (
     <main className="relative mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
-      {/* ── JSON-LD injecté en différé côté client ── */}
-      <JsonLdScript />
+      {/* ── Schema.org (server-rendered, pas envoyé au client) ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "DefinedTermSet",
+            name: "Dictionnaire astrologique — Astro Cours",
+            description: DESCRIPTION,
+            url: absoluteUrl(CANONICAL),
+            inLanguage: "fr-FR",
+            hasDefinedTerm: ENTRIES.map((e) => ({
+              "@type": "DefinedTerm",
+              name: e.term,
+              description: e.short,
+              url: `${absoluteUrl(CANONICAL)}#${e.slug}`,
+              inDefinedTermSet: absoluteUrl(CANONICAL),
+            })),
+          }),
+        }}
+      />
 
       {/* ── Glow ── */}
       <div
@@ -131,20 +152,19 @@ export default function DictionnairePage() {
           const s = CAT_STYLE[cat];
           return (
             <span key={cat} className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wider sm:text-xs ${s.bg} ${s.text} ${s.border}`}>
-              <span className={`h-1.5 w-1.5 rounded-full ${s.dot}`} aria-hidden />
-              {cat}
+              <span className={`h-1.5 w-1.5 rounded-full ${s.dot}`} aria-hidden />{cat}
             </span>
           );
         })}
       </div>
 
-      {/* ── Entrées (lazy) — seule A est eager (8 cartes max) ── */}
+      {/* ── Entrées (données chargées dynamiquement par lettre) ── */}
       <div className="space-y-12 sm:space-y-16">
-        {letters.map((letter, i) => (
+        {letterData.map(({ letter, count }, i) => (
           <LazyLetterSection
             key={letter}
             letter={letter}
-            entries={grouped[letter]}
+            count={count}
             eager={i === 0}
           />
         ))}
