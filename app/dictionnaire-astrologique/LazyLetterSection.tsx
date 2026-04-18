@@ -5,7 +5,6 @@ import type { DictCategory, DictEntry } from "@/lib/dictionnaire";
 
 /* ================================================================== */
 /*  Chargement dynamique — chaque lettre = un chunk séparé            */
-/*  Seul le JSON de la lettre visible est téléchargé.                 */
 /* ================================================================== */
 const LETTER_LOADERS: Record<string, () => Promise<{ default: unknown[] }>> = {
   A: () => import("@/data/dictionnaire/A.json"),
@@ -39,7 +38,7 @@ const LETTER_LOADERS: Record<string, () => Promise<{ default: unknown[] }>> = {
 /* ================================================================== */
 /*  Styles par catégorie                                              */
 /* ================================================================== */
-const S: Record<DictCategory, { bg: string; text: string; border: string; dot: string }> = {
+const CS: Record<DictCategory, { bg: string; text: string; border: string; dot: string }> = {
   planète:       { bg: "bg-amber-500/10",   text: "text-amber-300",   border: "border-amber-400/20",   dot: "bg-amber-400" },
   signe:         { bg: "bg-emerald-500/10", text: "text-emerald-300", border: "border-emerald-400/20", dot: "bg-emerald-400" },
   maison:        { bg: "bg-sky-500/10",     text: "text-sky-300",     border: "border-sky-400/20",     dot: "bg-sky-400" },
@@ -58,7 +57,7 @@ const S: Record<DictCategory, { bg: string; text: string; border: string; dot: s
 /*  EntryCard                                                         */
 /* ================================================================== */
 function EntryCard({ entry }: { entry: DictEntry }) {
-  const s = S[entry.category];
+  const s = CS[entry.category];
   if (!s) return null;
 
   return (
@@ -76,9 +75,7 @@ function EntryCard({ entry }: { entry: DictEntry }) {
           <span className="text-[0.65rem] font-semibold uppercase tracking-widest text-white/50 sm:text-xs">Voir aussi</span>
           {entry.related.map((r) => {
             const slug = r.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
-            return (
-              <a key={r} href={`#${slug}`} className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-0.5 text-xs text-white/60 transition-colors hover:border-white/20 hover:text-white/80">{r}</a>
-            );
+            return <a key={r} href={`#${slug}`} className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-0.5 text-xs text-white/60 transition-colors hover:border-white/20 hover:text-white/80">{r}</a>;
           })}
         </div>
       )}
@@ -87,7 +84,7 @@ function EntryCard({ entry }: { entry: DictEntry }) {
 }
 
 /* ================================================================== */
-/*  Constantes de batch                                               */
+/*  Constantes                                                        */
 /* ================================================================== */
 const INITIAL_BATCH = 5;
 const LOAD_BATCH = 10;
@@ -113,10 +110,8 @@ export default function LazyLetterSection({ letter, count, eager = false }: Prop
   const loadData = () => {
     if (loadingRef.current || entries.length > 0) return;
     loadingRef.current = true;
-
     const loader = LETTER_LOADERS[letter];
     if (!loader) return;
-
     loader().then((mod) => {
       const data = (mod.default as DictEntry[]).sort((a, b) =>
         a.term.localeCompare(b.term, "fr", { sensitivity: "base" })
@@ -137,14 +132,8 @@ export default function LazyLetterSection({ letter, count, eager = false }: Prop
     if (eager || entries.length > 0) return;
     const el = sectionRef.current;
     if (!el) return;
-
     const obs = new IntersectionObserver(
-      ([e]) => {
-        if (e.isIntersecting) {
-          loadData();
-          obs.disconnect();
-        }
-      },
+      ([e]) => { if (e.isIntersecting) { loadData(); obs.disconnect(); } },
       { rootMargin: "400px" }
     );
     obs.observe(el);
@@ -157,13 +146,8 @@ export default function LazyLetterSection({ letter, count, eager = false }: Prop
     if (rendered >= entries.length || rendered === 0) return;
     const el = sentinelRef.current;
     if (!el) return;
-
     const obs = new IntersectionObserver(
-      ([e]) => {
-        if (e.isIntersecting) {
-          setRendered((prev) => Math.min(prev + LOAD_BATCH, entries.length));
-        }
-      },
+      ([e]) => { if (e.isIntersecting) setRendered((prev) => Math.min(prev + LOAD_BATCH, entries.length)); },
       { rootMargin: "300px" }
     );
     obs.observe(el);
@@ -171,11 +155,27 @@ export default function LazyLetterSection({ letter, count, eager = false }: Prop
   }, [rendered, entries.length]);
 
   const visibleEntries = entries.slice(0, rendered);
-  const remaining = entries.length > 0 ? entries.length - rendered : count;
-  const placeholderHeight = remaining * 140;
+  const allLoaded = entries.length > 0 && rendered >= entries.length;
 
   return (
-    <section ref={sectionRef} id={`letter-${letter}`} className="scroll-mt-28">
+    <section
+      ref={sectionRef}
+      id={`letter-${letter}`}
+      className="scroll-mt-28"
+      /* ─────────────────────────────────────────────────────────────
+       * FIX CLS : content-visibility + contain-intrinsic-size
+       * Le navigateur réserve l'espace SANS créer de nœuds DOM.
+       * Pas de min-height dynamique → pas de layout shift.
+       * ───────────────────────────────────────────────────────────── */
+      style={
+        !eager
+          ? {
+              contentVisibility: "auto",
+              containIntrinsicSize: `auto 200px`,
+            }
+          : undefined
+      }
+    >
       {/* En-tête */}
       <div className="mb-5 flex items-center gap-3 sm:mb-6">
         <h2 className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-gradient-to-br from-accent/10 to-violet-500/10 font-serif text-xl font-bold text-white sm:h-12 sm:w-12 sm:text-2xl">
@@ -196,15 +196,19 @@ export default function LazyLetterSection({ letter, count, eager = false }: Prop
         </div>
       )}
 
-      {/* Sentinelle / placeholder */}
-      {(rendered === 0 || rendered < entries.length) && (
+      {/* ────────────────────────────────────────────────────────────
+       * FIX CLS : plus de div géant avec min-height: Xpx
+       * Juste une petite sentinelle de 64px qui déclenche le chargement.
+       * ──────────────────────────────────────────────────────────── */}
+      {!allLoaded && (
         <div
           ref={sentinelRef}
-          style={{ minHeight: placeholderHeight }}
-          className="mt-4 flex items-center justify-center rounded-2xl border border-dashed border-white/[0.06]"
+          className="mt-4 flex h-16 items-center justify-center rounded-2xl border border-dashed border-white/[0.06]"
         >
           <span className="text-sm text-white/20">
-            {remaining} terme{remaining > 1 ? "s" : ""} …
+            {entries.length > 0
+              ? `${entries.length - rendered} terme${entries.length - rendered > 1 ? "s" : ""} …`
+              : `${count} terme${count > 1 ? "s" : ""} …`}
           </span>
         </div>
       )}

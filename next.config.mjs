@@ -13,18 +13,35 @@ const nextConfig = {
     root: new URL(".", import.meta.url).pathname,
   },
 
-  // ✅ Image optimization — limit generated sizes for faster builds + smaller downloads
+  // ✅ Image optimization
   images: {
     formats: ["image/avif", "image/webp"],
-    deviceSizes: [640, 750,828, 1080, 1200, 1920],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 192, 256, 320, 384],
     qualities: [40, 50, 60, 70, 75],
     minimumCacheTTL: 5184000,
   },
 
-  // ✅ Experimental CSS optimization (inline critical CSS)
   experimental: {
+    // ✅ CSS critique inline (nécessite `npm install critters`)
     optimizeCss: true,
+  },
+
+  // ✅ Cible navigateurs modernes pour éliminer les polyfills
+  //    (Array.prototype.at, Object.fromEntries, etc.)
+  compiler: {
+    // Supprime les console.log en production (garde console.error)
+    removeConsole: process.env.NODE_ENV === "production"
+      ? { exclude: ["error", "warn"] }
+      : false,
+  },
+
+  // ✅ Webpack : cible ES2022 pour le code client
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.target = ["web", "es2022"];
+    }
+    return config;
   },
 };
 
