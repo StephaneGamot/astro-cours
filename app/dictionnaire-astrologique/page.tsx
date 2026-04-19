@@ -11,7 +11,7 @@ import LazyLetterSection from "./LazyLetterSection";
 /* ================================================================== */
 /*  SEO — Metadata                                                    */
 /* ================================================================== */
-const CANONICAL = "/dictionnaire";
+const CANONICAL = "/dictionnaire-astrologique";
 const TITLE = "Dictionnaire astrologique";
 const DESCRIPTION =
   "Dictionnaire astrologique complet : définitions claires & accessibles des termes essentiels de l'astrologie — planètes, signes, maisons, aspects, transits.";
