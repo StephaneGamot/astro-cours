@@ -28,7 +28,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "asteroides",
     "cuspides-des-maisons",
 "les-decans",
-    "maisons-derivees"
+    "maisons-derivees", 
+    "confidentialite",
+    "mentions-legales",
+    "dictionnaire-astrologique",
+    "a-propos"
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({
