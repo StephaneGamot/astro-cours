@@ -60,6 +60,10 @@ import ManipulateursPNPost, {
   meta as manipulateursPNMeta,
 } from "./manipulateurs-pervers-narcissiques-astrologie";
 
+import HoroscopeNeVousRessemblePasPost, {
+  meta as horoscopeNeVousRessemblePasMeta,
+} from "./pourquoi-votre-horoscope-ne-vous-ressemble-pas";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -78,6 +82,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: horoscopeNeVousRessemblePasMeta, Component: HoroscopeNeVousRessemblePasPost },
   { meta: manipulateursPNMeta, Component: ManipulateursPNPost },
   { meta: martienMeta, Component: MartienPost },
   { meta: solarienMeta, Component: SolarienPost },
