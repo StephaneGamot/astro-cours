@@ -7,9 +7,9 @@ import { TagPillsInline, getGlowFromTags } from "./ui";
 export const meta = {
   slug: "manipulateurs-pervers-narcissiques-astrologie",
   title:
-    "Manipulateurs et Pervers Narcissiques : les Reconnaître grâce à l'Astrologie",
+    "Manipulateurs & Pervers Narcissiques en Astrologie",
   description:
-    "Comment l'astrologie peut aider à identifier les profils manipulateurs et pervers narcissiques dans un thème natal : planètes, aspects, maisons, signes ciblés et mécanismes de protection.",
+    "Comment l'astrologie peut aider à identifier les profils manipulateurs & pervers narcissiques dans un thème natal : signes ciblés et mécanismes de protection.",
   date: "2026-04-16",
   tags: [
     "psychologie astrologique",

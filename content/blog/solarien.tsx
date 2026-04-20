@@ -9,9 +9,9 @@ import Solarien3Image from "@/public/images/blog/solarien3.webp";
 export const meta = {
   slug: "solarien",
   title:
-    "Solarien : le Souverain, Maître de la Lumière et de l'Excellence",
+    "Solarien : le Souverain, Maître de la Lumière",
   description:
-    "Portrait astrologique du Solarien : génie, rayonnement, charisme, pouvoir, vocation, amour, grandeur, chute, morphopsychologie et dominante solaire dans un thème astral.",
+    "Portrait astrologique du Solarien : génie, rayonnement, charisme, pouvoir, vocation, amour, grandeur, chute, la dominante solaire dans un thème astral.",
   date: "2026-04-07",
   tags: [
     "Soleil",

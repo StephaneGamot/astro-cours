@@ -8,9 +8,9 @@ import JupiterienImage2 from "@/public/images/blog/jupiterien2.webp";
 export const meta = {
   slug: "jupiterien",
   title:
-    "Jupitérien : le Guide, l'Organisateur et le Bienfaiteur",
+    "Jupitérien : le Guide & le Bienfaiteur",
   description:
-    "Portrait astrologique du Jupitérien : abondance, ordre, loi, optimisme, organisation, amour du foyer, pouvoir, excès, grande dame et morphopsychologie jupitérienne dans un thème astral.",
+    "Portrait astrologique du Jupitérien : abondance, ordre, loi, optimisme, organisation, amour du foyer, pouvoir, excès, grande dame & la jupitérienne dans un thème astral.",
   date: "2026-04-02",
   tags: [
     "Jupiter",

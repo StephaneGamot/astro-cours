@@ -8,9 +8,9 @@ import Plutonien2Image from "@/public/images/blog/plutonien2.webp";
 export const meta = {
   slug: "plutonien",
   title:
-    "Plutonien : le Phénix, le Maître de l'Ombre et de la Transformation",
+    "Plutonien : le Maître de l'Ombre & de la Transformation",
   description:
-    "Portrait astrologique du Plutonien : intensité, vérité, fusion, crise, résilience, transformation, Pluton affligé, prêtresse, sorcière et morphopsychologie plutonienne dans un thème astral.",
+    "Portrait astrologique du Plutonien : intensité, vérité, fusion, crise, résilience, transformation, Pluton affligé, prêtresse, sorcière & la plutonienne dans un thème astral.",
   date: "2026-03-29",
   tags: [
     "Pluton",

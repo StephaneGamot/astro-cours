@@ -6,7 +6,7 @@ export const meta = {
   slug: "pleine-lune-nouvelle-lune-cycles-astrologie",
   title: "Pleine Lune & Nouvelle Lune : comprendre les cycles lunaires",
   description:
-    "Nouvelle Lune et Pleine Lune en astrologie : émotions, cycles, intentions, libération, sommeil, hypersensibilité. Une méthode simple et concrète.",
+    "Nouvelle Lune et Pleine Lune en astrologie : émotions, cycles, intentions, libération, sommeil, hypersensibilité. Une méthode simple & concrète.",
   date: "2026-02-07",
   tags: ["lune", "émotions", "cycles", "bases", "débutant"],
   readingLevel: "débutant" as const,

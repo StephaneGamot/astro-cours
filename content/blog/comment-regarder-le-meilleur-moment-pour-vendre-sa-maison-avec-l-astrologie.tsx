@@ -6,7 +6,7 @@ export const meta = {
   slug: "vendre-une-maison-demenager-astrologie-methodes",
   title: "Vente de maison: Que regarder en astrologie ? ",
   description:
-    "Guide sérieux pour analyser une vente immobilière ou un déménagement : maisons IV/VII/X, maîtres, transits, progressions, déclencheurs, rétrogrades et check-list pratique.",
+    "Guide sérieux pour analyser une vente immobilière ou un déménagement : maisons IV/VII/X, maîtres, transits, progressions, déclencheurs, rétrogrades",
   date: "2026-03-03",
   tags: ["immobilier", "demenagement", "transits", "maisons", "methode"],
   readingLevel: "intermédiaire" as const,

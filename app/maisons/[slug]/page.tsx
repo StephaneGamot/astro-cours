@@ -84,7 +84,7 @@ export async function generateMetadata({
 
   const titreCourt = house.titreCourt ?? `Maison ${toRoman(house.numero)}`;
   const title = buildTitle(
-    `${titreCourt} en astrologie : signification, planètes et interprétation`
+    `${titreCourt} en astrologie, signification & interprétation`
   );
 
   const arena = house.niveauLecture?.arena?.trim();

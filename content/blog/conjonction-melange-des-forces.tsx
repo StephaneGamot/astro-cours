@@ -6,7 +6,7 @@ export const meta = {
   slug: "conjonction-melange-des-forces",
   title: "Comprendre la conjonction",
   description:
-    "Définition claire de la conjonction, méthode de lecture natal & transits, orbes, exemples concrets, nuances par planète, pièges fréquents et check-lists.",
+    "Définition claire de la conjonction, méthode de lecture natal & transits, orbes, exemples concrets, nuances par planète, pièges fréquents & check-lists.",
   date: "2026-01-01",
   tags: ["aspects", "bases", "débutant"],
   readingLevel: "débutant" as const,

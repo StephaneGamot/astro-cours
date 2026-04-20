@@ -9,9 +9,9 @@ import Saturnien3Image from "@/public/images/blog/saturnien3.webp";
 export const meta = {
   slug: "saturnien",
   title:
-    "Saturnien : Le Sage, le Maître du Temps et de la Résilience",
+    "Saturnien : Le Sage, le Maître du Temps",
   description:
-    "Portrait astrologique du Saturnien : profondeur mentale, loyauté, solitude, vocation, mariage tardif, ambition silencieuse, Saturne affligé, résilience et sagesse dans un thème astral.",
+    "Portrait astrologique du Saturnien : profondeur mentale, loyauté, solitude, vocation, mariage tardif, ambition silencieuse, la résilience & sagesse dans un thème astral.",
   date: "2026-04-01",
   tags: [
     "Saturne",

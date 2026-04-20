@@ -8,9 +8,9 @@ import Uranien2Image from "@/public/images/blog/uranien2.webp";
 export const meta = {
   slug: "uranien",
   title:
-    "Uranien : l'Éveilleur, le Rebelle et le Visionnaire",
+    "Uranien : l'Éveilleur & le Visionnaire",
   description:
-    "Portrait astrologique de l’Uranien : indépendance, originalité, rébellion, vocation, rupture, destin, Uranus affligé, pionnière et morphopsychologie uranienne dans un thème astral.",
+    "Portrait astrologique de l’Uranien : indépendance, originalité, rébellion, vocation, rupture, destin, pionnière, l'uranienne dans un thème astral.",
   date: "2026-03-31",
   tags: [
     "Uranus",

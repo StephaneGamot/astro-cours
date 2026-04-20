@@ -8,9 +8,9 @@ import Martien2Image from "@/public/images/blog/martien2.webp";
 export const meta = {
   slug: "martien",
   title:
-    "Martien : Guerrier, Bâtisseur de l'Action et du Courage",
+    "Martien : Guerrier, Bâtisseur de l'Action & du Courage",
   description:
-    "Portrait astrologique du Martien : action, courage, combativité, amour passionné, vocation, chirurgie, sport, Mars affligé, Amazone et morphopsychologie martienne dans un thème astral.",
+    "Portrait astrologique du Martien : action, courage, combativité, amour passionné, vocation, chirurgie, sport, Mars affligé, Amazone & la martienne dans un thème astral.",
   date: "2026-04-03",
   tags: [
     "Mars",

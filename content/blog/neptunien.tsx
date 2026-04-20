@@ -10,7 +10,7 @@ export const meta = {
   slug: "neptunien",
   title: "Neptunien : Le Visionnaire Insaisissable",
   description:
-    "Portrait astrologique du Neptunien : intuition, clairvoyance, spiritualité, vocation, amour, hypersensibilité, fuite, art, mysticisme et Neptune affligé dans un thème astral.",
+    "Portrait astrologique du Neptunien : intuition, clairvoyance, spiritualité, vocation, amour, hypersensibilité, fuite, art, mysticisme & Neptune dans un thème astral.",
   date: "2026-03-30",
   tags: [
     "Neptune",

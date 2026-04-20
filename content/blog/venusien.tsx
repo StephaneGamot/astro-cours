@@ -8,9 +8,9 @@ import VenusienImage2 from "@/public/images/blog/venus2.webp";
 export const meta = {
   slug: "venusien",
   title:
-    "Le Vénusien : l'Esthète, l'Amant et l'Artisan de la Paix",
+    "Le Vénusien : l'Esthète, l'Amant",
   description:
-    "Portrait astrologique du Vénusien : charme, amour, beauté, art, harmonie, séduction, Vénus affligée, muse, sirène et morphopsychologie vénusienne dans un thème astral.",
+    "Portrait astrologique du Vénusien : charme, amour, beauté, art, harmonie, séduction, muse, sirène et la vénusienne dans un thème astral.",
   date: "2026-04-04",
   tags: [
     "Vénus",

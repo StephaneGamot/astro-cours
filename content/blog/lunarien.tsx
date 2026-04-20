@@ -9,9 +9,9 @@ import Lunarien3Image from "@/public/images/blog/lunarien3.webp";
 export const meta = {
   slug: "lunarien",
   title:
-    "Lunarien : Le Rêveur, Gardien de la Mémoire et de l'Intuition",
+    "Lunarien : Rêveur, Gardien de la Mémoire & de l'Intuition",
   description:
-    "Portrait astrologique du Lunarien : mémoire, imagination, intuition, foyer, douceur, Lune affligée, vocation, amour, archétype maternel et morphopsychologie lunaire dans un thème astral.",
+    "Portrait astrologique du Lunarien : mémoire, imagination, intuition, foyer, douceur, Lune affligée, vocation, amour, archétype maternel & la lunaire dans un thème astral",
   date: "2026-04-06",
   tags: [
     "Lune",

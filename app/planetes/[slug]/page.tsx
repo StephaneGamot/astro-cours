@@ -88,7 +88,7 @@ export async function generateMetadata({
   if (!planet) return {};
 
   const title = buildTitle(
-    `${planet.name} en astrologie : symbolique, signes, maisons et aspects`
+    `${planet.name} en astrologie : symbolique & aspects`
   );
   const description =
     planet.identite?.symbolique?.slice(0, 155) ||

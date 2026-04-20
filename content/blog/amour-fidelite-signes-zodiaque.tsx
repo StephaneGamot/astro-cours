@@ -11,7 +11,7 @@ export const meta = {
   slug: "amour-fidelite-signes-zodiaque",
   title: "Amour et fidélité selon les 12 signes du zodiaque",
   description:
-    "Comment chaque signe du zodiaque vit l’amour et la fidélité : besoins affectifs, engagement, mécanismes psychologiques, compatibilités amoureuses et dérives possibles.",
+    "Comment chaque signe du zodiaque vit l’amour et la fidélité : besoins affectifs, compatibilités amoureuses",
   date: "2026-03-18",
   tags: ["amour", "relation", "signe", "psychologie", "compatibilité"],
   readingLevel: "débutant" as const,

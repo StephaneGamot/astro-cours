@@ -8,9 +8,9 @@ import Mercurien2Image from "@/public/images/blog/mercurien2.webp";
 export const meta = {
   slug: "mercurien",
   title:
-    "Mercurien : Le Maître de la Communication et l'Éternel Adolescent",
+    "Mercurien : Le Maître de la Communication",
   description:
-    "Portrait astrologique du Mercurien : intelligence vive, communication, curiosité, commerce, humour, adaptation, amour, carrière, face sombre et morphopsychologie astrologique de Mercure.",
+    "Portrait astrologique du Mercurien : intelligence vive, communication, curiosité, commerce, humour, adaptation, amour, carrière, morphopsychologie astrologique de Mercure.",
   date: "2026-04-05",
   tags: [
     "Mercure",

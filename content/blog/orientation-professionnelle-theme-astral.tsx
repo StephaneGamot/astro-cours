@@ -8,7 +8,7 @@ export const meta = {
   slug: "orientation-professionnelle-theme-astral",
   title: "Orientation professionnelle dans un thème astral",
   description:
-    "Comment analyser l’orientation professionnelle dans un thème astral : seigneur de l’action, maison X, maison I, Part de Fortune, maître du MC, Mars, Vénus, Mercure, vocation, métier et statut social.",
+    "Comment analyser l’orientation professionnelle dans un thème astral : seigneur de l’action, maison X, maison I, Part de Fortune, maître du MC, vocation, métier & statut social.",
   date: "2026-03-28",
   tags: [
     "orientation professionnelle",
