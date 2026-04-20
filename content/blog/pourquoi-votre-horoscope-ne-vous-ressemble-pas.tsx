@@ -8,9 +8,9 @@ import { TagPillsInline, getGlowFromTags } from "./ui";
 export const meta = {
   slug: "pourquoi-votre-horoscope-ne-vous-ressemble-pas",
   title:
-    "Pourquoi votre Horoscope ne vous Ressemble pas : la V\u00e9rit\u00e9 cach\u00e9e derri\u00e8re votre Signe",
+    "Pourquoi votre Horoscope ne vous Ressemble pas",
   description:
-    "Vous ne vous reconnaissez pas dans votre signe astrologique ? D\u00e9couvrez pourquoi l\u2019horoscope classique est r\u00e9ducteur et comment votre th\u00e8me natal complet r\u00e9v\u00e8le qui vous \u00eates vraiment : ascendant, Lune, plan\u00e8tes dominantes et bien plus.",
+    "Lors de l’horoscope du matin vous ne vous reconnaissez pas dans votre signe astrologique ? Venir découvrir pourquoi votre thème natal révèle qui vous êtes vraiment",
   date: "2026-04-20",
   tags: [
     "th\u00e8me astral",
