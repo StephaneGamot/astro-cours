@@ -309,12 +309,12 @@ export default function ManipulateursPNPost() {
         <div className="relative z-10">
           <Kicker>Pluton &bull; Neptune &bull; Emprise &bull; Protection &bull; Conscience</Kicker>
 
-          <h1 className="mt-4 font-serif text-2xl font-light leading-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
+          <h2 className="mt-4 font-serif text-2xl font-light leading-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
             Manipulateurs et Pervers Narcissiques&nbsp;:{" "}
             <span className="bg-gradient-to-r from-violet-400 via-rose-400 to-amber-300 bg-clip-text text-transparent">
               les Reconna&icirc;tre gr&acirc;ce &agrave; l&rsquo;Astrologie
             </span>
-          </h1>
+          </h2>
 
           <div className="mt-6 flex flex-wrap gap-2 text-sm text-white/70 sm:gap-3">
             <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs backdrop-blur-md sm:px-4 sm:py-1.5 sm:text-sm">

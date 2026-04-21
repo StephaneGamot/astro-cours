@@ -283,9 +283,9 @@ export default function OrientationProfessionnelleThemeAstralPost() {
           <Kicker>Vocation • Profession • Maison X • Maison I • Milieu du Ciel</Kicker>
 
           <div className="mt-4 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <h1 className="font-serif text-4xl font-medium leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl">
+            <h2 className="font-serif text-4xl font-medium leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl">
               Trouver l’orientation professionnelle dans un thème astral
-            </h1>
+            </h2>
 
             <div className="flex flex-wrap gap-3 text-sm text-white/70">
               <span className="rounded-full border border-white/10 bg-white/5 px-4 py-1.5 backdrop-blur-md">
