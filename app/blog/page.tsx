@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Blog d'astrologie",
   description:
     "Articles premium et structurés : bases, aspects, planètes, transits. Des cours lisibles, concrets et progressifs.",
   alternates: { canonical: "/blog" },

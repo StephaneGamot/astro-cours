@@ -359,12 +359,12 @@ export default function HoroscopeNeVousRessemblePasPost() {
         <div className="relative z-10">
           <Kicker>Signe solaire &bull; Ascendant &bull; Lune &bull; Th&egrave;me natal &bull; V&eacute;rit&eacute;</Kicker>
 
-          <h1 className="mt-4 font-serif text-2xl font-light leading-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
-            Pourquoi votre Horoscope ne vous Ressemble pas&nbsp;:{" "}
+          <h2 className="mt-4 font-serif text-2xl font-light leading-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
+            Pourquoi cet Horoscope quotidien ne vous parle pas&nbsp;:{" "}
             <span className="bg-gradient-to-r from-sky-400 via-violet-400 to-emerald-300 bg-clip-text text-transparent">
               la V&eacute;rit&eacute; cach&eacute;e derri&egrave;re votre Signe
             </span>
-          </h1>
+          </h2>
 
           <div className="mt-6 flex flex-wrap gap-2 text-sm text-white/70 sm:gap-3">
             <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs backdrop-blur-md sm:px-4 sm:py-1.5 sm:text-sm">

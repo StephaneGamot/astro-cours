@@ -9,7 +9,7 @@ export const meta = {
   title:
     "Manipulateurs & Pervers Narcissiques en Astrologie",
   description:
-    "Comment l'astrologie peut aider à identifier les profils manipulateurs & pervers narcissiques dans un thème natal : signes ciblés et mécanismes de protection.",
+    "Comment l'astrologie peut aider à identifier les profils manipulateurs & pervers narcissiques dans un thème natal.",
   date: "2026-04-16",
   tags: [
     "psychologie astrologique",
