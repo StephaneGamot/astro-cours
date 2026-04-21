@@ -27,12 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "revolution-solaire",
     "asteroides",
     "cuspides-des-maisons",
-"les-decans",
-    "maisons-derivees", 
+    "les-decans",
+    "maisons-derivees",
     "confidentialite",
     "mentions-legales",
     "dictionnaire-astrologique",
-    "a-propos"
+    "a-propos",
+    "auteur/stephane-gamot",
   ];
 
   const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({
@@ -45,10 +46,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
   }));
 
-  const planetRoutes: MetadataRoute.Sitemap = (planetes as Planet[]).map((p) => ({
-    url: `${base}/planetes/${p.slug}`,
-    lastModified: now,
-  }));
+  const planetRoutes: MetadataRoute.Sitemap = (planetes as Planet[]).map(
+    (p) => ({
+      url: `${base}/planetes/${p.slug}`,
+      lastModified: now,
+    }),
+  );
 
   const signRoutes: MetadataRoute.Sitemap = (signes as Sign[]).map((s) => ({
     url: `${base}/signes/${s.slug}`,

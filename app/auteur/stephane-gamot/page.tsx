@@ -63,7 +63,10 @@ const jsonLd = {
   "@type": "Person",
   name: "St\u00e9phane Gamot",
   url: absoluteUrl(CANONICAL),
-  sameAs: [absoluteUrl("/a-propos")],
+  sameAs: [
+    absoluteUrl("/a-propos"),
+    "https://www.facebook.com/profile.php?id=61577719253973",
+  ],
   jobTitle: "Astrologue & Ing\u00e9nieur logiciel",
   description: DESCRIPTION,
   knowsAbout: [
