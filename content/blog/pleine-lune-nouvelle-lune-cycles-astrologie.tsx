@@ -4,7 +4,7 @@ import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 
 export const meta = {
   slug: "pleine-lune-nouvelle-lune-cycles-astrologie",
-  title: "Pleine Lune & Nouvelle Lune : comprendre les cycles lunaires",
+  title: "Pleine & Nouvelle Lune : Les Cycles Lunaires",
   description:
     "Nouvelle Lune et Pleine Lune en astrologie : émotions, cycles, intentions, libération, sommeil, hypersensibilité. Une méthode simple et concrète.",
   date: "2026-02-07",

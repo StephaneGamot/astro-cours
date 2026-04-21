@@ -11,9 +11,9 @@ import Link from "next/link";
  */
 
 export const metadata: Metadata = {
-  title: "Lilith (Lune Noire) — Sens moyenne & interprétation",
+  title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
   description:
-    "Cours complet sur Lilith : définition, Lilith vraie vs moyenne, symbolique, thèmes psycho, lecture par signe/maison/aspects, pièges et méthode claire.",
+    "Lilith expliquée simplement : définition, vraie vs moyenne, symbolique, thèmes, lecture par signe/maison/aspects et méthode d’interprétation fiable.",
   alternates: { canonical: "/lilith" },
   openGraph: {
     title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
@@ -21,6 +21,14 @@ export const metadata: Metadata = {
       "Lilith expliquée simplement : définition, vraie vs moyenne, symbolique, thèmes, lecture par signe/maison/aspects et méthode d’interprétation fiable.",
     url: "/lilith",
     type: "article",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
+    description:
+      "Lilith expliquée simplement : définition, vraie vs moyenne, symbolique, thèmes, lecture par signe/maison/aspects et méthode d’interprétation fiable.",
   },
 };
 

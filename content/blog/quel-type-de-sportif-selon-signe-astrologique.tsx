@@ -10,7 +10,7 @@ const COVER_URL = `${SITE_URL}/images/blog/sport-signe-astrologique.webp`;
 
 export const meta = {
   slug: ARTICLE_SLUG,
-  title: "Quel type de sportif êtes-vous selon votre signe astrologique ?",
+  title: "Quel sport selon votre signe astrologique ?",
   description:
     "Quel sport choisir selon son signe astrologique ? Analyse sérieuse des 12 signes : rapport à l’effort, esprit de compétition, endurance et sports idéaux.",
   date: "2026-02-18",

@@ -4,9 +4,9 @@ import Image from "next/image";
 import TeteDuDragon from "./../../../public/images/noeuds-lunaires.webp";
 
 export const metadata: Metadata = {
-  title: "Nœuds lunaires — Nœud Nord, Nœud Sud & axe évolutif",
+  title: "Nœuds lunaires — Axe NN/NS, lecture et méthode",
   description:
-    "Cours clair sur les Nœuds lunaires : axe NN/NS, sens évolutif, lecture par signe/maison/aspects, pièges fréquents et méthode d’interprétation.",
+    "Nœud Nord & Nœud Sud : sens, axe évolutif, lecture par signe/maison/aspects, pièges et méthode pro pour interpréter sans surinterpréter.",
   alternates: { canonical: "/noeuds-lunaires" },
   openGraph: {
     title: "Nœuds lunaires — Axe NN/NS, lecture et méthode",
@@ -14,6 +14,14 @@ export const metadata: Metadata = {
       "Nœud Nord & Nœud Sud : sens, axe évolutif, lecture par signe/maison/aspects, pièges et méthode pro pour interpréter sans surinterpréter.",
     url: "/noeuds-lunaires",
     type: "article",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nœuds lunaires — Axe NN/NS, lecture et méthode",
+    description:
+      "Nœud Nord & Nœud Sud : sens, axe évolutif, lecture par signe/maison/aspects, pièges et méthode pro pour interpréter sans surinterpréter.",
   },
 };
 

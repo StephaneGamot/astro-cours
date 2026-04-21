@@ -10,7 +10,7 @@ export const meta = {
   title:
     "Martien : Guerrier, Bâtisseur de l'Action & du Courage",
   description:
-    "Portrait astrologique du Martien : action, courage, combativité, amour passionné, vocation, chirurgie, sport, Mars affligé, Amazone & la martienne dans un thème astral.",
+    "Portrait du Martien en astrologie : action, courage, sport et amour passionné. Découvrez l'influence de la planète Mars affligée dans un thème astral.",
   date: "2026-04-03",
   tags: [
     "Mars",

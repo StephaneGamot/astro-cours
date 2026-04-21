@@ -10,7 +10,7 @@ export const meta = {
   title:
     "Plutonien : le Maître de l'Ombre & de la Transformation",
   description:
-    "Portrait astrologique du Plutonien : intensité, vérité, fusion, crise, résilience, transformation, Pluton affligé, prêtresse, sorcière & la plutonienne dans un thème astral.",
+    "Portrait du Plutonien en astrologie : intensité, vérité, crise et résilience. Découvrez la transformation et l'impact de Pluton dans un thème astral.",
   date: "2026-03-29",
   tags: [
     "Pluton",

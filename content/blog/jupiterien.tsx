@@ -10,7 +10,7 @@ export const meta = {
   title:
     "Jupitérien : le Guide & le Bienfaiteur",
   description:
-    "Portrait astrologique du Jupitérien : abondance, ordre, loi, optimisme, organisation, amour du foyer, pouvoir, excès, grande dame & la jupitérienne dans un thème astral.",
+    "Portrait astrologique du Jupitérien : abondance, loi, optimisme et pouvoir. Découvrez l'influence et les excès de Jupiter dans un thème astral.",
   date: "2026-04-02",
   tags: [
     "Jupiter",

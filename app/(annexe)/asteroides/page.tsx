@@ -13,9 +13,9 @@ import Asteroides from "./../../../public/images/asteroides/asteroides.webp"
  */
 
 export const metadata: Metadata = {
-  title: "Astéroïdes: Cérès, Pallas, Junon, Vesta & Chiron",
+  title: "Astéroïdes — Lecture pro (signe, maison, aspects, transits, synastrie)",
   description:
-    "Cours pro sur les astéroïdes : sens, psychologie, lecture par signe/maison/aspects, transits et synastrie. Focus Cérès, Pallas, Junon, Vesta et Chiron.",
+    "Comprendre Cérès, Pallas, Junon, Vesta et Chiron : sens, lecture par signe/maison/aspects, transits, synastrie et erreurs fréquentes.",
   alternates: { canonical: "/asteroides" },
   openGraph: {
     title: "Astéroïdes — Lecture pro (signe, maison, aspects, transits, synastrie)",
@@ -23,8 +23,17 @@ export const metadata: Metadata = {
       "Comprendre Cérès, Pallas, Junon, Vesta et Chiron : sens, lecture par signe/maison/aspects, transits, synastrie et erreurs fréquentes.",
     url: "/asteroides",
     type: "article",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Astéroïdes — Lecture pro (signe, maison, aspects, transits, synastrie)",
+    description:
+      "Comprendre Cérès, Pallas, Junon, Vesta et Chiron : sens, lecture par signe/maison/aspects, transits, synastrie et erreurs fréquentes.",
   },
 };
+
 
 
 type AccentKind = "earth" | "mind" | "bond" | "flame" | "wound" | "method";

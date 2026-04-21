@@ -11,14 +11,24 @@ type SynData = typeof data;
 const COURSE = data as SynData;
 
 export const metadata: Metadata = {
-  title: COURSE.meta.title,
-  description: COURSE.meta.description,
-  alternates: { canonical: COURSE.meta.canonical },
+  title: "Synastrie — Compatibilité & dynamique relationnelle",
+  description:
+    "Cours complet de synastrie : méthode, aspects entre planètes, axes relationnels, maisons activées, drapeaux rouges et bonnes pratiques.",
+  alternates: { canonical: "/synastrie" },
   openGraph: {
-    title: COURSE.meta.title,
-    description: COURSE.meta.description,
-    url: COURSE.meta.canonical,
+    title: "Synastrie — Compatibilité & dynamique relationnelle",
+    description:
+      "Cours complet de synastrie : méthode, aspects entre planètes, axes relationnels, maisons activées, drapeaux rouges et bonnes pratiques.",
+    url: "/synastrie",
     type: "article",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Synastrie — Compatibilité & dynamique relationnelle",
+    description:
+      "Cours complet de synastrie : méthode, aspects entre planètes, axes relationnels, maisons activées, drapeaux rouges et bonnes pratiques.",
   },
 };
 

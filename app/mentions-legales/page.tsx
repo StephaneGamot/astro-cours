@@ -5,7 +5,7 @@ import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
 const CANONICAL = "/mentions-legales";
 const TITLE = "Mentions légales";
 const DESCRIPTION =
-  "Mentions légales d'Astro Cours : éditeur du site, hébergement, contact, propriété intellectuelle, responsabilité, et conditions d'utilisation conformément à la loi LCEN.";
+  "Mentions légales d'Astro Cours : éditeur du site, hébergement, contact, propriété intellectuelle et conditions d'utilisation conformément à la loi.";
 
 export const metadata: Metadata = {
   title: buildTitle(TITLE),

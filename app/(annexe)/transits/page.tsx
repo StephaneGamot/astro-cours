@@ -50,14 +50,24 @@ const COURSE = data as unknown as TransitData;
 /* ---------------- SEO ---------------- */
 
 export const metadata: Metadata = {
-  title: COURSE.meta.title,
-  description: COURSE.meta.description,
-  alternates: { canonical: COURSE.meta.canonical },
+  title: "Transits — Cours d’astrologie",
+  description:
+    "Guide complet des transits : définition, méthode, orbes, rétrogrades, transit sur planète natale, et interprétation planète par planète avec aspects majeurs.",
+  alternates: { canonical: "/transits" },
   openGraph: {
-    title: COURSE.meta.title,
-    description: COURSE.meta.description,
-    url: COURSE.meta.canonical,
+    title: "Transits — Cours d’astrologie",
+    description:
+      "Guide complet des transits : définition, méthode, orbes, rétrogrades, transit sur planète natale, et interprétation planète par planète avec aspects majeurs.",
+    url: "/transits",
     type: "article",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Transits — Cours d’astrologie",
+    description:
+      "Guide complet des transits : définition, méthode, orbes, rétrogrades, transit sur planète natale, et interprétation planète par planète avec aspects majeurs.",
   },
 };
 

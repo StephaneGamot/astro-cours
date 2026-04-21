@@ -10,7 +10,7 @@ export const meta = {
   title:
     "Pourquoi votre Horoscope ne vous Ressemble pas",
   description:
-    "Lors de l’horoscope du matin vous ne vous reconnaissez pas dans votre signe astrologique ? Venir découvrir pourquoi votre thème natal révèle qui vous êtes vraiment",
+    "Vous ne vous reconnaissez pas dans votre horoscope quotidien ? Découvrez pourquoi seul votre thème astral révèle qui vous êtes véritablement.",
   date: "2026-04-20",
   tags: [
     "th\u00e8me astral",
@@ -736,7 +736,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
           </Link>
 
           <Link
-            href="/blog/comprendre-son-signe-astrologique-et-son-ascendant"
+            href="/blog/comprendre-signe-astrologique-ascendant-12-exemples"
             className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:bg-white/[0.06] sm:p-6"
           >
             <p className="font-serif text-lg text-white/90 transition-colors group-hover:text-sky-200">
@@ -748,7 +748,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
           </Link>
 
           <Link
-            href="/blog/venus-en-signe-ton-style-amoureux"
+            href="/blog/venus-en-signes-style-amoureux"
             className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:bg-white/[0.06] sm:p-6"
           >
             <p className="font-serif text-lg text-white/90 transition-colors group-hover:text-sky-200">
@@ -760,7 +760,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
           </Link>
 
           <Link
-            href="/blog/mars-en-signes-desir-libido-action-sexe"
+            href="/blog/mars-en-signes-desir-libido-action"
             className="group rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:bg-white/[0.06] sm:p-6"
           >
             <p className="font-serif text-lg text-white/90 transition-colors group-hover:text-sky-200">

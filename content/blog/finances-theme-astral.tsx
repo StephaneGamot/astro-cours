@@ -8,7 +8,7 @@ export const meta = {
   slug: "finances-theme-astral",
   title: "Les finances dans un thème astral",
   description:
-    "Comment analyser les finances dans un thème astral : maison II, maître de la maison II, planète en maison II, aspects, stabilité financière, gains, pertes & logique astrologique.",
+    "Apprenez à analyser vos finances grâce au thème astral : étude de la Maison II, de ses planètes et aspects pour comprendre gains et pertes financières.",
   date: "2026-03-27",
   tags: [
     "finances",

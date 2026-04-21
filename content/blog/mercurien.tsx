@@ -10,7 +10,7 @@ export const meta = {
   title:
     "Mercurien : Le Maître de la Communication",
   description:
-    "Portrait astrologique du Mercurien : intelligence vive, communication, curiosité, commerce, humour, adaptation, amour, carrière, morphopsychologie astrologique de Mercure.",
+    "Portrait astrologique du Mercurien : intelligence, communication, curiosité et adaptation. Découvrez l'influence de Mercure sur l'amour et la carrière.",
   date: "2026-04-05",
   tags: [
     "Mercure",

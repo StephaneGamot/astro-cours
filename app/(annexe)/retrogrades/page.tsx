@@ -16,9 +16,9 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: "Planètes rétrogrades — Définition & interprétation",
+  title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
   description:
-    "Cours complet sur la rétrogradation : définition, stations, natal vs transit, effets concrets et lecture planète par planète avec repères et pièges.",
+    "Comprendre les rétrogrades : définition, stations, différences natal/transit, effets concrets, repères et erreurs fréquentes. Lecture planète par planète.",
   alternates: { canonical: "/retrogrades" },
   openGraph: {
     title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
@@ -26,6 +26,14 @@ export const metadata: Metadata = {
       "Comprendre les rétrogrades : définition, stations, différences natal/transit, effets concrets, repères et erreurs fréquentes. Lecture planète par planète.",
     url: "/retrogrades",
     type: "article",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
+    description:
+      "Comprendre les rétrogrades : définition, stations, différences natal/transit, effets concrets, repères et erreurs fréquentes. Lecture planète par planète.",
   },
 };
 
