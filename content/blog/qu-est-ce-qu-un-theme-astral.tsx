@@ -8,14 +8,16 @@ const COVER_URL = `${SITE_URL}/images/blog/theme-astral.jpg`;
 
 export const meta = {
   slug: "qu-est-ce-qu-un-theme-astral",
-  title: "Qu’est-ce qu’un thème astral ?",
+  title:
+    "Thème astral : définition et méthode",
   description:
-    "Définition claire du thème astral : à quoi il sert, ce qu’il contient vraiment, et pourquoi il est bien plus qu’un signe astrologique ou un ascendant.",
-  socialTitle: "Qu’est-ce qu’un thème astral ? Définition simple et claire",
+    "Qu'est-ce qu'un thème astral ? Planètes, signes, maisons et aspects : découvrez ce que contient votre carte du ciel et comment la lire étape par étape.",
+  socialTitle:
+    "Qu'est-ce qu'un theme astral ? Definition simple et guide complet",
   socialDescription:
-    "Comprenez enfin ce qu’est un thème astral, ce qu’il contient vraiment et pourquoi il ne se résume ni au signe solaire ni à l’ascendant.",
+    "Comprenez enfin ce qu'est un theme astral, ce qu'il contient vraiment et pourquoi il ne se resume ni au signe solaire ni a l'ascendant. Methode de lecture incluse.",
   date: "2026-01-05",
-  tags: ["bases", "thème astral", "débutant"],
+  tags: ["bases", "thème astral", "débutant", "carte du ciel", "thème natal"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/theme-astral.jpg",
   ogImage: COVER_URL,
@@ -162,7 +164,7 @@ export default function Post() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "Qu’est-ce qu’un thème astral ?",
+        name: "Qu'est-ce qu'un thème astral ?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Un thème astral est une carte du ciel calculée pour un instant et un lieu précis, le plus souvent la naissance. Il décrit une structure symbolique de fonctionnement et non une prédiction.",
@@ -170,18 +172,18 @@ export default function Post() {
       },
       {
         "@type": "Question",
-        name: "Quelles sont les grandes composantes d’un thème astral ?",
+        name: "Quelles sont les grandes composantes d'un thème astral ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Les quatre grandes briques sont les planètes, les signes, les maisons et les aspects. Les planètes décrivent les fonctions, les signes le style, les maisons le domaine d’expression et les aspects la dynamique entre les fonctions.",
+          text: "Les quatre grandes briques sont les planètes, les signes, les maisons et les aspects. Les planètes décrivent les fonctions, les signes le style, les maisons le domaine d'expression et les aspects la dynamique entre les fonctions.",
         },
       },
       {
         "@type": "Question",
-        name: "Est-ce qu’un thème astral se résume au signe solaire ?",
+        name: "Est-ce qu'un thème astral se résume au signe solaire ?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Non. Le signe solaire n’est qu’un élément parmi d’autres. L’Ascendant, la Lune, les maisons et les aspects modifient profondément l’ensemble de la lecture.",
+          text: "Non. Le signe solaire n'est qu'un élément parmi d'autres. L'Ascendant, la Lune, les maisons et les aspects modifient profondément l'ensemble de la lecture.",
         },
       },
     ],
@@ -190,21 +192,21 @@ export default function Post() {
   const howToJsonLd = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: "Comment comprendre les bases d’un thème astral",
+    name: "Comment comprendre les bases d'un thème astral",
     description:
-      "Méthode simple pour comprendre la structure d’un thème astral à travers ses quatre briques fondamentales.",
+      "Méthode simple pour comprendre la structure d'un thème astral à travers ses quatre briques fondamentales.",
     image: meta.ogImage,
     totalTime: "PT7M",
     step: [
       {
         "@type": "HowToStep",
         name: "Lire le Soleil et la Lune",
-        text: "Commence par le Soleil pour l’identité et la Lune pour les réflexes émotionnels.",
+        text: "Commence par le Soleil pour l'identité et la Lune pour les réflexes émotionnels.",
       },
       {
         "@type": "HowToStep",
-        name: "Observer l’Ascendant",
-        text: "Repère l’Ascendant pour comprendre le style de contact avec le monde.",
+        name: "Observer l'Ascendant",
+        text: "Repère l'Ascendant pour comprendre le style de contact avec le monde.",
       },
       {
         "@type": "HowToStep",
@@ -253,16 +255,28 @@ export default function Post() {
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
 
           <div className="relative">
-            <p className="text-sm text-text/60">Cours • Bases</p>
+            <p className="text-sm text-text/60">Cours fondamental • Bases de l'astrologie</p>
 
             <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-              La définition simple + la méthode “4 briques” pour comprendre ce que
-              contient vraiment un thème astral (et éviter les pièges débutants).
+              On t'a dit « je suis{" "}
+              <Link href="/signes/balance" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                Balance
+              </Link> » ou « mon{" "}
+              <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                ascendant
+              </Link>{" "}
+              est Lion » et tu t'es demandé ce que ça voulait
+              vraiment dire ? Tout part d'ici : le{" "}
+              <strong>thème astral</strong> (aussi appelé carte du ciel
+              ou thème natal). Dans ce guide, on pose les bases ensemble :
+              définition claire, les 4 composantes à connaître, une
+              méthode pas-à-pas pour le lire, et les pièges à
+              éviter quand on débute.
             </p>
 
             <section className="mt-5" aria-labelledby="article-summary-title">
               <h2 id="article-summary-title" className="sr-only">
-                Résumé de l’article
+                Résumé de l'article
               </h2>
               <div className="flex flex-wrap gap-2">
                 <Pill tone="violet">Niveau : {meta.readingLevel}</Pill>
@@ -272,7 +286,7 @@ export default function Post() {
 
             <section className="mt-3" aria-labelledby="article-tags-title">
               <h2 id="article-tags-title" className="sr-only">
-                Mots-clés de l’article
+                Mots-clés de l'article
               </h2>
               <TagPillsInline tags={meta.tags} />
             </section>
@@ -303,63 +317,136 @@ export default function Post() {
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="space-y-6 lg:col-span-2">
             <section className="space-y-4">
-              <H2>Définition simple</H2>
+              <H2>Définition : c'est quoi un thème astral ?</H2>
 
               <Card
                 title="La phrase la plus juste"
                 icon="🧭"
-                subtitle="Si tu ne retiens qu’une chose, retiens ça."
+                subtitle="Si tu ne retiens qu'une chose, retiens ça."
               >
                 <p>
-                  Un <strong>thème astral</strong> est une{" "}
-                  <strong>carte du ciel</strong> calculée pour un{" "}
-                  <strong>instant</strong> et un <strong>lieu</strong> précis (le plus
-                  souvent : la naissance).
+                  Un <strong>thème astral</strong> (ou <strong>thème
+                  natal</strong>, ou <strong>carte du ciel de naissance</strong>)
+                  est une photographie du ciel calculée pour un{" "}
+                  <strong>instant</strong> et un <strong>lieu</strong> précis
+                  — le plus souvent le moment où tu es né(e). Il
+                  montre la position exacte des{" "}
+                  <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                    planètes
+                  </Link>,{" "}
+                  des{" "}
+                  <Link href="/signes/belier" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                    signes du zodiaque
+                  </Link>{" "}
+                  et des{" "}
+                  <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                    maisons astrologiques
+                  </Link>{" "}
+                  à cet instant précis.
                 </p>
                 <Callout kind="note" title="Idée centrale">
                   <p>
-                    Ce n’est pas une prédiction : c’est une{" "}
-                    <strong>structure de fonctionnement</strong>.
+                    Ce n'est pas une prédiction : c'est une{" "}
+                    <strong>structure de fonctionnement</strong>. Le thème
+                    astral décrit <em>comment</em> tu fonctionnes, pas ce
+                    qui va t'arriver.
                   </p>
                 </Callout>
               </Card>
             </section>
 
             <section className="space-y-4">
-              <H2>Les 4 briques d’un thème astral</H2>
+              <H2>Les 4 briques d'un thème astral</H2>
 
               <div className="grid gap-6 md:grid-cols-2">
-                <Card title="1) Planètes" icon="☀️" subtitle="Quoi ? (fonction)">
+                <Card title="1) Les planètes" icon="☀️" subtitle="Quoi ? (la fonction psychologique)">
                   <p>
-                    Les planètes symbolisent des <strong>fonctions</strong> :
-                    identité, émotions, désir, pensée, valeurs, expansion, limites…
+                    Chaque planète symbolise une <strong>fonction</strong> :
+                    le{" "}
+                    <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      Soleil
+                    </Link>{" "}
+                    pour l'identité, la{" "}
+                    <Link href="/planetes/lune" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      Lune
+                    </Link>{" "}
+                    pour les émotions,{" "}
+                    <Link href="/planetes/venus" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      Vénus
+                    </Link>{" "}
+                    pour les valeurs et l'amour,{" "}
+                    <Link href="/planetes/mars" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      Mars
+                    </Link>{" "}
+                    pour l'action et le désir…
                   </p>
                   <p className="text-sm text-text/70">
-                    Exemple : <strong>Mars</strong> = action / désir / manière de se
-                    défendre.
+                    Exemple :{" "}
+                    <Link href="/blog/mars-en-signes-desir-libido-action" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      Mars en signes
+                    </Link>{" "}
+                    = ta manière d'agir et de te défendre.
                   </p>
                 </Card>
 
-                <Card title="2) Signes" icon="♈" subtitle="Comment ? (style)">
+                <Card title="2) Les signes du zodiaque" icon="♈" subtitle="Comment ? (le style, le ton)">
                   <p>
-                    Les signes colorent la planète : <strong>ton</strong>,{" "}
-                    <strong>style</strong>, <strong>réflexe</strong>.
+                    Les{" "}
+                    <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      12 signes du zodiaque
+                    </Link>{" "}
+                    colorent chaque planète : <strong>ton</strong>,{" "}
+                    <strong>style</strong>, <strong>réflexe</strong>. C'est
+                    le "comment" de la fonction.
                   </p>
                   <p className="text-sm text-text/70">
-                    Exemple : Mars en signe de Feu ≠ Mars en signe de Terre.
+                    Exemple : Mars en{" "}
+                    <Link href="/signes/belier" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      Bélier
+                    </Link>{" "}
+                    (feu, impulsif) ≠ Mars en{" "}
+                    <Link href="/signes/taureau" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      Taureau
+                    </Link>{" "}
+                    (terre, endurant).
                   </p>
                 </Card>
 
-                <Card title="3) Maisons" icon="🏠" subtitle="Où ? (domaine)">
+                <Card title="3) Les maisons astrologiques" icon="🏠" subtitle="Où ? (le domaine de vie)">
                   <p>
-                    Les maisons montrent <strong>où</strong> la planète s’exprime
-                    dans la vie : relation, carrière, famille, intimité, etc.
+                    Les{" "}
+                    <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      12 maisons
+                    </Link>{" "}
+                    montrent <strong>où</strong> la planète s'exprime
+                    dans la vie : la{" "}
+                    <Link href="/maisons/maison-7" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      maison VII
+                    </Link>{" "}
+                    pour les relations, la{" "}
+                    <Link href="/maisons/maison-10" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      maison X
+                    </Link>{" "}
+                    pour la carrière, la{" "}
+                    <Link href="/maisons/maison-4" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      maison IV
+                    </Link>{" "}
+                    pour la famille…
                   </p>
                   <Callout kind="ok" title="Mini-exemple">
                     <p>
-                      <strong>Mercure</strong> en <strong>Maison 10</strong> :
-                      communication liée au <strong>métier</strong> et à l’image
-                      publique.
+                      <Link href="/planetes/mercure" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                        <strong>Mercure</strong>
+                      </Link>{" "}
+                      en{" "}
+                      <Link href="/maisons/maison-10" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                        <strong>Maison 10</strong>
+                      </Link>{" "}
+                      : communication liée au <strong>métier</strong> et
+                      à l'image publique. Idéal pour l'{" "}
+                      <Link href="/blog/orientation-professionnelle-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                        orientation professionnelle
+                      </Link>.
                     </p>
                   </Callout>
                 </Card>
@@ -370,48 +457,75 @@ export default function Post() {
                     tension, contradictions, coopération.
                   </p>
                   <p className="text-sm text-text/70">
-                    Exemple : un carré peut “pousser à évoluer”, pas “punir”.
+                    Exemple : un carré peut "pousser à évoluer", pas "punir".
                   </p>
                 </Card>
               </div>
             </section>
 
             <section className="space-y-4">
-              <H2>Comment lire un thème (méthode débutant)</H2>
+              <H2>Comment lire un thème astral : méthode en 7 étapes</H2>
 
               <Card title="La méthode la plus simple (7 étapes)" icon="🧠">
                 <ol className="list-decimal space-y-2 pl-5">
                   <li>
-                    Lis d’abord le <strong>Soleil</strong> (identité), puis la{" "}
-                    <strong>Lune</strong> (réflexes émotionnels).
+                    Lis d'abord le{" "}
+                    <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>Soleil</strong>
+                    </Link>{" "}
+                    (identité, égo), puis la{" "}
+                    <Link href="/planetes/lune" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>Lune</strong>
+                    </Link>{" "}
+                    (réflexes émotionnels, besoins profonds). Ce sont les
+                    profils{" "}
+                    <Link href="/blog/solarien" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      solarien
+                    </Link>{" "}
+                    et{" "}
+                    <Link href="/blog/lunarien" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      lunarien
+                    </Link>.
                   </li>
                   <li>
-                    Regarde l’<strong>Ascendant</strong> (porte d’entrée, style,
-                    corps).
+                    Regarde l'{" "}
+                    <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>Ascendant</strong>
+                    </Link>{" "}
+                    (porte d'entrée, style de contact avec le monde).
                   </li>
                   <li>
                     Repère les planètes <strong>dominantes</strong> (angulaires,
-                    stelliums, maîtres d’angle).
+                    stelliums,{" "}
+                    <Link href="/maitrises" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      maîtres d'angle
+                    </Link>).
                   </li>
                   <li>
                     Identifie 2–3 <strong>thèmes majeurs</strong> (maisons chargées,
                     répétitions).
                   </li>
                   <li>
-                    Lis les <strong>aspects forts</strong> (orbes serrés,
-                    conjonctions, carrés, oppositions).
+                    Lis les{" "}
+                    <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>aspects forts</strong>
+                    </Link>{" "}
+                    (orbes serrés :{" "}
+                    <Link href="/blog/conjonction-melange-des-forces" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      conjonctions
+                    </Link>, carrés, oppositions).
                   </li>
                   <li>
-                    Relie : “fonction (planète) → style (signe) → domaine (maison)
-                    → dynamique (aspects)”.
+                    Relie : "fonction (planète) → style (signe) → domaine (maison)
+                    → dynamique (aspects)".
                   </li>
                   <li>
-                    Termine par une phrase synthèse : “Cette personne fonctionne
-                    surtout via…”.
+                    Termine par une phrase synthèse : "Cette personne fonctionne
+                    surtout via…".
                   </li>
                 </ol>
 
-                <Callout kind="note" title="Règle d’or">
+                <Callout kind="note" title="Règle d'or">
                   <p>
                     Ne te perds pas dans les détails : tu cherches une{" "}
                     <strong>structure</strong>, puis tu affines ensuite.
@@ -421,13 +535,13 @@ export default function Post() {
             </section>
 
             <section className="space-y-4">
-              <H2>Ce que le thème astral ne dit PAS</H2>
+              <H2>Ce que le thème astral ne prédit PAS</H2>
 
               <Card title="Les limites (important)" icon="🛡️">
                 <ul className="list-disc space-y-2 pl-5">
-                  <li>une date exacte d’événement</li>
+                  <li>une date exacte d'événement</li>
                   <li>un destin obligatoire</li>
-                  <li>“ce qui va forcément arriver”</li>
+                  <li>"ce qui va forcément arriver"</li>
                 </ul>
 
                 <Callout kind="warn" title="Important">
@@ -440,7 +554,7 @@ export default function Post() {
             </section>
 
             <section className="space-y-4">
-              <H2>Mini FAQ (questions fréquentes)</H2>
+              <H2>Questions fréquentes sur le thème astral</H2>
 
               <div className="grid gap-6 md:grid-cols-2">
                 <Card
@@ -448,43 +562,154 @@ export default function Post() {
                   icon="❓"
                 >
                   <p>
-                    Parce qu’elles n’ont pas le même <strong>Ascendant</strong>, pas
-                    la même <strong>Lune</strong>, pas les mêmes{" "}
-                    <strong>maisons</strong> et pas les mêmes{" "}
-                    <strong>aspects</strong>.
-                  </p>
-                  <p className="text-sm text-text/70">
-                    Le signe solaire est une pièce du puzzle, pas la carte entière.
+                    Parce qu'elles n'ont pas le même{" "}
+                    <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>Ascendant</strong>
+                    </Link>, pas la même{" "}
+                    <Link href="/planetes/lune" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>Lune</strong>
+                    </Link>, pas les mêmes{" "}
+                    <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>maisons</strong>
+                    </Link>{" "}
+                    et pas les mêmes{" "}
+                    <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      <strong>aspects</strong>
+                    </Link>.
+                    C'est exactement ce qu'explique l'article{" "}
+                    <Link href="/blog/pourquoi-votre-horoscope-ne-vous-ressemble-pas" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      pourquoi votre horoscope ne vous ressemble pas
+                    </Link>.
                   </p>
                 </Card>
 
-                <Card title="Est-ce que c’est “scientifique” ?" icon="🧾">
+                <Card title="Est-ce que l'astrologie est scientifique ?" icon="🧾">
                   <p>
-                    L’astrologie sérieuse est une <strong>lecture symbolique</strong>{" "}
-                    : elle décrit des patterns, pas des causalités physiques
-                    vérifiées.
+                    L'astrologie sérieuse est une <strong>lecture symbolique</strong>{" "}
+                    : elle décrit des patterns de fonctionnement, pas des
+                    causalités physiques vérifiées. Ce cours t'apprend une
+                    méthode cohérente, pas du fatalisme.
                   </p>
-                  <p className="text-sm text-text/70">
-                    Ce cours t’apprend une méthode cohérente, pas du fatalisme.
+                </Card>
+
+                <Card title="Thème astral et thème natal, c'est la même chose ?" icon="📖">
+                  <p>
+                    Oui, les deux termes désignent la même carte du ciel —
+                    celle calculée pour ta naissance. On dit aussi « carte
+                    natale ». Le terme « thème astral » est plus courant
+                    en français. Consulte le{" "}
+                    <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      dictionnaire astrologique
+                    </Link>{" "}
+                    pour d'autres définitions.
+                  </p>
+                </Card>
+
+                <Card title="Peut-on utiliser le thème astral pour prédire l'avenir ?" icon="🔮">
+                  <p>
+                    Le thème natal est fixe. Ce sont les{" "}
+                    <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      transits planétaires
+                    </Link>{" "}
+                    (mouvements actuels des planètes) et la{" "}
+                    <Link href="/revolution-solaire" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      révolution solaire
+                    </Link>{" "}
+                    qui permettent d'analyser les tendances à venir — mais
+                    ce ne sont jamais des prédictions fatalistes.
+                  </p>
+                </Card>
+
+                <Card title="Peut-on comparer deux thèmes astraux ?" icon="❤️">
+                  <p>
+                    Oui \! C'est ce qu'on appelle la{" "}
+                    <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      synastrie
+                    </Link>{" "}
+                    : on superpose deux thèmes pour analyser la compatibilité,
+                    les zones de complémentarité et les points de friction.
+                    L'article{" "}
+                    <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      amour et fidélité selon les signes
+                    </Link>{" "}
+                    donne un premier aperçu.
+                  </p>
+                </Card>
+
+                <Card title="Et les finances, on peut les voir ?" icon="💰">
+                  <p>
+                    Oui, principalement via la{" "}
+                    <Link href="/maisons/maison-2" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      maison II
+                    </Link>{" "}
+                    (ressources, valeurs) et la{" "}
+                    <Link href="/maisons/maison-8" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      maison VIII
+                    </Link>{" "}
+                    (argent partagé, héritages). L'article{" "}
+                    <Link href="/blog/finances-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                      les finances dans un thème astral
+                    </Link>{" "}
+                    détaille tout ça.
                   </p>
                 </Card>
               </div>
             </section>
 
+
+            <section className="space-y-4">
+              <H2>Pour aller plus loin</H2>
+
+              <div className="grid gap-4 md:grid-cols-2">
+                <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">Signe solaire & ascendant</p>
+                  <p className="mt-1 text-sm text-text/60">Comprendre la différence et lire les deux ensemble.</p>
+                </Link>
+                <Link href="/blog/conjonction-melange-des-forces" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">La conjonction</p>
+                  <p className="mt-1 text-sm text-text/60">Quand deux planètes fusionnent : guide complet.</p>
+                </Link>
+                <Link href="/blog/venus-en-signes-style-amoureux" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">Vénus en signes</p>
+                  <p className="mt-1 text-sm text-text/60">Ton style amoureux selon la position de Vénus.</p>
+                </Link>
+                <Link href="/blog/mars-en-signes-desir-libido-action" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">Mars en signes</p>
+                  <p className="mt-1 text-sm text-text/60">Désir, libido et manière d'agir selon Mars.</p>
+                </Link>
+                <Link href="/aspects" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">Les aspects astrologiques</p>
+                  <p className="mt-1 text-sm text-text/60">Tous les aspects majeurs et mineurs en détail.</p>
+                </Link>
+                <Link href="/synastrie" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">La synastrie</p>
+                  <p className="mt-1 text-sm text-text/60">Comparer deux thèmes et analyser la compatibilité.</p>
+                </Link>
+                <Link href="/transits" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">Les transits planétaires</p>
+                  <p className="mt-1 text-sm text-text/60">Comment lire les mouvements planétaires actuels.</p>
+                </Link>
+                <Link href="/dictionnaire-astrologique" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
+                  <p className="font-semibold text-text/90">Dictionnaire astrologique</p>
+                  <p className="mt-1 text-sm text-text/60">Tous les termes de A à Z, expliqués simplement.</p>
+                </Link>
+              </div>
+            </section>
+
             <section className="rounded-2xl border border-white/10 bg-black/20 p-6">
-              <p className="text-sm text-text/60">Prochain cours recommandé</p>
+              <p className="text-sm text-text/60">Envie de continuer ?</p>
               <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
                 <p className="text-text/85">
                   Suite logique :{" "}
-                  <span className="font-semibold text-text/95">
-                    Pourquoi l’Ascendant change tout
-                  </span>
+                  <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="font-semibold text-text/95 underline decoration-white/30 hover:decoration-white/60 transition">
+                    Comprendre son signe et son ascendant
+                  </Link>
                 </p>
                 <Link
                   href="/blog"
                   className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 transition hover:bg-white/10"
                 >
-                  Retour au blog
+                  Tous les articles
                 </Link>
               </div>
             </section>
@@ -506,7 +731,7 @@ export default function Post() {
               <p className="text-sm text-text/60">À retenir</p>
               <p className="mt-2 text-text/85 leading-relaxed">
                 Un thème astral est une <strong>structure</strong> : il explique{" "}
-                <strong>comment</strong> tu fonctionnes, pas “ce qui va arriver”.
+                <strong>comment</strong> tu fonctionnes, pas "ce qui va arriver".
               </p>
             </div>
 
@@ -514,16 +739,40 @@ export default function Post() {
               <p className="text-sm text-text/60">Continuer</p>
               <div className="mt-3 space-y-2">
                 <Link
-                  href="/blog"
+                  href="/blog/comprendre-signe-astrologique-ascendant-12-exemples"
                   className="block rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 transition hover:bg-white/10"
                 >
-                  Voir tous les cours
+                  Signe & ascendant
                 </Link>
                 <Link
-                  href="/#planetes"
+                  href="/blog/conjonction-melange-des-forces"
+                  className="block rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 transition hover:bg-white/10"
+                >
+                  La conjonction
+                </Link>
+                <Link
+                  href="/aspects"
+                  className="block rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 transition hover:bg-white/10"
+                >
+                  Les aspects
+                </Link>
+                <Link
+                  href="/transits"
+                  className="block rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 transition hover:bg-white/10"
+                >
+                  Les transits
+                </Link>
+                <Link
+                  href="/dictionnaire-astrologique"
                   className="block rounded-xl border border-white/10 bg-black/20 px-4 py-2 text-sm text-text/80 transition hover:bg-white/10"
                 >
-                  Explorer les planètes
+                  Dictionnaire A–Z
+                </Link>
+                <Link
+                  href="/blog"
+                  className="block rounded-xl border border-white/10 bg-black/20 px-4 py-2 text-sm text-text/80 transition hover:bg-white/10"
+                >
+                  Tous les articles
                 </Link>
               </div>
             </div>
