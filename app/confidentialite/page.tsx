@@ -75,7 +75,7 @@ export default function ConfidentialitePage() {
   const lastUpdate = "16 avril 2026";
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:py-20">
+    <main id="main-content" className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:py-20">
       {/* ── En-tête ─────────────────────────────────────────────── */}
       <header className="mb-12 space-y-4 text-center">
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-violet-400">

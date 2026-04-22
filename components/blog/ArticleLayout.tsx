@@ -1,5 +1,6 @@
 import { TagPills } from "./TagPills";
 import { ShareBar } from "./ShareBar";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 type PostMeta = {
   slug: string; // ✅ important
@@ -32,11 +33,16 @@ export function ArticleLayout({
   const prettyDate = formatFrDate(meta.date);
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-10 space-y-8">
+    <main id="main-content" className="mx-auto max-w-6xl px-4 py-10 space-y-8">
+      <Breadcrumbs
+        items={[
+          { name: "Blog", href: "/blog" },
+          { name: meta.title, href: `/blog/${meta.slug}` },
+        ]}
+        accentClass="text-rose-400"
+      />
+
       <header className="space-y-4">
-        <p className="text-sm text-text/60">
-          <span className="opacity-70">Blog</span>
-        </p>
 
         <h1 className="text-3xl md:text-4xl font-semibold tracking-tight leading-tight">
           {meta.title}
@@ -48,9 +54,12 @@ export function ArticleLayout({
 
         <div className="flex flex-wrap items-center gap-2 text-sm text-text/70">
           {prettyDate ? (
-            <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1">
+            <time
+              dateTime={meta.date}
+              className="rounded-full border border-white/10 bg-black/20 px-3 py-1"
+            >
               {prettyDate}
-            </span>
+            </time>
           ) : null}
 
           {meta.readingLevel ? (
@@ -66,7 +75,7 @@ export function ArticleLayout({
         <ShareBar />
       </header>
 
-      <div>{children}</div>
+      <div className="prose">{children}</div>
     </main>
   );
 }

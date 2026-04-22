@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import Image from "next/image";
+import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/amour-fidelite-signes-zodiaque`;
@@ -425,18 +426,8 @@ export default function Post() {
     dateModified: meta.date,
     inLanguage: "fr-FR",
     mainEntityOfPage: ARTICLE_URL,
-    author: {
-      "@type": "Organization",
-      name: "Astro Cours",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Astro Cours",
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/icon.png`,
-      },
-    },
+    author: AUTHOR_PERSON,
+    publisher: PUBLISHER_ORG,
     keywords: meta.tags.join(", "),
     articleSection: "Astrologie",
     educationalLevel: meta.readingLevel,

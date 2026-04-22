@@ -70,7 +70,7 @@ export default function DictionnairePage() {
   const letterData = letters.map((l) => ({ letter: l, count: grouped[l].length }));
 
   return (
-    <main className="relative mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
+    <main id="main-content" className="relative mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
       {/* ── Schema.org (server-rendered, pas envoyé au client) ── */}
       <script
         type="application/ld+json"

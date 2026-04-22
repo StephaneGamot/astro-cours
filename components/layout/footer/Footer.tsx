@@ -565,7 +565,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-start gap-4 sm:items-end">
             {/* Réseaux sociaux */}
-            <div className="flex items-center gap-3" aria-label="Réseaux sociaux">
+            <nav className="flex items-center gap-3" aria-label="Réseaux sociaux">
               {SOCIALS.map((social) => (
                 <a
                   key={social.name}
@@ -585,7 +585,7 @@ export default function Footer() {
                   <social.icon className="size-4" aria-hidden="true" />
                 </a>
               ))}
-            </div>
+            </nav>
 
             {/* Liens légaux */}
             <nav className="flex flex-wrap gap-x-6 gap-y-3" aria-label="Liens légaux">

@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { TagPillsInline, getGlowFromTags } from "./ui";
+import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 /* ================================================================== */
 /*  META / SEO                                                        */
@@ -228,18 +229,8 @@ export default function ManipulateursPNPost() {
               image: `https://www.astro-cours.com${meta.cover}`,
               datePublished: meta.date,
               dateModified: meta.date,
-              author: {
-                "@type": "Person",
-                name: "Stéphane Gamot",
-              },
-              publisher: {
-                "@type": "Organization",
-                name: "Astro Cours",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.astro-cours.com/logo.png",
-                },
-              },
+              author: AUTHOR_PERSON,
+              publisher: PUBLISHER_ORG,
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id": `https://www.astro-cours.com/blog/${meta.slug}`,

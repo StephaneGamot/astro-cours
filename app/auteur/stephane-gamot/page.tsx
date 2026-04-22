@@ -184,7 +184,7 @@ export default function AuteurPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main className="relative mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
+      <main id="main-content" className="relative mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
         {/* ── Glow d\u00e9coratif ── */}
         <div
           aria-hidden

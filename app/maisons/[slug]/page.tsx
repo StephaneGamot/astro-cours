@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-import { buildMeta, buildTitle, absoluteUrl, SITE_NAME } from "@/lib/seo";
+import { buildMeta, buildTitle, absoluteUrl, SITE_NAME, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import {
   HOUSES,
   PLANETS,
@@ -130,32 +130,33 @@ function buildJsonLd(house: typeof HOUSES[number]) {
   const titreCourt = house.titreCourt ?? `Maison ${toRoman(house.numero)}`;
   const url = absoluteUrl(`/maisons/${house.slug}`);
 
-  return [
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      headline: `${titreCourt} — ${house.nom}`,
-      description:
-        house.niveauLecture?.fonction ??
-        `Étude approfondie de la ${titreCourt} en astrologie.`,
-      url,
-      image: absoluteUrl(`/images/maisons/hero/${toRoman(house.numero)}.webp`),
-      author: { "@type": "Organization", name: SITE_NAME },
-      publisher: { "@type": "Organization", name: SITE_NAME },
-      inLanguage: "fr",
-      mainEntityOfPage: url,
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      itemListElement: buildBreadcrumbs(house).map((crumb, i) => ({
-        "@type": "ListItem",
-        position: i + 1,
-        name: crumb.name,
-        item: absoluteUrl(crumb.href),
-      })),
-    },
-  ];
+  return [{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: `${titreCourt} — ${house.nom}`,
+        description:
+          house.niveauLecture?.fonction ??
+          `Étude approfondie de la ${titreCourt} en astrologie.`,
+        url,
+        image: absoluteUrl(`/images/maisons/hero/${toRoman(house.numero)}.webp`),
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+        inLanguage: "fr",
+        mainEntityOfPage: url,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: buildBreadcrumbs(house).map((crumb, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: crumb.name,
+          item: absoluteUrl(crumb.href),
+        })),
+      },
+    ],
+  }];
 }
 
 /* ------------------------------------------------------------------ */

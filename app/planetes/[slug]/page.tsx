@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 
 import type { Metadata } from "next";
 
-import { buildMeta, buildTitle, absoluteUrl, SITE_NAME } from "@/lib/seo";
+import { buildMeta, buildTitle, absoluteUrl, SITE_NAME, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import {
   PLANETS,
   getPlanet,
@@ -29,7 +30,6 @@ import {
   QuoteBlock,
   AspectCard,
   PlanetNav,
-  Breadcrumbs,
   TableOfContents,
 } from "./ui";
 
@@ -127,36 +127,34 @@ function buildJsonLd(planet: ReturnType<typeof getPlanet>) {
 
   const heroSrc = planetHeroSrc(planet.slug);
 
-  const article = {
+  const jsonLdGraph = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: `${planet.name} en astrologie : symbolique et interprétation complète`,
-    description:
-      planet.identite?.symbolique ||
-      `Étude approfondie de ${planet.name} en astrologie.`,
-    image: [absoluteUrl(heroSrc)],
-    author: { "@type": "Person", name: "Stéphane Gamot" },
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: "https://www.astro-cours.com",
-    },
-    mainEntityOfPage: absoluteUrl(`/planetes/${planet.slug}`),
-    inLanguage: "fr",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: `${planet.name} en astrologie : symbolique et interprétation complète`,
+        description:
+          planet.identite?.symbolique ||
+          `Étude approfondie de ${planet.name} en astrologie.`,
+        image: [absoluteUrl(heroSrc)],
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+        mainEntityOfPage: absoluteUrl(`/planetes/${planet.slug}`),
+        inLanguage: "fr",
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: buildBreadcrumbs(planet).map((item, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: item.name,
+          item: absoluteUrl(item.href),
+        })),
+      },
+    ],
   };
 
-  const breadcrumb = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: buildBreadcrumbs(planet).map((item, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: item.name,
-      item: absoluteUrl(item.href),
-    })),
-  };
-
-  return [article, breadcrumb];
+  return [jsonLdGraph];
 }
 
 /* ------------------------------------------------------------------ */
@@ -281,11 +279,17 @@ export default async function PlanetPage({
       <AuraGlow aura="50% 20%" color={t.color} />
 
       <main
-        id="contenu-principal"
+        id="main-content"
         className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-24 md:pb-36"
       >
         {/* Breadcrumbs */}
-   
+        <Breadcrumbs
+          items={[
+            { name: "Planètes", href: "/#planetes" },
+            { name: planet.name, href: `/planetes/${planet.slug}` },
+          ]}
+          accentClass="text-sky-400"
+        />
 
         {/* ============================================================ */}
         {/*  HERO                                                        */}

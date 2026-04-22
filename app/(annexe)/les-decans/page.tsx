@@ -216,7 +216,7 @@ export default function DecansPage() {
                         {/* Titre du décan */}
                         <h4 className="font-serif text-2xl text-white mb-4 leading-tight">
                           {decan.titre.split(' / ')[0]}
-                          <span className="block text-lg text-slate-500 mt-1">{decan.titre.split(' / ')[1]}</span>
+                          <span className="block text-lg text-slate-400 mt-1">{decan.titre.split(' / ')[1]}</span>
                         </h4>
 
                         {/* Description */}

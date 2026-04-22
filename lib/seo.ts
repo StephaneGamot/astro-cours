@@ -3,9 +3,25 @@ import type { Metadata } from "next";
 export const SITE_URL = "https://www.astro-cours.com";
 export const SITE_NAME = "Astro Cours";
 
-// ✅ image OG par défaut (à créer dans /public)
-export const DEFAULT_OG_IMAGE = "/images/og/default.webp"; 
-// ex: public/images/og/default.webp (1200x630)
+// ✅ image OG par défaut
+export const DEFAULT_OG_IMAGE = "/og/cover.jpg";
+
+// ✅ Auteur & Publisher centralisés (E-E-A-T)
+export const AUTHOR_PERSON = {
+  "@type": "Person" as const,
+  name: "Stéphane Gamot",
+  url: `${SITE_URL}/auteur/stephane-gamot`,
+};
+
+export const PUBLISHER_ORG = {
+  "@type": "Organization" as const,
+  name: SITE_NAME,
+  url: SITE_URL,
+  logo: {
+    "@type": "ImageObject" as const,
+    url: `${SITE_URL}/astro-cours-logo.webp`,
+  },
+};
 
 export function absoluteUrl(path: string) {
   if (!path) return SITE_URL;

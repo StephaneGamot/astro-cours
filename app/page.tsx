@@ -54,7 +54,7 @@ const websiteJsonLd = {
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
-    logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.webp` },
+    logo: { "@type": "ImageObject", url: `${SITE_URL}/astro-cours-logo.webp` },
   },
 };
 

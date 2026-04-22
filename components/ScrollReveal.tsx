@@ -25,6 +25,17 @@ export default function ScrollReveal({
     const el = ref.current;
     if (!el) return;
 
+    // WCAG 2.3.3 — respecter prefers-reduced-motion
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)"
+    ).matches;
+
+    if (prefersReducedMotion) {
+      // Afficher immédiatement sans animation ni délai
+      el.classList.add("visible");
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {

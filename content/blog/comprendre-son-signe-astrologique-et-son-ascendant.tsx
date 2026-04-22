@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
+import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/comprendre-signe-astrologique-ascendant-12-exemples`;
@@ -41,18 +42,8 @@ const articleJsonLd = {
   articleSection: meta.articleSection,
   keywords: meta.tags.join(", "),
   educationalLevel: meta.readingLevel,
-  author: {
-    "@type": "Organization",
-    name: "Astro Cours",
-  },
-  publisher: {
-    "@type": "Organization",
-    name: "Astro Cours",
-    logo: {
-      "@type": "ImageObject",
-      url: `${SITE_URL}/icon.png`,
-    },
-  },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
 };
 
 const breadcrumbJsonLd = {

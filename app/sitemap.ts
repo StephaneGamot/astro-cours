@@ -39,28 +39,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = staticPages.map((page) => ({
     url: `${base}/${page}`,
     lastModified: now,
+    changeFrequency: page === "" ? "weekly" : "monthly",
+    priority: page === "" ? 1.0 : page === "blog" ? 0.9 : 0.5,
   }));
 
   const houseRoutes: MetadataRoute.Sitemap = (maisons as House[]).map((h) => ({
     url: `${base}/maisons/${h.slug}`,
     lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
   }));
 
   const planetRoutes: MetadataRoute.Sitemap = (planetes as Planet[]).map(
     (p) => ({
       url: `${base}/planetes/${p.slug}`,
       lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
     }),
   );
 
   const signRoutes: MetadataRoute.Sitemap = (signes as Sign[]).map((s) => ({
     url: `${base}/signes/${s.slug}`,
     lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.9,
   }));
 
   const postRoutes: MetadataRoute.Sitemap = getAllPosts().map((p) => ({
     url: `${base}/blog/${p.meta.slug}`,
     lastModified: new Date(p.meta.date),
+    changeFrequency: "yearly" as const,
+    priority: 0.7,
   }));
 
   return [

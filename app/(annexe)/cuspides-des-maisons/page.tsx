@@ -152,7 +152,7 @@ export default function CuspidesMaisonsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 
-      <main className="relative mx-auto max-w-6xl px-6 pb-24 text-text selection:bg-violet-500/30">
+      <main id="main-content" className="relative mx-auto max-w-6xl px-6 pb-24 text-text selection:bg-violet-500/30">
         
         {/* LUEURS D'AMBIANCE (Background) */}
         <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">

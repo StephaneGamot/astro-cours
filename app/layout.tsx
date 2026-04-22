@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
-    default: SITE_NAME,
-    template: `%s`,
+    default: `Cours d'astrologie — ${SITE_NAME}`,
+    template: `%s — ${SITE_NAME}`,
   },
 
   description: DEFAULT_DESC,
@@ -57,6 +57,17 @@ export const metadata: Metadata = {
     title: SITE_NAME,
     description: DEFAULT_DESC,
     images: [OG_IMAGE],
+  },
+
+  manifest: "/manifest.json",
+
+  alternates: {
+    canonical: SITE_URL,
+    languages: { "fr": SITE_URL },
+  },
+
+  other: {
+    "theme-color": "#8B5CF6",
   },
 };
 

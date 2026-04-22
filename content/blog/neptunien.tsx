@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import Image from "next/image";
+import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import NeptunienImage from "@/public/images/blog/neptunien.webp";
 import Neptunien2Image from "@/public/images/blog/neptunien2.webp";
 import Neptunien3Image from "@/public/images/blog/neptunien3.webp";
@@ -198,18 +199,8 @@ export default function NeptunienPost() {
               image: `https://www.astro-cours.com${meta.cover}`,
               datePublished: meta.date,
               dateModified: meta.date,
-              author: {
-                "@type": "Person",
-                name: "Stéphane Gamot",
-              },
-              publisher: {
-                "@type": "Organization",
-                name: "Astro Cours",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.astro-cours.com/logo.png",
-                },
-              },
+              author: AUTHOR_PERSON,
+              publisher: PUBLISHER_ORG,
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id": `https://www.astro-cours.com/blog/${meta.slug}`,

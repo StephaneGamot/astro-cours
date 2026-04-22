@@ -1,0 +1,18 @@
+{
+  "name": "Astro Cours — Cours d'astrologie premium",
+  "short_name": "Astro Cours",
+  "description": "Cours d'astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#8B5CF6",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/astro-cours-logo.webp",
+      "sizes": "any",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

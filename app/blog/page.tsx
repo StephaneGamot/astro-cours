@@ -71,7 +71,7 @@ export default async function BlogPage({
     : posts;
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-10 space-y-10">
+    <main id="main-content" className="mx-auto max-w-6xl px-4 py-10 space-y-10">
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-white/10 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />

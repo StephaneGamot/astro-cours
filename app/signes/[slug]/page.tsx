@@ -7,6 +7,8 @@ import Link from "next/link";
 import fs from "fs";
 import path from "path";
 import ScrollReveal from "@/components/ScrollReveal";
+import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -176,18 +178,6 @@ export async function generateMetadata({
   return {
     title,
     description,
-    keywords: [
-      `signe du ${data.nom}`,
-      `${data.nom} astrologie`,
-      `compatibilité ${data.nom}`,
-      `Ascendant ${data.nom}`,
-      `${data.nom} ${data.element}`,
-      `${data.maitre} astrologie`,
-      `portrait ${data.nom}`,
-      `${data.nom} amour`,
-      `${data.nom} travail`,
-      `thème astral ${data.nom}`,
-    ],
     alternates: { canonical: url },
     openGraph: {
       type: "article",
@@ -200,7 +190,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${data.nom} — Premier signe du Zodiaque`,
+      title,
       description,
     },
   };
@@ -232,54 +222,57 @@ export default async function SignePage({
     notFound(); 
   }
 
-  // Schema.org JSON-LD
-  const schemaArticle = {
+  // Schema.org JSON-LD — @graph unique (réduit le DOM, recommandé Google)
+  const jsonLdGraph = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: `${data.nom} — Encyclopédie complète du signe astrologique`,
-    description: `Tout savoir sur le signe du ${data.nom} : portrait, tempérament, compatibilités, planètes, 12 maisons.`,
-    image: `https://www.astro-cours.com${data.images.signe}`,
-    author: { "@type": "Organization", name: "Astro-Cours" },
-    publisher: {
-      "@type": "Organization",
-      name: "Astro-Cours",
-      logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/logo.png" },
-    },
-    mainEntityOfPage: `https://www.astro-cours.com/signes/${data.slug}`,
-    datePublished: "2026-04-09",
-    dateModified: new Date().toISOString().split("T")[0],
-    articleSection: "Astrologie",
-    inLanguage: "fr",
-  };
-
-  const schemaFAQ = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: data.faq.map((f) => ({
-      "@type": "Question",
-      name: f.question,
-      acceptedAnswer: { "@type": "Answer", text: f.reponse },
-    })),
-  };
-
-  const schemaBreadcrumb = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.astro-cours.com/" },
-      { "@type": "ListItem", position: 2, name: "Signes", item: "https://www.astro-cours.com/signes" },
-      { "@type": "ListItem", position: 3, name: data.nom, item: `https://www.astro-cours.com/signes/${data.slug}` },
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: `${data.nom} — Encyclopédie complète du signe astrologique`,
+        description: `Tout savoir sur le signe du ${data.nom} : portrait, tempérament, compatibilités, planètes, 12 maisons.`,
+        image: `https://www.astro-cours.com${data.images.signe}`,
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+        mainEntityOfPage: `https://www.astro-cours.com/signes/${data.slug}`,
+        datePublished: "2026-04-09",
+        dateModified: new Date().toISOString().split("T")[0],
+        articleSection: "Astrologie",
+        inLanguage: "fr",
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: data.faq.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.reponse },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.astro-cours.com/" },
+          { "@type": "ListItem", position: 2, name: "Signes", item: "https://www.astro-cours.com/signes" },
+          { "@type": "ListItem", position: 3, name: data.nom, item: `https://www.astro-cours.com/signes/${data.slug}` },
+        ],
+      },
     ],
   };
 
   return (
     <>
-      {/* Schema.org */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaArticle) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaBreadcrumb) }} />
+      {/* Schema.org — @graph unique */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdGraph) }} />
 
       <article className="min-h-screen antialiased">
+
+        {/* ━━━━━━━━━━━ BREADCRUMBS ━━━━━━━━━━━ */}
+        <Breadcrumbs
+          items={[
+            { name: "Signes", href: "/#zodiaque" },
+            { name: data.nom, href: `/signes/${data.slug}` },
+          ]}
+          accentClass={`text-[${data.couleur.primaire}]`}
+        />
 
         {/* ━━━━━━━━━━━ HERO ━━━━━━━━━━━ */}
         <HeroSection data={data} />

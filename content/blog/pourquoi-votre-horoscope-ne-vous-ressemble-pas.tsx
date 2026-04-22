@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { TagPillsInline, getGlowFromTags } from "./ui";
+import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 /* ================================================================== */
 /*  META / SEO                                                        */
@@ -230,19 +231,8 @@ export default function HoroscopeNeVousRessemblePasPost() {
               image: `${SITE_URL}${meta.cover}`,
               datePublished: meta.date,
               dateModified: meta.date,
-              author: {
-                "@type": "Person",
-                name: "St\u00e9phane Gamot",
-                url: SITE_URL,
-              },
-              publisher: {
-                "@type": "Organization",
-                name: "Astro Cours",
-                logo: {
-                  "@type": "ImageObject",
-                  url: `${SITE_URL}/logo.png`,
-                },
-              },
+              author: AUTHOR_PERSON,
+              publisher: PUBLISHER_ORG,
               mainEntityOfPage: {
                 "@type": "WebPage",
                 "@id": ARTICLE_URL,

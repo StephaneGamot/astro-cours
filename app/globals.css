@@ -98,17 +98,11 @@ small, .muted {
 
 /* Marquages */
 strong {
-  color: rgb(var(--text) / 1);
+  color: rgb(var(--text));
   font-weight: 650;
 }
 
 em { color: rgb(var(--text) / 0.90); }
-
-
-strong {
-  color: rgb(var(--text));
-  font-weight: 600;
-}
 
 /* Espacement “lecture” (utile blog/cours) */
 .prose {

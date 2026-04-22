@@ -284,7 +284,7 @@ export default function AsteroidesPage() {
   ];
 
   return (
-    <main className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
+    <main id="main-content" className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
       {/* HERO */}
       <header className="mb-10 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5">
         <div className="relative">

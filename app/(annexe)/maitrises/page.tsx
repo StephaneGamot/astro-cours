@@ -328,7 +328,7 @@ function SectionTitle({
 export default function MaitrisesCoursPage() {
   return (
     <>
-      <main className="relative mx-auto max-w-7xl px-6 pb-24 text-slate-200 selection:bg-amber-500/30">
+      <main id="main-content" className="relative mx-auto max-w-7xl px-6 pb-24 text-slate-200 selection:bg-amber-500/30">
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute left-[-10%] top-[-5%] h-[800px] w-[800px] rounded-full bg-amber-600/10 blur-[150px]" />
           <div className="absolute right-[-10%] top-[30%] h-[700px] w-[700px] rounded-full bg-violet-600/10 blur-[150px]" />
@@ -571,7 +571,7 @@ export default function MaitrisesCoursPage() {
                         ))}
                       </div>
                     ) : (
-                      <p className="mt-5 text-sm text-slate-500">Aucune exaltation retenue ici dans cette grille.</p>
+                      <p className="mt-5 text-sm text-slate-400">Aucune exaltation retenue ici dans cette grille.</p>
                     )}
                   </article>
 
@@ -632,7 +632,7 @@ export default function MaitrisesCoursPage() {
                         })}
                       </div>
                     ) : (
-                      <p className="mt-5 text-sm text-slate-500">Aucune chute retenue ici dans cette grille.</p>
+                      <p className="mt-5 text-sm text-slate-400">Aucune chute retenue ici dans cette grille.</p>
                     )}
                   </article>
                 </div>

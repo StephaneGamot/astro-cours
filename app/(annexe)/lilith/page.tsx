@@ -79,7 +79,7 @@ export default function LilithPage() {
   const heroSrc = "/images/points/lilith.webp";
 
   return (
-    <main className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
+    <main id="main-content" className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
       {/* HERO */}
       <header className={`mb-10 overflow-hidden rounded-[2.5rem] border ${accentBorder} bg-white/5 ${accentGlow}`}>
         <div className="grid gap-6 p-7 sm:grid-cols-[1.2fr_.8fr] sm:p-10">
