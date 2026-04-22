@@ -22,7 +22,7 @@ import { SITE_NAME, SITE_URL, absoluteUrl, buildTitle } from "@/lib/seo";
 const CANONICAL = "/auteur/stephane-gamot";
 const TITLE = "St\u00e9phane Gamot — Astrologue & Auteur";
 const DESCRIPTION =
-  "Passionn\u00e9 d\u2019astrologie depuis plus de 40\u00a0ans, form\u00e9 pendant 3\u00a0ans aupr\u00e8s de Jean-Marie Michiels. D\u00e9couvrez mon parcours, ma m\u00e9thode et ma vision d\u2019une astrologie rigoureuse, \u00e9thique et ancr\u00e9e dans le r\u00e9el.";
+  "Passionn\u00e9 d\u2019astrologie depuis plus de 40\u00a0ans, form\u00e9 pendant 3\u00a0ans aupr\u00e8s de Jean-Marie Michiels. D\u00e9couvrez ma vision d\u2019une astrologie traditionnelle modernisée";
 
 export const metadata: Metadata = {
   title: buildTitle(TITLE),
@@ -93,11 +93,6 @@ const jsonLd = {
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": absoluteUrl(CANONICAL),
-  },
-  worksFor: {
-    "@type": "WebSite",
-    name: SITE_NAME,
-    url: SITE_URL,
   },
 };
 
