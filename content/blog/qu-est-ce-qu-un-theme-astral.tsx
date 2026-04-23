@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import GlossaryTooltip from "@/components/GlossaryTooltip";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qu-est-ce-qu-un-theme-astral`;
@@ -20,7 +21,7 @@ export const meta = {
   date: "2026-01-05",
   tags: ["bases", "thème astral", "débutant", "carte du ciel", "thème natal"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/theme-astral.jpg",
+  cover: "/images/blog/theme-astral.webp",
   ogImage: COVER_URL,
   ogImageAlt: "Illustration pédagogique du thème astral",
   type: "article" as const,
@@ -107,107 +108,90 @@ function Callout({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
-  const articleJsonLd = {
+  const graphJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: meta.title,
-    description: meta.description,
-    image: [meta.ogImage],
-    datePublished: meta.date,
-    dateModified: meta.date,
-    inLanguage: "fr-FR",
-    mainEntityOfPage: ARTICLE_URL,
-    articleSection: meta.articleSection,
-    keywords: meta.tags.join(", "),
-    educationalLevel: meta.readingLevel,
-    author: AUTHOR_PERSON,
-    publisher: PUBLISHER_ORG,
-  };
-
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
+    "@graph": [
       {
-        "@type": "ListItem",
-        position: 1,
-        name: "Accueil",
-        item: SITE_URL,
+        "@type": "Article",
+        headline: meta.title,
+        description: meta.description,
+        image: [meta.ogImage],
+        datePublished: meta.date,
+        dateModified: meta.date,
+        inLanguage: "fr-FR",
+        mainEntityOfPage: ARTICLE_URL,
+        articleSection: meta.articleSection,
+        keywords: meta.tags.join(", "),
+        educationalLevel: meta.readingLevel,
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
       },
       {
-        "@type": "ListItem",
-        position: 2,
-        name: "Blog",
-        item: `${SITE_URL}/blog`,
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
+        ],
       },
       {
-        "@type": "ListItem",
-        position: 3,
-        name: meta.title,
-        item: ARTICLE_URL,
-      },
-    ],
-  };
-
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Qu'est-ce qu'un thème astral ?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Un thème astral est une carte du ciel calculée pour un instant et un lieu précis, le plus souvent la naissance. Il décrit une structure symbolique de fonctionnement et non une prédiction.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Quelles sont les grandes composantes d'un thème astral ?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Les quatre grandes briques sont les planètes, les signes, les maisons et les aspects. Les planètes décrivent les fonctions, les signes le style, les maisons le domaine d'expression et les aspects la dynamique entre les fonctions.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Est-ce qu'un thème astral se résume au signe solaire ?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Non. Le signe solaire n'est qu'un élément parmi d'autres. L'Ascendant, la Lune, les maisons et les aspects modifient profondément l'ensemble de la lecture.",
-        },
-      },
-    ],
-  };
-
-  const howToJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    name: "Comment comprendre les bases d'un thème astral",
-    description:
-      "Méthode simple pour comprendre la structure d'un thème astral à travers ses quatre briques fondamentales.",
-    image: meta.ogImage,
-    totalTime: "PT7M",
-    step: [
-      {
-        "@type": "HowToStep",
-        name: "Lire le Soleil et la Lune",
-        text: "Commence par le Soleil pour l'identité et la Lune pour les réflexes émotionnels.",
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Qu'est-ce qu'un thème astral ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Un thème astral est une carte du ciel calculée pour un instant et un lieu précis, le plus souvent la naissance. Il décrit une structure symbolique de fonctionnement et non une prédiction.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Quelles sont les grandes composantes d'un thème astral ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Les quatre grandes briques sont les planètes, les signes, les maisons et les aspects. Les planètes décrivent les fonctions, les signes le style, les maisons le domaine d'expression et les aspects la dynamique entre les fonctions.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Est-ce qu'un thème astral se résume au signe solaire ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Non. Le signe solaire n'est qu'un élément parmi d'autres. L'Ascendant, la Lune, les maisons et les aspects modifient profondément l'ensemble de la lecture.",
+            },
+          },
+        ],
       },
       {
-        "@type": "HowToStep",
-        name: "Observer l'Ascendant",
-        text: "Repère l'Ascendant pour comprendre le style de contact avec le monde.",
-      },
-      {
-        "@type": "HowToStep",
-        name: "Identifier les planètes dominantes",
-        text: "Cherche les planètes dominantes, les angles et les répétitions majeures du thème.",
-      },
-      {
-        "@type": "HowToStep",
-        name: "Relier fonction, style, domaine et dynamique",
-        text: "Relie planètes, signes, maisons et aspects pour construire une synthèse cohérente.",
+        "@type": "HowTo",
+        name: "Comment comprendre les bases d'un thème astral",
+        description:
+          "Méthode simple pour comprendre la structure d'un thème astral à travers ses quatre briques fondamentales.",
+        image: meta.ogImage,
+        totalTime: "PT7M",
+        step: [
+          {
+            "@type": "HowToStep",
+            name: "Lire le Soleil et la Lune",
+            text: "Commence par le Soleil pour l'identité et la Lune pour les réflexes émotionnels.",
+          },
+          {
+            "@type": "HowToStep",
+            name: "Observer l'Ascendant",
+            text: "Repère l'Ascendant pour comprendre le style de contact avec le monde.",
+          },
+          {
+            "@type": "HowToStep",
+            name: "Identifier les planètes dominantes",
+            text: "Cherche les planètes dominantes, les angles et les répétitions majeures du thème.",
+          },
+          {
+            "@type": "HowToStep",
+            name: "Relier fonction, style, domaine et dynamique",
+            text: "Relie planètes, signes, maisons et aspects pour construire une synthèse cohérente.",
+          },
+        ],
       },
     ],
   };
@@ -216,19 +200,7 @@ export default function Post() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(graphJsonLd) }}
       />
 
       <div className="space-y-10">
@@ -242,8 +214,8 @@ export default function Post() {
             aria-hidden="true"
           />
 
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
-          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
 
           <div className="relative">
             <p className="text-sm text-text/60">Cours fondamental • Bases de l'astrologie</p>
