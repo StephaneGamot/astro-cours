@@ -1,6 +1,12 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
+import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import GlossaryTooltip from "@/components/GlossaryTooltip";
+
+const SITE_URL = "https://www.astro-cours.com";
+const ARTICLE_URL = `${SITE_URL}/blog/conjonction-melange-des-forces`;
+const COVER_URL = `${SITE_URL}/images/blog/conjonction.webp`;
 
 export const meta = {
   slug: "conjonction-melange-des-forces",
@@ -139,32 +145,108 @@ function Row({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
+  const graphJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: meta.title,
+        description: meta.description,
+        image: [COVER_URL],
+        datePublished: meta.date,
+        dateModified: meta.date,
+        inLanguage: "fr-FR",
+        mainEntityOfPage: ARTICLE_URL,
+        articleSection: "Astrologie",
+        keywords: meta.tags.join(", "),
+        educationalLevel: meta.readingLevel,
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "La conjonction est-elle un bon ou un mauvais aspect ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Ni l'un ni l'autre — la conjonction est neutre par nature. Elle fusionne et amplifie. Le résultat dépend entièrement des planètes impliquées, du signe et de la maison.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Quelle différence entre conjonction et parallèle de déclinaison ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "La conjonction se mesure en longitude (position sur le zodiaque). Le parallèle concerne la déclinaison (nord/sud de l'écliptique). Les deux fusionnent, mais la conjonction est beaucoup plus utilisée en pratique.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Comment savoir si j'ai une conjonction dans mon thème natal ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Monte ton thème astral (gratuit sur beaucoup de sites) et cherche deux symboles de planètes très proches l'un de l'autre — ou un tableau d'aspects qui indique un écart de 0 à 6°.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "La conjonction fonctionne-t-elle en synastrie ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Oui, et elle est même centrale en synastrie. Quand ta Vénus est en conjonction avec le Mars de l'autre, l'attraction est immédiate. Mais fusion ne signifie pas compatibilité durable — les autres aspects comptent aussi.",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
-    <div className="space-y-10">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(graphJsonLd) }}
+      />
+
+      <div className="space-y-10">
       {/* HERO */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
-        <div className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
-        <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
+        <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
+        <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
 
         {/* overlays */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
 
         <div className="relative">
           <Kicker>Aspect majeur • Thème natal & transits • Guide pas-à-pas</Kicker>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Tu as repéré deux planètes collées dans ton{" "}
+            Une <strong>conjonction en astrologie</strong>, c'est deux planètes
+            qui occupent le même degré du zodiaque dans ton{" "}
             <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">
               thème astral
             </Link>{" "}
-            et tu te demandes ce que ça signifie ? Bienvenue dans le monde de la
-            <strong> conjonction</strong> — l'aspect le plus fusionnel de
-            l'astrologie. Deux planètes, zéro distance, une seule dynamique.
-            C'est puissant, très visible dans la vie… et parfois difficile à
-            démêler. Dans ce guide, on voit ensemble la définition, les orbes,
-            la méthode de lecture (natal <em>et</em>{" "}
+            — leurs énergies fusionnent en une seule dynamique, impossible à
+            séparer. Tu l'as peut-être repérée dans ta carte du ciel sans savoir
+            si c'était un talent ou un nœud à travailler. Le vrai défi : mal
+            lue, cette fusion semble "bonne" ou "mauvaise" alors qu'elle est
+            neutre — tout dépend du contexte. Ce guide te donne la définition
+            exacte, les{" "}
+            <GlossaryTooltip definition="L'orbe est l'écart en degrés entre deux planètes. Plus l'orbe est serré, plus l'aspect est puissant.">
+              orbes
+            </GlossaryTooltip>, une méthode de lecture pas-à-pas (natal <em>et</em>{" "}
             <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">
               transits
             </Link>), des exemples concrets et les pièges à éviter.
@@ -207,11 +289,8 @@ export default function Post() {
           </p>
           <p className="mt-3">
             Attention : ce n'est pas automatiquement "positif" ou "négatif".
-            La conjonction <strong>intensifie et concentre</strong>. Selon les{" "}
-            <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              planètes
-            </Link>{" "}
-            impliquées, elle peut être un talent naturel, un moteur de vie…
+            La conjonction <strong>intensifie et concentre</strong>. Selon les
+            planètes impliquées, elle peut être un talent naturel, un moteur de vie…
             ou un nœud à travailler. Tout dépend du contexte — le{" "}
             <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">
               signe
@@ -257,10 +336,7 @@ export default function Post() {
                 </li>
                 <li>
                   <strong>3–6°</strong> : forte à moyenne, dépend du signe et
-                  de la{" "}
-                  <Link href="/maisons/maison-10" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                    maison
-                  </Link>.
+                  de la maison.
                 </li>
                 <li>
                   <strong>6–8°</strong> : possible mais diffuse (prudence !).
@@ -270,21 +346,11 @@ export default function Post() {
               <Callout tone="ok" title="Repère pro (simple)">
                 <p>
                   Plus l'orbe est serré, plus tu peux "construire" dessus. Si
-                  l'orbe est large, exige davantage de preuves : maison
-                  angulaire ({" "}
-                  <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                    I
-                  </Link>,{" "}
-                  <Link href="/maisons/maison-4" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                    IV
-                  </Link>,{" "}
-                  <Link href="/maisons/maison-7" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                    VII
-                  </Link>,{" "}
-                  <Link href="/maisons/maison-10" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                    X
-                  </Link>
-                  ), répétitions thématiques, aspects soutenants.
+                  l'orbe est large, exige davantage de preuves :{" "}
+                  <GlossaryTooltip definition="Les maisons angulaires (I, IV, VII, X) sont les quatre axes majeurs du thème. Une planète placée ici a un impact très visible dans la vie.">
+                    maison angulaire
+                  </GlossaryTooltip>{" "}
+                  (I, IV, VII, X), répétitions thématiques, aspects soutenants.
                 </p>
               </Callout>
             </Card>
@@ -307,11 +373,7 @@ export default function Post() {
                 <p className="mt-2 text-text/85 leading-relaxed">
                   Quand tu hésites, pose-toi cette question :{" "}
                   <strong>"Dans quel domaine de vie ça se voit ?"</strong> —
-                  c'est la{" "}
-                  <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                    maison astrologique
-                  </Link>{" "}
-                  qui te répond. Si aucun domaine clair n'émerge, cette
+                  c'est la maison astrologique qui te répond. Si aucun domaine clair n'émerge, cette
                   conjonction n'est probablement pas centrale.
                 </p>
               </div>
@@ -328,10 +390,7 @@ export default function Post() {
 
         <p className="text-text/80 leading-relaxed">
           Voici une méthode en 6 étapes que tu peux appliquer à <em>toutes</em>{" "}
-          les conjonctions de ton{" "}
-          <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">
-            thème astral
-          </Link>. Elle fonctionne que tu sois débutant ou plus avancé — la
+          les conjonctions de ton thème astral. Elle fonctionne que tu sois débutant ou plus avancé — la
           profondeur viendra avec la pratique.
         </p>
 
@@ -339,11 +398,7 @@ export default function Post() {
           <ol className="list-decimal pl-5 space-y-2">
             <li>
               Identifie les <strong>2 planètes</strong> en jeu — chacune
-              représente une fonction psychologique (consulte les pages{" "}
-              <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                planètes
-              </Link>{" "}
-              si besoin).
+              représente une fonction psychologique.
             </li>
             <li>
               Détermine <strong>qui mène</strong> : en général la plus lente
@@ -361,22 +416,10 @@ export default function Post() {
             </li>
             <li>
               Lis la <strong>maison</strong> : c'est le domaine de vie où tout
-              ça se manifeste concrètement ({" "}
-              <Link href="/maisons/maison-2" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                finances
-              </Link>,{" "}
-              <Link href="/maisons/maison-7" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                relations
-              </Link>,{" "}
-              <Link href="/maisons/maison-10" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                carrière
-              </Link>…).
+              ça se manifeste concrètement (finances, relations, carrière…).
             </li>
             <li>
-              Check les <strong>autres{" "}
-              <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                aspects
-              </Link></strong>{" "}
+              Check les <strong>autres aspects</strong>{" "}
               reçus : ils stabilisent, tendent ou nuancent la conjonction.
             </li>
             <li>
@@ -409,9 +452,7 @@ export default function Post() {
         <div className="grid gap-6 lg:grid-cols-3">
           <Card title="Planètes personnelles" subtitle="Subjectif, psychologique, quotidien.">
             <p>
-              <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">Soleil</Link>,{" "}
-              <Link href="/planetes/lune" className="underline decoration-white/30 hover:decoration-white/60 transition">Lune</Link>,{" "}
-              <Link href="/planetes/mercure" className="underline decoration-white/30 hover:decoration-white/60 transition">Mercure</Link>,{" "}
+              Soleil, Lune, Mercure,{" "}
               <Link href="/planetes/venus" className="underline decoration-white/30 hover:decoration-white/60 transition">Vénus</Link>,{" "}
               <Link href="/planetes/mars" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link>{" "}
               : la conjonction parle d'identité, d'émotions, de désir, de
@@ -419,25 +460,14 @@ export default function Post() {
             </p>
             <p className="text-sm text-text/70">
               Exemple : Lune–Mars = l'émotion déclenche l'action
-              immédiatement. Envie d'en savoir plus ? Lis le portrait du{" "}
-              <Link href="/blog/martien" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                Martien
-              </Link>.
+              immédiatement.
             </p>
           </Card>
 
           <Card title="Jupiter & Saturne" subtitle="Social : cadre & expansion.">
             <p>
-              <Link href="/planetes/jupiter" className="underline decoration-white/30 hover:decoration-white/60 transition">Jupiter</Link>{" "}
-              amplifie et donne confiance ({" "}
-              <Link href="/blog/jupiterien" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                profil jupitérien
-              </Link>).{" "}
-              <Link href="/planetes/saturne" className="underline decoration-white/30 hover:decoration-white/60 transition">Saturne</Link>{" "}
-              structure et responsabilise ({" "}
-              <Link href="/blog/saturnien" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                profil saturnien
-              </Link>). En conjonction avec une planète personnelle, ça donne
+              Jupiter amplifie et donne confiance. Saturne structure et
+              responsabilise. En conjonction avec une planète personnelle, ça donne
               un "thème de vie" très marqué.
             </p>
             <p className="text-sm text-text/70">
@@ -451,16 +481,9 @@ export default function Post() {
 
           <Card title="Uranus / Neptune / Pluton" subtitle="Transpersonnelles : lentes et profondes.">
             <p>
-              <Link href="/planetes/uranus" className="underline decoration-white/30 hover:decoration-white/60 transition">Uranus</Link>,{" "}
-              <Link href="/planetes/neptune" className="underline decoration-white/30 hover:decoration-white/60 transition">Neptune</Link>,{" "}
-              <Link href="/planetes/pluton" className="underline decoration-white/30 hover:decoration-white/60 transition">Pluton</Link>{" "}
-              : elles colorent intensément une planète personnelle —
-              réorientation, idéalisation, transformation. Vécu par phases,
-              souvent lié à des{" "}
-              <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                transits
-              </Link>{" "}
-              majeurs.
+              Uranus, Neptune, Pluton : elles colorent intensément une
+              planète personnelle — réorientation, idéalisation, transformation.
+              Vécu par phases, souvent lié à des transits majeurs.
             </p>
             <p className="text-sm text-text/70">
               Exemple : Vénus–Neptune = idéal romantique, inspiration mais
@@ -488,10 +511,8 @@ export default function Post() {
             <ul className="list-disc pl-5 space-y-2">
               <li><strong>Atout</strong> : courage, franchise, instinct.</li>
               <li><strong>Risque</strong> : impulsivité, irritabilité.</li>
-              <li><strong>À observer</strong> : rythme émotionnel, gestion de l'énergie et impact des{" "}
-                <Link href="/blog/pleine-lune-nouvelle-lune-cycles-astrologie" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                  cycles lunaires
-                </Link>.
+              <li><strong>À observer</strong> : rythme émotionnel, gestion de
+                l'énergie et impact des cycles lunaires.
               </li>
             </ul>
             <p className="text-sm text-text/70 mt-2">
@@ -511,13 +532,7 @@ export default function Post() {
             </ul>
             <p className="text-sm text-text/70 mt-2">
               Profils associés :{" "}
-              <Link href="/blog/mercurien" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                Mercurien
-              </Link>{" "}
-              &{" "}
-              <Link href="/blog/saturnien" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                Saturnien
-              </Link>.
+              Mercurien & Saturnien.
             </p>
           </Card>
 
@@ -529,13 +544,10 @@ export default function Post() {
             </ul>
             <p className="text-sm text-text/70 mt-2">
               Pour aller plus loin :{" "}
-              <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                amour et fidélité selon les signes
-              </Link>{" "}
-              &{" "}
               <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">
                 synastrie
-              </Link>.
+              </Link>{" "}
+              et compatibilité amoureuse.
             </p>
           </Card>
         </div>
@@ -579,17 +591,9 @@ export default function Post() {
         <Callout tone="note" title="Important">
           <p>
             Ce tableau te donne une direction, pas un verdict. La lecture
-            professionnelle y ajoute toujours le{" "}
-            <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              signe et l'ascendant
-            </Link>, la{" "}
-            <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              maison
-            </Link>{" "}
-            et les autres{" "}
-            <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              aspects
-            </Link>. C'est la combinaison de tout ça qui fait la précision.
+            professionnelle y ajoute toujours le signe, l'ascendant, la maison
+            et les autres aspects. C'est la combinaison de tout ça qui fait
+            la précision.
           </p>
         </Callout>
       </section>
@@ -601,16 +605,10 @@ export default function Post() {
         <H2>7) Conjonction en transit : quand ça s'active dans le temps</H2>
 
         <p className="text-text/80 leading-relaxed">
-          Dans le{" "}
-          <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">
-            thème natal
-          </Link>, la conjonction est "fixe". Mais dans le ciel actuel, les
-          planètes bougent — et quand une planète en{" "}
-          <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">
-            transit
-          </Link>{" "}
-          vient se poser sur l'une de tes planètes natales, c'est comme un
-          projecteur qui s'allume sur un sujet précis de ta vie.
+          Dans le thème natal, la conjonction est "fixe". Mais dans le ciel
+          actuel, les planètes bougent — et quand une planète en transit vient
+          se poser sur l'une de tes planètes natales, c'est comme un projecteur
+          qui s'allume sur un sujet précis de ta vie.
         </p>
 
         <TwoCols
@@ -640,12 +638,7 @@ export default function Post() {
               <ol className="list-decimal pl-5 space-y-2">
                 <li>Quelle planète transite ? (lente = effet structurant, rapide = déclencheur)</li>
                 <li>Quelle planète natale est touchée ?</li>
-                <li>Dans quelle{" "}
-                  <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">
-                    maison
-                  </Link>{" "}
-                  ça se passe ?
-                </li>
+                <li>Dans quelle maison ça se passe ?</li>
                 <li>Quels aspects soutiennent ou compliquent ?</li>
                 <li>Quel thème revient dans ta vie depuis 2–3 semaines ?</li>
               </ol>
@@ -655,11 +648,8 @@ export default function Post() {
 
         <Callout tone="warn" title="Erreur fréquente">
           <p>
-            Chercher "la date exacte" de l'effet. Les{" "}
-            <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              transits
-            </Link>{" "}
-            importants ont souvent <strong>plusieurs passages</strong>{" "}
+            Chercher "la date exacte" de l'effet. Les transits importants
+            ont souvent <strong>plusieurs passages</strong>{" "}
             (approche, exact, séparation) et un effet progressif. Les planètes{" "}
             <Link href="/retrogrades" className="underline decoration-white/30 hover:decoration-white/60 transition">
               rétrogrades
@@ -714,28 +704,19 @@ export default function Post() {
             Ni l'un ni l'autre — la conjonction est <strong>neutre par
             nature</strong>. Elle fusionne et amplifie. Le résultat dépend
             entièrement des planètes impliquées, du signe et de la maison.
-            Par exemple, une conjonction{" "}
-            <Link href="/planetes/venus" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              Vénus
-            </Link>–
-            <Link href="/planetes/jupiter" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              Jupiter
-            </Link>{" "}
-            est souvent très agréable, tandis qu'une conjonction{" "}
-            <Link href="/planetes/mars" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              Mars
-            </Link>–
-            <Link href="/planetes/pluton" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              Pluton
-            </Link>{" "}
-            demande un vrai travail d'intégration.
+            Par exemple, une conjonction Vénus–Jupiter est souvent très
+            agréable, tandis qu'une conjonction Mars–Pluton demande un vrai
+            travail d'intégration.
           </p>
         </Card>
 
         <Card title="Quelle différence entre conjonction et parallèle de déclinaison ?" subtitle="Pour les curieux.">
           <p>
             La conjonction se mesure en <strong>longitude</strong> (position
-            sur le zodiaque). Le parallèle concerne la <strong>déclinaison</strong>{" "}
+            sur le zodiaque). Le parallèle concerne la{" "}
+            <GlossaryTooltip definition="La déclinaison est la distance angulaire d'un astre au nord ou au sud de l'écliptique. C'est un second axe de mesure, distinct de la longitude zodiacale.">
+              <strong>déclinaison</strong>
+            </GlossaryTooltip>{" "}
             (nord/sud de l'écliptique). Les deux fusionnent, mais la
             conjonction est beaucoup plus utilisée en pratique. Pour
             approfondir, consulte le{" "}
@@ -747,84 +728,22 @@ export default function Post() {
 
         <Card title="Comment savoir si j'ai une conjonction dans mon thème natal ?" subtitle="Le plus simple.">
           <p>
-            Monte ton{" "}
-            <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              thème astral
-            </Link>{" "}
-            (gratuit sur beaucoup de sites) et cherche deux symboles de planètes
-            très proches l'un de l'autre — ou un tableau d'aspects qui indique
-            un écart de 0 à 6°. Si tu débutes, commence par comprendre ton{" "}
-            <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              signe solaire et ton ascendant
-            </Link>.
+            Monte ton thème astral (gratuit sur beaucoup de sites) et
+            cherche deux symboles de planètes très proches l'un de l'autre —
+            ou un tableau d'aspects qui indique un écart de 0 à 6°. Si tu
+            débutes, commence par comprendre ton signe solaire et ton
+            ascendant.
           </p>
         </Card>
 
         <Card title="La conjonction fonctionne-t-elle en synastrie ?" subtitle="Entre deux thèmes.">
           <p>
-            Oui, et elle est même centrale en{" "}
-            <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              synastrie
-            </Link>{" "}
-            (comparaison de thèmes). Quand ta{" "}
-            <Link href="/planetes/venus" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              Vénus
-            </Link>{" "}
-            est en conjonction avec le{" "}
-            <Link href="/planetes/mars" className="underline decoration-white/30 hover:decoration-white/60 transition">
-              Mars
-            </Link>{" "}
-            de l'autre, l'attraction est immédiate. Mais attention : fusion ne
-            signifie pas compatibilité durable — les autres aspects comptent
-            aussi.
+            Oui, et elle est même centrale en synastrie (comparaison de
+            thèmes). Quand ta Vénus est en conjonction avec le Mars de l'autre,
+            l'attraction est immédiate. Mais attention : fusion ne signifie pas
+            compatibilité durable — les autres aspects comptent aussi.
           </p>
         </Card>
-      </section>
-
-      <Divider />
-
-      {/* Maillage interne : aller plus loin */}
-      <section className="space-y-4">
-        <H2>Pour aller plus loin</H2>
-
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <Link href="/aspects" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Les aspects astrologiques</p>
-            <p className="mt-1 text-sm text-text/60">Tous les aspects majeurs et mineurs en détail.</p>
-          </Link>
-          <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Qu'est-ce qu'un thème astral ?</p>
-            <p className="mt-1 text-sm text-text/60">Le guide de base pour comprendre ta carte du ciel.</p>
-          </Link>
-          <Link href="/transits" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Les transits planétaires</p>
-            <p className="mt-1 text-sm text-text/60">Comment lire les mouvements planétaires actuels.</p>
-          </Link>
-          <Link href="/synastrie" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">La synastrie</p>
-            <p className="mt-1 text-sm text-text/60">Comparer deux thèmes et analyser la compatibilité.</p>
-          </Link>
-          <Link href="/blog/venus-en-signes-style-amoureux" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Vénus en signes</p>
-            <p className="mt-1 text-sm text-text/60">Ton style amoureux selon la position de Vénus.</p>
-          </Link>
-          <Link href="/blog/mars-en-signes-desir-libido-action" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Mars en signes</p>
-            <p className="mt-1 text-sm text-text/60">Désir, libido et mode d'action selon Mars.</p>
-          </Link>
-          <Link href="/maitrises" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Les maîtrises planétaires</p>
-            <p className="mt-1 text-sm text-text/60">Quel signe "appartient" à quelle planète.</p>
-          </Link>
-          <Link href="/retrogrades" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Les rétrogrades</p>
-            <p className="mt-1 text-sm text-text/60">Quand une planète semble reculer : ce que ça change.</p>
-          </Link>
-          <Link href="/dictionnaire-astrologique" className="rounded-2xl border border-white/10 bg-black/20 p-5 hover:bg-white/5 transition block">
-            <p className="font-semibold text-text/90">Dictionnaire astrologique</p>
-            <p className="mt-1 text-sm text-text/60">Tous les termes de A à Z, expliqués simplement.</p>
-          </Link>
-        </div>
       </section>
 
       {/* CTA fin */}
@@ -832,10 +751,7 @@ export default function Post() {
         <p className="text-sm text-text/60">Envie de continuer ?</p>
         <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
           <p className="text-text/85">
-            Prochaine étape logique : découvrir les autres{" "}
-            <Link href="/aspects" className="font-semibold text-text/95 underline decoration-white/30 hover:decoration-white/60 transition">
-              aspects astrologiques
-            </Link>{" "}
+            Prochaine étape logique : découvrir les autres aspects astrologiques
             (carré, trigone, opposition…) pour compléter ta boîte à outils.
           </p>
           <Link
@@ -846,14 +762,7 @@ export default function Post() {
           </Link>
         </div>
       </section>
-
-      {/* lien final */}
-      <Link
-        href="/blog"
-        className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
-      >
-        ← Voir tous les articles
-      </Link>
     </div>
+    </>
   );
 }
