@@ -280,10 +280,35 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ QUICK FACTS ━━━━━━━━━━━ */}
         <QuickFacts data={data} />
 
+        {/* ━━━━━━━━━━━ DÉFINITION SEO (Featured Snippet) ━━━━━━━━━━━ */}
+        <div className="mx-auto max-w-3xl px-6 pt-16 md:pt-24">
+          <div className="rounded-2xl border px-6 py-5"
+               style={{ borderColor: `${data.couleur.primaire}33`, background: `${data.couleur.primaire}0A` }}>
+            <p className="text-sm font-semibold uppercase tracking-widest" style={{ color: `${data.couleur.primaire}CC` }}>
+              Définition
+            </p>
+            <p className="mt-2 text-base leading-relaxed sm:text-lg" style={{ color: "rgb(var(--text) / 0.85)" }}>
+              Le <strong>signe du {data.nom}</strong> est le {data.maisonNaturelle}<sup>e</sup> signe du zodiaque ({data.periode}). De{" "}
+              <Link href="/#zodiaque" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>polarité</Link>{" "}
+              {data.polarite.toLowerCase()}, il appartient à l&apos;élément <strong>{data.element}</strong> en mode <strong>{data.mode}</strong>,{" "}
+              gouverné par <Link href={`/planetes/${data.maitre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>{data.maitre}</Link>.{" "}
+              Sa maison naturelle est la <Link href="/#maisons" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>Maison {data.maisonNaturelle}</Link>.
+            </p>
+          </div>
+
+          {/* APP Intro */}
+          <p className="mt-8 text-base leading-relaxed sm:text-lg" style={{ color: "rgb(var(--text) / 0.75)" }}>
+            Vous avez le <strong>Soleil en {data.nom}</strong>, un ascendant {data.nom} ou plusieurs planètes dans ce signe ?
+            Comprendre le {data.nom} en profondeur, c&apos;est bien plus qu&apos;un horoscope : tempérament, forces, ombres,
+            compatibilités, planètes, maisons et mythologie. Ce guide encyclopédique du <strong>signe astrologique du {data.nom}</strong> vous
+            donne toutes les clés pour une lecture complète de votre thème natal.
+          </p>
+        </div>
+
         {/* ━━━━━━━━━━━ INTRODUCTION ━━━━━━━━━━━ */}
         <ContentSection id="introduction" className="pt-20 md:pt-28">
           <ScrollReveal>
-            <SectionTitle title="Introduction" color={data.couleur.primaire} />
+            <SectionTitle title={`Comprendre le ${data.nom} : introduction au signe`} color={data.couleur.primaire} />
             <Prose>{data.introduction}</Prose>
           </ScrollReveal>
         </ContentSection>
@@ -291,7 +316,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ FONDATIONS COSMIQUES ━━━━━━━━━━━ */}
         <ContentSection id="fondations">
           <ScrollReveal>
-            <SectionTitle title="Fondations cosmiques" color={data.couleur.primaire} />
+            <SectionTitle title={`Quelles sont les fondations cosmiques du ${data.nom} ?`} color={data.couleur.primaire} />
             <Prose>{data.fondationsCosmiques.texte}</Prose>
           </ScrollReveal>
 
@@ -324,7 +349,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ PORTRAIT INTIME ━━━━━━━━━━━ */}
         <ContentSection id="portrait">
           <ScrollReveal>
-            <SectionTitle title="Portrait intime" color={data.couleur.primaire} />
+            <SectionTitle title={`Portrait du ${data.nom} : tempérament, forces et ombres`} color={data.couleur.primaire} />
             <Prose>{data.portrait.temperament}</Prose>
           </ScrollReveal>
 
@@ -349,7 +374,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ SANTÉ ━━━━━━━━━━━ */}
         <ContentSection id="sante">
           <ScrollReveal>
-            <SectionTitle title="Correspondances anatomiques" color={data.couleur.primaire} />
+            <SectionTitle title={`Santé et anatomie du ${data.nom} : quelles zones du corps ?`} color={data.couleur.primaire} />
             <div className="mb-6 flex flex-wrap gap-2">
               {data.sante.zones.map((z) => (
                 <span key={z} className="rounded-full border border-[rgb(var(--border)/0.1)] px-4 py-1.5 text-sm font-medium"
@@ -365,7 +390,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ 12 MAISONS ━━━━━━━━━━━ */}
         <ContentSection id="maisons">
           <ScrollReveal>
-            <SectionTitle title={`Le ${data.nom} dans les 12 Maisons`} color={data.couleur.primaire} />
+            <SectionTitle title={`Comment interpréter le ${data.nom} dans les 12 maisons astrologiques ?`} color={data.couleur.primaire} />
           </ScrollReveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {data.maisons.map((m, i) => (
@@ -379,7 +404,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ AMOUR ━━━━━━━━━━━ */}
         <ContentSection id="amour">
           <ScrollReveal>
-            <SectionTitle title="Cœur & Alchimie" color={data.couleur.primaire} />
+            <SectionTitle title={`${data.nom} en amour : compatibilité et style affectif`} color={data.couleur.primaire} />
             <Prose>{data.amour.texte}</Prose>
           </ScrollReveal>
 
@@ -422,7 +447,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ TRAVAIL & ARGENT ━━━━━━━━━━━ */}
         <ContentSection id="travail">
           <ScrollReveal>
-            <SectionTitle title="Réalisation & Matière" color={data.couleur.primaire} />
+            <SectionTitle title={`${data.nom} au travail : métiers, argent et ambition`} color={data.couleur.primaire} />
             <Prose>{data.travail.texte}</Prose>
           </ScrollReveal>
 
@@ -462,7 +487,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ PLANÈTES ━━━━━━━━━━━ */}
         <ContentSection id="planetes">
           <ScrollReveal>
-            <SectionTitle title={`Les planètes en ${data.nom}`} color={data.couleur.primaire} />
+            <SectionTitle title={`Que signifient les planètes en ${data.nom} ?`} color={data.couleur.primaire} />
           </ScrollReveal>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {data.planetes.map((p, i) => (
@@ -476,7 +501,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ COMPATIBILITÉS ━━━━━━━━━━━ */}
         <ContentSection id="compatibilites">
           <ScrollReveal>
-            <SectionTitle title="Duo & Dynamiques" color={data.couleur.primaire} />
+            <SectionTitle title={`Compatibilité du ${data.nom} avec les 12 signes`} color={data.couleur.primaire} />
             <p className="mb-8" style={{ color: "rgb(var(--muted))" }}>
               Comment le {data.nom} interagit avec chacun des 12 signes du Zodiaque.
             </p>
@@ -493,7 +518,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ ASCENDANT ━━━━━━━━━━━ */}
         <ContentSection id="ascendant">
           <ScrollReveal>
-            <SectionTitle title={`L'Ascendant ${data.nom}`} color={data.couleur.primaire} />
+            <SectionTitle title={`Ascendant ${data.nom} : apparence, tempérament et vigilances`} color={data.couleur.primaire} />
             <Prose>{data.ascendant.texte}</Prose>
           </ScrollReveal>
 
@@ -509,7 +534,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ CORRESPONDANCES ━━━━━━━━━━━ */}
         <ContentSection id="correspondances">
           <ScrollReveal>
-            <SectionTitle title="Correspondances symboliques" color={data.couleur.primaire} />
+            <SectionTitle title={`Correspondances du ${data.nom} : pierres, plantes et animaux`} color={data.couleur.primaire} />
           </ScrollReveal>
 
           {/* Étoiles fixes */}
@@ -556,7 +581,7 @@ export default async function SignePage({
         {data.geographie.length > 0 && (
           <ContentSection id="geographie">
             <ScrollReveal>
-              <SectionTitle title="Géographie traditionnelle" color={data.couleur.primaire} />
+              <SectionTitle title={`Géographie astrologique du ${data.nom} : pays et régions`} color={data.couleur.primaire} />
               <div className="grid gap-3 sm:grid-cols-2">
                 {data.geographie.map((g) => (
                   <div key={g.pays} className="rounded-xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] px-5 py-4">
@@ -573,7 +598,7 @@ export default async function SignePage({
         {data.figuresCelebres.length > 0 && (
           <ContentSection id="celebrites">
             <ScrollReveal>
-              <SectionTitle title="Figures de légende" color={data.couleur.primaire} />
+              <SectionTitle title={`Célébrités et personnalités célèbres du ${data.nom}`} color={data.couleur.primaire} />
             </ScrollReveal>
             <div className="grid gap-4 sm:grid-cols-2">
               {data.figuresCelebres.map((f, i) => (
@@ -595,7 +620,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ FAQ ━━━━━━━━━━━ */}
         <ContentSection id="faq">
           <ScrollReveal>
-            <SectionTitle title="Foire aux questions" color={data.couleur.primaire} />
+            <SectionTitle title={`Questions fréquentes sur le signe du ${data.nom}`} color={data.couleur.primaire} />
           </ScrollReveal>
           <div className="space-y-4">
             {data.faq.map((f, i) => (

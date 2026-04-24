@@ -144,6 +144,7 @@ export type Planet = {
 
   aspects?: Record<string, PlanetAspectSet>;
   dansUnTheme?: string[];
+  faq?: Array<{ question: string; reponse: string }>;
 };
 
 export const PLANETS = planetes as unknown as Planet[];

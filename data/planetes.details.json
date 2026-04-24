@@ -1280,7 +1280,29 @@
         "trigone": "Le Soleil trigone Pluton donne profondeur, force intérieure, lucidité sans illusion et puissance naturelle de régénération. Il y a sagacité et autorité morale.",
         "opposition": "Le Soleil opposé Pluton met souvent en scène les enjeux majeurs de pouvoir, de domination, de contrôle ou de transformation à travers la relation, le destin ou les crises."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente le Soleil en astrologie ?",
+        "reponse": "Le Soleil représente l'identité profonde, la volonté consciente, le rayonnement personnel et la force vitale. C'est le noyau central du thème natal autour duquel s'organisent toutes les autres énergies."
+      },
+      {
+        "question": "Le Soleil est-il une planète en astrologie ?",
+        "reponse": "En astronomie, le Soleil est une étoile. En astrologie, il est classé comme luminaire avec la Lune. On l'appelle souvent « planète » par convention, car il joue un rôle central dans le thème natal."
+      },
+      {
+        "question": "Quel est le domicile du Soleil ?",
+        "reponse": "Le domicile du Soleil est le Lion, où il exprime pleinement son rayonnement et sa créativité. Il est en exaltation en Bélier, en exil en Verseau et en chute en Balance."
+      },
+      {
+        "question": "Comment interpréter le Soleil dans un thème natal ?",
+        "reponse": "Le Soleil indique ce que l'on cherche à devenir, la direction de vie et la volonté profonde. Son signe, sa maison et ses aspects révèlent comment la personne affirme son identité."
+      },
+      {
+        "question": "Le Soleil et le signe solaire sont-ils la même chose ?",
+        "reponse": "Le signe solaire est le signe du zodiaque où se trouvait le Soleil à la naissance. Le Soleil en tant que planète a aussi une maison, des aspects et des dignités qui enrichissent son interprétation."
+      }
+    ]
   },
   {
     "slug": "lune",
@@ -2064,7 +2086,29 @@
         "trigone": "La Lune trigone Pluton donne profondeur, intensité juste et capacité à traverser les crises.",
         "opposition": "La Lune opposée Pluton peut mettre en scène des luttes affectives, des attachements puissants ou des transformations relationnelles profondes."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente la Lune en astrologie ?",
+        "reponse": "La Lune représente la vie émotionnelle, la sensibilité, les besoins affectifs, la mémoire et l'instinct. En tant que luminaire, elle symbolise le monde intérieur, le lien à la mère et au foyer."
+      },
+      {
+        "question": "Quelle est la différence entre signe solaire et signe lunaire ?",
+        "reponse": "Le signe solaire reflète l'identité consciente et la volonté. Le signe lunaire révèle la nature émotionnelle, les réactions instinctives et les besoins affectifs profonds de la personne."
+      },
+      {
+        "question": "La Lune change-t-elle de signe chaque jour ?",
+        "reponse": "La Lune a une révolution de 27,3 jours et change de signe environ tous les deux jours et demi. C'est l'astre le plus rapide du thème, ce qui explique sa nature changeante et cyclique."
+      },
+      {
+        "question": "Comment interpréter la Lune dans un thème natal ?",
+        "reponse": "La Lune en signe montre comment on ressent et réagit. En maison, elle indique le domaine où l'on cherche la sécurité émotionnelle. Ses aspects précisent la qualité de la vie affective."
+      },
+      {
+        "question": "La Lune influence-t-elle les émotions ?",
+        "reponse": "En astrologie, la Lune est directement liée aux émotions, à l'humeur et aux réactions instinctives. Son domicile est le Cancer, signe associé à la sensibilité, la protection et la vie intérieure."
+      }
+    ]
   },
   {
     "slug": "mercure",
@@ -2855,7 +2899,29 @@
         "trigone": "Mercure trigone Pluton donne profondeur, perspicacité et puissance d’interprétation.",
         "opposition": "Mercure opposé Pluton peut mettre en scène des luttes d’idées, des tensions de contrôle mental ou des affrontements de vérité."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Mercure en astrologie ?",
+        "reponse": "Mercure est la planète personnelle de l'intelligence, de la communication, de l'apprentissage et des échanges. Son mot-clé est « Comprendre ». Il régit la pensée, le langage et la capacité d'analyse."
+      },
+      {
+        "question": "Mercure rétrograde a-t-il un vrai impact ?",
+        "reponse": "En astrologie, Mercure rétrograde invite à la révision, au ralentissement et à la relecture. Ce n'est pas une fatalité mais une période propice à la réflexion, aux corrections et aux retours en arrière."
+      },
+      {
+        "question": "Quel est le domicile de Mercure ?",
+        "reponse": "Mercure a deux domiciles : les Gémeaux, où il exprime sa mobilité et sa curiosité, et la Vierge, où il manifeste sa rigueur analytique et son sens du détail et du classement."
+      },
+      {
+        "question": "Comment interpréter Mercure dans un thème natal ?",
+        "reponse": "Mercure en signe montre le style de pensée et de communication. En maison, il indique le domaine privilégié des échanges. Ses aspects révèlent la fluidité ou les tensions de l'intellect."
+      },
+      {
+        "question": "Mercure influence-t-il la communication ?",
+        "reponse": "Mercure gouverne toute forme de communication : parole, écriture, échanges, apprentissage et transmission. Sa position dans le thème révèle comment la personne pense, s'exprime et relie les informations."
+      }
+    ]
   },
   {
     "slug": "venus",
@@ -3644,7 +3710,29 @@
         "trigone": "Vénus trigone Pluton donne intensité juste, profondeur, magnétisme et capacité de régénération affective.",
         "opposition": "Vénus opposée Pluton peut mettre en scène des enjeux de pouvoir, de dépendance ou de transformation majeure dans le lien."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Vénus en astrologie ?",
+        "reponse": "Vénus est la planète personnelle de l'amour, de l'attraction, du plaisir et de l'harmonie. Son mot-clé est « Aimer ». Elle symbolise la manière d'aimer, de séduire et d'apprécier la beauté."
+      },
+      {
+        "question": "Vénus détermine-t-elle la vie amoureuse ?",
+        "reponse": "Vénus décrit le style affectif, les goûts et la façon d'entrer en relation. Elle ne détermine pas les événements amoureux mais indique comment la personne aime, attire et crée du lien."
+      },
+      {
+        "question": "Quel est le domicile de Vénus ?",
+        "reponse": "Vénus a deux domiciles : le Taureau, où elle exprime la sensualité et le goût des plaisirs concrets, et la Balance, où elle manifeste le sens de l'harmonie, du lien et de l'esthétique."
+      },
+      {
+        "question": "Comment interpréter Vénus dans un thème natal ?",
+        "reponse": "Vénus en signe révèle le style amoureux et les valeurs. En maison, elle montre le domaine où l'on cherche l'harmonie. Ses aspects indiquent la facilité ou les défis dans les relations."
+      },
+      {
+        "question": "Vénus est-elle liée à l'argent en astrologie ?",
+        "reponse": "Oui, Vénus est associée aux valeurs, y compris matérielles. Elle régit ce que l'on estime, ce que l'on possède et la manière de gérer ses ressources. Le Taureau, son domicile, renforce ce lien."
+      }
+    ]
   },
   {
     "slug": "mars",
@@ -4431,7 +4519,29 @@
         "trigone": "Mars trigone Pluton donne profondeur, puissance et grande capacité de régénération dans l’effort.",
         "opposition": "Mars opposé Pluton peut mettre en scène des affrontements de pouvoir, des tensions extrêmes ou des conflits de domination."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Mars en astrologie ?",
+        "reponse": "Mars est la planète personnelle de l'action, de l'énergie, du désir et de l'affirmation. Son mot-clé est « Agir ». Il symbolise la force de combat, le courage, l'initiative et la pulsion de vie."
+      },
+      {
+        "question": "Mars est-il toujours agressif dans un thème ?",
+        "reponse": "Non, Mars représente l'énergie d'action sous toutes ses formes. Bien aspecté, il donne courage, initiative et détermination. Mal aspecté, il peut exprimer colère, impulsivité ou conflit."
+      },
+      {
+        "question": "Quel est le domicile de Mars ?",
+        "reponse": "Mars a deux domiciles : le Bélier, où il exprime l'élan pionnier, l'audace et l'initiative directe, et le Scorpion, où il manifeste la puissance stratégique, l'endurance et l'intensité."
+      },
+      {
+        "question": "Comment interpréter Mars dans un thème natal ?",
+        "reponse": "Mars en signe indique comment la personne agit et s'affirme. En maison, il montre le domaine où l'énergie est mobilisée. Ses aspects révèlent la fluidité ou les tensions dans l'action."
+      },
+      {
+        "question": "Mars influence-t-il la sexualité en astrologie ?",
+        "reponse": "Mars est traditionnellement lié au désir physique, à la pulsion et à l'énergie sexuelle. Sa position en signe et en maison indique comment la personne vit et exprime son désir et sa vitalité."
+      }
+    ]
   },
   {
     "slug": "jupiter",
@@ -5250,7 +5360,29 @@
         "trigone": "Jupiter trigone Pluton donne puissance de renouvellement, profondeur de conviction, force intérieure et capacité à élargir sa vie de manière décisive.",
         "opposition": "Jupiter opposé Pluton met souvent en scène un affrontement entre vision, pouvoir, croyance, contrôle et transformation, à travers les autres ou les grandes circonstances de vie."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Jupiter en astrologie ?",
+        "reponse": "Jupiter est la planète sociale de l'expansion, de la croissance, du sens et de la confiance. Son mot-clé est « Grandir ». Il symbolise l'ouverture, la sagesse, la chance et l'élargissement des horizons."
+      },
+      {
+        "question": "Jupiter est-il la planète de la chance ?",
+        "reponse": "Jupiter est traditionnellement associé à la chance, l'abondance et la protection. En réalité, il amplifie ce qu'il touche : il favorise la croissance et les opportunités, mais peut aussi amplifier les excès."
+      },
+      {
+        "question": "Quel est le domicile de Jupiter ?",
+        "reponse": "Jupiter a deux domiciles : le Sagittaire, où il exprime l'élan vers le lointain, la quête de sens et la philosophie, et les Poissons, où il manifeste la compassion, la foi et l'ouverture spirituelle."
+      },
+      {
+        "question": "Comment interpréter Jupiter dans un thème natal ?",
+        "reponse": "Jupiter en signe montre le domaine d'expansion et de confiance. En maison, il indique où la croissance est favorisée. Ses aspects révèlent comment la personne développe sa vision et sa sagesse."
+      },
+      {
+        "question": "Combien de temps Jupiter reste-t-il dans un signe ?",
+        "reponse": "Jupiter a une révolution de 12 ans et reste environ un an dans chaque signe du zodiaque. C'est une planète sociale dont le transit marque des cycles de croissance et d'opportunité."
+      }
+    ]
   },
   {
     "slug": "saturne",
@@ -6076,7 +6208,29 @@
         "trigone": "Saturne trigone Pluton donne puissance de résistance, lucidité, capacité à traverser les épreuves et à bâtir sur des bases transformées.",
         "opposition": "Saturne opposé Pluton met souvent en scène des enjeux de domination, de peur, de contrainte, de perte de contrôle et de transformation forcée."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Saturne en astrologie ?",
+        "reponse": "Saturne est la planète sociale de la structure, du temps, de la limite et de la responsabilité. Son mot-clé est « Structurer ». Il symbolise la maturité, la patience, l'épreuve et la construction durable."
+      },
+      {
+        "question": "Saturne est-il une planète maléfique ?",
+        "reponse": "En astrologie traditionnelle, Saturne était considéré comme maléfique. En astrologie moderne, il est vu comme un maître exigeant qui structure, fait mûrir et donne de la solidité par l'épreuve et la persévérance."
+      },
+      {
+        "question": "Quel est le retour de Saturne ?",
+        "reponse": "Le retour de Saturne survient vers 29 ans et demi, quand Saturne revient à sa position natale. C'est un passage de maturation majeur qui confronte l'individu à ses responsabilités et à sa structure de vie."
+      },
+      {
+        "question": "Comment interpréter Saturne dans un thème natal ?",
+        "reponse": "Saturne en signe montre comment on structure sa vie et où se situent les épreuves. En maison, il indique le domaine qui demande patience et effort. Ses aspects précisent la rigidité ou la solidité."
+      },
+      {
+        "question": "Saturne limite-t-il ou structure-t-il ?",
+        "reponse": "Saturne fait les deux. Il impose des limites pour obliger à construire avec rigueur. Son domicile est le Capricorne et le Verseau. Bien vécu, il donne solidité, endurance et sagesse durement acquise."
+      }
+    ]
   },
   {
     "slug": "uranus",
@@ -6892,7 +7046,29 @@
         "trigone": "Uranus trigone Pluton donne puissance de régénération, lucidité transformatrice et capacité à accompagner de grands changements.",
         "opposition": "Uranus opposé Pluton met souvent en scène les affrontements entre ancien monde et renouveau, contrôle et libération, pouvoir et rupture."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Uranus en astrologie ?",
+        "reponse": "Uranus est une planète transpersonnelle d'éveil, de rupture et de libération. Son mot-clé est « Libérer ». Il symbolise l'innovation, l'émancipation, l'originalité et les prises de conscience soudaines."
+      },
+      {
+        "question": "Uranus est-il une planète générationnelle ?",
+        "reponse": "Oui, avec une révolution de 84 ans, Uranus reste environ 7 ans dans un signe. Il marque les générations par des thèmes communs de rupture, d'innovation et de transformation collective."
+      },
+      {
+        "question": "Quel est le domicile d'Uranus ?",
+        "reponse": "Le domicile d'Uranus est le Verseau, signe de l'émancipation, de la pensée libre et du progrès collectif. Cette attribution moderne complète celle de Saturne, maître traditionnel du Verseau."
+      },
+      {
+        "question": "Comment interpréter Uranus dans un thème natal ?",
+        "reponse": "Uranus en signe montre la forme de libération propre à une génération. En maison, il indique le domaine de rupture personnelle. Ses aspects révèlent la capacité à gérer l'imprévu et le changement."
+      },
+      {
+        "question": "Uranus provoque-t-il des changements soudains ?",
+        "reponse": "Oui, Uranus est l'archétype du changement brusque, de l'éclair et de la révélation. Ses transits provoquent souvent des ruptures, des libérations et des réorganisations inattendues dans la vie."
+      }
+    ]
   },
   {
     "slug": "neptune",
@@ -7724,7 +7900,29 @@
         "trigone": "Neptune trigone Pluton donne puissance de perception, profondeur spirituelle, capacité à accompagner les mutations psychiques et grande intelligence du mystère.",
         "opposition": "Neptune opposé Pluton met souvent en tension abandon et contrôle, dissolution et intensité, inspiration et forces profondes de transformation."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Neptune en astrologie ?",
+        "reponse": "Neptune est une planète transpersonnelle d'inspiration, de dissolution et d'ouverture à l'invisible. Son mot-clé est « Inspirer ». Il symbolise l'imaginaire, la compassion, l'idéal et la quête mystique."
+      },
+      {
+        "question": "Neptune est-il lié à la spiritualité ?",
+        "reponse": "Oui, Neptune est la planète de la spiritualité, de la mystique et de la transcendance. Il ouvre à des dimensions subtiles, mais peut aussi mener à l'illusion, la confusion ou la fuite du réel."
+      },
+      {
+        "question": "Quel est le domicile de Neptune ?",
+        "reponse": "Le domicile de Neptune est les Poissons, signe de la sensibilité universelle, de la compassion et de la dissolution des frontières. Cette attribution moderne complète celle de Jupiter, maître traditionnel."
+      },
+      {
+        "question": "Comment interpréter Neptune dans un thème natal ?",
+        "reponse": "Neptune en signe indique l'idéal d'une génération. En maison, il montre le domaine où l'on cherche l'inspiration ou risque la confusion. Ses aspects révèlent la sensibilité et l'intuition."
+      },
+      {
+        "question": "Neptune rend-il les choses floues dans un thème ?",
+        "reponse": "Neptune dissout les contours nets et peut créer du flou, de l'idéalisation ou de la confusion. Sa révolution de 165 ans en fait une influence subtile qui brouille les repères mais ouvre à l'intuition."
+      }
+    ]
   },
   {
     "slug": "pluton",
@@ -8552,6 +8750,28 @@
         "trigone": "Pluton trigone Neptune donne profondeur spirituelle, intelligence du mystère, capacité à accompagner les mutations psychiques et sens de l’alchimie intérieure.",
         "opposition": "Pluton opposé Neptune met souvent en tension pouvoir et abandon, contrôle et dissolution, transformation radicale et appel de la fusion."
       }
-    }
+    },
+    "faq": [
+      {
+        "question": "Que représente Pluton en astrologie ?",
+        "reponse": "Pluton est une planète transpersonnelle de transformation radicale, de profondeur et de régénération. Son mot-clé est « Transformer ». Il symbolise la mort symbolique, le pouvoir, l'ombre et la renaissance."
+      },
+      {
+        "question": "Pluton est-il encore considéré en astrologie ?",
+        "reponse": "Oui, malgré son reclassement astronomique en planète naine, Pluton reste essentiel en astrologie. Sa puissance symbolique de transformation, de crise et de régénération est unanimement reconnue."
+      },
+      {
+        "question": "Quel est le domicile de Pluton ?",
+        "reponse": "Le domicile de Pluton est le Scorpion, signe de l'intensité, de la profondeur et de la transformation. Cette attribution moderne complète celle de Mars, maître traditionnel du Scorpion."
+      },
+      {
+        "question": "Comment interpréter Pluton dans un thème natal ?",
+        "reponse": "Pluton en signe marque une génération par ses enjeux de transformation. En maison, il indique le domaine de crise et de renaissance personnelle. Ses aspects révèlent l'intensité et le pouvoir intérieur."
+      },
+      {
+        "question": "Pluton est-il lié aux transformations profondes ?",
+        "reponse": "Oui, Pluton est l'archétype de la transformation radicale. Avec une révolution de 248 ans, il impose des mutations profondes, des crises de dépossession et des renaissances dans les domaines qu'il touche."
+      }
+    ]
   }
 ]

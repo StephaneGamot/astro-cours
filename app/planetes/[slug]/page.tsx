@@ -33,6 +33,8 @@ import {
   TableOfContents,
 } from "./ui";
 
+import Link from "next/link";
+
 import {
   Sparkles,
   Sun,
@@ -148,6 +150,18 @@ function buildJsonLd(planet: ReturnType<typeof getPlanet>) {
           item: absoluteUrl(item.href),
         })),
       },
+      ...(planet.faq && planet.faq.length > 0
+        ? [
+            {
+              "@type": "FAQPage",
+              mainEntity: planet.faq.map((f) => ({
+                "@type": "Question",
+                name: f.question,
+                acceptedAnswer: { "@type": "Answer", text: f.reponse },
+              })),
+            },
+          ]
+        : []),
     ],
   };
 
@@ -217,7 +231,10 @@ function buildTocSections(planet: NonNullable<ReturnType<typeof getPlanet>>) {
     sections.push({ id: "maisons", label: "Dans les maisons" });
 
   if (has(planet.aspects))
-    sections.push({ id: "aspects", label: "Alchimie des aspects" });
+    sections.push({ id: "aspects", label: "Aspects" });
+
+  if (has(planet.faq))
+    sections.push({ id: "faq", label: "FAQ" });
 
   return sections;
 }
@@ -357,6 +374,30 @@ export default async function PlanetPage({
           </div>
         </header>
 
+        {/* ━━━━━━━━━━━ DÉFINITION SEO (Featured Snippet) ━━━━━━━━━━━ */}
+        <div className="mx-auto max-w-4xl mb-12">
+          <div className="rounded-2xl border px-6 py-5"
+               style={{ borderColor: `${t.color}`, background: `${t.color.replace(/[\d.]+\)$/, '0.06)')}` }}>
+            <p className="text-sm font-semibold uppercase tracking-widest" style={{ color: `${t.color.replace(/[\d.]+\)$/, '0.8)')}` }}>
+              Définition
+            </p>
+            <p className="mt-2 text-base leading-relaxed text-slate-300 sm:text-lg">
+              En astrologie, <strong className="text-white">{planet.name}</strong> est {planet.famille === "Luminaire" ? "un luminaire" : `une planète ${(planet.famille || "").toLowerCase()}`} dont
+              la <Link href="/aspects" className="underline decoration-1 underline-offset-2" style={{ color: t.color }}>fonction symbolique</Link> est
+              liée à {planet.identite?.fonction || planet.identite?.symbolique?.slice(0, 80) || "l'expression de soi"}.{" "}
+              {planet.identite?.dignites?.domicile && <>Son domicile est en <strong className="text-white">{planet.identite.dignites.domicile}</strong>.</>}
+            </p>
+          </div>
+
+          {/* APP Intro */}
+          <p className="mt-8 text-base leading-relaxed text-slate-400 sm:text-lg">
+            <strong className="text-white">{planet.name} en astrologie</strong> est bien plus qu&apos;un simple astre dans votre thème natal.
+            Quelle est sa fonction essentielle ? Comment l&apos;interpréter dans chaque signe et chaque maison ?
+            Ce guide encyclopédique de <strong className="text-white">{planet.name}</strong> vous donne les clés pour comprendre
+            son symbolisme, ses aspects majeurs et son influence concrète dans votre vie.
+          </p>
+        </div>
+
         {/* ============================================================ */}
         {/*  MAIN CONTENT (with optional TOC sidebar)                    */}
         {/* ============================================================ */}
@@ -367,7 +408,7 @@ export default async function PlanetPage({
             {/* ──── ARCHETYPE SACRÉ ──── */}
             <Section id="archetype">
               <SectionHeading
-                title="L'archétype sacré"
+                title={`Quel est l'archétype de ${planet.name} en astrologie ?`}
                 id="archetype"
                 accentDot={t.dot}
                 accentText={t.text}
@@ -452,7 +493,7 @@ export default async function PlanetPage({
             {has(planet.introductionLongue) && (
               <Section id="genese">
                 <SectionHeading
-                  title="La genèse"
+                  title={`Genèse et origines de ${planet.name}`}
                   icon={BookOpen}
                   id="genese"
                   accentDot={t.dot}
@@ -469,7 +510,7 @@ export default async function PlanetPage({
             {has(planet.fonctionEssentielle) && (
               <Section id="fonction">
                 <SectionHeading
-                  title="Fonction essentielle"
+                  title={`Quelle est la fonction de ${planet.name} dans un thème natal ?`}
                   icon={Target}
                   id="fonction"
                   accentDot={t.dot}
@@ -501,12 +542,12 @@ export default async function PlanetPage({
             {has(planet.mythologie) && (
               <Section id="mythologie">
                 <SectionHeading
-                  title="Mythologie"
+                  title={`Mythologie de ${planet.name} : dieux et archétypes`}
                   icon={Crown}
                   id="mythologie"
                   accentDot={t.dot}
                   accentText={t.text}
-                  subtitle="Dieux, héros et archétypes solaires"
+                  subtitle="Récits anciens et symbolisme"
                 />
                 <ProseBlock paragraphs={planet.mythologie!} firstLetterDrop />
               </Section>
@@ -543,7 +584,7 @@ export default async function PlanetPage({
             {/* ──── PSYCHÉ HUMAINE ──── */}
             <Section id="psyche">
               <SectionHeading
-                title="La psyché humaine"
+                title={`${planet.name} et la psyché humaine : forces et ombres`}
                 icon={Brain}
                 id="psyche"
                 accentDot={t.dot}
@@ -643,7 +684,7 @@ export default async function PlanetPage({
             {has(analyseProfonde) && (
               <Section id="profondeur">
                 <SectionHeading
-                  title="Analyse de profondeur"
+                  title={`Comment interpréter ${planet.name} en profondeur ?`}
                   icon={Eye}
                   id="profondeur"
                   accentDot={t.dot}
@@ -659,7 +700,7 @@ export default async function PlanetPage({
             {(has(rapportAutorite) || has(planet.rapportALaReussite)) && (
               <Section id="pere-autorite">
                 <SectionHeading
-                  title="Père, autorité et réussite"
+                  title={`${planet.name}, le père et l'autorité`}
                   icon={User}
                   id="pere-autorite"
                   accentDot={t.dot}
@@ -728,7 +769,7 @@ export default async function PlanetPage({
             {has(planet.champsExperience) && (
               <Section id="champs">
                 <SectionHeading
-                  title="Champs d'expérience"
+                  title={`Dans quels domaines de vie ${planet.name} agit-${planet.name === "Lune" || planet.name === "Vénus" ? "elle" : "il"} ?`}
                   subtitle="Comment l'astre active les grands domaines de vie."
                   icon={Globe}
                   id="champs"
@@ -758,7 +799,7 @@ export default async function PlanetPage({
             {configFortFaible && (
               <Section id="configurations">
                 <SectionHeading
-                  title="Configurations de force"
+                  title={`${planet.name} fort, faible ou affligé : quelles différences ?`}
                   icon={HeartPulse}
                   id="configurations"
                   accentDot={t.dot}
@@ -797,7 +838,7 @@ export default async function PlanetPage({
             {has(planet.correspondances) && (
               <Section id="correspondances">
                 <SectionHeading
-                  title="Correspondances traditionnelles"
+                  title={`Correspondances de ${planet.name} : corps, pierres et couleurs`}
                   icon={Gem}
                   id="correspondances"
                   accentDot={t.dot}
@@ -824,7 +865,7 @@ export default async function PlanetPage({
             {/* ──── PLAN MÉDICAL ──── */}
             {has(planet.medical) && (
               <Section id="medical">
-                <SectionHeading title="Plan médical et vitalité" icon={HeartPulse} id="medical" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`${planet.name} et la santé : plan médical et vitalité`} icon={HeartPulse} id="medical" accentDot={t.dot} accentText={t.text} />
                 <GlassCard accent={t} className="p-6 md:p-10">
                   <ProseBlock paragraphs={planet.medical!} />
                 </GlassCard>
@@ -834,7 +875,7 @@ export default async function PlanetPage({
             {/* ──── SOCIABILITÉ ──── */}
             {has(planet.social) && (
               <Section id="social">
-                <SectionHeading title="Sociabilité et magnétisme" icon={Activity} id="social" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`${planet.name} et la sociabilité : magnétisme et relations`} icon={Activity} id="social" accentDot={t.dot} accentText={t.text} />
                 <GlassCard accent={t} className="p-6 md:p-10">
                   <ProseBlock paragraphs={planet.social!} />
                 </GlassCard>
@@ -844,7 +885,7 @@ export default async function PlanetPage({
             {/* ──── SPIRITUEL ──── */}
             {has(planet.spirituel) && (
               <Section id="spirituel">
-                <SectionHeading title="Plan spirituel" icon={Flame} id="spirituel" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`Dimension spirituelle de ${planet.name}`} icon={Flame} id="spirituel" accentDot={t.dot} accentText={t.text} />
                 <GlassCard accent={t} className="p-6 md:p-10">
                   <ProseBlock paragraphs={planet.spirituel!} />
                 </GlassCard>
@@ -854,7 +895,7 @@ export default async function PlanetPage({
             {/* ──── APPARENCE ──── */}
             {has(planet.apparence) && (
               <Section id="apparence">
-                <SectionHeading title="Apparence physique du type" icon={Eye} id="apparence" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`Apparence physique du type ${planet.name}`} icon={Eye} id="apparence" accentDot={t.dot} accentText={t.text} />
                 <GlassCard accent={t} className="p-6 md:p-10">
                   <ProseBlock paragraphs={planet.apparence!} />
                 </GlassCard>
@@ -874,7 +915,7 @@ export default async function PlanetPage({
             {/* ──── PROFESSIONS ──── */}
             {has(planet.professions) && (
               <Section id="professions">
-                <SectionHeading title="Professions" icon={Briefcase} id="professions" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`Quels métiers pour ${planet.name} dominant ?`} icon={Briefcase} id="professions" accentDot={t.dot} accentText={t.text} />
                 <GlassCard accent={t} className="p-6 md:p-10">
                   <DetailList title="Métiers et vocations" items={planet.professions} accentDot={t.dot} accentText={t.text} icon={Briefcase} />
                 </GlassCard>
@@ -884,7 +925,7 @@ export default async function PlanetPage({
             {/* ──── DESTIN SENTIMENTAL ──── */}
             {has(planet.destinSentimental) && (
               <Section id="destin-sentimental">
-                <SectionHeading title="Destin sentimental" icon={Heart} id="destin-sentimental" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`${planet.name} et le destin amoureux`} icon={Heart} id="destin-sentimental" accentDot={t.dot} accentText={t.text} />
                 <GlassCard accent={t} className="p-6 md:p-10">
                   <ProseBlock paragraphs={planet.destinSentimental!} />
                 </GlassCard>
@@ -894,7 +935,7 @@ export default async function PlanetPage({
             {/* ──── DESTIN FINANCIER ──── */}
             {has(planet.destinFinancier) && (
               <Section id="destin-financier">
-                <SectionHeading title="Destin financier" icon={Briefcase} id="destin-financier" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`${planet.name} et l'argent : destin financier`} icon={Briefcase} id="destin-financier" accentDot={t.dot} accentText={t.text} />
                 <GlassCard accent={t} className="p-6 md:p-10">
                   <ProseBlock paragraphs={planet.destinFinancier!} />
                 </GlassCard>
@@ -922,7 +963,7 @@ export default async function PlanetPage({
             {has(planet.dansLesSignes) && (
               <Section id="signes">
                 <SectionHeading
-                  title="Le zodiaque"
+                  title={`${planet.name} dans les 12 signes du zodiaque`}
                   subtitle="L'influence de l'astre à travers les douze signes."
                   icon={Star}
                   id="signes"
@@ -970,7 +1011,7 @@ export default async function PlanetPage({
             {has(planet.dansLesMaisons) && (
               <Section id="maisons">
                 <SectionHeading
-                  title="Les maisons"
+                  title={`${planet.name} dans les 12 maisons astrologiques`}
                   subtitle="Les théâtres de vie où l'astre se manifeste."
                   icon={Target}
                   id="maisons"
@@ -1011,7 +1052,7 @@ export default async function PlanetPage({
 
             {has(planet.aspects) && (
               <Section id="aspects">
-                <SectionHeading title="Alchimie des aspects" icon={Sparkles} id="aspects" accentDot={t.dot} accentText={t.text} />
+                <SectionHeading title={`Les aspects de ${planet.name} aux autres planètes`} icon={Sparkles} id="aspects" accentDot={t.dot} accentText={t.text} />
                 <div className="space-y-6">
                   {Object.entries(planet.aspects || {}).map(([key, aspect]) => (
                     <GlassCard key={key} accent={t} className="p-6 md:p-8" id={sectionId(`aspect-${key}`)}>
@@ -1079,6 +1120,40 @@ export default async function PlanetPage({
             </div>
           </aside>
         </div>
+
+        {/* ============================================================ */}
+        {/*  FAQ                                                          */}
+        {/* ============================================================ */}
+
+        {has(planet.faq) && (
+          <Section id="faq">
+            <SectionHeading
+              title={`Questions fréquentes sur ${planet.name} en astrologie`}
+              id="faq"
+              accentDot={t.dot}
+              accentText={t.text}
+            />
+            <div className="space-y-4">
+              {planet.faq!.map((f, i) => (
+                <details
+                  key={i}
+                  className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md"
+                  {...(i === 0 ? { open: true } : {})}
+                >
+                  <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                    <span className="flex items-center justify-between">
+                      {f.question}
+                      <span className={`ml-3 ${t.text} opacity-60 transition-transform group-open:rotate-45`}>+</span>
+                    </span>
+                  </summary>
+                  <p className="px-6 pb-6 text-sm leading-relaxed text-slate-400 md:text-base">
+                    {f.reponse}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </Section>
+        )}
 
         {/* ============================================================ */}
         {/*  FOOTER / MOT-CLÉ + NAV                                      */}
