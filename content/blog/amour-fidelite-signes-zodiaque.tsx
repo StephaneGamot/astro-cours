@@ -10,9 +10,9 @@ const COVER_URL = `${SITE_URL}/images/blog/amour-fidelite-signes.webp`;
 
 export const meta = {
   slug: "amour-fidelite-signes-zodiaque",
-  title: "Amour et fidélité selon les 12 signes du zodiaque",
+  title: "Amour et fidélité des 12 signes du zodiaque",
   description:
-    "Comment chaque signe du zodiaque vit l’amour et la fidélité : besoins affectifs, compatibilités amoureuses",
+    "Comment chaque signe du zodiaque vit l’amour et la fidélité : besoins affectifs, compatibilités amoureuses. Découvrez les schémas amoureux de votre signe.",
   date: "2026-03-18",
   tags: ["amour", "relation", "signe", "psychologie", "compatibilité"],
   readingLevel: "débutant" as const,
@@ -556,6 +556,19 @@ export default function Post() {
           </div>
         </header>
 
+        {/* DEFINITION BOX — Featured Snippet */}
+        <div className="rounded-2xl border border-rose-400/20 bg-rose-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-rose-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            L&apos;<strong>amour et la fidélité en astrologie</strong> s&apos;analysent à travers le signe solaire, la position de <Link href="/planetes/venus">Vénus</Link> et la <Link href="/maisons/maison-7">maison VII</Link> du <Link href="/blog/qu-est-ce-qu-un-theme-astral">thème natal</Link>. Chaque signe du zodiaque possède un schéma affectif distinct qui influence profondément sa façon d&apos;aimer, de s&apos;engager et de rester fidèle.
+          </p>
+        </div>
+
+        {/* APP INTRO */}
+        <p className="text-lg leading-relaxed text-text/85">
+          Votre partenaire est-il <strong>fidèle selon son signe astrologique</strong> ? Cette question brûlante mérite mieux que les clichés habituels. En réalité, chaque signe du zodiaque vit l&apos;amour selon un schéma affectif qui lui est propre — et la fidélité n&apos;a pas le même sens pour un Bélier que pour un Scorpion. Découvrez les 12 portraits amoureux complets, avec besoins affectifs, points forts et zones de fragilité.
+        </p>
+
         {/* INTRO */}
         <section className="space-y-4" aria-labelledby="intro-article">
           <H2 id="intro-article">Aimer n’est pas seulement ressentir</H2>
@@ -1013,6 +1026,41 @@ export default function Post() {
             affective devient beaucoup plus fine, beaucoup plus juste, et
             beaucoup plus révélatrice.
           </p>
+        </section>
+
+        {/* FAQ */}
+        <section className="space-y-6" aria-labelledby="faq-amour-fidelite">
+          <H2 id="faq-amour-fidelite">Questions fréquentes sur l&apos;amour et la fidélité des signes</H2>
+
+          <div className="space-y-4">
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">Quel est le signe le plus fidèle en amour ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Le <Link href="/signes/taureau" className="underline decoration-white/30 hover:decoration-white/60 transition">Taureau</Link>, le <Link href="/signes/scorpion" className="underline decoration-white/30 hover:decoration-white/60 transition">Scorpion</Link> et le <Link href="/signes/cancer" className="underline decoration-white/30 hover:decoration-white/60 transition">Cancer</Link> sont généralement considérés comme les signes les plus fidèles. Le Taureau par besoin de stabilité, le Scorpion par intensité du lien, et le Cancer par attachement émotionnel profond.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">Quel signe trompe le plus ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Les <Link href="/signes/gemeaux" className="underline decoration-white/30 hover:decoration-white/60 transition">Gémeaux</Link>, le <Link href="/signes/sagittaire" className="underline decoration-white/30 hover:decoration-white/60 transition">Sagittaire</Link> et le <Link href="/signes/verseau" className="underline decoration-white/30 hover:decoration-white/60 transition">Verseau</Link> sont souvent cités, mais cette réputation est réductrice. La position de <Link href="/planetes/venus">Vénus</Link> dans le thème natal influence bien davantage le comportement amoureux que le seul signe solaire.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">La fidélité dépend-elle uniquement du signe solaire ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Non. La fidélité en astrologie s&apos;analyse à travers plusieurs facteurs : la position de <Link href="/planetes/venus">Vénus</Link>, la <Link href="/maisons/maison-7">maison VII</Link>, les aspects planétaires et la dynamique globale du <Link href="/blog/qu-est-ce-qu-un-theme-astral">thème natal</Link>. Le signe solaire seul ne suffit pas à déterminer le comportement amoureux.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">Quels signes sont les plus compatibles en amour ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Les éléments compatibles forment de bonnes bases : feu (Bélier, Lion, Sagittaire) avec air (Gémeaux, Balance, Verseau), et terre (Taureau, Vierge, Capricorne) avec eau (Cancer, Scorpion, Poissons). Mais une <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">synastrie</Link> complète reste indispensable pour évaluer la compatibilité réelle.
+              </p>
+            </details>
+          </div>
         </section>
 
         <nav aria-label="Navigation de fin d’article">

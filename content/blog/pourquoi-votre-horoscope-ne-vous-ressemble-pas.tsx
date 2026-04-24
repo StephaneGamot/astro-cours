@@ -9,7 +9,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 export const meta = {
   slug: "pourquoi-votre-horoscope-ne-vous-ressemble-pas",
   title:
-    "Pourquoi votre Horoscope ne vous Ressemble pas",
+    "Pourquoi l'horoscope ne vous ressemble pas",
   description:
     "Vous ne vous reconnaissez pas dans votre horoscope quotidien ? Découvrez pourquoi seul votre thème astral révèle qui vous êtes véritablement.",
   date: "2026-04-20",
@@ -391,12 +391,25 @@ export default function HoroscopeNeVousRessemblePasPost() {
         <Stat label="Combinaisons uniques" value="&infin;" />
       </section>
 
+      {/* ── D&eacute;finition (Featured Snippet) ── */}
+      <section className="rounded-2xl border border-amber-400/25 bg-amber-400/5 p-5 sm:p-6">
+        <p className="text-sm font-semibold uppercase tracking-widest text-amber-400 mb-3">D&eacute;finition</p>
+        <p className="text-sm leading-relaxed text-white/80 md:text-base">
+          L&apos;<strong>horoscope</strong> se base uniquement sur le signe solaire, alors que le <strong><Link href="/blog/qu-est-ce-qu-un-theme-astral" className="text-amber-300 underline decoration-amber-300/30 underline-offset-2 transition-colors hover:text-amber-200">th&egrave;me natal</Link></strong> prend en compte la position de toutes les plan&egrave;tes, l&apos;ascendant, les maisons et les aspects. C&apos;est pourquoi la majorit&eacute; des gens ne se reconnaissent pas dans leur horoscope quotidien.
+        </p>
+      </section>
+
+      {/* ── APP intro ── */}
+      <p className="text-sm leading-relaxed text-white/80 md:text-base">
+        Vous lisez votre <strong>horoscope</strong> chaque matin et vous n&apos;y retrouvez absolument rien de vous ? Vous n&apos;&ecirc;tes pas seul — et surtout, vous n&apos;avez pas tort. Le probl&egrave;me, c&apos;est que l&apos;horoscope r&eacute;duit votre identit&eacute; &agrave; un seul signe sur douze. Ce guide vous montre pourquoi votre <strong>th&egrave;me astral complet</strong> est la seule cl&eacute; fiable de votre personnalit&eacute; astrologique.
+      </p>
+
       {/* ================================================================ */}
       {/*  PARTIE 1 — LE MALENTENDU FONDAMENTAL                           */}
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Le Malentendu fondamental&nbsp;: vous n&rsquo;&ecirc;tes pas &laquo;&nbsp;juste&nbsp;&raquo; votre Signe</H2>
+        <H2>Pourquoi vous n&rsquo;&ecirc;tes pas &laquo;&nbsp;juste&nbsp;&raquo; votre signe solaire</H2>
 
         <Card title="L&rsquo;Horoscope, une invention r&eacute;cente" subtitle="Comment un outil de divertissement est devenu le visage de l&rsquo;astrologie">
           <p>
@@ -436,7 +449,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Les vraies Couches de votre Identit&eacute; astrologique</H2>
+        <H2>Les diff&eacute;rentes couches de votre identit&eacute; astrologique</H2>
 
         <Card title="L&rsquo;Ascendant&nbsp;: le Masque et le Filtre" subtitle="Ce que le monde voit en premier">
           <p>
@@ -485,7 +498,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Carte d&rsquo;Identit&eacute; plan&eacute;taire&nbsp;: ce que chaque Plan&egrave;te r&eacute;v&egrave;le de vous</H2>
+        <H2>Que r&eacute;v&egrave;le chaque plan&egrave;te dans votre th&egrave;me natal ?</H2>
 
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/30 backdrop-blur-md">
           {/* Header */}
@@ -515,7 +528,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Les Maisons&nbsp;: le D&eacute;cor de votre Vie</H2>
+        <H2>Les 12 maisons astrologiques&nbsp;: le d&eacute;cor de votre vie</H2>
 
         <Card title="12 Sc&egrave;nes, 12 Domaines de Vie" subtitle="O&ugrave; vos plan&egrave;tes jouent leur r&ocirc;le">
           <p>
@@ -543,7 +556,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Les Aspects&nbsp;: quand vos Plan&egrave;tes se parlent entre elles</H2>
+        <H2>Les aspects plan&eacute;taires&nbsp;: quand vos plan&egrave;tes dialoguent</H2>
 
         <Card title="La Partition secr&egrave;te du Th&egrave;me natal" subtitle="Harmonies, tensions et contradictions int&eacute;rieures">
           <p>
@@ -565,7 +578,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>La Dominante plan&eacute;taire&nbsp;: votre vraie Signature</H2>
+        <H2>La dominante plan&eacute;taire&nbsp;: votre signature astrologique profonde</H2>
 
         <Card title="Au-del&agrave; du Signe, la Plan&egrave;te qui vous d&eacute;finit" subtitle="Le concept le plus m&eacute;connu &mdash; et le plus r&eacute;v&eacute;lateur">
           <p>
@@ -593,7 +606,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Mythes &amp; R&eacute;alit&eacute;s&nbsp;: les Id&eacute;es re&ccedil;ues qui vous &eacute;loignent de votre Th&egrave;me</H2>
+        <H2>Mythes sur l&rsquo;astrologie&nbsp;: les id&eacute;es re&ccedil;ues &agrave; oublier</H2>
 
         <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
           <MythCard
@@ -636,7 +649,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Cas concrets&nbsp;: quand le Th&egrave;me contredit le Signe</H2>
+        <H2>Exemples concrets&nbsp;: quand le th&egrave;me contredit le signe solaire</H2>
 
         <Card title="Marie, Soleil Taureau &mdash; mais rien d&rsquo;un Taureau classique" subtitle="Un cas d&rsquo;&eacute;cole en consultation">
           <p>
@@ -670,7 +683,7 @@ export default function HoroscopeNeVousRessemblePasPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Et maintenant&nbsp;? Comment lire votre vrai Portrait</H2>
+        <H2>Comment lire votre vrai portrait astrologique</H2>
 
         <Card title="Les &Eacute;tapes pour se reconna&icirc;tre enfin" subtitle="Un guide pratique pour aller au-del&agrave; du signe">
           <p>
@@ -705,12 +718,43 @@ export default function HoroscopeNeVousRessemblePasPost() {
 
       <Divider />
 
+      {/* ── FAQ visible ── */}
+      <section className="space-y-6">
+        <H2>Questions fr&eacute;quentes sur l&rsquo;horoscope et le th&egrave;me natal</H2>
+
+        <Card title="Pourquoi je ne me reconnais pas dans mon signe astrologique ?">
+          <p>
+            Votre signe solaire ne repr&eacute;sente qu&rsquo;une fraction de votre identit&eacute; astrologique. Votre ascendant, la position de votre Lune, de Mercure, V&eacute;nus, Mars et des plan&egrave;tes lentes, les maisons occup&eacute;es et les aspects entre plan&egrave;tes cr&eacute;ent un portrait infiniment plus nuanc&eacute; que le seul signe solaire utilis&eacute; par les horoscopes g&eacute;n&eacute;ralistes.
+          </p>
+        </Card>
+
+        <Card title="Quelle est la diff&eacute;rence entre signe solaire et ascendant ?">
+          <p>
+            Le signe solaire correspond &agrave; la position du Soleil au moment de votre naissance et repr&eacute;sente votre identit&eacute; profonde. L&rsquo;ascendant est le signe qui se levait &agrave; l&rsquo;horizon est &agrave; l&rsquo;instant pr&eacute;cis de votre naissance. Il d&eacute;finit votre masque social, votre apparence et la fa&ccedil;on dont les autres vous per&ccedil;oivent. Il change de signe environ toutes les deux heures.
+          </p>
+        </Card>
+
+        <Card title="Est-ce que l&rsquo;horoscope du journal a une valeur astrologique ?">
+          <p>
+            L&rsquo;horoscope g&eacute;n&eacute;raliste divise l&rsquo;humanit&eacute; en 12 groupes bas&eacute;s sur le seul signe solaire. C&rsquo;est une simplification extr&ecirc;me qui ne tient compte ni de l&rsquo;ascendant, ni de la Lune, ni des plan&egrave;tes personnelles, ni des maisons. Pour un astrologue s&eacute;rieux, il s&rsquo;agit d&rsquo;un divertissement, pas d&rsquo;astrologie.
+          </p>
+        </Card>
+
+        <Card title="Puis-je &ecirc;tre plus marqu&eacute; par mon ascendant que par mon signe solaire ?">
+          <p>
+            Absolument. Lorsque plusieurs plan&egrave;tes se trouvent dans le signe de l&rsquo;ascendant ou en maison I, ou lorsque le ma&icirc;tre de l&rsquo;ascendant est tr&egrave;s dominant dans le th&egrave;me, la personne s&rsquo;identifie souvent davantage &agrave; son ascendant qu&rsquo;&agrave; son signe solaire. C&rsquo;est une des raisons les plus fr&eacute;quentes du d&eacute;calage ressenti avec l&rsquo;horoscope.
+          </p>
+        </Card>
+      </section>
+
+      <Divider />
+
       {/* ================================================================ */}
       {/*  PARTIE 10 — POUR ALLER PLUS LOIN                               */}
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Pour aller plus loin</H2>
+        <H2>Pour approfondir votre th&egrave;me natal</H2>
 
         <div className="grid gap-3 sm:grid-cols-2 sm:gap-4">
           <Link

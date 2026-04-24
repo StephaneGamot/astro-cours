@@ -218,23 +218,31 @@ export default function NeptunienPost() {
                   name: "Qu’est-ce qu’un Neptunien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Neptunien est un type astrologique marqué par Neptune : intuition, hypersensibilité, spiritualité, imagination, compassion, idéalisme et rapport complexe au réel.",
+                    text: "Type planétaire Neptune dominant : intuition, imagination, empathie universelle, sensibilité médiumnique, perméabilité aux ambiances.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Neptunien ?",
+                  name: "Quels métiers pour une dominante Neptune ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Neptunien s’épanouit souvent dans le soin, la psychologie, les sciences divinatoires, l’astrologie, la littérature, la photographie, le cinéma, la création artistique et les métiers liés à l’élément Eau.",
+                    text: "Musique, cinéma, photographie, spiritualité, métiers de la mer, pharmacie, soins holistiques, poésie.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’un Neptune affligé ?",
+                  name: "Quels risques avec un Neptune affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Neptune est très affligé, l’hypersensibilité peut conduire à la fuite du réel, aux addictions, à la désorganisation matérielle, à la confusion psychique ou à une dissolution de la personnalité.",
+                    text: "Addictions, mensonges, illusions, fuite du réel, confusion identitaire, escroqueries, manipulation par l’affect.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Neptunien ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Neptune angulaire, en Poissons, aspects au Soleil ou à la Lune, amas en Poissons, Soleil en maison XII.",
                   },
                 },
               ],
@@ -248,6 +256,7 @@ export default function NeptunienPost() {
           src={NeptunienImage}
           alt="Portrait symbolique du tempérament neptunien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -284,8 +293,15 @@ export default function NeptunienPost() {
             </div>
           </div>
 
-          <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Comprendre le type Neptunien en astrologie, c’est accepter de plonger dans un océan sans fond. Gouverné par Neptune, la planète des brumes, des illusions, de la spiritualité et de l&apos;inconscient collectif, le Neptunien échappe par nature à toutes les étiquettes. Fascinant, complexe et souvent incompris, découvrez le portrait théorique et psychologique de ce mystique du zodiaque.
+          <div className="mt-8 rounded-2xl border border-indigo-400/20 bg-indigo-400/[0.04] px-6 py-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-indigo-300/80">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+              Le <strong>Neptunien en astrologie</strong> désigne un individu dont <Link href="/planetes/neptune" className="underline hover:text-indigo-200">Neptune</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline hover:text-indigo-200">thème natal</Link> (angulaire, bien aspecté, en Poissons ou Cancer). Il se caractérise par une intuition hors du commun, une imagination débordante et une perméabilité aux mondes subtils qui le rend à la fois visionnaire et vulnérable.
+            </p>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+            Vous avez <strong>Neptune dominant</strong> dans votre thème astral et le monde concret vous semble souvent irréel, étranger, décalé ? Cette sensibilité médiumnique est un don extraordinaire, mais aussi un piège : confusion, addictions, fuite de la réalité. Ce portrait complet du <strong>tempérament neptunien</strong> — psychologie, carrière, amour, morphopsychologie — explore les profondeurs de cette dominante planétaire insaisissable, de l&apos;archétype de Poséidon au risque de la dissolution de soi.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -301,7 +317,7 @@ export default function NeptunienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Neptunien : Entre Intuition Pure et Clairvoyance</H2>
+        <H2>L&apos;intelligence neptunienne : intuition, imagination et pensée symbolique</H2>
 
         <Card>
           <p>
@@ -324,7 +340,7 @@ export default function NeptunienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Vie Sociale et Valeurs : L&apos;Utopiste au Grand Cœur</H2>
+        <H2>Le Neptunien en société : empathie universelle, flou et idéalisme</H2>
 
         <Card>
           <p>
@@ -342,7 +358,7 @@ export default function NeptunienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : La Quête de la Fusion (et ses écueils)</H2>
+        <H2>Le Neptunien en amour : fusion mystique, sacrifice et illusions sentimentales</H2>
 
         <Card>
           <p>
@@ -362,14 +378,14 @@ export default function NeptunienPost() {
           src={Neptunien2Image}
           alt="Portrait du Dieu des 7 océans en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : De l&apos;Ombre à la Lumière</H2>
+        <H2>Métiers du Neptunien : quelles carrières pour une dominante Neptune ?</H2>
 
         <Card>
           <p>
@@ -388,7 +404,7 @@ export default function NeptunienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre du Neptunien (Quand Neptune est affligé)</H2>
+        <H2>Neptune affligé dans le thème natal : addictions, mensonges et fuite du réel</H2>
 
         <Callout tone="warn" title="L'ombre de Neptune">
           <p>
@@ -406,7 +422,7 @@ export default function NeptunienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Impact Générationnel : Neptune en Scorpion (1957-1970)</H2>
+        <H2>Morphopsychologie du Neptunien : portrait physique et apparence</H2>
 
         <Card>
           <p>
@@ -418,7 +434,7 @@ export default function NeptunienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Yin du Neptunien (L&apos;archétype de la Prêtresse)</H2>
+        <H2>La Neptunienne en astrologie : portrait de la femme à dominante Neptune</H2>
 
         <Card>
           <p>
@@ -438,14 +454,14 @@ export default function NeptunienPost() {
           src={Neptunien3Image}
           alt="Portrait de Neptune en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Neptunien en astrologie</H2>
 
         <Callout tone="ok" title="Dominante neptunienne">
           <p>
@@ -484,6 +500,52 @@ export default function NeptunienPost() {
           effect="Art, soin, mystique, image, eau"
           reading="Trajectoire sinueuse, manque d’ancrage"
         />
+      </section>
+
+      <section id="faq-neptunien" className="space-y-6">
+        <H2>Questions fréquentes sur le Neptunien</H2>
+
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-indigo-200">
+              <svg className="h-5 w-5 shrink-0 text-indigo-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Qu&apos;est-ce qu&apos;un Neptunien en astrologie ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Type planétaire Neptune dominant : intuition, imagination, empathie universelle, sensibilité médiumnique, perméabilité aux ambiances.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-indigo-200">
+              <svg className="h-5 w-5 shrink-0 text-indigo-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels métiers pour une dominante Neptune ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Musique, cinéma, photographie, spiritualité, métiers de la mer, pharmacie, soins holistiques, poésie.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-indigo-200">
+              <svg className="h-5 w-5 shrink-0 text-indigo-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels risques avec un Neptune affligé ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Addictions, mensonges, illusions, fuite du réel, confusion identitaire, escroqueries, manipulation par l&apos;affect.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-indigo-200">
+              <svg className="h-5 w-5 shrink-0 text-indigo-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Comment savoir si je suis Neptunien ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Neptune angulaire, en Poissons, aspects au Soleil ou à la Lune, amas en Poissons, Soleil en maison XII.
+            </p>
+          </details>
+        </div>
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

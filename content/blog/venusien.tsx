@@ -9,9 +9,9 @@ import VenusienImage2 from "@/public/images/blog/venus2.webp";
 export const meta = {
   slug: "venusien",
   title:
-    "Le Vénusien : l'Esthète, l'Amant",
+    "Le Vénusien : Esthète, Amant et Artiste",
   description:
-    "Portrait astrologique du Vénusien : charme, amour, beauté, art, harmonie, séduction, muse, sirène et la vénusienne dans un thème astral.",
+    "Portrait astrologique du Vénusien : charme, amour, beauté, art, harmonie, séduction, muse, sirène et la vénusienne. Explorez ce profil dans votre thème.",
   date: "2026-04-04",
   tags: [
     "Vénus",
@@ -220,23 +220,31 @@ export default function VenusienPost() {
                   name: "Qu’est-ce qu’un Vénusien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Vénusien est un type astrologique marqué par Vénus : charme, douceur, beauté, amour, sociabilité, sens artistique, recherche d’harmonie et puissance de séduction.",
+                    text: "Le Vénusien est un type planétaire dont Vénus domine le thème natal. Il se caractérise par un sens esthétique raffiné, un charme naturel, une recherche constante d’harmonie et un besoin profond d’amour et de beauté dans toutes les sphères de sa vie.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Vénusien ?",
+                  name: "Quels métiers pour une dominante Vénus ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Vénusien s’épanouit souvent dans la beauté, la mode, l’hôtellerie, le luxe, les relations publiques, l’événementiel, le chant, le cinéma, la musique, la décoration et tous les métiers où il faut relier, embellir et pacifier.",
+                    text: "Une dominante Vénus s’épanouit dans les arts, la mode, le design, la diplomatie, la gastronomie, l’esthétique, le luxe, la bijouterie, les relations publiques et tous les métiers où il faut embellir, relier et créer de l’harmonie.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’une Vénus affligée ?",
+                  name: "Quels risques avec une Vénus affligée ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Vénus est affligée, la recherche du plaisir peut se transformer en paresse, dépendance affective, dépenses excessives, manipulation par le charme ou hédonisme destructeur.",
+                    text: "Une Vénus affligée dans le thème natal peut engendrer paresse, jalousie, dépendance affective, manipulation sentimentale et complaisance, transformant la quête de plaisir en hédonisme destructeur.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Vénusien ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Vous êtes probablement Vénusien si Vénus est angulaire dans votre thème (conjonction à l’Ascendant, au MC, au DS ou au FC), si elle est en Taureau ou en Balance, si elle reçoit des trigones ou sextiles harmonieux, ou si vous avez un amas planétaire en Taureau ou en Balance.",
                   },
                 },
               ],
@@ -250,6 +258,7 @@ export default function VenusienPost() {
           src={VenusienImage}
           alt="Portrait symbolique du tempérament vénusien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -286,8 +295,15 @@ export default function VenusienPost() {
             </div>
           </div>
 
-          <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            S&apos;il existe un antidote à la dureté martienne et à l&apos;austérité saturnienne, c&apos;est indéniablement l&apos;énergie de Vénus. Gouverné par l&apos;Étoile du Berger, l&apos;astre de l&apos;Amour, des Arts, de la Beauté et de l&apos;Harmonie (Aphrodite dans la mythologie), le type Vénusien traverse l&apos;existence avec une seule boussole : la quête du plaisir et de la grâce. Loin d&apos;être un simple séducteur superficiel, le Vénusien possède un super-pouvoir indispensable à l&apos;humanité : celui de relier les êtres. Découvrez le portrait psychologique, amoureux et professionnel du charmeur absolu du zodiaque.
+          <div className="mt-8 rounded-2xl border border-rose-400/30 bg-rose-400/10 p-5 shadow-[0_0_30px_rgba(251,113,133,0.06)]">
+            <p className="text-sm font-medium text-rose-300 mb-2">Définition</p>
+            <p className="text-sm leading-relaxed text-white/80 sm:text-base">
+              Le <strong>Vénusien en astrologie</strong> désigne un individu dont <Link href="/planetes/venus" className="text-rose-300 underline decoration-rose-300/30 hover:decoration-rose-300/60 transition-colors">Vénus</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="text-rose-300 underline decoration-rose-300/30 hover:decoration-rose-300/60 transition-colors">thème natal</Link> (angulaire, bien aspectée, en Taureau ou Balance). Il se distingue par un sens esthétique raffiné, un magnétisme affectif puissant et un besoin profond d&apos;harmonie dans toutes les sphères de sa vie.
+            </p>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+            Vous avez <strong>Vénus dominante</strong> dans votre thème astral et la beauté, l&apos;amour et l&apos;harmonie guident chacun de vos choix ? Ce magnétisme affectif est un don rare, mais il cache un revers : dépendance au regard de l&apos;autre, paresse séduisante, fuite devant les conflits. Ce portrait complet du <strong>tempérament vénusien</strong> — psychologie, carrière, amour, morphopsychologie — explore les multiples facettes de cette dominante planétaire, de l&apos;archétype d&apos;Aphrodite au piège de la complaisance.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -303,7 +319,7 @@ export default function VenusienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Vénusien : L&apos;Intelligence du Cœur et des Sens</H2>
+        <H2>L&apos;intelligence vénusienne : sensibilité esthétique et pensée harmonieuse</H2>
 
         <Card title="L’intellect">
           <p>
@@ -321,7 +337,7 @@ export default function VenusienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Vie Sociale et Caractère : Le Charmeur Magnétique et Pacifiste</H2>
+        <H2>Le Vénusien en société : charme, séduction et art de plaire</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -339,7 +355,7 @@ export default function VenusienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : L&apos;Addiction à l&apos;État Amoureux</H2>
+        <H2>Le Vénusien en amour : romantisme, sensualité et idéal de beauté</H2>
 
         <Card title="L’amour">
           <p>
@@ -359,14 +375,14 @@ export default function VenusienPost() {
           src={VenusienImage2}
           alt="Portrait de la déesse Vénus en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : L&apos;Artisan de l&apos;Élégance</H2>
+        <H2>Métiers du Vénusien : quelles carrières pour une dominante Vénus ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -386,7 +402,7 @@ export default function VenusienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand Vénus est affligée)</H2>
+        <H2>Vénus affligée dans le thème natal : paresse, jalousie et manipulation</H2>
 
         <Callout tone="warn" title="L’ombre de Vénus">
           <p>
@@ -401,7 +417,7 @@ export default function VenusienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : De la Muse à la Sirène</H2>
+        <H2>La Vénusienne en astrologie : portrait de la femme à dominante Vénus</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -422,7 +438,7 @@ export default function VenusienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique du Vénusien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie du Vénusien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -440,7 +456,7 @@ export default function VenusienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Vénusien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -479,6 +495,52 @@ export default function VenusienPost() {
           effect="Beauté, luxe, art, relations, hôtellerie"
           reading="Paresse, manipulation douce, parasite séduisant"
         />
+      </section>
+
+      <section id="faq-venusien" className="space-y-6" aria-label="Questions fréquentes sur le Vénusien">
+        <H2>Questions fréquentes sur le Vénusien</H2>
+
+        <div className="divide-y divide-white/10 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+          <details className="group">
+            <summary className="flex cursor-pointer items-center gap-4 p-6 text-left font-serif text-lg font-medium text-white/90 transition-colors hover:text-rose-200">
+              <svg className="h-5 w-5 shrink-0 text-rose-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Qu&apos;est-ce qu&apos;un Vénusien en astrologie ?
+            </summary>
+            <div className="px-6 pb-6 pl-[3.25rem] text-sm leading-relaxed text-white/70 md:text-base">
+              Le Vénusien est un type planétaire dont Vénus domine le thème natal. Il se caractérise par un sens esthétique raffiné, un charme naturel, une recherche constante d&apos;harmonie et un besoin profond d&apos;amour et de beauté dans toutes les sphères de sa vie.
+            </div>
+          </details>
+
+          <details className="group">
+            <summary className="flex cursor-pointer items-center gap-4 p-6 text-left font-serif text-lg font-medium text-white/90 transition-colors hover:text-rose-200">
+              <svg className="h-5 w-5 shrink-0 text-rose-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels métiers pour une dominante Vénus ?
+            </summary>
+            <div className="px-6 pb-6 pl-[3.25rem] text-sm leading-relaxed text-white/70 md:text-base">
+              Une dominante Vénus s&apos;épanouit dans les arts, la mode, le design, la diplomatie, la gastronomie, l&apos;esthétique, le luxe, la bijouterie, les relations publiques et tous les métiers où il faut embellir, relier et créer de l&apos;harmonie.
+            </div>
+          </details>
+
+          <details className="group">
+            <summary className="flex cursor-pointer items-center gap-4 p-6 text-left font-serif text-lg font-medium text-white/90 transition-colors hover:text-rose-200">
+              <svg className="h-5 w-5 shrink-0 text-rose-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels risques avec une Vénus affligée ?
+            </summary>
+            <div className="px-6 pb-6 pl-[3.25rem] text-sm leading-relaxed text-white/70 md:text-base">
+              Une Vénus affligée dans le thème natal peut engendrer paresse, jalousie, dépendance affective, manipulation sentimentale et complaisance, transformant la quête de plaisir en hédonisme destructeur.
+            </div>
+          </details>
+
+          <details className="group">
+            <summary className="flex cursor-pointer items-center gap-4 p-6 text-left font-serif text-lg font-medium text-white/90 transition-colors hover:text-rose-200">
+              <svg className="h-5 w-5 shrink-0 text-rose-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Comment savoir si je suis Vénusien ?
+            </summary>
+            <div className="px-6 pb-6 pl-[3.25rem] text-sm leading-relaxed text-white/70 md:text-base">
+              Vous êtes probablement Vénusien si Vénus est angulaire dans votre thème (conjonction à l&apos;Ascendant, au MC, au DS ou au FC), si elle est en Taureau ou en Balance, si elle reçoit des trigones ou sextiles harmonieux, ou si vous avez un amas planétaire en Taureau ou en Balance.
+            </div>
+          </details>
+        </div>
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

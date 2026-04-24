@@ -7,7 +7,7 @@ export const meta = {
   slug: "venus-en-signes-style-amoureux",
   title: "Vénus en signes : ton style amoureux",
   description:
-    "Comprendre Vénus en astrologie : style amoureux, besoin affectif, façon de séduire, langage de l’amour, forces, pièges signe par signe.",
+    "Comprendre Vénus en astrologie : style amoureux, besoin affectif, façon de séduire et langage de l’amour. Forces et pièges, signe par signe.",
   date: "2026-01-08",
   tags: ["amour", "venus", "bases", "débutant"],
   readingLevel: "débutant" as const,
@@ -250,9 +250,22 @@ export default function Post() {
         </div>
       </header>
 
+      {/* DEFINITION BOX — Featured Snippet */}
+      <div className="rounded-2xl border border-rose-400/20 bg-rose-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-rose-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          <strong>Vénus en astrologie</strong> représente le style amoureux, les besoins affectifs et la façon de séduire. Sa position en signe dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral">thème natal</Link> révèle comment vous aimez, ce que vous recherchez dans une relation et votre langage de l&apos;amour naturel.
+        </p>
+      </div>
+
+      {/* APP INTRO */}
+      <p className="text-lg leading-relaxed text-text/85">
+        Vous confondez encore votre <strong>signe solaire</strong> avec votre style amoureux ? Erreur classique. C&apos;est <strong><Link href="/planetes/venus">Vénus</Link></strong> qui dicte vos besoins affectifs, votre façon de séduire et votre langage de l&apos;amour — pas le Soleil. Ce guide décrypte Vénus dans les 12 signes avec interprétation, forces, pièges et conseils concrets.
+      </p>
+
       {/* 1) base */}
       <section className="space-y-4">
-        <H2>1) <Link href="/planetes/venus" className="underline decoration-white/30 hover:decoration-white/60 transition">Vénus</Link>, c’est quoi exactement ?</H2>
+        <H2>1) Vénus en astrologie : que représente-t-elle dans votre thème ?</H2>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -277,7 +290,7 @@ export default function Post() {
 
       {/* 2) méthode */}
       <section className="space-y-4">
-        <H2>2) Lire Vénus correctement (méthode rapide)</H2>
+        <H2>2) Comment interpréter Vénus dans votre thème natal</H2>
 
         <Card title="Lecture pro en 4 points" subtitle="Simple, mais extrêmement fiable.">
           <ol className="list-decimal pl-5 space-y-2">
@@ -300,7 +313,7 @@ export default function Post() {
 
       {/* 3) tableau signes */}
       <section className="space-y-4">
-        <H2>3) Vénus en signes : ton style amoureux</H2>
+        <H2>3) Vénus en signes : votre style amoureux décodé</H2>
 
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
           <div className="grid grid-cols-1 md:grid-cols-4 border-b border-white/10 display-none lg:display-grid">
@@ -426,7 +439,7 @@ export default function Post() {
 
       {/* 5) conclusion */}
       <section className="space-y-4">
-        <H2>5) Résumé (ultra clair)</H2>
+        <H2>5) Ce qu&apos;il faut retenir sur Vénus en signes</H2>
 
         <Callout tone="ok" title="Ce que Vénus dit vraiment">
           <p>

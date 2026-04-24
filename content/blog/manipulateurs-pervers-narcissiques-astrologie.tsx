@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
@@ -8,9 +9,9 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 export const meta = {
   slug: "manipulateurs-pervers-narcissiques-astrologie",
   title:
-    "Manipulateurs & Pervers Narcissiques en Astrologie",
+    "Pervers narcissiques : indices astrologiques",
   description:
-    "Comment l'astrologie peut aider à identifier les profils manipulateurs & pervers narcissiques dans un thème natal.",
+    "Comment l'astrologie aide à repérer les profils manipulateurs et pervers narcissiques dans un thème natal. Apprenez à identifier les indices clés.",
   date: "2026-04-16",
   tags: [
     "psychologie astrologique",
@@ -342,12 +343,25 @@ export default function ManipulateursPNPost() {
         <Stat label="Bouclier" value="Saturne &amp; Lune" />
       </section>
 
+      {/* ── D&eacute;finition (Featured Snippet) ── */}
+      <section className="rounded-2xl border border-red-400/25 bg-red-400/5 p-5 sm:p-6">
+        <p className="text-sm font-semibold uppercase tracking-widest text-red-400 mb-3">D&eacute;finition</p>
+        <p className="text-sm leading-relaxed text-white/80 md:text-base">
+          L&apos;<strong>astrologie et les manipulateurs narcissiques</strong> : le th&egrave;me natal permet d&apos;identifier certaines configurations plan&eacute;taires (Pluton-Lune, Neptune dissonant, <Link href="/planetes/pluton" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Pluton</Link> en <Link href="/maisons/maison-7" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">maison VII</Link>) qui signalent une vuln&eacute;rabilit&eacute; &agrave; l&rsquo;emprise ou, &agrave; l&rsquo;inverse, des tendances manipulatrices. L&apos;astrologie n&apos;accuse personne, mais &eacute;claire les dynamiques relationnelles.
+        </p>
+      </section>
+
+      {/* ── APP intro ── */}
+      <p className="text-sm leading-relaxed text-white/80 md:text-base">
+        Vous sortez d&apos;une relation toxique et vous vous demandez si votre <strong>th&egrave;me natal</strong> pouvait vous mettre en garde ? Les <strong>pervers narcissiques en astrologie</strong> laissent des signatures plan&eacute;taires identifiables : configurations Pluton-Lune, Neptune dissonant, aspects de domination. Ce guide analyse les indicateurs astrologiques de l&apos;emprise, les profils vuln&eacute;rables et les outils de protection que votre th&egrave;me rec&egrave;le.
+      </p>
+
       {/* ================================================================ */}
       {/*  PARTIE 1 — COMPRENDRE                                          */}
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Avant-propos : l&rsquo;Astrologie n&rsquo;est pas un Tribunal</H2>
+        <H2>Astrologie et manipulation : pourquoi le th&egrave;me natal n&rsquo;accuse personne</H2>
 
         <Card title="Une boussole, pas un verdict">
           <p>
@@ -369,7 +383,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Les Plan&egrave;tes de l&rsquo;Emprise</H2>
+        <H2>Quelles plan&egrave;tes r&eacute;v&egrave;lent une tendance manipulatrice ?</H2>
 
         <Card title="Pluton : le Ma&icirc;tre du Pouvoir invisible" subtitle="La plan&egrave;te de la transformation... ou de la destruction">
           <p>
@@ -424,7 +438,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Les Aspects et Configurations R&eacute;v&eacute;lateurs</H2>
+        <H2>Aspects plan&eacute;taires et emprise : les configurations &agrave; surveiller</H2>
 
         <Card title="Tableau des aspects &agrave; surveiller">
           <div className="overflow-hidden rounded-xl border border-white/10">
@@ -489,7 +503,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Les Maisons Astrologiques en Jeu</H2>
+        <H2>Dans quelles maisons astrologiques se joue l&rsquo;emprise ?</H2>
 
         <Card title="Maison VII : le Miroir de l&rsquo;Autre">
           <p>
@@ -529,7 +543,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Signes Solaires et Tendances Manipulatrices</H2>
+        <H2>Quels signes solaires ont des tendances manipulatrices ?</H2>
 
         <Card title="Pr&eacute;ambule indispensable">
           <p>
@@ -584,7 +598,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Quels Profils Astrologiques Attirent les PN&nbsp;?</H2>
+        <H2>Quels profils astrologiques attirent les pervers narcissiques&nbsp;?</H2>
 
         <Card title="Le terrain de chasse du manipulateur" subtitle="L&rsquo;&eacute;nergie dont il se nourrit">
           <p>
@@ -642,7 +656,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Les Transits D&eacute;clencheurs&nbsp;: Quand le Ciel fragilise</H2>
+        <H2>Transits plan&eacute;taires et emprise&nbsp;: quand le ciel vous fragilise</H2>
 
         <Card title="P&eacute;riodes de vuln&eacute;rabilit&eacute;">
           <p>
@@ -676,7 +690,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Se Prot&eacute;ger gr&acirc;ce &agrave; son Th&egrave;me Natal</H2>
+        <H2>Comment se prot&eacute;ger d&rsquo;un manipulateur gr&acirc;ce &agrave; l&rsquo;astrologie</H2>
 
         <Card title="Saturne : le Gardien des Fronti&egrave;res" subtitle="Votre meilleur alli&eacute; contre l&rsquo;emprise">
           <p>
@@ -719,7 +733,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Le Cycle de l&rsquo;Emprise lu par l&rsquo;Astrologie</H2>
+        <H2>Les 4 phases de l&rsquo;emprise narcissique vues par l&rsquo;astrologie</H2>
 
         <Card title="Les trois phases plan&eacute;taires">
           <div className="space-y-5">
@@ -754,7 +768,7 @@ export default function ManipulateursPNPost() {
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Apr&egrave;s l&rsquo;Emprise&nbsp;: R&eacute;silience et Reconstruction</H2>
+        <H2>Apr&egrave;s l&rsquo;emprise&nbsp;: reconstruction et r&eacute;silience dans le th&egrave;me natal</H2>
 
         <Card title="Les transits de lib&eacute;ration">
           <p>
@@ -789,12 +803,43 @@ export default function ManipulateursPNPost() {
 
       <Divider />
 
+      {/* ── FAQ visible ── */}
+      <section className="space-y-6">
+        <H2>Questions fr&eacute;quentes : astrologie et manipulation narcissique</H2>
+
+        <Card title="Peut-on voir un pervers narcissique dans un th&egrave;me astral ?">
+          <p>
+            L&rsquo;astrologie ne diagnostique pas un trouble psychiatrique. En revanche, certaines configurations plan&eacute;taires &mdash; notamment Pluton, Neptune et Lilith en aspects tendus aux luminaires &mdash; signalent des tendances manipulatrices, un besoin de contr&ocirc;le excessif ou une difficult&eacute; &agrave; respecter les limites d&rsquo;autrui.
+          </p>
+        </Card>
+
+        <Card title="Quelles plan&egrave;tes sont li&eacute;es &agrave; la manipulation en astrologie ?">
+          <p>
+            <Link href="/planetes/pluton" className="text-violet-300 underline decoration-violet-300/30 underline-offset-2 transition-colors hover:text-violet-200">Pluton</Link> (pouvoir, contr&ocirc;le, emprise), Neptune (illusion, mensonge, confusion) et dans une moindre mesure Lilith (transgression des limites) sont les principaux marqueurs. Mars afflig&eacute; peut ajouter une dimension d&rsquo;agressivit&eacute; et de domination.
+          </p>
+        </Card>
+
+        <Card title="Quels profils astrologiques attirent les pervers narcissiques ?">
+          <p>
+            Les profils &agrave; forte dominante Neptune ou Lune (empathie, r&eacute;ceptivit&eacute;, sacrifice) ainsi que les V&eacute;nus ou Soleil en signes d&rsquo;eau ou en Poissons sont particuli&egrave;rement cibl&eacute;s. Le PN cherche une source d&rsquo;&eacute;nergie &eacute;motionnelle &mdash; il est attir&eacute; par les personnalit&eacute;s lumineuses, empathiques et g&eacute;n&eacute;reuses.
+          </p>
+        </Card>
+
+        <Card title="L&rsquo;astrologie peut-elle prot&eacute;ger d&rsquo;un manipulateur ?">
+          <p>
+            L&rsquo;astrologie est un outil de conscience, pas un bouclier magique. En identifiant dans son propre th&egrave;me les zones de vuln&eacute;rabilit&eacute; (Neptune puissant, Lune fragile, maison XII charg&eacute;e) et les transits d&eacute;clencheurs, on peut anticiper les p&eacute;riodes de fragilit&eacute; &eacute;motionnelle et renforcer ses limites.
+          </p>
+        </Card>
+      </section>
+
+      <Divider />
+
       {/* ================================================================ */}
       {/*  PARTIE 11 — CONCLUSION                                        */}
       {/* ================================================================ */}
 
       <section className="space-y-6">
-        <H2>Conclusion&nbsp;: le Th&egrave;me Natal comme Outil de Vigilance</H2>
+        <H2>Le th&egrave;me natal comme outil de vigilance face aux manipulateurs</H2>
 
         <Card title="Conna&icirc;tre son th&egrave;me, c&rsquo;est se prot&eacute;ger">
           <p>

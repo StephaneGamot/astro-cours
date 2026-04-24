@@ -252,9 +252,22 @@ export default function Post() {
         </div>
       </header>
 
+      {/* DEFINITION BOX — Featured Snippet */}
+      <div className="rounded-2xl border border-red-400/20 bg-red-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-red-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          <strong>Mars en astrologie</strong> gouverne le désir, la libido, l&apos;énergie d&apos;action et le style sexuel. Sa position en signe dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral">thème natal</Link> révèle comment vous agissez, ce qui vous met en mouvement et votre rapport au désir physique.
+        </p>
+      </div>
+
+      {/* APP INTRO */}
+      <p className="text-lg leading-relaxed text-text/85">
+        Vous pensez que votre <strong>libido</strong> et votre énergie d&apos;action dépendent de votre signe solaire ? Pas du tout. C&apos;est <strong><Link href="/planetes/mars">Mars</Link></strong> qui commande le désir, la combativité et le style sexuel dans votre thème natal. Ce guide analyse Mars dans les 12 signes : pulsions, forces, pièges et dynamique de couple.
+      </p>
+
       {/* 1) base */}
       <section className="space-y-4">
-        <H2>1) Mars, ça représente quoi ?</H2>
+        <H2>1) Mars en astrologie : que représente cette planète dans votre thème ?</H2>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -281,7 +294,7 @@ export default function Post() {
 
       {/* 2) méthode */}
       <section className="space-y-4">
-        <H2>2) Comment lire Mars (sans fantasmes ni clichés)</H2>
+        <H2>2) Comment interpréter Mars dans votre thème natal</H2>
 
         <Card title="Méthode pro en 5 points" subtitle="Mars = énergie. Donc on observe les faits.">
           <ol className="list-decimal pl-5 space-y-2">
@@ -466,7 +479,7 @@ export default function Post() {
 
       {/* 6) résumé */}
       <section className="space-y-4">
-        <H2>6) Résumé pro</H2>
+        <H2>6) Ce qu&apos;il faut retenir sur Mars en signes</H2>
 
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
           <div className="grid grid-cols-1 md:grid-cols-3">

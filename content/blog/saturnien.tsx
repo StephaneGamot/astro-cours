@@ -221,23 +221,31 @@ export default function SaturnienPost() {
                   name: "Qu’est-ce qu’un Saturnien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Saturnien désigne un tempérament fortement marqué par Saturne : profondeur, lenteur féconde, rigueur, fidélité, endurance, solitude choisie ou subie, ambition patiente et sens du devoir.",
+                    text: "Le Saturnien est un type planétaire à Saturne dominant : rigueur, profondeur, endurance, sens du devoir et maturité précoce.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Saturnien ?",
+                  name: "Quels métiers pour une dominante Saturne ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Saturnien excelle souvent dans les métiers de structure, d’architecture, de gestion, d’archives, de recherche, de terre, de soin difficile, de discipline ou de longue patience.",
+                    text: "Sciences exactes, recherche, architecture, droit, administration, agriculture, archéologie, géologie.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’un Saturne affligé ?",
+                  name: "Quels risques avec un Saturne affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Saturne est très affligé, la profondeur peut se transformer en dureté, aigreur, misanthropie, ressentiment, blocages ou sentiment d’injustice permanente.",
+                    text: "Dépression, rigidité mentale, isolement chronique, pessimisme, avarice, froideur affective.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Saturnien ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Saturne angulaire, en Capricorne ou Verseau, aspects au Soleil ou à la Lune, amas en Capricorne.",
                   },
                 },
               ],
@@ -251,6 +259,7 @@ export default function SaturnienPost() {
           src={SaturnienImage}
           alt="Portrait du Dieu Saturneen astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -287,8 +296,15 @@ export default function SaturnienPost() {
             </div>
           </div>
 
-          <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Si le monde moderne, impatient et superficiel, glorifie la vitesse de Mercure et l&apos;éclat du Soleil, il oublie souvent de s&apos;incliner devant la majesté de Saturne. Gouverné par la planète du Temps, du Karma, de la structuration et de la sagesse, le Saturnien est un roc au milieu de l&apos;océan. Incompris, souvent jugé trop sévère ou solitaire, il est pourtant le bâtisseur infatigable du zodiaque. Découvrez le portrait psychologique, amoureux et professionnel de cette âme profonde qui, telle un bon vin, révèle toute sa puissance avec les années.
+          <div className="mt-8 max-w-3xl rounded-xl border border-slate-400/20 bg-slate-400/5 p-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-slate-300">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/80 sm:text-lg">
+              Le <strong>Saturnien en astrologie</strong> désigne un individu dont <Link href="/planetes/saturne" className="text-slate-300 underline decoration-slate-300/30 hover:decoration-slate-300">Saturne</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="text-slate-300 underline decoration-slate-300/30 hover:decoration-slate-300">thème natal</Link> (angulaire, bien aspecté, en Capricorne ou Verseau). Il se caractérise par une profondeur intellectuelle exceptionnelle, un sens aigu du devoir et une capacité de concentration que le temps ne fait que renforcer.
+            </p>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+            Vous avez <strong>Saturne dominant</strong> dans votre thème astral et le sentiment d&apos;avoir toujours porté le monde sur vos épaules ? Cette gravité naturelle force le respect, mais elle cache un piège : isolement, rigidité, dépression chronique. Ce portrait complet du <strong>tempérament saturnien</strong> — psychologie, carrière, amour, morphopsychologie — explore les ressorts de cette dominante planétaire, de l&apos;archétype de Chronos au défi de l&apos;allègement intérieur.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -304,7 +320,7 @@ export default function SaturnienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Saturnien : La Puissance de la Profondeur</H2>
+        <H2>L&apos;intelligence saturnienne : profondeur, rigueur et pensée systémique</H2>
 
         <Card title="L’intellect">
           <p>
@@ -330,7 +346,7 @@ export default function SaturnienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Vie Sociale : L&apos;Authenticité sous la Carapace</H2>
+        <H2>Le Saturnien en société : solitude choisie, intégrité et gravité</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -352,14 +368,14 @@ export default function SaturnienPost() {
           src={Saturnien3Image}
           alt="Portrait symbolique du tempérament saturnien en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : Les Défis du Karma Amoureux</H2>
+        <H2>Le Saturnien en amour : fidélité austère, pudeur et engagement durable</H2>
 
         <Card title="L’amour">
           <p>
@@ -383,7 +399,7 @@ export default function SaturnienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : L&apos;Ambition Silencieuse</H2>
+        <H2>Métiers du Saturnien : quelles carrières pour une dominante Saturne ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -410,7 +426,7 @@ export default function SaturnienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand Saturne est affligé)</H2>
+        <H2>Saturne affligé dans le thème natal : dépression, rigidité et isolement</H2>
 
         <Callout tone="warn" title="L’ombre de Saturne">
           <p>
@@ -430,14 +446,14 @@ export default function SaturnienPost() {
           src={Saturnien2Image}
           alt="Portrait du Dieu du temps en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Yin et Féminine : L&apos;Archétype du Dévouement</H2>
+        <H2>La Saturnienne en astrologie : portrait de la femme à dominante Saturne</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -455,7 +471,7 @@ export default function SaturnienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Saturnien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -494,6 +510,42 @@ export default function SaturnienPost() {
           effect="Patience, structure, ambition longue"
           reading="Retards, chutes tardives, lourdeur karmique"
         />
+      </section>
+
+      <section id="faq-saturnien" className="space-y-6" aria-label="Questions fréquentes sur le Saturnien">
+        <H2>Questions fréquentes sur le Saturnien</H2>
+
+        {[
+          {
+            q: "Qu\u2019est-ce qu\u2019un Saturnien en astrologie ?",
+            a: "Le Saturnien est un type planétaire à Saturne dominant : rigueur, profondeur, endurance, sens du devoir et maturité précoce.",
+          },
+          {
+            q: "Quels métiers pour une dominante Saturne ?",
+            a: "Sciences exactes, recherche, architecture, droit, administration, agriculture, archéologie, géologie.",
+          },
+          {
+            q: "Quels risques avec un Saturne affligé ?",
+            a: "Dépression, rigidité mentale, isolement chronique, pessimisme, avarice, froideur affective.",
+          },
+          {
+            q: "Comment savoir si je suis Saturnien ?",
+            a: "Saturne angulaire, en Capricorne ou Verseau, aspects au Soleil ou à la Lune, amas en Capricorne.",
+          },
+        ].map(({ q, a }) => (
+          <details
+            key={q}
+            className="group rounded-2xl border border-white/10 bg-white/[0.02] backdrop-blur-md transition-colors open:bg-white/[0.04]"
+          >
+            <summary className="flex cursor-pointer items-center gap-3 p-5 text-base font-medium text-white/90 hover:text-slate-200 md:text-lg">
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-slate-300/60 text-sm text-white" aria-hidden="true">?</span>
+              {q}
+            </summary>
+            <div className="px-5 pb-5 pl-14 text-sm leading-relaxed text-white/70 md:text-base">
+              {a}
+            </div>
+          </details>
+        ))}
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

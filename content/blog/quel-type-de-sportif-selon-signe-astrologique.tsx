@@ -319,6 +319,19 @@ export default function Post() {
           </div>
         </header>
 
+        {/* ── D&eacute;finition (Featured Snippet) ── */}
+        <section className="rounded-2xl border border-emerald-400/25 bg-emerald-400/5 p-5 sm:p-6">
+          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-400 mb-3">D&eacute;finition</p>
+          <p className="text-sm leading-relaxed text-text/80 md:text-base">
+            Le <strong>sport et l&apos;astrologie</strong> sont li&eacute;s par les &eacute;l&eacute;ments (feu, terre, air, eau), la position de <Link href="/planetes/mars" className="text-emerald-300 underline decoration-emerald-300/30 underline-offset-2 transition-colors hover:text-emerald-200">Mars</Link> et le signe solaire. Chaque signe du zodiaque poss&egrave;de des aptitudes physiques et un temp&eacute;rament sportif distincts qui orientent naturellement vers certaines disciplines.
+          </p>
+        </section>
+
+        {/* ── APP intro ── */}
+        <p className="text-text/85 leading-relaxed">
+          Quel <strong>sport pratiquer selon votre signe astrologique</strong> ? Au-del&agrave; du simple divertissement, votre signe r&eacute;v&egrave;le des aptitudes physiques et un temp&eacute;rament sportif qui vous pr&eacute;disposent &agrave; certaines disciplines. D&eacute;couvrez le profil sportif des 12 signes du zodiaque, avec recommandations concr&egrave;tes et points forts.
+        </p>
+
         <section className="space-y-4" aria-labelledby="sport-et-astrologie">
           <H2 id="sport-et-astrologie">Sport et astrologie : une logique d’énergie</H2>
 
@@ -624,6 +637,43 @@ export default function Post() {
             <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">dictionnaire astrologique</Link>{" "}
             pour approfondir.
           </p>
+        </section>
+
+        {/* ── FAQ ── */}
+        <section className="space-y-4" aria-labelledby="faq-sport-astrologie">
+          <h2 id="faq-sport-astrologie" className="text-2xl md:text-3xl font-semibold tracking-tight leading-tight">
+            Questions fr&eacute;quentes : sport et astrologie
+          </h2>
+
+          <div className="rounded-2xl border border-white/10 bg-black/20 p-6 space-y-5">
+            <div>
+              <p className="font-semibold text-text/90">Quel signe est le plus sportif ?</p>
+              <p className="mt-2 text-text/80 leading-relaxed">
+                B&eacute;lier et Sagittaire (signes de feu, gouvern&eacute;s ou stimul&eacute;s par <Link href="/planetes/mars" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link>) sont souvent les plus comp&eacute;titifs et les plus attir&eacute;s par le sport. Mais chaque signe a ses forces propres : endurance pour la terre, technique pour l&apos;air, fluidit&eacute; pour l&apos;eau.
+              </p>
+            </div>
+
+            <div>
+              <p className="font-semibold text-text/90">Mars influence-t-il les capacit&eacute;s sportives ?</p>
+              <p className="mt-2 text-text/80 leading-relaxed">
+                Oui, Mars en signe et en maison indique le type d&apos;&eacute;nergie physique que vous mobilisez. Un Mars en B&eacute;lier sera explosif, un Mars en Taureau endurant, un Mars en G&eacute;meaux polyvalent.
+              </p>
+            </div>
+
+            <div>
+              <p className="font-semibold text-text/90">Peut-on devenir bon dans un sport contraire &agrave; son signe ?</p>
+              <p className="mt-2 text-text/80 leading-relaxed">
+                Oui, l&apos;ascendant, la position de Mars et la volont&eacute; personnelle comptent aussi. Le signe solaire donne une tendance naturelle, mais il ne d&eacute;termine pas une limite.
+              </p>
+            </div>
+
+            <div>
+              <p className="font-semibold text-text/90">Quel &eacute;l&eacute;ment est le plus endurant ?</p>
+              <p className="mt-2 text-text/80 leading-relaxed">
+                La terre (Taureau, Vierge, Capricorne) excelle en endurance et en r&eacute;sistance. Ces signes tiennent dans la dur&eacute;e et r&eacute;cup&egrave;rent bien gr&acirc;ce &agrave; leur r&eacute;gularit&eacute; naturelle.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="rounded-2xl border border-white/10 bg-black/20 p-6">

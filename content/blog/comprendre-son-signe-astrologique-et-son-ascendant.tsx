@@ -8,9 +8,9 @@ const COVER_URL = `${SITE_URL}/images/blog/soleil-et-asc.jpg`;
 
 export const meta = {
   slug: "comprendre-signe-astrologique-ascendant-12-exemples",
-  title: "Comprendre son signe astrologique et son ascendant",
+  title: "Signe astrologique et ascendant : comprendre",
   description:
-    "Comprendre la différence entre signe solaire et ascendant à travers 12 exemples concrets, sérieux et pédagogiques.",
+    "Comprenez la différence entre signe solaire et ascendant grâce à 12 exemples concrets et pédagogiques. Testez vos connaissances dès maintenant !",
   socialTitle:
     "Signe astrologique et ascendant : comprendre enfin la différence",
   socialDescription:
@@ -250,8 +250,21 @@ export default function Post() {
         </div>
       </header>
 
+      {/* DEFINITION BOX — Featured Snippet */}
+      <div className="rounded-2xl border border-amber-400/20 bg-amber-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-amber-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          Le <strong>signe astrologique</strong> (ou signe solaire) correspond à la position du Soleil à la naissance, tandis que l&apos;<strong>ascendant</strong> reflète le signe qui se levait à l&apos;horizon au moment exact de la naissance. Ensemble, ils forment le duo fondamental de toute interprétation du <Link href="/blog/qu-est-ce-qu-un-theme-astral">thème natal</Link>.
+        </p>
+      </div>
+
+      {/* APP INTRO */}
+      <p className="text-lg leading-relaxed text-text/85">
+        Vous êtes Lion mais vous ne vous reconnaissez absolument pas dans les descriptions de votre <strong>signe astrologique</strong> ? C&apos;est probablement parce que votre <strong>ascendant</strong> raconte une toute autre histoire. Cette confusion touche 90 % des débutants en astrologie. Grâce à 12 combinaisons Soleil + Ascendant concrètes, vous comprendrez enfin pourquoi ces deux éléments changent tout.
+      </p>
+
       <section className="space-y-4">
-        <H2>1) Le signe astrologique, ce n’est pas toute la personnalité</H2>
+        <H2>1) Signe astrologique : pourquoi il ne décrit pas toute votre personnalité</H2>
 
         <Card title="Le Soleil n’est qu’une partie du thème">
           <p>
@@ -274,7 +287,7 @@ export default function Post() {
       </section>
 
       <section className="space-y-4">
-        <H2>2) Pourquoi le duo signe + ascendant change tout</H2>
+        <H2>2) Signe solaire et ascendant : quelle est la vraie différence ?</H2>
 
         <Card title="La combinaison qui rend la lecture vivante">
           <p>
@@ -301,7 +314,7 @@ export default function Post() {
       </section>
 
      <section className="space-y-4">
-  <H2>4) 12 combinaisons Soleil + Ascendant vraiment parlantes</H2>
+  <H2>3) 12 exemples concrets de combinaisons Soleil + Ascendant</H2>
 
   <div className="grid gap-6 lg:grid-cols-2">
     <PortraitCard title="Bélier Soleil — Ascendant Cancer">
@@ -524,7 +537,7 @@ export default function Post() {
        
 
       <section className="space-y-4">
-        <H2>4) Ce qu’il faut retenir après ces 12 exemples</H2>
+        <H2>4) Comment interpréter votre signe et ascendant ensemble</H2>
 
         <Card title="Le vrai sens de cette lecture">
           <p>

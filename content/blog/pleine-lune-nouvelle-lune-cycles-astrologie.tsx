@@ -255,9 +255,22 @@ export default function Post() {
         </div>
       </header>
 
+      {/* ── D&eacute;finition (Featured Snippet) ── */}
+      <section className="rounded-2xl border border-indigo-400/25 bg-indigo-400/5 p-5 sm:p-6">
+        <p className="text-sm font-semibold uppercase tracking-widest text-indigo-400 mb-3">D&eacute;finition</p>
+        <p className="text-sm leading-relaxed text-text/80 md:text-base">
+          Les <strong>cycles lunaires en astrologie</strong> alternent entre <strong>nouvelle lune</strong> (conjonction Soleil-<Link href="/planetes/lune" className="text-indigo-300 underline decoration-indigo-300/30 underline-offset-2 transition-colors hover:text-indigo-200">Lune</Link>) et <strong>pleine lune</strong> (opposition Soleil-Lune). Ce rythme de 29,5 jours influence les &eacute;nergies collectives, les &eacute;motions et les moments propices pour agir ou se retirer.
+        </p>
+      </section>
+
+      {/* ── APP intro ── */}
+      <p className="text-text/85 leading-relaxed">
+        Vous vous sentez &laquo;&nbsp;bizarre&nbsp;&raquo; &agrave; chaque <strong>pleine lune</strong> ? Vous n&apos;&ecirc;tes pas fou — l&apos;astrologie l&apos;explique tr&egrave;s bien. Les <strong>cycles lunaires</strong> rythment notre &eacute;nergie, nos &eacute;motions et nos d&eacute;cisions bien plus qu&apos;on ne le croit. Ce guide d&eacute;crypte nouvelle lune et pleine lune, leurs effets r&eacute;els et comment les utiliser concr&egrave;tement.
+      </p>
+
       {/* 1) base */}
       <section className="space-y-4">
-        <H2>1) La Lune, ça représente quoi ?</H2>
+        <H2>1) La Lune en astrologie : que repr&eacute;sente-t-elle ?</H2>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -495,7 +508,7 @@ export default function Post() {
 
       {/* 8) secret */}
       <section className="space-y-4">
-        <H2>8) Le vrai secret du cycle lunaire</H2>
+        <H2>8) Le vrai secret des cycles lunaires en astrologie</H2>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -517,7 +530,7 @@ export default function Post() {
 
       {/* 9) résumé */}
       <section className="space-y-4">
-        <H2>9) Résumé pro</H2>
+        <H2>9) Synth&egrave;se : pleine lune et nouvelle lune en bref</H2>
 
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
           <div className="grid grid-cols-1 md:grid-cols-3">
@@ -550,6 +563,35 @@ export default function Post() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* ── FAQ visible ── */}
+      <section className="space-y-4">
+        <H2>Questions fr&eacute;quentes sur les cycles lunaires</H2>
+
+        <Card title="Quelle est la diff&eacute;rence entre Nouvelle Lune et Pleine Lune ?">
+          <p>
+            La Nouvelle Lune est une phase d&apos;introspection et d&apos;intention. La Pleine Lune est une phase de r&eacute;v&eacute;lation et de lib&eacute;ration. Ensemble, elles forment un cycle de 29 jours.
+          </p>
+        </Card>
+
+        <Card title="Pourquoi se sent-on bizarre pendant la Pleine Lune ?">
+          <p>
+            La Pleine Lune agit comme un amplificateur &eacute;motionnel : sommeil plus l&eacute;ger, hypersensibilit&eacute;, irritabilit&eacute;. Elle ne cr&eacute;e pas le probl&egrave;me, elle augmente le volume de ce qui &eacute;tait d&eacute;j&agrave; pr&eacute;sent.
+          </p>
+        </Card>
+
+        <Card title="Comment utiliser les cycles lunaires au quotidien ?">
+          <p>
+            &Agrave; la Nouvelle Lune, &eacute;cris une intention claire et pose un micro-pas concret. &Agrave; la Pleine Lune, lib&egrave;re ce qui te p&egrave;se : habitude, non-dit, charge mentale.
+          </p>
+        </Card>
+
+        <Card title="La Lune influence-t-elle vraiment les &eacute;motions ?">
+          <p>
+            En astrologie, la <Link href="/planetes/lune" className="underline decoration-white/30 hover:decoration-white/60 transition">Lune</Link> repr&eacute;sente le climat int&eacute;rieur : &eacute;motions profondes, r&eacute;activit&eacute; instinctive, besoin de s&eacute;curit&eacute;. Les phases lunaires offrent un rythme naturel pour observer et canaliser ses &eacute;motions.
+          </p>
+        </Card>
       </section>
 
       {/* CTA */}

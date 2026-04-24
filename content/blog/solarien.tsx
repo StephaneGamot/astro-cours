@@ -221,23 +221,31 @@ export default function SolarienPost() {
                   name: "Qu’est-ce qu’un Solarien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Solarien est un type astrologique marqué par le Soleil : rayonnement, synthèse, autorité naturelle, excellence, magnétisme, leadership et vocation d’élévation.",
+                    text: "Le Solarien est un type planétaire défini par la dominante du Soleil dans le thème natal. Charisme, autorité naturelle, génie de synthèse et vocation d’excellence caractérisent ce profil, considéré par la tradition astrologique comme le plus complet et le plus rare.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Solarien ?",
+                  name: "Quels métiers conviennent à une dominante Soleil ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Solarien se sent particulièrement appelé vers le pouvoir, la direction, la haute stratégie, la magistrature, les grandes responsabilités et certains arts majeurs où l’ampleur et la noblesse sont requises.",
+                    text: "Le Solarien s’épanouit dans les postes de direction, la haute stratégie, la magistrature, la politique et les arts majeurs (réalisation cinématographique, peinture classique). Il excelle partout où l’ampleur de vue et le leadership sont requis.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’un Soleil affligé ?",
+                  name: "Quel est le risque d’un Soleil affligé dans un thème natal ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque le Soleil est lourdement affligé, la grandeur d’âme peut se déformer en mégalomanie, orgueil destructeur, tyrannie, illusions de grandeur et chutes spectaculaires.",
+                    text: "Un Soleil en aspect dissonant (carré ou opposition à Mars, Saturne) peut transformer la grandeur d’âme en mégalomanie, orgueil destructeur, tyrannie et chutes spectaculaires — le complexe d’Icare.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Solarien dans mon thème astral ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Vérifiez si votre Soleil est angulaire (maison I, IV, VII ou X), s’il reçoit des aspects harmoniques de Jupiter ou de la Lune, et s’il se trouve en dignité (Lion, Bélier). Plus ces critères se cumulent, plus votre thème est de type solarien.",
                   },
                 },
               ],
@@ -251,6 +259,7 @@ export default function SolarienPost() {
           src={SolarienImage}
           alt="Portrait du Dieu soleil"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -286,8 +295,17 @@ export default function SolarienPost() {
             </div>
           </div>
 
+          {/* ── Bloc définition (Featured Snippet) ── */}
+          <div className="mt-8 rounded-2xl border border-amber-400/20 bg-amber-400/[0.04] px-6 py-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-amber-300/80">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+              Le <strong>Solarien en astrologie</strong> désigne un individu dont le <Link href="/planetes/soleil" className="underline decoration-amber-400/40 underline-offset-2 hover:decoration-amber-400">Soleil</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-amber-400/40 underline-offset-2 hover:decoration-amber-400">thème natal</Link> (angulaire, bien aspecté, en Lion ou en Bélier). Il se distingue par un charisme naturel, un sens inné du commandement et une vocation d&apos;excellence qui le pousse à rayonner dans tout ce qu&apos;il entreprend.
+            </p>
+          </div>
+
+          {/* ── Introduction APP (Accroche → Problème → Promesse) ── */}
           <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Dans la grande symphonie du zodiaque, si chaque planète joue une partition unique, le Soleil en est le chef d&apos;orchestre incontesté. Gouverné par l&apos;Astre Roi, le cœur battant de notre système, le Solarien incarne la quintessence de la nature humaine aboutie. Rayonnant, naturellement fait pour diriger et inspirer, cet archétype fascine autant qu&apos;il intimide. Découvrez le portrait psychologique, professionnel, amoureux et physique de l&apos;être le plus complet — mais aussi l&apos;un des plus rares — de l&apos;astrologie.
+            Vous avez un <strong>Soleil dominant</strong> dans votre thème astral et vous sentez brûler en vous une flamme que rien ne semble pouvoir éteindre ? Pourtant, cette puissance solaire reste un mystère : où s&apos;arrête le charisme et où commence l&apos;orgueil ? Comment canaliser cette énergie royale sans basculer dans la mégalomanie ? Ce portrait complet du <strong>tempérament solarien</strong> — psychologie, carrière, amour, morphopsychologie — vous révèle les clés de cette dominante planétaire rarissime, de l&apos;archétype d&apos;Apollon à la chute d&apos;Icare.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -303,7 +321,7 @@ export default function SolarienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Solarien : La Synthèse Absolue du Génie</H2>
+        <H2>Pourquoi le Solarien domine-t-il le thème astral ?</H2>
 
         <Card title="L’intellect">
           <p>
@@ -327,7 +345,7 @@ export default function SolarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Charisme et Vie Sociale : L&apos;Aura de l&apos;Empereur</H2>
+        <H2>Charisme et magnétisme : comment le Solarien rayonne en société</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -345,7 +363,7 @@ export default function SolarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : La Solitude du Sommet et le Piège de l&apos;Idéal</H2>
+        <H2>Le Solarien en amour : idéal inatteignable et solitude sentimentale</H2>
 
         <Card title="L’amour">
           <p>
@@ -365,14 +383,14 @@ export default function SolarienPost() {
           src={Solarien3Image}
           alt="Portrait du Dieu Soleil en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : Une Trajectoire Météorique</H2>
+        <H2>Métiers et vocation du Solarien : quelles carrières pour une dominante Soleil ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -394,7 +412,7 @@ export default function SolarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand le Soleil est affligé)</H2>
+        <H2>Soleil affligé dans le thème natal : la face sombre du Solarien</H2>
 
         <Callout tone="warn" title="L’ombre du Soleil">
           <p>
@@ -414,14 +432,14 @@ export default function SolarienPost() {
           src={Solarien2Image}
           alt="Portrait d'Apollon Dieu soleil en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : L&apos;Archétype de la Souveraine</H2>
+        <H2>La Solarienne en astrologie : portrait de la femme à dominante Soleil</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -439,7 +457,7 @@ export default function SolarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique du Solarien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie du Solarien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -457,7 +475,7 @@ export default function SolarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Solarien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -496,6 +514,57 @@ export default function SolarienPost() {
           effect="Direction, pouvoir, arts majeurs, rayonnement"
           reading="Chute spectaculaire en cas d’orgueil ou de désalignement"
         />
+      </section>
+
+      {/* ── FAQ visible (Featured Snippet + People Also Ask) ── */}
+      <section className="space-y-6" aria-labelledby="faq-solarien">
+        <H2>Questions fréquentes sur le Solarien</H2>
+        <div id="faq-solarien" className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-amber-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Qu&apos;est-ce qu&apos;un Solarien en astrologie ?
+                <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Le Solarien est un <strong>type planétaire</strong> défini par la dominante du Soleil dans le thème natal. Charisme, autorité naturelle, génie de synthèse et vocation d&apos;excellence caractérisent ce profil, considéré par la tradition astrologique comme le plus complet et le plus rare.
+            </p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-amber-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quels métiers conviennent à une dominante Soleil ?
+                <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Le Solarien s&apos;épanouit dans les postes de direction, la haute stratégie, la magistrature, la politique et les arts majeurs (réalisation cinématographique, peinture classique). Il excelle partout où l&apos;ampleur de vue et le leadership sont requis.
+            </p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-amber-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quel est le risque d&apos;un Soleil affligé dans un thème natal ?
+                <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Un Soleil en <Link href="/aspects" className="underline decoration-amber-400/40 underline-offset-2 hover:decoration-amber-400">aspect</Link> dissonant (carré ou opposition à Mars, Saturne) peut transformer la grandeur d&apos;âme en mégalomanie, orgueil destructeur, tyrannie et chutes spectaculaires — le &quot;complexe d&apos;Icare&quot;.
+            </p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-amber-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Comment savoir si je suis Solarien dans mon thème astral ?
+                <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Vérifiez si votre Soleil est angulaire (en <Link href="/maisons/maison-1" className="underline decoration-amber-400/40 underline-offset-2 hover:decoration-amber-400">maison I</Link>, IV, VII ou X), s&apos;il reçoit des aspects harmoniques (trigone, sextile) de Jupiter ou de la Lune, et s&apos;il se trouve en dignité (Lion, Bélier). Plus ces critères se cumulent, plus votre <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-amber-400/40 underline-offset-2 hover:decoration-amber-400">thème</Link> est de type solarien.
+            </p>
+          </details>
+        </div>
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

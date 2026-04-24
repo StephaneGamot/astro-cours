@@ -9,7 +9,7 @@ import Plutonien2Image from "@/public/images/blog/plutonien2.webp";
 export const meta = {
   slug: "plutonien",
   title:
-    "Plutonien : le Maître de l'Ombre & de la Transformation",
+    "Plutonien : Maître de l'Ombre et du Renouveau",
   description:
     "Portrait du Plutonien en astrologie : intensité, vérité, crise et résilience. Découvrez la transformation et l'impact de Pluton dans un thème astral.",
   date: "2026-03-29",
@@ -220,23 +220,31 @@ export default function PlutonienPost() {
                   name: "Qu’est-ce qu’un Plutonien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Plutonien est un type astrologique marqué par Pluton : intensité, lucidité radicale, secret, magnétisme, fusion, crise, résilience et capacité de transformation profonde.",
+                    text: "Type planétaire Pluton dominant : intensité, magnétisme, pénétration psychologique, capacité de régénération, pouvoir de transformation.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Plutonien ?",
+                  name: "Quels métiers pour une dominante Pluton ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Plutonien s’épanouit souvent dans la psychanalyse, la psychiatrie, la chirurgie, la médecine légale, la gestion de crise, l’audit, l’investigation, la finance souterraine et l’ésotérisme.",
+                    text: "Psychanalyse, recherche, chirurgie, criminologie, finance de crise, occultisme, métiers de l’ombre et du pouvoir.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’un Pluton affligé ?",
+                  name: "Quels risques avec un Pluton affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Pluton est lourdement affligé, l’intensité peut basculer vers la paranoïa, la manipulation, la vengeance, la destruction psychologique ou l’auto-sabotage.",
+                    text: "Manipulation, obsessions destructrices, paranoïa, emprise psychologique, violence souterraine, autodestruction.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Plutonien ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Pluton angulaire, en Scorpion, aspects au Soleil ou à l’Ascendant, amas en Scorpion, Soleil en maison VIII.",
                   },
                 },
               ],
@@ -250,6 +258,7 @@ export default function PlutonienPost() {
           src={PlutonienImage}
           alt="Portrait symbolique du tempérament plutonien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -286,8 +295,15 @@ export default function PlutonienPost() {
             </div>
           </div>
 
-          <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            S&apos;aventurer sur le territoire du Plutonien, c&apos;est accepter de quitter la surface rassurante des choses pour plonger dans les abysses. Gouverné par Pluton (Hadès dans la mythologie, le Dieu des profondeurs et de l&apos;invisible), le type Plutonien est l&apos;archétype le plus intense, le plus secret et le plus puissant du zodiaque. Là où les autres planètes construisent, communiquent ou brillent, Pluton détruit pour recréer. Découvrez le portrait psychologique, amoureux et karmique de cet alchimiste fascinant, dont l&apos;existence n&apos;obéit qu&apos;à une seule loi : mourir pour renaître.
+          <div className="mt-8 rounded-2xl border border-purple-400/20 bg-purple-400/[0.04] px-6 py-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-purple-300/80">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+              Le <strong>Plutonien en astrologie</strong> désigne un individu dont <Link href="/planetes/pluton" className="underline hover:text-purple-200">Pluton</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline hover:text-purple-200">thème natal</Link> (angulaire, bien aspecté, en Scorpion). Il se caractérise par une intensité psychologique hors norme, un magnétisme hypnotique et une capacité de régénération qui le pousse à traverser — et transformer — les crises les plus profondes.
+            </p>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+            Vous avez <strong>Pluton dominant</strong> dans votre thème astral et un regard qui semble percer les âmes ? Cette puissance magnétique fascine et dérange en parts égales : manipulation, obsession, pulsions destructrices. Ce portrait complet du <strong>tempérament plutonien</strong> — psychologie, carrière, amour, morphopsychologie — plonge dans les profondeurs de cette dominante planétaire extrême, de l&apos;archétype d&apos;Hadès au défi de la transmutation intérieure.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -303,7 +319,7 @@ export default function PlutonienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Plutonien : La Vision Rayon X et la Quête de Vérité</H2>
+        <H2>L&apos;intelligence plutonienne : pénétration psychologique et pensée abyssale</H2>
 
         <Card title="L’intellect">
           <p>
@@ -321,7 +337,7 @@ export default function PlutonienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Vie Sociale et Caractère : Le Magnétisme du &quot;Tout ou Rien&quot;</H2>
+        <H2>Le Plutonien en société : magnétisme obscur, pouvoir et intimidation</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -339,7 +355,7 @@ export default function PlutonienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : La Passion Fusionnelle et le Creuset Alchimique</H2>
+        <H2>Le Plutonien en amour : passion totale, emprise et transformation</H2>
 
         <Card title="L’amour">
           <p>
@@ -357,7 +373,7 @@ export default function PlutonienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : Le Cycle du Phénix (Mourir pour Renaître)</H2>
+        <H2>Métiers du Plutonien : quelles carrières pour une dominante Pluton ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -384,7 +400,7 @@ export default function PlutonienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand Pluton est affligé)</H2>
+        <H2>Pluton affligé dans le thème natal : obsessions, manipulation et autodestruction</H2>
 
         <Callout tone="warn" title="L’ombre de Pluton">
           <p>
@@ -402,7 +418,7 @@ export default function PlutonienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : L&apos;Archétype de la Prêtresse et de la Sorcière</H2>
+        <H2>La Plutonienne en astrologie : portrait de la femme à dominante Pluton</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -420,7 +436,7 @@ export default function PlutonienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique du Plutonien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie du Plutonien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -441,14 +457,14 @@ export default function PlutonienPost() {
           src={Plutonien2Image}
           alt="Portrait de Hades en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Plutonien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -487,6 +503,52 @@ export default function PlutonienPost() {
           effect="Crise, psyché, chirurgie, finance occulte, ésotérisme"
           reading="Manipulation, auto-sabotage, fascination pour le pouvoir"
         />
+      </section>
+
+      <section id="faq-plutonien" className="space-y-6">
+        <H2>Questions fréquentes sur le Plutonien</H2>
+
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-purple-200">
+              <svg className="h-5 w-5 shrink-0 text-purple-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Qu&apos;est-ce qu&apos;un Plutonien en astrologie ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Type planétaire Pluton dominant : intensité, magnétisme, pénétration psychologique, capacité de régénération, pouvoir de transformation.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-purple-200">
+              <svg className="h-5 w-5 shrink-0 text-purple-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels métiers pour une dominante Pluton ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Psychanalyse, recherche, chirurgie, criminologie, finance de crise, occultisme, métiers de l&apos;ombre et du pouvoir.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-purple-200">
+              <svg className="h-5 w-5 shrink-0 text-purple-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels risques avec un Pluton affligé ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Manipulation, obsessions destructrices, paranoïa, emprise psychologique, violence souterraine, autodestruction.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-purple-200">
+              <svg className="h-5 w-5 shrink-0 text-purple-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Comment savoir si je suis Plutonien ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Pluton angulaire, en Scorpion, aspects au Soleil ou à l&apos;Ascendant, amas en Scorpion, Soleil en maison VIII.
+            </p>
+          </details>
+        </div>
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

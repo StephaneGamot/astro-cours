@@ -7,7 +7,7 @@ import FinanceAstroImage from "@/public/images/blog/finances-theme-astral.webp";
 
 export const meta = {
   slug: "finances-theme-astral",
-  title: "Les finances dans un thème astral",
+  title: "Finances dans le thème astral : guide complet",
   description:
     "Apprenez à analyser vos finances grâce au thème astral : étude de la Maison II, de ses planètes et aspects pour comprendre gains et pertes financières.",
   date: "2026-03-27",
@@ -226,7 +226,7 @@ export default function FinancesThemeAstralPost() {
         }}
       />
 <div className="relative w-full aspect-[7/3] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(251,191,36,0.1)] bg-[#0f0f13] flex items-center justify-center">
-              <Image src={FinanceAstroImage} alt="Un symbole astro avec des pieces de monnaie" fill priority className="object-cover" /> 
+              <Image src={FinanceAstroImage} alt="Un symbole astro avec des pieces de monnaie" fill sizes="100vw" priority className="object-cover" /> 
             
               <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent z-10 pointer-events-none" />
             </div>
@@ -345,9 +345,20 @@ export default function FinancesThemeAstralPost() {
         </div>
       </section>
 
+      {/* DEFINITION BOX – Featured Snippet */}
+      <aside className="rounded-2xl border border-amber-400/30 bg-amber-400/10 p-6 leading-relaxed text-white/85">
+        <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-amber-400">Définition</p>
+        <p>Les <strong>finances dans le thème astral</strong> s&apos;analysent principalement à travers la <Link href="/maisons/maison-2">maison II</Link> (revenus, biens), son signe de cuspide, les planètes qui l&apos;occupent et les aspects qu&apos;elles reçoivent. Cette étude révèle votre rapport naturel à l&apos;argent, vos sources de gains et vos zones de fragilité financière.</p>
+      </aside>
+
+      {/* APP intro */}
+      <p className="text-base leading-relaxed text-white/80 md:text-lg">
+        Vous voulez comprendre votre rapport à l&apos;<strong>argent</strong> grâce à l&apos;astrologie ? La réponse ne se trouve pas dans votre signe solaire, mais dans la <strong>maison II</strong> de votre <Link href="/blog/qu-est-ce-qu-un-theme-astral">thème natal</Link>. Ce guide méthodique vous apprend à analyser vos finances en 7 étapes, du signe de la cuspide aux aspects reçus, pour décrypter gains, pertes et potentiel financier.
+      </p>
+
       {/* 1. SIGNE CUSPIDE */}
       <section className="space-y-6">
-        <H2>1) Le signe de la cuspide de la maison II</H2>
+        <H2>1) Le signe sur la cuspide de la maison II : votre rapport naturel à l&apos;argent</H2>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Le signe placé à la cuspide de la maison II indique la{" "}
@@ -672,7 +683,7 @@ export default function FinancesThemeAstralPost() {
 
       {/* 7. MAITRISE DE LA PLANETE */}
       <section className="space-y-6">
-        <H2>7) Que maîtrise la planète située en maison II ?</H2>
+        <H2>7) La maîtrise de la planète en maison II : d&apos;où vient l&apos;argent ?</H2>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Une règle classique dit que{" "}
@@ -704,7 +715,7 @@ export default function FinancesThemeAstralPost() {
 
       {/* SYNTHESE GLOBALE */}
       <section className="space-y-6">
-        <H2>Synthèse : l’ordre juste pour juger les finances</H2>
+        <H2>Synthèse : méthode complète pour analyser les finances dans un thème</H2>
 
         <section className="rounded-[2rem] border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-transparent p-8 shadow-2xl backdrop-blur-md">
           <ol className="list-decimal space-y-4 pl-6 text-lg text-white/90 marker:font-serif marker:font-bold marker:text-emerald-400">

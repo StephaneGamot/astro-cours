@@ -268,9 +268,22 @@ export default function Post() {
         </div>
       </header>
 
+      {/* ── D&eacute;finition (Featured Snippet) ── */}
+      <section className="rounded-2xl border border-violet-400/25 bg-violet-400/5 p-5 sm:p-6">
+        <p className="text-sm font-semibold uppercase tracking-widest text-violet-400 mb-3">D&eacute;finition</p>
+        <p className="text-sm leading-relaxed text-text/80 md:text-base">
+          La <strong>conjonction en astrologie</strong> est un <Link href="/aspects" className="text-violet-300 underline decoration-violet-300/30 underline-offset-2 transition-colors hover:text-violet-200">aspect</Link> majeur form&eacute; lorsque deux plan&egrave;tes occupent le m&ecirc;me degr&eacute; (ou presque) du zodiaque. Elle fusionne les &eacute;nergies des deux plan&egrave;tes concern&eacute;es, cr&eacute;ant un m&eacute;lange intense dont la qualit&eacute; d&eacute;pend de la nature des astres impliqu&eacute;s.
+        </p>
+      </section>
+
+      {/* ── APP intro ── */}
+      <p className="text-text/85 leading-relaxed">
+        Deux plan&egrave;tes coll&eacute;es dans votre th&egrave;me natal — qu&apos;est-ce que &ccedil;a veut dire ? La <strong>conjonction</strong> est l&apos;aspect le plus puissant de l&apos;astrologie, et pourtant le plus mal compris. Ni positive ni n&eacute;gative par nature, elle fusionne deux forces plan&eacute;taires en une seule. Ce guide complet vous apprend &agrave; l&apos;interpr&eacute;ter correctement, avec orbes, exemples et tableau r&eacute;capitulatif.
+      </p>
+
       {/* 1) Définition */}
       <section className="space-y-4">
-        <H2>1) C'est quoi une conjonction en astrologie ?</H2>
+        <H2>1) Conjonction en astrologie : d&eacute;finition et principe fondamental</H2>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85">
           <p>
@@ -656,7 +669,7 @@ export default function Post() {
 
       {/* 8) Résumé */}
       <section className="space-y-4">
-        <H2>8) Ce qu'il faut retenir sur la conjonction</H2>
+        <H2>8) Synth&egrave;se : ce qu&apos;il faut retenir sur la conjonction</H2>
 
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
           <div className="grid grid-cols-1 md:grid-cols-3">
@@ -692,7 +705,7 @@ export default function Post() {
 
       {/* 9) FAQ SEO */}
       <section className="space-y-4">
-        <H2>9) Questions fréquentes sur la conjonction</H2>
+        <H2>9) FAQ : questions fr&eacute;quentes sur la conjonction en astrologie</H2>
 
         <Card title="La conjonction est-elle un bon ou un mauvais aspect ?" subtitle="La question que tout le monde se pose.">
           <p>

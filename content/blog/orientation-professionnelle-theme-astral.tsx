@@ -7,7 +7,7 @@ import OrientationProImage from "@/public/images/blog/orientation-professionnell
 
 export const meta = {
   slug: "orientation-professionnelle-theme-astral",
-  title: "Orientation professionnelle dans un thème astral",
+  title: "Orientation professionnelle et thème astral",
   description:
     "Analysez l’orientation professionnelle dans un thème astral : Maison X, Maison I, Part de Fortune et milieu du ciel pour définir vocation et statut social.",
   date: "2026-03-28",
@@ -250,6 +250,7 @@ export default function OrientationProfessionnelleThemeAstralPost() {
           src={OrientationProImage}
           alt="Illustration symbolique de l’orientation professionnelle en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -364,8 +365,19 @@ export default function OrientationProfessionnelleThemeAstralPost() {
         </div>
       </section>
 
+      {/* DEFINITION BOX – Featured Snippet */}
+      <aside className="rounded-2xl border border-emerald-400/30 bg-emerald-400/10 p-6 leading-relaxed text-white/85">
+        <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-emerald-400">Définition</p>
+        <p>L&apos;<strong>orientation professionnelle en astrologie</strong> se détermine par l&apos;analyse du &laquo;&nbsp;seigneur des actions&nbsp;&raquo; (la planète la plus élevée ou la plus dignifiée), de la <Link href="/maisons/maison-10">maison X</Link> (le Milieu du Ciel), de son maître et des aspects qu&apos;il reçoit dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral">thème natal</Link>.</p>
+      </aside>
+
+      {/* APP intro */}
+      <p className="text-base leading-relaxed text-white/80 md:text-lg">
+        Vous cherchez votre <strong>vocation</strong> et vous vous demandez si votre thème astral peut vous guider ? Oublier votre signe solaire — c&apos;est le <strong>seigneur des actions</strong>, la maison X et la Part de Fortune qui détiennent la réponse. Ce guide méthodique en 8 étapes vous apprend à identifier votre voie professionnelle grâce à l&apos;astrologie traditionnelle.
+      </p>
+
       <section className="space-y-6">
-        <H2>1) Les trois seigneurs de l’action</H2>
+        <H2>1) Les trois seigneurs de l&apos;action : comment identifier votre vocation</H2>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Dans cette méthode, trois planètes donnent la{" "}
@@ -489,7 +501,7 @@ export default function OrientationProfessionnelleThemeAstralPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>3) Pourquoi la maison X ne suffit pas à elle seule</H2>
+        <H2>3) Maison X et Milieu du Ciel : pourquoi ils ne suffisent pas seuls</H2>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           La maison X parle de reconnaissance sociale, de réussite visible, de
@@ -740,7 +752,7 @@ export default function OrientationProfessionnelleThemeAstralPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Synthèse : l’ordre juste pour juger l’orientation professionnelle</H2>
+        <H2>Synthèse : méthode complète pour analyser l&apos;orientation professionnelle</H2>
 
         <section className="rounded-[2rem] border border-emerald-500/20 bg-gradient-to-br from-emerald-500/10 to-transparent p-8 shadow-2xl backdrop-blur-md">
           <ol className="list-decimal space-y-4 pl-6 text-lg text-white/90 marker:font-serif marker:font-bold marker:text-emerald-400">

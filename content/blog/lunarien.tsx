@@ -221,23 +221,31 @@ export default function LunarienPost() {
                   name: "Qu’est-ce qu’un Lunarien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Lunarien est un type astrologique marqué par la Lune : mémoire, imagination, réceptivité, douceur, besoin de foyer, sensibilité profonde et vie intérieure très mouvante.",
+                    text: "Le Lunarien est un type planétaire défini par la dominante de la Lune dans le thème natal. Sensibilité extrême, mémoire remarquable, imagination puissante et besoin de sécurité émotionnelle caractérisent ce profil, souvent considéré comme le plus réceptif du zodiaque.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Lunarien ?",
+                  name: "Quels métiers conviennent à une dominante Lune ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Lunarien se sent souvent appelé vers la littérature, l’histoire, le récit, l’enfance, le soin, l’hôtellerie, le travail social, l’enseignement ou les métiers liés à l’eau et à la vie intérieure.",
+                    text: "Le Lunarien excelle dans les professions liées au soin, à l’écoute et à la créativité : psychologie, littérature, poésie, histoire, archéologie, journalisme narratif, petite enfance et tout métier où l’empathie est un atout majeur.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’une Lune affligée ?",
+                  name: "Quels sont les risques d’une Lune affligée ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque la Lune est très affligée, la sensibilité peut se transformer en passivité, fuite du réel, alcoolisation, dépendance affective, faiblesse de volonté ou instabilité chronique.",
+                    text: "Une Lune en aspect dissonant (carré ou opposition à Saturne, Mars) peut engendrer passivité, dépendance affective, instabilité émotionnelle, fuite du réel et vulnérabilité aux addictions — le Lunarien perd alors pied avec la réalité.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Lunarien dans mon thème astral ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Vérifiez si votre Lune est angulaire (en maison I, IV, VII ou X), si elle reçoit des aspects harmoniques (trigone, sextile) et si elle se trouve en dignité (Cancer, Taureau). Un amas de planètes en Cancer renforce aussi le profil lunarien.",
                   },
                 },
               ],
@@ -251,6 +259,7 @@ export default function LunarienPost() {
           src={LunarienImage}
           alt="Portrait symbolique du tempérament lunarien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -287,8 +296,17 @@ export default function LunarienPost() {
             </div>
           </div>
 
+          {/* ── Bloc définition (Featured Snippet) ── */}
+          <div className="mt-8 rounded-2xl border border-sky-400/20 bg-sky-400/[0.04] px-6 py-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-sky-300/80">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+              Le <strong>Lunarien en astrologie</strong> désigne un individu dont la <Link href="/planetes/lune" className="underline decoration-sky-400/40 underline-offset-2 hover:decoration-sky-400">Lune</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-sky-400/40 underline-offset-2 hover:decoration-sky-400">thème natal</Link> (angulaire, bien aspectée, en Cancer ou en Taureau). Il se distingue par une sensibilité extrême, une imagination foisonnante et un besoin viscéral de sécurité émotionnelle.
+            </p>
+          </div>
+
+          {/* ── Introduction APP (Accroche → Problème → Promesse) ── */}
           <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Dans le tumulte de la vie moderne, où l&apos;action et la vitesse (Mars, Mercure) sont portées aux nues, le Lunarien navigue à contre-courant, porté par la marée de ses émotions. Gouverné par la Lune — l&apos;astre de la nuit, de l&apos;inconscient, de l&apos;enfance et de la maternité — le type Lunarien est un être profondément poétique, réceptif et changeant. Découvrez le portrait psychologique, amoureux et morphologique de l&apos;archétype le plus doux, insaisissable et attachant du zodiaque.
+            Vous avez une <strong>Lune dominante</strong> dans votre thème astral et votre monde intérieur ressemble à un océan sans fond ? Cette hypersensibilité, tantôt don médiumnique, tantôt prison émotionnelle, reste souvent mal comprise — y compris par celui qui la vit. Ce portrait complet du <strong>tempérament lunarien</strong> — psychologie, carrière, amour, morphopsychologie — vous aide à transformer cette fragilité apparente en force profonde, de l&apos;archétype de Séléné aux pièges de la dépendance affective.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -304,7 +322,7 @@ export default function LunarienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Lunarien : La Magie de la Mémoire et de l&apos;Imagination</H2>
+        <H2>Comment la Lune influence l&apos;intelligence et la mémoire du Lunarien</H2>
 
         <Card title="L’intellect">
           <p>
@@ -329,14 +347,14 @@ export default function LunarienPost() {
           src={Lunarien2Image}
           alt="Portrait de Selene des temps moderne"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Vie Sociale et Tempérament : L&apos;Éponge Émotionnelle</H2>
+        <H2>Sensibilité et vie sociale : pourquoi le Lunarien absorbe les émotions</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -354,7 +372,7 @@ export default function LunarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : Le Culte du Foyer</H2>
+        <H2>Le Lunarien en amour : fusionnel, protecteur et dépendant affectif</H2>
 
         <Card title="L’amour">
           <p>
@@ -372,7 +390,7 @@ export default function LunarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : De la Discrétion à la Faveur des Foules</H2>
+        <H2>Métiers du Lunarien : quelles carrières pour une dominante Lune ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -390,7 +408,7 @@ export default function LunarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand la Lune est affligée)</H2>
+        <H2>Lune affligée dans le thème natal : les dangers du tempérament lunarien</H2>
 
         <Callout tone="warn" title="L’ombre de la Lune">
           <p>
@@ -410,14 +428,14 @@ export default function LunarienPost() {
           src={Lunarien3Image}
           alt="Statut de Selene dans la mythologie grecque"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : L&apos;Archétype Maternel et Poétique</H2>
+        <H2>La Lunarienne en astrologie : portrait de la femme à dominante Lune</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -435,7 +453,7 @@ export default function LunarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique du Lunarien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie du Lunarien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -453,7 +471,7 @@ export default function LunarienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Lunarien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -492,6 +510,57 @@ export default function LunarienPost() {
           effect="Éducation, soin, hôtellerie, eau, foule"
           reading="Passivité, alcoolisation, incapacité à tenir seul"
         />
+      </section>
+
+      {/* ── FAQ visible (Featured Snippet + People Also Ask) ── */}
+      <section className="space-y-6" aria-labelledby="faq-lunarien">
+        <H2>Questions fréquentes sur le Lunarien</H2>
+        <div id="faq-lunarien" className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-sky-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Qu&apos;est-ce qu&apos;un Lunarien en astrologie ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Le Lunarien est un <strong>type planétaire</strong> défini par la dominante de la Lune dans le thème natal. Sensibilité extrême, mémoire remarquable, imagination puissante et besoin de sécurité émotionnelle caractérisent ce profil, souvent considéré comme le plus réceptif du zodiaque.
+            </p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-sky-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quels métiers conviennent à une dominante Lune ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Le Lunarien excelle dans les professions liées au soin, à l&apos;écoute et à la créativité : psychologie, littérature, poésie, histoire, archéologie, journalisme narratif, petite enfance et tout métier où l&apos;empathie est un atout majeur.
+            </p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-sky-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quels sont les risques d&apos;une Lune affligée ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Une Lune en aspect dissonant (carré ou opposition à Saturne, Mars) peut engendrer passivité, dépendance affective, instabilité émotionnelle, fuite du réel et vulnérabilité aux addictions — le Lunarien perd alors pied avec la réalité.
+            </p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 transition-colors hover:text-sky-200 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Comment savoir si je suis Lunarien dans mon thème astral ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">
+              Vérifiez si votre Lune est angulaire (en maison I, IV, VII ou X), si elle reçoit des aspects harmoniques (trigone, sextile) et si elle se trouve en dignité (Cancer, Taureau). Un amas de planètes en Cancer renforce aussi le profil lunarien.
+            </p>
+          </details>
+        </div>
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

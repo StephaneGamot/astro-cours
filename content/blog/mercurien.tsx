@@ -220,23 +220,31 @@ export default function MercurienPost() {
                   name: "Qu’est-ce qu’un Mercurien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Mercurien est un type astrologique marqué par Mercure : vivacité mentale, communication, curiosité, souplesse, humour, adaptabilité et besoin constant de nouveauté.",
+                    text: "Le Mercurien est un type planétaire dont le thème natal est dominé par Mercure. Il se distingue par une intelligence rapide, une éloquence naturelle, une curiosité permanente et une grande adaptabilité sociale et professionnelle.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Mercurien ?",
+                  name: "Quels métiers conviennent à une dominante Mercure ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Mercurien se sent particulièrement à l’aise dans le commerce, la négociation, les médias, l’écriture, la comédie, la vente, les transports, le tourisme, la logistique et les métiers où le mouvement et l’échange sont centraux.",
+                    text: "Les carrières idéales pour un Mercurien incluent le commerce, le journalisme, l’enseignement, l’écriture, la diplomatie, l’interprétariat et, plus largement, tous les métiers de communication et de négociation.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le défaut principal d’un Mercure affligé ?",
+                  name: "Quels sont les risques d’un Mercure affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Mercure est très affligé, l’agilité mentale peut se transformer en instabilité, mensonge, vantardise, zizanie, absence de discipline ou manipulation verbale.",
+                    text: "Un Mercure mal aspecté peut engendrer nervosité, tendance au mensonge, dispersion chronique, instabilité émotionnelle, manipulation verbale et superficialité dans les relations comme dans les projets.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Mercurien dans mon thème astral ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Vérifiez si Mercure est angulaire (maisons I, IV, VII ou X), bien aspecté, positionné en Gémeaux ou en Vierge, ou si vous possédez un amas planétaire en Gémeaux. Un astrologue peut confirmer cette dominante à l’aide de votre thème natal complet.",
                   },
                 },
               ],
@@ -250,6 +258,7 @@ export default function MercurienPost() {
           src={MercurienImage}
           alt="Portrait symbolique du tempérament mercurien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -286,8 +295,17 @@ export default function MercurienPost() {
             </div>
           </div>
 
+          {/* ── Bloc définition (Featured Snippet) ── */}
+          <div className="mt-8 rounded-2xl border border-emerald-400/20 bg-emerald-400/[0.04] px-6 py-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300/80">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+              Le <strong>Mercurien en astrologie</strong> désigne un individu dont <Link href="/planetes/mercure" className="underline decoration-emerald-400/40 underline-offset-2 hover:decoration-emerald-400">Mercure</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-emerald-400/40 underline-offset-2 hover:decoration-emerald-400">thème natal</Link> (angulaire, bien aspecté, en Gémeaux ou Vierge). Il se caractérise par une intelligence vive, une éloquence redoutable et une curiosité insatiable qui le pousse à tout comprendre, tout analyser et tout communiquer.
+            </p>
+          </div>
+
+          {/* ── Introduction APP (Accroche → Problème → Promesse) ── */}
           <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            S&apos;il fallait résumer le Mercurien en un seul mot, ce serait : le Mouvement. Gouverné par Mercure, la planète de l&apos;intellect, des échanges, du commerce et de la vivacité, le type Mercurien est le véritable caméléon du zodiaque. Là où le Soleil irradie et où Saturne creuse en profondeur, Mercure, lui, virevolte. Découvrez le portrait psychologique, professionnel et affectif de cet esprit brillant, insaisissable et perpétuellement en quête de nouveauté.
+            Vous avez <strong>Mercure dominant</strong> dans votre thème astral et votre esprit fonctionne à la vitesse de l&apos;éclair ? Cette agilité mentale fascine, mais elle cache un piège : dispersion, nervosité, difficulté à approfondir. Où se situe la frontière entre génie communicant et superficialité chronique ? Ce portrait complet du <strong>tempérament mercurien</strong> — psychologie, carrière, amour, morphopsychologie — décrypte les rouages de cette dominante planétaire, de l&apos;archétype d&apos;Hermès au syndrome du touche-à-tout.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -303,7 +321,7 @@ export default function MercurienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Mercurien : Une Vivacité Fulgurante</H2>
+        <H2>L&apos;intelligence mercurienne : vivacité, éloquence et ruse</H2>
 
         <Card title="L’intellect">
           <p>
@@ -329,7 +347,7 @@ export default function MercurienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Vie Sociale : Le Caméléon et le Diplomate</H2>
+        <H2>Le Mercurien en société : séducteur verbal et caméléon social</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -349,14 +367,14 @@ export default function MercurienPost() {
           src={Mercurien2Image}
           alt="Portrait du Dieu Mercure en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : La Quête de l&apos;Esprit (et le vertige de l&apos;engagement)</H2>
+        <H2>Le Mercurien en amour : volage, cérébral ou sincèrement curieux ?</H2>
 
         <Card title="L’amour">
           <p>
@@ -374,7 +392,7 @@ export default function MercurienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : L&apos;Art de Tomber sur ses Pattes</H2>
+        <H2>Métiers du Mercurien : quelles carrières pour une dominante Mercure ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -395,7 +413,7 @@ export default function MercurienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand Mercure est affligé)</H2>
+        <H2>Mercure affligé dans le thème natal : nervosité, mensonge et dispersion</H2>
 
         <Callout tone="warn" title="L’ombre de Mercure">
           <p>
@@ -413,7 +431,7 @@ export default function MercurienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : De la Muse à la Stratège</H2>
+        <H2>La Mercurienne en astrologie : portrait de la femme à dominante Mercure</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -431,7 +449,7 @@ export default function MercurienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique du Mercurien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie du Mercurien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -449,7 +467,7 @@ export default function MercurienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Mercurien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -488,6 +506,40 @@ export default function MercurienPost() {
           effect="Commerce, médias, scène, mobilité, réseau"
           reading="Agitation, ruse, manque de discipline si Mercure est affligé"
         />
+      </section>
+
+      {/* ── FAQ visible ── */}
+      <section className="space-y-4">
+        <H2>Questions fréquentes sur le Mercurien</H2>
+        {[
+          {
+            q: "Qu\u2019est-ce qu\u2019un Mercurien en astrologie ?",
+            a: "Le Mercurien est un type planétaire dont le thème natal est dominé par Mercure. Il se distingue par une intelligence rapide, une éloquence naturelle, une curiosité permanente et une grande adaptabilité sociale et professionnelle.",
+          },
+          {
+            q: "Quels métiers conviennent à une dominante Mercure ?",
+            a: "Les carrières idéales pour un Mercurien incluent le commerce, le journalisme, l\u2019enseignement, l\u2019écriture, la diplomatie, l\u2019interprétariat et, plus largement, tous les métiers de communication et de négociation.",
+          },
+          {
+            q: "Quels sont les risques d\u2019un Mercure affligé ?",
+            a: "Un Mercure mal aspecté peut engendrer nervosité, tendance au mensonge, dispersion chronique, instabilité émotionnelle, manipulation verbale et superficialité dans les relations comme dans les projets.",
+          },
+          {
+            q: "Comment savoir si je suis Mercurien dans mon thème astral ?",
+            a: "Vérifiez si Mercure est angulaire (maisons I, IV, VII ou X), bien aspecté, positionné en Gémeaux ou en Vierge, ou si vous possédez un amas planétaire en Gémeaux. Un astrologue peut confirmer cette dominante à l\u2019aide de votre thème natal complet.",
+          },
+        ].map(({ q, a }) => (
+          <details
+            key={q}
+            className="group rounded-2xl border border-white/10 bg-white/[0.02] px-6 py-5 backdrop-blur-md transition-colors hover:bg-white/[0.04]"
+          >
+            <summary className="flex cursor-pointer items-center justify-between text-base font-medium text-white/90 sm:text-lg [&::-webkit-details-marker]:hidden">
+              {q}
+              <span className="ml-4 text-xl leading-none text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <p className="mt-4 text-sm leading-relaxed text-white/70 sm:text-base">{a}</p>
+          </details>
+        ))}
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

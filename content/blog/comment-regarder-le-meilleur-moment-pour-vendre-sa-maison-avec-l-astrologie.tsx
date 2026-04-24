@@ -242,9 +242,20 @@ export default function Post() {
         </div>
       </header>
 
+      {/* DEFINITION BOX – Featured Snippet */}
+      <aside className="rounded-2xl border border-emerald-400/30 bg-emerald-400/10 p-6 leading-relaxed text-text/85">
+        <p className="mb-1 text-xs font-semibold uppercase tracking-widest text-emerald-400">Définition</p>
+        <p>L&apos;<strong>astrologie immobilière</strong> utilise les <Link href="/transits">transits</Link> planétaires, la <Link href="/maisons/maison-4">maison IV</Link> (foyer, patrimoine) et la <Link href="/maisons/maison-2">maison II</Link> (finances) du thème natal pour identifier les périodes favorables à la vente d&apos;un bien immobilier.</p>
+      </aside>
+
+      {/* APP intro */}
+      <p className="text-base leading-relaxed text-text/85 md:text-lg">
+        Vous voulez <strong>vendre votre maison</strong> et vous vous demandez si l&apos;astrologie peut vous aider à choisir le bon moment ? Ce n&apos;est pas de la magie : les <strong>transits planétaires</strong> sur vos maisons IV et II créent des fenêtres plus ou moins favorables aux transactions immobilières. Ce guide concret vous montre où regarder dans votre thème natal, quels transits surveiller et comment utiliser les cycles planétaires à votre avantage.
+      </p>
+
       {/* 1) cadre */}
       <section className="space-y-4">
-        <H2>1) Le cadre : ce que l’astrologie peut (et ne peut pas) faire</H2>
+        <H2>1) Astrologie et immobilier : ce que le thème natal peut (et ne peut pas) prédire</H2>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -273,7 +284,7 @@ export default function Post() {
 
       {/* 2) où regarder */}
       <section className="space-y-4">
-        <H2>2) Où regarder dans un thème natal (les zones “immobilier”)</H2>
+        <H2>2) Maison IV et maison II : les zones &laquo;&nbsp;immobilier&nbsp;&raquo; de votre thème</H2>
 
         <div className="grid gap-6 lg:grid-cols-2">
           <Card title="Maison IV : maison, racines, foyer" subtitle="Le cœur du sujet">
@@ -336,7 +347,7 @@ export default function Post() {
 
       {/* 3) méthode timing */}
       <section className="space-y-4">
-        <H2>3) Timing : comment repérer une “fenêtre” (sans se mentir)</H2>
+        <H2>3) Transits et timing : comment repérer le bon moment pour vendre</H2>
 
         <Card
           title="Méthode premium en 4 étages"
@@ -435,7 +446,7 @@ export default function Post() {
 
       {/* 5) cas fréquents */}
       <section className="space-y-4">
-        <H2>5) Les cas fréquents et où regarder</H2>
+        <H2>5) Les configurations astrologiques les plus fréquentes en vente immobilière</H2>
 
         <div className="grid gap-6 lg:grid-cols-2">
           <Card title="Ça visite mais ça ne signe pas" subtitle="Le symptôme le plus courant">
@@ -486,7 +497,7 @@ export default function Post() {
 
       {/* 6) checklist */}
       <section className="space-y-4">
-        <H2>6) Check-list premium (très concrète)</H2>
+        <H2>6) Check-list astrologique avant de vendre votre bien</H2>
 
         <Card title="Avant de chercher une date astrologique" subtitle="Le timing marche mieux quand le dossier est “propre”.">
           <ul className="list-disc pl-5 space-y-2">
@@ -508,7 +519,7 @@ export default function Post() {
 
       {/* 7) conclusion */}
       <section className="space-y-4">
-        <H2>7) Résumé pro</H2>
+        <H2>7) Synthèse : vendre sa maison avec l&apos;astrologie</H2>
 
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
           <div className="grid grid-cols-1 md:grid-cols-3">

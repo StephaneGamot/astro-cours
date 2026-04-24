@@ -279,8 +279,13 @@ export default function Post() {
 
         <div className="grid gap-6 lg:grid-cols-3">
           <div className="space-y-6 lg:col-span-2">
+            {/* APP intro */}
+            <p className="text-base leading-relaxed text-text/85 md:text-lg">
+              Vous entendez parler de <strong>thème astral</strong> partout, mais vous ne savez pas exactement ce que c&apos;est ni comment le lire ? Vous n&apos;êtes pas seul : la plupart des gens confondent thème natal et horoscope. Ce guide accessible vous explique ce qu&apos;est réellement un thème astral, ses 4 composantes essentielles et une méthode en 7 étapes pour commencer à le déchiffrer.
+            </p>
+
             <section className="space-y-4">
-              <H2>Définition : c'est quoi un thème astral ?</H2>
+              <H2>Thème astral : définition et principes fondamentaux</H2>
 
               <Card
                 title="La phrase la plus juste"
@@ -319,7 +324,7 @@ export default function Post() {
             </section>
 
             <section className="space-y-4">
-              <H2>Les 4 briques d'un thème astral</H2>
+              <H2>Les 4 composantes d&apos;un thème astral expliquées simplement</H2>
 
               <div className="grid gap-6 md:grid-cols-2">
                 <Card title="1) Les planètes" icon="☀️" subtitle="Quoi ? (la fonction psychologique)">
@@ -394,7 +399,7 @@ export default function Post() {
             </section>
 
             <section className="space-y-4">
-              <H2>Comment lire un thème astral : méthode en 7 étapes</H2>
+              <H2>Comment lire un thème astral : méthode en 7 étapes pour débutants</H2>
 
               <Card title="La méthode la plus simple (7 étapes)" icon="🧠">
                 <ol className="list-decimal space-y-2 pl-5">
@@ -450,7 +455,7 @@ export default function Post() {
             </section>
 
             <section className="space-y-4">
-              <H2>Ce que le thème astral ne prédit PAS</H2>
+              <H2>Ce que le thème astral ne prédit pas (et ce qu&apos;il révèle vraiment)</H2>
 
               <Card title="Les limites (important)" icon="🛡️">
                 <ul className="list-disc space-y-2 pl-5">
@@ -469,7 +474,7 @@ export default function Post() {
             </section>
 
             <section className="space-y-4">
-              <H2>Questions fréquentes sur le thème astral</H2>
+              <H2>FAQ : questions fréquentes sur le thème astral</H2>
 
               <div className="grid gap-6 md:grid-cols-2">
                 <Card

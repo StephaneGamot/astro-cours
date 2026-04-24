@@ -9,7 +9,7 @@ import Martien2Image from "@/public/images/blog/martien2.webp";
 export const meta = {
   slug: "martien",
   title:
-    "Martien : Guerrier, Bâtisseur de l'Action & du Courage",
+    "Martien : Guerrier & Bâtisseur de l'Action",
   description:
     "Portrait du Martien en astrologie : action, courage, sport et amour passionné. Découvrez l'influence de la planète Mars affligée dans un thème astral.",
   date: "2026-04-03",
@@ -220,23 +220,31 @@ export default function MartienPost() {
                   name: "Qu’est-ce qu’un Martien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Martien est un type astrologique marqué par Mars : action, combativité, courage, décision, pragmatisme, énergie physique et besoin d’aller droit au but.",
+                    text: "Le Martien est un type planétaire à Mars dominant : énergie brute, courage, compétition, action directe et instinct combatif.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Martien ?",
+                  name: "Quels métiers pour une dominante Mars ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Martien s’épanouit souvent dans la chirurgie, le sport, le commandement, l’ingénierie, la métallurgie, l’entreprise, les métiers d’urgence ou toutes les activités demandant force, tranchant et décision.",
+                    text: "Armée, sport de haut niveau, chirurgie, entrepreneuriat, métiers du feu, forces de l’ordre, compétition.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’un Mars affligé ?",
+                  name: "Quels risques avec un Mars affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Mars est très affligé, le courage peut se transformer en brutalité, témérité, querelle permanente, violence, besoin d’opposition ou problèmes légaux.",
+                    text: "Violence, colère explosive, autodestruction, accidents, impatience chronique, conflits permanents.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Martien ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Mars angulaire (maison I, IV, VII, X), en Bélier ou Scorpion, aspects harmoniques, amas en Bélier.",
                   },
                 },
               ],
@@ -250,6 +258,7 @@ export default function MartienPost() {
           src={MartienImage}
           alt="Portrait symbolique du tempérament martien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -286,8 +295,15 @@ export default function MartienPost() {
             </div>
           </div>
 
-          <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Dans la grande horlogerie de l&apos;astrologie, si le Soleil donne la vie et Saturne donne le temps, Mars donne l&apos;Étincelle. Gouverné par la planète rouge — traditionnellement associée au Dieu de la Guerre — le type Martien est l&apos;archétype absolu de l&apos;Action. Loin des clichés qui le réduisent à un simple bagarreur, le véritable Martien est le moteur du zodiaque, le pionnier sans qui aucune entreprise humaine ne pourrait voir le jour. Découvrez le portrait psychologique, professionnel et amoureux de cette âme ardente et indomptable.
+          <div className="mt-8 max-w-3xl rounded-xl border border-red-400/20 bg-red-400/5 p-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-red-300">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/80 sm:text-lg">
+              Le <strong>Martien en astrologie</strong> désigne un individu dont <Link href="/planetes/mars" className="text-red-300 underline decoration-red-300/30 hover:decoration-red-300">Mars</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="text-red-300 underline decoration-red-300/30 hover:decoration-red-300">thème natal</Link> (angulaire, bien aspecté, en Bélier ou Scorpion). Il se caractérise par une énergie brute, un courage instinctif et une volonté de fer qui le pousse à agir, conquérir et se battre.
+            </p>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+            Vous avez <strong>Mars dominant</strong> dans votre thème astral et une énergie volcanique que rien ne semble pouvoir contenir ? Cette force d&apos;action fascine, mais elle cache un piège : violence, impatience, autodestruction. Où se situe la frontière entre guerrier et brute ? Ce portrait complet du <strong>tempérament martien</strong> — psychologie, carrière, amour, morphopsychologie — révèle les clés de cette dominante planétaire, de l&apos;archétype d&apos;Arès au défi de la maîtrise de soi.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -318,7 +334,7 @@ export default function MartienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Martien : Le Pragmatisme de l&apos;Efficacité</H2>
+        <H2>L&apos;intelligence martienne : instinct, stratégie et esprit combatif</H2>
 
         <Card title="L’intellect">
           <p>
@@ -336,7 +352,7 @@ export default function MartienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Vie Sociale et Caractère : La Franchise à l&apos;État Pur</H2>
+        <H2>Le Martien en société : autorité brute et loyauté sans compromis</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -354,7 +370,7 @@ export default function MartienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : Le Feu de la Conquête</H2>
+        <H2>Le Martien en amour : passion dévorante, jalousie et conquête</H2>
 
         <Card title="L’amour">
           <p>
@@ -377,14 +393,14 @@ export default function MartienPost() {
           src={Martien2Image}
           alt="Portrait du Dieu Ares, Dieu de la guerre en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : Le Héros Face à l&apos;Obstacle</H2>
+        <H2>Métiers du Martien : quelles carrières pour une dominante Mars ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -411,7 +427,7 @@ export default function MartienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand Mars est affligé)</H2>
+        <H2>Mars affligé dans le thème natal : violence, colère et autodestruction</H2>
 
         <Callout tone="warn" title="L’ombre de Mars">
           <p>
@@ -429,7 +445,7 @@ export default function MartienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : L&apos;Archétype de l&apos;Amazone</H2>
+        <H2>La Martienne en astrologie : portrait de la femme à dominante Mars</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -447,7 +463,7 @@ export default function MartienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique du Martien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie du Martien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -465,7 +481,7 @@ export default function MartienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Martien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -504,6 +520,42 @@ export default function MartienPost() {
           effect="Chirurgie, sport, commandement, métal"
           reading="Licenciements, conflits, problèmes légaux"
         />
+      </section>
+
+      <section id="faq-martien" className="space-y-6" aria-label="Questions fréquentes sur le Martien">
+        <H2>Questions fréquentes sur le Martien</H2>
+
+        {[
+          {
+            q: "Qu\u2019est-ce qu\u2019un Martien en astrologie ?",
+            a: "Le Martien est un type planétaire à Mars dominant : énergie brute, courage, compétition, action directe et instinct combatif.",
+          },
+          {
+            q: "Quels métiers pour une dominante Mars ?",
+            a: "Armée, sport de haut niveau, chirurgie, entrepreneuriat, métiers du feu, forces de l\u2019ordre, compétition.",
+          },
+          {
+            q: "Quels risques avec un Mars affligé ?",
+            a: "Violence, colère explosive, autodestruction, accidents, impatience chronique, conflits permanents.",
+          },
+          {
+            q: "Comment savoir si je suis Martien ?",
+            a: "Mars angulaire (maison I, IV, VII, X), en Bélier ou Scorpion, aspects harmoniques, amas en Bélier.",
+          },
+        ].map(({ q, a }) => (
+          <details
+            key={q}
+            className="group rounded-2xl border border-white/10 bg-white/[0.02] backdrop-blur-md transition-colors open:bg-white/[0.04]"
+          >
+            <summary className="flex cursor-pointer items-center gap-3 p-5 text-base font-medium text-white/90 hover:text-red-200 md:text-lg">
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-red-300/60 text-sm text-white" aria-hidden="true">?</span>
+              {q}
+            </summary>
+            <div className="px-5 pb-5 pl-14 text-sm leading-relaxed text-white/70 md:text-base">
+              {a}
+            </div>
+          </details>
+        ))}
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

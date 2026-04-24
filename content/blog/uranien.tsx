@@ -220,23 +220,31 @@ export default function UranienPost() {
                   name: "Qu’est-ce qu’un Uranien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "L’Uranien est un type astrologique marqué par Uranus : indépendance, originalité, besoin de rupture, invention, vision du futur, refus de la norme et vocation à réveiller le monde.",
+                    text: "Type planétaire Uranus dominant : fulgurance intellectuelle, esprit révolutionnaire, originalité, besoin radical de liberté et vision d’avenir.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent à l’Uranien ?",
+                  name: "Quels métiers pour une dominante Uranus ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "L’Uranien s’épanouit dans l’avant-garde, la technologie, l’astrologie, les neurosciences, la réforme sociale, les arts novateurs, le militantisme et toutes les disciplines tournées vers le futur.",
+                    text: "Recherche scientifique, nouvelles technologies, astrologie, aviation, électronique, invention, réformes sociales, informatique.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’un Uranus affligé ?",
+                  name: "Quels risques avec un Uranus affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Uranus est lourdement affligé, le besoin de liberté peut se transformer en marginalité stérile, contestation permanente, isolement, cynisme ou incapacité à transformer réellement le monde.",
+                    text: "Instabilité chronique, excentricité destructrice, ruptures à répétition, marginalité, provocations inutiles, chaos relationnel.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Uranien ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Uranus angulaire (maison I, IV, VII, X), en Verseau, aspects au Soleil ou à l’Ascendant, amas en Verseau.",
                   },
                 },
               ],
@@ -250,6 +258,7 @@ export default function UranienPost() {
           src={UranienImage}
           alt="Portrait symbolique du tempérament uranien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -286,8 +295,15 @@ export default function UranienPost() {
             </div>
           </div>
 
-          <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Si Saturne marque la limite de ce que l&apos;œil humain peut voir dans le ciel étoilé, Uranus est la première planète de l&apos;invisible. Sous le regard des étoiles, parrainé par Uranie, la muse de l&apos;astronomie et du Cosmos, l&apos;Uranien est l&apos;archétype du futur. Il est celui qui fait le pont entre le passé figé et ce qui dort encore dans le giron de l&apos;avenir. Découvrez le portrait psychologique, professionnel et amoureux de ce génie insoumis, le véritable Prométhée du zodiaque.
+          <div className="mt-8 rounded-2xl border border-cyan-400/20 bg-cyan-400/[0.04] px-6 py-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-cyan-300/80">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+              L&apos;<strong>Uranien en astrologie</strong> désigne un individu dont <Link href="/planetes/uranus" className="underline decoration-cyan-400/40 underline-offset-2 hover:decoration-cyan-400">Uranus</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-cyan-400/40 underline-offset-2 hover:decoration-cyan-400">thème natal</Link> (angulaire, bien aspecté, en Verseau ou Scorpion). Il se caractérise par une intelligence fulgurante, un esprit révolutionnaire et un besoin irrépressible de liberté qui le place toujours en avance sur son époque.
+            </p>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+            Vous avez <strong>Uranus dominant</strong> dans votre thème astral et le sentiment tenace de ne jamais être à votre place dans ce monde ? Cette fulgurance intellectuelle fascine autant qu&apos;elle isole : excentricité, instabilité, ruptures en série. Ce portrait complet du <strong>tempérament uranien</strong> — psychologie, carrière, amour, morphopsychologie — décode les mécanismes de cette dominante planétaire hors norme, de l&apos;archétype de Prométhée au piège de la marginalité stérile.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -303,7 +319,7 @@ export default function UranienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect et l&apos;Essence de l&apos;Uranien : Le Refus du Moule</H2>
+        <H2>L&apos;intelligence uranienne : fulgurance, innovation et vision d&apos;avant-garde</H2>
 
         <Card title="L’essence">
           <p>
@@ -354,12 +370,21 @@ export default function UranienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Vie Sociale : L&apos;Indépendance à Deux</H2>
+        <H2>L&apos;Uranien en société : marginal, provocateur et libre penseur</H2>
 
         <Card title="L’amour et la relation">
           <p>
             Dans le domaine sentimental, l&apos;Uranien est un partenaire déconcertant, fascinant, mais exigeant. Le modèle du couple traditionnel, fusionnel, possessif ou routinier lui donne de l&apos;urticaire.
           </p>
+        </Card>
+      </section>
+
+      <Divider />
+
+      <section className="space-y-6">
+        <H2>L&apos;Uranien en amour : liberté radicale, ruptures et amour atypique</H2>
+
+        <Card title="L’amour et la relation">
           <p>
             Il conçoit l&apos;amour comme une alliance entre deux esprits libres. Pour séduire et retenir un Uranien, il ne faut jamais chercher à l&apos;enfermer dans une cage, même dorée. Il a besoin d&apos;admirer intellectuellement son partenaire et réclame un respect absolu de son jardin secret et de son espace personnel. En retour, c&apos;est un partenaire d&apos;une incroyable tolérance, dénué de préjugés, qui encouragera toujours l&apos;autre à s&apos;émanciper et à devenir la meilleure version de lui-même.
           </p>
@@ -372,7 +397,7 @@ export default function UranienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : L&apos;Homme au Destin Marqué</H2>
+        <H2>Métiers de l&apos;Uranien : quelles carrières pour une dominante Uranus ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -393,7 +418,7 @@ export default function UranienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre : Le Prométhée Enchaîné</H2>
+        <H2>Uranus affligé dans le thème natal : instabilité, excentricité et chaos</H2>
 
         <Callout tone="warn" title="L’ombre d’Uranus">
           <p>
@@ -413,14 +438,14 @@ export default function UranienPost() {
           src={Uranien2Image}
           alt="Portrait de Ouranos en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : L&apos;Archétype de la Pionnière</H2>
+        <H2>L&apos;Uranienne en astrologie : portrait de la femme à dominante Uranus</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -438,7 +463,7 @@ export default function UranienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique de l&apos;Uranien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie de l&apos;Uranien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -456,7 +481,7 @@ export default function UranienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Uranien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -495,6 +520,52 @@ export default function UranienPost() {
           effect="Avant-garde, réforme, technologie, futur"
           reading="Contestataire perpétuel sans œuvre réelle"
         />
+      </section>
+
+      <section id="faq-uranien" className="space-y-6">
+        <H2>Questions fréquentes sur l&apos;Uranien</H2>
+
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-cyan-200">
+              <svg className="h-5 w-5 shrink-0 text-cyan-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Qu&apos;est-ce qu&apos;un Uranien en astrologie ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Type planétaire Uranus dominant : fulgurance intellectuelle, esprit révolutionnaire, originalité, besoin radical de liberté et vision d&apos;avenir.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-cyan-200">
+              <svg className="h-5 w-5 shrink-0 text-cyan-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels métiers pour une dominante Uranus ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Recherche scientifique, nouvelles technologies, astrologie, aviation, électronique, invention, réformes sociales, informatique.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-cyan-200">
+              <svg className="h-5 w-5 shrink-0 text-cyan-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Quels risques avec un Uranus affligé ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Instabilité chronique, excentricité destructrice, ruptures à répétition, marginalité, provocations inutiles, chaos relationnel.
+            </p>
+          </details>
+
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-md">
+            <summary className="flex cursor-pointer items-center gap-3 font-serif text-lg font-medium text-white/90 transition-colors hover:text-cyan-200">
+              <svg className="h-5 w-5 shrink-0 text-cyan-300/60 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              Comment savoir si je suis Uranien ?
+            </summary>
+            <p className="mt-4 pl-8 text-sm leading-relaxed text-white/70 md:text-base">
+              Uranus angulaire (maison I, IV, VII, X), en Verseau, aspects au Soleil ou à l&apos;Ascendant, amas en Verseau.
+            </p>
+          </details>
+        </div>
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

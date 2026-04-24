@@ -218,23 +218,31 @@ export default function JupiterienPost() {
                   name: "Qu’est-ce qu’un Jupitérien en astrologie ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Jupitérien est un type astrologique marqué par Jupiter : organisation, abondance, jugement, générosité, respect de la loi, chaleur humaine, prestige et vocation de guide.",
+                    text: "Le Jupitérien est un type planétaire à Jupiter dominant : vision, générosité, autorité bienveillante, optimisme et envergure intellectuelle.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quels métiers conviennent au Jupitérien ?",
+                  name: "Quels métiers pour une dominante Jupiter ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Le Jupitérien s’épanouit souvent dans le droit, l’administration, la magistrature, la diplomatie, la direction, la banque, la gestion, la politique de haut niveau et les fonctions d’organisation sociale.",
+                    text: "Magistrature, enseignement supérieur, diplomatie, banque, grande entreprise, religion, édition.",
                   },
                 },
                 {
                   "@type": "Question",
-                  name: "Quel est le risque principal d’un Jupiter affligé ?",
+                  name: "Quels risques avec un Jupiter affligé ?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Lorsque Jupiter est gravement affligé, l’abondance peut se déformer en excès, prétention, mégalomanie, bluff, gaspillage, gourmandise ou besoin maladif de prestige.",
+                    text: "Mégalomanie, excès en tout, gaspillage, arrogance, promesses non tenues, procès.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment savoir si je suis Jupitérien ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Jupiter angulaire, en Sagittaire ou Poissons, trigone/sextile au Soleil ou à la Lune, amas en Sagittaire.",
                   },
                 },
               ],
@@ -248,6 +256,7 @@ export default function JupiterienPost() {
           src={JupiterienImage}
           alt="Portrait symbolique du tempérament jupitérien en astrologie"
           fill
+          sizes="100vw"
           priority
           className="object-cover"
         />
@@ -284,8 +293,15 @@ export default function JupiterienPost() {
             </div>
           </div>
 
-          <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Si le monde n&apos;était composé que de l&apos;énergie de Mars, ce serait la guerre permanente. S&apos;il n&apos;y avait que Saturne, ce serait la rigueur absolue. Heureusement, la grande horlogerie cosmique a placé Jupiter au cœur de notre système. Gouverné par la plus grande des planètes (Zeus dans la mythologie, le souverain de l&apos;Olympe), le type Jupitérien est l&apos;archétype de l&apos;Abondance, de l&apos;Ordre, de la Loi et de l&apos;Optimisme. Découvrez le portrait psychologique, professionnel et amoureux de ce grand protecteur du zodiaque, dont la seule présence suffit souvent à apaiser le chaos.
+          <div className="mt-8 max-w-3xl rounded-xl border border-violet-400/20 bg-violet-400/5 p-5">
+            <p className="text-sm font-semibold uppercase tracking-widest text-violet-300">Définition</p>
+            <p className="mt-2 text-base leading-relaxed text-white/80 sm:text-lg">
+              Le <strong>Jupitérien en astrologie</strong> désigne un individu dont <Link href="/planetes/jupiter" className="text-violet-300 underline decoration-violet-300/30 hover:decoration-violet-300">Jupiter</Link> occupe une position dominante dans le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="text-violet-300 underline decoration-violet-300/30 hover:decoration-violet-300">thème natal</Link> (angulaire, bien aspecté, en Sagittaire ou Poissons). Il se distingue par une vision élargie, un sens naturel de la justice et une générosité expansive qui le pousse vers les hautes responsabilités.
+            </p>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+            Vous avez <strong>Jupiter dominant</strong> dans votre thème astral et un optimisme à toute épreuve qui vous pousse vers les sommets ? Cette envergure naturelle inspire la confiance, mais elle recèle un piège : excès, arrogance, gaspillage de ressources. Ce portrait complet du <strong>tempérament jupitérien</strong> — psychologie, carrière, amour, morphopsychologie — dévoile les ressorts de cette dominante planétaire majeure, de l&apos;archétype de Zeus au risque de l&apos;hubris.
           </p>
 
           <div className="mt-8 border-t border-white/5 pt-6">
@@ -301,7 +317,7 @@ export default function JupiterienPost() {
       </section>
 
       <section className="space-y-6">
-        <H2>L&apos;Intellect du Jupitérien : Le Génie de la Méthode et de la Synthèse</H2>
+        <H2>L&apos;intelligence jupitérienne : vision globale, synthèse et optimisme</H2>
 
         <Card title="L’intellect">
           <p>
@@ -324,7 +340,7 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Vie Sociale et Caractère : L&apos;Aura du Protecteur</H2>
+        <H2>Le Jupitérien en société : générosité, prestige et sens du commandement</H2>
 
         <Card title="La vie sociale">
           <p>
@@ -342,7 +358,7 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Amour et Sentiments : La Paix du Foyer et la Légalité</H2>
+        <H2>Le Jupitérien en amour : grandeur d&apos;âme, fidélité et besoin d&apos;admiration</H2>
 
         <Card title="L’amour">
           <p>
@@ -360,7 +376,7 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>Destinée et Vocation : L&apos;Appel des Sommets (en Temps de Paix)</H2>
+        <H2>Métiers du Jupitérien : quelles carrières pour une dominante Jupiter ?</H2>
 
         <Card title="La vocation">
           <p>
@@ -378,7 +394,7 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>La Face Sombre (Quand Jupiter est affligé)</H2>
+        <H2>Jupiter affligé dans le thème natal : excès, mégalomanie et gaspillage</H2>
 
         <Callout tone="warn" title="L’ombre de Jupiter">
           <p>
@@ -396,7 +412,7 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>L&apos;Expression Féminine et Yin : L&apos;Archétype de la Grande Dame</H2>
+        <H2>La Jupitérienne en astrologie : portrait de la femme à dominante Jupiter</H2>
 
         <Card title="L’expression Yin">
           <p>
@@ -419,14 +435,14 @@ export default function JupiterienPost() {
           src={JupiterienImage2}
           alt="Portrait de Zeus en astrologie"
           fill
-          priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent" />
       </div>
 
       <section className="space-y-6">
-        <H2>Le Portrait Physique du Jupitérien (Morphopsychologie Astrologique)</H2>
+        <H2>Morphopsychologie du Jupitérien : portrait physique et apparence</H2>
 
         <Card title="Le portrait physique">
           <p>
@@ -444,7 +460,7 @@ export default function JupiterienPost() {
       <Divider />
 
       <section className="space-y-6">
-        <H2>En conclusion</H2>
+        <H2>Ce qu&apos;il faut retenir du profil Jupitérien en astrologie</H2>
 
         <Callout tone="ok" title="Conclusion">
           <p>
@@ -483,6 +499,42 @@ export default function JupiterienPost() {
           effect="Direction, loi, administration, diplomatie"
           reading="Mégalomanie, bluff, excès matériels et luxe"
         />
+      </section>
+
+      <section id="faq-jupiterien" className="space-y-6" aria-label="Questions fréquentes sur le Jupitérien">
+        <H2>Questions fréquentes sur le Jupitérien</H2>
+
+        {[
+          {
+            q: "Qu\u2019est-ce qu\u2019un Jupitérien en astrologie ?",
+            a: "Le Jupitérien est un type planétaire à Jupiter dominant : vision, générosité, autorité bienveillante, optimisme et envergure intellectuelle.",
+          },
+          {
+            q: "Quels métiers pour une dominante Jupiter ?",
+            a: "Magistrature, enseignement supérieur, diplomatie, banque, grande entreprise, religion, édition.",
+          },
+          {
+            q: "Quels risques avec un Jupiter affligé ?",
+            a: "Mégalomanie, excès en tout, gaspillage, arrogance, promesses non tenues, procès.",
+          },
+          {
+            q: "Comment savoir si je suis Jupitérien ?",
+            a: "Jupiter angulaire, en Sagittaire ou Poissons, trigone/sextile au Soleil ou à la Lune, amas en Sagittaire.",
+          },
+        ].map(({ q, a }) => (
+          <details
+            key={q}
+            className="group rounded-2xl border border-white/10 bg-white/[0.02] backdrop-blur-md transition-colors open:bg-white/[0.04]"
+          >
+            <summary className="flex cursor-pointer items-center gap-3 p-5 text-base font-medium text-white/90 hover:text-violet-200 md:text-lg">
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-violet-300/60 text-sm text-white" aria-hidden="true">?</span>
+              {q}
+            </summary>
+            <div className="px-5 pb-5 pl-14 text-sm leading-relaxed text-white/70 md:text-base">
+              {a}
+            </div>
+          </details>
+        ))}
       </section>
 
       <footer className="mt-20 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-8 text-center backdrop-blur-md sm:p-12">

@@ -298,6 +298,19 @@ export default function Post() {
           </div>
         </header>
 
+        {/* DEFINITION BOX — Featured Snippet */}
+        <div className="rounded-2xl border border-violet-400/20 bg-violet-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-violet-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            Les <strong>qualités et défauts des signes du zodiaque</strong> correspondent aux traits psychologiques associés à chaque signe solaire en astrologie. Chacun des 12 signes possède des forces naturelles et des zones d&apos;ombre qui colorent la personnalité, les relations et les choix de vie.
+          </p>
+        </div>
+
+        {/* APP INTRO */}
+        <p className="text-lg leading-relaxed text-text/85">
+          Vous connaissez votre <strong>signe astrologique</strong>, mais savez-vous vraiment quels sont ses points forts et ses faiblesses ? Au-delà des clichés, chaque signe du zodiaque possède un cocktail unique de <strong>qualités et défauts</strong> qui façonne sa personnalité profonde. Ce guide passe en revue les 12 signes avec lucidité : forces, failles et pistes d&apos;évolution.
+        </p>
+
         <section className="space-y-4" aria-labelledby="comprendre-dualite">
           <H2 id="comprendre-dualite">Comprendre la dualité des signes</H2>
 
@@ -641,6 +654,41 @@ export default function Post() {
             C’est dans cette tension entre force et dérive que se construit
             l’évolution personnelle.
           </p>
+        </section>
+
+        {/* FAQ */}
+        <section className="space-y-6" aria-labelledby="faq-qualites-defauts">
+          <H2 id="faq-qualites-defauts">Questions fréquentes sur les qualités et défauts des signes</H2>
+
+          <div className="space-y-4">
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">Quel est le signe le plus intelligent ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Il n&apos;existe pas de réponse unique. Les <Link href="/signes/gemeaux" className="underline decoration-white/30 hover:decoration-white/60 transition">Gémeaux</Link> brillent par leur vivacité mentale, le <Link href="/signes/scorpion" className="underline decoration-white/30 hover:decoration-white/60 transition">Scorpion</Link> par sa profondeur d&apos;analyse, la <Link href="/signes/vierge" className="underline decoration-white/30 hover:decoration-white/60 transition">Vierge</Link> par sa rigueur analytique et le <Link href="/signes/verseau" className="underline decoration-white/30 hover:decoration-white/60 transition">Verseau</Link> par son sens de l&apos;innovation. L&apos;intelligence prend des formes différentes selon chaque signe.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">Quel signe a le plus de défauts ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Aucun signe n&apos;a plus de défauts qu&apos;un autre. Chaque signe possède des forces et des failles équilibrées. Ce qui compte, c&apos;est la conscience de ses schémas et la dynamique globale du <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">thème natal</Link> complet.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">Les qualités d&apos;un signe changent-elles avec l&apos;ascendant ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Oui, l&apos;ascendant nuance fortement la personnalité du signe solaire. Un Bélier ascendant Vierge n&apos;exprimera pas les mêmes qualités qu&apos;un Bélier ascendant Sagittaire. Consultez notre guide sur le <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">signe et l&apos;ascendant</Link> pour approfondir.
+              </p>
+            </details>
+
+            <details className="group rounded-2xl border border-white/10 bg-black/20 p-5">
+              <summary className="cursor-pointer font-semibold text-white/90 group-open:mb-3">Peut-on améliorer les défauts de son signe ?</summary>
+              <p className="text-text/85 leading-relaxed">
+                Oui. La conscience de ses schémas est le premier pas vers l&apos;évolution. Le <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">thème natal</Link> complet offre des pistes d&apos;évolution concrètes, et les <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">transits</Link> montrent les périodes favorables pour ce travail sur soi.
+              </p>
+            </details>
+          </div>
         </section>
 
         <nav aria-label="Navigation de fin d’article">
