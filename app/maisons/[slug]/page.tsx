@@ -318,6 +318,28 @@ export default async function HousePage({
           </header>
         </section>
 
+        {/* ━━━━━━━━━━━ DÉFINITION SEO (Featured Snippet) ━━━━━━━━━━━ */}
+        <div className="mb-12">
+          <div className={`rounded-2xl border ${theme.border} bg-white/[0.04] px-6 py-5`}>
+            <p className={`text-sm font-semibold uppercase tracking-widest ${theme.text} opacity-80`}>
+              Définition
+            </p>
+            <p className="mt-2 text-base leading-relaxed text-text/85 sm:text-lg">
+              La <strong>{titreCourt}</strong> ({house.nom}) est {house.type === "angulaire" ? "une maison angulaire" : house.type === "succédente" ? "une maison succédente" : "une maison cadente"} du{" "}
+              <Link href="/#maisons" className={`underline decoration-1 underline-offset-2 ${theme.text}`}>thème natal</Link>.
+              {house.niveauLecture?.arena && <> Son domaine : <strong>{house.niveauLecture.arena.toLowerCase()}</strong>.</>}
+              {house.axe && <> Elle fait partie de l&apos;axe <strong>{house.axe}</strong>.</>}
+            </p>
+          </div>
+
+          {/* APP Intro */}
+          <p className="mt-8 text-base leading-relaxed text-text/75 sm:text-lg">
+            Comprendre la <strong>{titreCourt}</strong> en astrologie, c&apos;est comprendre comment vous vivez le domaine de <strong>{house.nom.toLowerCase()}</strong>.
+            Quelles planètes l&apos;occupent ? Quel signe est sur sa cuspide ? Ce guide complet de la <strong>{titreCourt}</strong> vous
+            donne la signification traditionnelle et moderne, les domaines associés, les forces et ombres, et l&apos;interprétation des 10 planètes dans cette maison.
+          </p>
+        </div>
+
         {/* ============================================================ */}
         {/*  MAIN LAYOUT: content + sticky TOC                           */}
         {/* ============================================================ */}
@@ -331,7 +353,7 @@ export default async function HousePage({
             {has(house.niveauLecture?.fonction) && (
               <Section id={sectionId("Fonction")}>
                 <SectionHeading
-                  title="Fonction"
+                  title={`Quelle est la fonction de la ${titreCourt} ?`}
                   subtitle={house.niveauLecture?.arena}
                   icon={Target}
                   dot={theme.dot}
@@ -359,7 +381,7 @@ export default async function HousePage({
             {has(house.significationTraditionnelle) && (
               <Section id={sectionId("Signification traditionnelle")}>
                 <SectionHeading
-                  title="Signification traditionnelle"
+                  title={`Signification traditionnelle de la ${titreCourt}`}
                   subtitle="D'après Ptolémée, Fludd, Alchabitius, Gadbury"
                   icon={ScrollText}
                   dot={theme.dot}
@@ -388,7 +410,7 @@ export default async function HousePage({
             {has(house.conceptionModerne) && (
               <Section id={sectionId("Conception moderne")}>
                 <SectionHeading
-                  title="Conception moderne"
+                  title={`${titreCourt} en astrologie moderne : interprétation actuelle`}
                   subtitle="Synthèse contemporaine"
                   icon={Brain}
                   dot={theme.dot}
@@ -407,7 +429,7 @@ export default async function HousePage({
             {has(house.niveauLecture?.questions) && (
               <Section id={sectionId("Questions clés")}>
                 <SectionHeading
-                  title="Questions clés"
+                  title={`Quelles questions pose la ${titreCourt} ?`}
                   icon={Compass}
                   dot={theme.dot}
                   text={theme.text}
@@ -437,7 +459,7 @@ export default async function HousePage({
               has(house.domaines?.dansLaVie)) && (
               <Section id={sectionId("Domaines")}>
                 <SectionHeading
-                  title="Domaines"
+                  title={`Quels domaines de vie couvre la ${titreCourt} ?`}
                   icon={Layers}
                   dot={theme.dot}
                   text={theme.text}
@@ -496,7 +518,7 @@ export default async function HousePage({
               has(house.polarites?.besoins)) && (
               <Section id={sectionId("Repères")}>
                 <SectionHeading
-                  title="Repères"
+                  title={`Forces et ombres de la ${titreCourt}`}
                   subtitle="Forces, ombres et besoins"
                   icon={Shield}
                   dot={theme.dot}
@@ -519,7 +541,7 @@ export default async function HousePage({
             {has(house.axeAnalyse) && (
               <Section id={sectionId("Axe")}>
                 <SectionHeading
-                  title="Axe"
+                  title={`L'axe ${house.axeAnalyse!.nom} : que signifie-t-il ?`}
                   subtitle={house.axeAnalyse!.nom}
                   icon={Scale}
                   dot={theme.dot}
@@ -538,7 +560,7 @@ export default async function HousePage({
             {(has(house.triangle) || has(house.carre)) && (
               <Section id={sectionId("Triangle et Carré")}>
                 <SectionHeading
-                  title="Triangle et Carré"
+                  title={`Triangle et carré de la ${titreCourt} (Bailey)`}
                   subtitle="Classification de Bailey"
                   icon={Star}
                   dot={theme.dot}
@@ -586,7 +608,7 @@ export default async function HousePage({
               has(house.pedagogie?.repereInterpretation)) && (
               <Section id={sectionId("Pédagogie")}>
                 <SectionHeading
-                  title="Pédagogie"
+                  title={`Comment bien interpréter la ${titreCourt} ?`}
                   icon={BookOpen}
                   dot={theme.dot}
                   text={theme.text}
@@ -639,7 +661,7 @@ export default async function HousePage({
               has(house.pratique?.exercices)) && (
               <Section id={sectionId("Pratique")}>
                 <SectionHeading
-                  title="Pratique"
+                  title={`Exercices pratiques pour la ${titreCourt}`}
                   icon={Activity}
                   dot={theme.dot}
                   text={theme.text}
