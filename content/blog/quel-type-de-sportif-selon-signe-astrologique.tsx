@@ -342,7 +342,7 @@ export default function Post() {
           </p>
 
           <p className="text-text/85 leading-relaxed">
-            Le signe solaire ne suffit pas à résumer un thème natal (l’<Link href="/blog/comprendre-son-signe-astrologique-et-son-ascendant" className="underline decoration-white/30 hover:decoration-white/60 transition">ascendant</Link> et les{" "}
+            Le signe solaire ne suffit pas à résumer un thème natal (l’<Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">ascendant</Link> et les{" "}
             <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">aspects</Link> comptent aussi), mais il donne déjà
             une indication intéressante sur le style général avec lequel une personne
             aborde l’effort et le mouvement.

@@ -479,7 +479,7 @@ export default function Post() {
             </p>
             <p>
               <strong>Action :</strong> transformer l’envie en plan (voir aussi{" "}
-            <Link href="/blog/comprendre-son-signe-astrologique-et-son-ascendant" className="underline decoration-white/30 hover:decoration-white/60 transition">signe et ascendant</Link>) (3 étapes + dates + pièces).
+            <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">signe et ascendant</Link>) (3 étapes + dates + pièces).
             </p>
           </Card>
 

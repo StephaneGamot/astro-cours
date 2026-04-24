@@ -208,6 +208,41 @@ const COMPAT_TYPE_STYLES: Record<string, { label: string; color: string }> = {
 };
 
 // ═══════════════════════════════════════════════════════════════════════════════
+// HELPER — Maître(s) links (handles multi-ruler signs like Scorpion, Verseau, Poissons)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+function slugify(name: string): string {
+  return name.trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function MaitreLinks({ maitre, color }: { maitre: string; color: string }) {
+  // Patterns: "Pluton & Mars", "Saturne (tradition) / Uranus (moderne)"
+  const parts = maitre.split(/\s*[&/]\s*/);
+
+  return (
+    <>
+      {parts.map((part, i) => {
+        // Extract planet name (strip parenthetical like "(tradition)")
+        const planetName = part.replace(/\s*\(.*?\)\s*/g, "").trim();
+        const label = part.trim(); // keep full label for display
+        return (
+          <span key={planetName}>
+            {i > 0 && " & "}
+            <Link
+              href={`/planetes/${slugify(planetName)}`}
+              className="underline decoration-1 underline-offset-2"
+              style={{ color }}
+            >
+              {label}
+            </Link>
+          </span>
+        );
+      })}
+    </>
+  );
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
 // PAGE COMPONENT
 // ═══════════════════════════════════════════════════════════════════════════════
 
@@ -291,7 +326,7 @@ export default async function SignePage({
               Le <strong>signe du {data.nom}</strong> est le {data.maisonNaturelle}<sup>e</sup> signe du zodiaque ({data.periode}). De{" "}
               <Link href="/#zodiaque" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>polarité</Link>{" "}
               {data.polarite.toLowerCase()}, il appartient à l&apos;élément <strong>{data.element}</strong> en mode <strong>{data.mode}</strong>,{" "}
-              gouverné par <Link href={`/planetes/${data.maitre.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>{data.maitre}</Link>.{" "}
+              gouverné par <MaitreLinks maitre={data.maitre} color={data.couleur.primaire} />.{" "}
               Sa maison naturelle est la <Link href="/#maisons" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>Maison {data.maisonNaturelle}</Link>.
             </p>
           </div>
