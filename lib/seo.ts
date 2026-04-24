@@ -30,8 +30,19 @@ export function absoluteUrl(path: string) {
   return `${SITE_URL}${path}`;
 }
 
+/**
+ * Titre complet avec branding — utilisé pour og:title, twitter:title, alt d'images.
+ * Ne PAS l'utiliser pour metadata.title (le template du layout ajoute déjà " — Astro Cours").
+ */
 export function buildTitle(pageTitle: string) {
   return `${pageTitle} — ${SITE_NAME}`;
+}
+
+/**
+ * Titre page seul — utilisé pour metadata.title (le template layout ajoute le suffixe marque).
+ */
+export function pageTitle(title: string) {
+  return title;
 }
 
 export function buildMeta(opts: {

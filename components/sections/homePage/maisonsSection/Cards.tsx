@@ -69,7 +69,7 @@ export default function Cards({ item, basePath }: Props) {
         </h4>
         <p
           id={descId}
-          className="text-[15px] leading-relaxed text-slate-400 group-hover:text-slate-300 transition-colors"
+          className="text-[15px] leading-relaxed text-slate-300 group-hover:text-slate-200 transition-colors"
         >
           {item.description}
         </p>

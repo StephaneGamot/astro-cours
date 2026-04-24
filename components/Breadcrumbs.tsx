@@ -27,7 +27,7 @@ export default function Breadcrumbs({
       aria-label="Fil d'Ariane"
       className="mx-auto max-w-7xl px-6 pt-6 pb-2 lg:px-8"
     >
-      <ol className="flex flex-wrap items-center gap-1.5 text-sm text-slate-400">
+      <ol className="flex flex-wrap items-center gap-1.5 text-sm text-slate-300">
         {/* Accueil toujours en premier */}
         <li className="flex items-center gap-1.5">
           <Link

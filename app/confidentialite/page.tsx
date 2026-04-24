@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
 
 const CANONICAL = "/confidentialite";
-const TITLE = "Politique de confidentialité";
+const TITLE = "Politique de confidentialité : RGPD, cookies";
 const DESCRIPTION =
-  "Politique de confidentialité d'Astro Cours : données collectées, cookies, finalités, durée de conservation, sécurité, et droits RGPD.";
+  "Politique de confidentialité d'Astro Cours : cookies, données collectées, durée de conservation, sécurité et droits RGPD. Consultez vos droits ici.";
 
 export const metadata: Metadata = {
   title: buildTitle(TITLE),
   description: DESCRIPTION,
-  alternates: { canonical: CANONICAL },
+  alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },
 
   openGraph: {

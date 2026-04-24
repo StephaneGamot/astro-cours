@@ -13,24 +13,26 @@ import Asteroides from "./../../../public/images/asteroides/asteroides.webp"
  */
 
 export const metadata: Metadata = {
-  title: "Astéroïdes — Lecture pro (signe, maison, aspects, transits, synastrie)",
+  title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
   description:
-    "Comprendre Cérès, Pallas, Junon, Vesta et Chiron : sens, lecture par signe/maison/aspects, transits, synastrie et erreurs fréquentes.",
-  alternates: { canonical: "/asteroides" },
+    "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
+  alternates: { canonical: "https://www.astro-cours.com/asteroides" },
   openGraph: {
-    title: "Astéroïdes — Lecture pro (signe, maison, aspects, transits, synastrie)",
+    title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
     description:
-      "Comprendre Cérès, Pallas, Junon, Vesta et Chiron : sens, lecture par signe/maison/aspects, transits, synastrie et erreurs fréquentes.",
-    url: "/asteroides",
+      "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
+    url: "https://www.astro-cours.com/asteroides",
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Astéroïdes — Lecture pro (signe, maison, aspects, transits, synastrie)",
+    title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
     description:
-      "Comprendre Cérès, Pallas, Junon, Vesta et Chiron : sens, lecture par signe/maison/aspects, transits, synastrie et erreurs fréquentes.",
+      "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -658,8 +660,13 @@ export default function AsteroidesPage() {
             headline: "Astéroïdes en astrologie — Cérès, Pallas, Junon, Vesta (et Chiron)",
             description:
               "Cours pro : signification des astéroïdes, lecture par signe/maison/aspects, transits et synastrie.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "/asteroides" },
-            author: { "@type": "Person", name: "Stéphane Gamot" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/asteroides" },
+            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+            datePublished: "2026-04-09",
+            dateModified: "2026-04-22",
+            inLanguage: "fr",
+            articleSection: "Astrologie",
           }),
         }}
       />

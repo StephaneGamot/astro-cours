@@ -13,22 +13,24 @@ const COURSE = data as SynData;
 export const metadata: Metadata = {
   title: "Synastrie — Compatibilité & dynamique relationnelle",
   description:
-    "Cours complet de synastrie : méthode, aspects entre planètes, axes relationnels, maisons activées, drapeaux rouges et bonnes pratiques.",
-  alternates: { canonical: "/synastrie" },
+    "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
+  alternates: { canonical: "https://www.astro-cours.com/synastrie" },
   openGraph: {
     title: "Synastrie — Compatibilité & dynamique relationnelle",
     description:
-      "Cours complet de synastrie : méthode, aspects entre planètes, axes relationnels, maisons activées, drapeaux rouges et bonnes pratiques.",
-    url: "/synastrie",
+      "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
+    url: "https://www.astro-cours.com/synastrie",
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Synastrie — Compatibilité & dynamique relationnelle",
     description:
-      "Cours complet de synastrie : méthode, aspects entre planètes, axes relationnels, maisons activées, drapeaux rouges et bonnes pratiques.",
+      "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -384,8 +386,13 @@ export default function SynastriePage() {
             "@type": "Article",
             headline: "Synastrie — Compatibilité & dynamique relationnelle",
             description: COURSE.meta.description,
-            mainEntityOfPage: { "@type": "WebPage", "@id": COURSE.meta.canonical },
-            author: { "@type": "Person", name: "Stéphane Gamot" }
+            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/synastrie" },
+            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+            datePublished: "2026-04-09",
+            dateModified: "2026-04-22",
+            inLanguage: "fr",
+            articleSection: "Astrologie",
           })
         }}
       />

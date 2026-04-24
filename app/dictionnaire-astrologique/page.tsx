@@ -12,14 +12,14 @@ import LazyLetterSection from "./LazyLetterSection";
 /*  SEO — Metadata                                                    */
 /* ================================================================== */
 const CANONICAL = "/dictionnaire-astrologique";
-const TITLE = "Dictionnaire astrologique";
+const TITLE = "Dictionnaire astrologique complet de A à Z";
 const DESCRIPTION =
-  "Dictionnaire astrologique complet : définitions claires & accessibles des termes essentiels de l'astrologie — planètes, signes, maisons, aspects, transits.";
+  "Dictionnaire astrologique complet : définitions claires des termes essentiels — planètes, signes, maisons, aspects et transits. Explorez notre référence !";
 
 export const metadata: Metadata = {
   title: buildTitle(TITLE),
   description: DESCRIPTION,
-  alternates: { canonical: CANONICAL },
+  alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },
   openGraph: {
     title: buildTitle(TITLE),

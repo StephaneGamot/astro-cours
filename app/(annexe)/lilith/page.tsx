@@ -13,22 +13,24 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
   description:
-    "Lilith expliquée simplement : définition, vraie vs moyenne, symbolique, thèmes, lecture par signe/maison/aspects et méthode d’interprétation fiable.",
-  alternates: { canonical: "/lilith" },
+    "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects. Explorez notre cours complet !",
+  alternates: { canonical: "https://www.astro-cours.com/lilith" },
   openGraph: {
     title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
     description:
-      "Lilith expliquée simplement : définition, vraie vs moyenne, symbolique, thèmes, lecture par signe/maison/aspects et méthode d’interprétation fiable.",
-    url: "/lilith",
+      "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects. Explorez notre cours complet !",
+    url: "https://www.astro-cours.com/lilith",
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
     description:
-      "Lilith expliquée simplement : définition, vraie vs moyenne, symbolique, thèmes, lecture par signe/maison/aspects et méthode d’interprétation fiable.",
+      "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects. Explorez notre cours complet !",
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -555,8 +557,13 @@ export default function LilithPage() {
             headline: "Lilith (Lune Noire) — Sens, thèmes & interprétation",
             description:
               "Cours complet sur Lilith (Lune Noire) : définition, vraie vs moyenne, symbolique, lectures par signe/maison/aspects + méthode d’interprétation.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "/lilith" },
-            author: { "@type": "Person", name: "Stéphane Gamot" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/lilith" },
+            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+            datePublished: "2026-04-09",
+            dateModified: "2026-04-22",
+            inLanguage: "fr",
+            articleSection: "Astrologie",
           }),
         }}
       />

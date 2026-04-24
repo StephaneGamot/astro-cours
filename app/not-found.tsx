@@ -2,10 +2,27 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Page introuvable",
+  title: "Page introuvable — Erreur 404, découvrez nos cours",
   description:
-    "La page que vous cherchez n'existe pas ou a été déplacée. Explorez nos cours d'astrologie.",
+    "La page que vous cherchez n'existe pas ou a été déplacée. Retrouvez nos cours d'astrologie : signes, planètes, maisons et aspects. Explorez le site !",
   robots: { index: false, follow: true },
+  openGraph: {
+    title: "Page introuvable — Erreur 404",
+    description:
+      "La page que vous cherchez n'existe pas ou a été déplacée. Retrouvez nos cours d'astrologie : signes, planètes, maisons et aspects.",
+    url: "https://www.astro-cours.com",
+    type: "website",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Page introuvable — Erreur 404",
+    description:
+      "La page que vous cherchez n'existe pas ou a été déplacée. Retrouvez nos cours d'astrologie : signes, planètes, maisons et aspects.",
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
+  },
 };
 
 /** Inline sparkle — Server Component, zero JS */
@@ -98,7 +115,7 @@ export default function NotFound() {
         Erreur 404
       </p>
       <h1 className="mb-4 font-serif text-4xl text-white md:text-5xl">
-        Page introuvable
+        Page introuvable sur Astro Cours
       </h1>
       <p className="mb-12 max-w-md text-lg leading-relaxed text-slate-400">
         Cette page n'existe pas ou a été déplacée. Mais l'univers a sûrement

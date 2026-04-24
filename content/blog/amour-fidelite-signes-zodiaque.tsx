@@ -586,14 +586,14 @@ export default function Post() {
               <table className="min-w-full border-collapse text-sm">
                 <thead className="bg-white/[0.04]">
                   <tr className="text-left">
-                    <th className="px-5 py-4 font-semibold text-white">Signe</th>
-                    <th className="px-5 py-4 font-semibold text-white">
+                    <th scope="col" className="px-5 py-4 font-semibold text-white">Signe</th>
+                    <th scope="col" className="px-5 py-4 font-semibold text-white">
                       Fidélité
                     </th>
-                    <th className="px-5 py-4 font-semibold text-white">
+                    <th scope="col" className="px-5 py-4 font-semibold text-white">
                       Besoin principal
                     </th>
-                    <th className="px-5 py-4 font-semibold text-white">
+                    <th scope="col" className="px-5 py-4 font-semibold text-white">
                       Risque relationnel
                     </th>
                   </tr>

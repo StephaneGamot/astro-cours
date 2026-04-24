@@ -87,12 +87,19 @@ export async function generateMetadata({
   const planet = getPlanet(slug.toLowerCase());
   if (!planet) return {};
 
-  const title = buildTitle(
-    `${planet.name} en astrologie : symbolique & aspects`
-  );
-  const description =
-    planet.identite?.symbolique?.slice(0, 155) ||
-    `Étude approfondie de ${planet.name} en astrologie : symbolisme, interprétation dans les signes, les maisons et les aspects.`;
+  /* ── Title 50-60 chars ────────────────────────────────── */
+  const shortName = planet.name.length > 8 ? planet.name : planet.name;
+  const titleBase = `${shortName} en astrologie : symbolique & aspects`;
+  const title = buildTitle(titleBase);
+
+  /* ── Description 140-155 chars avec CTA ────────────────── */
+  const rawDesc = planet.identite?.symbolique || "";
+  const fallbackDesc = `Découvrez ${planet.name} en astrologie : symbolisme, influence dans les signes et les maisons, aspects majeurs. Guide complet pour interpréter votre thème natal.`;
+  const description = rawDesc.length >= 140 && rawDesc.length <= 155
+    ? rawDesc
+    : fallbackDesc.length <= 155
+      ? fallbackDesc
+      : fallbackDesc.slice(0, 152) + "...";
 
   return {
     ...buildMeta({
@@ -102,16 +109,6 @@ export async function generateMetadata({
       type: "article",
       ogImage: planetHeroSrc(planet.slug),
     }),
-    keywords: [
-      `${planet.name} astrologie`,
-      `${planet.name} thème natal`,
-      `${planet.name} dans les signes`,
-      `${planet.name} dans les maisons`,
-      `aspects ${planet.name}`,
-      "astrologie",
-      "thème natal",
-      "interprétation astrologique",
-    ],
     alternates: {
       canonical: absoluteUrl(`/planetes/${planet.slug}`),
     },
@@ -311,17 +308,13 @@ export default async function PlanetPage({
             {planet.famille || "Astre"}
           </div>
 
-          {/* Planet name */}
+          {/* Planet name — H1 enrichi SEO (20-70 chars) */}
           <h1 className="font-serif text-[clamp(3.5rem,11vw,8.5rem)] leading-[0.9] tracking-tight text-white">
             {planet.name}
+            <span className="block mt-3 font-serif text-xl md:text-3xl italic text-slate-300 leading-normal">
+              Symbolique &amp; influence en astrologie
+            </span>
           </h1>
-
-          {/* Keyword */}
-          {(planet.motCle || planet.identite?.motCle) && (
-            <p className="!mx-auto mt-4 max-w-3xl  font-serif text-xl md:text-3xl italic text-slate-400">
-              « {planet.motCle || planet.identite?.motCle} »
-            </p>
-          )}
 
           {/* Hero image */}
           <div className="relative mt-10 md:mt-14 group">

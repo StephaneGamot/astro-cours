@@ -12,14 +12,14 @@ import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
 /*  SEO                                                               */
 /* ------------------------------------------------------------------ */
 const CANONICAL = "/a-propos";
-const TITLE = "À propos";
+const TITLE = "À propos : plus de 40 ans d'astrologie";
 const DESCRIPTION =
   "Découvrez le parcours de Stéphane Gamot, passionné d'astrologie depuis plus de 40 ans : de la mythologie grecque à une pratique rigoureuse et pédagogique.";
 
 export const metadata: Metadata = {
   title: buildTitle(TITLE),
   description: DESCRIPTION,
-  alternates: { canonical: CANONICAL },
+  alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },
 
   openGraph: {

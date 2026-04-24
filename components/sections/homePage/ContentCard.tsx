@@ -215,7 +215,7 @@ export default function ContentCard({
         </p>
         <p
           id={descId}
-          className="text-[15px] leading-relaxed text-slate-400 transition-colors duration-300 motion-reduce:transition-none group-hover:text-slate-300"
+          className="text-[15px] leading-relaxed text-slate-300 transition-colors duration-300 motion-reduce:transition-none group-hover:text-slate-200"
         >
           {item.description}
         </p>

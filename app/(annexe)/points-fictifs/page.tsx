@@ -19,21 +19,24 @@ import HeroSrc from "@/public/images/points-fictifs.webp";
 export const metadata: Metadata = {
   title: "Points fictifs, Vertex, Fortune, Chiron, angle & méthode",
   description:
-    "Cours pro sur les points fictifs : Vertex, Part de Fortune, Chiron, ASC/MC, Nœuds, Lilith. Méthode de lecture par signe/maison/aspects/transits.",
-  alternates: { canonical: "/points-fictifs" },
+    "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects. Explorez notre méthode !",
+  alternates: { canonical: "https://www.astro-cours.com/points-fictifs" },
   openGraph: {
     title: "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire",
     description:
-      "Définition + méthode : lire Vertex, Part de Fortune, Chiron, angles (ASC/MC), Nœuds, Lilith par signe/maison/aspects et transits, sans confusion.",
-    url: "/points-fictifs",
+      "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects. Explorez notre méthode !",
+    url: "https://www.astro-cours.com/points-fictifs",
     type: "article",
-    images: [
-      {
-        url: "/images/points-fictifs.webp",
-        width: 1200,
-        height: 630,
-      },
-    ],
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire",
+    description:
+      "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects. Explorez notre méthode !",
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -165,7 +168,7 @@ export default function PointsFictifsPage() {
               </div>
 
               <h1 className="mt-8 font-serif text-5xl font-light leading-[1.05] text-white md:text-6xl lg:text-[5rem]">
-                Les points fictifs
+                Les points fictifs en astrologie
               </h1>
 
               <p className="mt-8 max-w-2xl text-lg font-light leading-relaxed text-slate-300 md:text-xl">
@@ -599,8 +602,12 @@ export default function PointsFictifsPage() {
                 "@type": "WebPage",
                 "@id": "https://www.astro-cours.com/points-fictifs",
               },
-              author: { "@type": "Person", name: "Stéphane Gamot" },
-              publisher: { "@type": "Organization", name: "Astro-Cours" },
+              author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+              publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+              datePublished: "2026-04-09",
+              dateModified: "2026-04-22",
+              inLanguage: "fr",
+              articleSection: "Astrologie",
             }),
           }}
         />

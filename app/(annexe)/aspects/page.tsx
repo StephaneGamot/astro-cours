@@ -12,21 +12,23 @@ export const metadata: Metadata = {
   title: "Aspects astrologiques — Orbes & interprétation (cours complet)",
   description:
     "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
-  alternates: { canonical: "/aspects" },
+  alternates: { canonical: "https://www.astro-cours.com/aspects" },
   openGraph: {
     title: "Aspects astrologiques — Orbes & interprétation (cours complet)",
     description:
       "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
-    url: "/aspects",
+    url: "https://www.astro-cours.com/aspects",
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Aspects astrologiques — Orbes & interprétation (cours complet)",
     description:
       "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -362,11 +364,11 @@ export default function AspectsPage() {
           <table className="w-full min-w-[720px] border-separate border-spacing-0">
             <thead>
               <tr className="text-left text-xs uppercase tracking-wide text-muted">
-                <th className="border-b border-white/10 py-3 pr-4">Aspect</th>
-                <th className="border-b border-white/10 py-3 pr-4">Angle</th>
-                <th className="border-b border-white/10 py-3 pr-4">Type</th>
-                <th className="border-b border-white/10 py-3 pr-4">Tonalité</th>
-                <th className="border-b border-white/10 py-3 pr-4">Mots-clés</th>
+                <th scope="col" className="border-b border-white/10 py-3 pr-4">Aspect</th>
+                <th scope="col" className="border-b border-white/10 py-3 pr-4">Angle</th>
+                <th scope="col" className="border-b border-white/10 py-3 pr-4">Type</th>
+                <th scope="col" className="border-b border-white/10 py-3 pr-4">Tonalité</th>
+                <th scope="col" className="border-b border-white/10 py-3 pr-4">Mots-clés</th>
               </tr>
             </thead>
             <tbody>
@@ -549,8 +551,13 @@ export default function AspectsPage() {
             headline: "Aspects astrologiques — Conjonction, sextile, carré, trigone, opposition",
             description:
               "Cours complet sur les aspects : définitions, orbes, logique, méthode d’interprétation et exemples.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "/aspects" },
-            author: { "@type": "Person", name: "Stéphane Gamot" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/aspects" },
+            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+            datePublished: "2026-04-09",
+            dateModified: "2026-04-22",
+            inLanguage: "fr",
+            articleSection: "Astrologie",
           }),
         }}
       />

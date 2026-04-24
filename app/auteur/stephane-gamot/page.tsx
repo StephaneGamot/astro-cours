@@ -204,6 +204,7 @@ export default function AuteurPage() {
             <span className="bg-gradient-to-r from-violet-400 via-accent to-sky-400 bg-clip-text text-transparent">
               Gamot
             </span>
+            <span className="block mt-2 text-lg font-normal text-text/60 sm:text-xl">Astrologue, auteur &amp; p&eacute;dagogue</span>
           </h1>
 
           <p className="mx-auto max-w-xl text-sm leading-relaxed text-text/55 sm:text-[0.94rem]">

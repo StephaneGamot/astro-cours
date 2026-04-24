@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
 
 import data from "../../../data/transits.details.json";
 
@@ -49,25 +50,28 @@ const COURSE = data as unknown as TransitData;
 
 /* ---------------- SEO ---------------- */
 
+const TRANSIT_TITLE = "Transits : guide complet, méthode et lecture";
+const TRANSIT_DESC =
+  "Guide complet des transits astrologiques : définition, méthode, orbes et interprétation planète par planète. Découvrez notre cours structuré et concret !";
+
 export const metadata: Metadata = {
-  title: "Transits — Cours d’astrologie",
-  description:
-    "Guide complet des transits : définition, méthode, orbes, rétrogrades, transit sur planète natale, et interprétation planète par planète avec aspects majeurs.",
-  alternates: { canonical: "/transits" },
+  title: buildTitle(TRANSIT_TITLE),
+  description: TRANSIT_DESC,
+  alternates: { canonical: absoluteUrl("/transits") },
   openGraph: {
-    title: "Transits — Cours d’astrologie",
-    description:
-      "Guide complet des transits : définition, méthode, orbes, rétrogrades, transit sur planète natale, et interprétation planète par planète avec aspects majeurs.",
-    url: "/transits",
+    title: buildTitle(TRANSIT_TITLE),
+    description: TRANSIT_DESC,
+    url: absoluteUrl("/transits"),
     type: "article",
-    siteName: "Astro Cours",
+    siteName: SITE_NAME,
     locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Transits — Cours d’astrologie",
-    description:
-      "Guide complet des transits : définition, méthode, orbes, rétrogrades, transit sur planète natale, et interprétation planète par planète avec aspects majeurs.",
+    title: buildTitle(TRANSIT_TITLE),
+    description: TRANSIT_DESC,
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -156,7 +160,7 @@ export default function TransitsPage() {
             Cours d’astrologie — Timing & lecture du ciel
           </p>
 
-          <h1 className="mt-3 font-serif text-4xl sm:text-5xl">Les transits</h1>
+          <h1 className="mt-3 font-serif text-4xl sm:text-5xl">Les transits en astrologie : guide complet</h1>
 
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-text/80">
             Une page <span className="text-text">100% méthode</span> : comment lire un transit proprement,
@@ -456,8 +460,13 @@ export default function TransitsPage() {
             "@type": "Article",
             headline: "Transits — Cours d’astrologie",
             description: COURSE.meta.description,
-            mainEntityOfPage: { "@type": "WebPage", "@id": COURSE.meta.canonical },
-            author: { "@type": "Person", name: "Stéphane Gamot" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/transits" },
+            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+            datePublished: "2026-04-09",
+            dateModified: "2026-04-22",
+            inLanguage: "fr",
+            articleSection: "Astrologie",
           }),
         }}
       />

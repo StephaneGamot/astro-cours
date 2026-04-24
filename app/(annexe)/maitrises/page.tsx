@@ -18,23 +18,26 @@ import HeroSrc from "@/public/images/dignites-planetaires.webp";
 type Sign = (typeof signes)[number];
 
 export const metadata: Metadata = {
-  title: "Maîtrises, exaltations, exils & chutes — Dignités",
+  title: "Maîtrises, exaltations, exils & chutes — Les dignités",
   description:
-    "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Sens, logique astrologique, repères et erreurs à éviter.",
-  alternates: { canonical: "/maitrises" },
+    "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
+  alternates: { canonical: "https://www.astro-cours.com/maitrises" },
   openGraph: {
-    title: "Dignités essentielles — Maîtrises, exaltations, exils & chutes",
+    title: "Maîtrises, exaltations, exils & chutes — Les dignités",
     description:
-      "Comprendre les dignités : maître, exaltation, exil et chute pour chaque signe. Sens, logique, repères d’interprétation et pièges fréquents.",
-    url: "/maitrises",
+      "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
+    url: "https://www.astro-cours.com/maitrises",
     type: "article",
-    images: [
-      {
-        url: "/images/dignites-planetaires.webp",
-        width: 1200,
-        height: 630,
-      },
-    ],
+    siteName: "Astro Cours",
+    locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Maîtrises, exaltations, exils & chutes — Les dignités",
+    description:
+      "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -681,8 +684,12 @@ export default function MaitrisesCoursPage() {
                 "@type": "WebPage",
                 "@id": "https://www.astro-cours.com/maitrises",
               },
-              author: { "@type": "Person", name: "Stéphane Gamot" },
-              publisher: { "@type": "Organization", name: "Astro-Cours" },
+              author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+              publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+              datePublished: "2026-04-09",
+              dateModified: "2026-04-22",
+              inLanguage: "fr",
+              articleSection: "Astrologie",
             }),
           }}
         />

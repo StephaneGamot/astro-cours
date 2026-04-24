@@ -65,7 +65,7 @@ export function generateStaticParams() {
 /*  Metadata + SEO                                                     */
 /* ------------------------------------------------------------------ */
 
-function clampMeta(s: string, max = 170) {
+function clampMeta(s: string, max = 155) {
   const clean = s.replace(/\s+/g, " ").trim();
   if (clean.length <= max) return clean;
   const cut = clean.slice(0, max - 1);
@@ -97,8 +97,8 @@ export async function generateMetadata({
       (arena ? `Thème : ${arena}. ` : "") +
       (motsCles.length ? `Mots-clés : ${motsCles.join(", ")}. ` : "") +
       (principaux.length ? `Domaines : ${principaux.join(", ")}. ` : "") +
-      "Significations traditionnelles et modernes, les 10 planètes dans cette maison.",
-    170
+      "Découvrez les significations traditionnelles et modernes.",
+    155
   );
 
   const keywords = [

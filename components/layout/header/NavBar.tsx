@@ -277,7 +277,7 @@ export default function NavBar() {
               className="rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400"
             >
               <span className="sr-only">Astro Cours — Accueil</span>
-              <Image alt="" src={Logo} className="h-9 w-auto" />
+              <Image alt="Logo Astro Cours" src={Logo} className="h-9 w-auto" />
             </Link>
 
             <button
@@ -428,7 +428,7 @@ function DesktopDropdown({
                   >
                     {item.name}
                   </span>
-                  <span className="block mt-0.5 text-[13px] leading-snug text-slate-400 truncate">
+                  <span className="block mt-0.5 text-[13px] leading-snug text-slate-300/70 truncate">
                     {item.description}
                   </span>
                 </span>
@@ -532,7 +532,7 @@ function MobileSection({
                   >
                     {item.name}
                   </span>
-                  <span className="block text-xs text-slate-400 truncate">
+                  <span className="block text-xs text-slate-300/70 truncate">
                     {item.description}
                   </span>
                 </span>

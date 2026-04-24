@@ -470,6 +470,7 @@ export function PlanetNav({ prev, next }: PlanetNavProps) {
               src={prev.imageSrc}
               alt={`planete ${prev.name}`}
               fill
+              sizes="(max-width: 640px) 100vw, 50vw"
               className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -496,6 +497,7 @@ export function PlanetNav({ prev, next }: PlanetNavProps) {
               src={next.imageSrc}
                   alt={`planete ${next.name}`}
               fill
+              sizes="(max-width: 640px) 100vw, 50vw"
               className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

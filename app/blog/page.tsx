@@ -2,26 +2,31 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
+import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
+
+const CANONICAL = "/blog";
+const TITLE = "Blog astrologie : cours, aspects et transits";
+const DESCRIPTION =
+  "Articles d'astrologie structurés : bases, aspects, planètes et transits expliqués avec méthode et exemples concrets. Explorez nos cours progressifs !";
 
 export const metadata: Metadata = {
-  title: "Blog d'astrologie",
-  description:
-    "Articles premium et structurés : bases, aspects, planètes, transits. Des cours lisibles, concrets et progressifs.",
-  alternates: { canonical: "/blog" },
+  title: buildTitle(TITLE),
+  description: DESCRIPTION,
+  alternates: { canonical: absoluteUrl(CANONICAL) },
   openGraph: {
-    title: "Blog",
-    description:
-      "Bases, aspects, planètes, transits : cours clairs, exemples, méthode.",
-    url: "/blog",
+    title: buildTitle(TITLE),
+    description: DESCRIPTION,
+    url: absoluteUrl(CANONICAL),
     type: "website",
-    siteName: "Astro Cours",
+    siteName: SITE_NAME,
     locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog",
-    description:
-      "Bases, aspects, planètes, transits : cours clairs, exemples, méthode.",
+    title: buildTitle(TITLE),
+    description: DESCRIPTION,
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -82,7 +87,7 @@ export default async function BlogPage({
         <div className="relative">
           <div className="mt-2 flex flex-wrap items-end justify-between gap-4">
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight leading-tight">
-              Blog d’astrologie
+              Blog d’astrologie : cours et m&eacute;thodes
             </h1>
 
             <div className="flex flex-wrap gap-2 text-sm text-text/70">

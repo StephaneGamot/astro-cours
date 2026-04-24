@@ -680,22 +680,21 @@ function HeroSection({ data }: { data: SigneData }) {
           src={data.images.signe}
           alt={`Signe du ${data.nom}`}
           fill
+          sizes="100vw"
           className="object-contain"
           style={{ filter: `drop-shadow(0 0 40px ${data.couleur.primaire}30)` }}
           priority
         />
       </div>
 
-      {/* Titre principal */}
+      {/* Titre principal — H1 enrichi SEO (20-70 chars) */}
       <h1 className="animate-fade-in-up animation-delay-100 mb-3">
         {data.nom}
+        <span className="block text-lg font-light tracking-wide md:text-xl mt-2"
+              style={{ color: "rgb(var(--muted))" }}>
+          Signe astrologique — Portrait complet
+        </span>
       </h1>
-
-      {/* Sous-titre */}
-      <p className="animate-fade-in-up animation-delay-200 mb-2 text-lg font-light tracking-wide md:text-xl"
-         style={{ color: "rgb(var(--muted))" }}>
-        {data.sousTitre}
-      </p>
 
       {/* Devise */}
       <p className="animate-fade-in-up animation-delay-300 text-2xl font-light italic md:text-3xl"
@@ -849,7 +848,7 @@ function PlaneteCard({ planete, accentColor }: { planete: SigneData["planetes"][
     <div className="group rounded-2xl border border-[rgb(var(--border)/0.06)] bg-[rgb(var(--surface))] p-5 transition-all duration-300 hover:border-[rgb(var(--border)/0.14)] hover:scale-[1.02]">
       <div className="mb-3 flex items-center gap-3">
         <div className="relative h-9 w-9 overflow-hidden rounded-full" style={{ boxShadow: `0 0 12px ${accentColor}25` }}>
-          <Image src={`/images/planetes/${planete.slug}.webp`} alt={`Illustration de la planète ${planete.nom}`} fill className="object-cover" />
+          <Image src={`/images/planetes/${planete.slug}.webp`} alt={`Illustration de la planète ${planete.nom}`} fill sizes="36px" className="object-cover" />
         </div>
         <h3 className="!mt-0 !border-b-0 !pb-0 !text-sm !font-semibold">{planete.nom}</h3>
       </div>
@@ -881,7 +880,7 @@ function CompatCard({ compat, currentSlug }: { compat: SigneData["compatibilites
       <div className="mb-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="relative h-8 w-8 overflow-hidden rounded-full">
-            <Image src={`/images/zodiaque/${compat.signe}.webp`} alt={`Illustration de la planète ${compat.nom}`} fill className="object-cover opacity-70 transition-opacity group-hover:opacity-100" />
+            <Image src={`/images/zodiaque/${compat.signe}.webp`} alt={`Illustration de la planète ${compat.nom}`} fill sizes="32px" className="object-cover opacity-70 transition-opacity group-hover:opacity-100" />
           </div>
           <h3 className="!mt-0 !border-b-0 !pb-0 !text-sm !font-semibold">{compat.nom}</h3>
         </div>

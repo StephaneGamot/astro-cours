@@ -16,7 +16,6 @@ export default function Constelations() {
         alt="Les 12 constelations du zodiaque "
         width={1500}
         height={120}
-        priority
         className="h-auto w-[95%] my-12 mx-auto"
       />
     </div>

@@ -451,7 +451,7 @@ export default function Footer() {
               </span>
             </Link>
 
-            <p className="max-w-sm text-[15px] leading-relaxed text-slate-400">
+            <p className="max-w-sm text-[15px] leading-relaxed text-slate-300">
               Explorez les profondeurs du ciel avec des cours d'astrologie
               clairs, modernes et structurés pour les passionnés et les
               chercheurs.

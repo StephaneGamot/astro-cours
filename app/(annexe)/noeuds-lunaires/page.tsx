@@ -3,25 +3,28 @@ import Link from "next/link";
 import Image from "next/image";
 import TeteDuDragon from "./../../../public/images/noeuds-lunaires.webp";
 
+const NOEUDS_TITLE = "Noeuds lunaires : axe NN/NS, lecture complète et méthode";
+const NOEUDS_DESC =
+  "Noeuds lunaires (Noeud Nord et Sud) : sens, axe évolutif, lecture par signe, maison et aspects, pièges courants. Découvrez notre méthode d'interprétation !";
+
 export const metadata: Metadata = {
-  title: "Nœuds lunaires — Axe NN/NS, lecture et méthode",
-  description:
-    "Nœud Nord & Nœud Sud : sens, axe évolutif, lecture par signe/maison/aspects, pièges et méthode pro pour interpréter sans surinterpréter.",
-  alternates: { canonical: "/noeuds-lunaires" },
+  title: NOEUDS_TITLE,
+  description: NOEUDS_DESC,
+  alternates: { canonical: "https://www.astro-cours.com/noeuds-lunaires" },
   openGraph: {
-    title: "Nœuds lunaires — Axe NN/NS, lecture et méthode",
-    description:
-      "Nœud Nord & Nœud Sud : sens, axe évolutif, lecture par signe/maison/aspects, pièges et méthode pro pour interpréter sans surinterpréter.",
-    url: "/noeuds-lunaires",
+    title: NOEUDS_TITLE,
+    description: NOEUDS_DESC,
+    url: "https://www.astro-cours.com/noeuds-lunaires",
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nœuds lunaires — Axe NN/NS, lecture et méthode",
-    description:
-      "Nœud Nord & Nœud Sud : sens, axe évolutif, lecture par signe/maison/aspects, pièges et méthode pro pour interpréter sans surinterpréter.",
+    title: NOEUDS_TITLE,
+    description: NOEUDS_DESC,
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -486,8 +489,13 @@ export default function NoeudsLunairesPage() {
             headline: "Noeuds lunaires — Noeud Nord & Noeud Sud",
             description:
               "Cours pro sur l’axe des noeuds lunaires : définition, lecture par signe/maison, aspects, transits et méthode.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "/noeuds-lunaires" },
-            author: { "@type": "Person", name: "Stéphane Gamot" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/noeuds-lunaires" },
+            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+            datePublished: "2026-04-09",
+            dateModified: "2026-04-22",
+            inLanguage: "fr",
+            articleSection: "Astrologie",
           }),
         }}
       />

@@ -3,14 +3,14 @@ import type { Metadata } from "next";
 import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
 
 const CANONICAL = "/mentions-legales";
-const TITLE = "Mentions légales";
+const TITLE = "Mentions légales et informations juridiques";
 const DESCRIPTION =
-  "Mentions légales d'Astro Cours : éditeur du site, hébergement, contact, propriété intellectuelle et conditions d'utilisation conformément à la loi.";
+  "Consultez les mentions légales d'Astro Cours : éditeur, hébergement, contact, propriété intellectuelle et conditions d'utilisation conformes à la loi LCEN.";
 
 export const metadata: Metadata = {
   title: buildTitle(TITLE),
   description: DESCRIPTION,
-  alternates: { canonical: CANONICAL },
+  alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },
 
   openGraph: {
@@ -83,7 +83,7 @@ export default function MentionsLegalesPage() {
           Obligations légales
         </p>
         <h1 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
-          Mentions légales
+          Mentions légales du site Astro Cours
         </h1>
         <p className="mx-auto max-w-xl text-sm leading-relaxed text-text/60">
           Conformément aux dispositions de la loi n°&nbsp;2004-575 du 21&nbsp;juin

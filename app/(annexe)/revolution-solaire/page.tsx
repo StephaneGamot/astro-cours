@@ -28,20 +28,16 @@ export const metadata: Metadata = {
     title: RS.meta.title,
     description: RS.meta.description,
     url: RS.meta.canonical,
-    siteName: "Astro-Cours",
+    siteName: "Astro Cours",
+    locale: "fr_FR",
     type: "article",
-    images: [
-      {
-        url: "/images/revolution-solaire.webp",
-        width: 1200,
-        height: 630,
-      },
-    ],
+    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: RS.meta.title,
     description: RS.meta.description,
+    images: ["https://www.astro-cours.com/og/cover.jpg"],
   },
 };
 
@@ -157,20 +153,25 @@ export default function RevolutionSolairePage() {
               "@type": "Article",
               headline: RS.meta.title,
               description: RS.meta.description,
-              image: "https://astro-cours.com/images/revolution-solaire.webp",
-              author: { "@type": "Organization", name: "Astro-Cours" },
+              image: "https://www.astro-cours.com/images/revolution-solaire.webp",
+              author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
               publisher: {
                 "@type": "Organization",
-                name: "Astro-Cours",
+                name: "Astro Cours",
+                url: "https://www.astro-cours.com",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://astro-cours.com/logo.png",
+                  url: "https://www.astro-cours.com/astro-cours-logo.webp",
                 },
               },
               mainEntityOfPage: {
                 "@type": "WebPage",
-                "@id": RS.meta.canonical,
+                "@id": "https://www.astro-cours.com/revolution-solaire",
               },
+              datePublished: "2026-04-09",
+              dateModified: "2026-04-22",
+              inLanguage: "fr",
+              articleSection: "Astrologie",
             },
             {
               "@context": "https://schema.org",
