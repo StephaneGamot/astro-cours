@@ -1,5 +1,6 @@
 import { TagPills } from "./TagPills";
 import { ShareBar } from "./ShareBar";
+import { AuthorBox } from "./AuthorBox";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
   SITE_URL,
@@ -106,6 +107,8 @@ export function ArticleLayout({
           </header>
 
           <div className="prose">{children}</div>
+
+          <AuthorBox />
         </article>
       </main>
     </>
