@@ -323,10 +323,23 @@ export default function AspectsPage() {
         <div className="h-1 w-full bg-gradient-to-r from-emerald-400/35 via-sky-400/35 to-rose-400/35" />
       </header>
 
+      {/* Définition SEO */}
+      <div className="mt-8 rounded-2xl border border-violet-400/20 bg-violet-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-violet-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          Un <strong>aspect astrologique</strong> est l'angle formé entre deux planètes dans un <Link href="/#theme-natal">thème natal</Link> ou en transit : il décrit la nature de leur relation (harmonie, tension, fusion) et influence directement l'interprétation du thème.
+        </p>
+      </div>
+
+      {/* APP Intro */}
+      <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+        <strong>Les aspects en astrologie</strong> sont le coeur de toute interprétation, pourtant ils restent souvent mal compris par les débutants. Quelle est la différence entre un trigone et un sextile ? Comment calculer un orbe ? Cette page vous guide pas à pas à travers les 5 aspects majeurs et le quinconce, avec des définitions claires, des orbes précis et une méthode d'interprétation applicable immédiatement.
+      </p>
+
       {/* Récap rapide */}
       <section className="mb-10 grid gap-4 sm:grid-cols-2">
         <div className={card}>
-          <h2 className="font-serif text-2xl">Idée clé</h2>
+          <h2 className="font-serif text-2xl">Qu'est-ce qu'un aspect en astrologie ?</h2>
           <p className="mt-3 text-sm leading-relaxed text-text/80">
             Un aspect n’est pas “bien” ou “mal” : il décrit une{" "}
             <span className="text-text">dynamique</span>. La qualité vient de la façon dont on l’intègre
@@ -340,7 +353,7 @@ export default function AspectsPage() {
         </div>
 
         <div className={card}>
-          <h2 className="font-serif text-2xl">Orbes (règle simple)</h2>
+          <h2 className="font-serif text-2xl">Comment calculer les orbes des aspects astrologiques ?</h2>
           <p className="mt-3 text-sm leading-relaxed text-text/80">
             Plus l’orbe est serré, plus l’aspect est puissant. En transit, on garde des orbes plus stricts.
           </p>
@@ -359,7 +372,7 @@ export default function AspectsPage() {
 
       {/* Table récap pro */}
       <section className={`${card} mb-10`}>
-        <h2 className="font-serif text-2xl">Tableau récapitulatif</h2>
+        <h2 className="font-serif text-2xl">Quels sont les 5 aspects majeurs en astrologie ?</h2>
         <div className="mt-4 overflow-x-auto">
           <table className="w-full min-w-[720px] border-separate border-spacing-0">
             <thead>
@@ -539,6 +552,94 @@ export default function AspectsPage() {
           </div>
         </div>
       </footer>
+
+      {/* FAQ visible */}
+      <section className="mt-16 space-y-6" aria-labelledby="faq-aspects">
+        <h2 id="faq-aspects" className={h2}>Questions fréquentes sur les aspects astrologiques</h2>
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quelle est la différence entre un trigone et un sextile en astrologie ?
+                <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Le <strong>trigone</strong> (120°) est un aspect harmonique très fluide, souvent lié à un talent naturel. Le <strong>sextile</strong> (60°) est aussi harmonique mais demande une action consciente pour en tirer parti. Les deux facilitent la relation entre les <Link href="/#planetes">planètes</Link> concernées, mais le trigone agit de manière plus automatique.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Un carré en astrologie est-il toujours négatif ?
+                <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Non. Le <strong>carré</strong> (90°) crée de la tension, mais cette tension est un moteur de croissance. Un carré bien intégré développe de la force, de la compétence et de la résilience. C'est l'aspect le plus formateur du <Link href="/#theme-natal">thème natal</Link>.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Comment lire les orbes des aspects dans un thème natal ?
+                <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">L'<strong>orbe</strong> est la marge de tolérance autour de l'angle exact. Plus l'orbe est serré (proche de 0°), plus l'aspect est puissant. En natal, on tolère jusqu'à 8-10° pour les aspects majeurs impliquant le <strong>Soleil</strong> ou la <strong>Lune</strong>. En <Link href="/transits">transit</Link>, on reste à 1-2° pour une lecture précise.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Qu'est-ce qu'une conjonction en astrologie et comment l'interpréter ?
+                <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">La <strong>conjonction</strong> (0°) fusionne deux planètes au même point du zodiaque. Leurs fonctions se mélangent et s'intensifient. Elle n'est ni positive ni négative : elle est puissante. L'interprétation dépend des <Link href="/#planetes">planètes</Link> impliquées, du <Link href="/#zodiaque">signe</Link> et de la <Link href="/#maisons">maison</Link> concernée.</p>
+          </details>
+        </div>
+      </section>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Quelle est la différence entre un trigone et un sextile en astrologie ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Le trigone (120°) est un aspect harmonique très fluide, souvent lié à un talent naturel. Le sextile (60°) est aussi harmonique mais demande une action consciente pour en tirer parti. Les deux facilitent la relation entre les planètes concernées, mais le trigone agit de manière plus automatique."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Un carré en astrologie est-il toujours négatif ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Non. Le carré (90°) crée de la tension, mais cette tension est un moteur de croissance. Un carré bien intégré développe de la force, de la compétence et de la résilience. C'est l'aspect le plus formateur du thème natal."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Comment lire les orbes des aspects dans un thème natal ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "L'orbe est la marge de tolérance autour de l'angle exact. Plus l'orbe est serré (proche de 0°), plus l'aspect est puissant. En natal, on tolère jusqu'à 8-10° pour les aspects majeurs impliquant le Soleil ou la Lune. En transit, on reste à 1-2° pour une lecture précise."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Qu'est-ce qu'une conjonction en astrologie et comment l'interpréter ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "La conjonction (0°) fusionne deux planètes au même point du zodiaque. Leurs fonctions se mélangent et s'intensifient. Elle n'est ni positive ni négative : elle est puissante. L'interprétation dépend des planètes impliquées, du signe et de la maison concernée."
+                }
+              }
+            ]
+          })
+        }}
+      />
 
       {/* JSON-LD SEO */}
       <script

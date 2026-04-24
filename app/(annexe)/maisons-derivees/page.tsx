@@ -94,11 +94,21 @@ const pageJsonLd = {
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: content.faq.map((item) => ({
-    "@type": "Question",
-    name: item.question,
-    acceptedAnswer: { "@type": "Answer", text: item.answer },
-  })),
+  mainEntity: [
+    ...content.faq.map((item) => ({
+      "@type": "Question" as const,
+      name: item.question,
+      acceptedAnswer: { "@type": "Answer" as const, text: item.answer },
+    })),
+    {
+      "@type": "Question" as const,
+      name: "Peut-on utiliser les maisons dérivées en synastrie ?",
+      acceptedAnswer: {
+        "@type": "Answer" as const,
+        text: "Oui, les maisons dérivées enrichissent considérablement l'analyse en synastrie. Par exemple, la Maison VIII (dérivée de la VII) représente les finances du partenaire, et la Maison IX (dérivée 3 de la VII) sa fratrie. Cette technique permet de lire dans votre propre thème des informations sur les proches de votre conjoint.",
+      },
+    },
+  ],
 };
 
 // ==========================================
@@ -174,11 +184,24 @@ export default function MaisonsDeriveesPage() {
           </div>
         </header>
 
+        {/* Encadré Définition SEO */}
+        <div className="mt-8 rounded-2xl border border-violet-400/20 bg-violet-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-violet-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            Les <strong>maisons dérivées</strong> sont une technique astrologique qui consiste à compter depuis une <Link href="/#maisons">maison natale</Link> pour obtenir des informations sur les proches, les finances d'autrui ou les événements liés à un tiers dans le thème.
+          </p>
+        </div>
+
+        {/* Intro APP */}
+        <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+          Vous souhaitez comprendre comment fonctionnent les <strong>maisons dérivées en astrologie</strong> ? Beaucoup d'astrologues ignorent cette technique pourtant essentielle pour lire les événements touchant l'entourage dans un thème natal. Ce guide complet vous enseigne la règle de comptage, les dérivations fondamentales et la cartographie familiale complète.
+        </p>
+
         {/* --- INTRODUCTION & DÉFINITION --- */}
         <section aria-labelledby="intro-heading" className="mb-32 grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
           <div className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-10 backdrop-blur-md transition-all hover:bg-white/[0.04]">
             <div aria-hidden="true" className="absolute -right-4 -top-4 text-white/5"><BookOpen size={120} strokeWidth={1} /></div>
-            <h2 id="intro-heading" className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-white/10 pb-4">Le Hologramme Cosmique</h2>
+            <h2 id="intro-heading" className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-white/10 pb-4">Comment les maisons dérivées révèlent un hologramme cosmique</h2>
             <div className="relative z-10 space-y-6 text-[15px] md:text-base leading-relaxed text-slate-300">
               {content.introduction.map((p, i) => <p key={i}>{p}</p>)}
             </div>
@@ -396,6 +419,17 @@ export default function MaisonsDeriveesPage() {
                 </p>
               </details>
             ))}
+            <details className="group rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.04] hover:border-violet-500/30 cursor-pointer">
+              <summary className="flex list-none items-center justify-between font-serif text-xl md:text-2xl text-white outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-4 focus-visible:ring-offset-[#09090b] rounded-xl">
+                <span className="pr-6">Peut-on utiliser les maisons dérivées en synastrie ?</span>
+                <span className="text-violet-400 transition-transform duration-500 group-open:rotate-180 bg-violet-500/10 p-3 rounded-full shrink-0 border border-violet-500/20">
+                  <ChevronRight size={24} aria-hidden="true" />
+                </span>
+              </summary>
+              <p className="mt-8 text-[15px] md:text-base leading-relaxed text-slate-300 border-t border-white/10 pt-8">
+                Oui, les maisons dérivées enrichissent considérablement l'analyse en <Link href="/synastrie">synastrie</Link>. Par exemple, la Maison VIII (dérivée de la VII) représente les finances du partenaire, et la Maison IX (dérivée 3 de la VII) sa fratrie. Cette technique permet de lire dans votre propre thème des informations sur les proches de votre conjoint.
+              </p>
+            </details>
           </div>
         </section>
 

@@ -372,10 +372,23 @@ export default function RetrogradesPage() {
         <div className="h-1 w-full bg-gradient-to-r from-sky-400/35 via-violet-400/35 to-emerald-400/35" />
       </header>
 
+      {/* Définition — Featured Snippet */}
+      <div className="mt-8 rounded-2xl border border-rose-400/20 bg-rose-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-rose-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          Une <strong>planète rétrograde</strong> est une planète qui semble reculer dans le zodiaque par effet de perspective ; en astrologie, cette phase invite à la révision, l'intériorisation et la maturation des thèmes liés à la <Link href="/transits">planète en transit</Link>.
+        </p>
+      </div>
+
+      {/* APP Intro */}
+      <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+        Vous cherchez à comprendre ce que signifie vraiment une <strong>planète rétrograde</strong> dans votre thème natal ou en transit ? Beaucoup de contenus en ligne se limitent à des mises en garde vagues sans méthode concrète. Cette page vous donne une lecture claire, planète par planète, avec les stations, les bonnes pratiques et les erreurs à éviter.
+      </p>
+
       {/* Bases */}
       <section className="mb-10 grid gap-4 sm:grid-cols-2">
         <div className={card}>
-          <h2 className="font-serif text-2xl">Ce que c’est (simple & vrai)</h2>
+          <h2 className="font-serif text-2xl">Qu’est-ce qu’une planète rétrograde en astrologie ?</h2>
           <p className="mt-3 text-sm leading-relaxed text-text/80">
             La rétrogradation est un <span className="text-text">effet apparent</span> : une planète semble
             reculer sur le zodiaque. Astrologiquement :{" "}
@@ -389,7 +402,7 @@ export default function RetrogradesPage() {
         </div>
 
         <div className={card}>
-          <h2 className="font-serif text-2xl">Méthode d’interprétation</h2>
+          <h2 className="font-serif text-2xl">Comment interpréter une rétrogradation planétaire ?</h2>
           <ol className="mt-3 space-y-2 text-sm text-text/80">
             <li>1) Planète = fonction (quoi).</li>
             <li>2) Signe = style (comment).</li>
@@ -548,7 +561,7 @@ export default function RetrogradesPage() {
 
       {/* FAQ */}
       <section id="faq" className={`scroll-mt-24 mt-10 ${card}`}>
-        <h2 className="font-serif text-3xl">FAQ</h2>
+        <h2 className="font-serif text-3xl">Questions fréquentes sur les rétrogrades</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           {FAQ.map((f) => (
             <div key={f.q} className="rounded-3xl border border-white/10 bg-black/20 p-6">
@@ -579,6 +592,82 @@ export default function RetrogradesPage() {
           </div>
         </div>
       </footer>
+
+      {/* FAQ Accordion SEO */}
+      <section className="mt-16 space-y-6" aria-labelledby="faq-retrogrades">
+        <h2 id="faq-retrogrades" className="font-serif text-2xl sm:text-3xl">Questions fréquentes sur les planètes rétrogrades</h2>
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Que signifie une planète rétrograde dans un thème natal ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Une <strong>planète rétrograde en natal</strong> indique une intériorisation de la fonction planétaire : la pensée, l'action ou le désir s'expriment de manière plus réfléchie et personnelle. Ce n'est ni un blocage ni un défaut, mais un <strong>style intérieur</strong> qui demande souvent plus de temps pour se déployer. Consultez notre section sur les <Link href="/aspects">aspects</Link> pour comprendre les interactions avec le reste du thème.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Mercure rétrograde : faut-il vraiment tout arrêter ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Non. <strong>Mercure rétrograde</strong> est une période idéale pour réviser, corriger et simplifier : relire un contrat, auditer un process, reprendre un dossier. L'erreur serait de forcer des lancements ou des signatures sans vérification. Découvrez aussi comment les <Link href="/transits">transits</Link> modifient le timing de vos projets.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quelle est la différence entre une rétrograde natale et en transit ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">En <strong>natal</strong>, la rétrograde décrit un trait durable : un mode de fonctionnement intériorisé. En <strong>transit</strong>, elle marque une période temporaire d'ajustement dans un domaine précis (défini par la <Link href="/#maisons">maison</Link> activée). Les deux se complètent mais ne se lisent pas de la même manière.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Pourquoi les stations rétrogrades sont-elles si puissantes ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Aux <strong>stations</strong> (rétrograde et directe), la planète semble immobile : son symbolisme devient plus intense et perceptible. Les jours autour d'une station sont souvent les plus marquants d'un cycle rétrograde. C'est aussi le moment où les <Link href="/aspects">aspects</Link> exacts ont le plus d'impact.</p>
+          </details>
+        </div>
+      </section>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Que signifie une planète rétrograde dans un thème natal ?",
+                acceptedAnswer: { "@type": "Answer", text: "Une planète rétrograde en natal indique une intériorisation de la fonction planétaire : la pensée, l'action ou le désir s'expriment de manière plus réfléchie et personnelle. Ce n'est ni un blocage ni un défaut, mais un style intérieur qui demande souvent plus de temps pour se déployer." }
+              },
+              {
+                "@type": "Question",
+                name: "Mercure rétrograde : faut-il vraiment tout arrêter ?",
+                acceptedAnswer: { "@type": "Answer", text: "Non. Mercure rétrograde est une période idéale pour réviser, corriger et simplifier : relire un contrat, auditer un process, reprendre un dossier. L'erreur serait de forcer des lancements ou des signatures sans vérification." }
+              },
+              {
+                "@type": "Question",
+                name: "Quelle est la différence entre une rétrograde natale et en transit ?",
+                acceptedAnswer: { "@type": "Answer", text: "En natal, la rétrograde décrit un trait durable : un mode de fonctionnement intériorisé. En transit, elle marque une période temporaire d'ajustement dans un domaine précis. Les deux se complètent mais ne se lisent pas de la même manière." }
+              },
+              {
+                "@type": "Question",
+                name: "Pourquoi les stations rétrogrades sont-elles si puissantes ?",
+                acceptedAnswer: { "@type": "Answer", text: "Aux stations (rétrograde et directe), la planète semble immobile : son symbolisme devient plus intense et perceptible. Les jours autour d'une station sont souvent les plus marquants d'un cycle rétrograde." }
+              }
+            ]
+          })
+        }}
+      />
 
       {/* JSON-LD SEO */}
       <script

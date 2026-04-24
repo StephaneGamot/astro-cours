@@ -341,6 +341,19 @@ export default function AsteroidesPage() {
         <div className="h-1 w-full bg-gradient-to-r from-emerald-400/35 via-sky-400/35 to-violet-400/35" />
       </header>
 
+      {/* Définition SEO */}
+      <div className="mt-8 rounded-2xl border border-sky-400/20 bg-sky-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-sky-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          Les <strong>astéroïdes en astrologie</strong> (Cérès, Pallas, Junon, Vesta et Chiron) sont des corps célestes situés entre Mars et Jupiter qui affinent l'interprétation du <Link href="/#theme-natal">thème natal</Link> en précisant des thèmes comme le soin, la stratégie, l'engagement et la guérison.
+        </p>
+      </div>
+
+      {/* APP Intro */}
+      <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+        <strong>Les astéroïdes en astrologie</strong> restent souvent négligés par les débutants alors qu'ils apportent une finesse d'interprétation remarquable. Comment lire Cérès dans un thème natal ? Que révèle Chiron sur vos blessures et vos talents ? Cette page vous guide à travers les 5 astéroïdes essentiels, avec leur signification, leur lecture par signe et maison, et des conseils pour les utiliser en transit et en synastrie.
+      </p>
+
    <div className={"mb-12 overflow-hidden rounded-3xl border bg-white/20 "}>
         <div className="relative">
           <Image
@@ -359,7 +372,7 @@ export default function AsteroidesPage() {
 
       {/* Définition */}
       <section id="definition" className="mb-10 scroll-mt-24">
-        <H2 id="definition" kind="method">Pourquoi utiliser les astéroïdes ?</H2>
+        <H2 id="definition" kind="method">Pourquoi utiliser les astéroïdes dans un thème natal ?</H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={`${card} ${accent("method").border} ${accent("method").glow}`}>
@@ -398,8 +411,7 @@ export default function AsteroidesPage() {
 
       {/* Les principaux */}
       <section id="les-asteroides" className="mb-10 scroll-mt-24">
-<H2 id="les-asteroides" kind="method">Les astéroïdes “indispensables”</H2>
-
+        <H2 id="les-asteroides" kind="method">Quels sont les 5 astéroïdes majeurs en astrologie ?</H2>
 
         <div className="mt-4 grid gap-4">
           {ASTEROIDS.map((a) => {
@@ -493,7 +505,7 @@ export default function AsteroidesPage() {
 
       {/* Méthode */}
       <section id="methode" className="mb-10 scroll-mt-24">
-        <H2 id="methode" kind="method">Méthode de lecture (pro)</H2>
+        <H2 id="methode" kind="method">Comment interpréter les astéroïdes en astrologie ?</H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={`${card} ${accent("method").border} ${accent("method").glow}`}>
@@ -526,7 +538,7 @@ export default function AsteroidesPage() {
 
       {/* Transits */}
       <section id="transits" className="mb-10 scroll-mt-24">
-        <H2 id="transits" kind="earth">Transits : quand ça parle vraiment</H2>
+        <H2 id="transits" kind="earth">Comment lire les transits des astéroïdes ?</H2>
 
         <div className={`${card} mt-4 ${accent("earth").border} ${accent("earth").glow}`}>
           <p className="text-xs uppercase tracking-wide text-muted">À surveiller</p>
@@ -547,7 +559,7 @@ export default function AsteroidesPage() {
 
       {/* Synastrie */}
       <section id="synastrie" className="mb-10 scroll-mt-24">
-        <H2 id="synastrie" kind="bond">Synastrie : ultra utile</H2>
+        <H2 id="synastrie" kind="bond">Quel rôle jouent les astéroïdes en synastrie ?</H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={`${card} ${accent("bond").border} ${accent("bond").glow}`}>
@@ -570,7 +582,7 @@ export default function AsteroidesPage() {
 
       {/* Pièges */}
       <section id="piges" className="mb-10 scroll-mt-24">
-        <H2 id="piges" kind="method">Pièges & bonnes pratiques</H2>
+        <H2 id="piges" kind="method">Quelles erreurs éviter avec les astéroïdes en astrologie ?</H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={`${card} ${accent("wound").border} ${accent("wound").glow}`}>
@@ -608,33 +620,48 @@ export default function AsteroidesPage() {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="mb-10 scroll-mt-24">
-        <H2 id="faq" kind="method">FAQ</H2>
-
-        <div className="mt-4 grid gap-4 sm:grid-cols-2">
-          {[
-            {
-              q: "Pourquoi Chiron est ici ?",
-              a: "On l’enseigne souvent avec les astéroïdes car il apporte une lecture très précise de la blessure/maîtrise et de la transmission.",
-            },
-            {
-              q: "Quels astéroïdes choisir au début ?",
-              a: "Cérès, Pallas, Junon, Vesta (les ‘4 majeurs’). Ajoute Chiron si tu fais du coaching/psycho-astro.",
-            },
-            {
-              q: "Est-ce que ça marche vraiment ?",
-              a: "Oui quand c’est serré en aspects et relié aux points principaux (Soleil/Lune/ASC/MC). Sinon, c’est plus secondaire.",
-            },
-            {
-              q: "Quel orbe utiliser ?",
-              a: "Pro : 0–2° fort, 3–5° acceptable. Au-delà, lis en toile de fond uniquement.",
-            },
-          ].map((x) => (
-            <div key={x.q} className={`${card} ${accent("method").border} ${accent("method").glow}`}>
-              <p className="font-serif text-xl">{x.q}</p>
-              <p className="mt-3 text-sm leading-relaxed text-text/85">{x.a}</p>
-            </div>
-          ))}
+      <section id="faq" className="mt-16 space-y-6 scroll-mt-24" aria-labelledby="faq-asteroides">
+        <h2 id="faq-asteroides" className="font-serif text-2xl sm:text-3xl">
+          <span className={`mr-3 inline-block h-2 w-2 rounded-full ${accent("method").dot}`} />
+          Questions fréquentes sur les astéroïdes en astrologie
+        </h2>
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Pourquoi Chiron est-il étudié avec les astéroïdes ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base"><strong>Chiron</strong> est techniquement un planétoïde (entre astéroïde et comète), mais on l’enseigne avec les astéroïdes car il apporte une lecture très précise de la <strong>blessure structurante</strong>, de la maîtrise et de la transmission. En consultation, il est aussi parlant que les 4 astéroïdes majeurs.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quels astéroïdes utiliser quand on débute en astrologie ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Commencez par les 4 astéroïdes majeurs : <strong>Cérès</strong> (soin), <strong>Pallas</strong> (stratégie), <strong>Junon</strong> (engagement) et <strong>Vesta</strong> (focus). Ajoutez <strong>Chiron</strong> si vous travaillez en coaching ou en psycho-astrologie. Ne surchargez pas : 4 à 6 astéroïdes bien choisis suffisent.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quel orbe utiliser pour les astéroïdes dans un thème natal ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">En pratique professionnelle : <strong>0-2° pour un aspect fort</strong>, 3-5° pour un aspect acceptable. Au-delà, l’astéroïde fonctionne davantage en toile de fond. Privilégiez les <Link href="/aspects">aspects</Link> exacts aux <Link href="/#planetes">luminaires</Link> (Soleil/Lune) et aux angles (ASC/MC).</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Que signifie Cérès dans un thème astral ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base"><strong>Cérès</strong> décrit la manière dont vous donnez et recevez du soin : sécurité concrète, relation au corps, nourriture, rythmes de vie et autosoin. En <Link href="/#maisons">maison</Link>, elle indique le domaine où vous apprenez à nourrir, réparer et stabiliser. Elle ne se réduit pas au rôle maternel.</p>
+          </details>
         </div>
       </section>
 
@@ -648,6 +675,51 @@ export default function AsteroidesPage() {
           </div>
         </div>
       </footer>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Pourquoi Chiron est-il étudié avec les astéroïdes ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Chiron est techniquement un planétoïde (entre astéroïde et comète), mais on l'enseigne avec les astéroïdes car il apporte une lecture très précise de la blessure structurante, de la maîtrise et de la transmission. En consultation, il est aussi parlant que les 4 astéroïdes majeurs."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Quels astéroïdes utiliser quand on débute en astrologie ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Commencez par les 4 astéroïdes majeurs : Cérès (soin), Pallas (stratégie), Junon (engagement) et Vesta (focus). Ajoutez Chiron si vous travaillez en coaching ou en psycho-astrologie. Ne surchargez pas : 4 à 6 astéroïdes bien choisis suffisent."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Quel orbe utiliser pour les astéroïdes dans un thème natal ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "En pratique professionnelle : 0-2° pour un aspect fort, 3-5° pour un aspect acceptable. Au-delà, l'astéroïde fonctionne davantage en toile de fond. Privilégiez les aspects exacts aux luminaires (Soleil/Lune) et aux angles (ASC/MC)."
+                }
+              },
+              {
+                "@type": "Question",
+                name: "Que signifie Cérès dans un thème astral ?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Cérès décrit la manière dont vous donnez et recevez du soin : sécurité concrète, relation au corps, nourriture, rythmes de vie et autosoin. En maison, elle indique le domaine où vous apprenez à nourrir, réparer et stabiliser. Elle ne se réduit pas au rôle maternel."
+                }
+              }
+            ]
+          })
+        }}
+      />
 
       {/* JSON-LD SEO */}
       <script

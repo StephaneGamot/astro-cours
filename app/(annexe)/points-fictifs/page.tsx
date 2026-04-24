@@ -204,6 +204,19 @@ export default function PointsFictifsPage() {
           </div>
         </header>
 
+        {/* Définition — Featured Snippet */}
+        <div className="mt-8 rounded-2xl border border-violet-400/20 bg-violet-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-violet-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            Les <strong>points fictifs en astrologie</strong> sont des repères géométriques ou calculés (angles, axes, lots) qui ne correspondent pas à un corps céleste mais décrivent des fonctions symboliques essentielles comme la manifestation (<Link href="/points-fictifs#points">Vertex</Link>), le flux (<Link href="/points-fictifs#points">Part de Fortune</Link>) ou la blessure formatrice (<Link href="/points-fictifs#points">Chiron</Link>).
+          </p>
+        </div>
+
+        {/* APP Intro */}
+        <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+          Vous cherchez à comprendre le rôle des <strong>points fictifs</strong> dans un thème astral ? Ces repères subtils sont souvent mal hiérarchisés ou surinterpretés, ce qui brouille la lecture. Cette page vous donne une classification claire, une méthode de lecture point par point, et les erreurs les plus courantes à éviter.
+        </p>
+
         {/* SOMMAIRE */}
         <nav aria-label="Sommaire" className="mb-20 flex flex-wrap justify-center gap-3">
           {sections.map((s) => (
@@ -216,7 +229,7 @@ export default function PointsFictifsPage() {
         {/* DEFINITION */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="definition" icon={Compass}>
-            Définition
+            Qu'est-ce qu'un point fictif en astrologie ?
           </SectionTitle>
 
           <div className="grid gap-8 lg:grid-cols-2">
@@ -269,7 +282,7 @@ export default function PointsFictifsPage() {
         {/* CATEGORIES */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="classification" icon={Layers}>
-            Catégories de points fictifs
+            Quelles sont les catégories de points fictifs ?
           </SectionTitle>
 
           <div className="grid gap-6 md:grid-cols-2">
@@ -317,7 +330,7 @@ export default function PointsFictifsPage() {
         {/* POINTS MAJEURS */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="points" icon={Orbit}>
-            Points majeurs à connaître
+            Quels sont les points fictifs majeurs à connaître ?
           </SectionTitle>
 
           <div className="grid gap-6 md:grid-cols-2">
@@ -386,7 +399,7 @@ export default function PointsFictifsPage() {
         {/* METHODE */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="methode" icon={Sparkles}>
-            Méthode pro
+            Comment interpréter un point fictif dans un thème ?
           </SectionTitle>
 
           <div className={`${softCard} ${accent("method").border} ${accent("method").glow}`}>
@@ -428,7 +441,7 @@ export default function PointsFictifsPage() {
         {/* ASPECTS */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="aspects" icon={MoonStar}>
-            Aspects
+            Quels aspects activer sur les points fictifs ?
           </SectionTitle>
 
           <div className="grid gap-6 md:grid-cols-2">
@@ -455,7 +468,7 @@ export default function PointsFictifsPage() {
         {/* TRANSITS */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="transits" icon={Star}>
-            Transits
+            Comment les transits activent-ils les points fictifs ?
           </SectionTitle>
 
           <div className={`${softCard} ${accent("math").border} ${accent("math").glow}`}>
@@ -478,7 +491,7 @@ export default function PointsFictifsPage() {
         {/* PIEGES */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="piges" icon={Target}>
-            Pièges & bonnes pratiques
+            Quelles erreurs éviter avec les points fictifs ?
           </SectionTitle>
 
           <div className="grid gap-8 lg:grid-cols-2">
@@ -531,7 +544,7 @@ export default function PointsFictifsPage() {
         {/* FAQ */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="faq" icon={HelpCircle}>
-            FAQ
+            Questions fréquentes sur les points fictifs
           </SectionTitle>
 
           <div className="grid gap-6 lg:grid-cols-2">
@@ -587,6 +600,82 @@ export default function PointsFictifsPage() {
             </Link>
           </div>
         </footer>
+
+        {/* FAQ Accordion SEO */}
+        <section className="mt-16 max-w-6xl mx-auto space-y-6" aria-labelledby="faq-points-fictifs">
+          <h2 id="faq-points-fictifs" className="font-serif text-2xl sm:text-3xl text-white">Questions fréquentes sur les points fictifs en astrologie</h2>
+          <div className="space-y-4">
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Chiron est-il vraiment un point fictif ?
+                  <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Techniquement, <strong>Chiron</strong> est un petit corps céleste (astéroïde/comète). Cependant, en pratique astrologique, il est souvent classé parmi les <strong>points fictifs</strong> car il joue un rôle symbolique proche : blessure, compétence et transmission. Il se lit comme une fonction, pas comme une planète classique. Voir aussi les <Link href="/aspects">aspects</Link> pour comprendre ses interactions.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Comment calculer la Part de Fortune dans un thème natal ?
+                  <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">La <strong>Part de Fortune</strong> se calcule à partir de la position de l'Ascendant, du Soleil et de la Lune. La formule classique est : ASC + Lune - Soleil (de jour). Ce qui compte en interprétation, c'est sa maison, son signe et le maître du signe pour savoir comment l'activer.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Le Vertex est-il lié au destin en astrologie ?
+                  <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Le <strong>Vertex</strong> est souvent associé aux rencontres marquantes et aux tournants relationnels. Plutôt que de parler de destin, on préfère dire qu'il indique des moments où la vie provoque un basculement, surtout lorsqu'il est activé par des <Link href="/transits">transits</Link> de planètes lentes.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Faut-il lire tous les points fictifs dans un thème astral ?
+                  <span className="ml-3 text-violet-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Non. Il faut prioriser : <strong>ASC/MC</strong> d'abord (structurels), puis les <Link href="/noeuds-lunaires">noeuds lunaires</Link>, Chiron et Lilith selon le sujet, enfin Vertex et Part de Fortune en complément. L'erreur serait de tout lire sans hiérarchie.</p>
+            </details>
+          </div>
+        </section>
+
+        {/* JSON-LD FAQPage */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Chiron est-il vraiment un point fictif ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Techniquement, Chiron est un petit corps céleste (astéroïde/comète). Cependant, en pratique astrologique, il est souvent classé parmi les points fictifs car il joue un rôle symbolique proche : blessure, compétence et transmission. Il se lit comme une fonction, pas comme une planète classique." }
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment calculer la Part de Fortune dans un thème natal ?",
+                  acceptedAnswer: { "@type": "Answer", text: "La Part de Fortune se calcule à partir de la position de l'Ascendant, du Soleil et de la Lune. La formule classique est : ASC + Lune - Soleil (de jour). Ce qui compte en interprétation, c'est sa maison, son signe et le maître du signe pour savoir comment l'activer." }
+                },
+                {
+                  "@type": "Question",
+                  name: "Le Vertex est-il lié au destin en astrologie ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Le Vertex est souvent associé aux rencontres marquantes et aux tournants relationnels. Plutôt que de parler de destin, on préfère dire qu'il indique des moments où la vie provoque un basculement, surtout lorsqu'il est activé par des transits de planètes lentes." }
+                },
+                {
+                  "@type": "Question",
+                  name: "Faut-il lire tous les points fictifs dans un thème astral ?",
+                  acceptedAnswer: { "@type": "Answer", text: "Non. Il faut prioriser : ASC/MC d'abord (structurels), puis les noeuds lunaires, Chiron et Lilith selon le sujet, enfin Vertex et Part de Fortune en complément. L'erreur serait de tout lire sans hiérarchie." }
+                }
+              ]
+            })
+          }}
+        />
 
         {/* JSON-LD SEO */}
         <script

@@ -133,9 +133,22 @@ export default function SynastriePage() {
         <div className="h-1 w-full bg-gradient-to-r from-rose-400/35 via-sky-400/35 to-violet-400/35" />
       </header>
 
+      {/* Encadré Définition SEO */}
+      <div className="mt-8 rounded-2xl border border-rose-400/20 bg-rose-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-rose-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          La <strong>synastrie</strong> est la technique astrologique qui compare deux <Link href="/#planetes">thèmes natals</Link> pour analyser la compatibilité amoureuse, les dynamiques relationnelles et les tensions entre partenaires.
+        </p>
+      </div>
+
+      {/* Intro APP */}
+      <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+        Vous cherchez à comprendre la <strong>synastrie astrologique</strong> et ce qu'elle révèle sur votre couple ? Beaucoup de personnes confondent compatibilité de signes et véritable étude comparative des thèmes. Ce cours complet vous guide pas à pas dans la lecture des aspects, des maisons activées et des signaux d'alerte à surveiller.
+      </p>
+
       {/* Définition */}
       <section id="definition" className="mb-10 scroll-mt-24">
-        <H2 id="definition" label="Définition" />
+        <H2 id="definition" label="Qu'est-ce que la synastrie en astrologie ?" />
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={`${cardBase} border border-sky-400/25 shadow-[0_0_0_1px_rgba(56,189,248,0.10)]`}>
@@ -166,7 +179,7 @@ export default function SynastriePage() {
 
       {/* Méthode */}
       <section id="methode" className="mb-10 scroll-mt-24">
-        <H2 id="methode" label="Méthode pro" />
+        <H2 id="methode" label="Comment faire une synastrie : méthode professionnelle" />
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={`${cardBase} border border-emerald-400/25 shadow-[0_0_0_1px_rgba(52,211,153,0.10)]`}>
@@ -211,7 +224,7 @@ export default function SynastriePage() {
 
       {/* Piliers */}
       <section id="piliers" className="mb-10 scroll-mt-24">
-        <H2 id="piliers" label="Piliers" />
+        <H2 id="piliers" label="Les piliers planétaires de la compatibilité amoureuse" />
 
         <div className="mt-4 grid gap-4">
           {COURSE.piliers.map((p) => {
@@ -259,7 +272,7 @@ export default function SynastriePage() {
 
       {/* Aspects */}
       <section id="aspects" className="mb-10 scroll-mt-24">
-        <H2 id="aspects" label="Aspects en synastrie" />
+        <H2 id="aspects" label="Quels aspects observer entre deux thèmes natals ?" />
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {COURSE.aspectsSynastrie.map((a) => (
@@ -301,7 +314,7 @@ export default function SynastriePage() {
 
       {/* Drapeaux */}
       <section id="drapeaux" className="mb-10 scroll-mt-24">
-        <H2 id="drapeaux" label="Drapeaux rouges & verts" />
+        <H2 id="drapeaux" label="Drapeaux rouges et verts : signes d'alerte en synastrie" />
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={`${cardBase} border border-rose-400/25 shadow-[0_0_0_1px_rgba(251,113,133,0.10)]`}>
@@ -332,7 +345,7 @@ export default function SynastriePage() {
 
       {/* Exemples */}
       <section id="exemples" className="mb-10 scroll-mt-24">
-        <H2 id="exemples" label="Exemples de lecture" />
+        <H2 id="exemples" label="Exemples concrets de lecture de synastrie" />
 
         <div className="mt-4 grid gap-4 sm:grid-cols-3">
           {COURSE.exemplesLecture.map((e) => (
@@ -349,7 +362,7 @@ export default function SynastriePage() {
 
       {/* FAQ */}
       <section id="faq" className="mb-10 scroll-mt-24">
-        <H2 id="faq" label="FAQ" />
+        <H2 id="faq" label="Questions fréquentes sur la synastrie" />
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {COURSE.faq.map((x) => (
@@ -361,6 +374,49 @@ export default function SynastriePage() {
               <p className="mt-3 text-sm leading-relaxed text-text/85">{x.a}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* FAQ Visible (SEO) */}
+      <section className="mt-16 space-y-6" aria-labelledby="faq-synastrie">
+        <h2 id="faq-synastrie" className="font-serif text-2xl sm:text-3xl">Questions fréquentes sur la synastrie astrologique</h2>
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quelle est la différence entre synastrie et thème composite ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">La <strong>synastrie</strong> compare deux thèmes natals pour voir comment chaque personne affecte l'autre. Le <strong>thème composite</strong> fusionne les deux cartes en une seule et représente la relation comme entité. Les deux approches se complètent pour une analyse relationnelle complète.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Peut-on améliorer une synastrie difficile entre deux partenaires ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Oui, si les deux partenaires font preuve de maturité. Avec des règles de communication claires, le respect des limites et un objectif commun, les <strong>aspects difficiles</strong> deviennent des leviers de croissance. Sinon, les tensions se répètent. Consultez notre cours sur les <Link href="/aspects">aspects planétaires</Link> pour mieux comprendre.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quelles planètes sont les plus importantes en synastrie ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Le trio essentiel est <strong>Soleil/Lune</strong> (sécurité émotionnelle), <strong>Mercure</strong> (communication) et <strong>Saturne</strong> (durabilité). Sans ces fondations, les aspects Vénus-Mars seuls ne suffisent pas à maintenir une relation stable. Découvrez le rôle de chaque <Link href="/#planetes">planète</Link> dans notre cours.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                A-t-on besoin de l'heure de naissance exacte pour une synastrie ?
+                <span className="ml-3 text-rose-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">L'heure de naissance est indispensable pour connaître l'<strong>Ascendant</strong> et les <Link href="/#maisons">maisons astrologiques</Link> activées. Sans elle, on peut analyser les aspects entre planètes, mais on perd les informations sur les domaines de vie concernés et les angles relationnels.</p>
+          </details>
         </div>
       </section>
 
@@ -393,6 +449,21 @@ export default function SynastriePage() {
             dateModified: "2026-04-22",
             inLanguage: "fr",
             articleSection: "Astrologie",
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              { "@type": "Question", name: "Quelle est la différence entre synastrie et thème composite ?", acceptedAnswer: { "@type": "Answer", text: "La synastrie compare deux thèmes natals pour voir comment chaque personne affecte l'autre. Le thème composite fusionne les deux cartes en une seule et représente la relation comme entité. Les deux approches se complètent pour une analyse relationnelle complète." } },
+              { "@type": "Question", name: "Peut-on améliorer une synastrie difficile entre deux partenaires ?", acceptedAnswer: { "@type": "Answer", text: "Oui, si les deux partenaires font preuve de maturité. Avec des règles de communication claires, le respect des limites et un objectif commun, les aspects difficiles deviennent des leviers de croissance. Sinon, les tensions se répètent." } },
+              { "@type": "Question", name: "Quelles planètes sont les plus importantes en synastrie ?", acceptedAnswer: { "@type": "Answer", text: "Le trio essentiel est Soleil/Lune (sécurité émotionnelle), Mercure (communication) et Saturne (durabilité). Sans ces fondations, les aspects Vénus-Mars seuls ne suffisent pas à maintenir une relation stable." } },
+              { "@type": "Question", name: "A-t-on besoin de l'heure de naissance exacte pour une synastrie ?", acceptedAnswer: { "@type": "Answer", text: "L'heure de naissance est indispensable pour connaître l'Ascendant et les maisons astrologiques activées. Sans elle, on peut analyser les aspects entre planètes, mais on perd les informations sur les domaines de vie concernés et les angles relationnels." } },
+            ]
           })
         }}
       />

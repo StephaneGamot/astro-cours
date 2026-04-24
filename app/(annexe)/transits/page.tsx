@@ -143,11 +143,11 @@ function planetImageSrc(slug: string) {
 
 export default function TransitsPage() {
   const sections = [
-    { id: "definition", label: "Définition & utilité" },
-    { id: "methode", label: "Méthode pro" },
-    { id: "aspects", label: "Aspects en transit" },
-    { id: "planetes", label: "Planètes en transit" },
-    { id: "natal", label: "Transit sur planète natale" },
+    { id: "definition", label: "Définition" },
+    { id: "methode", label: "Méthode" },
+    { id: "aspects", label: "Aspects" },
+    { id: "planetes", label: "Planètes" },
+    { id: "natal", label: "Natal" },
     { id: "faq", label: "FAQ" },
   ];
 
@@ -180,9 +180,22 @@ export default function TransitsPage() {
         <div className="h-1 w-full bg-gradient-to-r from-emerald-400/35 via-sky-400/35 to-violet-400/35" />
       </header>
 
+      {/* Définition — Featured Snippet */}
+      <div className="mt-8 rounded-2xl border border-sky-400/20 bg-sky-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-sky-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          Un <strong>transit astrologique</strong> est le passage d'une planète en mouvement sur un point sensible du thème natal ; il active temporairement un domaine de vie et se lit en fonction de la <Link href="/#maisons">maison</Link>, des <Link href="/aspects">aspects</Link> formés et de la vitesse de la planète.
+        </p>
+      </div>
+
+      {/* APP Intro */}
+      <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+        Vous voulez apprendre à lire les <strong>transits en astrologie</strong> avec une vraie méthode ? La plupart des ressources en ligne restent vagues sur les orbes, la hiérarchie des planètes et l'interprétation concrète. Ce guide complet vous donne les règles d'or, les aspects clés et une lecture planète par planète pour interpréter chaque transit avec rigueur.
+      </p>
+
       {/* Définition */}
       <section id="definition" className="mb-10 scroll-mt-24">
-        {sectionTitle("definition", "Définition & utilité")}
+        {sectionTitle("definition", "Qu'est-ce qu'un transit en astrologie ?")}
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={card}>
@@ -213,7 +226,7 @@ export default function TransitsPage() {
 
       {/* Méthode */}
       <section id="methode" className="mb-10 scroll-mt-24">
-        {sectionTitle("methode", "Méthode pro")}
+        {sectionTitle("methode", "Comment interpréter un transit astrologique ?")}
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <div className={card}>
@@ -268,7 +281,7 @@ export default function TransitsPage() {
 
       {/* Aspects */}
       <section id="aspects" className="mb-10 scroll-mt-24">
-        {sectionTitle("aspects", "Aspects en transit")}
+        {sectionTitle("aspects", "Quels aspects surveiller lors d'un transit ?")}
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {COURSE.aspectsMajeurs.map((a) => (
@@ -312,7 +325,7 @@ export default function TransitsPage() {
 
       {/* Planètes */}
       <section id="planetes" className="mb-10 scroll-mt-24">
-        {sectionTitle("planetes", "Planètes en transit")}
+        {sectionTitle("planetes", "Comment chaque planète agit-elle en transit ?")}
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {COURSE.planetes.map((p) => {
@@ -391,7 +404,7 @@ export default function TransitsPage() {
 
       {/* Transit sur planète natale */}
       <section id="natal" className="mb-10 scroll-mt-24">
-        {sectionTitle("natal", "Transit sur planète natale")}
+        {sectionTitle("natal", "Comment lire un transit sur une planète natale ?")}
 
         <div className={`${card} mt-4`}>
           <p className="text-sm leading-relaxed text-text/85">{COURSE.transitSurPlaneteNatale.intro}</p>
@@ -421,7 +434,7 @@ export default function TransitsPage() {
 
       {/* FAQ */}
       <section id="faq" className="mb-10 scroll-mt-24">
-        {sectionTitle("faq", "FAQ")}
+        {sectionTitle("faq", "Questions fréquentes sur les transits")}
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {COURSE.faq.map((x) => (
@@ -449,6 +462,82 @@ export default function TransitsPage() {
           </div>
         </div>
       </footer>
+
+      {/* FAQ Accordion SEO */}
+      <section className="mt-16 space-y-6" aria-labelledby="faq-transits">
+        <h2 id="faq-transits" className="font-serif text-2xl sm:text-3xl">Questions fréquentes sur les transits astrologiques</h2>
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Qu’est-ce qu’un transit en astrologie et comment le lire ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Un <strong>transit astrologique</strong> est le passage d’une planète en mouvement sur un point du thème natal. Pour le lire, on identifie la planète (quoi), la <Link href="/#maisons">maison</Link> activée (où), les <Link href="/aspects">aspects</Link> formés (comment) et la durée du passage. Les transits lents (Saturne, Uranus, Pluton) ont plus d’impact que les rapides.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quels orbes utiliser pour les transits astrologiques ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Les orbes dépendent de la planète : environ 1 à 2 degres pour les <strong>transits lents</strong> (Saturne a Pluton) et jusqu’à 5 degres pour les luminaires. Plus l’orbe est serré, plus l’effet est concentré. La conjonction et l’opposition demandent des orbes légèrement plus larges que le carré ou le trigone.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Quelle différence entre un transit rapide et un transit lent ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Les <strong>transits rapides</strong> (Soleil, Lune, Mercure, Venus, Mars) durent quelques jours à quelques semaines et activent des événements ponctuels. Les <strong>transits lents</strong> (Jupiter à Pluton) durent des mois voire des années et provoquent des transformations profondes et structurantes. Voir aussi les <Link href="/retrogrades">rétrogrades</Link> pour comprendre les allers-retours.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Comment hiérarchiser les transits dans un thème natal ?
+                <span className="ml-3 text-sky-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Priorisez les transits lents sur les points sensibles : <strong>Soleil, Lune, ASC, MC</strong> et les <Link href="/noeuds-lunaires">noeuds lunaires</Link>. Ensuite, regardez les aspects exacts (conjonction, opposition, carré). Enfin, croisez avec les transits rapides pour affiner le timing des événements.</p>
+          </details>
+        </div>
+      </section>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Qu’est-ce qu’un transit en astrologie et comment le lire ?",
+                acceptedAnswer: { "@type": "Answer", text: "Un transit astrologique est le passage d’une planète en mouvement sur un point du thème natal. Pour le lire, on identifie la planète (quoi), la maison activée (où), les aspects formés (comment) et la durée du passage. Les transits lents (Saturne, Uranus, Pluton) ont plus d’impact que les rapides." }
+              },
+              {
+                "@type": "Question",
+                name: "Quels orbes utiliser pour les transits astrologiques ?",
+                acceptedAnswer: { "@type": "Answer", text: "Les orbes dépendent de la planète : environ 1 à 2 degrés pour les transits lents (Saturne à Pluton) et jusqu’à 5 degrés pour les luminaires. Plus l’orbe est serré, plus l’effet est concentré." }
+              },
+              {
+                "@type": "Question",
+                name: "Quelle différence entre un transit rapide et un transit lent ?",
+                acceptedAnswer: { "@type": "Answer", text: "Les transits rapides (Soleil, Lune, Mercure, Vénus, Mars) durent quelques jours à quelques semaines et activent des événements ponctuels. Les transits lents (Jupiter à Pluton) durent des mois voire des années et provoquent des transformations profondes et structurantes." }
+              },
+              {
+                "@type": "Question",
+                name: "Comment hiérarchiser les transits dans un thème natal ?",
+                acceptedAnswer: { "@type": "Answer", text: "Priorisez les transits lents sur les points sensibles : Soleil, Lune, ASC, MC et les noeuds lunaires. Ensuite, regardez les aspects exacts (conjonction, opposition, carré). Enfin, croisez avec les transits rapides pour affiner le timing des événements." }
+              }
+            ]
+          })
+        }}
+      />
 
       {/* JSON-LD SEO */}
       <script

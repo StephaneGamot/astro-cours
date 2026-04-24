@@ -137,11 +137,24 @@ export default function DecansPage() {
           </div>
         </header>
 
+        {/* Définition SEO */}
+        <div className="mt-8 rounded-2xl border border-emerald-400/20 bg-emerald-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            Un <strong>décan en astrologie</strong> est une subdivision de chaque <Link href="/#zodiaque">signe du zodiaque</Link> en trois parties de 10°, soit 36 décans au total. Chaque décan est gouverné par une planète qui nuance l'expression du signe.
+          </p>
+        </div>
+
+        {/* APP Intro */}
+        <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+          <strong>Les décans astrologiques</strong> apportent une précision souvent ignorée dans les horoscopes classiques. Pourquoi deux natifs du même signe peuvent-ils avoir des personnalités si différentes ? La réponse se trouve dans les décans. Découvrez ici les 36 décans du zodiaque, leurs planètes maîtresses et leur influence concrète sur votre thème.
+        </p>
+
         {/* --- HISTOIRE & DÉFINITION --- */}
         <section className="mb-32 grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
           <div className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#0c0c0e] p-10 backdrop-blur-md transition-all hover:border-white/20">
             <div aria-hidden="true" className="absolute -right-4 -top-4 text-white/5"><Hourglass size={120} strokeWidth={1} /></div>
-            <h2 className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-white/10 pb-4">L'Héritage Égyptien</h2>
+            <h2 className="relative z-10 font-serif text-3xl text-white mb-8 border-b border-white/10 pb-4">D'où viennent les décans en astrologie ?</h2>
             <div className="relative z-10 space-y-6 text-[15px] md:text-base leading-relaxed text-slate-300">
               {content.introduction.map((p, i) => <p key={i}>{p}</p>)}
             </div>
@@ -244,6 +257,105 @@ export default function DecansPage() {
             ))}
           </div>
         </section>
+
+        {/* FAQ visible */}
+        <section className="mt-16 space-y-6" aria-labelledby="faq-decans">
+          <div className="group mb-12 mt-28 flex items-center gap-5 scroll-mt-28" id="faq-decans">
+            <div
+              aria-hidden="true"
+              className="flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/20 to-transparent text-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.15)]"
+            >
+              <Sparkles size={26} strokeWidth={1.5} />
+            </div>
+            <h2 className="font-serif text-3xl tracking-tight text-white md:text-5xl">
+              Questions fréquentes sur les décans
+            </h2>
+            <div className="ml-4 h-px flex-1 bg-gradient-to-r from-amber-500/30 via-amber-500/5 to-transparent" />
+          </div>
+          <div className="space-y-4">
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Comment connaître son décan en astrologie ?
+                  <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Pour connaître votre <strong>décan</strong>, repérez votre date de naissance dans les degrés de votre <Link href="/#zodiaque">signe solaire</Link>. Le 1er décan couvre les 10 premiers degrés (0-10°), le 2e décan les degrés 10-20°, et le 3e décan les degrés 20-30°. Chaque décan est associé à une planète maîtresse qui nuance votre profil.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Combien y a-t-il de décans dans le zodiaque ?
+                  <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Il y a <strong>36 décans</strong> au total dans le zodiaque : 3 décans par signe, pour les 12 signes. Ce système remonte à l'<strong>Egypte ancienne</strong> et a été intégré dans l'astrologie occidentale pour affiner l'interprétation de chaque signe.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Les décans changent-ils l'interprétation d'un signe ?
+                  <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Oui. Deux personnes du même <Link href="/#zodiaque">signe</Link> mais de décans différents auront des nuances distinctes. La <strong>planète maîtresse du décan</strong> colore l'expression du signe : un Bélier 1er décan (Mars) sera plus impulsif qu'un Bélier 3e décan (Jupiter) qui sera plus expansif et philosophe.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Les décans sont-ils utilisés dans les horoscopes ?
+                  <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Certains horoscopes utilisent les décans pour affiner les prévisions et différencier les natifs d'un même signe. En astrologie professionnelle, les décans servent surtout en <strong>thème natal</strong> pour préciser les degrés des <Link href="/#planetes">planètes</Link> et dans l'étude des <Link href="/aspects">aspects</Link> exacts.</p>
+            </details>
+          </div>
+        </section>
+
+        {/* JSON-LD FAQPage */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Comment connaître son décan en astrologie ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Pour connaître votre décan, repérez votre date de naissance dans les degrés de votre signe solaire. Le 1er décan couvre les 10 premiers degrés (0-10°), le 2e décan les degrés 10-20°, et le 3e décan les degrés 20-30°. Chaque décan est associé à une planète maîtresse qui nuance votre profil."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Combien y a-t-il de décans dans le zodiaque ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Il y a 36 décans au total dans le zodiaque : 3 décans par signe, pour les 12 signes. Ce système remonte à l'Egypte ancienne et a été intégré dans l'astrologie occidentale pour affiner l'interprétation de chaque signe."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Les décans changent-ils l'interprétation d'un signe ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Oui. Deux personnes du même signe mais de décans différents auront des nuances distinctes. La planète maîtresse du décan colore l'expression du signe : un Bélier 1er décan (Mars) sera plus impulsif qu'un Bélier 3e décan (Jupiter) qui sera plus expansif et philosophe."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Les décans sont-ils utilisés dans les horoscopes ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Certains horoscopes utilisent les décans pour affiner les prévisions et différencier les natifs d'un même signe. En astrologie professionnelle, les décans servent surtout en thème natal pour préciser les degrés des planètes et dans l'étude des aspects exacts."
+                  }
+                }
+              ]
+            })
+          }}
+        />
 
         {/* --- FOOTER DE L'ARTICLE --- */}
         <footer className="mt-32 border-t border-white/10 pt-16 flex flex-col items-center gap-8">

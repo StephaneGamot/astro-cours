@@ -176,14 +176,24 @@ export default function RevolutionSolairePage() {
             {
               "@context": "https://schema.org",
               "@type": "FAQPage",
-              mainEntity: RS.faq.map((item) => ({
-                "@type": "Question",
-                name: item.q,
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text: item.a,
+              mainEntity: [
+                ...RS.faq.map((item) => ({
+                  "@type": "Question" as const,
+                  name: item.q,
+                  acceptedAnswer: {
+                    "@type": "Answer" as const,
+                    text: item.a,
+                  },
+                })),
+                {
+                  "@type": "Question",
+                  name: "Quelle est la différence entre révolution solaire et transits ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Les transits décrivent les mouvements planétaires actuels par rapport à votre thème natal et sont précis dans le temps. La révolution solaire offre une vue d'ensemble des tendances de l'année entière. Les deux techniques se complètent : la RS donne le cadre, les transits précisent le calendrier.",
+                  },
                 },
-              })),
+              ],
             },
           ]),
         }}
@@ -240,6 +250,19 @@ export default function RevolutionSolairePage() {
           </div>
         </header>
 
+        {/* Encadré Définition SEO */}
+        <div className="mt-8 rounded-2xl border border-amber-400/20 bg-amber-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-amber-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            La <strong>révolution solaire</strong> est le thème astral dressé au moment exact où le Soleil revient à sa position natale chaque année, permettant de prévoir les grandes tendances des 12 mois à venir grâce aux <Link href="/#maisons">maisons</Link> et aux <Link href="/transits">transits</Link> activés.
+          </p>
+        </div>
+
+        {/* Intro APP */}
+        <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+          Vous souhaitez apprendre à interpréter votre <strong>révolution solaire</strong> pour anticiper les événements de l'année ? Beaucoup d'astrologues débutants peinent à distinguer ce thème annuel des transits classiques. Ce cours vous dévoile la méthode complète : calcul, lieu, piliers de lecture et exemples concrets pour décrypter votre RS comme un professionnel.
+        </p>
+
         {/* SOMMAIRE */}
         <nav aria-label="Sommaire" className="mb-20 flex flex-wrap justify-around md:justify-center gap-3">
           {sections.map((s) => (
@@ -252,7 +275,7 @@ export default function RevolutionSolairePage() {
         {/* DÉFINITION */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="definition" icon={BookOpen}>
-            Définition
+            Qu'est-ce qu'une révolution solaire en astrologie ?
           </SectionTitle>
 
           <div className="grid gap-8 lg:grid-cols-2">
@@ -297,7 +320,7 @@ export default function RevolutionSolairePage() {
         {/* MÉTHODE */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="methode" icon={Layers}>
-            Méthode pro
+            Comment interpréter sa révolution solaire : méthode pro
           </SectionTitle>
 
           <div className="grid gap-8 lg:grid-cols-2">
@@ -355,7 +378,7 @@ export default function RevolutionSolairePage() {
         {/* PILIERS */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="piliers" icon={Sun}>
-            Piliers de lecture
+            Les piliers de lecture d'une révolution solaire annuelle
           </SectionTitle>
 
           <div className="grid gap-6">
@@ -415,7 +438,7 @@ export default function RevolutionSolairePage() {
         {/* EXEMPLES */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="exemples" icon={Clock3}>
-            Exemples
+            Exemples d'interprétation de révolution solaire
           </SectionTitle>
 
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -437,7 +460,7 @@ export default function RevolutionSolairePage() {
         {/* FAQ */}
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="faq" icon={HelpCircle}>
-            FAQ
+            Questions fréquentes sur la révolution solaire
           </SectionTitle>
 
           <div className="grid gap-6 lg:grid-cols-2">
@@ -451,6 +474,49 @@ export default function RevolutionSolairePage() {
                 <p className="mt-4 text-[15px] leading-relaxed text-slate-300">{x.a}</p>
               </article>
             ))}
+          </div>
+        </section>
+
+        {/* FAQ Visible (SEO) */}
+        <section className="mt-16 space-y-6" aria-labelledby="faq-revolution-solaire">
+          <h2 id="faq-revolution-solaire" className="font-serif text-2xl sm:text-3xl">Questions fréquentes sur la révolution solaire</h2>
+          <div className="space-y-4">
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  La révolution solaire commence-t-elle le jour de mon anniversaire ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">La <strong>révolution solaire</strong> commence au moment exact du retour solaire, qui peut survenir quelques heures avant ou après l'heure de naissance. En pratique, cela se situe autour de votre anniversaire. Ce retour marque le début de votre année astrologique personnelle.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Faut-il calculer la RS au lieu de résidence ou au lieu de naissance ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">On calcule généralement la <strong>révolution solaire</strong> pour le lieu où vous vous trouvez au moment de votre anniversaire. Cela modifie les <Link href="/#maisons">maisons astrologiques</Link>, donc l'accent thématique de l'année. Certains astrologues voyagent volontairement pour optimiser leur RS.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Comment trouver la planète maîtresse de l'année en révolution solaire ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">La <strong>planète maîtresse de l'année</strong> est souvent le maître de l'Ascendant de la RS, combiné aux planètes dominantes placées sur les angles. L'idéal est de se concentrer sur 1 à 2 piliers plutôt que de disperser l'analyse sur 5 planètes.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Quelle est la différence entre révolution solaire et transits ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Les <Link href="/transits">transits</Link> décrivent les mouvements planétaires actuels par rapport à votre thème natal et sont précis dans le temps. La <strong>révolution solaire</strong> offre une vue d'ensemble des tendances de l'année entière. Les deux techniques se complètent : la RS donne le cadre, les transits précisent le calendrier.</p>
+            </details>
           </div>
         </section>
 

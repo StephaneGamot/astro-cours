@@ -193,6 +193,19 @@ export default function CuspidesMaisonsPage() {
           </div>
         </header>
 
+        {/* Encadré Définition SEO */}
+        <div className="mt-8 rounded-2xl border border-emerald-400/20 bg-emerald-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            Les <strong>cuspides des maisons</strong> sont les degrés exacts du zodiaque où commence chaque <Link href="/#maisons">maison astrologique</Link>, déterminant le signe qui colore chaque domaine de vie et le maître de maison qui en oriente l'énergie.
+          </p>
+        </div>
+
+        {/* Intro APP */}
+        <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+          Vous cherchez à comprendre le rôle des <strong>cuspides des maisons en astrologie</strong> dans l'interprétation d'un thème natal ? Beaucoup d'étudiants se limitent aux planètes en signes sans exploiter cette clé fondamentale. Ce guide encyclopédique vous révèle comment lire les 4 angles, les 12 cuspides, les maîtres de maison et les signes interceptés.
+        </p>
+
         {/* --- INTRODUCTION & DÉFINITION --- */}
         <section className="mb-28 grid gap-8 lg:grid-cols-2">
           <div className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.02] p-10 backdrop-blur-md transition-all hover:bg-white/[0.04]">

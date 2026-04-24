@@ -387,6 +387,19 @@ export default function MaitrisesCoursPage() {
           </div>
         </header>
 
+        {/* Définition SEO */}
+        <div className="mt-8 rounded-2xl border border-amber-400/20 bg-amber-400/[0.04] px-6 py-5">
+          <p className="text-sm font-semibold uppercase tracking-widest text-amber-300/80">Définition</p>
+          <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+            Les <strong>dignités planétaires</strong> (ou maîtrises) désignent le lien entre une <Link href="/#planetes">planète</Link> et un <Link href="/#zodiaque">signe du zodiaque</Link> : domicile, exaltation, exil ou chute. Elles indiquent si une planète s'exprime facilement ou si elle demande un travail d'intégration.
+          </p>
+        </div>
+
+        {/* APP Intro */}
+        <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+          <strong>Les maîtrises planétaires en astrologie</strong> sont souvent présentées comme un tableau à mémoriser, sans explication de la logique sous-jacente. Pourquoi le Soleil est-il en domicile en Lion ? Pourquoi Saturne est-il en chute en Bélier ? Cette page vous donne les clés pour comprendre chaque dignité signe par signe, avec la logique symbolique qui les relie aux éléments et aux modes.
+        </p>
+
         <nav aria-label="Sommaire" className="mb-20 flex flex-wrap justify-center gap-3">
           {SIGNS.map((s) => (
             <a key={getSlug(s)} href={`#${getSlug(s)}`} className={pill}>
@@ -397,7 +410,7 @@ export default function MaitrisesCoursPage() {
 
         <section className="max-w-6xl mx-auto">
           <SectionTitle id="bases" icon={BookOpen}>
-            Bases pédagogiques
+            Comment fonctionnent les dignités planétaires ?
           </SectionTitle>
 
           <div className="grid gap-8 lg:grid-cols-2">
@@ -670,6 +683,105 @@ export default function MaitrisesCoursPage() {
             </Link>
           </div>
         </footer>
+
+        {/* FAQ visible */}
+        <section className="mt-16 space-y-6" aria-labelledby="faq-maitrises">
+          <div className="group mb-12 mt-28 flex items-center gap-5 scroll-mt-28" id="faq-maitrises">
+            <div
+              aria-hidden="true"
+              className="flex h-14 w-14 items-center justify-center rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/20 to-transparent text-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.15)]"
+            >
+              <Sparkles size={26} strokeWidth={1.5} />
+            </div>
+            <h2 className="font-serif text-3xl tracking-tight text-white md:text-5xl">
+              Questions fréquentes sur les dignités planétaires
+            </h2>
+            <div className="ml-4 h-px flex-1 bg-gradient-to-r from-amber-500/30 via-amber-500/5 to-transparent" />
+          </div>
+          <div className="space-y-4">
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Qu'est-ce qu'une planète en domicile en astrologie ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Une <strong>planète en domicile</strong> se trouve dans le signe qu'elle gouverne : elle s'y exprime de manière naturelle, fluide et stable. Par exemple, <strong>Mars</strong> est en domicile en <Link href="/signes/belier">Bélier</Link> car son énergie d'action et d'initiative résonne parfaitement avec le style du signe.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Quelle différence entre exaltation et domicile en astrologie ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Le <strong>domicile</strong> est le terrain naturel de la planète (expression stable et cohérente). L'<strong>exaltation</strong> est un terrain favorable qui amplifie la planète mais de manière plus intense, parfois excessive. En domicile, la planète est "chez elle" ; en exaltation, elle est "mise en valeur".</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Une planète en exil ou en chute est-elle forcément négative ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Non. Une planète en <strong>exil</strong> ou en <strong>chute</strong> n'est pas "faible" ou condamnée. Elle demande simplement plus de conscience, d'adaptation et de maturité. Avec le temps et l'expérience, elle peut devenir une force remarquable dans le <Link href="/#theme-natal">thème natal</Link>.</p>
+            </details>
+            <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+              <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                <span className="flex items-center justify-between">
+                  Comment utiliser les dignités planétaires pour interpréter un thème ?
+                  <span className="ml-3 text-amber-300/60 transition-transform group-open:rotate-45">+</span>
+                </span>
+              </summary>
+              <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Identifiez d'abord la dignité de chaque <Link href="/#planetes">planète</Link> dans votre thème (domicile, exaltation, exil, chute ou pérégrine). Puis nuancez avec la <Link href="/#maisons">maison</Link>, les <Link href="/aspects">aspects</Link> et le niveau d'intégration. Les dignités donnent le "terrain" ; le reste du thème précise comment la planète joue sur ce terrain.</p>
+            </details>
+          </div>
+        </section>
+
+        {/* JSON-LD FAQPage */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "Qu'est-ce qu'une planète en domicile en astrologie ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Une planète en domicile se trouve dans le signe qu'elle gouverne : elle s'y exprime de manière naturelle, fluide et stable. Par exemple, Mars est en domicile en Bélier car son énergie d'action et d'initiative résonne parfaitement avec le style du signe."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Quelle différence entre exaltation et domicile en astrologie ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Le domicile est le terrain naturel de la planète (expression stable et cohérente). L'exaltation est un terrain favorable qui amplifie la planète mais de manière plus intense, parfois excessive. En domicile, la planète est \"chez elle\" ; en exaltation, elle est \"mise en valeur\"."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Une planète en exil ou en chute est-elle forcément négative ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Non. Une planète en exil ou en chute n'est pas \"faible\" ou condamnée. Elle demande simplement plus de conscience, d'adaptation et de maturité. Avec le temps et l'expérience, elle peut devenir une force remarquable dans le thème natal."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  name: "Comment utiliser les dignités planétaires pour interpréter un thème ?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Identifiez d'abord la dignité de chaque planète dans votre thème (domicile, exaltation, exil, chute ou pérégrine). Puis nuancez avec la maison, les aspects et le niveau d'intégration. Les dignités donnent le \"terrain\" ; le reste du thème précise comment la planète joue sur ce terrain."
+                  }
+                }
+              ]
+            })
+          }}
+        />
 
         <script
           type="application/ld+json"

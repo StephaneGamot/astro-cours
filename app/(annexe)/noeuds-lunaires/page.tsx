@@ -193,11 +193,25 @@ export default function NoeudsLunairesPage() {
 
         <div className="h-1 w-full bg-gradient-to-r from-amber-400/35 via-emerald-400/35 to-violet-400/35" />
       </header>
+
+      {/* Définition — Featured Snippet */}
+      <div className="mt-8 rounded-2xl border border-emerald-400/20 bg-emerald-400/[0.04] px-6 py-5">
+        <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300/80">Définition</p>
+        <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
+          Les <strong>noeuds lunaires</strong> sont deux points d'intersection entre l'orbite de la Lune et l'écliptique ; en astrologie, ils forment un axe d'évolution reliant le <strong>Noeud Nord</strong> (direction de croissance) au <strong>Noeud Sud</strong> (zone d'automatisme), à lire en lien avec les <Link href="/transits">transits</Link> et les <Link href="/aspects">aspects</Link>.
+        </p>
+      </div>
+
+      {/* APP Intro */}
+      <p className="mt-8 max-w-3xl text-base leading-relaxed text-white/75 sm:text-lg">
+        Vous voulez comprendre ce que révèlent les <strong>noeuds lunaires</strong> dans votre thème natal ? Beaucoup de sources confondent karma, destin et prédiction sans donner de méthode exploitable. Cette page propose une lecture claire de l'axe Noeud Nord / Noeud Sud par signe, maison et aspects, avec les pièges à éviter et les bonnes pratiques.
+      </p>
+
 <div className={"mb-12 overflow-hidden rounded-3xl border bg-white/20 "}> <div className="relative"> <Image src={TeteDuDragon} alt={"Illustration symbolique "} width={1600} height={900} priority className="h-auto w-full object-cover" sizes="(max-width: 768px) 100vw, 896px" /> <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent" /> <div className="pointer-events-none absolute bottom-0 left-0 h-1 w-full" /> </div> </div>
       {/* Définition */}
       <section id="definition" className="mb-10 scroll-mt-24">
         <H2 id="definition" kind="axis">
-          Définition (simple et pro)
+          Qu'est-ce que les noeuds lunaires en astrologie ?
         </H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -238,7 +252,7 @@ export default function NoeudsLunairesPage() {
       {/* Axe NN/NS */}
       <section id="axe" className="mb-10 scroll-mt-24">
         <H2 id="axe" kind="axis">
-          L’axe Noeud Nord / Noeud Sud
+          Comment fonctionne l’axe Noeud Nord / Noeud Sud ?
         </H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -319,7 +333,7 @@ export default function NoeudsLunairesPage() {
       {/* Signe & Maison */}
       <section id="signe-maison" className="mb-10 scroll-mt-24">
         <H2 id="signe-maison" kind="method">
-          Lire par signe & maison (méthode)
+          Comment lire les noeuds lunaires par signe et maison ?
         </H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -347,7 +361,7 @@ export default function NoeudsLunairesPage() {
       <section id="aspects" className="mb-10 scroll-mt-24">
         {/* ✅ ici tu avais kind="angle" : maintenant c’est OK */}
         <H2 id="aspects" kind="angle">
-          Aspects aux noeuds (très important)
+          Quels aspects aux noeuds lunaires faut-il surveiller ?
         </H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -372,7 +386,7 @@ export default function NoeudsLunairesPage() {
       <section id="transits" className="mb-10 scroll-mt-24">
         {/* ✅ ici tu avais kind="moon" : maintenant c’est OK */}
         <H2 id="transits" kind="moon">
-          Transits : quand ça s’active
+          Quand les transits activent-ils les noeuds lunaires ?
         </H2>
 
         <div className={`${card} mt-4 ${accent("moon").border} ${accent("moon").glow}`}>
@@ -395,7 +409,7 @@ export default function NoeudsLunairesPage() {
       {/* Pièges */}
       <section id="piges" className="mb-10 scroll-mt-24">
         <H2 id="piges" kind="method">
-          Pièges & bonnes pratiques
+          Quelles erreurs éviter avec les noeuds lunaires ?
         </H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -438,7 +452,7 @@ export default function NoeudsLunairesPage() {
       {/* FAQ */}
       <section id="faq" className="mb-10 scroll-mt-24">
         <H2 id="faq" kind="axis">
-          FAQ
+          Questions fréquentes sur les noeuds lunaires
         </H2>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -478,6 +492,82 @@ export default function NoeudsLunairesPage() {
           </div>
         </div>
       </footer>
+
+      {/* FAQ Accordion SEO */}
+      <section className="mt-16 space-y-6" aria-labelledby="faq-noeuds-lunaires">
+        <h2 id="faq-noeuds-lunaires" className="font-serif text-2xl sm:text-3xl">Questions fréquentes sur les noeuds lunaires</h2>
+        <div className="space-y-4">
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Les noeuds lunaires sont-ils liés au karma ?
+                <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Dans l'approche traditionnelle, on parle souvent de <strong>karma</strong>. En astrologie moderne, les <strong>noeuds lunaires</strong> décrivent plutôt un axe d'apprentissage : le <Link href="/noeuds-lunaires#axe">Noeud Sud</Link> représente les automatismes acquis, tandis que le Noeud Nord indique la direction de croissance consciente.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Faut-il lire le Noeud Nord par signe ou par maison ?
+                <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Les deux sont complémentaires : le <strong>signe</strong> donne le style (comment grandir), la <strong>maison</strong> donne le domaine (où grandir). Les <Link href="/aspects">aspects</Link> aux noeuds montrent comment l'axe est vécu concrètement.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Que se passe-t-il lors d'un transit sur les noeuds lunaires ?
+                <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Un <strong>transit sur les noeuds lunaires</strong> marque souvent un virage : rencontre, décision importante ou réorientation. Les <Link href="/transits">transits lents</Link> (Saturne, Uranus, Pluton) sur cet axe sont particulièrement structurants et durables.</p>
+          </details>
+          <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md">
+            <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between">
+                Le Noeud Sud est-il négatif en astrologie ?
+                <span className="ml-3 text-emerald-300/60 transition-transform group-open:rotate-45">+</span>
+              </span>
+            </summary>
+            <p className="px-6 pb-6 text-sm leading-relaxed text-white/75 md:text-base">Non. Le <strong>Noeud Sud</strong> représente un talent acquis et une zone de confort, pas un défaut. Le travail consiste à transférer ces compétences au service de la direction du <strong>Noeud Nord</strong>, sans rejeter ce qui est déjà maîtrisé.</p>
+          </details>
+        </div>
+      </section>
+
+      {/* JSON-LD FAQPage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Les noeuds lunaires sont-ils liés au karma ?",
+                acceptedAnswer: { "@type": "Answer", text: "Dans l'approche traditionnelle, on parle souvent de karma. En astrologie moderne, les noeuds lunaires décrivent plutôt un axe d'apprentissage : le Noeud Sud représente les automatismes acquis, tandis que le Noeud Nord indique la direction de croissance consciente." }
+              },
+              {
+                "@type": "Question",
+                name: "Faut-il lire le Noeud Nord par signe ou par maison ?",
+                acceptedAnswer: { "@type": "Answer", text: "Les deux sont complémentaires : le signe donne le style (comment grandir), la maison donne le domaine (où grandir). Les aspects aux noeuds montrent comment l'axe est vécu concrètement." }
+              },
+              {
+                "@type": "Question",
+                name: "Que se passe-t-il lors d'un transit sur les noeuds lunaires ?",
+                acceptedAnswer: { "@type": "Answer", text: "Un transit sur les noeuds lunaires marque souvent un virage : rencontre, décision importante ou réorientation. Les transits lents (Saturne, Uranus, Pluton) sur cet axe sont particulièrement structurants et durables." }
+              },
+              {
+                "@type": "Question",
+                name: "Le Noeud Sud est-il négatif en astrologie ?",
+                acceptedAnswer: { "@type": "Answer", text: "Non. Le Noeud Sud représente un talent acquis et une zone de confort, pas un défaut. Le travail consiste à transférer ces compétences au service de la direction du Noeud Nord, sans rejeter ce qui est déjà maîtrisé." }
+              }
+            ]
+          })
+        }}
+      />
 
       {/* JSON-LD SEO */}
       <script
