@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
+import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 export const meta = {
   slug: "venus-en-signes-style-amoureux",
@@ -12,6 +13,10 @@ export const meta = {
   readingLevel: "débutant" as const,
   cover: "/images/blog/cupidon.webp",
 };
+
+const ARTICLE_SLUG = meta.slug;
+const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
+const COVER_URL = `${SITE_URL}${meta.cover}`;
 
 function Kicker({ children }: { children: ReactNode }) {
   return (
@@ -72,7 +77,7 @@ function Card({
   children,
   subtitle,
 }: {
-  title: string;
+  title: ReactNode;
   subtitle?: string;
   children: ReactNode;
 }) {
@@ -124,28 +129,109 @@ function Row({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: meta.title,
+        description: meta.description,
+        image: COVER_URL,
+        datePublished: meta.date,
+        dateModified: meta.date,
+        url: ARTICLE_URL,
+        mainEntityOfPage: { "@type": "WebPage", "@id": ARTICLE_URL },
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Que représente Vénus en astrologie ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Vénus représente le style amoureux, la manière de séduire, les valeurs affectives et ce qu\u2019on considère comme de l\u2019amour. Elle décrit comment on aime, pas avec qui on finit.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Comment lire Vénus dans un thème natal ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "On regarde le signe (style amoureux), la maison (domaine de vie), les aspects (facilité ou tension) et la combinaison Vénus-Mars pour comprendre la dynamique amour-désir.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Quelle est la différence entre Vénus et Mars en amour ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Vénus décrit ce qu\u2019on appelle amour (réception, plaisir, valeurs). Mars décrit ce qu\u2019on appelle désir (impulsion, conquête, action). Les deux ensemble forment la dynamique relationnelle complète.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Vénus détermine-t-elle la fidélité ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Non. Vénus montre le style amoureux et les besoins affectifs, pas la fidélité en soi. La fidélité dépend du thème global, notamment Saturne, la Lune et les aspects.",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
     <div className="space-y-10">
       {/* HERO */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
-        <div className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
-        <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
+        <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
+        <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
 
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
 
         <div className="relative">
           <Kicker>Amour • Séduction • Relations • Lecture concrète</Kicker>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            En astrologie, <strong>Vénus</strong> ne décrit pas “avec qui tu vas finir”.
-            Elle décrit <strong>comment tu aimes</strong> : ton style affectif, ta manière de séduire,
-            ce qui te rassure, ce qui te fait fuir… et ce que tu recherches vraiment.
-            Ici : une lecture signe par signe <strong>sans clichés</strong>, avec forces, pièges
-            et conseils concrets.
+            <strong>Vénus en signes</strong> révèle comment tu aimes, ce qui te
+            séduit et ce que tu appelles « amour ». Dans ton{" "}
+            <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">thème natal</Link>,
+            cette planète décrit ton <strong>style affectif</strong>, ta
+            manière de séduire et le type de relation qui te nourrit vraiment.
           </p>
 
-          <div className="mt-5 flex flex-wrap gap-2">
+          <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
+            Le problème ? On réduit souvent Vénus à « tu es
+            romantique » ou « tu es fidèle ». En réalité, elle répond à une
+            question bien plus profonde : <strong>qu’est-ce que tu considères
+            comme de l’amour ?</strong>
+          </p>
+
+          <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
+            Ici : une lecture signe par signe <strong>sans clichés</strong>, avec
+            forces, pièges et conseils concrets pour comprendre (enfin) ton
+            langage amoureux.
+          </p>
+
+<div className="mt-5 flex flex-wrap gap-2">
             <Pill tone="violet">Mot-clé : Valeurs</Pill>
             <Pill tone="orange">Risque : Projection</Pill>
             <Pill tone="emerald">Levier : Relation mature</Pill>
@@ -166,7 +252,7 @@ export default function Post() {
 
       {/* 1) base */}
       <section className="space-y-4">
-        <H2>1) Vénus, c’est quoi exactement ?</H2>
+        <H2>1) <Link href="/planetes/venus" className="underline decoration-white/30 hover:decoration-white/60 transition">Vénus</Link>, c’est quoi exactement ?</H2>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -196,9 +282,9 @@ export default function Post() {
         <Card title="Lecture pro en 4 points" subtitle="Simple, mais extrêmement fiable.">
           <ol className="list-decimal pl-5 space-y-2">
             <li><strong>Signe</strong> = le style (comment tu aimes)</li>
-            <li><strong>Maison</strong> = le domaine de vie (où tu vis l’amour)</li>
-            <li><strong>Aspects</strong> = facilité / tension / répétitions</li>
-            <li><strong>Vénus + Mars</strong> = amour + désir (combo indispensable)</li>
+            <li><strong><Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">Maison</Link></strong> = le domaine de vie (où tu vis l’amour)</li>
+            <li><strong><Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">Aspects</Link></strong> = facilité / tension / répétitions</li>
+            <li><strong>Vénus + <Link href="/blog/mars-en-signes-desir-libido-action" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link></strong> = amour + désir (combo indispensable)</li>
           </ol>
 
           <Callout tone="ok" title="Règle en or">
@@ -240,8 +326,9 @@ export default function Post() {
 
         <Callout tone="note" title="Ultra important">
           <p>
-            Le signe donne le <strong>style</strong> mais la maison indique le “terrain”.
-            Par exemple : Vénus en Scorpion <strong>Maison 10</strong> : relations + statut / image.
+            Le signe donne le <strong>style</strong> (explore les{" "}
+            <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">qualités et défauts des 12 signes</Link>) mais la maison indique le “terrain”.
+            Par exemple : Vénus en Scorpion <strong><Link href="/maisons/maison-10" className="underline decoration-white/30 hover:decoration-white/60 transition">Maison 10</Link></strong> : relations + statut / image.
           </p>
         </Callout>
       </section>
@@ -251,14 +338,14 @@ export default function Post() {
         <H2>4) Les 12 Vénus (interprétation + conseils)</H2>
 
         <div className="grid gap-6 lg:grid-cols-2">
-          <Card title="Vénus en Bélier" subtitle="aime vite, aime fort">
+          <Card title={<>Vénus en <Link href="/signes/belier" className="underline decoration-white/30 hover:decoration-white/60 transition">Bélier</Link></>} subtitle="aime vite, aime fort">
             <p><strong>Signature :</strong> amour = désir + mouvement.</p>
             <p><strong>Atout :</strong> franchise, passion.</p>
             <p><strong>Piège :</strong> confondre excitation et amour.</p>
             <p><strong>Conseil :</strong> choisir quelqu’un qui suit le rythme, sans drame.</p>
           </Card>
 
-          <Card title="Vénus en Taureau" subtitle="aime avec le corps et la stabilité">
+          <Card title={<>Vénus en <Link href="/signes/taureau" className="underline decoration-white/30 hover:decoration-white/60 transition">Taureau</Link></>} subtitle="aime avec le corps et la stabilité">
             <p><strong>Signature :</strong> amour = sécurité + sensualité.</p>
             <p><strong>Atout :</strong> fidélité, patience.</p>
             <p><strong>Piège :</strong> possessivité.</p>
@@ -300,7 +387,7 @@ export default function Post() {
             <p><strong>Conseil :</strong> apprendre à choisir même si ça déplaît.</p>
           </Card>
 
-          <Card title="Vénus en Scorpion" subtitle="aime en profondeur">
+          <Card title={<>Vénus en <Link href="/signes/scorpion" className="underline decoration-white/30 hover:decoration-white/60 transition">Scorpion</Link></>} subtitle="aime en profondeur">
             <p><strong>Signature :</strong> amour = vérité + fusion.</p>
             <p><strong>Atout :</strong> magnétisme.</p>
             <p><strong>Piège :</strong> jalousie / contrôle.</p>
@@ -328,7 +415,7 @@ export default function Post() {
             <p><strong>Conseil :</strong> rester original sans éviter l’intimité.</p>
           </Card>
 
-          <Card title="Vénus en Poissons" subtitle="aime l’âme">
+          <Card title={<>Vénus en <Link href="/signes/poissons" className="underline decoration-white/30 hover:decoration-white/60 transition">Poissons</Link></>} subtitle="aime l’âme">
             <p><strong>Signature :</strong> amour = magie.</p>
             <p><strong>Atout :</strong> romantisme, compassion.</p>
             <p><strong>Piège :</strong> illusion / sauvetage.</p>
@@ -345,36 +432,39 @@ export default function Post() {
           <p>
             Vénus décrit ton <strong>langage de l’amour</strong>. Quand tu comprends ça,
             tu arrêtes de chercher “la bonne personne” et tu comprends comment
-            <strong>tu construis une relation stable</strong>.
+            <strong>tu construis une relation stable</strong>. Suis tes{" "}
+            <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">transits</Link>{" "}
+            pour comprendre les périodes clés, et pour aller plus
+            loin, explore la{" "}
+            <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">synastrie</Link>{" "}
+            (compatibilité entre deux thèmes) ou consulte le{" "}
+            <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">dictionnaire astrologique</Link>.
           </p>
         </Callout>
       </section>
 
       {/* CTA */}
       <section className="rounded-2xl border border-white/10 bg-black/20 p-6">
-        <p className="text-sm text-text/60">Suite recommandée</p>
-        <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
-          <p className="text-text/85">
-            Pour compléter :{" "}
-            <span className="font-semibold text-text/95">
-              Mars en signes — désir, libido et façon d’agir
-            </span>
+        <p className="text-sm text-text/60">Continue ta lecture</p>
+        <div className="mt-3 space-y-2 text-text/85">
+          <p>
+            Découvre{" "}
+            <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">amour et fidélité selon les signes</Link>{" "}
+            ou lis{" "}
+            <Link href="/blog/venusien" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">le profil Vénusien</Link>{" "}
+            pour comprendre l’énergie de Vénus au quotidien.
           </p>
+        </div>
+        <div className="mt-4">
           <Link
             href="/blog"
             className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
           >
-            Retour au blog
+            ← Tous les articles
           </Link>
         </div>
       </section>
-
-      <Link
-        href="/blog"
-        className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
-      >
-        ← Voir tous les articles
-      </Link>
     </div>
+    </>
   );
 }

@@ -2,7 +2,6 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
-import GlossaryTooltip from "@/components/GlossaryTooltip";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/conjonction-melange-des-forces`;
@@ -244,9 +243,7 @@ export default function Post() {
             lue, cette fusion semble "bonne" ou "mauvaise" alors qu'elle est
             neutre — tout dépend du contexte. Ce guide te donne la définition
             exacte, les{" "}
-            <GlossaryTooltip definition="L'orbe est l'écart en degrés entre deux planètes. Plus l'orbe est serré, plus l'aspect est puissant.">
-              orbes
-            </GlossaryTooltip>, une méthode de lecture pas-à-pas (natal <em>et</em>{" "}
+            orbes, une méthode de lecture pas-à-pas (natal <em>et</em>{" "}
             <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">
               transits
             </Link>), des exemples concrets et les pièges à éviter.
@@ -347,9 +344,7 @@ export default function Post() {
                 <p>
                   Plus l'orbe est serré, plus tu peux "construire" dessus. Si
                   l'orbe est large, exige davantage de preuves :{" "}
-                  <GlossaryTooltip definition="Les maisons angulaires (I, IV, VII, X) sont les quatre axes majeurs du thème. Une planète placée ici a un impact très visible dans la vie.">
-                    maison angulaire
-                  </GlossaryTooltip>{" "}
+                  maison angulaire{" "}
                   (I, IV, VII, X), répétitions thématiques, aspects soutenants.
                 </p>
               </Callout>
@@ -714,9 +709,7 @@ export default function Post() {
           <p>
             La conjonction se mesure en <strong>longitude</strong> (position
             sur le zodiaque). Le parallèle concerne la{" "}
-            <GlossaryTooltip definition="La déclinaison est la distance angulaire d'un astre au nord ou au sud de l'écliptique. C'est un second axe de mesure, distinct de la longitude zodiacale.">
-              <strong>déclinaison</strong>
-            </GlossaryTooltip>{" "}
+            <strong>déclinaison</strong>{" "}
             (nord/sud de l'écliptique). Les deux fusionnent, mais la
             conjonction est beaucoup plus utilisée en pratique. Pour
             approfondir, consulte le{" "}

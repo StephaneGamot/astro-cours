@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
+import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 export const meta = {
   slug: "vendre-une-maison-demenager-astrologie-methodes",
@@ -12,6 +13,10 @@ export const meta = {
   readingLevel: "intermédiaire" as const,
   cover: "/images/blog/immobilier-demenagement.webp",
 };
+
+const ARTICLE_SLUG = meta.slug;
+const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
+const COVER_URL = `${SITE_URL}${meta.cover}`;
 
 function Kicker({ children }: { children: ReactNode }) {
   return (
@@ -121,32 +126,101 @@ function Row({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: meta.title,
+        description: meta.description,
+        image: COVER_URL,
+        datePublished: meta.date,
+        dateModified: meta.date,
+        url: ARTICLE_URL,
+        mainEntityOfPage: { "@type": "WebPage", "@id": ARTICLE_URL },
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Peut-on utiliser l\u2019astrologie pour vendre une maison ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "L\u2019astrologie ne remplace pas un notaire ou un agent immobilier, mais elle peut aider \u00e0 rep\u00e9rer des p\u00e9riodes de changement, comprendre ce qui bloque et choisir des fen\u00eatres plus fluides pour signer ou d\u00e9m\u00e9nager.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Quelles maisons astrologiques regarder pour un d\u00e9m\u00e9nagement ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Les maisons cl\u00e9s sont la IV (foyer, ancrage), la VII (contrats, n\u00e9gociation), la X (officialisation) et les II/VIII (finances, cr\u00e9dit, partage). La IV est le c\u0153ur du sujet immobilier.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Faut-il \u00e9viter de signer pendant Mercure r\u00e9trograde ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Les r\u00e9trogrades n\u2019emp\u00eachent pas de signer, mais augmentent la probabilit\u00e9 de retards ou malentendus. Si vous n\u2019avez pas le choix, compensez par plus de pr\u00e9paration, relecture et marges de temps.",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
     <div className="space-y-10">
       {/* HERO */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
-        <div className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
-        <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
+        <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
+        <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
 
         {/* overlays */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
 
         <div className="relative">
           <Kicker>Immobilier • Déménagement • Timing • Méthode</Kicker>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Vendre une maison ou déménager, ce n’est pas “juste un transit”.
-            C’est un mélange de <strong>logistique</strong>, de{" "}
-            <strong>décisions familiales</strong>, de <strong>juridique</strong>{" "}
-            et de <strong>timing</strong>.
+            <strong>Vendre une maison avec l’astrologie</strong> : comment
+            repérer le bon moment pour signer, déménager ou lancer des
+            travaux ? Dans ton{" "}
+            <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">thème natal</Link>,
+            ce sont les{" "}
+            <Link href="/maisons/maison-4" className="underline decoration-white/30 hover:decoration-white/60 transition">maisons IV</Link>, VII et X
+            qui portent le sujet immobilier.
           </p>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Cet article propose une lecture <strong>sérieuse</strong> : où regarder
-            dans le thème, comment hiérarchiser les indicateurs, et comment repérer
-            les fenêtres favorables — sans promettre l’impossible.
+            Le problème ? La plupart des guides astro se limitent à
+            « évite Mercure rétrograde » sans expliquer où regarder
+            ni comment hiérarchiser les indicateurs.
+          </p>
+
+          <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
+            Ici, une méthode <strong>sérieuse</strong> en 7 étapes : zones
+            clés du thème, timing, rétrogrades, cas concrets et check-list
+            — sans promettre l’impossible.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -188,8 +262,10 @@ export default function Post() {
         <Callout tone="warn" title="Important (vraiment)">
           <p>
             Si ton dossier comporte de l’indivision, un conflit, ou une procédure,
-            l’axe VII / VIII (contrats / partage) devient central, mais le résultat
-            dépend aussi du droit et des preuves. L’astrologie aide à gérer le{" "}
+            l’axe{" "}
+            <Link href="/maisons/maison-7" className="underline decoration-white/30 hover:decoration-white/60 transition">VII</Link> / VIII (contrats / partage) devient central, mais le résultat
+            dépend aussi du droit et des preuves. L’astrologie (comme l’explique notre article sur les{" "}
+            <Link href="/blog/pleine-lune-nouvelle-lune-cycles-astrologie" className="underline decoration-white/30 hover:decoration-white/60 transition">cycles lunaires</Link>) aide à gérer le{" "}
             <strong>timing</strong> et la <strong>posture</strong>, pas à contourner la réalité.
           </p>
         </Callout>
@@ -218,7 +294,8 @@ export default function Post() {
               ex-conjoint si indivision, et logique contractuelle.
             </p>
             <ul className="list-disc pl-5 space-y-2">
-              <li>conflit / coopération : aspects au maître de VII</li>
+              <li>conflit / coopération :{" "}
+              <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">aspects</Link> au maître de VII</li>
               <li>facilité de signature : Vénus / Jupiter vs Saturne / Mars</li>
               <li>si relation tendue : regarder Saturne, Mars, Pluton en aspects</li>
             </ul>
@@ -273,7 +350,9 @@ export default function Post() {
               <strong>Le contexte</strong> (6–12 mois) : progressions / arcs solaires (si tu utilises).
             </li>
             <li>
-              <strong>Le déclencheur</strong> (semaines) : transits rapides (Mars/Vénus/Mercure) sur les points activés.
+              <strong>Le déclencheur</strong> (semaines) :{" "}
+            <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">transits</Link>{" "}
+            rapides (Mars/Vénus/Mercure) sur les points activés.
             </li>
             <li>
               <strong>La date pratique</strong> : choisir un moment “propre” (paperasse ok, agenda ok, rétrograde géré).
@@ -283,7 +362,10 @@ export default function Post() {
           <Callout tone="ok" title="Ce qui marche bien en timing">
             <p>
               Une vente se concrétise souvent quand il y a <strong>un double signal</strong> :
-              activation de IV/VII/X + un transit facilitateur (Vénus/Jupiter) ou un transit de structuration (Saturne).
+              activation de IV/VII/X (une{" "}
+              <Link href="/blog/conjonction-melange-des-forces" className="underline decoration-white/30 hover:decoration-white/60 transition">conjonction</Link>{" "}
+              peut suffire) + un transit facilitateur ({" "}
+              <Link href="/blog/venus-en-signes-style-amoureux" className="underline decoration-white/30 hover:decoration-white/60 transition">Vénus</Link>/Jupiter) ou un transit de structuration (Saturne).
             </p>
           </Callout>
         </Card>
@@ -325,7 +407,7 @@ export default function Post() {
 
       {/* 4) rétrogrades */}
       <section className="space-y-4">
-        <H2>4) Rétrogrades : faut-il éviter de signer ?</H2>
+        <H2>4) <Link href="/retrogrades" className="underline decoration-white/30 hover:decoration-white/60 transition">Rétrogrades</Link> : faut-il éviter de signer ?</H2>
 
         <Card title="Approche réaliste (pas superstitieuse)" subtitle="On ne panique pas. On gère.">
           <p>
@@ -337,7 +419,7 @@ export default function Post() {
           <ul className="list-disc pl-5 space-y-2">
             <li><strong>Mercure rétro</strong> : contrats, échanges, papiers → relire + vérifier.</li>
             <li><strong>Vénus rétro</strong> : valeurs/prix/esthétique → renégociations, hésitations.</li>
-            <li><strong>Mars rétro</strong> : énergie/conflits → tensions, lenteur, fatigue.</li>
+            <li><strong><Link href="/blog/mars-en-signes-desir-libido-action" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link> rétro</strong> : énergie/conflits → tensions, lenteur, fatigue.</li>
           </ul>
 
           <Callout tone="note" title="Règle pro">
@@ -369,7 +451,8 @@ export default function Post() {
 
           <Card title="Indivision / conflit" subtitle="On lit VII + VIII + Saturne/Mars/Pluton">
             <ul className="list-disc pl-5 space-y-2">
-              <li>VII : rapport à l’autre (coopération/bras de fer)</li>
+              <li>VII : rapport à l’autre ({" "}
+              <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">synastrie</Link> / bras de fer)</li>
               <li>VIII : partage, crédit, notaire, obligations</li>
               <li>Saturne/Mars/Pluton : rigidité, colère, contrôle</li>
             </ul>
@@ -384,7 +467,8 @@ export default function Post() {
               Saturne demande une structure (budget, job, dossier, timing).
             </p>
             <p>
-              <strong>Action :</strong> transformer l’envie en plan (3 étapes + dates + pièces).
+              <strong>Action :</strong> transformer l’envie en plan (voir aussi{" "}
+            <Link href="/blog/comprendre-son-signe-astrologique-et-son-ascendant" className="underline decoration-white/30 hover:decoration-white/60 transition">signe et ascendant</Link>) (3 étapes + dates + pièces).
             </p>
           </Card>
 
@@ -448,38 +532,36 @@ export default function Post() {
               <p className="text-sm text-text/60">Le nerf</p>
               <p className="mt-2 font-semibold text-text/90">Maisons II + VIII</p>
               <p className="mt-2 text-text/80">
-                Banque, crédit, partage : là où ça se fige… ou se débloque.
+                Banque, crédit, partage : là où ça se fige… ou se débloque. Consulte le{" "}
+              <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">dictionnaire astrologique</Link>{" "}
+              pour approfondir.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* suite */}
+      {/* CTA */}
       <section className="rounded-2xl border border-white/10 bg-black/20 p-6">
-        <p className="text-sm text-text/60">Suite recommandée</p>
-        <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
-          <p className="text-text/85">
-            Pour compléter :{" "}
-            <span className="font-semibold text-text/95">
-              Les 12 maisons — comprendre où ça se passe dans ta vie
-            </span>
+        <p className="text-sm text-text/60">Continue ta lecture</p>
+        <div className="mt-3 space-y-2 text-text/85">
+          <p>
+            Explore{" "}
+            <Link href="/blog/finances-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">finances et thème astral</Link>{" "}
+            ou découvre{" "}
+            <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">qualités et défauts des 12 signes</Link>.
           </p>
+        </div>
+        <div className="mt-4">
           <Link
             href="/blog"
             className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
           >
-            Retour au blog
+            ← Tous les articles
           </Link>
         </div>
       </section>
-
-      <Link
-        href="/blog"
-        className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
-      >
-        ← Voir tous les articles
-      </Link>
     </div>
+    </>
   );
 }

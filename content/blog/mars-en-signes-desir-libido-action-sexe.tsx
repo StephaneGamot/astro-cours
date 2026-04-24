@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
+import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 export const meta = {
   slug: "mars-en-signes-desir-libido-action",
@@ -12,6 +13,10 @@ export const meta = {
   readingLevel: "débutant" as const,
   cover: "/images/blog/mars-desir.webp",
 };
+
+const ARTICLE_SLUG = meta.slug;
+const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
+const COVER_URL = `${SITE_URL}${meta.cover}`;
 
 function Kicker({ children }: { children: ReactNode }) {
   return (
@@ -72,7 +77,7 @@ function Card({
   children,
   subtitle,
 }: {
-  title: string;
+  title: ReactNode;
   subtitle?: string;
   children: ReactNode;
 }) {
@@ -124,32 +129,108 @@ function Row({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: meta.title,
+        description: meta.description,
+        image: COVER_URL,
+        datePublished: meta.date,
+        dateModified: meta.date,
+        url: ARTICLE_URL,
+        mainEntityOfPage: { "@type": "WebPage", "@id": ARTICLE_URL },
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Que représente Mars en astrologie ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mars représente le désir, l\u2019instinct, la libido, la colère et la manière dont on passe à l\u2019action. C\u2019est la planète qui montre comment on prend sa place et ce qui nous motive.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Comment lire Mars dans un thème natal ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "On regarde le signe (style d\u2019action), la maison (zone de vie concernée), les aspects (fluidité ou tension), l\u2019état direct ou rétrograde, et la combinaison avec Vénus pour comprendre la dynamique relationnelle.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Quelle est la différence entre Mars et Vénus en astrologie ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mars représente la manière dont on désire et agit (impulsion, conquête). Vénus représente la manière dont on aime et attire (réception, plaisir). Les deux ensemble forment la dynamique amoureuse complète.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Mars influence-t-il la fidélité en couple ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mars montre l\u2019impulsion, pas la fidélité en soi. La maturité relationnelle dépend du thème global (Saturne, Lune, aspects). Mars révèle comment on gère la frustration, le conflit et le désir.",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
     <div className="space-y-10">
       {/* HERO */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
-        <div className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
-        <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
+        <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
+        <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
 
         {/* overlays */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
 
         <div className="relative">
           <Kicker>Désir • Sexualité • Énergie • Action</Kicker>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            En astrologie, <strong>Mars</strong> est la planète du{" "}
-            <strong>désir</strong>, de l’<strong>instinct</strong> et de la
-            manière dont tu <strong>passes à l’action</strong>. Elle parle aussi
-            de ta colère, de ta libido, de ton courage et de ta capacité à
-            “prendre ta place”.
+            <strong>Mars en signes</strong>, c’est la clé pour comprendre ce qui
+            t’allume, ce qui te met en colère et comment tu passes à l’action au
+            lit comme dans la vie. En{" "}
+            <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">thème natal</Link>,
+            cette planète révèle ton <strong>désir</strong>, ta{" "}
+            <strong>libido</strong>, ton courage… et tes pièges relationnels.
           </p>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Ici : lecture signe par signe (sans clichés), forces, pièges, style
-            de séduction, dynamique sexuelle et conseils concrets.
+            Le problème ? La plupart des descriptions de Mars se limitent à des
+            clichés (« Bélier = agressif », « Scorpion = obsédé »). Résultat :
+            tu ne te reconnais pas — et tu passes à côté de l’essentiel.
+          </p>
+
+          <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
+            Ici, tu trouveras une lecture <strong>honnête</strong> de Mars dans
+            chaque signe : forces réelles, pièges concrets, style de séduction
+            et dynamique sexuelle — sans filtre, sans jugement.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -190,7 +271,8 @@ export default function Post() {
 
         <Callout tone="note" title="Phrase clé">
           <p>
-            Mars = <strong>la manière dont tu prends</strong>. Vénus ={" "}
+            Mars = <strong>la manière dont tu prends</strong>.{" "}
+            <Link href="/blog/venus-en-signes-style-amoureux" className="underline decoration-white/30 hover:decoration-white/60 transition">Vénus</Link> ={" "}
             <strong>la manière dont tu aimes</strong>. Les deux ensemble donnent
             ta dynamique relationnelle complète.
           </p>
@@ -204,9 +286,9 @@ export default function Post() {
         <Card title="Méthode pro en 5 points" subtitle="Mars = énergie. Donc on observe les faits.">
           <ol className="list-decimal pl-5 space-y-2">
             <li>Le <strong>signe</strong> : style d’action / désir</li>
-            <li>La <strong>maison</strong> : où tu mets ton énergie (zone de bataille)</li>
-            <li>Les <strong>aspects</strong> : contrôle / excès / blocage / fluidité</li>
-            <li>L’état de Mars : direct ou rétrograde (si natal)</li>
+            <li>La <strong><Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">maison</Link></strong> : où tu mets ton énergie (zone de bataille)</li>
+            <li>Les <strong><Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">aspects</Link></strong> : contrôle / excès / blocage / fluidité</li>
+            <li>L’état de Mars : direct ou <Link href="/retrogrades" className="underline decoration-white/30 hover:decoration-white/60 transition">rétrograde</Link> (si natal)</li>
             <li>Mars + Vénus : attraction + plaisir = compatibilité</li>
           </ol>
 
@@ -224,7 +306,7 @@ export default function Post() {
 
       {/* 3) tableau rapide */}
       <section className="space-y-4">
-        <H2>3) Mars en signes : lecture rapide</H2>
+        <H2>3) <Link href="/planetes/mars" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link> en signes : lecture rapide</H2>
 
         <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
           <div className="grid grid-cols-1 md:grid-cols-4 border-b border-white/10">
@@ -262,14 +344,14 @@ export default function Post() {
         <H2>4) Les 12 Mars (désir + action + style sexuel)</H2>
 
         <div className="grid gap-6 lg:grid-cols-2">
-          <Card title="Mars en Bélier" subtitle="désir rapide, instinct pur">
+          <Card title={<>Mars en <Link href="/signes/belier" className="underline decoration-white/30 hover:decoration-white/60 transition">Bélier</Link></>} subtitle="désir rapide, instinct pur">
             <p><strong>Signature :</strong> je veux, je prends, j’y vais.</p>
             <p><strong>Atout :</strong> courage, sexualité directe.</p>
             <p><strong>Piège :</strong> agir avant de ressentir.</p>
             <p><strong>Conseil :</strong> apprendre à ralentir pour durer.</p>
           </Card>
 
-          <Card title="Mars en Taureau" subtitle="désir constant, très sensuel">
+          <Card title={<>Mars en <Link href="/signes/taureau" className="underline decoration-white/30 hover:decoration-white/60 transition">Taureau</Link></>} subtitle="désir constant, très sensuel">
             <p><strong>Signature :</strong> je construis le plaisir.</p>
             <p><strong>Atout :</strong> endurance, sensualité forte.</p>
             <p><strong>Piège :</strong> rigidité / possessivité.</p>
@@ -311,7 +393,7 @@ export default function Post() {
             <p><strong>Conseil :</strong> exprimer clairement tes envies.</p>
           </Card>
 
-          <Card title="Mars en Scorpion" subtitle="désir total, magnétique">
+          <Card title={<>Mars en <Link href="/signes/scorpion" className="underline decoration-white/30 hover:decoration-white/60 transition">Scorpion</Link></>} subtitle="désir total, magnétique">
             <p><strong>Signature :</strong> je veux tout, pas moitié.</p>
             <p><strong>Atout :</strong> intensité sexuelle, transformation.</p>
             <p><strong>Piège :</strong> obsession / domination.</p>
@@ -325,7 +407,7 @@ export default function Post() {
             <p><strong>Conseil :</strong> liberté ≠ absence d’engagement (on peut faire les deux).</p>
           </Card>
 
-          <Card title="Mars en Capricorne" subtitle="désir discipliné, puissant">
+          <Card title={<>Mars en <Link href="/signes/capricorne" className="underline decoration-white/30 hover:decoration-white/60 transition">Capricorne</Link></>} subtitle="désir discipliné, puissant">
             <p><strong>Signature :</strong> je veux maîtriser et réussir.</p>
             <p><strong>Atout :</strong> endurance, efficacité.</p>
             <p><strong>Piège :</strong> dureté / fermeture émotionnelle.</p>
@@ -365,7 +447,8 @@ export default function Post() {
           <Callout tone="warn" title="Le piège classique">
             <p>
               Croire que Mars = “t’es fidèle / pas fidèle”.  
-              Mars, c’est l’<strong>impulsion</strong>. La maturité dépend de ton thème global (Saturne, Lune, aspects…).
+              Mars, c’est l’<strong>impulsion</strong>. La maturité dépend de ton thème global (Saturne, Lune,{" "}
+            <Link href="/blog/conjonction-melange-des-forces" className="underline decoration-white/30 hover:decoration-white/60 transition">conjonctions</Link>…).
             </p>
           </Callout>
         </Card>
@@ -375,6 +458,8 @@ export default function Post() {
             Le vrai truc qui marche : <strong>Vénus + Mars</strong>.
             Vénus te dit ce que tu appelles “amour”. Mars te dit ce que tu appelles “désir”.
             Si les deux ne parlent pas la même langue, tu as le sentiment de “manquer quelque chose”.
+            Pour comprendre cette alchimie entre deux personnes, regarde la{" "}
+            <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">synastrie</Link>.
           </p>
         </Callout>
       </section>
@@ -389,7 +474,9 @@ export default function Post() {
               <p className="text-sm text-text/60">Essence</p>
               <p className="mt-2 font-semibold text-text/90">Désir / Action</p>
               <p className="mt-2 text-text/80">
-                Mars montre ton moteur : ce qui te fait bouger, vouloir, oser.
+                Mars montre ton moteur : ce qui te fait bouger, vouloir, oser. Consulte le{" "}
+              <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">dictionnaire astrologique</Link>{" "}
+              pour approfondir.
               </p>
             </div>
 
@@ -397,7 +484,8 @@ export default function Post() {
               <p className="text-sm text-text/60">Risque</p>
               <p className="mt-2 font-semibold text-text/90">Conflit</p>
               <p className="mt-2 text-text/80">
-                Impulsivité, domination, colère mal gérée, fuite.
+                Impulsivité, domination, colère mal gérée, fuite. Lis aussi{" "}
+              <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">qualités et défauts des 12 signes</Link>.
               </p>
             </div>
 
@@ -405,7 +493,9 @@ export default function Post() {
               <p className="text-sm text-text/60">Levier</p>
               <p className="mt-2 font-semibold text-text/90">Maîtrise</p>
               <p className="mt-2 text-text/80">
-                Canaliser l’énergie → désir stable + action efficace.
+                Canaliser l’énergie → désir stable + action efficace. Suis tes{" "}
+              <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">transits</Link>{" "}
+              pour savoir quand agir.
               </p>
             </div>
           </div>
@@ -414,29 +504,26 @@ export default function Post() {
 
       {/* CTA */}
       <section className="rounded-2xl border border-white/10 bg-black/20 p-6">
-        <p className="text-sm text-text/60">Suite recommandée</p>
-        <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
-          <p className="text-text/85">
-            Pour aller plus loin :{" "}
-            <span className="font-semibold text-text/95">
-              Compatibilité amoureuse — la méthode simple (Synastrie)
-            </span>
+        <p className="text-sm text-text/60">Continue ta lecture</p>
+        <div className="mt-3 space-y-2 text-text/85">
+          <p>
+            Découvre{" "}
+            <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">amour et fidélité selon les signes</Link>{" "}
+            ou explore{" "}
+            <Link href="/blog/martien" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">le profil Martien</Link>{" "}
+            pour mieux comprendre l'énergie de Mars au quotidien.
           </p>
+        </div>
+        <div className="mt-4">
           <Link
             href="/blog"
             className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
           >
-            Retour au blog
+            ← Tous les articles
           </Link>
         </div>
       </section>
-
-      <Link
-        href="/blog"
-        className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
-      >
-        ← Voir tous les articles
-      </Link>
     </div>
+    </>
   );
 }

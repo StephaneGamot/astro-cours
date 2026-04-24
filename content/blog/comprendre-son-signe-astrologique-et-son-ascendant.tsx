@@ -1,9 +1,8 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
-import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
-const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/comprendre-signe-astrologique-ascendant-12-exemples`;
 const COVER_URL = `${SITE_URL}/images/blog/soleil-et-asc.jpg`;
 
@@ -29,47 +28,7 @@ export const meta = {
   articleUrl: ARTICLE_URL,
 };
 
-const articleJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  headline: meta.title,
-  description: meta.description,
-  image: [meta.ogImage],
-  datePublished: meta.date,
-  dateModified: meta.date,
-  inLanguage: "fr-FR",
-  mainEntityOfPage: meta.articleUrl,
-  articleSection: meta.articleSection,
-  keywords: meta.tags.join(", "),
-  educationalLevel: meta.readingLevel,
-  author: AUTHOR_PERSON,
-  publisher: PUBLISHER_ORG,
-};
 
-const breadcrumbJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "Accueil",
-      item: SITE_URL,
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "Blog",
-      item: `${SITE_URL}/blog`,
-    },
-    {
-      "@type": "ListItem",
-      position: 3,
-      name: meta.title,
-      item: meta.articleUrl,
-    },
-  ],
-};
 
 function Kicker({ children }: { children: ReactNode }) {
   return (
@@ -178,28 +137,98 @@ function PortraitCard({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        headline: meta.title,
+        description: meta.description,
+        image: COVER_URL,
+        datePublished: meta.date,
+        dateModified: meta.date,
+        url: ARTICLE_URL,
+        mainEntityOfPage: { "@type": "WebPage", "@id": ARTICLE_URL },
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
+        ],
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Quelle est la différence entre signe astrologique et ascendant ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Le signe solaire décrit l’identité profonde, ce que l’on cherche à devenir. L’ascendant décrit la manière dont on se présente au monde, le style visible et le comportement spontané.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Pourquoi deux personnes du même signe peuvent sembler très différentes ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Parce que l’ascendant modifie la façon d’entrer dans le monde. Un Cancer ascendant Bélier paraîtra plus direct, tandis qu’un Cancer ascendant Vierge semblera plus discret. Le cœur peut être similaire, mais l’apparence change.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Comment lire la combinaison Soleil + Ascendant ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Le Soleil répond à « qui suis-je profondément ? » et l’ascendant répond à « comment je me présente et réagis spontanément ? ». Combiner les deux donne une lecture plus juste que le signe seul.",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
+    <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
     <div className="space-y-10">
       {/* HERO */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         <div
+          aria-hidden="true"
           className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`}
         />
-        <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
+        <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
 
         <div className="relative">
           <Kicker>Signe solaire & Ascendant</Kicker>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Beaucoup de gens connaissent leur <strong>signe astrologique</strong>,
-            mais se reconnaissent mal dans les descriptions générales.
-            C’est souvent parce qu’ils ne tiennent pas compte de leur{" "}
-            <strong>ascendant</strong>.
+            <strong>Signe astrologique et ascendant</strong> : tu connais
+            probablement ton signe solaire, mais tu ne te reconnais pas
+            toujours dans les descriptions générales. C’est souvent parce
+            que tu ne tiens pas compte de ton{" "}
+            <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">ascendant</Link>.
           </p>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Cet article t’aide à comprendre la différence entre les deux, puis
-            te donne <strong>12 exemples</strong> pour mieux te situer.
+            Le problème ? Sans cette pièce, tu lis ton{" "}
+            <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">Soleil</Link>{" "}
+            comme si c’était tout le thème. Résultat : tu passes à côté
+            de ce qui te rend unique (et reconnaissable).
+          </p>
+
+          <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
+            Ici, tu trouveras la différence entre les deux, puis{" "}
+            <strong>12 combinaisons concrètes</strong> pour enfin te situer
+            — sans cliché, avec nuance.
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -315,7 +344,8 @@ export default function Post() {
       <p>
         Cette combinaison est souvent plus profonde qu’elle n’en a l’air.
         Le Soleil en Gémeaux donne le goût des idées, des échanges, du mouvement mental,
-        mais l’ascendant Scorpion apporte une intensité, une densité psychologique et une capacité d’observation qui changent complètement la couleur de l’ensemble.
+        mais l’ascendant Scorpion apporte une intensité, une densité psychologique et une capacité d’observation qui changent complètement la couleur de l’ensemble (un peu comme une{" "}
+        <Link href="/blog/conjonction-melange-des-forces" className="underline decoration-white/30 hover:decoration-white/60 transition">conjonction</Link>).
       </p>
       <p>
         Vu de l’extérieur, la personne peut sembler difficile à lire, sélective, presque secrète.
@@ -359,7 +389,8 @@ export default function Post() {
       </p>
       <p>
         Cela peut donner de très belles personnalités : créatives mais précises, généreuses mais utiles,
-        solaires mais pas superficielles. Le défi principal est de ne pas étouffer l’élan créatif
+        solaires mais pas superficielles. Le défi principal (comme le montre le{" "}
+        <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">dictionnaire astrologique</Link>) est de ne pas étouffer l’élan créatif
         par excès d’auto-critique ou de perfectionnisme.
       </p>
     </PortraitCard>
@@ -378,6 +409,8 @@ export default function Post() {
       <p>
         Cette combinaison peut donner d’excellents enseignants, accompagnants ou profils pédagogiques :
         des personnes capables d’expliquer clairement des choses complexes.
+        Découvre aussi les{" "}
+        <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">qualités et défauts des 12 signes</Link>.
         Le point d’attention réside dans la tension entre rigueur et envie d’élargir sans fin.
       </p>
     </PortraitCard>
@@ -393,7 +426,8 @@ export default function Post() {
         Pourtant, au fond, elle a un vrai besoin de lien, d’élégance relationnelle, d’accord juste avec les autres.
       </p>
       <p>
-        Ce mélange donne souvent un grand sens de la tenue, du respect, de la responsabilité dans les relations.
+        Ce mélange donne souvent un grand sens de la tenue, du respect, de la responsabilité dans les{" "}
+        <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">relations</Link>.
         Le défi consiste à ne pas trop verrouiller l’expression affective, ni à confondre contrôle et maturité.
       </p>
     </PortraitCard>
@@ -474,7 +508,9 @@ export default function Post() {
       </p>
       <p>
         La personne peut donc sembler solide, presque distante, alors qu’elle est en réalité très réceptive.
-        Elle montre peu, filtre beaucoup, mais ressent profondément.
+        Elle montre peu, filtre beaucoup, mais ressent profondément (la{" "}
+        <Link href="/blog/pleine-lune-nouvelle-lune-cycles-astrologie" className="underline decoration-white/30 hover:decoration-white/60 transition">Pleine Lune</Link>{" "}
+        peut amplifier ce ressenti).
         Cela donne souvent des personnalités sensibles qui ont appris tôt à tenir debout.
       </p>
       <p>
@@ -498,57 +534,49 @@ export default function Post() {
             L’ascendant montre <strong>la manière d’exister dans le monde visible</strong>.
           </p>
           <p>
-            Quand on combine les deux, on sort enfin des descriptions trop générales
+            Quand on combine les deux (et qu’on ajoute les{" "}
+            <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">transits</Link>), on sort enfin des descriptions trop générales
             et on entre dans une astrologie plus juste, plus humaine, plus reconnaissable.
+            Pour aller encore plus loin, explore la{" "}
+            <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">synastrie</Link>{" "}
+            (compatibilité entre thèmes).
           </p>
         </Card>
 
         <Callout tone="warn" title="Limite importante">
           <p>
             Même avec 12 exemples, on ne remplace pas la lecture complète du thème :
-            la Lune, Mercure, Vénus, Mars, les maisons et les aspects modifient fortement l’ensemble.
+            la{" "}
+            <Link href="/planetes/lune" className="underline decoration-white/30 hover:decoration-white/60 transition">Lune</Link>, Mercure,{" "}
+            <Link href="/blog/venus-en-signes-style-amoureux" className="underline decoration-white/30 hover:decoration-white/60 transition">Vénus</Link>,{" "}
+            <Link href="/blog/mars-en-signes-desir-libido-action" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link>, les{" "}
+            <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">maisons</Link> et les{" "}
+            <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">aspects</Link> modifient fortement l’ensemble.
           </p>
         </Callout>
       </section>
 
       <section className="rounded-2xl border border-white/10 bg-black/20 p-6">
-        <p className="text-sm text-text/60">Suite recommandée</p>
-
-        <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
-          <p className="text-text/85">
-            Pour aller plus loin :
-            <span className="font-semibold text-text/95">
-              {" "}Le trio fondamental : Soleil, Lune, Ascendant
-            </span>
+        <p className="text-sm text-text/60">Continue ta lecture</p>
+        <div className="mt-3 space-y-2 text-text/85">
+          <p>
+            Découvre{" "}
+            <Link href="/blog/venus-en-signes-style-amoureux" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">Vénus en signes</Link>{" "}
+            pour comprendre ton style amoureux, ou{" "}
+            <Link href="/blog/quel-type-de-sportif-selon-signe-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">quel sportif selon ton signe</Link>.
           </p>
-
+        </div>
+        <div className="mt-4">
           <Link
             href="/blog"
             className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
           >
-            Retour au blog
+            ← Tous les articles
           </Link>
         </div>
       </section>
 
-      <Link
-        href="/blog"
-        className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
-      >
-        ← Voir tous les articles
-      </Link>
-      <>
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-  />
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-  />
-
-  {/* ton article */}
-</>
     </div>
+    </>
   );
 }

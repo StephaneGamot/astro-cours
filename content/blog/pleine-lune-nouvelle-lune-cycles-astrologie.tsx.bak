@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
-import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 export const meta = {
   slug: "pleine-lune-nouvelle-lune-cycles-astrologie",
@@ -13,10 +12,6 @@ export const meta = {
   readingLevel: "débutant" as const,
   cover: "/images/blog/lune-cycles.jpg",
 };
-
-const ARTICLE_SLUG = meta.slug;
-const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
-const COVER_URL = `${SITE_URL}${meta.cover}`;
 
 function Kicker({ children }: { children: ReactNode }) {
   return (
@@ -129,111 +124,38 @@ function Row({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        headline: meta.title,
-        description: meta.description,
-        image: COVER_URL,
-        datePublished: meta.date,
-        dateModified: meta.date,
-        url: ARTICLE_URL,
-        mainEntityOfPage: { "@type": "WebPage", "@id": ARTICLE_URL },
-        author: AUTHOR_PERSON,
-        publisher: PUBLISHER_ORG,
-      },
-      {
-        "@type": "BreadcrumbList",
-        itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
-          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
-          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
-        ],
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: [
-          {
-            "@type": "Question",
-            name: "Quelle est la différence entre Nouvelle Lune et Pleine Lune ?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "La Nouvelle Lune est une phase d’introspection et d’intention. La Pleine Lune est une phase de révélation et de libération. Ensemble, elles forment un cycle de 29 jours.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "Pourquoi se sent-on bizarre pendant la Pleine Lune ?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "La Pleine Lune agit comme un amplificateur émotionnel : sommeil plus léger, hypersensibilité, irritabilité. Elle ne crée pas le problème, elle augmente le volume de ce qui était déjà présent.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "Comment utiliser les cycles lunaires au quotidien ?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "À la Nouvelle Lune, écris une intention claire et pose un micro-pas concret. À la Pleine Lune, libère ce qui te pèse : habitude, non-dit, charge mentale.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "La Lune influence-t-elle vraiment les émotions ?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "En astrologie, la Lune représente le climat intérieur : émotions profondes, réactivité instinctive, besoin de sécurité. Les phases lunaires offrent un rythme naturel pour observer et canaliser ses émotions.",
-            },
-          },
-        ],
-      },
-    ],
-  };
-
   return (
-    <>
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-    />
     <div className="space-y-10">
       {/* HERO */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div
-          aria-hidden="true"
           className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`}
         />
-        <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
 
         {/* overlays */}
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-white/12 via-transparent to-transparent" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
 
         <div className="relative">
           <Kicker>Émotions • Cycles • Intuition • Énergie intérieure</Kicker>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            La <strong>Pleine Lune</strong> et la <strong>Nouvelle Lune</strong>{" "}
-            rythment ton énergie émotionnelle tous les 29 jours. Dans ton{" "}
-            <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">thème natal</Link>,
-            la <Link href="/planetes/lune" className="underline decoration-white/30 hover:decoration-white/60 transition">Lune</Link>{" "}
-            décrit ton <strong>monde intérieur</strong> — et ses cycles agissent
-            comme une respiration.
+            En astrologie, la <strong>Lune</strong> décrit ton{" "}
+            <strong>monde émotionnel</strong>, ta manière de chercher la{" "}
+            <strong>sécurité</strong> et ton ressenti instinctif. Mais au-delà du
+            thème natal, la Lune forme un <strong>cycle permanent</strong> entre{" "}
+            <strong>Nouvelle Lune</strong> et <strong>Pleine Lune</strong>.
           </p>
 
           <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Le problème ? Beaucoup de gens subissent ces phases sans les
-            comprendre : sommeil perturbé, nerfs à vif, envie de tout plaquer…
-            puis culpabilité de « ne pas gérer ».
-          </p>
-
-          <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-            Ici, tu trouveras une méthode <strong>simple et concrète</strong> pour
-            utiliser chaque phase lunaire à ton avantage — sans rituel compliqué,
-            sans superstition.
+            Même sans “y croire”, tu peux le ressentir : sommeil, nervosité,
+            hypersensibilité, envie d’introspection… La Lune agit comme une{" "}
+            <strong>respiration énergétique</strong> :
+            <br />
+            <strong>Nouvelle Lune = inspiration</strong> 🌑 •{" "}
+            <strong>Pleine Lune = expiration</strong> 🌕
           </p>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -265,11 +187,8 @@ export default function Post() {
           </p>
           <ul className="list-disc pl-5 space-y-2">
             <li>tes <strong>émotions profondes</strong> (et leur intensité)</li>
-            <li>ta <strong>réactivité instinctive</strong> (ton{" "}
-            <Link href="/blog/mars-en-signes-desir-libido-action" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link>{" "}
-            y joue aussi)</li>
-            <li>ton besoin de <strong>sécurité</strong> (lié à ta{" "}
-            <Link href="/maisons/maison-4" className="underline decoration-white/30 hover:decoration-white/60 transition">maison 4</Link>) et de “cocon”</li>
+            <li>ta <strong>réactivité instinctive</strong> (sans filtre)</li>
+            <li>ton besoin de <strong>sécurité</strong> et de “cocon”</li>
             <li>ta relation au <strong>passé</strong> et aux souvenirs</li>
             <li>ton <strong>rythme</strong> (sommeil, humeur, fluctuations)</li>
           </ul>
@@ -277,7 +196,7 @@ export default function Post() {
 
         <Callout tone="note" title="Phrase clé">
           <p>
-            La Lune = ton <strong>monde intérieur</strong>. <Link href="/planetes/soleil" className="underline decoration-white/30 hover:decoration-white/60 transition">Le Soleil</Link> = ton{" "}
+            La Lune = ton <strong>monde intérieur</strong>. Le Soleil = ton{" "}
             <strong>identité consciente</strong>. Les phases lunaires = une{" "}
             <strong>météo émotionnelle</strong> partagée.
           </p>
@@ -384,9 +303,7 @@ export default function Post() {
         <Callout tone="note" title="À faire (libérer plutôt que lutter)">
           <ul className="list-disc pl-5 space-y-2">
             <li>écrire ce que tu ne veux plus porter</li>
-            <li>avoir une conversation honnête (sans agressivité) — la{" "}
-            <Link href="/synastrie" className="underline decoration-white/30 hover:decoration-white/60 transition">synastrie</Link>{" "}
-            peut aider à comprendre les tensions</li>
+            <li>avoir une conversation honnête (sans agressivité)</li>
             <li>couper une habitude qui te vide</li>
           </ul>
         </Callout>
@@ -487,8 +404,7 @@ export default function Post() {
         <Callout tone="warn" title="Le piège">
           <p>
             Sur-ritualiser pour éviter d’agir.  
-            L’astrologie (et la lecture des{" "}
-            <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">aspects</Link>) aide quand elle te rend <strong>plus lucide</strong>, pas quand elle te fige.
+            L’astrologie aide quand elle te rend <strong>plus lucide</strong>, pas quand elle te fige.
           </p>
         </Callout>
       </section>
@@ -499,17 +415,14 @@ export default function Post() {
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
-            La Lune ne décide pas à ta place. Elle te montre un rythme — suis tes{" "}
-            <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">transits</Link>{" "}
-            pour le voir en action.
+            La Lune ne décide pas à ta place. Elle te montre un rythme.
           </p>
           <p>
             Si tu résistes : <strong>tension</strong>.  
             Si tu écoutes : <strong>transformation</strong>.
           </p>
           <p>
-            La Lune t’apprend que la vie n’est pas linéaire (comme une{" "}
-            <Link href="/blog/conjonction-melange-des-forces" className="underline decoration-white/30 hover:decoration-white/60 transition">conjonction</Link> le montre) : elle est{" "}
+            La Lune t’apprend que la vie n’est pas linéaire : elle est{" "}
             <strong>cyclique</strong>. Et toi aussi.
           </p>
         </div>
@@ -525,8 +438,7 @@ export default function Post() {
               <p className="text-sm text-text/60">Essence</p>
               <p className="mt-2 font-semibold text-text/90">Cycle émotionnel</p>
               <p className="mt-2 text-text/80">
-                Nouvelle Lune = intention. Pleine Lune = révélation / libération. Découvre le{" "}
-              <Link href="/blog/lunarien" className="underline decoration-white/30 hover:decoration-white/60 transition">profil Lunarien</Link>.
+                Nouvelle Lune = intention. Pleine Lune = révélation / libération.
               </p>
             </div>
 
@@ -534,8 +446,7 @@ export default function Post() {
               <p className="text-sm text-text/60">Risque</p>
               <p className="mt-2 font-semibold text-text/90">Réactivité</p>
               <p className="mt-2 text-text/80">
-                Fatigue, conflits, surcharge émotionnelle si tu te forces. Lis aussi les{" "}
-              <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">qualités et défauts des 12 signes</Link>.
+                Fatigue, conflits, surcharge émotionnelle si tu te forces.
               </p>
             </div>
 
@@ -543,9 +454,7 @@ export default function Post() {
               <p className="text-sm text-text/60">Levier</p>
               <p className="mt-2 font-semibold text-text/90">Conscience</p>
               <p className="mt-2 text-text/80">
-                Observer → choisir → libérer. Le cycle devient un outil. Consulte le{" "}
-              <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">dictionnaire astrologique</Link>{" "}
-              pour approfondir.
+                Observer → choisir → libérer. Le cycle devient un outil.
               </p>
             </div>
           </div>
@@ -554,26 +463,29 @@ export default function Post() {
 
       {/* CTA */}
       <section className="rounded-2xl border border-white/10 bg-black/20 p-6">
-        <p className="text-sm text-text/60">Continue ta lecture</p>
-        <div className="mt-3 space-y-2 text-text/85">
-          <p>
-            Découvre{" "}
-            <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">amour et fidélité selon les signes</Link>{" "}
-            ou explore{" "}
-            <Link href="/blog/venus-en-signes-style-amoureux" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">Vénus en signes</Link>{" "}
-            pour compléter ta compréhension des émotions et de l’amour.
+        <p className="text-sm text-text/60">Suite recommandée</p>
+        <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-text/85">
+            Pour aller plus loin :{" "}
+            <span className="font-semibold text-text/95">
+              La Lune en signes & maisons — comprendre ton besoin de sécurité
+            </span>
           </p>
-        </div>
-        <div className="mt-4">
           <Link
             href="/blog"
             className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
           >
-            ← Tous les articles
+            Retour au blog
           </Link>
         </div>
       </section>
+
+      <Link
+        href="/blog"
+        className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 hover:bg-white/10 transition"
+      >
+        ← Voir tous les articles
+      </Link>
     </div>
-    </>
   );
 }

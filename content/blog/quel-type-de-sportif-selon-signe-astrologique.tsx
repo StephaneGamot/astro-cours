@@ -2,9 +2,8 @@ import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
-import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
-const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_SLUG = "quel-type-de-sportif-selon-signe-astrologique";
 const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
 const COVER_URL = `${SITE_URL}/images/blog/sport-signe-astrologique.webp`;
@@ -206,44 +205,57 @@ function SignSportCard({
 export default function Post() {
   const glow = getGlowFromTags(meta.tags);
 
-  const articleJsonLd = {
+  const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    headline: meta.title,
-    description: meta.description,
-    image: [COVER_URL],
-    datePublished: meta.date,
-    dateModified: meta.date,
-    inLanguage: "fr-FR",
-    mainEntityOfPage: ARTICLE_URL,
-    author: AUTHOR_PERSON,
-    publisher: PUBLISHER_ORG,
-    keywords: meta.tags.join(", "),
-    articleSection: "Astrologie",
-    educationalLevel: meta.readingLevel,
-  };
-
-  const breadcrumbJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
+    "@graph": [
       {
-        "@type": "ListItem",
-        position: 1,
-        name: "Accueil",
-        item: SITE_URL,
+        "@type": "Article",
+        headline: meta.title,
+        description: meta.description,
+        image: COVER_URL,
+        datePublished: meta.date,
+        dateModified: meta.date,
+        url: ARTICLE_URL,
+        mainEntityOfPage: { "@type": "WebPage", "@id": ARTICLE_URL },
+        author: AUTHOR_PERSON,
+        publisher: PUBLISHER_ORG,
       },
       {
-        "@type": "ListItem",
-        position: 2,
-        name: "Blog",
-        item: `${SITE_URL}/blog`,
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+          { "@type": "ListItem", position: 3, name: meta.title, item: ARTICLE_URL },
+        ],
       },
       {
-        "@type": "ListItem",
-        position: 3,
-        name: meta.title,
-        item: ARTICLE_URL,
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Quel sport choisir selon son signe astrologique ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Chaque signe a un rapport différent à l’effort. Les signes de feu (Bélier, Lion, Sagittaire) préfèrent l’intensité et la compétition. Les signes de terre (Taureau, Vierge, Capricorne) excellent en endurance. Les signes d’air (Gémeaux, Balance, Verseau) aiment les sports techniques. Les signes d’eau (Cancer, Scorpion, Poissons) recherchent le ressenti.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Le signe astrologique détermine-t-il les performances sportives ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Non, le signe ne détermine pas les performances. Il éclaire une manière d’habiter l’effort : compétition, endurance, technique ou recherche d’harmonie. Le thème natal complet (Mars, ascendant, maisons) donne une vision plus précise.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Quelle planète influence le sport en astrologie ?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mars est la planète principale du sport et de l’effort physique. Elle décrit comment on passe à l’action, la manière dont on se dépense et le type d’énergie qu’on mobilise. Le signe solaire complète cette lecture.",
+            },
+          },
+        ],
       },
     ],
   };
@@ -252,11 +264,7 @@ export default function Post() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <article className="space-y-10">
@@ -278,13 +286,24 @@ export default function Post() {
          
 
             <p className="mt-4 max-w-2xl text-text/80 leading-relaxed">
-              L’astrologie peut aussi éclairer la manière dont une personne vit l’effort,
-              la discipline, la compétition ou le plaisir du mouvement.
+              <strong>Quel sport selon votre signe astrologique ?</strong> Chaque
+              signe a un rapport différent à l’effort, à la compétition et au
+              plaisir du mouvement. Dans ton{" "}
+              <Link href="/blog/qu-est-ce-qu-un-theme-astral" className="underline decoration-white/30 hover:decoration-white/60 transition">thème natal</Link>,
+              c’est surtout{" "}
+              <Link href="/blog/mars-en-signes-desir-libido-action" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link>{" "}
+              qui décrit ta manière de te dépenser.
             </p>
 
             <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
-              Certains signes ont besoin de défi immédiat, d’autres de régularité,
-              de technique, d’exploration ou d’une harmonie entre corps et ressenti.
+              Le problème ? On te dit souvent « Bélier = boxe » ou « Poissons =
+              yoga » sans nuance. Résultat : tu ne te reconnais pas, et tu passes à
+              côté d’une pratique qui te correspondrait vraiment.
+            </p>
+
+            <p className="mt-3 max-w-2xl text-text/80 leading-relaxed">
+              Ici, une analyse sérieuse des 12 profils sportifs : rapport à l’effort,
+              motivation, endurance, type de discipline idéal — sans cliché.
             </p>
 
             <div className="mt-5 flex flex-wrap gap-2" aria-label="Résumé de l’article">
@@ -310,7 +329,8 @@ export default function Post() {
           </p>
 
           <p className="text-text/85 leading-relaxed">
-            Le signe solaire ne suffit pas à résumer un thème natal, mais il donne déjà
+            Le signe solaire ne suffit pas à résumer un thème natal (l’<Link href="/blog/comprendre-son-signe-astrologique-et-son-ascendant" className="underline decoration-white/30 hover:decoration-white/60 transition">ascendant</Link> et les{" "}
+            <Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">aspects</Link> comptent aussi), mais il donne déjà
             une indication intéressante sur le style général avec lequel une personne
             aborde l’effort et le mouvement.
           </p>
@@ -589,22 +609,42 @@ export default function Post() {
             Le signe astrologique ne détermine pas un sport unique,
             mais il éclaire une manière d’habiter l’effort :
             compétition, endurance, technique, exploration ou recherche d’harmonie.
+            Pour une lecture plus complète, regarde aussi la position de ta{" "}
+            <Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">maison 1</Link>{" "}
+            (rapport au corps) et tes{" "}
+            <Link href="/transits" className="underline decoration-white/30 hover:decoration-white/60 transition">transits</Link>{" "}
+            actuels.
           </p>
 
           <p className="text-text/85 leading-relaxed">
             Comprendre cette dynamique permet souvent de choisir une pratique
-            plus naturelle, plus motivante et plus durable.
+            plus naturelle, plus motivante et plus durable. Découvre aussi les{" "}
+            <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">qualités et défauts des 12 signes</Link>{" "}
+            ou le{" "}
+            <Link href="/dictionnaire-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition">dictionnaire astrologique</Link>{" "}
+            pour approfondir.
           </p>
         </section>
 
-        <nav aria-label="Navigation de fin d’article">
-          <Link
-            href="/blog"
-            className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 transition hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
-          >
-            ← Voir tous les articles
-          </Link>
-        </nav>
+        <section className="rounded-2xl border border-white/10 bg-black/20 p-6">
+          <p className="text-sm text-text/60">Continue ta lecture</p>
+          <div className="mt-3 space-y-2 text-text/85">
+            <p>
+              Explore{" "}
+              <Link href="/blog/venus-en-signes-style-amoureux" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">Vénus en signes</Link>{" "}
+              pour comprendre ton style amoureux, ou{" "}
+              <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">amour et fidélité selon les signes</Link>.
+            </p>
+          </div>
+          <div className="mt-4">
+            <Link
+              href="/blog"
+              className="inline-flex rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-text/90 transition hover:bg-white/10"
+            >
+              ← Tous les articles
+            </Link>
+          </div>
+        </section>
       </article>
     </>
   );
