@@ -132,7 +132,14 @@
       "uranus": "Confère originalité marquée et indépendance d'esprit. Le natif possède des aptitudes pour les innovations ou les inventions ; il peut être brusque si mal aspecté. Uranus en Maison I donne un style atypique, une présence surprenante. Les carrières en aviation ou électricité sont favorisées. Le défi est l'instabilité ; la maturité ancre cette originalité dans des réalisations concrètes.",
       "neptune": "Accentue les tendances lymphatiques, propice à l'intuition et l'inspiration artistique. Le natif est peu apte à la lutte ordinaire pour la vie et possède un sens pratique faible. Neptune en Maison I confère une aura douce et perméable. Le défi est la frontière floue et la susceptibilité ; la maturité développe l'intuition cadrée et la clarté.",
       "pluton": "Intensité, magnétisme et transformations identitaires marquent profondément la présence. Pluton en Maison I donne une force pénétrante et un charisme transformateur. Le défi consiste à maîtriser le contrôle et les pulsions ; la maturité apporte une puissance intérieure disciplinée et un rayonnement authentique."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 1 en astrologie ?", "reponse": "La Maison 1, aussi appelée Ascendant, représente l'identité immédiate, l'apparence physique et la manière dont on se présente au monde. Elle décrit le tempérament naturel, la vitalité et l'impulsion première qui caractérisent l'individu dès sa naissance." },
+      { "question": "Quel signe est associé à la Maison 1 ?", "reponse": "La Maison 1 est naturellement associée au Bélier et à sa planète maîtresse Mars. Cette association confère à la Maison 1 une énergie d'initiative, de courage et de démarrage, reflétant le besoin fondamental de s'affirmer et d'agir spontanément." },
+      { "question": "Que signifie avoir le Soleil en Maison 1 ?", "reponse": "Le Soleil en Maison 1 renforce considérablement la vitalité et la confiance en soi. Le natif possède une présence rayonnante et un besoin profond d'exister par lui-même, avec un charisme naturel qui attire l'attention sans effort particulier." },
+      { "question": "L'Ascendant est-il plus important que le signe solaire ?", "reponse": "L'Ascendant et le signe solaire jouent des rôles complémentaires : l'Ascendant décrit la manière dont on apparaît et réagit spontanément, tandis que le Soleil révèle l'identité profonde et la direction de vie. En astrologie, les deux sont indispensables pour dresser un portrait complet du natif." },
+      { "question": "Quelle est la différence entre la Maison 1 et la Maison 7 ?", "reponse": "La Maison 1 et la Maison 7 forment l'axe du rapport à l'autre : la Maison 1 représente le moi, l'identité personnelle et l'apparence, tandis que la Maison 7 symbolise le partenaire, les associations et la manière de vivre la relation. Cet axe oppose l'affirmation individuelle à la rencontre avec autrui." }
+    ]
   },
   {
     "numero": 2,
@@ -267,7 +274,14 @@
       "uranus": "Pas d'importance excessive accordée à l'argent et manque de sens pratique. Hauts et bas financiers marquent la vie. Parfois coup de chance par invention ou innovation. Uranus en Maison II donne des revenus atypiques et variables, besoin de liberté. Le défi est l'instabilité financière ; la maturité apprend à innover avec un filet de sécurité.",
       "neptune": "Peu d'aptitudes naturelles pour gagner, dépenses irréfléchies ou spéculations hasardeuses. Le natif peut être victime d'escroqueries. Si bien aspecté, Neptune en Maison II favorise les gains inattendus par intuitions ou événements mondiaux. Le défi est le flou et les dépenses rêveuses ; la maturité développe un cadre clair avec intuition vérifiée.",
       "pluton": "Enjeux profonds de pouvoir autour de l'argent et de la valeur. Pluton en Maison II provoque des transformations radicales dans le rapport aux possessions. Le natif connaît crises et régénérations financières. Le défi est le contrôle et la manipulation ; la maturité transforme sainement le rapport au 'posséder'."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 2 en astrologie ?", "reponse": "La Maison 2 gouverne les ressources matérielles, l'argent gagné par soi-même et le système de valeurs personnelles. Elle indique la manière dont le natif acquiert, gère et valorise ses biens, ainsi que son rapport profond à la sécurité financière." },
+      { "question": "Quel signe est associé à la Maison 2 ?", "reponse": "La Maison 2 est naturellement associée au Taureau et à sa planète maîtresse Vénus. Cette correspondance souligne le lien entre cette maison et le monde concret des possessions, du plaisir sensoriel et de la stabilité matérielle." },
+      { "question": "Que signifie avoir Jupiter en Maison 2 ?", "reponse": "Jupiter en Maison 2 est l'un des placements les plus favorables pour la prospérité financière. Le natif bénéficie souvent de chance dans ses gains et d'une capacité naturelle à attirer l'abondance, à condition de ne pas céder à l'excès de dépenses." },
+      { "question": "La Maison 2 indique-t-elle si je serai riche ?", "reponse": "La Maison 2 révèle le rapport à l'argent et les talents permettant de générer des revenus, mais elle ne prédit pas la richesse de manière absolue. Les planètes présentes et les aspects reçus indiquent les facilités ou les défis financiers, tandis que le libre arbitre reste déterminant." },
+      { "question": "Quelle est la différence entre la Maison 2 et la Maison 8 ?", "reponse": "La Maison 2 concerne les ressources personnelles acquises par ses propres efforts, tandis que la Maison 8 régit les ressources partagées, héritages et transformations financières liées aux autres. Ensemble, elles forment l'axe des possessions, opposant l'avoir individuel à l'avoir collectif." }
+    ]
   },
   {
     "numero": 3,
@@ -402,7 +416,14 @@
       "uranus": "Probablement la meilleure position pour cet Astre. Très propice aux connaissances techniques, arts divinatoires ou sciences alternatives. Propice pour l'intuition et les voyages aériens si bien aspecté. Uranus en Maison III donne idées originales et fulgurances mentales. Le défi est l'impatience et l'instabilité ; la maturité canalise ce génie en canal créatif stable.",
       "neptune": "Forte attraction pour sciences divinatoires, occultes ou spirituelles. Parfois dons de voyance ou bonne intuition sauf avec dissonances sérieuses. Neptune en Maison III attire aux voyages sur mer et aux idées novatrices. Le natif pense de manière imagée et poétique. Le défi est la confusion ; la maturité apprend à vérifier les faits.",
       "pluton": "Parole intense et analyse profonde des situations. Pluton en Maison III donne capacité de transformation par les mots et les idées. Le natif pense de manière radicale. Le défi est l'obsession mentale ; la maturité développe la lucidité sans dureté verbale."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 3 en astrologie ?", "reponse": "La Maison 3 régit la communication, les échanges intellectuels, les petits déplacements et les relations avec les frères et sœurs. Elle décrit la façon dont le natif pense, parle, écrit et interagit avec son environnement proche au quotidien." },
+      { "question": "Quel signe est associé à la Maison 3 ?", "reponse": "La Maison 3 est naturellement associée aux Gémeaux et à leur planète maîtresse Mercure. Cette correspondance met en lumière la curiosité intellectuelle, l'adaptabilité mentale et le besoin de communiquer qui caractérisent cette maison." },
+      { "question": "Que signifie avoir Mercure en Maison 3 ?", "reponse": "Mercure en Maison 3 est en domicile naturel, ce qui renforce considérablement les facultés intellectuelles et verbales. Le natif possède un esprit vif, une grande facilité d'expression et un goût prononcé pour l'apprentissage et les échanges d'idées." },
+      { "question": "Pourquoi la Maison 3 est-elle liée aux frères et sœurs ?", "reponse": "La tradition astrologique associe la Maison 3 aux frères et sœurs car elle représente l'environnement immédiat et les premiers liens sociaux hors du foyer. Les frères et sœurs constituent les premières personnes avec qui l'on apprend à communiquer, négocier et partager au quotidien." },
+      { "question": "Quelle est la différence entre la Maison 3 et la Maison 9 ?", "reponse": "La Maison 3 concerne la communication quotidienne, les courts trajets et l'apprentissage élémentaire, tandis que la Maison 9 gouverne la pensée abstraite, les longs voyages et l'enseignement supérieur. Cet axe oppose le savoir concret et local à la sagesse universelle et lointaine." }
+    ]
   },
   {
     "numero": 4,
@@ -537,7 +558,14 @@
       "uranus": "Ne favorise pas l'entente familiale traditionnelle et prévisible. Parfois perte brutale du père ou bouleversements radicaux. Uranus en Maison IV donne racines atypiques et liberté au foyer. Changements fréquents de résidence. Fin de vie compromise par initiatives utopiques. Le défi est l'instabilité ; la maturité crée son propre modèle.",
       "neptune": "Deuils prématurés ou intrigues mystérieuses au sein de la famille si mal aspecté. Neptune en Maison IV crée sensibilité familiale profonde avec risque d'idéalisation ou de secrets. Fin de vie chaotique par manque de prévoyance. Si bien aspecté : gains immobiliers inattendus et position favorable pour prospecteurs. Le défi est le flou ; la maturité clarifie sans perdre la tendresse.",
       "pluton": "Transformations familiales radicales et intensité intime marquée. Pluton en Maison IV provoque des crises qui régénèrent les racines. Le natif vit des transformations profondes liées à l'héritage. Le défi est le contrôle et la domination ; la maturité régénère sainement les racines."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 4 en astrologie ?", "reponse": "La Maison 4, appelée aussi Fond du Ciel, représente le foyer, la famille, les racines et l'héritage psychologique. Elle décrit l'environnement domestique du natif, son rapport à la terre natale et les fondations émotionnelles sur lesquelles il construit sa vie." },
+      { "question": "Quel signe est associé à la Maison 4 ?", "reponse": "La Maison 4 est naturellement associée au Cancer et à la Lune, sa planète maîtresse. Cette correspondance souligne la dimension émotionnelle, protectrice et nourricière de cette maison liée aux racines familiales et au sentiment d'appartenance." },
+      { "question": "Que signifie avoir la Lune en Maison 4 ?", "reponse": "La Lune en Maison 4 est en position de force, car elle occupe son domicile naturel. Le natif est profondément attaché à son foyer et à sa famille, avec une mémoire émotionnelle très développée et un besoin vital de sécurité intérieure." },
+      { "question": "Le Fond du Ciel révèle-t-il mon enfance ?", "reponse": "Le Fond du Ciel donne effectivement des indications précieuses sur l'enfance, le climat familial et les influences parentales reçues. Le signe sur la cuspide et les planètes présentes décrivent l'atmosphère du foyer d'origine et les schémas émotionnels hérités de la lignée." },
+      { "question": "Quelle est la différence entre la Maison 4 et la Maison 10 ?", "reponse": "La Maison 4 représente la sphère privée, les racines et le foyer, tandis que la Maison 10 symbolise la vie publique, la carrière et la réputation sociale. Cet axe fondamental oppose l'intimité familiale à l'accomplissement professionnel et au statut dans le monde." }
+    ]
   },
   {
     "numero": 5,
@@ -667,7 +695,14 @@
       "uranus": "Vie amoureuse mouvementée et mariage difficile. Uranus restreint la progéniture. Spéculations ruineuses si dissonant. Parfois attrait exagéré pour le jeu. Uranus en Maison V donne expression originale et amours inattendus. Les bons aspects confèrent idées artistiques innovantes. Le défi est l'instabilité ; la maturité cultive liberté responsable.",
       "neptune": "Beaucoup d'illusions et d'imprévus dans la vie amoureuse. Neptune en Maison V crée illusions amoureuses multiples si mal aspecté. Imagination et inspiration artistiques marquées. Si bien aspecté : heureuses inspirations artistiques et chance au jeu. Le défi est l'illusion ; la maturité développe le romantisme lucide.",
       "pluton": "Passions intensement vécues et transformatrices. Pluton en Maison V donne créativité intense et transformatrice. Le natif vit les amours comme des crises régénérantes. Le défi est le contrôle ; la maturité cultive puissance créatrice maîtrisée."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 5 en astrologie ?", "reponse": "La Maison 5 gouverne la créativité, les plaisirs, les amours passionnelles, les enfants et toute forme d'expression personnelle joyeuse. Elle révèle comment le natif s'amuse, crée, séduit et exprime sa singularité à travers le jeu et l'art." },
+      { "question": "Quel signe est associé à la Maison 5 ?", "reponse": "La Maison 5 est naturellement associée au Lion et au Soleil, son astre maître. Cette correspondance explique la dimension lumineuse, généreuse et théâtrale de cette maison, où le natif cherche à briller et à exprimer pleinement sa vitalité créatrice." },
+      { "question": "Que signifie avoir Vénus en Maison 5 ?", "reponse": "Vénus en Maison 5 est un placement très favorable pour les arts, les amours et les plaisirs de la vie. Le natif possède un charme naturel dans la séduction, un talent artistique marqué et une capacité à profiter pleinement des joies de l'existence." },
+      { "question": "La Maison 5 peut-elle prédire le nombre d'enfants ?", "reponse": "La Maison 5 informe sur le rapport aux enfants et la fécondité symbolique, mais l'astrologie moderne ne prétend pas prédire un nombre exact d'enfants. Les planètes et signes présents indiquent plutôt la nature de la relation parent-enfant et le style éducatif du natif." },
+      { "question": "Quelle est la différence entre la Maison 5 et la Maison 11 ?", "reponse": "La Maison 5 concerne la créativité individuelle, les plaisirs personnels et les amours, tandis que la Maison 11 régit les projets collectifs, les amitiés et les idéaux de groupe. Cet axe oppose l'expression personnelle et le désir de briller à l'engagement dans le collectif et le bien commun." }
+    ]
   },
   {
     "numero": 6,
@@ -797,7 +832,14 @@
       "uranus": "Prédisposition à troubles nerveux si dissonances sérieuses ; parfois manque d'équilibre mental. Uranus en Maison VI donne méthodes atypiques et besoin de liberté. Ennuis dans situations subalternes car veut agir selon ses idées. Les bons aspects confèrent activité indépendante originale. Le défi est l'irrégularité ; la maturité crée système flexible.",
       "neptune": "Troubles généralement plus nerveux que physiques, difficiles à préciser et soigner. Malade imaginaire si maléficié. Neptune en Maison VI crée sensibilité au climat de travail et vocation d'aide. Si bien aspecté : santé maintenue via mode de vie naturiste. Succès en poste subalterne lié aux soins médicaux. Le défi est le flou ; la maturité établit limites.",
       "pluton": "Transformation radicale par la routine et intensité d'amélioration. Pluton en Maison VI donne obsession possible du changement. Le natif régénère son quotidien en profondeur. Le défi est l'obsession ; la maturité cultive régénération saine."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 6 en astrologie ?", "reponse": "La Maison 6 régit la santé, le travail quotidien, les routines, le service rendu aux autres et les petits animaux domestiques. Elle décrit comment le natif organise son quotidien, prend soin de son corps et s'investit dans ses tâches professionnelles courantes." },
+      { "question": "Quel signe est associé à la Maison 6 ?", "reponse": "La Maison 6 est naturellement associée à la Vierge et à sa planète maîtresse Mercure. Cette correspondance met en avant le sens du détail, l'esprit d'analyse, le goût de l'ordre et le souci d'amélioration continue qui caractérisent cette maison." },
+      { "question": "Que signifie avoir Mars en Maison 6 ?", "reponse": "Mars en Maison 6 confère une énergie considérable dans le travail quotidien et une grande capacité d'action dans les tâches concrètes. Le natif est un travailleur infatigable, mais il doit veiller aux inflammations et au surmenage lié à un excès d'activité." },
+      { "question": "La Maison 6 montre-t-elle les maladies possibles ?", "reponse": "La Maison 6 donne des indications sur les prédispositions de santé et les points de fragilité du corps, mais elle ne prédit pas de maladies spécifiques. Le signe sur la cuspide et les planètes présentes orientent vers les zones corporelles à surveiller et les habitudes de vie à privilégier." },
+      { "question": "Quelle est la différence entre la Maison 6 et la Maison 12 ?", "reponse": "La Maison 6 concerne la santé physique, le travail concret et les routines quotidiennes, tandis que la Maison 12 gouverne la santé psychique, la vie intérieure et les épreuves cachées. Cet axe oppose le soin actif et visible au lâcher-prise et à la guérison invisible de l'âme." }
+    ]
   },
   {
     "numero": 7,
@@ -927,7 +969,14 @@
       "uranus": "Uranus en Maison VII est probablement l'une des configurations les plus néfastes pour le mariage traditionnel, porteur de divorce fréquent et d'instabilité relationnelle. Le natif aux idées non-conformistes risque de se faire des ennemis. Bien aspecté, il peut cependant réaliser une œuvre sociale révolutionnaire ou des associations avant-gardistes.",
       "neptune": "Neptune en Maison VII rend difficile le mariage par manque de décision ou aspirations irréalisables concernant le partenaire. Le conjoint peut être capricieux ou peu apte à contribuer à la prospérité commune. Les associations sont souvent malheureuses. Très bien aspecté, Neptune peut apporter réussite via un bon mariage favorisé par l'évolution économique.",
       "pluton": "Pluton en Maison VII crée une intensité remarquable dans les relations, avec transformations profondes provoquées par l'autre. Le défi réside dans les luttes de pouvoir conjugal et les dynamiques de contrôle ; la maturité consiste à accepter la métamorphose relationnelle et les profonds changements qu'elle apporte."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 7 en astrologie ?", "reponse": "La Maison 7, appelée aussi Descendant, représente le couple, les associations, les contrats et la manière dont on entre en relation avec les autres. Elle décrit le type de partenaire que le natif attire et la dynamique relationnelle qui s'installe dans ses engagements." },
+      { "question": "Quel signe est associé à la Maison 7 ?", "reponse": "La Maison 7 est naturellement associée à la Balance et à sa planète maîtresse Vénus. Cette correspondance souligne la recherche d'équilibre, d'harmonie et de justice dans les relations, ainsi que le besoin profond de partage et de complémentarité avec autrui." },
+      { "question": "Que signifie avoir Vénus en Maison 7 ?", "reponse": "Vénus en Maison 7 est un placement très favorable pour la vie sentimentale et les associations. Le natif attire des partenaires charmants et recherche avant tout l'harmonie dans le couple, avec un talent naturel pour la diplomatie et la négociation." },
+      { "question": "Le Descendant décrit-il mon partenaire idéal ?", "reponse": "Le Descendant indique les qualités que l'on recherche inconsciemment chez l'autre et le type de relation qui nous complète. Le signe sur la cuspide de la Maison 7 décrit les caractéristiques du partenaire attiré, qui incarne souvent ce que le natif n'exprime pas lui-même." },
+      { "question": "Quelle est la différence entre la Maison 1 et la Maison 7 ?", "reponse": "La Maison 1 représente le moi, l'identité personnelle et la façon dont on se présente au monde, tandis que la Maison 7 symbolise l'autre, le partenaire et la relation engagée. Cet axe fondamental montre comment l'affirmation de soi et l'ouverture à l'autre doivent trouver un équilibre." }
+    ]
   },
   {
     "numero": 8,
@@ -1057,7 +1106,14 @@
       "uranus": "Uranus en Maison VIII semble indiquer une fin rapide, sinon violente. Il peut apporter des héritages inattendus difficiles à conserver. Bien aspecté, il confère à l'occultiste une intuition fulgurante et des capacités remarquables pour les sciences occultes et la transformation radicale.",
       "neptune": "Neptune en Maison VIII, bien aspecté, promet un héritage inattendu dont les avantages sont plus moraux que matériels. Il donne une fin de vie sortant de l'ordinaire. Mal aspecté, il porte danger d'ennuis en relation avec l'eau et des illusions dans les partages financiers.",
       "pluton": "Pluton en Maison VIII reste en tant que texte existant : transformations intenses, pouvoir d'alchimie personnelle. Le défi : maitrise des dynamiques de contrôle et d'obsession ; la maturité : renaissance totale et régénération cyclique."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 8 en astrologie ?", "reponse": "La Maison 8 gouverne les transformations profondes, la mort symbolique et physique, les héritages, la sexualité et les ressources partagées. Elle décrit les crises qui mènent à la régénération et la capacité du natif à traverser les épreuves pour renaître transformé." },
+      { "question": "Quel signe est associé à la Maison 8 ?", "reponse": "La Maison 8 est naturellement associée au Scorpion et à ses planètes maîtresses Pluton et Mars. Cette correspondance explique l'intensité, la profondeur émotionnelle et le pouvoir de transformation radicale qui caractérisent cette maison mystérieuse." },
+      { "question": "Que signifie avoir Pluton en Maison 8 ?", "reponse": "Pluton en Maison 8 est dans son domicile naturel, ce qui amplifie considérablement le pouvoir de transformation et de régénération. Le natif possède une capacité exceptionnelle à traverser les crises et à renaître de ses cendres, avec une intuition profonde des mécanismes cachés de la vie." },
+      { "question": "La Maison 8 est-elle vraiment la maison de la mort ?", "reponse": "La Maison 8 est traditionnellement liée à la mort, mais l'astrologie moderne l'interprète surtout comme la maison des transformations profondes et des fins de cycle nécessaires. Elle symbolise tout ce qui meurt pour renaître sous une forme nouvelle, incluant les héritages, les crises et la sexualité transformatrice." },
+      { "question": "Quelle est la différence entre la Maison 2 et la Maison 8 ?", "reponse": "La Maison 2 régit les biens personnels et les revenus gagnés par soi-même, tandis que la Maison 8 concerne les ressources partagées, les héritages et l'argent provenant des autres. Cet axe oppose l'avoir individuel aux possessions communes et aux transformations financières liées aux partenariats." }
+    ]
   },
   {
     "numero": 9,
@@ -1187,7 +1243,14 @@
       "uranus": "Uranus en Maison IX crée un attrait puissant pour les grands voyages, notamment par avion, mais non sans risques si l'horoscope est chargé de dissonances. Dans un horoscope harmonique, il confère des aptitudes remarquables pour les études philosophiques ou sociales, avec tendances sceptiques envers la religion dogmatique.",
       "neptune": "Neptune en Maison IX porte un idéal assez élevé et des tendances mystiques ou religieuses profondes. L'amour des voyages existe, mais reste souvent un rêve plus qu'une réalité. Neptune propice à l'intuition éclair, mais mal aspecté, il provoque des échecs en pays lointains ou dans les explorations.",
       "pluton": "Pluton en Maison IX, selon le texte existant, crée une transformation radicale des croyances et une intensité spirituelle. Le défi : fanatisme dogmatique ; la maturité : accès à la vérité profonde et transmutation des convictions anciennes."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 9 en astrologie ?", "reponse": "La Maison 9 gouverne les voyages lointains, la philosophie, la spiritualité, l'enseignement supérieur et la quête de sens. Elle décrit comment le natif élargit ses horizons, que ce soit par les études, les déplacements à l'étranger ou l'exploration de nouvelles croyances." },
+      { "question": "Quel signe est associé à la Maison 9 ?", "reponse": "La Maison 9 est naturellement associée au Sagittaire et à sa planète maîtresse Jupiter. Cette correspondance met en avant l'enthousiasme, l'optimisme, le goût de l'aventure et la soif de connaissance universelle qui animent cette maison tournée vers l'ailleurs." },
+      { "question": "Que signifie avoir Jupiter en Maison 9 ?", "reponse": "Jupiter en Maison 9 est dans son domicile naturel, ce qui favorise grandement les études supérieures, les voyages enrichissants et l'épanouissement philosophique. Le natif est souvent attiré par les cultures étrangères et possède une sagesse naturelle qui inspire son entourage." },
+      { "question": "La Maison 9 indique-t-elle si je vais voyager loin ?", "reponse": "La Maison 9 renseigne sur le rapport aux voyages lointains et à l'étranger, mais elle décrit surtout la nature de ces expériences plutôt qu'une certitude de déplacement. Des planètes bénéfiques bien aspectées en Maison 9 suggèrent des voyages heureux et formateurs, tandis que des tensions indiquent des défis à surmonter à l'étranger." },
+      { "question": "Quelle est la différence entre la Maison 3 et la Maison 9 ?", "reponse": "La Maison 3 concerne les déplacements courts, la communication quotidienne et l'apprentissage élémentaire, tandis que la Maison 9 régit les longs voyages, la pensée philosophique et l'enseignement supérieur. Cet axe oppose le savoir pratique et local à la quête de vérité universelle et d'horizons lointains." }
+    ]
   },
   {
     "numero": 10,
@@ -1317,7 +1380,14 @@
       "uranus": "Uranus en Maison X peut indiquer des ascensions soudaines suite à innovations ou découvertes bien soutenues. C'est une position propice pour l'ingénieur, l'électronicien ou l'aviateur. Mal aspecté, il provoque des échecs pénibles ou des revers brusques de fortune.",
       "neptune": "Neptune en Maison X crée une situation aux hauts et bas. Bien aspecté, il assure une élévation inattendue suite à revirements sociaux, politiques ou économiques, ou grâce à une bonne idée garantissant réussite dans une activité peu commune. Mal aspecté, la destinée publique s'écroule.",
       "pluton": "Pluton en Maison X, selon le texte existant, apporte pouvoir et transformations professionnelles intenses. Le défi : exercice coercitif du pouvoir ; la maturité : influence éthique et leadership authentique."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 10 en astrologie ?", "reponse": "La Maison 10, appelée aussi Milieu du Ciel, représente la carrière, la vocation, la réputation sociale et le statut public. Elle décrit l'ambition du natif, la direction professionnelle vers laquelle il tend et l'image qu'il projette dans la société." },
+      { "question": "Quel signe est associé à la Maison 10 ?", "reponse": "La Maison 10 est naturellement associée au Capricorne et à sa planète maîtresse Saturne. Cette correspondance souligne la discipline, la persévérance, le sens des responsabilités et la construction patiente d'une carrière solide qui caractérisent cette maison." },
+      { "question": "Que signifie avoir Saturne en Maison 10 ?", "reponse": "Saturne en Maison 10 est dans son domicile naturel, indiquant une carrière bâtie lentement mais solidement grâce à l'effort et la discipline. Le natif atteint souvent des positions d'autorité avec le temps, et ses réussites professionnelles sont durables car fondées sur le mérite et la persévérance." },
+      { "question": "Le Milieu du Ciel détermine-t-il mon métier ?", "reponse": "Le Milieu du Ciel indique la direction vocationnelle et le type de reconnaissance sociale recherchée, mais il ne désigne pas un métier précis. Le signe sur la cuspide et les planètes associées révèlent les qualités à exprimer professionnellement, laissant au natif le choix du domaine concret." },
+      { "question": "Quelle est la différence entre la Maison 4 et la Maison 10 ?", "reponse": "La Maison 4 représente la vie privée, le foyer et les racines familiales, tandis que la Maison 10 symbolise la vie publique, la carrière et la réputation. Cet axe vertical du thème oppose les fondations intimes sur lesquelles on s'appuie à l'accomplissement visible que l'on construit dans le monde." }
+    ]
   },
   {
     "numero": 11,
@@ -1447,7 +1517,14 @@
       "uranus": "Uranus en Maison XI indique que le natif ne semble guère rechercher les relations et les conserve difficilement à cause de ses conceptions déroutantes, ou devient victime de promesses mirifiques. Cependant, bien aspecté, il crée un réseau avant-gardiste d'alliés partageant une vision novatrice.",
       "neptune": "Neptune en Maison XI présage des amis parmi intellectuels, occultistes ou astrologues. Mal aspecté, il crée de grandes difficultés pour entretenir des relations durables, avec des brouilles consécutives à malentendus. Bien aspecté, il unit le natif à des compagnons d'âme idéalistes.",
       "pluton": "Pluton en Maison XI, selon le texte existant, crée du pouvoir social et des alliances intenses transformatrices. Le défi : jeux de pouvoir et domination de groupe ; la maturité : influence éthique et leadership catalyseur."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 11 en astrologie ?", "reponse": "La Maison 11 gouverne les amitiés, les projets collectifs, les espoirs, les idéaux et les groupes auxquels on appartient. Elle décrit le type de réseau social que le natif construit, ses aspirations pour l'avenir et sa capacité à contribuer au bien commun." },
+      { "question": "Quel signe est associé à la Maison 11 ?", "reponse": "La Maison 11 est naturellement associée au Verseau et à ses planètes maîtresses Uranus et Saturne. Cette correspondance met en lumière l'originalité, l'esprit d'innovation, l'engagement humanitaire et le besoin de liberté au sein du collectif." },
+      { "question": "Que signifie avoir Uranus en Maison 11 ?", "reponse": "Uranus en Maison 11 est dans son domicile naturel, ce qui renforce l'originalité dans les amitiés et l'attrait pour les groupes avant-gardistes. Le natif attire des amis atypiques et s'investit dans des causes progressistes, avec une vision novatrice de la société." },
+      { "question": "La Maison 11 montre-t-elle le type d'amis que j'attire ?", "reponse": "La Maison 11 décrit effectivement le type d'amitiés et de relations de groupe que le natif tisse naturellement. Le signe sur la cuspide et les planètes présentes indiquent les qualités recherchées chez les amis et la dynamique qui s'installe dans les cercles sociaux et associatifs." },
+      { "question": "Quelle est la différence entre la Maison 5 et la Maison 11 ?", "reponse": "La Maison 5 concerne l'expression créative personnelle, les amours et les plaisirs individuels, tandis que la Maison 11 régit les projets de groupe, les amitiés et les idéaux collectifs. Cet axe oppose le rayonnement personnel et le désir de reconnaissance à l'engagement désintéressé dans une cause qui dépasse l'individu." }
+    ]
   },
   {
     "numero": 12,
@@ -1577,6 +1654,13 @@
       "uranus": "Uranus en Maison XII peut être très propice pour l'occultisme et l'astrologie. Le natif est attiré par tout ce qui est caché. Avec graves dissonances, il subit des attaques sournoises d'ennemis difficiles à neutraliser et des maladies mystérieuses avec brusques hospitalisations.",
       "neptune": "Neptune en Maison XII crée malaise mystérieux, inimitiés sournoises et risques de privation de liberté ou accusations injustes. Bien aspecté, c'est une position excellente pour occultistes, astrologues et professions médicales ou para-médicales. Le natif accède à la sagesse par la dissolution progressive.",
       "pluton": "Pluton en Maison XII, selon le texte existant, porte transformations profondes et guérison radicale possible. Le défi : peurs ancestrales et auto-sabotage inconscient ; la maturité : renaissance intérieure totale et transmutation de l'âme."
-    }
+    },
+    "faq": [
+      { "question": "Que représente la Maison 12 en astrologie ?", "reponse": "La Maison 12 gouverne l'inconscient, la spiritualité, les épreuves cachées, l'isolement volontaire et les secrets. Elle décrit les zones d'ombre du natif, ses peurs profondes, mais aussi sa capacité de transcendance, de compassion universelle et de connexion au divin." },
+      { "question": "Quel signe est associé à la Maison 12 ?", "reponse": "La Maison 12 est naturellement associée aux Poissons et à leurs planètes maîtresses Neptune et Jupiter. Cette correspondance souligne la dimension mystique, intuitive et sacrificielle de cette maison tournée vers l'invisible et la dissolution des frontières de l'ego." },
+      { "question": "Que signifie avoir Neptune en Maison 12 ?", "reponse": "Neptune en Maison 12 est dans son domicile naturel, ce qui amplifie considérablement l'intuition, la sensibilité psychique et la vie intérieure. Le natif possède un accès privilégié à l'inconscient collectif, avec un don pour la méditation, l'art inspiré et la guérison spirituelle." },
+      { "question": "La Maison 12 est-elle une maison maléfique ?", "reponse": "La tradition astrologique considérait la Maison 12 comme difficile car liée aux épreuves, à l'enfermement et aux ennemis cachés. L'astrologie moderne la réévalue comme la maison de la vie intérieure et de la transcendance, où les souffrances peuvent devenir sources de sagesse et de compassion profonde." },
+      { "question": "Quelle est la différence entre la Maison 6 et la Maison 12 ?", "reponse": "La Maison 6 concerne le service concret, la santé physique et l'organisation du quotidien, tandis que la Maison 12 gouverne le lâcher-prise, la santé psychique et la vie spirituelle. Cet axe oppose l'action pratique et mesurable au travail intérieur invisible et à l'abandon nécessaire pour guérir en profondeur." }
+    ]
   }
 ]

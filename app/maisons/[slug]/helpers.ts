@@ -82,6 +82,9 @@ export type House = {
   /* — Planet in house (legacy string OR rich object) — */
   planetesDansLaMaison?: Record<string, string | PlanetInHouse>;
   planetesDansLaMaisonOverrides?: Record<string, PlanetInHouse>;
+
+  /* — FAQ — */
+  faq?: Array<{ question: string; reponse: string }>;
 };
 
 export type Planet = {

@@ -155,6 +155,18 @@ function buildJsonLd(house: typeof HOUSES[number]) {
           item: absoluteUrl(crumb.href),
         })),
       },
+      ...(house.faq && house.faq.length > 0
+        ? [
+            {
+              "@type": "FAQPage",
+              mainEntity: house.faq.map((f) => ({
+                "@type": "Question",
+                name: f.question,
+                acceptedAnswer: { "@type": "Answer", text: f.reponse },
+              })),
+            },
+          ]
+        : []),
     ],
   }];
 }
@@ -178,6 +190,9 @@ function buildTocSections(house: typeof HOUSES[number]) {
   if (has(house.pedagogie?.aRetenir)) push("Pédagogie");
   if (has(house.pratique?.phrasesCles)) push("Pratique");
   push("Planètes dans cette maison");
+
+  if (has(house.faq))
+    sections.push({ id: "faq", label: "FAQ" });
 
   return sections;
 }
@@ -325,7 +340,7 @@ export default async function HousePage({
               Définition
             </p>
             <p className="mt-2 text-base leading-relaxed text-text/85 sm:text-lg">
-              La <strong>{titreCourt}</strong> ({house.nom}) est {house.type === "angulaire" ? "une maison angulaire" : house.type === "succédente" ? "une maison succédente" : "une maison cadente"} du{" "}
+              La <strong>{titreCourt}</strong> ({house.nom}) est {house.type === "angulaire" ? "une maison angulaire" : house.type === "succedente" ? "une maison succédente" : "une maison cadente"} du{" "}
               <Link href="/#maisons" className={`underline decoration-1 underline-offset-2 ${theme.text}`}>thème natal</Link>.
               {house.niveauLecture?.arena && <> Son domaine : <strong>{house.niveauLecture.arena.toLowerCase()}</strong>.</>}
               {house.axe && <> Elle fait partie de l&apos;axe <strong>{house.axe}</strong>.</>}
@@ -711,8 +726,8 @@ export default async function HousePage({
             {/* ---- Planètes dans cette maison ---- */}
             <Section id={sectionId("Planètes dans cette maison")}>
               <SectionHeading
-                title="Planètes dans cette maison"
-                subtitle={`Interprétation des 10 planètes en ${titreCourt}`}
+                title={`Les 10 planètes en ${titreCourt} : interprétation`}
+                subtitle={`Comment chaque planète colore cette maison.`}
                 icon={Sparkles}
                 dot={theme.dot}
                 text={theme.text}
@@ -744,6 +759,39 @@ export default async function HousePage({
         <div className="mb-12 lg:hidden">
           <TableOfContents sections={tocSections} text={theme.text} />
         </div>
+
+        {/* ============================================================ */}
+        {/*  FAQ                                                          */}
+        {/* ============================================================ */}
+        {has(house.faq) && (
+          <Section id="faq">
+            <SectionHeading
+              title={`Questions fréquentes sur la ${titreCourt}`}
+              dot={theme.dot}
+              text={theme.text}
+              id="faq"
+            />
+            <div className="space-y-4">
+              {house.faq!.map((f, i) => (
+                <details
+                  key={i}
+                  className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md"
+                  {...(i === 0 ? { open: true } : {})}
+                >
+                  <summary className="cursor-pointer list-none p-6 font-serif text-lg font-medium text-white/90 [&::-webkit-details-marker]:hidden">
+                    <span className="flex items-center justify-between">
+                      {f.question}
+                      <span className={`ml-3 ${theme.text} opacity-60 transition-transform group-open:rotate-45`}>+</span>
+                    </span>
+                  </summary>
+                  <p className="px-6 pb-6 text-sm leading-relaxed text-text/75 md:text-base">
+                    {f.reponse}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </Section>
+        )}
 
         {/* ============================================================ */}
         {/*  Footer nav                                                   */}
