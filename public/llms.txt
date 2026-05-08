@@ -1,0 +1,59 @@
+# Astro Cours
+
+> Cours d'astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.
+
+Astro Cours est un site éducatif francophone consacré à l'apprentissage de l'astrologie. Il propose des cours progressifs couvrant les fondamentaux (signes, planètes, maisons) ainsi que des notions avancées (aspects, transits, synastrie, révolution solaire).
+
+## Cours principaux
+
+- [Les 12 signes du zodiaque](https://www.astro-cours.com/signes/belier): Bélier, Taureau, Gémeaux, Cancer, Lion, Vierge, Balance, Scorpion, Sagittaire, Capricorne, Verseau, Poissons
+- [Les 10 planètes](https://www.astro-cours.com/planetes/soleil): Soleil, Lune, Mercure, Vénus, Mars, Jupiter, Saturne, Uranus, Neptune, Pluton
+- [Les 12 maisons astrologiques](https://www.astro-cours.com/maisons/maison-1): Maison I à XII
+- [Les aspects](https://www.astro-cours.com/aspects): Conjonction, opposition, trigone, carré, sextile et aspects mineurs
+- [Les transits](https://www.astro-cours.com/transits): Influence des planètes en mouvement sur le thème natal
+- [La synastrie](https://www.astro-cours.com/synastrie): Compatibilité amoureuse et relationnelle entre deux thèmes
+- [La révolution solaire](https://www.astro-cours.com/revolution-solaire): Prévisions annuelles basées sur le retour du Soleil
+- [Les rétrogrades](https://www.astro-cours.com/retrogrades): Signification des planètes rétrogrades
+- [Les nœuds lunaires](https://www.astro-cours.com/noeuds-lunaires): Axe karmique nord-sud
+- [Lilith](https://www.astro-cours.com/lilith): La Lune Noire en astrologie
+- [Les points fictifs](https://www.astro-cours.com/points-fictifs): Points sensibles du thème
+- [Les astéroïdes](https://www.astro-cours.com/asteroides): Chiron, Cérès, Junon, Pallas, Vesta
+- [Les maîtrises](https://www.astro-cours.com/maitrises): Domicile, exaltation, exil et chute des planètes
+- [Les cuspides des maisons](https://www.astro-cours.com/cuspides-des-maisons): Début de chaque maison astrologique
+- [Les décans](https://www.astro-cours.com/les-decans): Subdivision des signes en trois décans
+- [Les maisons dérivées](https://www.astro-cours.com/maisons-derivees): Technique d'interprétation avancée
+- [Dictionnaire astrologique](https://www.astro-cours.com/dictionnaire-astrologique): Glossaire des termes astrologiques
+
+## Blog
+
+- [Qu'est-ce qu'un thème astral ?](https://www.astro-cours.com/blog/qu-est-ce-qu-un-theme-astral)
+- [Comprendre son signe astrologique et son ascendant](https://www.astro-cours.com/blog/comprendre-son-signe-astrologique-et-son-ascendant)
+- [Pourquoi votre horoscope ne vous ressemble pas](https://www.astro-cours.com/blog/pourquoi-votre-horoscope-ne-vous-ressemble-pas)
+- [Qualités et défauts des 12 signes du zodiaque](https://www.astro-cours.com/blog/qualites-defauts-12-signes-zodiaque)
+- [Amour, fidélité et signes du zodiaque](https://www.astro-cours.com/blog/amour-fidelite-signes-zodiaque)
+- [Vénus en signe : ton style amoureux](https://www.astro-cours.com/blog/venus-en-signe-ton-style-amoureux)
+- [Mars en signes : désir, libido, action, sexe](https://www.astro-cours.com/blog/mars-en-signes-desir-libido-action-sexe)
+- [Finances et thème astral](https://www.astro-cours.com/blog/finances-theme-astral)
+- [Orientation professionnelle et thème astral](https://www.astro-cours.com/blog/orientation-professionnelle-theme-astral)
+- [Pleine lune, nouvelle lune et cycles en astrologie](https://www.astro-cours.com/blog/pleine-lune-nouvelle-lune-cycles-astrologie)
+- [Conjonction : mélange des forces](https://www.astro-cours.com/blog/conjonction-melange-des-forces)
+- [Manipulateurs et pervers narcissiques en astrologie](https://www.astro-cours.com/blog/manipulateurs-pervers-narcissiques-astrologie)
+- [Vendre sa maison avec l'astrologie](https://www.astro-cours.com/blog/comment-regarder-le-meilleur-moment-pour-vendre-sa-maison-avec-l-astrologie)
+- [Quel type de sportif selon son signe astrologique](https://www.astro-cours.com/blog/quel-type-de-sportif-selon-signe-astrologique)
+- [Le type Solarien](https://www.astro-cours.com/blog/solarien)
+- [Le type Lunarien](https://www.astro-cours.com/blog/lunarien)
+- [Le type Mercurien](https://www.astro-cours.com/blog/mercurien)
+- [Le type Vénusien](https://www.astro-cours.com/blog/venusien)
+- [Le type Martien](https://www.astro-cours.com/blog/martien)
+- [Le type Jupitérien](https://www.astro-cours.com/blog/jupiterien)
+- [Le type Saturnien](https://www.astro-cours.com/blog/saturnien)
+- [Le type Uranien](https://www.astro-cours.com/blog/uranien)
+- [Le type Neptunien](https://www.astro-cours.com/blog/neptunien)
+- [Le type Plutonien](https://www.astro-cours.com/blog/plutonien)
+
+## Informations
+
+- [À propos](https://www.astro-cours.com/a-propos)
+- [Auteur : Stéphane Gamot](https://www.astro-cours.com/auteur/stephane-gamot)
+- [Mentions légales](https://www.astro-cours.com/mentions-legales)
+- [Politique de confidentialité](https://www.astro-cours.com/confidentialite)

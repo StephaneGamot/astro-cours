@@ -155,7 +155,7 @@ export default function MentionsLegalesPage() {
               rel="noopener noreferrer"
               className="text-violet-400/90 underline decoration-violet-400/30 underline-offset-2 transition-colors hover:text-violet-300 hover:decoration-violet-300/50"
             >
-              https://vercel.com
+              Vercel
             </a>
           </address>
         </Article>

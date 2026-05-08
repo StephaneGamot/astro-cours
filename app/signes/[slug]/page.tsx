@@ -840,9 +840,21 @@ function SectionTitle({ title, color }: { title: string; color: string }) {
 /* ── Prose ───────────────────────────────────────────────────────────────────── */
 
 function Prose({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+  const cls = `text-base leading-relaxed md:text-lg md:leading-8 ${className}`;
+  const style = { color: "rgb(var(--text) / 0.84)" };
+
+  if (typeof children === "string" && children.includes("\n\n")) {
+    return (
+      <>
+        {children.split("\n\n").map((p, i) => (
+          <p key={i} className={cls} style={style}>{p}</p>
+        ))}
+      </>
+    );
+  }
+
   return (
-    <p className={`text-base leading-relaxed md:text-lg md:leading-8 ${className}`}
-       style={{ color: "rgb(var(--text) / 0.84)" }}>
+    <p className={cls} style={style}>
       {children}
     </p>
   );
