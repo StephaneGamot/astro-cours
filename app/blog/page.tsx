@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
-import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
+import { SITE_NAME, SITE_URL, PUBLISHER_ORG, absoluteUrl, buildTitle } from "@/lib/seo";
 
 const CANONICAL = "/blog";
 const TITLE = "Blog astrologie : cours, aspects et transits";
@@ -10,7 +10,7 @@ const DESCRIPTION =
   "Articles d'astrologie structurés : bases, aspects, planètes et transits expliqués avec méthode et exemples concrets. Explorez nos cours progressifs !";
 
 export const metadata: Metadata = {
-  title: buildTitle(TITLE),
+  title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: absoluteUrl(CANONICAL) },
   openGraph: {
@@ -77,6 +77,24 @@ export default async function BlogPage({
 
   return (
     <main id="main-content" className="mx-auto max-w-6xl px-4 py-10 space-y-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Blog d'astrologie : cours et méthodes",
+            description: DESCRIPTION,
+            url: `${SITE_URL}${CANONICAL}`,
+            isPartOf: {
+              "@type": "WebSite",
+              name: SITE_NAME,
+              url: SITE_URL,
+            },
+            publisher: PUBLISHER_ORG,
+          }),
+        }}
+      />
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         <div className="pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full bg-white/10 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />

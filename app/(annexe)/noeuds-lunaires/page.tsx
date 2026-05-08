@@ -207,7 +207,7 @@ export default function NoeudsLunairesPage() {
         Vous voulez comprendre ce que révèlent les <strong>noeuds lunaires</strong> dans votre thème natal ? Beaucoup de sources confondent karma, destin et prédiction sans donner de méthode exploitable. Cette page propose une lecture claire de l'axe Noeud Nord / Noeud Sud par signe, maison et aspects, avec les pièges à éviter et les bonnes pratiques.
       </p>
 
-<div className={"mb-12 overflow-hidden rounded-3xl border bg-white/20 "}> <div className="relative"> <Image src={TeteDuDragon} alt={"Illustration symbolique "} width={1600} height={900} priority className="h-auto w-full object-cover" sizes="(max-width: 768px) 100vw, 896px" /> <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent" /> <div className="pointer-events-none absolute bottom-0 left-0 h-1 w-full" /> </div> </div>
+<div className={"mb-12 overflow-hidden rounded-3xl border bg-white/20 "}> <div className="relative"> <Image src={TeteDuDragon} alt={"Illustration symbolique des nœuds lunaires nord et sud en astrologie"} width={1600} height={900} priority className="h-auto w-full object-cover" sizes="(max-width: 768px) 100vw, 896px" /> <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/15 to-transparent" /> <div className="pointer-events-none absolute bottom-0 left-0 h-1 w-full" /> </div> </div>
       {/* Définition */}
       <section id="definition" className="mb-10 scroll-mt-24">
         <H2 id="definition" kind="axis">

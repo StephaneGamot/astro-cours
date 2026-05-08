@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
   title: {
     default: `Cours d'astrologie — ${SITE_NAME}`,
-    template: `%s`,
+    template: `%s — ${SITE_NAME}`,
   },
 
   description: DEFAULT_DESC,
@@ -54,6 +54,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
+    site: "@astro_cours",
+    creator: "@astro_cours",
     title: SITE_NAME,
     description: DEFAULT_DESC,
     images: [OG_IMAGE],
@@ -64,6 +66,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: SITE_URL,
     languages: { "fr": SITE_URL },
+  },
+
+  verification: {
+    google: "ihg3LVKNM0DKUMbESaivmUlpEYI6_asrhZirUGlQH8Y",
   },
 
   other: {

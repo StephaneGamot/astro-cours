@@ -17,7 +17,7 @@ const DESCRIPTION =
   "Dictionnaire astrologique complet : définitions claires des termes essentiels — planètes, signes, maisons, aspects et transits. Explorez notre référence !";
 
 export const metadata: Metadata = {
-  title: buildTitle(TITLE),
+  title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     locale: "fr_FR",
     type: "website",
-    images: [{ url: absoluteUrl("/og/dico.jpg"), width: 1024, height: 683, alt: buildTitle(TITLE) }],
+    images: [{ url: absoluteUrl("/og/dico.jpg"), width: 1200, height: 630, alt: buildTitle(TITLE) }],
   },
   twitter: {
     card: "summary_large_image",
     title: buildTitle(TITLE),
     description: DESCRIPTION,
-    images: [absoluteUrl("/og/cover.jpg")],
+    images: [absoluteUrl("/og/dico.jpg")],
   },
 };
 

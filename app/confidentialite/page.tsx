@@ -7,7 +7,7 @@ const DESCRIPTION =
   "Politique de confidentialité d'Astro Cours : cookies, données collectées, durée de conservation, sécurité et droits RGPD. Consultez vos droits ici.";
 
 export const metadata: Metadata = {
-  title: buildTitle(TITLE),
+  title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },
@@ -76,6 +76,14 @@ export default function ConfidentialitePage() {
 
   return (
     <main id="main-content" className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:py-20">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: "Politique de confidentialité",
+        description: DESCRIPTION,
+        url: "https://www.astro-cours.com/confidentialite",
+        isPartOf: { "@type": "WebSite", name: SITE_NAME, url: "https://www.astro-cours.com" }
+      }) }} />
       {/* ── En-tête ─────────────────────────────────────────────── */}
       <header className="mb-12 space-y-4 text-center">
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-violet-400">

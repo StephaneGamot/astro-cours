@@ -358,7 +358,7 @@ export default function AsteroidesPage() {
         <div className="relative">
           <Image
             src={Asteroides}
-            alt={"Illustration symbolique "}
+            alt="Illustration symbolique des astéroïdes Cérès, Pallas, Junon, Vesta et Chiron en astrologie"
             width={1600}
             height={900}
             priority
@@ -430,7 +430,7 @@ export default function AsteroidesPage() {
                     >
                       <Image
                         src={asteroidImageSrc(a.slug)}
-                        alt={`symbole de ${a.name} `}
+                        alt={`symbole de ${a.name}`}
                         fill
                         className="object-cover"
                         sizes="64px"

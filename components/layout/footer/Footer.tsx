@@ -236,7 +236,7 @@ const LEGAL: FooterItem[] = [
   { name: "Mentions légales", href: "/mentions-legales" },
   { name: "Confidentialité", href: "/confidentialite" },
   { name: "Sitemap", href: "/sitemap.xml" },
-    { name: "A propos", href: "/a-propos" },
+    { name: "À propos", href: "/a-propos" },
         { name: "Auteur", href: "/auteur/stephane-gamot" },
 ];
 

@@ -14,7 +14,7 @@ const SITE_NAME = "Astro Cours";
 const OG_IMAGE = `${SITE_URL}/og/cover.jpg`;
 
 export const metadata: Metadata = {
-  title: "Cours d'astrologie : signes, planètes, maisons — Astro Cours",
+  title: { absolute: "Cours d'astrologie : signes, planètes, maisons — Astro Cours" },
   description:
     "Cours d'astrologie premium : 12 signes, planètes, maisons, aspects et transits. Une méthode claire, moderne et structurée, avec repères et exemples concrets.",
   alternates: { canonical: SITE_URL },

@@ -6,7 +6,7 @@ import {
   Library,
   Compass,
 } from "lucide-react";
-import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
+import { SITE_NAME, SITE_URL, AUTHOR_PERSON, absoluteUrl, buildTitle } from "@/lib/seo";
 
 /* ------------------------------------------------------------------ */
 /*  SEO                                                               */
@@ -17,7 +17,7 @@ const DESCRIPTION =
   "Découvrez le parcours de Stéphane Gamot, passionné d'astrologie depuis plus de 40 ans : de la mythologie grecque à une pratique rigoureuse et pédagogique.";
 
 export const metadata: Metadata = {
-  title: buildTitle(TITLE),
+  title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },
@@ -223,6 +223,24 @@ function Chapter({
 export default function AProposPage() {
   return (
     <main id="main-content" className="relative mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            name: "À propos d'Astro Cours",
+            description: DESCRIPTION,
+            url: `${SITE_URL}${CANONICAL}`,
+            mainEntity: AUTHOR_PERSON,
+            isPartOf: {
+              "@type": "WebSite",
+              name: SITE_NAME,
+              url: SITE_URL,
+            },
+          }),
+        }}
+      />
       {/* ── Glow décoratif ── */}
       <div
         aria-hidden

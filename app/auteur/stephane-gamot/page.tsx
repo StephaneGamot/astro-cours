@@ -22,10 +22,10 @@ import { SITE_NAME, SITE_URL, absoluteUrl, buildTitle } from "@/lib/seo";
 const CANONICAL = "/auteur/stephane-gamot";
 const TITLE = "St\u00e9phane Gamot — Astrologue & Auteur";
 const DESCRIPTION =
-  "Passionn\u00e9 d\u2019astrologie depuis plus de 40\u00a0ans, form\u00e9 pendant 3\u00a0ans aupr\u00e8s de Jean-Marie Michiels. D\u00e9couvrez ma vision d\u2019une astrologie traditionnelle modernisée";
+  "Passionné d'astrologie depuis 40 ans, formé 3 ans auprès de Jean-Marie Michiels. Découvrez ma vision d'une astrologie traditionnelle modernisée.";
 
 export const metadata: Metadata = {
-  title: buildTitle(TITLE),
+  title: TITLE,
   description: DESCRIPTION,
   alternates: { canonical: absoluteUrl(CANONICAL) },
   robots: { index: true, follow: true },

@@ -57,6 +57,11 @@ export function buildMeta(opts: {
   const imgPath = opts.ogImage ?? DEFAULT_OG_IMAGE;
   const imgAbs = absoluteUrl(imgPath);
 
+  // opts.title is the bare page title (no branding suffix).
+  // The layout template adds " — Astro Cours" to metadata.title automatically.
+  // og/twitter titles need the full branded title, so we build it here.
+  const brandedTitle = buildTitle(opts.title);
+
   return {
     title: opts.title,
     description: opts.description,
@@ -65,7 +70,7 @@ export function buildMeta(opts: {
     alternates: { canonical: canonicalAbs },
 
     openGraph: {
-      title: opts.title,
+      title: brandedTitle,
       description: opts.description,
       url: canonicalAbs, // ✅ ABS
       siteName: SITE_NAME,
@@ -78,14 +83,14 @@ export function buildMeta(opts: {
           url: imgAbs,
           width: 1200,
           height: 630,
-          alt: opts.title,
+          alt: brandedTitle,
         },
       ],
     },
 
     twitter: {
       card: "summary_large_image",
-      title: opts.title,
+      title: brandedTitle,
       description: opts.description,
 
       // ✅ twitter image (sinon certains audits râlent)

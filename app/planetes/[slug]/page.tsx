@@ -91,8 +91,7 @@ export async function generateMetadata({
 
   /* ── Title 50-60 chars ────────────────────────────────── */
   const shortName = planet.name.length > 8 ? planet.name : planet.name;
-  const titleBase = `${shortName} en astrologie : symbolique & aspects`;
-  const title = buildTitle(titleBase);
+  const title = `${shortName} en astrologie : symbolique & aspects`;
 
   /* ── Description 140-155 chars avec CTA ────────────────── */
   const rawDesc = planet.identite?.symbolique || "";
@@ -139,6 +138,8 @@ function buildJsonLd(planet: ReturnType<typeof getPlanet>) {
         author: AUTHOR_PERSON,
         publisher: PUBLISHER_ORG,
         mainEntityOfPage: absoluteUrl(`/planetes/${planet.slug}`),
+        datePublished: "2026-04-09",
+        dateModified: "2026-05-08",
         inLanguage: "fr",
       },
       {

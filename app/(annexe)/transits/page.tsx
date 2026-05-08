@@ -55,7 +55,7 @@ const TRANSIT_DESC =
   "Guide complet des transits astrologiques : définition, méthode, orbes et interprétation planète par planète. Découvrez notre cours structuré et concret !";
 
 export const metadata: Metadata = {
-  title: buildTitle(TRANSIT_TITLE),
+  title: TRANSIT_TITLE,
   description: TRANSIT_DESC,
   alternates: { canonical: absoluteUrl("/transits") },
   openGraph: {

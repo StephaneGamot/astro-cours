@@ -53,10 +53,22 @@ export function ArticleLayout({
     inLanguage: "fr",
     author: AUTHOR_PERSON,
     publisher: PUBLISHER_ORG,
+    articleSection: "Astrologie",
     mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
     ...(meta.cover
       ? { image: [absoluteUrl(meta.cover)] }
       : {}),
+  };
+
+  /* ── JSON-LD BreadcrumbList ────────────────────────────── */
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+      { "@type": "ListItem", position: 3, name: meta.title },
+    ],
   };
 
   return (
@@ -64,6 +76,10 @@ export function ArticleLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
       <main id="main-content" className="mx-auto max-w-6xl px-4 py-10 space-y-8">

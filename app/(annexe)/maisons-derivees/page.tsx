@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 
 import article from "@/data/maisons-derivees.json";
-import { buildMeta, buildTitle } from "@/lib/seo";
+import { buildMeta, buildTitle, AUTHOR_PERSON } from "@/lib/seo";
 import Engrenages from "@/public/images/maisons/roue-astrologique-engrenage-imbriques.webp"
 import Maisonsderivees from "@/public/images/maisons/maisons-derivees.webp"
 
@@ -66,7 +66,7 @@ const content = article as ArticleData;
 // 2. SEO & META (Optimisé Google & Next 16)
 // ==========================================
 export const metadata: Metadata = buildMeta({
-  title: buildTitle(content.title),
+  title: content.title,
   description: content.description,
   canonicalPath: `/${content.slug}`,
   type: "article",
@@ -80,15 +80,15 @@ const pageJsonLd = {
   description: content.description,
   inLanguage: "fr-FR",
   mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
-  author: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com" },
+  author: AUTHOR_PERSON,
   publisher: { 
     "@type": "Organization", 
     name: "Astro Cours", 
     logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/logo.webp" } 
   },
   image: [`https://www.astro-cours.com/images/articles/${content.slug}/cover.webp`],
-  datePublished: "2024-05-20T08:00:00+08:00",
-  dateModified: "2024-05-20T08:00:00+08:00",
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
 };
 
 const faqJsonLd = {

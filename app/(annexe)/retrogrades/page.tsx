@@ -437,7 +437,7 @@ export default function RetrogradesPage() {
 >
   <Image
     src={planetImg(p.slug)}
-    alt={p.nom}
+    alt={`${p.nom} en astrologie`}
     fill
     className="object-cover"
     sizes="64px"

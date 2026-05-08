@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 
 import article from "@/data/cuspides-maisons.json";
-import { buildMeta, buildTitle } from "@/lib/seo";
+import { buildMeta, buildTitle, AUTHOR_PERSON } from "@/lib/seo";
 import CupsidesImage from "@/public/images/maisons/maisons-cuspides.webp"
 // ==========================================
 // 1. TYPAGE STRICT (Basé sur ton JSON exact)
@@ -77,7 +77,7 @@ const content = article as ArticleData;
 // 2. SEO & META
 // ==========================================
 export const metadata: Metadata = buildMeta({
-  title: buildTitle(content.title),
+  title: content.title,
   description: content.description,
   canonicalPath: `/${content.slug}`,
   type: "article",
@@ -91,9 +91,11 @@ const pageJsonLd = {
   description: content.description,
   inLanguage: "fr-FR",
   mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
-  author: { "@type": "Organization", name: "Astro Cours" },
+  author: AUTHOR_PERSON,
   publisher: { "@type": "Organization", name: "Astro Cours" },
   image: ["https://www.astro-cours.com/images/articles/cuspides-maisons/a.webp"],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
 };
 
 const breadcrumbJsonLd = {

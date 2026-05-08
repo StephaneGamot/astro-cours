@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 import article from "@/data/les-decans.json";
-import { buildMeta, buildTitle } from "@/lib/seo";
+import { buildMeta, buildTitle, AUTHOR_PERSON } from "@/lib/seo";
 
 // IMPORTS DE TES IMAGES (À placer dans ton dossier public)
 import DecansHero from "@/public/images/decans-zodiaque-egyptien.webp";
@@ -46,7 +46,7 @@ const content = article as ArticleData;
 // 2. SEO & META
 // ==========================================
 export const metadata: Metadata = buildMeta({
-  title: buildTitle(content.title),
+  title: content.title,
   description: content.description,
   canonicalPath: `/${content.slug}`,
   type: "article",
@@ -60,8 +60,10 @@ const pageJsonLd = {
   description: content.description,
   inLanguage: "fr-FR",
   mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
-  author: { "@type": "Organization", name: "Astro Cours" },
-  publisher: { "@type": "Organization", name: "Astro Cours" }
+  author: AUTHOR_PERSON,
+  publisher: { "@type": "Organization", name: "Astro Cours" },
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
 };
 
 // ==========================================

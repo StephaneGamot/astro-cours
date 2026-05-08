@@ -83,9 +83,7 @@ export async function generateMetadata({
   if (!house) return {};
 
   const titreCourt = house.titreCourt ?? `Maison ${toRoman(house.numero)}`;
-  const title = buildTitle(
-    `${titreCourt} en astrologie, signification & interprétation`
-  );
+  const title = `${titreCourt} en astrologie, signification & interprétation`;
 
   const arena = house.niveauLecture?.arena?.trim();
   const motsCles = (house.niveauLecture?.motsCles ?? []).slice(0, 3);
@@ -143,6 +141,8 @@ function buildJsonLd(house: typeof HOUSES[number]) {
         image: absoluteUrl(`/images/maisons/hero/${toRoman(house.numero)}.webp`),
         author: AUTHOR_PERSON,
         publisher: PUBLISHER_ORG,
+        datePublished: "2026-04-09",
+        dateModified: "2026-05-08",
         inLanguage: "fr",
         mainEntityOfPage: url,
       },
@@ -252,7 +252,7 @@ export default async function HousePage({
       {/* Background aura */}
       <AuraGlow aura={theme.aura} />
 
-      <div className="relative mx-auto max-w-6xl px-4 pb-16 sm:px-6">
+      <main id="main-content" className="relative mx-auto max-w-6xl px-4 pb-16 sm:px-6">
         {/* Breadcrumbs */}
         <Breadcrumbs items={breadcrumbs} />
 
@@ -833,7 +833,7 @@ export default async function HousePage({
             </Link>
           </div>
         </footer>
-      </div>
+      </main>
     </>
   );
 }

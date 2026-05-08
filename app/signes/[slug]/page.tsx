@@ -192,6 +192,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
+      images: [data.images.signe],
     },
   };
 }
@@ -270,7 +271,7 @@ export default async function SignePage({
         publisher: PUBLISHER_ORG,
         mainEntityOfPage: `https://www.astro-cours.com/signes/${data.slug}`,
         datePublished: "2026-04-09",
-        dateModified: new Date().toISOString().split("T")[0],
+        dateModified: "2026-05-08",
         articleSection: "Astrologie",
         inLanguage: "fr",
       },
@@ -298,7 +299,7 @@ export default async function SignePage({
       {/* Schema.org — @graph unique */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdGraph) }} />
 
-      <article className="min-h-screen antialiased">
+      <article id="main-content" className="min-h-screen antialiased">
 
         {/* ━━━━━━━━━━━ BREADCRUMBS ━━━━━━━━━━━ */}
         <Breadcrumbs
@@ -740,7 +741,7 @@ function HeroSection({ data }: { data: SigneData }) {
           src={data.images.signe}
           alt={`Signe du ${data.nom}`}
           fill
-          sizes="100vw"
+          sizes="(min-width: 768px) 176px, 128px"
           className="object-contain"
           style={{ filter: `drop-shadow(0 0 40px ${data.couleur.primaire}30)` }}
           priority
@@ -952,7 +953,7 @@ function CompatCard({ compat, currentSlug }: { compat: SigneData["compatibilites
       <div className="mb-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="relative h-8 w-8 overflow-hidden rounded-full">
-            <Image src={`/images/zodiaque/${compat.signe}.webp`} alt={`Illustration de la planète ${compat.nom}`} fill sizes="32px" className="object-cover opacity-70 transition-opacity group-hover:opacity-100" />
+            <Image src={`/images/zodiaque/${compat.signe}.webp`} alt={`Illustration du signe ${compat.nom}`} fill sizes="32px" className="object-cover opacity-70 transition-opacity group-hover:opacity-100" />
           </div>
           <h3 className="!mt-0 !border-b-0 !pb-0 !text-sm !font-semibold">{compat.nom}</h3>
         </div>
