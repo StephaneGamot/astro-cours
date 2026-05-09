@@ -9,12 +9,12 @@ import type { Metadata } from "next";
  */
 
 export const metadata: Metadata = {
-  title: "Aspects astrologiques — Orbes & interprétation (cours complet)",
+  title: "Aspects astrologiques — Orbes & interprétation",
   description:
     "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
   alternates: { canonical: "https://www.astro-cours.com/aspects" },
   openGraph: {
-    title: "Aspects astrologiques — Orbes & interprétation (cours complet)",
+    title: "Aspects astrologiques — Orbes & interprétation",
     description:
       "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
     url: "https://www.astro-cours.com/aspects",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aspects astrologiques — Orbes & interprétation (cours complet)",
+    title: "Aspects astrologiques — Orbes & interprétation",
     description:
       "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
     images: ["https://www.astro-cours.com/og/cover.jpg"],
