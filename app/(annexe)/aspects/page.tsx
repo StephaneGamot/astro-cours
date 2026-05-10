@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Aspects astrologiques — Orbes & interprétation",
     description:
       "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
-    url: "https://www.astro-cours.com/aspects",
+    url: absoluteUrl("/aspects"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",

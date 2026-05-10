@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 import article from "@/data/les-decans.json";
-import { buildMeta, buildTitle, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import { buildMeta, buildTitle, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL, absoluteUrl } from "@/lib/seo";
 
 // IMPORTS DE TES IMAGES (À placer dans ton dossier public)
 import DecansHero from "@/public/images/decans-zodiaque-egyptien.webp";
@@ -59,7 +59,7 @@ const pageJsonLd = {
   headline: content.title,
   description: content.description,
   inLanguage: "fr-FR",
-  mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
+  mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(`/${content.slug}`) },
   author: AUTHOR_PERSON,
   publisher: PUBLISHER_ORG,
   image: [`${SITE_URL}/og/cover.jpg`],

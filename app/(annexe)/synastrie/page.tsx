@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Synastrie — Compatibilité & dynamique relationnelle",
     description:
       "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
-    url: "https://www.astro-cours.com/synastrie",
+    url: absoluteUrl("/synastrie"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",

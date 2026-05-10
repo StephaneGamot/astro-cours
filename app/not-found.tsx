@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Page introuvable — Erreur 404, découvrez nos cours",
@@ -10,18 +11,18 @@ export const metadata: Metadata = {
     title: "Page introuvable — Erreur 404",
     description:
       "La page que vous cherchez n'existe pas ou a été déplacée. Retrouvez nos cours d'astrologie : signes, planètes, maisons et aspects.",
-    url: "https://www.astro-cours.com",
+    url: absoluteUrl("/"),
     type: "website",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Page introuvable — Erreur 404",
     description:
       "La page que vous cherchez n'existe pas ou a été déplacée. Retrouvez nos cours d'astrologie : signes, planètes, maisons et aspects.",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 

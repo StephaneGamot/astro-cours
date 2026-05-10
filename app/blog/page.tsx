@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE_NAME,
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: buildTitle(TITLE),
     description: DESCRIPTION,
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 

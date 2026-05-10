@@ -82,8 +82,8 @@ export default function MentionsLegalesPage() {
         "@type": "WebPage",
         name: "Mentions légales et informations juridiques",
         description: DESCRIPTION,
-        url: "https://www.astro-cours.com/mentions-legales",
-        isPartOf: { "@type": "WebSite", name: SITE_NAME, url: "https://www.astro-cours.com" }
+        url: absoluteUrl("/mentions-legales"),
+        isPartOf: { "@type": "WebSite", name: SITE_NAME, url: absoluteUrl("/") }
       }) }} />
       {/* ── En-tête ─────────────────────────────────────────────── */}
       <header className="mb-12 space-y-4 text-center">

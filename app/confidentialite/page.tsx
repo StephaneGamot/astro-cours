@@ -81,8 +81,8 @@ export default function ConfidentialitePage() {
         "@type": "WebPage",
         name: "Politique de confidentialité",
         description: DESCRIPTION,
-        url: "https://www.astro-cours.com/confidentialite",
-        isPartOf: { "@type": "WebSite", name: SITE_NAME, url: "https://www.astro-cours.com" }
+        url: absoluteUrl("/confidentialite"),
+        isPartOf: { "@type": "WebSite", name: SITE_NAME, url: absoluteUrl("/") }
       }) }} />
       {/* ── En-tête ─────────────────────────────────────────────── */}
       <header className="mb-12 space-y-4 text-center">

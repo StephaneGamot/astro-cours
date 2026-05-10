@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
     description:
       "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects. Explorez notre cours complet !",
-    url: "https://www.astro-cours.com/lilith",
+    url: absoluteUrl("/lilith"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",

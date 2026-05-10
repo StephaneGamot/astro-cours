@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
     description:
       "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
-    url: "https://www.astro-cours.com/asteroides",
+    url: absoluteUrl("/asteroides"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",

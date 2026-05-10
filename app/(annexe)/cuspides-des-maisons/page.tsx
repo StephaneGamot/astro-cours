@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 
 import article from "@/data/cuspides-maisons.json";
-import { buildMeta, buildTitle, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import { buildMeta, buildTitle, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL, absoluteUrl } from "@/lib/seo";
 import CupsidesImage from "@/public/images/maisons/maisons-cuspides.webp"
 // ==========================================
 // 1. TYPAGE STRICT (Basé sur ton JSON exact)
@@ -90,7 +90,7 @@ const pageJsonLd = {
   headline: content.title,
   description: content.description,
   inLanguage: "fr-FR",
-  mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
+  mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(`/${content.slug}`) },
   author: AUTHOR_PERSON,
   publisher: PUBLISHER_ORG,
   image: [`${SITE_URL}/og/cover.jpg`],
@@ -102,9 +102,9 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.astro-cours.com" },
-    { "@type": "ListItem", position: 2, name: "Articles", item: "https://www.astro-cours.com/articles" },
-    { "@type": "ListItem", position: 3, name: content.title, item: `https://www.astro-cours.com/${content.slug}` },
+    { "@type": "ListItem", position: 1, name: "Accueil", item: absoluteUrl("/") },
+    { "@type": "ListItem", position: 2, name: "Articles", item: absoluteUrl("/articles") },
+    { "@type": "ListItem", position: 3, name: content.title, item: absoluteUrl(`/${content.slug}`) },
   ],
 };
 

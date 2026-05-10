@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Maîtrises, exaltations, exils & chutes — Les dignités",
     description:
       "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
-    url: "https://www.astro-cours.com/maitrises",
+    url: absoluteUrl("/maitrises"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire",
     description:
       "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects. Explorez notre méthode !",
-    url: "https://www.astro-cours.com/points-fictifs",
+    url: absoluteUrl("/points-fictifs"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",

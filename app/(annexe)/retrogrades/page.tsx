@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
     description:
       "Rétrogrades en astrologie : définition, stations, natal vs transit, effets concrets et erreurs fréquentes. Explorez notre lecture planète par planète !",
-    url: "https://www.astro-cours.com/retrogrades",
+    url: absoluteUrl("/retrogrades"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",

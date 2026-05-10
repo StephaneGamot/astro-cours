@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: NOEUDS_TITLE,
     description: NOEUDS_DESC,
-    url: "https://www.astro-cours.com/noeuds-lunaires",
+    url: absoluteUrl("/noeuds-lunaires"),
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
@@ -121,21 +121,6 @@ function H2({
   );
 }
 
-
-const ARTICLE_JSON_LD = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  headline: "Noeuds lunaires : axe NN/NS, lecture complète et méthode",
-  description: "Nœuds lunaires en astrologie : signification de la Tête et Queue du Dragon, lecture par signe, maison et aspects. Guide complet.",
-  inLanguage: "fr",
-  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/noeuds-lunaires` },
-  author: AUTHOR_PERSON,
-  publisher: PUBLISHER_ORG,
-  image: [`${SITE_URL}/og/cover.jpg`],
-  datePublished: "2026-04-09",
-  dateModified: "2026-05-08",
-  articleSection: "Astrologie",
-};
 
 export default function NoeudsLunairesPage() {
   const sections = [
@@ -596,8 +581,8 @@ export default function NoeudsLunairesPage() {
             headline: "Noeuds lunaires — Noeud Nord & Noeud Sud",
             description:
               "Cours pro sur l’axe des noeuds lunaires : définition, lecture par signe/maison, aspects, transits et méthode.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/noeuds-lunaires" },
-            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl("/noeuds-lunaires") },
+            author: AUTHOR_PERSON,
             publisher: PUBLISHER_ORG,
             datePublished: "2026-04-09",
             dateModified: "2026-04-22",
