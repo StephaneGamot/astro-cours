@@ -10,7 +10,7 @@ type Sign = { slug: string };
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.astro-cours.com";
-  const now = new Date("2026-05-08");
+  const now = new Date();
 
   // Pages statiques
   const staticPages = [

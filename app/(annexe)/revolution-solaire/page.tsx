@@ -16,28 +16,31 @@ import {
 
 import data from "../../../data/revolution-solaire.details.json";
 import HeroSrc from "./../../../public/images/revolution-solaire.webp";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_NAME } from "@/lib/seo";
 
 type PageData = typeof data;
 const RS = data as PageData;
 
+const RS_CANONICAL = absoluteUrl("/revolution-solaire");
+
 export const metadata: Metadata = {
   title: RS.meta.title,
   description: RS.meta.description,
-  alternates: { canonical: RS.meta.canonical },
+  alternates: { canonical: RS_CANONICAL },
   openGraph: {
     title: RS.meta.title,
     description: RS.meta.description,
-    url: RS.meta.canonical,
-    siteName: "Astro Cours",
+    url: RS_CANONICAL,
+    siteName: SITE_NAME,
     locale: "fr_FR",
     type: "article",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: SITE_NAME }],
   },
   twitter: {
     card: "summary_large_image",
     title: RS.meta.title,
     description: RS.meta.description,
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -153,20 +156,12 @@ export default function RevolutionSolairePage() {
               "@type": "Article",
               headline: RS.meta.title,
               description: RS.meta.description,
-              image: "https://www.astro-cours.com/images/revolution-solaire.webp",
-              author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-              publisher: {
-                "@type": "Organization",
-                name: "Astro Cours",
-                url: "https://www.astro-cours.com",
-                logo: {
-                  "@type": "ImageObject",
-                  url: "https://www.astro-cours.com/astro-cours-logo.webp",
-                },
-              },
+              image: absoluteUrl("/images/revolution-solaire.webp"),
+              author: AUTHOR_PERSON,
+              publisher: PUBLISHER_ORG,
               mainEntityOfPage: {
                 "@type": "WebPage",
-                "@id": "https://www.astro-cours.com/revolution-solaire",
+                "@id": RS_CANONICAL,
               },
               datePublished: "2026-04-09",
               dateModified: "2026-04-22",

@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 
 import article from "@/data/maisons-derivees.json";
-import { buildMeta, buildTitle, AUTHOR_PERSON } from "@/lib/seo";
+import { buildMeta, buildTitle, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 import Engrenages from "@/public/images/maisons/roue-astrologique-engrenage-imbriques.webp"
 import Maisonsderivees from "@/public/images/maisons/maisons-derivees.webp"
 
@@ -70,7 +70,7 @@ export const metadata: Metadata = buildMeta({
   description: content.description,
   canonicalPath: `/${content.slug}`,
   type: "article",
-  ogImage: `/images/articles/${content.slug}/cover.webp`,
+  // ogImage omis → utilise DEFAULT_OG_IMAGE (/og/cover.jpg) en attendant les vraies images
 });
 
 const pageJsonLd = {
@@ -81,12 +81,8 @@ const pageJsonLd = {
   inLanguage: "fr-FR",
   mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
   author: AUTHOR_PERSON,
-  publisher: { 
-    "@type": "Organization", 
-    name: "Astro Cours", 
-    logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/logo.webp" } 
-  },
-  image: [`https://www.astro-cours.com/images/articles/${content.slug}/cover.webp`],
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
   datePublished: "2026-04-09",
   dateModified: "2026-05-08",
 };

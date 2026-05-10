@@ -15,12 +15,13 @@ import {
 } from "lucide-react";
 
 import HeroSrc from "@/public/images/points-fictifs.webp";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Points fictifs, Vertex, Fortune, Chiron, angle & méthode",
+  title: "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire",
   description:
     "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects. Explorez notre méthode !",
-  alternates: { canonical: "https://www.astro-cours.com/points-fictifs" },
+  alternates: { canonical: absoluteUrl("/points-fictifs") },
   openGraph: {
     title: "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire",
     description:
@@ -29,14 +30,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire",
     description:
       "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects. Explorez notre méthode !",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -129,6 +130,22 @@ function SectionTitle({
   );
 }
 
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Points fictifs, Vertex, Fortune, Chiron, angle & méthode",
+  description: "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/points-fictifs` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
+
 export default function PointsFictifsPage() {
   const sections = [
     { id: "definition", label: "Définition" },
@@ -158,7 +175,9 @@ export default function PointsFictifsPage() {
           <div className="absolute left-[20%] bottom-[-10%] h-[600px] w-[600px] rounded-full bg-sky-600/10 blur-[150px]" />
         </div>
 
-        {/* HERO */}
+        {/* JSON-LD Article */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ARTICLE_JSON_LD) }} />
+      {/* HERO */}
         <header className="relative mb-28 pt-16 text-center md:text-left">
           <div className="flex flex-col items-center gap-16 lg:flex-row">
             <div className="flex-1">
@@ -678,29 +697,7 @@ export default function PointsFictifsPage() {
         />
 
         {/* JSON-LD SEO */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              headline: "Points fictifs — Vertex, Part de Fortune, Chiron, angles…",
-              description:
-                "Cours pro sur les points fictifs : définition, méthode, points majeurs, lecture par maison, signe, aspects et transits.",
-              mainEntityOfPage: {
-                "@type": "WebPage",
-                "@id": "https://www.astro-cours.com/points-fictifs",
-              },
-              author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-              publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
-              datePublished: "2026-04-09",
-              dateModified: "2026-04-22",
-              inLanguage: "fr",
-              articleSection: "Astrologie",
-            }),
-          }}
-        />
-      </main>
+              </main>
     </>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import TeteDuDragon from "./../../../public/images/noeuds-lunaires.webp";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 const NOEUDS_TITLE = "Noeuds lunaires : axe NN/NS, lecture complète et méthode";
 const NOEUDS_DESC =
@@ -10,7 +11,7 @@ const NOEUDS_DESC =
 export const metadata: Metadata = {
   title: NOEUDS_TITLE,
   description: NOEUDS_DESC,
-  alternates: { canonical: "https://www.astro-cours.com/noeuds-lunaires" },
+  alternates: { canonical: absoluteUrl("/noeuds-lunaires") },
   openGraph: {
     title: NOEUDS_TITLE,
     description: NOEUDS_DESC,
@@ -18,13 +19,13 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: NOEUDS_TITLE,
     description: NOEUDS_DESC,
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -119,6 +120,22 @@ function H2({
     </h2>
   );
 }
+
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Noeuds lunaires : axe NN/NS, lecture complète et méthode",
+  description: "Nœuds lunaires en astrologie : signification de la Tête et Queue du Dragon, lecture par signe, maison et aspects. Guide complet.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/noeuds-lunaires` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
 
 export default function NoeudsLunairesPage() {
   const sections = [
@@ -581,7 +598,7 @@ export default function NoeudsLunairesPage() {
               "Cours pro sur l’axe des noeuds lunaires : définition, lecture par signe/maison, aspects, transits et méthode.",
             mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/noeuds-lunaires" },
             author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
+            publisher: PUBLISHER_ORG,
             datePublished: "2026-04-09",
             dateModified: "2026-04-22",
             inLanguage: "fr",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import Asteroides from "./../../../public/images/asteroides/asteroides.webp"
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 /**
  * Page “Astéroïdes”
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
   description:
     "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
-  alternates: { canonical: "https://www.astro-cours.com/asteroides" },
+  alternates: { canonical: absoluteUrl("/asteroides") },
   openGraph: {
     title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
     description:
@@ -25,14 +26,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
     description:
       "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -274,6 +275,22 @@ function asteroidImageSrc(slug: string) {
   return `/images/asteroides/${slug}.webp`;
 }
 
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
+  description: "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/asteroides` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
+
 export default function AsteroidesPage() {
   const sections = [
     { id: "definition", label: "Définition" },
@@ -287,6 +304,8 @@ export default function AsteroidesPage() {
 
   return (
     <main id="main-content" className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
+      {/* JSON-LD Article */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ARTICLE_JSON_LD) }} />
       {/* HERO */}
       <header className="mb-10 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5">
         <div className="relative">
@@ -722,26 +741,6 @@ export default function AsteroidesPage() {
       />
 
       {/* JSON-LD SEO */}
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Astéroïdes en astrologie — Cérès, Pallas, Junon, Vesta (et Chiron)",
-            description:
-              "Cours pro : signification des astéroïdes, lecture par signe/maison/aspects, transits et synastrie.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/asteroides" },
-            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
-            datePublished: "2026-04-09",
-            dateModified: "2026-04-22",
-            inLanguage: "fr",
-            articleSection: "Astrologie",
-          }),
-        }}
-      />
-    </main>
+          </main>
   );
 }

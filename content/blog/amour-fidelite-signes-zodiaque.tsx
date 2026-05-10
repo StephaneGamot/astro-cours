@@ -6,7 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/amour-fidelite-signes-zodiaque`;
-const COVER_URL = `${SITE_URL}/images/blog/amour-fidelite-signes.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/amour-fidelite-signes-zodiaque.webp`;
 
 export const meta = {
   slug: "amour-fidelite-signes-zodiaque",

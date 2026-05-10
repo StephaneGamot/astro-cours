@@ -7,7 +7,7 @@ import Link from "next/link";
 import fs from "fs";
 import path from "path";
 import ScrollReveal from "@/components/ScrollReveal";
-import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_NAME, SITE_URL } from "@/lib/seo";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -172,8 +172,10 @@ export async function generateMetadata({
   if (!data) return {};
 
   const title = `${data.nom} — Encyclopédie complète du signe astrologique`;
-  const description = `Tout savoir sur le signe du ${data.nom} : portrait, tempérament, compatibilités, planètes, 12 maisons, mythologie. Guide astrologique de référence.`;
-  const url = `https://www.astro-cours.com/signes/${data.slug}`;
+  // maitreCourt : premier maître seulement (évite les longues chaînes "Mars & Pluton", "Jupiter & Neptune (moderne)")
+  const maitreCourt = data.maitre.replace(/\s*[(&/].*$/, "").trim();
+  const description = `${data.nom} (${data.periode}) : ${data.element}, ${data.mode}, gouverné par ${maitreCourt}. Portrait complet, compatibilités et interprétation du thème natal.`;
+  const url = absoluteUrl(`/signes/${data.slug}`);
 
   return {
     title,
@@ -186,7 +188,7 @@ export async function generateMetadata({
       url,
       images: [{ url: data.images.signe, alt: `Signe du ${data.nom}` }],
       locale: "fr_FR",
-      siteName: "Astro-Cours",
+      siteName: SITE_NAME,
     },
     twitter: {
       card: "summary_large_image",
@@ -258,6 +260,10 @@ export default async function SignePage({
     notFound(); 
   }
 
+  // Description identique à la meta (évite la désynchronisation JSON-LD / meta)
+  const maitreCourt = data.maitre.replace(/\s*[(&/].*$/, "").trim();
+  const pageDescription = `${data.nom} (${data.periode}) : ${data.element}, ${data.mode}, gouverné par ${maitreCourt}. Portrait complet, compatibilités et interprétation du thème natal.`;
+
   // Schema.org JSON-LD — @graph unique (réduit le DOM, recommandé Google)
   const jsonLdGraph = {
     "@context": "https://schema.org",
@@ -265,11 +271,11 @@ export default async function SignePage({
       {
         "@type": "Article",
         headline: `${data.nom} — Encyclopédie complète du signe astrologique`,
-        description: `Tout savoir sur le signe du ${data.nom} : portrait, tempérament, compatibilités, planètes, 12 maisons.`,
-        image: `https://www.astro-cours.com${data.images.signe}`,
+        description: pageDescription,
+        image: absoluteUrl(data.images.signe),
         author: AUTHOR_PERSON,
         publisher: PUBLISHER_ORG,
-        mainEntityOfPage: `https://www.astro-cours.com/signes/${data.slug}`,
+        mainEntityOfPage: absoluteUrl(`/signes/${data.slug}`),
         datePublished: "2026-04-09",
         dateModified: "2026-05-08",
         articleSection: "Astrologie",
@@ -286,9 +292,9 @@ export default async function SignePage({
       {
         "@type": "BreadcrumbList",
         itemListElement: [
-          { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.astro-cours.com/" },
-          { "@type": "ListItem", position: 2, name: "Signes", item: "https://www.astro-cours.com/signes" },
-          { "@type": "ListItem", position: 3, name: data.nom, item: `https://www.astro-cours.com/signes/${data.slug}` },
+          { "@type": "ListItem", position: 1, name: "Accueil", item: absoluteUrl("/") },
+          { "@type": "ListItem", position: 2, name: "Signes", item: `${SITE_URL}/signes` },
+          { "@type": "ListItem", position: 3, name: data.nom, item: absoluteUrl(`/signes/${data.slug}`) },
         ],
       },
     ],

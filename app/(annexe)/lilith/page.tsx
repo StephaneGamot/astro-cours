@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 /**
  * Page "Lilith / Lune Noire" — cours premium
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
   description:
     "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects. Explorez notre cours complet !",
-  alternates: { canonical: "https://www.astro-cours.com/lilith" },
+  alternates: { canonical: absoluteUrl("/lilith") },
   openGraph: {
     title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
     description:
@@ -23,14 +24,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
     description:
       "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects. Explorez notre cours complet !",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -76,12 +77,30 @@ function H2({ id, children }: { id: string; children: React.ReactNode }) {
   );
 }
 
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
+  description: "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/lilith` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
+
 export default function LilithPage() {
   // Optionnel : mets cette image dans public/images/points/lilith.webp
   const heroSrc = "/images/points/lilith.webp";
 
   return (
     <main id="main-content" className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
+      {/* JSON-LD Article */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ARTICLE_JSON_LD) }} />
       {/* HERO */}
       <header className={`mb-10 overflow-hidden rounded-[2.5rem] border ${accentBorder} bg-white/5 ${accentGlow}`}>
         <div className="grid gap-6 p-7 sm:grid-cols-[1.2fr_.8fr] sm:p-10">
@@ -651,26 +670,6 @@ export default function LilithPage() {
       />
 
       {/* JSON-LD SEO */}
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Lilith (Lune Noire) — Sens, thèmes & interprétation",
-            description:
-              "Cours complet sur Lilith (Lune Noire) : définition, vraie vs moyenne, symbolique, lectures par signe/maison/aspects + méthode d'interprétation.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/lilith" },
-            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
-            datePublished: "2026-04-09",
-            dateModified: "2026-04-22",
-            inLanguage: "fr",
-            articleSection: "Astrologie",
-          }),
-        }}
-      />
-    </main>
+          </main>
   );
 }

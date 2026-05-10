@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 import article from "@/data/les-decans.json";
-import { buildMeta, buildTitle, AUTHOR_PERSON } from "@/lib/seo";
+import { buildMeta, buildTitle, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 // IMPORTS DE TES IMAGES (À placer dans ton dossier public)
 import DecansHero from "@/public/images/decans-zodiaque-egyptien.webp";
@@ -50,7 +50,7 @@ export const metadata: Metadata = buildMeta({
   description: content.description,
   canonicalPath: `/${content.slug}`,
   type: "article",
-  ogImage: `/images/articles/${content.slug}/cover.webp`,
+  // ogImage omis → utilise DEFAULT_OG_IMAGE (/og/cover.jpg) en attendant les vraies images
 });
 
 const pageJsonLd = {
@@ -61,7 +61,8 @@ const pageJsonLd = {
   inLanguage: "fr-FR",
   mainEntityOfPage: { "@type": "WebPage", "@id": `https://www.astro-cours.com/${content.slug}` },
   author: AUTHOR_PERSON,
-  publisher: { "@type": "Organization", name: "Astro Cours" },
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
   datePublished: "2026-04-09",
   dateModified: "2026-05-08",
 };

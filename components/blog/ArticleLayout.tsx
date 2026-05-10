@@ -15,6 +15,7 @@ type PostMeta = {
   title: string;
   description: string;
   date: string;
+  updatedAt?: string;
   tags?: string[];
   cover?: string;
   readingLevel?: "débutant" | "intermédiaire" | "avancé";
@@ -49,7 +50,7 @@ export function ArticleLayout({
     description: meta.description,
     url: canonical,
     datePublished: meta.date,
-    dateModified: meta.date,
+    dateModified: meta.updatedAt ?? meta.date,
     inLanguage: "fr",
     author: AUTHOR_PERSON,
     publisher: PUBLISHER_ORG,

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 /**
  * Page “Aspects astrologiques”
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   title: "Aspects astrologiques — Orbes & interprétation",
   description:
     "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
-  alternates: { canonical: "https://www.astro-cours.com/aspects" },
+  alternates: { canonical: absoluteUrl("/aspects") },
   openGraph: {
     title: "Aspects astrologiques — Orbes & interprétation",
     description:
@@ -21,14 +22,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Aspects astrologiques — Orbes & interprétation",
     description:
       "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d’interprétation claire.",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -291,9 +292,27 @@ function aspectHref(a: Aspect) {
   return `#${a.slug}`;
 }
 
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Aspects astrologiques — Orbes & interprétation",
+  description: "Conjonction, sextile, carré, trigone, opposition : définitions, orbes, logique, effets, exemples et méthode d'interprétation claire.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/aspects` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
+
 export default function AspectsPage() {
   return (
     <main id="main-content" className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
+      {/* JSON-LD Article */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ARTICLE_JSON_LD) }} />
       {/* HERO */}
       <header className="mb-10 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5">
         <div className="p-7 sm:p-10">
@@ -642,26 +661,6 @@ export default function AspectsPage() {
       />
 
       {/* JSON-LD SEO */}
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Aspects astrologiques — Conjonction, sextile, carré, trigone, opposition",
-            description:
-              "Cours complet sur les aspects : définitions, orbes, logique, méthode d’interprétation et exemples.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/aspects" },
-            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
-            datePublished: "2026-04-09",
-            dateModified: "2026-04-22",
-            inLanguage: "fr",
-            articleSection: "Astrologie",
-          }),
-        }}
-      />
-    </main>
+          </main>
   );
 }

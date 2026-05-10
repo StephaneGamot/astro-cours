@@ -6,7 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qualites-defauts-12-signes-zodiaque`;
-const COVER_URL = `${SITE_URL}/images/blog/sun-moon.jpg`;
+const COVER_URL = `${SITE_URL}/images/blog/sun-moon.webp`;
 
 export const meta = {
   slug: "qualites-defauts-12-signes-zodiaque",
@@ -35,7 +35,7 @@ export const metadata = {
     publishedTime: meta.date,
     images: [
       {
-        url: "https://www.astro-cours.com/images/blog/sun-moon.jpg",
+        url: "https://www.astro-cours.com/images/blog/sun-moon.webp",
         width: 1200,
         height: 630,
         alt: "Illustration des qualités et défauts des 12 signes du zodiaque",

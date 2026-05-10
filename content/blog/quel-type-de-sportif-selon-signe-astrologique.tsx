@@ -6,7 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 const ARTICLE_SLUG = "quel-type-de-sportif-selon-signe-astrologique";
 const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
-const COVER_URL = `${SITE_URL}/images/blog/sport-signe-astrologique.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/le-sporti-que-vous-etres-selon-votre-signe-astrologique.webp`;
 
 export const meta = {
   slug: ARTICLE_SLUG,

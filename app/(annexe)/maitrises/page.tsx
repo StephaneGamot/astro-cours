@@ -14,6 +14,7 @@ import {
 
 import signes from "../../../data/signes.details.json";
 import HeroSrc from "@/public/images/dignites-planetaires.webp";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 type Sign = (typeof signes)[number];
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   title: "Maîtrises, exaltations, exils & chutes — Les dignités",
   description:
     "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
-  alternates: { canonical: "https://www.astro-cours.com/maitrises" },
+  alternates: { canonical: absoluteUrl("/maitrises") },
   openGraph: {
     title: "Maîtrises, exaltations, exils & chutes — Les dignités",
     description:
@@ -30,14 +31,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Maîtrises, exaltations, exils & chutes — Les dignités",
     description:
       "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -328,9 +329,27 @@ function SectionTitle({
   );
 }
 
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Maîtrises, exaltations, exils & chutes — Les dignités",
+  description: "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/maitrises` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
+
 export default function MaitrisesCoursPage() {
   return (
     <>
+      {/* JSON-LD Article */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ARTICLE_JSON_LD) }} />
       <main id="main-content" className="relative mx-auto max-w-7xl px-6 pb-24 text-slate-200 selection:bg-amber-500/30">
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
           <div className="absolute left-[-10%] top-[-5%] h-[800px] w-[800px] rounded-full bg-amber-600/10 blur-[150px]" />
@@ -783,29 +802,7 @@ export default function MaitrisesCoursPage() {
           }}
         />
 
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              headline: "Maîtrises, exaltations, exils & chutes — Dignités planétaires",
-              description:
-                "Pour chaque signe : maître(s), exaltation(s), exil(s) et chute(s), avec explication et logique symbolique.",
-              mainEntityOfPage: {
-                "@type": "WebPage",
-                "@id": "https://www.astro-cours.com/maitrises",
-              },
-              author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-              publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
-              datePublished: "2026-04-09",
-              dateModified: "2026-04-22",
-              inLanguage: "fr",
-              articleSection: "Astrologie",
-            }),
-          }}
-        />
-      </main>
+              </main>
     </>
   );
 }

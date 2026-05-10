@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 /**
  * Page “Planètes rétrogrades” (premium + couleurs + images)
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
   description:
     "Rétrogrades en astrologie : définition, stations, natal vs transit, effets concrets et erreurs fréquentes. Explorez notre lecture planète par planète !",
-  alternates: { canonical: "https://www.astro-cours.com/retrogrades" },
+  alternates: { canonical: absoluteUrl("/retrogrades") },
   openGraph: {
     title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
     description:
@@ -28,14 +29,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
     description:
       "Rétrogrades en astrologie : définition, stations, natal vs transit, effets concrets et erreurs fréquentes. Explorez notre lecture planète par planète !",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -336,9 +337,27 @@ const FAQ = [
   },
 ];
 
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Planètes rétrogrades — Natal vs transit, stations & méthode",
+  description: "Rétrogrades en astrologie : définition, stations, natal vs transit, effets concrets et erreurs fréquentes. Lecture planète par planète.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/retrogrades` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
+
 export default function RetrogradesPage() {
   return (
     <main className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text" id="main-content">
+      {/* JSON-LD Article */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ARTICLE_JSON_LD) }} />
       {/* HERO */}
       <header className="mb-10 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5">
         <div className="relative p-7 sm:p-10">
@@ -559,19 +578,6 @@ export default function RetrogradesPage() {
         })}
       </div>
 
-      {/* FAQ */}
-      <section id="faq" className={`scroll-mt-24 mt-10 ${card}`}>
-        <h2 className="font-serif text-3xl">Questions fréquentes sur les rétrogrades</h2>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
-          {FAQ.map((f) => (
-            <div key={f.q} className="rounded-3xl border border-white/10 bg-black/20 p-6">
-              <p className="font-serif text-xl">{f.q}</p>
-              <p className="mt-3 text-sm leading-relaxed text-text/85">{f.a}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="mt-14 border-t border-white/10 pt-8">
         <div className="flex flex-wrap items-center justify-between gap-4">
@@ -594,7 +600,7 @@ export default function RetrogradesPage() {
       </footer>
 
       {/* FAQ Accordion SEO */}
-      <section className="mt-16 space-y-6" aria-labelledby="faq-retrogrades">
+      <section id="faq" className="scroll-mt-24 mt-16 space-y-6" aria-labelledby="faq-retrogrades">
         <h2 id="faq-retrogrades" className="font-serif text-2xl sm:text-3xl">Questions fréquentes sur les planètes rétrogrades</h2>
         <div className="space-y-4">
           <details className="group rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-md" open>
@@ -670,26 +676,6 @@ export default function RetrogradesPage() {
       />
 
       {/* JSON-LD SEO */}
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Planètes rétrogrades — sens, interprétation & méthode",
-            description:
-              "Cours complet sur les planètes rétrogrades : définition, stations, natal vs transit, et interprétation planète par planète.",
-            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/retrogrades" },
-            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
-            datePublished: "2026-04-09",
-            dateModified: "2026-04-22",
-            inLanguage: "fr",
-            articleSection: "Astrologie",
-          }),
-        }}
-      />
-    </main>
+          </main>
   );
 }

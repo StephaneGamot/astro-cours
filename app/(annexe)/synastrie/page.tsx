@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import data from "../../../data/synastrie.details.json";
+import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 /* ---------------- Types ---------------- */
 
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
   title: "Synastrie — Compatibilité & dynamique relationnelle",
   description:
     "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
-  alternates: { canonical: "https://www.astro-cours.com/synastrie" },
+  alternates: { canonical: absoluteUrl("/synastrie") },
   openGraph: {
     title: "Synastrie — Compatibilité & dynamique relationnelle",
     description:
@@ -23,14 +24,14 @@ export const metadata: Metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    images: [{ url: "https://www.astro-cours.com/og/cover.jpg", width: 1200, height: 630, alt: "Astro Cours" }],
+    images: [{ url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: "Astro Cours" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Synastrie — Compatibilité & dynamique relationnelle",
     description:
       "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
-    images: ["https://www.astro-cours.com/og/cover.jpg"],
+    images: [absoluteUrl("/og/cover.jpg")],
   },
 };
 
@@ -86,6 +87,22 @@ function H2({ id, label }: { id: string; label: string }) {
   );
 }
 
+
+const ARTICLE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Synastrie — Compatibilité & dynamique relationnelle",
+  description: "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges.",
+  inLanguage: "fr",
+  mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/synastrie` },
+  author: AUTHOR_PERSON,
+  publisher: PUBLISHER_ORG,
+  image: [`${SITE_URL}/og/cover.jpg`],
+  datePublished: "2026-04-09",
+  dateModified: "2026-05-08",
+  articleSection: "Astrologie",
+};
+
 export default function SynastriePage() {
   const sections = [
     { id: "definition", label: "Définition" },
@@ -99,6 +116,18 @@ export default function SynastriePage() {
 
   return (
     <main id="main-content" className="mx-auto max-w-5xl px-6 pb-16 pt-10 text-text">
+      {/* JSON-LD Article */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ARTICLE_JSON_LD) }} />
+      {/* JSON-LD FAQPage */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: COURSE.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }) }} />
       {/* HERO */}
       <header className="mb-10 overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/5">
         <div className="p-7 sm:p-10">
@@ -433,40 +462,6 @@ export default function SynastriePage() {
       </footer>
 
       {/* JSON-LD SEO */}
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Synastrie — Compatibilité & dynamique relationnelle",
-            description: COURSE.meta.description,
-            mainEntityOfPage: { "@type": "WebPage", "@id": "https://www.astro-cours.com/synastrie" },
-            author: { "@type": "Person", name: "Stéphane Gamot", url: "https://www.astro-cours.com/auteur/stephane-gamot" },
-            publisher: { "@type": "Organization", name: "Astro Cours", url: "https://www.astro-cours.com", logo: { "@type": "ImageObject", url: "https://www.astro-cours.com/astro-cours-logo.webp" } },
-            datePublished: "2026-04-09",
-            dateModified: "2026-04-22",
-            inLanguage: "fr",
-            articleSection: "Astrologie",
-          })
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              { "@type": "Question", name: "Quelle est la différence entre synastrie et thème composite ?", acceptedAnswer: { "@type": "Answer", text: "La synastrie compare deux thèmes natals pour voir comment chaque personne affecte l'autre. Le thème composite fusionne les deux cartes en une seule et représente la relation comme entité. Les deux approches se complètent pour une analyse relationnelle complète." } },
-              { "@type": "Question", name: "Peut-on améliorer une synastrie difficile entre deux partenaires ?", acceptedAnswer: { "@type": "Answer", text: "Oui, si les deux partenaires font preuve de maturité. Avec des règles de communication claires, le respect des limites et un objectif commun, les aspects difficiles deviennent des leviers de croissance. Sinon, les tensions se répètent." } },
-              { "@type": "Question", name: "Quelles planètes sont les plus importantes en synastrie ?", acceptedAnswer: { "@type": "Answer", text: "Le trio essentiel est Soleil/Lune (sécurité émotionnelle), Mercure (communication) et Saturne (durabilité). Sans ces fondations, les aspects Vénus-Mars seuls ne suffisent pas à maintenir une relation stable." } },
-              { "@type": "Question", name: "A-t-on besoin de l'heure de naissance exacte pour une synastrie ?", acceptedAnswer: { "@type": "Answer", text: "L'heure de naissance est indispensable pour connaître l'Ascendant et les maisons astrologiques activées. Sans elle, on peut analyser les aspects entre planètes, mais on perd les informations sur les domaines de vie concernés et les angles relationnels." } },
-            ]
-          })
-        }}
-      />
     </main>
   );
 }
