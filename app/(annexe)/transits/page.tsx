@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
+import { SITE_NAME, absoluteUrl, buildTitle, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 import data from "../../../data/transits.details.json";
 
