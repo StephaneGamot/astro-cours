@@ -1,6 +1,7 @@
 import { TagPills } from "./TagPills";
 import { ShareBar } from "./ShareBar";
 import { AuthorBox } from "./AuthorBox";
+import { RelatedPosts } from "./RelatedPosts";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
   SITE_URL,
@@ -126,6 +127,8 @@ export function ArticleLayout({
           <div className="prose">{children}</div>
 
           <AuthorBox />
+
+          <RelatedPosts currentSlug={meta.slug} />
         </article>
       </main>
     </>

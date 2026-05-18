@@ -34,6 +34,7 @@ import {
   HouseNav,
   Breadcrumbs,
 } from "./ui";
+import { RelatedHouses } from "./RelatedHouses";
 
 import {
   Sparkles,
@@ -792,6 +793,16 @@ export default async function HousePage({
             </div>
           </Section>
         )}
+
+        {/* ============================================================ */}
+        {/*  Maisons connexes (maillage interne sémantique)              */}
+        {/* ============================================================ */}
+        <RelatedHouses
+          house={house}
+          border={theme.border}
+          text={theme.text}
+          dot={theme.dot}
+        />
 
         {/* ============================================================ */}
         {/*  Footer nav                                                   */}
