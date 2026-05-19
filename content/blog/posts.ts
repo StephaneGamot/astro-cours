@@ -64,6 +64,10 @@ import HoroscopeNeVousRessemblePasPost, {
   meta as horoscopeNeVousRessemblePasMeta,
 } from "./pourquoi-votre-horoscope-ne-vous-ressemble-pas";
 
+import SmsSignesPost, {
+  meta as smsSignesMeta,
+} from "./ton-signe-astro-selon-ta-facon-de-repondre-aux-messages";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -82,6 +86,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: smsSignesMeta, Component: SmsSignesPost },
   { meta: horoscopeNeVousRessemblePasMeta, Component: HoroscopeNeVousRessemblePasPost },
   { meta: manipulateursPNMeta, Component: ManipulateursPNPost },
   { meta: martienMeta, Component: MartienPost },
