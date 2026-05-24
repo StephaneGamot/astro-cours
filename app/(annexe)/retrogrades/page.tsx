@@ -17,7 +17,7 @@ import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from 
  */
 
 export const metadata: Metadata = {
-  title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
+  title: "Planètes rétrogrades : natal vs transit",
   description:
     "Rétrogrades en astrologie : définition, stations, natal vs transit, effets concrets et erreurs fréquentes. Explorez notre lecture planète par planète !",
   alternates: { canonical: absoluteUrl("/retrogrades") },

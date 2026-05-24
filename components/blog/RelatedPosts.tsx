@@ -55,7 +55,7 @@ export function RelatedPosts({
                 <div className="relative h-40 w-full overflow-hidden">
                   <Image
                     src={meta.cover}
-                    alt=""
+                    alt={`Illustration de l’article : ${meta.title}`}
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover transition duration-300 group-hover:scale-[1.03]"
