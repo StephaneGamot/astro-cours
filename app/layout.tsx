@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter, Cormorant_Garamond } from "next/font/google";
-import "./globals.css";
+import "/globals.css";
 import NavBAr from "@/components/layout/header/NavBar";
 import Footer from "@/components/layout/footer/Footer";
 
@@ -90,7 +90,11 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="fr" className={`${inter.variable} ${cormorant.variable}`}>
       <body>
