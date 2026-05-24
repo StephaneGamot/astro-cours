@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter, Cormorant_Garamond } from "next/font/google";
-import "/globals.css";
+import "./globals.css";
 import NavBAr from "@/components/layout/header/NavBar";
 import Footer from "@/components/layout/footer/Footer";
 
