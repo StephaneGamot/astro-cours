@@ -43,3 +43,6 @@ next-env.d.ts
 # build verifications & temp
 tmp/
 /tmp/
+
+# build verifications & temp
+tmp/
