@@ -17,10 +17,10 @@ import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from 
  */
 
 export const metadata: Metadata = {
-  // ✅ Ahrefs IndexNow rewrite — version longue qui matche l'OG/Twitter title.
+  // ✅ Ahrefs "title too long" fix — descriptif mais ≤ 60 chars (sinon Google tronque).
+  //    Le suffixe " — Astro Cours" est volontairement retiré ici.
   title: {
-    absolute:
-      "Planètes rétrogrades — Natal vs transit, stations & méthode — Astro Cours",
+    absolute: "Planètes rétrogrades — Natal vs transit, stations & méthode",
   },
   description:
     "Rétrogrades en astrologie : définition, stations, natal vs transit, effets concrets et erreurs fréquentes. Explorez notre lecture planète par planète !",

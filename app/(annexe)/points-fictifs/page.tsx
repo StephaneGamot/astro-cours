@@ -18,10 +18,10 @@ import HeroSrc from "@/public/images/points-fictifs.webp";
 import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  // ✅ Ahrefs IndexNow rewrite — version longue qui matche l'OG/Twitter title.
+  // ✅ Ahrefs "title too long" fix — descriptif mais ≤ 60 chars (sinon Google tronque).
+  //    Le suffixe " — Astro Cours" est volontairement retiré ici.
   title: {
-    absolute:
-      "Points fictifs — Vertex, Fortune, Chiron, angles : méthode claire — Astro Cours",
+    absolute: "Points fictifs — Vertex, Fortune, Chiron : méthode",
   },
   description:
     "Points fictifs en astrologie : Vertex, Part de Fortune, Chiron, ASC/MC, Noeuds et Lilith. Lecture par signe, maison et aspects. Explorez notre méthode !",

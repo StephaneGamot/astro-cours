@@ -118,6 +118,9 @@ export async function generateMetadata({
       type: "article",
       ogImage: `/images/maisons/${toRoman(house.numero)}.webp`,
     }),
+    // ✅ Ahrefs "title too long" fix — on retire le suffixe " — Astro Cours"
+    //    pour rester ≤ 60 chars (sinon 71 chars avec template).
+    title: { absolute: title },
     keywords,
   };
 }
