@@ -25,6 +25,16 @@ const nextConfig = {
   experimental: {
     // ✅ CSS critique inline (nécessite `npm install critters`)
     optimizeCss: true,
+    // ✅ Tree-shaking agressif pour les barrel exports (icônes, UI)
+    //    → réduit fortement le JS inutilisé envoyé au client
+    optimizePackageImports: [
+      "lucide-react",
+      "@headlessui/react",
+      "@heroicons/react",
+      "@heroicons/react/24/outline",
+      "@heroicons/react/24/solid",
+      "@heroicons/react/20/solid",
+    ],
   },
 
   // ✅ Cible navigateurs modernes pour éliminer les polyfills

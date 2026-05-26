@@ -1,0 +1,3 @@
+module.exports=[47067,a=>{a.v([{term:"William Lilly",short:"Le plus grand astrologue anglais du XVIIe siècle, maître de l’astrologie horaire.",slug:"william-lilly",category:"personnage",body:"Auteur de « Christian Astrology » (1647), Lilly est resté dans l’histoire pour sa capacité de prédiction stupéfiante, notamment celle du Grand Incendie de Londres en 1666. Il a porté l’astrologie horaire à son plus haut niveau de perfection. Son travail est aujourd’hui la base de la renaissance de l’astrologie traditionnelle en Occident, car il détaillait ses méthodes avec une clarté rare pour l’époque.",related:["Astrologie Horaire","Prévision","Tradition"]}])}];
+
+//# sourceMappingURL=data_dictionnaire_W_json_de1eb554._.js.map

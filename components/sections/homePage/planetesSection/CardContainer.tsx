@@ -22,7 +22,7 @@ export default function PlanetsCardContainer() {
     <section
       id="planetes"
       aria-labelledby="planetes-title"
-      className="mx-auto max-w-7xl px-5 py-12 sm:px-6 lg:px-8"
+      className="cv-auto-section mx-auto max-w-7xl px-5 py-12 sm:px-6 lg:px-8"
     >
       {/* ── Section header ─────────────────────────────── */}
       <div className="group mb-14 flex items-center gap-4">

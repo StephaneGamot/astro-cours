@@ -82,13 +82,19 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
   display: "swap",
+  // adjustFontFallback est true par défaut (size-adjust automatique → CLS minimisé)
+  preload: true,
 });
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-serif",
-  display: "swap",
+  // ✅ "optional" : si la police n'est pas prête en ~100 ms, on garde le fallback
+  //    définitivement pour CETTE visite → plus aucun swap, plus aucun CLS de police.
+  //    Pour les visites suivantes la police est en cache et s'applique immédiatement.
+  display: "optional",
+  preload: true,
 });
 
 export default function RootLayout({
@@ -98,6 +104,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${inter.variable} ${cormorant.variable}`}>
+      <head>
+        {/* ✅ Hints de connexion : on ouvre la connexion à Ahrefs en parallèle
+              du parsing HTML pour économiser le RTT le jour où le script se charge. */}
+        <link rel="dns-prefetch" href="https://analytics.ahrefs.com" />
+        <link
+          rel="preconnect"
+          href="https://analytics.ahrefs.com"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body>
         {/* ✅ lazyOnload : ne charge qu'après que la page est totalement prête */}
         <Script

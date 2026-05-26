@@ -408,7 +408,11 @@ export default function Footer() {
 
   return (
     <footer
-      className="relative mt-24 overflow-hidden border-t border-white/[.06] bg-[#09090b]"
+      // `cv-auto-footer` : content-visibility + contain-intrinsic-size définis
+      // dans globals.css → le navigateur saute le layout du footer tant qu'il
+      // est hors viewport. Cela élimine la contribution du footer au CLS
+      // (le footer "shifte" beaucoup quand le contenu au-dessus stabilise).
+      className="cv-auto-footer relative mt-24 overflow-hidden border-t border-white/[.06] bg-[#09090b]"
       aria-labelledby="footer-heading"
     >
       <h2 id="footer-heading" className="sr-only">

@@ -8,8 +8,10 @@ export default function ImageOnly() {
         src={HeroAstro}
         alt="Illustration d'une magnifique pleine Lune"
         fill
-        fetchPriority="high"
-        loading="eager"
+        // ✅ priority = fetchpriority:high + <link rel="preload"> dans le <head>
+        //    Sans cela, le navigateur ne découvre l'image qu'après parsing du body,
+        //    ce qui crée un "resource load delay" de ~1 s mesuré par Lighthouse.
+        priority
         quality={70}
         placeholder="blur"
         className="object-cover object-center"

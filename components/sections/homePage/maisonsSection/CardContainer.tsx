@@ -20,7 +20,7 @@ export default function MaisonsCardContainer() {
     <section
       id="maisons"
       aria-labelledby="maisons-title"
-      className="mx-auto max-w-7xl px-5 py-12 sm:px-6 lg:px-8"
+      className="cv-auto-section mx-auto max-w-7xl px-5 py-12 sm:px-6 lg:px-8"
     >
       {/* ── Section header ─────────────────────────────── */}
       <div className="group mb-14 flex items-center gap-4">

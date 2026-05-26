@@ -1,0 +1,10 @@
+var R=require("../../chunks/[turbopack]_runtime.js")("server/app/sitemap.xml/route.js")
+R.c("server/chunks/[root-of-the-server]__583d8979._.js")
+R.c("server/chunks/data_maisons_details_json_683019b6._.js")
+R.c("server/chunks/data_signes_details_json_e7878516._.js")
+R.c("server/chunks/node_modules_next_3f9962df._.js")
+R.c("server/chunks/data_planetes_details_json_346a23b9._.js")
+R.c("server/chunks/[root-of-the-server]__f408c708._.js")
+R.c("server/chunks/_next-internal_server_app_sitemap_xml_route_actions_12658ace.js")
+R.m(8922)
+module.exports=R.m(8922).exports

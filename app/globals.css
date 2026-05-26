@@ -297,3 +297,31 @@ details[open] > div {
 details[open] > summary .toc-chevron {
   transform: rotate(180deg);
 }
+
+/* =========================
+   Performance : containment
+   ========================= */
+
+/*
+ * Le footer est long, lourd (~85 liens, 2 versions mobile/desktop dans le DOM)
+ * et n'est jamais visible au premier paint. On demande au navigateur :
+ *  - de sauter le rendu du footer tant qu'il est hors viewport
+ *    (content-visibility: auto)
+ *  - de réserver ~1800px de hauteur estimée pour stabiliser la mise en page
+ *    (contain-intrinsic-size) → CLS attribué au footer disparaît.
+ * Le contenu reste indexable par Google et accessible aux lecteurs d'écran.
+ */
+.cv-auto-footer {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 1800px;
+}
+
+/*
+ * Les sections cartes (zodiaque / maisons / planètes) sont également hors
+ * viewport au premier paint. Containment léger pour limiter les recalculs
+ * de layout déclenchés par le chargement des images.
+ */
+.cv-auto-section {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 900px;
+}
