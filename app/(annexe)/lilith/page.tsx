@@ -12,7 +12,9 @@ import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from 
  */
 
 export const metadata: Metadata = {
-  title: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode",
+  // ✅ Absolute : Ahrefs SERP rewrite — on retire le suffixe " — Astro Cours"
+  //    pour matcher exactement le titre que Google affiche.
+  title: { absolute: "Lilith (Lune Noire) — Vraie vs moyenne, sens & méthode" },
   description:
     "Lilith (Lune Noire) en astrologie : définition, vraie vs moyenne, symbolique et lecture par signe, maison et aspects. Explorez notre cours complet !",
   alternates: { canonical: absoluteUrl("/lilith") },

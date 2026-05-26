@@ -25,15 +25,11 @@ const nextConfig = {
   experimental: {
     // ✅ CSS critique inline (nécessite `npm install critters`)
     optimizeCss: true,
-    // ✅ Tree-shaking agressif pour les barrel exports (icônes, UI)
-    //    → réduit fortement le JS inutilisé envoyé au client
+    // ✅ Tree-shaking agressif pour les barrel exports (icônes)
+    //    NavBar n'utilise plus HeadlessUI/Heroicons, mais lucide-react
+    //    reste utilisé sur les pages slugs (planètes, maisons, blog…).
     optimizePackageImports: [
       "lucide-react",
-      "@headlessui/react",
-      "@heroicons/react",
-      "@heroicons/react/24/outline",
-      "@heroicons/react/24/solid",
-      "@heroicons/react/20/solid",
     ],
   },
 
@@ -52,6 +48,17 @@ const nextConfig = {
       config.target = ["web", "es2022"];
     }
     return config;
+  },
+
+  // ✅ 301 redirects pour anciennes URLs (préserve l'équité SEO).
+  async redirects() {
+    return [
+      {
+        source: "/blog/comprendre-son-signe-astrologique-et-son-ascendant",
+        destination: "/blog/comprendre-signe-astrologique-ascendant-12-exemples",
+        permanent: true,
+      },
+    ];
   },
 
   // ✅ Security headers

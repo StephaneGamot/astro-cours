@@ -325,3 +325,11 @@ details[open] > summary .toc-chevron {
   content-visibility: auto;
   contain-intrinsic-size: 0 900px;
 }
+
+/* =========================
+   Animation du drawer mobile (NavBar)
+   ========================= */
+@keyframes slidein {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}

@@ -178,7 +178,9 @@ export async function generateMetadata({
   const url = absoluteUrl(`/signes/${data.slug}`);
 
   return {
-    title,
+    // ✅ Absolute : Ahrefs SERP rewrite — on retire le suffixe " — Astro Cours"
+    //    car le titre signe est déjà long (60+ chars) et Google tronque sinon.
+    title: { absolute: title },
     description,
     alternates: { canonical: url },
     openGraph: {

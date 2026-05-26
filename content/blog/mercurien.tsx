@@ -10,6 +10,8 @@ export const meta = {
   slug: "mercurien",
   title:
     "Mercurien : Le Maître de la Communication",
+  // ✅ Ahrefs SERP rewrite — version étendue (Google déduit ce libellé du contenu de la page).
+  seoTitle: "Mercurien : Le Maître de la Communication et l'Éternel Curieux",
   description:
     "Portrait astrologique du Mercurien : intelligence, communication, curiosité et adaptation. Découvrez l'influence de Mercure sur l'amour et la carrière.",
   date: "2026-04-05",

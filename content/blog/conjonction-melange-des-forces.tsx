@@ -11,6 +11,8 @@ export const meta = {
   slug: "conjonction-melange-des-forces",
   title:
     "La conjonction en astrologie : sens & effets",
+  // ✅ Ahrefs SERP rewrite — Google utilise un tiret simple " - Astro Cours".
+  seoTitle: "La conjonction en astrologie : sens & effets - Astro Cours",
   description:
     "Qu'est-ce qu'une conjonction en astrologie ? Orbes, lecture en thème natal ou transit, exemples et méthode pour bien interpréter cet aspect majeur.",
   date: "2026-01-01",

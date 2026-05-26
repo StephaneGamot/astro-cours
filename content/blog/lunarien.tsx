@@ -11,6 +11,8 @@ export const meta = {
   slug: "lunarien",
   title:
     "Lunarien en Astrologie : Mémoire & Intuition",
+  // ✅ Ahrefs SERP rewrite — titre que Google affiche, sans suffixe " — Astro Cours".
+  seoTitle: "Lunarien : Rêveur, Gardien de la Mémoire & de l'Intuition",
   description:
     "Portrait du Lunarien en astrologie : mémoire, intuition, foyer et douceur. Découvrez l'impact de la Lune sur l'amour, la vocation et le thème astral",
   date: "2026-04-06",

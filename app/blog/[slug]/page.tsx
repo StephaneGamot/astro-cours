@@ -17,6 +17,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const m = post.meta;
   const canonical = `/blog/${m.slug}`;
+  // ✅ Per-post SEO title override (Ahrefs SERP rewrite fix).
+  //    Si meta.seoTitle est défini, on bypass le template "%s — Astro Cours"
+  //    pour matcher exactement le titre que Google affiche.
+  const seoTitleOverride = (m as unknown as { seoTitle?: string }).seoTitle;
   const ogImage = m.cover
     ? {
         url: absoluteUrl(m.cover),
@@ -32,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       };
 
   return {
-    title: m.title,
+    title: seoTitleOverride ? { absolute: seoTitleOverride } : m.title,
     description: m.description,
     alternates: { canonical: absoluteUrl(canonical) },
     robots: { index: true, follow: true },

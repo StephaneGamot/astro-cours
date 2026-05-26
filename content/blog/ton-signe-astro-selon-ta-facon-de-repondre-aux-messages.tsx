@@ -12,7 +12,7 @@ export const meta = {
   slug: ARTICLE_SLUG,
   title: "Ton signe astro selon ta façon de répondre aux messages",
   description:
-    "Vu, pas vu, vocal de 4 minutes ou réponse en un mot ? Découvre ton signe du zodiaque selon ta façon de répondre aux SMS et DM. Léger, drôle, et étonnamment juste.",
+    "Vu, pas vu, vocal de 4 minutes ou réponse en un mot ? Ton signe astro selon ta façon de répondre aux SMS et DM. Léger, drôle, étonnamment juste.",
   date: "2026-05-19",
   tags: ["signe", "zodiaque", "psychologie", "astrologie"],
   readingLevel: "débutant" as const,
@@ -875,7 +875,7 @@ export default function Post() {
               </summary>
               <p className="text-text/85 leading-relaxed">
                 Non. Le signe solaire donne une grande tendance, mais l&apos;
-                <Link href="/blog/comprendre-son-signe-astrologique-et-son-ascendant" className="underline decoration-white/30 hover:decoration-white/60 transition">
+                <Link href="/blog/comprendre-signe-astrologique-ascendant-12-exemples" className="underline decoration-white/30 hover:decoration-white/60 transition">
                   ascendant
                 </Link>, la position de
                 <Link href="/blog/mercurien" className="underline decoration-white/30 hover:decoration-white/60 transition"> Mercure</Link> (la communication) et celle de la

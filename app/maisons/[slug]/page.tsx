@@ -84,7 +84,8 @@ export async function generateMetadata({
   if (!house) return {};
 
   const titreCourt = house.titreCourt ?? `Maison ${toRoman(house.numero)}`;
-  const title = `${titreCourt} en astrologie : signification`;
+  // ✅ Ahrefs IndexNow rewrite — formulation plus complète (signification + interprétation).
+  const title = `${titreCourt} en astrologie, signification & interprétation`;
 
   const arena = house.niveauLecture?.arena?.trim();
   const motsCles = (house.niveauLecture?.motsCles ?? []).slice(0, 3);

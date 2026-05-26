@@ -93,6 +93,14 @@ export async function generateMetadata({
   const shortName = planet.name.length > 8 ? planet.name : planet.name;
   const title = `${shortName} en astrologie : symbolique & aspects`;
 
+  /* ── Per-slug SEO title override (Ahrefs SERP rewrite fix) ─────
+       Si Google réécrit le titre dans la SERP, on force ici la version
+       exacte avec `title: { absolute }` pour matcher au pixel près. */
+  const TITLE_OVERRIDES: Record<string, string> = {
+    jupiter: "Jupiter en astrologie : symbolique & aspects - Astro Cours",
+  };
+  const titleOverride = TITLE_OVERRIDES[planet.slug];
+
   /* ── Description 140-155 chars avec CTA ────────────────── */
   const rawDesc = planet.identite?.symbolique || "";
   const fallbackDesc = `Découvrez ${planet.name} en astrologie : symbolisme, influence dans les signes et les maisons, aspects majeurs. Guide complet pour interpréter votre thème natal.`;
@@ -110,6 +118,7 @@ export async function generateMetadata({
       type: "article",
       ogImage: planetHeroSrc(planet.slug),
     }),
+    ...(titleOverride ? { title: { absolute: titleOverride } } : {}),
     alternates: {
       canonical: absoluteUrl(`/planetes/${planet.slug}`),
     },

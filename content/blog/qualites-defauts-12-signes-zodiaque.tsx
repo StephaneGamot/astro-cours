@@ -11,6 +11,8 @@ const COVER_URL = `${SITE_URL}/images/blog/sun-moon.webp`;
 export const meta = {
   slug: "qualites-defauts-12-signes-zodiaque",
   title: "Qualités et défauts des 12 signes du zodiaque",
+  // ✅ Ahrefs SERP rewrite — Google utilise un tiret simple " - Astro Cours".
+  seoTitle: "Qualités et défauts des 12 signes du zodiaque - Astro Cours",
   description:
     "Étude sérieuse, nuancée et pédagogique des 12 signes du zodiaque : qualités, défauts, dérives possibles, dynamique psychologique et pistes d’évolution.",
   date: "2026-03-11",

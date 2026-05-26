@@ -24,7 +24,9 @@ const RS = data as PageData;
 const RS_CANONICAL = absoluteUrl("/revolution-solaire");
 
 export const metadata: Metadata = {
-  title: RS.meta.title,
+  // ✅ Absolute : Ahrefs SERP rewrite — on retire le suffixe " — Astro Cours"
+  //    pour matcher exactement le titre que Google affiche.
+  title: { absolute: RS.meta.title },
   description: RS.meta.description,
   alternates: { canonical: RS_CANONICAL },
   openGraph: {
