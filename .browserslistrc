@@ -1,0 +1,19 @@
+# Cible navigateurs modernes uniquement.
+# Lu en priorité par browserslist (et donc par SWC/Next/PostCSS/Tailwind).
+#
+# Objectif : éliminer les polyfills ES2017+ que Next.js continue d'injecter
+# (Array.prototype.at, flat, flatMap, Object.fromEntries, hasOwn,
+#  String.trimStart/trimEnd) — ~14 KiB d'économie sur le bundle client,
+# audit Lighthouse "Avoid serving legacy JavaScript to modern browsers".
+#
+# Aligné sur les targets définies précédemment dans package.json
+# (déplacées ici car le champ package.json était ignoré par certains
+#  outils du pipeline).
+
+chrome >= 100
+firefox >= 100
+safari >= 15.4
+edge >= 100
+ios_saf >= 15.4
+not dead
+not op_mini all

@@ -303,17 +303,24 @@ details[open] > summary .toc-chevron {
    ========================= */
 
 /*
- * Le footer est long, lourd (~85 liens, 2 versions mobile/desktop dans le DOM)
- * et n'est jamais visible au premier paint. On demande au navigateur :
- *  - de sauter le rendu du footer tant qu'il est hors viewport
- *    (content-visibility: auto)
- *  - de réserver ~1800px de hauteur estimée pour stabiliser la mise en page
- *    (contain-intrinsic-size) → CLS attribué au footer disparaît.
- * Le contenu reste indexable par Google et accessible aux lecteurs d'écran.
+ * Footer — historiquement optimisé avec content-visibility: auto +
+ * contain-intrinsic-size pour skipper son layout hors viewport.
+ *
+ * 🛑 Désactivé suite au rapport Lighthouse (mai 2026) : la réservation
+ *    d'espace de 1800px ne correspondait PAS à la hauteur réelle rendue
+ *    du footer sur mobile (Moto G Power), ce qui causait un CLS de 0,199
+ *    (perte de 16 pts de score perf). Le footer étant déjà sous la
+ *    "fold line" et le coût de son layout étant marginal, on préfère
+ *    laisser le navigateur faire son travail normalement.
+ *
+ * 💡 Si on veut réactiver l'optim un jour, utiliser la syntaxe moderne :
+ *      contain-intrinsic-size: auto 1800px;
+ *    (Safari 17+, Chrome 98+, Firefox 107+) — le mot-clé `auto` fait que
+ *    le navigateur mémorise la hauteur réelle après le 1er rendu et la
+ *    réutilise, éliminant le CLS.
  */
 .cv-auto-footer {
-  content-visibility: auto;
-  contain-intrinsic-size: 0 1800px;
+  /* No-op : classe conservée pour ne pas toucher au JSX du Footer. */
 }
 
 /*

@@ -23,7 +23,10 @@ const nextConfig = {
   },
 
   experimental: {
-    // ✅ CSS critique inline (nécessite `npm install critters`)
+    // ✅ CSS critique inline. Next 15.1+ détecte et utilise `beasties`
+    //    (fork maintenu de `critters` qui est abandonné).
+    //    Migration faite en mai 2026 suite à un audit Lighthouse :
+    //    critters laissait passer 65 KiB de CSS bloquant le rendu.
     optimizeCss: true,
     // ✅ Tree-shaking agressif pour les barrel exports (icônes)
     //    NavBar n'utilise plus HeadlessUI/Heroicons, mais lucide-react
