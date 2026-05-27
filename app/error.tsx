@@ -16,8 +16,8 @@ export default function Error({
         Une erreur est survenue
       </h1>
       <p className="max-w-md text-slate-400">
-        Un problème inattendu s&apos;est produit. Vous pouvez réessayer ou revenir à
-        l&apos;accueil.
+        Un problème inattendu s&apos;est produit. Vous pouvez réessayer ou
+        revenir à l&apos;accueil.
       </p>
       <div className="flex gap-4">
         <button
