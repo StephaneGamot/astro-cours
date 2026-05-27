@@ -68,6 +68,10 @@ import SmsSignesPost, {
   meta as smsSignesMeta,
 } from "./ton-signe-astro-selon-ta-facon-de-repondre-aux-messages";
 
+import LongeviteVieAstrologiePost, {
+  meta as longeviteVieAstrologieMeta,
+} from "./longevite-vie-astrologie";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -86,6 +90,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: longeviteVieAstrologieMeta, Component: LongeviteVieAstrologiePost },
   { meta: smsSignesMeta, Component: SmsSignesPost },
   { meta: horoscopeNeVousRessemblePasMeta, Component: HoroscopeNeVousRessemblePasPost },
   { meta: manipulateursPNMeta, Component: ManipulateursPNPost },
