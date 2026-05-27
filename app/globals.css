@@ -324,13 +324,25 @@ details[open] > summary .toc-chevron {
 }
 
 /*
- * Les sections cartes (zodiaque / maisons / planètes) sont également hors
- * viewport au premier paint. Containment léger pour limiter les recalculs
- * de layout déclenchés par le chargement des images.
+ * Sections cartes (zodiaque / maisons / planètes) — historiquement
+ * optimisées avec content-visibility: auto + contain-intrinsic-size.
+ *
+ * 🛑 LA VRAIE CAUSE DU CLS (audit Lighthouse mai 2026, score 81→cible 95+) :
+ *    Sur mobile (Moto G Power, 412px), chaque section fait ~3000-4000px
+ *    de haut (cartes empilées en 1 colonne). On en réservait 900px →
+ *    quand la section devenait visible au scroll, expansion brutale de
+ *    ~3000px → le footer (juste en dessous) se faisait pousser → CLS
+ *    de 0,199 attribué au footer mais causé ici. La 1ère tentative de
+ *    fix sur .cv-auto-footer n'a rien changé : c'était le mauvais
+ *    coupable, juste le messager visible.
+ *
+ * 💡 Pour rétablir l'optim un jour : utiliser la syntaxe moderne
+ *      contain-intrinsic-size: auto 900px;
+ *    (Safari 17+, Chrome 98+, Firefox 107+) qui mémorise la vraie
+ *    hauteur après le 1er rendu et la réutilise ensuite.
  */
 .cv-auto-section {
-  content-visibility: auto;
-  contain-intrinsic-size: 0 900px;
+  /* No-op : classe conservée pour ne pas toucher au JSX des sections. */
 }
 
 /* =========================

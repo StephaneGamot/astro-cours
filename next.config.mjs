@@ -23,11 +23,13 @@ const nextConfig = {
   },
 
   experimental: {
-    // ✅ CSS critique inline. Next 15.1+ détecte et utilise `beasties`
-    //    (fork maintenu de `critters` qui est abandonné).
-    //    Migration faite en mai 2026 suite à un audit Lighthouse :
-    //    critters laissait passer 65 KiB de CSS bloquant le rendu.
-    optimizeCss: true,
+    // ⚠️ optimizeCss désactivé après audit Lighthouse (mai 2026) :
+    //    beasties/critters inlineait le CSS critique dans le HTML, ce qui
+    //    GONFLAIT le HTML (33 KiB) et retardait le preload de l'image LCP
+    //    (« Délai de chargement de la ressource » passait de 90ms à 900ms).
+    //    Sur ce site, le coût de l'inline > gain de render-blocking.
+    //    À ré-évaluer si la home devient ultra-légère.
+    optimizeCss: false,
     // ✅ Tree-shaking agressif pour les barrel exports (icônes)
     //    NavBar n'utilise plus HeadlessUI/Heroicons, mais lucide-react
     //    reste utilisé sur les pages slugs (planètes, maisons, blog…).
