@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { buildMeta, buildTitle, absoluteUrl, SITE_NAME, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
-import { buildCourseNode } from "@/lib/courseSchema";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
   PLANETS,
@@ -152,14 +151,6 @@ function buildJsonLd(planet: ReturnType<typeof getPlanet>) {
         dateModified: "2026-05-08T12:00:00Z",
         inLanguage: "fr",
       },
-      buildCourseNode({
-        path: `/planetes/${planet.slug}`,
-        name: `${planet.name} en astrologie — Symbolisme et interprétation`,
-        description: planet.identite?.symbolique || `Étude approfondie de ${planet.name} en astrologie.`,
-        image: heroSrc,
-        teaches: `Interpréter la position de ${planet.name} dans un thème natal`,
-        topicName: `${planet.name} (planète astrologique)`,
-      }),
       {
         "@type": "BreadcrumbList",
         itemListElement: buildBreadcrumbs(planet).map((item, i) => ({

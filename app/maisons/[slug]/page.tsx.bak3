@@ -4,7 +4,6 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { buildMeta, buildTitle, absoluteUrl, SITE_NAME, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
-import { buildCourseNode } from "@/lib/courseSchema";
 import {
   HOUSES,
   PLANETS,
@@ -152,14 +151,6 @@ function buildJsonLd(house: typeof HOUSES[number]) {
         inLanguage: "fr",
         mainEntityOfPage: url,
       },
-      buildCourseNode({
-        path: `/maisons/${house.slug}`,
-        name: `${titreCourt} (${house.nom}) — Signification et interprétation`,
-        description: house.niveauLecture?.fonction ?? `Étude approfondie de la ${titreCourt} en astrologie.`,
-        image: `/images/maisons/hero/${toRoman(house.numero)}.webp`,
-        teaches: `Comprendre le rôle de la ${titreCourt} dans un thème natal`,
-        topicName: `${titreCourt} — ${house.nom}`,
-      }),
       {
         "@type": "BreadcrumbList",
         itemListElement: buildBreadcrumbs(house).map((crumb, i) => ({

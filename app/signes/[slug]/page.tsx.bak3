@@ -8,7 +8,6 @@ import fs from "fs";
 import path from "path";
 import ScrollReveal from "@/components/ScrollReveal";
 import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_NAME, SITE_URL } from "@/lib/seo";
-import { buildCourseNode } from "@/lib/courseSchema";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -284,14 +283,6 @@ export default async function SignePage({
         articleSection: "Astrologie",
         inLanguage: "fr",
       },
-      buildCourseNode({
-        path: `/signes/${data.slug}`,
-        name: `${data.nom} — Signe astrologique : ${data.element}, ${data.mode}`,
-        description: pageDescription,
-        image: data.images.signe,
-        teaches: `Comprendre la symbolique du ${data.nom} et savoir l'interpréter dans un thème natal`,
-        topicName: `${data.nom} (signe astrologique)`,
-      }),
       {
         "@type": "FAQPage",
         mainEntity: data.faq.map((f) => ({
