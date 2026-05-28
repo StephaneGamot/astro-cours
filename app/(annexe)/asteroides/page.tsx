@@ -286,8 +286,8 @@ const ARTICLE_JSON_LD = {
   author: AUTHOR_PERSON,
   publisher: PUBLISHER_ORG,
   image: [`${SITE_URL}/og/cover.jpg`],
-  datePublished: "2026-04-09",
-  dateModified: "2026-05-08",
+  datePublished: "2026-04-09T12:00:00Z",
+  dateModified: "2026-05-08T12:00:00Z",
   articleSection: "Astrologie",
 };
 

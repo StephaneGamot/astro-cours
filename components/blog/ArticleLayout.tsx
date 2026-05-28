@@ -33,6 +33,11 @@ function formatFrDate(dateStr?: string) {
   });
 }
 
+function toIsoDate(dateStr: string): string {
+  if (/T\d{2}:\d{2}/.test(dateStr)) return dateStr;
+  return `${dateStr}T12:00:00Z`;
+}
+
 export function ArticleLayout({
   meta,
   children,
@@ -50,8 +55,8 @@ export function ArticleLayout({
     headline: meta.title,
     description: meta.description,
     url: canonical,
-    datePublished: meta.date,
-    dateModified: meta.updatedAt ?? meta.date,
+    datePublished: toIsoDate(meta.date),
+    dateModified: toIsoDate(meta.updatedAt ?? meta.date),
     inLanguage: "fr",
     author: AUTHOR_PERSON,
     publisher: PUBLISHER_ORG,
