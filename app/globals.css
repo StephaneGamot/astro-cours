@@ -352,3 +352,83 @@ details[open] > summary .toc-chevron {
   from { transform: translateX(100%); }
   to   { transform: translateX(0); }
 }
+
+/* =========================
+   UI atoms pour /planetes/[slug] et /signes/[slug]
+   ========================= */
+/*
+ * 🎯 Pourquoi ces classes existent :
+ *    Avant l'extraction, la page /planetes/lune contenait 295 KB
+ *    de className Tailwind RÉPÉTÉS dans le HTML + RSC payload
+ *    (DetailList ×333, GlassCard ×50, etc). En sortant ces patterns
+ *    dans des classes CSS uniques (-> ~30 chars au lieu de ~190),
+ *    on a réduit le poids HTML/RSC de ~200 KB.
+ *
+ *    Source d'audit : audits/scripts/measure_html_redundancy.py (mai 2026).
+ */
+@layer components {
+  /* Section bloc — utilisé par <Section> dans planetes/maisons/signes */
+  .ui-section { @apply mb-20 md:mb-28; }
+
+  /* GlassCard — carte verre dépoli avec halo au hover (sans divs internes,
+     l'effet gradient est géré ici en ::before pour économiser 2 divs/carte). */
+  .ui-glass {
+    @apply relative overflow-hidden rounded-3xl border border-white/5
+           bg-white/[0.02] backdrop-blur-xl transition-colors duration-300
+           hover:border-white/10;
+  }
+  .ui-glass::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom right, rgb(255 255 255 / 0.04), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+  .ui-glass:hover::before { opacity: 1; }
+
+  /* DetailList — liste à puces avec icône (333 occurrences sur lune) */
+  .ui-dl-list  { @apply space-y-3; }
+  .ui-dl-item  { @apply flex items-start gap-3; }
+  .ui-dl-text  { @apply text-slate-300; }
+  .ui-dl-dot   { @apply mt-2 h-2 w-2 rounded-full flex-shrink-0; }
+  .ui-dl-head  { @apply mb-6 flex items-center gap-3; }
+  .ui-dl-title { @apply text-xl font-semibold; }
+
+  /* TagList */
+  .ui-tag-row  { @apply flex flex-wrap gap-3; }
+  .ui-tag {
+    @apply rounded-full border bg-white/[0.03] px-4 py-2 text-sm font-medium
+           transition-colors duration-200 hover:bg-white/[0.08];
+  }
+
+  /* AspectCard (planetes — 54 occurrences sur lune) */
+  .ui-aspect-card {
+    @apply rounded-2xl border bg-white/[0.02] p-4 backdrop-blur;
+  }
+  .ui-aspect-label {
+    @apply mb-2 inline-block rounded-lg px-3 py-1 text-sm font-semibold;
+  }
+
+  /* QuoteBlock (50 occurrences sur lune) */
+  .ui-quote {
+    @apply border-l-4 pl-6 italic text-slate-300;
+  }
+
+  /* Footer link (shared — 56 occurrences PAR PAGE).
+     ⚠ `group` n'est PAS applicable via @apply en Tailwind v4 (marker class) —
+        on le garde inline côté JSX. Idem pour `group-hover:` qui dépend du marker. */
+  .ui-footer-link {
+    @apply flex items-center gap-2.5 rounded-lg py-1.5 text-[14px]
+           leading-relaxed text-slate-400 transition-colors duration-200
+           motion-reduce:transition-none focus-visible:outline-none
+           focus-visible:ring-2 focus-visible:ring-violet-400
+           focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b];
+  }
+  .ui-footer-dot {
+    @apply h-1 w-1 shrink-0 rounded-full transition-all duration-200
+           motion-reduce:transition-none;
+  }
+}

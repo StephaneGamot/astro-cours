@@ -39,10 +39,12 @@ export function Section({
   children: ReactNode;
   className?: string;
 }) {
+  // ⚡ className "mb-20 md:mb-28" remplacé par "ui-section" (cf globals.css)
+  //    → ~16 bytes économisés par section × ~25 sections × 2 (HTML+RSC) = ~800 B
   return (
     <section
       id={id}
-      className={`mb-20 md:mb-28 ${className}`}
+      className={className ? `ui-section ${className}` : "ui-section"}
       aria-labelledby={id ? `${id}-heading` : undefined}
     >
       {children}
@@ -106,7 +108,9 @@ export function SectionHeading({
 
 interface GlassCardProps {
   children: ReactNode;
-  accent: { border: string };
+  /** @deprecated Plus utilisé — l'accent était quasi-invisible au hover.
+      Gardé pour compat ascendante avec page.tsx (passé partout). */
+  accent?: { border: string };
   className?: string;
   id?: string;
   role?: string;
@@ -115,36 +119,26 @@ interface GlassCardProps {
 
 export function GlassCard({
   children,
-  accent,
   className = "",
   id,
   role,
   ariaLabel,
 }: GlassCardProps) {
+  // ⚡ Avant: 1 div outer (~190 chars) + 2 divs décoratifs (~200 chars)
+  //          + 1 div wrapper "relative z-10" (~25 chars) × 50 GlassCards
+  //          = ~21 KB d'attributs + duplication RSC = ~42 KB.
+  //    Maintenant: 1 div + classe .ui-glass (~10 chars), effets gérés
+  //                en CSS ::before (cf globals.css). Pas de wrapper interne.
+  //    Le param `accent` n'est plus utilisé (l'effet hover de bordure était
+  //    quasi-invisible et ne justifiait pas un div + style inline par carte).
   return (
     <div
       id={id}
       role={role}
       aria-label={ariaLabel}
-      className={`group relative overflow-hidden rounded-3xl border border-white/5 bg-white/[0.02] backdrop-blur-xl transition-all duration-300 hover:border-white/10 hover:shadow-2xl hover:shadow-white/5 ${className}`}
+      className={className ? `ui-glass ${className}` : "ui-glass"}
     >
-      {/* Inner gradient overlay for glass effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-
-      {/* Accent border highlight on hover */}
-      <div
-        className={`absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 ${accent.border}`}
-        style={{
-          borderRadius: "inherit",
-          pointerEvents: "none",
-          boxShadow: `inset 0 0 2px ${accent.border}`,
-        }}
-      />
-
-      {/* Content */}
-      <div className="relative z-10">
-        {children}
-      </div>
+      {children}
     </div>
   );
 }
@@ -209,15 +203,12 @@ export function TagList({
   if (!items || items.length === 0) return null;
 
   return (
-    <div
-      role="list"
-      className="flex flex-wrap gap-3"
-    >
+    <div role="list" className="ui-tag-row">
       {items.map((item, idx) => (
         <span
           key={idx}
           role="listitem"
-          className={`rounded-full border ${accentBorder} bg-white/[0.03] px-4 py-2 text-sm font-medium ${accentText} transition-colors duration-200 hover:bg-white/[0.08]`}
+          className={`ui-tag ${accentBorder} ${accentText}`}
         >
           {item}
         </span>
@@ -247,24 +238,24 @@ export function DetailList({
 }: DetailListProps) {
   if (!items || items.length === 0) return null;
 
+  // ⚡ Avant: chaque <li> = ~85 chars de className × 333 items × 2 (HTML+RSC)
+  //          ≈ 56 KB rien que pour les puces.
+  //    Maintenant: classes courtes .ui-dl-* (cf globals.css).
   return (
     <div>
-      <div className="mb-6 flex items-center gap-3">
+      <div className="ui-dl-head">
         {Icon && <Icon className={`h-6 w-6 ${accentText}`} />}
-        <h3 className="text-xl font-semibold">{title}</h3>
+        <h3 className="ui-dl-title">{title}</h3>
       </div>
 
-      <ul className="space-y-3">
+      <ul className="ui-dl-list">
         {items.map((item, idx) => (
-          <li
-            key={idx}
-            className="flex items-start gap-3"
-          >
+          <li key={idx} className="ui-dl-item">
             <span
-              className={`mt-2 h-2 w-2 rounded-full flex-shrink-0 ${accentDot}`}
+              className={`ui-dl-dot ${accentDot}`}
               aria-hidden="true"
             />
-            <span className="text-slate-300">{item}</span>
+            <span className="ui-dl-text">{item}</span>
           </li>
         ))}
       </ul>
@@ -315,11 +306,10 @@ export function QuoteBlock({
 }: QuoteBlockProps) {
   if (!text) return null;
 
+  // ⚡ Classe .ui-quote remplace 57 chars × 50 occurrences (cf globals.css)
   return (
-    <blockquote
-      className={`border-l-4 ${accentBorder} pl-6 italic text-slate-300`}
-    >
-      "{text}"
+    <blockquote className={`ui-quote ${accentBorder}`}>
+      &quot;{text}&quot;
     </blockquote>
   );
 }
@@ -339,26 +329,16 @@ export function AspectCard({
   text,
   variant,
 }: AspectCardProps) {
-  const variantStyles = {
-    harmonious: {
-      label: "bg-emerald-500/20 text-emerald-400",
-      border: "border-emerald-500/30",
-    },
-    tense: {
-      label: "bg-red-500/20 text-red-400",
-      border: "border-red-500/30",
-    },
-  };
-
-  const styles = variantStyles[variant];
+  // ⚡ Avant : ~170 chars de className × 54 cartes × 2 (HTML+RSC) = ~18 KB
+  //    Maintenant : .ui-aspect-card + .ui-aspect-label (cf globals.css).
+  const styles =
+    variant === "harmonious"
+      ? { label: "bg-emerald-500/20 text-emerald-400", border: "border-emerald-500/30" }
+      : { label: "bg-red-500/20 text-red-400", border: "border-red-500/30" };
 
   return (
-    <div
-      className={`rounded-2xl border ${styles.border} bg-white/[0.02] p-4 backdrop-blur`}
-    >
-      <div className={`mb-2 inline-block rounded-lg ${styles.label} px-3 py-1 text-sm font-semibold`}>
-        {label}
-      </div>
+    <div className={`ui-aspect-card ${styles.border}`}>
+      <div className={`ui-aspect-label ${styles.label}`}>{label}</div>
       <p className="text-sm text-slate-300">{text}</p>
     </div>
   );

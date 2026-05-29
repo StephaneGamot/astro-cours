@@ -246,27 +246,13 @@ const LEGAL: FooterItem[] = [
 
 /** Individual link with accent-coloured bullet that widens on hover */
 function FooterLink({ item, accent: a }: { item: FooterItem; accent: Accent }) {
+  // ⚡ Classes .ui-footer-link et .ui-footer-dot remplacent ~470 chars
+  //    inlinés × 56 liens × 2 (HTML+RSC) = ~52 KB économisés PAR PAGE.
+  //    Cf globals.css (UI atoms).
   return (
     <li>
-      <Link
-        href={item.href}
-        className={[
-          "group flex items-center gap-2.5 rounded-lg py-1.5 text-[14px] leading-relaxed",
-          "text-slate-400 transition-colors duration-200 motion-reduce:transition-none",
-          a.linkHover,
-          "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
-          "focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]",
-        ].join(" ")}
-      >
-        <span
-          aria-hidden="true"
-          className={[
-            "h-1 w-1 shrink-0 rounded-full transition-all duration-200 motion-reduce:transition-none",
-            a.dot,
-            "group-hover:w-2.5",
-            a.dotHover,
-          ].join(" ")}
-        />
+      <Link href={item.href} className={`group ui-footer-link ${a.linkHover}`}>
+        <span aria-hidden="true" className={`ui-footer-dot ${a.dot} group-hover:w-2.5 ${a.dotHover}`} />
         <span>{item.name}</span>
       </Link>
     </li>
