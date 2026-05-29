@@ -5,9 +5,13 @@ import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 export const meta = {
   slug: "longevite-vie-astrologie",
-  title: "Longévité de vie en astrologie : comment la déceler et quels indicateurs observer",
+  // ⚠ Title court : 43 chars + " — Astro Cours" (14) = 57 chars total
+  //   Avant : 81 chars → SERP tronqué + signalé "Title too long" par Ahrefs.
+  title: "Longévité en astrologie : Hyleg & Alcocoden",
+  // ⚠ Meta description : 152 chars (max recommandé : 155).
+  //   Avant : 165 chars → tronquée par Google en SERP.
   description:
-    "Découvrez comment l'astrologie traditionnelle évalue la longévité de vie : Hyleg, Alcocoden, état des luminaires, maisons I et VIII, aspects et indicateurs concrets.",
+    "Évaluer la longévité en astrologie traditionnelle : Hyleg, Alcocoden, luminaires, maisons I et VIII. Méthode et indicateurs concrets à croiser.",
   date: "2026-05-27",
   tags: [
     "longévité",
@@ -303,9 +307,12 @@ export default function LongeviteVieAstrologiePost() {
           <Kicker>Longévité • Vitalité • Hyleg • Luminaires</Kicker>
 
           <div className="mt-4 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-            <h1 className="font-serif text-4xl font-medium leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl">
+            {/* ⚠ h1 → h2 (Ahrefs flag "Multiple H1") :
+                ArticleLayout rend déjà meta.title comme h1 unique en haut
+                de page. On garde un h2 sémantique pour la hiérarchie SEO. */}
+            <h2 className="font-serif text-4xl font-medium leading-tight tracking-tight text-white sm:text-5xl md:max-w-3xl">
               Comment l&apos;astrologie observe la longévité : les indicateurs essentiels
-            </h1>
+            </h2>
 
             <div className="flex flex-wrap gap-3 text-sm text-white/70">
               <span className="rounded-full border border-white/10 bg-white/5 px-4 py-1.5 backdrop-blur-md">
