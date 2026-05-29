@@ -85,10 +85,9 @@ const jsonLd = {
   alumniOf: {
     "@type": "EducationalOrganization",
     name: "AstroCours.be",
-        "url": "https://www.astrocours.be",
+    url: "https://www.astrocours.be",
     description:
       "Formation compl\u00e8te en astrologie dirig\u00e9e par Jean-Marie Michiels",
-      
   },
   mainEntityOfPage: {
     "@type": "WebPage",
@@ -179,7 +178,10 @@ export default function AuteurPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <main id="main-content" className="relative mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
+      <main
+        id="main-content"
+        className="relative mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20"
+      >
         {/* ── Glow d\u00e9coratif ── */}
         <div
           aria-hidden
@@ -204,7 +206,9 @@ export default function AuteurPage() {
             <span className="bg-gradient-to-r from-violet-400 via-accent to-sky-400 bg-clip-text text-transparent">
               Gamot
             </span>
-            <span className="block mt-2 text-lg font-normal text-text/60 sm:text-xl">Astrologue, auteur &amp; p&eacute;dagogue</span>
+            <span className="block mt-2 text-lg font-normal text-text/60 sm:text-xl">
+              Astrologue, auteur &amp; p&eacute;dagogue
+            </span>
           </h1>
 
           <p className="mx-auto max-w-xl text-sm leading-relaxed text-text/55 sm:text-[0.94rem]">
@@ -213,7 +217,8 @@ export default function AuteurPage() {
             astrologie traditionnelle, pr&eacute;visionnelle et en
             astro-psychologie. &Eacute;tudiant en m&eacute;decine traditionnelle
             chinoise et shiatsu. Auteur du site{" "}
-            <span className="font-medium text-accent/80">Astro&nbsp;Cours</span>.
+            <span className="font-medium text-accent/80">Astro&nbsp;Cours</span>
+            .
           </p>
 
           {/* Chiffres cl\u00e9s */}
@@ -254,14 +259,14 @@ export default function AuteurPage() {
               demain.
             </p>
             <p>
-              C&apos;est avant tout un outil pour mieux nous comprendre et
-              nous pr&eacute;parer &agrave; la vie. C&apos;est cette vision que
-              je d&eacute;veloppe aujourd&apos;hui &agrave; travers Astro Cours.
+              C&apos;est avant tout un outil pour mieux nous comprendre et nous
+              pr&eacute;parer &agrave; la vie. C&apos;est cette vision que je
+              d&eacute;veloppe aujourd&apos;hui &agrave; travers Astro Cours.
             </p>
             <p>
-              Avec le temps, je r&eacute;alise que l&apos;approche qui me
-              parle le plus profond&eacute;ment est
-              l&apos;<strong className="text-text/90">astro-psychologie</strong>&nbsp;:
+              Avec le temps, je r&eacute;alise que l&apos;approche qui me parle
+              le plus profond&eacute;ment est l&apos;
+              <strong className="text-text/90">astro-psychologie</strong>&nbsp;:
               la rencontre entre l&apos;analyse du th&egrave;me astral et la
               compr&eacute;hension psychologique de l&apos;individu.
             </p>
@@ -285,23 +290,23 @@ export default function AuteurPage() {
                 <p>
                   Les transits et progressions ne sont pas des
                   pr&eacute;dictions, mais des p&eacute;riodes de maturation
-                  psychologique&nbsp;: des moments o&ugrave; certaines parties de
-                  nous sont appel&eacute;es &agrave; &eacute;voluer.
+                  psychologique&nbsp;: des moments o&ugrave; certaines parties
+                  de nous sont appel&eacute;es &agrave; &eacute;voluer.
                 </p>
                 <p>
-                  L&apos;objectif n&apos;est pas de donner des
-                  r&eacute;ponses, mais d&apos;offrir un miroir&nbsp;: mieux se
-                  conna&icirc;tre, accepter ses tensions internes et
-                  transformer ses potentiels en forces conscientes.
+                  L&apos;objectif n&apos;est pas de donner des r&eacute;ponses,
+                  mais d&apos;offrir un miroir&nbsp;: mieux se conna&icirc;tre,
+                  accepter ses tensions internes et transformer ses potentiels
+                  en forces conscientes.
                 </p>
               </div>
             </div>
 
             <p className="mt-3 text-[0.82rem] leading-relaxed text-text/50 italic">
-              Note de transparence&nbsp;: l&apos;astrologie, y compris sa branche
-              psychologique, n&apos;est pas reconnue comme une science par le
-              milieu acad&eacute;mique. Elle est cependant per&ccedil;ue par ses
-              praticiens comme une d&eacute;marche
+              Note de transparence&nbsp;: l&apos;astrologie, y compris sa
+              branche psychologique, n&apos;est pas reconnue comme une science
+              par le milieu acad&eacute;mique. Elle est cependant per&ccedil;ue
+              par ses praticiens comme une d&eacute;marche
               &laquo;&nbsp;th&eacute;rapeutique&nbsp;&raquo; au sens large
               &mdash;&nbsp;un outil de compr&eacute;hension de soi, pas un
               substitut &agrave; un suivi m&eacute;dical ou psychologique.
@@ -319,11 +324,11 @@ export default function AuteurPage() {
               Dans la vie professionnelle, je suis{" "}
               <strong className="text-text/90">
                 ing&eacute;nieur en d&eacute;veloppement logiciel
-              </strong>.
-              Ce m&eacute;tier m&apos;a appris la rigueur analytique, la
+              </strong>
+              . Ce m&eacute;tier m&apos;a appris la rigueur analytique, la
               structuration des id&eacute;es et l&apos;importance de la
-              m&eacute;thode. Ce sont des qualit&eacute;s que
-              j&apos;applique directement &agrave; ma pratique astrologique&nbsp;:
+              m&eacute;thode. Ce sont des qualit&eacute;s que j&apos;applique
+              directement &agrave; ma pratique astrologique&nbsp;:
               v&eacute;rifier, recouper, ne rien affirmer &agrave; la
               l&eacute;g&egrave;re.
             </p>
@@ -336,7 +341,8 @@ export default function AuteurPage() {
                   </p>
                   <p className="mt-1 text-[0.82rem] leading-relaxed text-text/55">
                     Approche rationnelle, structur&eacute;e et
-                    m&eacute;thodique. La logique au service de la clart&eacute;.
+                    m&eacute;thodique. La logique au service de la
+                    clart&eacute;.
                   </p>
                 </div>
               </div>
@@ -347,9 +353,9 @@ export default function AuteurPage() {
                     MTC &amp; Shiatsu
                   </p>
                   <p className="mt-1 text-[0.82rem] leading-relaxed text-text/55">
-                    &Eacute;tude de la m&eacute;decine traditionnelle chinoise et
-                    du shiatsu&nbsp;: une autre lecture &eacute;nerg&eacute;tique
-                    du corps et de l&apos;esprit.
+                    &Eacute;tude de la m&eacute;decine traditionnelle chinoise
+                    et du shiatsu&nbsp;: une autre lecture
+                    &eacute;nerg&eacute;tique du corps et de l&apos;esprit.
                   </p>
                 </div>
               </div>
@@ -357,11 +363,12 @@ export default function AuteurPage() {
             <p className="mt-3">
               Ces deux univers &mdash;&nbsp;l&apos;ing&eacute;nierie et les
               pratiques &eacute;nerg&eacute;tiques&nbsp;&mdash; peuvent sembler
-              oppos&eacute;s. En r&eacute;alit&eacute;, ils se compl&egrave;tent.
-              L&apos;un m&apos;ancre dans la logique et la v&eacute;rification,
-              l&apos;autre m&apos;ouvre &agrave; une compr&eacute;hension plus
-              globale de l&apos;&ecirc;tre humain. L&apos;astrologie, telle que
-              je la pratique, se situe exactement &agrave; cette intersection.
+              oppos&eacute;s. En r&eacute;alit&eacute;, ils se
+              compl&egrave;tent. L&apos;un m&apos;ancre dans la logique et la
+              v&eacute;rification, l&apos;autre m&apos;ouvre &agrave; une
+              compr&eacute;hension plus globale de l&apos;&ecirc;tre humain.
+              L&apos;astrologie, telle que je la pratique, se situe exactement
+              &agrave; cette intersection.
             </p>
           </SectionBlock>
 
@@ -370,26 +377,27 @@ export default function AuteurPage() {
             icon={Sparkles}
             badge="Origines"
             badgeColor="bg-amber-500/10 text-amber-400"
-            title="La naissance d&apos;une passion"
+            title="La naissance d'une passion"
           >
             <p>
               Tout commence &agrave; l&apos;&acirc;ge de dix ans. Je suis
               fascin&eacute; par la mythologie grecque et romaine&nbsp;: Zeus,
-              Ar&egrave;s, Aphrodite, Herm&egrave;s&hellip; Chaque dieu porte
-              le nom d&apos;une plan&egrave;te, chaque r&eacute;cit
-              r&eacute;v&egrave;le un arch&eacute;type. Les relations entre
-              ces divinit&eacute;s &mdash; leurs alliances, leurs conflits,
-              leurs trahisons &mdash; pr&eacute;figurent ce que
-              l&apos;astrologie appelle les aspects.
+              Ar&egrave;s, Aphrodite, Herm&egrave;s&hellip; Chaque dieu porte le
+              nom d&apos;une plan&egrave;te, chaque r&eacute;cit
+              r&eacute;v&egrave;le un arch&eacute;type. Les relations entre ces
+              divinit&eacute;s &mdash; leurs alliances, leurs conflits, leurs
+              trahisons &mdash; pr&eacute;figurent ce que l&apos;astrologie
+              appelle les aspects.
             </p>
             <p>
               Tr&egrave;s vite, cette curiosit&eacute; me conduit &agrave;
               l&apos;astrologie comme une suite logique, presque une
-              &eacute;vidence. Les livres semblent arriver d&apos;eux-m&ecirc;mes.
-              Georges Antar&egrave;s, Andr&eacute; Barbault, Liz Greene,
-              Henri-Joseph Gouchon&hellip; Chaque ouvrage en appelle un autre.
-              Ce qui &eacute;tait une fascination d&apos;enfant devient
-              rapidement une pratique quotidienne et m&eacute;thodique.
+              &eacute;vidence. Les livres semblent arriver
+              d&apos;eux-m&ecirc;mes. Georges Antar&egrave;s, Andr&eacute;
+              Barbault, Liz Greene, Henri-Joseph Gouchon&hellip; Chaque ouvrage
+              en appelle un autre. Ce qui &eacute;tait une fascination
+              d&apos;enfant devient rapidement une pratique quotidienne et
+              m&eacute;thodique.
             </p>
           </SectionBlock>
 
@@ -405,11 +413,12 @@ export default function AuteurPage() {
               <strong className="text-text/90">Jean-Marie Michiels</strong>,
               astrologue, chercheur et p&eacute;dagogue belge, au sein
               d&apos;AstroCours.be. Cette formation a profond&eacute;ment
-              transform&eacute; ma mani&egrave;re d&apos;aborder l&apos;astrologie.
-              J&apos;y ai appris &agrave; sortir des interpr&eacute;tations
-              rapides, &agrave; ne jamais isoler un &eacute;l&eacute;ment de
-              son contexte, &agrave; consid&eacute;rer le th&egrave;me comme
-              un ensemble coh&eacute;rent o&ugrave; tout se r&eacute;pond.
+              transform&eacute; ma mani&egrave;re d&apos;aborder
+              l&apos;astrologie. J&apos;y ai appris &agrave; sortir des
+              interpr&eacute;tations rapides, &agrave; ne jamais isoler un
+              &eacute;l&eacute;ment de son contexte, &agrave; consid&eacute;rer
+              le th&egrave;me comme un ensemble coh&eacute;rent o&ugrave; tout
+              se r&eacute;pond.
             </p>
             <p>Le programme couvrait un spectre large et exigeant&nbsp;:</p>
             <div className="mt-2 grid gap-2 sm:grid-cols-2">
@@ -444,23 +453,22 @@ export default function AuteurPage() {
             title="Pourquoi je fais &ccedil;a"
           >
             <p>
-              Parce que l&apos;astrologie, bien utilis&eacute;e, ne donne pas
-              de r&eacute;ponses toutes faites. Elle pose de meilleures
-              questions. Elle met en lumi&egrave;re des fonctionnements que
-              l&apos;on ressent d&eacute;j&agrave;, sans toujours pouvoir les
-              nommer.
+              Parce que l&apos;astrologie, bien utilis&eacute;e, ne donne pas de
+              r&eacute;ponses toutes faites. Elle pose de meilleures questions.
+              Elle met en lumi&egrave;re des fonctionnements que l&apos;on
+              ressent d&eacute;j&agrave;, sans toujours pouvoir les nommer.
             </p>
             <p>
               Elle &eacute;claire des tensions internes, des &eacute;lans
-              contradictoires, des sch&eacute;mas r&eacute;currents. Et
-              parfois, simplement, elle permet de se comprendre un peu mieux
+              contradictoires, des sch&eacute;mas r&eacute;currents. Et parfois,
+              simplement, elle permet de se comprendre un peu mieux
               &mdash;&nbsp;sans se juger.
             </p>
             <p>
-              C&apos;est cette utilit&eacute;-l&agrave; qui m&apos;int&eacute;resse.
-              Pas l&apos;astrologie spectacle. Pas les horoscopes de magazine.
-              Une astrologie qui aide &agrave; vivre de fa&ccedil;on plus
-              consciente.
+              C&apos;est cette utilit&eacute;-l&agrave; qui
+              m&apos;int&eacute;resse. Pas l&apos;astrologie spectacle. Pas les
+              horoscopes de magazine. Une astrologie qui aide &agrave; vivre de
+              fa&ccedil;on plus consciente.
             </p>
           </SectionBlock>
 
@@ -490,9 +498,9 @@ export default function AuteurPage() {
               travailler claire et reproductible. Une interpr&eacute;tation
               s&eacute;rieuse ne repose jamais sur un seul &eacute;l&eacute;ment
               isol&eacute;. Elle repose sur l&apos;ensemble du th&egrave;me, ses
-              r&eacute;p&eacute;titions, ses tensions, ses dominantes. C&apos;est
-              cette m&eacute;thode que je partage &agrave; travers chaque page
-              d&apos;Astro Cours.
+              r&eacute;p&eacute;titions, ses tensions, ses dominantes.
+              C&apos;est cette m&eacute;thode que je partage &agrave; travers
+              chaque page d&apos;Astro Cours.
             </p>
           </SectionBlock>
 
