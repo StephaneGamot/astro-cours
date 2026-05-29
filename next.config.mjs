@@ -8,6 +8,14 @@ const withMDX = nextMDX({
 const nextConfig = {
   pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
 
+  // ✅ Compression gzip/brotli au niveau Next (défensif).
+  //    Sur Vercel, l'edge compresse normalement, mais on a observé en mai 2026
+  //    que les pages prérendées /planetes/[slug] étaient servies depuis le
+  //    blob storage (Content-Disposition: inline, Accept-Ranges: bytes) SANS
+  //    Content-Encoding ni Vary: Accept-Encoding. Forcer `compress: true`
+  //    rebascule Next sur sa pipeline de compression.
+  compress: true,
+
   // ✅ Force Turbopack à utiliser la racine du projet
   turbopack: {
     root: new URL(".", import.meta.url).pathname,
@@ -79,6 +87,10 @@ const nextConfig = {
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
           { key: "X-DNS-Prefetch-Control", value: "on" },
           { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
+          // ✅ Force le CDN à différencier le cache par encodage (gzip/br/identity).
+          //    Sans ça, Vercel peut servir la version non compressée stockée en cache
+          //    à des clients qui demandent br/gzip → -100% de gain de compression.
+          { key: "Vary", value: "Accept-Encoding" },
         ],
       },
     ];
