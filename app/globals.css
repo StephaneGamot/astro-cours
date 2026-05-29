@@ -1,18 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --bg: 11 16 32;          /* #0B1020 */
-  --surface: 18 25 51;     /* #121933 */
-  --text: 241 243 250;     /* #F1F3FA */
-  --muted: 170 177 212;    /* #AAB1D4 */
-  --accent: 108 124 255;   /* #6C7CFF */
+  --bg: 11 16 32; /* #0B1020 */
+  --surface: 18 25 51; /* #121933 */
+  --text: 241 243 250; /* #F1F3FA */
+  --muted: 170 177 212; /* #AAB1D4 */
+  --accent: 108 124 255; /* #6C7CFF */
   --accent-2: 154 164 255; /* #9AA4FF */
   --border: 255 255 255;
 }
 
-html, body {
+html,
+body {
   height: 100%;
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -24,11 +25,15 @@ body {
    Typographie globale
    ========================= */
 
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-serif);
   letter-spacing: -0.02em;
-  color: rgb(var(--text) / 1);   /* plein */
+  color: rgb(var(--text) / 1); /* plein */
   text-wrap: balance;
   margin: 0;
 }
@@ -45,7 +50,7 @@ h2 {
   line-height: 1.12;
   margin-top: 2.2rem;
   padding-bottom: 0.35rem;
-  border-bottom: 1px solid rgb(var(--border) / 0.10);
+  border-bottom: 1px solid rgb(var(--border) / 0.1);
 }
 
 h3 {
@@ -83,7 +88,8 @@ h6 {
 }
 
 /* Paragraphes / listes : volontairement plus doux */
-p, li {
+p,
+li {
   font-family: var(--font-sans);
   color: rgb(var(--text) / 0.84);
   line-height: 1.78;
@@ -91,7 +97,8 @@ p, li {
 }
 
 /* Texte secondaire */
-small, .muted {
+small,
+.muted {
   font-family: var(--font-sans);
   color: rgb(var(--muted));
 }
@@ -102,7 +109,9 @@ strong {
   font-weight: 650;
 }
 
-em { color: rgb(var(--text) / 0.90); }
+em {
+  color: rgb(var(--text) / 0.9);
+}
 
 /* Espacement “lecture” (utile blog/cours) */
 .prose {
@@ -113,9 +122,15 @@ em { color: rgb(var(--text) / 0.90); }
   margin-top: 0.9rem;
 }
 
-.prose h2 { margin-top: 2.0rem; }
-.prose h3 { margin-top: 1.6rem; }
-.prose p  { margin-top: 0.9rem; }
+.prose h2 {
+  margin-top: 2rem;
+}
+.prose h3 {
+  margin-top: 1.6rem;
+}
+.prose p {
+  margin-top: 0.9rem;
+}
 
 /* =========================
    Liens (a) + focus accessibilité
@@ -125,7 +140,10 @@ a {
   color: rgb(var(--accent));
   text-decoration: none;
   text-underline-offset: 0.22em;
-  transition: color 180ms ease, text-decoration-color 180ms ease, opacity 180ms ease;
+  transition:
+    color 180ms ease,
+    text-decoration-color 180ms ease,
+    opacity 180ms ease;
 }
 
 a:hover {
@@ -151,7 +169,10 @@ a:focus-visible {
   font-weight: 500;
   padding: 0.45rem 0.65rem;
   border-radius: 999px;
-  transition: background-color 160ms ease, color 160ms ease, opacity 160ms ease;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    opacity 160ms ease;
 }
 
 .navlink:hover {
@@ -184,23 +205,15 @@ a:focus-visible {
 hr {
   border: none;
   height: 1px;
-  background: rgb(var(--border) / 0.10);
+  background: rgb(var(--border) / 0.1);
   margin: 1.5rem 0;
 }
-
-
-
-
-
-
-
-
 
 @theme {
   --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-glow-pulse: glow-pulse 6s ease-in-out infinite;
 }
- 
+
 @keyframes fade-in-up {
   from {
     opacity: 0;
@@ -211,9 +224,10 @@ hr {
     transform: translateY(0);
   }
 }
- 
+
 @keyframes glow-pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.07;
     transform: translate(-50%, -50%) scale(1);
   }
@@ -222,54 +236,55 @@ hr {
     transform: translate(-50%, -50%) scale(1.05);
   }
 }
- 
+
 /* ── Utilities custom (Tailwind 4 les reconnaît maintenant) ──────── */
- 
+
 @utility animation-delay-100 {
   animation-delay: 0.1s;
 }
- 
+
 @utility animation-delay-200 {
   animation-delay: 0.2s;
 }
- 
+
 @utility animation-delay-300 {
   animation-delay: 0.3s;
 }
- 
+
 @utility animation-delay-400 {
   animation-delay: 0.4s;
 }
- 
+
 @utility animation-delay-500 {
   animation-delay: 0.5s;
 }
- 
+
 /* ── ScrollReveal (composant client) ─────────────────────────────── */
- 
+
 @utility reveal {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
- 
+
 @utility visible {
   opacity: 1;
   transform: translateY(0);
 }
- 
+
 /* ── FAQ details/summary ─────────────────────────────────────────── */
- 
+
 details > summary {
   list-style: none;
 }
- 
+
 details > summary::marker,
 details > summary::-webkit-details-marker {
   display: none;
 }
- 
+
 details > summary::after {
   content: "+";
   display: inline-flex;
@@ -281,15 +296,17 @@ details > summary::after {
   font-size: 1.25rem;
   font-weight: 300;
   color: rgb(var(--text) / 0.3);
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
   float: right;
 }
- 
+
 details[open] > summary::after {
   transform: rotate(45deg);
   color: rgb(var(--text) / 0.6);
 }
- 
+
 details[open] > div {
   animation: fade-in-up 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -349,8 +366,12 @@ details[open] > summary .toc-chevron {
    Animation du drawer mobile (NavBar)
    ========================= */
 @keyframes slidein {
-  from { transform: translateX(100%); }
-  to   { transform: translateX(0); }
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 /* =========================
@@ -368,7 +389,9 @@ details[open] > summary .toc-chevron {
  */
 @layer components {
   /* Section bloc — utilisé par <Section> dans planetes/maisons/signes */
-  .ui-section { @apply mb-20 md:mb-28; }
+  .ui-section {
+    @apply mb-20 md:mb-28;
+  }
 
   /* GlassCard — carte verre dépoli avec halo au hover (sans divs internes,
      l'effet gradient est géré ici en ::before pour économiser 2 divs/carte). */
@@ -381,24 +404,44 @@ details[open] > summary .toc-chevron {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom right, rgb(255 255 255 / 0.04), transparent);
+    background: linear-gradient(
+      to bottom right,
+      rgb(255 255 255 / 0.04),
+      transparent
+    );
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
     border-radius: inherit;
   }
-  .ui-glass:hover::before { opacity: 1; }
+  .ui-glass:hover::before {
+    opacity: 1;
+  }
 
   /* DetailList — liste à puces avec icône (333 occurrences sur lune) */
-  .ui-dl-list  { @apply space-y-3; }
-  .ui-dl-item  { @apply flex items-start gap-3; }
-  .ui-dl-text  { @apply text-slate-300; }
-  .ui-dl-dot   { @apply mt-2 h-2 w-2 rounded-full flex-shrink-0; }
-  .ui-dl-head  { @apply mb-6 flex items-center gap-3; }
-  .ui-dl-title { @apply text-xl font-semibold; }
+  .ui-dl-list {
+    @apply space-y-3;
+  }
+  .ui-dl-item {
+    @apply flex items-start gap-3;
+  }
+  .ui-dl-text {
+    @apply text-slate-300;
+  }
+  .ui-dl-dot {
+    @apply mt-2 h-2 w-2 rounded-full flex-shrink-0;
+  }
+  .ui-dl-head {
+    @apply mb-6 flex items-center gap-3;
+  }
+  .ui-dl-title {
+    @apply text-xl font-semibold;
+  }
 
   /* TagList */
-  .ui-tag-row  { @apply flex flex-wrap gap-3; }
+  .ui-tag-row {
+    @apply flex flex-wrap gap-3;
+  }
   .ui-tag {
     @apply rounded-full border bg-white/[0.03] px-4 py-2 text-sm font-medium
            transition-colors duration-200 hover:bg-white/[0.08];
