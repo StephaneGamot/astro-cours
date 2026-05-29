@@ -6,7 +6,7 @@ import {
   groupByLetter,
   type DictCategory,
 } from "@/lib/dictionnaire";
-import LazyLetterSection from "./LazyLetterSection";
+import LetterSection from "./LetterSection";
 
 /* ================================================================== */
 /*  SEO — Metadata                                                    */
@@ -66,8 +66,12 @@ export default function DictionnairePage() {
   const letters = Object.keys(grouped).sort((a, b) => a.localeCompare(b, "fr"));
   const allLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  /* Seuls letter + count sont passés au client (pas les entries !) */
-  const letterData = letters.map((l) => ({ letter: l, count: grouped[l].length }));
+  /* ⚡ Server-side rendering complet : on passe les entries directement.
+        Avant on ne passait que letter+count à un client component qui
+        re-fetchait via dynamic import() → Googlebot ne voyait que 81 mots.
+        Maintenant tout est dans le HTML SSR → 1000+ mots indexables.
+        Audit thin_content du 29 mai 2026. */
+  const letterData = letters.map((l) => ({ letter: l, entries: grouped[l] }));
 
   return (
     <main id="main-content" className="relative mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
@@ -158,13 +162,13 @@ export default function DictionnairePage() {
         })}
       </div>
 
-      {/* ── Entrées (données chargées dynamiquement par lettre) ── */}
+      {/* ── Entrées (tout SSR — Server Component, contenu indexable) ── */}
       <div className="space-y-12 sm:space-y-16">
-        {letterData.map(({ letter, count }, i) => (
-          <LazyLetterSection
+        {letterData.map(({ letter, entries }, i) => (
+          <LetterSection
             key={letter}
             letter={letter}
-            count={count}
+            entries={entries}
             eager={i === 0}
           />
         ))}

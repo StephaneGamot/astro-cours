@@ -274,7 +274,18 @@ hr {
   transform: translateY(0);
 }
 
-/* ── FAQ details/summary ─────────────────────────────────────────── */
+/* ── <details>/<summary> defaults ────────────────────────────────── */
+/*
+ * 🛑 Avant (mai 2026) : on ajoutait un `+` / `×` (rotate 45°) en ::after
+ *    sur TOUS les <details>. Mais ça polluait la NavBar et le TOC mobile
+ *    (qui utilisent <details> natifs) en plus de la FAQ → chaque onglet
+ *    affichait à la fois son ChevronDownIcon ET le `+` / `×`.
+ *    La FAQ a déjà son propre <span>+</span> explicite dans le JSX
+ *    (cf app/planetes/[slug]/page.tsx), donc cette règle faisait doublon.
+ *
+ *    On garde juste la suppression du marker natif (list-style: none +
+ *    ::-webkit-details-marker hidden) pour tous les <details>.
+ */
 
 details > summary {
   list-style: none;
@@ -283,28 +294,6 @@ details > summary {
 details > summary::marker,
 details > summary::-webkit-details-marker {
   display: none;
-}
-
-details > summary::after {
-  content: "+";
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-left: auto;
-  font-size: 1.25rem;
-  font-weight: 300;
-  color: rgb(var(--text) / 0.3);
-  transition:
-    transform 0.3s ease,
-    color 0.3s ease;
-  float: right;
-}
-
-details[open] > summary::after {
-  transform: rotate(45deg);
-  color: rgb(var(--text) / 0.6);
 }
 
 details[open] > div {

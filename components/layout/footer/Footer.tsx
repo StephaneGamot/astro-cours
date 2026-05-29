@@ -534,24 +534,6 @@ export default function Footer() {
             </p>
             <address className="not-italic flex flex-wrap items-center gap-x-2 gap-y-1">
               <a
-                href="https://www.stephanegamot.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={[
-                  "group inline-flex items-center gap-1.5 rounded-md text-sm text-slate-400",
-                  "transition-colors duration-200 hover:text-violet-300",
-                  "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
-                  "focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]",
-                ].join(" ")}
-              >
-                Stéphane Gamot — Developer
-                <IconExternal
-                  className="size-3 text-slate-500 transition-colors duration-200 group-hover:text-violet-400"
-                  aria-hidden="true"
-                />
-              </a>
-              <span className="text-slate-600" aria-hidden="true">·</span>
-              <a
                 href="https://www.creation-site-internet-pays-basque.com/fr"
                 target="_blank"
                 rel="noopener noreferrer"

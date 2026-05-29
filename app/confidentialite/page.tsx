@@ -110,13 +110,22 @@ export default function ConfidentialitePage() {
         <Article number="Art. 1" title="Données collectées">
           <p>
             Le site Astro Cours ne collecte des données personnelles que de
-            manière strictement nécessaire. Les données suivantes peuvent être
-            recueillies&nbsp;:
+            manière strictement nécessaire au fonctionnement et à
+            l&apos;amélioration du service. Les données suivantes peuvent être
+            recueillies de manière automatique lors de votre visite&nbsp;:
           </p>
           <ul className="list-disc pl-5 space-y-1.5">
-            <li>données de navigation anonymisées</li>
-            <li>données techniques (type de navigateur, pages visitées)</li>
+            <li>données de navigation anonymisées (pages consultées, temps passé)</li>
+            <li>données techniques (type de navigateur, système d&apos;exploitation, résolution d&apos;écran)</li>
+            <li>adresse IP tronquée à des fins de mesure d&apos;audience</li>
           </ul>
+          <p>
+            <strong className="text-text/90">Aucune donnée personnelle directement identifiante</strong>{" "}
+            (nom, prénom, email, date de naissance, thème astral)
+            n&apos;est collectée sans votre action explicite&nbsp;: ces
+            informations ne sont enregistrées que si vous nous écrivez
+            spontanément par e-mail.
+          </p>
         </Article>
 
         {/* Art. 2 — Outils d'analyse */}
@@ -142,10 +151,16 @@ export default function ConfidentialitePage() {
           <p>
             Des cookies techniques ou de mesure d&apos;audience peuvent être
             utilisés afin d&apos;assurer le bon fonctionnement du site et
-            d&apos;analyser sa fréquentation.
+            d&apos;analyser sa fréquentation de manière agrégée. Vous pouvez à
+            tout moment configurer votre navigateur pour refuser les cookies
+            ou être averti de leur dépôt&nbsp;: cela n&apos;altère pas
+            l&apos;accès au contenu du site.
           </p>
           <p>
-            Aucun cookie publicitaire ou de profilage n&apos;est utilisé.
+            <strong className="text-text/90">Aucun cookie publicitaire, de
+            retargeting ou de profilage comportemental n&apos;est utilisé.</strong>{" "}
+            Le site ne pratique ni revente de données, ni partage avec des
+            régies publicitaires tierces.
           </p>
         </Article>
 
@@ -153,7 +168,10 @@ export default function ConfidentialitePage() {
         <Article number="Art. 4" title="Durée de conservation">
           <p>
             Les données collectées sont conservées pour une durée strictement
-            nécessaire aux finalités pour lesquelles elles ont été collectées.
+            nécessaire aux finalités pour lesquelles elles ont été recueillies,
+            puis supprimées ou anonymisées. À titre indicatif, les statistiques
+            de navigation sont conservées <strong className="text-text/90">treize mois maximum</strong>,
+            conformément aux recommandations de la CNIL.
           </p>
         </Article>
 
@@ -188,6 +206,23 @@ export default function ConfidentialitePage() {
               CNIL
             </a>
             .
+          </p>
+        </Article>
+
+        {/* Art. 6 — Sécurité des données */}
+        <Article number="Art. 6" title="Sécurité des données">
+          <p>
+            Le site Astro Cours met en œuvre des mesures techniques et
+            organisationnelles adaptées pour préserver la sécurité, la
+            confidentialité et l&apos;intégrité de vos données&nbsp;:
+            chiffrement HTTPS, en-têtes de sécurité stricts (HSTS, CSP,
+            X-Frame-Options), hébergement sur infrastructure européenne et
+            accès restreint aux journaux techniques.
+          </p>
+          <p>
+            En cas d&apos;incident de sécurité susceptible d&apos;affecter vos
+            droits et libertés, une notification sera adressée à la CNIL dans
+            un délai de 72 heures, conformément à l&apos;article 33 du RGPD.
           </p>
         </Article>
       </div>
