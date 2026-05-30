@@ -202,8 +202,8 @@ export default function LunarienPost() {
               headline: meta.title,
               description: meta.description,
               image: `https://www.astro-cours.com${meta.cover}`,
-              datePublished: meta.date,
-              dateModified: meta.date,
+              datePublished: `${meta.date}T12:00:00Z`,
+              dateModified: `${meta.date}T12:00:00Z`,
               author: AUTHOR_PERSON,
               publisher: PUBLISHER_ORG,
               mainEntityOfPage: {

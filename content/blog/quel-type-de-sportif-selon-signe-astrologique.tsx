@@ -32,7 +32,7 @@ export const metadata = {
     type: "article",
     siteName: "Astro Cours",
     locale: "fr_FR",
-    publishedTime: meta.date,
+    publishedTime: `${meta.date}T12:00:00Z`,
     images: [
       {
         url: COVER_URL,
@@ -213,8 +213,8 @@ export default function Post() {
         headline: meta.title,
         description: meta.description,
         image: COVER_URL,
-        datePublished: meta.date,
-        dateModified: meta.date,
+        datePublished: `${meta.date}T12:00:00Z`,
+        dateModified: `${meta.date}T12:00:00Z`,
         url: ARTICLE_URL,
         mainEntityOfPage: { "@type": "WebPage", "@id": ARTICLE_URL },
         author: AUTHOR_PERSON,
