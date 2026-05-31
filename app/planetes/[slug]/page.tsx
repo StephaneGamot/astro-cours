@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 
 import type { Metadata } from "next";
 
-import { buildMeta, buildTitle, absoluteUrl, SITE_NAME, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import { buildMeta, absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import { buildCourseNode } from "@/lib/courseSchema";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
@@ -298,6 +298,23 @@ export default async function PlanetPage({
 
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#010409] text-slate-300 selection:bg-white/10 selection:text-white">
+      {/* ✅ Preload LCP avec fetchpriority="high" — Audit Lighthouse 31/05/2026
+            <Image priority> de Next.js 16 ne pose pas `fetchpriority=high` sur
+            le <link rel="preload"> qu'il génère. On reproduit manuellement le
+            preload (hissé en <head> par React 19) avec fetchPriority, et on
+            retire `priority` côté <Image> ci-dessous pour éviter un double
+            preload concurrent. Pattern identique à app/maisons/[slug]/page.tsx
+            et components/images/ImageOnly.tsx (homepage). */}
+      <link
+        rel="preload"
+        as="image"
+        imageSrcSet={[640, 750, 828, 1080, 1200, 1920]
+          .map((w) => `/_next/image?url=${encodeURIComponent(heroSrc)}&w=${w}&q=75 ${w}w`)
+          .join(", ")}
+        imageSizes="(max-width:768px) 100vw, (max-width:1024px) 768px, 1200px"
+        fetchPriority="high"
+      />
+
       {/* Schema.org */}
       {jsonLd && (
         <script
@@ -364,7 +381,12 @@ export default async function PlanetPage({
                 alt={`Illustration de ${planet.name} en astrologie`}
                 width={1200}
                 height={800}
-                priority
+                // `priority` retiré (cf. preload manuel + fetchPriority en haut
+                // du composant). On reproduit ses deux autres effets ici :
+                fetchPriority="high"
+                loading="eager"
+                quality={75}
+                sizes="(max-width:768px) 100vw, (max-width:1024px) 768px, 1200px"
                 className="w-full h-[280px] sm:h-[380px] md:h-[560px] object-cover transition-transform duration-[2s] group-hover:scale-[1.02]"
               />
 

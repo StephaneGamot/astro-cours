@@ -81,8 +81,14 @@ export const metadata: Metadata = {
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-  display: "swap",
-  // adjustFontFallback est true par défaut (size-adjust automatique → CLS minimisé)
+  // ⚠️ Audit Lighthouse 31/05/2026 — CLS 0.199 attribué au footer.
+  //    Cause probable : `display: swap` provoquait un reflow du texte
+  //    quand Inter remplaçait le fallback (size-adjust ne neutralise pas
+  //    100 % du shift sur de longs paragraphes). On bascule sur "optional"
+  //    comme Cormorant : si Inter n'est pas prête en ~100 ms, on garde le
+  //    fallback définitivement pour CETTE visite — plus aucun swap, plus
+  //    aucun CLS de police. Pour les visites suivantes Inter est en cache.
+  display: "optional",
   preload: true,
 });
 

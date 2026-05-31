@@ -246,8 +246,32 @@ export default async function HousePage({
     { label: "Arena", value: house.niveauLecture?.arena },
   ].filter((x): x is { label: string; value: string } => !!x.value);
 
+  /* ------------------------------------------------------------------ */
+  /*  LCP preload — Audit Lighthouse 31/05/2026                          */
+  /*  Next.js 16 + <Image priority> insère bien un <link rel="preload">  */
+  /*  mais SANS fetchpriority="high" → Lighthouse râle. On reproduit ici */
+  /*  exactement le preload manuel d'ImageOnly.tsx (homepage) avec       */
+  /*  fetchPriority="high". React 19 hisse automatiquement les <link>    */
+  /*  en <head>. On retire `priority` côté <Image /> ci-dessous pour     */
+  /*  éviter un double preload concurrent.                               */
+  /* ------------------------------------------------------------------ */
+  const LCP_SRC_ENC = encodeURIComponent(heroSrc);
+  const LCP_DEVICE_SIZES = [640, 750, 828, 1080, 1200, 1920] as const;
+  const lcpImageSrcSet = LCP_DEVICE_SIZES.map(
+    (w) => `/_next/image?url=${LCP_SRC_ENC}&w=${w}&q=75 ${w}w`,
+  ).join(", ");
+
   return (
     <>
+      {/* ✅ Preload LCP avec fetchpriority="high" (hissé en <head> par React 19) */}
+      <link
+        rel="preload"
+        as="image"
+        imageSrcSet={lcpImageSrcSet}
+        imageSizes="(max-width:768px) 100vw, 1152px"
+        fetchPriority="high"
+      />
+
       {/* Schema.org JSON-LD */}
       {jsonLd.map((schema, i) => (
         <script
@@ -284,9 +308,13 @@ export default async function HousePage({
                 src={heroSrc}
                 alt={`${titreCourt} — ${house.nom}`}
                 fill
-                priority
+                // `priority` retiré (cf. preload manuel + fetchPriority en haut
+                // du composant). On reproduit ses deux autres effets ici :
+                fetchPriority="high"
+                loading="eager"
                 className="object-cover"
                 sizes="(max-width:768px) 100vw, 1152px"
+                quality={75}
               />
             </div>
 

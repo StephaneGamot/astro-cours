@@ -752,7 +752,9 @@ function HeroSection({ data }: { data: SigneData }) {
       <div className="pointer-events-none absolute inset-0 -z-20"
            style={{ background: "radial-gradient(ellipse at center, transparent 0%, rgb(var(--bg)) 70%)" }} />
 
-      {/* Image du signe */}
+      {/* Image du signe — petite (128/176px), peu probable d'être LCP, mais
+           on garde priority + fetchPriority pour cohérence avec maisons/planètes.
+           Audit Lighthouse 31/05/2026. */}
       <div className="animate-fade-in-up relative mb-8 h-32 w-32 md:h-44 md:w-44">
         <Image
           src={data.images.signe}
@@ -762,6 +764,7 @@ function HeroSection({ data }: { data: SigneData }) {
           className="object-contain"
           style={{ filter: `drop-shadow(0 0 40px ${data.couleur.primaire}30)` }}
           priority
+          fetchPriority="high"
         />
       </div>
 
