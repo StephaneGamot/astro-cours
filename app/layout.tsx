@@ -53,10 +53,12 @@ export const metadata: Metadata = {
     ],
   },
 
+  // ✅ Audit 31/05/2026 — `twitter.site` et `twitter.creator` retirés :
+  //    pas de compte X/Twitter. On garde la `twitter:card` car ces meta-tags
+  //    sont parsées par LinkedIn, Slack, Discord, iMessage, WhatsApp pour
+  //    générer les aperçus d'URL — donc utiles bien au-delà de Twitter.
   twitter: {
     card: "summary_large_image",
-    site: "@astro_cours",
-    creator: "@astro_cours",
     title: SITE_NAME,
     description: DEFAULT_DESC,
     images: [OG_IMAGE],

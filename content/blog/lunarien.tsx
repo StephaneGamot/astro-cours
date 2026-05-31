@@ -17,7 +17,7 @@ export const meta = {
     "Portrait du Lunarien en astrologie : mémoire, intuition, foyer et douceur. Découvrez l'impact de la Lune sur l'amour, la vocation et le thème astral",
   date: "2026-04-06",
   tags: [
-    "Lune",
+    "lune",
     "lunarien",
     "portrait astrologique",
     "intuition",

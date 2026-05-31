@@ -14,7 +14,7 @@ export const meta = {
     "Portrait du Martien en astrologie : action, courage, sport et amour passionné. Découvrez l'influence de la planète Mars affligée dans un thème astral.",
   date: "2026-04-03",
   tags: [
-    "Mars",
+    "mars",
     "martien",
     "portrait astrologique",
     "courage",

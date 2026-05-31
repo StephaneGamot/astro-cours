@@ -21,7 +21,7 @@ export const meta = {
     "thème astral",
     "interprétation",
     "Mercure",
-    "Mars",
+    "mars",
     "Vénus",
     "intermédiaire",
   ],

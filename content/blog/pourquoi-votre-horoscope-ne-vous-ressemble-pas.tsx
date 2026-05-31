@@ -17,7 +17,7 @@ export const meta = {
     "th\u00e8me astral",
     "signe solaire",
     "ascendant",
-    "Lune",
+    "lune",
     "plan\u00e8tes",
     "horoscope",
     "d\u00e9butant",

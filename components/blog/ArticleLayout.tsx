@@ -1,11 +1,10 @@
 import { TagPills } from "./TagPills";
-import { ShareBar } from "./ShareBar";
+// ShareBar supprimé — pas de partage social sur le site.
 import { AuthorBox } from "./AuthorBox";
 import { RelatedPosts } from "./RelatedPosts";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
   SITE_URL,
-  SITE_NAME,
   AUTHOR_PERSON,
   PUBLISHER_ORG,
   absoluteUrl,
@@ -126,7 +125,6 @@ export function ArticleLayout({
             </div>
 
             <TagPills tags={meta.tags} />
-            <ShareBar />
           </header>
 
           <div className="prose">{children}</div>
