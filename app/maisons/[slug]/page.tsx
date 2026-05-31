@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-import { buildMeta, buildTitle, absoluteUrl, SITE_NAME, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import { buildMeta, absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import { buildCourseNode } from "@/lib/courseSchema";
 import {
   HOUSES,
@@ -102,14 +102,8 @@ export async function generateMetadata({
     155
   );
 
-  const keywords = [
-    `maison ${house.numero}`,
-    `maison ${toRoman(house.numero)}`,
-    house.nom.toLowerCase(),
-    "astrologie",
-    "maison astrologique",
-    ...(house.niveauLecture?.motsCles ?? []),
-  ];
+  // ✅ Suppression du champ `keywords` — Google ignore meta-keywords depuis 2009
+  //    et leur présence envoie un signal "SEO d'il y a 15 ans". Audit 31/05/2026.
 
   return {
     ...buildMeta({
@@ -122,7 +116,6 @@ export async function generateMetadata({
     // ✅ Ahrefs "title too long" fix — on retire le suffixe " — Astro Cours"
     //    pour rester ≤ 60 chars (sinon 71 chars avec template).
     title: { absolute: title },
-    keywords,
   };
 }
 
@@ -148,7 +141,10 @@ function buildJsonLd(house: typeof HOUSES[number]) {
         author: AUTHOR_PERSON,
         publisher: PUBLISHER_ORG,
         datePublished: "2026-04-09T12:00:00Z",
-        dateModified: "2026-05-08T12:00:00Z",
+        // ✅ Audit 31/05/2026 — dateModified dynamique sur le champ `updated` du JSON
+        dateModified: house.updated
+          ? `${house.updated}T12:00:00Z`
+          : "2026-05-31T12:00:00Z",
         inLanguage: "fr",
         mainEntityOfPage: url,
       },
@@ -203,6 +199,12 @@ function buildTocSections(house: typeof HOUSES[number]) {
   if (has(house.triangle) || has(house.carre)) push("Triangle et Carré");
   if (has(house.pedagogie?.aRetenir)) push("Pédagogie");
   if (has(house.pratique?.phrasesCles)) push("Pratique");
+  // ✅ Audit 31/05/2026 — nouvelles sections enrichies
+  if (has(house.vieQuotidienne)) push("Au quotidien");
+  if (has(house.carriere)) push("Carrière et argent");
+  if (has(house.transitsNotables)) push("Transits notables");
+  if (has(house.exercicePratique)) push("Exercice approfondi");
+  if (has(house.personnagesEmblematiques)) push("Personnages emblématiques");
   push("Planètes dans cette maison");
 
   if (has(house.faq))
@@ -737,6 +739,143 @@ export default async function HousePage({
               </Section>
             )}
 
+            {/* ============================================================ */}
+            {/*  ⚠️ Audit 31/05/2026 — W4/R2 : sections enrichies            */}
+            {/*  Original par maison : ~1500 mots ajoutés.                   */}
+            {/* ============================================================ */}
+
+            {/* ---- Au quotidien ---- */}
+            {has(house.vieQuotidienne) && (
+              <Section id={sectionId("Au quotidien")}>
+                <SectionHeading
+                  title={`Comment vit-on la ${titreCourt} au quotidien ?`}
+                  subtitle="Manifestations concrètes dans la vie de tous les jours"
+                  icon={Activity}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Au quotidien")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ProseBlock text={house.vieQuotidienne!} />
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Carrière et argent ---- */}
+            {has(house.carriere) && (
+              <Section id={sectionId("Carrière et argent")}>
+                <SectionHeading
+                  title={`${titreCourt} : carrière, argent et vocation`}
+                  subtitle="Implications professionnelles et financières"
+                  icon={Compass}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Carrière et argent")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ProseBlock text={house.carriere!.texte} />
+                    {has(house.carriere?.metiers) && (
+                      <div className="mt-6">
+                        <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted">
+                          Métiers en résonance
+                        </p>
+                        <TagList
+                          items={house.carriere!.metiers!}
+                          border={theme.border}
+                          text={theme.text}
+                        />
+                      </div>
+                    )}
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Transits notables ---- */}
+            {has(house.transitsNotables) && (
+              <Section id={sectionId("Transits notables")}>
+                <SectionHeading
+                  title={`Les transits importants en ${titreCourt}`}
+                  subtitle="Lecture des planètes lentes qui traversent cette maison"
+                  icon={Star}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Transits notables")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ProseBlock text={house.transitsNotables!} />
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Exercice approfondi ---- */}
+            {has(house.exercicePratique) && (
+              <Section id={sectionId("Exercice approfondi")}>
+                <SectionHeading
+                  title={`Exercice : ${house.exercicePratique!.titre}`}
+                  subtitle="Une pratique étape par étape pour ancrer la lecture de cette maison"
+                  icon={Brain}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Exercice approfondi")}
+                />
+                <GlassCard border={theme.border}>
+                  <div className="p-6 md:p-8">
+                    <ol className="space-y-4">
+                      {house.exercicePratique!.etapes.map((etape, i) => (
+                        <li key={i} className="flex items-start gap-4">
+                          <span
+                            className={`mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border ${theme.border} bg-white/[0.04] text-sm font-semibold ${theme.text}`}
+                          >
+                            {i + 1}
+                          </span>
+                          <span className="text-sm leading-relaxed text-text/85 md:text-base">
+                            {etape}
+                          </span>
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
+                </GlassCard>
+              </Section>
+            )}
+
+            {/* ---- Personnages emblématiques ---- */}
+            {has(house.personnagesEmblematiques) && (
+              <Section id={sectionId("Personnages emblématiques")}>
+                <SectionHeading
+                  title={`Personnages emblématiques avec une ${titreCourt} active`}
+                  subtitle="Figures historiques où cette maison s'est manifestée fortement"
+                  icon={ScrollText}
+                  dot={theme.dot}
+                  text={theme.text}
+                  id={sectionId("Personnages emblématiques")}
+                />
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {house.personnagesEmblematiques!.map((p, i) => (
+                    <GlassCard key={i} border={theme.border}>
+                      <div className="p-6">
+                        <p className={`font-serif text-lg ${theme.text}`}>{p.nom}</p>
+                        {p.naissance && (
+                          <p className="mt-1 text-xs uppercase tracking-wide text-muted">
+                            Né(e) le {p.naissance}
+                          </p>
+                        )}
+                        <p className="mt-3 text-sm leading-relaxed text-text/85">
+                          {p.raison}
+                        </p>
+                      </div>
+                    </GlassCard>
+                  ))}
+                </div>
+              </Section>
+            )}
+
             {/* ---- Planètes dans cette maison ---- */}
             <Section id={sectionId("Planètes dans cette maison")}>
               <SectionHeading
@@ -763,15 +902,15 @@ export default async function HousePage({
             </Section>
           </div>
 
-          {/* ---------- Sticky TOC sidebar ---------- */}
-          <aside className="hidden lg:block">
+          {/* ---------- TOC sidebar (responsive géré en interne) ---------- */}
+          {/* ⚠️ Audit 31/05/2026 : le composant TableOfContents rend déjà
+                 deux variantes (mobile details + desktop sticky) via Tailwind.
+                 On n'enveloppe plus avec <aside lg:block> + <div lg:hidden> :
+                 ça créait 4 versions du sommaire dans le DOM (signal
+                 near-duplicate côté Google). */}
+          <aside>
             <TableOfContents sections={tocSections} text={theme.text} />
           </aside>
-        </div>
-
-        {/* Mobile TOC (above footer) */}
-        <div className="mb-12 lg:hidden">
-          <TableOfContents sections={tocSections} text={theme.text} />
         </div>
 
         {/* ============================================================ */}

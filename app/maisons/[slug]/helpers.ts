@@ -85,6 +85,24 @@ export type House = {
 
   /* — FAQ — */
   faq?: Array<{ question: string; reponse: string }>;
+
+  /* — Enrichissement Audit 31/05/2026 (W4/R2) — */
+  /** ISO date de dernière modification fonctionnelle (sitemap). */
+  updated?: string;
+  /** Comment cette maison se vit concrètement au quotidien. */
+  vieQuotidienne?: string;
+  /** Implications carrière / argent / vocation de la maison. */
+  carriere?: { texte: string; metiers?: string[] };
+  /** Lecture des transits importants qui traversent cette maison. */
+  transitsNotables?: string;
+  /** Exercice pratique d'auto-analyse, plusieurs étapes. */
+  exercicePratique?: { titre: string; etapes: string[] };
+  /** Personnages emblématiques avec cette maison fortement activée. */
+  personnagesEmblematiques?: Array<{
+    nom: string;
+    naissance?: string;
+    raison: string;
+  }>;
 };
 
 export type Planet = {

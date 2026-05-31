@@ -321,14 +321,22 @@ export function TableOfContents({
 }) {
   if (!sections?.length) return null;
 
+  // ⚠️ Audit 31/05/2026 — bug rendu double TOC
+  //    Avant : mobile <details> + desktop <div> avec deux <ul> identiques
+  //    et deux labels différents ("Table des matières" / "Contenu").
+  //    Google voyait donc 2 fois chaque entrée dans le DOM (4x avec
+  //    le double-wrap côté page.tsx désormais corrigé). On unifie tout
+  //    sur un seul <details> qui reste "open" en desktop via CSS.
   return (
     <nav aria-label="Table des matières" className="lg:sticky lg:top-8">
-      {/* Mobile */}
-      <details className="lg:hidden rounded-2xl border border-white/5 bg-white/[0.02] backdrop-blur">
-        <summary className="flex cursor-pointer items-center justify-between px-5 py-3 text-sm font-medium text-slate-300 list-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400">
+      <details
+        open
+        className="rounded-2xl border border-white/5 bg-white/[0.02] backdrop-blur lg:[&[open]>summary>svg]:hidden lg:[&>summary]:cursor-default"
+      >
+        <summary className="flex cursor-pointer items-center justify-between px-5 py-3 text-xs font-semibold uppercase tracking-wider text-slate-400 list-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400">
           Table des matières
           <svg
-            className="toc-chevron h-4 w-4 text-slate-500 transition-transform"
+            className="toc-chevron h-4 w-4 text-slate-500 transition-transform lg:hidden"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -337,12 +345,12 @@ export function TableOfContents({
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </summary>
-        <ul className="space-y-1 px-3 pb-4">
+        <ul className="space-y-1 px-3 pb-4 lg:px-2">
           {sections.map((s) => (
             <li key={s.id}>
               <a
                 href={`#${s.id}`}
-                className={`block rounded px-3 py-2 text-sm transition-colors ${text} hover:bg-white/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400`}
+                className={`block rounded px-3 py-1.5 text-sm transition-colors ${text} hover:bg-white/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400 lg:text-[13px] lg:text-slate-400 lg:hover:text-slate-200`}
               >
                 {s.label}
               </a>
@@ -350,25 +358,6 @@ export function TableOfContents({
           ))}
         </ul>
       </details>
-
-      {/* Desktop */}
-      <div className="hidden lg:block rounded-2xl border border-white/5 bg-white/[0.02] p-5 backdrop-blur">
-        <p className="mb-4 text-xs font-semibold uppercase tracking-wider text-slate-500">
-          Contenu
-        </p>
-        <ul className="space-y-1">
-          {sections.map((s) => (
-            <li key={s.id}>
-              <a
-                href={`#${s.id}`}
-                className="block rounded px-3 py-1.5 text-[13px] text-slate-400 transition-colors hover:text-slate-200 hover:bg-white/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400"
-              >
-                {s.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
     </nav>
   );
 }

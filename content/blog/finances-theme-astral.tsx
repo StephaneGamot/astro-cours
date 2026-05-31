@@ -638,7 +638,7 @@ export default function FinancesThemeAstralPost() {
 
         <section aria-label="Tableau des états célestes" className="overflow-hidden rounded-[2rem] border border-white/10 bg-black/40 shadow-2xl backdrop-blur-sm">
           <div className="grid grid-cols-1 border-b border-white/10 bg-white/[0.05] md:grid-cols-3">
-            <div className="p-5 font-serif text-lg font-medium text-white/90">Situation de l'aspect</div>
+            <div className="p-5 font-serif text-lg font-medium text-white/90">Situation de l&rsquo;aspect</div>
             <div className="p-5 font-serif text-lg font-medium text-white/90">Effet</div>
             <div className="p-5 font-serif text-lg font-medium text-white/90">Lecture</div>
           </div>
@@ -752,7 +752,7 @@ export default function FinancesThemeAstralPost() {
           <Card title="Quelle maison regarder pour l’argent ?">
             <p>
               La base est la <strong className="text-white">maison II</strong>. Ensuite,
-              selon la question, on peut compléter avec la maison VIII (argent de l'autre/banques), la maison X (carrière)
+              selon la question, on peut compléter avec la maison VIII (argent de l&rsquo;autre/banques), la maison X (carrière)
               ou d’autres maisons du thème.
             </p>
           </Card>
@@ -760,14 +760,14 @@ export default function FinancesThemeAstralPost() {
           <Card title="Une planète en maison II est-elle toujours favorable ?">
             <p>
               Non. Tout dépend de sa nature, de son état céleste, de son signe, de
-              ses aspects et des maisons qu’elle gouverne. Une maléfique affligée peut signifier des fuites d'argent.
+              ses aspects et des maisons qu&rsquo;elle gouverne. Une maléfique affligée peut signifier des fuites d&rsquo;argent.
             </p>
           </Card>
 
           <Card title="Le maître de II est-il plus important que la planète en II ?">
             <p>
               Ils ne disent pas la même chose. Il faut les lire ensemble, et non
-              les opposer mécaniquement. Le maître montre la racine, la planète montre l'action.
+              les opposer mécaniquement. Le maître montre la racine, la planète montre l&rsquo;action.
             </p>
           </Card>
 
@@ -805,6 +805,58 @@ export default function FinancesThemeAstralPost() {
           >
             Maîtriser la conjonction
             <span className="transition-transform group-hover:translate-x-1">→</span>
+          </Link>
+        </div>
+
+        {/* ============================================================ */}
+        {/*  Maillage interne enrichi — Audit 31/05/2026 (R3)            */}
+        {/*  9 liens contextuels supplémentaires vers les hubs concernés */}
+        {/* ============================================================ */}
+        <div className="mt-12 grid gap-3 text-left sm:grid-cols-2 lg:grid-cols-3">
+          <Link href="/maisons/maison-2" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Maison</span>
+            <span className="mt-1 block font-medium text-white/90">Maison II — Ressources</span>
+            <span className="mt-1 block text-xs text-white/60">Argent gagné, valeurs personnelles</span>
+          </Link>
+          <Link href="/maisons/maison-8" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Maison</span>
+            <span className="mt-1 block font-medium text-white/90">Maison VIII — Argent partagé</span>
+            <span className="mt-1 block text-xs text-white/60">Héritages, impôts, dettes communes</span>
+          </Link>
+          <Link href="/maisons/maison-10" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Maison</span>
+            <span className="mt-1 block font-medium text-white/90">Maison X — Vocation</span>
+            <span className="mt-1 block text-xs text-white/60">Le revenu lié au statut social</span>
+          </Link>
+          <Link href="/planetes/venus" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Planète</span>
+            <span className="mt-1 block font-medium text-white/90">Vénus — Plaisir et valeurs</span>
+            <span className="mt-1 block text-xs text-white/60">Maîtresse naturelle du Taureau / Maison II</span>
+          </Link>
+          <Link href="/planetes/jupiter" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Planète</span>
+            <span className="mt-1 block font-medium text-white/90">Jupiter — Expansion</span>
+            <span className="mt-1 block text-xs text-white/60">Opportunités, gains, chance financière</span>
+          </Link>
+          <Link href="/planetes/saturne" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Planète</span>
+            <span className="mt-1 block font-medium text-white/90">Saturne — Construction</span>
+            <span className="mt-1 block text-xs text-white/60">Patience, patrimoine, discipline</span>
+          </Link>
+          <Link href="/transits" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Méthode</span>
+            <span className="mt-1 block font-medium text-white/90">Les transits</span>
+            <span className="mt-1 block text-xs text-white/60">Anticiper les fenêtres financières</span>
+          </Link>
+          <Link href="/aspects" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Méthode</span>
+            <span className="mt-1 block font-medium text-white/90">Les aspects</span>
+            <span className="mt-1 block text-xs text-white/60">Carrés et trigones au maître de II</span>
+          </Link>
+          <Link href="/blog/orientation-professionnelle-theme-astral" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Article</span>
+            <span className="mt-1 block font-medium text-white/90">Orientation pro &amp; thème</span>
+            <span className="mt-1 block text-xs text-white/60">Maison X et vocation rentable</span>
           </Link>
         </div>
       </footer>

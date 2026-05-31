@@ -848,6 +848,58 @@ export default function OrientationProfessionnelleThemeAstralPost() {
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </Link>
         </div>
+
+        {/* ============================================================ */}
+        {/*  Maillage interne enrichi — Audit 31/05/2026 (R3)            */}
+        {/*  9 liens contextuels supplémentaires vers les hubs concernés */}
+        {/* ============================================================ */}
+        <div className="mt-12 grid gap-3 text-left sm:grid-cols-2 lg:grid-cols-3">
+          <Link href="/maisons/maison-1" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Maison</span>
+            <span className="mt-1 block font-medium text-white/90">Maison I — Identité</span>
+            <span className="mt-1 block text-xs text-white/60">Ce que vous incarnez avant tout métier</span>
+          </Link>
+          <Link href="/maisons/maison-6" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Maison</span>
+            <span className="mt-1 block font-medium text-white/90">Maison VI — Quotidien</span>
+            <span className="mt-1 block text-xs text-white/60">Le travail concret de tous les jours</span>
+          </Link>
+          <Link href="/maisons/maison-10" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Maison</span>
+            <span className="mt-1 block font-medium text-white/90">Maison X — Vocation</span>
+            <span className="mt-1 block text-xs text-white/60">Le cœur de votre direction sociale</span>
+          </Link>
+          <Link href="/planetes/saturne" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Planète</span>
+            <span className="mt-1 block font-medium text-white/90">Saturne — Structure</span>
+            <span className="mt-1 block text-xs text-white/60">Construction d&rsquo;une carrière longue</span>
+          </Link>
+          <Link href="/planetes/jupiter" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Planète</span>
+            <span className="mt-1 block font-medium text-white/90">Jupiter — Expansion</span>
+            <span className="mt-1 block text-xs text-white/60">Opportunités de promotion</span>
+          </Link>
+          <Link href="/planetes/mars" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Planète</span>
+            <span className="mt-1 block font-medium text-white/90">Mars — Action</span>
+            <span className="mt-1 block text-xs text-white/60">Combativité, esprit d&rsquo;initiative</span>
+          </Link>
+          <Link href="/transits" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Méthode</span>
+            <span className="mt-1 block font-medium text-white/90">Les transits</span>
+            <span className="mt-1 block text-xs text-white/60">Timer son changement de carrière</span>
+          </Link>
+          <Link href="/revolution-solaire" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Méthode</span>
+            <span className="mt-1 block font-medium text-white/90">Révolution solaire</span>
+            <span className="mt-1 block text-xs text-white/60">Thème de l&rsquo;année — temps fort vocation</span>
+          </Link>
+          <Link href="/blog/saturnien" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+            <span className="block text-xs uppercase tracking-wide text-white/50">Article</span>
+            <span className="mt-1 block font-medium text-white/90">Portrait du saturnien</span>
+            <span className="mt-1 block text-xs text-white/60">Ambition silencieuse, construction longue</span>
+          </Link>
+        </div>
       </footer>
     </article>
   );

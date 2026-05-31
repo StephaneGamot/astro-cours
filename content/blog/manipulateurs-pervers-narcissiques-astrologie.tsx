@@ -856,6 +856,82 @@ export default function ManipulateursPNPost() {
           </p>
         </Card>
       </section>
+
+      <Divider />
+
+      {/* ================================================================ */}
+      {/*  Maillage interne — Audit 31/05/2026 (R3)                       */}
+      {/*  Renforce les liens contextuels vers les hubs cités dans l'article */}
+      {/* ================================================================ */}
+      <section className="space-y-6">
+        <H2>Pour approfondir : les piliers astrologiques de cet article</H2>
+        <Card title="Plan&egrave;tes en jeu dans l&rsquo;emprise et la manipulation">
+          <ul className="space-y-2">
+            <li>
+              <Link href="/planetes/pluton" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Pluton</Link>
+              {" "}&mdash; pouvoir, contr&ocirc;le, fascination magn&eacute;tique
+            </li>
+            <li>
+              <Link href="/planetes/neptune" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Neptune</Link>
+              {" "}&mdash; illusion, brouillage des fronti&egrave;res, gaslighting
+            </li>
+            <li>
+              <Link href="/planetes/mars" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Mars</Link>
+              {" "}&mdash; agressivit&eacute; froide, instrument de domination quand afflig&eacute;
+            </li>
+            <li>
+              <Link href="/planetes/lune" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">La Lune</Link>
+              {" "}&mdash; r&eacute;ceptivit&eacute;, vuln&eacute;rabilit&eacute; &eacute;motionnelle, cible privil&eacute;gi&eacute;e
+            </li>
+            <li>
+              <Link href="/planetes/saturne" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Saturne</Link>
+              {" "}&mdash; capacit&eacute; &agrave; poser des limites et &agrave; se prot&eacute;ger
+            </li>
+            <li>
+              <Link href="/lilith" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Lilith (Lune Noire)</Link>
+              {" "}&mdash; transgression, parts d&rsquo;ombre, s&eacute;duction trouble
+            </li>
+          </ul>
+        </Card>
+
+        <Card title="Maisons et axes &agrave; surveiller">
+          <ul className="space-y-2">
+            <li>
+              <Link href="/maisons/maison-7" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Maison VII</Link>
+              {" "}&mdash; les partenaires, les associations, les &laquo;&nbsp;ennemis d&eacute;clar&eacute;s&nbsp;&raquo;
+            </li>
+            <li>
+              <Link href="/maisons/maison-8" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Maison VIII</Link>
+              {" "}&mdash; intimit&eacute;, pouvoir partag&eacute;, transformations profondes
+            </li>
+            <li>
+              <Link href="/maisons/maison-12" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Maison XII</Link>
+              {" "}&mdash; ennemis cach&eacute;s, auto-sabotages, retraite forc&eacute;e
+            </li>
+          </ul>
+        </Card>
+
+        <Card title="Outils d&rsquo;analyse compl&eacute;mentaires">
+          <ul className="space-y-2">
+            <li>
+              <Link href="/aspects" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Les aspects</Link>
+              {" "}&mdash; comprendre les carr&eacute;s et oppositions Pluton/Lune
+            </li>
+            <li>
+              <Link href="/synastrie" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">La synastrie</Link>
+              {" "}&mdash; lire la dynamique relationnelle entre deux th&egrave;mes
+            </li>
+            <li>
+              <Link href="/transits" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Les transits</Link>
+              {" "}&mdash; rep&eacute;rer les p&eacute;riodes de vuln&eacute;rabilit&eacute;
+            </li>
+            <li>
+              <Link href="/blog/plutonien" className="text-red-300 underline decoration-red-300/30 underline-offset-2 transition-colors hover:text-red-200">Portrait du plutonien</Link>
+              {" "}&mdash; psychologie d&eacute;taill&eacute;e des dominantes Pluton
+            </li>
+          </ul>
+        </Card>
+      </section>
     </article>
   );
 }

@@ -46,18 +46,169 @@ export const metadata: Metadata = {
   },
 };
 
-const websiteJsonLd = {
+/**
+ * ✅ Audit 31/05/2026 — R1 : Schema.org enrichi
+ *    - Organization : ajout du logo dimensionné + sameAs (Facebook),
+ *      coordonnées de l'auteur, et description.
+ *    - WebSite : ajout d'un SearchAction (sitelinks searchbox éligible).
+ *    - Course (× 3) : positionnement explicite du site comme « cours »,
+ *      un nœud par grand pilier (signes, planètes, maisons).
+ *    - Tout est exposé dans un seul `@graph` avec des `@id` croisés,
+ *      ce qui permet à Google de relier les entités proprement.
+ */
+const ORGANIZATION_ID = `${SITE_URL}#organization`;
+const WEBSITE_ID = `${SITE_URL}#website`;
+const PERSON_ID = `${SITE_URL}/auteur/stephane-gamot#person`;
+
+const homeJsonLd = {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: SITE_NAME,
-  url: SITE_URL,
-  description:
-    "Encyclopédie et cours d'astrologie premium : signes, planètes, maisons, transits.",
-  publisher: {
-    "@type": "Organization",
-    name: SITE_NAME,
-    logo: { "@type": "ImageObject", url: `${SITE_URL}/astro-cours-logo.webp` },
-  },
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": ORGANIZATION_ID,
+      name: SITE_NAME,
+      url: SITE_URL,
+      description:
+        "Encyclopédie et cours d'astrologie premium : signes, planètes, maisons, transits.",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/astro-cours-logo.webp`,
+        width: 512,
+        height: 512,
+      },
+      founder: { "@id": PERSON_ID },
+      sameAs: [
+        "https://www.facebook.com/profile.php?id=61577719253973",
+      ],
+    },
+    {
+      "@type": "Person",
+      "@id": PERSON_ID,
+      name: "Stéphane Gamot",
+      url: `${SITE_URL}/auteur/stephane-gamot`,
+      jobTitle: "Astrologue & enseignant",
+      worksFor: { "@id": ORGANIZATION_ID },
+      knowsAbout: [
+        "Astrologie",
+        "Thème natal",
+        "Astrologie traditionnelle",
+        "Astrologie psychologique",
+        "Transits",
+        "Synastrie",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": WEBSITE_ID,
+      name: SITE_NAME,
+      url: SITE_URL,
+      description:
+        "Encyclopédie et cours d'astrologie premium : signes, planètes, maisons, transits.",
+      inLanguage: "fr-FR",
+      publisher: { "@id": ORGANIZATION_ID },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${SITE_URL}/blog?tag={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Course",
+      "@id": `${SITE_URL}#course-signes`,
+      name: "Les 12 signes du zodiaque — Cours complet",
+      description:
+        "Cours structuré sur les 12 signes du zodiaque : portrait, élément, mode, maître, mythologie, compatibilités et interprétation du thème natal.",
+      url: `${SITE_URL}/#zodiaque`,
+      inLanguage: "fr-FR",
+      isAccessibleForFree: true,
+      educationalLevel: "Beginner",
+      learningResourceType: "Lesson",
+      about: { "@type": "Thing", name: "Zodiaque" },
+      teaches:
+        "Reconnaître et interpréter les 12 signes du zodiaque dans un thème natal.",
+      provider: { "@id": ORGANIZATION_ID },
+      author: { "@id": PERSON_ID },
+      hasCourseInstance: {
+        "@type": "CourseInstance",
+        courseMode: "Online",
+        courseWorkload: "PT6H",
+        inLanguage: "fr-FR",
+        instructor: { "@id": PERSON_ID },
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "EUR",
+          category: "free",
+          availability: "https://schema.org/InStock",
+        },
+      },
+    },
+    {
+      "@type": "Course",
+      "@id": `${SITE_URL}#course-planetes`,
+      name: "Les 10 planètes en astrologie — Cours complet",
+      description:
+        "Cours sur les 10 planètes : Soleil, Lune, Mercure, Vénus, Mars, Jupiter, Saturne, Uranus, Neptune, Pluton. Fonctions, dignités, interprétation par signe et par maison.",
+      url: `${SITE_URL}/#planetes`,
+      inLanguage: "fr-FR",
+      isAccessibleForFree: true,
+      educationalLevel: "Beginner",
+      learningResourceType: "Lesson",
+      about: { "@type": "Thing", name: "Planètes astrologiques" },
+      teaches:
+        "Comprendre la fonction symbolique des 10 planètes et leur rôle dans le thème.",
+      provider: { "@id": ORGANIZATION_ID },
+      author: { "@id": PERSON_ID },
+      hasCourseInstance: {
+        "@type": "CourseInstance",
+        courseMode: "Online",
+        courseWorkload: "PT5H",
+        inLanguage: "fr-FR",
+        instructor: { "@id": PERSON_ID },
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "EUR",
+          category: "free",
+          availability: "https://schema.org/InStock",
+        },
+      },
+    },
+    {
+      "@type": "Course",
+      "@id": `${SITE_URL}#course-maisons`,
+      name: "Les 12 maisons astrologiques — Cours complet",
+      description:
+        "Cours sur les 12 maisons : sens traditionnel, conception moderne, axe, triangle et carré, planètes en maison, exercices pratiques.",
+      url: `${SITE_URL}/#maisons`,
+      inLanguage: "fr-FR",
+      isAccessibleForFree: true,
+      educationalLevel: "Beginner",
+      learningResourceType: "Lesson",
+      about: { "@type": "Thing", name: "Maisons astrologiques" },
+      teaches:
+        "Interpréter le rôle des 12 maisons dans un thème natal et leurs interactions avec les planètes.",
+      provider: { "@id": ORGANIZATION_ID },
+      author: { "@id": PERSON_ID },
+      hasCourseInstance: {
+        "@type": "CourseInstance",
+        courseMode: "Online",
+        courseWorkload: "PT6H",
+        inLanguage: "fr-FR",
+        instructor: { "@id": PERSON_ID },
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "EUR",
+          category: "free",
+          availability: "https://schema.org/InStock",
+        },
+      },
+    },
+  ],
 };
 
 /* ────────────────────────────────────────────────────────────────
@@ -89,7 +240,7 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
       />
 
       <main

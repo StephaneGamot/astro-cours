@@ -134,12 +134,68 @@
       "pluton": "Intensité, magnétisme et transformations identitaires marquent profondément la présence. Pluton en Maison I donne une force pénétrante et un charisme transformateur. Le défi consiste à maîtriser le contrôle et les pulsions ; la maturité apporte une puissance intérieure disciplinée et un rayonnement authentique."
     },
     "faq": [
-      { "question": "Que représente la Maison 1 en astrologie ?", "reponse": "La Maison 1, aussi appelée Ascendant, représente l'identité immédiate, l'apparence physique et la manière dont on se présente au monde. Elle décrit le tempérament naturel, la vitalité et l'impulsion première qui caractérisent l'individu dès sa naissance." },
-      { "question": "Quel signe est associé à la Maison 1 ?", "reponse": "La Maison 1 est naturellement associée au Bélier et à sa planète maîtresse Mars. Cette association confère à la Maison 1 une énergie d'initiative, de courage et de démarrage, reflétant le besoin fondamental de s'affirmer et d'agir spontanément." },
-      { "question": "Que signifie avoir le Soleil en Maison 1 ?", "reponse": "Le Soleil en Maison 1 renforce considérablement la vitalité et la confiance en soi. Le natif possède une présence rayonnante et un besoin profond d'exister par lui-même, avec un charisme naturel qui attire l'attention sans effort particulier." },
-      { "question": "L'Ascendant est-il plus important que le signe solaire ?", "reponse": "L'Ascendant et le signe solaire jouent des rôles complémentaires : l'Ascendant décrit la manière dont on apparaît et réagit spontanément, tandis que le Soleil révèle l'identité profonde et la direction de vie. En astrologie, les deux sont indispensables pour dresser un portrait complet du natif." },
-      { "question": "Quelle est la différence entre la Maison 1 et la Maison 7 ?", "reponse": "La Maison 1 et la Maison 7 forment l'axe du rapport à l'autre : la Maison 1 représente le moi, l'identité personnelle et l'apparence, tandis que la Maison 7 symbolise le partenaire, les associations et la manière de vivre la relation. Cet axe oppose l'affirmation individuelle à la rencontre avec autrui." }
-    ]
+      {
+        "question": "Que représente la Maison 1 en astrologie ?",
+        "reponse": "La Maison 1, aussi appelée Ascendant, représente l'identité immédiate, l'apparence physique et la manière dont on se présente au monde. Elle décrit le tempérament naturel, la vitalité et l'impulsion première qui caractérisent l'individu dès sa naissance."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 1 ?",
+        "reponse": "La Maison 1 est naturellement associée au Bélier et à sa planète maîtresse Mars. Cette association confère à la Maison 1 une énergie d'initiative, de courage et de démarrage, reflétant le besoin fondamental de s'affirmer et d'agir spontanément."
+      },
+      {
+        "question": "Que signifie avoir le Soleil en Maison 1 ?",
+        "reponse": "Le Soleil en Maison 1 renforce considérablement la vitalité et la confiance en soi. Le natif possède une présence rayonnante et un besoin profond d'exister par lui-même, avec un charisme naturel qui attire l'attention sans effort particulier."
+      },
+      {
+        "question": "L'Ascendant est-il plus important que le signe solaire ?",
+        "reponse": "L'Ascendant et le signe solaire jouent des rôles complémentaires : l'Ascendant décrit la manière dont on apparaît et réagit spontanément, tandis que le Soleil révèle l'identité profonde et la direction de vie. En astrologie, les deux sont indispensables pour dresser un portrait complet du natif."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 1 et la Maison 7 ?",
+        "reponse": "La Maison 1 et la Maison 7 forment l'axe du rapport à l'autre : la Maison 1 représente le moi, l'identité personnelle et l'apparence, tandis que la Maison 7 symbolise le partenaire, les associations et la manière de vivre la relation. Cet axe oppose l'affirmation individuelle à la rencontre avec autrui."
+      }
+    ],
+    "vieQuotidienne": "La Maison I se manifeste dans les premières secondes de chaque rencontre. C'est le bonjour, la poignée de main, la manière dont vous entrez dans une pièce, la façon dont votre énergie remplit (ou ne remplit pas) l'espace. Au quotidien, elle se reconnaît dans les réflexes : vous coupez la parole ou vous attendez, vous improvisez ou vous préparez, vous engagez ou vous laissez venir. La Maison I gouverne aussi le rapport au miroir, à l'habillage, à la posture du corps. Une personne avec une Maison I forte se reconnaît à sa présence physique marquée et à sa rapidité à se rendre visible. À l'inverse, une Maison I peu peuplée ou tendue se traduit souvent par une difficulté à « prendre la place » sans demander la permission. Observer concrètement comment vous franchissez un seuil — d'une réunion, d'un lieu, d'une conversation — vous renseigne directement sur l'état actuel de votre Maison I.",
+    "carriere": {
+      "texte": "Côté carrière, la Maison I oriente moins le « quoi » (la vocation, c'est la Maison X) que le « comment ». Elle décrit votre style professionnel : celui ou celle qui ouvre la voie, qui prend la parole en premier, qui propose un cap. Les profils à Maison I forte réussissent dans les rôles où l'image personnelle est un outil : représentation, ventes, leadership de terrain, direction artistique, métiers où il faut « être » avant de « faire ». L'argent suit la confiance en soi : tant que vous croyez à votre projet, vous trouvez les ressources. À l'inverse, une Maison I affligée par Saturne ou Pluton demande de longues années pour construire une présence professionnelle assumée.",
+      "metiers": [
+        "Entrepreneur / freelance",
+        "Coach et formateur",
+        "Représentant commercial",
+        "Sportif de haut niveau",
+        "Mannequin / présentateur",
+        "Directeur artistique"
+      ]
+    },
+    "transitsNotables": "Quand un transit majeur passe sur l'Ascendant ou en Maison I, c'est l'identité qui se reconfigure. Saturne en Maison I impose une refonte du corps et de la présence : on change de poids, de style, de posture, on apprend à porter son âge. Jupiter en Maison I est l'une des positions les plus chanceuses pour le rayonnement personnel — c'est le moment de se lancer, de candidater, de se montrer. Uranus déclenche des ruptures d'image, parfois physiques (cheveux coupés, garde-robe brûlée). Neptune brouille la silhouette et le sens de soi : prudence avec les autodiagnostics. Pluton, lui, démolit ce qui n'est plus vivable dans la persona — c'est un travail de plusieurs années où l'on devient « quelqu'un d'autre ».",
+    "exercicePratique": {
+      "titre": "Cartographier ta Maison I en 5 minutes",
+      "etapes": [
+        "Filme-toi en train d'entrer dans une pièce pour la première fois. Regarde la vidéo sans le son.",
+        "Note 3 mots qui décrivent ce que tu vois : « hésitant », « droit », « rapide », « gracieux », etc.",
+        "Demande à 3 personnes proches : « Si tu devais décrire ma manière d'arriver en un mot, ce serait quoi ? »",
+        "Compare leurs réponses à ton ressenti interne. L'écart entre les deux = l'angle mort de ta Maison I.",
+        "Choisis UNE chose à conserver et UNE chose à ajuster sur les deux prochaines semaines. Note les effets."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Madonna",
+        "naissance": "16 août 1958",
+        "raison": "Réinvention permanente de l'image. Maison I lieu de bataille et d'œuvre."
+      },
+      {
+        "nom": "Muhammad Ali",
+        "naissance": "17 janvier 1942",
+        "raison": "Présence physique mythique, « I am the greatest » — déclaration d'identité brute."
+      },
+      {
+        "nom": "Frida Kahlo",
+        "naissance": "6 juillet 1907",
+        "raison": "Le corps comme territoire d'expression, l'autoportrait obsédant."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 2,
@@ -276,12 +332,68 @@
       "pluton": "Enjeux profonds de pouvoir autour de l'argent et de la valeur. Pluton en Maison II provoque des transformations radicales dans le rapport aux possessions. Le natif connaît crises et régénérations financières. Le défi est le contrôle et la manipulation ; la maturité transforme sainement le rapport au 'posséder'."
     },
     "faq": [
-      { "question": "Que représente la Maison 2 en astrologie ?", "reponse": "La Maison 2 gouverne les ressources matérielles, l'argent gagné par soi-même et le système de valeurs personnelles. Elle indique la manière dont le natif acquiert, gère et valorise ses biens, ainsi que son rapport profond à la sécurité financière." },
-      { "question": "Quel signe est associé à la Maison 2 ?", "reponse": "La Maison 2 est naturellement associée au Taureau et à sa planète maîtresse Vénus. Cette correspondance souligne le lien entre cette maison et le monde concret des possessions, du plaisir sensoriel et de la stabilité matérielle." },
-      { "question": "Que signifie avoir Jupiter en Maison 2 ?", "reponse": "Jupiter en Maison 2 est l'un des placements les plus favorables pour la prospérité financière. Le natif bénéficie souvent de chance dans ses gains et d'une capacité naturelle à attirer l'abondance, à condition de ne pas céder à l'excès de dépenses." },
-      { "question": "La Maison 2 indique-t-elle si je serai riche ?", "reponse": "La Maison 2 révèle le rapport à l'argent et les talents permettant de générer des revenus, mais elle ne prédit pas la richesse de manière absolue. Les planètes présentes et les aspects reçus indiquent les facilités ou les défis financiers, tandis que le libre arbitre reste déterminant." },
-      { "question": "Quelle est la différence entre la Maison 2 et la Maison 8 ?", "reponse": "La Maison 2 concerne les ressources personnelles acquises par ses propres efforts, tandis que la Maison 8 régit les ressources partagées, héritages et transformations financières liées aux autres. Ensemble, elles forment l'axe des possessions, opposant l'avoir individuel à l'avoir collectif." }
-    ]
+      {
+        "question": "Que représente la Maison 2 en astrologie ?",
+        "reponse": "La Maison 2 gouverne les ressources matérielles, l'argent gagné par soi-même et le système de valeurs personnelles. Elle indique la manière dont le natif acquiert, gère et valorise ses biens, ainsi que son rapport profond à la sécurité financière."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 2 ?",
+        "reponse": "La Maison 2 est naturellement associée au Taureau et à sa planète maîtresse Vénus. Cette correspondance souligne le lien entre cette maison et le monde concret des possessions, du plaisir sensoriel et de la stabilité matérielle."
+      },
+      {
+        "question": "Que signifie avoir Jupiter en Maison 2 ?",
+        "reponse": "Jupiter en Maison 2 est l'un des placements les plus favorables pour la prospérité financière. Le natif bénéficie souvent de chance dans ses gains et d'une capacité naturelle à attirer l'abondance, à condition de ne pas céder à l'excès de dépenses."
+      },
+      {
+        "question": "La Maison 2 indique-t-elle si je serai riche ?",
+        "reponse": "La Maison 2 révèle le rapport à l'argent et les talents permettant de générer des revenus, mais elle ne prédit pas la richesse de manière absolue. Les planètes présentes et les aspects reçus indiquent les facilités ou les défis financiers, tandis que le libre arbitre reste déterminant."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 2 et la Maison 8 ?",
+        "reponse": "La Maison 2 concerne les ressources personnelles acquises par ses propres efforts, tandis que la Maison 8 régit les ressources partagées, héritages et transformations financières liées aux autres. Ensemble, elles forment l'axe des possessions, opposant l'avoir individuel à l'avoir collectif."
+      }
+    ],
+    "vieQuotidienne": "La Maison II vit dans le rapport à ce que vous possédez vraiment — votre corps, vos talents monnayables, votre porte-monnaie, votre attachement aux objets. Au quotidien, elle se lit dans des micro-arbitrages : ce que vous achetez sans hésiter, ce qui vous coûte de dépenser, le plaisir des matières (un bon repas, un tissu, une odeur). Elle gouverne aussi la sécurité matérielle de base — avoir un toit, payer ses factures sans angoisse, savoir ce qui rentre et ce qui sort chaque mois. Une Maison II tendue se traduit souvent par des cycles d'abondance et de manque, ou par un rapport conflictuel à la valeur personnelle (« je ne vaux pas tant que ça »). Une Maison II soutenue, au contraire, ressent une stabilité tranquille : vous savez ce que vous valez, ce que vous pouvez offrir, ce que vous refusez. C'est la maison du « j'ai » et du « je mérite ».",
+    "carriere": {
+      "texte": "Sur le plan professionnel, la Maison II décrit la manière dont vous transformez vos talents en revenus. Elle parle de tarification, de négociation salariale, du choix d'un statut (salarié, freelance, patrimonial). Les profils à Maison II forte gèrent naturellement leur argent et savent demander ce qu'ils valent. Une Maison II avec Saturne demande l'apprentissage long de la valeur — on commence parfois mal payé, puis on construit lentement un patrimoine solide. Vénus ou Jupiter en II favorisent les revenus liés au plaisir, à la beauté, au confort. Mars ou Uranus en II amènent des hauts et des bas qu'il faut canaliser avec discipline financière.",
+      "metiers": [
+        "Banquier / conseiller patrimonial",
+        "Agent immobilier",
+        "Restaurateur / chef cuisinier",
+        "Artisan d'art",
+        "Comptable",
+        "Producteur agricole"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison II touchent toujours au porte-monnaie et à l'estime de soi — les deux étant liés. Jupiter en II annonce souvent une hausse de revenus ou un nouveau contrat avantageux, mais aussi un risque d'expansion financière non maîtrisée. Saturne en II resserre l'étau : audit interne, dettes à payer, prise de conscience des fuites, construction patiente d'un capital. Uranus en II est célèbre pour ses retournements financiers brutaux — perte ou gain imprévu, changement de statut. Pluton en II met en lumière les rapports profonds à l'argent (peur du manque héritée, blocages psychologiques) et force une refonte complète de la valeur qu'on se donne.",
+    "exercicePratique": {
+      "titre": "Faire le bilan de tes valeurs concrètes",
+      "etapes": [
+        "Liste tout ce que tu possèdes qui te rend fier ou qui te rassure (objets, comptes, compétences).",
+        "À côté de chaque item, note : « investi pour », « reçu », « hérité », « bâti seul ».",
+        "Identifie les 3 sources qui te font sentir le plus en sécurité aujourd'hui.",
+        "Pose-toi : si je perdais ces 3 choses demain, qu'est-ce qui resterait de moi ? Note la réponse.",
+        "Choisis UNE habitude financière à ajuster sur 30 jours (mettre 50 € de côté, négocier un tarif, refuser un client qui ne paie pas le bon prix)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Warren Buffett",
+        "naissance": "30 août 1930",
+        "raison": "Incarnation de la patience patrimoniale, valeur intrinsèque et long terme."
+      },
+      {
+        "nom": "Coco Chanel",
+        "naissance": "19 août 1883",
+        "raison": "Transformation du goût personnel en empire matériel."
+      },
+      {
+        "nom": "Auguste Escoffier",
+        "naissance": "28 octobre 1846",
+        "raison": "La matière, le goût, le geste — codification d'une cuisine devenue patrimoine."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 3,
@@ -418,12 +530,68 @@
       "pluton": "Parole intense et analyse profonde des situations. Pluton en Maison III donne capacité de transformation par les mots et les idées. Le natif pense de manière radicale. Le défi est l'obsession mentale ; la maturité développe la lucidité sans dureté verbale."
     },
     "faq": [
-      { "question": "Que représente la Maison 3 en astrologie ?", "reponse": "La Maison 3 régit la communication, les échanges intellectuels, les petits déplacements et les relations avec les frères et sœurs. Elle décrit la façon dont le natif pense, parle, écrit et interagit avec son environnement proche au quotidien." },
-      { "question": "Quel signe est associé à la Maison 3 ?", "reponse": "La Maison 3 est naturellement associée aux Gémeaux et à leur planète maîtresse Mercure. Cette correspondance met en lumière la curiosité intellectuelle, l'adaptabilité mentale et le besoin de communiquer qui caractérisent cette maison." },
-      { "question": "Que signifie avoir Mercure en Maison 3 ?", "reponse": "Mercure en Maison 3 est en domicile naturel, ce qui renforce considérablement les facultés intellectuelles et verbales. Le natif possède un esprit vif, une grande facilité d'expression et un goût prononcé pour l'apprentissage et les échanges d'idées." },
-      { "question": "Pourquoi la Maison 3 est-elle liée aux frères et sœurs ?", "reponse": "La tradition astrologique associe la Maison 3 aux frères et sœurs car elle représente l'environnement immédiat et les premiers liens sociaux hors du foyer. Les frères et sœurs constituent les premières personnes avec qui l'on apprend à communiquer, négocier et partager au quotidien." },
-      { "question": "Quelle est la différence entre la Maison 3 et la Maison 9 ?", "reponse": "La Maison 3 concerne la communication quotidienne, les courts trajets et l'apprentissage élémentaire, tandis que la Maison 9 gouverne la pensée abstraite, les longs voyages et l'enseignement supérieur. Cet axe oppose le savoir concret et local à la sagesse universelle et lointaine." }
-    ]
+      {
+        "question": "Que représente la Maison 3 en astrologie ?",
+        "reponse": "La Maison 3 régit la communication, les échanges intellectuels, les petits déplacements et les relations avec les frères et sœurs. Elle décrit la façon dont le natif pense, parle, écrit et interagit avec son environnement proche au quotidien."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 3 ?",
+        "reponse": "La Maison 3 est naturellement associée aux Gémeaux et à leur planète maîtresse Mercure. Cette correspondance met en lumière la curiosité intellectuelle, l'adaptabilité mentale et le besoin de communiquer qui caractérisent cette maison."
+      },
+      {
+        "question": "Que signifie avoir Mercure en Maison 3 ?",
+        "reponse": "Mercure en Maison 3 est en domicile naturel, ce qui renforce considérablement les facultés intellectuelles et verbales. Le natif possède un esprit vif, une grande facilité d'expression et un goût prononcé pour l'apprentissage et les échanges d'idées."
+      },
+      {
+        "question": "Pourquoi la Maison 3 est-elle liée aux frères et sœurs ?",
+        "reponse": "La tradition astrologique associe la Maison 3 aux frères et sœurs car elle représente l'environnement immédiat et les premiers liens sociaux hors du foyer. Les frères et sœurs constituent les premières personnes avec qui l'on apprend à communiquer, négocier et partager au quotidien."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 3 et la Maison 9 ?",
+        "reponse": "La Maison 3 concerne la communication quotidienne, les courts trajets et l'apprentissage élémentaire, tandis que la Maison 9 gouverne la pensée abstraite, les longs voyages et l'enseignement supérieur. Cet axe oppose le savoir concret et local à la sagesse universelle et lointaine."
+      }
+    ],
+    "vieQuotidienne": "La Maison III est la maison des petits trajets et des grands apprentissages. C'est l'école à 8 heures du matin, le messageboard de l'open-space, les groupes WhatsApp de copains et de frères et sœurs, les commerçants du quartier, le métro, la voiture, le scooter. Au quotidien, elle décrit la qualité de votre flux mental : comment vous lisez, comment vous écrivez, ce qui vous saute aux yeux quand vous entrez dans une pièce inconnue. Elle gouverne aussi la curiosité — celle qui clique sur un titre d'article, qui regarde un documentaire de fin de soirée, qui demande « pourquoi ? » trois fois de suite. Une Maison III peu peuplée n'empêche pas d'être intelligent : elle indique seulement que la stimulation viendra d'ailleurs. Une Maison III chargée se reconnaît à un esprit toujours en mouvement, des conversations multiples, un téléphone qui sonne, et parfois une tendance à se disperser ou à confondre quantité d'infos et qualité de pensée.",
+    "carriere": {
+      "texte": "Professionnellement, la Maison III est la maison du verbe et de la transmission horizontale. Les profils à Maison III forte excellent dans tout ce qui demande de vulgariser, d'expliquer, de relier des informations : journalisme, enseignement de base, ventes par téléphone, community management, rédaction. C'est aussi la maison des collaborations courtes et des contrats multiples plutôt que des engagements pérennes. Mercure en III est en domicile, et signe souvent une intelligence pratique rentable. Saturne en III peut indiquer un parcours d'études plus lent ou des blocages d'expression à dépasser. Mars en III rend vif mais conflictuel à l'écrit comme à l'oral.",
+      "metiers": [
+        "Journaliste / rédacteur",
+        "Professeur (primaire/collège)",
+        "Community manager",
+        "Traducteur / interprète",
+        "Commercial sédentaire",
+        "Chauffeur / coursier"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison III activent la pensée et la communication. Jupiter en III ouvre des opportunités d'apprentissage, de prise de parole publique, d'écriture publiée. C'est une bonne fenêtre pour lancer un blog, un podcast, un cours. Saturne en III impose la rigueur — fin des bavardages superficiels, structuration des idées, parfois retour à des études formelles. Uranus en III provoque des éclairs de génie ou des changements brutaux de centre d'intérêt. Neptune en III brouille la pensée et peut indiquer une période de confusion mentale, de mensonges proches, ou à l'inverse d'inspiration artistique. Pluton en III fouille les non-dits familiaux et transforme la voix profonde.",
+    "exercicePratique": {
+      "titre": "Audit de tes 20 derniers messages",
+      "etapes": [
+        "Ouvre tes 20 derniers SMS / messages WhatsApp / mails envoyés.",
+        "Classe-les en : « curieux », « réactif », « informatif », « affectif », « obligation ».",
+        "Compte les pourcentages. Quelle catégorie domine ?",
+        "Demande-toi : ce que je communique correspond-il à ce que je veux vraiment dire ?",
+        "Pendant 7 jours, expérimente un seul changement : reformuler avant d'envoyer, ou répondre 10 minutes plus tard, ou poser une vraie question dans chaque échange."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Voltaire",
+        "naissance": "21 novembre 1694",
+        "raison": "Le verbe comme arme, la correspondance comme œuvre."
+      },
+      {
+        "nom": "Mark Twain",
+        "naissance": "30 novembre 1835",
+        "raison": "Le journaliste-écrivain par excellence, ironique et terrien."
+      },
+      {
+        "nom": "Oprah Winfrey",
+        "naissance": "29 janvier 1954",
+        "raison": "Transmission de masse, conversation comme outil d'influence."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 4,
@@ -560,12 +728,68 @@
       "pluton": "Transformations familiales radicales et intensité intime marquée. Pluton en Maison IV provoque des crises qui régénèrent les racines. Le natif vit des transformations profondes liées à l'héritage. Le défi est le contrôle et la domination ; la maturité régénère sainement les racines."
     },
     "faq": [
-      { "question": "Que représente la Maison 4 en astrologie ?", "reponse": "La Maison 4, appelée aussi Fond du Ciel, représente le foyer, la famille, les racines et l'héritage psychologique. Elle décrit l'environnement domestique du natif, son rapport à la terre natale et les fondations émotionnelles sur lesquelles il construit sa vie." },
-      { "question": "Quel signe est associé à la Maison 4 ?", "reponse": "La Maison 4 est naturellement associée au Cancer et à la Lune, sa planète maîtresse. Cette correspondance souligne la dimension émotionnelle, protectrice et nourricière de cette maison liée aux racines familiales et au sentiment d'appartenance." },
-      { "question": "Que signifie avoir la Lune en Maison 4 ?", "reponse": "La Lune en Maison 4 est en position de force, car elle occupe son domicile naturel. Le natif est profondément attaché à son foyer et à sa famille, avec une mémoire émotionnelle très développée et un besoin vital de sécurité intérieure." },
-      { "question": "Le Fond du Ciel révèle-t-il mon enfance ?", "reponse": "Le Fond du Ciel donne effectivement des indications précieuses sur l'enfance, le climat familial et les influences parentales reçues. Le signe sur la cuspide et les planètes présentes décrivent l'atmosphère du foyer d'origine et les schémas émotionnels hérités de la lignée." },
-      { "question": "Quelle est la différence entre la Maison 4 et la Maison 10 ?", "reponse": "La Maison 4 représente la sphère privée, les racines et le foyer, tandis que la Maison 10 symbolise la vie publique, la carrière et la réputation sociale. Cet axe fondamental oppose l'intimité familiale à l'accomplissement professionnel et au statut dans le monde." }
-    ]
+      {
+        "question": "Que représente la Maison 4 en astrologie ?",
+        "reponse": "La Maison 4, appelée aussi Fond du Ciel, représente le foyer, la famille, les racines et l'héritage psychologique. Elle décrit l'environnement domestique du natif, son rapport à la terre natale et les fondations émotionnelles sur lesquelles il construit sa vie."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 4 ?",
+        "reponse": "La Maison 4 est naturellement associée au Cancer et à la Lune, sa planète maîtresse. Cette correspondance souligne la dimension émotionnelle, protectrice et nourricière de cette maison liée aux racines familiales et au sentiment d'appartenance."
+      },
+      {
+        "question": "Que signifie avoir la Lune en Maison 4 ?",
+        "reponse": "La Lune en Maison 4 est en position de force, car elle occupe son domicile naturel. Le natif est profondément attaché à son foyer et à sa famille, avec une mémoire émotionnelle très développée et un besoin vital de sécurité intérieure."
+      },
+      {
+        "question": "Le Fond du Ciel révèle-t-il mon enfance ?",
+        "reponse": "Le Fond du Ciel donne effectivement des indications précieuses sur l'enfance, le climat familial et les influences parentales reçues. Le signe sur la cuspide et les planètes présentes décrivent l'atmosphère du foyer d'origine et les schémas émotionnels hérités de la lignée."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 4 et la Maison 10 ?",
+        "reponse": "La Maison 4 représente la sphère privée, les racines et le foyer, tandis que la Maison 10 symbolise la vie publique, la carrière et la réputation sociale. Cet axe fondamental oppose l'intimité familiale à l'accomplissement professionnel et au statut dans le monde."
+      }
+    ],
+    "vieQuotidienne": "La Maison IV est la maison du dedans — au sens littéral et symbolique. C'est l'odeur du café le matin, le bruit du chauffage qui tousse, le canapé où l'on revient toujours, la table où l'on a appris à manger. Elle gouverne le rapport à la famille d'origine, aux parents (le père souvent en tradition, parfois la mère selon les écoles), à l'enfance, à la terre natale. Au quotidien, elle se reconnaît à la qualité de l'intimité que vous construisez chez vous : est-ce un refuge, un musée, un champ de bataille, un atelier ? Elle décrit aussi ce que vous transmettez sans le savoir, l'ambiance que vous léguez à ceux qui partagent votre toit. Une Maison IV forte mais affligée indique souvent une histoire familiale chargée qui prend beaucoup de place dans la vie adulte. Une Maison IV sereine se reconnaît à la possibilité de fermer la porte derrière soi sans culpabilité.",
+    "carriere": {
+      "texte": "La Maison IV influence peu la nature du métier (c'est plutôt la X) mais beaucoup le rapport au lieu de travail. Les profils à Maison IV forte aiment travailler chez eux, construire un patrimoine immobilier, ou s'inscrire dans une lignée professionnelle (reprendre l'entreprise familiale, exercer une tradition héritée). C'est aussi la maison des fins de carrière : ce qu'on devient après la retraite, ce qu'on construit pour les générations suivantes. Saturne en IV peut indiquer un parent professionnel exigeant et une grande responsabilité familiale. Jupiter en IV donne souvent un patrimoine immobilier confortable et une seconde partie de vie épanouie.",
+      "metiers": [
+        "Métiers du patrimoine et de l'héritage",
+        "Immobilier (notaire, agent, syndic)",
+        "Archéologue / historien",
+        "Restaurateur de maisons anciennes",
+        "Psychogénéalogie / thérapie familiale",
+        "Agriculteur / vigneron"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison IV remuent les racines. Jupiter en IV est souvent associé à un achat immobilier, une naissance, un retour aux sources, ou un déménagement vers un lieu plus confortable. Saturne en IV est connu pour ses années d'isolement, de responsabilité parentale (s'occuper d'un parent vieillissant) ou de réorganisation familiale en profondeur. C'est aussi le transit qui pousse à enraciner un lieu durable. Uranus en IV provoque des départs brusques, des bouleversements familiaux, parfois des déménagements imprévus. Pluton en IV est le transit le plus profond de tous : il déterre les secrets, les loyautés inconscientes, et reconfigure totalement le rapport à la famille d'origine sur 10 à 20 ans.",
+    "exercicePratique": {
+      "titre": "Cartographier ton lieu intérieur",
+      "etapes": [
+        "Dessine en 5 minutes la maison de ton enfance — pas réaliste, juste les pièces qui te marquent.",
+        "Pour chaque pièce, écris un mot : refuge / interdiction / scène / vide / fête.",
+        "Identifie LA pièce qui revient encore aujourd'hui dans tes rêves ou tes émotions.",
+        "Pose-toi : quelle ambiance de cette maison ai-je reproduite chez moi adulte ? Laquelle ai-je fuie ?",
+        "Choisis UN détail concret de ton chez-toi actuel à changer cette semaine pour rendre l'espace plus à toi (couleur, place d'un meuble, objet à sortir d'un carton)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Victor Hugo",
+        "naissance": "26 février 1802",
+        "raison": "Hauteville House : le foyer comme œuvre d'art et de mémoire familiale."
+      },
+      {
+        "nom": "Marcel Proust",
+        "naissance": "10 juillet 1871",
+        "raison": "La chambre, la madeleine, la maison de Combray — toute l'œuvre tourne autour du foyer."
+      },
+      {
+        "nom": "Coretta Scott King",
+        "naissance": "27 avril 1927",
+        "raison": "Le foyer comme socle d'un mouvement social, fondatrice du King Center."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 5,
@@ -697,12 +921,68 @@
       "pluton": "Passions intensement vécues et transformatrices. Pluton en Maison V donne créativité intense et transformatrice. Le natif vit les amours comme des crises régénérantes. Le défi est le contrôle ; la maturité cultive puissance créatrice maîtrisée."
     },
     "faq": [
-      { "question": "Que représente la Maison 5 en astrologie ?", "reponse": "La Maison 5 gouverne la créativité, les plaisirs, les amours passionnelles, les enfants et toute forme d'expression personnelle joyeuse. Elle révèle comment le natif s'amuse, crée, séduit et exprime sa singularité à travers le jeu et l'art." },
-      { "question": "Quel signe est associé à la Maison 5 ?", "reponse": "La Maison 5 est naturellement associée au Lion et au Soleil, son astre maître. Cette correspondance explique la dimension lumineuse, généreuse et théâtrale de cette maison, où le natif cherche à briller et à exprimer pleinement sa vitalité créatrice." },
-      { "question": "Que signifie avoir Vénus en Maison 5 ?", "reponse": "Vénus en Maison 5 est un placement très favorable pour les arts, les amours et les plaisirs de la vie. Le natif possède un charme naturel dans la séduction, un talent artistique marqué et une capacité à profiter pleinement des joies de l'existence." },
-      { "question": "La Maison 5 peut-elle prédire le nombre d'enfants ?", "reponse": "La Maison 5 informe sur le rapport aux enfants et la fécondité symbolique, mais l'astrologie moderne ne prétend pas prédire un nombre exact d'enfants. Les planètes et signes présents indiquent plutôt la nature de la relation parent-enfant et le style éducatif du natif." },
-      { "question": "Quelle est la différence entre la Maison 5 et la Maison 11 ?", "reponse": "La Maison 5 concerne la créativité individuelle, les plaisirs personnels et les amours, tandis que la Maison 11 régit les projets collectifs, les amitiés et les idéaux de groupe. Cet axe oppose l'expression personnelle et le désir de briller à l'engagement dans le collectif et le bien commun." }
-    ]
+      {
+        "question": "Que représente la Maison 5 en astrologie ?",
+        "reponse": "La Maison 5 gouverne la créativité, les plaisirs, les amours passionnelles, les enfants et toute forme d'expression personnelle joyeuse. Elle révèle comment le natif s'amuse, crée, séduit et exprime sa singularité à travers le jeu et l'art."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 5 ?",
+        "reponse": "La Maison 5 est naturellement associée au Lion et au Soleil, son astre maître. Cette correspondance explique la dimension lumineuse, généreuse et théâtrale de cette maison, où le natif cherche à briller et à exprimer pleinement sa vitalité créatrice."
+      },
+      {
+        "question": "Que signifie avoir Vénus en Maison 5 ?",
+        "reponse": "Vénus en Maison 5 est un placement très favorable pour les arts, les amours et les plaisirs de la vie. Le natif possède un charme naturel dans la séduction, un talent artistique marqué et une capacité à profiter pleinement des joies de l'existence."
+      },
+      {
+        "question": "La Maison 5 peut-elle prédire le nombre d'enfants ?",
+        "reponse": "La Maison 5 informe sur le rapport aux enfants et la fécondité symbolique, mais l'astrologie moderne ne prétend pas prédire un nombre exact d'enfants. Les planètes et signes présents indiquent plutôt la nature de la relation parent-enfant et le style éducatif du natif."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 5 et la Maison 11 ?",
+        "reponse": "La Maison 5 concerne la créativité individuelle, les plaisirs personnels et les amours, tandis que la Maison 11 régit les projets collectifs, les amitiés et les idéaux de groupe. Cet axe oppose l'expression personnelle et le désir de briller à l'engagement dans le collectif et le bien commun."
+      }
+    ],
+    "vieQuotidienne": "La Maison V est celle où l'on joue. Les enfants qu'on a ou qu'on rêve d'avoir, les amours qui font battre le cœur, le ciné du samedi soir, le concert qu'on attend depuis des mois, le projet créatif qu'on bricole sur son temps libre. Au quotidien, elle se reconnaît à la place que vous laissez au plaisir gratuit — celui qui ne sert à rien, qui ne « rapporte » rien, qui n'a d'autre but que la joie. Une Maison V vivante indique que vous savez encore vous amuser, créer pour le plaisir, séduire pour le plaisir, jouer pour le plaisir. Une Maison V éteinte se traduit par une vie en pilote automatique, sans flamme, où tout est rentable mais rien n'est joyeux. C'est aussi la maison des spéculations, des paris, du goût pour le jeu et le risque mesuré.",
+    "carriere": {
+      "texte": "Côté pro, la Maison V est la maison de la création visible et de l'amusement rentable. Les profils à V forte travaillent dans le divertissement, les arts du spectacle, les médias, le sport-spectacle, la mode, la communication créative. C'est aussi la maison des entrepreneurs qui montent leur boîte par passion plus que par stratégie pure. Le Soleil en V donne une grande envie d'être reconnu pour ce qu'on crée. Vénus en V favorise les métiers du goût, du plaisir, de la beauté. Saturne en V freine l'élan ludique : on peut avoir du mal à « lâcher » et à oser, mais une fois la barrière tombée, la création est solide et durable.",
+      "metiers": [
+        "Artiste (peintre, musicien, comédien)",
+        "Animateur / présentateur",
+        "Entrepreneur créatif",
+        "Game designer / scénariste",
+        "Coach sportif / animateur",
+        "Éducateur jeune enfance"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison V activent l'élan créatif et l'amour. Jupiter en V est l'un des plus joyeux de tout le zodiaque : romances, naissance d'un enfant, lancement d'un projet créatif visible, gains spéculatifs. Saturne en V impose souvent une responsabilité envers un enfant ou une œuvre — on cesse de jouer pour produire vraiment. Uranus en V amène des coups de foudre, des aventures imprévues, des bébés non planifiés ou des ruptures artistiques. Neptune en V est célèbre pour les amours impossibles, les muses inaccessibles, les addictions au jeu — fenêtre d'inspiration mais aussi d'illusion. Pluton en V transforme la manière de créer et d'aimer en profondeur.",
+    "exercicePratique": {
+      "titre": "Réveiller ta Maison V",
+      "etapes": [
+        "Liste 5 choses qui te faisaient vibrer entre 8 et 14 ans (un sport, un dessin animé, un instrument, un jeu, une activité).",
+        "Pour chaque item, note pourquoi tu as arrêté (manque de temps, jugement, fatigue, oubli).",
+        "Choisis-en UN à réintégrer cette semaine, même 15 minutes.",
+        "Pendant ces 15 minutes, interdis-toi de chercher à être « bon » ou « productif » — joue.",
+        "Note après 7 jours : qu'est-ce qui a changé dans ton énergie globale ?"
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Walt Disney",
+        "naissance": "5 décembre 1901",
+        "raison": "L'enfance comme matière première d'un empire créatif mondial."
+      },
+      {
+        "nom": "Pablo Picasso",
+        "naissance": "25 octobre 1881",
+        "raison": "Création prolifique, plaisir du geste, multiples amours et enfants."
+      },
+      {
+        "nom": "Brigitte Bardot",
+        "naissance": "28 septembre 1934",
+        "raison": "Icône du plaisir, de la séduction et du jeu cinématographique."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 6,
@@ -834,12 +1114,68 @@
       "pluton": "Transformation radicale par la routine et intensité d'amélioration. Pluton en Maison VI donne obsession possible du changement. Le natif régénère son quotidien en profondeur. Le défi est l'obsession ; la maturité cultive régénération saine."
     },
     "faq": [
-      { "question": "Que représente la Maison 6 en astrologie ?", "reponse": "La Maison 6 régit la santé, le travail quotidien, les routines, le service rendu aux autres et les petits animaux domestiques. Elle décrit comment le natif organise son quotidien, prend soin de son corps et s'investit dans ses tâches professionnelles courantes." },
-      { "question": "Quel signe est associé à la Maison 6 ?", "reponse": "La Maison 6 est naturellement associée à la Vierge et à sa planète maîtresse Mercure. Cette correspondance met en avant le sens du détail, l'esprit d'analyse, le goût de l'ordre et le souci d'amélioration continue qui caractérisent cette maison." },
-      { "question": "Que signifie avoir Mars en Maison 6 ?", "reponse": "Mars en Maison 6 confère une énergie considérable dans le travail quotidien et une grande capacité d'action dans les tâches concrètes. Le natif est un travailleur infatigable, mais il doit veiller aux inflammations et au surmenage lié à un excès d'activité." },
-      { "question": "La Maison 6 montre-t-elle les maladies possibles ?", "reponse": "La Maison 6 donne des indications sur les prédispositions de santé et les points de fragilité du corps, mais elle ne prédit pas de maladies spécifiques. Le signe sur la cuspide et les planètes présentes orientent vers les zones corporelles à surveiller et les habitudes de vie à privilégier." },
-      { "question": "Quelle est la différence entre la Maison 6 et la Maison 12 ?", "reponse": "La Maison 6 concerne la santé physique, le travail concret et les routines quotidiennes, tandis que la Maison 12 gouverne la santé psychique, la vie intérieure et les épreuves cachées. Cet axe oppose le soin actif et visible au lâcher-prise et à la guérison invisible de l'âme." }
-    ]
+      {
+        "question": "Que représente la Maison 6 en astrologie ?",
+        "reponse": "La Maison 6 régit la santé, le travail quotidien, les routines, le service rendu aux autres et les petits animaux domestiques. Elle décrit comment le natif organise son quotidien, prend soin de son corps et s'investit dans ses tâches professionnelles courantes."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 6 ?",
+        "reponse": "La Maison 6 est naturellement associée à la Vierge et à sa planète maîtresse Mercure. Cette correspondance met en avant le sens du détail, l'esprit d'analyse, le goût de l'ordre et le souci d'amélioration continue qui caractérisent cette maison."
+      },
+      {
+        "question": "Que signifie avoir Mars en Maison 6 ?",
+        "reponse": "Mars en Maison 6 confère une énergie considérable dans le travail quotidien et une grande capacité d'action dans les tâches concrètes. Le natif est un travailleur infatigable, mais il doit veiller aux inflammations et au surmenage lié à un excès d'activité."
+      },
+      {
+        "question": "La Maison 6 montre-t-elle les maladies possibles ?",
+        "reponse": "La Maison 6 donne des indications sur les prédispositions de santé et les points de fragilité du corps, mais elle ne prédit pas de maladies spécifiques. Le signe sur la cuspide et les planètes présentes orientent vers les zones corporelles à surveiller et les habitudes de vie à privilégier."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 6 et la Maison 12 ?",
+        "reponse": "La Maison 6 concerne la santé physique, le travail concret et les routines quotidiennes, tandis que la Maison 12 gouverne la santé psychique, la vie intérieure et les épreuves cachées. Cet axe oppose le soin actif et visible au lâcher-prise et à la guérison invisible de l'âme."
+      }
+    ],
+    "vieQuotidienne": "La Maison VI est la maison du quotidien réel — pas celui qu'on raconte dans les dîners, celui qu'on vit à 7 heures du matin un mardi. C'est la routine, l'agenda, le café à heure fixe, le métro, la salle de sport (ou son absence), le médecin de famille, les petits maux que l'on porte sans en parler. Elle gouverne le rapport à la santé ordinaire — pas les grandes maladies (plutôt M VIII ou XII) mais les fatigues, les tensions, le sommeil, l'alimentation, l'hygiène quotidienne. Au travail, c'est la relation aux subordonnés, aux collègues du quotidien, aux outils qu'on utilise. Une Maison VI forte signe quelqu'un d'organisé, méthodique, qui prend soin de son corps et de ses processus. Une Maison VI tendue traduit souvent un quotidien éprouvant : trop de tâches, trop de stress, trop d'auto-exigence.",
+    "carriere": {
+      "texte": "La Maison VI est la maison du travail concret et quotidien (par opposition à la X, vocation). Elle décrit votre rapport au boulot ordinaire : aimez-vous structurer, améliorer, dépanner ? Les profils à VI forte excellent dans les métiers d'analyse, de service, de santé, d'artisanat précis. Mercure en VI est en domicile et donne un esprit méthodique précieux dans le monde professionnel. Saturne en VI est une configuration classique des grands bosseurs — durs au mal, peu plaintifs, parfois trop. Mars en VI peut amener des accidents du travail ou un stress physique élevé. Vénus en VI donne le goût d'un cadre de travail soigné et de bonnes relations avec les collègues.",
+      "metiers": [
+        "Infirmier / aide-soignant",
+        "Médecin généraliste",
+        "Vétérinaire",
+        "Auditeur / qualiticien",
+        "Artisan (menuisier, électricien)",
+        "Assistant administratif"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison VI touchent toujours à la santé et au quotidien. Jupiter en VI améliore la forme physique, élargit les responsabilités au travail, peut signer un nouveau poste plus confortable. Saturne en VI est connu pour ses surcharges de travail et ses bilans de santé : on apprend ses limites parfois durement, on adopte une discipline alimentaire ou sportive. Uranus en VI amène des bouleversements de routine (changement d'emploi soudain, alimentation revue, sommeil chamboulé). Neptune en VI peut signaler des fatigues diffuses, des sensibilités alimentaires, des diagnostics flous — vigilance. Pluton en VI force une refonte profonde du rapport au corps et au travail : on quitte des situations qui empoisonnaient en silence.",
+    "exercicePratique": {
+      "titre": "Diagnostic de ta semaine type",
+      "etapes": [
+        "Pendant 7 jours, note chaque heure de la journée dans un tableau (sommeil / travail / repas / corps / loisir).",
+        "À la fin de la semaine, compte les heures dans chaque catégorie.",
+        "Identifie LA case qui te semble en déséquilibre flagrant (trop ou pas assez).",
+        "Pose-toi : si je devais ajuster cette case de 30 minutes par jour, qu'est-ce que je sacrifierais ?",
+        "Teste ce nouvel équilibre la semaine suivante. Note sur 10 ton énergie chaque soir."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Florence Nightingale",
+        "naissance": "12 mai 1820",
+        "raison": "Fondatrice de la profession infirmière moderne — service quotidien par excellence."
+      },
+      {
+        "nom": "Marie Curie",
+        "naissance": "7 novembre 1867",
+        "raison": "Rigueur quotidienne du laboratoire, santé sacrifiée à la précision."
+      },
+      {
+        "nom": "Henry Ford",
+        "naissance": "30 juillet 1863",
+        "raison": "Codification du travail répétitif efficace — la chaîne de montage."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 7,
@@ -971,12 +1307,68 @@
       "pluton": "Pluton en Maison VII crée une intensité remarquable dans les relations, avec transformations profondes provoquées par l'autre. Le défi réside dans les luttes de pouvoir conjugal et les dynamiques de contrôle ; la maturité consiste à accepter la métamorphose relationnelle et les profonds changements qu'elle apporte."
     },
     "faq": [
-      { "question": "Que représente la Maison 7 en astrologie ?", "reponse": "La Maison 7, appelée aussi Descendant, représente le couple, les associations, les contrats et la manière dont on entre en relation avec les autres. Elle décrit le type de partenaire que le natif attire et la dynamique relationnelle qui s'installe dans ses engagements." },
-      { "question": "Quel signe est associé à la Maison 7 ?", "reponse": "La Maison 7 est naturellement associée à la Balance et à sa planète maîtresse Vénus. Cette correspondance souligne la recherche d'équilibre, d'harmonie et de justice dans les relations, ainsi que le besoin profond de partage et de complémentarité avec autrui." },
-      { "question": "Que signifie avoir Vénus en Maison 7 ?", "reponse": "Vénus en Maison 7 est un placement très favorable pour la vie sentimentale et les associations. Le natif attire des partenaires charmants et recherche avant tout l'harmonie dans le couple, avec un talent naturel pour la diplomatie et la négociation." },
-      { "question": "Le Descendant décrit-il mon partenaire idéal ?", "reponse": "Le Descendant indique les qualités que l'on recherche inconsciemment chez l'autre et le type de relation qui nous complète. Le signe sur la cuspide de la Maison 7 décrit les caractéristiques du partenaire attiré, qui incarne souvent ce que le natif n'exprime pas lui-même." },
-      { "question": "Quelle est la différence entre la Maison 1 et la Maison 7 ?", "reponse": "La Maison 1 représente le moi, l'identité personnelle et la façon dont on se présente au monde, tandis que la Maison 7 symbolise l'autre, le partenaire et la relation engagée. Cet axe fondamental montre comment l'affirmation de soi et l'ouverture à l'autre doivent trouver un équilibre." }
-    ]
+      {
+        "question": "Que représente la Maison 7 en astrologie ?",
+        "reponse": "La Maison 7, appelée aussi Descendant, représente le couple, les associations, les contrats et la manière dont on entre en relation avec les autres. Elle décrit le type de partenaire que le natif attire et la dynamique relationnelle qui s'installe dans ses engagements."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 7 ?",
+        "reponse": "La Maison 7 est naturellement associée à la Balance et à sa planète maîtresse Vénus. Cette correspondance souligne la recherche d'équilibre, d'harmonie et de justice dans les relations, ainsi que le besoin profond de partage et de complémentarité avec autrui."
+      },
+      {
+        "question": "Que signifie avoir Vénus en Maison 7 ?",
+        "reponse": "Vénus en Maison 7 est un placement très favorable pour la vie sentimentale et les associations. Le natif attire des partenaires charmants et recherche avant tout l'harmonie dans le couple, avec un talent naturel pour la diplomatie et la négociation."
+      },
+      {
+        "question": "Le Descendant décrit-il mon partenaire idéal ?",
+        "reponse": "Le Descendant indique les qualités que l'on recherche inconsciemment chez l'autre et le type de relation qui nous complète. Le signe sur la cuspide de la Maison 7 décrit les caractéristiques du partenaire attiré, qui incarne souvent ce que le natif n'exprime pas lui-même."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 1 et la Maison 7 ?",
+        "reponse": "La Maison 1 représente le moi, l'identité personnelle et la façon dont on se présente au monde, tandis que la Maison 7 symbolise l'autre, le partenaire et la relation engagée. Cet axe fondamental montre comment l'affirmation de soi et l'ouverture à l'autre doivent trouver un équilibre."
+      }
+    ],
+    "vieQuotidienne": "La Maison VII se vit dans toutes les situations où vous êtes face à quelqu'un, deux yeux dans deux yeux. C'est la conversation de couple à table, la signature d'un contrat, la négociation salariale, la rencontre déterminante d'un dîner. Au quotidien, elle se reconnaît à la qualité de votre rapport à l'autre — savez-vous tenir une position sans la défendre agressivement ? Pouvez-vous écouter sans dissoudre ce que vous pensez ? La Maison VII gouverne les associations, les mariages, les partenariats professionnels, mais aussi les « ennemis déclarés » — ceux qui s'opposent à vous ouvertement, ce qui est paradoxalement plus sain que l'ennemi caché de la XII. Une Maison VII forte attire les rencontres marquantes — souvent on « s'éveille » par l'autre. Une Maison VII tendue indique soit une difficulté à choisir un partenaire, soit une succession de relations conflictuelles dont on cherche à comprendre le schéma répétitif.",
+    "carriere": {
+      "texte": "La Maison VII est la maison des associations professionnelles, des binômes, des partenariats commerciaux. Les profils à VII forte travaillent rarement seuls — ils ont besoin d'un alter ego, d'un client direct, d'un public à séduire. C'est aussi la maison du conseil et de la médiation : ceux qui aident les autres à arbitrer leurs propres dilemmes. Vénus en VII favorise les métiers de relation client et de diplomatie. Saturne en VII demande l'apprentissage long de l'engagement : on tarde à s'associer, mais une fois fait, le lien est durable. Mars en VII attire les concurrents et les conflits ouverts — utile en avocat, douloureux ailleurs.",
+      "metiers": [
+        "Avocat / médiateur",
+        "Diplomate",
+        "Conseiller conjugal / thérapeute de couple",
+        "Coach professionnel",
+        "Commercial grands comptes",
+        "Wedding planner"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison VII activent les partenariats. Jupiter en VII est célèbre pour ses mariages, ses associations fructueuses, ses contrats avantageux. Saturne en VII teste les engagements : soit on se marie sérieusement, soit on quitte une relation qui ne tient plus. Le transit Saturne sur Descendant est connu pour ses divorces ou ses ré-engagements profonds. Uranus en VII secoue les couples — coups de foudre, ruptures soudaines, ouverture relationnelle. Neptune en VII peut idéaliser un partenaire et préparer une désillusion, ou au contraire fonder une relation spirituelle profonde. Pluton en VII fouille les dynamiques de pouvoir dans les liens — transformations majeures, parfois conflictuelles.",
+    "exercicePratique": {
+      "titre": "Le miroir de ta Maison VII",
+      "etapes": [
+        "Liste les 5 personnes les plus importantes de ta vie aujourd'hui (couple, ami proche, associé, etc.).",
+        "Pour chacune, écris 1 qualité que tu admires et 1 défaut qui te crispe.",
+        "Lis ta liste à voix haute. Reconnaiss-tu des éléments de ton propre fonctionnement ?",
+        "Pose-toi : ce que je projette sur l'autre comme défaut, qu'est-ce qu'il dit de mon propre angle mort ?",
+        "Choisis UN comportement relationnel à expérimenter pendant 2 semaines (dire non, demander de l'aide, exprimer un désir)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Nelson Mandela",
+        "naissance": "18 juillet 1918",
+        "raison": "Maître de la négociation et de la réconciliation, l'autre comme matière première politique."
+      },
+      {
+        "nom": "Hillary Clinton",
+        "naissance": "26 octobre 1947",
+        "raison": "Carrière en couple politique, partenariats stratégiques constants."
+      },
+      {
+        "nom": "Yoko Ono",
+        "naissance": "18 février 1933",
+        "raison": "Mariage emblématique, oeuvre construite dans le face-à-face artistique."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 8,
@@ -1108,12 +1500,68 @@
       "pluton": "Pluton en Maison VIII reste en tant que texte existant : transformations intenses, pouvoir d'alchimie personnelle. Le défi : maitrise des dynamiques de contrôle et d'obsession ; la maturité : renaissance totale et régénération cyclique."
     },
     "faq": [
-      { "question": "Que représente la Maison 8 en astrologie ?", "reponse": "La Maison 8 gouverne les transformations profondes, la mort symbolique et physique, les héritages, la sexualité et les ressources partagées. Elle décrit les crises qui mènent à la régénération et la capacité du natif à traverser les épreuves pour renaître transformé." },
-      { "question": "Quel signe est associé à la Maison 8 ?", "reponse": "La Maison 8 est naturellement associée au Scorpion et à ses planètes maîtresses Pluton et Mars. Cette correspondance explique l'intensité, la profondeur émotionnelle et le pouvoir de transformation radicale qui caractérisent cette maison mystérieuse." },
-      { "question": "Que signifie avoir Pluton en Maison 8 ?", "reponse": "Pluton en Maison 8 est dans son domicile naturel, ce qui amplifie considérablement le pouvoir de transformation et de régénération. Le natif possède une capacité exceptionnelle à traverser les crises et à renaître de ses cendres, avec une intuition profonde des mécanismes cachés de la vie." },
-      { "question": "La Maison 8 est-elle vraiment la maison de la mort ?", "reponse": "La Maison 8 est traditionnellement liée à la mort, mais l'astrologie moderne l'interprète surtout comme la maison des transformations profondes et des fins de cycle nécessaires. Elle symbolise tout ce qui meurt pour renaître sous une forme nouvelle, incluant les héritages, les crises et la sexualité transformatrice." },
-      { "question": "Quelle est la différence entre la Maison 2 et la Maison 8 ?", "reponse": "La Maison 2 régit les biens personnels et les revenus gagnés par soi-même, tandis que la Maison 8 concerne les ressources partagées, les héritages et l'argent provenant des autres. Cet axe oppose l'avoir individuel aux possessions communes et aux transformations financières liées aux partenariats." }
-    ]
+      {
+        "question": "Que représente la Maison 8 en astrologie ?",
+        "reponse": "La Maison 8 gouverne les transformations profondes, la mort symbolique et physique, les héritages, la sexualité et les ressources partagées. Elle décrit les crises qui mènent à la régénération et la capacité du natif à traverser les épreuves pour renaître transformé."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 8 ?",
+        "reponse": "La Maison 8 est naturellement associée au Scorpion et à ses planètes maîtresses Pluton et Mars. Cette correspondance explique l'intensité, la profondeur émotionnelle et le pouvoir de transformation radicale qui caractérisent cette maison mystérieuse."
+      },
+      {
+        "question": "Que signifie avoir Pluton en Maison 8 ?",
+        "reponse": "Pluton en Maison 8 est dans son domicile naturel, ce qui amplifie considérablement le pouvoir de transformation et de régénération. Le natif possède une capacité exceptionnelle à traverser les crises et à renaître de ses cendres, avec une intuition profonde des mécanismes cachés de la vie."
+      },
+      {
+        "question": "La Maison 8 est-elle vraiment la maison de la mort ?",
+        "reponse": "La Maison 8 est traditionnellement liée à la mort, mais l'astrologie moderne l'interprète surtout comme la maison des transformations profondes et des fins de cycle nécessaires. Elle symbolise tout ce qui meurt pour renaître sous une forme nouvelle, incluant les héritages, les crises et la sexualité transformatrice."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 2 et la Maison 8 ?",
+        "reponse": "La Maison 2 régit les biens personnels et les revenus gagnés par soi-même, tandis que la Maison 8 concerne les ressources partagées, les héritages et l'argent provenant des autres. Cet axe oppose l'avoir individuel aux possessions communes et aux transformations financières liées aux partenariats."
+      }
+    ],
+    "vieQuotidienne": "La Maison VIII est la maison des passages — au sens fort. Le sexe vrai, pas la séduction (V) ni le partenariat (VII), mais l'abandon qui transforme. Les héritages, les impôts, l'argent partagé du couple, les dettes communes, les ressources qui viennent d'ailleurs (subvention, mécénat). Au quotidien, elle se reconnaît à votre rapport à ce qui est tabou : la mort, l'argent, la sexualité, les zones d'ombre psychiques. Une Maison VIII forte indique quelqu'un qui ne fuit pas les sujets difficiles, qui sait écouter une confidence sans détourner le regard, qui s'intéresse à la psychologie profonde. Une Maison VIII tendue traduit souvent des crises répétées, des deuils mal traversés, ou un rapport conflictuel à l'argent commun. C'est la maison où l'on meurt à quelque chose pour renaître ailleurs.",
+    "carriere": {
+      "texte": "La Maison VIII attire les métiers de la transformation et du tabou : psychothérapie, soins palliatifs, gestion de patrimoine, fiscalité, criminologie, recherche, occultisme. Les profils à VIII forte ne supportent pas les métiers de surface — il leur faut un sujet qui creuse. C'est aussi la maison de l'argent des autres : investissement, gestion de fonds, héritages, assurance. Pluton ou Mars en VIII donnent une grande puissance d'investigation. Vénus en VIII attire des liens intenses, parfois compliqués financièrement. Saturne en VIII demande un long apprentissage du lâcher-prise face à la perte.",
+      "metiers": [
+        "Psychothérapeute / psychanalyste",
+        "Conseiller fiscal / patrimoine",
+        "Détective / enquêteur",
+        "Soignant en soins palliatifs",
+        "Trader / gestionnaire de fonds",
+        "Sexologue / thérapeute corporel"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison VIII sont parmi les plus profonds qui existent. Pluton en VIII (rare car lent) est un travail de plusieurs années sur les zones d'ombre, les héritages psychiques, les pouvoirs cachés. Saturne en VIII impose l'apprentissage de la perte — deuils, fins de cycle, restructurations patrimoniales. Jupiter en VIII peut amener un héritage ou un soutien financier inattendu, mais aussi une fascination pour les sujets profonds. Uranus en VIII bouleverse la sexualité, le rapport à l'intimité, ou les finances communes. Neptune en VIII brouille les héritages et peut signaler des fraudes ou des illusions financières — vigilance contractuelle.",
+    "exercicePratique": {
+      "titre": "Identifier ce qui est prêt à mourir en toi",
+      "etapes": [
+        "Liste 5 choses qui te pèsent depuis plus d'un an (relation, projet, habitude, croyance, possession).",
+        "Pour chacune, demande-toi : pourquoi je la garde encore ?",
+        "Identifie LA chose dont tu sens qu'elle est arrivée au bout de sa vie utile.",
+        "Imagine concrètement comment serait ta vie sans elle dans 6 mois. Note ce qui apparaît.",
+        "Choisis UN geste irréversible cette semaine pour amorcer la libération (mail envoyé, objet donné, conversation tenue)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Sigmund Freud",
+        "naissance": "6 mai 1856",
+        "raison": "L'inconscient, le tabou, la sexualité — toute l'œuvre est une Maison VIII active."
+      },
+      {
+        "nom": "Edgar Allan Poe",
+        "naissance": "19 janvier 1809",
+        "raison": "Mort, peur, transformation psychique — matière première de l'œuvre."
+      },
+      {
+        "nom": "Elisabeth Kübler-Ross",
+        "naissance": "8 juillet 1926",
+        "raison": "Pionnière des soins palliatifs et de l'étude des étapes du deuil."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 9,
@@ -1245,12 +1693,68 @@
       "pluton": "Pluton en Maison IX, selon le texte existant, crée une transformation radicale des croyances et une intensité spirituelle. Le défi : fanatisme dogmatique ; la maturité : accès à la vérité profonde et transmutation des convictions anciennes."
     },
     "faq": [
-      { "question": "Que représente la Maison 9 en astrologie ?", "reponse": "La Maison 9 gouverne les voyages lointains, la philosophie, la spiritualité, l'enseignement supérieur et la quête de sens. Elle décrit comment le natif élargit ses horizons, que ce soit par les études, les déplacements à l'étranger ou l'exploration de nouvelles croyances." },
-      { "question": "Quel signe est associé à la Maison 9 ?", "reponse": "La Maison 9 est naturellement associée au Sagittaire et à sa planète maîtresse Jupiter. Cette correspondance met en avant l'enthousiasme, l'optimisme, le goût de l'aventure et la soif de connaissance universelle qui animent cette maison tournée vers l'ailleurs." },
-      { "question": "Que signifie avoir Jupiter en Maison 9 ?", "reponse": "Jupiter en Maison 9 est dans son domicile naturel, ce qui favorise grandement les études supérieures, les voyages enrichissants et l'épanouissement philosophique. Le natif est souvent attiré par les cultures étrangères et possède une sagesse naturelle qui inspire son entourage." },
-      { "question": "La Maison 9 indique-t-elle si je vais voyager loin ?", "reponse": "La Maison 9 renseigne sur le rapport aux voyages lointains et à l'étranger, mais elle décrit surtout la nature de ces expériences plutôt qu'une certitude de déplacement. Des planètes bénéfiques bien aspectées en Maison 9 suggèrent des voyages heureux et formateurs, tandis que des tensions indiquent des défis à surmonter à l'étranger." },
-      { "question": "Quelle est la différence entre la Maison 3 et la Maison 9 ?", "reponse": "La Maison 3 concerne les déplacements courts, la communication quotidienne et l'apprentissage élémentaire, tandis que la Maison 9 régit les longs voyages, la pensée philosophique et l'enseignement supérieur. Cet axe oppose le savoir pratique et local à la quête de vérité universelle et d'horizons lointains." }
-    ]
+      {
+        "question": "Que représente la Maison 9 en astrologie ?",
+        "reponse": "La Maison 9 gouverne les voyages lointains, la philosophie, la spiritualité, l'enseignement supérieur et la quête de sens. Elle décrit comment le natif élargit ses horizons, que ce soit par les études, les déplacements à l'étranger ou l'exploration de nouvelles croyances."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 9 ?",
+        "reponse": "La Maison 9 est naturellement associée au Sagittaire et à sa planète maîtresse Jupiter. Cette correspondance met en avant l'enthousiasme, l'optimisme, le goût de l'aventure et la soif de connaissance universelle qui animent cette maison tournée vers l'ailleurs."
+      },
+      {
+        "question": "Que signifie avoir Jupiter en Maison 9 ?",
+        "reponse": "Jupiter en Maison 9 est dans son domicile naturel, ce qui favorise grandement les études supérieures, les voyages enrichissants et l'épanouissement philosophique. Le natif est souvent attiré par les cultures étrangères et possède une sagesse naturelle qui inspire son entourage."
+      },
+      {
+        "question": "La Maison 9 indique-t-elle si je vais voyager loin ?",
+        "reponse": "La Maison 9 renseigne sur le rapport aux voyages lointains et à l'étranger, mais elle décrit surtout la nature de ces expériences plutôt qu'une certitude de déplacement. Des planètes bénéfiques bien aspectées en Maison 9 suggèrent des voyages heureux et formateurs, tandis que des tensions indiquent des défis à surmonter à l'étranger."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 3 et la Maison 9 ?",
+        "reponse": "La Maison 3 concerne les déplacements courts, la communication quotidienne et l'apprentissage élémentaire, tandis que la Maison 9 régit les longs voyages, la pensée philosophique et l'enseignement supérieur. Cet axe oppose le savoir pratique et local à la quête de vérité universelle et d'horizons lointains."
+      }
+    ],
+    "vieQuotidienne": "La Maison IX est la maison de l'élargissement — voyages au long cours, études supérieures, traités de philosophie, religions et spiritualité, étranger. Au quotidien, elle se reconnaît au goût pour ce qui dépasse votre cercle immédiat : documentaires sur des cultures lointaines, livres de fond, débats d'idées, langues étrangères. Elle gouverne aussi le sens que vous donnez à votre vie — pourquoi vous vous levez le matin au-delà des contingences. Une Maison IX vivante se reconnaît à une curiosité intellectuelle persistante après 30 ans, et souvent à une dimension de vie internationale (voyages, expat, échanges culturels). Une Maison IX éteinte donne une vie centrée sur le proche, le familier, sans grande quête de sens — ce qui peut être confortable mais parfois étouffant à long terme.",
+    "carriere": {
+      "texte": "Professionnellement, la Maison IX favorise tous les métiers qui demandent une vision large : enseignement supérieur, recherche, édition, droit, religion, diplomatie, journalisme international, voyage. Les profils à IX forte ont besoin d'un horizon — ils s'éteignent dans les boîtes provinciales. Jupiter en IX est en domicile et signe les enseignants charismatiques, les éditeurs prospères, les voyageurs à succès. Saturne en IX impose un long parcours d'études ou des obstacles à l'étranger qui se transforment en sagesse durable. Mars en IX donne un goût pour les conflits idéologiques et les croisades intellectuelles.",
+      "metiers": [
+        "Professeur d'université",
+        "Avocat / juriste",
+        "Éditeur / agent littéraire",
+        "Journaliste international",
+        "Guide de voyage / formateur en langues",
+        "Théologien / pasteur"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison IX ouvrent l'horizon. Jupiter en IX est l'un des plus favorables — voyages, publications, reconnaissance académique, expansion spirituelle. Saturne en IX peut bloquer les voyages prévus mais consolider une expertise sérieuse, et signe souvent un doctorat tardif ou une reconnaissance institutionnelle. Uranus en IX déclenche des départs improvisés à l'étranger, des conversions philosophiques, des changements de cadre académique. Neptune en IX peut éveiller une vraie quête spirituelle ou au contraire faire perdre pied dans des dogmes. Pluton en IX transforme en profondeur les croyances et la vision du monde sur des années.",
+    "exercicePratique": {
+      "titre": "Définir ton horizon des 5 prochaines années",
+      "etapes": [
+        "Écris en haut d'une page : « Si j'avais 5 ans de plus dans 5 ans, dans quel pays / quelle ville / quel métier je voudrais être ? »",
+        "Réponds sans filtrer, même si c'est irréaliste.",
+        "Pour chacune des 3 lignes (pays / ville / métier), écris UN obstacle réel.",
+        "Pour chaque obstacle, écris UNE action minuscule réalisable cette semaine.",
+        "Engage-toi sur UNE de ces actions et programme-la dans l'agenda — sans la rendre dépendante d'autre chose."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Alexander von Humboldt",
+        "naissance": "14 septembre 1769",
+        "raison": "Voyageur naturaliste, vision globale du monde — Maison IX au sommet."
+      },
+      {
+        "nom": "Simone de Beauvoir",
+        "naissance": "9 janvier 1908",
+        "raison": "Philosophe-voyageuse, vision universelle, mariage du concept et de l'expérience."
+      },
+      {
+        "nom": "Albert Schweitzer",
+        "naissance": "14 janvier 1875",
+        "raison": "Théologien-médecin-musicien, vie consacrée au sens et à l'altérité."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 10,
@@ -1382,12 +1886,68 @@
       "pluton": "Pluton en Maison X, selon le texte existant, apporte pouvoir et transformations professionnelles intenses. Le défi : exercice coercitif du pouvoir ; la maturité : influence éthique et leadership authentique."
     },
     "faq": [
-      { "question": "Que représente la Maison 10 en astrologie ?", "reponse": "La Maison 10, appelée aussi Milieu du Ciel, représente la carrière, la vocation, la réputation sociale et le statut public. Elle décrit l'ambition du natif, la direction professionnelle vers laquelle il tend et l'image qu'il projette dans la société." },
-      { "question": "Quel signe est associé à la Maison 10 ?", "reponse": "La Maison 10 est naturellement associée au Capricorne et à sa planète maîtresse Saturne. Cette correspondance souligne la discipline, la persévérance, le sens des responsabilités et la construction patiente d'une carrière solide qui caractérisent cette maison." },
-      { "question": "Que signifie avoir Saturne en Maison 10 ?", "reponse": "Saturne en Maison 10 est dans son domicile naturel, indiquant une carrière bâtie lentement mais solidement grâce à l'effort et la discipline. Le natif atteint souvent des positions d'autorité avec le temps, et ses réussites professionnelles sont durables car fondées sur le mérite et la persévérance." },
-      { "question": "Le Milieu du Ciel détermine-t-il mon métier ?", "reponse": "Le Milieu du Ciel indique la direction vocationnelle et le type de reconnaissance sociale recherchée, mais il ne désigne pas un métier précis. Le signe sur la cuspide et les planètes associées révèlent les qualités à exprimer professionnellement, laissant au natif le choix du domaine concret." },
-      { "question": "Quelle est la différence entre la Maison 4 et la Maison 10 ?", "reponse": "La Maison 4 représente la vie privée, le foyer et les racines familiales, tandis que la Maison 10 symbolise la vie publique, la carrière et la réputation. Cet axe vertical du thème oppose les fondations intimes sur lesquelles on s'appuie à l'accomplissement visible que l'on construit dans le monde." }
-    ]
+      {
+        "question": "Que représente la Maison 10 en astrologie ?",
+        "reponse": "La Maison 10, appelée aussi Milieu du Ciel, représente la carrière, la vocation, la réputation sociale et le statut public. Elle décrit l'ambition du natif, la direction professionnelle vers laquelle il tend et l'image qu'il projette dans la société."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 10 ?",
+        "reponse": "La Maison 10 est naturellement associée au Capricorne et à sa planète maîtresse Saturne. Cette correspondance souligne la discipline, la persévérance, le sens des responsabilités et la construction patiente d'une carrière solide qui caractérisent cette maison."
+      },
+      {
+        "question": "Que signifie avoir Saturne en Maison 10 ?",
+        "reponse": "Saturne en Maison 10 est dans son domicile naturel, indiquant une carrière bâtie lentement mais solidement grâce à l'effort et la discipline. Le natif atteint souvent des positions d'autorité avec le temps, et ses réussites professionnelles sont durables car fondées sur le mérite et la persévérance."
+      },
+      {
+        "question": "Le Milieu du Ciel détermine-t-il mon métier ?",
+        "reponse": "Le Milieu du Ciel indique la direction vocationnelle et le type de reconnaissance sociale recherchée, mais il ne désigne pas un métier précis. Le signe sur la cuspide et les planètes associées révèlent les qualités à exprimer professionnellement, laissant au natif le choix du domaine concret."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 4 et la Maison 10 ?",
+        "reponse": "La Maison 4 représente la vie privée, le foyer et les racines familiales, tandis que la Maison 10 symbolise la vie publique, la carrière et la réputation. Cet axe vertical du thème oppose les fondations intimes sur lesquelles on s'appuie à l'accomplissement visible que l'on construit dans le monde."
+      }
+    ],
+    "vieQuotidienne": "La Maison X est la maison de la direction prise dans la vie sociale — pas le boulot alimentaire (M VI) mais l'œuvre, ce pour quoi on se souviendra de vous. Au quotidien, elle se reconnaît à la manière dont vous parlez de votre travail à un inconnu : avec fierté, avec gêne, avec ennui ? Elle gouverne la réputation, l'image publique, le rapport à l'autorité (notamment maternelle dans la tradition occidentale), et l'ambition profonde — celle qui ne dit pas son nom mais qui vous fait choisir tel poste plutôt que tel autre. Une Maison X forte signe quelqu'un qui sait où il va, qui assume sa visibilité, qui construit sur la durée. Une Maison X tendue traduit souvent des changements de cap répétés, ou une difficulté à se positionner socialement (« je ne sais pas trop ce que je fais dans la vie »).",
+    "carriere": {
+      "texte": "La Maison X est LA maison de la vocation par excellence — celle qu'on cite quand on demande à quelqu'un « tu fais quoi dans la vie ? ». Les profils à X forte ont besoin d'un titre, d'une reconnaissance, d'un poste visible. Saturne en X est classique des grandes carrières construites lentement — politique, droit, magistrature, grande entreprise. Jupiter en X favorise les positions de leadership confortable, les hautes fonctions publiques, la notoriété. Le Soleil en X donne le goût des sommets et de la lumière sociale. Mars en X amène une compétitivité forte et des combats professionnels. Vénus en X favorise les métiers où charme et image comptent (cinéma, mode, communication).",
+      "metiers": [
+        "Politique / haut fonctionnaire",
+        "PDG / dirigeant",
+        "Magistrat / haut juriste",
+        "Architecte renommé",
+        "Médecin spécialiste reconnu",
+        "Chef étoilé"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison X marquent les grandes étapes de carrière. Jupiter en X est souvent associé à une promotion, une distinction, une expansion de visibilité — période propice à candidater haut. Saturne en X est le transit emblématique du « couronnement » : on récolte ce qu'on a semé pendant 7 à 14 ans. C'est aussi le transit des chefs d'État, des PDG nommés, des grandes consécrations. Uranus en X provoque des changements de carrière soudains, parfois des démissions surprises. Neptune en X brouille la trajectoire, peut amener une carrière artistique ou spirituelle, ou au contraire une perte de cap. Pluton en X reconfigure totalement le rapport au pouvoir et à la responsabilité publique.",
+    "exercicePratique": {
+      "titre": "Clarifier ton cap professionnel",
+      "etapes": [
+        "Écris ta nécro idéale en 3 lignes : « Untel restera comme la personne qui... »",
+        "Compare ce texte à ton activité actuelle. Quel est l'écart ?",
+        "Liste 3 décisions concrètes qui rapprocheraient ta vie de cette nécro.",
+        "Choisis-en UNE réalisable dans le mois (formation, candidature, prise de parole publique).",
+        "Programme-la avec une date butoir non négociable. Tiens-la."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Margaret Thatcher",
+        "naissance": "13 octobre 1925",
+        "raison": "Ascension politique fulgurante, image publique implacable et durable."
+      },
+      {
+        "nom": "Steve Jobs",
+        "naissance": "24 février 1955",
+        "raison": "Construction d'une stature mondiale par le travail visible et exigeant."
+      },
+      {
+        "nom": "Charles de Gaulle",
+        "naissance": "22 novembre 1890",
+        "raison": "Incarnation de l'autorité légitime, statut symbolique au-delà du poste."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 11,
@@ -1519,12 +2079,68 @@
       "pluton": "Pluton en Maison XI, selon le texte existant, crée du pouvoir social et des alliances intenses transformatrices. Le défi : jeux de pouvoir et domination de groupe ; la maturité : influence éthique et leadership catalyseur."
     },
     "faq": [
-      { "question": "Que représente la Maison 11 en astrologie ?", "reponse": "La Maison 11 gouverne les amitiés, les projets collectifs, les espoirs, les idéaux et les groupes auxquels on appartient. Elle décrit le type de réseau social que le natif construit, ses aspirations pour l'avenir et sa capacité à contribuer au bien commun." },
-      { "question": "Quel signe est associé à la Maison 11 ?", "reponse": "La Maison 11 est naturellement associée au Verseau et à ses planètes maîtresses Uranus et Saturne. Cette correspondance met en lumière l'originalité, l'esprit d'innovation, l'engagement humanitaire et le besoin de liberté au sein du collectif." },
-      { "question": "Que signifie avoir Uranus en Maison 11 ?", "reponse": "Uranus en Maison 11 est dans son domicile naturel, ce qui renforce l'originalité dans les amitiés et l'attrait pour les groupes avant-gardistes. Le natif attire des amis atypiques et s'investit dans des causes progressistes, avec une vision novatrice de la société." },
-      { "question": "La Maison 11 montre-t-elle le type d'amis que j'attire ?", "reponse": "La Maison 11 décrit effectivement le type d'amitiés et de relations de groupe que le natif tisse naturellement. Le signe sur la cuspide et les planètes présentes indiquent les qualités recherchées chez les amis et la dynamique qui s'installe dans les cercles sociaux et associatifs." },
-      { "question": "Quelle est la différence entre la Maison 5 et la Maison 11 ?", "reponse": "La Maison 5 concerne l'expression créative personnelle, les amours et les plaisirs individuels, tandis que la Maison 11 régit les projets de groupe, les amitiés et les idéaux collectifs. Cet axe oppose le rayonnement personnel et le désir de reconnaissance à l'engagement désintéressé dans une cause qui dépasse l'individu." }
-    ]
+      {
+        "question": "Que représente la Maison 11 en astrologie ?",
+        "reponse": "La Maison 11 gouverne les amitiés, les projets collectifs, les espoirs, les idéaux et les groupes auxquels on appartient. Elle décrit le type de réseau social que le natif construit, ses aspirations pour l'avenir et sa capacité à contribuer au bien commun."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 11 ?",
+        "reponse": "La Maison 11 est naturellement associée au Verseau et à ses planètes maîtresses Uranus et Saturne. Cette correspondance met en lumière l'originalité, l'esprit d'innovation, l'engagement humanitaire et le besoin de liberté au sein du collectif."
+      },
+      {
+        "question": "Que signifie avoir Uranus en Maison 11 ?",
+        "reponse": "Uranus en Maison 11 est dans son domicile naturel, ce qui renforce l'originalité dans les amitiés et l'attrait pour les groupes avant-gardistes. Le natif attire des amis atypiques et s'investit dans des causes progressistes, avec une vision novatrice de la société."
+      },
+      {
+        "question": "La Maison 11 montre-t-elle le type d'amis que j'attire ?",
+        "reponse": "La Maison 11 décrit effectivement le type d'amitiés et de relations de groupe que le natif tisse naturellement. Le signe sur la cuspide et les planètes présentes indiquent les qualités recherchées chez les amis et la dynamique qui s'installe dans les cercles sociaux et associatifs."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 5 et la Maison 11 ?",
+        "reponse": "La Maison 5 concerne l'expression créative personnelle, les amours et les plaisirs individuels, tandis que la Maison 11 régit les projets de groupe, les amitiés et les idéaux collectifs. Cet axe oppose le rayonnement personnel et le désir de reconnaissance à l'engagement désintéressé dans une cause qui dépasse l'individu."
+      }
+    ],
+    "vieQuotidienne": "La Maison XI est la maison des amitiés choisies, des réseaux, des projets collectifs, des grandes causes auxquelles on adhère. Au quotidien, elle se reconnaît à votre rapport au groupe — êtes-vous celui qui rassemble, celui qui suit, celui qui critique depuis le bord ? Elle gouverne aussi les aspirations à long terme : ce que vous voulez voir advenir dans 10 ans, les idéaux qui vous portent. Une Maison XI vivante signe quelqu'un de bien entouré, qui sait construire des cercles utiles, qui appartient à plusieurs tribus (pro, perso, militante, créative). Une Maison XI vide n'empêche pas d'avoir des amis, mais ils sont rarement le centre de gravité de la vie. Une Maison XI tendue indique soit des amitiés répétitivement décevantes, soit une difficulté à se reconnaître dans un collectif.",
+    "carriere": {
+      "texte": "Côté pro, la Maison XI favorise les métiers de réseau et les causes collectives : ONG, syndicats, fondations, lobby, recherche en équipe, start-ups collaboratives. Les profils à XI forte ont besoin d'un projet « plus grand que soi » pour se mobiliser. C'est aussi la maison des associations professionnelles, des ordres, des fédérations. Uranus en XI est en domicile (signe-maître Verseau) et signe les visionnaires, les pionniers de mouvements collectifs. Saturne en XI structure les groupes — utile en gestion d'équipe ou en politique syndicale. Jupiter en XI donne souvent un cercle d'amis influents et puissants.",
+      "metiers": [
+        "Responsable d'ONG",
+        "Lobbyiste / consultant politique",
+        "Sociologue / chercheur",
+        "Animateur de communauté en ligne",
+        "Fondateur de fondation / mouvement",
+        "Syndicaliste"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison XI reconfigurent le cercle social. Jupiter en XI agrandit le réseau, ouvre de nouvelles amitiés, peut amener un mentor important. Saturne en XI fait le tri impitoyable : on perd des amis qui n'étaient pas vrais, on s'investit sérieusement dans un groupe sélectionné. Uranus en XI radicalise les engagements — on rejoint une cause forte, ou on quitte un milieu qui ne convient plus. Neptune en XI dilue les frontières du groupe et peut amener à se fondre dans une utopie (belle ou trompeuse). Pluton en XI transforme totalement le rapport au pouvoir collectif et aux idéaux.",
+    "exercicePratique": {
+      "titre": "Audit de ton cercle",
+      "etapes": [
+        "Liste les 10 personnes avec qui tu as échangé plus de 5 messages le mois dernier.",
+        "Pour chacune, note : « me grandit », « me stabilise », « me draine », « inertie ».",
+        "Compte les « me draine » et les « inertie » — voilà tes fuites énergétiques.",
+        "Identifie UNE relation à recadrer (moins fréquente, plus claire, ou stoppée).",
+        "Identifie UNE personne à RAPPROCHER (celle que tu ne vois pas assez). Programme un rendez-vous cette semaine."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Martin Luther King",
+        "naissance": "15 janvier 1929",
+        "raison": "Mouvement collectif, idéal partagé, cercle d'alliés stratégiques."
+      },
+      {
+        "nom": "Greta Thunberg",
+        "naissance": "3 janvier 2003",
+        "raison": "Catalyseur d'un mouvement générationnel mondial, Maison XI hyper-activée."
+      },
+      {
+        "nom": "Voltaire (à nouveau)",
+        "naissance": "21 novembre 1694",
+        "raison": "Réseau européen des Lumières, correspondance comme arme collective."
+      }
+    ],
+    "updated": "2026-05-31"
   },
   {
     "numero": 12,
@@ -1656,11 +2272,67 @@
       "pluton": "Pluton en Maison XII, selon le texte existant, porte transformations profondes et guérison radicale possible. Le défi : peurs ancestrales et auto-sabotage inconscient ; la maturité : renaissance intérieure totale et transmutation de l'âme."
     },
     "faq": [
-      { "question": "Que représente la Maison 12 en astrologie ?", "reponse": "La Maison 12 gouverne l'inconscient, la spiritualité, les épreuves cachées, l'isolement volontaire et les secrets. Elle décrit les zones d'ombre du natif, ses peurs profondes, mais aussi sa capacité de transcendance, de compassion universelle et de connexion au divin." },
-      { "question": "Quel signe est associé à la Maison 12 ?", "reponse": "La Maison 12 est naturellement associée aux Poissons et à leurs planètes maîtresses Neptune et Jupiter. Cette correspondance souligne la dimension mystique, intuitive et sacrificielle de cette maison tournée vers l'invisible et la dissolution des frontières de l'ego." },
-      { "question": "Que signifie avoir Neptune en Maison 12 ?", "reponse": "Neptune en Maison 12 est dans son domicile naturel, ce qui amplifie considérablement l'intuition, la sensibilité psychique et la vie intérieure. Le natif possède un accès privilégié à l'inconscient collectif, avec un don pour la méditation, l'art inspiré et la guérison spirituelle." },
-      { "question": "La Maison 12 est-elle une maison maléfique ?", "reponse": "La tradition astrologique considérait la Maison 12 comme difficile car liée aux épreuves, à l'enfermement et aux ennemis cachés. L'astrologie moderne la réévalue comme la maison de la vie intérieure et de la transcendance, où les souffrances peuvent devenir sources de sagesse et de compassion profonde." },
-      { "question": "Quelle est la différence entre la Maison 6 et la Maison 12 ?", "reponse": "La Maison 6 concerne le service concret, la santé physique et l'organisation du quotidien, tandis que la Maison 12 gouverne le lâcher-prise, la santé psychique et la vie spirituelle. Cet axe oppose l'action pratique et mesurable au travail intérieur invisible et à l'abandon nécessaire pour guérir en profondeur." }
-    ]
+      {
+        "question": "Que représente la Maison 12 en astrologie ?",
+        "reponse": "La Maison 12 gouverne l'inconscient, la spiritualité, les épreuves cachées, l'isolement volontaire et les secrets. Elle décrit les zones d'ombre du natif, ses peurs profondes, mais aussi sa capacité de transcendance, de compassion universelle et de connexion au divin."
+      },
+      {
+        "question": "Quel signe est associé à la Maison 12 ?",
+        "reponse": "La Maison 12 est naturellement associée aux Poissons et à leurs planètes maîtresses Neptune et Jupiter. Cette correspondance souligne la dimension mystique, intuitive et sacrificielle de cette maison tournée vers l'invisible et la dissolution des frontières de l'ego."
+      },
+      {
+        "question": "Que signifie avoir Neptune en Maison 12 ?",
+        "reponse": "Neptune en Maison 12 est dans son domicile naturel, ce qui amplifie considérablement l'intuition, la sensibilité psychique et la vie intérieure. Le natif possède un accès privilégié à l'inconscient collectif, avec un don pour la méditation, l'art inspiré et la guérison spirituelle."
+      },
+      {
+        "question": "La Maison 12 est-elle une maison maléfique ?",
+        "reponse": "La tradition astrologique considérait la Maison 12 comme difficile car liée aux épreuves, à l'enfermement et aux ennemis cachés. L'astrologie moderne la réévalue comme la maison de la vie intérieure et de la transcendance, où les souffrances peuvent devenir sources de sagesse et de compassion profonde."
+      },
+      {
+        "question": "Quelle est la différence entre la Maison 6 et la Maison 12 ?",
+        "reponse": "La Maison 6 concerne le service concret, la santé physique et l'organisation du quotidien, tandis que la Maison 12 gouverne le lâcher-prise, la santé psychique et la vie spirituelle. Cet axe oppose l'action pratique et mesurable au travail intérieur invisible et à l'abandon nécessaire pour guérir en profondeur."
+      }
+    ],
+    "vieQuotidienne": "La Maison XII est la maison du retrait, du silence et de l'invisible. C'est l'aube avant le réveil de la maisonnée, la marche solitaire en forêt, la méditation, le rêve dont on ne se souvient qu'à demi, la chambre d'hôpital, le monastère. Au quotidien, elle se reconnaît à votre besoin (ou non) de solitude régénératrice — êtes-vous quelqu'un qui se nourrit du contact ou qui se vide ? Elle gouverne aussi ce que vous ne voyez pas chez vous : angles morts, peurs irrationnelles, auto-sabotages, addictions. C'est la maison des « ennemis cachés » — pas forcément des personnes mais des forces internes qui agissent à votre insu. Une Maison XII vivante mais accueillie signe une vie spirituelle réelle, un rapport sain à l'introspection, une capacité à se retirer pour mieux revenir.",
+    "carriere": {
+      "texte": "Côté pro, la Maison XII attire les métiers de l'invisible et du soin profond : hôpital, prison, monastère, recherche solitaire, écriture, métiers spirituels, psychothérapie en cabinet. Les profils à XII forte supportent mal les open spaces et les emplois trop exposés. Ils ont besoin d'un sas, d'un lieu de retrait pour produire. Neptune en XII est en domicile et signe les grands artistes, mystiques, intuitifs. Saturne en XII demande l'apprentissage de la solitude féconde — beaucoup de scientifiques de haut vol l'ont. Mars en XII peut être un piège (agressivité refoulée, accidents) mais aussi une force discrète en arts martiaux ou en chirurgie.",
+      "metiers": [
+        "Moine / contemplatif",
+        "Psychothérapeute en cabinet",
+        "Écrivain / poète",
+        "Chirurgien",
+        "Travailleur en milieu carcéral",
+        "Méditant professionnel / coach de pleine conscience"
+      ]
+    },
+    "transitsNotables": "Les transits en Maison XII préparent le cycle suivant. Jupiter en XII est une période de bénédiction discrète — guérison intérieure, retraite spirituelle, soutien invisible. Saturne en XII (juste avant Saturne sur l'Ascendant) est une période de fin de cycle, de bilan profond, parfois de difficultés discrètes mais structurantes. Uranus en XII libère brutalement des contenus refoulés — éveils, prises de conscience, mais aussi turbulences psychiques. Neptune en XII intensifie le rêve, l'intuition, parfois la confusion. Pluton en XII est un transit de transformation psychique fondamentale qui prépare une renaissance majeure à l'Ascendant. C'est le « noyau de l'oignon ». Périodes de retrait quasi obligées.",
+    "exercicePratique": {
+      "titre": "Faire de la place à ton invisible",
+      "etapes": [
+        "Programme 30 minutes seul, sans écran, sans interaction, dans la semaine.",
+        "Pendant ces 30 minutes, ne fais rien : assieds-toi, marche lentement, regarde par la fenêtre.",
+        "Note après coup les 3 pensées, images ou sensations qui ont émergé spontanément.",
+        "Identifie SI une de ces pensées concerne un sujet que tu évites depuis longtemps.",
+        "Choisis UN micro-acte cette semaine pour reconnaître ce sujet (en parler à un thérapeute, l'écrire, accepter qu'il existe)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Carl Gustav Jung",
+        "naissance": "26 juillet 1875",
+        "raison": "Tour de Bollingen, exploration de l'inconscient — Maison XII comme territoire d'œuvre."
+      },
+      {
+        "nom": "Mère Teresa",
+        "naissance": "26 août 1910",
+        "raison": "Service aux invisibles de la société, vocation au retrait spirituel."
+      },
+      {
+        "nom": "Virginia Woolf",
+        "naissance": "25 janvier 1882",
+        "raison": "Écriture intérieure, exploration des couches profondes de la conscience."
+      }
+    ],
+    "updated": "2026-05-31"
   }
 ]
