@@ -114,7 +114,7 @@ export const TAG_PAGES: Record<
       "Le thème astral est la photographie du ciel à l’instant exact de votre naissance : position des planètes, signes et maisons. Retrouvez ici nos articles pour apprendre à le lire pas à pas et en tirer une interprétation claire.",
   },
   "psychologie-astrologique": {
-    title: "Psychologie astrologique : profils et personnalité",
+    title: "Psychologie astrologique : profils & caractère",
     description:
       "Articles de psychologie astrologique : portraits planétaires, tempéraments et mécanismes intérieurs lus à travers le thème natal.",
     h1: "Psychologie astrologique",

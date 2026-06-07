@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     absolute: "Cours d'astrologie : signes, planètes, maisons — Astro Cours",
   },
   description:
-    "Cours d'astrologie premium : 12 signes, planètes, maisons, aspects et transits. Une méthode claire, moderne et structurée, avec repères et exemples concrets.",
+    "Cours d'astrologie premium : 12 signes, planètes, maisons, aspects et transits. Méthode claire et structurée, repères et exemples concrets.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: `Cours d'astrologie premium — ${SITE_NAME}`,
