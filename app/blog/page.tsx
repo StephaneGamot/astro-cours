@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllPosts, tagToSlug } from "@/lib/blog";
+import { permanentRedirect } from "next/navigation";
+import { getAllPosts, tagToSlug, slugToTag } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { SITE_NAME, SITE_URL, PUBLISHER_ORG, absoluteUrl, buildTitle } from "@/lib/seo";
 
@@ -16,27 +17,13 @@ const DESCRIPTION =
  *    Solution : noindex + canonical → /blog quand un paramètre `tag` est présent.
  *    À terme : créer de vraies pages /blog/tag/[slug] avec H1 et intro propres.
  */
-export async function generateMetadata({
-  searchParams,
-}: {
-  searchParams?: Promise<{ tag?: string }>;
-}): Promise<Metadata> {
-  const sp = (await searchParams) ?? {};
-  const hasTag = Boolean(sp.tag?.trim());
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: TITLE,
     description: DESCRIPTION,
-    // canonical TOUJOURS vers /blog (jamais vers /blog?tag=...) pour
-    // consolider la valeur SEO sur l'URL canonique unique.
+    // Les anciennes facettes /blog?tag= sont redirigées (308) dans le composant,
+    // donc cette métadonnée ne concerne que la page /blog canonique.
     alternates: { canonical: absoluteUrl(CANONICAL) },
-    robots: hasTag
-      ? {
-          index: false,
-          follow: true,
-          googleBot: { index: false, follow: true },
-        }
-      : undefined,
     openGraph: {
       title: buildTitle(TITLE),
       description: DESCRIPTION,
@@ -94,18 +81,21 @@ export default async function BlogPage({
 }) {
   const resolvedSearchParams = (await searchParams) ?? {};
 
+  // ✅ Anciennes facettes /blog?tag=xxx → redirection 308 permanente.
+  //    - tag connu  → vers la vraie page /blog/tag/[slug]
+  //    - tag fusionné/inconnu → vers /blog
+  //    Élimine les URLs ?tag= (doublons noindex, %20/accents) du crawl.
+  const rawTag = resolvedSearchParams.tag?.trim();
+  if (rawTag) {
+    const slug = tagToSlug(rawTag);
+    permanentRedirect(slugToTag(slug) ? `/blog/tag/${slug}` : "/blog");
+  }
+
   const posts = getAllPosts();
   const tags = uniqTags(posts);
 
-  // Le paramètre d'URL est un slug (ex. "maison-viii"). On retrouve le tag
-  // lisible correspondant pour l'affichage et le filtrage.
-  const selectedSlug = resolvedSearchParams.tag?.trim() || "";
-  const selectedTag = selectedSlug
-    ? tags.find((t) => tagToSlug(t) === selectedSlug) || ""
-    : "";
-  const filtered = selectedTag
-    ? posts.filter((p) => (p.meta.tags ?? []).includes(selectedTag))
-    : posts;
+  const selectedTag = "";
+  const filtered = posts;
 
   return (
     <main id="main-content" className="mx-auto max-w-6xl px-4 py-10 space-y-10">

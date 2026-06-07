@@ -19,12 +19,12 @@ import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from 
 type Sign = (typeof signes)[number];
 
 export const metadata: Metadata = {
-  title: "Maîtrises, exaltations, exils & chutes — Les dignités",
+  title: "Maîtrises, exils & dignités planétaires",
   description:
     "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
   alternates: { canonical: absoluteUrl("/maitrises") },
   openGraph: {
-    title: "Maîtrises, exaltations, exils & chutes — Les dignités",
+    title: "Maîtrises, exils & dignités planétaires",
     description:
       "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
     url: absoluteUrl("/maitrises"),
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maîtrises, exaltations, exils & chutes — Les dignités",
+    title: "Maîtrises, exils & dignités planétaires",
     description:
       "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs. Découvrez notre cours !",
     images: [absoluteUrl("/og/cover.jpg")],
@@ -333,7 +333,7 @@ function SectionTitle({
 const ARTICLE_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Maîtrises, exaltations, exils & chutes — Les dignités",
+  headline: "Maîtrises, exils & dignités planétaires",
   description: "Dignités essentielles signe par signe : planète maîtresse, exaltation, exil et chute. Logique astrologique et repères clairs.",
   inLanguage: "fr",
   mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/maitrises` },

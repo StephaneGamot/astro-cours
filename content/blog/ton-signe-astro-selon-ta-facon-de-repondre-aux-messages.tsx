@@ -11,6 +11,7 @@ const COVER_URL = `${SITE_URL}/images/blog/ton-signe-astro-selon-ta-facon-de-rep
 export const meta = {
   slug: ARTICLE_SLUG,
   title: "Ton signe astro selon ta façon de répondre aux messages",
+  seoTitle: "Ton signe selon ta façon de répondre aux SMS — Astro Cours",
   description:
     "Vu, pas vu, vocal de 4 minutes ou réponse en un mot ? Ton signe astro selon ta façon de répondre aux SMS et DM. Léger, drôle, étonnamment juste.",
   date: "2026-05-19",

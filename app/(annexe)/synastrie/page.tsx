@@ -12,12 +12,12 @@ type SynData = typeof data;
 const COURSE = data as SynData;
 
 export const metadata: Metadata = {
-  title: "Synastrie — Compatibilité & dynamique relationnelle",
+  title: "Synastrie : compatibilité relationnelle",
   description:
     "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
   alternates: { canonical: absoluteUrl("/synastrie") },
   openGraph: {
-    title: "Synastrie — Compatibilité & dynamique relationnelle",
+    title: "Synastrie : compatibilité relationnelle",
     description:
       "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
     url: absoluteUrl("/synastrie"),
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Synastrie — Compatibilité & dynamique relationnelle",
+    title: "Synastrie : compatibilité relationnelle",
     description:
       "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges. Découvrez notre cours complet !",
     images: [absoluteUrl("/og/cover.jpg")],
@@ -91,7 +91,7 @@ function H2({ id, label }: { id: string; label: string }) {
 const ARTICLE_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Synastrie — Compatibilité & dynamique relationnelle",
+  headline: "Synastrie : compatibilité relationnelle",
   description: "Synastrie en astrologie : méthode, aspects entre planètes, axes relationnels, maisons activées et drapeaux rouges.",
   inLanguage: "fr",
   mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/synastrie` },

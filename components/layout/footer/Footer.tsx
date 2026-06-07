@@ -2,7 +2,7 @@ import Link from "next/link";
 import maisons from "@/data/maisons.details.json";
 import planetes from "@/data/planetes.details.json";
 import signes from "@/data/signes.details.json";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, TAG_PAGES } from "@/lib/blog";
 import type { ComponentType, SVGProps } from "react";
 
 /* ────────────────────────────────────────────────────────────────
@@ -231,6 +231,13 @@ const ANNEXES: FooterItem[] = [
 
  
 ];
+
+/** Tags populaires → pages de tags indexables (TAG_PAGES). Maillage interne :
+ *  présentes dans le footer = profondeur 1 + inlink sur chaque page du site,
+ *  qui rediffusent l'équité de lien vers les articles qu'elles listent. */
+const POPULAR_TAGS: FooterItem[] = Object.entries(TAG_PAGES).map(
+  ([slug, cfg]) => ({ name: cfg.h1, href: `/blog/tag/${slug}` }),
+);
 
 const LEGAL: FooterItem[] = [
   { name: "Mentions légales", href: "/mentions-legales" },
@@ -524,6 +531,32 @@ export default function Footer() {
           <DesktopCol sectionKey="annexes"  items={ANNEXES} />
           <DesktopCol sectionKey="blog"     items={posts} max={5} />
         </div>
+
+        {/* ────────── Tags populaires (maillage interne) ────────── */}
+        <nav aria-label="Tags populaires" className="mt-12 border-t border-white/[.05] pt-8">
+          <h3 className="mb-4 flex items-center gap-2.5 text-xs font-bold uppercase tracking-[.16em] text-rose-400">
+            <IconPen className="size-4" aria-hidden="true" />
+            Tags populaires
+          </h3>
+          <ul role="list" className="flex flex-wrap gap-2.5">
+            {POPULAR_TAGS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className={[
+                    "inline-flex rounded-full border border-white/[.08] bg-white/[.03]",
+                    "px-3.5 py-1.5 text-sm text-slate-300 underline-offset-4",
+                    "transition-colors duration-200 hover:border-rose-400/30 hover:bg-rose-400/10 hover:text-rose-300",
+                    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
+                    "focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]",
+                  ].join(" ")}
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* ────────── Legal bar ────────── */}
         <div className="mt-12 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">

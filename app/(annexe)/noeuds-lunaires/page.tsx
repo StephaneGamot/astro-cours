@@ -4,7 +4,7 @@ import Image from "next/image";
 import TeteDuDragon from "./../../../public/images/noeuds-lunaires.webp";
 import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from "@/lib/seo";
 
-const NOEUDS_TITLE = "Noeuds lunaires : axe NN/NS, lecture complète et méthode";
+const NOEUDS_TITLE = "Nœuds lunaires : axe karmique & méthode";
 const NOEUDS_DESC =
   "Noeuds lunaires (Noeud Nord et Sud) : sens, axe évolutif, lecture par signe, maison et aspects, pièges courants. Découvrez notre méthode d'interprétation !";
 

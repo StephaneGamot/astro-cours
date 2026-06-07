@@ -30,7 +30,8 @@ export function getRelatedPosts(currentSlug: string, max = 4) {
 
   const currentTags = new Set(current.meta.tags ?? []);
 
-  return posts
+  // 1) Articles partageant au moins un tag, triés par pertinence (score).
+  const related = posts
     .filter((p) => p.meta.slug !== currentSlug)
     .map((p) => {
       const score = (p.meta.tags ?? []).reduce(
@@ -43,6 +44,21 @@ export function getRelatedPosts(currentSlug: string, max = 4) {
     .sort((a, b) => b.score - a.score)
     .slice(0, max)
     .map((x) => x.post);
+
+  // 2) Maillage garanti : si moins de `max` articles liés par tags, on complète
+  //    avec les plus récents (hors article courant et hors déjà sélectionnés).
+  //    Évite qu'un article de niche reste sous-maillé (Link Score faible).
+  if (related.length < max) {
+    const taken = new Set([currentSlug, ...related.map((p) => p.meta.slug)]);
+    for (const p of posts) {
+      if (related.length >= max) break;
+      if (taken.has(p.meta.slug)) continue;
+      related.push(p);
+      taken.add(p.meta.slug);
+    }
+  }
+
+  return related;
 }
 
 /* -------------------------------------------------------------------------- */

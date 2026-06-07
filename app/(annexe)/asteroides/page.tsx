@@ -14,12 +14,12 @@ import { absoluteUrl, AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL , SITE_NAME } from 
  */
 
 export const metadata: Metadata = {
-  title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
+  title: "Astéroïdes en astrologie : Cérès & Chiron",
   description:
     "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
   alternates: { canonical: absoluteUrl("/asteroides") },
   openGraph: {
-    title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
+    title: "Astéroïdes en astrologie : Cérès & Chiron",
     description:
       "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
     url: absoluteUrl("/asteroides"),
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
+    title: "Astéroïdes en astrologie : Cérès & Chiron",
     description:
       "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie. Explorez notre cours !",
     images: [absoluteUrl("/og/cover.jpg")],
@@ -279,7 +279,7 @@ function asteroidImageSrc(slug: string) {
 const ARTICLE_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Astéroïdes : Cérès, Pallas, Junon, Vesta et Chiron",
+  headline: "Astéroïdes en astrologie : Cérès & Chiron",
   description: "Astéroïdes en astrologie : Cérès, Pallas, Junon, Vesta et Chiron. Sens, lecture par signe, maison et aspects, transits et synastrie.",
   inLanguage: "fr",
   mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/asteroides` },
