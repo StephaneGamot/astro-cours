@@ -14,7 +14,7 @@ export const meta = {
   description:
     "Vu, pas vu, vocal de 4 minutes ou réponse en un mot ? Ton signe astro selon ta façon de répondre aux SMS et DM. Léger, drôle, étonnamment juste.",
   date: "2026-05-19",
-  tags: ["signe", "zodiaque", "psychologie", "astrologie"],
+  tags: ["signe", "zodiaque", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/ton-signe-astro-selon-ta-facon-de-repondre-aux-messages.webp",
 };

@@ -9,7 +9,7 @@ export const meta = {
   description:
     "Guide sérieux pour analyser une vente immobilière ou un déménagement : maisons IV/VII/X, maîtres, transits, progressions, déclencheurs, rétrogrades",
   date: "2026-03-03",
-  tags: ["immobilier", "demenagement", "transits", "maisons", "methode"],
+  tags: ["immobilier", "déménagement", "transits", "maisons astrologiques", "méthode"],
   readingLevel: "intermédiaire" as const,
   cover: "/images/blog/immobilier-demenagement.webp",
 };

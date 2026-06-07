@@ -1,0 +1,9 @@
+
+> Build error occurred
+Error: EPERM: operation not permitted, unlink '/sessions/loving-hopeful-bardeen/mnt/astro-cours/.next/BUILD_ID'
+    at ignore-listed frames {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'unlink',
+  path: '/sessions/loving-hopeful-bardeen/mnt/astro-cours/.next/BUILD_ID'
+}

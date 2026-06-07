@@ -14,7 +14,7 @@ export const meta = {
   description:
     "Comment chaque signe du zodiaque vit l’amour et la fidélité : besoins affectifs, compatibilités amoureuses. Découvrez les schémas amoureux de votre signe.",
   date: "2026-03-18",
-  tags: ["amour", "relation", "signe", "psychologie", "compatibilité"],
+  tags: ["amour", "relations", "signe", "psychologie astrologique", "compatibilité"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/amour-fidelite-signes-zodiaque.webp",
 };

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { tagToSlug } from "@/lib/blog";
 
 function tagStyle(tag: string) {
   const t = tag.toLowerCase();
@@ -23,7 +24,7 @@ export function TagPills({ tags }: { tags?: string[] }) {
       {tags.map((tag) => (
         <Link
           key={tag}
-          href={`/blog?tag=${encodeURIComponent(tag)}`}
+          href={`/blog/tag/${tagToSlug(tag)}`}
           className={[
             "rounded-full border px-3 py-1 text-sm transition hover:brightness-110 hover:shadow-[0_0_0_3px_rgba(255,255,255,0.04)]",
             tagStyle(tag),

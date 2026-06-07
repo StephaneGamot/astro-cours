@@ -9,7 +9,7 @@ export const meta = {
   description:
     "Comprendre Vénus en astrologie : style amoureux, besoin affectif, façon de séduire et langage de l’amour. Forces et pièges, signe par signe.",
   date: "2026-01-08",
-  tags: ["amour", "venus", "bases", "débutant"],
+  tags: ["amour", "Vénus", "bases", "débutant"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/cupidon.webp",
 };

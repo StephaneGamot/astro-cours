@@ -16,7 +16,7 @@ export const meta = {
   description:
     "Qu'est-ce qu'une conjonction en astrologie ? Orbes, lecture en thème natal ou transit, exemples et méthode pour bien interpréter cet aspect majeur.",
   date: "2026-01-01",
-  tags: ["aspects", "bases", "débutant", "thème natal", "transits"],
+  tags: ["aspects", "bases", "débutant", "thème astral", "transits"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/conjonction.webp",
 };

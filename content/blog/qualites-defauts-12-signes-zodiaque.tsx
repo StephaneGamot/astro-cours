@@ -16,7 +16,7 @@ export const meta = {
   description:
     "Étude sérieuse, nuancée et pédagogique des 12 signes du zodiaque : qualités, défauts, dérives possibles, dynamique psychologique et pistes d’évolution.",
   date: "2026-03-11",
-  tags: ["bases", "signe", "psychologie", "astrologie"],
+  tags: ["bases", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/qualite-et-defaut-de-chaque-signe-du-zodiaque.webp",
 };

@@ -18,7 +18,7 @@ export const meta = {
   socialDescription:
     "Comprenez enfin ce qu'est un theme astral, ce qu'il contient vraiment et pourquoi il ne se resume ni au signe solaire ni a l'ascendant. Methode de lecture incluse.",
   date: "2026-01-05",
-  tags: ["bases", "thème astral", "débutant", "carte du ciel", "thème natal"],
+  tags: ["bases", "thème astral", "débutant"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/theme-astral.webp",
   ogImage: COVER_URL,

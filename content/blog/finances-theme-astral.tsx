@@ -15,7 +15,6 @@ export const meta = {
     "finances",
     "argent",
     "maison II",
-    "maison 2",
     "thème astral",
     "astrologie financière",
     "interprétation",

@@ -14,7 +14,7 @@ export const meta = {
   description:
     "Quel sport choisir selon son signe astrologique ? Analyse sérieuse des 12 signes : rapport à l’effort, esprit de compétition, endurance et sports idéaux.",
   date: "2026-02-18",
-  tags: ["sport", "signe", "psychologie", "astrologie"],
+  tags: ["sport", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
   cover: "/images/blog/le-sporti-que-vous-etres-selon-votre-signe-astrologique.webp",
 };

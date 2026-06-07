@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, tagToSlug } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 import { SITE_NAME, SITE_URL, PUBLISHER_ORG, absoluteUrl, buildTitle } from "@/lib/seo";
 
@@ -97,7 +97,12 @@ export default async function BlogPage({
   const posts = getAllPosts();
   const tags = uniqTags(posts);
 
-  const selectedTag = resolvedSearchParams.tag?.trim() || "";
+  // Le paramètre d'URL est un slug (ex. "maison-viii"). On retrouve le tag
+  // lisible correspondant pour l'affichage et le filtrage.
+  const selectedSlug = resolvedSearchParams.tag?.trim() || "";
+  const selectedTag = selectedSlug
+    ? tags.find((t) => tagToSlug(t) === selectedSlug) || ""
+    : "";
   const filtered = selectedTag
     ? posts.filter((p) => (p.meta.tags ?? []).includes(selectedTag))
     : posts;
@@ -162,7 +167,7 @@ export default async function BlogPage({
               {tags.map((t) => (
                 <Chip
                   key={t}
-                  href={`/blog?tag=${encodeURIComponent(t)}`}
+                  href={`/blog/tag/${tagToSlug(t)}`}
                   active={t === selectedTag}
                 >
                   <span className="mr-1 opacity-70">#</span>

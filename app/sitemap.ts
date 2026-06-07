@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import maisons from "@/data/maisons.details.json";
 import planetes from "@/data/planetes.details.json";
 import signes from "@/data/signes.details.json";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, getPostsByTagSlug, TAG_PAGES } from "@/lib/blog";
 import { SITE_URL } from "@/lib/seo";
 
 type House = { slug: string; updated?: string };
@@ -90,11 +90,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // ✅ Pages de tags indexables uniquement (TAG_PAGES). Les tags « fins »
+  //    restent en noindex et ne figurent pas dans le sitemap.
+  //    lastModified = date de l'article le plus récent du tag.
+  const tagRoutes: MetadataRoute.Sitemap = Object.keys(TAG_PAGES).map((slug) => {
+    const posts = getPostsByTagSlug(slug);
+    const latest = posts[0]?.meta.date;
+    return {
+      url: `${base}/blog/tag/${slug}`,
+      lastModified: new Date(latest ?? COLLECTION_DATES.maisons),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    };
+  });
+
   return [
     ...staticRoutes,
     ...houseRoutes,
     ...planetRoutes,
     ...signRoutes,
     ...postRoutes,
+    ...tagRoutes,
   ];
 }
