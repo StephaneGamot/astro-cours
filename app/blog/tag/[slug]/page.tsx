@@ -48,15 +48,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    // Indexable → canonical sur elle-même. Sinon → /blog (consolidation).
-    alternates: { canonical: absoluteUrl(indexable ? selfPath : "/blog") },
+    // Canonical TOUJOURS auto-référente (même sur les pages noindex) pour
+    // éviter le signal contradictoire « noindex + canonical vers une autre URL ».
+    // L'exclusion de l'index des tags fins est gérée uniquement par robots.
+    alternates: { canonical: absoluteUrl(selfPath) },
     robots: indexable
       ? { index: true, follow: true }
       : { index: false, follow: true, googleBot: { index: false, follow: true } },
     openGraph: {
       title: buildTitle(title),
       description,
-      url: absoluteUrl(indexable ? selfPath : "/blog"),
+      url: absoluteUrl(selfPath),
       type: "website",
       siteName: SITE_NAME,
       locale: "fr_FR",
