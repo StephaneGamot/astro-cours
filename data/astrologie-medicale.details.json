@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Astrologie médicale — Tempéraments, humeurs et homme zodiacal",
+    "description": "Astrologie médicale : tradition complète. Homme zodiacal (signes et parties du corps), tempéraments, quatre humeurs, planètes, maisons de la santé et décombiture. Cours complet et gratuit.",
+    "canonical": "/astrologie-medicale"
+  },
+
+  "hero": {
+    "badge": "Cours d’astrologie — Tradition & histoire",
+    "title": "Astrologie médicale : le corps et le ciel",
+    "subtitle": "La plus ancienne des branches appliquées : relier signes, planètes et humeurs aux parties du corps et aux tempéraments. Une lecture symbolique et historique de la santé — jamais un diagnostic.",
+    "highlights": [
+      "L’homme zodiacal (signes → corps)",
+      "Les quatre tempéraments & humeurs",
+      "Planètes et qualités (chaud/froid/sec/humide)",
+      "Maisons de la santé & décombiture"
+    ]
+  },
+
+  "avertissement": {
+    "titre": "Avertissement important",
+    "texte": "L’astrologie médicale est une tradition symbolique et historique. Elle ne constitue ni un diagnostic, ni un avis médical, ni un traitement. Elle ne remplace en aucun cas l’avis d’un médecin ou d’un professionnel de santé. En cas de symptôme ou d’inquiétude, consultez un soignant qualifié."
+  },
+
+  "definition": {
+    "resume": [
+      "L’astrologie médicale (iatromathématique) relie les signes, planètes et maisons aux parties du corps, aux tempéraments et aux rythmes de la vitalité.",
+      "Branche la plus ancienne de l’astrologie appliquée, elle a structuré la médecine d’Hippocrate à la Renaissance via la théorie des humeurs.",
+      "Aujourd’hui, on l’étudie comme un système symbolique et culturel : une façon de penser l’équilibre, pas une science médicale."
+    ],
+    "ceQueCeNestPas": [
+      "Un diagnostic ou un substitut à la consultation médicale.",
+      "Une méthode pour prescrire ou interrompre un traitement.",
+      "Une prédiction certaine de maladie ou de guérison."
+    ]
+  },
+
+  "histoire": {
+    "intro": [
+      "La médecine antique et médiévale reposait sur la théorie des humeurs : la santé était l’équilibre de quatre fluides, le déséquilibre étant la maladie.",
+      "Les astres signalaient et rythmaient ces équilibres. On choisissait même les moments favorables aux soins (élection) selon la Lune."
+    ],
+    "reperes": [
+      { "label": "Hippocrate & Galien", "sens": "Fondent la doctrine des quatre humeurs et des tempéraments, socle de la médecine pendant deux millénaires." },
+      { "label": "Médecine médiévale & arabe", "sens": "Intègre l’astrologie aux soins : moments d’élection, calendriers de saignée, choix des remèdes." },
+      { "label": "Renaissance — Culpeper", "sens": "Nicholas Culpeper relie chaque plante à une planète et publie une herboristerie astrologique très diffusée." }
+    ]
+  },
+
+  "hommeZodiacal": {
+    "intro": [
+      "La melothésie, ou « homme zodiacal », attribue à chaque signe une région du corps, de la tête (Bélier) aux pieds (Poissons). C’est la grille de correspondances la plus connue."
+    ],
+    "signes": [
+      { "signe": "Bélier", "partie": "Tête, visage, cerveau, yeux" },
+      { "signe": "Taureau", "partie": "Gorge, cou, nuque, thyroïde, cordes vocales" },
+      { "signe": "Gémeaux", "partie": "Épaules, bras, mains, poumons, système nerveux" },
+      { "signe": "Cancer", "partie": "Poitrine, seins, estomac, système digestif" },
+      { "signe": "Lion", "partie": "Cœur, dos, colonne vertébrale, circulation" },
+      { "signe": "Vierge", "partie": "Intestins, abdomen, assimilation, rate" },
+      { "signe": "Balance", "partie": "Reins, lombaires, peau, équilibre acido-basique" },
+      { "signe": "Scorpion", "partie": "Organes génitaux, vessie, côlon, élimination" },
+      { "signe": "Sagittaire", "partie": "Hanches, cuisses, foie, nerf sciatique" },
+      { "signe": "Capricorne", "partie": "Genoux, os, articulations, peau, dents" },
+      { "signe": "Verseau", "partie": "Mollets, chevilles, circulation, système nerveux" },
+      { "signe": "Poissons", "partie": "Pieds, système lymphatique, immunité" }
+    ]
+  },
+
+  "tempéraments": {
+    "intro": [
+      "Chaque tempérament résulte de la combinaison de deux qualités primaires (chaud/froid et sec/humide) et correspond à une humeur, un élément et des planètes."
+    ],
+    "items": [
+      { "nom": "Sanguin", "qualites": "Chaud & humide", "humeur": "Sang", "element": "Air", "planetes": "Jupiter, Vénus", "traits": "Sociable, optimiste, vital ; excès vers la dispersion et la pléthore." },
+      { "nom": "Colérique (bilieux)", "qualites": "Chaud & sec", "humeur": "Bile jaune", "element": "Feu", "planetes": "Mars, Soleil", "traits": "Énergique, ardent, prompt ; excès vers l’inflammation, la fièvre, l’irritabilité." },
+      { "nom": "Mélancolique", "qualites": "Froid & sec", "humeur": "Bile noire", "element": "Terre", "planetes": "Saturne, Mercure", "traits": "Réfléchi, endurant, méthodique ; excès vers la rigidité, la sécheresse, l’abattement." },
+      { "nom": "Flegmatique", "qualites": "Froid & humide", "humeur": "Phlegme (lymphe)", "element": "Eau", "planetes": "Lune, Vénus", "traits": "Calme, réceptif, posé ; excès vers la lenteur, la rétention, la congestion." }
+    ]
+  },
+
+  "planetes": {
+    "intro": [
+      "Chaque planète porte des qualités et gouverne des fonctions et organes. On les lit en appui des signes pour nuancer un tempérament."
+    ],
+    "items": [
+      { "astre": "Soleil", "qualites": "Chaud & sec", "domaine": "Vitalité, cœur, force vitale, yeux (droit chez l’homme)." },
+      { "astre": "Lune", "qualites": "Froid & humide", "domaine": "Fluides, estomac, rythmes, fertilité, système lymphatique." },
+      { "astre": "Mercure", "qualites": "Variable (froid & sec)", "domaine": "Système nerveux, langage, poumons, mains, coordination." },
+      { "astre": "Vénus", "qualites": "Chaud & humide", "domaine": "Reins, gorge, peau, hormones, équilibre, douceur." },
+      { "astre": "Mars", "qualites": "Chaud & sec", "domaine": "Sang, muscles, inflammations, fièvres, chirurgie, accidents." },
+      { "astre": "Jupiter", "qualites": "Chaud & humide", "domaine": "Foie, croissance, abondance, métabolisme, excès." },
+      { "astre": "Saturne", "qualites": "Froid & sec", "domaine": "Os, dents, peau, rate, chronicité, blocages, contraction." }
+    ]
+  },
+
+  "maisonsSante": [
+    { "maison": "I", "domaine": "Le corps, la constitution, la vitalité générale, l’Ascendant comme racine de la santé." },
+    { "maison": "VI", "domaine": "La maladie, les affections courantes, le terrain, l’hygiène de vie, les soignants." },
+    { "maison": "VIII", "domaine": "Les crises, les opérations lourdes, ce qui transforme, la fin de vie." },
+    { "maison": "XII", "domaine": "L’hospitalisation, l’isolement, les maux cachés ou psychiques, la convalescence." }
+  ],
+
+  "decombiture": {
+    "intro": [
+      "La décombiture est le thème dressé pour le moment où le malade s’alite (ou pour la première urine examinée). C’est l’outil horaire de l’astrologie médicale traditionnelle.",
+      "On y juge la nature de la maladie, son siège, son évolution et les moments de crise."
+    ],
+    "elements": [
+      { "label": "Significateur du malade", "sens": "Maître de l’Ascendant et la Lune : la force vitale et le terrain." },
+      { "label": "Significateur de la maladie", "sens": "Souvent le maître de la maison VI, ou la planète affligeant le significateur de vie." },
+      { "label": "La Lune", "sens": "Décrit le déroulement jour après jour ; sa course rythme les phases de la maladie." },
+      { "label": "Les angles", "sens": "Planètes angulaires = facteurs agissants ; cadentes = facteurs en retrait." }
+    ]
+  },
+
+  "joursCritiques": {
+    "intro": [
+      "La tradition (héritée d’Hippocrate et de Galien) repère des « jours critiques » où la maladie connaît un tournant, calés sur la course de la Lune depuis la décombiture."
+    ],
+    "regles": [
+      "On suit la Lune à partir de sa position au moment de l’alitement.",
+      "Les aspects que la Lune forme aux maléfiques (Mars, Saturne) marquent les passages difficiles.",
+      "Ses aspects aux bénéfiques (Jupiter, Vénus) ou au Soleil signalent les phases d’amélioration.",
+      "Les points de crise classiques se situent autour des quadratures successives de la Lune (env. 7, 14, 21 jours)."
+    ]
+  },
+
+  "exemplesLecture": [
+    {
+      "titre": "Constitution & terrain",
+      "texte": "On lit le signe de l’Ascendant, son maître et les planètes en maison I pour décrire la constitution (robuste, nerveuse, lymphatique…). Saturne fort à l’ASC oriente vers un terrain plutôt froid et sec ; la Lune ou Vénus, vers un terrain humide."
+    },
+    {
+      "titre": "Tempérament dominant",
+      "texte": "En pondérant signe de l’ASC, position de son maître, signe de la Lune et saison de naissance, on dégage un mélange de qualités (ex. chaud-humide à dominante sanguine) plutôt qu’un type pur."
+    },
+    {
+      "titre": "Zone du corps sollicitée",
+      "texte": "Une planète tendue dans un signe oriente vers la région correspondante : Mars en Bélier attire l’attention sur la tête ; Saturne en Capricorne sur les os, genoux et articulations. Symbolique, jamais diagnostique."
+    }
+  ],
+
+  "erreurs": [
+    "Confondre correspondance symbolique et diagnostic médical.",
+    "Conclure à une maladie à partir d’un seul placement planétaire.",
+    "Négliger l’avertissement : reporter ou éviter une consultation à cause d’un thème.",
+    "Oublier que le tempérament est un mélange, pas un type pur.",
+    "Lire la décombiture sans connaître le moment réel de l’alitement.",
+    "Traiter une lecture symbolique comme une certitude pronostique."
+  ],
+
+  "faq": [
+    { "q": "L’astrologie médicale permet-elle de poser un diagnostic ?", "a": "Non. C’est un système symbolique et historique. Elle ne diagnostique rien et ne remplace jamais un médecin. Tout symptôme doit être évalué par un professionnel de santé." },
+    { "q": "Qu’est-ce que l’homme zodiacal ?", "a": "La melothésie : une grille traditionnelle qui associe chaque signe à une partie du corps, du Bélier (tête) aux Poissons (pieds)." },
+    { "q": "Que sont les quatre humeurs ?", "a": "Sang, bile jaune, bile noire et phlegme. Leur équilibre définissait la santé dans la médecine ancienne, et chaque humeur correspond à un tempérament et à des qualités." },
+    { "q": "Qu’est-ce qu’une décombiture ?", "a": "Le thème dressé pour le moment où le malade s’alite. C’est l’outil horaire utilisé par la tradition pour suivre l’évolution d’une maladie." },
+    { "q": "Quelles maisons concernent la santé ?", "a": "Surtout la I (corps, vitalité) et la VI (maladie, terrain) ; secondairement la VIII (crises) et la XII (hospitalisation, convalescence)." },
+    { "q": "Comment déterminer un tempérament ?", "a": "On combine le signe de l’Ascendant et son maître, le signe de la Lune et la saison, pour estimer un mélange de qualités chaud/froid et sec/humide — non un type unique." }
+  ],
+
+  "faqVisible": [
+    {
+      "q": "L’astrologie médicale est-elle reconnue par la médecine ?",
+      "a": "Non. La médecine moderne repose sur la biologie et les preuves cliniques. L’astrologie médicale est étudiée comme une tradition culturelle et historique, intéressante pour comprendre l’histoire des idées, mais sans valeur diagnostique."
+    },
+    {
+      "q": "D’où vient la théorie des humeurs ?",
+      "a": "Elle remonte à Hippocrate et a été systématisée par Galien. Pendant près de deux mille ans, santé et maladie y étaient pensées comme l’équilibre ou le déséquilibre de quatre humeurs reliées aux éléments et aux astres."
+    },
+    {
+      "q": "Pourquoi les anciens choisissaient-ils un moment selon la Lune pour se soigner ?",
+      "a": "On évitait certains soins (comme la saignée) quand la Lune traversait le signe gouvernant la zone concernée, par prudence symbolique. C’est une pratique d’élection traditionnelle, sans fondement médical actuel."
+    },
+    {
+      "q": "Qui était Nicholas Culpeper ?",
+      "a": "Un herboriste anglais du XVIIe siècle qui relia chaque plante médicinale à une planète et publia une herboristerie astrologique très populaire, emblématique du lien historique entre astrologie et soin."
+    }
+  ]
+}

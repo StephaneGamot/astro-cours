@@ -78,4 +78,8 @@ export const autre: Item[] = [
   { name: "Transits", description: "Timing astrologique", href: "/transits", icon: glyph("⚹") },
   { name: "Nœuds lunaires", description: "Axe karmique", href: "/noeuds-lunaires", icon: glyph("☊") },
   { name: "Astéroïdes", description: "Chiron, Cérès...", href: "/asteroides", icon: glyph("⚷") },
+  { name: "Astrologie horaire", description: "La carte d'une question", href: "/astrologie-horaire", icon: glyph("?") },
+  { name: "Astrologie médicale", description: "Tempéraments & humeurs", href: "/astrologie-medicale", icon: glyph("☤") },
+  { name: "Significateurs", description: "Qui représente quoi", href: "/significateurs", icon: glyph("☌") },
+  { name: "Astro-psychologie", description: "Le thème & la psyché", href: "/astro-psychologie", icon: glyph("☽") },
 ];
