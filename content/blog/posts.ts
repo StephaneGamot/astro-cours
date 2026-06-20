@@ -76,6 +76,10 @@ import ChanceJeuxArgentLoteriePost, {
   meta as chanceJeuxArgentLoterieMeta,
 } from "./chance-jeux-argent-loterie-astrologie";
 
+import AstrologieMedicaleRenaissancePost, {
+  meta as astrologieMedicaleRenaissanceMeta,
+} from "./astrologie-medicale-renaissance";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -94,6 +98,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: astrologieMedicaleRenaissanceMeta, Component: AstrologieMedicaleRenaissancePost },
   { meta: chanceJeuxArgentLoterieMeta, Component: ChanceJeuxArgentLoteriePost },
   { meta: longeviteVieAstrologieMeta, Component: LongeviteVieAstrologiePost },
   { meta: smsSignesMeta, Component: SmsSignesPost },
