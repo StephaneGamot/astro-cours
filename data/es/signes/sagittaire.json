@@ -1,0 +1,459 @@
+{
+  "slug": "sagittaire",
+  "nom": "Sagitario",
+  "sousTitre": "El noveno signo del Zodiaco",
+  "devise": "Yo busco",
+  "periode": "22 de noviembre – 21 de diciembre",
+  "element": "Fuego",
+  "mode": "Mutable",
+  "maitre": "Júpiter",
+  "exaltation": "—",
+  "exil": "Mercurio",
+  "chute": "—",
+  "polarite": "Masculino",
+  "temperament": "Bilioso",
+  "maisonNaturelle": 9,
+  "couleur": {
+    "primaire": "#A88BFD",
+    "secondaire": "#F59E0B",
+    "accent": "#C084FC",
+    "gradient": "from-violet-500 via-purple-500 to-amber-500"
+  },
+  "navigation": {
+    "precedent": { "slug": "scorpion", "nom": "Escorpio" },
+    "suivant": { "slug": "capricorne", "nom": "Capricornio" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/sagittaire.webp",
+    "planete": "/images/planetes/jupiter.webp"
+  },
+  "introduction": "Sagitario es el noveno signo del Zodiaco. El Sol lo atraviesa entre el 22 de noviembre y el 21 de diciembre aproximadamente, al final del otoño, cuando ya no hay nada que hacer en los campos salvo pensar en el año siguiente, replantar, preparar las fiestas: una forma natural de entusiasmo y de organización vuelta hacia el futuro. Tras la inmersión en las profundidades de Escorpio, Sagitario busca dar un sentido a lo que se ha atravesado, comprender y ampliar la perspectiva. Es el signo de la búsqueda de horizonte, del impulso hacia lo que es más grande que uno mismo, de la búsqueda de un ideal que supera al individuo para abrazar el mundo. Sagitario no se conforma con vivir o sentir: quiere comprender hacia qué avanza, qué da una dirección a su energía y cómo hacer de su existencia una aventura significativa.",
+  "fondationsCosmiques": {
+    "texte": "Sagitario pertenece al elemento Fuego (caliente y seco), lo que le confiere un temperamento bilioso: energía, voluntad, acción creadora, dinamismo y pasión. Es el tercer y último nivel del Fuego: el de la sublimación. Tras el instinto de Aries y la irradiación de Leo, el fuego de Sagitario se pone al servicio de una causa, de una visión, de una colectividad. Su creatividad debe servir a algo más vasto que él mismo. Su modo es mutable: se adapta a todas las situaciones, hace de puente entre dos estaciones, navega entre los contrarios. Es también un signo doble —mitad hombre, mitad caballo, como el centauro que lo representa—, lo que explica la oscilación constante entre el impulso instintivo y la búsqueda de sabiduría. Signo activo, emisor y extrovertido, Sagitario se caracteriza por una vitalidad que se gasta sin contar para penetrar el mundo e introducir movimiento allí por donde pasa.",
+    "courteAscension": "Sagitario es un signo de ascensión larga —permanece mucho tiempo por encima del horizonte—, lo que significa que, estadísticamente, más personas nacen con Sagitario como Ascendente.",
+    "pluton": "Sagitario es el domicilio diurno de Júpiter, el planeta de la expansión, de la suerte y de la protección. Júpiter se siente particularmente bien en este signo de apertura que corresponde a su naturaleza profunda: reunir, proteger, ampliar el horizonte. El eje Sagitario-Géminis opone y completa la síntesis y la dispersión, la visión global y la circulación de los hechos."
+  },
+  "analogies": {
+    "animal": "El caballo, el centauro",
+    "objet": "El arco, la flecha, el camino, el mapa",
+    "fonction": "Explorar, comprender, transmitir",
+    "texte": "Sagitario es el impulso hacia el horizonte. Idealismo, religión, viajes, aventuras, lo extranjero: todo en este signo habla de búsqueda, de apertura y de superación. Así como el arquero lanza su flecha hacia el cielo, el nativo de este signo busca siempre apuntar más alto, más lejos, más ancho. Es el presidente, el juez, el prelado, el gran viajero, el explorador de tierras y de ideas. Encarna el deseo de elevarse elevando a los demás, la pasión de comprender y transmitir, la convicción de que siempre existe un horizonte más vasto por descubrir."
+  },
+  "mythologie": {
+    "titre": "Quirón y los Centauros",
+    "texte": "Sagitario se asocia al centauro Quirón, ser mitad hombre, mitad caballo, a la vez instintivo y sabio. Arquero vuelto hacia el cielo, simboliza la búsqueda de sentido, la transmisión del saber y la búsqueda de un ideal que supera al individuo. Quirón era el más sabio de los centauros: sanador, pedagogo, maestro de Aquiles y de Jasón, representa la alianza lograda entre la potencia animal y el conocimiento elevado. El mito de Sagitario habla de esta dualidad fundamental: por un lado la vía de los instintos y de las pulsiones animales, por el otro el camino del conocimiento y de la sabiduría. La mano del arquero que lanza una flecha hacia el cielo indica la dirección ascendente del Hombre realizado que accede al plano divino. Herido por una flecha envenenada e incapaz de morir a causa de su inmortalidad, Quirón terminó por cambiar su vida por la libertad de Prometeo: sacrificio último que transforma el sufrimiento en don para la humanidad.",
+    "civilisations": "En la mitología griega, los centauros encarnaban la tensión entre la bestialidad y la sabiduría. En Mesopotamia, el arquero sagrado Nergal se asociaba a las expediciones lejanas y a la protección de las fronteras. En las tradiciones védicas, Sagitario evoca a Dhanusha, el arco divino que une la tierra al cielo. En todas partes, el símbolo del arquero vuelto hacia las estrellas atraviesa las civilizaciones como una promesa: la de que el ser humano puede superar su condición animal para alcanzar el conocimiento y el sentido."
+  },
+  "portrait": {
+    "temperament": "Sagitario ve lejos, piensa en grande, actúa con entusiasmo y soporta mal los límites que le parecen estrechos o estériles. Su carácter es cálido, franco, expansivo, móvil, a menudo idealista, con una fuerte necesidad de libertad y de perspectiva. El rasgo saliente de este signo es la juventud de carácter: muy acomodadizo, generoso y benévolo, inspira simpatía y su compañía es buscada por su jovialidad comunicativa. El juicio es rápido, el sentido de la organización muy desarrollado, la soltura en la palabra y la intuición notables. La naturaleza es benévola, liberal, de emociones profundas y de una gran sinceridad. Sin embargo, es excepcionalmente susceptible en las cuestiones de prestigio y de honorabilidad. Cuando es inmaduro, puede volverse excesivo, impaciente o dogmático, dejarse seducir por teorías más brillantes que profundas; cuando madura, se convierte en un verdadero explorador, capaz de transmitir sentido con generosidad y discernimiento.",
+    "forces": [
+      "Ver lejos y pensar en grande, dar sentido a una experiencia",
+      "Transmitir una visión con entusiasmo comunicativo",
+      "Entusiasmar a un grupo, un proyecto o una causa",
+      "Vincular la vida concreta a una filosofía o a un ideal elevado",
+      "Explorar, viajar, aprender y abrir vías nuevas",
+      "Organizar y dirigir con una eficacia metódica y ordenada"
+    ],
+    "ombres": [
+      "Huida de las limitaciones y de los marcos juzgados demasiado estrechos",
+      "Certezas demasiado rápidas que se vuelven dogmatismo",
+      "Promesas hechas en el impulso pero no cumplidas con el tiempo",
+      "Exceso de optimismo que choca con las realidades de la existencia",
+      "Orgullo que roza la vanidad y susceptibilidad excesiva"
+    ],
+    "besoinsVitaux": [
+      "Libertad de movimiento, de espacio y de respiración",
+      "Un ideal portador de sentido que supere lo cotidiano",
+      "Exploración intelectual, humana o física permanente"
+    ],
+    "aTravailler": [
+      "La escucha de otros puntos de vista sin barrerlos",
+      "La coherencia entre palabra y actos en la duración",
+      "El anclaje en lo concreto y la paciencia del detalle",
+      "La mesura en el entusiasmo para no dispersar sus fuerzas",
+      "No transformar su verdad en una doctrina rígida"
+    ],
+    "equilibre": "Un Sagitario en plena posesión de sus medios se convierte en un explorador: abre caminos sin imponer su ruta. Encarna una sabiduría viva, nutrida por la experiencia, la apertura y el sentido. Su entusiasmo se vuelve contagioso sin ser invasivo, y su visión inspira sin encerrar. Su franqueza se hace luminosa en lugar de hiriente, y su búsqueda de verdad se pone al servicio de la transmisión en lugar de la prédica."
+  },
+  "sante": {
+    "zones": ["Caderas", "Muslos", "Hígado", "Sistema locomotor"],
+    "texte": "Sagitario gobierna las caderas, los muslos, el hígado, la vesícula biliar, el páncreas, el sacro, el cóccix, el hueso ilíaco y los músculos. Predispone a las ciáticas, a los trastornos hepáticos, a los cólicos, a las enfermedades arteriales y al artritismo. Es, sin embargo, un signo de buena salud, de potencia física y de longevidad, a condición de que el nativo sepa evitar los excesos susceptibles de provocar trastornos del hígado o de la circulación. Sagitario ama el movimiento, el aire libre, el deporte: cazadores, caminantes y deportistas se encuentran a menudo bajo esta influencia. Su constitución es generalmente robusta y resistente."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "La posición más natural para Sagitario. Las aptitudes filosóficas, teológicas y sociológicas son marcadas. El sentido de la organización está muy desarrollado, el juicio es rápido, la soltura en la palabra y la intuición notables. El nativo ama la independencia y se muestra despreocupado, optimista y confiado. Naturaleza benévola, liberal, de emociones profundas y de una gran sinceridad. Muy acomodadizo, generoso, jovial y servicial, pero excepcionalmente susceptible en las cuestiones de prestigio. La actividad es metódica, muy ordenada y por tanto muy eficiente. Muy dotado para la organización y la dirección. Confiado y optimista sobre el desenlace de sus empresas, pero a veces dispersa sus fuerzas inútilmente."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "En general, muy buen pronóstico para las ganancias personales, aunque estas se realicen durante grandes viajes o lejos del lugar de nacimiento. Este signo indica un papel apreciable de la suerte que apoya las iniciativas financieras del sujeto. Hay, sin embargo, fuertes tendencias al gasto y un espíritu algo aventurero, lo que puede retrasar la estabilidad de la situación. Posición propicia para los puestos administrativos u oficiales, para la gran industria y los comercios de importación o exportación."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Buena indicación para las tendencias filosóficas y religiosas así como para la intuición. Posición propicia para ir a estudiar al extranjero o para ir a enseñar allí. Los viajes se ven favorecidos y a veces los desplazamientos duran mucho más de lo previsto. Buen entendimiento con hermanos y vecinos. La mente es curiosa, sintética y orientada hacia la visión de conjunto. El nativo destaca en el arte de transmitir y comunicar sus convicciones."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "La atmósfera familiar comporta a menudo separaciones o alejamientos geográficos. El propio sujeto puede sentirse tentado por una instalación lejana o por adquisiciones inmobiliarias lejos de su lugar de nacimiento. El final de su vida es generalmente apacible y holgado, pero comporta a menudo largos viajes de placer. Solo si las disonancias son muy malas se pueden pronosticar problemas ligados a los desplazamientos tardíos."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Acentúa la sensualidad si hay otros indicios concordantes y aumenta los gustos estéticos y artísticos, en particular la atracción por las manifestaciones espectaculares o deportivas al aire libre. El signo no indica una descendencia muy numerosa, sino sobre todo hijos respetuosos y sanos. El sujeto es más bien afortunado en materia de juego o de especulación. Buena configuración para los éxitos sentimentales y la vida mundana. En algunos casos, la situación de los hijos se vuelve brillante."
+    },
+    {
+      "numero": 6,
+      "titre": "El día a día y la salud",
+      "texte": "Indicio de buena salud y de vida larga, a condición de que el nativo sepa evitar los excesos susceptibles de provocar trastornos del hígado o de la circulación. El trabajo es generalmente agradable y remunerador. El nativo puede convertirse en un hombre de confianza o explotar una empresa y encontrar fácilmente colaboradores honestos y entregados. Posición favorable para los oficios de organización y de gestión cotidiana."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "Las relaciones son más bien raras pues esta posición indica el cuidado de la forma y de la respetabilidad. El matrimonio tiene lugar a menudo temprano y suele transcurrir en buenas condiciones. Si hay, sin embargo, disonancias que provocan un divorcio o una viudez, se puede pronosticar una segunda unión legal. Las asociaciones permiten a menudo ganar más. Los pleitos son más bien raros salvo disonancias importantes. Posibilidad de matrimonio o de asociación en países lejanos o con extranjeros."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Posición que favorece las herencias, que pueden provenir no solo de la familia ascendiente sino a veces de parientes lejanos, lejanos en grado de parentesco o en distancia geográfica. Sin embargo, si los aspectos son malos, toda liquidación corre el riesgo de dar lugar a complicaciones legales. Generalmente, el fallecimiento sobreviene fuera de la región natal, pero la vida es más bien larga y el final normal y suave."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Es una de las mejores posiciones del Zodiaco para conferir un espíritu filosófico, religioso, así como aptitudes para la sociología. Los astrólogos estiman que esta posición es muy favorable a la evolución espiritual e intelectual. Excelente indicio para los viajes largos, las residencias en países lejanos, la atracción por la vida al aire libre, el movimiento y la aventura. Debido a la naturaleza doble del signo, a veces predominan las tendencias espirituales, a veces las tendencias más materiales."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "Puede predisponer a los largos viajes, a las estancias y al éxito en el extranjero. A menudo dos cambios importantes en la vida profesional. En conjunto, una suerte casi constante si las disonancias no son graves. Factor de éxito financiero y honorífico. Aunque las disonancias sean importantes, el sujeto logra todavía evitar las pruebas realmente penosas. Conviene a las profesiones ligadas a la ley, a los bancos, a los seguros, a las transacciones internacionales. Esta posición facilita el éxito social o político y el acceso a los puestos de dirección."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Aumenta las posibilidades de contraer amistades agradables o útiles durante los viajes o las estancias en el extranjero. Los amigos son generalmente de buena situación y a menudo acaudalados, pero estas relaciones pueden ser efímeras y poco numerosas, porque el nativo es más bien reservado en su manera de elegir a sus allegados. Posibilidad de inversiones importantes efectuadas por instigación de amigos o para prestarles un servicio."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Predispone a las enfermedades del signo y a las de Júpiter: trastornos hepáticos, excesos, problemas de circulación. En lo que respecta a las enemistades ocultas así como a los riesgos de encarcelamiento o de internamiento, este signo en la Casa XII neutraliza las amenazas si no hay, por otra parte, malos aspectos graves. El nativo puede verse llevado a retirarse a grandes ciudades para trabajar en paz allí. Posición que protege en la prueba y transforma los obstáculos en lecciones de sabiduría."
+    }
+  ],
+  "amour": {
+    "texte": "Sagitario ama con franqueza, entusiasmo, movimiento y necesidad de horizonte. Necesita sentir que la relación abre algo, que crece, que inspira, que respira. Soporta mal los vínculos demasiado cerrados, demasiado posesivos o demasiado pesados. Sentimentalmente, es un entusiasta propenso a los flechazos y a los arrebatos, cuyo ímpetu, unido a unos modales distinguidos, puede impresionar. Existe siempre en él cierto respeto por los usos y la legalidad: en cuanto haya encontrado el alma gemela, pensará en la unión legal y será casi siempre un buen esposo y un buen padre. El matrimonio tiene lugar a menudo temprano, a veces con una persona nacida en el extranjero o en una región lejana. Los viajes juegan a menudo un papel en la vida amorosa.",
+    "qualites": [
+      "Sinceridad afectiva total y franqueza del corazón",
+      "Impulso generoso que lleva la pareja hacia adelante",
+      "Capacidad de insuflar vida y movimiento al vínculo",
+      "Gusto por compartir, por la aventura y por la apertura",
+      "Calor entusiasta y fidelidad cuando el corazón está comprometido"
+    ],
+    "vigilances": [
+      "Puede huir de lo que le parece demasiado encerrante o demasiado pesado",
+      "Riesgo de promesas hechas en el impulso pero no cumplidas con el tiempo",
+      "Tendencia a buscar el ideal más que la realidad del vínculo",
+      "Dificultad con los marcos afectivos demasiado ajustados o posesivos"
+    ],
+    "affinites": ["belier", "lion", "balance", "verseau"]
+  },
+  "travail": {
+    "texte": "Sagitario trabaja bien cuando puede avanzar hacia un objetivo portador de sentido, transmitir una visión, aprender, viajar, inspirar o ampliar un campo. Destaca en los ámbitos donde se necesita iniciativa, apertura, pedagogía o perspectiva. Alto funcionario, administrador, magistrado, diplomático, viajero, docente, director, jefe de servicio, agencias de viajes, empresas de transporte, exportación e importación: las profesiones de Sagitario tocan todas la organización, la transmisión y la apertura al mundo. Es un colaborador valioso por sus capacidades de organización, su fidelidad y la seriedad que aporta a todas las cosas. Es probablemente bajo este signo donde se encontraría el mayor número de expatriados.",
+    "atouts": [
+      "Visión global y capacidad de federar en torno a un proyecto",
+      "Entusiasmo comunicativo que arrastra a los equipos",
+      "Capacidad natural de motivar, enseñar y transmitir",
+      "Gusto por aprender y perfeccionarse permanentemente",
+      "Soltura notable en los contextos internacionales y cambiantes"
+    ],
+    "defis": [
+      "Soporta mal el encierro, la rutina vacía o la repetición",
+      "Puede dispersarse hacia demasiados objetivos simultáneos",
+      "Riesgo de carecer de seguimiento o de rigor en los detalles",
+      "Puede rechazar demasiado rápido lo que le parece demasiado estrecho o demasiado lento"
+    ]
+  },
+  "argent": {
+    "texte": "Sagitario mantiene una relación amplia y dinámica con el dinero. Lo ve como un medio de exploración, de libertad, de aprendizaje y de expansión, nunca como un fin en sí mismo. Sus ingresos son a menudo muy apreciables, pues se beneficia de una parte de suerte importante que apoya sus iniciativas financieras. Pero se deja llevar demasiado por los gastos de prestigio como para constituirse reservas, y a veces se impone períodos de privación —relativos— durante la primera parte de la vida. Más adelante, se asienta.",
+    "forces": [
+      "Capacidad de ver en grande y de captar las oportunidades",
+      "Soltura para crear movimiento en torno a los recursos",
+      "Confianza en el crecimiento y sentido del comercio internacional",
+      "Parte de suerte apreciable que favorece las iniciativas"
+    ],
+    "risques": [
+      "Exceso de confianza y optimismo financiero infundado",
+      "Gastos de prestigio, de entusiasmo o de libertad",
+      "Dificultad para mantenerse en una gestión precisa y rigurosa",
+      "Tendencia a pensar que todo acabará siempre por arreglarse"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Sagitario construye una identidad vuelta hacia el ideal, el movimiento, el conocimiento y la apertura. Está al servicio de Júpiter con la pasión de un signo de fuego, dando un ideal elevado y nobles aspiraciones.",
+      "manifestations": ["Optimismo y confianza natural", "Visión global y sentido del horizonte", "Sinceridad y franqueza de carácter", "Impulso natural hacia la expansión y el descubrimiento"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Sagitario vive las emociones con necesidad de espacio, de impulso, de confianza y de aire. Se regula por el movimiento, la perspectiva y la apertura más que por el repliegue.",
+      "manifestations": ["Calor emocional y generosidad del corazón", "Capacidad notable de recuperarse tras las pruebas", "Necesidad sana de aire, de espacio y de libertad", "Confianza afectiva en el movimiento y en el futuro"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Sagitario (en exilio) piensa en grande, sintético, orientado hacia la visión de conjunto. Le gustan las grandes ideas, los conceptos y las perspectivas, pero puede carecer de precisión en los detalles.",
+      "manifestations": ["Visión global y pensamiento sintético", "Capacidad de síntesis rápida", "Franqueza y soltura en la palabra", "Gusto por el sentido y las grandes ideas"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Sagitario ama con entusiasmo, libertad, sinceridad y gusto por la aventura. El placer pasa por el descubrimiento, la espontaneidad y la apertura del vínculo a horizontes compartidos.",
+      "manifestations": ["Frescura afectiva y espontaneidad", "Entusiasmo amoroso y arrebatos", "Sinceridad relacional sin segundas intenciones", "Gusto por el movimiento y los viajes compartidos"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Sagitario actúa con entusiasmo, energía expansiva y deseo de progresión. La acción busca una meta, una visión o un terreno más vasto. La combatividad está sostenida por un ideal.",
+      "manifestations": ["Dinamismo y energía inagotable", "Valor de exploración y de aventura", "Acción sostenida por un ideal o una visión", "Gran energía de movimiento y de conquista"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Sagitario está en su domicilio diurno, una de sus expresiones más naturales y poderosas. Fe, expansión, búsqueda de sentido, apertura y entusiasmo visionario se expresan plenamente.",
+      "manifestations": ["Gran confianza en la vida y en el futuro", "Visión amplia y sentido del horizonte", "Apertura de mente y tolerancia", "Capacidad de federar en torno a un sentido y un proyecto"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Sagitario estructura las creencias, la visión y la relación con el sentido y la transmisión. Obliga a construir un pensamiento o una filosofía más sólida y menos dispersa.",
+      "manifestations": ["Madurez en la visión y el juicio", "Seriedad filosófica e intelectual", "Capacidad de estructurar un saber y de transmitirlo", "Responsabilidad en la transmisión y la enseñanza"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Sagitario abre rupturas de creencias, impulsos súbitos hacia otros horizontes y una fuerte libertad en el pensamiento o el modo de vida.",
+      "manifestations": ["Espíritu libre e iconoclasta", "Visión innovadora y vanguardista", "Capacidad de romper con los marcos ideológicos estrechos"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Sagitario busca un ideal espiritual, filosófico o místico. Da una inspiración amplia, una fe llena de imágenes y una atracción profunda por el sentido vasto de las cosas.",
+      "manifestations": ["Inspiración espiritual y filosófica", "Apertura simbólica y poética", "Intuición del sentido profundo de los acontecimientos"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Sagitario transforma profundamente la relación con las creencias, la verdad, los sistemas de pensamiento y la búsqueda de sentido. Empuja a morir a ciertas certezas para encontrar una visión más verdadera y más vasta.",
+      "manifestations": ["Potencia de convicción que puede sacudir las estructuras", "Capacidad de transformar una visión del mundo", "Fuerza interior en la búsqueda de verdad", "Intensidad filosófica y espiritual"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "fluide",
+      "titre": "Fuego y movimiento",
+      "texte": "Sagitario y Aries comparten el impulso, el entusiasmo y la franqueza. Juntos, pueden avanzar rápido y lejos, sostenidos por una energía común que no conoce ni la tibieza ni la vacilación. El vínculo es vivo, motivador y muy vital.",
+      "forces": ["Acción inmediata y sinceridad compartida", "Dinámica poderosa y gusto por el movimiento", "Valor y audacia por ambos lados", "Complicidad instintiva entre dos fuegos"],
+      "frictions": ["Impaciencia recíproca", "Exceso y falta de marco", "Ausencia de anclaje común en la duración"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "variable",
+      "titre": "Horizonte y anclaje",
+      "texte": "Sagitario quiere abrir el horizonte, Tauro quiere estabilizar el terreno. La relación puede ser enriquecedora si cada uno respeta el ritmo y la necesidad fundamental del otro: libertad para uno, seguridad para el otro.",
+      "forces": ["Uno aporta la visión, el otro la estabilidad", "Posibilidad de crecimiento concreto y duradero", "Complementariedad entre impulso y anclaje"],
+      "frictions": ["Sagitario encuentra a Tauro demasiado fijo y lento", "Tauro encuentra a Sagitario demasiado móvil e imprevisible", "Conflicto entre necesidad de libertad y necesidad de seguridad"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "complementaire",
+      "titre": "Eje Sagitario–Géminis",
+      "texte": "Sagitario busca el sentido global, Géminis circula entre los hechos y las informaciones. Es un eje poderoso de complementariedad entre horizonte y detalle, síntesis y multiplicidad, convicción y curiosidad.",
+      "forces": ["Complementariedad entre visión de conjunto y sentido del detalle", "Gusto compartido por el saber y el aprendizaje", "Movimiento y estimulación intelectual mutua"],
+      "frictions": ["Sagitario puede parecer demasiado afirmativo y dogmático", "Géminis puede parecer demasiado disperso y superficial", "Conflicto entre convicción profunda y relatividad permanente"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "variable",
+      "titre": "Horizonte y refugio",
+      "texte": "Sagitario busca el espacio y el sentido; Cáncer busca la seguridad y la intimidad. El vínculo puede enriquecer los dos mundos, pero exige una verdadera comprensión mutua y un respeto profundo de las necesidades de cada uno.",
+      "forces": ["Uno abre los horizontes, el otro protege el hogar", "Posibilidad de crecimiento afectivo profundo", "Complementariedad entre aventura y apego"],
+      "frictions": ["Sagitario puede parecer demasiado libre o demasiado directo", "Cáncer puede parecer demasiado prudente o demasiado apegado", "Diferencia fundamental entre necesidad de espacio y necesidad de seguridad"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "fluide",
+      "titre": "Fuego real y fuego del horizonte",
+      "texte": "Leo y Sagitario comparten el calor, el entusiasmo, la creatividad y el gusto por lo vivo. El vínculo puede ser inspirador, alegre, muy generoso y sostenido por una dinámica expansiva común.",
+      "forces": ["Alegría y energía compartidas", "Confianza y optimismo recíprocos", "Generosidad sin medida por ambas partes", "Impulso común hacia la grandeza"],
+      "frictions": ["Exceso y desmesura por ambos lados", "Necesidad de centralidad de Leo frente a la necesidad de movimiento de Sagitario", "Tendencia común a vivir a lo grande sin medida"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "delicate",
+      "titre": "Visión y precisión",
+      "texte": "Sagitario piensa en grande, Virgo verifica cada detalle. El vínculo puede ser muy constructivo si aceptan que la verdad necesita a la vez horizonte y rigor, visión y método.",
+      "forces": ["Uno da el sentido, el otro el método", "Posibilidad de construir un pensamiento más completo", "Complementariedad entre expansión y discernimiento"],
+      "frictions": ["Virgo encuentra a Sagitario demasiado amplio e impreciso", "Sagitario encuentra a Virgo demasiado limitado y crítico", "Conflicto entre visión de conjunto y minuciosidad del detalle"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Apertura y relación",
+      "texte": "Sagitario aporta el impulso y la franqueza, Libra aporta la armonía y la inteligencia del vínculo. La relación puede ser agradable, abierta, viva y sostenida por un gusto común por la belleza y la sociabilidad.",
+      "forces": ["Diálogo fácil y apertura recíproca", "Gusto compartido por el vínculo y la sociabilidad", "Capacidad de avanzar juntos en la armonía"],
+      "frictions": ["Sagitario puede parecer demasiado directo o brusco", "Libra puede parecer demasiado prudente o matizada", "Conflicto entre verdad franca y diplomacia mesurada"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "intense",
+      "titre": "Profundidad y horizonte",
+      "texte": "Escorpio se sumerge en las profundidades, Sagitario amplía hacia los horizontes. El vínculo puede ser transformador y fecundo, pero también muy difícil si cada uno quiere imponer su manera de buscar la verdad.",
+      "forces": ["Búsqueda común de verdad y de autenticidad", "Intensidad y profundidad del vínculo", "Capacidad mutua de transformación", "Sinceridad cruda por ambos lados"],
+      "frictions": ["Escorpio puede parecer demasiado intenso o controlador", "Sagitario puede parecer demasiado ingenuo o demasiado rápido", "Conflicto entre profundidad cerrada y horizonte abierto"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "fluide",
+      "titre": "Horizonte compartido",
+      "texte": "Dos Sagitario se comprenden en su necesidad de libertad, de verdad, de movimiento y de entusiasmo. El vínculo puede ser alegre, vivo, muy abierto y sostenido por una energía expansiva común.",
+      "forces": ["Optimismo y alegría de vivir compartidos", "Apertura y tolerancia mutuas", "Movimiento y aventura permanentes", "Visión compartida del mundo"],
+      "frictions": ["Exceso de optimismo y falta de realismo", "Dificultad para asentarse y construir en la duración", "Promesas demasiado grandes por ambos lados", "Falta de marco y de estructura"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "variable",
+      "titre": "Visión y construcción",
+      "texte": "Sagitario quiere abrir el horizonte, Capricornio quiere construir en el tiempo. El vínculo puede ser fuerte y productivo si acepta unir el entusiasmo a la responsabilidad, la visión a la estrategia.",
+      "forces": ["Uno inspira y arrastra, el otro estructura y construye", "Complementariedad entre visión y estrategia a largo plazo", "Capacidad de lograr algo sólido y duradero"],
+      "frictions": ["Capricornio puede parecer demasiado cerrado o austero", "Sagitario puede parecer demasiado imprevisible o demasiado amplio", "Conflicto entre expansión y control"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "fluide",
+      "titre": "Apertura y libertad",
+      "texte": "Sagitario y Acuario comparten el gusto por el espacio, por la idea, por el movimiento y por cierta independencia fundamental. El vínculo puede ser muy estimulante intelectual y humanamente.",
+      "forces": ["Libertad e independencia compartidas", "Apertura de mente y tolerancia mutuas", "Estimulación intelectual permanente", "Visión de futuro y gusto por la innovación"],
+      "frictions": ["Distancia emocional posible por el lado de Acuario", "Inestabilidad y falta de anclaje común", "Dificultad para anclarse en un marco afectivo duradero"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "stimulante",
+      "titre": "Sentido, fe e imaginario",
+      "texte": "Sagitario busca una verdad en el horizonte, Piscis siente una verdad difusa y profunda. El vínculo puede ser espiritual, inspirador y sutil, pero también difuso y desestabilizador si ambos no encuentran un terreno común.",
+      "forces": ["Inspiración y apertura interior compartidas", "Sensibilidad común al misterio y al sentido", "Capacidad de elevar el vínculo hacia lo espiritual", "Compasión y generosidad mutuas"],
+      "frictions": ["Sagitario puede encontrar a Piscis demasiado difuso e inasible", "Piscis puede encontrar a Sagitario demasiado afirmativo y seguro de sí", "Conflicto entre convicción firme y disolución de las certezas"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Sagitario, entras en la vida con apertura, franqueza, necesidad de espacio y deseo de ir hacia un horizonte más amplio. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, presentarte y reaccionar lleva una tonalidad expansiva, viva y móvil. Abordas las situaciones con entusiasmo y buscas espontáneamente una perspectiva más grande.",
+    "apparence": [
+      "Presencia abierta y dinámica que inspira confianza",
+      "Porte móvil, directo o amplio con una impresión de libertad",
+      "Mirada viva, vuelta hacia el exterior y el horizonte",
+      "Cuerpo o porte que evoca el impulso, la proyección y el movimiento"
+    ],
+    "temperament": [
+      "Reacciona con espontaneidad y franqueza natural",
+      "Necesita espacio y movimiento para vivir bien",
+      "Entra en las situaciones con entusiasmo y optimismo",
+      "Soporta mal los marcos demasiado ajustados y busca siempre la perspectiva más grande"
+    ],
+    "vigilances": [
+      "Exceso de optimismo que puede cegar",
+      "Impaciencia ante la lentitud y las limitaciones",
+      "Tendencia a huir de la estrechez o de las obligaciones demasiado pesadas",
+      "Dificultad para asentarse de forma duradera en un lugar o un vínculo",
+      "Riesgo de prometer más de lo que se cumplirá con el tiempo"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Antares",
+      "nature": "Marte / Júpiter",
+      "texte": "Antares es una de las grandes estrellas reales de la tradición astrológica. En Sagitario, refuerza la idea de una búsqueda poderosa, de un deseo de ir lejos, de una intensidad orientada hacia una meta y de una relación valiente con el horizonte. Promete la grandeza a condición de no dejarse consumir por el exceso.",
+      "motsCles": ["Intensidad", "Grandeza", "Impulso", "Visión guerrera"]
+    },
+    {
+      "nom": "Rasalhague",
+      "nature": "Saturno / Venus",
+      "texte": "Rasalhague añade una nota de nobleza intelectual, de curiosidad elevada y de búsqueda de sentido. Concuerda bien con la dimensión filosófica y exploradora de Sagitario, evocando la búsqueda de un saber que ennoblece el alma.",
+      "motsCles": ["Investigación", "Saber", "Búsqueda", "Nobleza interior"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Turquesa", "motsCles": ["viaje", "protección", "apertura", "confianza"] },
+      { "nom": "Amatista", "motsCles": ["sabiduría", "visión", "espiritualidad", "altura"] },
+      { "nom": "Estaño", "motsCles": ["júpiter", "expansión", "crecimiento", "protección"] }
+    ],
+    "vegetaux": [
+      { "nom": "Salvia", "motsCles": ["sabiduría", "claridad", "aliento", "visión"] },
+      { "nom": "Cedro", "motsCles": ["altura", "elevación", "visión", "nobleza"] },
+      { "nom": "Menta", "motsCles": ["movimiento", "frescura", "impulso", "apertura"] }
+    ],
+    "animaux": [
+      { "nom": "Caballo", "motsCles": ["libertad", "impulso", "movimiento", "potencia"] },
+      { "nom": "Centauro", "motsCles": ["búsqueda", "instinto", "visión", "elevación"] },
+      { "nom": "Águila", "motsCles": ["visión", "altura", "nobleza", "horizonte"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "España", "texte": "Asociada a Sagitario por su impulso, su fuego interior, su expansión histórica y una cultura del panache y del horizonte." },
+    { "pays": "Australia", "texte": "Vinculada a Sagitario por sus grandes espacios, su espíritu de aventura y su juventud de carácter como nación." },
+    { "pays": "Hungría", "texte": "Citada en las tradiciones clásicas por su temperamento apasionado y su historia marcada por la búsqueda de libertad." },
+    { "pays": "Sudáfrica", "texte": "Asociada a Sagitario en las correspondencias tradicionales, evocando los grandes espacios, la aventura y la transformación." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Brad Pitt", "domaine": "Cine", "date": "18 de diciembre de 1963", "texte": "Encarna la apertura, la movilidad y la presencia expansiva de Sagitario a través de una carrera marcada por la diversidad de papeles." },
+    { "nom": "Taylor Swift", "domaine": "Música", "date": "13 de diciembre de 1989", "texte": "Ilustra la capacidad de proyección, de narración y de expansión creativa típica de Sagitario." },
+    { "nom": "Britney Spears", "domaine": "Música", "date": "2 de diciembre de 1981", "texte": "Encarna la energía viva, móvil y fuertemente visible de Sagitario con sus altibajos característicos." },
+    { "nom": "Miley Cyrus", "domaine": "Música", "date": "23 de noviembre de 1992", "texte": "Ilustra la necesidad de libertad, de expresión y de movimiento perpetuo de Sagitario." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Sagitario?",
+      "reponse": "Sagitario se caracteriza por el entusiasmo, la franqueza, el optimismo y una búsqueda permanente de sentido y de horizonte. Es un temperamento cálido, generoso, jovial y servicial, dotado de un agudo sentido de la organización y de una intuición notable. Ama la independencia, el movimiento y los grandes espacios, pero puede ser excesivo, impaciente y susceptible en las cuestiones de prestigio."
+    },
+    {
+      "question": "¿Qué tipo de amante es Sagitario?",
+      "reponse": "Entusiasta, sincero, franco y sostenido por el movimiento. Sagitario ama con calor y necesidad de horizonte: busca una relación que abra, inspire y respire. Propenso a los flechazos y a los arrebatos, sigue siendo no obstante respetuoso de los usos y aspira a la unión legal cuando ha encontrado el alma gemela. Soporta mal los vínculos demasiado posesivos o demasiado cerrados."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Sagitario?",
+      "reponse": "Un organizador, un visionario y un aglutinador. Sagitario destaca cuando puede avanzar hacia un objetivo portador de sentido, transmitir una visión, aprender o ampliar un campo. Es dotado para la dirección, la administración, la diplomacia, la enseñanza y el comercio internacional. Soporta mal la rutina y los entornos cerrados."
+    },
+    {
+      "question": "¿Qué casa corresponde a Sagitario?",
+      "reponse": "La Casa IX, la del sentido, la filosofía, los estudios superiores, los viajes lejanos y las creencias. Su analogía natural con Sagitario subraya la búsqueda de horizonte, la transmisión de una visión y la búsqueda de un eje interior más vasto que lo cotidiano."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Sagitario?",
+      "reponse": "El ascendente Leo amplifica su carisma y su generosidad. El ascendente Aries refuerza su impulso y su audacia. El ascendente Libra le aporta diplomacia y sentido de la mesura en sus impulsos."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Sagitario?",
+      "reponse": "Exceso de optimismo, promesas no cumplidas, dogmatismo y susceptibilidad en las cuestiones de prestigio. Su necesidad de libertad puede volverlo huidizo ante los compromisos concretos del día a día."
+    },
+    {
+      "question": "¿Es Sagitario infiel?",
+      "reponse": "Sagitario no es infiel por naturaleza, pero su necesidad de libertad y de novedad puede volverlo inestable si se siente encerrado. Una vez comprometido con convicción, es leal y respetuoso del vínculo."
+    }
+  ]
+}

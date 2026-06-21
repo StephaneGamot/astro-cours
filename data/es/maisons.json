@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "maison-1",
+    "name": "Casa I",
+    "headline": "La Casa I representa la entrada en el mundo",
+    "description": "La identidad en movimiento: la manera de empezar, de presentarse y de ocupar su lugar. En ella se lee el impulso personal y el estilo espontáneo.",
+    "image": {
+      "src": "/images/maisons/I.webp",
+      "alt": "Casa I en astrología"
+    }
+  },
+  {
+    "slug": "maison-2",
+    "name": "Casa II",
+    "headline": "La Casa II representa los recursos",
+    "description": "Los valores, la seguridad y lo que se construye en lo concreto. Habla de la relación con el dinero, el cuerpo y lo que estabiliza.",
+    "image": {
+      "src": "/images/maisons/II.webp",
+      "alt": "Casa II en astrología"
+    }
+  },
+  {
+    "slug": "maison-3",
+    "name": "Casa III",
+    "headline": "La Casa III representa el aprendizaje cotidiano",
+    "description": "La comunicación, los intercambios cercanos y la curiosidad. Describe la manera de pensar 'día a día' y de vincularse con el entorno.",
+    "image": {
+      "src": "/images/maisons/III.webp",
+      "alt": "Casa III en astrología"
+    }
+  },
+  {
+    "slug": "maison-4",
+    "name": "Casa IV",
+    "headline": "La Casa IV representa las raíces",
+    "description": "El hogar, la intimidad y la base interior. Habla de la familia, la historia personal y lo que nutre un sentimiento de pertenencia.",
+    "image": {
+      "src": "/images/maisons/IV.webp",
+      "alt": "Casa IV en astrología"
+    }
+  },
+  {
+    "slug": "maison-5",
+    "name": "Casa V",
+    "headline": "La Casa V representa la expresión creativa",
+    "description": "El placer, la creación y lo que hace latir el corazón. Concierne a la alegría de expresarse, el amor, el ocio y a veces la paternidad.",
+    "image": {
+      "src": "/images/maisons/V.webp",
+      "alt": "Casa V en astrología"
+    }
+  },
+  {
+    "slug": "maison-6",
+    "name": "Casa VI",
+    "headline": "La Casa VI representa el día a día organizado",
+    "description": "Los hábitos, el trabajo concreto y la atención al cuerpo. Habla de disciplina, salud, servicio y de los ajustes necesarios.",
+    "image": {
+      "src": "/images/maisons/VI.webp",
+      "alt": "Casa VI en astrología"
+    }
+  },
+  {
+    "slug": "maison-7",
+    "name": "Casa VII",
+    "headline": "La Casa VII representa la relación con el otro",
+    "description": "Las asociaciones y el cara a cara. Describe la manera de comprometerse, de cooperar, y lo que se aprende a través del vínculo.",
+    "image": {
+      "src": "/images/maisons/VII.webp",
+      "alt": "Casa VII en astrología"
+    }
+  },
+  {
+    "slug": "maison-8",
+    "name": "Casa VIII",
+    "headline": "La Casa VIII representa la transformación",
+    "description": "Los pasajes intensos: crisis, regeneración, verdad emocional. Habla de los lazos profundos, los recursos compartidos y el soltar.",
+    "image": {
+      "src": "/images/maisons/VIII.webp",
+      "alt": "Casa VIII en astrología"
+    }
+  },
+  {
+    "slug": "maison-9",
+    "name": "Casa IX",
+    "headline": "La Casa IX representa la apertura",
+    "description": "Los estudios, los viajes, la filosofía y la búsqueda de sentido. Describe la necesidad de ampliar la visión y comprender el 'porqué'.",
+    "image": {
+      "src": "/images/maisons/IX.webp",
+      "alt": "Casa IX en astrología"
+    }
+  },
+  {
+    "slug": "maison-10",
+    "name": "Casa X",
+    "headline": "La Casa X representa la vocación",
+    "description": "La dirección social y lo que se construye a largo plazo. Habla de carrera, imagen pública y responsabilidad ante el mundo.",
+    "image": {
+      "src": "/images/maisons/X.webp",
+      "alt": "Casa X en astrología"
+    }
+  },
+  {
+    "slug": "maison-11",
+    "name": "Casa XI",
+    "headline": "La Casa XI representa lo colectivo",
+    "description": "Las amistades, las redes y los proyectos de futuro. Describe el lugar en un grupo, el ideal común y los caminos hacia el futuro.",
+    "image": {
+      "src": "/images/maisons/XI.webp",
+      "alt": "Casa XI en astrología"
+    }
+  },
+  {
+    "slug": "maison-12",
+    "name": "Casa XII",
+    "headline": "La Casa XII representa lo invisible",
+    "description": "El retiro, el inconsciente y la vida interior profunda. Habla de lo que se vive en silencio, de la sanación y de la conexión con lo sutil.",
+    "image": {
+      "src": "/images/maisons/XII.webp",
+      "alt": "Casa XII en astrología"
+    }
+  }
+]

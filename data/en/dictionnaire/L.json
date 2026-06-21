@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "latitude",
+    "category": "astronomique",
+    "term": "Latitude",
+    "short": "The angular distance of a place relative to the equator.",
+    "body": "Terrestrial latitude is crucial for calculating the Ascendant and for determining house sizes in most systems of house division. The closer one moves toward the poles, the more unequal the houses become, which alters the distribution of the planets across the chart."
+  },
+  {
+    "slug": "lion",
+    "category": "signe",
+    "term": "Leo",
+    "short": "The fifth sign (Fire/Fixed), symbolizing vitality, creativity and radiance.",
+    "body": "Leo corresponds to the heart of summer, when the Sun stands at its zenith. Ruled by the Sun itself, it embodies the will to shine, nobility of heart and self-expression. It is the sign of artists, leaders and children. It seeks recognition and applause. Its challenge is to learn humility and to understand that its radiance should serve to illuminate others rather than merely to feed its own ego."
+  },
+  {
+    "slug": "liz-greene",
+    "category": "personnage",
+    "term": "Liz Greene",
+    "short": "American-British astrologer and Jungian analyst, a pioneer of psychological astrology.",
+    "body": "Co-founder of the Centre for Psychological Astrology in London, Liz Greene revolutionized modern astrology by integrating Carl Jung's depth psychology into it. Her works, notably on Saturn (“Saturn: A New Look at an Old Devil”), transformed the view of the so-called “malefic” planets into vehicles of growth and individuation. She sees the natal chart as a map of the human psyche and its personal myths, rather than as a tool for purely event-based prediction."
+  },
+  {
+    "slug": "longitude",
+    "category": "astronomique",
+    "term": "Longitude",
+    "short": "The position of a place (East/West) or of a celestial body along the ecliptic.",
+    "body": "In astrology, celestial longitude is the measure of a planet's position from 0° to 360° along the zodiac, starting from the vernal point. It is this figure that tells us in which sign and at what degree a planet lies (e.g. 15° Leo)."
+  },
+  {
+    "slug": "luminaires",
+    "category": "concept",
+    "term": "Luminaries",
+    "short": "The term grouping together the Sun and the Moon, the two sources of light in the sky.",
+    "body": "The Luminaries hold a rank superior to that of the other planets. The Sun (the diurnal Luminary) represents consciousness, the spirit, the will and the father. The Moon (the nocturnal Luminary) embodies the unconscious, instinct, the emotions and the mother. Unlike the planets, the Luminaries never turn retrograde. They are the pillars of the personality: the Sun gives direction and purpose, while the Moon supplies the emotional fuel and the capacity to respond. Their relationship (the phases of the Moon) at the moment of birth is decisive for inner balance."
+  },
+  {
+    "slug": "lunaison",
+    "category": "astronomique",
+    "term": "Lunation",
+    "short": "The complete cycle of the Moon relative to the Sun, lasting about 29.5 days.",
+    "body": "Also called the synodic month, the lunation defines the lunar phases (New Moon, First Quarter, Full Moon, Last Quarter). In astrology, the lunation of birth (the phase the Moon was in) determines the individual's basic temperament: New Moon types are instinctive pioneers, while those born under a Full Moon live in a quest for balance and objectivity."
+  },
+  {
+    "slug": "lune",
+    "category": "planète",
+    "term": "Moon",
+    "short": "The nocturnal Luminary governing the emotions, the unconscious and the maternal principle.",
+    "body": "The Moon is the fastest-moving body in the zodiac, traveling through the twelve signs in about 28 days. It symbolizes our receptive side, our capacity to feel and to react. In astrology it describes the fundamental needs for emotional security, the relationship with the mother, and our earliest childhood memories. While the Sun represents the conscious identity, the Moon embodies the instinctive soul, daily habits and the world of dreams. It rules the sign of Cancer."
+  },
+  {
+    "slug": "lune-croissante",
+    "category": "astronomique",
+    "term": "Waxing Moon",
+    "short": "The phase between the New Moon and the Full Moon.",
+    "body": "For about fourteen days, the lit portion of the Moon increases as seen from Earth. Symbolically, this is the phase of building, assimilation, growth and the accumulation of energy. It is the ideal time to launch projects that call for an increase in vitality."
+  },
+  {
+    "slug": "lune-decroissante",
+    "category": "astronomique",
+    "term": "Waning Moon",
+    "short": "The phase between the Full Moon and the New Moon.",
+    "body": "The Moon's light gradually diminishes. This period favors clearing out, letting go, moving on and bringing things to completion. It is a time for taking stock and for preparing for the new cycle."
+  },
+  {
+    "slug": "lune-descendante",
+    "category": "astronomique",
+    "term": "Descending Moon",
+    "short": "The motion of the Moon lowering day by day relative to the horizon.",
+    "body": "The Moon is said to be descending when it moves toward the south of the celestial equator. Symbolically, this marks a movement of withdrawal, of taking root and of concentration toward the depths or the earth. It is a favorable period for deep, underlying work and for introspection."
+  },
+  {
+    "slug": "lune-montante",
+    "category": "astronomique",
+    "term": "Ascending Moon (Rising)",
+    "short": "The motion of the Moon rising higher above the horizon each day.",
+    "body": "Take care not to confuse this with the waxing Moon. The ascending Moon is a phenomenon of declination: the Moon passes from the lowest point of the ecliptic (Sagittarius) to the highest (Gemini). In astrology and in biodynamic gardening, this phase is associated with the rising of the sap and with an energy of outward expansion."
+  },
+  {
+    "slug": "lune-noire-moyenne",
+    "category": "point fictif",
+    "term": "Mean Black Moon",
+    "short": "The mean position of the Black Moon, calculated from the lunar apogee.",
+    "body": "The Mean Black Moon is a notional position calculated from the lunar apogee, but using a mathematical average rather than the actual position. Some astrologers prefer this method for its simplicity and regularity, while others hold that the True Black Moon, which follows the real apogee, offers a more precise reading. The choice between the two often depends on the astrological approach one adopts."
+  },
+  {
+    "slug": "lune-noire-lilith",
+    "category": "point fictif",
+    "term": "Black Moon (Lilith)",
+    "short": "The empty focal point of the lunar orbit, symbolizing the shadow, raw desire and the refusal to compromise.",
+    "body": "The Black Moon is not a celestial body, but the second focus of the lunar ellipse (the apogee). It represents a zone of psychological shadow, a fascinating void or a primal wound. Lilith embodies revolt, the untamed, instinctive sexuality and the quest for the absolute. In a chart, she indicates where the individual refuses to submit and where they seek an unvarnished truth."
+  },
+  {
+    "slug": "lune-noire-vraie",
+    "category": "point fictif",
+    "term": "True Black Moon",
+    "short": "The actual position of the Black Moon, calculated from the lunar apogee.",
+    "body": "The True Black Moon is the actual position of the Black Moon, calculated from the lunar apogee. It can differ from the Mean Black Moon, which is a mathematical average. Some astrologers prefer to use the True Black Moon for a more precise reading, while others consider that the Mean Black Moon carries a stronger symbolic value. The choice between the two often depends on the astrological approach one adopts."
+  },
+  {
+    "slug": "lune-nouvelle",
+    "category": "astronomique",
+    "term": "New Moon",
+    "short": "The exact conjunction between the Sun and the Moon (0°).",
+    "body": "The New Moon marks the beginning of a synodic cycle. The Moon is invisible in the night sky. It is a moment of sowing, of pure intention and of renewal. In a natal chart, being born under a New Moon indicates an instinctive temperament, one in which desire (the Sun) and need (the Moon) are fused together."
+  },
+  {
+    "slug": "lune-progresse",
+    "category": "technique",
+    "term": "Progressed Moon",
+    "short": "The position of the Moon according to the method of secondary progressions (1 day = 1 year).",
+    "body": "The progressed Moon is one of the most reliable indicators of the inner emotional climate. It travels around the chart in about twenty-seven and a half years, spending roughly two and a half years in each house and sign. Its passage shows where the individual's psychic attention is focused: relocations, deep shifts of mood or newly arising needs for security."
+  }
+]

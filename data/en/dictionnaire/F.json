@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "feminin-nocturne-negatif",
+    "category": "concept",
+    "term": "Feminine (Nocturnal/Negative)",
+    "short": "A receptive, introverted and magnetic energy polarity.",
+    "body": "The so-called 'Feminine' signs (also Nocturnal or Negative) comprise the Earth signs (Taurus, Virgo, Capricorn) and the Water signs (Cancer, Scorpio, Pisces). This polarity points to an inward-turned energy that favours reflection, sensation, conservation and receptivity. These signs respond to their surroundings and prize assimilation over raw action. A predominance of feminine signs in a chart often brings depth, patience and a keen sensitivity to atmosphere."
+  },
+  {
+    "slug": "feu",
+    "category": "concept",
+    "term": "Fire",
+    "short": "One of the four elements: energy, enthusiasm, will and creative impulsiveness.",
+    "body": "The element of Fire gathers the signs of Aries, Leo and Sagittarius. It represents vital energy, enthusiasm, the will to act and personal radiance. Natives dominated by Fire are spontaneous, courageous, passionate and oriented toward the future. Fire is hot and dry by nature. It lights, warms and transforms, but it can also burn if left unchannelled. In excess, Fire produces impetuousness, impatience, self-centredness or anger. A chart devoid of Fire may lack self-confidence, initiative or spontaneous joy in living. Fire is the first spark, the Big Bang of the personality — without it, nothing gets started. In classical astrology, the three Fire signs form the trine of energy and creativity."
+  },
+  {
+    "slug": "fixe",
+    "category": "concept",
+    "term": "Fixed (Quality)",
+    "short": "One of the three qualities: stability, perseverance, resistance to change.",
+    "body": "The fixed signs are Taurus, Leo, Scorpio and Aquarius. They occupy the heart of each season and embody stability, determination and continuity. Where the cardinal signs initiate and the mutable signs adapt, the fixed signs maintain and consolidate. A native strongly marked by the fixed quality is tenacious, reliable, enduring, sometimes stubborn. They cannot bear to be rushed and prefer to advance at their own pace. Their strength lies in constancy; their weakness in rigidity. The fixed signs are renowned for their ability to withstand outside pressure — but also for their difficulty in letting go when change becomes necessary. A Grand Cross in fixed signs, for instance, is one of the most powerful (and most dreaded) configurations of the natal chart: it confers an iron will but also a tendency toward emotional blockages."
+  },
+  {
+    "slug": "fomalhaut",
+    "category": "astronomique",
+    "term": "Fomalhaut",
+    "short": "The Royal Star of Pisces (located at 4° Pisces), tied to spirituality and ideals.",
+    "body": "Fomalhaut is the Watcher of the South, located in the constellation of the Southern Fish (Piscis Austrinus). Its nature is Mercurial and Venusian. It brings great inspiration, mystical vision and success in artistic or spiritual fields. Its challenge lies in the need to uphold noble aims: if intentions are purely materialistic or dishonest, the star's influence can lead to confusion or scandal. It is the star of the realistic dreamers and of the prophets."
+  },
+  {
+    "slug": "fond-du-ciel",
+    "category": "concept",
+    "term": "Imum Coeli (IC)",
+    "short": "The lowest point of the chart (Fourth House), tied to roots, family and private life.",
+    "body": "The Imum Coeli (IC, also called the Nadir of the chart) is the cusp of the Fourth House. It represents the foundation of the personal edifice: family origins, the home, the ancestral heritage and the intimate life, far from the public gaze. It is the point of midnight, symbolising the end of life but also the depths of the unconscious. While the Midheaven rises toward the world, the Imum Coeli takes root in the earth. It reveals the atmosphere of the home during childhood and the way in which the individual needs to recharge in private."
+  },
+  {
+    "slug": "fridaire",
+    "category": "technique",
+    "term": "Firdaria",
+    "short": "A system of planetary periods governing successive cycles of life.",
+    "body": "Stemming from Persian and medieval astrology, the firdaria divide life into major periods entrusted to each planet (e.g. 10 years for the Sun, 11 for the Moon). The order of the planets changes according to whether the chart is diurnal or nocturnal. This technique helps to understand which 'god' or which energy governs a precise span of life, explaining why certain talents or challenges only manifest at a given moment of existence."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "occultation",
+    "category": "astronomique",
+    "term": "Ocultación",
+    "short": "Desaparición de un astro detrás de otro cuerpo celeste de mayor tamaño (a menudo la Luna).",
+    "body": "La ocultación es una forma de eclipse. Cuando un planeta queda oculto por la Luna, su influencia queda momentáneamente “entre paréntesis” o interiorizada a la fuerza. En astrología mundial, la ocultación de un planeta mayor (como Júpiter o Saturno) es una señal poderosa de cambio radical o de crisis en torno a los valores de ese astro para la colectividad."
+  },
+  {
+    "slug": "opposition",
+    "category": "aspect",
+    "term": "Oposición",
+    "short": "Aspecto de confrontación formado por un ángulo de 180° entre dos planetas.",
+    "body": "La oposición es un aspecto mayor tenso que se forma cuando dos planetas están diametralmente enfrentados en el círculo zodiacal (180°, con un orbe de 8° a 10° para los luminares). Crea una polaridad, un balanceo entre dos energías que se enfrentan. A diferencia de la cuadratura (conflicto interior), la oposición se manifiesta a menudo a través de las relaciones: el nativo proyecta en el otro aquello que no reconoce en sí mismo. Una oposición Sol-Luna (Luna llena natal) crea una tensión entre la voluntad consciente y las necesidades emocionales. Una oposición Venus-Saturno enfrenta el deseo de amor con el miedo al rechazo. La oposición exige un trabajo de integración: aceptar que dos fuerzas aparentemente contradictorias coexisten y encontrar un punto de equilibrio. En la astrología tradicional, la oposición se consideraba menos dura que la cuadratura, ya que la conciencia de ambos polos permite un trabajo más lúcido."
+  },
+  {
+    "slug": "orbe",
+    "category": "concept",
+    "term": "Orbe",
+    "short": "Margen de tolerancia, en grados, que se concede a un aspecto para considerarlo activo.",
+    "body": "El orbe es el margen de tolerancia, medido en grados, que el astrólogo concede a un aspecto para considerarlo efectivo. Por ejemplo, un trígono exacto es de 120°; con un orbe de 8°, dos planetas separados entre 112° y 128° formarán un trígono. Cuanto más cerrado es el orbe, más poderoso es el aspecto. Un aspecto exacto (orbe de 0° a 1°) se considera muy fuerte; un aspecto con orbe amplio (7°-8°) está presente pero atenuado. Los orbes varían según las escuelas: la astrología tradicional usaba orbes planetarios (cada planeta posee su propio orbe), mientras que la astrología moderna emplea por lo general orbes por aspecto (8°-10° para la conjunción, 6°-8° para la cuadratura y el trígono, 4°-6° para el sextil). Los luminares (Sol, Luna) gozan tradicionalmente de orbes más amplios que los planetas lentos."
+  },
+  {
+    "slug": "orbite",
+    "category": "astronomique",
+    "term": "Órbita",
+    "short": "Trayectoria descrita por un astro alrededor de su centro de gravedad.",
+    "body": "La órbita determina la velocidad de cada planeta y, por tanto, la duración de su estancia en cada signo. En astrología, también se habla de “orbe” (derivado de órbita) para designar la zona de influencia de un aspecto. Cuanto más cerrado es el orbe, más poderoso es el aspecto, pues significa que los dos planetas están lo más cerca posible de su alineación perfecta."
+  },
+  {
+    "slug": "orientation",
+    "category": "concept",
+    "term": "Orientación",
+    "short": "Tendencia fundamental de una carta a dirigirse hacia el exterior (diurna) o el interior (nocturna).",
+    "body": "La orientación de una carta se determina por la posición del Sol: si el Sol está por encima del horizonte, la carta es diurna; de lo contrario, es nocturna. Esta distinción influye en la jerarquía de los planetas y en la dinámica psicológica del nativo. Una carta diurna privilegia los planetas diurnos (Sol, Júpiter, Saturno), mientras que una carta nocturna realza los planetas nocturnos (Luna, Venus, Marte). La orientación da una indicación sobre la manera en que el individuo expresa su energía: de forma más extrovertida y afirmada en las cartas diurnas, y más introvertida y receptiva en las nocturnas."
+  },
+  {
+    "slug": "orion",
+    "category": "constellation",
+    "term": "Orión",
+    "short": "Constelación mayor del cielo invernal, que simboliza al cazador mítico.",
+    "body": "Orión es una de las constelaciones más reconocibles del cielo nocturno, visible sobre todo durante los meses de invierno en el hemisferio norte. Está compuesta por varias estrellas brillantes, entre ellas Betelgeuse (una supergigante roja) y Rigel (una supergigante azul). En la mitología griega, Orión era un cazador gigante al que Zeus colocó entre las estrellas. En astrología, Orión no se emplea tradicionalmente como punto de referencia, pero puede considerarse un símbolo de fuerza, de valor y de búsqueda heroica."
+  },
+  {
+    "slug": "ostentation",
+    "category": "concept",
+    "term": "Ostentación (Orto Helíaco)",
+    "short": "Visibilidad de un planeta que sale de los rayos del Sol para hacerse observable.",
+    "body": "Históricamente, la ostentación (u orto helíaco) es un momento clave en el que un planeta, antes invisible por estar demasiado cerca del Sol, vuelve a ser observable al amanecer. Simbólicamente, esto marca el “nacimiento” de la influencia del planeta en el mundo concreto. Un planeta en ostentación gana autoridad y capacidad de acción."
+  },
+  {
+    "slug": "outsider",
+    "category": "concept",
+    "term": "Outsider",
+    "short": "Individuo cuya carta natal presenta configuraciones atípicas o planetas en signos poco frecuentes.",
+    "body": "Un outsider en astrología es una persona cuya carta natal destaca por configuraciones inhabituales, como planetas en signos poco frecuentes (por ejemplo, Urano en Tauro), agrupaciones planetarias en un signo poco común o aspectos muy cerrados entre planetas lentos. Estos individuos pueden experimentar una cierta extrañeza o la sensación de no pertenecer a las normas sociales, pero a menudo poseen una perspectiva única y una capacidad de innovación. La astrología puede ayudar a comprender las fortalezas y los desafíos específicos de estos outsiders, así como a valorar su originalidad."
+  }
+]

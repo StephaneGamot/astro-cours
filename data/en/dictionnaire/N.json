@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "nadir",
+    "category": "astronomique",
+    "term": "Nadir",
+    "short": "The point of the celestial sphere directly opposite the Zenith.",
+    "body": "The Nadir is the lowest point, located beneath the observer's feet. In astrology, it is technically identified with the Imum Coeli (IC). It symbolises the foundation of consciousness, the point of midnight, the psychological depths and the ancestral roots. It is the place of rest, of withdrawal and of intimate life."
+  },
+  {
+    "slug": "neptune",
+    "category": "planète",
+    "term": "Neptune",
+    "short": "The planet of inspiration, dreams, spirituality and the dissolution of boundaries.",
+    "body": "Neptune governs the invisible, intuition, the mystical arts and universal compassion. It symbolises the capacity to transcend the ego in order to connect with the collective. Poorly aspected, it can generate confusion, illusions, flights from reality or dependencies. It rules the sign of Pisces and takes about 165 years to travel through the zodiac."
+  },
+  {
+    "slug": "nocturne",
+    "category": "concept",
+    "term": "Nocturnal",
+    "short": "That which belongs to the night or favours inwardness.",
+    "body": "A chart is nocturnal if the Sun is below the horizon. In this case, the Moon becomes the reference luminary for vitality and destiny. The nocturnal (Feminine) signs favour receptivity, reflection and inner maturation."
+  },
+  {
+    "slug": "noeuds-lunaires",
+    "category": "point fictif",
+    "term": "Lunar Nodes",
+    "short": "The points of intersection between the Moon's orbit and the ecliptic, tied to karma and destiny.",
+    "body": "The lunar nodes are two diametrically opposed mathematical points where the Moon's orbit crosses the plane of the ecliptic (the plane of the Earth's orbit around the Sun). The North Node (or Dragon's Head) represents the direction of evolution, the soul's purpose, that toward which the native must strive in this life. The South Node (or Dragon's Tail) represents the gains of the past, the automatic reflexes, the inherited talents (which some interpret as karmic) but also the traps of repetition. The nodal axis runs through two opposite houses and two opposite signs, creating a fundamental axis of evolution in the chart. A transit of a slow planet over the lunar nodes often triggers events of a 'fated' character: decisive encounters, life reorientations, major realisations. Eclipses always occur near the lunar nodes, reinforcing their symbolism as an existential pivot."
+  }
+]

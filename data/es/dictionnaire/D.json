@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "dane-rudhyar",
+    "category": "personnage",
+    "term": "Dane Rudhyar",
+    "short": "Astrólogo y compositor francés (1895-1985), fundador de la astrología humanista.",
+    "body": "Rudhyar integró la filosofía oriental y la psicología de Jung en la astrología. Redefinió la carta natal como un proceso cíclico de crecimiento espiritual. Su obra “La Astrología de la Personalidad” es el texto fundador del enfoque humanista, en el que cada aspecto se ve como una etapa del despliegue del potencial humano más que como una influencia exterior."
+  },
+  {
+    "slug": "debilite-des-planetes",
+    "category": "concept",
+    "term": "Debilidad de los planetas",
+    "short": "Disminución de la fuerza de un planeta según su posición por signo o por casa.",
+    "body": "La debilidad puede ser esencial (el planeta está en exilio o en caída, lo que altera su naturaleza) o accidental (mala posición por casa, combustión por el Sol, aspectos difíciles). Un planeta en debilidad no significa una falta de talento, sino una dificultad para expresar sus cualidades de manera fluida o conforme a las expectativas sociales."
+  },
+  {
+    "slug": "decouverte-planete",
+    "category": "concept",
+    "term": "Descubrimiento de un planeta",
+    "short": "Fecha del descubrimiento de un planeta, que influye en su interpretación astrológica.",
+    "body": "La fecha del descubrimiento de un planeta es un elemento importante en astrología. Marca el momento en que la humanidad tomó conciencia de esta influencia cósmica. Por ejemplo, Urano fue descubierto en 1781, Neptuno en 1846 y Plutón en 1930. Estas fechas corresponden a menudo a cambios sociales mayores: la era industrial para Urano, la era de la psicología para Neptuno y los trastornos del siglo XX para Plutón. En la astrología moderna, se considera que los planetas descubiertos más recientemente (Urano, Neptuno, Plutón) tienen una influencia más colectiva o generacional que los planetas clásicos (Mercurio, Venus, Marte)."
+  },
+  {
+    "slug": "degenerescence",
+    "category": "concept",
+    "term": "Degeneración",
+    "short": "Debilitamiento extremo de un planeta, más allá de la debilidad.",
+    "body": "La degeneración es un concepto más extremo que la debilidad. Se produce cuando las condiciones son tan desfavorables que un planeta pierde casi toda su capacidad de expresar sus cualidades de manera constructiva. Por ejemplo, un planeta en caída en una casa de infortunio (Casa VIII o XII) y en aspecto difícil con planetas maléficos puede considerarse degenerado. Esto puede indicar bloqueos profundos, desafíos mayores o tendencias autodestructivas ligadas a la energía de ese planeta."
+  },
+  {
+    "slug": "declinaison",
+    "category": "astronomique",
+    "term": "Declinación",
+    "short": "Distancia de un astro al norte o al sur del ecuador celeste.",
+    "body": "Además de su posición en el zodíaco (longitud), los planetas tienen una altura (declinación). Dos planetas con la misma declinación se dicen en ‘Paralelo’, lo que actúa como una conjunción. Si tienen declinaciones opuestas (Norte/Sur), están en ‘Contraparalelo’, actuando como una oposición. Es una dimensión vertical de la astrología que a menudo se olvida."
+  },
+  {
+    "slug": "decan",
+    "category": "concept",
+    "term": "Decanato",
+    "short": "División de un signo en tres secciones de 10°, cada una coloreada por un planeta diferente.",
+    "body": "Cada signo del zodíaco abarca 30° de la eclíptica y se divide en tres decanatos de 10° cada uno. Esta subdivisión permite afinar la interpretación: un Aries del primer decanato (0°-10°) no tiene exactamente la misma tonalidad que un Aries del tercer decanato (20°-30°). Cada decanato se asocia a un subregente planetario que colorea el signo con una energía adicional. Coexisten varios sistemas de regencia de los decanatos: el sistema caldeo (el más antiguo), el sistema por triplicidad y otras variantes. En la práctica, los decanatos se utilizan para afinar las previsiones (especialmente en los horóscopos), pero también para comprender mejor las diferencias entre nativos de un mismo signo. Las estrellas fijas también se reparten por decanato, añadiendo una capa de interpretación adicional."
+  },
+  {
+    "slug": "degre",
+    "category": "concept",
+    "term": "Grado",
+    "short": "Unidad de medida de la posición de un planeta en el círculo zodiacal de 360°.",
+    "body": "El círculo zodiacal se divide en 360 grados, es decir 30° por signo. La posición de un planeta se expresa siempre en grados, minutos y segundos de arco dentro de un signo (por ejemplo: Venus a 15°27’ de Tauro). El grado exacto es crucial para calcular los aspectos (ángulos entre planetas), las cúspides de casa y el Ascendente. Algunos astrólogos atribuyen un significado específico a cada grado del zodíaco: los grados sabianos (imaginados por Marc Edmund Jones y Dane Rudhyar) son los más conocidos. Un grado crítico (0°, 13°, 26° de los signos cardinales, por ejemplo) se considera un punto de fuerza particular. La precisión del grado explica por qué la hora de nacimiento es tan importante en astrología: unos pocos minutos de diferencia pueden cambiar el Ascendente y desplazar todas las cúspides de casa."
+  },
+  {
+    "slug": "depression",
+    "category": "concept",
+    "term": "Depresión",
+    "short": "Estado de profundo malestar, a menudo ligado a configuraciones astrológicas difíciles.",
+    "body": "La depresión es un estado psicológico complejo que puede verse influido por factores astrológicos como planetas en caída, aspectos difíciles (cuadraturas, oposiciones) que implican a la Luna, Saturno o Plutón, o configuraciones como las Cuadraturas en T. Sin embargo, es crucial subrayar que la astrología nunca debe utilizarse para diagnosticar o tratar trastornos mentales. Puede ofrecer una comprensión simbólica de los desafíos emocionales, pero toda persona que sufra de depresión debería consultar a un profesional de la salud mental."
+  },
+  {
+    "slug": "descendant",
+    "category": "concept",
+    "term": "Descendente",
+    "short": "Punto opuesto al Ascendente (Casa VII), que rige las relaciones con los demás y las asociaciones.",
+    "body": "El Descendente (DS) marca el comienzo de la Casa VII. Representa al Otro, la pareja (sentimental o profesional), pero también a los ‘enemigos declarados’. En la astrología psicológica, describe a menudo las cualidades que no reconocemos en nosotros mismos y que proyectamos sobre los demás. Es por medio del Descendente que el individuo completa su personalidad a través del intercambio. Si el Ascendente es el ‘Yo’, el Descendente es el ‘Tú’. El estudio del signo en el Descendente y de su regente ofrece indicaciones cruciales sobre el tipo de pareja hacia la que uno se siente atraído y sobre la manera en que vive el compromiso contractual."
+  },
+  {
+    "slug": "detriment",
+    "category": "concept",
+    "term": "Exilio (Detrimento)",
+    "short": "Estado de un planeta situado en el signo opuesto a su domicilio.",
+    "body": "Un planeta en exilio está “fuera de casa.” Sus cualidades naturales se ven entorpecidas por un signo cuya energía le es ajena (p. ej. Marte en Libra). Esto exige al individuo una adaptación constante y un esfuerzo de conciencia para expresar la función planetaria sin frustración."
+  },
+  {
+    "slug": "dignite",
+    "category": "concept",
+    "term": "Dignidad",
+    "short": "Fuerza de un planeta según el signo que ocupa: domicilio, exaltación, exilio o caída.",
+    "body": "En la astrología tradicional, la dignidad de un planeta designa su fuerza o su debilidad en función del signo en el que se encuentra. Existen cuatro niveles principales. El domicilio es el signo que el planeta rige: Marte en Aries, Venus en Tauro — el planeta está allí en su casa, a gusto, plenamente eficaz. La exaltación es un signo donde el planeta expresa sus cualidades de manera amplificada: el Sol está exaltado en Aries, la Luna en Tauro. El exilio (o detrimento) es el signo opuesto al domicilio: el planeta está allí en terreno extraño, constreñido, incómodo. La caída es el signo opuesto a la exaltación: el planeta está allí debilitado. Estas dignidades no son veredictos: un planeta en exilio puede expresarse brillantemente si recibe buenos aspectos. Pero conocer las dignidades permite medir la ‘calidad energética’ natural de un planeta en una carta."
+  },
+  {
+    "slug": "dignite-accidentelle",
+    "category": "concept",
+    "term": "Dignidad accidental",
+    "short": "Fuerza de un planeta derivada de su posición por casa, de su velocidad o de sus aspectos.",
+    "body": "A diferencia de la dignidad esencial (ligada al signo), la dignidad accidental depende de las circunstancias del momento. Un planeta en casa angular (I, IV, VII, X), un planeta rápido o un planeta en Cazimi recibe dignidad accidental. Esto significa que tiene los medios concretos para actuar en el mundo material. Un planeta puede ser débil por signo (en exilio) pero fuerte accidentalmente (culminante), lo que indica una capacidad para superar sus desventajas mediante la acción."
+  },
+  {
+    "slug": "direct",
+    "category": "concept",
+    "term": "Directo",
+    "short": "Movimiento normal de un planeta que avanza en el orden de los signos del zodíaco.",
+    "body": "Un planeta se dice ‘directo’ cuando sigue su curso natural de Oeste a Este sobre la eclíptica. Es el estado estándar en el que la energía planetaria se expresa de manera espontánea, fluida y orientada hacia el futuro. La mayoría de los planetas de una carta natal son generalmente directos."
+  },
+  {
+    "slug": "directions-symboliques",
+    "category": "technique",
+    "term": "Direcciones simbólicas",
+    "short": "Método de previsión simple en el que todos los puntos de la carta avanzan 1° por año.",
+    "body": "También llamada dirección de un grado por un año, esta técnica se usa mucho para datar acontecimientos mayores de la vida. Cuando un planeta dirigido forma un aspecto con un planeta natal, señala un período clave."
+  },
+  {
+    "slug": "dispositaire",
+    "category": "concept",
+    "term": "Dispositor",
+    "short": "Planeta que rige el signo donde se encuentra otro astro.",
+    "body": "El dispositor es el “patrón” de otro planeta. Por ejemplo, si tu Luna está en Aries, Marte (regente de Aries) es el dispositor de tu Luna. Esto significa que la manera en que expresas tus emociones depende del estado de tu Marte. Esta noción es crucial para la síntesis de una carta, pues permite crear cadenas de disposición entre los planetas, que desembocan a veces en un ‘Regente de recepción’ final."
+  },
+  {
+    "slug": "dissonance",
+    "category": "concept",
+    "term": "Disonancia",
+    "short": "Cualidad atribuida a los aspectos generadores de tensión: cuadratura, oposición, sesquicuadratura.",
+    "body": "La disonancia, en astrología, designa la naturaleza de los aspectos que crean fricción entre dos energías planetarias. Los principales aspectos disonantes son la cuadratura (90°), la oposición (180°), la semicuadratura (45°) y la sesquicuadratura (135°). El término “disonante” ha reemplazado a los antiguos calificativos de “malo” o “maléfico,” pues la astrología moderna considera que la tensión es tan necesaria como la armonía. Una disonancia obliga al nativo a trabajar, a superar un desafío, a integrar dos fuerzas contradictorias. Es la fricción la que produce la luz. Una carta enteramente armónica (trígonos, sextiles) puede carecer de empuje; una carta rica en disonancias confiere a menudo una personalidad intensa, resiliente y combativa. La clave reside en el equilibrio entre armonía y disonancia."
+  },
+  {
+    "slug": "domicile",
+    "category": "concept",
+    "term": "Domicilio",
+    "short": "Signo zodiacal donde un planeta posee su mayor fuerza y afinidad.",
+    "body": "Un planeta se dice en ‘Domicilio’ cuando se encuentra en el signo que rige (p. ej. Marte en Aries, Luna en Cáncer). En esta posición, el planeta está en plena posesión de sus medios; puede actuar libremente y expresar su naturaleza de manera auténtica y poderosa. La astrología tradicional distingue el domicilio diurno del domicilio nocturno. Es la más importante de las dignidades esenciales."
+  },
+  {
+    "slug": "domification",
+    "category": "technique",
+    "term": "Domificación",
+    "short": "Método de cálculo para dividir la carta en doce casas.",
+    "body": "La domificación es el sistema utilizado para determinar el espacio ocupado por las casas. Existen numerosos métodos (Placidus, Koch, Regiomontanus, Signos Enteros, Porfirio) que pueden dar tamaños de casa diferentes, sobre todo para los nacimientos en latitudes extremas. La elección de la domificación es un tema de debate técnico constante entre astrólogos."
+  },
+  {
+    "slug": "diurne",
+    "category": "concept",
+    "term": "Diurno",
+    "short": "Lo que pertenece al día o se expresa en la claridad.",
+    "body": "En la astrología tradicional se utiliza la noción de ‘Secta’: una carta es diurna si el Sol está por encima del horizonte. Esto cambia la jerarquía de los planetas (el Sol se convierte en el luminar dominante). Los signos diurnos (Masculinos) están inclinados hacia la exteriorización y la acción directa."
+  }
+]

@@ -1,6 +1,8 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import { getLocale, getTranslations } from "next-intl/server";
 import { TagPills } from "./TagPills";
+import { postSlugFor } from "@/lib/blog";
 
 type PostMeta = {
   slug: string;
@@ -12,20 +14,18 @@ type PostMeta = {
   readingLevel?: "débutant" | "intermédiaire" | "avancé";
 };
 
-function formatFrDate(dateStr?: string) {
+function formatDate(dateStr: string | undefined, locale: string) {
   if (!dateStr) return null;
   const d = new Date(dateStr);
   if (Number.isNaN(d.getTime())) return null;
-
-  return d.toLocaleDateString("fr-FR", {
-    year: "numeric",
-    month: "long",
-    day: "2-digit",
-  });
+  return d.toLocaleDateString(locale, { year: "numeric", month: "long", day: "2-digit" });
 }
 
-export function BlogCard({ meta }: { meta: PostMeta }) {
-  const prettyDate = formatFrDate(meta.date);
+export async function BlogCard({ meta }: { meta: PostMeta }) {
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: "blog" });
+  const prettyDate = formatDate(meta.date, locale);
+  const href = `/blog/${postSlugFor(meta.slug, locale)}`;
 
   return (
     <article className="group overflow-hidden rounded-2xl border border-white/10 bg-black/20 transition hover:bg-white/5">
@@ -46,7 +46,6 @@ export function BlogCard({ meta }: { meta: PostMeta }) {
       <div className="space-y-3 p-5">
         <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-text/70">
           <div className="flex flex-wrap items-center gap-2">
-            {/* date discrète */}
             <span className="min-h-[1.25rem]">
               {prettyDate ? (
                 <time dateTime={meta.date}>{prettyDate}</time>
@@ -55,23 +54,18 @@ export function BlogCard({ meta }: { meta: PostMeta }) {
               )}
             </span>
 
-            {/* niveau discret si présent */}
             {meta.readingLevel ? (
               <span className="rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-xs text-text/75">
-                {meta.readingLevel}
+                {t(`level.${meta.readingLevel}`)}
               </span>
             ) : null}
           </div>
 
-          {/* petit “temps de lecture” si tu veux le brancher plus tard */}
           <span className="text-text/65">—</span>
         </div>
 
         <h2 className="text-xl font-semibold tracking-tight leading-snug">
-          <Link
-            href={`/blog/${meta.slug}`}
-            className="hover:underline underline-offset-4"
-          >
+          <Link href={href} className="hover:underline underline-offset-4">
             {meta.title}
           </Link>
         </h2>

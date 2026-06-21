@@ -1,0 +1,456 @@
+{
+  "slug": "poissons",
+  "nom": "Piscis",
+  "sousTitre": "El duodécimo signo del Zodiaco",
+  "devise": "Lo siento todo",
+  "periode": "19 de febrero – 20 de marzo",
+  "element": "Agua",
+  "mode": "Mutable",
+  "maitre": "Júpiter (tradición) / Neptuno (moderno)",
+  "exaltation": "Venus",
+  "exil": "Mercurio",
+  "chute": "Mercurio",
+  "polarite": "Femenino",
+  "temperament": "Linfático",
+  "maisonNaturelle": 12,
+  "couleur": {
+    "primaire": "#8284FD",
+    "secondaire": "#818CF8",
+    "accent": "#C4B5FD",
+    "gradient": "from-indigo-600 via-violet-500 to-purple-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "verseau", "nom": "Acuario" },
+    "suivant": { "slug": "belier", "nom": "Aries" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/poissons.webp",
+    "planete": "/images/planetes/neptune.webp"
+  },
+  "introduction": "Piscis es el duodécimo y último signo del Zodiaco. El Sol lo atraviesa entre el 19 de febrero y el 20 de marzo aproximadamente, al final del invierno, cuando la naturaleza parece todavía dormida pero ya prepara en silencio la gran renovación de la primavera. Es la culminación del ciclo, la última fase de espera, un momento de meditación y de armonía interior.\n\nTras la visión colectiva de Acuario, Piscis invita a sentir la unidad de lo viviente, a conectarse con lo que supera al individuo, a disolver las fronteras entre uno mismo y el mundo. No es casualidad que la astrología sitúe aquí el final del recorrido zodiacal: Piscis encarna el retorno al océano original, la compasión universal, el sueño de una conciencia que ya no separa sino que acoge todo — lo visible y lo invisible, lo real y lo imaginario, el sufrimiento y la gracia.",
+  "fondationsCosmiques": {
+    "texte": "Piscis pertenece al elemento Agua (frío y húmedo), lo que le confiere un temperamento linfático: gran receptividad interior, sensibilidad profunda, vida emocional rica y subterránea. Es el tercer nivel del Agua — el de la sublimación. Allí donde Cáncer siente y protege, allí donde Escorpio sondea y transforma, Piscis disuelve las fronteras y se conecta con la unidad de lo viviente.\n\nEl elemento psíquico está sublimado: se siente el sufrimiento de los demás, se perciben las corrientes invisibles, se capta lo que no se dice. Su modo es mutable: se adapta a todas las situaciones, se funde en los ambientes, adopta las formas que se le proponen. Es también un signo doble — dos peces que nadan en sentido contrario simbolizan la tensión permanente entre el sueño y la realidad, la evasión y la encarnación, el sacrificio y la plenitud. Signo pasivo, receptor e introvertido, encaja más que se defiende, pero posee una resistencia considerable y recursos interiores profundos.",
+    "courteAscension": "Piscis es un signo de ascensión corta — pasa rápidamente por encima del horizonte — lo que significa que, estadísticamente, menos personas nacen con Piscis como Ascendente.",
+    "pluton": "Piscis es el domicilio tradicional nocturno de Júpiter, el planeta de la expansión, de la fe y de la generosidad. El generoso Júpiter se siente bien en el signo de la compasión. Desde el descubrimiento de Neptuno en 1846, numerosos astrólogos modernos le han atribuido el dominio de Piscis, tan bien corresponde este planeta de imaginación, disolución y espiritualidad al temperamento profundo de este signo.\n\nLa cuestión de la doble regencia Júpiter-Neptuno permanece abierta: Júpiter da a Piscis su benevolencia, su sentido de la protección y su capacidad de ver en grande; Neptuno le da su porosidad, su imaginario y su aspiración a lo infinito. La exaltación de Venus en este signo añade una dimensión de amor incondicional: aquí, el amor ya no calcula, lo abraza todo."
+  },
+  "analogies": {
+    "animal": "Los peces",
+    "objet": "El océano, el velo, la copa, la marea",
+    "fonction": "Sentir, disolver, unir",
+    "texte": "Piscis es el signo del misticismo, la bondad, la compasión, la timidez, la indecisión y la filantropía. El místico, el marino, el enfermero, la trabajadora social — todos son arquetipos de este signo. Así como los peces viven en un medio sin fronteras visibles, dejándose llevar por las corrientes y las mareas, el nativo de Piscis evoluciona en un mundo de sensaciones, de intuiciones y de resonancias sutiles. Es el signo de las cosas ocultas y misteriosas, del temor a lo desconocido que se transforma en fascinación. Piscis inscribe en el Zodiaco la posibilidad de una conciencia que ya no separa: una conciencia oceánica, capaz de acoger la totalidad de lo viviente."
+  },
+  "mythologie": {
+    "titre": "El pez salvador y Jonás",
+    "texte": "Piscis está ligado a varios relatos mitológicos que evocan la salvación, la disolución y el renacimiento. En la mitología griega, Afrodita y Eros se transforman en peces para escapar del monstruoso Tifón — abandonar la propia forma para sobrevivir de otra manera. En la mitología hindú, es un pez llamado Manu quien salva a la humanidad de un inmenso diluvio y se convierte en el padre de la humanidad nueva.\n\nEn la tradición bíblica, Jonás es devorado por la ballena y permanece tres días en el vientre del animal en el fondo de las aguas antes de salir vivo, prefigurando la resurrección. El pez dibujado en los muros de las catacumbas era el signo de reunión de los primeros cristianos — ICTUS, «pez» en griego, formado por las iniciales de «Jesucristo, Hijo de Dios, Salvador». En todos estos mitos aparece la misma promesa: un tiempo de pruebas y de purificación es necesario para acceder a una vida nueva.",
+    "civilisations": "La figura del pez salvador atraviesa las civilizaciones: en Mesopotamia, el dios Ea tomaba la forma de un pez para enseñar la sabiduría a los hombres. En la India, Vishnú se encarnó en pez (Matsya) para salvar al mundo del diluvio. La sirenita de Andersen, enamorada de su príncipe, se sacrifica en silencio para que él sea feliz — mito pisciano por excelencia.\n\nLos dos peces que nadan en sentido contrario simbolizan en todas las tradiciones la dualidad entre el mundo visible y el mundo invisible, entre la carne y el espíritu, entre el apego y el desapego. Piscis porta la promesa de que el final de un ciclo no es una muerte, sino un retorno a la fuente."
+  },
+  "portrait": {
+    "temperament": "Piscis siente antes de definir: capta, absorbe, adivina, imagina y se deja atravesar por lo que no siempre se dice claramente. Su carácter es sensible, receptivo, intuitivo, a menudo soñador, con una relación muy fina con los ambientes y los movimientos interiores. Las facultades creadoras no siempre son espectaculares, pero la asimilación es fácil y la comprensión se ve facilitada por una intuición generalmente muy considerable.\n\nEl sujeto de Piscis tiene a menudo presentimientos exactos y a veces dones de clarividencia. Es sincero, abnegado, conciliador, confiado y hospitalario, no pidiendo más que prestar servicio y agradar. Su timidez le incomoda a menudo, así como su ingenuidad y su excesiva espontaneidad. La voluntad es inestable y hay a menudo una falta de confianza en sí mismo.\n\nLa modestia es a veces excesiva y no permite poner de relieve sus verdaderas aptitudes. Cuando es inmaduro, puede volverse difuso, huidizo o demasiado influenciable; cuando madura, se convierte en una fuerza de compasión, de inspiración y de comprensión profunda.",
+    "forces": [
+      "Percibir los ambientes y los no dichos con una finura rara",
+      "Acoger y comprender la vivencia emocional del otro sin juicio",
+      "Crear a partir del imaginario, la inspiración o el sueño",
+      "Conectar a los seres por la compasión y la dulzura",
+      "Sentir los movimientos sutiles de una situación antes de que se manifiesten",
+      "Aportar sentido, dulzura o una forma de curación invisible"
+    ],
+    "ombres": [
+      "Pérdida de referencias y difuminación identitaria en los momentos de crisis",
+      "Evasión ante lo real cuando la presión se vuelve demasiado fuerte",
+      "Dificultad para poner límites claros en las relaciones",
+      "Tendencia a absorber las emociones negativas del entorno",
+      "Riesgo de confundir compasión y sacrificio de sí mismo"
+    ],
+    "besoinsVitaux": [
+      "Tiempo de retiro y de renovación lejos del ruido del mundo",
+      "Conexión espiritual, artística o imaginaria que nutra el alma",
+      "Un marco protector que respete la sensibilidad sin asfixiarla"
+    ],
+    "aTravailler": [
+      "El anclaje en lo real y lo concreto cotidiano",
+      "La claridad y el discernimiento ante las solicitaciones emocionales",
+      "La capacidad de decir no sin culpa",
+      "No confundir compasión y sacrificio de sí mismo",
+      "El aprendizaje de límites sanos que protejan sin aislar"
+    ],
+    "equilibre": "El Piscis en plena posesión de sus medios se convierte en una presencia apaciguadora, capaz de aliviar e inspirar sin perderse. Encarna una sabiduría sensible, vuelta hacia la unidad y la compasión. Su receptividad ya no lo disuelve: se convierte en una fuerza de presencia, de cuidado sutil y de creación inspirada. Su dulzura ya no es debilidad sino una forma de valor silencioso, y su imaginario se convierte en un puente entre lo visible y lo invisible."
+  },
+  "sante": {
+    "zones": ["Pies", "Sistema linfático", "Fluidos orgánicos", "Psiquismo"],
+    "texte": "Piscis gobierna principalmente los pies, el sistema linfático, los fluidos orgánicos, las glándulas y los ganglios. Predispone a los malestares ligados a los pies, a la pituita, al coriza, a la obesidad, y por el signo opuesto a trastornos respiratorios e intestinales.\n\nEl psiquismo está particularmente solicitado: los nativos de Piscis pueden ser propensos a las afecciones psicosomáticas, a la angustia afectiva, a las úlceras, a las colitis espasmódicas y al asma. La constitución es a menudo más frágil que la media, y la actividad puede verse limitada por la indolencia o la debilidad física. Piscis debe procurar proteger su sistema nervioso de la sobrecarga emocional y mantener su vitalidad mediante prácticas suaves que respeten su ritmo interior."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "Las facultades creadoras son a veces discretas, pero la asimilación es fácil y la intuición muy considerable. El sujeto tiene a menudo presentimientos exactos y a veces dones de clarividencia. Muy gran sensibilidad y emotividad: recibe fácilmente la huella de las influencias buenas o malas de su entorno. Muy conciliador, confiado y hospitalario, es un amigo sincero y abnegado. La actividad está limitada por la indolencia o la falta de confianza en sí mismo, pero sabe dar muestras de aptitudes organizadoras y triunfa sobre todo en los puestos de confianza. A pesar de su timidez, le ocurre, a raíz de una poderosa intuición, tomar decisiones de una audacia inconsciente a menudo coronadas por el éxito."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "La situación financiera es a menudo precaria durante mucho tiempo, con una mejora frecuente a partir de los cuarenta. Los gastos son bastante elevados, las reservas escasas. A veces dos fuentes de ingresos. La cuestión de la salud siempre debe tenerse en cuenta, pues la debilidad física puede disminuir considerablemente las ganancias. El nativo se beneficia, sin embargo, de vez en cuando de circunstancias favorables inesperadas. En los empleos subalternos, las ganancias son más regulares y el sujeto sabe a menudo hacerse indispensable."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "La curiosidad intelectual es a veces débil, lo que puede entorpecer los estudios, sin embargo es un buen indicio de imaginación y de intuición. Los viajes son bastante frecuentes y el sujeto se siente atraído por los desplazamientos sobre el agua, pero a menudo estos quedan en estado de proyecto. Las relaciones familiares son más bien numerosas y pueden desempeñar un papel moral favorable, pero a veces surgen enemistades entre los vecinos o los allegados. Posibilidad de estudios emprendidos en secreto, sobre todo en materia de ocultismo o de espiritualidad."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "Buen indicio para el entendimiento familiar. Los padres son abnegados y conciliadores, haciendo todo lo posible para ayudar al sujeto. El hogar es generalmente confortable y la vida familiar armoniosa. El nativo aprecia a menudo la estancia a orillas del agua. Es también un factor de inestabilidad en la residencia, con al menos dos cambios importantes de domicilio a lo largo de la vida. A veces secretos de familia o circunstancias misteriosas en torno al nacimiento. Final de vida a menudo apacible y sin preocupaciones materiales."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Presagia varias aventuras sentimentales discretas e incluso ocultas, con inestabilidad, indecisión y a veces timidez. Este signo muy fecundo indica generalmente varios hijos. En cuanto a las especulaciones, esta posición puede indicar intuiciones muy afortunadas y es más bien un signo de suerte si los aspectos son favorables. Si los aspectos son muy malos, riesgo de serios problemas sentimentales a raíz de calumnias o celos."
+    },
+    {
+      "numero": 6,
+      "titre": "Lo cotidiano y la salud",
+      "texte": "Predispone a las enfermedades del signo y a las de Júpiter y Neptuno. Las enfermedades accidentales corren el riesgo de volverse crónicas. Es un indicio de vitalidad restringida. La actividad del nativo está más o menos entorpecida por su estado de salud y los cambios de situación son frecuentes. Si los aspectos son buenos, los eventuales colaboradores son habitualmente abnegados; si los aspectos son malos, hay que desconfiar de sus traiciones o indiscreciones."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "Compromete algo la armonía y la duración de la unión, con a veces dos matrimonios de los cuales el primero tiene a menudo lugar bastante pronto. Si la primera unión es algo tardía, las posibilidades de entendimiento se ven aumentadas. Las asociaciones no son aconsejables: aportan más preocupaciones que satisfacciones. En cambio, los enemigos declarados son poco peligrosos, pues este signo tiende a reducir los antagonismos abiertos. Si los aspectos son malos, las enemistades ocultas se vuelven más numerosas."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Si los otros indicios del tema son concordantes, puede haber peligros ligados al agua o al envenenamiento. Más a menudo, esta posición presagia un final ligado a las enfermedades del signo, a menudo en un lugar de retiro o de cuidado. Es más bien un indicio favorable a las herencias, pero estas corren el riesgo de suscitar celos en la familia. Si las disonancias son graves, una parte del patrimonio puede dilapidarse en pleitos o disminuirse por decisiones perjudiciales."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Hay a menudo, a lo largo de la vida, dos grandes viajes claramente más importantes que todos los demás. Más bien propicia para vivir lejos del lugar de nacimiento. Tendencia a los desplazamientos sobre el agua. Indicio muy propicio para el estudio del ocultismo y de la espiritualidad. Acrecienta las tendencias religiosas o místicas, con a veces un retiro religioso o un compromiso contemplativo."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "El sujeto se ve a menudo obligado a tantear antes de encontrar su vocación, de ahí la probabilidad de dos cambios marcados en la carrera y un éxito más bien tardío. El acceso a los honores y a la notoriedad no se ve facilitado por esta posición: aunque el sujeto triunfe brillantemente, su éxito corre el riesgo de verse empañado por calumnias o maniobras de enemigos y envidiosos. Toda elevación de los nativos que tienen a Piscis en posición importante suscita automáticamente celos a veces inesperados."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Las relaciones amistosas son bastante numerosas, conciliadoras y sobre todo serviciales. Sin embargo, pueden producirse enemistades y ciertos amigos corren el riesgo de pasar al rango de las enemistades ocultas sin que el nativo se dé cuenta. Hay que evitar molestar a unos amigos habitualmente muy susceptibles. A veces, esta posición presagia el encuentro de amigos en circunstancias imprevistas y algo misteriosas. En general, amistades agradables pero algo inconstantes."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "La superposición del signo y de su casa natural acentúa los riesgos de preocupaciones ocasionados por las enemistades ocultas. Los celos, las calumnias y los obstáculos sordos son siempre posibles con esta posición. Parece acrecentar la atracción por las ciencias ocultas y acentuar las tendencias filantrópicas. Si no hay disonancia seria, las enemistades ocultas nunca podrán perjudicar considerablemente. Predisposición a las enfermedades del signo o a las de Júpiter y Neptuno."
+    }
+  ],
+  "amour": {
+    "texte": "Piscis ama con una inmensa sensibilidad, mucha dulzura, fusión, imaginario y compasión. Necesita sentir que un vínculo toca el alma, que abre un espacio de intimidad sutil, de confianza y de ternura.\n\nEl nativo de Piscis es sincero y abnegado, pero a veces indeciso y propenso a los caprichos. Es sentimental, muy inclinado a creer en la sinceridad de su pareja, lo que lo expone a decepciones que le afectarán profundamente debido a su gran sensibilidad. Puede amar muy profundamente, pero debe aprender a no perderse en el otro ni en el ideal que proyecta sobre él.",
+    "qualites": [
+      "Gran ternura afectiva y abnegación sincera",
+      "Capacidad de amar con empatía y compasión profundas",
+      "Imaginación romántica y sensibilidad a las necesidades invisibles del vínculo",
+      "Fidelidad y honestidad en los sentimientos"
+    ],
+    "vigilances": [
+      "Puede idealizar la relación o la pareja más allá de lo real",
+      "Riesgo de fusión excesiva que borra los contornos de uno mismo",
+      "Dificultad para poner límites claros en la intimidad",
+      "Tendencia a confundir salvar, comprender y amar"
+    ],
+    "affinites": ["cancer", "scorpion", "taureau", "capricorne"]
+  },
+  "travail": {
+    "texte": "Piscis trabaja bien cuando puede servir, inspirar, crear, cuidar, escuchar o dar forma a algo más vasto que él mismo. Sobresale en los ámbitos donde la intuición, la imaginación, la compasión o la sensibilidad a lo viviente tienen un verdadero lugar. Los roles de confianza, de colaboración o de apoyo le convienen a menudo mejor que los puestos de mando. El éxito se obtiene generalmente en una actividad que exige abnegación o sacrificio. Los fracasos se deben habitualmente a la timidez, a la mala salud o a los obstáculos imprevisibles.",
+    "atouts": [
+      "Empatía y capacidad de escucha excepcionales",
+      "Creatividad nutrida por el imaginario y la inspiración",
+      "Sentido de lo sutil e intuición profesional fina",
+      "Abnegación y capacidad de hacerse indispensable"
+    ],
+    "defis": [
+      "Soporta mal los entornos demasiado duros o demasiado mecánicos",
+      "Puede carecer de marco, de precisión o de energía sostenida",
+      "Riesgo de absorción emocional en las situaciones difíciles",
+      "Puede dispersarse si el objetivo carece de claridad o de sentido"
+    ]
+  },
+  "argent": {
+    "texte": "Piscis mantiene una relación cambiante con el dinero. Puede vivirlo como una energía que circula, un medio de aliviar, de ayudar, de crear o de sentirse menos prisionero del mundo duro. Las ganancias son a menudo modestas e irregulares, los gastos bastante elevados, las reservas escasas. A veces coexisten dos fuentes de ingresos. El nativo de Piscis necesita sentido en el uso del dinero, pero debe aprender a poner límites y a no dejar que la confusión se instale.",
+    "forces": [
+      "Generosidad natural y capacidad de dar sin cálculo",
+      "Capacidad de usar el dinero para ayudar o crear",
+      "Menos apego materialista que otros signos",
+      "Relación inspirada e intuitiva con el valor"
+    ],
+    "risques": [
+      "Difuminación en la gestión y falta de marco financiero",
+      "Dificultad para rechazar las peticiones de ayuda financiera",
+      "Gastos de evasión o de compensación emocional",
+      "Inestabilidad de los ingresos ligada a los cambios de situación"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Piscis construye una identidad sensible, intuitiva, receptiva y vuelta hacia lo que supera las fronteras visibles del yo.",
+      "manifestations": ["Empatía", "Imaginación", "Apertura a lo sutil", "Capacidad de sentir profundamente"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Piscis vive las emociones de forma muy porosa, profunda y sutil. Capta mucho, siente mucho y necesita silencio interior.",
+      "manifestations": ["Gran receptividad", "Compasión", "Intuición afectiva", "Capacidad de comprender sin palabras"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Piscis piensa de manera intuitiva, en imágenes, simbólica y a veces difusa. El espíritu capta correspondencias invisibles más que seguir una línea racional estricta.",
+      "manifestations": ["Pensamiento intuitivo", "Imaginación verbal", "Sentido del símbolo", "Capacidad de comprender lo implícito"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Piscis está en una de sus expresiones más inspiradas: amor incondicional, romanticismo, dulzura, fusión sutil e inmensa compasión.",
+      "manifestations": ["Ternura", "Romanticismo", "Compasión", "Gran delicadeza afectiva"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Piscis actúa de manera indirecta, intuitiva, inspirada o emocional. La energía rodea, siente, busca un sentido antes de atacar.",
+      "manifestations": ["Acción inspirada", "Sentido del buen momento sutil", "Capacidad de actuar para ayudar o aliviar", "Gran imaginación en la acción"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Piscis amplifica la compasión, la fe universal, el imaginario espiritual y la capacidad de sentir la unidad de lo viviente.",
+      "manifestations": ["Fe", "Generosidad", "Apertura espiritual", "Capacidad de acoger ampliamente"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Piscis estructura la sensibilidad, obliga a poner límites en lo difuso y a construir una forma de madurez en la acogida de lo sutil.",
+      "manifestations": ["Disciplina interior", "Capacidad de dar una forma a la inspiración", "Madurez espiritual", "Solidificación del mundo interior"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Piscis introduce despertares intuitivos, percepciones repentinas, rupturas sutiles en la manera de creer, de sentir o de conectarse con lo invisible.",
+      "manifestations": ["Intuición fulgurante", "Creatividad no convencional", "Apertura a otras dimensiones", "Capacidad de liberar esquemas sutiles"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Piscis está en una de sus expresiones más naturales: sensibilidad máxima, inspiración espiritual, imaginario oceánico y compasión universal.",
+      "manifestations": ["Inspiración profunda", "Mística", "Sensibilidad inmensa", "Capacidad de comunión"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Piscis transforma profundamente la relación con el final de los ciclos, con la compasión, con las creencias invisibles, con la unidad y el misterio de lo viviente.",
+      "manifestations": ["Potencia de regeneración interior", "Transformación espiritual", "Capacidad de ir al fondo del misterio humano", "Intensidad sutil"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "variable",
+      "titre": "Impulso y porosidad",
+      "texte": "Piscis siente ampliamente, Aries actúa claramente. El vínculo puede ser inspirador o desconcertante según la capacidad de cada uno de comprender el universo del otro.",
+      "forces": ["Complementariedad entre imaginación y acción", "Capacidad de abrir nuevos mundos", "Uno siente, el otro inicia"],
+      "frictions": ["Aries puede brusquear", "Piscis puede parecer difuso", "Conflicto entre franqueza directa y sensibilidad porosa"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "fluide",
+      "titre": "Dulzura, carne y sensibilidad",
+      "texte": "Tauro aporta la forma, la estabilidad y la dulzura concreta; Piscis aporta el imaginario, la compasión y la delicadeza interior. El vínculo puede ser muy apaciguador y envolvente.",
+      "forces": ["Ternura", "Apaciguamiento", "Complementariedad entre encarnación e imaginario", "Capacidad de crear un vínculo envolvente"],
+      "frictions": ["Tauro puede encontrar a Piscis demasiado difuso", "Piscis puede encontrar a Tauro demasiado concreto", "Conflicto entre seguridad y disolución"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "variable",
+      "titre": "Pensamiento móvil y sentir difuso",
+      "texte": "Géminis nombra y circula, Piscis siente y absorbe. El vínculo puede ser poético y sutil, pero también difícil de estabilizar para ambas partes.",
+      "forces": ["Imaginación", "Riqueza de intercambio", "Complementariedad entre palabras y sentir", "Creatividad"],
+      "frictions": ["Géminis puede parecer demasiado cerebral", "Piscis puede parecer demasiado difuso", "Conflicto entre lógica e intuición"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "fluide",
+      "titre": "Agua sensible y compasión",
+      "texte": "Piscis y Cáncer comparten el agua, la sensibilidad, la ternura y la intuición. El vínculo puede ser muy dulce, protector y profundo, con una comprensión que pasa más allá de las palabras.",
+      "forces": ["Empatía", "Ternura", "Profundidad del vínculo", "Capacidad de comprenderse sin muchas palabras"],
+      "frictions": ["Falta de límites", "Fusión excesiva", "Riesgo de alimentar juntos los miedos o las olas emocionales"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "variable",
+      "titre": "Resplandor e imaginario",
+      "texte": "Leo afirma e ilumina; Piscis siente, sueña y difunde. El vínculo puede ser creativo y tierno, pero exige conectar presencia y sutileza.",
+      "forces": ["Creatividad", "Romanticismo", "Complementariedad entre corazón e imaginario", "Belleza del vínculo"],
+      "frictions": ["Leo puede parecer demasiado afirmado", "Piscis puede parecer demasiado huidizo", "Conflicto entre necesidad de visibilidad y necesidad de retiro"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "complementaire",
+      "titre": "Eje Piscis–Virgo",
+      "texte": "Piscis abre a la unidad, Virgo distingue y clasifica. Es un eje mayor entre compasión y discernimiento, lo difuso y el método, inspiración y servicio concreto.",
+      "forces": ["Complementariedad profunda", "Equilibrio posible entre intuición y precisión", "Capacidad de unir sensibilidad y eficacia"],
+      "frictions": ["Piscis puede encontrar a Virgo demasiado crítica", "Virgo puede encontrar a Piscis demasiado difuso", "Conflicto entre abandono y control"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Armonía y fusión sutil",
+      "texte": "Libra busca una relación justa y bella; Piscis busca un vínculo sensible, profundo y casi fusional. La relación puede ser delicada y romántica, pero a veces imprecisa.",
+      "forces": ["Dulzura", "Romanticismo", "Búsqueda de una bella calidad de vínculo", "Capacidad de crear una atmósfera sutil"],
+      "frictions": ["Libra puede evitar ciertas verdades", "Piscis puede carecer de límites", "Conflicto entre claridad relacional y difuminación afectiva"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "fluide",
+      "titre": "Agua profunda y misterio",
+      "texte": "Piscis y Escorpio comparten el agua, la intuición, la intensidad y una capacidad de sentir lo invisible. El vínculo puede ser muy fuerte, magnético y transformador.",
+      "forces": ["Profundidad", "Intuición", "Magnetismo", "Capacidad de comprender lo que no se dice"],
+      "frictions": ["Escorpio puede querer controlar demasiado", "Piscis puede disolverse o huir", "Conflicto entre intensidad estructurada y porosidad"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "stimulante",
+      "titre": "Fe, sentido y misterio",
+      "texte": "Sagitario busca una verdad orientada hacia el horizonte; Piscis siente una verdad difusa, intuitiva, interior. El vínculo puede ser muy inspirador si no se pierde en el ideal.",
+      "forces": ["Inspiración", "Apertura interior", "Capacidad de elevar el vínculo", "Sentido del misterio y del sentido"],
+      "frictions": ["Sagitario puede parecer demasiado afirmativo", "Piscis puede parecer demasiado difuso", "Conflicto entre convicción y disolución"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "stimulante",
+      "titre": "Estructura y compasión",
+      "texte": "Capricornio da un marco, Piscis suaviza y abre a lo sensible. El vínculo puede ser profundamente complementario si cada uno respeta el universo del otro.",
+      "forces": ["Uno ancla, el otro inspira", "Complementariedad entre marco y compasión", "Capacidad de unir realidad y sensibilidad"],
+      "frictions": ["Capricornio puede parecer demasiado duro o cerrado", "Piscis puede parecer demasiado inasible", "Conflicto entre control y abandono"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "variable",
+      "titre": "Visión y océano interior",
+      "texte": "Acuario piensa lo colectivo y los sistemas; Piscis siente la unidad y lo invisible. El vínculo puede ser creativo e inspirador, pero a veces difícil de estabilizar.",
+      "forces": ["Apertura a otros posibles", "Creatividad", "Complementariedad entre visión y compasión", "Capacidad de imaginar de otra manera"],
+      "frictions": ["Acuario puede parecer demasiado distante", "Piscis puede parecer demasiado poroso", "Conflicto entre idea y sentir"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "fluide",
+      "titre": "Océano frente a océano",
+      "texte": "Dos Piscis pueden comprenderse en la dulzura, la intuición, la compasión y la necesidad de sutileza. El vínculo puede ser muy tierno, fusional e inspirado, pero corre el riesgo de carecer de anclaje.",
+      "forces": ["Empatía", "Romanticismo", "Comprensión intuitiva", "Gran dulzura"],
+      "frictions": ["Difuminación a dos", "Falta de límites", "Fusión excesiva", "Dificultad para anclar concretamente el vínculo"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Piscis, entras en la vida con dulzura, intuición, receptividad y una gran sensibilidad al ambiente. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, de presentarte y de reaccionar lleva una tonalidad sutil, soñadora, inspirada o difícil de encerrar en contornos demasiado nítidos.",
+    "apparence": [
+      "Presencia dulce o envolvente",
+      "Mirada soñadora, lejana o muy sensible",
+      "Impresión de misterio, de fluidez o de discreción",
+      "Porte a veces cambiante, difícil de captar por completo"
+    ],
+    "temperament": [
+      "Reacciona mucho al ambiente y a la energía de los lugares",
+      "Necesita sentirse en confianza para definirse claramente",
+      "Observa y siente antes de decidir o comprometerse",
+      "Soporta mal la brutalidad o la sequedad relacional"
+    ],
+    "vigilances": [
+      "Difuminación identitaria que puede desconcertar al entorno",
+      "Falta de límites en las relaciones o los compromisos",
+      "Tendencia a absorber los ambientes negativos",
+      "Dificultad para afirmarse claramente ante la presión"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Fomalhaut",
+      "nature": "Venus / Mercurio",
+      "texte": "Fomalhaut es una de las grandes estrellas reales de la tradición astrológica. Refuerza la idea de un ideal inspirado, de una apertura a lo invisible y de una aspiración a una belleza o una verdad más sutil que el mundo ordinario.",
+      "motsCles": ["Inspiración", "Mística", "Visión", "Pureza interior"]
+    },
+    {
+      "nom": "Achernar",
+      "nature": "Júpiter",
+      "texte": "Achernar aporta una tonalidad de movimiento líquido, de transición y de impulso interior. Concuerda con la dimensión mutable, inspirada y fluida de Piscis.",
+      "motsCles": ["Fluidez", "Final de ciclo", "Impulso sutil", "Imaginación"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Amatista", "motsCles": ["espiritualidad", "intuición", "dulzura", "elevación"] },
+      { "nom": "Aguamarina", "motsCles": ["agua", "fluidez", "paz", "sensibilidad"] },
+      { "nom": "Estaño", "motsCles": ["júpiter", "apertura", "protección", "fe"] }
+    ],
+    "vegetaux": [
+      { "nom": "Loto", "motsCles": ["espiritualidad", "pureza", "misterio", "elevación"] },
+      { "nom": "Nenúfar", "motsCles": ["agua", "sueño", "reposo", "interioridad"] },
+      { "nom": "Melisa", "motsCles": ["apaciguamiento", "dulzura", "consuelo", "sensibilidad"] }
+    ],
+    "animaux": [
+      { "nom": "Pez", "motsCles": ["fluidez", "adaptación", "sensibilidad", "misterio"] },
+      { "nom": "Delfín", "motsCles": ["intuición", "dulzura", "agua", "vínculo"] },
+      { "nom": "Medusa", "motsCles": ["transparencia", "porosidad", "deriva", "sutileza"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Portugal", "texte": "Mar, melancolía, apertura imaginaria y sensibilidad vuelta hacia lo lejano." },
+    { "pays": "Escandinavia", "texte": "Atribución simbólica tradicional de geografía astrológica." },
+    { "pays": "Egipto", "texte": "Misterio, lo sagrado, el río nutricio y antigüedad espiritual." },
+    { "pays": "Nubia", "texte": "Atribución simbólica tradicional de las correspondencias clásicas de Piscis." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Rihanna", "domaine": "Música", "date": "20 de febrero de 1988", "texte": "Sensibilidad, creatividad, magnetismo y capacidad de cambiar de registro con fluidez." },
+    { "nom": "Emily Blunt", "domaine": "Cine", "date": "23 de febrero de 1983", "texte": "Finura de expresión, sensibilidad y capacidad de encarnar registros emocionales sutiles." },
+    { "nom": "Eva Longoria", "domaine": "Cine", "date": "15 de marzo de 1975", "texte": "Presencia a la vez dulce, seductora e intuitiva, en afinidad con Piscis." },
+    { "nom": "Justin Bieber", "domaine": "Música", "date": "1 de marzo de 1994", "texte": "Fuerte receptividad emocional, imagen cambiante y sensibilidad muy visible." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Piscis?",
+      "reponse": "Piscis se caracteriza por una inmensa sensibilidad, una intuición profunda, una gran compasión y una necesidad de sueño y de sentido. Es un temperamento receptivo, vuelto hacia lo invisible, que capta los ambientes y las emociones con una finura rara. Puede ser indeciso e influenciable, pero es también uno de los signos más abnegados, más imaginativos y más capaces de comprender al otro en profundidad."
+    },
+    {
+      "question": "¿Qué tipo de amante es Piscis?",
+      "reponse": "Tierno, abnegado, romántico y profundamente sensible. Piscis ama con compasión e imaginario, buscando un vínculo que toque el alma. Necesita un espacio de intimidad sutil y de confianza. Puede idealizar a su pareja y debe aprender a no perderse en la fusión o el sacrificio."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Piscis?",
+      "reponse": "Colaboradores inspirados, intuitivos y abnegados. Sobresalen en los puestos de confianza, los oficios del cuidado, de la creación, de la escucha y del acompañamiento. Necesitan sentido y un clima que no brutalice su sensibilidad. Triunfan a menudo en las actividades que exigen abnegación o sacrificio."
+    },
+    {
+      "question": "¿Qué casa corresponde a Piscis?",
+      "reponse": "La Casa XII, la de los retiros, lo invisible, las pruebas interiores, la vida oculta, los mundos sutiles y el dejar ir. Su analogía natural con Piscis subraya la disolución, la compasión, el inconsciente, la espiritualidad y la necesidad de acoger lo que escapa al control."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Piscis?",
+      "reponse": "El ascendente Virgo aporta estructura y discernimiento a su sensibilidad. El ascendente Tauro lo ancla en lo concreto. El ascendente Escorpio refuerza su profundidad emocional y su fuerza interior."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Piscis?",
+      "reponse": "Indecisión, huida ante lo real, ingenuidad excesiva y dificultad para poner límites. Su gran porosidad emocional puede volverlo influenciable o empujarlo hacia formas de evasión."
+    },
+    {
+      "question": "¿Por qué Piscis es tan emotivo?",
+      "reponse": "Piscis es el último signo de Agua en modo mutable, lo que le confiere una receptividad máxima. Capta las emociones del otro como una esponja. Esta sensibilidad es su fuerza creadora e intuitiva."
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "slug": "balance",
+  "nom": "Libra",
+  "sousTitre": "The seventh sign of the Zodiac",
+  "devise": "I connect",
+  "periode": "September 23 – October 22",
+  "element": "Air",
+  "mode": "Cardinal",
+  "maitre": "Venus",
+  "exaltation": "Saturn",
+  "exil": "Mars",
+  "chute": "Sun",
+  "polarite": "Masculine",
+  "temperament": "Sanguine",
+  "maisonNaturelle": 7,
+  "couleur": {
+    "primaire": "#EC4899",
+    "secondaire": "#A78BFA",
+    "accent": "#F9A8D4",
+    "gradient": "from-pink-500 via-rose-400 to-violet-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "vierge", "nom": "Virgo" },
+    "suivant": { "slug": "scorpion", "nom": "Scorpio" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/balance.webp",
+    "planete": "/images/planetes/venus.webp"
+  },
+  "introduction": "Libra is the seventh sign of the Zodiac. It is the start of autumn: a time of assessment, transition and relaxation — you wonder what you will do, you feel you can still do things, but you do not yet know what. It is the first sign of the immaterial, spiritual, inner phase. An Air sign, cardinal, masculine, diurnal, ruled by Venus, Libra embodies the encounter with the other, the search for balance, justice and harmony. After the first six signs centred on building the self, Libra opens the door of “we.” Its founding gesture is neither “I exist” nor “I discern” — it is “I connect.” I balance, I harmonise, I dialogue, I bring together.",
+  "fondationsCosmiques": {
+    "texte": "Libra belongs to the Air element (hot and humid), which gives it a sanguine temperament: mobility, a capacity for communication, a taste for exchange. It is the second level of Air — that of mastery. Libra weighs its words, looks for the right vocabulary, seeks harmony in exchange. It is gentle, light, abstract air, the need for relationship. Its mode is cardinal: it initiates a season, the birth of autumn. Cardinal signs carry the urge to begin, to undertake — in Libra, this movement turns toward relationship, cooperation, openness to the other.",
+    "courteAscension": "Tradition classes Libra among the signs of long ascension, diurnal, commanding (positive), southern, of right ascension, human, of vitality, of beauty, of tall and slender stature, of wit and science, of religiosity, of “few children” and of “good spirit.” Saturn is exalted there: justice cannot be done unless one knows the limits that cannot be crossed. The constitution is robust and this sign favours a long life.",
+    "pluton": "The exile of Mars in Libra underscores a fundamental tension between the sign's need for harmony and the martial energy that wants to decide, assert and fight. Libra seeks compromise; Mars wants direct action. The fall of the Sun adds a difficulty in shining alone — the Libra native needs the other in order to define itself. This is precisely the Libra–Aries axis: cooperation versus assertion, dialogue versus impulse."
+  },
+  "analogies": {
+    "animal": "No specific animal",
+    "objet": "The scales, the mirror, the bridge, the contract",
+    "fonction": "To connect, to balance, to harmonise",
+    "texte": "Libra evokes balance, justice, kindness, fairness, charm, seduction, artistic sense. It is the musician, the actor, the seducer, the dilettante, the artist in every field. The Libra native seeks conciliation and balance in everything. It hates conflict and seeks a peaceful life. In its home, every object is in its place, nothing is set down by chance. It loves relationships but may hesitate before committing."
+  },
+  "mythologie": {
+    "titre": "Themis, Astraea and the Judgement of Paris",
+    "texte": "Libra is associated with the figure of Astraea, goddess of justice and harmony, who would leave the world when humans strayed from balance and fairness. The myth of Themis, daughter of Uranus and Gaia, explains the sign's twofold tendency: her first three daughters — Beauty, Harmony and Tolerance — are the positive representations of Libra. Her three other daughters — Clotho, Lachesis and Atropos — represent fate. Libra symbolises the quest for a happy medium, not as a lukewarm compromise, but as a conscious search for harmony between opposing forces.",
+    "civilisations": "The Judgement of Paris illustrates Libra's pitfalls: this shepherd, chosen by Zeus to decide between Athena, Hera and Aphrodite, had to hand an apple to the most beautiful. He chose Aphrodite and her promise of love, not knowing that he would marry Helen and that the Trojan War would follow. Libra often opts for a very personal sharing that is never entirely disinterested. Buridan's ass — which, not knowing whether to start by drinking or eating, died of hunger and thirst — recalls that refusing to make a decision can have serious consequences."
+  },
+  "portrait": {
+    "temperament": "Libra assesses, compares, nuances and seeks to understand what would allow a fairer relationship. Its character is sociable, diplomatic, pleasant, often refined, with a strong need for harmony and reciprocity. The intelligence is vast, able to take an interest in the most varied fields, but orienting itself by preference toward music, painting, artistic activities or social questions. Much gentleness, kindness and altruism. A sense of measure and fairness. Company is indispensable to it, for it abhors solitude. Its “personal charm” shows in a harmonious and seductive physical appearance, always well-groomed dress, and a conversation marked by amiability, understanding and a spirit of conciliation.",
+    "forces": [
+      "A keen sense of fairness and the ability to create harmony",
+      "Remarkable relational, diplomatic and aesthetic talent",
+      "Personal charm and natural elegance",
+      "A vast intelligence oriented toward the arts and social questions",
+      "Optimism, good humour and natural sociability",
+      "Giving style, measure and beauty to a situation"
+    ],
+    "ombres": [
+      "Difficulty deciding and chronic indecision",
+      "Fear of conflict that can lead to hypocrisy",
+      "Dependence on others' approval and a need to please",
+      "Indolence, lack of initiative and a rather weak will",
+      "Under strong dissonance: inconstancy, carelessness, easy affairs"
+    ],
+    "besoinsVitaux": [
+      "Balanced relationships and reciprocity",
+      "Beauty, harmony and a pleasant setting",
+      "Dialogue, mutual recognition and company"
+    ],
+    "aTravailler": [
+      "Self-affirmation and the ability to decide",
+      "Accepting disagreement as part of reality",
+      "Not sacrificing one's truth merely to preserve appearances",
+      "The ability to stay upright even when the bond becomes tense",
+      "Distinguishing compromise from giving up"
+    ],
+    "equilibre": "A Libra in full command of their powers becomes a true bridge between people, able to unite without denying itself. It embodies a living, sensitive and deeply human justice. Its search for harmony no longer flees the real: it becomes the ability to hold together the beautiful, the just and the true. As the symbol of this sign suggests, the subject is well-balanced, concerned with fairness, quite ready to be of service and to reconcile parties in conflict."
+  },
+  "sante": {
+    "zones": ["Kidneys", "Lumbar region", "Skin", "Balance system"],
+    "texte": "Libra governs the spine, the kidneys, the bladder, the prostate, the venous system, the lumbar region, the urinary tract and hearing. It also exerts an influence on the internal genital organs and the adrenal glands. Typical ailments are urinary stones, uraemia, diabetes, nephritis, albuminuria, cystitis, kidney failure. The constitution is robust and this sign favours a long life. Natives must above all beware of excess in all areas — that is where their main vulnerability lies."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "A vast intelligence orienting itself toward music, painting, artistic activities or social questions. Sound reasoning, sometimes foresight. Gentleness, kindness, altruism, refinement. Very sentimental, intense but sometimes fleeting affections. A need to please, fine manners, natural elegance. Effort is very painful, inclined to indolence, little initiative. But luck plays the leading role and ensures success even in risky undertakings. Marriage or relationships play a decisive role in destiny."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "A rather favourable forecast: the subject is favoured by its practical sense and its luck. Some risk of losses through lawsuits or of heavy spending caused by the need for comfort. Marriage often exerts a beneficial influence on the situation. It eases earnings in artistic and intellectual occupations. Partnerships are sometimes fruitful."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "A conciliatory mind. Increases tastes and aptitudes for music, theatre and choreography. Eases pleasure trips. Relationships with relatives easy and cordial if the aspects are good. The partner can exert a beneficial influence on the mind. Sometimes marriage between cousins, or siblings hasten or delay the subject's marriage."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "Much taste for the layout and decoration of the home. It favours family harmony. Sometimes a rich or artistic father with a good influence on character and destiny. Family support is always important. The possibility of marriage or remarriage late in life. A peaceful and comfortable end of life. Luck in real-estate operations and rather late success."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "A good indicator for artistic aptitudes and the success related to them. Romantic adventures often lead to legal union. Sometimes affairs with married people. A favourable indication for speculation if the aspects are good. Offspring not very numerous but docile and amiable children. If the house is heavily afflicted, reckless affairs may force divorce."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to the sign's ailments. May indicate devoted and obedient collaborators, especially female staff. A chance of success in any subordinate position connected with artistic work. The native is regarded as a collaborator rather than a mere employee. Finds work easily. Slightly favours intellectual careers."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "An excellent indicator for an early, advantageous and well-balanced marriage if there are no poor aspects. A good position for partnerships and collaborations, which play an important role in life. An omen of beauty or elegance in the partner, sometimes marriage to an artist. If the house is afflicted, a drawn-out divorce due to procedural obstacles. Enmities generally few and not very dangerous."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "A favourable omen for inheritances, coming rather from in-laws or the partner than from the family of origin. In general, a peaceful end of life, a natural death following an ailment of the sign, surrounded by care and affection. However, rather limited longevity in this house."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "A good position for intuition and intellectual development in general. Seems to incline toward religion or mysticism. A fairly high ideal. The possibility of long pleasant journeys or advantageous stays in distant lands. Sometimes marriage to a foreigner or marriage far from one's birthplace."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "Partnerships or marriage play a great role in destiny, usually a favourable one. An appreciable indicator of luck, success and elevation. Sometimes artistic success. The subject must, however, contend with competitors and endure lawsuits. If the dissonances are serious, the possibility of setbacks or scandal caused by the partner. A rather early marriage."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Friendly relationships usually numerous, very helpful and pleasant. Friends can influence the subject's marriage for better or worse. The possibility of high connections in the political or artistic world. But the friendships seem more brilliant than solid."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "This sign in the Twelfth House usually plays a protective role and somewhat shields the native from slander and hidden enemies. Romantic complications are, however, fairly frequent. Enemies' attacks are never very formidable because they are not very persistent or violent. A tendency to Libra ailments. Sometimes the marriage is celebrated privately."
+    }
+  ],
+  "amour": {
+    "texte": "Libra loves through the relationship itself: dialogue, reciprocity, the elegance of the bond, the feeling of being two without becoming enemies. It needs a living, harmonious, respectful relationship where each person exists without crushing the other. Its love life begins early and is always very full, for it is both very drawn to romantic experiences and very sought after due to the attractive charm it inspires. Marriage is generally early. For the union to last, it is essential that the partner be very diligent in fulfilling their duties — a Libra must never be allowed to grow bored.",
+    "qualites": [
+      "A great sense of partnership and reciprocity",
+      "Relational charm and elegant seduction",
+      "A will to balance the bond",
+      "A search for emotional accuracy",
+      "The ability to seduce with gentleness, intelligence and elegance"
+    ],
+    "vigilances": [
+      "May remain too long in hesitation",
+      "Risk of wanting to please at the expense of its truth",
+      "Avoidance of necessary conflicts within the couple",
+      "Possible dependence on the partner's gaze or validation"
+    ],
+    "affinites": ["gemeaux", "verseau", "lion", "sagittaire"]
+  },
+  "travail": {
+    "texte": "Libra works well when it can cooperate, negotiate, create bonds, represent, harmonise or give a fair form to a situation. Effort in all its forms is painful to the Libra native, who is inclined to indolence. It has little initiative and often needs to be helped by a partner in order to act. But since it is favoured by circumstances and luck, the results often exceed expectations. Success is especially easy in partnership. Typical professions: musician, composer, singer, actor, decorator, hairdresser, model, dressmaker, politician (especially in the third decan).",
+    "atouts": [
+      "Diplomacy and a sense of negotiation",
+      "The ability to represent or to connect",
+      "A taste for balance and fair forms",
+      "A talent for making people work together",
+      "Natural luck that accompanies its undertakings"
+    ],
+    "defis": [
+      "May hesitate too much before deciding",
+      "Tolerates brutal or aggressive climates poorly",
+      "Risk of seeking agreement at the expense of efficiency",
+      "Indolence and lack of personal initiative",
+      "A tendency to exhaust itself trying to satisfy everyone"
+    ]
+  },
+  "argent": {
+    "texte": "Libra has an aesthetic, relational and symbolic relationship with money. Earnings are easy but spending on well-being is high. Carelessness and instability characterise its management. It is luck that plays the leading role and ensures success, even in risky undertakings. Marriage or relationships play a great role — often a beneficial one — in financial success. Failures or setbacks are surmountable and come from enmities, lawsuits or letting go.",
+    "forces": [
+      "A sense of value linked to quality and style",
+      "The ability to spend with taste",
+      "A civilised and measured relationship to possession",
+      "Natural luck in financial ventures"
+    ],
+    "risques": [
+      "Indecision in financial choices",
+      "Spending on aesthetics or image",
+      "A tendency to buy in order to maintain an outward harmony",
+      "Carelessness that can lead to letting go"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Libra builds an identity through relationship, exchange, comparison and the need for harmony. It needs to define itself in a world of reciprocity.",
+      "manifestations": [
+        "Relational sense",
+        "Nuance",
+        "Diplomacy",
+        "A natural search for balance"
+      ]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Libra experiences emotion through the harmony of the bond, the relational atmosphere and the need for peace. It regulates itself through the quality of exchange with others.",
+      "manifestations": [
+        "Gentleness",
+        "Emotional tact",
+        "A search for soothing",
+        "A sincere need for emotional balance"
+      ]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Libra thinks with nuance, compares, weighs, dialogues and seeks the most accurate formulation. Thought is relational and aware of opposing points of view.",
+      "manifestations": [
+        "A sense of nuance",
+        "Dialogue",
+        "Comparative intelligence",
+        "Balanced formulation"
+      ]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Libra is in one of its most natural expressions: a taste for the bond, beauty, balance, elegant seduction and relational harmony.",
+      "manifestations": [
+        "Charm",
+        "Refinement",
+        "A sense of beauty",
+        "A great capacity for relationship"
+      ]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Libra acts with measure, diplomacy and a concern for relationship. The energy seeks to move forward without breaking the balance, which can give finesse or hesitation.",
+      "manifestations": [
+        "The ability to act without brutality",
+        "A sense of negotiation",
+        "A search for intelligent agreement",
+        "Relational energy"
+      ]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Libra amplifies the taste for justice, relationship, cooperation, agreements and a certain social elegance.",
+      "manifestations": [
+        "Relational openness",
+        "Diplomatic generosity",
+        "Faith in balance",
+        "The ability to bring people together"
+      ]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Libra strongly structures the relationship to contracts, justice, commitment and reciprocity. It can give real relational maturity.",
+      "manifestations": [
+        "A sense of relational responsibility",
+        "The ability to build a solid agreement",
+        "Maturity in commitments",
+        "Uprightness"
+      ]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Libra awakens relationship, shakes up models of partnership, association or justice, and seeks to invent other forms of balance.",
+      "manifestations": [
+        "Relational originality",
+        "The ability to rethink bonds",
+        "Innovation in forms of cooperation",
+        "Renewal of the couple"
+      ]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Libra seeks an ideal of love, beauty, harmony and an almost perfect union. It makes the relationship more dreamy, more aesthetic, sometimes more blurred.",
+      "manifestations": [
+        "Romanticism",
+        "Relational inspiration",
+        "A heightened sense of beauty",
+        "A search for peace"
+      ]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Libra deeply transforms the relationship to others, to relational power, to justice and to contracts. It makes bonds intense, decisive, sometimes strategic.",
+      "manifestations": [
+        "Lucidity in human relationships",
+        "The ability to transform a bond or a system",
+        "A deep sense of what is just or distorted",
+        "Relational intensity"
+      ]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "complementaire",
+      "titre": "The Libra–Aries axis",
+      "texte": "Libra seeks the other, Aries asserts the self. It is a very strong axis between assertion and cooperation, the desire for connection and the need for initiative. The attraction is natural but the rhythms differ.",
+      "forces": [
+        "Natural attraction",
+        "Complementarity between action and relationship",
+        "A possible balance between assertion and dialogue"
+      ],
+      "frictions": [
+        "Aries may seem too direct",
+        "Libra may seem too hesitant",
+        "Conflict between impulse and diplomacy"
+      ]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "complementaire",
+      "titre": "Two signs of Venus, two styles",
+      "texte": "Libra and Taurus share Venus, but not in the same way: one seeks relationship and elegance, the other stability and embodiment. The bond can be pleasant and sensual.",
+      "forces": [
+        "A taste for beauty",
+        "A sense of values",
+        "A search for harmony",
+        "Venusian affinity"
+      ],
+      "frictions": [
+        "Taurus may seem too fixed",
+        "Libra may seem too changeable",
+        "A difference between comfort and relationship"
+      ]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "fluide",
+      "titre": "Air, dialogue and lightness",
+      "texte": "Libra and Gemini share a taste for exchange, connection, flexibility and relational intelligence. The relationship can be very pleasant and lively.",
+      "forces": ["Dialogue", "Flexibility", "Mental complicity", "Lightness"],
+      "frictions": [
+        "Lack of grounding",
+        "A tendency to avoid deep conflicts",
+        "Hesitation or scattering"
+      ]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "variable",
+      "titre": "Harmony and inwardness",
+      "texte": "Libra seeks the quality of the visible bond; Cancer seeks deep emotional security. The bond can be gentle but calls for connecting form and sensitivity.",
+      "forces": [
+        "Gentleness",
+        "A need for peace",
+        "A will to preserve the bond",
+        "The ability to care with tact"
+      ],
+      "frictions": [
+        "Libra may seem too distant",
+        "Cancer may seem too withdrawn",
+        "A difference between politeness and emotional depth"
+      ]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "fluide",
+      "titre": "Warmth and elegance",
+      "texte": "Leo brings warmth and presence, Libra brings the grace of the bond and a sense of form. The relationship can be very charming, lively and harmonious.",
+      "forces": [
+        "Charm",
+        "Elegance",
+        "Radiance",
+        "Complementarity between presence and relationship"
+      ],
+      "frictions": [
+        "Leo may demand more centrality",
+        "Libra may want to smooth things over too much",
+        "Conflict between admiration and balance"
+      ]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "variable",
+      "titre": "Accuracy and criticism",
+      "texte": "Libra wants to harmonise, Virgo wants to correct. The bond can be intelligent and useful, but calls for accepting that the truth is not always elegant.",
+      "forces": [
+        "A sense of accuracy",
+        "Fine intelligence",
+        "A taste for mastered forms",
+        "A will to improve"
+      ],
+      "frictions": [
+        "Virgo may seem too critical",
+        "Libra may seem too diplomatic",
+        "Conflict between peace and precision"
+      ]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Relational mirror",
+      "texte": "Two Libras can understand each other in their need for harmony, dialogue, partnership and civility. The bond can be elegant, pleasant, refined and sociable.",
+      "forces": [
+        "Charm",
+        "Dialogue",
+        "A search for balance",
+        "A taste for relationship"
+      ],
+      "frictions": [
+        "Indecision as a couple",
+        "Avoidance of conflicts",
+        "The risk of staying in the form without going to the heart of things"
+      ]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "intense",
+      "titre": "Grace and depth",
+      "texte": "Libra seeks visible harmony; Scorpio wants deep truth. The bond can be very magnetic, but it calls for reconciling the gentleness of forms with the intensity of the stakes.",
+      "forces": [
+        "Attraction",
+        "Relational depth",
+        "The ability to reveal what is at play in the bond"
+      ],
+      "frictions": [
+        "Scorpio may find Libra too smooth",
+        "Libra may fear the intensity",
+        "Conflict between peace and brutal truth"
+      ]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "fluide",
+      "titre": "Social air and open fire",
+      "texte": "Libra and Sagittarius often share a taste for connection, openness, movement and a certain nobility in human relationships.",
+      "forces": [
+        "Openness",
+        "Enthusiasm",
+        "A taste for exchange",
+        "A living relationship"
+      ],
+      "frictions": [
+        "Sagittarius may seem too direct",
+        "Libra may hesitate where Sagittarius decides",
+        "Conflict between diplomacy and frankness"
+      ]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "variable",
+      "titre": "Balance and structure",
+      "texte": "Libra seeks agreement and elegance; Capricorn seeks structure and steadiness. The bond can be solid but calls for connecting the social and the serious.",
+      "forces": [
+        "A sense of forms and of framework",
+        "The ability to build serious agreements",
+        "Complementarity between relationship and responsibility"
+      ],
+      "frictions": [
+        "Capricorn may seem too cold",
+        "Libra may seem too conciliatory",
+        "Conflict between flexibility and rigour"
+      ]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "fluide",
+      "titre": "Two Air signs, two styles of connection",
+      "texte": "Libra relates, Aquarius decentres. The bond can be very intelligent, free and stimulating, provided the human does not get lost in the idea.",
+      "forces": ["Freedom", "Dialogue", "Open-mindedness", "Stimulation"],
+      "frictions": [
+        "Aquarius may seem too distant",
+        "Libra may seem too dependent on the bond",
+        "Conflict between attachment and freedom"
+      ]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "variable",
+      "titre": "Harmony and compassion",
+      "texte": "Libra seeks the beauty of the bond, Pisces seeks sensitive fusion. The relationship can be gentle, inspired, delicate, but sometimes blurred or too idealistic.",
+      "forces": [
+        "Gentleness",
+        "Sensitivity",
+        "Romanticism",
+        "The ability to create a beautiful and tender atmosphere"
+      ],
+      "frictions": [
+        "Libra may avoid certain truths",
+        "Pisces may lack boundaries",
+        "Conflict between clarity and emotional vagueness"
+      ]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Libra, it often means that you enter life with tact, flexibility, a need for relationship and a sense of form. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting often carries an elegant, diplomatic and relational tone.",
+    "apparence": [
+      "A pleasant or harmonious presence",
+      "A balanced, elegant or neat bearing",
+      "A sociable or gentle gaze",
+      "An impression of charm, measure or tact"
+    ],
+    "temperament": [
+      "Spontaneously seeks agreement rather than rupture",
+      "Observes the other and adjusts a great deal",
+      "Needs a minimum of harmony to act serenely",
+      "Tolerates overly brutal relationships poorly"
+    ],
+    "vigilances": [
+      "Indecision and a tendency to over-adjust",
+      "Fear of conflict",
+      "Dependence on outside approval",
+      "Risk of smoothing over what should be clearly stated"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Zubenelgenubi",
+      "nature": "Jupiter / Mercury",
+      "texte": "Zubenelgenubi is often linked to relational intelligence, measure and the ability to articulate relationships more subtle than purely instinctive. It reinforces the sense of connection and nuanced judgement.",
+      "motsCles": ["Measure", "Connection", "Balance", "Social intelligence"]
+    },
+    {
+      "nom": "Zubeneschamali",
+      "nature": "Jupiter / Mercury",
+      "texte": "Zubeneschamali brings a tone of uprightness, mental light and a search for a fairer order. It harmonises well with the balancing and civilising dimension of Libra.",
+      "motsCles": ["Justice", "Clarity", "Balance", "Uprightness"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      {
+        "nom": "Opal",
+        "motsCles": ["refinement", "harmony", "beauty", "nuance"]
+      },
+      {
+        "nom": "Rose quartz",
+        "motsCles": ["gentleness", "tenderness", "peace", "relationship"]
+      },
+      {
+        "nom": "Copper",
+        "motsCles": ["venus", "beauty", "harmony", "seduction"]
+      }
+    ],
+    "vegetaux": [
+      {
+        "nom": "Rose",
+        "motsCles": ["beauty", "love", "harmony", "refinement"]
+      },
+      {
+        "nom": "Jasmine",
+        "motsCles": ["charm", "gentleness", "elegance", "seduction"]
+      },
+      {
+        "nom": "Linden",
+        "motsCles": ["peace", "gentleness", "soothing", "relationship"]
+      }
+    ],
+    "animaux": [
+      {
+        "nom": "Dove",
+        "motsCles": ["peace", "gentleness", "harmony", "relationship"]
+      },
+      {
+        "nom": "Swan",
+        "motsCles": ["grace", "elegance", "beauty", "balance"]
+      },
+      {
+        "nom": "Butterfly",
+        "motsCles": ["lightness", "refinement", "flexibility", "charm"]
+      }
+    ]
+  },
+  "geographie": [
+    {
+      "pays": "Japan",
+      "texte": "A symbolic correspondence linked to aesthetics, measure, forms, civility and a search for harmony."
+    },
+    {
+      "pays": "Canada",
+      "texte": "A traditional symbolic attribution that varies between schools and authors."
+    },
+    {
+      "pays": "Indochina",
+      "texte": "A correspondence stemming from a symbolic tradition of astrological geography."
+    },
+    {
+      "pays": "Argentina",
+      "texte": "A traditional symbolic attribution in classical astrological lists."
+    }
+  ],
+  "figuresCelebres": [
+    {
+      "nom": "Brigitte Bardot",
+      "domaine": "Film",
+      "date": "September 28, 1934",
+      "texte": "Iconic beauty, Venusian magnetism and an emblematic Libra presence."
+    },
+    {
+      "nom": "Will Smith",
+      "domaine": "Film / Music",
+      "date": "September 25, 1968",
+      "texte": "Great relational ease, accessible charisma and an ability to please."
+    },
+    {
+      "nom": "Kate Winslet",
+      "domaine": "Film",
+      "date": "October 5, 1975",
+      "texte": "Elegance, relational presence and expressive refinement."
+    },
+    {
+      "nom": "Gwyneth Paltrow",
+      "domaine": "Film / Lifestyle",
+      "date": "September 27, 1972",
+      "texte": "Refinement, style and a sense of form very consistent with Libra."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Libra?",
+      "reponse": "Libra is characterised by charm, sociability, a sense of fairness and a deep need for harmony. It is a diplomatic, pleasant, aesthetic and conciliatory temperament that needs balanced relationships to flourish. It can be indecisive or too dependent on others' opinion, but it is also one of the most charming, fair-minded and sociable signs of the Zodiac."
+    },
+    {
+      "question": "What kind of lover is Libra?",
+      "reponse": "Charming, elegant, attentive to reciprocity and deeply attached to the quality of the bond. Libra loves through dialogue, the beauty of the relationship and the feeling of being two. Its love life is rich and starts early. It needs a harmonious relationship where each person exists — it must never be allowed to grow bored."
+    },
+    {
+      "question": "What kind of worker is Libra?",
+      "reponse": "Diplomatic, a negotiator, creative and gifted for the arts and human relationships. Libra excels in environments where cooperation, aesthetics and justice count. It is favoured by luck and succeeds especially in partnership. Intense effort is painful to it, but the results often exceed expectations."
+    },
+    {
+      "question": "Which house corresponds to Libra?",
+      "reponse": "The Seventh House — that of the other, the couple, partnerships, contracts, alliances and the way of defining oneself through relationship. Its natural analogy with Libra underscores encounter, cooperation, reciprocity and the need for balance."
+    },
+    {
+      "question": "What is the ideal Ascendant for Libra?",
+      "reponse": "An Aquarius Ascendant stimulates Libra's originality. A Leo Ascendant gives it assurance. A Gemini Ascendant reinforces its social and intellectual liveliness."
+    },
+    {
+      "question": "What are the flaws of Libra?",
+      "reponse": "Chronic indecision, a fear of conflict that can lead to hypocrisy, dependence on others' opinion, and indolence. These traits worsen when Libra sacrifices its truth to preserve harmony."
+    },
+    {
+      "question": "Is Libra indecisive?",
+      "reponse": "Yes, indecision is a major trait of Libra. It constantly weighs the pros and cons out of a concern for fairness. It is not weakness but a need for accuracy which, poorly managed, can paralyse action."
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "slug": "lion",
+  "nom": "Leo",
+  "sousTitre": "El quinto signo del Zodiaco",
+  "devise": "Yo irradio",
+  "periode": "23 de julio – 22 de agosto",
+  "element": "Fuego",
+  "mode": "Fijo",
+  "maitre": "Sol",
+  "exaltation": "—",
+  "exil": "Saturno",
+  "chute": "—",
+  "polarite": "Masculino",
+  "temperament": "Bilioso",
+  "maisonNaturelle": 5,
+  "couleur": {
+    "primaire": "#F59E0B",
+    "secondaire": "#EF4444",
+    "accent": "#FCD34D",
+    "gradient": "from-amber-500 via-orange-500 to-red-500"
+  },
+  "navigation": {
+    "precedent": { "slug": "cancer", "nom": "Cáncer" },
+    "suivant": { "slug": "vierge", "nom": "Virgo" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/lion.webp",
+    "planete": "/images/planetes/soleil.webp"
+  },
+  "introduction": "Leo es el quinto signo del Zodiaco. Es el centro del verano: los frutos se desarrollan, maduran, la planta está en plena floración: afirmación de la fecundación, potencia de la luz en su cenit. Signo de Fuego, fijo, masculino, diurno, regido por el Sol, Leo encarna la irradiación, la afirmación de sí mismo, la creatividad y la nobleza del corazón. Después de que Aries ha iniciado, Tauro ha consolidado, Géminis ha hecho circular y Cáncer ha protegido, Leo se levanta y dice: «aquí estoy». Su gesto fundador no es «yo existo» ni «yo tengo» ni «yo pienso» ni «yo siento»: es «yo irradio». Creo, afirmo, brillo, inspiro.",
+  "fondationsCosmiques": {
+    "texte": "Leo pertenece al elemento Fuego (caliente y seco), lo que le confiere un temperamento bilioso: ardor, voluntad, capacidad de acción creadora. Es el segundo nivel del Fuego: el del dominio. A diferencia de Aries, cuyo fuego brota sin control, Leo domina su creatividad, dirige su energía, canaliza su llama para valorizarse e irradiar. Su modo es fijo: corresponde a la mitad de la estación, a la estabilidad, a la firmeza, a una personalidad poderosa e independiente. Los signos fijos suelen llevar sus proyectos a término. Leo es un signo de ascensión larga, comandante, positivo, real.",
+    "courteAscension": "La tradición clasifica a Leo entre los signos septentrionales, de ascensión recta, animales cuadrúpedos, estériles, de vitalidad, de talla media y recia, reales, de verano, de enfermedades, de voz mediocre. Este signo aportaría la vehemencia en la lujuria y la cólera. La constitución es muy robusta, propicia a la longevidad, con una recuperación muy rápida.",
+    "pluton": "El exilio de Saturno en Leo subraya una tensión fundamental entre la necesidad solar de irradiar y el rigor saturnino que exige disciplina, contención y humildad. Leo quiere brillar y ser reconocido; Saturno quiere construir en la sombra y en la duración. Es precisamente el eje Leo-Acuario: la afirmación del yo creador contra la visión colectiva y el desapego."
+  },
+  "analogies": {
+    "animal": "El león",
+    "objet": "El trono, la corona, el corazón, el sol",
+    "fonction": "Irradiar, afirmar, crear",
+    "texte": "Leo evoca el ardor, la fuerza, la autoridad, el poder, la estética, la estabilidad, la nobleza. Es el empresario, el político, el artista que brilla, el líder que inspira. Su personalidad es semejante al Sol: radiante y generosa. Al nativo de Leo le gusta brillar, se siente atraído por la idea de nobleza, no le gusta lo mezquino. Aspira a dominar y muestra valor para defender sus valores."
+  },
+  "mythologie": {
+    "titre": "El León de Nemea y Faetón",
+    "texte": "Leo se asocia al león de Nemea, vencido por Heracles en su primer trabajo. Esta criatura invulnerable simboliza una fuerza bruta y soberana que el héroe debe enfrentar para afirmar su propia potencia. El mito de Leo habla de valor, de dominio de sí y de reconocimiento: la fuerza solo se vuelve noble cuando se asume y se dirige desde el corazón. Como los mitos solares, se trata del combate del héroe contra las fuerzas oscuras, como Apolo combatiendo a la serpiente Pitón, el día oponiéndose a la noche.",
+    "civilisations": "Las aventuras de Faetón recuerdan a Leo los peligros de la presunción. Admirando la potencia de su padre Helios, el joven le pide conducir el carro del Sol. Pero no tiene fuerza suficiente para dominar los cuatro caballos alados. Los corceles, ebrios de libertad, incendiaron la tierra en lugar de calentarla. Gea lanzó un gran grito que Zeus oyó, y de un rayo fulminó al imprudente. Esta historia recuerda a Leo que no debe dejarse llevar por su orgullo: debe saber aceptar perder las ilusiones demasiado brillantes que a veces tiene sobre sí mismo."
+  },
+  "portrait": {
+    "temperament": "A Leo le gusta sentirse plenamente vivo, visible y digno de ocupar su lugar. Soporta mal ser reducido, ignorado o apagado. Su carácter es cálido, orgulloso, generoso, expresivo, a menudo solar, con una profunda necesidad de sentirse reconocido por lo que es. La mente es sintética, de concepciones muy vastas, a veces con rasgos de genio. El sentido estético y artístico es poderoso en todas sus formas, sobre todo la pintura y la escultura. La voluntad es firme, la ambición real, el espíritu de dominio marcado. Los sentimientos son profundos, sinceros y duraderos. Detesta toda mezquindad, posee una naturaleza imperiosa, un gran dominio de sí, un sentido despierto del honor y una integridad incorruptible. Si tienes que pedir algo a un Leo, hazlo delante de varias personas: le costará especialmente negártelo.",
+    "forces": [
+      "Capacidad de inspirar, motivar y arrastrar con la presencia",
+      "Creatividad expresiva y poderoso sentido estético",
+      "Fuerza del corazón, generosidad y nobleza de los sentimientos",
+      "Gran capacidad de trabajo y determinación",
+      "Confianza en sí mismo e irradiación natural",
+      "Afirmar una visión con calor y valor"
+    ],
+    "ombres": [
+      "Ego sobredimensionado y orgullo",
+      "Dependencia de la mirada exterior y necesidad de aparentar",
+      "Dificultad para compartir la luz o para ceder",
+      "Tendencia a cóleras violentas cuando el amor propio es herido",
+      "Bajo fuerte disonancia: envidia, arrogancia, crueldad, despotismo"
+    ],
+    "besoinsVitaux": [
+      "Ser reconocido por lo que es",
+      "Expresar su creatividad y su singularidad",
+      "Sentirse útil, vivo y valorado"
+    ],
+    "aTravailler": [
+      "La humildad y la escucha de los demás",
+      "El reparto del poder o de la luz",
+      "La capacidad de existir sin validación permanente",
+      "Distinguir dignidad de orgullo",
+      "Aceptar perder las ilusiones brillantes sobre sí mismo"
+    ],
+    "equilibre": "Un Leo en plena posesión de sus medios se convierte en un verdadero centro de irradiación, capaz de inspirar sin aplastar. Expresa una autoridad benévola, basada en la confianza, la presencia y la generosidad. Su fuego se vuelve creador, inspirador y aglutinador: un sol que calienta en lugar de quemar. Sus sentimientos profundos y sinceros se expresan en la duración, y su nobleza natural se manifiesta por la magnanimidad más que por la dominación."
+  },
+  "sante": {
+    "zones": ["Corazón", "Columna vertebral", "Espalda", "Circulación sanguínea"],
+    "texte": "Leo gobierna el corazón, la aorta, las arterias coronarias, la espalda, los músculos, la columna vertebral, las vértebras dorsales, la médula espinal y el ojo derecho. Ejerce también una influencia sobre la circulación de la sangre en general. Leo predispone a las enfermedades cardiovasculares: aneurisma, trombosis coronaria, angina de pecho, arteriosclerosis, infarto de miocardio, taquicardia. Tendencia a las fiebres e inflamaciones más que a las enfermedades atónicas. También son posibles los dolores de espalda, las enfermedades de la médula espinal y el reumatismo articular agudo. Sin embargo, la constitución es muy robusta: es un signo propicio a la longevidad, con una recuperación notablemente rápida."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "Mente sintética de concepciones muy vastas, a veces con rasgos de genio. Poderoso sentido estético y artístico. Comprensión fácil, dones múltiples. Voluntad firme, ambición, orgullo, generosidad, rectitud. Sentimientos profundos, sinceros y duraderos. Fuerte influencia personal, distinguido en su atuendo y su lenguaje, sabe moverse con soltura en las altas esferas sociales. Gran capacidad de trabajo, confianza en sí mismo, audacia. Cualificado para la dirección y el mando. Éxito material frecuente, gastos siempre elevados. A veces, celebridad."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "Capacidad de adquisición pronunciada, no para amasar sino para satisfacer la necesidad de lujo. Los gastos son muy elevados respecto a las ganancias. La atracción por el juego y las especulaciones es poderosa: tipo del arriesgado si varios planetas están en Leo. Favorece los trabajos relacionados con los espectáculos y la banca. A veces los hijos acuden en ayuda del sujeto. Si la carta es desfavorable, grandes pérdidas en inversiones o especulaciones."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Poca atracción por el trabajo intelectual puro, al estar la mente orientada hacia las artes o acaparada por amoríos precoces, de ahí lentitud en la marcha de los estudios. Sin embargo, las aptitudes sintéticas compensan en parte la falta de trabajo. Inclinación por las concepciones grandiosas y generosas. Viajes poco numerosos y emprendidos con fin de placer. Posibilidad de un hermano influyente que pueda ayudar y proteger. Su espontaneidad y su franqueza a veces le perjudican."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "Indica a menudo una familia acomodada o perteneciente a las altas esferas sociales. La influencia del padre suele ser considerable. Favorece la adquisición de bienes inmuebles, pero conviene evitar las especulaciones relacionadas. El sujeto busca viviendas muy luminosas, muy bien situadas y un poco lujosas. Posibilidades de éxito en la última parte de la vida, época en que los hijos a veces prestan grandes servicios."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Aumenta las aptitudes artísticas, sobre todo teatro, cine, decoración. Ímpetu e impulso en los asuntos sentimentales, pero amores profundos y duraderos. El ideal es muy elevado y difícil de satisfacer, de ahí afectos poco numerosos. Poco favorable a los hijos, pero si los hay, a menudo tienen un destino más brillante que el del progenitor. Gran atracción por el juego y las especulaciones con serios riesgos de pérdidas si esta casa recibe malos aspectos."
+    },
+    {
+      "numero": 6,
+      "titre": "El día a día y la salud",
+      "texte": "Favorece la ejecución de pequeños trabajos artísticos: dibujo, decoración, joyería. Favorece también el acceso a pequeños puestos de confianza en entidades bancarias. El sujeto se ve favorecido por cierta suerte en la elección de sus colaboradores, que en general tienen grandes cualidades pero pueden ser muy susceptibles. Posibilidad de aventuras sentimentales con subalternos. Enfermedades del corazón, de la circulación y tendencia a las fiebres."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "Si los aspectos son armónicos, posibilidad de matrimonio brillante y sólido por la profundidad de los sentimientos, pero a menudo tardío: al sujeto le cuesta encontrar a una persona que responda a sus gustos. Matrimonio con un cónyuge de gran belleza y elegante. Si la casa está muy afligida, matrimonio de conveniencia donde el entendimiento solo es aparente por razones de prestigio. Pleitos que se alargan. Enemistades temibles porque son poderosas."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Buen indicio para las herencias, cuyo papel puede ser capital, pero conviene no especular con esos bienes. El final puede sobrevenir tras complicaciones cardíacas. Esta posición parece atenuar la robustez y la duración de la vida. Posibilidad de duelo prematuro en la familia: progenitor, cónyuge o hijo."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Presagia un ideal elevado y, a veces, una mentalidad de propagandista movido por ideas generosas o un espíritu religioso. Los grandes viajes son poco numerosos, pero a veces el sujeto muestra audacia y participa en expediciones. Propensión a la caza. A veces éxito en el extranjero, sobre todo en manifestaciones artísticas o explotaciones relacionadas con las industrias de lujo."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "Probabilidad de ascenso respecto al nivel social de nacimiento. Conviene a las situaciones sociales o políticas, indica el éxito por ideas de gran envergadura y a veces la notoriedad. En los destinos más modestos: estabilidad de la profesión, pues con este signo fijo hay pocos o ningún cambio. La madre pertenece a veces a una familia aristocrática."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Amigos poco numerosos pero bien situados. En muchos casos, amistades amorosas, o bien las cuestiones sentimentales vienen a consolidar o comprometer las relaciones amistosas. Amigos influyentes, sinceros, generosos pero susceptibles. Los vínculos son de calidad más que de cantidad."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Enemistades a menudo peligrosas porque son tenaces y sobre todo poderosas. La hostilidad, o simplemente la indiferencia, de un jefe puede romper la carrera. En política, esta configuración provoca trampas muy peligrosas y hace el éxito particularmente difícil. Conviene más a las situaciones discretas que a los puestos destacados, lo que es una paradoja para Leo."
+    }
+  ],
+  "amour": {
+    "texte": "Leo ama con calor, generosidad, pasión y nobleza. Necesita sentir que la relación está viva, es visible, digna y portadora de impulso. Da mucho cuando ama, pero también necesita sentirse elegido, valorado y reconocido en su unicidad. Su vida sentimental a menudo se ve retrasada por aspiraciones muy elevadas, un ideal muy difícil de satisfacer. Necesita una pareja con clase, distinción, dones artísticos, nobles sentimientos. No obstante, el nativo de Leo siempre goza de un poderoso magnetismo que atrae: sus sentimientos son profundos, sinceros y duraderos.",
+    "qualites": [
+      "Generosidad afectiva y capacidad de amar abiertamente",
+      "Fidelidad cuando se compromete de verdad",
+      "Gran calor en la expresión del vínculo",
+      "Voluntad de hacer brillar la relación",
+      "Poderoso magnetismo natural"
+    ],
+    "vigilances": [
+      "Puede sufrir fuertemente la falta de reconocimiento",
+      "Riesgo de orgullo herido",
+      "Puede volverse dominante si se siente ignorado",
+      "Tendencia a esperar mucha admiración o reciprocidad"
+    ],
+    "affinites": ["belier", "sagittaire", "gemeaux", "balance"]
+  },
+  "travail": {
+    "texte": "Leo trabaja bien cuando puede crear, dirigir, representar, inspirar o dar forma a algo que lleve su sello. Necesita sentir que encarna un lugar, una visión o una presencia, no solo una tarea. Poco apto para los trabajos vulgares, pero cualificado para la dirección y el mando, de ahí el acceso frecuente a los puestos de responsabilidad y a las profesiones liberales. Sus realizaciones pueden ser de gran envergadura. Profesiones típicas: jefe de servicio, organizador, director, banquero, joyero, oficial, pintor, actor, abogado, médico, político, decorador, escaparatista.",
+    "atouts": [
+      "Presencia natural y liderazgo cálido",
+      "Capacidad de inspirar y motivar",
+      "Creatividad y sentido estético",
+      "Gran capacidad de trabajo y determinación",
+      "Voluntad de llevar un proyecto con corazón y panache"
+    ],
+    "defis": [
+      "Soporta mal el borrado completo o los puestos oscuros",
+      "Puede plantarse ante una autoridad humillante",
+      "Riesgo de personalizar demasiado los asuntos profesionales",
+      "Tendencia a sobreestimar sus capacidades bajo disonancia",
+      "Proyectos a veces demasiado grandiosos o utópicos"
+    ]
+  },
+  "argent": {
+    "texte": "Leo tiene una relación noble, orgullosa y visible con el dinero. No lo vive solo como una herramienta de seguridad, sino como un medio para irradiar, crear, afirmar una calidad de vida y expresar su generosidad. Los gastos son siempre elevados: la necesidad de lujo es real. La atracción por el juego y las especulaciones es poderosa. El éxito material es frecuente, pero las pérdidas por juego o especulación también. El acceso a los puestos destacados es relativamente fácil, y el destino sigue una curva regular, pero sin esperanza de retorno en caso de caída.",
+    "forces": [
+      "Capacidad de atraer por la irradiación personal",
+      "Generosidad natural",
+      "Voluntad de ganar con panache",
+      "Sentido del valor ligado a la calidad y a la imagen"
+    ],
+    "risques": [
+      "Gastos de imagen o de prestigio excesivos",
+      "Atracción peligrosa por el juego y la especulación",
+      "Dificultad para soportar una pérdida de estatus",
+      "Orgullo que puede enturbiar las decisiones financieras"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Leo afirma una identidad fuerte, creativa, visible y centrada en la irradiación personal. Necesita expresar su singularidad para sentirse plenamente vivo.",
+      "manifestations": ["Confianza", "Carisma", "Liderazgo natural", "Creatividad viva"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Leo vive las emociones a través del corazón, el calor, la necesidad de ser amado y reconocido. Siente con orgullo, intensidad y generosidad.",
+      "manifestations": ["Calor afectivo", "Generosidad emocional", "Capacidad de dar corazón", "Orgullo afectivo"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Leo piensa y habla con amplitud, calor, estilo y voluntad de afirmar una visión. El pensamiento quiere hacerse oír, ser comprendido y dejar huella.",
+      "manifestations": ["Palabra expresiva", "Visión clara", "Capacidad de convencer", "Estilo afirmado"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Leo ama con intensidad, panache, calor y generosidad. El placer pasa por la belleza del vínculo, el deseo de amar a lo grande y la alegría de expresar su corazón.",
+      "manifestations": ["Encanto radiante", "Generosidad amorosa", "Gusto por lo bello y lo noble", "Capacidad de amar con corazón"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Leo actúa con voluntad, panache, orgullo y necesidad de expresar una fuerza noble. La energía quiere crear, conquistar, superarse y dejar huella.",
+      "manifestations": ["Valor", "Voluntad fuerte", "Panache", "Energía creativa y dirigente"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Leo amplifica la confianza, la irradiación, la creatividad y la necesidad de vivir a lo grande. A menudo da un calor expansivo y una fe en su propia luz.",
+      "manifestations": ["Entusiasmo", "Generosidad", "Confianza", "Capacidad de inspirar"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Leo pide construir una autoridad justa, disciplinar el ego y aprender a irradiar con madurez en lugar de con necesidad de validación.",
+      "manifestations": ["Autoridad construida", "Dominio de sí", "Capacidad de asumir una responsabilidad visible", "Solidez del centro"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Leo produce una expresión original de sí mismo, una necesidad de crear de otra manera y de irradiar fuera de las normas habituales.",
+      "manifestations": ["Originalidad creativa", "Libertad de expresión", "Capacidad de innovar en la representación de sí mismo", "Impulso no convencional"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Leo busca un ideal de belleza, de creación, de grandeza o de amor inspirado. Puede magnificar el imaginario de la luz, del corazón y de la expresión artística.",
+      "manifestations": ["Inspiración creativa", "Sentido de lo bello", "Visión poética de la irradiación", "Generosidad inspirada"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Leo transforma profundamente la relación con la identidad, el poder personal, la creatividad y la luz. Empuja a morir a ciertas imágenes de sí mismo para encontrar una potencia más verdadera.",
+      "manifestations": ["Potencia interior", "Creatividad intensa", "Capacidad de renacer tras los golpes al ego", "Irradiación transformadora"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "fluide",
+      "titre": "Fuego y fuego",
+      "texte": "Leo y Aries comparten el impulso, la franqueza, el valor y el gusto por la vida intensa. El vínculo puede ser muy estimulante, cálido y directo: dos naturalezas de Fuego que se entienden instintivamente.",
+      "forces": ["Energía", "Motivación mutua", "Franqueza", "Gusto por el movimiento"],
+      "frictions": ["Competencia de ego", "Dificultad para ceder", "Necesidad de reconocimiento por ambas partes"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "delicate",
+      "titre": "Irradiación y estabilidad",
+      "texte": "Leo quiere irradiar, Tauro quiere estabilizar. El vínculo puede ser rico, sensual y poderoso, pero cada uno tiene su propia manera de ocupar el espacio y de defender su territorio.",
+      "forces": ["Lealtad", "Gusto por lo bello", "Estabilidad posible", "Fuerza de presencia"],
+      "frictions": ["Terquedad", "Orgullo", "Tauro puede encontrar a Leo teatral", "Leo puede encontrar a Tauro demasiado inmóvil"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "stimulante",
+      "titre": "Juego, ingenio y luz",
+      "texte": "Géminis aporta la viveza mental, Leo aporta el calor y la irradiación. El vínculo puede ser muy vivo, alegre y creativo cuando ambas naturalezas aceptan jugar juntas.",
+      "forces": ["Humor", "Creatividad", "Estimulación mutua", "Ligereza viva"],
+      "frictions": ["Géminis puede parecer demasiado escurridizo", "Leo puede pedir más reconocimiento", "Diferencia entre juego y orgullo"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "stimulante",
+      "titre": "Corazón íntimo y corazón radiante",
+      "texte": "Cáncer protege y siente; Leo afirma e irradia. El vínculo puede ser profundo, cálido y protector si cada uno respeta el modo de expresión del otro.",
+      "forces": ["Calor", "Lealtad", "Protección", "Posibilidad de construir un vínculo fuerte"],
+      "frictions": ["Leo puede parecer demasiado visible o demasiado orgulloso", "Cáncer puede parecer demasiado replegado", "Conflicto entre necesidad de intimidad y necesidad de expresión"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "intense",
+      "titre": "Sol frente al Sol",
+      "texte": "Dos Leo pueden amarse con grandeza, reconocerse y estimularse con fuerza. El vínculo es intenso, creativo, orgulloso, pero puede volverse muy conflictivo si cada uno quiere quedarse solo en el centro.",
+      "forces": ["Calor", "Creatividad", "Orgullo compartido", "Generosidad"],
+      "frictions": ["Competencia", "Orgullo", "Necesidad de dominar", "Dificultad para compartir la luz"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "variable",
+      "titre": "Irradiación y precisión",
+      "texte": "Leo quiere expresarse ampliamente; Virgo quiere ajustar con finura. El vínculo puede ser muy útil si cada uno acepta que el otro tiene otra manera de servir a la verdad.",
+      "forces": ["Complementariedad entre inspiración y método", "Posibilidad de mejorar una obra", "Uno da el impulso, el otro afina"],
+      "frictions": ["Virgo puede parecer demasiado crítico", "Leo puede parecer demasiado centrado en sí mismo", "Conflicto entre panache y modestia"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Fuego noble y aire armónico",
+      "texte": "Leo y Libra comparten el gusto por lo bello, por la relación y por cierta elegancia. El vínculo puede ser refinado, vivo y muy agradable: dos naturalezas que saben brillar juntas.",
+      "forces": ["Encanto", "Armonía", "Gusto por lo bello", "Complementariedad entre presencia y relación"],
+      "frictions": ["Libra puede parecer demasiado dubitativa", "Leo puede parecer demasiado afirmado", "Diferencia entre necesidad de admiración y necesidad de equilibrio"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "delicate",
+      "titre": "Fuego visible e intensidad oculta",
+      "texte": "Leo irradia a plena luz; Escorpio vive en profundidad. El vínculo puede ser magnético, poderoso, pasional, pero también marcado por pulsos de fuerza donde cada uno quiere imponer su potencia.",
+      "forces": ["Magnetismo", "Intensidad", "Voluntad fuerte", "Lealtad posible"],
+      "frictions": ["Pulsos de poder", "Orgullo contra control", "Dificultad para soltar"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "fluide",
+      "titre": "Fuego real y fuego explorador",
+      "texte": "Leo y Sagitario comparten calor, entusiasmo, generosidad y gusto por el impulso. El vínculo puede ser inspirador, alegre y sostenido por una gran energía de vida.",
+      "forces": ["Alegría", "Apertura", "Confianza", "Gusto por vivir plenamente"],
+      "frictions": ["Exceso", "Sagitario quiere su libertad, Leo quiere el reconocimiento", "Tendencia a vivir a lo grande sin siempre medir"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "variable",
+      "titre": "Irradiación y estructura",
+      "texte": "Leo quiere crear e irradiar; Capricornio quiere construir y dominar. El vínculo puede ser poderoso y ambicioso, pero también marcado por una gran diferencia de estilo entre calor y austeridad.",
+      "forces": ["Complementariedad entre inspiración y estructura", "Posibilidad de lograr algo sólido y visible", "Fuerza de construcción"],
+      "frictions": ["Capricornio puede parecer demasiado frío o austero", "Leo puede parecer demasiado demostrativo", "Conflicto entre corazón y control"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "complementaire",
+      "titre": "Eje Leo–Acuario",
+      "texte": "Leo expresa el yo creador; Acuario abre a lo colectivo, a la distancia y a la idea. Es un eje poderoso entre irradiación personal y visión más amplia, entre la necesidad de existir ante los ojos de los demás y la independencia.",
+      "forces": ["Complementariedad fuerte", "Estimulación", "Originalidad", "Capacidad de articular corazón y visión"],
+      "frictions": ["Acuario puede parecer distante", "Leo puede parecer centrado en sí mismo", "Conflicto entre reconocimiento personal y desapego colectivo"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "variable",
+      "titre": "Fuego del corazón y agua sensible",
+      "texte": "Leo afirma e ilumina; Piscis siente y difunde. El vínculo puede ser tierno, inspirado, poético, pero también difícil de conciliar entre necesidad de centro y necesidad de disolución.",
+      "forces": ["Creatividad", "Ternura", "Inspiración", "Complementariedad entre presencia e imaginario"],
+      "frictions": ["Leo puede encontrar a Piscis demasiado difuso", "Piscis puede encontrar a Leo demasiado afirmado", "Diferencia entre visibilidad y retiro"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Leo, suele significar que entras en la vida con presencia, calor, necesidad de afirmación y deseo de existir visiblemente. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, presentarte y reaccionar lleva a menudo una tonalidad solar, orgullosa y expresiva.",
+    "apparence": [
+      "Presencia cálida y visible",
+      "Porte orgulloso o erguido",
+      "Mirada viva, expresiva o luminosa",
+      "Impresión de panache, de estilo o de seguridad"
+    ],
+    "temperament": [
+      "Necesita existir plenamente en lo que hace",
+      "Reacciona con corazón, orgullo e intensidad",
+      "Busca mostrarse bajo una luz digna o fuerte",
+      "Soporta mal ser humillado o ignorado"
+    ],
+    "vigilances": [
+      "Orgullo herido",
+      "Necesidad de reconocimiento demasiado fuerte",
+      "Dificultad para no ocupar todo el espacio",
+      "Tendencia a dramatizar ciertas heridas narcisistas"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Régulo",
+      "nature": "Júpiter / Marte",
+      "texte": "Régulo es una de las grandes estrellas reales de la tradición astrológica. En una lectura simbólica de Leo, refuerza la idea de soberanía, dignidad, irradiación y autoridad asumida desde el corazón.",
+      "motsCles": ["Realeza", "Irradiación", "Nobleza", "Potencia"]
+    },
+    {
+      "nom": "Algieba",
+      "nature": "Saturno / Venus",
+      "texte": "Algieba aporta una tonalidad de nobleza expresiva, magnetismo, belleza visible y potencia encarnada. Concuerda bien con la dimensión teatral y radiante de Leo.",
+      "motsCles": ["Panache", "Magnetismo", "Estilo", "Prestancia"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Rubí", "motsCles": ["fuego", "corazón", "irradiación", "nobleza"] },
+      { "nom": "Ojo de tigre", "motsCles": ["confianza", "presencia", "protección", "fuerza"] },
+      { "nom": "Oro", "motsCles": ["sol", "luz", "realeza", "brillo"] }
+    ],
+    "vegetaux": [
+      { "nom": "Girasol", "motsCles": ["sol", "irradiación", "verticalidad", "alegría"] },
+      { "nom": "Laurel", "motsCles": ["gloria", "victoria", "nobleza", "honor"] },
+      { "nom": "Romero", "motsCles": ["vitalidad", "calor", "claridad", "impulso"] }
+    ],
+    "animaux": [
+      { "nom": "León", "motsCles": ["realeza", "valor", "presencia", "irradiación"] },
+      { "nom": "Pavo real", "motsCles": ["panache", "belleza", "presencia", "orgullo"] },
+      { "nom": "Águila", "motsCles": ["altura", "visión", "potencia", "soberanía"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Italia", "texte": "Correspondencia simbólica ligada a la irradiación, la expresión, la grandeza, la cultura visible y cierta nobleza solar." },
+    { "pays": "Sicilia", "texte": "Atribución simbólica tradicional que depende de las escuelas y los autores." },
+    { "pays": "República Checa", "texte": "Correspondencia que procede de un simbolismo clásico de geografía astrológica." },
+    { "pays": "Rumanía", "texte": "Atribución simbólica tradicional dentro de una lógica de correspondencia astrológica." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Barack Obama", "domaine": "Política", "date": "4 de agosto de 1961", "texte": "Carisma, presencia tranquila y capacidad de portar una imagen solar y aglutinadora." },
+    { "nom": "Madonna", "domaine": "Música", "date": "16 de agosto de 1958", "texte": "Potencia de afirmación, de creación y de dominio de la imagen muy típicamente Leo." },
+    { "nom": "Jennifer Lopez", "domaine": "Música / Cine", "date": "24 de julio de 1969", "texte": "Irradiación, presencia escénica y confianza visible." },
+    { "nom": "Daniel Radcliffe", "domaine": "Cine", "date": "23 de julio de 1989", "texte": "Una presencia pública marcada muy pronto y una identidad fuertemente visible." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Leo?",
+      "reponse": "Leo se caracteriza por el orgullo, la generosidad, la necesidad de irradiar y un poderoso sentido estético. Es un temperamento cálido, ambicioso, creativo, que necesita reconocimiento y visibilidad para realizarse. Puede ser orgulloso o autoritario, pero también es uno de los signos más generosos, leales e inspiradores del Zodiaco."
+    },
+    {
+      "question": "¿Qué tipo de amante es Leo?",
+      "reponse": "Apasionado, generoso, fiel y noble en sus sentimientos. Leo ama con calor y panache. Necesita sentirse elegido, valorado y reconocido en su unicidad. Sus sentimientos son profundos, sinceros y duraderos, pero su ideal muy elevado puede retrasar la estabilización de su vida sentimental."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Leo?",
+      "reponse": "Un líder natural, creativo, ambicioso y determinado. Destaca en los puestos de dirección, las carreras artísticas, las profesiones liberales y todas las funciones donde puede expresar su visión y su presencia. Tiene una gran capacidad de trabajo pero soporta mal los papeles discretos o las tareas vulgares."
+    },
+    {
+      "question": "¿Qué casa corresponde a Leo?",
+      "reponse": "La Casa V, la de la creatividad, la expresión personal, el juego, el placer, el amor, los hijos y la capacidad de irradiar lo que se lleva dentro. Su analogía natural con Leo subraya la alegría de crear, la necesidad de ser visto, el fuego del corazón y la afirmación de una identidad viva."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Leo?",
+      "reponse": "El ascendente Acuario equilibra su ego con una visión colectiva. El ascendente Sagitario amplía su horizonte y su generosidad. El ascendente Libra afina su carisma con elegancia y diplomacia."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Leo?",
+      "reponse": "El orgullo, la necesidad excesiva de reconocimiento, el autoritarismo y la tendencia a dramatizar son sus zonas de sombra. Puede volverse dominante o sufrir desmesuradamente cuando su ego es herido."
+    },
+    {
+      "question": "¿Es Leo narcisista?",
+      "reponse": "Su necesidad de irradiar puede parecer narcisismo, pero es ante todo solar y generoso. El verdadero Leo da tanto como recibe. El riesgo narcisista solo aparece si el ego se impone al corazón."
+    }
+  ]
+}

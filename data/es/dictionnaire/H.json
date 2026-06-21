@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "harmonieux",
+    "category": "aspect",
+    "term": "Armónico",
+    "short": "Aspectos o configuraciones que facilitan la libre circulación de la energía.",
+    "body": "Se dice que un aspecto es armónico (principalmente el trígono y el sextil) cuando los dos planetas implicados colaboran sin fricción. Esto indica talentos innatos, facilidades de destino o una psique fluida en el ámbito concernido. El riesgo de una carta demasiado armónica es la inercia, pues el individuo no siente la necesidad de transformarse ni de luchar para obtener lo que desea."
+  },
+  {
+    "slug": "heliocentrisme",
+    "category": "concept",
+    "term": "Heliocentrismo",
+    "short": "Un modelo astronómico que sitúa el Sol en el centro del sistema solar, revolucionario para la astrología.",
+    "body": "El heliocentrismo, desarrollado por Copérnico en el siglo XVI, transformó radicalmente nuestra comprensión del universo al situar el Sol en el centro del sistema solar. En astrología, abrió la vía a una visión más dinámica y menos antropocéntrica del cosmos. La astrología heliocéntrica se centra en las posiciones de los planetas con respecto al Sol, ofreciendo una perspectiva más universal y menos centrada en la Tierra. Aunque menos habitual que la astrología geocéntrica, es utilizada por algunos astrólogos para explorar temas más espirituales o generacionales."
+  },
+  {
+    "slug": "hemicycle",
+    "category": "concept",
+    "term": "Hemiciclo",
+    "short": "Una disposición de planetas agrupados en una semicircunferencia del zodíaco, que indica una concentración de energía.",
+    "body": "El hemiciclo se produce cuando varios planetas se agrupan en una zona de 180° o menos del zodíaco. Esta configuración indica una focalización intensa de la energía sobre un sector particular de la vida, pero también una polarización que puede crear tensiones internas. Los planetas en hemiciclo tienden a reforzarse mutuamente, pero también a enfrentarse a fuerzas opuestas en las zonas vacías de la carta. El hemiciclo puede indicar un potencial de crecimiento importante si el individuo aprende a integrar las energías concentradas y a afrontar los desafíos que esta configuración puede generar."
+  },
+  {
+    "slug": "henri-gouchon",
+    "category": "personnage",
+    "term": "Henri Gouchon",
+    "short": "Astrólogo francés (1898-1978), célebre por su diccionario y sus investigaciones sobre la vitalidad.",
+    "body": "Henri Gouchon es una figura ineludible de la astrología del siglo XX. Su 'Dictionnaire Astrologique' fue una referencia durante décadas. Es especialmente conocido por sus trabajos sobre el Índice de Concentración Planetaria y por sus investigaciones estadísticas sobre la vitalidad y la longevidad (en relación con el Hyleg). Gouchon contribuyó a codificar la astrología tradicional al tiempo que la abría a una verificación más moderna y factual."
+  },
+  {
+    "slug": "heredite",
+    "category": "concept",
+    "term": "Herencia",
+    "short": "La transmisión de rasgos, talentos y desafíos de una generación a otra, simbolizada por las casas IV y VIII.",
+    "body": "En astrología, la herencia se asocia a menudo con las casas IV (el hogar, las raíces) y VIII (los recursos compartidos, los legados). Estas casas revelan las influencias familiares, los talentos innatos y los desafíos transmitidos de generación en generación. Los planetas situados en estas casas o en aspecto con sus cúspides pueden indicar dones heredados o lecciones kármicas procedentes del linaje familiar. La herencia astrológica va más allá de la simple biología para abarcar las dinámicas psicológicas y espirituales transmitidas dentro de una familia."
+  },
+  {
+    "slug": "horizon",
+    "category": "astronomique",
+    "term": "Horizonte",
+    "short": "La línea de separación entre la parte visible e invisible del cielo.",
+    "body": "El horizonte local determina el eje Ascendente-Descendente. Divide la carta en dos hemisferios: sur (visible, consciente) y norte (invisible, nocturno). Simbólicamente, el horizonte es el plano de manifestación donde la energía pura de los astros se encuentra con la realidad física. Un planeta situado sobre el horizonte en el momento del nacimiento se dice 'angular' y marca profundamente la personalidad."
+  },
+  {
+    "slug": "horoscope",
+    "category": "concept",
+    "term": "Horóscopo",
+    "short": "Literalmente 'el que examina la hora'; designa el Ascendente o la carta del cielo en su conjunto.",
+    "body": "La palabra proviene del griego 'hōra' (hora) y 'skopos' (observador). Históricamente, el horóscopo designaba únicamente el signo que se elevaba en el horizonte (el Ascendente). Por extensión abusiva, hoy designa las previsiones mediáticas por signo solar. En astrología técnica, el horóscopo es la estructura geométrica del cielo en un momento dado, incluyendo posiciones planetarias y domificación."
+  },
+  {
+    "slug": "hyleg",
+    "category": "concept",
+    "term": "Hyleg",
+    "short": "El punto vital o 'dador de vida' en una carta natal según la astrología tradicional.",
+    "body": "El Hyleg es un concepto fundamental de la astrología antigua (helenística y medieval) que sirve para determinar la fuerza vital y la longevidad de un individuo. Su determinación sigue un protocolo estricto de prioridades: se examina primero el Sol, luego la Luna, después el Ascendente, en función de su posición en las casas llamadas 'hylegiacales' (I, VII, IX, X, XI). Si el Hyleg está poderosamente situado y bien aspectado por los benéficos (Júpiter, Venus), se considera que la constitución física es robusta. A la inversa, los aspectos de cuadratura o de oposición provenientes de los maléficos (Marte, Saturno) hacia el Hyleg se interpretaban como amenazas para la salud o la vitalidad."
+  }
+]

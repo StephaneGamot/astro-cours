@@ -1,0 +1,459 @@
+{
+  "slug": "capricorne",
+  "nom": "Capricorn",
+  "sousTitre": "The tenth sign of the Zodiac",
+  "devise": "I build",
+  "periode": "December 22 – January 19",
+  "element": "Earth",
+  "mode": "Cardinal",
+  "maitre": "Saturn",
+  "exaltation": "Mars",
+  "exil": "Moon",
+  "chute": "Jupiter",
+  "polarite": "Feminine",
+  "temperament": "Nervous",
+  "maisonNaturelle": 10,
+  "couleur": {
+    "primaire": "#7085A2",
+    "secondaire": "#94A3B8",
+    "accent": "#CBD5E1",
+    "gradient": "from-slate-600 via-slate-500 to-slate-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "sagittaire", "nom": "Sagittarius" },
+    "suivant": { "slug": "verseau", "nom": "Aquarius" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/capricorne.webp",
+    "planete": "/images/planetes/saturne.webp"
+  },
+  "introduction": "Capricorn is the tenth sign of the Zodiac. The Sun crosses it between roughly December 22 and January 19, at the start of winter, when nature is at rest, when the sap has concentrated in the depths of the earth, when only the essential is kept and the superfluous no longer has its place.\n\nIt is the time of year when it is coldest, when the nights are longest — and yet it is precisely at the heart of this night that the Christmas star shines, that the light imperceptibly begins to grow again. After Sagittarius's quest for horizons, Capricorn invites us to make concrete, to structure, to inscribe ambitions in time. It does not dream the summit: it climbs it, step after step, with the patience of one who knows that time is its surest ally.",
+  "fondationsCosmiques": {
+    "texte": "Capricorn belongs to the Earth element (cold and dry), which gives it a nervous temperament: practical efficiency, endurance, a sense of concrete achievement. It is the third and last level of Earth — that of sublimation. After the concreteness of Taurus and the precision of Virgo, the earth of Capricorn surpasses itself: it is the mountain, the summits to reach, the rock where the air thins, the cold and dense earth that keeps only the essential.\n\nIts mode is cardinal: it inaugurates winter, it launches a new season. Cardinal signs are initiators, but Capricorn's initiative is slow, considered, strategic — it does not rush, it prepares. A passive, receptive and introverted sign, Capricorn absorbs rather than defends itself, but it possesses considerable endurance, a deep and stable energy, and inner resources that allow it to regenerate where others collapse.",
+    "courteAscension": "Capricorn is a sign of short ascension — it rises quickly on the horizon — which means that, statistically, fewer people are born with Capricorn as their Ascendant.",
+    "pluton": "Capricorn is the nocturnal domicile of Saturn, the planet of time, structure and responsibility. Saturn feels particularly at home in this concrete and willful sign where all its qualities are reinforced. Mars is exalted there: martial action reaches its apogee in this ambitious sign, gaining in discipline and strategy what it loses in spontaneity. The Capricorn–Cancer axis opposes and completes rigour and tenderness, structure and protection, the outer world and the inner world."
+  },
+  "analogies": {
+    "animal": "The mountain goat",
+    "objet": "The mountain, the ladder, the stone, the building tool",
+    "fonction": "To structure, to build, to take responsibility",
+    "texte": "Capricorn is patient ambition, meditation, slow and difficult ascents, meticulous work. Just as the mountain goat climbs the steepest slopes with unfailing caution, the native of this sign seeks to reach the highest summits — whether of social ambition or of the quest for wisdom. It is the thinker, the philosopher, the farmer, the miner: all those who work in time, depth and patience. Like the alchemists who seek gold through lead, Capricorn knows that the greatest successes are built through effort, silence and perseverance."
+  },
+  "mythologie": {
+    "titre": "The misadventures of the god Pan",
+    "texte": "Capricorn is associated with the figure of Pan, a solitary and bucolic minor god, and with the ancient symbol of the goat-fish. To escape the terrible Typhon, Pan took on a curious disguise: an ibex with a fish's tail. This paradoxical image links the heights and the depths — the goat that climbs the mountain and the fish that dives into the unconscious.\n\nLike the ibex springing toward the peaks, Capricorn natives seek to climb the highest summits, but they sometimes sink into pessimism when they let themselves be carried away by the regressive forces of the unconscious. Pan, the little god of rough, wild appearance, is also the great All, the god of wisdom. This wisdom hides beneath simple looks and apparent ugliness. It is through lead that the alchemists seek gold, and it is during the longest night of the year that the most beautiful star shines.",
+    "civilisations": "In Mesopotamia, the goat-fish Suhur-Mash was one of the oldest symbols of the zodiac, representing the duality between earthly ascent and marine depth. In Greek mythology, Pan embodies wisdom hidden beneath a rustic appearance.\n\nThe symbolic Capricorn–Cancer axis, the solstitial signs, runs through all traditions: earth and water, summit and ocean, structure and emotion. In the Hindu tradition, Makara (Capricorn) is the vehicle of Varuna, god of the waters and of cosmic order — another expression of this paradoxical alliance between the rigour of form and the depth of the invisible."
+  },
+  "portrait": {
+    "temperament": "Capricorn observes reality without embellishment and seeks to understand what can really be built. Its character is reserved, solid, demanding, often cautious, with a strong need for mastery and coherence. From childhood, it stands out by its serious, measured and thoughtful bearing, astonishing those around it with reflections born of long meditation.\n\nShowing little of its feelings and emotions, which leads people to believe it cold or indifferent, it nonetheless possesses a keen sensitivity, great constancy in its affections and in its opinions. Intellectual assimilation is slow, but what is well understood is never forgotten. Gifted for reflection, meditation, mathematics and long scholarly work, it compensates for a certain lack of imagination with unfailing rigour and perseverance.\n\nWhen immature, it can become hard, closed, pessimistic or excessively controlling; when it matures, it becomes a force of stability, responsibility and inner elevation, able to guide without dominating.",
+    "forces": [
+      "Building over the long term with unshakable patience",
+      "Bearing effort without scattering or becoming discouraged",
+      "Taking on responsibilities that others flee",
+      "Giving a solid and lasting structure to a project",
+      "Turning an ambition into concrete achievement through personal merit",
+      "Holding on when all others tire or give up"
+    ],
+    "ombres": [
+      "Fears linked to failure that paralyse action or darken the vision",
+      "Hardness toward oneself and others that isolates",
+      "Emotional isolation and difficulty showing vulnerability",
+      "Contagious pessimism and melancholic tendencies",
+      "Tenacious resentments and excessive touchiness toward injustice"
+    ],
+    "besoinsVitaux": [
+      "Clear and realistic goals to pursue with constancy",
+      "Deserved recognition of its efforts and its worth",
+      "A structuring and reliable framework in which to build"
+    ],
+    "aTravailler": [
+      "Letting go of excessive hardness toward oneself and others",
+      "Integrating sensitivity without experiencing it as a weakness",
+      "Allowing oneself satisfaction in the path travelled instead of seeing only the summit",
+      "Not reducing life to performance or effort",
+      "Distinguishing mastery from closure, rigour from rigidity"
+    ],
+    "equilibre": "A Capricorn in full command of their powers becomes a quiet authority, founded on example and constancy. It embodies a mature wisdom, able to guide without dominating. Its rigour becomes fertile: it protects, it structures, it enables accomplishment instead of freezing. Its reserve is no longer coldness but a form of depth, and its patience is no longer resignation but the serene awareness that time is its most faithful ally."
+  },
+  "sante": {
+    "zones": ["Bones", "Joints", "Knees", "Skin"],
+    "texte": "Capricorn governs mainly the knees, the bones, the skin, the nails, the hair, the joints and the skeleton as a whole. It predisposes to arthritis, rheumatism, gout, bone tuberculosis and, in general, to all pains affecting the lower limbs and the skeletal system.\n\nIt is not necessarily an indicator of a delicate constitution — Capricorn natives often possess a deep resistance and a remarkable longevity — but the tendency is toward chronic rather than acute ailments. Capricorn must take care not to impose on itself a rhythm too austere that would end up wearing out the very structure on which it relies."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "The most natural position for Capricorn. Assimilation is slow, but what is well understood is not forgotten. The native is gifted for reflection and meditation, able to concentrate for a long time. It studies with method, application and patience. Marked mathematical aptitudes, a taste for long scholarly work. It shows little of its emotions, but possesses a keen sensitivity and great constancy in its affections. Activity is slow but regular, diligent, methodical and conscientious. Its practical sense prevents it from embarking on risky undertakings. It succeeds thanks to its patience and perseverance; it sometimes fails through bad luck or a lack of boldness."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "Stubbornness and patience with a view to making regular and sufficient gains. Acquisitiveness is generally marked, as are foresight and a sense of thrift. Avarice can appear if Saturn and Jupiter are poorly placed. A fairly stable situation, with the possible acquisition of land or buildings. A position favourable for gains connected with agriculture, animal husbandry, the trade of raw materials. Sometimes the subject is financially helped by its mother. Capricorn's caution allows it to avoid critical situations."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "An attraction to meticulous and patient studies, to research in archives, to collections and documentation. A highly developed practical sense. This position hardly favours frequent travel, but those that do take place can have a great influence on the situation. Indifference or even possible jealousy in relationships with siblings and cousins. In some cases, a difficult intellectual or scientific success that can nonetheless lead to fame."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "Does not seem to favour family harmony. Fairly often a premature bereavement, but a family of an above-average situation, possibly owning appreciable real estate. The subject sometimes meets serious difficulties late in life, or succeeds only after very long efforts. The native's home is fairly solid, but it almost always lacks warmth and spontaneity. Often the demands of the situation cause a family dispersal. In exceptional nativities, late fame."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Not a very favourable indicator for romantic adventures, which are usually difficult to start and most often end in disappointments long felt. This Earth sign does not seem to restrict offspring, but children are sometimes of delicate constitution and a somewhat sorrowful temper. If Saturn is well aspected, the subject is wary of gambling and speculation, but can make interesting gains in real-estate investments. In creation, Capricorn favours the lasting work over the fleeting flash."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to the ailments of the sign and of Saturn: rheumatism, bone and joint problems, skin afflictions. It is not, however, necessarily an indicator of a delicate constitution. Work is rather hard and sometimes poorly paid, especially if it does not match the subject's aspirations, yet efforts are sustained and employment stable. The native fulfils its duties with conscientiousness and rigour. If the native has subordinates, they are unenthusiastic and touchy, but fairly faithful and punctual."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "The partner is usually older. It is not an indicator of perfect conjugal harmony, but the marriage — rather late — is often advantageous or exerts a beneficial influence on the situation, so that this position can be considered favourable on the whole. In case of separation or premature widowhood, remarriages are rare. Partnerships are solid and useful if Saturn is well aspected. Enmities are dangerous because particularly tenacious and impervious to concessions."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "May indicate the premature loss of the mother. A position not very favourable to inheritances, which often give rise to disputes and legal complications. The end comes through the ailments of the sign or of Saturn, sometimes accidentally. Capricorn in the Eighth House teaches that deep transformations come through the acceptance of duration and of stripping away — dying to what is not essential in order to keep only the fundamental structure."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "The demands of the situation or professional ambitions may prompt the subject to change residence or to take a long journey to try its luck. The results are generally unimpressive at first: the subject must make immense efforts to make the most of its new situation. Subsequently, it seeks to settle permanently. Intellectually, this configuration increases reflection, patience, concentration and an aptitude for the higher speculations of the mind. A favourable position for distant agricultural ventures or international trade."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "This is not a very lucky position, but it is one that often leads to success because it increases ambition, activity and perseverance. Slow but steady elevation through personal effort. Suited to any industrial, agricultural, real-estate or mining activity. It also eases political success and a military career. If the dissonances are very serious, a risk of scandal, of irreparable setbacks or of a fall after a remarkable ascent — the fatality inherent in the sign recalling that whoever climbs very high must sometimes pay a price."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Restricts the number of friends because the native does not seek many relationships, but rather sure friendships and above all people of worth able to advise it usefully. These friends, rarely favoured by material luck, offer moral support of considerable value. The influence of friends on the evolution of the situation can be decisive. Sometimes the subject is obliged to maintain certain relationships for professional or social reasons."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "In the case of a brilliant destiny, the native risks seeing its ascent hampered by the manoeuvres of hidden enemies, notably slander, even if the dissonances are mild. In ordinary situations, the sly hostility of superiors or employers, advancement hampered or delayed without apparent cause. It is always an indicator of difficulties and serious trials. A predisposition to the ailments of Capricorn and Saturn. But Capricorn in the Twelfth House also possesses the patience to transmute trial into wisdom."
+    }
+  ],
+  "amour": {
+    "texte": "Capricorn loves with seriousness, restraint and depth. It does not always open up quickly, but when it commits, it seeks something solid, reliable and lasting. Its love may seem discreet, but it is often more stable and deeper than it appears.\n\nThe awakening to love is often late: this sign is cold in appearance, hardly compatible with love at first sight, and the native is often shy before the other. But while it is not expansive, it is very stable in its feelings, very faithful and very scrupulous when it comes to keeping a promise. Marriage is generally late but solid, founded on a share of reason and a sense of duty that guarantees the durability of the bond.",
+    "qualites": [
+      "Exemplary faithfulness and constancy in feelings",
+      "Seriousness of commitment, which is not given lightly",
+      "The ability to love over time and to go through trials together",
+      "Concrete reliability in deeds more than in words",
+      "A stable and reassuring presence once trust is established"
+    ],
+    "vigilances": [
+      "May find it hard to show its vulnerability and emotions",
+      "A risk of experiencing love as a responsibility more than as an impulse",
+      "A tendency to protect itself through distance or excessive restraint",
+      "May fear emotional disorder and flee the intensity of feeling"
+    ],
+    "affinites": ["taureau", "vierge", "scorpion", "poissons"]
+  },
+  "travail": {
+    "texte": "Capricorn works with rigour, endurance and a sense of construction. It excels in fields that require time, discipline, responsibility and a strategic vision. Architect, engineer, jurist, farmer, administrator, archivist, accountant, researcher, politician — the professions of Capricorn all touch on patient construction, methodical rigour and the exercise of an authority founded on merit.\n\nIt does not need to go fast: it needs to go far and to build something that matters. It is probably under this sign that one finds the most serious, punctual workers, the most concerned with fulfilling their task well. Success is almost always due to personal merit and to constancy in the pursuit of a well-defined goal.",
+    "atouts": [
+      "Unfailing discipline and methodical rigour",
+      "An endurance in effort that surpasses that of all other signs",
+      "A strategic sense and the ability to structure over the long term",
+      "Absolute reliability over time and respect for commitments",
+      "The ability to bring to completion projects that others abandon"
+    ],
+    "defis": [
+      "A tendency to overwork that can lead to exhaustion",
+      "May become too hard or too demanding toward its collaborators",
+      "Tolerates incompetence or permanent improvisation poorly",
+      "A risk of sacrificing life — relationships, pleasures, health — to the goal"
+    ]
+  },
+  "argent": {
+    "texte": "Capricorn has a serious, strategic and cautious relationship with money. It sees it as a tool of security, mastery, independence and construction — never as an instrument of pleasure or prestige. Earnings are regular but not always large, offset by remarkable caution and a sense of thrift. Affluence is rare in youth, but Capricorn knows how to avoid critical situations thanks to its foresight. It will always keep the amount of the next instalment aside. Affluence comes late, the reward of patience.",
+    "forces": [
+      "The ability to manage over the long term with rigour",
+      "Caution and a sense of thrift that prevent crises",
+      "A sense of financial strategy and foresight",
+      "A will to build real and lasting security"
+    ],
+    "risques": [
+      "Fear of going without that can become obsessive",
+      "Excessive rigidity in management that prevents enjoyment",
+      "Difficulty relaxing in the use of money",
+      "A tendency to confuse personal worth with material success"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Capricorn builds an identity through effort, mastery, responsibility and the ability to build something lasting. Ambition is the engine, patience the fuel, merit the only acceptable reward.",
+      "manifestations": ["A structured and persevering will", "Uncommon endurance", "A keen sense of the real and the concrete", "The ability to hold a course without deviating"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Capricorn (in exile) experiences emotions with restraint, a need for mastery and a search for security through control or reliability. Feelings are deep but rarely expressed spontaneously.",
+      "manifestations": ["Deep inner stability", "Emotional mastery acquired through effort", "The ability to carry heavy burdens without complaint", "Resistance in the face of emotional storms"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Capricorn thinks with structure, logic, caution and a sense of the hierarchy of priorities. The mind seeks the essential and the lasting, setting aside the superfluous methodically.",
+      "manifestations": ["Structured and methodical thinking", "A capacity for long-term planning", "Uncompromising intellectual rigour", "Pragmatism and a sense of the essential"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Capricorn loves with restraint, faithfulness, seriousness and a will to build. Pleasure comes through quality, reliability and duration rather than through brilliance or instant passion.",
+      "manifestations": ["Loyalty and constancy in feelings", "A taste for bonds that are solid and tested by time", "Relational seriousness and a sense of commitment", "Sober beauty and natural dignity"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Capricorn is in exaltation — one of its most effective expressions. Action is disciplined, ambitious, powerfully contained and strategically deployed. Combativeness reaches its apogee here.",
+      "manifestations": ["Great efficiency in action", "An unshakable will", "Martial discipline and a sense of strategy", "A power of endurance that wears down obstacles"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Capricorn (in fall) grows through rigour, patience and gradual construction. Expansion happens through structure rather than impulse, slowly but solidly.",
+      "manifestations": ["Lasting and measured growth", "Fertile caution in undertakings", "The ability to grow slowly but surely", "A sense of accomplishment through merit"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Capricorn is in its nocturnal domicile — one of its strongest and most authentic expressions. A keen sense of responsibility, mastery, endurance and a deep awareness of time.",
+      "manifestations": ["Maturity and natural authority", "Moral and intellectual rigour", "The ability to become a reference for others", "An awareness of time as an ally of construction"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Capricorn awakens structures, shakes up established systems and pushes one to reinvent the forms of power, organisation and authority from top to bottom.",
+      "manifestations": ["Structural and institutional innovation", "The ability to modernise old frameworks", "A strategic vision of necessary change"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Capricorn seeks an ideal of construction, success, order or mission. It can spiritualise structure or dream of a perfect form of earthly accomplishment.",
+      "manifestations": ["An inspired vision of construction and architecture", "The ability to dream a lasting and meaningful work", "A sense of a vocation or mission that transcends the ego"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Capricorn deeply transforms the relationship to power, structure, hierarchy, success and responsibility. It destroys obsolete institutions to rebuild more solid ones.",
+      "manifestations": ["A strategic power of transformation", "The ability to restructure systems in depth", "A will for lasting transformation of structures", "Endurance in the most difficult reconstruction processes"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "intense",
+      "titre": "Momentum and structure",
+      "texte": "Aries wants to go fast, Capricorn wants to build over time. The bond can be very productive or very conflictual depending on the maturity of the two and their ability to respect each other's rhythm.",
+      "forces": ["Complementarity between attack and strategy", "The ability to accomplish something solid", "One launches, the other builds over time"],
+      "frictions": ["Reciprocal frustration with the opposing rhythms", "Power struggles between two natural authorities", "A deep difference of rhythm and method"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "fluide",
+      "titre": "Earth and endurance",
+      "texte": "Capricorn and Taurus share a taste for the concrete, for duration and for stability. Two Earth signs that understand each other in their need to build something real and lasting.",
+      "forces": ["Shared realism and a sense of the concrete", "Mutual endurance and reliability", "Lasting and solid construction", "Faithfulness and constancy on both sides"],
+      "frictions": ["Rigidity and stubbornness on both sides", "Routine and a lack of renewal", "Difficulty surprising each other"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "variable",
+      "titre": "Structure and mobility",
+      "texte": "Capricorn wants to build and hold, Gemini wants to circulate and vary. The bond can be enriching if each accepts the difference of rhythm and fundamental priority.",
+      "forces": ["One structures, the other opens new paths", "Complementarity between strategy and flexibility", "Mutual learning of rigour and lightness"],
+      "frictions": ["Capricorn finds Gemini too volatile", "Gemini finds Capricorn too rigid", "Conflict between duration and mobility"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "complementaire",
+      "titre": "The Capricorn–Cancer axis",
+      "texte": "Capricorn structures the outer world, Cancer protects the inner world. It is a very strong axis of complementarity between responsibility and belonging, mastery and vulnerability, summit and roots.",
+      "forces": ["Deep complementarity between structure and tenderness", "The ability to build a solid and human bond", "A possible balance between heart and rigour"],
+      "frictions": ["Capricorn may seem cold and distant", "Cancer may seem too sensitive and dependent", "Conflict between rational mastery and emotional need"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "variable",
+      "titre": "Structure and radiance",
+      "texte": "Capricorn wants to build with seriousness, Leo wants to shine with heart. The bond can be powerful but calls for accepting two very different styles of authority.",
+      "forces": ["One structures, the other inspires and motivates", "The possibility of building something visible and strong", "Complementarity between discreet ambition and dazzling presence"],
+      "frictions": ["Leo may seem too demonstrative", "Capricorn may seem too austere", "Conflict between a need for recognition and a demand for results"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Earth and method",
+      "texte": "Capricorn and Virgo can work, build and move forward together with rigour, method and seriousness. A duo of remarkable effectiveness and reliability.",
+      "forces": ["Shared rigour and competence", "A sense of the real and attention to detail", "Patient and meticulous construction"],
+      "frictions": ["Excessive demands on both sides", "A shared tendency to control everything", "A risk of a too-functional relationship lacking warmth"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Structure and relationship",
+      "texte": "Capricorn wants to solidify, Libra wants to balance and beautify. The relationship can be useful and elegant, but calls for uniting responsibility and relational flexibility.",
+      "forces": ["A shared ability to formalise lasting agreements", "A sense of framework and of the social bond", "Complementarity between structure and diplomacy"],
+      "frictions": ["Libra may seem too indecisive and changeable", "Capricorn may seem too hard and inflexible", "Conflict between compromise and firmness"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "fluide",
+      "titre": "The rock and the abyss",
+      "texte": "Capricorn and Scorpio share a contained intensity, seriousness and an ability to go very far in what they undertake. The bond can be of exceptional solidity and depth.",
+      "forces": ["Shared depth and endurance", "Common will and determination", "Powerful loyalty and mutual respect"],
+      "frictions": ["Possible power struggles between two dominant natures", "Excessive control on both sides", "A shared difficulty in letting go and surrendering"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "variable",
+      "titre": "Vision and construction",
+      "texte": "Sagittarius wants to open the horizon, Capricorn wants to build over time. The bond can be strong and fertile if it links enthusiasm with responsibility, vision with strategy.",
+      "forces": ["One inspires and leads, the other structures and builds", "Complementarity between vision and long-term strategy", "The ability to accomplish something solid and vast"],
+      "frictions": ["Capricorn may seem too closed or austere", "Sagittarius may seem too unpredictable", "Conflict between expansion and control"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "fluide",
+      "titre": "Structure facing structure",
+      "texte": "Two Capricorns understand each other in their need for seriousness, reliability and construction. The bond can be of remarkable solidity, but calls for not drying up emotionally.",
+      "forces": ["Solidity and reliability of the bond", "Deep mutual respect", "The ability to build together over time"],
+      "frictions": ["Rigidity and emotional restraint on both sides", "A risk of living too much in duty at the expense of pleasure", "Difficulty showing vulnerability to each other"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "complementaire",
+      "titre": "Structure and reform",
+      "texte": "Capricorn preserves and organises, Aquarius reinvents and opens up. It is a powerful axis between established form and transformation of the collective, tradition and innovation.",
+      "forces": ["Complementarity between framework and innovation", "A shared strategic vision", "A common ability to transform the world usefully"],
+      "frictions": ["Capricorn may seem too rigid and conservative", "Aquarius may seem too detached or unpredictable", "Conflict between security and radical freedom"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "stimulante",
+      "titre": "Structure and compassion",
+      "texte": "Capricorn gives the world a solid form, Pisces opens it to the sensitive and the invisible. The bond can be deeply complementary if each respects the other's universe.",
+      "forces": ["One grounds and structures, the other softens and inspires", "Complementarity between framework and compassion", "The possibility of linking concrete reality and spiritual inspiration"],
+      "frictions": ["Capricorn finds Pisces too vague and elusive", "Pisces finds Capricorn too hard and too cold", "Conflict between control and surrender"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Capricorn, you enter life with reserve, seriousness, caution and a need for mastery. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting carries a structured, sober and responsible tone. You observe before acting, you assess before committing, and you seek what is solid before relying on it.",
+    "apparence": [
+      "A sober and contained presence that inspires respect",
+      "A serious or controlled bearing with an impression of maturity",
+      "An attentive, cautious or distant gaze that observes before revealing itself",
+      "A body or posture evoking verticality and self-control"
+    ],
+    "temperament": [
+      "Observes at length before acting and committing",
+      "Reacts with caution and measure in all circumstances",
+      "Needs to understand what is solid before relying on it",
+      "Tolerates empty improvisation and short-lived enthusiasms poorly"
+    ],
+    "vigilances": [
+      "Rigidity that closes doors instead of opening them",
+      "Excessive restraint that prevents the expression of feelings",
+      "Fear of vulnerability experienced as a weakness",
+      "A tendency to over-control oneself even in intimate moments",
+      "A risk of seeming closed or inaccessible to those around it"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Vega",
+      "nature": "Venus / Mercury",
+      "texte": "Vega brings a note of quality, of mastered refinement and of success obtained through talent and discipline. In Capricorn, it supports the idea of a summit reached through demandingness and constancy, where excellence becomes natural.",
+      "motsCles": ["Excellence", "Inner nobility", "Mastery", "Sober radiance"]
+    },
+    {
+      "nom": "Nunki",
+      "nature": "Jupiter / Mercury",
+      "texte": "Nunki reinforces the idea of a mastered trajectory, of a direction held with intelligence and control. It harmonises with the strategic dimension of Capricorn, evoking patient navigation toward a distant but certain harbour.",
+      "motsCles": ["Vision", "Direction", "Mastery", "Navigation"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Onyx", "motsCles": ["solidity", "mastery", "endurance", "structure"] },
+      { "nom": "Almandine garnet", "motsCles": ["endurance", "effort", "steadiness", "depth"] },
+      { "nom": "Lead", "motsCles": ["saturn", "time", "structure", "responsibility"] }
+    ],
+    "vegetaux": [
+      { "nom": "Cypress", "motsCles": ["verticality", "steadiness", "duration", "sobriety"] },
+      { "nom": "Ivy", "motsCles": ["persistence", "duration", "patience", "ascent"] },
+      { "nom": "Horsetail", "motsCles": ["structure", "consolidation", "solidity", "discipline"] }
+    ],
+    "animaux": [
+      { "nom": "Mountain goat", "motsCles": ["ascent", "caution", "endurance", "height"] },
+      { "nom": "Ibex", "motsCles": ["mastery", "height", "resistance", "tenacity"] },
+      { "nom": "Raven", "motsCles": ["lucidity", "gravity", "intelligence", "distance"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "India", "texte": "Associated with Capricorn for its antiquity, its complex social structure and a temporal depth that defies the centuries." },
+    { "pays": "Mexico", "texte": "Cited in the classical traditions for its ancient civilisations, its pyramids and a culture of endurance in the face of adversity." },
+    { "pays": "Afghanistan", "texte": "Linked to Capricorn through its austere mountains, its age-old resistance and a temperament forged by trials." },
+    { "pays": "Bulgaria", "texte": "Cited in the traditional correspondences for its earthy grounding, its history of resistance and its culture of perseverance." }
+  ],
+  "figuresCelebres": [
+    { "nom": "David Bowie", "domaine": "Music", "date": "January 8, 1947", "texte": "Embodies Capricorn's mastery through a patient, disciplined construction of work of remarkable longevity." },
+    { "nom": "Kate Middleton", "domaine": "Public life", "date": "January 9, 1982", "texte": "Illustrates the steadiness, mastery and sobriety of image characteristic of Capricorn." },
+    { "nom": "Denzel Washington", "domaine": "Film", "date": "December 28, 1954", "texte": "Embodies the solid presence, lasting credibility and mastery of Capricorn on screen." },
+    { "nom": "Michelle Obama", "domaine": "Public life", "date": "January 17, 1964", "texte": "Illustrates the discipline, composed authority and structured strength proper to Capricorn." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Capricorn?",
+      "reponse": "Capricorn is characterised by patience, rigour, ambition and a remarkable ability to build over time. It is a reserved, solid and demanding temperament, endowed with great constancy in its feelings and opinions. It shows little of its emotions but possesses a keen sensitivity. Its sense of responsibility, its perseverance and its conscientiousness are its major assets."
+    },
+    {
+      "question": "What kind of lover is Capricorn?",
+      "reponse": "Serious, faithful, constant and deep. Capricorn does not open up quickly but loves with duration and reliability. The awakening to love is often late, the marriage rather one of reason, but the bond is solid and lasting. It needs respect, trust and coherence. Its love may seem discreet, but it is more stable and deeper than it appears."
+    },
+    {
+      "question": "What kind of worker is Capricorn?",
+      "reponse": "A builder, a strategist and a tireless worker. Capricorn excels in fields that require time, discipline and responsibility. It succeeds through personal merit and constancy in the pursuit of a well-defined goal. It is unbeatable in terms of concentration and perseverance in effort."
+    },
+    {
+      "question": "Which house corresponds to Capricorn?",
+      "reponse": "The Tenth House — that of vocation, social standing, success and responsibilities. Its natural analogy with Capricorn underscores effort, structuring, maturity and the conquest of a lasting legitimacy founded on merit and constancy."
+    },
+    {
+      "question": "What is the ideal Ascendant for Capricorn?",
+      "reponse": "A Cancer Ascendant softens its rigour through sensitivity. A Taurus Ascendant reinforces its grounding and solidity. A Scorpio Ascendant brings it emotional depth and a power of transformation."
+    },
+    {
+      "question": "What are the flaws of Capricorn?",
+      "reponse": "Excessive hardness, pessimism, emotional isolation and rigidity. Its demands on itself often carry over to others. These traits soften with maturity and acquired confidence."
+    },
+    {
+      "question": "Is Capricorn cold in love?",
+      "reponse": "Capricorn is not cold but reserved. It shows little of its emotions, yet its sensitivity is keen and its faithfulness exemplary. Its love is proven through deeds and constancy rather than through words."
+    }
+  ]
+}

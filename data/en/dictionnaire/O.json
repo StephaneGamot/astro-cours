@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "occultation",
+    "category": "astronomique",
+    "term": "Occultation",
+    "short": "The disappearance of a celestial body behind another, larger one (often the Moon).",
+    "body": "An occultation is a form of eclipse. When a planet is occulted by the Moon, its influence is momentarily “put on hold” or forcibly turned inward. In mundane astrology, the occultation of a major planet (such as Jupiter or Saturn) is a strong signal of radical change or of a crisis concerning that body’s values for the collective."
+  },
+  {
+    "slug": "opposition",
+    "category": "aspect",
+    "term": "Opposition",
+    "short": "An aspect of confrontation formed by a 180° angle between two planets.",
+    "body": "The opposition is a major hard aspect that forms when two planets sit diametrically across from each other on the zodiacal circle (180°, with an orb of 8° to 10° for the luminaries). It creates a polarity, a seesaw between two energies that face one another. Unlike the square (an inner conflict), the opposition often plays out through relationships: the native projects onto others what they fail to recognize in themselves. A Sun-Moon opposition (a natal full Moon) creates a pull between the conscious will and emotional needs. A Venus-Saturn opposition sets the desire for love against the fear of rejection. The opposition calls for the work of integration: accepting that two seemingly contradictory forces coexist, and finding a point of balance. In traditional astrology, the opposition was considered less harsh than the square, because awareness of both poles allows for more lucid work."
+  },
+  {
+    "slug": "orbe",
+    "category": "concept",
+    "term": "Orb",
+    "short": "The margin of tolerance, in degrees, granted to an aspect for it to be considered active.",
+    "body": "The orb is the margin of tolerance, measured in degrees, that the astrologer grants to an aspect in order to consider it effective. For example, an exact trine is 120°; with an orb of 8°, two planets separated by 112° to 128° will form a trine. The tighter the orb, the more powerful the aspect. An exact aspect (an orb of 0° to 1°) is considered very strong; an aspect with a wide orb (7°–8°) is present but weakened. Orbs vary from school to school: traditional astrology used planetary orbs (each planet has its own orb), whereas modern astrology generally uses orbs by aspect (8°–10° for the conjunction, 6°–8° for the square and trine, 4°–6° for the sextile). The luminaries (Sun, Moon) are traditionally granted wider orbs than the slow planets."
+  },
+  {
+    "slug": "orbite",
+    "category": "astronomique",
+    "term": "Orbit",
+    "short": "The path traced by a celestial body around its center of gravity.",
+    "body": "The orbit determines the speed of each planet and therefore the length of its stay in each sign. In astrology, we also speak of the “orb” (derived from orbit) to designate the zone of influence of an aspect. The tighter the orb, the more powerful the aspect, because it means the two planets are at their closest to perfect alignment."
+  },
+  {
+    "slug": "orientation",
+    "category": "concept",
+    "term": "Orientation",
+    "short": "A chart’s fundamental tendency to turn outward (diurnal) or inward (nocturnal).",
+    "body": "A chart’s orientation is determined by the position of the Sun: if the Sun is above the horizon, the chart is diurnal; otherwise it is nocturnal. This distinction influences the hierarchy of the planets and the native’s psychological dynamic. A diurnal chart favors the diurnal planets (Sun, Jupiter, Saturn), while a nocturnal chart highlights the nocturnal planets (Moon, Venus, Mars). Orientation gives an indication of how the individual expresses their energy: in a more extroverted and assertive way for diurnal charts, and in a more introverted and receptive way for nocturnal ones."
+  },
+  {
+    "slug": "orion",
+    "category": "constellation",
+    "term": "Orion",
+    "short": "A major winter constellation, symbolizing the mythical hunter.",
+    "body": "Orion is one of the most recognizable constellations in the night sky, visible mainly during the winter months in the northern hemisphere. It is made up of several bright stars, including Betelgeuse (a red supergiant) and Rigel (a blue supergiant). In Greek mythology, Orion was a giant hunter who was placed among the stars by Zeus. In astrology, Orion is not traditionally used as a reference point, but it can be regarded as a symbol of strength, courage, and the heroic quest."
+  },
+  {
+    "slug": "ostentation",
+    "category": "concept",
+    "term": "Ostentation (Heliacal Rising)",
+    "short": "The visibility of a planet emerging from the Sun’s rays to become observable.",
+    "body": "Historically, ostentation (or heliacal rising) is a key moment when a planet, previously invisible because it was too close to the Sun, becomes observable again at dawn. Symbolically, this marks the “birth” of the planet’s influence in the concrete world. A planet in ostentation gains authority and the capacity to act."
+  },
+  {
+    "slug": "outsider",
+    "category": "concept",
+    "term": "Outsider",
+    "short": "An individual whose natal chart shows atypical configurations or planets in rare signs.",
+    "body": "An outsider in astrology is a person whose natal chart stands out through unusual configurations, such as planets in rare signs (e.g., Uranus in Taurus), planetary clusters in an uncommon sign, or very tight aspects between slow planets. These individuals may feel a certain strangeness or a sense of not belonging to social norms, yet they often possess a unique perspective and a capacity for innovation. Astrology can help us understand the specific strengths and challenges of these outsiders, and value their originality."
+  }
+]

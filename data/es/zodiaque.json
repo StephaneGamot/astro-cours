@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "belier",
+    "name": "Aries",
+    "headline": "Aries representa el impulso inicial",
+    "description": "El impulso, el coraje y la necesidad de actuar. Expresa la fuerza del comienzo y la capacidad de lanzarse sin esperar.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/belier.webp",
+      "alt": "Símbolo astrológico de Aries"
+    }
+  },
+  {
+    "slug": "taureau",
+    "name": "Tauro",
+    "headline": "Tauro representa la estabilidad",
+    "description": "El arraigo, la constancia y la búsqueda de seguridad. Habla de la relación con el cuerpo, los placeres y lo que perdura en el tiempo.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/taureau.webp",
+      "alt": "Símbolo astrológico de Tauro"
+    }
+  },
+  {
+    "slug": "gemeaux",
+    "name": "Géminis",
+    "headline": "Géminis representa el intercambio",
+    "description": "La curiosidad, el movimiento y la comunicación. Muestran cómo la mente observa, conecta y comparte la información.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/gemeaux.webp",
+      "alt": "Símbolo astrológico de Géminis"
+    }
+  },
+  {
+    "slug": "cancer",
+    "name": "Cáncer",
+    "headline": "Cáncer representa la protección",
+    "description": "La sensibilidad, el apego y la necesidad de seguridad emocional. Habla del hogar interior y de las raíces afectivas.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/cancer.webp",
+      "alt": "Símbolo astrológico de Cáncer"
+    }
+  },
+  {
+    "slug": "lion",
+    "name": "Leo",
+    "headline": "Leo representa la expresión de sí mismo",
+    "description": "La creatividad, el orgullo y la necesidad de brillar. Muestra cómo el individuo afirma su presencia y busca ser reconocido.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/lion.webp",
+      "alt": "Símbolo astrológico de Leo"
+    }
+  },
+  {
+    "slug": "vierge",
+    "name": "Virgo",
+    "headline": "Virgo representa el discernimiento",
+    "description": "El análisis, la precisión y el sentido del detalle. Expresa la necesidad de comprender, mejorar y hacer las cosas útiles.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/vierge.webp",
+      "alt": "Símbolo astrológico de Virgo"
+    }
+  },
+  {
+    "slug": "balance",
+    "name": "Libra",
+    "headline": "Libra representa el equilibrio",
+    "description": "La relación, la búsqueda de armonía y el sentido de la justicia. Muestra cómo se construye el vínculo con el otro.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/balance.webp",
+      "alt": "Símbolo astrológico de Libra"
+    }
+  },
+  {
+    "slug": "scorpion",
+    "name": "Escorpio",
+    "headline": "Escorpio representa la profundidad",
+    "description": "La intensidad, la transformación y la confrontación con lo esencial. Invita a atravesar lo oculto para renovarse.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/scorpion.webp",
+      "alt": "Símbolo astrológico de Escorpio"
+    }
+  },
+  {
+    "slug": "sagittaire",
+    "name": "Sagitario",
+    "headline": "Sagitario representa la búsqueda de sentido",
+    "description": "La exploración, la ampliación de la visión y la búsqueda de la verdad. Habla de la necesidad de comprender el mundo en su conjunto.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/sagittaire.webp",
+      "alt": "Símbolo astrológico de Sagitario"
+    }
+  },
+  {
+    "slug": "capricorne",
+    "name": "Capricornio",
+    "headline": "Capricornio representa la construcción",
+    "description": "La responsabilidad, la resistencia y el dominio del tiempo. Muestra cómo se construye algo sólido y duradero.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/capricorne.webp",
+      "alt": "Símbolo astrológico de Capricornio"
+    }
+  },
+  {
+    "slug": "verseau",
+    "name": "Acuario",
+    "headline": "Acuario representa la visión colectiva",
+    "description": "La independencia, la innovación y la necesidad de cambio. Expresa la capacidad de pensar diferente y salir de las normas.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/verseau.webp",
+      "alt": "Símbolo astrológico de Acuario"
+    }
+  },
+  {
+    "slug": "poissons",
+    "name": "Piscis",
+    "headline": "Piscis representa la sensibilidad global",
+    "description": "La empatía, el imaginario y la disolución de las fronteras. Habla de la conexión con lo sutil y lo universal.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/poissons.webp",
+      "alt": "Símbolo astrológico de Piscis"
+    }
+  }
+]

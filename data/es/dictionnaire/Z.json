@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "zenith",
+    "category": "concept",
+    "term": "Cenit",
+    "short": "Punto del cielo situado exactamente en la vertical por encima del observador.",
+    "body": "El cenit es el punto de la esfera celeste situado exactamente en la vertical por encima del observador, a 90° del horizonte en todas las direcciones. En astrología, el cenit se confunde a menudo con el Medio Cielo (MC), pero ambos no coinciden exactamente. El MC es la intersección de la eclíptica con el meridiano local, mientras que el cenit es estrictamente el punto más alto por encima de la cabeza. La diferencia entre ambos depende de la latitud del lugar de nacimiento y de la declinación del punto considerado. En la práctica corriente, esta distinción técnica suele pasarse por alto, pero tiene su importancia en ciertos sistemas de domificación (en particular el sistema de Campano, que utiliza el cenit como referencia). El punto diametralmente opuesto al cenit es el nadir."
+  },
+  {
+    "slug": "zodiaque",
+    "category": "concept",
+    "term": "Zodíaco",
+    "short": "Banda celeste de 360° dividida en doce signos de 30° cada uno, marco de referencia de la astrología.",
+    "body": "El zodíaco es la banda de cielo de 360° centrada en la eclíptica (el plano de la órbita terrestre alrededor del Sol) por la que se desplazan los planetas del sistema solar. Está dividido en doce signos de 30° cada uno, de Aries a Piscis. Existen dos zodíacos: el zodíaco tropical, fundado en las estaciones y utilizado en la astrología occidental, y el zodíaco sideral, ajustado a las constelaciones y utilizado en la astrología védica. El zodíaco tropical comienza en el punto vernal (0° de Aries = equinoccio de primavera). La palabra «zodíaco» proviene del griego zōidiakos kyklos, «círculo de los pequeños animales», en referencia a las figuras animales de las constelaciones. El zodíaco es el marco fundamental de la astrología: es lo que determina los signos en los que se encuentran los planetas, el ascendente y las cúspides de las casas."
+  },
+  {
+    "slug": "zodiaque-tropical",
+    "category": "concept",
+    "term": "Zodíaco tropical",
+    "short": "Zodíaco basado en las estaciones, que comienza en el punto vernal (0° de Aries).",
+    "body": "El zodíaco tropical es el que utilizan casi todos los astrólogos occidentales. No se apoya en las constelaciones físicas, sino en la relación Tierra-Sol. El 0° de Aries corresponde al equinoccio de primavera. Este zodíaco simboliza la evolución psicológica humana en relación con los ciclos de la naturaleza terrestre."
+  },
+  {
+    "slug": "zodiaque-sideral",
+    "category": "concept",
+    "term": "Zodíaco sideral",
+    "short": "Zodíaco basado en las constelaciones reales del cielo.",
+    "body": "El zodíaco sideral se utiliza principalmente en la astrología védica (India) y por algunos astrólogos occidentales. Tiene en cuenta la precesión de los equinoccios, lo que crea actualmente un desfase de unos 24 grados con el zodíaco tropical. Para el zodíaco sideral, el signo corresponde a la posición real de las estrellas en el fondo de los planetas."
+  },
+  {
+    "slug": "zodiaque-etoiles-fixes",
+    "category": "concept",
+    "term": "Zodíaco de las estrellas fijas",
+    "short": "Zodíaco basado en las constelaciones reales, que incluye las estrellas fijas.",
+    "body": "El zodíaco de las estrellas fijas es un enfoque más antiguo y más astronómico de la astrología, que considera no solo los planetas sino también las estrellas fijas (estrellas brillantes con posiciones relativamente estables). Estas estrellas se reparten por las constelaciones del zodíaco y tienen significados específicos. Por ejemplo, la estrella fija Régulo en Leo se asocia con la realeza y la nobleza. Este enfoque es menos habitual hoy en día, pero ofrece una dimensión adicional de interpretación."
+  },
+  {
+    "slug": "zodiaque-constellations",
+    "category": "concept",
+    "term": "Zodíaco de las constelaciones",
+    "short": "Zodíaco basado en las constelaciones reales, con divisiones desiguales.",
+    "body": "El zodíaco de las constelaciones es un enfoque que divide el cielo en función de las constelaciones reales, sin reducirlas a segmentos de 30°. Las constelaciones del zodíaco tienen tamaños muy diferentes: Virgo cubre alrededor de 44°, mientras que Escorpio solo cubre 7°. Este método es más fiel a la astronomía pero menos práctico para la astrología, ya que complica los cálculos y las interpretaciones. Rara vez se utiliza en la práctica astrológica moderna."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "balance",
+    "category": "signe",
+    "term": "Libra",
+    "short": "The seventh sign (Air/Cardinal), symbolizing harmony, relationship and justice.",
+    "body": "Libra opens the autumn equinox, the moment of balance between day and night. Ruled by Venus, it is turned toward the other and the search for consensus. It embodies aesthetics, diplomacy and the need for social peace. It is through Libra that the individual learns the “We.” Its challenge is not to lose itself in compromise and to learn to make firm decisions in order to uphold true fairness."
+  },
+  {
+    "slug": "belier",
+    "category": "signe",
+    "term": "Aries",
+    "short": "The first sign of the zodiac (Fire/Cardinal), symbolizing impulse and renewal.",
+    "body": "Aries marks the spring equinox, the instant when life bursts forth from the earth. Ruled by Mars, it is an energy of pure action, of boldness and of self-assertion. As the first sign, it represents the nascent state of consciousness, the “I am” that does not yet burden itself with nuance. Its challenge is to learn perseverance and to channel its impulsive force without becoming destructive."
+  },
+  {
+    "slug": "benefique",
+    "category": "concept",
+    "term": "Benefic",
+    "short": "Traditionally, planets (Venus, Jupiter) or aspects that bring luck and ease.",
+    "body": "In traditional astrology, Venus is the lesser benefic and Jupiter the greater benefic. By extension, the trine and the sextile are benefic aspects. Modern astrology qualifies this term by pointing out that too much ease can lead to laziness or to an absence of growth."
+  },
+  {
+    "slug": "biquintile",
+    "category": "aspect",
+    "term": "Biquintile",
+    "short": "Synonym of bi-quintile: a 144° aspect indicating a mastered creativity.",
+    "body": "The term 'biquintile' is a spelling variant of 'bi-quintile'. It designates the same 144° aspect between two planets, associated with creativity, talent and original expression. In modern astrology, the two terms are used interchangeably to speak of this minor aspect, which reveals an ability to innovate or to find novel solutions."
+  }
+]

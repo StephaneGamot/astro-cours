@@ -1,7 +1,5 @@
-import ContentCard from "@/components/sections/homePage/ContentCard";
-import zodiaque from "@/data/zodiaque.json";
-
-type Zodiac = (typeof zodiaque)[number];
+import { getTranslations } from "next-intl/server";
+import ContentCard, { type CardData } from "@/components/sections/homePage/ContentCard";
 
 /** Inline sparkles icon */
 function SparklesIcon({ className }: { className?: string }) {
@@ -14,7 +12,12 @@ function SparklesIcon({ className }: { className?: string }) {
   );
 }
 
-export default function ZodiacCardContainer() {
+export default async function ZodiacCardContainer({
+  items,
+}: {
+  items: CardData[];
+}) {
+  const t = await getTranslations("home");
   return (
     <section
       id="zodiaque"
@@ -30,7 +33,7 @@ export default function ZodiacCardContainer() {
           id="zodiaque-title"
           className="font-serif text-3xl tracking-tight text-white md:text-5xl"
         >
-          Les 12 Signes du Zodiaque
+          {t("sectionZodiac")}
         </h2>
         <div
           aria-hidden="true"
@@ -40,13 +43,14 @@ export default function ZodiacCardContainer() {
 
       {/* ── Card grid ──────────────────────────────────── */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {(zodiaque as Zodiac[]).map((item, index) => (
+        {items.map((item, index) => (
           <ContentCard
             key={item.slug}
             item={item}
             basePath="signes"
             accent="violet"
             priority={index < 4} /* Les 4 premiers signes seront chargés instantanément (Améliore le LCP de Google) */
+            linkLabel={t("cardLabelSign", { name: item.name })}
           />
         ))}
       </div>

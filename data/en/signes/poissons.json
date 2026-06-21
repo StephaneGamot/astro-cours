@@ -1,0 +1,456 @@
+{
+  "slug": "poissons",
+  "nom": "Pisces",
+  "sousTitre": "The twelfth sign of the Zodiac",
+  "devise": "I feel everything",
+  "periode": "February 19 – March 20",
+  "element": "Water",
+  "mode": "Mutable",
+  "maitre": "Jupiter (traditional) / Neptune (modern)",
+  "exaltation": "Venus",
+  "exil": "Mercury",
+  "chute": "Mercury",
+  "polarite": "Feminine",
+  "temperament": "Lymphatic",
+  "maisonNaturelle": 12,
+  "couleur": {
+    "primaire": "#8284FD",
+    "secondaire": "#818CF8",
+    "accent": "#C4B5FD",
+    "gradient": "from-indigo-600 via-violet-500 to-purple-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "verseau", "nom": "Aquarius" },
+    "suivant": { "slug": "belier", "nom": "Aries" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/poissons.webp",
+    "planete": "/images/planetes/neptune.webp"
+  },
+  "introduction": "Pisces is the twelfth and last sign of the Zodiac. The Sun crosses it between roughly February 19 and March 20, at the end of winter, when nature still seems asleep but is already silently preparing the great renewal of spring. It is the culmination of the cycle, the last phase of waiting, a moment of meditation and inner harmony.\n\nAfter the collective vision of Aquarius, Pisces invites us to feel the unity of the living, to connect to what goes beyond the individual, to dissolve the borders between self and world. It is no accident that astrology places here the end of the zodiacal journey: Pisces embodies the return to the original ocean, universal compassion, the dream of a consciousness that no longer separates but welcomes everything — the visible and the invisible, the real and the imaginary, suffering and grace.",
+  "fondationsCosmiques": {
+    "texte": "Pisces belongs to the Water element (cold and humid), which gives it a lymphatic temperament: great inner receptivity, deep sensitivity, a rich and subterranean emotional life. It is the third level of Water — that of sublimation. Where Cancer feels and protects, where Scorpio probes and transforms, Pisces dissolves the borders and connects to the unity of the living.\n\nThe psychic element is sublimated: one feels the suffering of others, perceives the invisible currents, picks up what is left unsaid. Its mode is mutable: it adapts to all situations, blends into atmospheres, espouses the forms offered to it. It is also a dual sign — two fish swimming in opposite directions symbolise the permanent tension between dream and reality, escape and incarnation, sacrifice and fullness. A passive, receptive and introverted sign, it absorbs rather than defends itself, but possesses considerable endurance and deep inner resources.",
+    "courteAscension": "Pisces is a sign of short ascension — it passes quickly above the horizon — which means that, statistically, fewer people are born with Pisces as their Ascendant.",
+    "pluton": "Pisces is the traditional nocturnal domicile of Jupiter, the planet of expansion, faith and generosity. Generous Jupiter feels at home in the sign of compassion. Since the discovery of Neptune in 1846, many modern astrologers have attributed to it the rulership of Pisces, so well does this planet of imagination, dissolution and spirituality correspond to the deep temperament of this sign.\n\nThe question of the dual rulership Jupiter–Neptune remains open: Jupiter gives Pisces its benevolence, its sense of protection and its ability to think big; Neptune gives it its porosity, its imaginary world and its aspiration to the infinite. The exaltation of Venus in this sign adds a dimension of unconditional love: here, love no longer calculates, it embraces everything."
+  },
+  "analogies": {
+    "animal": "The fish",
+    "objet": "The ocean, the veil, the cup, the tide",
+    "fonction": "To feel, to dissolve, to unite",
+    "texte": "Pisces is the sign of mysticism, kindness, compassion, shyness, indecision and philanthropy. The mystic, the sailor, the nurse, the social worker — all are archetypes of this sign. Just as fish live in a milieu without visible borders, letting themselves be carried by the currents and the tides, the Pisces native moves through a world of sensations, intuitions and subtle resonances. It is the sign of hidden and mysterious things, of the fear of the unknown that turns into fascination. Pisces inscribes in the Zodiac the possibility of a consciousness that no longer separates: an oceanic consciousness, able to welcome the totality of the living."
+  },
+  "mythologie": {
+    "titre": "The saviour fish and Jonah",
+    "texte": "Pisces is linked to several mythological tales evoking salvation, dissolution and rebirth. In Greek mythology, Aphrodite and Eros transform into fish to escape the monstrous Typhon — abandoning their form to survive otherwise. In Hindu mythology, it is a fish named Manu who saves humanity from a vast flood and becomes the father of the new humanity.\n\nIn the biblical tradition, Jonah is swallowed by the whale and stays three days in the belly of the animal at the bottom of the waters before coming out alive, prefiguring the resurrection. The fish drawn on the walls of the catacombs was the rallying sign of the first Christians — ICHTHYS, \"fish\" in Greek, formed from the initials of \"Jesus Christ, Son of God, Saviour.\" In all these myths appears the same promise: a time of trials and purification is necessary to reach a new life.",
+    "civilisations": "The figure of the saviour fish runs through the civilisations: in Mesopotamia, the god Ea took the form of a fish to teach wisdom to humankind. In India, Vishnu incarnated as a fish (Matsya) to save the world from the flood. Andersen's little mermaid, in love with her prince, sacrifices herself in silence so that he may be happy — a Piscean myth par excellence.\n\nThe two fish swimming in opposite directions symbolise, in all traditions, the duality between the visible world and the invisible world, between the flesh and the spirit, between attachment and detachment. Pisces carries the promise that the end of a cycle is not a death, but a return to the source."
+  },
+  "portrait": {
+    "temperament": "Pisces feels before defining: it picks up, absorbs, senses, imagines and lets itself be traversed by what is not always clearly said. Its character is sensitive, receptive, intuitive, often dreamy, with a very fine relationship to atmospheres and inner movements. The creative faculties are not always spectacular, but assimilation is easy and understanding is eased by a generally very considerable intuition.\n\nThe Pisces subject often has accurate presentiments and sometimes gifts of clairvoyance. It is sincere, devoted, conciliatory, trusting and hospitable, asking only to be of service and to please. Its shyness often hampers it, as do its naivety and its overly great spontaneity. The will is unstable and there is often a lack of self-confidence.\n\nModesty is sometimes excessive and does not allow it to highlight its true aptitudes. When immature, it can become vague, evasive or too easily influenced; when it matures, it becomes a force of compassion, inspiration and deep understanding.",
+    "forces": [
+      "Perceiving atmospheres and unspoken things with rare finesse",
+      "Welcoming and understanding another's emotional experience without judgement",
+      "Creating from imagination, inspiration or dream",
+      "Connecting beings through compassion and gentleness",
+      "Sensing the subtle movements of a situation before they manifest",
+      "Bringing meaning, gentleness or a form of invisible healing"
+    ],
+    "ombres": [
+      "Loss of bearings and identity blur in moments of crisis",
+      "Escape from reality when the pressure becomes too strong",
+      "Difficulty setting clear limits in relationships",
+      "A tendency to absorb the negative emotions of those around it",
+      "A risk of confusing compassion and self-sacrifice"
+    ],
+    "besoinsVitaux": [
+      "Time of withdrawal and replenishment far from the noise of the world",
+      "A spiritual, artistic or imaginative connection that nourishes the soul",
+      "A protective framework that respects sensitivity without stifling it"
+    ],
+    "aTravailler": [
+      "Grounding in the real and the concrete everyday",
+      "Clarity and discernment in the face of emotional demands",
+      "The ability to say no without guilt",
+      "Not confusing compassion with self-sacrifice",
+      "Learning healthy limits that protect without isolating"
+    ],
+    "equilibre": "A Pisces in full command of their powers becomes a soothing presence, able to relieve and inspire without losing themselves. It embodies a sensitive wisdom, turned toward unity and compassion. Its receptivity no longer dissolves it: it becomes a force of presence, of subtle care and of inspired creation. Its gentleness is no longer weakness but a form of silent courage, and its imaginary world becomes a bridge between the visible and the invisible."
+  },
+  "sante": {
+    "zones": ["Feet", "Lymphatic system", "Bodily fluids", "Psyche"],
+    "texte": "Pisces governs mainly the feet, the lymphatic system, the bodily fluids, the glands and lymph nodes. It predisposes to ailments linked to the feet, to phlegm, to coryza, to obesity, and through the opposite sign to respiratory and intestinal disorders.\n\nThe psyche is particularly taxed: Pisces natives can be subject to psychosomatic afflictions, emotional anguish, ulcers, spasmodic colitis and asthma. The constitution is often more fragile than average, and activity can be limited by nonchalance or physical weakness. Pisces must take care to protect its nervous system from emotional overload and to maintain its vitality through gentle practices that respect its inner rhythm."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "The creative faculties are sometimes discreet, but assimilation is easy and intuition very considerable. The subject often has accurate presentiments and sometimes gifts of clairvoyance. Very great sensitivity and emotivity: it easily takes the imprint of the good or bad influences of those around it. Very conciliatory, trusting and hospitable, it is a sincere and devoted friend. Activity is limited by nonchalance or a lack of self-confidence, but it knows how to show organisational aptitudes and succeeds above all in positions of trust. Despite its shyness, it happens that, following a powerful intuition, it makes decisions of an unconscious boldness often crowned with success."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "The financial situation is often precarious for a long time, with frequent improvement from the forties onward. Expenses are fairly high, reserves low. Sometimes two sources of income. The question of health is always to be taken into consideration, as physical weakness can considerably diminish earnings. The native, however, benefits from time to time from unexpected favourable circumstances. In subordinate positions, earnings are more regular and the subject often knows how to make itself indispensable."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "Intellectual curiosity is sometimes weak, which can hamper studies, however it is a good indicator of imagination and intuition. Travels are fairly frequent and the subject is drawn to journeys over water, but these often remain at the project stage. Family relationships are rather numerous and can play a favourable moral role, but sometimes enmities arise among neighbours or relatives. The possibility of studies undertaken in secret, especially in matters of occultism or spirituality."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "A good indicator for family harmony. The parents are devoted and conciliatory, doing everything possible to help the subject. The home is generally comfortable and family life harmonious. The native often loves to stay by the water. It is also a factor of instability in residence, with at least two important changes of home over the course of life. Sometimes family secrets or mysterious circumstances surrounding the birth. The end of life is often peaceful and free of material worries."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Portends several discreet and even hidden romantic adventures, with instability, indecision and sometimes shyness. This very fertile sign generally indicates several children. Regarding speculation, this position can indicate very fortunate intuitions and is rather a sign of luck if the aspects are favourable. If the aspects are very bad, a risk of serious sentimental troubles following slander or jealousy."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to the ailments of the sign and to those of Jupiter and Neptune. Accidental illnesses risk becoming chronic. It is an indicator of restricted vitality. The native's activity is more or less hampered by its state of health and changes of situation are frequent. If the aspects are good, any collaborators are usually devoted; if the aspects are bad, one must beware of their betrayals or indiscretions."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "Somewhat compromises the harmony and duration of the union, with sometimes two marriages of which the first often takes place rather early. If the first union is a little late, the chances of understanding are increased by it. Partnerships are not to be advised: they bring more worries than satisfactions. On the other hand, declared enemies are not very dangerous, this sign tending to reduce open antagonisms. If the aspects are bad, hidden enmities become more numerous."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "If the other indications of the chart concur, there may be dangers linked to water or to poisoning. More often, this position portends an end linked to the ailments of the sign, often in a place of retreat or care. It is rather a favourable indicator for inheritances, but these risk arousing jealousies within the family. If the dissonances are serious, part of the patrimony may be squandered in lawsuits or diminished by prejudicial decisions."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "There are often, over the course of life, two great journeys clearly more important than all the others. Rather favourable to living far from one's birthplace. A tendency to journeys over water. A very favourable indicator for the study of occultism and spirituality. Increases religious or mystical tendencies, with sometimes a religious retreat or a contemplative commitment."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "The subject is often obliged to feel its way before finding its vocation, hence the probability of two marked changes in its career and a rather late success. Access to honours and fame is not eased by this position: even if the subject succeeds brilliantly, its success risks being tarnished by slander or the manoeuvres of enemies and the jealous. Any elevation of natives with Pisces in an important position automatically arouses sometimes unexpected jealousies."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Friendly relationships are fairly numerous, conciliatory and above all helpful. However, quarrels can occur and certain friends risk passing into the ranks of hidden enmities without the native noticing. One must avoid offending friends who are usually very touchy. Sometimes this position portends the meeting of friends in unforeseen and somewhat mysterious circumstances. In general, pleasant but somewhat inconstant friendships."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "The superposition of the sign and its natural house accentuates the risks of worries caused by hidden enmities. Jealousies, slander and muffled obstacles are always possible with this position. It seems to increase the attraction to the occult sciences and to accentuate philanthropic tendencies. If there is no serious dissonance, hidden enmities will never be able to harm considerably. A predisposition to the ailments of the sign or to those of Jupiter and Neptune."
+    }
+  ],
+  "amour": {
+    "texte": "Pisces loves with immense sensitivity, much gentleness, fusion, imagination and compassion. It needs to feel that a bond touches the soul, that it opens a space of subtle intimacy, of trust and tenderness.\n\nThe Pisces native is sincere and devoted, but sometimes indecisive and prone to whims. It is sentimental, very inclined to believe in the sincerity of its partner, which exposes it to disappointments that will affect it deeply because of its great sensitivity. It can love very deeply, but must learn not to lose itself in the other or in the ideal it projects onto them.",
+    "qualites": [
+      "Great emotional tenderness and sincere devotion",
+      "The ability to love with deep empathy and compassion",
+      "Romantic imagination and sensitivity to the invisible needs of the bond",
+      "Faithfulness and honesty in feelings"
+    ],
+    "vigilances": [
+      "May idealise the relationship or the partner beyond reality",
+      "A risk of excessive fusion that erases the contours of the self",
+      "Difficulty setting clear limits in intimacy",
+      "A tendency to confuse saving, understanding and loving"
+    ],
+    "affinites": ["cancer", "scorpion", "taureau", "capricorne"]
+  },
+  "travail": {
+    "texte": "Pisces works well when it can serve, inspire, create, care for, listen or give form to something vaster than itself. It excels in fields where intuition, imagination, compassion or sensitivity to the living have a real place. Roles of trust, collaboration or support often suit it better than positions of command. Success is generally obtained in an activity requiring devotion or self-denial. Failures are usually due to shyness, poor health or unforeseeable obstacles.",
+    "atouts": [
+      "Exceptional empathy and listening ability",
+      "Creativity nourished by imagination and inspiration",
+      "A sense of the subtle and fine professional intuition",
+      "Devotion and the ability to make itself indispensable"
+    ],
+    "defis": [
+      "Tolerates environments that are too hard or too mechanical poorly",
+      "May lack framework, precision or sustained energy",
+      "A risk of emotional absorption in difficult situations",
+      "May scatter if the goal lacks clarity or meaning"
+    ]
+  },
+  "argent": {
+    "texte": "Pisces has a shifting relationship with money. It can experience it as an energy that circulates, a means of relieving, helping, creating or feeling less imprisoned by the harsh world. Earnings are often modest and irregular, expenses fairly high, reserves low. Sometimes two sources of income coexist. The Pisces native needs meaning in the use of money, but must learn to set limits and not let confusion take hold.",
+    "forces": [
+      "Natural generosity and the ability to give without calculation",
+      "The ability to use money to help or create",
+      "Less materialistic attachment than other signs",
+      "An inspired and intuitive relationship to value"
+    ],
+    "risques": [
+      "Vagueness in management and a lack of financial framework",
+      "Difficulty refusing requests for financial help",
+      "Spending for escape or emotional compensation",
+      "Income instability linked to changes of situation"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Pisces builds a sensitive, intuitive, receptive identity turned toward what goes beyond the visible borders of the self.",
+      "manifestations": ["Empathy", "Imagination", "Openness to the subtle", "The ability to feel deeply"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Pisces experiences emotions in a very porous, deep and subtle way. It picks up a great deal, feels a great deal and needs inner silence.",
+      "manifestations": ["Great receptivity", "Compassion", "Emotional intuition", "The ability to understand without words"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Pisces thinks in an intuitive, imaged, symbolic and sometimes diffuse way. The mind picks up invisible correspondences rather than following a strictly rational line.",
+      "manifestations": ["Intuitive thinking", "Verbal imagination", "A sense of the symbol", "The ability to understand the implicit"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Pisces is in one of its most inspired expressions: unconditional love, romanticism, gentleness, subtle fusion and immense compassion.",
+      "manifestations": ["Tenderness", "Romanticism", "Compassion", "Great emotional delicacy"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Pisces acts in an indirect, intuitive, inspired or emotional way. The energy goes around, feels, seeks a meaning before attacking.",
+      "manifestations": ["Inspired action", "A sense of the subtle right moment", "The ability to act to help or relieve", "Great imagination in action"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Pisces amplifies compassion, universal faith, the spiritual imaginary and the ability to feel the unity of the living.",
+      "manifestations": ["Faith", "Generosity", "Spiritual openness", "The ability to welcome broadly"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Pisces structures sensitivity, compels one to set limits within the vagueness and to build a form of maturity in welcoming the subtle.",
+      "manifestations": ["Inner discipline", "The ability to give a form to inspiration", "Spiritual maturity", "Solidification of the inner world"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Pisces introduces intuitive awakenings, sudden perceptions, subtle ruptures in the way of believing, feeling or connecting to the invisible.",
+      "manifestations": ["Flashing intuition", "Unconventional creativity", "Openness to other dimensions", "The ability to free subtle patterns"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Pisces is in one of its most natural expressions: maximal sensitivity, spiritual inspiration, oceanic imaginary and universal compassion.",
+      "manifestations": ["Deep inspiration", "The mystical", "Immense sensitivity", "A capacity for communion"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Pisces deeply transforms the relationship to the end of cycles, to compassion, to invisible beliefs, to the unity and mystery of the living.",
+      "manifestations": ["A power of inner regeneration", "Spiritual transformation", "The ability to go to the bottom of the human mystery", "Subtle intensity"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "variable",
+      "titre": "Momentum and porosity",
+      "texte": "Pisces feels broadly, Aries acts clearly. The bond can be inspiring or disconcerting depending on each one's ability to understand the other's universe.",
+      "forces": ["Complementarity between imagination and action", "The ability to open new worlds", "One feels, the other initiates"],
+      "frictions": ["Aries can be abrupt", "Pisces may seem vague", "Conflict between direct frankness and porous sensitivity"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "fluide",
+      "titre": "Gentleness, flesh and sensitivity",
+      "texte": "Taurus brings form, stability and concrete gentleness; Pisces brings the imaginary, compassion and inner delicacy. The bond can be very soothing and enveloping.",
+      "forces": ["Tenderness", "Soothing", "Complementarity between incarnation and the imaginary", "The ability to create an enveloping bond"],
+      "frictions": ["Taurus may find Pisces too vague", "Pisces may find Taurus too concrete", "Conflict between security and dissolution"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "variable",
+      "titre": "Mobile thought and diffuse feeling",
+      "texte": "Gemini names and circulates, Pisces feels and absorbs. The bond can be poetic and subtle, but also difficult to stabilise for both parties.",
+      "forces": ["Imagination", "Richness of exchange", "Complementarity between words and feeling", "Creativity"],
+      "frictions": ["Gemini may seem too cerebral", "Pisces may seem too vague", "Conflict between logic and intuition"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "fluide",
+      "titre": "Sensitive water and compassion",
+      "texte": "Pisces and Cancer share water, sensitivity, tenderness and intuition. The bond can be very gentle, protective and deep, with an understanding that passes beyond words.",
+      "forces": ["Empathy", "Tenderness", "Depth of the bond", "The ability to understand each other without many words"],
+      "frictions": ["A lack of limits", "Excessive fusion", "A risk of feeding each other's fears or emotional waves together"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "variable",
+      "titre": "Radiance and the imaginary",
+      "texte": "Leo affirms and illuminates; Pisces feels, dreams and diffuses. The bond can be creative and tender, but calls for linking presence and subtlety.",
+      "forces": ["Creativity", "Romanticism", "Complementarity between heart and the imaginary", "Beauty of the bond"],
+      "frictions": ["Leo may seem too assertive", "Pisces may seem too evasive", "Conflict between a need for visibility and a need for withdrawal"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "complementaire",
+      "titre": "The Pisces–Virgo axis",
+      "texte": "Pisces opens to unity, Virgo distinguishes and sorts. It is a major axis between compassion and discernment, vagueness and method, inspiration and concrete service.",
+      "forces": ["Deep complementarity", "A possible balance between intuition and precision", "The ability to unite sensitivity and efficiency"],
+      "frictions": ["Pisces may find Virgo too critical", "Virgo may find Pisces too vague", "Conflict between surrender and control"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Harmony and subtle fusion",
+      "texte": "Libra seeks a just and beautiful relationship; Pisces seeks a sensitive, deep and almost fusional bond. The relationship can be delicate and romantic, but sometimes imprecise.",
+      "forces": ["Gentleness", "Romanticism", "A search for a beautiful quality of bond", "The ability to create a subtle atmosphere"],
+      "frictions": ["Libra may avoid certain truths", "Pisces may lack limits", "Conflict between relational clarity and emotional vagueness"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "fluide",
+      "titre": "Deep water and mystery",
+      "texte": "Pisces and Scorpio share water, intuition, intensity and an ability to sense the invisible. The bond can be very strong, magnetic and transformative.",
+      "forces": ["Depth", "Intuition", "Magnetism", "The ability to understand what is left unsaid"],
+      "frictions": ["Scorpio may want to control too much", "Pisces may dissolve or flee", "Conflict between structured intensity and porosity"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "stimulante",
+      "titre": "Faith, meaning and mystery",
+      "texte": "Sagittarius seeks a truth oriented toward the horizon; Pisces feels a diffuse, intuitive, inner truth. The bond can be very inspiring if it does not lose itself in the ideal.",
+      "forces": ["Inspiration", "Inner openness", "The ability to elevate the bond", "A sense of mystery and meaning"],
+      "frictions": ["Sagittarius may seem too assertive", "Pisces may seem too vague", "Conflict between conviction and dissolution"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "stimulante",
+      "titre": "Structure and compassion",
+      "texte": "Capricorn provides a framework, Pisces softens and opens to the sensitive. The bond can be deeply complementary if each respects the other's universe.",
+      "forces": ["One grounds, the other inspires", "Complementarity between framework and compassion", "The ability to link reality and sensitivity"],
+      "frictions": ["Capricorn may seem too hard or closed", "Pisces may seem too elusive", "Conflict between control and surrender"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "variable",
+      "titre": "Vision and inner ocean",
+      "texte": "Aquarius thinks of the collective and of systems; Pisces feels unity and the invisible. The bond can be creative and inspiring, but sometimes difficult to stabilise.",
+      "forces": ["Openness to other possibilities", "Creativity", "Complementarity between vision and compassion", "The ability to imagine otherwise"],
+      "frictions": ["Aquarius may seem too distant", "Pisces may seem too porous", "Conflict between idea and feeling"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "fluide",
+      "titre": "Ocean facing ocean",
+      "texte": "Two Pisces can understand each other in gentleness, intuition, compassion and the need for subtlety. The bond can be very tender, fusional and inspired, but risks lacking grounding.",
+      "forces": ["Empathy", "Romanticism", "Intuitive understanding", "Great gentleness"],
+      "frictions": ["Vagueness as a couple", "A lack of limits", "Excessive fusion", "Difficulty grounding the bond concretely"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Pisces, you enter life with gentleness, intuition, receptivity and a great sensitivity to atmosphere. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting carries a subtle, dreamy, inspired tone, hard to confine within overly sharp contours.",
+    "apparence": [
+      "A gentle or enveloping presence",
+      "A dreamy, distant or very sensitive gaze",
+      "An impression of mystery, fluidity or discretion",
+      "A sometimes changing bearing, hard to grasp completely"
+    ],
+    "temperament": [
+      "Reacts a great deal to the atmosphere and the energy of places",
+      "Needs to feel in confidence to define itself clearly",
+      "Observes and feels before deciding or committing",
+      "Tolerates relational brutality or dryness poorly"
+    ],
+    "vigilances": [
+      "Identity blur that can disconcert those around it",
+      "A lack of limits in relationships or commitments",
+      "A tendency to absorb negative atmospheres",
+      "Difficulty asserting itself clearly under pressure"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Fomalhaut",
+      "nature": "Venus / Mercury",
+      "texte": "Fomalhaut is one of the great royal stars of the astrological tradition. It reinforces the idea of an inspired ideal, of an openness to the invisible and of an aspiration to a beauty or truth more subtle than the ordinary world.",
+      "motsCles": ["Inspiration", "The mystical", "Vision", "Inner purity"]
+    },
+    {
+      "nom": "Achernar",
+      "nature": "Jupiter",
+      "texte": "Achernar brings a tone of liquid movement, of transition and of inner momentum. It harmonises with the mutable, inspired and fluid dimension of Pisces.",
+      "motsCles": ["Fluidity", "End of cycle", "Subtle momentum", "Imagination"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Amethyst", "motsCles": ["spirituality", "intuition", "gentleness", "elevation"] },
+      { "nom": "Aquamarine", "motsCles": ["water", "fluidity", "peace", "sensitivity"] },
+      { "nom": "Tin", "motsCles": ["jupiter", "openness", "protection", "faith"] }
+    ],
+    "vegetaux": [
+      { "nom": "Lotus", "motsCles": ["spirituality", "purity", "mystery", "elevation"] },
+      { "nom": "Water lily", "motsCles": ["water", "dream", "rest", "inwardness"] },
+      { "nom": "Lemon balm", "motsCles": ["soothing", "gentleness", "comfort", "sensitivity"] }
+    ],
+    "animaux": [
+      { "nom": "Fish", "motsCles": ["fluidity", "adaptation", "sensitivity", "mystery"] },
+      { "nom": "Dolphin", "motsCles": ["intuition", "gentleness", "water", "bond"] },
+      { "nom": "Jellyfish", "motsCles": ["transparency", "porosity", "drift", "subtlety"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Portugal", "texte": "Sea, melancholy, imaginative openness and a sensitivity turned toward the distant." },
+    { "pays": "Scandinavia", "texte": "A traditional symbolic attribution of astrological geography." },
+    { "pays": "Egypt", "texte": "Mystery, the sacred, the nourishing river and spiritual antiquity." },
+    { "pays": "Nubia", "texte": "A traditional symbolic attribution of the classical Piscean correspondences." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Rihanna", "domaine": "Music", "date": "February 20, 1988", "texte": "Sensitivity, creativity, magnetism and the ability to change register with fluidity." },
+    { "nom": "Emily Blunt", "domaine": "Film", "date": "February 23, 1983", "texte": "Finesse of expression, sensitivity and the ability to embody subtle emotional registers." },
+    { "nom": "Eva Longoria", "domaine": "Film", "date": "March 15, 1975", "texte": "A presence at once gentle, alluring and intuitive, in affinity with Pisces." },
+    { "nom": "Justin Bieber", "domaine": "Music", "date": "March 1, 1994", "texte": "Strong emotional receptivity, a shifting image and very visible sensitivity." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Pisces?",
+      "reponse": "Pisces is characterised by immense sensitivity, deep intuition, great compassion and a need for dream and meaning. It is a receptive temperament, turned toward the invisible, picking up atmospheres and emotions with rare finesse. It can be indecisive and easily influenced, but it is also one of the most devoted, imaginative signs, the most capable of understanding others in depth."
+    },
+    {
+      "question": "What kind of lover is Pisces?",
+      "reponse": "Tender, devoted, romantic and deeply sensitive. Pisces loves with compassion and imagination, seeking a bond that touches the soul. It needs a space of subtle intimacy and trust. It can idealise its partner and must learn not to lose itself in fusion or sacrifice."
+    },
+    {
+      "question": "What kind of worker is Pisces?",
+      "reponse": "Inspired, intuitive and devoted collaborators. They excel in positions of trust, in the professions of care, creation, listening and support. They need meaning and a climate that does not brutalise their sensitivity. They often succeed in activities requiring devotion or self-denial."
+    },
+    {
+      "question": "Which house corresponds to Pisces?",
+      "reponse": "The Twelfth House — that of withdrawals, the invisible, inner trials, hidden life, subtle worlds and letting go. Its natural analogy with Pisces underscores dissolution, compassion, the unconscious, spirituality and the necessity of welcoming what escapes control."
+    },
+    {
+      "question": "What is the ideal Ascendant for Pisces?",
+      "reponse": "A Virgo Ascendant brings structure and discernment to its sensitivity. A Taurus Ascendant grounds it in the concrete. A Scorpio Ascendant reinforces its emotional depth and inner strength."
+    },
+    {
+      "question": "What are the flaws of Pisces?",
+      "reponse": "Indecision, flight from reality, excessive naivety and difficulty setting limits. Its great emotional porosity can make it easily influenced or push it toward forms of escape."
+    },
+    {
+      "question": "Why are Pisces so emotional?",
+      "reponse": "Pisces is the last Water sign in mutable mode, which gives it maximal receptivity. It picks up the emotions of others like a sponge. This sensitivity is its creative and intuitive strength."
+    }
+  ]
+}

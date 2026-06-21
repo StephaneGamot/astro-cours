@@ -1,4 +1,7 @@
-import Link from "next/link";
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export type BreadcrumbItem = {
   name: string;
@@ -22,9 +25,10 @@ export default function Breadcrumbs({
   items,
   accentClass = "text-violet-400",
 }: BreadcrumbsProps) {
+  const t = useTranslations("breadcrumb");
   return (
     <nav
-      aria-label="Fil d'Ariane"
+      aria-label={t("ariaLabel")}
       className="mx-auto max-w-7xl px-6 pt-6 pb-2 lg:px-8"
     >
       <ol className="flex flex-wrap items-center gap-1.5 text-sm text-slate-300">
@@ -34,7 +38,7 @@ export default function Breadcrumbs({
             href="/"
             className="transition-colors duration-200 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b] rounded-sm"
           >
-            Accueil
+            {t("home")}
           </Link>
         </li>
 

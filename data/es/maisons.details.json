@@ -1,0 +1,2338 @@
+[
+  {
+    "numero": 1,
+    "slug": "maison-1",
+    "titreCourt": "Casa I",
+    "nom": "El Ascendente",
+    "axe": "I–VII",
+    "type": "angulaire",
+    "quadrant": "Est",
+    "significationTraditionnelle": "El sujeto, la vida, la constitución del cuerpo, la disposición del alma — personalidad y carácter. Marca el comienzo de las cosas y describe la manera en que el individuo entra en el mundo. Los autores antiguos (Ptolomeo, Fludd, Alcabicio, Gadbury) ven en ella el umbral de la existencia: la vitalidad, la apariencia física, el temperamento natural y el primer impulso.",
+    "sensSocial": "El pueblo, la salud pública, el comienzo de las cosas, las condiciones generales de la nación.",
+    "conceptionModerne": "El propio nativo, su apariencia, su estado mental, sus disposiciones, sus tendencias, su estado físico, su infancia, su libre albedrío, su lucha por la existencia, sus poderes latentes.",
+    "axeAnalyse": {
+      "nom": "Eje I–VII: el Nativo",
+      "description": "El eje I–VII opone el yo (Casa I) al otro (Casa VII). La Casa I representa al individuo en su singularidad — su apariencia, sus disposiciones, su primer impulso — mientras que la Casa VII muestra cómo se confronta con la sociedad, las parejas, los contratos y los enemigos declarados."
+    },
+    "triangle": {
+      "nom": "Triángulo de la Vida",
+      "role": "La vida del sujeto (I), la vida en los hijos (V), la vida en Dios (IX)."
+    },
+    "carre": {
+      "nom": "Cuadrado del Progreso",
+      "role": "Las oportunidades (I), las aspiraciones (X), las luchas y pruebas (VII), los resultados (IV)."
+    },
+    "niveauLecture": {
+      "arena": "el umbral y el impulso de partida",
+      "motsCles": [
+        "presencia",
+        "aparición",
+        "estilo",
+        "iniciativa",
+        "cuerpo"
+      ],
+      "verbes": [
+        "iniciar",
+        "atreverse",
+        "encarnar",
+        "marcar el tono",
+        "posicionarse"
+      ],
+      "fonction": "La Casa I describe la manera de entrar en el mundo: el porte, el impulso, la presencia y la forma de iniciar. Es el «yo empiezo» de la carta.",
+      "questions": [
+        "¿Cómo llego a una situación?",
+        "¿Qué reflejo de acción muestro espontáneamente?",
+        "¿Qué energía desprendo desde el principio?"
+      ]
+    },
+    "domaines": {
+      "principaux": [
+        "identidad inmediata",
+        "cuerpo",
+        "actitud",
+        "presencia",
+        "comienzos"
+      ],
+      "secondaires": [
+        "vitalidad",
+        "ritmo",
+        "afirmación",
+        "estilo relacional",
+        "espontaneidad"
+      ],
+      "dansLaVie": [
+        "primera impresión",
+        "iniciar un proyecto",
+        "tomar el lugar",
+        "estilo personal"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "presencia",
+        "franqueza",
+        "iniciativa",
+        "capacidad de arrancar"
+      ],
+      "ombres": [
+        "reactividad",
+        "impulsividad",
+        "egocentrismo defensivo",
+        "sobreadaptación a la imagen"
+      ],
+      "besoins": [
+        "un ritmo respetado",
+        "límites claros",
+        "un canal de acción",
+        "autenticidad"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa I = estilo de entrada y presencia, no «toda la personalidad».",
+        "Los planetas en I se vuelven visibles: colorean el comportamiento inmediato.",
+        "El signo de la cúspide da la forma; el planeta da la función."
+      ],
+      "erreursFrequences": [
+        "Confundir Casa I y Sol (identidad).",
+        "Reducir la Casa I a lo físico.",
+        "Sobreactuar la imagen en lugar de encarnar el movimiento."
+      ],
+      "repereInterpretation": [
+        "Signo en la cúspide I = estilo de expresión.",
+        "Planetas en I = lo que se ve rápido.",
+        "Regente del Ascendente = dirección global."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Soy / llego así.",
+        "Marco el tono.",
+        "Inicio."
+      ],
+      "exemplesConcrets": [
+        "Arrancas rápido cuando sientes el impulso.",
+        "Tu estilo se nota de inmediato.",
+        "Tomas el lugar (o lo evitas) desde el principio."
+      ],
+      "exercices": [
+        "Observa tus primeros 5 minutos en una interacción: ¿qué haces sistemáticamente?",
+        "Anota lo que te pone en movimiento frente a lo que te corta.",
+        "Formula un «pitch» simple: quién soy / lo que hago."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Fortalece la vitalidad y favorece la prosperidad en la vida. El nativo es ardiente, firme, generoso, magnánimo, sin mezquindad. El Sol en la Casa I da una identidad frontal, una necesidad de existir por la presencia — se irradia por la actitud y la iniciativa. El desafío consiste en no confundir ser y parecer; la madurez aporta un liderazgo simple y natural.",
+      "lune": "Gran sensibilidad y reactividad emocional inmediata, naturaleza sociable aunque modesta y a veces tímida. La imaginación es muy activa; al nativo le gustan los viajes y los cambios. La Luna en la Casa I vuelve al sujeto fácilmente afectado por el entorno, con una permeabilidad a los ambientes. El desafío reside en la inestabilidad emocional; la madurez desarrolla la acogida sin identificación excesiva con los estados afectivos.",
+      "mercure": "Espíritu vivo, sutil, hábil e ingenioso; fortalece considerablemente las facultades intelectuales. El nativo posee una elocución fácil y le gusta hablar en público. Mercurio en la Casa I da una expresión rápida y polivalente, una curiosidad visible. El desafío es el sobrecalentamiento nervioso y la dispersión; la madurez aprende a canalizar esta mente brillante hacia objetivos concretos.",
+      "venus": "Favorecido ante el sexo opuesto, excelentes disposiciones naturales y aptitudes artísticas marcadas. Al nativo le gustan las diversiones, manifiesta un buen humor constante y maneras seductoras. Venus en la Casa I confiere encanto y dulzura en la presencia. El desafío es agradar sin perderse; la madurez cultiva una belleza auténtica que irradia sin artificio.",
+      "mars": "Combativo, enérgico y valiente pero impulsivo, ingobernable, orgulloso e imprudente. Las pasiones y deseos son violentos; el nativo está amenazado por fiebres, accidentes y heridas. Marte en la Casa I da una presencia enérgica y directa. El desafío es la reactividad y la agresividad si está mal aspectado; la madurez canaliza esta fuerza en acción intencional y valentía benévola.",
+      "jupiter": "Favorece el éxito en general y asegura la prosperidad. El nativo es generoso, alegre, fundamentalmente bueno, ama los honores y detesta la bajeza. Júpiter en la Casa I da confianza, expansión y optimismo manifiesto. El desafío es el exceso de confianza y el desbordamiento; la madurez aprende la justa medida y cultiva una generosidad discernida.",
+      "saturne": "Tímido, melancólico, pesimista y desconfiado, a veces vengativo. La acumulación es áspera, a veces cercana a la avaricia; la salud poco robusta. Saturno en la Casa I asegura una presencia contenida, seria, estructurada. El desafío es la rigidez y el cierre; la madurez desarrolla una solidez asociada a la flexibilidad y una sabiduría precoz.",
+      "uranus": "Confiere una originalidad marcada e independencia de espíritu. El nativo posee aptitudes para las innovaciones o las invenciones; puede ser brusco si está mal aspectado. Urano en la Casa I da un estilo atípico, una presencia sorprendente. Las carreras en aviación o electricidad se ven favorecidas. El desafío es la inestabilidad; la madurez ancla esta originalidad en realizaciones concretas.",
+      "neptune": "Acentúa las tendencias linfáticas, propicia a la intuición y a la inspiración artística. El nativo es poco apto para la lucha ordinaria por la vida y posee un sentido práctico débil. Neptuno en la Casa I confiere un aura dulce y permeable. El desafío es la frontera difusa y la susceptibilidad; la madurez desarrolla la intuición encuadrada y la claridad.",
+      "pluton": "Intensidad, magnetismo y transformaciones identitarias marcan profundamente la presencia. Plutón en la Casa I da una fuerza penetrante y un carisma transformador. El desafío consiste en dominar el control y los impulsos; la madurez aporta un poder interior disciplinado y un resplandor auténtico."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 1 en astrología?",
+        "reponse": "La Casa 1, también llamada Ascendente, representa la identidad inmediata, la apariencia física y la manera en que uno se presenta al mundo. Describe el temperamento natural, la vitalidad y el primer impulso que caracterizan al individuo desde su nacimiento."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 1?",
+        "reponse": "La Casa 1 está naturalmente asociada a Aries y a su planeta regente Marte. Esta asociación confiere a la Casa 1 una energía de iniciativa, de valentía y de arranque, reflejando la necesidad fundamental de afirmarse y de actuar espontáneamente."
+      },
+      {
+        "question": "¿Qué significa tener el Sol en la Casa 1?",
+        "reponse": "El Sol en la Casa 1 refuerza considerablemente la vitalidad y la confianza en sí mismo. El nativo posee una presencia radiante y una necesidad profunda de existir por sí mismo, con un carisma natural que atrae la atención sin esfuerzo particular."
+      },
+      {
+        "question": "¿Es el Ascendente más importante que el signo solar?",
+        "reponse": "El Ascendente y el signo solar desempeñan papeles complementarios: el Ascendente describe la manera en que uno aparece y reacciona espontáneamente, mientras que el Sol revela la identidad profunda y la dirección de vida. En astrología, ambos son indispensables para trazar un retrato completo del nativo."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 1 y la Casa 7?",
+        "reponse": "La Casa 1 y la Casa 7 forman el eje de la relación con el otro: la Casa 1 representa el yo, la identidad personal y la apariencia, mientras que la Casa 7 simboliza la pareja, las asociaciones y la manera de vivir la relación. Este eje opone la afirmación individual al encuentro con los demás."
+      }
+    ],
+    "vieQuotidienne": "La Casa I se manifiesta en los primeros segundos de cada encuentro. Es el hola, el apretón de manos, la manera en que entras en una sala, la forma en que tu energía llena (o no llena) el espacio. En lo cotidiano, se reconoce en los reflejos: interrumpes o esperas, improvisas o preparas, te lanzas o dejas venir. La Casa I gobierna también la relación con el espejo, con el vestir, con la postura del cuerpo. Una persona con una Casa I fuerte se reconoce por su presencia física marcada y por su rapidez para hacerse visible. A la inversa, una Casa I poco poblada o tensa se traduce a menudo en una dificultad para «tomar el lugar» sin pedir permiso. Observar concretamente cómo franqueas un umbral — de una reunión, de un lugar, de una conversación — te informa directamente sobre el estado actual de tu Casa I.",
+    "carriere": {
+      "texte": "En el plano profesional, la Casa I orienta menos el «qué» (la vocación es la Casa X) que el «cómo». Describe tu estilo profesional: el que abre el camino, que toma la palabra primero, que propone un rumbo. Los perfiles con una Casa I fuerte triunfan en los roles donde la imagen personal es una herramienta: representación, ventas, liderazgo de terreno, dirección artística, profesiones donde hay que «ser» antes de «hacer». El dinero sigue a la confianza en sí mismo: mientras creas en tu proyecto, encuentras los recursos. A la inversa, una Casa I afligida por Saturno o Plutón exige largos años para construir una presencia profesional asumida.",
+      "metiers": [
+        "Emprendedor / autónomo",
+        "Coach y formador",
+        "Representante comercial",
+        "Deportista de alto nivel",
+        "Modelo / presentador",
+        "Director artístico"
+      ]
+    },
+    "transitsNotables": "Cuando un tránsito mayor pasa sobre el Ascendente o por la Casa I, es la identidad la que se reconfigura. Saturno en la Casa I impone una reforma del cuerpo y de la presencia: se cambia de peso, de estilo, de postura, se aprende a llevar la propia edad. Júpiter en la Casa I es una de las posiciones más afortunadas para el resplandor personal — es el momento de lanzarse, de postularse, de mostrarse. Urano desencadena rupturas de imagen, a veces físicas (cabello cortado, armario quemado). Neptuno difumina la silueta y el sentido de sí: prudencia con los autodiagnósticos. Plutón, por su parte, demuele lo que ya no es vivible en la persona — es un trabajo de varios años en el que uno se convierte en «otra persona».",
+    "exercicePratique": {
+      "titre": "Cartografiar tu Casa I en 5 minutos",
+      "etapes": [
+        "Grábate entrando en una sala por primera vez. Mira el vídeo sin sonido.",
+        "Anota 3 palabras que describan lo que ves: «dubitativo», «erguido», «rápido», «grácil», etc.",
+        "Pregunta a 3 personas cercanas: «Si tuvieras que describir mi manera de llegar en una palabra, ¿cuál sería?»",
+        "Compara sus respuestas con tu sentir interno. La brecha entre ambos = el punto ciego de tu Casa I.",
+        "Elige UNA cosa que conservar y UNA cosa que ajustar durante las próximas dos semanas. Anota los efectos."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Madonna",
+        "naissance": "16 de agosto de 1958",
+        "raison": "Reinvención permanente de la imagen. La Casa I como campo de batalla y obra."
+      },
+      {
+        "nom": "Muhammad Ali",
+        "naissance": "17 de enero de 1942",
+        "raison": "Presencia física mítica, «I am the greatest» — declaración de identidad pura."
+      },
+      {
+        "nom": "Frida Kahlo",
+        "naissance": "6 de julio de 1907",
+        "raison": "El cuerpo como territorio de expresión, el autorretrato obsesivo."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 2,
+    "slug": "maison-2",
+    "titreCourt": "Casa II",
+    "nom": "Los recursos",
+    "axe": "II–VIII",
+    "type": "succedente",
+    "quadrant": "Est",
+    "significationTraditionnelle": "Los bienes, las riquezas, las propiedades, la alimentación, los auxiliares, los ministros, la inspiración y los medios adquiridos.",
+    "sensSocial": "La bolsa, los bancos, el tesoro público, el comercio y la economía nacional.",
+    "conceptionModerne": "Posesiones adquiridas por uno mismo, bienes y su gestión; grado de independencia material y capacidad de poner en valor los propios talentos.",
+    "axeAnalyse": {
+      "nom": "Eje II–VIII: las posesiones del nativo",
+      "description": "El eje II–VIII opone lo que se adquiere por uno mismo (Casa II) a lo que se recibe por asociaciones, herencias o transformaciones (Casa VIII). La Casa II muestra la propia independencia material; la Casa VIII revela lo que llega a través de los demás, de las crisis o de las transmutaciones."
+    },
+    "triangle": {
+      "nom": "Triángulo de la Acción",
+      "role": "Las oportunidades profesionales (X), las adquisiciones materiales (II), el trabajo cotidiano (VI)."
+    },
+    "carre": {
+      "nom": "Cuadrado del Tener",
+      "role": "El dinero personal (II), las esperanzas y amistades (XI), la herencia y las crisis (VIII), la creatividad y las especulaciones (V)."
+    },
+    "niveauLecture": {
+      "arena": "la caja fuerte y la seguridad",
+      "motsCles": [
+        "valor",
+        "dinero",
+        "talentos",
+        "materia",
+        "estabilidad"
+      ],
+      "verbes": [
+        "construir",
+        "estabilizar",
+        "valorizar",
+        "proteger",
+        "capitalizar"
+      ],
+      "fonction": "La Casa II describe la construcción de la seguridad: recursos, valores, autoestima, talentos monetizables y la relación con lo concreto.",
+      "questions": [
+        "¿Qué me da seguridad?",
+        "¿Qué valoro de verdad?",
+        "¿Cómo transformo un talento en recurso?"
+      ]
+    },
+    "domaines": {
+      "principaux": [
+        "dinero",
+        "bienes",
+        "valores",
+        "talentos",
+        "autoestima"
+      ],
+      "secondaires": [
+        "confort",
+        "placer simple",
+        "relación con el cuerpo",
+        "estabilidad",
+        "prioridades"
+      ],
+      "dansLaVie": [
+        "presupuesto",
+        "precio",
+        "calidad frente a cantidad",
+        "confort",
+        "estabilidad material"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "constancia",
+        "sentido de lo concreto",
+        "capacidad de construir",
+        "fidelidad a los valores"
+      ],
+      "ombres": [
+        "miedo a la carencia",
+        "apego",
+        "rigidez",
+        "posesividad"
+      ],
+      "besoins": [
+        "referencias estables",
+        "confianza en el propio valor",
+        "un ritmo sostenible"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa II = valor + seguridad, no solo dinero.",
+        "Muestra cómo un talento se convierte en recurso.",
+        "Habla también de autoestima: «yo valgo»."
+      ],
+      "erreursFrequences": [
+        "Reducir la Casa II a la cuenta bancaria.",
+        "Confundir el valor personal con las posesiones.",
+        "Buscar la seguridad únicamente mediante el control."
+      ],
+      "repereInterpretation": [
+        "Signo en II = estilo de gestión.",
+        "Planetas en II = lo que se convierte en recurso o en fijación.",
+        "Regente de II = camino de estabilización."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Yo valgo…",
+        "Yo guardo / yo protejo…",
+        "Yo construyo algo sólido."
+      ],
+      "exemplesConcrets": [
+        "Inviertes en lo duradero.",
+        "Necesitas resultados concretos.",
+        "Sientes rápido la inseguridad si las referencias se mueven."
+      ],
+      "exercices": [
+        "Enumera 5 talentos «útiles» + 5 talentos «rentables».",
+        "Identifica tus gastos emocionales.",
+        "Elige 1 valor innegociable y 1 valor que flexibilizar."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Situación financiera brillante y ganancias importantes en la dirección de empresas significativas: joyería, cargos gubernamentales. El nativo es muy generoso y gasta sin medida. El Sol en la Casa II asegura prosperidad pero liga la identidad al valor y a los recursos. El desafío consiste en no confundir el ego con el dinero; la madurez cultiva un valor interno estable independiente de las posesiones.",
+      "lune": "Favorable a las ganancias pero con fluctuaciones numerosas y constantes. La Luna en la Casa II es particularmente buena para los viajantes de comercio. Las mujeres desempeñan un papel importante en las cuestiones de dinero y seguridad. El nativo siente profundamente las amenazas a su seguridad material. El desafío es la ansiedad de carencia; la madurez desarrolla una seguridad interior acompañada de rituales materiales sanos.",
+      "mercure": "Las ganancias llegan especialmente por la escritura, las librerías y las actividades comerciales. El pensamiento puede estar demasiado absorto en las cuestiones financieras. Mercurio en la Casa II confiere inteligencia práctica y capacidad de generar recursos mediante la mente. El desafío es la dispersión financiera y el cálculo obsesivo; la madurez desarrolla una estrategia coherente.",
+      "venus": "Ganancias importantes por el matrimonio, las asociaciones y las ocupaciones venusinas: moda, ornamentación, perfumería. Venus en la Casa II favorece la prosperidad financiera y liga los recursos al placer y a la estética. Al nativo le gustan la calidad y la belleza. El desafío reside en los gastos afectivos; la madurez cultiva una belleza duradera y un valor justo.",
+      "mars": "Toda ganancia seguida de inmediato por un gasto de igual envergadura. El nativo es despreocupado en las cuestiones de dinero y propenso a las especulaciones peligrosas y a las empresas arriesgadas. Marte en la Casa II da la energía para ganar pero la impulsividad para gastar. El desafío es la imprudencia financiera; la madurez aprende la disciplina y la gestión estratégica de la energía.",
+      "jupiter": "La mejor posición posible para la prosperidad financiera. Ganancias importantes en la banca, los grandes negocios, los cargos públicos o gubernamentales. Júpiter en la Casa II asegura expansión material y oportunidades. El nativo es generoso y hace buenos negocios. El desafío consiste en el exceso de confianza; la madurez aprende a gestionar el crecimiento sin desbordamiento.",
+      "saturne": "Dificultades continuas en las ganancias, que son lentas y laboriosas. Esto indica una tendencia hacia la pobreza relativa y pérdidas por el padre o la herencia paterna. Saturno en la Casa II exige paciencia y una construcción lenta pero sólida. El nativo aprende el valor del trabajo. El desafío es el miedo a la carencia; la madurez aporta confianza y una estructura financiera inquebrantable.",
+      "uranus": "Ninguna importancia excesiva concedida al dinero y falta de sentido práctico. Altibajos financieros marcan la vida. A veces golpe de suerte por invención o innovación. Urano en la Casa II da ingresos atípicos y variables, necesidad de libertad. El desafío es la inestabilidad financiera; la madurez aprende a innovar con una red de seguridad.",
+      "neptune": "Pocas aptitudes naturales para ganar, gastos irreflexivos o especulaciones azarosas. El nativo puede ser víctima de estafas. Si está bien aspectado, Neptuno en la Casa II favorece las ganancias inesperadas por intuiciones o acontecimientos mundiales. El desafío es la imprecisión y los gastos soñadores; la madurez desarrolla un marco claro con intuición verificada.",
+      "pluton": "Profundas luchas de poder en torno al dinero y al valor. Plutón en la Casa II provoca transformaciones radicales en la relación con las posesiones. El nativo conoce crisis y regeneraciones financieras. El desafío es el control y la manipulación; la madurez transforma de manera sana la relación con el «poseer»."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 2 en astrología?",
+        "reponse": "La Casa 2 gobierna los recursos materiales, el dinero ganado por uno mismo y el sistema de valores personales. Indica la manera en que el nativo adquiere, gestiona y valora sus bienes, así como su relación profunda con la seguridad financiera."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 2?",
+        "reponse": "La Casa 2 está naturalmente asociada a Tauro y a su planeta regente Venus. Esta correspondencia subraya el vínculo entre esta casa y el mundo concreto de las posesiones, el placer sensorial y la estabilidad material."
+      },
+      {
+        "question": "¿Qué significa tener a Júpiter en la Casa 2?",
+        "reponse": "Júpiter en la Casa 2 es uno de los emplazamientos más favorables para la prosperidad financiera. El nativo se beneficia a menudo de la suerte en sus ganancias y de una capacidad natural para atraer la abundancia, siempre que no ceda al exceso de gastos."
+      },
+      {
+        "question": "¿Indica la Casa 2 si seré rico?",
+        "reponse": "La Casa 2 revela la relación con el dinero y los talentos que permiten generar ingresos, pero no predice la riqueza de manera absoluta. Los planetas presentes y los aspectos recibidos indican las facilidades o los desafíos financieros, mientras que el libre albedrío sigue siendo determinante."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 2 y la Casa 8?",
+        "reponse": "La Casa 2 concierne a los recursos personales adquiridos por los propios esfuerzos, mientras que la Casa 8 rige los recursos compartidos, las herencias y las transformaciones financieras ligadas a los demás. Juntas forman el eje de las posesiones, oponiendo el tener individual al tener colectivo."
+      }
+    ],
+    "vieQuotidienne": "La Casa II vive en la relación con lo que posees de verdad — tu cuerpo, tus talentos monetizables, tu cartera, tu apego a los objetos. En lo cotidiano, se lee en los microarbitrajes: lo que compras sin dudar, lo que te cuesta gastar, el placer de las materias (una buena comida, una tela, un aroma). Gobierna también la seguridad material básica — tener un techo, pagar las facturas sin angustia, saber lo que entra y lo que sale cada mes. Una Casa II tensa se traduce a menudo en ciclos de abundancia y carencia, o en una relación conflictiva con el valor personal («no valgo tanto»). Una Casa II bien sostenida, por el contrario, siente una estabilidad tranquila: sabes lo que vales, lo que puedes ofrecer, lo que rechazas. Es la casa del «yo tengo» y del «yo merezco».",
+    "carriere": {
+      "texte": "En el plano profesional, la Casa II describe la manera en que transformas tus talentos en ingresos. Habla de fijación de precios, de negociación salarial, de la elección de un estatus (asalariado, autónomo, patrimonial). Los perfiles con una Casa II fuerte gestionan naturalmente su dinero y saben pedir lo que valen. Una Casa II con Saturno exige el largo aprendizaje del valor — a veces se empieza mal pagado y luego se construye lentamente un patrimonio sólido. Venus o Júpiter en II favorecen los ingresos ligados al placer, a la belleza, al confort. Marte o Urano en II traen altibajos que hay que canalizar con disciplina financiera.",
+      "metiers": [
+        "Banquero / asesor patrimonial",
+        "Agente inmobiliario",
+        "Restaurador / chef de cocina",
+        "Artesano de arte",
+        "Contable",
+        "Productor agrícola"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa II tocan siempre la cartera y la autoestima — ambas ligadas entre sí. Júpiter en II anuncia a menudo un aumento de ingresos o un nuevo contrato ventajoso, pero también un riesgo de expansión financiera descontrolada. Saturno en II aprieta el cerco: auditoría interna, deudas que pagar, toma de conciencia de las fugas, construcción paciente de un capital. Urano en II es célebre por sus vuelcos financieros bruscos — pérdida o ganancia imprevista, cambio de estatus. Plutón en II saca a la luz las relaciones profundas con el dinero (miedo a la carencia heredado, bloqueos psicológicos) y fuerza una reconstrucción completa del valor que uno se concede.",
+    "exercicePratique": {
+      "titre": "Hacer el balance de tus valores concretos",
+      "etapes": [
+        "Enumera todo lo que posees que te enorgullece o que te tranquiliza (objetos, cuentas, competencias).",
+        "Junto a cada elemento, anota: «invertido para», «recibido», «heredado», «construido solo».",
+        "Identifica las 3 fuentes que más te hacen sentir seguro hoy.",
+        "Pregúntate: si perdiera estas 3 cosas mañana, ¿qué quedaría de mí? Anota la respuesta.",
+        "Elige UN hábito financiero que ajustar durante 30 días (apartar 50 €, negociar una tarifa, rechazar a un cliente que no paga el precio justo)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Warren Buffett",
+        "naissance": "30 de agosto de 1930",
+        "raison": "La encarnación de la paciencia patrimonial, el valor intrínseco y el largo plazo."
+      },
+      {
+        "nom": "Coco Chanel",
+        "naissance": "19 de agosto de 1883",
+        "raison": "La transformación del gusto personal en un imperio material."
+      },
+      {
+        "nom": "Auguste Escoffier",
+        "naissance": "28 de octubre de 1846",
+        "raison": "La materia, el gusto, el gesto — la codificación de una cocina convertida en patrimonio."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 3,
+    "slug": "maison-3",
+    "titreCourt": "Casa III",
+    "nom": "Los vínculos cercanos",
+    "axe": "III–IX",
+    "type": "cadente",
+    "quadrant": "Est",
+    "significationTraditionnelle": "Hermanos, hermanas, primos, amigos cercanos, la fe y la religión, las mudanzas y los viajes cortos, los parientes próximos. Espíritu práctico. Cartas y comunicaciones.",
+    "sensSocial": "El correo, los telégrafos, los teléfonos, los ferrocarriles, los vehículos, las publicaciones literarias y la prensa.",
+    "conceptionModerne": "El pensamiento concreto del nativo, su trabajo cerebral cotidiano, sus escritos y sus desplazamientos de corta duración. Por extensión, el entorno familiar: hermanos, hermanas, vecinos y red cercana.",
+    "axeAnalyse": {
+      "nom": "Eje III–IX: el pensamiento del nativo",
+      "description": "El eje III–IX opone el pensamiento concreto y práctico (Casa III) al pensamiento abstracto y filosófico (Casa IX). La Casa III muestra cómo se aprende, se comunica y se relata lo cotidiano; la Casa IX revela la búsqueda de sentido, las creencias y la visión amplia del mundo."
+    },
+    "triangle": {
+      "nom": "Triángulo de las Relaciones",
+      "role": "Los parientes distintos de los ascendientes (III), las aspiraciones sociales (XI), los enemigos y aliados (VII)."
+    },
+    "carre": {
+      "nom": "Cuadrado del Silencio y la Razón",
+      "role": "El trabajo mental y la comunicación (III), el pensamiento abstracto (IX), el trabajo cotidiano (VI), el inconsciente y las limitaciones (XII)."
+    },
+    "niveauLecture": {
+      "arena": "la calle, el intercambio y el aprendizaje",
+      "motsCles": [
+        "comunicación",
+        "aprendizaje",
+        "hermandad",
+        "vecindario",
+        "movilidad"
+      ],
+      "verbes": [
+        "conectar",
+        "comprender",
+        "explicar",
+        "circular",
+        "aprender"
+      ],
+      "fonction": "La Casa III describe la mente cotidiana: aprender, hablar, escribir, conectar y adaptarse al entorno cercano.",
+      "questions": [
+        "¿Cómo aprendo?",
+        "¿Cómo me comunico?",
+        "¿Cuál es mi relación con lo cercano?"
+      ]
+    },
+    "domaines": {
+      "principaux": [
+        "comunicación",
+        "aprendizaje",
+        "hermandad",
+        "red cercana",
+        "desplazamientos"
+      ],
+      "secondaires": [
+        "curiosidad",
+        "escritura",
+        "lenguaje",
+        "información",
+        "adaptabilidad"
+      ],
+      "dansLaVie": [
+        "mensajes",
+        "escuela",
+        "vecinos",
+        "trayectos cortos",
+        "redes"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "curiosidad",
+        "adaptabilidad",
+        "flexibilidad mental",
+        "sentido del vínculo"
+      ],
+      "ombres": [
+        "dispersión",
+        "estrés mental",
+        "sobreinformación",
+        "cháchara"
+      ],
+      "besoins": [
+        "selección de la información",
+        "un ritmo mental sano",
+        "intercambios nutritivos"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa III = mente cotidiana (no la filosofía: eso es la IX).",
+        "Describe cómo aprendes y te comunicas en lo concreto.",
+        "Planetas en III = estilo de pensamiento y de intercambio."
+      ],
+      "erreursFrequences": [
+        "Confundir III y IX.",
+        "Leer la III como «inteligencia» global.",
+        "Negar el impacto del estrés mental."
+      ],
+      "repereInterpretation": [
+        "Signo en III = tono de comunicación.",
+        "Planetas en III = herramientas mentales.",
+        "Regente de III = camino de aprendizaje."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Conecto.",
+        "Explico.",
+        "Me adapto."
+      ],
+      "exemplesConcrets": [
+        "Aprendes hablando.",
+        "Necesitas variedad.",
+        "Conectas las ideas de forma natural."
+      ],
+      "exercices": [
+        "Hacer 1 día de «slow info».",
+        "Escribir 10 líneas al día.",
+        "Observar tu diálogo interno (voz interior)."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Excelente posición para el éxito en cualquier ocupación intelectual. El Sol fortalece el intelecto y favorece los gustos artísticos. El nativo brilla por el ingenio, la palabra elocuente y el aprendizaje rápido. El Sol en la Casa III da una identidad basada en el intelecto. El desafío es el ego mental y la sobrevaloración del intelecto; la madurez aprende a transmitir de manera útil y con humildad.",
+      "lune": "Deambulaciones numerosas y cambios constantes. La imaginación es muy activa pero desordenada y caprichosa, con fluctuaciones emocionales visibles. La Luna en la Casa III favorece las ocupaciones mentales y las obras de imaginación. El nativo memoriza por emoción. El desafío es el humor que colorea la comunicación; la madurez desarrolla la capacidad de nombrar lo que realmente se siente.",
+      "mercure": "Una de las mejores posiciones para el desarrollo de la mente. Viajes cortos numerosos y provechosos. Mercurio en la Casa III amplifica el intelecto, da un espíritu vivo, polivalencia y soltura escrita y oral. El nativo es curioso de todo. El desafío es el sobrecalentamiento nervioso y la dispersión; la madurez aprende a canalizar esta mente brillante.",
+      "venus": "Buena posición para los artistas y músicos. La mente es receptiva a las nociones artísticas. Venus en la Casa III favorece la educación agradable y los viajes que gustan. La palabra es dulce y diplomática. El desafío son los no dichos y la mentira por omisión; la madurez cultiva la franqueza benévola.",
+      "mars": "Espíritu crítico, sarcástico y amante de las disputas. El nativo es testarudo con tendencia a argumentar. Marte en la Casa III crea discusiones con primos y hermanos. La palabra es directa, a veces agresiva. Contratiempos o accidentes posibles en los viajes. El desafío es la agresividad verbal; la madurez desarrolla la asertividad constructiva.",
+      "jupiter": "Ganancias importantes en los escritos y los viajes, que son agradables y remunerativos. Júpiter en la Casa III fortalece la moralidad y favorece una visión optimista. El nativo tiene un talento pedagógico natural. El desafío es sobrevolar los temas; la madurez aprende a profundizar en un eje.",
+      "saturne": "Disminuye el número de viajes, que son desagradables y traen pérdidas. Saturno entorpece la educación durante la juventud. Sin embargo, indica una reflexión profunda y un pensamiento estructurado. El nativo se vuelve más sabio con la edad. El desafío es el miedo a hablar; la madurez aporta confianza y un método inquebrantable.",
+      "uranus": "Probablemente la mejor posición para este astro. Muy propicia a los conocimientos técnicos, las artes adivinatorias o las ciencias alternativas. Propicia para la intuición y los viajes aéreos si está bien aspectado. Urano en la Casa III da ideas originales y fulguraciones mentales. El desafío es la impaciencia y la inestabilidad; la madurez canaliza este genio en un cauce creativo estable.",
+      "neptune": "Fuerte atracción por las ciencias adivinatorias, ocultas o espirituales. A veces dones de videncia o buena intuición, salvo con disonancias serias. Neptuno en la Casa III atrae a los viajes por mar y a las ideas innovadoras. El nativo piensa de manera imaginativa y poética. El desafío es la confusión; la madurez aprende a verificar los hechos.",
+      "pluton": "Palabra intensa y análisis profundo de las situaciones. Plutón en la Casa III da capacidad de transformación por las palabras y las ideas. El nativo piensa de manera radical. El desafío es la obsesión mental; la madurez desarrolla la lucidez sin dureza verbal."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 3 en astrología?",
+        "reponse": "La Casa 3 rige la comunicación, los intercambios intelectuales, los desplazamientos cortos y las relaciones con los hermanos y hermanas. Describe la forma en que el nativo piensa, habla, escribe e interactúa con su entorno cercano en lo cotidiano."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 3?",
+        "reponse": "La Casa 3 está naturalmente asociada a Géminis y a su planeta regente Mercurio. Esta correspondencia pone de relieve la curiosidad intelectual, la adaptabilidad mental y la necesidad de comunicar que caracterizan a esta casa."
+      },
+      {
+        "question": "¿Qué significa tener a Mercurio en la Casa 3?",
+        "reponse": "Mercurio en la Casa 3 está en su domicilio natural, lo que refuerza considerablemente las facultades intelectuales y verbales. El nativo posee un espíritu vivo, una gran facilidad de expresión y un gusto pronunciado por el aprendizaje y el intercambio de ideas."
+      },
+      {
+        "question": "¿Por qué la Casa 3 está ligada a los hermanos y hermanas?",
+        "reponse": "La tradición astrológica asocia la Casa 3 con los hermanos y hermanas porque representa el entorno inmediato y los primeros vínculos sociales fuera del hogar. Los hermanos constituyen las primeras personas con quienes se aprende a comunicar, negociar y compartir en lo cotidiano."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 3 y la Casa 9?",
+        "reponse": "La Casa 3 concierne a la comunicación cotidiana, los trayectos cortos y el aprendizaje elemental, mientras que la Casa 9 gobierna el pensamiento abstracto, los viajes largos y la enseñanza superior. Este eje opone el saber concreto y local a la sabiduría universal y lejana."
+      }
+    ],
+    "vieQuotidienne": "La Casa III es la casa de los trayectos cortos y los grandes aprendizajes. Es la escuela a las 8 de la mañana, el tablón de mensajes del espacio abierto, los grupos de WhatsApp de amigos y hermanos, los comerciantes del barrio, el metro, el coche, la moto. En lo cotidiano, describe la calidad de tu flujo mental: cómo lees, cómo escribes, lo que salta a la vista cuando entras en una habitación desconocida. Gobierna también la curiosidad — la que hace clic en el titular de un artículo, la que mira un documental a última hora de la noche, la que pregunta «¿por qué?» tres veces seguidas. Una Casa III poco poblada no impide ser inteligente: solo indica que el estímulo vendrá de otra parte. Una Casa III cargada se reconoce por una mente siempre en movimiento, conversaciones múltiples, un teléfono que suena, y a veces una tendencia a dispersarse o a confundir cantidad de información con calidad de pensamiento.",
+    "carriere": {
+      "texte": "Profesionalmente, la Casa III es la casa de la palabra y de la transmisión horizontal. Los perfiles con una Casa III fuerte sobresalen en todo lo que exige divulgar, explicar, conectar informaciones: periodismo, enseñanza básica, ventas por teléfono, gestión de comunidades, redacción. Es también la casa de las colaboraciones cortas y los contratos múltiples más que de los compromisos duraderos. Mercurio en III está en su domicilio, y firma a menudo una inteligencia práctica rentable. Saturno en III puede indicar un recorrido de estudios más lento o bloqueos de expresión que superar. Marte en III vuelve vivo pero conflictivo tanto por escrito como de palabra.",
+      "metiers": [
+        "Periodista / redactor",
+        "Profesor (primaria/secundaria)",
+        "Gestor de comunidades",
+        "Traductor / intérprete",
+        "Comercial sedentario",
+        "Conductor / mensajero"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa III activan el pensamiento y la comunicación. Júpiter en III abre oportunidades de aprendizaje, de toma de palabra pública, de escritura publicada. Es una buena ventana para lanzar un blog, un podcast, un curso. Saturno en III impone el rigor — fin de las cháchara superficiales, estructuración de las ideas, a veces regreso a estudios formales. Urano en III provoca destellos de genio o cambios bruscos de interés. Neptuno en III enturbia el pensamiento y puede indicar un período de confusión mental, de mentiras cercanas, o a la inversa de inspiración artística. Plutón en III escarba en los no dichos familiares y transforma la voz profunda.",
+    "exercicePratique": {
+      "titre": "Auditoría de tus 20 últimos mensajes",
+      "etapes": [
+        "Abre tus 20 últimos SMS / mensajes de WhatsApp / correos enviados.",
+        "Clasifícalos en: «curioso», «reactivo», «informativo», «afectivo», «obligación».",
+        "Cuenta los porcentajes. ¿Qué categoría domina?",
+        "Pregúntate: ¿lo que comunico corresponde a lo que de verdad quiero decir?",
+        "Durante 7 días, experimenta un solo cambio: reformular antes de enviar, o responder 10 minutos más tarde, o plantear una pregunta verdadera en cada intercambio."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Voltaire",
+        "naissance": "21 de noviembre de 1694",
+        "raison": "La palabra como arma, la correspondencia como obra."
+      },
+      {
+        "nom": "Mark Twain",
+        "naissance": "30 de noviembre de 1835",
+        "raison": "El periodista-escritor por excelencia, irónico y terrenal."
+      },
+      {
+        "nom": "Oprah Winfrey",
+        "naissance": "29 de enero de 1954",
+        "raison": "Transmisión de masas, la conversación como herramienta de influencia."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 4,
+    "slug": "maison-4",
+    "titreCourt": "Casa IV",
+    "nom": "Las raíces",
+    "axe": "IV–X",
+    "type": "angulaire",
+    "quadrant": "Nord",
+    "significationTraditionnelle": "Los padres, los bienes inmobiliarios, los bienes que no provienen de los muertos, los tesoros ocultos, el fin de las cosas, las herencias del padre, la residencia, la vida familiar, la sepultura y el cementerio, las cosas secretas, el vuelco de posición.",
+    "sensSocial": "La agricultura, las minas, los intereses inmobiliarios, las ciudades, las cosechas, los vientos y el partido de la oposición.",
+    "conceptionModerne": "Herencia, origen y fin del nativo. Familia, padre, secretos de familia, reacciones familiares sobre el nativo. Obligaciones morales y materiales. Fin de vida: entorno en la vejez y evolución mental. Por extensión: posesiones familiares, tierras, bienes inmobiliarios y patrimonio.",
+    "axeAnalyse": {
+      "nom": "Eje IV–X: el entorno del nativo",
+      "description": "El eje IV–X opone la herencia y el origen (Casa IV) al poder potencial y la acción en la sociedad (Casa X). La Casa IV representa las raíces, el pasado, el fin; la Casa X muestra el devenir público, la carrera y la realización social."
+    },
+    "triangle": {
+      "nom": "Triángulo de la Finalidad",
+      "role": "La muerte del cuerpo físico (IV), el karma profundo (VIII), la evolución espiritual (XII)."
+    },
+    "carre": {
+      "nom": "Cuadrado del Progreso",
+      "role": "Las oportunidades (I), las aspiraciones y la carrera (X), las luchas y la asociación (VII), los resultados concretos (IV)."
+    },
+    "niveauLecture": {
+      "arena": "el hogar y la base interior",
+      "motsCles": [
+        "familia",
+        "intimidad",
+        "origen",
+        "refugio",
+        "memoria"
+      ],
+      "verbes": [
+        "recargarse",
+        "proteger",
+        "enraizar",
+        "replegarse",
+        "nutrir"
+      ],
+      "fonction": "La Casa IV describe las raíces: hogar, infancia, intimidad, seguridad afectiva y base emocional.",
+      "questions": [
+        "¿Dónde está mi hogar?",
+        "¿Qué me recarga?",
+        "¿Qué transmito / transformo de la herencia?"
+      ]
+    },
+    "domaines": {
+      "principaux": [
+        "familia",
+        "casa",
+        "infancia",
+        "intimidad",
+        "raíces"
+      ],
+      "secondaires": [
+        "clima interior",
+        "memoria",
+        "protección",
+        "origen",
+        "necesidad de refugio"
+      ],
+      "dansLaVie": [
+        "el propio hogar",
+        "ambiente familiar",
+        "raíces",
+        "mudanzas",
+        "relatos familiares"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "protección",
+        "profundidad",
+        "fidelidad",
+        "capacidad de crear un nido"
+      ],
+      "ombres": [
+        "repliegue",
+        "nostalgia",
+        "sobreprotección",
+        "apego al pasado"
+      ],
+      "besoins": [
+        "espacio íntimo",
+        "anclaje emocional",
+        "rituales"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa IV = base emocional.",
+        "Muestra lo que recarga.",
+        "Planetas en IV = temas familiares/íntimos visibles entre bastidores."
+      ],
+      "erreursFrequences": [
+        "Leerlo todo de manera literal (la familia «objetiva»).",
+        "Confundir IV y XII (el inconsciente).",
+        "Quedar prisionero del pasado."
+      ],
+      "repereInterpretation": [
+        "Signo en IV = ambiente del hogar.",
+        "Planetas en IV = necesidades íntimas.",
+        "Regente de IV = seguridad interior."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Me recargo.",
+        "Protejo lo íntimo.",
+        "Necesito un nido."
+      ],
+      "exemplesConcrets": [
+        "Te recargas en tu casa.",
+        "Proteges tu vida privada.",
+        "Sientes los ambientes muy fuerte."
+      ],
+      "exercices": [
+        "Crear un ritual de «regreso a uno mismo».",
+        "Seleccionar un objeto-recuerdo simbólico.",
+        "Redefinir lo que es «mi hogar» hoy."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Excelente herencia y un patrimonio considerable que sostiene al nativo. El Sol en la Casa IV da una identidad nutrida por lo íntimo y una necesidad de una base familiar sólida. El apego a los padres es fuerte. Éxito marcado en la segunda mitad de la vida. El desafío consiste en una dependencia excesiva del clan; la madurez desarrolla una base interior autónoma.",
+      "lune": "Posición muy fuerte para la Luna: calma en la vida íntima y seguridad emocional profunda. Varios cambios de residencia y apegos al pasado. Cierta popularidad al final de la vida. La Luna en la Casa IV crea una necesidad profunda de seguridad enraizada y un apego a las raíces. El desafío es el repliegue excesivo; la madurez nutre sin cerrarse.",
+      "mercure": "Favorece a los instructores en todos los niveles. Mercurio en la Casa IV crea una mente ligada al pasado y una necesidad de relatar y comprender la historia familiar. Éxitos intelectuales marcados hacia el final de la vida. Numerosos cambios de residencia. El desafío es la rumiación; la madurez pone palabras liberadoras.",
+      "venus": "Última parte de la vida tranquila, feliz y armoniosa. Armonía y felicidad en la familia. Venus en la Casa IV favorece los bienes provenientes de la familia ascendiente y las bellezas del hogar. El refugio es bello y dulce. El desafío es evitar los conflictos para mantener la paz; la madurez cultiva una paz verdadera.",
+      "mars": "Duelos prematuros en la familia, sobre todo entre los miembros masculinos. A veces fuego o accidente en la morada. Marte en la Casa IV crea tensión y energía en el hogar. Pérdidas de tierras o bienes patrimoniales. Última parte de la vida turbulenta. El desafío son las disputas; la madurez aprende a construir y proteger sin agredir.",
+      "jupiter": "Muy favorable a la familia ascendiente y a los bienes patrimoniales. Hogar cálido y protector, sensación de una familia grande y benévola. Júpiter en la Casa IV asegura protección y prosperidad hereditaria. Última parte de la vida tranquila, feliz y desahogada. El desafío es la idealización; la madurez cultiva la gratitud y la estabilidad.",
+      "saturne": "Duelos prematuros entre los miembros masculinos de la familia, sobre todo del padre. Fin de vida triste y pobre. No favorable a los bienes patrimoniales y a la herencia. Saturno en la Casa IV crea responsabilidades familiares pesadas. El nativo aprende pronto la madurez. El desafío es la frialdad; la madurez aporta seguridad por medio de esa misma madurez.",
+      "uranus": "No favorece la armonía familiar tradicional y previsible. A veces pérdida brusca del padre o trastornos radicales. Urano en la Casa IV da raíces atípicas y libertad en el hogar. Cambios frecuentes de residencia. Fin de vida comprometido por iniciativas utópicas. El desafío es la inestabilidad; la madurez crea su propio modelo.",
+      "neptune": "Duelos prematuros o intrigas misteriosas en el seno de la familia si está mal aspectado. Neptuno en la Casa IV crea una sensibilidad familiar profunda con riesgo de idealización o de secretos. Fin de vida caótico por falta de previsión. Si está bien aspectado: ganancias inmobiliarias inesperadas y posición favorable para los prospectores. El desafío es la imprecisión; la madurez clarifica sin perder la ternura.",
+      "pluton": "Transformaciones familiares radicales e intensidad íntima marcada. Plutón en la Casa IV provoca crisis que regeneran las raíces. El nativo vive transformaciones profundas ligadas a la herencia. El desafío es el control y la dominación; la madurez regenera de manera sana las raíces."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 4 en astrología?",
+        "reponse": "La Casa 4, llamada también Fondo del Cielo, representa el hogar, la familia, las raíces y la herencia psicológica. Describe el entorno doméstico del nativo, su relación con la tierra natal y los cimientos emocionales sobre los que construye su vida."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 4?",
+        "reponse": "La Casa 4 está naturalmente asociada a Cáncer y a la Luna, su planeta regente. Esta correspondencia subraya la dimensión emocional, protectora y nutricia de esta casa ligada a las raíces familiares y al sentimiento de pertenencia."
+      },
+      {
+        "question": "¿Qué significa tener a la Luna en la Casa 4?",
+        "reponse": "La Luna en la Casa 4 está en posición de fuerza, pues ocupa su domicilio natural. El nativo está profundamente apegado a su hogar y a su familia, con una memoria emocional muy desarrollada y una necesidad vital de seguridad interior."
+      },
+      {
+        "question": "¿Revela el Fondo del Cielo mi infancia?",
+        "reponse": "El Fondo del Cielo da efectivamente indicaciones valiosas sobre la infancia, el clima familiar y las influencias parentales recibidas. El signo en la cúspide y los planetas presentes describen la atmósfera del hogar de origen y los patrones emocionales heredados del linaje."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 4 y la Casa 10?",
+        "reponse": "La Casa 4 representa la esfera privada, las raíces y el hogar, mientras que la Casa 10 simboliza la vida pública, la carrera y la reputación social. Este eje fundamental opone la intimidad familiar a la realización profesional y al estatus en el mundo."
+      }
+    ],
+    "vieQuotidienne": "La Casa IV es la casa de lo de dentro — en el sentido literal y simbólico. Es el olor del café por la mañana, el ruido de la calefacción que tose, el sofá al que siempre se vuelve, la mesa donde se aprendió a comer. Gobierna la relación con la familia de origen, con los padres (el padre a menudo en la tradición, a veces la madre según las escuelas), con la infancia, con la tierra natal. En lo cotidiano, se reconoce por la calidad de la intimidad que construyes en tu casa: ¿es un refugio, un museo, un campo de batalla, un taller? Describe también lo que transmites sin saberlo, el ambiente que legas a quienes comparten tu techo. Una Casa IV fuerte pero afligida indica a menudo una historia familiar cargada que ocupa mucho espacio en la vida adulta. Una Casa IV serena se reconoce por la posibilidad de cerrar la puerta tras de sí sin culpa.",
+    "carriere": {
+      "texte": "La Casa IV influye poco en la naturaleza del oficio (eso es más bien la X) pero mucho en la relación con el lugar de trabajo. Los perfiles con una Casa IV fuerte gustan de trabajar en casa, de construir un patrimonio inmobiliario, o de inscribirse en un linaje profesional (retomar la empresa familiar, ejercer una tradición heredada). Es también la casa de los finales de carrera: lo que uno llega a ser tras la jubilación, lo que construye para las generaciones siguientes. Saturno en IV puede indicar un progenitor profesional exigente y una gran responsabilidad familiar. Júpiter en IV da a menudo un patrimonio inmobiliario cómodo y una segunda parte de vida plena.",
+      "metiers": [
+        "Oficios del patrimonio y de la herencia",
+        "Inmobiliaria (notario, agente, administrador)",
+        "Arqueólogo / historiador",
+        "Restaurador de casas antiguas",
+        "Psicogenealogía / terapia familiar",
+        "Agricultor / viticultor"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa IV remueven las raíces. Júpiter en IV se asocia a menudo con una compra inmobiliaria, un nacimiento, un regreso a los orígenes, o una mudanza a un lugar más cómodo. Saturno en IV es conocido por sus años de aislamiento, de responsabilidad parental (ocuparse de un progenitor que envejece) o de reorganización familiar en profundidad. Es también el tránsito que empuja a enraizar un lugar duradero. Urano en IV provoca partidas bruscas, trastornos familiares, a veces mudanzas imprevistas. Plutón en IV es el tránsito más profundo de todos: desentierra los secretos, las lealtades inconscientes, y reconfigura totalmente la relación con la familia de origen a lo largo de 10 a 20 años.",
+    "exercicePratique": {
+      "titre": "Cartografiar tu lugar interior",
+      "etapes": [
+        "Dibuja en 5 minutos la casa de tu infancia — no de manera realista, solo las habitaciones que te marcan.",
+        "Para cada habitación, escribe una palabra: refugio / prohibición / escena / vacío / fiesta.",
+        "Identifica LA habitación que aún hoy vuelve en tus sueños o tus emociones.",
+        "Pregúntate: ¿qué ambiente de esa casa he reproducido en mi hogar de adulto? ¿De cuál he huido?",
+        "Elige UN detalle concreto de tu hogar actual que cambiar esta semana para hacer el espacio más tuyo (un color, el lugar de un mueble, un objeto que sacar de una caja)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Victor Hugo",
+        "naissance": "26 de febrero de 1802",
+        "raison": "Hauteville House: el hogar como obra de arte y de memoria familiar."
+      },
+      {
+        "nom": "Marcel Proust",
+        "naissance": "10 de julio de 1871",
+        "raison": "La habitación, la magdalena, la casa de Combray — toda la obra gira en torno al hogar."
+      },
+      {
+        "nom": "Coretta Scott King",
+        "naissance": "27 de abril de 1927",
+        "raison": "El hogar como base de un movimiento social, fundadora del King Center."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 5,
+    "slug": "maison-5",
+    "titreCourt": "Casa V",
+    "nom": "La creatividad",
+    "axe": "V–XI",
+    "type": "succedente",
+    "quadrant": "Nord",
+    "significationTraditionnelle": "Los hijos legítimos e ilegítimos, los afectos y amores, los regresos a la patria, los dones y las especulaciones, los placeres, los vestidos, los ornamentos.",
+    "sensSocial": "Las embajadas, los teatros, las escuelas, la moral y los espectáculos públicos.",
+    "conceptionModerne": "Los deseos y su realización; el resplandor del nativo. Los hijos, los amores, las especulaciones sentimentales o financieras. Juegos, diversiones, educación, publicaciones y expresión creativa.",
+    "axeAnalyse": {
+      "nom": "Eje V–XI: posesiones interiores del nativo",
+      "description": "El eje V–XI opone los deseos y su realización personal (Casa V) a las esperanzas colectivas y las amistades (Casa XI). La Casa V es el corazón creativo y apasionado; la Casa XI es la esperanza y el sueño colectivo."
+    },
+    "triangle": {
+      "nom": "Triángulo de la Vida",
+      "role": "La vida del sujeto (I), la vida en los hijos (V), la vida en Dios o la evolución espiritual (IX)."
+    },
+    "carre": {
+      "nom": "Cuadrado del Tener",
+      "role": "El dinero personal (II), las esperanzas y amistades (XI), la herencia y las transformaciones (VIII), la creatividad y los placeres (V)."
+    },
+    "niveauLecture": {
+      "arena": "la escena, el juego y la expresión",
+      "motsCles": [
+        "creación",
+        "alegría",
+        "romance",
+        "placer",
+        "expresión"
+      ],
+      "verbes": [
+        "crear",
+        "jugar",
+        "irradiar",
+        "seducir",
+        "expresar"
+      ],
+      "fonction": "La Casa V describe la expresión personal: creatividad, pasión, romance, placer y la capacidad de «firmar» algo único."
+    },
+    "domaines": {
+      "principaux": [
+        "creatividad",
+        "amor",
+        "ocio",
+        "hijos",
+        "expresión"
+      ],
+      "secondaires": [
+        "carisma",
+        "puesta en escena",
+        "pasión",
+        "placer",
+        "juegos"
+      ],
+      "dansLaVie": [
+        "proyectos de pasión",
+        "romance",
+        "aficiones",
+        "creaciones",
+        "escena social"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "impulso creativo",
+        "calidez",
+        "generosidad",
+        "carisma"
+      ],
+      "ombres": [
+        "necesidad de atención",
+        "drama",
+        "dependencia de la mirada ajena",
+        "capricho"
+      ],
+      "besoins": [
+        "un terreno de juego",
+        "libertad creativa",
+        "reconocimiento sano"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa V = expresión personal.",
+        "Muestra lo que te hace sentir vivo.",
+        "No es «el talento» solo, sino el impulso de crear."
+      ],
+      "erreursFrequences": [
+        "Confundir V y II (talentos/valor).",
+        "Buscar validación en lugar de alegría.",
+        "Dramatizar el amor."
+      ],
+      "repereInterpretation": [
+        "Signo en V = estilo creativo.",
+        "Planetas en V = motor de expresión.",
+        "Regente de V = cómo se construye la alegría."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Creo.",
+        "Juego.",
+        "Irradio."
+      ],
+      "exemplesConcrets": [
+        "Necesitas un proyecto de pasión.",
+        "Te recargas creando.",
+        "Te gusta seducir con tu estilo."
+      ],
+      "exercices": [
+        "Crear 30 minutos sin objetivo.",
+        "Tomar un «pequeño riesgo» creativo.",
+        "Nombrar 3 placeres simples semanales."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Los placeres y las diversiones ocupan un lugar amplio en la vida. Éxito en las ocupaciones relacionadas con ellos. El Sol restringe el número de hijos. Ganancias importantes en las especulaciones. El Sol en la Casa V da una fuerte creatividad y la necesidad de brillar en la expresión personal. El nativo irradia. El desafío es la dependencia de la atención; la madurez cultiva la alegría creadora auténtica.",
+      "lune": "Favorece la descendencia, particularmente las hijas. Al nativo le gustan las diversiones, los placeres y los afectos cambiantes. Los asuntos amorosos ocupan un lugar amplio en la vida. La Luna en la Casa V da creatividad emocional y necesidad de afecto. El desafío son los estados de ánimo; la madurez nutre la alegría.",
+      "venus": "Posición muy fuerte para Venus. Favorece la descendencia. Gusto pronunciado por las diversiones y los espectáculos artísticos. Venus en la Casa V favorece los asuntos amorosos y las especulaciones teñidas de romance. El nativo tiene una fuerte necesidad de placer y de belleza. El desafío es la idealización amorosa; la madurez cultiva un amor vivo.",
+      "mercure": "Refina los placeres, más mentales que sensuales. Humor espontáneo y creatividad mental. Mercurio en la Casa V da una creatividad llena de imágenes y un juego de ideas. Contrario a la descendencia. Favorece los espectáculos artísticos. El desafío es la dispersión creativa; la madurez termina una obra.",
+      "mars": "Muy ardiente en el amor pero impulsivo e imprudente. Posible muerte de hijos. Parto desdichado para las mujeres. Marte en la Casa V da pasión intensa y valentía creativa pero volatilidad. Grandes pérdidas en las especulaciones. El desafío es la dramatización; la madurez canaliza la intensidad.",
+      "jupiter": "Hijos respetuosos y obedientes que ayudarán a los padres. Júpiter en la Casa V favorece los asuntos amorosos, los juegos y las especulaciones con suerte. Alegría natural y expansión creativa. El desafío es el exceso; la madurez crece sin consumirse.",
+      "saturne": "Disminuye el número de hijos o restringe la descendencia. Saturno en la Casa V vuelve la posición desdichada para los asuntos amorosos al principio. Pérdidas por el juego y las especulaciones. El nativo aprende la disciplina creativa. El desafío es el miedo a exponerse; la madurez desarrolla un dominio paciente.",
+      "uranus": "Vida amorosa agitada y matrimonio difícil. Urano restringe la descendencia. Especulaciones ruinosas si está disonante. A veces atractivo exagerado por el juego. Urano en la Casa V da una expresión original y amores inesperados. Los buenos aspectos confieren ideas artísticas innovadoras. El desafío es la inestabilidad; la madurez cultiva una libertad responsable.",
+      "neptune": "Muchas ilusiones e imprevistos en la vida amorosa. Neptuno en la Casa V crea ilusiones amorosas múltiples si está mal aspectado. Imaginación e inspiración artísticas marcadas. Si está bien aspectado: inspiraciones artísticas felices y suerte en el juego. El desafío es la ilusión; la madurez desarrolla un romanticismo lúcido.",
+      "pluton": "Pasiones vividas intensamente y transformadoras. Plutón en la Casa V da una creatividad intensa y transformadora. El nativo vive los amores como crisis regeneradoras. El desafío es el control; la madurez cultiva un poder creador dominado."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 5 en astrología?",
+        "reponse": "La Casa 5 gobierna la creatividad, los placeres, los amores apasionados, los hijos y toda forma de expresión personal alegre. Revela cómo el nativo se divierte, crea, seduce y expresa su singularidad a través del juego y el arte."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 5?",
+        "reponse": "La Casa 5 está naturalmente asociada a Leo y al Sol, su astro regente. Esta correspondencia explica la dimensión luminosa, generosa y teatral de esta casa, donde el nativo busca brillar y expresar plenamente su vitalidad creadora."
+      },
+      {
+        "question": "¿Qué significa tener a Venus en la Casa 5?",
+        "reponse": "Venus en la Casa 5 es un emplazamiento muy favorable para las artes, los amores y los placeres de la vida. El nativo posee un encanto natural en la seducción, un talento artístico marcado y la capacidad de disfrutar plenamente de las alegrías de la existencia."
+      },
+      {
+        "question": "¿Puede la Casa 5 predecir el número de hijos?",
+        "reponse": "La Casa 5 informa sobre la relación con los hijos y la fecundidad simbólica, pero la astrología moderna no pretende predecir un número exacto de hijos. Los planetas y signos presentes indican más bien la naturaleza de la relación entre padres e hijos y el estilo educativo del nativo."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 5 y la Casa 11?",
+        "reponse": "La Casa 5 concierne a la creatividad individual, los placeres personales y los amores, mientras que la Casa 11 rige los proyectos colectivos, las amistades y los ideales de grupo. Este eje opone la expresión personal y el deseo de brillar al compromiso con el colectivo y el bien común."
+      }
+    ],
+    "vieQuotidienne": "La Casa V es aquella en la que se juega. Los hijos que se tienen o que se sueña con tener, los amores que hacen latir el corazón, el cine del sábado por la noche, el concierto que se espera desde hace meses, el proyecto creativo que se prepara en el tiempo libre. En lo cotidiano, se reconoce por el lugar que dejas al placer gratuito — el que no sirve para nada, que no «rinde» nada, que no tiene otro fin que la alegría. Una Casa V viva indica que aún sabes divertirte, crear por placer, seducir por placer, jugar por placer. Una Casa V apagada se traduce en una vida en piloto automático, sin llama, donde todo es rentable pero nada es alegre. Es también la casa de las especulaciones, de las apuestas, del gusto por el juego y el riesgo medido.",
+    "carriere": {
+      "texte": "En el plano profesional, la Casa V es la casa de la creación visible y de la diversión rentable. Los perfiles con una V fuerte trabajan en el entretenimiento, las artes escénicas, los medios, el deporte espectáculo, la moda, la comunicación creativa. Es también la casa de los emprendedores que montan su empresa por pasión más que por pura estrategia. El Sol en V da un gran deseo de ser reconocido por lo que se crea. Venus en V favorece las profesiones del gusto, del placer, de la belleza. Saturno en V frena el impulso lúdico: puede costar «soltarse» y atreverse, pero una vez que cae la barrera, la creación es sólida y duradera.",
+      "metiers": [
+        "Artista (pintor, músico, actor)",
+        "Animador / presentador",
+        "Emprendedor creativo",
+        "Diseñador de juegos / guionista",
+        "Entrenador deportivo / animador",
+        "Educador de la primera infancia"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa V activan el impulso creativo y el amor. Júpiter en V es uno de los más alegres de todo el zodíaco: romances, nacimiento de un hijo, lanzamiento de un proyecto creativo visible, ganancias especulativas. Saturno en V impone a menudo una responsabilidad hacia un hijo o una obra — se deja de jugar para producir de verdad. Urano en V trae flechazos, aventuras imprevistas, bebés no planeados o rupturas artísticas. Neptuno en V es célebre por los amores imposibles, las musas inalcanzables, las adicciones al juego — ventana de inspiración pero también de ilusión. Plutón en V transforma en profundidad la manera de crear y de amar.",
+    "exercicePratique": {
+      "titre": "Despertar tu Casa V",
+      "etapes": [
+        "Enumera 5 cosas que te hacían vibrar entre los 8 y los 14 años (un deporte, un dibujo animado, un instrumento, un juego, una actividad).",
+        "Para cada elemento, anota por qué lo dejaste (falta de tiempo, juicio, cansancio, olvido).",
+        "Elige UNO para reintegrar esta semana, aunque sean 15 minutos.",
+        "Durante esos 15 minutos, prohíbete buscar ser «bueno» o «productivo» — juega.",
+        "Anota tras 7 días: ¿qué ha cambiado en tu energía global?"
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Walt Disney",
+        "naissance": "5 de diciembre de 1901",
+        "raison": "La infancia como materia prima de un imperio creativo mundial."
+      },
+      {
+        "nom": "Pablo Picasso",
+        "naissance": "25 de octubre de 1881",
+        "raison": "Creación prolífica, placer del gesto, múltiples amores e hijos."
+      },
+      {
+        "nom": "Brigitte Bardot",
+        "naissance": "28 de septiembre de 1934",
+        "raison": "Icono del placer, de la seducción y del juego cinematográfico."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 6,
+    "slug": "maison-6",
+    "titreCourt": "Casa VI",
+    "nom": "Lo cotidiano",
+    "axe": "VI–XII",
+    "type": "cadente",
+    "quadrant": "Nord",
+    "significationTraditionnelle": "Enfermedades, esclavos y sirvientes, animales domésticos, vejez y declive, la casa de la alimentación y del servicio.",
+    "sensSocial": "La masa y el pueblo, los trabajadores, la salud pública, la marina, el ejército, los buques de guerra, la policía y los servicios públicos.",
+    "conceptionModerne": "Servicio social, trabajo público, los subalternos, posibilidades de empleo y obstáculos. La salud y la higiene de vida. Hábitos cotidianos y optimización progresiva.",
+    "axeAnalyse": {
+      "nom": "Eje VI–XII: el trabajo del nativo",
+      "description": "El eje VI–XII opone el trabajo social y visible (Casa VI) al trabajo secreto y a las limitaciones (Casa XII). La Casa VI muestra el servicio cotidiano y la contribución; la Casa XII revela los obstáculos ocultos, el inconsciente y la autodestrucción."
+    },
+    "triangle": {
+      "nom": "Triángulo de la Acción",
+      "role": "Las aspiraciones y la carrera (X), el dinero adquirido (II), el trabajo cotidiano (VI)."
+    },
+    "carre": {
+      "nom": "Cuadrado del Silencio y de la Razón",
+      "role": "La comunicación (III), el pensamiento abstracto (IX), el trabajo cotidiano (VI), el inconsciente y las limitaciones (XII)."
+    },
+    "niveauLecture": {
+      "arena": "la rutina, el servicio y la mejora",
+      "motsCles": [
+        "hábitos",
+        "trabajo",
+        "salud",
+        "servicio",
+        "método"
+      ],
+      "verbes": [
+        "organizar",
+        "mejorar",
+        "servir",
+        "optimizar",
+        "disciplinar"
+      ],
+      "fonction": "La Casa VI describe lo cotidiano: rutinas, trabajo, higiene de vida, eficacia, servicio y mejora progresiva."
+    },
+    "domaines": {
+      "principaux": [
+        "trabajo",
+        "rutina",
+        "salud",
+        "hábitos",
+        "organización"
+      ],
+      "secondaires": [
+        "eficacia",
+        "herramientas",
+        "cuidado del cuerpo",
+        "ritmo",
+        "métodos"
+      ],
+      "dansLaVie": [
+        "listas de tareas",
+        "planificación",
+        "disciplina",
+        "herramientas",
+        "higiene de vida"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "sentido del detalle",
+        "eficacia",
+        "disciplina",
+        "capacidad de servir"
+      ],
+      "ombres": [
+        "perfeccionismo",
+        "estrés",
+        "autocrítica",
+        "agotamiento"
+      ],
+      "besoins": [
+        "un marco claro",
+        "equilibrio esfuerzo/descanso",
+        "rituales sanos"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa VI = volver la vida viable.",
+        "Muestra cómo «aguantas» en lo cotidiano.",
+        "Vincula trabajo + salud + hábitos."
+      ],
+      "erreursFrequences": [
+        "Leer VI únicamente como «enfermedad».",
+        "Confundir VI y X (carrera).",
+        "Rigidizar las rutinas."
+      ],
+      "repereInterpretation": [
+        "Signo en VI = estilo de trabajo.",
+        "Planetas en VI = hábitos/motores.",
+        "Regente de VI = método de mejora."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Hago esto viable.",
+        "Me mejoro.",
+        "Cuido."
+      ],
+      "exemplesConcrets": [
+        "Optimizas tus herramientas.",
+        "Necesitas rutinas.",
+        "Quieres «hacerlo mejor»."
+      ],
+      "exercices": [
+        "Crear 1 rutina matinal breve.",
+        "Definir 1 indicador de salud (sueño).",
+        "Hacer 1 semana de «menos pero mejor»."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "Asegura el éxito en puestos subalternos de responsabilidad. El Sol debilita algo la vitalidad general. Gusto pronunciado por las cuestiones higiénicas y médicas. El Sol en la Casa VI liga la identidad a la utilidad y al trabajo bien hecho. El nativo tiene la necesidad de contribuir. El desafío es el agotamiento; la madurez cultiva una excelencia sostenible.",
+      "lune": "Ganancias que vienen por los sirvientes y empleados. Éxito en una posición subordinada estable. Favorable para ocupaciones ligadas a las ciudades de aguas termales. Salud sujeta a fluctuaciones emocionales. La Luna en la Casa VI liga el ánimo a lo cotidiano. El nativo necesita rituales. El desafío es el estrés somático; la madurez desarrolla una higiene emocional.",
+      "mercure": "Triunfa como sirviente más que como amo, en toda ocupación auxiliar del pensamiento. Mercurio en la Casa VI da organización mental y técnica. Los empleados del nativo habrá que vigilarlos. El desafío es el nerviosismo; la madurez desarrolla método con pausas.",
+      "venus": "Propicio para cualquier puesto subalterno. Venus en la Casa VI asegura armonía en el trabajo. Los empleados serán amables, respetuosos y serviciales. Dulzura en la rutina. El desafío es evitar los conflictos; la madurez cultiva una cooperación clara.",
+      "mars": "Problemas que vienen de sirvientes o empleados. Enfermedades febriles o inflamatorias marcan al nativo. Marte en la Casa VI da un ritmo intenso y energía en el trabajo. Heridas o intervenciones quirúrgicas en las partes gobernadas por el signo. El desafío es la inflamación; la madurez gestiona el esfuerzo.",
+      "jupiter": "Beneficios que vienen por los empleados. Júpiter en la Casa VI asegura una progresión continua y un crecimiento por el servicio. El nativo se ve favorecido en puestos subalternos de responsabilidad. El desafío es el exceso; la madurez prioriza.",
+      "saturne": "Posición desdichada: el sujeto vegeta toda su vida en puestos subalternos oscuros. Saturno en la Casa VI crea disciplina y resistencia. Enfermedades crónicas marcan al nativo. Sirvientes desleales. El nativo aprende el deber. El desafío es la rigidez; la madurez desarrolla una estructura flexible.",
+      "uranus": "Predisposición a trastornos nerviosos si hay disonancias serias; a veces falta de equilibrio mental. Urano en la Casa VI da métodos atípicos y necesidad de libertad. Problemas en situaciones subalternas porque quiere actuar según sus propias ideas. Los buenos aspectos confieren una actividad independiente y original. El desafío es la irregularidad; la madurez crea un sistema flexible.",
+      "neptune": "Trastornos generalmente más nerviosos que físicos, difíciles de precisar y de tratar. Enfermo imaginario si está maleficiado. Neptuno en la Casa VI crea sensibilidad al clima de trabajo y vocación de ayuda. Si está bien aspectado: salud mantenida mediante un modo de vida naturista. Éxito en un puesto subalterno ligado a los cuidados médicos. El desafío es la imprecisión; la madurez establece límites.",
+      "pluton": "Transformación radical por la rutina e intensidad de mejora. Plutón en la Casa VI puede dar una posible obsesión por el cambio. El nativo regenera su cotidianidad en profundidad. El desafío es la obsesión; la madurez cultiva una regeneración sana."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 6 en astrología?",
+        "reponse": "La Casa 6 rige la salud, el trabajo cotidiano, las rutinas, el servicio prestado a los demás y los pequeños animales domésticos. Describe cómo el nativo organiza su día a día, cuida su cuerpo y se implica en sus tareas profesionales corrientes."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 6?",
+        "reponse": "La Casa 6 está naturalmente asociada a Virgo y a su planeta regente Mercurio. Esta correspondencia destaca el sentido del detalle, el espíritu de análisis, el gusto por el orden y el afán de mejora continua que caracterizan esta casa."
+      },
+      {
+        "question": "¿Qué significa tener a Marte en la Casa 6?",
+        "reponse": "Marte en la Casa 6 confiere una energía considerable en el trabajo cotidiano y una gran capacidad de acción en las tareas concretas. El nativo es un trabajador infatigable, pero debe cuidarse de las inflamaciones y del agotamiento ligado a un exceso de actividad."
+      },
+      {
+        "question": "¿Muestra la Casa 6 las enfermedades posibles?",
+        "reponse": "La Casa 6 da indicaciones sobre las predisposiciones de salud y los puntos de fragilidad del cuerpo, pero no predice enfermedades específicas. El signo en la cúspide y los planetas presentes orientan hacia las zonas corporales que vigilar y los hábitos de vida que privilegiar."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 6 y la Casa 12?",
+        "reponse": "La Casa 6 concierne a la salud física, el trabajo concreto y las rutinas cotidianas, mientras que la Casa 12 gobierna la salud psíquica, la vida interior y las pruebas ocultas. Este eje opone el cuidado activo y visible al soltar y a la curación invisible del alma."
+      }
+    ],
+    "vieQuotidienne": "La Casa VI es la casa de lo cotidiano real — no el que se cuenta en las cenas, sino el que se vive a las 7 de la mañana de un martes. Es la rutina, la agenda, el café a hora fija, el metro, el gimnasio (o su ausencia), el médico de familia, los pequeños males que se cargan sin hablar de ellos. Gobierna la relación con la salud ordinaria — no las grandes enfermedades (más bien Casas VIII o XII) sino los cansancios, las tensiones, el sueño, la alimentación, la higiene cotidiana. En el trabajo, es la relación con los subordinados, con los colegas del día a día, con las herramientas que se utilizan. Una Casa VI fuerte marca a alguien organizado, metódico, que cuida su cuerpo y sus procesos. Una Casa VI tensa se traduce a menudo en una cotidianidad agotadora: demasiadas tareas, demasiado estrés, demasiada autoexigencia.",
+    "carriere": {
+      "texte": "La Casa VI es la casa del trabajo concreto y cotidiano (por oposición a la X, la vocación). Describe tu relación con el trabajo ordinario: ¿te gusta estructurar, mejorar, solucionar? Los perfiles con una VI fuerte sobresalen en las profesiones de análisis, de servicio, de salud, de artesanía precisa. Mercurio en VI está en su domicilio y da un espíritu metódico valioso en el mundo profesional. Saturno en VI es una configuración clásica de los grandes trabajadores — duros para el sufrimiento, poco quejosos, a veces demasiado. Marte en VI puede traer accidentes laborales o un estrés físico elevado. Venus en VI da el gusto por un entorno de trabajo cuidado y por buenas relaciones con los colegas.",
+      "metiers": [
+        "Enfermero / auxiliar de enfermería",
+        "Médico de cabecera",
+        "Veterinario",
+        "Auditor / responsable de calidad",
+        "Artesano (carpintero, electricista)",
+        "Asistente administrativo"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa VI tocan siempre la salud y lo cotidiano. Júpiter en VI mejora la forma física, amplía las responsabilidades en el trabajo, puede marcar un nuevo puesto más cómodo. Saturno en VI es conocido por sus sobrecargas de trabajo y sus revisiones de salud: se aprenden los propios límites a veces duramente, se adopta una disciplina alimentaria o deportiva. Urano en VI trae trastornos de la rutina (cambio de empleo repentino, alimentación revisada, sueño alterado). Neptuno en VI puede señalar cansancios difusos, sensibilidades alimentarias, diagnósticos imprecisos — vigilancia. Plutón en VI fuerza una refundición profunda de la relación con el cuerpo y con el trabajo: se abandonan situaciones que envenenaban en silencio.",
+    "exercicePratique": {
+      "titre": "Diagnóstico de tu semana tipo",
+      "etapes": [
+        "Durante 7 días, anota cada hora del día en una tabla (sueño / trabajo / comidas / cuerpo / ocio).",
+        "Al final de la semana, cuenta las horas en cada categoría.",
+        "Identifica LA casilla que te parece en desequilibrio flagrante (demasiado o demasiado poco).",
+        "Pregúntate: si tuviera que ajustar esta casilla en 30 minutos al día, ¿qué sacrificaría?",
+        "Prueba este nuevo equilibrio la semana siguiente. Puntúa sobre 10 tu energía cada noche."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Florence Nightingale",
+        "naissance": "12 de mayo de 1820",
+        "raison": "Fundadora de la profesión enfermera moderna — el servicio cotidiano por excelencia."
+      },
+      {
+        "nom": "Marie Curie",
+        "naissance": "7 de noviembre de 1867",
+        "raison": "Rigor cotidiano del laboratorio, salud sacrificada a la precisión."
+      },
+      {
+        "nom": "Henry Ford",
+        "naissance": "30 de julio de 1863",
+        "raison": "Codificación del trabajo repetitivo eficiente — la cadena de montaje."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 7,
+    "slug": "maison-7",
+    "titreCourt": "Casa VII",
+    "nom": "La relación",
+    "axe": "I–VII",
+    "type": "angulaire",
+    "quadrant": "Ouest",
+    "significationTraditionnelle": "Matrimonio, mujeres, pleitos y discusiones, robos, enemigos, la venta y compra de casas, los contratos, los socios, la individualidad por oposición a la personalidad. La Casa VII gobierna tradicionalmente todo tipo de asociaciones legales y los enemigos públicos declarados.",
+    "sensSocial": "Las guerras, los enemigos, las alianzas, los tratados, los asuntos exteriores, ladrones y asesinos. Es el dominio de las interacciones colectivas, de la manera en que la persona es percibida y reacciona en la esfera social.",
+    "conceptionModerne": "El nativo en la sociedad. El pueblo. Las reacciones de la sociedad respecto a la actitud del nativo: a) repulsión = enemigos públicos, querellas, pleitos, divorcio; b) atracción = asociaciones, uniones legales, contratos. La Casa VII revela cómo nos proyectamos sobre el otro y lo que buscamos como espejo.",
+    "axeAnalyse": {
+      "nom": "Eje I–VII",
+      "description": "El Nativo. I = yo, VII = el nativo en la sociedad. Este eje plantea la cuestión de la relación con el Otro y del equilibrio entre identidad personal e identidad social."
+    },
+    "triangle": {
+      "nom": "Relaciones (VII, XI, III)",
+      "role": "Matrimonio y asociaciones — el dominio del partenariado consciente y elegido."
+    },
+    "carre": {
+      "nom": "Progreso (I, X, VII, IV)",
+      "role": "Luchas, pruebas — desafíos que esculpen nuestra capacidad de comprometernos y de adaptarnos."
+    },
+    "niveauLecture": {
+      "arena": "el cara a cara y el contrato",
+      "motsCles": [
+        "asociación",
+        "pareja",
+        "espejo",
+        "contrato",
+        "equilibrio"
+      ],
+      "verbes": [
+        "encontrar",
+        "negociar",
+        "comprometerse",
+        "cooperar",
+        "ajustar"
+      ],
+      "fonction": "La Casa VII describe el encuentro: pareja, asociaciones, contratos. El otro como espejo y aprendizaje del vínculo."
+    },
+    "domaines": {
+      "principaux": [
+        "pareja",
+        "asociaciones",
+        "contratos",
+        "clientes",
+        "alianzas"
+      ],
+      "secondaires": [
+        "diplomacia",
+        "espejo",
+        "negociación",
+        "compromiso",
+        "equilibrio"
+      ],
+      "dansLaVie": [
+        "asociaciones profesionales",
+        "matrimonio",
+        "clientes",
+        "acuerdos",
+        "conflictos por resolver"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "diplomacia",
+        "escucha",
+        "capacidad de negociar",
+        "sentido de la asociación"
+      ],
+      "ombres": [
+        "proyección",
+        "dependencia",
+        "compromiso excesivo",
+        "conflictos de espejo"
+      ],
+      "besoins": [
+        "diálogo honesto",
+        "un marco claro",
+        "equilibrio entre dar y recibir"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa VII = relación elegida (contrato explícito o implícito).",
+        "Muestra lo que proyectas sobre el otro.",
+        "Planetas en VII = temas relacionales mayores."
+      ],
+      "erreursFrequences": [
+        "Reducirlo todo a la pareja.",
+        "Olvidar los contratos/clientes.",
+        "Confundir compromiso y autoanulación."
+      ],
+      "repereInterpretation": [
+        "Signo en VII = estilo relacional.",
+        "Planetas en VII = necesidades/desafíos.",
+        "Regente de VII = manera de comprometerse."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Encuentro.",
+        "Coopero.",
+        "Me ajusto."
+      ],
+      "exemplesConcrets": [
+        "Aprendes a través de las relaciones.",
+        "Buscas alianzas estables.",
+        "Necesitas acuerdos claros."
+      ],
+      "exercices": [
+        "Enumerar tus innegociables relacionales.",
+        "Practicar un «no» claro.",
+        "Aclarar un contrato (aunque sea verbal)."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "El Sol en la Casa VII es uno de los indicios mayores de notoriedad. El nativo está destinado a desempeñar un papel social notable y su vida relacional se convierte en el vector principal de su expresión personal. El matrimonio o las alianzas importantes marcan a menudo el punto de partida de una elevación social brillante, poniendo de relieve el papel público y las responsabilidades compartidas.",
+      "lune": "La Luna en la Casa VII favorece enormemente el matrimonio y los éxitos sociales. Inclina al nativo hacia ocupaciones que lo ponen en contacto directo con el público y le confiere una popularidad natural. La emoción se convierte en vehículo de conexión con el otro, aunque el nativo debe cultivar la estabilidad emocional en sus compromisos.",
+      "mercure": "Mercurio en la Casa VII revela una afinidad por los matrimonios donde reina el entendimiento intelectual, a menudo con una persona mercuriana, un primo o alguien en posición de colaborador. El diálogo, la negociación y la palabra se vuelven fundamentales en las alianzas del nativo, predisponiéndolo a carreras de orador o de intermediario.",
+      "venus": "Venus en la Casa VII es la mejor configuración para un matrimonio feliz y duradero. Facilita las relaciones armoniosas, las asociaciones felices y los éxitos en los negocios en sociedad. El encanto y la diplomacia natural del nativo le permiten navegar los conflictos con elegancia y concluir contratos ventajosos.",
+      "mars": "Marte en la Casa VII puede indicar un matrimonio precoz seguido de desavenencias, viudez o separación. Para las mujeres, conlleva el riesgo de muerte del cónyuge o de accidente. El dinamismo marcial manifestado en las relaciones puede crear fricciones, aunque una mujer de temperamento fuerte puede ser dominante o independiente por naturaleza.",
+      "jupiter": "Júpiter en la Casa VII es una muy buena configuración para el matrimonio y las alianzas públicas. Aporta ganancias sustanciales mediante asociaciones legales y asociaciones comerciales. El nativo favorece la acción social y se beneficia de una popularidad creciente, encontrando apoyo y abundancia a través de sus socios.",
+      "saturne": "Saturno en la Casa VII vuelve al nativo frío, melancólico y taciturno en las relaciones. Conlleva a menudo el riesgo de viudez, de desavenencia conyugal o de impopularidad social. Sin embargo, bien aspectado, este emplazamiento desarrolla una fidelidad de larga duración y una capacidad de comprometerse seriamente.",
+      "uranus": "Urano en la Casa VII es probablemente una de las configuraciones más nefastas para el matrimonio tradicional, portadora de divorcio frecuente e inestabilidad relacional. El nativo, de ideas inconformistas, corre el riesgo de hacerse enemigos. Bien aspectado, puede sin embargo realizar una obra social revolucionaria o asociaciones vanguardistas.",
+      "neptune": "Neptuno en la Casa VII dificulta el matrimonio por falta de decisión o por aspiraciones irrealizables respecto a la pareja. El cónyuge puede ser caprichoso o poco apto para contribuir a la prosperidad común. Las asociaciones son a menudo desdichadas. Muy bien aspectado, Neptuno puede aportar éxito mediante un buen matrimonio favorecido por la evolución económica.",
+      "pluton": "Plutón en la Casa VII crea una intensidad notable en las relaciones, con transformaciones profundas provocadas por el otro. El desafío reside en las luchas de poder conyugal y las dinámicas de control; la madurez consiste en aceptar la metamorfosis relacional y los profundos cambios que aporta."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 7 en astrología?",
+        "reponse": "La Casa 7, llamada también Descendente, representa la pareja, las asociaciones, los contratos y la manera en que uno entra en relación con los demás. Describe el tipo de pareja que el nativo atrae y la dinámica relacional que se instala en sus compromisos."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 7?",
+        "reponse": "La Casa 7 está naturalmente asociada a Libra y a su planeta regente Venus. Esta correspondencia subraya la búsqueda de equilibrio, de armonía y de justicia en las relaciones, así como la necesidad profunda de compartir y de complementariedad con los demás."
+      },
+      {
+        "question": "¿Qué significa tener a Venus en la Casa 7?",
+        "reponse": "Venus en la Casa 7 es un emplazamiento muy favorable para la vida sentimental y las asociaciones. El nativo atrae parejas encantadoras y busca ante todo la armonía en la pareja, con un talento natural para la diplomacia y la negociación."
+      },
+      {
+        "question": "¿Describe el Descendente a mi pareja ideal?",
+        "reponse": "El Descendente indica las cualidades que se buscan inconscientemente en el otro y el tipo de relación que nos completa. El signo en la cúspide de la Casa 7 describe las características de la pareja atraída, que a menudo encarna lo que el nativo no expresa por sí mismo."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 1 y la Casa 7?",
+        "reponse": "La Casa 1 representa el yo, la identidad personal y la forma en que uno se presenta al mundo, mientras que la Casa 7 simboliza al otro, a la pareja y la relación comprometida. Este eje fundamental muestra cómo la afirmación de uno mismo y la apertura al otro deben encontrar un equilibrio."
+      }
+    ],
+    "vieQuotidienne": "La Casa VII se vive en todas las situaciones en las que estás frente a alguien, ojos en los ojos. Es la conversación de pareja en la mesa, la firma de un contrato, la negociación salarial, el encuentro determinante de una cena. En lo cotidiano, se reconoce por la calidad de tu relación con el otro — ¿sabes mantener una postura sin defenderla agresivamente? ¿Puedes escuchar sin disolver lo que piensas? La Casa VII gobierna las asociaciones, los matrimonios, las colaboraciones profesionales, pero también los «enemigos declarados» — los que se oponen a ti abiertamente, lo cual es paradójicamente más sano que el enemigo oculto de la XII. Una Casa VII fuerte atrae los encuentros marcantes — a menudo uno «despierta» a través del otro. Una Casa VII tensa indica o bien una dificultad para elegir pareja, o bien una sucesión de relaciones conflictivas cuyo esquema repetitivo se busca comprender.",
+    "carriere": {
+      "texte": "La Casa VII es la casa de las asociaciones profesionales, de los dúos, de las colaboraciones comerciales. Los perfiles con una VII fuerte rara vez trabajan solos — necesitan un alter ego, un cliente directo, un público que conquistar. Es también la casa del consejo y de la mediación: los que ayudan a los demás a arbitrar sus propios dilemas. Venus en VII favorece las profesiones de relación con el cliente y de diplomacia. Saturno en VII exige el largo aprendizaje del compromiso: uno tarda en asociarse, pero una vez hecho, el vínculo es duradero. Marte en VII atrae a los competidores y los conflictos abiertos — útil en un abogado, doloroso en otros casos.",
+      "metiers": [
+        "Abogado / mediador",
+        "Diplomático",
+        "Consejero conyugal / terapeuta de pareja",
+        "Coach profesional",
+        "Comercial de grandes cuentas",
+        "Organizador de bodas"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa VII activan las asociaciones. Júpiter en VII es célebre por sus matrimonios, sus asociaciones fructíferas, sus contratos ventajosos. Saturno en VII pone a prueba los compromisos: o bien uno se casa seriamente, o bien abandona una relación que ya no se sostiene. El tránsito de Saturno sobre el Descendente es conocido por sus divorcios o sus recompromisos profundos. Urano en VII sacude las parejas — flechazos, rupturas repentinas, apertura relacional. Neptuno en VII puede idealizar a una pareja y preparar una desilusión, o por el contrario fundar una relación espiritual profunda. Plutón en VII escarba en las dinámicas de poder de los vínculos — transformaciones mayores, a veces conflictivas.",
+    "exercicePratique": {
+      "titre": "El espejo de tu Casa VII",
+      "etapes": [
+        "Enumera las 5 personas más importantes de tu vida hoy (pareja, amigo cercano, socio, etc.).",
+        "Para cada una, escribe 1 cualidad que admiras y 1 defecto que te crispa.",
+        "Lee tu lista en voz alta. ¿Reconoces elementos de tu propio funcionamiento?",
+        "Pregúntate: lo que proyecto sobre el otro como defecto, ¿qué dice de mi propio punto ciego?",
+        "Elige UN comportamiento relacional para experimentar durante 2 semanas (decir no, pedir ayuda, expresar un deseo)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Nelson Mandela",
+        "naissance": "18 de julio de 1918",
+        "raison": "Maestro de la negociación y de la reconciliación, el otro como materia prima política."
+      },
+      {
+        "nom": "Hillary Clinton",
+        "naissance": "26 de octubre de 1947",
+        "raison": "Carrera en pareja política, asociaciones estratégicas constantes."
+      },
+      {
+        "nom": "Yoko Ono",
+        "naissance": "18 de febrero de 1933",
+        "raison": "Matrimonio emblemático, obra construida en el cara a cara artístico."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 8,
+    "slug": "maison-8",
+    "titreCourt": "Casa VIII",
+    "nom": "La transformación",
+    "axe": "II–VIII",
+    "type": "succedente",
+    "quadrant": "Ouest",
+    "significationTraditionnelle": "La muerte, el tipo de muerte, el trabajo y la tristeza, las herencias de los muertos, los últimos años de la vida, las antigüedades, la fortuna de los cónyuges, el temor. Tradicionalmente, la Casa VIII gobierna todo lo que concierne al final de la vida y a las posesiones transmitidas tras el fallecimiento.",
+    "sensSocial": "La moralidad, los suicidios. La Casa VIII, en su perspectiva social, revela las cuestiones de conciencia colectiva y los tabúes que rodean el final de la vida.",
+    "conceptionModerne": "Posesiones adquiridas mediante asociaciones (sentido derivado de la Casa VII); ganancias o pérdidas resultantes ya sea de contiendas públicas (procesos, divorcios) o de asociaciones legales (matrimonio, contratos). Fin de las adquisiciones (por oposición a la Casa II) = la muerte, y por extensión el testamento y la herencia del nativo. La Casa VIII revela también la intimidad psíquica y sexual.",
+    "axeAnalyse": {
+      "nom": "Eje II–VIII",
+      "description": "Posesiones exteriores. II = adquirido por uno mismo, VIII = adquirido mediante asociaciones, fin de las adquisiciones. Este eje explora la relación con lo material y con lo que se comparte."
+    },
+    "triangle": {
+      "nom": "Finalidad (IV, XII, VIII)",
+      "role": "Muerte de la naturaleza psíquica — los ciclos de final y de transformación interior."
+    },
+    "carre": {
+      "nom": "Tener (II, XI, VIII, V)",
+      "role": "Dinero proveniente de los asociados — recursos compartidos y acumulados colectivamente."
+    },
+    "niveauLecture": {
+      "arena": "la crisis, la fusión y el paso",
+      "motsCles": [
+        "intimidad",
+        "compartir",
+        "crisis",
+        "herencia",
+        "transmutación"
+      ],
+      "verbes": [
+        "transformar",
+        "fusionar",
+        "soltar",
+        "renacer",
+        "atravesar"
+      ],
+      "fonction": "La Casa VIII describe las transformaciones: crisis, pérdidas, intimidad profunda, recursos compartidos, verdad y desapego."
+    },
+    "domaines": {
+      "principaux": [
+        "intimidad",
+        "sexualidad",
+        "herencias",
+        "finanzas compartidas",
+        "psicología"
+      ],
+      "secondaires": [
+        "secretos",
+        "crisis",
+        "tabúes",
+        "poder",
+        "resiliencia"
+      ],
+      "dansLaVie": [
+        "terapia",
+        "herencia",
+        "deudas",
+        "fusión",
+        "renacimiento"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "lucidez",
+        "resiliencia",
+        "profundidad",
+        "poder de transformación"
+      ],
+      "ombres": [
+        "miedo a perder",
+        "control",
+        "obsesión",
+        "fusión tóxica"
+      ],
+      "besoins": [
+        "confianza",
+        "verdad",
+        "capacidad de soltar"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa VIII = transformación, no «desgracia».",
+        "Habla también de lo compartido (dinero/energía).",
+        "Exige verdad y madurez."
+      ],
+      "erreursFrequences": [
+        "Leer la VIII solo como sexualidad.",
+        "Dramatizar sistemáticamente.",
+        "Confundir VIII y XII (disolución)."
+      ],
+      "repereInterpretation": [
+        "Signo en VIII = estilo de transformación.",
+        "Planetas en VIII = zonas sensibles.",
+        "Regente de VIII = camino de regeneración."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Atravieso.",
+        "Transformo.",
+        "Suelto."
+      ],
+      "exemplesConcrets": [
+        "Vives giros profundos.",
+        "Captas lo no dicho.",
+        "Tienes un olfato psicológico."
+      ],
+      "exercices": [
+        "Identificar 1 miedo a la pérdida y 1 antídoto concreto.",
+        "Clarificar algo compartido (dinero/tiempo/emoción).",
+        "Ritual de cierre de un ciclo."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "El Sol en la Casa VIII promete importantes sucesiones y marca un destino de transformaciones mayores. Conlleva también un peligro de muerte hacia la edad media; para las mujeres, un riesgo de viudez. Este emplazamiento inclina naturalmente al nativo hacia los estudios ocultos y los misterios de la muerte, confiriéndole una autoridad interior sobre estos temas.",
+      "lune": "La Luna en la Casa VIII aporta herencias provenientes preferentemente de parientes femeninas. Favorece el dinero a través del matrimonio o la asociación, pero el nativo teme de manera innata la muerte y los cambios radicales. La emotividad ante las crisis exige un trabajo de aceptación del ciclo natural de transformación.",
+      "mercure": "Mercurio en la Casa VIII confiere un carácter más bien triste, soñador e inclinado al espiritualismo. Es una excelente posición para el historiador, el ocultista o el místico. El espíritu indagador del nativo escarba en los secretos y las verdades ocultas, dándole una comprensión psicológica poco común.",
+      "venus": "Venus en la Casa VIII aporta ganancias sustanciales por matrimonio o herencia, acompañadas por lo general de una muerte dulce y natural. El nativo goza de una protección relativa en las transiciones difíciles. Esta posición endulza las aguas de la transformación mediante el amor y las alianzas ventajosas.",
+      "mars": "Marte en la Casa VIII conlleva el riesgo de muerte súbita o violenta, de ausencia de herencias o de su rápida dilapidación. El cónyuge puede manifestar una extravagancia ruinosa. El nativo debe cultivar la prudencia y controlar los impulsos destructivos que podrían comprometer su seguridad material.",
+      "jupiter": "Júpiter en la Casa VIII es la mejor posición para beneficiarse de herencias importantes y de ganancias mediante procesos. Asegura una muerte natural y dulce, con protección divina en las crisis. Los recursos compartidos prosperan, y el nativo encuentra fortuna a través de los legados y las alianzas.",
+      "saturne": "Saturno en la Casa VIII indica una ausencia de herencias que esperar y pone en peligro el crédito y la reputación. Puede significar también la muerte prematura del padre. Sin embargo, bien aspectado, este emplazamiento desarrolla una prudencia de hierro y una gestión rigurosa de los bienes compartidos.",
+      "uranus": "Urano en la Casa VIII parece indicar un final rápido, si no violento. Puede aportar herencias inesperadas difíciles de conservar. Bien aspectado, confiere al ocultista una intuición fulgurante y capacidades notables para las ciencias ocultas y la transformación radical.",
+      "neptune": "Neptuno en la Casa VIII, bien aspectado, promete una herencia inesperada cuyas ventajas son más morales que materiales. Da un final de vida fuera de lo común. Mal aspectado, conlleva peligro de problemas relacionados con el agua e ilusiones en los repartos financieros.",
+      "pluton": "Plutón en la Casa VIII permanece como texto existente: transformaciones intensas, poder de alquimia personal. El desafío: el dominio de las dinámicas de control y de obsesión; la madurez: renacimiento total y regeneración cíclica."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 8 en astrología?",
+        "reponse": "La Casa 8 gobierna las transformaciones profundas, la muerte simbólica y física, las herencias, la sexualidad y los recursos compartidos. Describe las crisis que conducen a la regeneración y la capacidad del nativo de atravesar las pruebas para renacer transformado."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 8?",
+        "reponse": "La Casa 8 está naturalmente asociada a Escorpio y a sus planetas regentes Plutón y Marte. Esta correspondencia explica la intensidad, la profundidad emocional y el poder de transformación radical que caracterizan a esta casa misteriosa."
+      },
+      {
+        "question": "¿Qué significa tener a Plutón en la Casa 8?",
+        "reponse": "Plutón en la Casa 8 está en su domicilio natural, lo que amplifica considerablemente el poder de transformación y de regeneración. El nativo posee una capacidad excepcional para atravesar las crisis y renacer de sus cenizas, con una intuición profunda de los mecanismos ocultos de la vida."
+      },
+      {
+        "question": "¿Es la Casa 8 realmente la casa de la muerte?",
+        "reponse": "La Casa 8 está tradicionalmente ligada a la muerte, pero la astrología moderna la interpreta sobre todo como la casa de las transformaciones profundas y de los finales de ciclo necesarios. Simboliza todo lo que muere para renacer bajo una forma nueva, incluyendo las herencias, las crisis y la sexualidad transformadora."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 2 y la Casa 8?",
+        "reponse": "La Casa 2 rige los bienes personales y los ingresos ganados por uno mismo, mientras que la Casa 8 concierne a los recursos compartidos, las herencias y el dinero proveniente de los demás. Este eje opone el haber individual a las posesiones comunes y a las transformaciones financieras ligadas a las asociaciones."
+      }
+    ],
+    "vieQuotidienne": "La Casa VIII es la casa de los pasajes — en el sentido fuerte. El sexo verdadero, no la seducción (V) ni la pareja (VII), sino el abandono que transforma. Las herencias, los impuestos, el dinero compartido de la pareja, las deudas comunes, los recursos que vienen de otra parte (una subvención, un mecenazgo). En lo cotidiano, se reconoce por tu relación con lo que es tabú: la muerte, el dinero, la sexualidad, las zonas de sombra de la psique. Una Casa VIII fuerte indica a alguien que no huye de los temas difíciles, que sabe escuchar una confidencia sin desviar la mirada, que se interesa por la psicología profunda. Una Casa VIII tensa traduce a menudo crisis repetidas, duelos mal atravesados, o una relación conflictiva con el dinero común. Es la casa donde uno muere a algo para renacer en otra parte.",
+    "carriere": {
+      "texte": "La Casa VIII atrae los oficios de la transformación y del tabú: psicoterapia, cuidados paliativos, gestión de patrimonio, fiscalidad, criminología, investigación, ocultismo. Los perfiles con una VIII fuerte no soportan los oficios de superficie — necesitan un tema que ahonde. Es también la casa del dinero de los demás: inversión, gestión de fondos, herencias, seguros. Plutón o Marte en VIII dan una gran potencia de investigación. Venus en VIII atrae vínculos intensos, a veces complicados financieramente. Saturno en VIII exige un largo aprendizaje del desapego frente a la pérdida.",
+      "metiers": [
+        "Psicoterapeuta / psicoanalista",
+        "Asesor fiscal / patrimonial",
+        "Detective / investigador",
+        "Profesional de cuidados paliativos",
+        "Trader / gestor de fondos",
+        "Sexólogo / terapeuta corporal"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa VIII se cuentan entre los más profundos que existen. Plutón en VIII (raro, por ser lento) es un trabajo de varios años sobre las zonas de sombra, las herencias psíquicas, los poderes ocultos. Saturno en VIII impone el aprendizaje de la pérdida — duelos, finales de ciclo, reestructuraciones patrimoniales. Júpiter en VIII puede traer una herencia o un apoyo financiero inesperado, pero también una fascinación por los temas profundos. Urano en VIII trastorna la sexualidad, la relación con la intimidad, o las finanzas comunes. Neptuno en VIII enturbia las herencias y puede señalar fraudes o ilusiones financieras — vigilancia contractual.",
+    "exercicePratique": {
+      "titre": "Identificar lo que está listo para morir en ti",
+      "etapes": [
+        "Enumera 5 cosas que te pesan desde hace más de un año (una relación, un proyecto, un hábito, una creencia, una posesión).",
+        "Para cada una, pregúntate: ¿por qué la sigo conservando?",
+        "Identifica LA cosa que sientes que ha llegado al final de su vida útil.",
+        "Imagina concretamente cómo sería tu vida sin ella dentro de 6 meses. Anota lo que aparece.",
+        "Elige UN gesto irreversible esta semana para iniciar la liberación (un correo enviado, un objeto regalado, una conversación mantenida)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Sigmund Freud",
+        "naissance": "6 de mayo de 1856",
+        "raison": "El inconsciente, el tabú, la sexualidad — toda la obra es una Casa VIII activa."
+      },
+      {
+        "nom": "Edgar Allan Poe",
+        "naissance": "19 de enero de 1809",
+        "raison": "Muerte, miedo, transformación psíquica — materia prima de la obra."
+      },
+      {
+        "nom": "Elisabeth Kübler-Ross",
+        "naissance": "8 de julio de 1926",
+        "raison": "Pionera de los cuidados paliativos y del estudio de las etapas del duelo."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 9,
+    "slug": "maison-9",
+    "titreCourt": "Casa IX",
+    "nom": "El sentido",
+    "axe": "III–IX",
+    "type": "cadente",
+    "quadrant": "Ouest",
+    "significationTraditionnelle": "La religión, la fe, la visión, la sabiduría, el culto, las palabras, los sueños, los largos viajes, la filosofía, las obras del espíritu, las tendencias elevadas del cerebro, el ocultismo, las ciencias adivinatorias. La Casa IX gobierna tradicionalmente la expansión del espíritu mediante el conocimiento y la experiencia.",
+    "sensSocial": "El clero, la magistratura, la ciencia, los jueces, los asuntos coloniales, el poder comercial, los navíos. Es el dominio de las instituciones que estructuran el pensamiento colectivo y de los intercambios internacionales.",
+    "conceptionModerne": "El pensamiento abstracto del nativo, sus inspiraciones y aspiraciones, su evolución moral, sus desplazamientos lejanos y también los desplazamientos en pensamiento (visiones, intuiciones). La Casa IX revela cómo se construye una visión del mundo y se la expresa.",
+    "axeAnalyse": {
+      "nom": "Eje III–IX",
+      "description": "El pensamiento del nativo. III = pensamiento concreto, IX = pensamiento abstracto, inspiraciones. Este eje opone lo cotidiano hablado a la búsqueda superior de sentido."
+    },
+    "triangle": {
+      "nom": "Vida (I, V, IX)",
+      "role": "La vida en Dios — espiritualidad y creatividad trascendente."
+    },
+    "carre": {
+      "nom": "Silencio/Razón (III, IX, VI, XII)",
+      "role": "Trabajo espiritual — integración de los saberes en la acción cotidiana."
+    },
+    "niveauLecture": {
+      "arena": "el viaje, la visión y el horizonte",
+      "motsCles": [
+        "viajes",
+        "filosofía",
+        "estudios",
+        "espiritualidad",
+        "visión"
+      ],
+      "verbes": [
+        "ampliar",
+        "explorar",
+        "comprender",
+        "enseñar",
+        "dar sentido"
+      ],
+      "fonction": "La Casa IX describe la búsqueda de sentido: viajar, aprender en profundidad, construir una visión, transmitir y ampliar la perspectiva."
+    },
+    "domaines": {
+      "principaux": [
+        "viajes",
+        "estudios superiores",
+        "filosofía",
+        "espiritualidad",
+        "lo internacional"
+      ],
+      "secondaires": [
+        "lenguas",
+        "transmisión",
+        "visión",
+        "fe",
+        "ética"
+      ],
+      "dansLaVie": [
+        "horizonte",
+        "sentido",
+        "viajes",
+        "enseñanzas",
+        "creencias"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "apertura",
+        "optimismo",
+        "visión",
+        "capacidad de enseñar"
+      ],
+      "ombres": [
+        "dogmatismo",
+        "huida",
+        "moralismo",
+        "certezas rígidas"
+      ],
+      "besoins": [
+        "horizonte",
+        "aprendizaje profundo",
+        "coherencia de valores"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa IX = visión (no mente cotidiana: III).",
+        "Habla de horizonte y de ética.",
+        "Planetas en IX = estilo de la búsqueda de sentido."
+      ],
+      "erreursFrequences": [
+        "Dogmatismo.",
+        "Confundir saber y sabiduría.",
+        "Huida en el ideal."
+      ],
+      "repereInterpretation": [
+        "Signo en IX = tono filosófico.",
+        "Planetas en IX = motores de sentido.",
+        "Regente de IX = vía de expansión."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Veo más lejos.",
+        "Busco el sentido.",
+        "Transmito."
+      ],
+      "exemplesConcrets": [
+        "Aprendes por la experiencia.",
+        "Te gusta transmitir una visión.",
+        "Necesitas ampliar tu marco."
+      ],
+      "exercices": [
+        "Escribir tu «brújula de valores».",
+        "Estudiar un tema durante 30 días.",
+        "Planificar un viaje/una exploración (incluso mental)."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "El Sol en la Casa IX favorece todas las especulaciones del espíritu y cultiva el amor por los estudios filosóficos y religiosos. En el plano del destino, asegura estancias felices fuera del país natal y numerosos desplazamientos ventajosos. Es una excelente posición para el magistrado, el político o el eclesiástico.",
+      "lune": "La Luna en la Casa IX incita fuertemente a los largos viajes por agua y a los estudios científicos y místicos. Favorece la mediumnidad y el desarrollo psíquico, pero el nativo debe aprender a navegar sus emociones ante los horizontes lejanos y las verdades trascendentes.",
+      "mercure": "Mercurio en la Casa IX crea una gran actividad mental y aptitudes notables para el estudio religioso, filosófico y místico. El nativo emprenderá largos viajes y sus talentos intelectuales brillarán en todos los campos del pensamiento abstracto y comparativo.",
+      "venus": "Venus en la Casa IX modela un espíritu sincero de inclinación religiosa, amante de la poesía y de la belleza espiritual. Los sentimientos filantrópicos animan al nativo, y sus viajes son a menudo agradables, amenizados por aventuras amorosas y encuentros enriquecedores.",
+      "mars": "Marte en la Casa IX vuelve al nativo escéptico en materia de religión y espiritualidad. Sus grandes viajes y estancias lejanas conllevan peligros potenciales. Sin embargo, esta energía guerrera puede servir también para defender una causa ética o explorar horizontes hostiles.",
+      "jupiter": "Júpiter en la Casa IX es extremadamente favorable: el espíritu profundamente religioso, sincero y moral del nativo atrae viajes agradables y ventajosos financieramente. Las ganancias en países extranjeros abundan, y la suerte acompaña cada proyecto de expansión o de enseñanza.",
+      "saturne": "Saturno en la Casa IX inclina hacia los grandes viajes, principalmente por agua, pero a menudo peligrosos o frustrados. Las estancias lejanas carecen de favorabilidad. No obstante, el interés profundo por las cuestiones filosóficas, religiosas y metafísicas se profundiza a través de la prueba.",
+      "uranus": "Urano en la Casa IX crea una atracción poderosa por los grandes viajes, en particular por avión, pero no sin riesgos si el horóscopo está cargado de disonancias. En un horóscopo armónico, confiere aptitudes notables para los estudios filosóficos o sociales, con tendencias escépticas hacia la religión dogmática.",
+      "neptune": "Neptuno en la Casa IX porta un ideal bastante elevado y tendencias místicas o religiosas profundas. El amor por los viajes existe, pero a menudo sigue siendo un sueño más que una realidad. Neptuno es propicio a la intuición fulgurante, pero mal aspectado provoca fracasos en países lejanos o en las exploraciones.",
+      "pluton": "Plutón en la Casa IX, según el texto existente, crea una transformación radical de las creencias y una intensidad espiritual. El desafío: el fanatismo dogmático; la madurez: el acceso a la verdad profunda y la transmutación de las antiguas convicciones."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 9 en astrología?",
+        "reponse": "La Casa 9 gobierna los viajes lejanos, la filosofía, la espiritualidad, la enseñanza superior y la búsqueda de sentido. Describe cómo el nativo amplía sus horizontes, ya sea mediante los estudios, los desplazamientos al extranjero o la exploración de nuevas creencias."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 9?",
+        "reponse": "La Casa 9 está naturalmente asociada a Sagitario y a su planeta regente Júpiter. Esta correspondencia pone de relieve el entusiasmo, el optimismo, el gusto por la aventura y la sed de conocimiento universal que animan a esta casa volcada hacia lo lejano."
+      },
+      {
+        "question": "¿Qué significa tener a Júpiter en la Casa 9?",
+        "reponse": "Júpiter en la Casa 9 está en su domicilio natural, lo que favorece enormemente los estudios superiores, los viajes enriquecedores y la plenitud filosófica. El nativo se siente a menudo atraído por las culturas extranjeras y posee una sabiduría natural que inspira a quienes lo rodean."
+      },
+      {
+        "question": "¿Indica la Casa 9 si voy a viajar lejos?",
+        "reponse": "La Casa 9 informa sobre la relación con los viajes lejanos y con el extranjero, pero describe sobre todo la naturaleza de esas experiencias más que una certeza de desplazamiento. Planetas benéficos bien aspectados en la Casa 9 sugieren viajes felices y formativos, mientras que las tensiones indican desafíos que superar en el extranjero."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 3 y la Casa 9?",
+        "reponse": "La Casa 3 concierne a los desplazamientos cortos, la comunicación cotidiana y el aprendizaje elemental, mientras que la Casa 9 rige los largos viajes, el pensamiento filosófico y la enseñanza superior. Este eje opone el saber práctico y local a la búsqueda de verdad universal y de horizontes lejanos."
+      }
+    ],
+    "vieQuotidienne": "La Casa IX es la casa de la ampliación — viajes de larga distancia, estudios superiores, tratados de filosofía, religiones y espiritualidad, el extranjero. En lo cotidiano, se reconoce por el gusto por lo que supera tu círculo inmediato: documentales sobre culturas lejanas, libros de fondo, debates de ideas, lenguas extranjeras. Gobierna también el sentido que das a tu vida — por qué te levantas por la mañana más allá de las contingencias. Una Casa IX viva se reconoce por una curiosidad intelectual persistente después de los 30 años, y a menudo por una dimensión de vida internacional (viajes, expatriación, intercambios culturales). Una Casa IX apagada da una vida centrada en lo cercano, lo familiar, sin gran búsqueda de sentido — lo que puede ser cómodo pero a veces asfixiante a largo plazo.",
+    "carriere": {
+      "texte": "Profesionalmente, la Casa IX favorece todos los oficios que exigen una visión amplia: enseñanza superior, investigación, edición, derecho, religión, diplomacia, periodismo internacional, viaje. Los perfiles con una IX fuerte necesitan un horizonte — se apagan en las empresas provincianas. Júpiter en IX está en su domicilio y marca a los profesores carismáticos, los editores prósperos, los viajeros de éxito. Saturno en IX impone un largo recorrido de estudios u obstáculos en el extranjero que se transforman en sabiduría duradera. Marte en IX da un gusto por los conflictos ideológicos y las cruzadas intelectuales.",
+      "metiers": [
+        "Profesor universitario",
+        "Abogado / jurista",
+        "Editor / agente literario",
+        "Periodista internacional",
+        "Guía de viajes / formador de lenguas",
+        "Teólogo / pastor"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa IX abren el horizonte. Júpiter en IX es uno de los más favorables — viajes, publicaciones, reconocimiento académico, expansión espiritual. Saturno en IX puede bloquear los viajes previstos pero consolidar una experiencia seria, y marca a menudo un doctorado tardío o un reconocimiento institucional. Urano en IX desencadena partidas improvisadas al extranjero, conversiones filosóficas, cambios de marco académico. Neptuno en IX puede despertar una verdadera búsqueda espiritual o, al contrario, hacer perder pie en los dogmas. Plutón en IX transforma en profundidad las creencias y la visión del mundo a lo largo de años.",
+    "exercicePratique": {
+      "titre": "Definir tu horizonte de los próximos 5 años",
+      "etapes": [
+        "Escribe en lo alto de una página: «Si tuviera 5 años más dentro de 5 años, ¿en qué país / qué ciudad / qué oficio querría estar?»",
+        "Responde sin filtrar, aunque sea irreal.",
+        "Para cada una de las 3 líneas (país / ciudad / oficio), escribe UN obstáculo real.",
+        "Para cada obstáculo, escribe UNA acción minúscula realizable esta semana.",
+        "Comprométete con UNA de esas acciones y prográmala en la agenda — sin hacerla depender de otra cosa."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Alexander von Humboldt",
+        "naissance": "14 de septiembre de 1769",
+        "raison": "Viajero naturalista, visión global del mundo — la Casa IX en su cumbre."
+      },
+      {
+        "nom": "Simone de Beauvoir",
+        "naissance": "9 de enero de 1908",
+        "raison": "Filósofa-viajera, visión universal, matrimonio del concepto y la experiencia."
+      },
+      {
+        "nom": "Albert Schweitzer",
+        "naissance": "14 de enero de 1875",
+        "raison": "Teólogo-médico-músico, vida consagrada al sentido y a la alteridad."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 10,
+    "slug": "maison-10",
+    "titreCourt": "Casa X",
+    "nom": "La vocación",
+    "axe": "IV–X",
+    "type": "angulaire",
+    "quadrant": "Sud",
+    "significationTraditionnelle": "Las dignidades, la profesión, la casa de la madre, la casa de la memoria, la posición, los honores. La Casa X es tradicionalmente la cumbre del cielo y gobierna todo lo que pone al nativo en evidencia pública.",
+    "sensSocial": "La casa de los reyes, del poder, la aristocracia. Es el dominio de las autoridades reconocidas y de las estructuras jerárquicas que la sociedad valora.",
+    "conceptionModerne": "El poder potencial del nativo. Su acción en la sociedad, su ascenso social, su nivel, su honor social (crédito, reputación, distinciones), su grado de popularidad, la vía elegida para desarrollarse en la sociedad. Por oposición a la Casa IV, la Casa X revela a la madre pública, o a aquel de los progenitores que tuvo mayor influencia externa.",
+    "axeAnalyse": {
+      "nom": "Eje IV–X",
+      "description": "El entorno del nativo. IV = herencia/origen, X = poder potencial, acción en la sociedad. Este eje vincula las raíces con la rama visible."
+    },
+    "triangle": {
+      "nom": "Acción (X, II, VI)",
+      "role": "Situación social, honores, profesión — la ley del éxito por el trabajo."
+    },
+    "carre": {
+      "nom": "Progreso (I, X, VII, IV)",
+      "role": "Aspiraciones y pruebas — los desafíos que elevan o arruinan."
+    },
+    "niveauLecture": {
+      "arena": "el lugar social y la dirección",
+      "motsCles": [
+        "carrera",
+        "estatus",
+        "reputación",
+        "responsabilidad",
+        "objetivo"
+      ],
+      "verbes": [
+        "dirigir",
+        "construir",
+        "asumir",
+        "apuntar",
+        "realizar"
+      ],
+      "fonction": "La Casa X describe la vocación: lugar social, carrera, responsabilidades, reputación y dirección a largo plazo."
+    },
+    "domaines": {
+      "principaux": [
+        "carrera",
+        "imagen pública",
+        "estatus",
+        "responsabilidad",
+        "realización"
+      ],
+      "secondaires": [
+        "objetivos",
+        "autoridad",
+        "ambición",
+        "huella",
+        "éxito"
+      ],
+      "dansLaVie": [
+        "reputación",
+        "dirección profesional",
+        "responsabilidades",
+        "liderazgo",
+        "público"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "visión a largo plazo",
+        "liderazgo",
+        "sentido de la responsabilidad",
+        "ambición sana"
+      ],
+      "ombres": [
+        "presión",
+        "miedo al fracaso",
+        "sobrecontrol",
+        "imagen rígida"
+      ],
+      "besoins": [
+        "objetivo claro",
+        "estructura",
+        "reconocimiento merecido"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa X = dirección y estatus.",
+        "No es forzosamente «el trabajo», sino el lugar social.",
+        "Planetas en X = visibilidad pública."
+      ],
+      "erreursFrequences": [
+        "Confundir X y VI (lo cotidiano).",
+        "Hacer depender el valor del éxito.",
+        "Quedar prisionero de la imagen."
+      ],
+      "repereInterpretation": [
+        "Signo en X = estilo de carrera.",
+        "Planetas en X = motores públicos.",
+        "Regente de X = trayectoria."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Construyo.",
+        "Dirijo.",
+        "Dejo una huella."
+      ],
+      "exemplesConcrets": [
+        "Buscas un rumbo.",
+        "Asumes responsabilidades.",
+        "Tu imagen pública cuenta."
+      ],
+      "exercices": [
+        "Escribir tu objetivo a 3 años.",
+        "Definir 3 pilares de reputación.",
+        "Identificar 1 responsabilidad que delegar."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "El Sol en la Casa X es la configuración más favorable para la celebridad o la elevación social. El nativo será el miembro más exitoso de su familia, ocupará puestos importantes u honoríficos y se liberará de la tutela ajena. Su autoridad natural lo coloca naturalmente en evidencia.",
+      "lune": "La Luna en la Casa X marca un indicio importante de éxito y de elevación, a menudo gracias a la protección de mujeres influyentes. Favorece los éxitos en las ocupaciones intelectuales y confiere una popularidad persistente. Sin embargo, los cambios frecuentes de situación exigen flexibilidad.",
+      "mercure": "Mercurio en la Casa X asegura el éxito en la literatura y una elocución brillante. El nativo destaca como orador, embajador o diplomático y acumula ganancias en todas las ocupaciones mercurianas. Es una excelente posición para el comercio y las profesiones de comunicación.",
+      "venus": "Venus en la Casa X favorece el éxito, a menudo gracias al apoyo de mujeres influyentes o de la esposa. Es una buena posición para el artista y el músico, confiriendo encanto y gracia. El nativo se casa a menudo por encima de su condición y goza de una imagen agradable.",
+      "mars": "Marte en la Casa X aporta problemas en la familia y una ambición feroz de elevarse cueste lo que cueste. En caso de éxito, amenaza el peligro de descrédito, escándalo y final violento. El nativo debe cultivar la integridad para evitar la caída inevitable.",
+      "jupiter": "Júpiter en la Casa X es uno de los indicios más seguros del éxito en la vida. El nativo puede alcanzar la notoriedad y ocupará en todos los casos puestos destacados. Ganancias, protecciones y progresiones constantes marcan su trayectoria ascendente.",
+      "saturne": "Saturno en la Casa X da ambición y rigor, pero si el nativo se eleva, una caída final es inevitable, con descrédito y escándalo. Este emplazamiento exige prudencia moral. Los problemas familiares complican a menudo la trayectoria pública.",
+      "uranus": "Urano en la Casa X puede indicar ascensos súbitos a raíz de innovaciones o descubrimientos bien respaldados. Es una posición propicia para el ingeniero, el electrónico o el aviador. Mal aspectado, provoca fracasos penosos o reveses bruscos de fortuna.",
+      "neptune": "Neptuno en la Casa X crea una situación de altibajos. Bien aspectado, asegura una elevación inesperada a raíz de cambios sociales, políticos o económicos, o gracias a una buena idea que garantiza el éxito en una actividad poco común. Mal aspectado, el destino público se derrumba.",
+      "pluton": "Plutón en la Casa X, según el texto existente, aporta poder y transformaciones profesionales intensas. El desafío: el ejercicio coercitivo del poder; la madurez: influencia ética y liderazgo auténtico."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 10 en astrología?",
+        "reponse": "La Casa 10, llamada también Medio Cielo, representa la carrera, la vocación, la reputación social y el estatus público. Describe la ambición del nativo, la dirección profesional hacia la que tiende y la imagen que proyecta en la sociedad."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 10?",
+        "reponse": "La Casa 10 está naturalmente asociada a Capricornio y a su planeta regente Saturno. Esta correspondencia subraya la disciplina, la perseverancia, el sentido de la responsabilidad y la construcción paciente de una carrera sólida que caracterizan a esta casa."
+      },
+      {
+        "question": "¿Qué significa tener a Saturno en la Casa 10?",
+        "reponse": "Saturno en la Casa 10 está en su domicilio natural, lo que indica una carrera construida lenta pero sólidamente gracias al esfuerzo y la disciplina. El nativo alcanza a menudo posiciones de autoridad con el tiempo, y sus logros profesionales son duraderos porque se fundan en el mérito y la perseverancia."
+      },
+      {
+        "question": "¿Determina el Medio Cielo mi profesión?",
+        "reponse": "El Medio Cielo indica la dirección vocacional y el tipo de reconocimiento social buscado, pero no designa una profesión precisa. El signo de la cúspide y los planetas asociados revelan las cualidades que expresar profesionalmente, dejando al nativo la elección del campo concreto."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 4 y la Casa 10?",
+        "reponse": "La Casa 4 representa la vida privada, el hogar y las raíces familiares, mientras que la Casa 10 simboliza la vida pública, la carrera y la reputación. Este eje vertical de la carta opone los cimientos íntimos en los que uno se apoya al logro visible que se construye en el mundo."
+      }
+    ],
+    "vieQuotidienne": "La Casa X es la casa de la dirección tomada en la vida social — no el trabajo alimentario (Casa VI) sino la obra, aquello por lo que se te recordará. En lo cotidiano, se reconoce por la manera en que hablas de tu trabajo a un desconocido: ¿con orgullo, con incomodidad, con aburrimiento? Gobierna la reputación, la imagen pública, la relación con la autoridad (en particular la materna en la tradición occidental), y la ambición profunda — la que no dice su nombre pero te hace elegir tal puesto y no tal otro. Una Casa X fuerte marca a alguien que sabe adónde va, que asume su visibilidad, que construye a largo plazo. Una Casa X tensa traduce a menudo cambios de rumbo repetidos, o una dificultad para posicionarse socialmente («no sé muy bien qué hago en la vida»).",
+    "carriere": {
+      "texte": "La Casa X es LA casa de la vocación por excelencia — la que se cita cuando se le pregunta a alguien «¿tú a qué te dedicas?». Los perfiles con una X fuerte necesitan un título, un reconocimiento, un puesto visible. Saturno en X es clásico de las grandes carreras construidas lentamente — política, derecho, magistratura, gran empresa. Júpiter en X favorece las posiciones de liderazgo cómodo, las altas funciones públicas, la notoriedad. El Sol en X da el gusto por las cumbres y por la luz social. Marte en X aporta una fuerte competitividad y combates profesionales. Venus en X favorece los oficios donde el encanto y la imagen cuentan (cine, moda, comunicación).",
+      "metiers": [
+        "Político / alto funcionario",
+        "Director general / dirigente",
+        "Magistrado / alto jurista",
+        "Arquitecto de renombre",
+        "Médico especialista reconocido",
+        "Chef con estrellas"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa X marcan las grandes etapas de la carrera. Júpiter en X se asocia a menudo a un ascenso, una distinción, una expansión de visibilidad — periodo propicio para postularse alto. Saturno en X es el tránsito emblemático de la «coronación»: se cosecha lo que se ha sembrado durante 7 a 14 años. Es también el tránsito de los jefes de Estado, los directores generales nombrados, las grandes consagraciones. Urano en X provoca cambios de carrera súbitos, a veces dimisiones sorpresa. Neptuno en X enturbia la trayectoria, puede traer una carrera artística o espiritual, o al contrario una pérdida de rumbo. Plutón en X reconfigura totalmente la relación con el poder y con la responsabilidad pública.",
+    "exercicePratique": {
+      "titre": "Clarificar tu rumbo profesional",
+      "etapes": [
+        "Escribe tu obituario ideal en 3 líneas: «Fulano será recordado como la persona que...»",
+        "Compara este texto con tu actividad actual. ¿Cuál es la brecha?",
+        "Enumera 3 decisiones concretas que acercarían tu vida a ese obituario.",
+        "Elige UNA realizable dentro del mes (una formación, una candidatura, una intervención pública).",
+        "Prográmala con una fecha límite no negociable. Cúmplela."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Margaret Thatcher",
+        "naissance": "13 de octubre de 1925",
+        "raison": "Ascenso político fulgurante, imagen pública implacable y duradera."
+      },
+      {
+        "nom": "Steve Jobs",
+        "naissance": "24 de febrero de 1955",
+        "raison": "Construcción de una estatura mundial mediante el trabajo visible y exigente."
+      },
+      {
+        "nom": "Charles de Gaulle",
+        "naissance": "22 de noviembre de 1890",
+        "raison": "Encarnación de la autoridad legítima, estatus simbólico más allá del cargo."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 11,
+    "slug": "maison-11",
+    "titreCourt": "Casa XI",
+    "nom": "El colectivo",
+    "axe": "V–XI",
+    "type": "succedente",
+    "quadrant": "Sud",
+    "significationTraditionnelle": "Fortuna, esperanzas, confianza, amigos y su utilidad, fidelidad, deseos, proyectos. La Casa XI gobierna tradicionalmente aquello hacia lo que el nativo se proyecta y lo que lo sostiene colectivamente.",
+    "sensSocial": "El parlamento, la legislación, los ministros. Es el dominio de las estructuras que organizan el colectivo y de las alianzas que dan forma a la política.",
+    "conceptionModerne": "Las esperanzas, las preferencias, las amistades, los compañeros y la actitud del nativo hacia ellos. La Casa XI revela cómo uno se inscribe en una visión de futuro y en una comunidad de intereses.",
+    "axeAnalyse": {
+      "nom": "Eje V–XI",
+      "description": "Posesiones interiores. V = deseos creativos personales, XI = esperanzas y amistades colectivas. Este eje prolonga la creación personal hacia la contribución al grupo."
+    },
+    "triangle": {
+      "nom": "Relaciones (VII, XI, III)",
+      "role": "Amigos y alianzas — la asociación prolongada en el tiempo y la comunidad."
+    },
+    "carre": {
+      "nom": "Tener (II, XI, VIII, V)",
+      "role": "Dinero ganado — recursos acumulados mediante colaboraciones y redes."
+    },
+    "niveauLecture": {
+      "arena": "la red, los proyectos y el futuro",
+      "motsCles": [
+        "amigos",
+        "redes",
+        "proyectos",
+        "comunidad",
+        "porvenir"
+      ],
+      "verbes": [
+        "tejer redes",
+        "colaborar",
+        "proyectar",
+        "reunir",
+        "innovar"
+      ],
+      "fonction": "La Casa XI describe el colectivo: amigos, redes, proyectos de futuro, causas y la capacidad de construir con otros."
+    },
+    "domaines": {
+      "principaux": [
+        "amigos",
+        "redes",
+        "asociaciones",
+        "proyectos",
+        "comunidades"
+      ],
+      "secondaires": [
+        "visión de futuro",
+        "alianzas",
+        "el colectivo",
+        "innovación social",
+        "tribu"
+      ],
+      "dansLaVie": [
+        "redes profesionales",
+        "comunidades",
+        "proyectos a largo plazo",
+        "apoyos",
+        "amistades"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "espíritu de equipo",
+        "visión",
+        "sentido de la red",
+        "innovación"
+      ],
+      "ombres": [
+        "desapego",
+        "oportunismo",
+        "utopía difusa",
+        "pérdida del yo"
+      ],
+      "besoins": [
+        "una tribu",
+        "un proyecto claro",
+        "alineación colectiva"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa XI = futuro + red.",
+        "Prolonga la creatividad (V) en el colectivo.",
+        "Planetas en XI = estilo de alianza."
+      ],
+      "erreursFrequences": [
+        "Confundir XI y VII (el dúo).",
+        "Disolverse en el grupo.",
+        "Quedarse en la idea sin acción."
+      ],
+      "repereInterpretation": [
+        "Signo en XI = estilo social.",
+        "Planetas en XI = motor de la red.",
+        "Regente de XI = la construcción del futuro."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Me vinculo.",
+        "Construyo el futuro.",
+        "Participo."
+      ],
+      "exemplesConcrets": [
+        "Te nutres de proyectos comunes.",
+        "Desarrollas una red.",
+        "Piensas en clave de «sistema»."
+      ],
+      "exercices": [
+        "Enumerar 5 aliados clave.",
+        "Elegir 1 proyecto a 6 meses.",
+        "Crear 1 ritual de red (1 contacto por semana)."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "El Sol en la Casa XI crea relaciones de amistad poderosas entre personalidades notorias y políticas. El nativo puede esperar mucho de sus amigos, que se convierten en vehículos de su expresión y de su realización. Su identidad se nutre de los proyectos colectivos que impulsa.",
+      "lune": "La Luna en la Casa XI asegura numerosas relaciones de amistad, particularmente entre el sexo femenino, aunque a veces carentes de constancia. El nativo encuentra seguridad afectiva en la tribu, y su bienestar emocional depende en gran medida de la armonía del grupo.",
+      "mercure": "Mercurio en la Casa XI crea numerosas amistades entre los sabios y los escritores. Los amigos son generalmente más jóvenes que el nativo. El intercambio de ideas anima las redes del nativo, que sobresale en la coordinación y la comunicación de grupo.",
+      "venus": "Venus en la Casa XI aporta numerosas amistades, a menudo entre el sexo femenino y los artistas. Los amigos prestarán al nativo grandes servicios, y su popularidad natural lo ayuda a constituir una red sólida de aliados devotos.",
+      "mars": "Marte en la Casa XI crea disgustos provenientes de amigos o relaciones. Las amistades pueden extraviar al nativo y causarle daño. Numerosas discusiones y rupturas marcan sus vínculos colectivos, exigiendo discernimiento en la elección de las alianzas.",
+      "jupiter": "Júpiter en la Casa XI asegura amigos fieles y devotos cuyos consejos serán valiosos. El nativo goza de numerosas relaciones entre personajes oficiales, hombres de ley y gente de posición. Sus proyectos colectivos atraen apoyos y recursos abundantes.",
+      "saturne": "Saturno en la Casa XI revela amigos falsos y pérfidos que causan grandes pérdidas. El nativo no debe prestar nunca dinero y debe permanecer vigilante ante las traiciones. Sin embargo, bien aspectado, este emplazamiento crea amistades raras pero duraderas y fiables.",
+      "uranus": "Urano en la Casa XI indica que el nativo apenas parece buscar las relaciones y las conserva con dificultad a causa de sus concepciones desconcertantes, o bien se convierte en víctima de promesas deslumbrantes. Sin embargo, bien aspectado, crea una red vanguardista de aliados que comparten una visión innovadora.",
+      "neptune": "Neptuno en la Casa XI presagia amigos entre intelectuales, ocultistas o astrólogos. Mal aspectado, crea grandes dificultades para mantener relaciones duraderas, con enemistades consecutivas a malentendidos. Bien aspectado, une al nativo con compañeros de alma idealistas.",
+      "pluton": "Plutón en la Casa XI, según el texto existente, crea poder social y alianzas intensas y transformadoras. El desafío: juegos de poder y dominación del grupo; la madurez: influencia ética y liderazgo catalizador."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 11 en astrología?",
+        "reponse": "La Casa 11 gobierna las amistades, los proyectos colectivos, las esperanzas, los ideales y los grupos a los que uno pertenece. Describe el tipo de red social que el nativo construye, sus aspiraciones para el futuro y su capacidad de contribuir al bien común."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 11?",
+        "reponse": "La Casa 11 está naturalmente asociada a Acuario y a sus planetas regentes Urano y Saturno. Esta correspondencia pone de relieve la originalidad, el espíritu de innovación, el compromiso humanitario y la necesidad de libertad dentro del colectivo."
+      },
+      {
+        "question": "¿Qué significa tener Urano en la Casa 11?",
+        "reponse": "Urano en la Casa 11 está en su domicilio natural, lo que refuerza la originalidad en las amistades y la atracción por los grupos vanguardistas. El nativo atrae amigos atípicos y se implica en causas progresistas, con una visión innovadora de la sociedad."
+      },
+      {
+        "question": "¿Muestra la Casa 11 el tipo de amigos que atraigo?",
+        "reponse": "La Casa 11 describe efectivamente el tipo de amistades y de relaciones de grupo que el nativo teje naturalmente. El signo en la cúspide y los planetas presentes indican las cualidades buscadas en los amigos y la dinámica que se instala en los círculos sociales y asociativos."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 5 y la Casa 11?",
+        "reponse": "La Casa 5 concierne a la expresión creativa personal, los amores y los placeres individuales, mientras que la Casa 11 rige los proyectos de grupo, las amistades y los ideales colectivos. Este eje opone el resplandor personal y el deseo de reconocimiento al compromiso desinteresado con una causa que supera al individuo."
+      }
+    ],
+    "vieQuotidienne": "La Casa XI es la casa de las amistades elegidas, de las redes, de los proyectos colectivos, de las grandes causas a las que uno se adhiere. En lo cotidiano, se reconoce en tu relación con el grupo — ¿eres el que reúne, el que sigue o el que critica desde el margen? Gobierna también las aspiraciones a largo plazo: lo que quieres ver suceder dentro de diez años, los ideales que te sostienen. Una Casa XI viva señala a alguien bien rodeado, que sabe construir círculos útiles, que pertenece a varias tribus (profesional, personal, militante, creativa). Una Casa XI vacía no impide tener amigos, pero rara vez son el centro de gravedad de la vida. Una Casa XI tensa indica o bien amistades repetidamente decepcionantes, o bien una dificultad para reconocerse en un colectivo.",
+    "carriere": {
+      "texte": "En el plano profesional, la Casa XI favorece los oficios de red y las causas colectivas: ONG, sindicatos, fundaciones, lobby, investigación en equipo, start-ups colaborativas. Los perfiles con una Casa XI fuerte necesitan un proyecto «más grande que uno mismo» para movilizarse. Es también la casa de las asociaciones profesionales, los colegios y las federaciones. Urano en XI está en domicilio (signo regente Acuario) y señala a los visionarios, los pioneros de movimientos colectivos. Saturno en XI estructura los grupos — útil en gestión de equipos o en política sindical. Júpiter en XI da a menudo un círculo de amigos influyentes y poderosos.",
+      "metiers": [
+        "Responsable de ONG",
+        "Lobista / consultor político",
+        "Sociólogo / investigador",
+        "Gestor de comunidad en línea",
+        "Fundador de fundación / movimiento",
+        "Sindicalista"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa XI reconfiguran el círculo social. Júpiter en XI agranda la red, abre nuevas amistades, puede traer un mentor importante. Saturno en XI hace una criba implacable: se pierden amigos que no eran verdaderos, uno se implica seriamente en un grupo seleccionado. Urano en XI radicaliza los compromisos — uno se une a una causa fuerte, o abandona un entorno que ya no le conviene. Neptuno en XI diluye las fronteras del grupo y puede llevar a fundirse en una utopía (hermosa o engañosa). Plutón en XI transforma por completo la relación con el poder colectivo y con los ideales.",
+    "exercicePratique": {
+      "titre": "Auditoría de tu círculo",
+      "etapes": [
+        "Enumera las 10 personas con las que intercambiaste más de 5 mensajes el mes pasado.",
+        "Para cada una, anota: «me engrandece», «me estabiliza», «me drena», «inercia».",
+        "Cuenta los «me drena» y los «inercia» — ahí están tus fugas de energía.",
+        "Identifica UNA relación que reencuadrar (menos frecuente, más clara, o interrumpida).",
+        "Identifica UNA persona a la que ACERCARTE (esa que no ves lo suficiente). Programa una cita esta semana."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Martin Luther King",
+        "naissance": "15 de enero de 1929",
+        "raison": "Movimiento colectivo, ideal compartido, círculo de aliados estratégicos."
+      },
+      {
+        "nom": "Greta Thunberg",
+        "naissance": "3 de enero de 2003",
+        "raison": "Catalizadora de un movimiento generacional mundial, Casa XI hiperactivada."
+      },
+      {
+        "nom": "Voltaire (de nuevo)",
+        "naissance": "21 de noviembre de 1694",
+        "raison": "La red europea de las Luces, la correspondencia como arma colectiva."
+      }
+    ],
+    "updated": "2026-05-31"
+  },
+  {
+    "numero": 12,
+    "slug": "maison-12",
+    "titreCourt": "Casa XII",
+    "nom": "Lo invisible",
+    "axe": "VI–XII",
+    "type": "cadente",
+    "quadrant": "Sud",
+    "significationTraditionnelle": "Enemigos ocultos, engaño, aflicciones, prisión, malas resoluciones, bienes y males provenientes de las mujeres, las penas, las tristezas, las trampas, las bestias feroces, todo lo que afecta para bien o para mal al alumbramiento, enfermedades crónicas, los trabajos. La Casa XII es tradicionalmente el lugar de las cargas ocultas y de las limitaciones a la libertad.",
+    "sensSocial": "Prisiones, hospitales, asilos, el lugar donde se trabaja, crímenes, enemigos. Es el dominio de las instituciones que encierran y donde se ocultan las transgresiones sociales.",
+    "conceptionModerne": "El trabajo secreto del nativo, las limitaciones a su libertad: pruebas, hospital, enfermedades crónicas, intervenciones quirúrgicas, reclusiones, asilos, laboratorios, prisión. Las oposiciones secretas (enemigos no declarados); la muerte de uno mismo (desapego, suicidio), la evolución interior. La Casa XII revela el trabajo invisible que moldea al nativo.",
+    "axeAnalyse": {
+      "nom": "Eje VI–XII",
+      "description": "El trabajo del nativo. VI = trabajo público, XII = trabajo secreto, limitaciones. Este eje distingue la acción visible del labor oculto."
+    },
+    "triangle": {
+      "nom": "Finalidad (IV, XII, VIII)",
+      "role": "Muerte de la vida espiritual — ciclos de fin interior y transformación."
+    },
+    "carre": {
+      "nom": "Silencio/Razón (III, IX, VI, XII)",
+      "role": "Trabajo físico — servicio e integración práctica."
+    },
+    "niveauLecture": {
+      "arena": "el retiro, el inconsciente y la clausura",
+      "motsCles": [
+        "inconsciente",
+        "soledad",
+        "espiritualidad",
+        "disolución",
+        "fin de ciclo"
+      ],
+      "verbes": [
+        "retirarse",
+        "disolver",
+        "sanar",
+        "perdonar",
+        "clausurar"
+      ],
+      "fonction": "La Casa XII describe lo invisible: el inconsciente, los retiros necesarios, el fin de ciclo, la sanación, la espiritualidad y la disolución de los referentes."
+    },
+    "domaines": {
+      "principaux": [
+        "inconsciente",
+        "soledad",
+        "espiritualidad",
+        "secretos",
+        "fin de ciclo"
+      ],
+      "secondaires": [
+        "sueños",
+        "fatiga",
+        "compasión",
+        "bastidores",
+        "sanación"
+      ],
+      "dansLaVie": [
+        "retiro",
+        "sueños",
+        "necesidad de silencio",
+        "sanación",
+        "clausura"
+      ]
+    },
+    "polarites": {
+      "forces": [
+        "intuición",
+        "compasión",
+        "profundidad",
+        "capacidad de sanación"
+      ],
+      "ombres": [
+        "huida",
+        "confusión",
+        "autosabotaje",
+        "victimización"
+      ],
+      "besoins": [
+        "descanso psíquico",
+        "límites",
+        "rituales de clausura"
+      ]
+    },
+    "pedagogie": {
+      "aRetenir": [
+        "Casa XII = lo invisible, no debilidad.",
+        "Habla de ciclos y de sanación.",
+        "Planetas en XII = trabajo entre bastidores."
+      ],
+      "erreursFrequences": [
+        "Patologizarlo todo.",
+        "Huir en lugar de clausurar.",
+        "Confundir XII y IV (el hogar)."
+      ],
+      "repereInterpretation": [
+        "Signo en XII = estilo de inconsciente.",
+        "Planetas en XII = zonas sensibles.",
+        "Regente de XII = vía de sanación."
+      ]
+    },
+    "pratique": {
+      "phrasesCles": [
+        "Me retiro.",
+        "Sano.",
+        "Clausuro."
+      ],
+      "exemplesConcrets": [
+        "Necesitas soledad.",
+        "Captas los ambientes.",
+        "Funcionas por ciclos."
+      ],
+      "exercices": [
+        "Diario de sueños durante 7 días.",
+        "Un ritual de fin de jornada.",
+        "Decir «no» a 1 huida habitual."
+      ]
+    },
+    "planetesDansLaMaison": {
+      "soleil": "El Sol en la Casa XII asegura el éxito en una ocupación retirada, tranquila o incluso oscura, vinculada a las casas de salud o a los hoteles. Sin embargo, afligido, este emplazamiento conlleva peligro de encarcelamiento o de reclusión. El nativo encuentra dignidad en el servicio discreto y en la contribución invisible.",
+      "lune": "La Luna en la Casa XII es buena para la vida doméstica y para toda ocupación que requiera retiro más que publicidad. Favorece las ciencias psíquicas y desarrolla una gran sensibilidad a los ambientes y a las dimensiones ocultas de la realidad.",
+      "mercure": "Mercurio en la Casa XII crea una tendencia de la mente a malgastarse en los pequeños detalles. Aunque el nativo posee buenas aptitudes mentales, no tendrá ocasión de servirse de ellas útilmente. Sin embargo, puede favorecer la escritura privada o la investigación en retiro.",
+      "venus": "Venus en la Casa XII indica pocas enemistades. Los enemigos secretos no lograrán perjudicar al nativo, que goza de una protección oculta. La dulzura y la gracia del nativo lo preservan de las malas intenciones no manifestadas.",
+      "mars": "Marte en la Casa XII crea falta de franqueza y presagia enemigos secretos que calumnian. El peligro de encarcelamiento amenaza, así como la pérdida de reputación. El nativo sufre también de enfermedades «marcianas» y debe aprender a canalizar su energía de manera constructiva.",
+      "jupiter": "Júpiter en la Casa XII asegura pruebas poco numerosas y fácilmente superables. El nativo se siente atraído hacia las obras humanitarias y se beneficia del éxito en una ocupación retirada. Su conciencia ampliada le permite servir discretamente y beneficiarse de una protección invisible.",
+      "saturne": "Saturno en la Casa XII revela enemigos ocultos y solapados. La vida es retirada, triste y melancólica, expuesta a falsas acusaciones e incluso al encarcelamiento. Sin embargo, bien aspectado, este emplazamiento desarrolla un dominio interior y una soledad fecunda.",
+      "uranus": "Urano en la Casa XII puede ser muy propicio para el ocultismo y la astrología. El nativo se siente atraído por todo lo que está oculto. Con graves disonancias, sufre ataques solapados de enemigos difíciles de neutralizar y enfermedades misteriosas con bruscas hospitalizaciones.",
+      "neptune": "Neptuno en la Casa XII crea un malestar misterioso, enemistades solapadas y riesgos de privación de libertad o acusaciones injustas. Bien aspectado, es una posición excelente para ocultistas, astrólogos y profesiones médicas o paramédicas. El nativo accede a la sabiduría mediante la disolución progresiva.",
+      "pluton": "Plutón en la Casa XII, según el texto existente, conlleva transformaciones profundas y una posible sanación radical. El desafío: miedos ancestrales y autosabotaje inconsciente; la madurez: renacimiento interior total y transmutación del alma."
+    },
+    "faq": [
+      {
+        "question": "¿Qué representa la Casa 12 en astrología?",
+        "reponse": "La Casa 12 gobierna el inconsciente, la espiritualidad, las pruebas ocultas, el aislamiento voluntario y los secretos. Describe las zonas de sombra del nativo, sus miedos profundos, pero también su capacidad de trascendencia, de compasión universal y de conexión con lo divino."
+      },
+      {
+        "question": "¿Qué signo está asociado a la Casa 12?",
+        "reponse": "La Casa 12 está naturalmente asociada a Piscis y a sus planetas regentes Neptuno y Júpiter. Esta correspondencia subraya la dimensión mística, intuitiva y sacrificial de esta casa orientada hacia lo invisible y la disolución de las fronteras del ego."
+      },
+      {
+        "question": "¿Qué significa tener Neptuno en la Casa 12?",
+        "reponse": "Neptuno en la Casa 12 está en su domicilio natural, lo que amplifica considerablemente la intuición, la sensibilidad psíquica y la vida interior. El nativo posee un acceso privilegiado al inconsciente colectivo, con un don para la meditación, el arte inspirado y la sanación espiritual."
+      },
+      {
+        "question": "¿Es la Casa 12 una casa maléfica?",
+        "reponse": "La tradición astrológica consideraba la Casa 12 como difícil, por estar ligada a las pruebas, al encierro y a los enemigos ocultos. La astrología moderna la reevalúa como la casa de la vida interior y de la trascendencia, donde los sufrimientos pueden convertirse en fuentes de sabiduría y de compasión profunda."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la Casa 6 y la Casa 12?",
+        "reponse": "La Casa 6 concierne al servicio concreto, la salud física y la organización de lo cotidiano, mientras que la Casa 12 gobierna el soltar, la salud psíquica y la vida espiritual. Este eje opone la acción práctica y medible al trabajo interior invisible y al abandono necesario para sanar en profundidad."
+      }
+    ],
+    "vieQuotidienne": "La Casa XII es la casa del retiro, del silencio y de lo invisible. Es el alba antes de que despierte la casa, el paseo solitario por el bosque, la meditación, el sueño que solo se recuerda a medias, la habitación del hospital, el monasterio. En lo cotidiano, se reconoce en tu necesidad (o no) de soledad regeneradora — ¿eres alguien que se nutre del contacto o que se vacía con él? Gobierna también lo que no ves en ti mismo: puntos ciegos, miedos irracionales, autosabotajes, adicciones. Es la casa de los «enemigos ocultos» — no necesariamente personas, sino fuerzas internas que actúan sin tu conocimiento. Una Casa XII viva pero acogida señala una vida espiritual real, una relación sana con la introspección, una capacidad de retirarse para regresar mejor.",
+    "carriere": {
+      "texte": "En el plano profesional, la Casa XII atrae los oficios de lo invisible y del cuidado profundo: hospital, prisión, monasterio, investigación solitaria, escritura, oficios espirituales, psicoterapia en consulta. Los perfiles con una Casa XII fuerte soportan mal los espacios abiertos y los empleos demasiado expuestos. Necesitan un sas, un lugar de retiro para producir. Neptuno en XII está en domicilio y señala a los grandes artistas, místicos e intuitivos. Saturno en XII exige el aprendizaje de la soledad fecunda — muchos científicos de alto vuelo lo tienen. Marte en XII puede ser una trampa (agresividad reprimida, accidentes) pero también una fuerza discreta en las artes marciales o en la cirugía.",
+      "metiers": [
+        "Monje / contemplativo",
+        "Psicoterapeuta en consulta",
+        "Escritor / poeta",
+        "Cirujano",
+        "Trabajador en el medio penitenciario",
+        "Meditador profesional / coach de atención plena"
+      ]
+    },
+    "transitsNotables": "Los tránsitos en la Casa XII preparan el ciclo siguiente. Júpiter en XII es un período de bendición discreta — sanación interior, retiro espiritual, apoyo invisible. Saturno en XII (justo antes de que Saturno llegue al Ascendente) es un período de fin de ciclo, de balance profundo, a veces de dificultades discretas pero estructurantes. Urano en XII libera bruscamente contenidos reprimidos — despertares, tomas de conciencia, pero también turbulencias psíquicas. Neptuno en XII intensifica el sueño, la intuición, a veces la confusión. Plutón en XII es un tránsito de transformación psíquica fundamental que prepara un renacimiento mayor en el Ascendente. Es el «núcleo de la cebolla». Son períodos de retiro casi obligado.",
+    "exercicePratique": {
+      "titre": "Hacer sitio a tu invisible",
+      "etapes": [
+        "Programa 30 minutos a solas, sin pantalla, sin interacción, durante la semana.",
+        "Durante esos 30 minutos, no hagas nada: siéntate, camina despacio, mira por la ventana.",
+        "Anota después los 3 pensamientos, imágenes o sensaciones que emergieron espontáneamente.",
+        "Identifica SI uno de esos pensamientos concierne a un tema que evitas desde hace tiempo.",
+        "Elige UN microacto esta semana para reconocer ese tema (hablarlo con un terapeuta, escribirlo, aceptar que existe)."
+      ]
+    },
+    "personnagesEmblematiques": [
+      {
+        "nom": "Carl Gustav Jung",
+        "naissance": "26 de julio de 1875",
+        "raison": "La Torre de Bollingen, la exploración del inconsciente — la Casa XII como territorio de obra."
+      },
+      {
+        "nom": "Madre Teresa",
+        "naissance": "26 de agosto de 1910",
+        "raison": "Servicio a los invisibles de la sociedad, vocación de retiro espiritual."
+      },
+      {
+        "nom": "Virginia Woolf",
+        "naissance": "25 de enero de 1882",
+        "raison": "Escritura interior, exploración de las capas profundas de la conciencia."
+      }
+    ],
+    "updated": "2026-05-31"
+  }
+]

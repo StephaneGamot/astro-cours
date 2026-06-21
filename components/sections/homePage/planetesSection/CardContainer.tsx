@@ -1,7 +1,5 @@
-import ContentCard from "@/components/sections/homePage/ContentCard";
-import planetes from "@/data/planetes.json";
-
-type Planet = (typeof planetes)[number];
+import { getTranslations } from "next-intl/server";
+import ContentCard, { type CardData } from "@/components/sections/homePage/ContentCard";
 
 /** Inline orbit icon */
 function OrbitIcon({ className }: { className?: string }) {
@@ -17,7 +15,12 @@ function OrbitIcon({ className }: { className?: string }) {
   );
 }
 
-export default function PlanetsCardContainer() {
+export default async function PlanetsCardContainer({
+  items,
+}: {
+  items: CardData[];
+}) {
+  const t = await getTranslations("home");
   return (
     <section
       id="planetes"
@@ -33,7 +36,7 @@ export default function PlanetsCardContainer() {
           id="planetes-title"
           className="font-serif text-3xl tracking-tight text-white md:text-5xl"
         >
-          Les 10 Planètes en Astrologie
+          {t("sectionPlanets")}
         </h2>
         <div
           aria-hidden="true"
@@ -43,13 +46,14 @@ export default function PlanetsCardContainer() {
 
       {/* ── Card grid ──────────────────────────────────── */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {(planetes as Planet[]).map((item) => (
+        {items.map((item) => (
           <ContentCard
             key={item.slug}
             item={item}
             basePath="planetes"
             accent="sky"
             layout="landscape"
+            linkLabel={t("cardLabelPlanet", { name: item.name })}
           />
         ))}
       </div>

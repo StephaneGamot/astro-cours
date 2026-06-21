@@ -1,138 +1,24 @@
-import type { Metadata } from "next";
-import Script from "next/script";
-import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
-import NavBAr from "@/components/layout/header/NavBar";
-import Footer from "@/components/layout/footer/Footer";
 
-const SITE_URL = "https://www.astro-cours.com";
-const SITE_NAME = "Astro Cours";
-const DEFAULT_DESC =
-  "Cours d'astrologie clairs, structurés et modernes : signes, planètes, maisons, aspects et transits.";
-
-const OG_IMAGE = `${SITE_URL}/og/cover.jpg`;
-
-
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-
-  title: {
-    default: `Cours d'astrologie — ${SITE_NAME}`,
-    template: `%s — ${SITE_NAME}`,
-  },
-
-  description: DEFAULT_DESC,
-  applicationName: SITE_NAME,
-
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-
-  openGraph: {
-    title: SITE_NAME,
-    description: DEFAULT_DESC,
-    url: SITE_URL,
-    siteName: SITE_NAME,
-    locale: "fr_FR",
-    type: "website",
-    images: [
-      {
-        url: OG_IMAGE,
-        width: 1200,
-        height: 630,
-        alt: `${SITE_NAME} — cours d'astrologie`,
-      },
-    ],
-  },
-
-  // ✅ Audit 31/05/2026 — `twitter.site` et `twitter.creator` retirés :
-  //    pas de compte X/Twitter. On garde la `twitter:card` car ces meta-tags
-  //    sont parsées par LinkedIn, Slack, Discord, iMessage, WhatsApp pour
-  //    générer les aperçus d'URL — donc utiles bien au-delà de Twitter.
-  twitter: {
-    card: "summary_large_image",
-    title: SITE_NAME,
-    description: DEFAULT_DESC,
-    images: [OG_IMAGE],
-  },
-
-  manifest: "/manifest.json",
-
-  alternates: {
-    canonical: SITE_URL,
-    languages: { "fr-FR": SITE_URL },
-  },
-
-  verification: {
-    google: "ihg3LVKNM0DKUMbESaivmUlpEYI6_asrhZirUGlQH8Y",
-  },
-
-  other: {
-    "theme-color": "#8B5CF6",
-  },
-};
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-  // ⚠️ Audit Lighthouse 31/05/2026 — CLS 0.199 attribué au footer.
-  //    Cause probable : `display: swap` provoquait un reflow du texte
-  //    quand Inter remplaçait le fallback (size-adjust ne neutralise pas
-  //    100 % du shift sur de longs paragraphes). On bascule sur "optional"
-  //    comme Cormorant : si Inter n'est pas prête en ~100 ms, on garde le
-  //    fallback définitivement pour CETTE visite — plus aucun swap, plus
-  //    aucun CLS de police. Pour les visites suivantes Inter est en cache.
-  display: "optional",
-  preload: true,
-});
-
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-serif",
-  // ✅ "optional" : si la police n'est pas prête en ~100 ms, on garde le fallback
-  //    définitivement pour CETTE visite → plus aucun swap, plus aucun CLS de police.
-  //    Pour les visites suivantes la police est en cache et s'applique immédiatement.
-  display: "optional",
-  preload: true,
-});
-
+/**
+ * Root layout MINIMAL.
+ *
+ * Avec next-intl + App Router, le vrai layout (html / body / fonts /
+ * providers / metadata) vit dans `app/[locale]/layout.tsx`, car il a
+ * besoin de connaître la locale.
+ *
+ * Ce layout racine ne fait que :
+ *   • importer le CSS global (les imports CSS sont globaux quel que soit
+ *     l'endroit où ils sont déclarés),
+ *   • transmettre les enfants.
+ *
+ * Il NE rend volontairement PAS de <html>/<body> : c'est le layout
+ * `[locale]` qui s'en charge (pattern officiel next-intl).
+ */
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="fr" className={`${inter.variable} ${cormorant.variable}`}>
-      <head>
-        {/* ✅ Hints de connexion : on ouvre la connexion à Ahrefs en parallèle
-              du parsing HTML pour économiser le RTT le jour où le script se charge. */}
-        <link rel="dns-prefetch" href="https://analytics.ahrefs.com" />
-        <link
-          rel="preconnect"
-          href="https://analytics.ahrefs.com"
-          crossOrigin="anonymous"
-        />
-      </head>
-      <body>
-        {/* ✅ lazyOnload : ne charge qu'après que la page est totalement prête */}
-        <Script
-          src="https://analytics.ahrefs.com/analytics.js"
-          data-key="JNM0DqC2SHxBN/ZLlVz+xA"
-          strategy="lazyOnload"
-        />
-        <NavBAr />
-        {children}
-        <Footer />
-      </body>
-    </html>
-  );
+  return children;
 }

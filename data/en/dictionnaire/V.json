@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "verseau",
+    "category": "signe",
+    "term": "Aquarius",
+    "short": "The eleventh sign (Air/Fixed), symbolising innovation, the collective and freedom.",
+    "body": "Aquarius corresponds to deep winter. Ruled by Saturn (traditional) and Uranus (modern), it embodies futuristic vision, originality and social idealism. It seeks to break obsolete structures in order to create a universal brotherhood. It is the sign of friendship and humanitarian projects. Its challenge is to learn to integrate its own emotions rather than remaining solely in the conceptual realm and in radical independence."
+  },
+  {
+    "slug": "venus",
+    "category": "planète",
+    "term": "Venus",
+    "short": "The planet of love, beauty and harmony.",
+    "body": "Venus symbolises values, pleasures and relationships. It rules Taurus and Libra, highlighting the need for aesthetics, comfort and balance in social interactions. In astrology, Venus indicates how we love, what we find attractive and how we express our affection. Its placement in the natal chart reveals our relational style and our criteria when choosing a partner."
+  },
+  {
+    "slug": "vertex",
+    "category": "technique",
+    "term": "Vertex",
+    "short": "A fictitious point located in the west, often called the chart's 'third angle'.",
+    "body": "The Vertex is the point of intersection between the ecliptic and the prime vertical in the west. In modern astrology, it is regarded as a gate of destiny or a point of 'fateful encounter'. While the Descendant describes the relationships we consciously choose, the Vertex activates events or encounters over which we have no control and which seem imposed by life. It is widely used in synastry to identify karmic connections or major turning points in existence brought about by others. Its opposite point is the Anti-Vertex."
+  },
+  {
+    "slug": "venerable",
+    "category": "concept",
+    "term": "Venerable",
+    "short": "An old term designating a planet or aspect considered particularly beneficial or noble.",
+    "body": "In classical astrology, the term 'venerable' described certain bodies or configurations deemed particularly favourable, notably the benefic planets (Venus, Jupiter) and the harmonious aspects (trine, sextile). The expression 'venerable planet' suggested a noble influence, bringing good fortune and well-being. This terminology reflects a deterministic view of astrology that no longer holds in modern practice. Today, we prefer to speak of beneficial aspects or planets in dignity, recognising that even the most favourable configurations require awareness and inner work to be fully realised. The term remains useful for understanding ancient astrological texts, in which the distinction between 'venerable' and 'vicious' influences structured the entire interpretation."
+  },
+  {
+    "slug": "vesta",
+    "category": "planète",
+    "term": "Vesta",
+    "short": "The asteroid of devotion, the inner hearth and focus.",
+    "body": "Vesta symbolises the sacred fire, devotion to a cause or a practice. It represents the ability to concentrate intensely on a goal, sometimes sacrificing personal pleasures. It is connected to purity of intention and solitary work."
+  },
+  {
+    "slug": "vicieux-aspect",
+    "category": "aspect",
+    "term": "Vicious (aspect)",
+    "short": "An old term designating an aspect considered particularly difficult or pernicious.",
+    "body": "In classical astrology, the term 'vicious' described certain aspects deemed particularly harmful, notably the square and the opposition involving the traditional malefics (Mars, Saturn). The expression 'vicious aspect' suggested a corrupt influence, difficult to channel, producing recurring harmful effects. This terminology reflects a deterministic view of astrology that no longer holds in modern practice. Today, we prefer to speak of tense, dissonant or dynamic aspects, recognising that even the most difficult configurations can be transformed into strengths through awareness and inner work. The term remains useful for understanding ancient astrological texts, in which the distinction between 'beneficial' and 'vicious' aspects structured the entire interpretation."
+  },
+  {
+    "slug": "via-combusta",
+    "category": "concept",
+    "term": "Via Combusta (Burnt Path)",
+    "short": "A zone of the zodiac running from 15° Libra to 15° Scorpio, considered baleful.",
+    "body": "The Via Combusta is a portion of the sky historically regarded as highly unstable and malefic. A planet (particularly the Moon) located in this zone is perceived as weakened or subject to unpredictable trials. This belief stems from the fact that this zone combines the fall of the Sun (Libra) and the detriment of Venus with the fall of the Moon (Scorpio). In horary astrology, the Moon in the Via Combusta often makes judgement uncertain or foretells a chaotic outcome."
+  },
+  {
+    "slug": "vierge",
+    "category": "signe",
+    "term": "Virgo",
+    "short": "The sixth sign (Earth/Mutable), symbolising analysis, service and discernment.",
+    "body": "Virgo marks the end of summer and the time of harvest. Ruled by Mercury, it favours efficiency, method and attention to detail. It is the sign of technical refinement and health. It seeks to make itself useful to the community through careful work. Its challenge is to move beyond self-criticism and worry in order to find trust in the natural order of things."
+  },
+  {
+    "slug": "visee",
+    "category": "concept",
+    "term": "Aim",
+    "short": "A conscious orientation towards a goal or aspiration in the natal chart.",
+    "body": "The aim is the direction one chooses to give to one's life based on the indications of the natal chart. It involves becoming aware of the talents, challenges and aspirations revealed by the planets, houses and aspects. The aim is not determined by the chart, but draws on it to orient life choices towards a more authentic and fulfilling realisation. It is a key concept for moving from a descriptive reading of the chart to a more dynamic and proactive approach to astrology."
+  }
+]

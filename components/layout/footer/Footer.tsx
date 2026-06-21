@@ -1,8 +1,7 @@
-import Link from "next/link";
-import maisons from "@/data/maisons.details.json";
-import planetes from "@/data/planetes.details.json";
-import signes from "@/data/signes.details.json";
-import { getAllPosts, TAG_PAGES } from "@/lib/blog";
+import { getTranslations, getLocale } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
+import { getHomeCards } from "@/lib/homeCards";
+import { getAllPosts, getAllTags, isIndexableTag, getTagPageConfig, postSlugFor } from "@/lib/blog";
 import type { ComponentType, SVGProps } from "react";
 
 /* ────────────────────────────────────────────────────────────────
@@ -182,69 +181,31 @@ const SECTION_ICON: Record<string, SvgIcon> = {
    Data
    ──────────────────────────────────────────────────────────────── */
 
-type RawItem = { slug: string; nom?: string; name?: string };
-
-const NAV_COLUMNS: Record<string, { title: string; mobileTitle: string; items: FooterItem[] }> = {
-  signes: {
-    title: "Signes",
-    mobileTitle: "Signes du Zodiaque",
-  items: (signes as RawItem[])
-  .filter(s => s.slug && s.slug !== "index") // <-- Ajout de cette sécurité
-  .map((s) => ({
-    name: s.nom ?? s.name ?? s.slug,
-    href: `/signes/${s.slug}`,
-  })),
-  },
-  planetes: {
-    title: "Planètes",
-    mobileTitle: "Planètes & Astres",
-    items: (planetes as RawItem[]).map((p) => ({
-      name: p.nom ?? p.name ?? p.slug,
-      href: `/planetes/${p.slug}`,
-    })),
-  },
-  maisons: {
-    title: "Maisons",
-    mobileTitle: "Maisons Astrologiques",
-    items: (maisons as RawItem[]).map((m) => ({
-      name: m.nom ?? m.name ?? m.slug,
-      href: `/maisons/${m.slug}`,
-    })),
-  },
-};
-
-const ANNEXES: FooterItem[] = [
- { name: "Dictionnaire astrologique", href: "/dictionnaire-astrologique" },
-  { name: "Aspects", href: "/aspects" },
-  { name: "Transits", href: "/transits" },
-  { name: "Points fictifs", href: "/points-fictifs" },
-  { name: "Nœuds lunaires", href: "/noeuds-lunaires" },
-  { name: "Cuspides des Maisons", href: "/cuspides-des-maisons" },
-  { name: "Maisons Dérivées", href: "/maisons-derivees" },
-  { name: "Lilith (Lune Noire)", href: "/lilith" },
-  { name: "Maîtrises", href: "/maitrises" },
-  { name: "Planètes rétrogrades", href: "/retrogrades" },
-  { name: "Synastrie", href: "/synastrie" },
-  { name: "Révolutions solaires", href: "/revolution-solaire" },
-  { name: "Astéroïdes", href: "/asteroides" },
-  { name: "Décans du zodiaque", href: "/les-decans" },
-
- 
+/** Liens annexes : clé i18n (messages footer.annexes) + href. */
+const ANNEXES: { key: string; href: string }[] = [
+  { key: "dictionnaire", href: "/dictionnaire-astrologique" },
+  { key: "aspects", href: "/aspects" },
+  { key: "transits", href: "/transits" },
+  { key: "pointsFictifs", href: "/points-fictifs" },
+  { key: "noeudsLunaires", href: "/noeuds-lunaires" },
+  { key: "cuspides", href: "/cuspides-des-maisons" },
+  { key: "maisonsDerivees", href: "/maisons-derivees" },
+  { key: "lilith", href: "/lilith" },
+  { key: "maitrises", href: "/maitrises" },
+  { key: "retrogrades", href: "/retrogrades" },
+  { key: "synastrie", href: "/synastrie" },
+  { key: "revolutionSolaire", href: "/revolution-solaire" },
+  { key: "asteroides", href: "/asteroides" },
+  { key: "decans", href: "/les-decans" },
 ];
 
-/** Tags populaires → pages de tags indexables (TAG_PAGES). Maillage interne :
- *  présentes dans le footer = profondeur 1 + inlink sur chaque page du site,
- *  qui rediffusent l'équité de lien vers les articles qu'elles listent. */
-const POPULAR_TAGS: FooterItem[] = Object.entries(TAG_PAGES).map(
-  ([slug, cfg]) => ({ name: cfg.h1, href: `/blog/tag/${slug}` }),
-);
-
-const LEGAL: FooterItem[] = [
-  { name: "Mentions légales", href: "/mentions-legales" },
-  { name: "Confidentialité", href: "/confidentialite" },
-  { name: "Sitemap", href: "/sitemap.xml" },
-    { name: "À propos", href: "/a-propos" },
-        { name: "Auteur", href: "/auteur/stephane-gamot" },
+/** Liens légaux : clé i18n (messages footer.legal) + href. */
+const LEGAL: { key: string; href: string }[] = [
+  { key: "mentions", href: "/mentions-legales" },
+  { key: "confidentialite", href: "/confidentialite" },
+  { key: "sitemap", href: "/sitemap.xml" },
+  { key: "apropos", href: "/a-propos" },
+  { key: "auteur", href: "/auteur/stephane-gamot" },
 ];
 
 /* ────────────────────────────────────────────────────────────────
@@ -270,23 +231,21 @@ function FooterLink({ item, accent: a }: { item: FooterItem; accent: Accent }) {
 function DesktopCol({
   sectionKey,
   items,
+  title,
+  navAria,
   max = 20,
 }: {
   sectionKey: string;
   items: FooterItem[];
+  title: string;
+  navAria: string;
   max?: number;
 }) {
   const a = ACCENT[sectionKey];
   const Icon = SECTION_ICON[sectionKey];
-  const title =
-    sectionKey === "annexes"
-      ? "Annexes"
-      : sectionKey === "blog"
-        ? "Blog"
-        : NAV_COLUMNS[sectionKey]?.title ?? sectionKey;
 
   return (
-    <nav aria-label={`Navigation ${title}`} className="hidden lg:block">
+    <nav aria-label={navAria} className="hidden lg:block">
       <h3 className="mb-5 flex items-center gap-2.5 border-b border-white/[.05] pb-3">
         {Icon && <Icon className={`size-4 ${a.heading}`} aria-hidden="true" />}
         <span className={`text-xs font-bold uppercase tracking-[.16em] ${a.heading}`}>
@@ -385,18 +344,45 @@ function MobileAccordion({
    Footer — pure Server Component, zero client JS
    ════════════════════════════════════════════════════════════════ */
 
-export default function Footer() {
-  const posts = getAllPosts()
+export default async function Footer() {
+  const t = await getTranslations("footer");
+  const locale = await getLocale();
+
+  // Colonnes signes / planètes / maisons : noms traduits par locale.
+  const cards = getHomeCards(locale);
+  const colSignes = cards.zodiaque.map((c) => ({ name: c.name, href: `/signes/${c.slug}` }));
+  const colPlanetes = cards.planetes.map((c) => ({ name: c.name, href: `/planetes/${c.slug}` }));
+  const colMaisons = cards.maisons.map((c) => ({ name: c.name, href: `/maisons/${c.slug}` }));
+
+  const posts = getAllPosts(locale)
     .sort((a, b) => +new Date(b.meta.date) - +new Date(a.meta.date))
     .slice(0, 5)
-    .map((p) => ({ name: p.meta.title, href: `/blog/${p.meta.slug}` }));
+    .map((p) => ({ name: p.meta.title, href: `/blog/${postSlugFor(p.meta.slug, locale)}` }));
+
+  // Libellés traduits (légal + annexes)
+  const annexesItems: FooterItem[] = ANNEXES.map((a) => ({
+    name: t(`annexes.${a.key}`),
+    href: a.href,
+  }));
+  const legalItems: FooterItem[] = LEGAL.map((l) => ({
+    name: t(`legal.${l.key}`),
+    href: l.href,
+  }));
+
+  // Tags populaires : pages de tags indexables, libellé + slug localisés.
+  const popularTags: FooterItem[] = getAllTags(locale)
+    .filter((tg) => isIndexableTag(tg.slug, locale))
+    .map((tg) => ({
+      name: getTagPageConfig(tg.slug, locale)?.copy.h1 ?? tg.label,
+      href: `/blog/tag/${tg.slug}`,
+    }));
 
   const mobileSections = [
-    { key: "signes",   title: "Signes du Zodiaque",    items: NAV_COLUMNS.signes.items },
-    { key: "planetes", title: "Planètes & Astres",     items: NAV_COLUMNS.planetes.items },
-    { key: "maisons",  title: "Maisons Astrologiques",  items: NAV_COLUMNS.maisons.items },
-    { key: "annexes",  title: "Annexes",                items: ANNEXES },
-    { key: "blog",     title: "Derniers Articles",      items: posts, max: 5 },
+    { key: "signes",   title: t("columnsMobile.signes"),   items: colSignes },
+    { key: "planetes", title: t("columnsMobile.planetes"), items: colPlanetes },
+    { key: "maisons",  title: t("columnsMobile.maisons"),  items: colMaisons },
+    { key: "annexes",  title: t("columnsMobile.annexes"),  items: annexesItems },
+    { key: "blog",     title: t("columnsMobile.blog"),     items: posts, max: 5 },
   ];
 
   return (
@@ -409,7 +395,7 @@ export default function Footer() {
       aria-labelledby="footer-heading"
     >
       <h2 id="footer-heading" className="sr-only">
-        Pied de page et navigation secondaire
+        {t("heading")}
       </h2>
 
       {/* ── Gradient accent line (mirrors NavBar) ─────── */}
@@ -449,9 +435,7 @@ export default function Footer() {
             </Link>
 
             <p className="max-w-sm text-[15px] leading-relaxed text-slate-300">
-              Explorez les profondeurs du ciel avec des cours d'astrologie
-              clairs, modernes et structurés pour les passionnés et les
-              chercheurs.
+              {t("tagline")}
             </p>
           </div>
 
@@ -467,10 +451,10 @@ export default function Footer() {
               <div className="relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
                 <div className="space-y-1.5">
                   <p className="font-serif text-xl tracking-tight text-white sm:text-2xl">
-                    Soif de savoirs stellaires ?
+                    {t("ctaTitle")}
                   </p>
                   <p className="text-sm italic text-slate-400">
-                    Explorez notre bibliothèque ou reprenez les bases.
+                    {t("ctaSubtitle")}
                   </p>
                 </div>
 
@@ -486,7 +470,7 @@ export default function Footer() {
                     ].join(" ")}
                   >
                     <IconBookOpen className="size-4 text-slate-400" aria-hidden="true" />
-                    Le Blog
+                    {t("ctaBlog")}
                   </Link>
                   <Link
                     href="/#zodiaque"
@@ -499,7 +483,7 @@ export default function Footer() {
                     ].join(" ")}
                   >
                     <IconCompass className="size-4" aria-hidden="true" />
-                    Explorer le Zodiaque
+                    {t("ctaZodiac")}
                   </Link>
                 </div>
               </div>
@@ -509,7 +493,7 @@ export default function Footer() {
 
         {/* ────────── Mobile accordions ────────── */}
         <nav
-          aria-label="Navigation secondaire mobile"
+          aria-label={t("secondaryNavMobile")}
           className="mb-14 grid gap-2.5 lg:hidden"
         >
           {mobileSections.map((s) => (
@@ -525,21 +509,21 @@ export default function Footer() {
 
         {/* ────────── Desktop columns ────────── */}
         <div className="hidden gap-10 border-y border-white/[.05] py-14 lg:grid lg:grid-cols-5">
-          <DesktopCol sectionKey="signes"   items={NAV_COLUMNS.signes.items}   max={12} />
-          <DesktopCol sectionKey="planetes" items={NAV_COLUMNS.planetes.items} max={12} />
-          <DesktopCol sectionKey="maisons"  items={NAV_COLUMNS.maisons.items}  max={12} />
-          <DesktopCol sectionKey="annexes"  items={ANNEXES} />
-          <DesktopCol sectionKey="blog"     items={posts} max={5} />
+          <DesktopCol sectionKey="signes"   items={colSignes}   title={t("columns.signes")}   navAria={t("navLabel", { section: t("columns.signes") })}   max={12} />
+          <DesktopCol sectionKey="planetes" items={colPlanetes} title={t("columns.planetes")} navAria={t("navLabel", { section: t("columns.planetes") })} max={12} />
+          <DesktopCol sectionKey="maisons"  items={colMaisons}  title={t("columns.maisons")}  navAria={t("navLabel", { section: t("columns.maisons") })}  max={12} />
+          <DesktopCol sectionKey="annexes"  items={annexesItems}               title={t("columns.annexes")}  navAria={t("navLabel", { section: t("columns.annexes") })} />
+          <DesktopCol sectionKey="blog"     items={posts}                      title={t("columns.blog")}     navAria={t("navLabel", { section: t("columns.blog") })}     max={5} />
         </div>
 
         {/* ────────── Tags populaires (maillage interne) ────────── */}
-        <nav aria-label="Tags populaires" className="mt-12 border-t border-white/[.05] pt-8">
+        <nav aria-label={t("popularTags")} className="mt-12 border-t border-white/[.05] pt-8">
           <h3 className="mb-4 flex items-center gap-2.5 text-xs font-bold uppercase tracking-[.16em] text-rose-400">
             <IconPen className="size-4" aria-hidden="true" />
-            Tags populaires
+            {t("popularTags")}
           </h3>
           <ul role="list" className="flex flex-wrap gap-2.5">
-            {POPULAR_TAGS.map((item) => (
+            {popularTags.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
@@ -562,8 +546,7 @@ export default function Footer() {
         <div className="mt-12 flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-3">
             <p className="text-sm text-slate-400">
-              © {new Date().getFullYear()} Astro Cours — Sagesse Céleste.
-              Tous droits réservés.
+              {t("copyright", { year: new Date().getFullYear() })}
             </p>
             <address className="not-italic flex flex-wrap items-center gap-x-2 gap-y-1">
               <a
@@ -577,7 +560,7 @@ export default function Footer() {
                   "focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]",
                 ].join(" ")}
               >
-                Création de site internet au Pays Basque
+                {t("webcredit")}
                 <IconExternal
                   className="size-3 text-slate-500 transition-colors duration-200 group-hover:text-violet-400"
                   aria-hidden="true"
@@ -588,14 +571,14 @@ export default function Footer() {
 
           <div className="flex flex-col items-start gap-4 sm:items-end">
             {/* Réseaux sociaux */}
-            <nav className="flex items-center gap-3" aria-label="Réseaux sociaux">
+            <nav className="flex items-center gap-3" aria-label={t("socials")}>
               {SOCIALS.map((social) => (
                 <a
                   key={social.name}
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`Suivez-nous sur ${social.name}`}
+                  aria-label={t("followOn", { network: social.name })}
                   className={[
                     "flex size-9 items-center justify-center rounded-full",
                     "border border-white/[.08] bg-white/[.03] text-slate-400",
@@ -611,21 +594,27 @@ export default function Footer() {
             </nav>
 
             {/* Liens légaux */}
-            <nav className="flex flex-wrap gap-x-6 gap-y-3" aria-label="Liens légaux">
-              {LEGAL.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={[
-                    "rounded-sm text-sm text-slate-400 underline-offset-4",
-                    "transition-colors duration-200 hover:text-white hover:underline",
-                    "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
-                    "focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]",
-                  ].join(" ")}
-                >
-                  {item.name}
-                </Link>
-              ))}
+            <nav className="flex flex-wrap gap-x-6 gap-y-3" aria-label={t("legalNav")}>
+              {legalItems.map((item) => {
+                const cls = [
+                  "rounded-sm text-sm text-slate-400 underline-offset-4",
+                  "transition-colors duration-200 hover:text-white hover:underline",
+                  "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
+                  "focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]",
+                ].join(" ");
+                // Les fichiers (ex: /sitemap.xml) ne sont PAS localisés :
+                // on évite le Link next-intl qui les préfixerait (/en/sitemap.xml).
+                const isFile = item.href.includes(".");
+                return isFile ? (
+                  <a key={item.href} href={item.href} className={cls}>
+                    {item.name}
+                  </a>
+                ) : (
+                  <Link key={item.href} href={item.href} className={cls}>
+                    {item.name}
+                  </Link>
+                );
+              })}
             </nav>
           </div>
         </div>

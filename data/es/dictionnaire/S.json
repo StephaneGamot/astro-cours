@@ -1,0 +1,198 @@
+[
+  {
+    "slug": "sagittaire",
+    "category": "signe",
+    "term": "Sagitario",
+    "short": "Noveno signo (Fuego/Mutable), que simboliza la expansión, la filosofía y el viaje.",
+    "body": "Sagitario marca el final del otoño, cuando se busca la luz en la oscuridad creciente. Regido por Júpiter, encarna el optimismo, la sed de sentido y la aventura. Aspira a la elevación espiritual y a la comprensión de las leyes universales. Su desafío es canalizar su entusiasmo para no caer en el fanatismo o el exceso de seguridad, y dar forma concreta a sus vastos ideales."
+  },
+  {
+    "slug": "saturne",
+    "category": "planète",
+    "term": "Saturno",
+    "short": "Planeta de la estructura, la disciplina y los límites.",
+    "body": "Saturno se asocia con la responsabilidad, el paso del tiempo y las lecciones de vida. Simboliza los obstáculos, los retrasos y las restricciones, pero también la sabiduría adquirida mediante el esfuerzo y la perseverancia. En astrología kármica, Saturno indica los ámbitos en los que el consultante debe trabajar para evolucionar. Su influencia puede parecer pesada, pero es necesaria para construir una vida sólida y auténtica."
+  },
+  {
+    "slug": "secteur",
+    "category": "concept",
+    "term": "Sector",
+    "short": "Sinónimo técnico de una casa astrológica.",
+    "body": "El término sector suele preferirse en la astrología estadística o científica (p. ej., los sectores de Gauquelin). Designa una porción del espacio local (el cielo dividido en doce)."
+  },
+  {
+    "slug": "soleil",
+    "category": "planète",
+    "term": "Sol",
+    "short": "Planeta de la identidad, la vitalidad y la expresión de uno mismo.",
+    "body": "El Sol representa el centro de nuestra carta natal, nuestra esencia profunda y nuestro «Yo soy». Simboliza la voluntad, la confianza en uno mismo y la necesidad de brillar. En astrología tradicional, el Sol es el mayor de los benéficos, pues aporta fuerza y protección. Sin embargo, también puede indicar una tendencia al orgullo o al narcisismo si está mal gestionado."
+  },
+  {
+    "slug": "soleil-en-exaltation",
+    "category": "concept",
+    "term": "Sol en exaltación",
+    "short": "Posición del Sol en Aries, donde expresa su potencial de manera óptima.",
+    "body": "El Sol está en exaltación en el signo de Aries. Esta posición le confiere una gran vitalidad, una fuerte voluntad y una capacidad para iniciar proyectos con entusiasmo. El Sol en Aries favorece la afirmación de uno mismo, el valor y la toma de iniciativa. Es una posición que anima a vivir plenamente la propia singularidad y a abrazar los desafíos con audacia."
+  },
+  {
+    "slug": "soleil-en-chute",
+    "category": "concept",
+    "term": "Sol en caída",
+    "short": "Posición del Sol en Libra, donde expresa sus energías de manera más difícil.",
+    "body": "El Sol está en caída en el signo de Libra. Esta posición puede indicar desafíos relacionados con la afirmación de uno mismo, la confianza y la claridad de identidad. El Sol en Libra puede traducirse en una tendencia a la indecisión, a la necesidad de agradar o a la dificultad para afirmarse sin compromiso. No obstante, también puede conferir una gran diplomacia, una capacidad para crear armonía y una sensibilidad hacia las necesidades de los demás."
+  },
+  {
+    "slug": "scorpion",
+    "category": "signe",
+    "term": "Escorpio",
+    "short": "Octavo signo (Agua/Fijo), que simboliza la transformación, la intensidad y el misterio.",
+    "body": "Escorpio corresponde al pleno otoño, tiempo de la descomposición que prepara la vida futura. Regido por Marte (tradicional) y Plutón (moderno), explora las profundidades de la psique, la sexualidad y los tabúes. Es una energía de regeneración extrema (el Fénix). Su desafío es transformar sus pasiones destructivas y su necesidad de control en una potencia de sanación y de sabiduría oculta."
+  },
+  {
+    "slug": "secte",
+    "category": "concept",
+    "term": "Secta (Sect)",
+    "short": "Clasificación fundamental entre carta diurna y carta nocturna.",
+    "body": "La Secta es una noción pilar de la astrología helenística que ha vuelto con fuerza en la actualidad. Una carta es de la «secta del día» si el Sol está por encima del horizonte, o de la «secta de la noche» si está por debajo. Esto cambia radicalmente la potencia de los planetas: Júpiter es más benéfico de día, mientras que Venus lo es más de noche. Del mismo modo, Saturno es menos «maléfico» de día, y Marte es más manejable de noche."
+  },
+  {
+    "slug": "semi-arc",
+    "category": "technique",
+    "term": "Semiarco",
+    "short": "Mitad del arco diurno o nocturno de un planeta.",
+    "body": "El semiarco representa el tiempo que tarda un astro en ir del horizonte al meridiano (semiarco diurno) o del meridiano al horizonte (semiarco nocturno). Es una noción técnica crucial para los sistemas de domificación temporales como Placidus. Permite dividir el espacio de manera dinámica, teniendo en cuenta la velocidad de rotación de la Tierra y la latitud del lugar."
+  },
+  {
+    "slug": "semi-sextile",
+    "category": "concept",
+    "term": "Semisextil",
+    "short": "Aspecto menor de 30° que une dos signos consecutivos.",
+    "body": "El semisextil es un aspecto de 30 grados. Puesto que une signos que se siguen, pone en contacto energías muy diferentes pero contiguas. Su influencia suele considerarse débil o neutra, actuando como un vínculo de crecimiento sutil. Obliga al individuo a integrar la etapa siguiente o anterior de su evolución. Aunque tradicionalmente menor, puede indicar una fricción necesaria para pasar de un estado de conciencia a otro."
+  },
+  {
+    "slug": "semi-carre",
+    "category": "aspect",
+    "term": "Semicuadratura",
+    "short": "Aspecto menor de 45° que indica una tensión moderada entre dos planetas.",
+    "body": "La semicuadratura es un aspecto de 45 grados, es decir, la mitad de una cuadratura. Se considera un aspecto tenso, pero menos intenso que la propia cuadratura. La semicuadratura genera una irritación o una frustración que empuja a la acción, pero sin la crisis abierta de la cuadratura. Puede indicar desafíos menores u obstáculos que superar, a menudo relacionados con ajustes necesarios en la vida del nativo. El orbe que generalmente se concede a la semicuadratura es de 2 grados."
+  },
+  {
+    "slug": "separation",
+    "category": "concept",
+    "term": "Separación",
+    "short": "Momento en que dos planetas se alejan del aspecto exacto.",
+    "body": "La separación se produce cuando el planeta más rápido sobrepasa el grado del aspecto exacto con otro planeta. La influencia del aspecto disminuye progresivamente. En astrología natal, esto puede indicar una experiencia ya integrada o un rasgo de carácter menos imperioso. En astrología predictiva, un aspecto separativo indica a menudo que el acontecimiento principal ya ha pasado."
+  },
+  {
+    "slug": "sesqui-carre",
+    "category": "aspect",
+    "term": "Sesquicuadratura",
+    "short": "Aspecto menor tenso formado por un ángulo de 135° entre dos planetas.",
+    "body": "La sesquicuadratura es un aspecto menor de 135°, equivalente a una cuadratura y media (90° + 45°). Se clasifica entre los aspectos tensos y posee una energía cercana a la de la cuadratura, pero con un matiz de irritación más sorda y más crónica. Allí donde la cuadratura crea un conflicto franco e identificable, la sesquicuadratura genera una tensión de fondo, un malestar difuso que puede manifestarse como fastidio, frustración acumulada o pequeños ajustes constantes. El orbe que habitualmente se concede a la sesquicuadratura es de 2° a 3°. Aunque a menudo se descuida en las interpretaciones rápidas, la sesquicuadratura merece atención, pues revela zonas en las que el nativo se siente bloqueado sin comprender exactamente por qué. Algunos astrólogos consideran que la sesquicuadratura es particularmente activa durante los tránsitos de planetas lentos."
+  },
+  {
+    "slug": "sextile",
+    "category": "aspect",
+    "term": "Sextil",
+    "short": "Aspecto armónico formado por un ángulo de 60° entre dos planetas.",
+    "body": "El sextil es un aspecto mayor armónico de 60° (orbe de 4° a 6°). Une generalmente dos planetas situados en signos de la misma polaridad (elementos compatibles: Fuego-Aire o Tierra-Agua). El sextil ofrece oportunidades, aperturas, talentos que requieren un ligero esfuerzo para manifestarse. Es un aspecto menos potente que el trígono (que da sin pedir) pero más constructivo, pues estimula la iniciativa. Un sextil Mercurio-Júpiter abre la mente a las lenguas extranjeras y a los estudios superiores, pero el nativo deberá aprovechar esta oportunidad activamente. La tradición astrológica resume bien la diferencia: «El trígono es un regalo, el sextil es una puerta abierta; aún hay que cruzarla». En interpretación, los sextiles indican los ámbitos en los que el nativo puede progresar con un esfuerzo moderado."
+  },
+  {
+    "slug": "sideral",
+    "category": "astronomique",
+    "term": "Sideral",
+    "short": "Sistema de referencia basado en las estrellas fijas.",
+    "body": "La astrología sideral (utilizada en la India bajo el nombre de Jyotish) se apoya en la posición real de las constelaciones en el cielo. Se opone al sistema tropical (occidental), que se basa en las estaciones. El desfase entre los dos sistemas, llamado Ayanamsa, es de unos 24 grados en la actualidad. El tiempo sideral también es utilizado por todos los astrólogos para calcular la domificación (las casas) de una carta."
+  },
+  {
+    "slug": "signe",
+    "category": "concept",
+    "term": "Signo",
+    "short": "División del zodíaco en 12 partes de 30° cada una, cada una con características específicas.",
+    "body": "El zodíaco está dividido en 12 signos de 30 grados cada uno, correspondientes a las constelaciones que el Sol atraviesa a lo largo del año. Cada signo posee cualidades, elementos y modos propios, que influyen en la manera en que los planetas se expresan cuando están situados en él. Los signos son los siguientes: Aries, Tauro, Géminis, Cáncer, Leo, Virgo, Libra, Escorpio, Sagitario, Capricornio, Acuario y Piscis. Forman la base de la interpretación astrológica y dan color a todos los aspectos de la carta natal."
+  },
+  {
+    "slug": "signes-austraux",
+    "category": "astronomique",
+    "term": "Signos australes",
+    "short": "Los seis últimos signos del zodíaco (Libra a Piscis).",
+    "body": "Situados al sur del ecuador celeste. Marcan el periodo en que las noches predominan sobre los días (en el hemisferio norte). Simbólicamente, conciernen a la relación con los demás, con el colectivo y con la espiritualidad."
+  },
+  {
+    "slug": "signes-boreaux",
+    "category": "astronomique",
+    "term": "Signos boreales",
+    "short": "Los seis primeros signos del zodíaco (Aries a Virgo).",
+    "body": "Son los signos situados al norte del ecuador celeste. Corresponden al periodo en que los días son más largos que las noches en el hemisferio norte. Simbólicamente, están ligados al desarrollo de la personalidad individual."
+  },
+  {
+    "slug": "significateur",
+    "category": "concept",
+    "term": "Significador",
+    "short": "Planeta o punto designado para representar un ámbito concreto de la vida.",
+    "body": "Se distinguen los significadores naturales (p. ej., Venus para el amor, Saturno para la muerte o la estructura) y los significadores accidentales (el regente de la Casa II para las finanzas, o de la Casa VII para el matrimonio). El arte de la interpretación consiste en sintetizar la acción del significador natural y la del regente de la casa para predecir la evolución de un ámbito específico."
+  },
+  {
+    "slug": "sirius",
+    "category": "constellation",
+    "term": "Sirio (La Estrella del Perro)",
+    "short": "La estrella más brillante del cielo nocturno (Can Mayor), ligada a la inmortalidad.",
+    "body": "Sirio (situada a unos 14° de Cáncer) es una estrella de una potencia colosal. En el antiguo Egipto, su orto helíaco anunciaba la crecida del Nilo. En astrología, simboliza un éxito que supera el marco de una simple vida: aporta honor, celebridad y, a veces, una forma de genialidad. Indica que las acciones del individuo tendrán un impacto duradero sobre la colectividad."
+  },
+  {
+    "slug": "solstices",
+    "category": "astronomique",
+    "term": "Solsticios",
+    "short": "Momentos del año en que la diferencia de duración entre el día y la noche es máxima.",
+    "body": "Los dos solsticios marcan la entrada del Sol en los signos Cardinales de Cáncer (21 de junio, el día más largo) y de Capricornio (21 de diciembre, la noche más larga). Simbólicamente, representan puntos de inflexión mayores: el solsticio de verano es el apogeo de la luz pero también el inicio de su declive, mientras que el solsticio de invierno es el momento más oscuro, que lleva en sí la promesa del renacimiento del Sol."
+  },
+  {
+    "slug": "spica",
+    "category": "constellation",
+    "term": "Spica (La Espiga de Virgo)",
+    "short": "Estrella más brillante de Virgo, símbolo de protección y de don.",
+    "body": "Spica (situada a 23° de Libra) es una de las estrellas más benéficas. Representa la cosecha, el talento artístico, el éxito mediante el conocimiento y la protección divina. Suele estar presente en las cartas de personas dotadas de una gran facilidad de expresión o de una suerte insolente en sus empresas."
+  },
+  {
+    "slug": "stationnaire",
+    "category": "concept",
+    "term": "Estacionario",
+    "short": "Momento en que un planeta parece detenerse antes de cambiar de dirección.",
+    "body": "La estación se produce al principio y al final de una fase de retrogradación. Un planeta estacionario ve su influencia considerablemente amplificada en la carta: está como «focalizado» sobre un punto preciso del zodíaco. Un planeta estacionario-directo suele verse como muy positivo, pues está a punto de liberar su energía tras una fase de retroceso."
+  },
+  {
+    "slug": "stellium",
+    "category": "concept",
+    "term": "Stellium",
+    "short": "Concentración de al menos tres (a veces cuatro) planetas en un mismo signo o una misma casa.",
+    "body": "El stellium (o cúmulo planetario) crea una focalización energética masiva en un ámbito de la vida o un tipo de carácter. Esta concentración hace que el individuo esté muy marcado por el signo en cuestión, eclipsando a veces incluso la importancia del signo solar o del Ascendente. Es un punto de fuerza pero también un desafío, pues todos los tránsitos sobre esa zona impactan a varios planetas simultáneamente."
+  },
+  {
+    "slug": "synodique",
+    "category": "astronomique",
+    "term": "Sinódico (Ciclo)",
+    "short": "Ciclo entre dos astros vistos desde la Tierra, generalmente respecto al Sol.",
+    "body": "El ciclo sinódico más conocido es el de la Luna (29,5 días). Cada ciclo planetario (p. ej., Júpiter/Saturno) define grandes fases de la historia humana y de la psique individual, desde la siembra (conjunción) hasta la Plena Luz (oposición)."
+  },
+  {
+    "slug": "synastrie",
+    "category": "technique",
+    "term": "Sinastría",
+    "short": "Técnica de comparación de dos cartas natales para analizar una relación.",
+    "body": "La sinastría consiste en superponer la carta de dos individuos para observar cómo los planetas de uno interactúan con los planetas y las casas del otro. Se analizan los aspectos inter-cartas (por ejemplo, la Venus de A sobre el Marte de B) para comprender la compatibilidad, los puntos de tensión y la dinámica relacional. Es la herramienta principal de la astrología relacional, ya sea amorosa, familiar o profesional."
+  },
+  {
+    "slug": "systeme-de-domification",
+    "category": "concept",
+    "term": "Sistema de domificación",
+    "short": "Método de división de la carta natal en 12 casas, que influye en la interpretación de los planetas.",
+    "body": "El sistema de domificación determina cómo se reparten las 12 casas astrológicas en los signos del zodíaco. Existen varios sistemas, cada uno con sus propias reglas para calcular las cúspides de las casas. Los más comunes son Placidus, Koch, Campanus, Regiomontanus y Casas Iguales. La elección del sistema puede influir en la interpretación de la carta natal, en particular en la posición de los planetas en las casas y en los aspectos que forman con las cúspides. Algunos astrólogos prefieren un sistema por su simplicidad, otros por su precisión astronómica o su pertinencia simbólica."
+  },
+  {
+    "slug": "syzygie",
+    "category": "astronomique",
+    "term": "Sicigia",
+    "short": "Alineación de tres cuerpos celestes (Sol-Tierra-Luna).",
+    "body": "La sicigia corresponde a los momentos de Luna Nueva y de Luna Llena. En la astrología antigua, se concedía una importancia capital a la «sicigia de la natividad» (la lunación que precede al nacimiento) para determinar ciertos puntos de destino."
+  }
+]

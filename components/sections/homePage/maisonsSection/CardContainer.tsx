@@ -1,7 +1,5 @@
-import ContentCard from "@/components/sections/homePage/ContentCard";
-import maisons from "@/data/maisons.json";
-
-type House = (typeof maisons)[number];
+import { getTranslations } from "next-intl/server";
+import ContentCard, { type CardData } from "@/components/sections/homePage/ContentCard";
 
 /** Inline layers icon */
 function LayersIcon({ className }: { className?: string }) {
@@ -15,7 +13,12 @@ function LayersIcon({ className }: { className?: string }) {
   );
 }
 
-export default function MaisonsCardContainer() {
+export default async function MaisonsCardContainer({
+  items,
+}: {
+  items: CardData[];
+}) {
+  const t = await getTranslations("home");
   return (
     <section
       id="maisons"
@@ -31,7 +34,7 @@ export default function MaisonsCardContainer() {
           id="maisons-title"
           className="font-serif text-3xl tracking-tight text-white md:text-5xl"
         >
-          Les 12 Maisons Astrologiques
+          {t("sectionHouses")}
         </h2>
         <div
           aria-hidden="true"
@@ -41,12 +44,13 @@ export default function MaisonsCardContainer() {
 
       {/* ── Card grid ──────────────────────────────────── */}
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {(maisons as House[]).map((item) => (
+        {items.map((item) => (
           <ContentCard
             key={item.slug}
             item={item}
             basePath="maisons"
             accent="emerald"
+            linkLabel={t("cardLabelHouse", { name: item.name })}
           />
         ))}
       </div>

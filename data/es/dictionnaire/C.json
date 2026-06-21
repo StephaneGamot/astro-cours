@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "cadente",
+    "category": "maison",
+    "term": "Cadente",
+    "short": "Casas (III, VI, IX, XII) que “caen” después de las casas sucedentes.",
+    "body": "Las casas cadentes se perciben tradicionalmente como menos poderosas para la acción concreta, pero muy importantes para la mente, la comunicación y la espiritualidad. Un planeta en casa cadente actúa más en el plano de las ideas o de los preparativos que en el de la realización inmediata. Preparan el terreno para el ángulo siguiente."
+  },
+  {
+    "slug": "cancer",
+    "category": "signe",
+    "term": "Cáncer",
+    "short": "Cuarto signo (Agua/Cardinal), que simboliza la emoción, la protección y la familia.",
+    "body": "Cáncer abre el solsticio de verano. Regido por la Luna, es el guardián de la intimidad, de los recuerdos y de la imaginación. Representa la matriz, la necesidad de seguridad afectiva y el vínculo con los orígenes. Es una energía de nutrición y de cuidado. Muy receptivo, puede mostrarse muy protector (su caparazón). Su desafío es no encerrarse en el pasado ni en una dependencia afectiva excesiva."
+  },
+  {
+    "slug": "capricorne",
+    "category": "signe",
+    "term": "Capricornio",
+    "short": "Décimo signo (Tierra/Cardinal), que simboliza la ambición, la estructura y el tiempo.",
+    "body": "Capricornio abre el solsticio de invierno. Regido por Saturno, representa el ascenso lento hacia las cumbres, el rigor, la autonomía y la responsabilidad. Es el constructor de la sociedad, capaz de grandes sacrificios para alcanzar sus metas a largo plazo. Su desafío es deshelar su frialdad aparente y su pesimismo para revelar la profunda integridad y la sabiduría que lo habitan."
+  },
+  {
+    "slug": "cardinal",
+    "category": "maison",
+    "term": "Cardinal",
+    "short": "Modo de energía asociado al comienzo de las estaciones, que simboliza la iniciativa y la acción.",
+    "body": "El modo Cardinal reúne los signos que abren las estaciones: Aries (primavera), Cáncer (verano), Libra (otoño) y Capricornio (invierno). En astrología, un fuerte predominio cardinal en una carta indica un temperamento de iniciador, una capacidad para lanzar proyectos y una voluntad de impulso. Es una energía que avanza, creadora y dinámica, aunque a veces puede carecer de perseverancia una vez pasado el impulso inicial. Los signos cardinales son los ‘motores’ del zodíaco."
+  },
+  {
+    "slug": "carre",
+    "category": "aspect",
+    "term": "Cuadratura",
+    "short": "Aspecto de tensión formado por un ángulo de 90° entre dos planetas.",
+    "body": "La cuadratura es un aspecto mayor llamado “disonante” o “tenso.” Se forma cuando dos planetas están separados 90° (con un orbe generalmente admitido de 6° a 8° para los luminares, de 5° a 6° para los demás planetas). Contrariamente a una idea extendida, una cuadratura no es “mala”: es dinámica. Crea una fricción interior, una tensión que empuja a la acción. Sin cuadraturas en una carta, puede faltar motivación, ambición o combatividad. La cuadratura obliga al nativo a resolver un conflicto entre dos energías que no concuerdan de manera natural. Por ejemplo, una cuadratura Luna-Marte crea una tirantez entre la necesidad de seguridad emocional (Luna) y el impulso de actuar (Marte). Resolver esta tensión es el trabajo de toda una vida, pero es precisamente ese trabajo el que construye la fortaleza de carácter. En la astrología tradicional, la cuadratura era temida; en la astrología moderna, se considera un motor de evolución."
+  },
+  {
+    "slug": "carre-en-t",
+    "category": "concept",
+    "term": "Cuadratura en T",
+    "short": "Configuración de tensión formada por dos planetas en oposición, ambos en cuadratura con un tercero.",
+    "body": "La Cuadratura en T es una de las figuras más dinámicas de la carta. Genera una tensión considerable que empuja al individuo a actuar y a resolver conflictos. El planeta “ápex” (el que recibe las dos cuadraturas) es el punto de descarga del estrés. Es allí donde se manifiestan las realizaciones más concretas, a menudo tras superar grandes dificultades. Es una configuración frecuente en las personas con un gran destino o una voluntad de hierro."
+  },
+  {
+    "slug": "carte-du-ciel",
+    "category": "concept",
+    "term": "Mapa del cielo",
+    "short": "Sinónimo de carta natal: representación gráfica de las posiciones planetarias en un instante dado.",
+    "body": "El mapa del cielo es el término histórico que designa lo que hoy llamamos carta natal o carta astral. Representa, en forma de diagrama circular, la posición exacta de los planetas, los signos y las casas en el momento preciso de un acontecimiento, generalmente un nacimiento. El mapa del cielo también puede levantarse para un acontecimiento específico (astrología horaria), para la fundación de una empresa o para un país (astrología mundial). El término recuerda que la astrología es ante todo un arte de observación del cielo, trasladado al papel o a la pantalla. Se necesitan tres datos para levantar un mapa del cielo: la fecha, la hora exacta y el lugar geográfico. La carta se lee cruzando las posiciones planetarias en signo, en casa y los aspectos que forman entre sí."
+  },
+  {
+    "slug": "cazimi",
+    "category": "concept",
+    "term": "Cazimi",
+    "short": "La palabra viene del árabe “kashmimi.” Estado de un planeta situado a menos de 17 minutos de arco del Sol, que le confiere un poder excepcional.",
+    "body": "Un planeta ‘Cazimi’ se considera ‘en el corazón del Sol’, lo que le confiere una energía extremadamente poderosa y benéfica. Es una posición rara y muy favorable, pues el planeta está protegido por la luz solar y puede expresar su potencial de manera óptima. Por ejemplo, Mercurio Cazimi es un indicador de gran claridad mental y de éxito en las comunicaciones."
+  },
+  {
+    "slug": "ceres",
+    "category": "planète",
+    "term": "Ceres",
+    "short": "Asteroide ligado a la nutrición, la maternidad y la productividad.",
+    "body": "Ceres es el mayor asteroide del cinturón principal. En astrología, completa a la Luna al describir cómo cuidamos de los demás en lo cotidiano, nuestra relación con la comida, con la agricultura y con el ciclo de las pérdidas y los reencuentros (mito de Perséfone)."
+  },
+  {
+    "slug": "chiron",
+    "category": "planète",
+    "term": "Quirón",
+    "short": "Asteroide/centauro que simboliza al “sanador herido.”",
+    "body": "Situado entre Saturno y Urano, Quirón representa una herida psicológica profunda que parece imposible de sanar para uno mismo, pero que se convierte en una fuente de sabiduría y de curación para los demás. Muestra cómo transformar el sufrimiento en herramienta de comprensión y compasión. Es el puente entre los planetas personales y los planetas transpersonales."
+  },
+  {
+    "slug": "chute",
+    "category": "concept",
+    "term": "Caída",
+    "short": "Estado de debilidad de un planeta situado en el signo opuesto a su lugar de exaltación.",
+    "body": "La caída es una de las dos principales debilidades esenciales, junto con el exilio. Cuando un planeta está en caída (por ejemplo, la Luna en Escorpio, ya que está exaltada en Tauro), sus cualidades se expresan con dificultad, de manera indirecta o debilitada. El planeta pierde su esplendor y su eficacia natural. En la interpretación, esto sugiere a menudo un ámbito en el que el individuo debe hacer mayor esfuerzo o tomar más conciencia para compensar una falta de fluidez de origen."
+  },
+  {
+    "slug": "claude-ptolemee",
+    "category": "personnage",
+    "term": "Claudio Ptolomeo",
+    "short": "Sabio griego del siglo II, autor del Tetrabiblos, texto fundador de la astrología occidental.",
+    "body": "Residente en Alejandría, Ptolomeo sintetizó los conocimientos astronómicos y astrológicos de su tiempo. Su obra, el “Tetrabiblos,” codificó las reglas de los signos, los planetas y los aspectos que aún se utilizan hoy. Sentó las bases de la astrología tropical al vincularla al ciclo de las estaciones, ofreciendo una estructura racional a la disciplina que dominó el pensamiento erudito durante más de mil años."
+  },
+  {
+    "slug": "combuste",
+    "category": "concept",
+    "term": "Combusto (Quemado)",
+    "short": "Planeta debilitado por su proximidad al Sol (entre 17’ y 8°30’).",
+    "body": "Cuando un planeta está “quemado” por el Sol, sus características propias quedan ocultas o consumidas por la potencia solar. El individuo puede tener dificultad para expresar esa función de manera objetiva. Es una debilidad accidental mayor en la astrología tradicional. Solo el punto de Cazimi (corazón del Sol) anula este efecto negativo."
+  },
+  {
+    "slug": "combustion",
+    "category": "concept",
+    "term": "Combustión",
+    "short": "Estado de un planeta situado demasiado cerca del Sol (generalmente a menos de 8°30’).",
+    "body": "Un planeta ‘combusto’ se considera debilitado porque está simbólicamente quemado por los rayos del Sol, lo que hace su expresión invisible o sometida a la voluntad solar. En la astrología antigua, es una debilidad seria. Sin embargo, si el planeta está a menos de 17 minutos de arco del Sol, se dice que es ‘Cazimi’ (en el corazón del Sol) y, por el contrario, se vuelve extremadamente poderoso."
+  },
+  {
+    "slug": "comete",
+    "category": "astronomique",
+    "term": "Cometa",
+    "short": "Cuerpo celeste de larga cabellera percibido como un presagio de acontecimientos excepcionales.",
+    "body": "Históricamente, los cometas no se incluían en la carta natal, sino que se estudiaban en la astrología mundial como señales de grandes trastornos o de la caída de los gobernantes. Hoy, algunos astrólogos estudian su paso en tránsito como desencadenantes de transformaciones colectivas rápidas. Pero siguen siendo poco utilizados en la astrología individual, por falta de datos suficientes para interpretarlos de manera fiable. Los cometas son mensajeros del cielo, anunciadores de cambios profundos, pero su simbolismo aún está por desarrollar plenamente en el lenguaje astrológico contemporáneo."
+  },
+  {
+    "slug": "conception",
+    "category": "technique",
+    "term": "Concepción",
+    "short": "Estudio del momento de la fecundación para completar la carta natal.",
+    "body": "Ciertas tradiciones (como la Trutina de Hermes) buscan calcular la carta de concepción para rectificar la hora de nacimiento. Se considera que el momento de la encarnación biológica prepara el terreno para la carta de nacimiento (Radix), ofreciendo indicios sobre la herencia y el período de gestación."
+  },
+  {
+    "slug": "conjonction",
+    "category": "aspect",
+    "term": "Conjunción",
+    "short": "Aspecto de fusión que se forma cuando dos planetas ocupan el mismo grado del zodíaco (0°).",
+    "body": "La conjunción es el aspecto más poderoso y concentrado de la astrología. Se produce cuando dos planetas (o más) se encuentran en el mismo grado del zodíaco, dentro del orbe (generalmente de 8° a 10° para los luminares, de 6° a 8° para los demás). A diferencia de los otros aspectos, la conjunción no es por naturaleza ni armónica ni tensa: es una fusión. Las energías de los dos planetas se mezclan de manera indisociable, para bien o para mal según la naturaleza de los planetas implicados. Una conjunción Venus-Júpiter suele ser un don de encanto y de optimismo amoroso. Una conjunción Marte-Saturno puede canalizar una energía formidable, pero también generar frustración. La conjunción amplifica considerablemente los planetas implicados y constituye a menudo el punto focal de una carta natal. Cuando tres o más planetas están en conjunción, se habla de stellium."
+  },
+  {
+    "slug": "confusion",
+    "category": "aspect",
+    "term": "Confusión (aspecto de)",
+    "short": "Término antiguo que designa un aspecto que enturbia la claridad de las energías planetarias.",
+    "body": "En la astrología tradicional, el término “confusión” designa un estado en el que las energías planetarias se mezclan de forma desordenada, volviendo su expresión poco clara para el nativo. Este concepto se asocia particularmente con Neptuno, planeta de la ilusión y de la disolución de las fronteras. Un aspecto de confusión se manifiesta cuando un planeta personal (Sol, Luna, Mercurio) recibe aspectos múltiples y contradictorios, o cuando queda atrapado entre influjos armónicos y disonantes. El nativo puede entonces sentir una dificultad para definir con claridad sus motivaciones, sus sentimientos o sus elecciones en el ámbito en cuestión. En la astrología moderna, se habla más bien de “nebulosidad” o de “difuminado.” Identificar estas zonas de confusión en una carta permite trabajar conscientemente para aclararlas."
+  },
+  {
+    "slug": "contre-antisce",
+    "category": "concept",
+    "term": "Contra-antiscio",
+    "short": "Punto de reflexión simétrica respecto al eje de los equinoccios (Aries/Libra).",
+    "body": "El contra-antiscio es el punto opuesto al antiscio. Mientras que el antiscio se calcula respecto al eje de los solsticios (Cáncer/Capricornio), el contra-antiscio utiliza el eje 0° Aries – 0° Libra. En el plano interpretativo, un planeta en contra-antiscio con otro indica a menudo un desafío o una oposición oculta. Es una relación de sombra de naturaleza similar a la oposición, pero que actúa de manera más sutil, casi inconsciente, en la estructura psíquica o de los acontecimientos de la carta."
+  },
+  {
+    "slug": "coucher-heliaque",
+    "category": "astronomique",
+    "term": "Ocaso helíaco",
+    "short": "Momento en que un astro desaparece en el resplandor del Sol poniente para volverse invisible.",
+    "body": "El ocaso helíaco es lo contrario del orto helíaco. Cuando un planeta se acerca demasiado al Sol, se sumerge en su luz y deja de ser visible a simple vista. Simbólicamente, esto representa una fase de interiorización, de “muerte simbólica” o de retirada del mundo exterior. La función planetaria deja de actuar de manera manifiesta y trabaja en las profundidades del inconsciente o en secreto."
+  },
+  {
+    "slug": "croissante",
+    "category": "concept",
+    "term": "Creciente (Planeta)",
+    "short": "Estado de un astro cuya luz o distancia separativa aumenta.",
+    "body": "Se habla principalmente de Luna creciente entre la Luna Nueva y la Luna Llena. Por extensión, un planeta se dice creciente respecto al Sol cuando se aleja de él para dirigirse a la oposición. Simbólicamente, la fase creciente representa la exteriorización, la acumulación de experiencia y la construcción de formas concretas en el mundo."
+  },
+  {
+    "slug": "culminante",
+    "category": "concept",
+    "term": "Culminante (Planeta)",
+    "short": "Planeta situado en el punto más alto de la carta, cerca del Medio Cielo.",
+    "body": "El planeta culminante es uno de los indicadores más poderosos de la vocación y de la visibilidad pública. “Colorea” el conjunto de la carta con su energía, pues es el astro más visible en el momento del nacimiento. Indica a menudo la naturaleza del éxito social y la manera en que el individuo es percibido por la colectividad."
+  },
+  {
+    "slug": "cuspide",
+    "category": "maison",
+    "term": "Cúspide",
+    "short": "La punta o línea de demarcación que marca el comienzo de una casa astrológica.",
+    "body": "La cúspide es el grado preciso en el que comienza una casa. El planeta que rige el signo sobre el que cae la cúspide se denomina ‘Regente de la Casa.’ En astrología, se considera que un planeta situado justo antes de una cúspide (a 2 o 3 grados) pertenece ya a la casa siguiente."
+  },
+  {
+    "slug": "cycle",
+    "category": "concept",
+    "term": "Ciclo",
+    "short": "Retorno periódico de un astro a una posición dada o relación entre dos astros.",
+    "body": "La astrología es una ciencia de los ciclos. Se distingue el ciclo individual (revolución de un planeta hasta su posición natal, p. ej. el retorno de Saturno a los 29 años) y el ciclo sinódico (encuentro de dos planetas, p. ej. el ciclo Júpiter-Saturno). Cada ciclo comprende una fase de siembra (conjunción), de crisis (cuadratura), de plenitud (oposición) y de balance."
+  }
+]

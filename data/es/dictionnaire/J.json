@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "morin-de-villefranche",
+    "category": "personnage",
+    "term": "Jean-Baptiste Morin de Villefranche",
+    "short": "Médico y astrólogo francés (1583-1656), cumbre de la astrología técnica tradicional.",
+    "body": "Morin de Villefranche es el autor de la imponente 'Astrologia Gallica'. Es célebre por haber aportado un rigor matemático y lógico sin precedentes a la interpretación de las cartas. Su teoría sobre las determinaciones locales (el papel crucial de las casas y de sus regentes) permitió afinar la precisión de los juicios. Fue el astrólogo de personalidades poderosas como el cardenal de Richelieu."
+  },
+  {
+    "slug": "jean-marie-michiels",
+    "category": "personnage",
+    "term": "Jean-Marie Michiels",
+    "short": "Astrólogo y pedagogo belga, dedicó su vida a la investigación y la enseñanza de la astrología.",
+    "body": "Jean-Marie Michiels es un astrólogo y profesor belga. Se ha convertido en una referencia francófona para el aprendizaje de la astrología. Su enfoque es resueltamente pedagógico y accesible: su enseñanza abarca tanto los fundamentos (signos, casas, aspectos, planetas) como ámbitos especializados como la astrología horaria, la astrología médica, los asteroides, las partes árabes o el ayanamsa. Su enseñanza se distingue por un afán de rigor y de claridad, contribuyendo a democratizar el acceso al saber astrológico en la Europa francófona."
+  },
+  {
+    "slug": "joie",
+    "category": "planète",
+    "term": "Gozo (de los planetas)",
+    "short": "Una posición de fuerza tradicional donde un planeta se encuentra en la casa que prefiere.",
+    "body": "El 'Gozo' es una dignidad accidental antigua. Cada planeta tiene una casa de predilección donde expresa sus virtudes de manera óptima. Por ejemplo, Mercurio se goza en la Casa I (inteligencia), la Luna en la Casa III (movimiento), Marte en la Casa VI, el Sol en la Casa IX, Júpiter en la Casa XI y Saturno en la Casa XII. Estar en su gozo refuerza la capacidad del planeta de producir resultados positivos."
+  },
+  {
+    "slug": "jupiter-en-chute",
+    "category": "concept",
+    "term": "Júpiter en caída",
+    "short": "La posición de Júpiter en Capricornio, donde expresa sus energías de manera más difícil.",
+    "body": "Júpiter está en caída en el signo de Capricornio. Esta posición puede indicar desafíos ligados a la expansión, a la confianza y a la fe. Júpiter en Capricornio puede traducirse en una tendencia al exceso de prudencia, al pesimismo o a la dificultad para aprovechar las oportunidades. Sin embargo, también puede conferir una gran disciplina, una capacidad de trabajar duro para alcanzar los objetivos y una sabiduría práctica adquirida por la experiencia."
+  },
+  {
+    "slug": "junon",
+    "category": "planète",
+    "term": "Juno",
+    "short": "El asteroide de la asociación, el matrimonio y el compromiso.",
+    "body": "Juno describe nuestra necesidad de relaciones estables y comprometidas. Va más allá de la atracción de Venus para abordar las cuestiones de lealtad, de reparto del poder en la pareja y de fidelidad. Indica el tipo de pareja con la que buscamos construir una vida."
+  },
+  {
+    "slug": "jupiter",
+    "category": "planète",
+    "term": "Júpiter",
+    "short": "El planeta de la expansión, la suerte y el crecimiento personal.",
+    "body": "Júpiter se asocia con el optimismo, la fe y la búsqueda de sentido. Simboliza nuestra necesidad de expansión, ya sea a través de los viajes, los estudios superiores o la espiritualidad. En astrología tradicional, Júpiter es el mayor de los benefactores, aportando protección y oportunidades. Sin embargo, también puede indicar una tendencia a la exageración o al descuido si se gestiona mal."
+  },
+  {
+    "slug": "jupiter-en-exaltation",
+    "category": "concept",
+    "term": "Júpiter en exaltación",
+    "short": "La posición de Júpiter en Cáncer, donde expresa su potencial de manera óptima.",
+    "body": "Júpiter está en exaltación en el signo de Cáncer. Esta posición le confiere una gran sensibilidad, una intuición desarrollada y una capacidad de nutrir a los demás, ya sea en el plano físico o emocional. Júpiter en Cáncer favorece los lazos familiares, la protección de los seres queridos y la búsqueda de seguridad afectiva. Es una posición que fomenta la expansión a través del corazón y las emociones."
+  }
+]

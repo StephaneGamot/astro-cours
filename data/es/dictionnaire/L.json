@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "latitude",
+    "category": "astronomique",
+    "term": "Latitud",
+    "short": "Distancia angular de un lugar respecto al ecuador.",
+    "body": "La latitud terrestre es crucial para el cálculo del Ascendente y para determinar el tamaño de las casas en la mayoría de los sistemas de domificación. Cuanto más se acerca uno a los polos, más desiguales se vuelven las casas, lo que modifica la distribución de los planetas en la carta."
+  },
+  {
+    "slug": "lion",
+    "category": "signe",
+    "term": "Leo",
+    "short": "Quinto signo (Fuego/Fijo), que simboliza la vitalidad, la creatividad y la irradiación.",
+    "body": "Leo corresponde al corazón del verano, cuando el Sol está en su cénit. Regido por el propio Sol, encarna la voluntad de brillar, la nobleza de corazón y la expresión de sí mismo. Es el signo de los artistas, los líderes y los niños. Busca el reconocimiento y el aplauso. Su desafío es aprender la humildad y comprender que su irradiación debe servir para iluminar a los demás en lugar de alimentar únicamente su ego."
+  },
+  {
+    "slug": "liz-greene",
+    "category": "personnage",
+    "term": "Liz Greene",
+    "short": "Astróloga y analista junguiana angloestadounidense, pionera de la astrología psicológica.",
+    "body": "Cofundadora del Centre for Psychological Astrology de Londres, Liz Greene revolucionó la astrología moderna al integrar en ella la psicología profunda de Carl Jung. Sus obras, en particular sobre Saturno (“Saturn: A New Look at an Old Devil”), transformaron la visión de los planetas llamados “maléficos” en vehículos de crecimiento e individuación. Concibe la carta natal como un mapa de la psique humana y de sus mitos personales, más que como una herramienta de predicción puramente basada en acontecimientos."
+  },
+  {
+    "slug": "longitude",
+    "category": "astronomique",
+    "term": "Longitud",
+    "short": "Posición de un lugar (Este/Oeste) o de un astro sobre la eclíptica.",
+    "body": "En astrología, la longitud celeste es la medida de la posición de un planeta de 0° a 360° a lo largo del zodíaco, partiendo del punto vernal. Es este dato el que nos indica en qué signo y en qué grado se encuentra un planeta (por ejemplo, 15° Leo)."
+  },
+  {
+    "slug": "luminaires",
+    "category": "concept",
+    "term": "Luminarias",
+    "short": "Término que agrupa al Sol y a la Luna, las dos fuentes de luz del cielo.",
+    "body": "Las Luminarias ocupan un rango jerárquico superior al de los demás planetas. El Sol (Luminaria diurna) representa la conciencia, el espíritu, la voluntad y el padre. La Luna (Luminaria nocturna) encarna el inconsciente, el instinto, las emociones y la madre. A diferencia de los planetas, las Luminarias nunca retrogradan. Son los pilares de la personalidad: el Sol da la dirección y el propósito, mientras que la Luna aporta el combustible emocional y la capacidad de reacción. Su relación (las fases de la Luna) en el momento del nacimiento es determinante para el equilibrio interior."
+  },
+  {
+    "slug": "lunaison",
+    "category": "astronomique",
+    "term": "Lunación",
+    "short": "Ciclo completo de la Luna respecto al Sol, de unos 29,5 días.",
+    "body": "También llamada mes sinódico, la lunación define las fases lunares (Luna Nueva, Cuarto Creciente, Luna Llena, Cuarto Menguante). En astrología, la lunación de nacimiento (la fase en que se encontraba la Luna) determina el temperamento de base del individuo: los nacidos en Luna Nueva son pioneros instintivos, mientras que los de Luna Llena viven en la búsqueda de equilibrio y de objetividad."
+  },
+  {
+    "slug": "lune",
+    "category": "planète",
+    "term": "Luna",
+    "short": "Luminaria nocturna que rige las emociones, el inconsciente y el principio materno.",
+    "body": "La Luna es el astro más rápido del zodíaco, pues recorre los doce signos en unos 28 días. Simboliza nuestra parte receptiva, nuestra capacidad de sentir y de reaccionar. En astrología describe las necesidades fundamentales de seguridad afectiva, la relación con la madre, así como la memoria infantil. Mientras que el Sol representa la identidad consciente, la Luna encarna el alma instintiva, los hábitos cotidianos y el mundo de los sueños. Rige el signo de Cáncer."
+  },
+  {
+    "slug": "lune-croissante",
+    "category": "astronomique",
+    "term": "Luna creciente",
+    "short": "Fase situada entre la Luna Nueva y la Luna Llena.",
+    "body": "Durante unos catorce días, la porción iluminada de la Luna aumenta vista desde la Tierra. Simbólicamente, es la fase de construcción, de asimilación, de crecimiento y de acumulación de energía. Es el momento ideal para emprender proyectos que requieren un aumento de vitalidad."
+  },
+  {
+    "slug": "lune-decroissante",
+    "category": "astronomique",
+    "term": "Luna menguante",
+    "short": "Fase situada entre la Luna Llena y la Luna Nueva.",
+    "body": "La luz de la Luna disminuye progresivamente. Este período es propicio para la limpieza, la eliminación, las mudanzas y la culminación de las cosas. Es un tiempo de balance y de preparación para el nuevo ciclo."
+  },
+  {
+    "slug": "lune-descendante",
+    "category": "astronomique",
+    "term": "Luna descendente",
+    "short": "Movimiento de la Luna que desciende cada día respecto al horizonte.",
+    "body": "Se dice que la Luna es descendente cuando se dirige hacia el sur del ecuador celeste. Simbólicamente, esto marca un movimiento de retiro, de enraizamiento y de concentración hacia las profundidades o la tierra. Es un período privilegiado para el trabajo de fondo y la introspección."
+  },
+  {
+    "slug": "lune-montante",
+    "category": "astronomique",
+    "term": "Luna ascendente",
+    "short": "Movimiento de la Luna que se eleva cada día más alto por encima del horizonte.",
+    "body": "Cuidado con no confundirla con la Luna creciente. La Luna ascendente es un fenómeno de declinación: la Luna pasa del punto más bajo de la eclíptica (Sagitario) al más alto (Géminis). En astrología y en jardinería biodinámica, esta fase se asocia con la subida de la savia y con una energía de expansión exterior."
+  },
+  {
+    "slug": "lune-noire-moyenne",
+    "category": "point fictif",
+    "term": "Luna Negra Media",
+    "short": "Posición media de la Luna Negra, calculada a partir del apogeo lunar.",
+    "body": "La Luna Negra Media es una posición ficticia calculada a partir del apogeo lunar, pero utilizando una media matemática en lugar de la posición real. Algunos astrólogos prefieren este método por su simplicidad y su regularidad, mientras que otros consideran que la Luna Negra Verdadera, que sigue el apogeo real, ofrece una lectura más precisa. La elección entre ambas suele depender del enfoque astrológico adoptado."
+  },
+  {
+    "slug": "lune-noire-lilith",
+    "category": "point fictif",
+    "term": "Luna Negra (Lilith)",
+    "short": "Punto focal vacío de la órbita lunar, que simboliza la sombra, el deseo en bruto y el rechazo del compromiso.",
+    "body": "La Luna Negra no es un cuerpo celeste, sino el segundo foco de la elipse lunar (el apogeo). Representa una parte de sombra psicológica, un vacío fascinante o una herida original. Lilith encarna la rebeldía, lo indomable, la sexualidad instintiva y la búsqueda del absoluto. En una carta, indica dónde el individuo se niega a someterse y dónde busca una verdad sin maquillaje."
+  },
+  {
+    "slug": "lune-noire-vraie",
+    "category": "point fictif",
+    "term": "Luna Negra Verdadera",
+    "short": "Posición real de la Luna Negra, calculada a partir del apogeo lunar.",
+    "body": "La Luna Negra Verdadera es la posición real de la Luna Negra, calculada a partir del apogeo lunar. Puede diferir de la Luna Negra Media, que es una media matemática. Algunos astrólogos prefieren utilizar la Luna Negra Verdadera para una lectura más precisa, mientras que otros consideran que la Luna Negra Media tiene un valor simbólico más fuerte. La elección entre ambas suele depender del enfoque astrológico adoptado."
+  },
+  {
+    "slug": "lune-nouvelle",
+    "category": "astronomique",
+    "term": "Luna Nueva",
+    "short": "Conjunción exacta entre el Sol y la Luna (0°).",
+    "body": "La Luna Nueva marca el inicio de un ciclo sinódico. La Luna es invisible en el cielo nocturno. Es un momento de siembra, de intención pura y de renovación. En una carta natal, nacer bajo una Luna Nueva indica un temperamento instintivo, en el que el deseo (el Sol) y la necesidad (la Luna) están fusionados."
+  },
+  {
+    "slug": "lune-progresse",
+    "category": "technique",
+    "term": "Luna progresada",
+    "short": "Posición de la Luna según el método de las progresiones secundarias (1 día = 1 año).",
+    "body": "La Luna progresada es uno de los indicadores más fiables del clima emocional interior. Da la vuelta a la carta en unos veintisiete años y medio, permaneciendo unos dos años y medio en cada casa y en cada signo. Su paso indica en qué se centra la atención psíquica del individuo: mudanzas, cambios profundos de humor o nuevas necesidades de seguridad."
+  }
+]

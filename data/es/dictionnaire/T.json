@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "table-des-maisons",
+    "category": "concept",
+    "term": "Tabla de casas",
+    "short": "Tabla que permite calcular las cúspides de las casas astrológicas según la latitud y la hora sideral.",
+    "body": "La tabla de casas es una herramienta de cálculo indispensable para levantar una carta astral. Para una latitud geográfica y una hora sideral dadas, proporciona los grados zodiacales correspondientes a las cúspides (inicios) de las doce casas. Antes de la era informática, todo astrólogo poseía su propia tabla de casas, siendo las más célebres las de Placidus y Koch. Existen tantas tablas como sistemas de domificación: Placidus, Koch, Regiomontano, Campano, casas iguales, etc. Cada sistema divide la esfera celeste de manera diferente, lo que puede modificar sensiblemente la ubicación de los planetas en las casas. Hoy en día, los programas de astrología realizan estos cálculos al instante, pero comprender el principio de la tabla de casas sigue siendo esencial para captar la lógica de la domificación y la importancia de la hora exacta de nacimiento."
+  },
+  {
+    "slug": "taureau",
+    "category": "signe",
+    "term": "Tauro",
+    "short": "Segundo signo (Tierra/Fijo), que simboliza la estabilidad, los sentidos y la materia.",
+    "body": "Tauro corresponde a la plena primavera, cuando la naturaleza se estabiliza y se arraiga. Regido por Venus, está vinculado a los placeres sensoriales, la seguridad material y la paciencia. Es una energía de construcción lenta y duradera. Tauro busca preservar lo que posee. Su desafío es superar el apego excesivo a la materia y desarrollar una seguridad interior independiente de los bienes exteriores."
+  },
+  {
+    "slug": "technique-table-des-maisons",
+    "category": "technique",
+    "term": "Técnica de la tabla de casas",
+    "short": "Método de cálculo de las cúspides de las casas a partir de la tabla de casas.",
+    "body": "Para utilizar la tabla de casas, primero hay que determinar la hora sideral local en el momento del nacimiento, teniendo en cuenta el huso horario y la longitud del lugar de nacimiento. Luego, en función de la latitud, se consulta la tabla para encontrar los grados zodiacales correspondientes a las cúspides de las casas. Por ejemplo, para una latitud de 45° Norte y una hora sideral de 10h, se puede encontrar que la cúspide de la Casa I está a 15° de Aries, la de la Casa II a 10° de Tauro, etc. Estos grados se trasladan luego a la carta astral para situar los planetas en las casas correspondientes. La precisión de este cálculo es crucial, ya que un error de hora o de latitud puede desplazar las cúspides y modificar así la interpretación de la carta."
+  },
+  {
+    "slug": "theme",
+    "category": "technique",
+    "term": "Carta",
+    "short": "Carta del cielo que representa las posiciones planetarias en un momento preciso.",
+    "body": "La carta (del griego «thema», lo que está dispuesto) es el diagrama circular dividido en 12 signos y 12 casas. Constituye la principal herramienta de trabajo del astrólogo. Ya sea natal, horaria o mundial, fija una configuración cósmica para extraer de ella un sentido simbólico. La carta es un espejo de las fuerzas presentes, un potencial por desplegar."
+  },
+  {
+    "slug": "theme-de-naissance",
+    "category": "concept",
+    "term": "Carta de nacimiento",
+    "short": "Carta del cielo levantada para el momento y el lugar exactos del nacimiento de un individuo.",
+    "body": "La carta de nacimiento, o carta natal, es la fotografía del cielo en el momento preciso del nacimiento, vista desde el lugar de nacimiento. Constituye el documento fundacional de todo estudio astrológico individual. La carta de nacimiento comprende: la posición de los diez planetas en los signos y las casas, los aspectos (ángulos) entre los planetas, el ascendente, el Medio Cielo y, eventualmente, puntos ficticios (nodos lunares, Lilith, partes árabes). Para calcularla, tres datos son indispensables: la fecha, la hora exacta y el lugar de nacimiento. La carta de nacimiento nunca cambia: representa el potencial de base del nativo. Es luego, a través de los tránsitos, las progresiones y las revoluciones solares, como el astrólogo observa cómo se despliega ese potencial en el tiempo."
+  },
+  {
+    "slug": "theme-composite",
+    "category": "technique",
+    "term": "Carta compuesta",
+    "short": "Carta única creada a partir de los puntos medios de dos cartas, que representa la relación misma.",
+    "body": "A diferencia de la sinastría, que compara a dos individuos, la carta compuesta fusiona dos cartas en una sola calculando los puntos medios (midpoints) de cada planeta. Esta carta no representa a ninguno de los dos miembros de la pareja, sino a la entidad 'Pareja' o 'Relación'. Describe el propósito de la relación, su destino propio y la manera en que funciona como una unidad autónoma frente al mundo."
+  },
+  {
+    "slug": "temps-sideral",
+    "category": "astronomique",
+    "term": "Tiempo sideral",
+    "short": "Medida del tiempo basada en la rotación de la Tierra respecto a las estrellas fijas.",
+    "body": "El tiempo sideral es la herramienta indispensable para calcular la domificación (las casas) de una carta. Puesto que la Tierra gira sobre sí misma mientras orbita alrededor del Sol, un día solar dura 24h, pero un día sideral dura solo 23h 56m 4s. Para levantar una carta, el astrólogo convierte la hora de nacimiento en 'Tiempo Sideral Local' (TSL) utilizando las Tablas de Casas. Es este tiempo el que permite determinar qué grado del zodíaco cruzaba el meridiano y qué signo se elevaba en el horizonte en el momento exacto del nacimiento."
+  },
+  {
+    "slug": "termes",
+    "category": "concept",
+    "term": "Términos",
+    "short": "Subdivisiones desiguales de cada signo zodiacal, regidas por los planetas salvo los luminares.",
+    "body": "Cada signo de 30° se divide en cinco segmentos llamados 'Términos', cada uno atribuido a uno de los cinco planetas tradicionales (Mercurio, Venus, Marte, Júpiter, Saturno). El planeta que rige el término en el que se encuentra un astro le imprime su 'manera de ser'. Es una dignidad sutil utilizada para afinar las descripciones de carácter o para la técnica de las direcciones primarias. Los dos sistemas más conocidos son los Términos Egipcios y los Términos Ptolemaicos."
+  },
+  {
+    "slug": "terre",
+    "category": "concept",
+    "term": "Tierra (elemento)",
+    "short": "Elemento asociado a los signos Tauro, Virgo y Capricornio, que simboliza la materia y lo concreto.",
+    "body": "La Tierra es uno de los cuatro elementos clásicos en astrología, asociado a los signos Tauro, Virgo y Capricornio. Representa el mundo material, la estabilidad, el sentido práctico, la perseverancia y el arraigo en la realidad. Los signos de Tierra privilegian lo concreto, la seguridad y la construcción lenta y duradera. Son fiables, pacientes y metódicos, pero también pueden mostrarse rígidos, posesivos o excesivamente prudentes. Tauro encarna la Tierra fija (los recursos, la sensualidad); Virgo, la Tierra mutable (el análisis, el servicio); Capricornio, la Tierra cardinal (la ambición, la estructura). Una carta rica en Tierra indica un nativo realista, eficaz y dotado de buen sentido material. Una falta de Tierra puede traducirse en dificultad para concretar los proyectos o para gestionar los aspectos prácticos de la vida."
+  },
+  {
+    "slug": "tete-du-dragon",
+    "category": "point fictif",
+    "term": "Cabeza del Dragón",
+    "short": "Nombre tradicional del Nodo Norte lunar, que indica la dirección de evolución del alma.",
+    "body": "La Cabeza del Dragón es el nombre tradicional del Nodo Norte de la Luna (☊). Este punto ficticio corresponde a la intersección ascendente de la órbita lunar con la eclíptica. En astrología kármica y evolutiva, la Cabeza del Dragón representa la dirección de crecimiento, el potencial por desarrollar, las cualidades que el alma busca integrar en esta encarnación. Es un punto de llamada, a veces incómodo porque empuja hacia lo desconocido. Su signo y su casa indican el ámbito en el que el nativo está invitado a evolucionar. La Cabeza del Dragón se opone siempre a la Cola del Dragón (Nodo Sur), que representa lo adquirido en el pasado y los automatismos por superar. El eje de los nodos forma así un vector evolutivo fundamental en la interpretación de la carta natal."
+  },
+  {
+    "slug": "theme-evenementiel",
+    "category": "technique",
+    "term": "Carta de evento",
+    "short": "Carta del cielo levantada para el inicio de un evento preciso.",
+    "body": "La carta de evento trata un momento de la historia como si se tratara de un nacimiento. Se utiliza para analizar el potencial y el desenlace de la firma de un contrato, un accidente, una catástrofe natural o la inauguración de un monumento. A diferencia de la carta natal, que sigue a una persona, la carta de evento fija el 'alma' de una acción emprendida. Es una rama clave de la astrología mundial y electiva que permite analizar las fuerzas presentes durante un hecho relevante."
+  },
+  {
+    "slug": "theme-horaire",
+    "category": "branche",
+    "term": "Carta horaria",
+    "short": "Carta del cielo levantada en el momento preciso en que se plantea una pregunta al astrólogo.",
+    "body": "La astrología horaria es una de las ramas más antiguas y rigurosas de la disciplina. Se basa en el postulado de que el instante en que una pregunta 'nace' en la mente del consultante contiene la respuesta a su problema. A diferencia de la astrología natal, requiere reglas de interpretación muy específicas (prohibiciones de juzgar, consideraciones antes del juicio). Se analizan principalmente los aspectos que va a formar la Luna (cosignificadora del consultante) y las relaciones entre los regentes de las casas implicadas en la pregunta. Es una herramienta de una precisión formidable para preguntas concretas ('¿Conseguiré este contrato?', '¿Dónde están mis llaves?')."
+  },
+  {
+    "slug": "theme-natal",
+    "category": "concept",
+    "term": "Carta natal",
+    "short": "Carta del cielo levantada para el momento y el lugar exactos del nacimiento de un individuo.",
+    "body": "La carta natal (o carta de nacimiento) es la fotografía del cielo en el momento preciso del nacimiento, vista desde el lugar de nacimiento. Constituye el documento fundacional de todo estudio astrológico individual. La carta natal comprende: la posición de los diez planetas en los signos y las casas, los aspectos (ángulos) entre los planetas, el ascendente, el Medio Cielo y, eventualmente, puntos ficticios (nodos lunares, Lilith, partes árabes). Para calcularla, tres datos son indispensables: la fecha, la hora exacta y el lugar de nacimiento. La carta natal nunca cambia: representa el potencial de base del nativo. Es luego, a través de los tránsitos, las progresiones y las revoluciones solares, como el astrólogo observa cómo se despliega ese potencial en el tiempo. Sinónimo culto: radix."
+  },
+  {
+    "slug": "transaturnien",
+    "category": "concept",
+    "term": "Transaturnino",
+    "short": "Término que designa los planetas situados más allá de la órbita de Saturno: Urano, Neptuno y Plutón.",
+    "body": "Los planetas transaturninos (o planetas colectivos/generacionales) no eran conocidos por la astrología antigua. Simbolizan fuerzas que superan el control individual: revoluciones, inconsciente colectivo, transformaciones lentas y profundas. Debido a su lentitud, marcan generaciones enteras más que caracteres puramente personales, salvo cuando están en aspecto estrecho con un luminar o un ángulo."
+  },
+  {
+    "slug": "transit",
+    "category": "concept",
+    "term": "Tránsito",
+    "short": "Paso de un planeta en movimiento sobre un punto sensible de la carta natal.",
+    "body": "El tránsito es la técnica predictiva más común en astrología. Consiste en observar el paso de los planetas en el cielo actual (en tiempo real) en relación con las posiciones de la carta natal. Cuando un planeta en tránsito forma un aspecto exacto con un planeta natal, 'activa' a este último y desencadena acontecimientos o tomas de conciencia ligados a las simbologías en juego. Los tránsitos de los planetas rápidos (Luna, Mercurio, Venus, Marte) son breves y cotidianos. Los tránsitos de los planetas lentos (Júpiter, Saturno, Urano, Neptuno, Plutón) marcan períodos largos y profundos de transformación. Un tránsito de Saturno sobre el Sol natal, por ejemplo, dura varios meses e impone un balance de madurez. El orbe de aplicación (el planeta se acerca al aspecto exacto) suele sentirse con más intensidad que el orbe de separación."
+  },
+  {
+    "slug": "trigoncratie",
+    "category": "concept",
+    "term": "Regencia por triplicidad",
+    "short": "Dignidad de un planeta que se encuentra en un signo del mismo elemento (triplicidad) que rige.",
+    "body": "La regencia por triplicidad es una dignidad esencial menor. Indica que un planeta dispone de recursos y apoyos contextuales. En astrología medieval y renacentista, se utilizan regentes diferentes según la carta sea diurna (nacida de día) o nocturna (nacida de noche). Un planeta en triplicidad es como un invitado que se siente a gusto en casa de amigos: no es el dueño del lugar, pero se beneficia de condiciones favorables para actuar."
+  },
+  {
+    "slug": "trigone",
+    "category": "aspect",
+    "term": "Trígono",
+    "short": "Aspecto armónico mayor formado por un ángulo de 120° entre dos planetas.",
+    "body": "El trígono es el aspecto armónico por excelencia. Se forma cuando dos planetas están separados por 120° (orbe de 6° a 8°), lo que generalmente corresponde a planetas situados en signos del mismo elemento (Fuego-Fuego, Tierra-Tierra, Aire-Aire, Agua-Agua). El trígono indica un flujo natural de energía entre los dos planetas: las funciones que representan cooperan espontáneamente, sin esfuerzo aparente. Un trígono Venus-Júpiter favorece la plenitud afectiva y la generosidad. Un trígono Sol-Marte confiere una vitalidad y una confianza naturales. A veces se critica el trígono por su facilidad: como da sin exigir, puede conducir a la pasividad o al desperdicio del talento. La tradición lo resume: «El trígono es un don del cielo, pero aún hay que hacer algo con él». En interpretación, los trígonos revelan los recursos innatos del nativo."
+  },
+  {
+    "slug": "triplicite",
+    "category": "concept",
+    "term": "Triplicidad",
+    "short": "Agrupación de los doce signos en cuatro grupos de tres, según su elemento.",
+    "body": "La triplicidad divide el zodíaco por elemento: el Fuego (Aries, Leo, Sagitario), la Tierra (Tauro, Virgo, Capricornio), el Aire (Géminis, Libra, Acuario) y el Agua (Cáncer, Escorpio, Piscis). Cada triplicidad comparte una naturaleza elemental común que influye en el temperamento de base. En astrología tradicional, cada triplicidad está regida por un grupo de planetas 'regentes de triplicidad' que varían según el ciclo día/noche de la carta."
+  },
+  {
+    "slug": "trutine-d-hermes",
+    "category": "technique",
+    "term": "Trutina de Hermes",
+    "short": "Método antiguo de rectificación de la hora de nacimiento basado en el momento de la concepción.",
+    "body": "La Trutina de Hermes se basa en una ley de analogía entre el nacimiento y la concepción: el ascendente de la carta de nacimiento corresponde a la posición de la Luna en el momento de la concepción, y viceversa. Utilizada desde la Antigüedad, esta regla permite recuperar una hora de nacimiento desconocida o imprecisa calculando la fecha teórica de la fecundación (generalmente 273 días antes del nacimiento). Aunque controvertida, ya que no tiene en cuenta las duraciones variables de gestación, sigue siendo una herramienta fascinante de la astrología tradicional para legitimar la hora del primer aliento."
+  }
+]

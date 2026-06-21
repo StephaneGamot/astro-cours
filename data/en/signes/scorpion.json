@@ -1,0 +1,459 @@
+{
+  "slug": "scorpion",
+  "nom": "Scorpio",
+  "sousTitre": "The eighth sign of the Zodiac",
+  "devise": "I desire / I transform",
+  "periode": "October 23 – November 22",
+  "element": "Water",
+  "mode": "Fixed",
+  "maitre": "Pluto & Mars",
+  "exaltation": "Uranus",
+  "exil": "Venus",
+  "chute": "Moon",
+  "polarite": "Feminine",
+  "temperament": "Lymphatic",
+  "maisonNaturelle": 8,
+  "couleur": {
+    "primaire": "#7173FC",
+    "secondaire": "#EF4444",
+    "accent": "#A78BFA",
+    "gradient": "from-violet-600 via-purple-600 to-red-600"
+  },
+  "navigation": {
+    "precedent": { "slug": "balance", "nom": "Libra" },
+    "suivant": { "slug": "sagittaire", "nom": "Sagittarius" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/scorpion.webp",
+    "planete": "/images/planetes/pluton.webp"
+  },
+  "introduction": "Scorpio is the eighth sign of the Zodiac. The Sun crosses it between roughly October 23 and November 22, at the heart of autumn, when the leaves fall and rot, when the sap descends into the depths of the earth, when nature dies to prepare its rebirth.\n\nIt is the sign of radical transformation, of the descent into the invisible, of the quest for a truth that yields only to the one who dares to confront the darkness. Scorpio is never satisfied with the surface of things: it seeks what is hidden behind appearances, even at the cost of disturbing, even of wounding itself. Where Libra sought harmony and balance between self and other, Scorpio dives beneath that smooth surface to reach what is true, deep and irreducible.",
+  "fondationsCosmiques": {
+    "texte": "Scorpio belongs to the Water element (cold and humid), which gives it a lymphatic temperament: deep sensitivity, inner receptivity, an intense and underground emotional life. It is the second level of Water — that of mastery. Where Cancer feels and protects instinctively, Scorpio understands, probes and transforms. Scorpio's water is a tormented, powerful, instinctive water: that of the deep currents that shape the shores without the surface revealing anything.\n\nIts mode is fixed: it never lets go. Fixed signs possess a stability, firmness and tenacity that can become stubbornness. Scorpio sees its projects through to the end with formidable concentration and perseverance. A passive, receptive and introverted sign, it absorbs rather than defends itself, but it possesses considerable endurance and deep inner resources. It regenerates with an ease that surprises those around it.",
+    "courteAscension": "Scorpio is a sign of long ascension — it remains above the horizon for a long time — which means that, statistically, more people are born with Scorpio as their Ascendant.",
+    "pluton": "Scorpio is the traditional nocturnal domicile of Mars, the planet of combat and energy. Since the discovery of Pluto in 1930, many modern astrologers have assigned it the rulership of Scorpio, so closely does this planet of transformation, destruction and regeneration match the deep temperament of this sign. The question of the dual Mars–Pluto rulership remains a subject of discussion: Mars gives Scorpio its combativeness and tenacity, Pluto gives it its depth and power of metamorphosis."
+  },
+  "analogies": {
+    "animal": "The scorpion, the snake, the eagle or the phoenix",
+    "objet": "The volcano, the crucible, the magnet",
+    "fonction": "To transform, to probe, to regenerate",
+    "texte": "Scorpio is the sign of radical transformation. Aggressiveness, combativeness, struggle, mistrust, destruction and regeneration — everything in this sign speaks of an alchemical process. Just as the scorpion attacks with precision and lives in the shadows, just as the snake sheds its skin to be reborn, just as the phoenix consumes itself to rise from its ashes, the native of this sign moves through life as a succession of deaths and rebirths. It is in turn the surgeon who cuts in order to heal, the detective who seeks the hidden truth, the psychologist who probes the depths of the soul. Its energy comes from the deepest part of the being: it first torments the one who carries it, but it becomes an invaluable aid to whoever learns to use it."
+  },
+  "mythologie": {
+    "titre": "The rebirth of Orion",
+    "texte": "Scorpio is linked to the myth of Orion, the giant hunter whose pride and imperious sexuality earned him the fatal sting of the scorpion sent by Artemis — or by Gaia, depending on the traditions. This myth helps us understand the deep forces that inhabit Scorpio: it is Orion's imperious sexuality that brings him the worst and the best, and ultimately reveals itself as the path of his evolution. It leads him toward rebirth, allows him to recover his sight and to access the divine world.\n\nThe animal sent to sting the overly proud hunter symbolises the telluric force that reminds man of his limits and his mortality. But death is not an end: Orion became a constellation where, according to astronomers, the gravitational concentration is the strongest in the sky, and where stars are constantly being born. The ancients made Orion a symbol of rebirth among the stars — today, science confirms that this constellation never ceases to be reborn and to give birth.",
+    "civilisations": "In ancient Egypt, the scorpion was associated with the goddess Selket, protector of the dead and guardian of the thresholds of the afterlife. In Mesopotamia, it guarded the gates of the underworld. The Aztecs linked it to Mictlantecuhtli, lord of the realm of the dead.\n\nThe Taurus–Scorpio axis, opposite and complementary signs, runs through all mythologies: the sacrifice of the bull opens the way to the transformation of the scorpion. In all traditions, Scorpio represents the process of death and rebirth, the ability to descend into the depths and to come out transformed. It is the guardian of thresholds and mysteries."
+  },
+  "portrait": {
+    "temperament": "Scorpio has a wholehearted temperament: it hates lukewarmness and pretence. Its character is secret, magnetic, often calm on the surface but seething with a contained emotional intensity. The mind is characterised by great curiosity and a deeply “inquisitorial” critical sense. Two main paths open to it: that of hidden things — the occult, criminology, depth psychology — and that of concrete applications — medicine, surgery, engineering, modern techniques.\n\nThe will is imperious, the keenness considerable, the tenacity unfailing. It is endowed with an unshakable loyalty toward those it has chosen, but can become a formidable adversary if it feels betrayed. It is very difficult to form a friendship with a Scorpio, but it remains a friend of absolute faithfulness.\n\nWhen immature, it can be manipulative or destructive; when it matures, it becomes a spiritual or psychological guide able to help others through their own crises. Morally, two extremes coexist in this sign: at the bottom of the ladder, the darkest instincts; but if education and inner culture allow it to master what is murky in this influence, one then meets superior beings, endowed with a rare consciousness and power.",
+    "forces": [
+      "Detecting the hidden and the unspoken with infallible acuity",
+      "Regenerating situations everyone believed hopeless",
+      "Keeping secrets and acting with absolute discretion",
+      "Showing immense psychological courage in the face of adversity",
+      "Turning crises into opportunities for deep evolution",
+      "Perceiving others' deep motivations without a word being spoken"
+    ],
+    "ombres": [
+      "Jealousy and possessiveness that can smother the other",
+      "Tenacious resentment and a deep difficulty in forgiving",
+      "Secret or destructive behaviours turned against oneself or others",
+      "Excessive critical sense that sterilises action and isolates",
+      "A tendency toward systematic power struggles"
+    ],
+    "besoinsVitaux": [
+      "Authenticity and absolute truth in its relationships",
+      "Living intense experiences that transform in depth",
+      "Being able to exercise its capacity for transformation on the real"
+    ],
+    "aTravailler": [
+      "Learning to grant its trust more serenely",
+      "Turning the need for control into letting go",
+      "Using its power to build rather than to destroy",
+      "Expressing its emotions instead of letting them macerate in silence",
+      "Accepting vulnerability as a strength and not as a weakness"
+    ],
+    "equilibre": "A Scorpio in full command of their powers becomes a healer of the soul, able to weather storms with a quiet strength. It embodies exemplary resilience: it knows how to die to its old patterns in order to be reborn stronger, more lucid, more free. Its power becomes magnetic and protective, offering deep emotional security to those around it. Its frankness is no longer a weapon but an act of courage, and its piercing gaze serves understanding rather than judgement."
+  },
+  "sante": {
+    "zones": ["Genital organs", "Excretory system", "Bladder", "Rectum"],
+    "texte": "Scorpio governs the genital organs, the excretory system, the bladder, the rectum and, according to some traditions, the nose. It predisposes to ailments affecting the genital and urinary sphere, to haemorrhoids, to viral diseases and to disorders linked to excess.\n\nResistance and lifespan are generally above average, despite the frequent squandering of forces. The Scorpio native possesses a remarkable capacity for recovery — it regenerates with an ease that astonishes those around it. It must, however, beware of excessive efforts, of excesses of all kinds, and of a tendency to push its body to the point of wear without heeding the warning signs."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "The most natural position for Scorpio. The critical sense is the dominant tendency, accompanied by tight argumentation and a permanent spirit of contradiction. The analysis is penetrating, the judgement quick — but it can be distorted by passion or bias. An aptitude for research in every field, sometimes an attraction to the occult sciences. The will is imperious, the keenness and tenacity considerable. A deep love of independence. Much self-control under an apparent calm, pride and ambition. The sensitivity is acute, the feelings deep — but often tinged with selfishness. Activity that is at once decisive, intense and rapid: the native cannot remain inactive and, if need be, destroys in order to rebuild. Obstacles act as a stimulant; the subject often struggles throughout life, and the results obtained are very satisfying, the fruit of enormous expenditure of energy."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "This is not a sign of luck from the standpoint of personal earnings, but the situation is nevertheless stable, even brilliant, owing to the native's great activity and relentless perseverance. Spending is fairly heavy and often impulsive. Earnings come in the professions of Scorpio or Mars: medicine, surgery, research, investigation, finance. It seems to slightly improve inheritance prospects that may exist elsewhere. The relationship to money is complex and powerful — the native sees it as a tool of power, security or transformation."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "Strongly inclines toward technical studies, medicine, chemistry, physics or psychology. Positivist tendencies and a scientific mind. The critical sense is always alert, with a natural aptitude for polemic and incisive debate. Frequent discussions with siblings, cousins, neighbours or colleagues — the exchanges are rarely lukewarm. The native excels as an investigator or polemicist. The possibility of accidents during short trips if Mars is poorly aspected."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "Unless the aspects are particularly beneficial, family complications and sometimes serious arguments must be expected, or at least relationships lacking spontaneity and warmth. Sometimes the premature loss of a parent. This position hardly favours real-estate acquisitions or peace at the end of life. Harmony at home may leave something to be desired due to deep divergences between the spouses and their respective families. Possible worries concerning an inheritance or a real-estate venture."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Predisposes to passionate whims as well as to abrupt and unforeseen romantic breakups. Jealousy is often tenacious on both sides. A position rather favourable to offspring, but children are sometimes difficult to raise, either through a lack of docility or through a predisposition to illness. Passion is the engine of creativity — when Scorpio creates, it does so with its whole being. Losses through recklessness in gambling or speculation are frequent. In artistic creation, the native is drawn to what is deep, transgressive or cathartic."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to the sign's ailments and to the afflictions of Mars. A tendency to excesses causing premature wear of the body. Subordinate work is rather painful and unpleasant, but fairly stable. If the native is self-employed, its employees are hard to govern and can periodically cause serious worries. Scorpio's rigour in daily work can become obsessive. If the dissonances are very serious, the possibility of accident or surgery."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "Marriage is often concluded impulsively. Conjugal harmony often leaves something to be desired, the arguments can be very heated, but in spite of everything the union is often lasting and ends rather in widowhood than in divorce. The partner is frequently authoritarian, jealous and aggressive. Partnerships should be entered into only with the greatest caution, for they risk causing the same tensions as marriage. One must also beware of lawsuits. Declared enemies are particularly violent and aggressive, but they act openly, which makes them fairly easy to counter."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "The natural position of Scorpio — the Eighth House is its chosen domain. In general, an indicator of an end that may come more or less prematurely depending on the severity of the dissonances. But it is also the house where Scorpio expresses its full power of metamorphosis: the ability to die to oneself in order to be reborn, to go through the deepest crises and to come out transformed. Rather favourable to inheritances if concordant indications exist elsewhere, but a risk of squandering. An intense relationship to sexuality, symbolic death and shared resources."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "Seems rather contrary to conventional philosophical or religious aspirations, but can indicate a powerful attraction to the occult, esotericism and the experiences related to them. The mind is sceptical, scientific, demanding: it believes only what it has verified for itself. Journeys are not very numerous and not always favourable — a risk of accidents or complications during travel, especially by water. A position that can nevertheless be favourable to expeditions, distant missions and immersions in unknown territory if the aspects are favourable."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "This fixed sign indicates a certain stability in the professional situation, although the first part of life sometimes experiences impulsively decided changes. It is not a sign of easy luck, but rather an indicator of success through hard work and persevering effort. The native's plans are generally very precise, and it knows how to carry them out with patience and ardour at once. A marked tendency to reorganise enterprises, to destroy in order to rebuild on more solid and vaster foundations. Ambition is very pronounced. This position sometimes produces strong political, military or scientific personalities who have had to struggle and show authority to impose themselves."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "May indicate few friends but faithful, active ones of proven loyalty. They are, however, particularly touchy, which causes cyclical fallings-out and reconciliations. If the aspects are favourable, the native can establish professionally useful relationships — solid in work, though not always pleasant on the surface. Scorpio in the Eleventh House demands absolute authenticity from its friends and does not forgive betrayal."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "Predisposes to the sign's ailments as well as to the afflictions of Mars, with a risk of hospitalisations or even surgery. The trials are deep and particularly formidable, touching the most intimate areas of existence. If the chart is globally powerful, success in a career related to medicine, psychology or research would be eased by this position. Scorpio here learns to transmute suffering into knowledge and crisis into wisdom."
+    }
+  ],
+  "amour": {
+    "texte": "Scorpio loves with an intensity that can frighten or fascinate. For it, love is a fusion, a total commitment where soul and body become one. It does not seek the light fling but the true encounter, capable of transforming it in depth.\n\nIts love life is guided by an imperious sensuality that it has the greatest difficulty mastering and channelling. Affairs are often early and numerous, but sometimes of limited duration because Scorpio is too exclusive, too authoritarian, too jealous — and sometimes manages to frighten its partner. Marriage is often delayed by an excessive desire for independence, then decided impulsively. Married life can only be calm and happy if the partner fully satisfies its needs for depth, truth and intensity.",
+    "qualites": [
+      "Total and passionate commitment, with no half-measures",
+      "Unfailing loyalty toward the one it has chosen",
+      "Rare emotional and sexual depth",
+      "The ability to support the other through the darkest moments",
+      "Absolute sincerity of feeling"
+    ],
+    "vigilances": [
+      "Sometimes smothering jealousy that can destroy the bond",
+      "An irrepressible need to test the other's faithfulness",
+      "A tendency to create dramas in order to feel intensity",
+      "A risk of total withdrawal into oneself when wounded"
+    ],
+    "affinites": ["cancer", "poissons", "vierge", "capricorne"]
+  },
+  "travail": {
+    "texte": "Scorpio works with total concentration and formidable tenacity. It excels in fields that demand investigation, composure or an understanding of hidden mechanisms — human or technical.\n\nDoctor, surgeon, pharmacist, chemist, engineer, mechanic, soldier, strategist, police officer, detective, psychologist, psychiatrist, occultist, physicist, sculptor: the professions of Scorpio all touch on transformation, the search for truth or the exercise of a power over matter or mind. It is in occupations where it can give free rein to its ardour and endurance that the native flourishes fully. Orders suit it poorly: it always tends to criticise the directives it receives before carrying them out.",
+    "atouts": [
+      "An intense capacity for work and uncommon endurance",
+      "A natural strategist who anticipates and plans several moves ahead",
+      "Resistance to stress and remarkable composure in crises",
+      "Perfectionism in the search for truth",
+      "An infallible instinct for spotting opportunities and weaknesses"
+    ],
+    "defis": [
+      "Difficulty delegating out of a visceral need for control",
+      "Frequent power struggles with the hierarchy or colleagues",
+      "A taste for secrecy that can harm teamwork",
+      "A risk of burnout through obsession with the result"
+    ]
+  },
+  "argent": {
+    "texte": "Scorpio has a complex and powerful relationship with money. It often sees it as a tool of power, security or transformation — never as an end in itself. It is very gifted at managing the resources of others, at making hidden things bear fruit, at starting over from scratch when all seems lost. Its financial flair is remarkable, but its spending can be impulsive and its risk-taking excessive when passion prevails over reason.",
+    "forces": [
+      "An excellent manager of financial crises",
+      "A remarkable flair for profitable investments",
+      "The ability to start over from scratch after a total loss",
+      "Absolute discretion about its assets and strategies"
+    ],
+    "risques": [
+      "A need for control over the partner's money",
+      "An attraction to risky speculation",
+      "A deep fear of material dependence",
+      "An extreme emotional relationship — all or nothing — with wealth"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Scorpio forges a magnetic, courageous identity inhabited by a quest for truth. The person exists through its ability to metamorphose and to probe the invisible. When well aspected, it gives great energy, unfailing courage and a deeply independent character.",
+      "manifestations": ["An iron will", "An irresistible personal magnetism", "Courage in the face of the shadow and the unknown", "A deep and uncompromising authenticity"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Scorpio (in fall) experiences emotions of extreme intensity. The need for security comes through controlling its own feelings and meticulously analysing those of others. Emotional reactions are deep, underground, hard to express but impossible to ignore.",
+      "manifestations": ["An infallible psychological instinct", "The ability to sense the unspoken", "Extraordinary emotional strength in crises", "Total devotion to loved ones"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Scorpio gives a detective's mind. Thought is penetrating, critical, sharp, and always seeks to unmask what is hidden behind words and appearances.",
+      "manifestations": ["A sense of analysis of rare depth", "Hard-hitting speech that goes straight to the heart of the matter", "A capacity for methodical investigation", "A strategic and incisive mind"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Scorpio (in exile) experiences love as a sacred drama. Feelings are deep, complex, sometimes tormented but always wholehearted. Beauty is magnetic, romantic sacrifice total, faithfulness uncompromising.",
+      "manifestations": ["A magnetic and troubling beauty", "A capacity for total romantic sacrifice", "Faithfulness beyond any trial", "A deep erotic and sensual intensity"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Scorpio is in its traditional nocturnal domicile. Action is calculated, powerful, enduring and often irresistible. Where Mars in Aries strikes fast and hard, Mars in Scorpio bides its time and strikes only once — definitively.",
+      "manifestations": ["Exemplary composure under pressure", "Exceptional tenacity that knows no surrender", "An underground and determined power of action", "An uncommon capacity for resistance"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Scorpio amplifies the need to understand the mysteries of existence and to acquire inner or financial power. Growth comes through transformation, through crisis overcome, through the descent into the depths.",
+      "manifestations": ["Growth through personal transformation", "Financial flair and business sense", "Esoteric and psychological wisdom", "Rapid regeneration after trials"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Scorpio structures emotions and the relationship to power. It gives great rigour in the exploration of the shadow and demands discipline in managing the passions.",
+      "manifestations": ["Self-mastery forged through trial", "Emotional discipline and inner control", "Absolute seriousness in investigation and research", "Unfailing reliability in moments of crisis"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Scorpio (in exaltation) produces radical revolutions and abrupt awakenings in the unconscious or in power structures. Liberation comes through crisis, rupture and the transgression of taboos.",
+      "manifestations": ["Inventive genius in the service of transformation", "The ability to break taboos and conventions", "Brutal liberation through crisis and renewal"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Scorpio seeks spiritual fusion through emotional intensity and the mysteries of existence. Intuition becomes mediumistic, inspiration draws from the deepest layers of the unconscious.",
+      "manifestations": ["Mediumistic intuition and subtle perception", "Inspiration drawn from the depths of the soul", "Passionate idealism and a mystical quest"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Scorpio is in its domicile. Here it expresses its full power of transformation, destruction and reconstruction. This is the generation that confronts society's deepest taboos and that carries within it the power to metamorphose the world.",
+      "manifestations": ["Absolute power of regeneration", "The ability to see the naked truth without looking away", "Irresistible charisma and deep magnetism", "Historic resilience in the face of collective trials"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "intense",
+      "titre": "Fire and lava",
+      "texte": "Both ruled by Mars, Aries and Scorpio share combative energy but not the rhythm. Aries charges head-on, Scorpio bides its time in the shadows. A powerful and magnetic relationship, but explosive when the wills clash.",
+      "forces": ["Immense energy and shared courage", "A strong and direct sexual attraction", "Mutual respect for each other's strength"],
+      "frictions": ["Relentless power struggles", "Aries's impatience with Scorpio's secrecy", "Scorpio's resentment of Aries's clumsiness"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "intense",
+      "titre": "The axis of possession",
+      "texte": "Opposite and complementary signs, they meet on the ground of sensuality and deep values. Taurus wants to keep and possess, Scorpio wants to transform and transcend. The attraction is often fatal — magnetic, irresistible and potentially devastating.",
+      "forces": ["Faithfulness and depth of the bond", "Shared and powerful sensuality", "Taurus's stability meeting Scorpio's intensity"],
+      "frictions": ["Extreme stubbornness on both sides", "Redoubled jealousy and possessiveness", "Taurus's materialism against Scorpio's dark idealism"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "variable",
+      "titre": "Mind and instinct",
+      "texte": "Gemini skims with lightness, Scorpio digs with intensity. They can deeply irritate each other, but Gemini is often fascinated by Scorpio's mystery, while Scorpio can find a breath of fresh air in Gemini's liveliness.",
+      "forces": ["Stimulating and varied intellectual exchanges", "Mutual curiosity about what the other represents", "Gemini brings lightness to Scorpio"],
+      "frictions": ["Scorpio finds Gemini irredeemably superficial", "Gemini feels crushed by Scorpio's heaviness", "Difficulty finding common ground of depth"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "fluide",
+      "titre": "The sea and the well",
+      "texte": "Two Water signs that understand each other without needing to speak. Cancer protects and nourishes, Scorpio transforms and deepens. An emotional union of rare intensity, founded on an intuitive understanding that defies words.",
+      "forces": ["Deep and immediate intuitive understanding", "Instinctive mutual protection", "Depth of shared feelings"],
+      "frictions": ["Withdrawal into oneself in case of a deadlocked conflict", "A shared tendency to dwell on the past", "Emotions sometimes too overwhelming on both sides"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "delicate",
+      "titre": "Light and Shadow",
+      "texte": "Two fixed signs that seek power by different routes. Leo wants to be admired in broad daylight, Scorpio wants to be influential in the shadows. A relationship of deep mutual respect or open war — never lukewarmness between these two.",
+      "forces": ["Unfailing loyalty on both sides", "Admiration for the other's strength and courage", "Shared ambition and a sense of greatness"],
+      "frictions": ["Pride and wounded honour", "An imperious need to command on each side", "An ego war that can destroy everything"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Analysis and investigation",
+      "texte": "Virgo analyses details meticulously, Scorpio relentlessly seeks the deep cause. Together, they form a duo of formidable effectiveness in the search for truth, problem-solving and precision work.",
+      "forces": ["Pragmatism allied with deep psychology", "A shared search for truth and accuracy", "Shared discretion and reliability"],
+      "frictions": ["Mutual guilt and self-criticism", "Shared and amplified anxiety", "Virgo's cold criticism against Scorpio's sharp sarcasm"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Harmony and Truth",
+      "texte": "Libra wants everything to be beautiful and harmonious, Scorpio wants everything to be true and deep. They must make significant compromises about their vision of reality in order to find common ground.",
+      "forces": ["A fertile balance between gentleness and intensity", "Libra soothes Scorpio's storms", "Scorpio gives relief and depth to Libra"],
+      "frictions": ["Scorpio hates Libra's indecision", "Libra fears Scorpio's devouring intensity", "Pretence against raw truth"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "fluide",
+      "titre": "The mirror of the depths",
+      "texte": "Two Scorpios together live a relationship of unequalled intensity. It is heaven or hell, with no possible middle ground. Each sees in the other its own reflection — its most admirable strengths and its most feared shadow zones.",
+      "forces": ["Total understanding of the other's intensity", "Absolute passion and unreserved commitment", "Unfailing loyalty and the complicity of the depths"],
+      "frictions": ["An atmosphere sometimes too heavy and too intense", "Crossed jealousy and reciprocal suspicion", "Difficulty forgiving one's own mirror"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "variable",
+      "titre": "The shadow and the arrow",
+      "texte": "Scorpio looks into the depths, Sagittarius looks toward the horizons. They can bring each other a great deal if they accept their fundamental differences: the depth of one and the flight of the other.",
+      "forces": ["Raw sincerity on both sides", "Sagittarius brings optimism and lightness", "Scorpio brings depth and grounding"],
+      "frictions": ["Scorpio finds Sagittarius naive and reckless", "Sagittarius feels imprisoned by Scorpio", "A need for freedom against a need for control"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "fluide",
+      "titre": "The rock and the abyss",
+      "texte": "A very solid relationship, built on seriousness, ambition and resistance to time. Capricorn structures, Scorpio transforms. They build together in time and silence, with a patience that commands respect.",
+      "forces": ["Stability and depth of the bond", "Mutual respect for ambition and work", "Shared composure in the face of trials"],
+      "frictions": ["An apparent lack of warmth and lightness", "Excessive rigour that can dry up the relationship", "A shared tendency to bury themselves in work"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "delicate",
+      "titre": "Instinct and reason",
+      "texte": "Scorpio is visceral and passionate, Aquarius is cerebral and detached. Their needs for independence are expressed in radically different ways, creating fundamental misunderstandings about the very nature of intimacy.",
+      "forces": ["Originality and depth combined", "A shared interest in change and revolution", "Independence of mind on both sides"],
+      "frictions": ["Scorpio wants to merge, Aquarius wants space", "Aquarius's emotional coldness wounding Scorpio", "Scorpio's need for control smothering Aquarius"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "fluide",
+      "titre": "The bottomless ocean",
+      "texte": "A mystical and emotional connection of dizzying depth. Scorpio gives direction and structure to the oceanic sensitivity of Pisces. Pisces offers Scorpio gentleness, forgiveness and access to a spiritual world without borders.",
+      "forces": ["Rare emotional and spiritual fusion", "Shared intuition and understanding beyond words", "Romantic love of abyssal depth"],
+      "frictions": ["A risk of mutual emotional dependence", "A lack of realism and flight into the imaginary", "A shared difficulty in facing concrete problems"]
+    }
+  ],
+  "ascendant": {
+    "texte": "With a Scorpio Ascendant, you approach the world with a palpable intensity and an observant caution. Your first reaction is always to probe the environment to perceive its hidden currents before revealing yourself. Even if your Sun is in another sign, your way of entering situations carries a Scorpionic tone: magnetic, piercing, secret.",
+    "apparence": [
+      "An intense and penetrating gaze that seems to read through people",
+      "A natural magnetism that leaves no one indifferent",
+      "An often dark, elegant or mysterious bearing",
+      "A facial expression that perfectly controls what it lets show"
+    ],
+    "temperament": [
+      "Reacts with great instinctive acuity to any situation",
+      "A deep need to control its image and its environment",
+      "A strong will concealed beneath an apparent calm",
+      "An initial scepticism that demands proof of sincerity before any trust"
+    ],
+    "vigilances": [
+      "An excessively defensive attitude that isolates",
+      "A tendency toward a paranoid reading of others' intentions",
+      "Withholding information out of a need for power",
+      "A need for control over others that can become tyrannical",
+      "A deep difficulty in relaxing and letting go"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Antares",
+      "nature": "Mars / Jupiter",
+      "texte": "The 'Heart of the Scorpion'. This royal star gives an immense life force but warns against excesses of aggressiveness and hubris. It promises dazzling success on condition that one masters one's impulses and is not consumed by one's own intensity.",
+      "motsCles": ["Intensity", "Success through struggle", "Devouring passion", "Radical transformation"]
+    },
+    {
+      "nom": "Unukalhai",
+      "nature": "Mars / Saturn",
+      "texte": "Located in the constellation of the Serpent, this star evokes knowledge acquired through pain or crisis, and the ability to heal after confronting one's own demons. It speaks of the wisdom born from the trial endured.",
+      "motsCles": ["Wisdom acquired through trial", "Knowledge of the depths", "Inner healing", "Transformation through pain"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Obsidian", "motsCles": ["protection", "truth", "transformation", "grounding"] },
+      { "nom": "Garnet", "motsCles": ["passion", "will", "energy", "faithfulness"] },
+      { "nom": "Lead or Iron", "motsCles": ["resistance", "strength", "depth", "weight"] }
+    ],
+    "vegetaux": [
+      { "nom": "Basil", "motsCles": ["passion", "protection", "strength", "cleansing"] },
+      { "nom": "Aloe", "motsCles": ["healing", "resilience", "protection", "bitterness"] },
+      { "nom": "Bramble", "motsCles": ["defence", "stubbornness", "mystery", "reward"] }
+    ],
+    "animaux": [
+      { "nom": "Scorpion", "motsCles": ["vigilance", "defence", "power", "instinct"] },
+      { "nom": "Snake", "motsCles": ["moulting", "wisdom", "rebirth", "mystery"] },
+      { "nom": "Eagle / Phoenix", "motsCles": ["elevation", "vision", "transmutation", "triumph"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Morocco", "texte": "Associated with Scorpio for its intensity, its mysteries, its deep colours and a strength of tradition and resistance." },
+    { "pays": "Norway", "texte": "Linked to Scorpio through its landscapes of deep fjords and a temperament renowned for its resilience and inwardness." },
+    { "pays": "Algeria", "texte": "Cited for its strength of character, its history marked by deep transformations and its restrained passion." },
+    { "pays": "Iceland", "texte": "A land of fire and ice, of volcanoes and underground springs, it embodies the Plutonian dynamic of Scorpio." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Leonardo DiCaprio", "domaine": "Film", "date": "November 11, 1974", "texte": "Embodies Scorpio's intensity through roles of tormented, complex and passionate characters." },
+    { "nom": "Sophie Marceau", "domaine": "Film", "date": "November 17, 1966", "texte": "An example of deep magnetism, of a presence at once strong and secret, and of a beauty that fascinates." },
+    { "nom": "Bill Gates", "domaine": "Technology / Philanthropy", "date": "October 28, 1955", "texte": "Represents the strategist side of Scorpio, the power to transform the world and the spirit of research." },
+    { "nom": "Alain Delon", "domaine": "Film", "date": "November 8, 1935", "texte": "An emblematic figure of dark magnetism, of Scorpio's solitude and of a career built on intensity." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Scorpio?",
+      "reponse": "Scorpio is characterised by intensity, depth, magnetism and a permanent quest for truth. It is a wholehearted, secret temperament endowed with unshakable loyalty toward those it has chosen and immense psychological courage. It hates lukewarmness and pretence. Its critical sense is sharp, its tenacity unfailing, and its capacity for transformation remarkable."
+    },
+    {
+      "question": "Is Scorpio really mean?",
+      "reponse": "No, this reputation is exaggerated. Scorpio actually possesses an immense reserve of energy that it does not always know how to use, so that it can turn against itself or against others. When it does inner work, it becomes an excellent psychologist, able to understand and heal others. Its emotional depth, misunderstood from the outside, is in reality one of its greatest strengths."
+    },
+    {
+      "question": "What kind of work suits Scorpio?",
+      "reponse": "Scorpio excels in professions that demand investigation, composure or an understanding of hidden mechanisms: medicine, surgery, psychology, scientific research, investigation, police work, strategy, finance. It needs to feel invested with a mission and works with a concentration and tenacity that few other signs can match."
+    },
+    {
+      "question": "Why is Scorpio so secretive?",
+      "reponse": "Secrecy is a mechanism of protection and power for Scorpio. A fixed Water sign, it experiences emotions of extreme intensity that it prefers to keep to itself rather than expose to a world it often judges superficial. Its natural mistrust drives it to observe at length before revealing itself. For it, trust is earned — it is never given freely."
+    },
+    {
+      "question": "What is the ideal Ascendant for Scorpio?",
+      "reponse": "A Pisces Ascendant softens its intensity through intuition. A Cancer Ascendant offers it deep emotional security. A Capricorn Ascendant channels its power into a structured ambition."
+    },
+    {
+      "question": "What are the flaws of Scorpio?",
+      "reponse": "Possessive jealousy, tenacious resentment, a need for control and a tendency to manipulation. These shadows are born of a poorly channelled emotional intensity which, worked on, becomes a force of transformation."
+    },
+    {
+      "question": "Is Scorpio resentful?",
+      "reponse": "Scorpio has an exceptional emotional memory and forgives betrayal with difficulty. Its resentment comes from a wounded loyalty. As it matures, it learns to transmute this energy into conscious letting go."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "soleil",
+    "name": "Sun",
+    "headline": "The Sun represents the centre",
+    "description": "Identity, will and what gives you direction. It speaks of what you seek to become, and of how you want to feel fully yourself.",
+    "image": {
+      "src": "/images/planetes/soleil.webp",
+      "alt": "Astrological symbol of the Sun"
+    }
+  },
+  {
+    "slug": "lune",
+    "name": "Moon",
+    "headline": "The Moon represents the inner world",
+    "description": "Emotions, needs and emotional security. It describes how you react spontaneously and what soothes you when you feel vulnerable.",
+    "image": {
+      "src": "/images/planetes/lune.webp",
+      "alt": "Astrological symbol of the Moon"
+    }
+  },
+  {
+    "slug": "mercure",
+    "name": "Mercury",
+    "headline": "Mercury represents thought & language",
+    "description": "The way of understanding, analysing and communicating. It shows how ideas circulate and how you make sense of what you observe.",
+    "image": {
+      "src": "/images/planetes/mercure.webp",
+      "alt": "Astrological symbol of Mercury"
+    }
+  },
+  {
+    "slug": "venus",
+    "name": "Venus",
+    "headline": "Venus represents bonds & values",
+    "description": "What attracts, what pleases and what creates harmony. It speaks of love, attachments and the way you enter into relationships.",
+    "image": {
+      "src": "/images/planetes/venus.webp",
+      "alt": "Astrological symbol of Venus"
+    }
+  },
+  {
+    "slug": "mars",
+    "name": "Mars",
+    "headline": "Mars represents drive & assertion",
+    "description": "The energy of action, desire and the ability to assert oneself. It shows how you take action and how you defend your territory.",
+    "image": {
+      "src": "/images/planetes/mars.webp",
+      "alt": "Astrological symbol of Mars"
+    }
+  },
+  {
+    "slug": "jupiter",
+    "name": "Jupiter",
+    "headline": "Jupiter represents expansion & meaning",
+    "description": "Learning, growth and the bigger picture. It indicates where you seek to understand, explore and give meaning to your path.",
+    "image": {
+      "src": "/images/planetes/jupiter.webp",
+      "alt": "Astrological symbol of Jupiter"
+    }
+  },
+  {
+    "slug": "saturne",
+    "name": "Saturn",
+    "headline": "Saturn represents structure & time",
+    "description": "Limits, responsibilities and patient construction. It shows how experience and effort allow us to grow solid.",
+    "image": {
+      "src": "/images/planetes/saturne.webp",
+      "alt": "Astrological symbol of Saturn"
+    }
+  },
+  {
+    "slug": "uranus",
+    "name": "Uranus",
+    "headline": "Uranus represents change & freedom",
+    "description": "Rupture, independence and awakening. It indicates where the need arises to break out of frameworks to recover authenticity.",
+    "image": {
+      "src": "/images/planetes/uranus.webp",
+      "alt": "Astrological symbol of Uranus"
+    }
+  },
+  {
+    "slug": "neptune",
+    "name": "Neptune",
+    "headline": "Neptune represents the ideal & sensitivity",
+    "description": "Inspiration, imagination and compassion. It also speaks of the blurred zones where discernment becomes necessary.",
+    "image": {
+      "src": "/images/planetes/neptune.webp",
+      "alt": "Astrological symbol of Neptune"
+    }
+  },
+  {
+    "slug": "pluton",
+    "name": "Pluto",
+    "headline": "Pluto represents deep transformation",
+    "description": "Crises, questioning and regeneration. It shows what must be gone through to allow an inner renewal.",
+    "image": {
+      "src": "/images/planetes/pluton.webp",
+      "alt": "Astrological symbol of Pluto"
+    }
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "affliction",
+    "category": "concept",
+    "term": "Affliction",
+    "short": "A planet that is badly aspected or placed in a position of weakness.",
+    "body": "A planet is said to be “afflicted” when it receives tense aspects (square, opposition) from malefic planets, or when it stands in detriment or fall. Affliction is not a punishment but rather the sign of a psychological function that meets obstacles and that requires particular conscious effort to be integrated in a positive way."
+  },
+  {
+    "slug": "aigle",
+    "category": "constellation",
+    "term": "Eagle (Aquila)",
+    "short": "A zodiacal constellation associated with vision, courage and protection.",
+    "body": "The Eagle is a minor constellation of the zodiac, lying between the constellations of Capricorn and Aquarius. In astrology, it is often associated with the sign of Scorpio because of its position close to the ecliptic. The Eagle symbolizes piercing vision, courage and protection. Its influence can indicate an ability to see beyond appearances, to show bravery in the face of challenges and to protect what is precious."
+  },
+  {
+    "slug": "alcyon",
+    "category": "constellation",
+    "term": "Alcyone",
+    "short": "A cluster of stars in the constellation of Taurus, symbolizing gentleness and maternal protection.",
+    "body": "Alcyone refers to a group of stars in the constellation of Taurus, also known as the Pleiades. In astrology, they are associated with gentleness, maternal protection and family harmony. Their influence can indicate a tendency to seek emotional security, to nurture close relationships and to show compassion toward others."
+  },
+  {
+    "slug": "alexandre-volguine",
+    "category": "personnage",
+    "term": "Alexandre Volguine",
+    "short": "Astrologer of Russian origin (1903–1976), a central figure of scholarly astrology in France and a specialist in solar returns.",
+    "body": "Alexandre Volguine is one of the greatest theorists of French-language astrology. Founder of the celebrated review “Les Cahiers Astrologiques” in 1937, he worked throughout his life to lift astrology out of charlatanism by restoring a solid technical and historical foundation to it. His major work, “The Technique of Solar Returns,” remains the absolute reference for the study of the birthday chart. We also owe him a complex method for calculating the “Lord of the Nativity” (based on a system of points) and in-depth research on the lunar mansions and the Arabic parts. His approach is a unique synthesis of medieval tradition and the demands of modern analysis."
+  },
+  {
+    "slug": "algol",
+    "category": "constellation",
+    "term": "Algol (The Head of Medusa)",
+    "short": "A star in the constellation of Perseus, renowned for its violence or raw power.",
+    "body": "Algol (located at 26° Taurus) is often considered the most malefic star in the sky. It represents a primal, passionate and potentially destructive energy. However, modern astrology also sees in it an indomitable force of feminine resistance (Medusa). Conjunct a planet, it indicates a zone of tension where the individual must learn to master very powerful instincts."
+  },
+  {
+    "slug": "aldebaran",
+    "category": "constellation",
+    "term": "Aldebaran (The Eye of Taurus)",
+    "short": "A star in the constellation of Taurus, associated with vision, courage and protection.",
+    "body": "Aldebaran is one of the four “Royal Stars of Persia.” Located at 9° of the sign of Taurus, it is often associated with a piercing gaze, courage and protection. In mundane astrology, its transit over a sensitive point of a chart can indicate a period of great clarity or public recognition. However, it can also signal conflicts linked to pride or rivalry."
+  },
+  {
+    "slug": "almuten",
+    "category": "concept",
+    "term": "Almuten",
+    "short": "The most powerful planet of a chart or of a specific point, based on the calculation of dignities.",
+    "body": "The Almuten (from the Arabic 'al-mutaizz', the winner) is the planet that accumulates the most dignity points (domicile, exaltation, triplicity, term, decan) over a given degree. One can calculate the Almuten of a house, of a planet, or of the entire chart (the Almuten Figuris). It is an indicator of real strength that can sometimes supersede the simple ruler of the Ascendant in analyzing an individual's capacity for action."
+  },
+  {
+    "slug": "andre-barbault",
+    "category": "personnage",
+    "term": "André Barbault",
+    "short": "French astrologer (1921–2019), pioneer of modern mundane astrology.",
+    "body": "A dominant figure of the 20th century, André Barbault renewed the study of planetary cycles applied to collective history. He is famous for having predicted, with remarkable precision, the fall of the Soviet Union as early as the 1950s, based on the Saturn–Neptune cycle. He also worked toward the unification of astrology and psychoanalysis."
+  },
+  {
+    "slug": "androgynie",
+    "category": "concept",
+    "term": "Androgyny",
+    "short": "A blend of masculine and feminine energies within a chart, indicating a balanced or fluid personality.",
+    "body": "Androgyny in astrology manifests through a balanced distribution or a mixed dominance of masculine signs and planets (Fire, Air) and feminine ones (Earth, Water). An androgynous chart can indicate a personality that harmoniously integrates the qualities of action and reflection, introversion and extroversion, logic and emotion. This can translate into great adaptability, an ability to understand different perspectives and a nuanced approach to life."
+  },
+  {
+    "slug": "air",
+    "category": "concept",
+    "term": "Air",
+    "short": "One of the four elements: communication, intellect, exchange and abstraction.",
+    "body": "The element of Air encompasses the signs of Gemini, Libra and Aquarius. It represents the world of ideas, communication, social relationships and abstract thought. Natives marked by Air need to exchange, to understand, to connect concepts with one another. They excel in language, diplomacy and networking. Air is the breath that carries ideas from one mind to another — without it, the elements remain isolated. Its quality is hot and moist. In excess, Air can produce instability, superficiality or an excessive intellectualization of the emotions. A chart lacking Air may signal difficulty in stepping back, in communicating one's ideas or in forming light social bonds. In classical astrology, the three Air signs form the trine of the intellect."
+  },
+  {
+    "slug": "alchocoden",
+    "category": "concept",
+    "term": "Alchocoden",
+    "short": "The planet that, through its dignities over the Hyleg, determines the symbolic length of life.",
+    "body": "The Alchocoden (from the Arabic “al-kadkhudah,” the master of the house) is the technical partner of the Hyleg. While the Hyleg designates the vital point, the Alchocoden is the planet that holds the most dignities (rulership, exaltation, etc.) over that point. In ancient astrology, it was used to calculate longevity: according to its strength and its aspects, it “granted” a certain number of years (lesser, middle or greater periods). It is the true “steward” of vital energy, showing how the individual manages his health capital over the long term."
+  },
+  {
+    "slug": "amas-planetaires",
+    "category": "planète",
+    "term": "Planetary Cluster (Stellium)",
+    "short": "A concentration of three or more planets in the same sign or the same house.",
+    "body": "A planetary cluster creates a massive focus of energy that often dominates the entire natal chart. It indicates a life mission focused on one specific area. The individual possesses a natural expertise or obsession linked to the symbols of the cluster. It is a point of strength but also of vulnerability, since any major transit over this zone affects several planetary functions simultaneously."
+  },
+  {
+    "slug": "anarete",
+    "category": "concept",
+    "term": "Anareta",
+    "short": "The destructive planet or point in a natal chart.",
+    "body": "The Anareta is the point opposed to the Hyleg (the giver of life). In the ancient techniques for calculating longevity, the Anareta represents the force that “cuts” the thread of life. It is often the malefic planet (Mars or Saturn) that forms the most dangerous aspect to the Hyleg. Today, this concept is used in a more symbolic way to designate vital challenges or crises of profound transformation."
+  },
+  {
+    "slug": "anatapex",
+    "category": "astronomique",
+    "term": "Antapex",
+    "short": "The point opposite the solar Apex, marking the direction from which the Sun is moving away.",
+    "body": "In astronomy and galactic astrology, the antapex is the point on the celestial sphere from which the Sun is moving away in its proper motion relative to the neighboring stars. It generally lies in the constellation of Columba. Symbolically, it can represent galactic origins or the point of withdrawal in an analysis of the soul's cosmic trajectory."
+  },
+  {
+    "slug": "annee-siderale",
+    "category": "astronomique",
+    "term": "Sidereal Year",
+    "short": "The duration of the Earth's revolution relative to the fixed stars.",
+    "body": "The sidereal year lasts about 365.256 days. It is slightly longer than the tropical (seasonal) year by roughly 20 minutes. This small constant discrepancy is the cause of the precession of the equinoxes and of the difference between the zodiacs."
+  },
+  {
+    "slug": "antarete",
+    "category": "concept",
+    "term": "Antareta",
+    "short": "The planet or point of disintegration in a natal chart.",
+    "body": "The Antareta is the point opposed to the Almuten Figuris (the most powerful planet of the chart). It is the force that opposes the maximum expression of the personality. It can indicate the zones of weakness, the blockages or the major trials that the individual must face in order to evolve. Like the Anareta, the Antareta is often associated with malefic planets, but it can also concern any planet depending on the configuration of the chart."
+  },
+  {
+    "slug": "antares",
+    "category": "astronomique",
+    "term": "Antares",
+    "short": "The Royal Star of Scorpio (located at 9° Sagittarius), nicknamed “the rival of Mars.”",
+    "body": "Antares (Anti-Ares) is the heart of the constellation of Scorpius. It is one of the four Royal Stars of Persia, the guardian of the West. Its nature is martial and jovian. It confers an immense force of will, a combative spirit and success through boldness. However, its influence carries a risk of destruction or sudden downfall if the individual acts with cruelty or impulsiveness. It symbolizes the cycle of death and rebirth, the ability to regenerate after a major crisis."
+  },
+  {
+    "slug": "antisces",
+    "category": "concept",
+    "term": "Antiscia",
+    "short": "Points of symmetrical reflection relative to the solstitial axis (Cancer/Capricorn).",
+    "body": "The antiscion of a planet is its “shadow” or its mirror point. Two planets related by antiscion share a hidden affinity, even without a visible aspect. It is a subtle technique of Hellenistic and medieval astrology."
+  },
+  {
+    "slug": "aphelie",
+    "category": "astronomique",
+    "term": "Aphelion",
+    "short": "The point where the Earth is farthest from the Sun.",
+    "body": "The Earth's aphelion occurs in early July. Astronomically, it is the moment when the Earth's speed is at its slowest. In astrology, this subtly influences the overall temperament of the sign of Cancer, lending it a dimension of detachment and maturation."
+  },
+  {
+    "slug": "apoastre",
+    "category": "astronomique",
+    "term": "Apoapsis",
+    "short": "The point of an orbit where the distance from the central body is at its maximum.",
+    "body": "Apoapsis is the generic term. For the Earth around the Sun, we speak of aphelion; for the Moon around the Earth, we speak of apogee. In astrology, a planet at its apoapsis is at its minimum speed. Symbolically, this can indicate detachment, a stepping back, or a cooler and more reflective expression of the planetary energy."
+  },
+  {
+    "slug": "apogee",
+    "category": "astronomique",
+    "term": "Apogee",
+    "short": "The point farthest from the Earth in the lunar orbit.",
+    "body": "It is at the lunar apogee that the position of Black Moon Lilith is calculated. Astronomically, the Moon is smaller and slower there. Symbolically, the apogee represents a point of emptiness, of the absolute and of detachment from earthly biological necessities."
+  },
+  {
+    "slug": "application",
+    "category": "concept",
+    "term": "Application",
+    "short": "The moment when a planet approaches the exact aspect with another.",
+    "body": "Application occurs when a faster planet moves toward the exact degree of an aspect with a slower planet. In astrology, an applying aspect is considered far more powerful and active than a separating one, because the energy is in a phase of growth and the event or character trait is still in the making. It is a fundamental criterion in horary astrology for determining whether an action will come to pass."
+  },
+  {
+    "slug": "archetype",
+    "category": "concept",
+    "term": "Archetype",
+    "short": "A universal symbolic model present in the collective unconscious.",
+    "body": "A concept popularized by Carl Jung, the archetype is the basic structure that gives shape to astrological symbols. The planets are archetypes of psychological functions (the Warrior for Mars, the Sage for Jupiter). Astrology is the study of the geometry of these archetypes and of the way they interact to form a unique personality."
+  },
+  {
+    "slug": "ascendant",
+    "category": "concept",
+    "term": "Ascendant",
+    "short": "The zodiac sign rising on the horizon at the exact moment of birth.",
+    "body": "The Ascendant (abbreviated AC or ASC) is one of the most important points of the natal chart. It represents the cusp of the first house and defines the way a person presents to the world, their physical appearance, their spontaneous reflexes and the first impression they give to others. Unlike the Sun sign — which describes the deep identity — the Ascendant is the social mask, the gateway to the personality. It shifts by about one degree every four minutes, which makes a precise birth time indispensable in order to calculate it correctly. A native may have the Sun in Aries and an Ascendant in Pisces: inwardly they will be driven and combative, yet they will appear gentle, dreamy and elusive at first glance. The Ascendant also colors the interpretation of all the houses of the chart, since it determines their distribution among the signs."
+  },
+  {
+    "slug": "aspect",
+    "category": "aspect",
+    "term": "Aspect",
+    "short": "The angle formed between two planets, determining the nature of their energetic relationship.",
+    "body": "An aspect is a geometric angle measured in degrees between two planets (or sensitive points) in the natal chart. Aspects define how planetary energies interact: in harmony, in tension or in fusion. The major aspects are the conjunction (0°), the sextile (60°), the square (90°), the trine (120°) and the opposition (180°). The minor aspects include the semi-square (45°), the sesquiquadrate (135°), the quincunx (150°) and others. Traditionally, a distinction is made between harmonious aspects (trine, sextile), which ease the expression of the energies, and tense aspects (square, opposition), which create friction but also dynamism. A chart without tense aspects often lacks motivation; a chart without harmonious aspects can make the inner life difficult. The fine interpretation of a chart rests largely on reading the aspects and their orbs."
+  },
+  {
+    "slug": "astrologie-genethliaque",
+    "category": "branche",
+    "term": "Genethliacal Astrology",
+    "short": "The branch of astrology devoted to the study of birth and individual destiny.",
+    "body": "Genethliacal astrology is the heart of modern practice. It holds that the chart drawn for the moment and place of the first breath contains the developmental potential of the individual (character, aptitudes, challenges, health, destiny). It combines psychological analysis (who am I?) with event-based analysis (what will happen to me?). It rests on the natal chart of the sky, also called the Radix."
+  },
+  {
+    "slug": "astrologie-horaire",
+    "category": "branche",
+    "term": "Horary Astrology",
+    "short": "The discipline that allows a precise question to be answered through the chart of the moment.",
+    "body": "Horary astrology is one of the oldest and most rigorous forms of astrology. It does not require the consultant's natal chart. The astrologer draws the chart of the sky at the precise moment they receive and understand a clear question (e.g., “Will I sell my house?”). It uses very strict rules of interpretation based on the rulerships and the movement of the Moon to provide an affirmative or negative answer."
+  },
+  {
+    "slug": "astrologie-karmique",
+    "category": "branche",
+    "term": "Karmic Astrology",
+    "short": "An evolutionary approach linked to the concept of reincarnation and the lessons of the soul.",
+    "body": "Karmic astrology analyzes the natal chart through the lens of the soul's continuity. It places capital importance on the Lunar Nodes, the retrograde planets and the twelfth house. It seeks to answer questions about the spiritual past (what have I learned?) and the present obligations of growth (what must I transform?). It is a psychospiritual approach centered on the liberation from old patterns."
+  },
+  {
+    "slug": "astrologie-medicale",
+    "category": "branche",
+    "term": "Medical Astrology",
+    "short": "A system of correspondences between the heavenly bodies and the anatomical or pathological functions.",
+    "body": "Historically inseparable from medicine until the 17th century, this branch associates each sign and each planet with a part of the body or a biological system (e.g., Aries rules the head, Mars rules iron and inflammation). The analysis of the chart makes it possible to identify constitutional predispositions and periods of fragility through the transits over the vital points (Hyleg, sixth house)."
+  },
+  {
+    "slug": "astrologie-meteorologique",
+    "category": "branche",
+    "term": "Meteorological Astrology",
+    "short": "The branch of astrology that forecasts climatic changes and the weather.",
+    "body": "Also called astrometeorology, it relies on the solar ingresses (solstices and equinoxes) and the lunar phases to determine periods of drought, rain or cold. Once widely used by farmers, it is based on the thermal nature of the planets (Mars/heat, Saturn/cold)."
+  },
+  {
+    "slug": "astrophysique",
+    "category": "astronomique",
+    "term": "Astrophysics",
+    "short": "The study of the physical properties of celestial objects.",
+    "body": "Astrophysics provides the precise data (positions, magnitudes, orbits) needed to calculate ephemerides. Although it often stands in opposition to astrology on the level of interpretation, it is its indispensable technical foundation for guaranteeing the mathematical accuracy of a chart of the sky."
+  },
+  {
+    "slug": "astro-psychologie",
+    "category": "branche",
+    "term": "Astro-psychology",
+    "short": "A discipline marrying astrology to the concepts of modern psychology.",
+    "body": "This branch does not seek to predict the future but to decode the structure of the psyche. It views the natal chart as a map of the unconscious and of the potentials for growth. It integrates notions of psychoanalysis to help the individual resolve their inner conflicts and realize their “Self.”"
+  },
+  {
+    "slug": "apex",
+    "category": "technique",
+    "term": "Apex",
+    "short": "The focal planet of a geometric configuration such as a T-square or a Yod.",
+    "body": "The Apex is the planet that receives and must channel all the energy of an aspect figure. In a T-square, it is the planet at the summit that is double-square to the other two in opposition. It represents the discharge point for the stress of the figure and often becomes the main engine of the individual's concrete success. Mastering the energy of the Apex is the key to resolving the chart's internal tensions."
+  },
+  {
+    "slug": "arc",
+    "category": "technique",
+    "term": "Arc",
+    "short": "A portion of a circle measuring the distance between two points of the chart.",
+    "body": "The arc is the unit of measurement of astrological movement, expressed in degrees, minutes and seconds. It is used in particular in the technique of the Solar Arc, a predictive method in which all the points of the chart are advanced by the distance traveled by the Sun each day (about 1° per year). The arc thus expresses the progression of time through geometry."
+  },
+  {
+    "slug": "astre",
+    "category": "astronomique",
+    "term": "Heavenly Body",
+    "short": "A generic term designating any celestial body used in astrology.",
+    "body": "In astrology, the term “heavenly body” encompasses the planets and the luminaries (Sun, Moon), but also the asteroids and the major fictitious points. Each heavenly body is a receiver and an emitter dedicated to a specific psychological function (e.g., Mercury for the mind). Their relative position on the ecliptic at the moment of an event forms the basis of astrological calculation."
+  },
+  {
+    "slug": "asteroide",
+    "category": "astronomique",
+    "term": "Asteroid",
+    "short": "A small rocky body of the solar system whose use enriches modern interpretation.",
+    "body": "Beyond the traditional planets, astrologers use asteroids (located mainly between Mars and Jupiter) to refine psychological reading. The most widely used are Ceres, Pallas, Juno and Vesta. They bring additional nuances regarding the feminine, strategy, devotion and the capacities for care. Their integration allows for a finer reading of modern archetypes."
+  },
+  {
+    "slug": "astrologie-humaniste",
+    "category": "branche",
+    "term": "Humanistic Astrology",
+    "short": "An approach centered on the development of the person and the meaning of existence.",
+    "body": "Founded by Dane Rudhyar in the 20th century, this approach turns away from prediction to focus on psychological growth. The natal chart is no longer seen as a fate, but as a roadmap for the flourishing of human potential. It integrates concepts of analytical psychology (Jung) and places the individual at the center of their own destiny."
+  },
+  {
+    "slug": "astrologie-mondiale",
+    "category": "branche",
+    "term": "Mundane Astrology",
+    "short": "The study of collective cycles, nations, politics and planetary events.",
+    "body": "Mundane astrology is the oldest branch of the discipline. It analyzes the great conjunctions (such as the Saturn–Pluto cycle) to forecast geopolitical transformations, economic crises or societal revolutions. Unlike individual astrology, it works on the charts of capitals, of leaders or of the founding dates of States."
+  },
+  {
+    "slug": "astrologie-scientifique",
+    "category": "branche",
+    "term": "Scientific Astrology",
+    "short": "An attempt to validate astrology through statistical and observational methods.",
+    "body": "This branch seeks to isolate measurable correlations between planetary positions and character traits or professional destinies. The most famous works are those of Michel Gauquelin on “the Mars effect” among athletes. It often rejects the most symbolic or esoteric aspects in order to focus on what is mathematically verifiable."
+  },
+  {
+    "slug": "astrologue",
+    "category": "concept",
+    "term": "Astrologer",
+    "short": "A practitioner who interprets celestial positions in order to advise or analyze.",
+    "body": "The astrologer combines technical skills (calculation and basic astronomy) with faculties of synthesis and empathy. Their role is to decode the symbolic language of the sky in order to make it understandable and useful to the consultant. They must observe a strict ethic, avoiding absolute determinism and preserving free will."
+  },
+  {
+    "slug": "atlas",
+    "category": "technique",
+    "term": "Atlas",
+    "short": "A collection of geographic coordinates used to draw up an exact chart.",
+    "body": "In astrology, the Atlas is indispensable for determining the latitude and longitude of a place of birth, as well as the time zone in effect on the given date. Without these coordinates, the calculation of the houses and of the Ascendant would be impossible. Today, this data is built into astrological software."
+  },
+  {
+    "slug": "autorite",
+    "category": "concept",
+    "term": "Authority",
+    "short": "The principle of power and structure, mainly associated with Saturn and the Midheaven.",
+    "body": "Authority in a chart indicates how the individual positions themselves in relation to the law, to hierarchies and to their own capacity for command. It is governed by Saturn (authority through structure and time) and the Sun (authority through personal radiance). The tenth house rules the public expression of this authority."
+  },
+  {
+    "slug": "axe",
+    "category": "concept",
+    "term": "Axis",
+    "short": "A line connecting two opposite points of the chart, creating a field of complementary tension.",
+    "body": "A chart is structured by major axes: the horizontal axis (Ascendant–Descendant / Self–Other) and the vertical axis (Midheaven–Imum Coeli / public life–private life). Interpretation by axis makes it possible to understand that two opposite houses function as the two faces of the same coin."
+  },
+  {
+    "slug": "ayanamsa",
+    "category": "astronomique",
+    "term": "Ayanamsa",
+    "short": "The angle of offset between the tropical zodiac and the sidereal zodiac.",
+    "body": "Owing to the precession of the equinoxes, the vernal point (0° tropical Aries) drifts backward relative to the stars. The ayanamsa is the value of this offset (about 24° today). It is the indispensable tool for converting a Western chart into a Hindu (sidereal) chart. The Lahiri ayanamsa is the one most widely used by practitioners."
+  }
+]

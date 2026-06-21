@@ -2,6 +2,8 @@
    HeroHomePage — Server Component (zero client JS)
    ════════════════════════════════════════════════════════════════ */
 
+import { getTranslations } from "next-intl/server";
+
 /** Inline sparkle icon — avoids shipping lucide-react to the client */
 function SparkleIcon({ className }: { className?: string }) {
   return (
@@ -24,7 +26,8 @@ function SparkleIcon({ className }: { className?: string }) {
   );
 }
 
-export default function HeroHomePage() {
+export default async function HeroHomePage() {
+  const t = await getTranslations("home");
   return (
     <section
       aria-labelledby="hero-title"
@@ -34,7 +37,7 @@ export default function HeroHomePage() {
         {/* ── Badge ────────────────────────────────────── */}
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[.25em] text-violet-300 backdrop-blur-md">
           <SparkleIcon className="size-3.5 text-amber-300" />
-          <span>L'Académie Astro Cours</span>
+          <span>{t("badge")}</span>
         </div>
 
         {/* ── Heading ─────────────────────────────────── */}
@@ -42,46 +45,35 @@ export default function HeroHomePage() {
           id="hero-title"
           className="mb-12 pt-8 font-serif text-4xl leading-[1.1] text-white md:text-5xl lg:text-6xl"
         >
-          Apprendre l'astrologie de manière{" "}
-          <span className="italic text-violet-300">claire et structurée.</span>
+          {t.rich("heroTitle", {
+            em: (chunks) => (
+              <span className="italic text-violet-300">{chunks}</span>
+            ),
+          })}
         </h1>
       </div>
 
       {/* ── Body copy ─────────────────────────────────── */}
       <div className="space-y-7 text-[17px] leading-relaxed text-slate-300 md:text-lg">
         <p className="first-letter:float-left first-letter:pr-3.5 first-letter:font-serif first-letter:text-6xl first-letter:leading-[.78] first-letter:text-violet-400">
-          L'astrologie est avant tout une manière de regarder le monde et de se
-          regarder soi-même. Depuis toujours, les êtres humains observent le
-          ciel pour y trouver des repères, des rythmes et des cycles qui font
-          écho à leur propre expérience de la vie.
+          {t("p1")}
         </p>
 
         <p>
-          À travers un langage symbolique —{" "}
-          <strong className="font-medium text-white">
-            signes, planètes et maisons
-          </strong>{" "}
-          — l'astrologie propose une lecture des dynamiques humaines : nos
-          élans, nos doutes, nos besoins, nos relations et nos périodes de
-          transformation. Elle ne prétend pas tout expliquer, ni décider à
-          notre place, mais offre des clés de compréhension pour mieux saisir
-          ce qui se joue en nous.
+          {t.rich("p2", {
+            strong: (chunks) => (
+              <strong className="font-medium text-white">{chunks}</strong>
+            ),
+          })}
         </p>
 
-        <p>
-          Abordée avec méthode et discernement, l'astrologie devient un outil
-          redoutable de connaissance de soi. Elle invite à prendre du recul, à
-          mettre des mots sur des expériences complexes, et à accepter ce qui
-          nous traverse, sans jamais nier la liberté de l'individu.
-        </p>
+        <p>{t("p3")}</p>
 
         {/* ── Pull quote ────────────────────────────────── */}
         <figure className="mt-12 rounded-2xl border border-white/[.07] bg-white/[.02] p-7 shadow-xl backdrop-blur-sm sm:p-8 md:text-left">
           <blockquote>
             <p className="font-serif text-lg italic leading-relaxed text-white md:text-xl">
-              "Ici, l'astrologie est présentée comme un savoir à explorer
-              patiemment, dans une démarche humaine, respectueuse et structurée,
-              où comprendre compte davantage que croire."
+              {t("quote")}
             </p>
           </blockquote>
         </figure>

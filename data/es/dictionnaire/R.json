@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "radical",
+    "category": "technique",
+    "term": "Radical",
+    "short": "Se dice de todo aquello que pertenece a la carta natal (el Radix).",
+    "body": "El término radical designa el estado original de los elementos de la carta en el momento del nacimiento. En astrología predictiva, se contraponen a menudo las posiciones «radicales» (fijas en la carta natal) a las posiciones «de tránsito» (móviles en el cielo actual). Un tránsito solo tendrá un impacto importante si entra en resonancia con una promesa «radical» presente en la carta natal original."
+  },
+  {
+    "slug": "radix",
+    "category": "concept",
+    "term": "Radix",
+    "short": "Término latino que designa la carta natal original, la «raíz» de toda interpretación.",
+    "body": "Radix (del latín «raíz») es el término técnico que designa la carta natal de nacimiento, por oposición a las cartas derivadas (revolución solar, carta horaria, carta de tránsito). El radix es el documento fundacional en astrología: es el que contiene el potencial completo del nativo y el que sirve de referencia para todo estudio predictivo. Cuando se estudian los tránsitos, se superponen las posiciones planetarias del momento al radix para medir su impacto. El término «radical» es el adjetivo asociado: «la Luna radical» designa la Luna de la carta natal, por oposición a «la Luna de tránsito». Esta distinción es esencial en astrología predictiva para evitar cualquier confusión entre las posiciones natales y las posiciones en movimiento."
+  },
+  {
+    "slug": "rahu-noeud-nord",
+    "category": "concept",
+    "term": "Rahu (Nodo Norte)",
+    "short": "Punto de intersección ascendente de la órbita lunar, que simboliza el propósito de vida.",
+    "body": "En la astrología védica, el Nodo Norte se llama Rahu. Representa el apetito insaciable, la dirección hacia la que el alma debe tender en esta vida para evolucionar. Es un punto de expansión, pero también de desafío, pues nos empuja fuera de nuestra zona de confort. A diferencia de los planetas, Rahu es un punto matemático ficticio situado allí donde la Luna cruza la eclíptica hacia el Norte."
+  },
+  {
+    "slug": "reception-mutuelle",
+    "category": "concept",
+    "term": "Recepción mutua",
+    "short": "Configuración en la que dos planetas ocupan cada uno el signo de domicilio del otro.",
+    "body": "La recepción mutua se produce cuando dos planetas intercambian sus domicilios: por ejemplo, Marte en Tauro (domicilio de Venus) y Venus en Aries (domicilio de Marte). Cada planeta está «alojado» por el otro, lo que crea un vínculo de cooperación implícito. En astrología tradicional, la recepción mutua atenúa considerablemente la debilidad de un planeta en exilio: aunque cada planeta esté en un signo incómodo, se sostienen mutuamente. Algunos astrólogos llegan a considerar que una recepción mutua equivale casi a un aspecto armónico entre los dos planetas. La recepción mutua también puede darse por exaltación: el Sol en Aries (exaltación) y Marte en Leo (signo del Sol) crean una forma de recepción cruzada. Es una herramienta sutil pero muy útil para afinar la lectura de una carta."
+  },
+  {
+    "slug": "rectification",
+    "category": "technique",
+    "term": "Rectificación",
+    "short": "Proceso de determinación de la hora de nacimiento exacta a partir de los eventos de vida.",
+    "body": "La rectificación es uno de los ejercicios más complejos del astrólogo. Cuando la hora de nacimiento es imprecisa o desconocida, el practicante utiliza las fechas clave de la vida del consultante (matrimonio, fallecimientos, accidentes, éxitos) y hace «girar» las técnicas predictivas (direcciones, tránsitos) hacia atrás para encontrar la hora que hace coincidir los aspectos con los hechos reales. Esto permite fijar el Ascendente y las cúspides de las casas de manera fiable."
+  },
+  {
+    "slug": "regulus",
+    "category": "constellation",
+    "term": "Régulo (La Estrella Real)",
+    "short": "La estrella más brillante de Leo, símbolo de poder y gloria.",
+    "body": "Régulo es una de las cuatro «Estrellas Reales de Persia». Se sitúa ahora al comienzo mismo del signo de Virgo (debido a la precesión). Apodada «el Corazón del León», confiere ambición, nobleza y un éxito fulgurante. Sin embargo, lleva consigo una advertencia: la caída es posible si el individuo cede a la venganza. Es la estrella de los reyes y de los grandes destinos públicos."
+  },
+  {
+    "slug": "retrogradation",
+    "category": "concept",
+    "term": "Retrogradación",
+    "short": "Movimiento aparente de un planeta que parece retroceder en el zodíaco.",
+    "body": "La retrogradación es una ilusión óptica debida a la diferencia de velocidad entre la Tierra y los demás planetas. Simbólicamente, indica una interiorización de la energía del planeta. En lugar de expresarse hacia el exterior, la función planetaria invita a la reflexión, a la revisión o al retorno sobre uno mismo. Por ejemplo, Mercurio retrógrado se asocia a menudo con retrasos en la comunicación que obligan a revisar los planes."
+  },
+  {
+    "slug": "revolution-lunaire",
+    "category": "technique",
+    "term": "Revolución lunar",
+    "short": "Carta levantada cada mes para el retorno de la Luna a su posición natal.",
+    "body": "Menos conocida que la Revolución Solar, la Revolución Lunar (RL) ofrece el clima emocional y de acontecimientos para los 28 días siguientes. Es muy útil para un análisis predictivo fino, mes a mes."
+  },
+  {
+    "slug": "revolution-siderale",
+    "category": "astronomique",
+    "term": "Revolución sideral",
+    "short": "Tiempo que necesita un planeta para volver a la misma estrella fija.",
+    "body": "Es la revolución real en el espacio. Para la Tierra dura 365,25 días. Para Saturno, unos 29,5 años. En astrología, el retorno de un planeta a su posición sideral marca una etapa clave de maduración."
+  },
+  {
+    "slug": "revolution-solaire",
+    "category": "concept",
+    "term": "Revolución solar",
+    "short": "Carta levantada para el momento exacto en que el Sol vuelve a su posición natal cada año.",
+    "body": "La revolución solar (RS) es una de las técnicas predictivas más utilizadas en astrología. Consiste en levantar una carta para el momento preciso en que el Sol de tránsito vuelve exactamente al grado, minuto y segundo de su posición en la carta natal. Este retorno se produce cada año en torno a la fecha del cumpleaños. La carta de revolución solar se interpreta como una «fotografía energética» del año que viene. El Ascendente de la RS, la posición de la Luna y la distribución de los planetas en las casas dan indicaciones valiosas sobre los ámbitos de la vida que se activarán. La RS no sustituye el estudio de los tránsitos: los completa ofreciendo un marco anual. André Barbault y Alexandre Volguine contribuyeron en gran medida a popularizar esta técnica en la astrología francófona."
+  }
+]

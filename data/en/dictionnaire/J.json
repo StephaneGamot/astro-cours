@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "morin-de-villefranche",
+    "category": "personnage",
+    "term": "Jean-Baptiste Morin de Villefranche",
+    "short": "French physician and astrologer (1583-1656), the pinnacle of traditional technical astrology.",
+    "body": "Morin de Villefranche is the author of the imposing 'Astrologia Gallica'. He is famous for having brought an unprecedented mathematical and logical rigour to the interpretation of charts. His theory of local determinations (the crucial role of the houses and their rulers) made it possible to refine the precision of judgements. He was the astrologer of powerful figures such as Cardinal de Richelieu."
+  },
+  {
+    "slug": "jean-marie-michiels",
+    "category": "personnage",
+    "term": "Jean-Marie Michiels",
+    "short": "Belgian astrologer and educator who devoted his life to the research and teaching of astrology.",
+    "body": "Jean-Marie Michiels is a Belgian astrologer and teacher. He has become a French-speaking reference for the learning of astrology. His approach is resolutely pedagogical and accessible: his teaching covers both the fundamentals (signs, houses, aspects, planets) and specialised fields such as horary astrology, medical astrology, asteroids, the Arabic parts and the ayanamsa. His teaching stands out for its concern with rigour and clarity, helping to democratise access to astrological knowledge in the French-speaking world."
+  },
+  {
+    "slug": "joie",
+    "category": "planète",
+    "term": "Joy (of the Planets)",
+    "short": "A traditional position of strength where a planet sits in the house it prefers.",
+    "body": "'Joy' is an ancient accidental dignity. Each planet has a favoured house where it expresses its virtues optimally. For example, Mercury rejoices in the First House (intelligence), the Moon in the Third House (movement), Mars in the Sixth House, the Sun in the Ninth House, Jupiter in the Eleventh House and Saturn in the Twelfth House. Being in its joy strengthens the planet's capacity to produce positive results."
+  },
+  {
+    "slug": "jupiter-en-chute",
+    "category": "concept",
+    "term": "Jupiter in Fall",
+    "short": "The position of Jupiter in Capricorn, where it expresses its energies with greater difficulty.",
+    "body": "Jupiter is in fall in the sign of Capricorn. This position can indicate challenges related to expansion, confidence and faith. Jupiter in Capricorn can translate into a tendency toward excessive caution, pessimism or difficulty in seizing opportunities. However, it can also confer great discipline, a capacity to work hard to reach one's goals and a practical wisdom gained through experience."
+  },
+  {
+    "slug": "junon",
+    "category": "planète",
+    "term": "Juno",
+    "short": "The asteroid of partnership, marriage and commitment.",
+    "body": "Juno describes our need for stable and committed relationships. It goes beyond the attraction of Venus to address questions of loyalty, the sharing of power within the couple and fidelity. It indicates the type of partner with whom we seek to build a life."
+  },
+  {
+    "slug": "jupiter",
+    "category": "planète",
+    "term": "Jupiter",
+    "short": "The planet of expansion, luck and personal growth.",
+    "body": "Jupiter is associated with optimism, faith and the search for meaning. It symbolises our need for expansion, whether through travel, higher studies or spirituality. In traditional astrology, Jupiter is the Greater Benefic, bringing protection and opportunities. However, it can also indicate a tendency toward exaggeration or self-indulgence if poorly handled."
+  },
+  {
+    "slug": "jupiter-en-exaltation",
+    "category": "concept",
+    "term": "Jupiter in Exaltation",
+    "short": "The position of Jupiter in Cancer, where it expresses its potential optimally.",
+    "body": "Jupiter is in exaltation in the sign of Cancer. This position confers great sensitivity, a developed intuition and a capacity to nurture others, whether on the physical or emotional plane. Jupiter in Cancer favours family bonds, the protection of loved ones and the search for emotional security. It is a position that encourages expansion through the heart and the emotions."
+  }
+]

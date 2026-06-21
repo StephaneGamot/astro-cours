@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "zenith",
+    "category": "concept",
+    "term": "Zenith",
+    "short": "The point of the sky located exactly vertically above the observer.",
+    "body": "The zenith is the point of the celestial sphere located exactly vertically above the observer, at 90° from the horizon in every direction. In astrology, the zenith is often confused with the Midheaven (MC), but the two do not coincide exactly. The MC is the intersection of the ecliptic with the local meridian, whereas the zenith is strictly the highest point directly overhead. The difference between the two depends on the latitude of the place of birth and the declination of the point considered. In everyday practice, this technical distinction is often overlooked, but it has its importance in certain systems of house division (notably the Campanus system, which uses the zenith as a reference). The point diametrically opposite the zenith is the nadir."
+  },
+  {
+    "slug": "zodiaque",
+    "category": "concept",
+    "term": "Zodiac",
+    "short": "A 360° celestial band divided into twelve signs of 30° each, the frame of reference of astrology.",
+    "body": "The zodiac is the 360° band of sky centred on the ecliptic (the plane of the Earth's orbit around the Sun) within which the planets of the solar system move. It is divided into twelve signs of 30° each, from Aries to Pisces. There are two zodiacs: the tropical zodiac, based on the seasons and used in Western astrology, and the sidereal zodiac, aligned with the constellations and used in Vedic astrology. The tropical zodiac begins at the vernal point (0° Aries = spring equinox). The word 'zodiac' comes from the Greek zōidiakos kyklos, 'circle of little animals', in reference to the animal figures of the constellations. The zodiac is the fundamental framework of astrology: it is what determines the signs in which the planets, the Ascendant and the house cusps fall."
+  },
+  {
+    "slug": "zodiaque-tropical",
+    "category": "concept",
+    "term": "Tropical Zodiac",
+    "short": "A zodiac based on the seasons, beginning at the vernal point (0° Aries).",
+    "body": "The tropical zodiac is the one used by almost all Western astrologers. It is not based on the physical constellations but on the Earth-Sun relationship. The 0° of Aries corresponds to the spring equinox. This zodiac symbolises human psychological evolution in connection with the cycles of terrestrial nature."
+  },
+  {
+    "slug": "zodiaque-sideral",
+    "category": "concept",
+    "term": "Sidereal Zodiac",
+    "short": "A zodiac based on the actual constellations of the sky.",
+    "body": "The sidereal zodiac is mainly used in Vedic astrology (India) and by some Western astrologers. It takes into account the precession of the equinoxes, which currently creates a discrepancy of about 24 degrees with the tropical zodiac. For the sidereal zodiac, the sign corresponds to the actual position of the stars behind the planets."
+  },
+  {
+    "slug": "zodiaque-etoiles-fixes",
+    "category": "concept",
+    "term": "Zodiac of the Fixed Stars",
+    "short": "A zodiac based on the actual constellations, including the fixed stars.",
+    "body": "The zodiac of the fixed stars is an older and more astronomical approach to astrology, which considers not only the planets but also the fixed stars (bright stars with relatively stable positions). These stars are distributed among the constellations of the zodiac and have specific meanings. For example, the fixed star Regulus in Leo is associated with royalty and nobility. This approach is less common today but offers an additional dimension of interpretation."
+  },
+  {
+    "slug": "zodiaque-constellations",
+    "category": "concept",
+    "term": "Zodiac of the Constellations",
+    "short": "A zodiac based on the actual constellations, with unequal divisions.",
+    "body": "The zodiac of the constellations is an approach that divides the sky according to the actual constellations, without reducing them to 30° segments. The constellations of the zodiac have very different sizes: Virgo covers about 44°, whereas Scorpius covers only 7°. This method is more faithful to astronomy but less practical for astrology, as it complicates calculations and interpretations. It is rarely used in modern astrological practice."
+  }
+]

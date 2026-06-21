@@ -1,0 +1,459 @@
+{
+  "slug": "sagittaire",
+  "nom": "Sagittarius",
+  "sousTitre": "The ninth sign of the Zodiac",
+  "devise": "I seek",
+  "periode": "November 22 – December 21",
+  "element": "Fire",
+  "mode": "Mutable",
+  "maitre": "Jupiter",
+  "exaltation": "—",
+  "exil": "Mercury",
+  "chute": "—",
+  "polarite": "Masculine",
+  "temperament": "Choleric",
+  "maisonNaturelle": 9,
+  "couleur": {
+    "primaire": "#A88BFD",
+    "secondaire": "#F59E0B",
+    "accent": "#C084FC",
+    "gradient": "from-violet-500 via-purple-500 to-amber-500"
+  },
+  "navigation": {
+    "precedent": { "slug": "scorpion", "nom": "Scorpio" },
+    "suivant": { "slug": "capricorne", "nom": "Capricorn" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/sagittaire.webp",
+    "planete": "/images/planetes/jupiter.webp"
+  },
+  "introduction": "Sagittarius is the ninth sign of the Zodiac. The Sun crosses it between roughly November 22 and December 21, at the end of autumn, when there is nothing left to do in the fields but think about the coming year, replant, prepare for the festivities — a natural form of enthusiasm and organisation turned toward the future. After the dive into Scorpio's depths, Sagittarius seeks to give meaning to what has been gone through, to understand and to broaden the perspective. It is the sign of the quest for horizons, of the impulse toward what is greater than oneself, of the search for an ideal that transcends the individual to embrace the world. Sagittarius is not content merely to live or to feel: it wants to understand what it is moving toward, what gives direction to its energy, and how to make its existence a meaningful adventure.",
+  "fondationsCosmiques": {
+    "texte": "Sagittarius belongs to the Fire element (hot and dry), which gives it a choleric temperament: energy, will, creative action, dynamism and passion. It is the third and last level of Fire — that of sublimation. After the instinct of Aries and the radiance of Leo, the fire of Sagittarius puts itself in the service of a cause, a vision, a community. Its creativity must serve something vaster than itself. Its mode is mutable: it adapts to all situations, bridges two seasons, navigates between opposites. It is also a double sign — half man, half horse, like the centaur that represents it — which explains the constant oscillation between instinctive impulse and the quest for wisdom. An active, emitting and extroverted sign, Sagittarius is characterised by a vitality that spends itself unsparingly to penetrate the world and introduce movement wherever it passes.",
+    "courteAscension": "Sagittarius is a sign of long ascension — it remains above the horizon for a long time — which means that, statistically, more people are born with Sagittarius as their Ascendant.",
+    "pluton": "Sagittarius is the diurnal domicile of Jupiter, the planet of expansion, luck and protection. Jupiter feels particularly at home in this sign of openness that corresponds to its deep nature: to bring together, to protect, to broaden the horizon. The Sagittarius–Gemini axis opposes and completes synthesis and dispersion, the overall vision and the circulation of facts."
+  },
+  "analogies": {
+    "animal": "The horse, the centaur",
+    "objet": "The bow, the arrow, the path, the map",
+    "fonction": "To explore, to understand, to transmit",
+    "texte": "Sagittarius is the impulse toward the horizon. Idealism, religion, travel, adventure, the foreign — everything in this sign speaks of quest, openness and transcendence. Just as the archer shoots his arrow toward the sky, the native of this sign always seeks to aim higher, farther, wider. It is the president, the judge, the prelate, the great traveller, the explorer of lands and ideas. It embodies the desire to rise while raising others, the passion to understand and transmit, the conviction that there is always a vaster horizon to discover."
+  },
+  "mythologie": {
+    "titre": "Chiron and the Centaurs",
+    "texte": "Sagittarius is associated with the centaur Chiron, a being half man, half horse, at once instinctive and wise. An archer turned toward the sky, he symbolises the quest for meaning, the transmission of knowledge and the search for an ideal that transcends the individual. Chiron was the wisest of the centaurs: healer, teacher, master of Achilles and Jason, he represents the successful alliance between animal power and elevated knowledge. The myth of Sagittarius speaks of this fundamental duality: on one side the path of instincts and animal drives, on the other the path of knowledge and wisdom. The archer's hand shooting an arrow toward the sky indicates the ascending direction of the realised Human who accesses the divine plane. Wounded by a poisoned arrow and unable to die because of his immortality, Chiron ultimately exchanged his life for the freedom of Prometheus — an ultimate sacrifice that transforms suffering into a gift for humanity.",
+    "civilisations": "In Greek mythology, the centaurs embodied the tension between bestiality and wisdom. In Mesopotamia, the sacred archer Nergal was associated with distant expeditions and the protection of borders. In the Vedic traditions, Sagittarius evokes Dhanusha, the divine bow that links earth to sky. Everywhere, the symbol of the archer turned toward the stars runs through civilisations as a promise: that the human being can transcend its animal condition to attain knowledge and meaning."
+  },
+  "portrait": {
+    "temperament": "Sagittarius sees far, thinks broadly, acts with enthusiasm and tolerates limits that seem narrow or sterile poorly. Its character is warm, frank, expansive, mobile, often idealistic, with a strong need for freedom and perspective. The salient trait of this sign is its youthfulness of character: very accommodating, generous and benevolent, it inspires sympathy and its company is sought after for its contagious joviality. The judgement is quick, the sense of organisation highly developed, the fluency of speech and intuition remarkable. The nature is benevolent, liberal, with deep emotions and great sincerity. However, it is exceptionally touchy on matters of prestige and honour. When immature, it can become excessive, impatient or dogmatic, seduced by theories more brilliant than deep; when it matures, it becomes a true pathfinder, able to transmit meaning with generosity and discernment.",
+    "forces": [
+      "Seeing far and thinking broadly, giving meaning to an experience",
+      "Transmitting a vision with contagious enthusiasm",
+      "Inspiring a group, a project or a cause",
+      "Linking concrete life to a philosophy or a high ideal",
+      "Exploring, travelling, learning and opening new paths",
+      "Organising and leading with methodical, orderly efficiency"
+    ],
+    "ombres": [
+      "Fleeing constraints and frameworks deemed too narrow",
+      "Quick certainties that turn into dogmatism",
+      "Promises made in the heat of the moment but not kept over time",
+      "Excessive optimism that collides with the realities of existence",
+      "Pride bordering on vanity and excessive touchiness"
+    ],
+    "besoinsVitaux": [
+      "Freedom of movement, of space and of breathing room",
+      "An ideal carrying meaning beyond the everyday",
+      "Permanent intellectual, human or physical exploration"
+    ],
+    "aTravailler": [
+      "Listening to other points of view without sweeping them aside",
+      "Coherence between word and deed over time",
+      "Grounding in the concrete and the patience of detail",
+      "Measure in enthusiasm so as not to scatter one's forces",
+      "Not turning one's truth into a rigid doctrine"
+    ],
+    "equilibre": "A Sagittarius in full command of their powers becomes a pathfinder: it opens roads without imposing its own. It embodies a living wisdom, nourished by experience, openness and meaning. Its enthusiasm becomes contagious without being overwhelming, and its vision inspires without confining. Its frankness becomes luminous rather than wounding, and its quest for truth serves transmission rather than preaching."
+  },
+  "sante": {
+    "zones": ["Hips", "Thighs", "Liver", "Locomotor system"],
+    "texte": "Sagittarius governs the hips, the thighs, the liver, the gallbladder, the pancreas, the sacrum, the coccyx, the iliac bone and the muscles. It predisposes to sciatica, hepatic disorders, colic, arterial diseases and arthritism. It is, however, a sign of good health, physical power and longevity, provided the native knows how to avoid the excesses likely to cause liver or circulatory troubles. Sagittarius loves movement, the open air, sport — hunters, walkers and athletes are often found under this influence. Its constitution is generally robust and enduring."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "The most natural position for Sagittarius. Philosophical, theological and sociological aptitudes are marked. The sense of organisation is highly developed, the judgement quick, the fluency of speech and intuition remarkable. The native loves independence and shows itself carefree, optimistic and confident. A benevolent, liberal nature, with deep emotions and great sincerity. Very accommodating, generous, jovial and helpful, but exceptionally touchy on matters of prestige. Activity is methodical, very orderly and therefore very efficient. Very gifted for organisation and leadership. Confident and optimistic about the outcome of its undertakings, but sometimes scatters its forces needlessly."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "In general, a very good forecast for personal earnings, even if these are made during long journeys or far from one's birthplace. This sign indicates an appreciable role of luck supporting the subject's financial initiatives. There are, however, strong spending tendencies and a somewhat adventurous spirit, which can delay the stability of the situation. A position favourable for administrative or official posts, for heavy industry and for import or export trade."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "A good indication for philosophical and religious tendencies as well as for intuition. A position favourable for going to study abroad or to teach there. Travel is favoured and sometimes trips last much longer than planned. Good understanding with siblings and neighbours. The mind is curious, synthetic and oriented toward the overall vision. The native excels in the art of transmitting and communicating its convictions."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "The family atmosphere often involves separations or geographical distances. The subject itself may be tempted by a faraway settlement or by real-estate acquisitions far from its birthplace. The end of its life is generally peaceful and comfortable, but often involves long pleasure trips. Only if the dissonances are very poor can one forecast troubles linked to late travel."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Heightens sensuality if there are other concordant indications and increases aesthetic and artistic tastes, in particular an attraction to spectacular or outdoor sporting events. The sign does not indicate very numerous offspring, but above all respectful and healthy children. The subject is rather lucky in gambling or speculation. A good configuration for romantic successes and social life. In some cases, the children's situation becomes brilliant."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "An indicator of good health and long life, provided the native knows how to avoid the excesses likely to cause liver or circulatory troubles. Work is generally pleasant and remunerative. The native can become a trusted person or run a business and easily find honest and devoted collaborators. A favourable position for occupations of organisation and daily management."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "Affairs are rather rare because this position indicates a concern for form and respectability. Marriage often takes place early and usually goes well. If, however, there are dissonances causing a divorce or widowhood, one can forecast a second legal union. Partnerships often allow one to earn more. Lawsuits are rather rare unless there are significant dissonances. The possibility of marriage or partnership in distant lands or with foreigners."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "A position that favours inheritances, which can come not only from the family of origin but sometimes from distant relatives — distant in degree of kinship or in geographical distance. However, if the aspects are poor, any settlement risks giving rise to legal complications. Generally, death occurs outside the native region, but life is rather long and the end normal and gentle."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "This is one of the best positions of the Zodiac for conferring a philosophical, religious mind, as well as aptitudes for sociology. Astrologers consider this position very favourable to spiritual and intellectual evolution. An excellent indicator for long journeys, residence in distant lands, an attraction to outdoor life, movement and adventure. Owing to the double nature of the sign, sometimes spiritual tendencies predominate, sometimes more material ones."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "May predispose to long journeys, stays and success abroad. Often two major changes in professional life. On the whole, a fairly constant run of luck if the dissonances are not serious. A factor of financial and honorific success. Even if the dissonances are significant, the subject still manages to avoid truly painful trials. Suited to professions connected with law, banking, insurance, international transactions. This position eases social or political success and access to leadership positions."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Increases the chances of forming pleasant or useful friendships during travel or stays abroad. Friends are generally well-off and often wealthy, but these relationships can be short-lived and few, because the native is rather reserved in the way it chooses those close to it. The possibility of significant investments made at the instigation of friends or to do them a favour."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "Predisposes to the sign's ailments and to those of Jupiter: hepatic troubles, excesses, circulatory problems. As regards hidden enmities and the risks of imprisonment or confinement, this sign in the Twelfth House neutralises the threats if there are no other serious poor aspects. The native may be led to withdraw to large cities to work in peace. A position that protects in trial and turns obstacles into lessons of wisdom."
+    }
+  ],
+  "amour": {
+    "texte": "Sagittarius loves with frankness, enthusiasm, movement and a need for horizons. It needs to feel that the relationship opens something, that it grows, that it inspires, that it breathes. It tolerates bonds that are too closed, too possessive or too heavy poorly. Emotionally, it is an enthusiast prone to love at first sight and to infatuations, whose ardour combined with distinguished manners can make an impression. There is always in it a certain respect for customs and legality: as soon as it has met its soulmate, it will think of legal union and will almost always be a good spouse and a good parent. Marriage often takes place early, sometimes with someone born abroad or in a distant region. Travel often plays a role in the love life.",
+    "qualites": [
+      "Total emotional sincerity and frankness of heart",
+      "A generous impulse that carries the couple forward",
+      "The ability to breathe life and movement into the bond",
+      "A taste for sharing, adventure and openness",
+      "Enthusiastic warmth and faithfulness when the heart is committed"
+    ],
+    "vigilances": [
+      "May flee what seems too confining or too heavy",
+      "A risk of promises made in the heat of the moment but not kept over time",
+      "A tendency to seek the ideal more than the reality of the bond",
+      "Difficulty with emotional frameworks that are too tight or possessive"
+    ],
+    "affinites": ["belier", "lion", "balance", "verseau"]
+  },
+  "travail": {
+    "texte": "Sagittarius works well when it can move toward a meaningful goal, transmit a vision, learn, travel, inspire or broaden a field. It excels in areas that call for initiative, openness, pedagogy or perspective. Senior official, administrator, magistrate, diplomat, traveller, teacher, director, department head, travel agencies, transport companies, export and import — the professions of Sagittarius all touch on organisation, transmission and openness to the world. It is a valuable collaborator owing to its organisational abilities, its faithfulness and the seriousness it brings to everything. It is probably under this sign that one would find the greatest number of expatriates.",
+    "atouts": [
+      "An overall vision and the ability to unite people around a project",
+      "Contagious enthusiasm that carries teams along",
+      "A natural ability to motivate, teach and transmit",
+      "A taste for learning and improving constantly",
+      "Remarkable ease in international and evolving contexts"
+    ],
+    "defis": [
+      "Tolerates confinement, empty routine or repetition poorly",
+      "May scatter toward too many simultaneous goals",
+      "A risk of lacking follow-through or rigour in the details",
+      "May reject too quickly what seems too narrow or too slow"
+    ]
+  },
+  "argent": {
+    "texte": "Sagittarius has a broad and dynamic relationship with money. It sees it as a means of exploration, freedom, learning and expansion — never as an end in itself. Its income is often very appreciable, for it benefits from a significant share of luck that supports its financial initiatives. But it gives in too much to prestige spending to build up reserves, and it sometimes imposes on itself — relative — periods of deprivation during the first part of life. Later, it grows wiser.",
+    "forces": [
+      "The ability to think big and seize opportunities",
+      "Ease in creating movement around resources",
+      "Confidence in growth and a sense of international trade",
+      "An appreciable share of luck that favours initiatives"
+    ],
+    "risques": [
+      "Overconfidence and unfounded financial optimism",
+      "Spending on prestige, enthusiasm or freedom",
+      "Difficulty staying within precise and rigorous management",
+      "A tendency to think everything will always work out"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Sagittarius builds an identity turned toward the ideal, movement, knowledge and openness. It is in the service of Jupiter with the passion of a Fire sign, giving a high ideal and noble aspirations.",
+      "manifestations": ["Optimism and natural confidence", "An overall vision and a sense of horizon", "Sincerity and frankness of character", "A natural impulse toward expansion and discovery"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Sagittarius experiences emotions with a need for space, impulse, confidence and breathing room. It regulates itself through movement, perspective and openness rather than withdrawal.",
+      "manifestations": ["Emotional warmth and generosity of heart", "A remarkable ability to bounce back after trials", "A healthy need for air, space and freedom", "Emotional confidence in movement and in the future"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Sagittarius (in exile) thinks broadly, synthetically, oriented toward the overall vision. It loves grand ideas, concepts and perspectives, but can lack precision in detail.",
+      "manifestations": ["An overall vision and synthetic thinking", "A capacity for quick synthesis", "Frank speech and ease of expression", "A taste for meaning and grand ideas"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Sagittarius loves with enthusiasm, freedom, sincerity and a taste for adventure. Pleasure comes through discovery, spontaneity and the opening of the bond to shared horizons.",
+      "manifestations": ["Emotional freshness and spontaneity", "Romantic enthusiasm and infatuations", "Relational sincerity without ulterior motives", "A taste for movement and shared travel"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Sagittarius acts with enthusiasm, expansive energy and a desire for progress. Action seeks a goal, a vision or a vaster terrain. Combativeness is carried by an ideal.",
+      "manifestations": ["Dynamism and inexhaustible energy", "Courage for exploration and adventure", "Action carried by an ideal or a vision", "Great energy of movement and conquest"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Sagittarius is in its diurnal domicile — one of its most natural and powerful expressions. Faith, expansion, the quest for meaning, openness and visionary enthusiasm express themselves fully.",
+      "manifestations": ["Great confidence in life and in the future", "A broad vision and a sense of horizon", "Open-mindedness and tolerance", "The ability to unite people around meaning and a project"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Sagittarius structures beliefs, vision and the relationship to meaning and transmission. It compels one to build a more solid and less scattered thought or philosophy.",
+      "manifestations": ["Maturity in vision and judgement", "Philosophical and intellectual seriousness", "The ability to structure knowledge and transmit it", "Responsibility in transmission and teaching"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Sagittarius opens ruptures of beliefs, sudden impulses toward other horizons and a strong freedom in thought or lifestyle.",
+      "manifestations": ["A free and iconoclastic mind", "An innovative and avant-garde vision", "The ability to break with narrow ideological frameworks"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Sagittarius seeks a spiritual, philosophical or mystical ideal. It gives a broad inspiration, an image-rich faith and a deep attraction to the vast meaning of things.",
+      "manifestations": ["Spiritual and philosophical inspiration", "Symbolic and poetic openness", "An intuition of the deep meaning of events"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Sagittarius deeply transforms the relationship to beliefs, truth, systems of thought and the quest for meaning. It pushes one to die to certain certainties in order to find a truer and vaster vision.",
+      "manifestations": ["A power of conviction that can shake structures", "The ability to transform a worldview", "Inner strength in the quest for truth", "Philosophical and spiritual intensity"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "fluide",
+      "titre": "Fire and movement",
+      "texte": "Sagittarius and Aries share momentum, enthusiasm and frankness. Together, they can go fast and far, carried by a shared energy that knows neither lukewarmness nor hesitation. The bond is lively, motivating and very alive.",
+      "forces": ["Immediate action and shared sincerity", "A powerful dynamic and a taste for movement", "Courage and boldness on both sides", "An instinctive complicity between two fires"],
+      "frictions": ["Reciprocal impatience", "Excess and a lack of framework", "An absence of common grounding over time"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "variable",
+      "titre": "Horizon and grounding",
+      "texte": "Sagittarius wants to open the horizon, Taurus wants to stabilise the ground. The relationship can be enriching if each respects the other's rhythm and fundamental need: freedom for one, security for the other.",
+      "forces": ["One provides the vision, the other the stability", "The possibility of concrete and lasting growth", "Complementarity between momentum and grounding"],
+      "frictions": ["Sagittarius finds Taurus too fixed and too slow", "Taurus finds Sagittarius too mobile and unpredictable", "Conflict between a need for freedom and a need for security"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "complementaire",
+      "titre": "The Sagittarius–Gemini axis",
+      "texte": "Sagittarius seeks the overall meaning, Gemini circulates among facts and information. It is a powerful axis of complementarity between horizon and detail, synthesis and multiplicity, conviction and curiosity.",
+      "forces": ["Complementarity between overall vision and a sense of detail", "A shared taste for knowledge and learning", "Movement and mutual intellectual stimulation"],
+      "frictions": ["Sagittarius may seem too assertive and dogmatic", "Gemini may seem too scattered and superficial", "Conflict between deep conviction and permanent relativity"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "variable",
+      "titre": "Horizon and refuge",
+      "texte": "Sagittarius seeks space and meaning; Cancer seeks security and intimacy. The bond can enrich both worlds, but calls for genuine mutual understanding and a deep respect for each one's needs.",
+      "forces": ["One opens the horizons, the other protects the home", "The possibility of deep emotional growth", "Complementarity between adventure and attachment"],
+      "frictions": ["Sagittarius may seem too free or too direct", "Cancer may seem too cautious or too attached", "A fundamental difference between a need for space and a need for security"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "fluide",
+      "titre": "Royal fire and the fire of the horizon",
+      "texte": "Leo and Sagittarius share warmth, enthusiasm, creativity and a zest for life. The bond can be inspiring, joyful, very generous and carried by a shared expansive dynamic.",
+      "forces": ["Shared joy and energy", "Reciprocal confidence and optimism", "Boundless generosity on both sides", "A shared impulse toward greatness"],
+      "frictions": ["Excess and immoderation on both sides", "Leo's need for centrality versus Sagittarius's need for movement", "A shared tendency to live large without measure"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "delicate",
+      "titre": "Vision and precision",
+      "texte": "Sagittarius thinks big, Virgo checks every detail. The bond can be very constructive if they accept that truth needs both horizon and rigour, both vision and method.",
+      "forces": ["One provides the meaning, the other the method", "The possibility of building a more complete thought", "Complementarity between expansion and discernment"],
+      "frictions": ["Virgo finds Sagittarius too broad and imprecise", "Sagittarius finds Virgo too limited and too critical", "Conflict between overall vision and the meticulousness of detail"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Openness and relationship",
+      "texte": "Sagittarius brings momentum and frankness, Libra brings harmony and an intelligence of the bond. The relationship can be pleasant, open, lively and carried by a shared taste for beauty and sociability.",
+      "forces": ["Easy dialogue and reciprocal openness", "A shared taste for the bond and for sociability", "The ability to move forward together in harmony"],
+      "frictions": ["Sagittarius may seem too direct or too abrupt", "Libra may seem too cautious or too nuanced", "Conflict between frank truth and measured diplomacy"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "intense",
+      "titre": "Depth and horizon",
+      "texte": "Scorpio dives into the depths, Sagittarius broadens toward the horizons. The bond can be transformative and fertile, but also very difficult if each wants to impose its way of seeking the truth.",
+      "forces": ["A shared quest for truth and authenticity", "Intensity and depth of the bond", "A mutual capacity for transformation", "Raw sincerity on both sides"],
+      "frictions": ["Scorpio may seem too intense or controlling", "Sagittarius may seem too naive or too quick", "Conflict between closed depth and open horizon"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "fluide",
+      "titre": "A shared horizon",
+      "texte": "Two Sagittarians understand each other in their need for freedom, truth, movement and enthusiasm. The bond can be joyful, lively, very open and carried by a shared expansive energy.",
+      "forces": ["Shared optimism and zest for life", "Mutual openness and tolerance", "Permanent movement and adventure", "A shared vision of the world"],
+      "frictions": ["Excessive optimism and a lack of realism", "Difficulty settling down and building over time", "Promises too grand on both sides", "A lack of framework and structure"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "variable",
+      "titre": "Vision and construction",
+      "texte": "Sagittarius wants to open the horizon, Capricorn wants to build over time. The bond can be strong and productive if it accepts to link enthusiasm with responsibility, vision with strategy.",
+      "forces": ["One inspires and leads, the other structures and builds", "Complementarity between vision and long-term strategy", "The ability to accomplish something solid and lasting"],
+      "frictions": ["Capricorn may seem too closed or austere", "Sagittarius may seem too unpredictable or too broad", "Conflict between expansion and control"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "fluide",
+      "titre": "Openness and freedom",
+      "texte": "Sagittarius and Aquarius share a taste for space, ideas, movement and a certain fundamental independence. The bond can be very stimulating both intellectually and humanly.",
+      "forces": ["Shared freedom and independence", "Mutual open-mindedness and tolerance", "Permanent intellectual stimulation", "A vision of the future and a taste for innovation"],
+      "frictions": ["Possible emotional distance on the Aquarius side", "Instability and a lack of common grounding", "Difficulty settling into a lasting emotional framework"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "stimulante",
+      "titre": "Meaning, faith and imagination",
+      "texte": "Sagittarius seeks a truth on the horizon, Pisces feels a diffuse and deep truth. The bond can be spiritual, inspiring and subtle, but also blurred and destabilising if the two do not find common ground.",
+      "forces": ["Shared inspiration and inner openness", "A shared sensitivity to mystery and meaning", "The ability to elevate the bond toward the spiritual", "Mutual compassion and generosity"],
+      "frictions": ["Sagittarius may find Pisces too vague and elusive", "Pisces may find Sagittarius too assertive and too sure of itself", "Conflict between firm conviction and the dissolution of certainties"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Sagittarius, you enter life with openness, frankness, a need for space and a desire to move toward a broader horizon. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting carries an expansive, lively and mobile tone. You approach situations with enthusiasm and spontaneously seek a larger perspective.",
+    "apparence": [
+      "An open and dynamic presence that inspires confidence",
+      "A mobile, direct or ample bearing with an impression of freedom",
+      "A lively gaze, turned outward and toward the horizon",
+      "A body or posture evoking momentum, projection and movement"
+    ],
+    "temperament": [
+      "Reacts with spontaneity and natural frankness",
+      "Needs space and movement to live well",
+      "Enters situations with enthusiasm and optimism",
+      "Tolerates overly tight frameworks poorly and always seeks the larger perspective"
+    ],
+    "vigilances": [
+      "Excessive optimism that can blind",
+      "Impatience with slowness and constraints",
+      "A tendency to flee narrowness or overly heavy obligations",
+      "Difficulty settling lastingly in a place or a bond",
+      "A risk of promising more than will be kept over time"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Antares",
+      "nature": "Mars / Jupiter",
+      "texte": "Antares is one of the great royal stars of the astrological tradition. In Sagittarius, it reinforces the idea of a powerful quest, a desire to go far, an intensity oriented toward a goal and a courageous relationship to the horizon. It promises greatness on condition of not being consumed by excess.",
+      "motsCles": ["Intensity", "Greatness", "Momentum", "Warrior vision"]
+    },
+    {
+      "nom": "Rasalhague",
+      "nature": "Saturn / Venus",
+      "texte": "Rasalhague adds a note of intellectual nobility, elevated curiosity and a search for meaning. It harmonises well with the philosophical and exploratory dimension of Sagittarius, evoking the quest for a knowledge that ennobles the soul.",
+      "motsCles": ["Research", "Knowledge", "Quest", "Inner nobility"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Turquoise", "motsCles": ["travel", "protection", "openness", "confidence"] },
+      { "nom": "Amethyst", "motsCles": ["wisdom", "vision", "spirituality", "height"] },
+      { "nom": "Tin", "motsCles": ["jupiter", "expansion", "growth", "protection"] }
+    ],
+    "vegetaux": [
+      { "nom": "Sage", "motsCles": ["wisdom", "clarity", "breath", "vision"] },
+      { "nom": "Cedar", "motsCles": ["height", "elevation", "vision", "nobility"] },
+      { "nom": "Mint", "motsCles": ["movement", "freshness", "momentum", "openness"] }
+    ],
+    "animaux": [
+      { "nom": "Horse", "motsCles": ["freedom", "momentum", "movement", "power"] },
+      { "nom": "Centaur", "motsCles": ["quest", "instinct", "vision", "elevation"] },
+      { "nom": "Eagle", "motsCles": ["vision", "height", "nobility", "horizon"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Spain", "texte": "Associated with Sagittarius for its momentum, its inner fire, its historical expansion and a culture of panache and horizon." },
+    { "pays": "Australia", "texte": "Linked to Sagittarius through its wide open spaces, its spirit of adventure and its youthfulness of character as a nation." },
+    { "pays": "Hungary", "texte": "Cited in the classical traditions for its passionate temperament and its history marked by the quest for freedom." },
+    { "pays": "South Africa", "texte": "Associated with Sagittarius in the traditional correspondences, evoking wide open spaces, adventure and transformation." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Brad Pitt", "domaine": "Film", "date": "December 18, 1963", "texte": "Embodies the openness, mobility and expansive presence of Sagittarius through a career marked by the diversity of its roles." },
+    { "nom": "Taylor Swift", "domaine": "Music", "date": "December 13, 1989", "texte": "Illustrates the capacity for projection, storytelling and creative expansion typical of Sagittarius." },
+    { "nom": "Britney Spears", "domaine": "Music", "date": "December 2, 1981", "texte": "Embodies the lively, mobile and strongly visible energy of Sagittarius with its characteristic ups and downs." },
+    { "nom": "Miley Cyrus", "domaine": "Music", "date": "November 23, 1992", "texte": "Illustrates Sagittarius's need for freedom, expression and perpetual movement." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Sagittarius?",
+      "reponse": "Sagittarius is characterised by enthusiasm, frankness, optimism and a permanent quest for meaning and horizons. It is a warm, generous, jovial and helpful temperament, endowed with a keen sense of organisation and remarkable intuition. It loves independence, movement and wide open spaces, but can be excessive, impatient and touchy on matters of prestige."
+    },
+    {
+      "question": "What kind of lover is Sagittarius?",
+      "reponse": "Enthusiastic, sincere, frank and carried by movement. Sagittarius loves with warmth and a need for horizons: it seeks a relationship that opens, inspires and breathes. Prone to love at first sight and infatuations, it nonetheless remains respectful of customs and aspires to legal union once it has found its soulmate. It tolerates bonds that are too possessive or too closed poorly."
+    },
+    {
+      "question": "What kind of worker is Sagittarius?",
+      "reponse": "An organiser, a visionary and a unifier. Sagittarius excels when it can move toward a meaningful goal, transmit a vision, learn or broaden a field. It is gifted for leadership, administration, diplomacy, teaching and international trade. It tolerates routine and confined environments poorly."
+    },
+    {
+      "question": "Which house corresponds to Sagittarius?",
+      "reponse": "The Ninth House — that of meaning, philosophy, higher studies, long journeys and beliefs. Its natural analogy with Sagittarius underscores the quest for horizons, the transmission of a vision and the search for an inner axis vaster than the everyday."
+    },
+    {
+      "question": "What is the ideal Ascendant for Sagittarius?",
+      "reponse": "A Leo Ascendant amplifies its charisma and generosity. An Aries Ascendant reinforces its momentum and boldness. A Libra Ascendant brings it diplomacy and a sense of measure in its impulses."
+    },
+    {
+      "question": "What are the flaws of Sagittarius?",
+      "reponse": "Excessive optimism, unkept promises, dogmatism and touchiness on matters of prestige. Its need for freedom can make it evasive in the face of the concrete commitments of everyday life."
+    },
+    {
+      "question": "Is Sagittarius unfaithful?",
+      "reponse": "Sagittarius is not unfaithful by nature, but its need for freedom and novelty can make it unstable if it feels confined. Once committed with conviction, it is loyal and respectful of the bond."
+    }
+  ]
+}

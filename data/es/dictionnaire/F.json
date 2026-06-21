@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "feminin-nocturne-negatif",
+    "category": "concept",
+    "term": "Femenino (Nocturno/Negativo)",
+    "short": "Una polaridad energética receptiva, introvertida y magnética.",
+    "body": "Los llamados signos 'Femeninos' (o Nocturnos / Negativos) comprenden los signos de Tierra (Tauro, Virgo, Capricornio) y de Agua (Cáncer, Escorpio, Piscis). Esta polaridad indica una energía orientada hacia el interior, que favorece la reflexión, la sensación, la conservación y la receptividad. Estos signos responden a su entorno y privilegian la asimilación por encima de la acción en bruto. Un predominio de signos femeninos en una carta aporta a menudo profundidad, paciencia y una gran sensibilidad hacia los ambientes."
+  },
+  {
+    "slug": "feu",
+    "category": "concept",
+    "term": "Fuego",
+    "short": "Uno de los cuatro elementos: energía, entusiasmo, voluntad e impulsividad creadora.",
+    "body": "El elemento Fuego reúne los signos de Aries, Leo y Sagitario. Representa la energía vital, el entusiasmo, la voluntad de actuar y la irradiación personal. Los nativos dominados por el Fuego son espontáneos, valientes, apasionados y orientados hacia el futuro. El Fuego es caliente y seco por naturaleza. Ilumina, calienta y transforma, pero también puede quemar si no se canaliza. En exceso, el Fuego produce impetuosidad, impaciencia, egocentrismo o cólera. Una carta carente de Fuego puede adolecer de falta de confianza en sí mismo, de iniciativa o de alegría de vivir espontánea. El Fuego es la chispa primera, el Big Bang de la personalidad: sin él, nada se pone en marcha. En astrología clásica, los tres signos de Fuego forman el trígono de la energía y de la creatividad."
+  },
+  {
+    "slug": "fixe",
+    "category": "concept",
+    "term": "Fijo (cualidad)",
+    "short": "Una de las tres cualidades: estabilidad, perseverancia, resistencia al cambio.",
+    "body": "Los signos fijos son Tauro, Leo, Escorpio y Acuario. Ocupan el corazón de cada estación y encarnan la estabilidad, la determinación y la continuidad. Si los signos cardinales lanzan y los signos mutables adaptan, los signos fijos mantienen y consolidan. Un nativo fuertemente marcado por la cualidad fija es tenaz, fiable, resistente, a veces obstinado. Detesta que lo apremien y prefiere avanzar a su propio ritmo. Su fuerza reside en la constancia; su debilidad, en la rigidez. Los signos fijos son reputados por su capacidad de resistir la presión exterior, pero también por su dificultad para soltar cuando el cambio se vuelve necesario. Una Gran Cruz en signos fijos, por ejemplo, es una de las configuraciones más poderosas (y más temidas) de la carta natal: confiere una voluntad de hierro pero también una tendencia a los bloqueos emocionales."
+  },
+  {
+    "slug": "fomalhaut",
+    "category": "astronomique",
+    "term": "Fomalhaut",
+    "short": "La Estrella Real de Piscis (situada a 4° de Piscis), ligada a la espiritualidad y a los ideales.",
+    "body": "Fomalhaut es la Guardiana del Sur, situada en la constelación del Pez Austral. Su naturaleza es mercurial y venusina. Aporta una gran inspiración, una visión mística y éxito en los ámbitos artísticos o espirituales. Su desafío reside en la necesidad de mantener objetivos nobles: si las intenciones son puramente materialistas o deshonestas, la influencia de la estrella puede conducir a la confusión o al escándalo. Es la estrella de los soñadores realistas y de los profetas."
+  },
+  {
+    "slug": "fond-du-ciel",
+    "category": "concept",
+    "term": "Fondo del Cielo (IC)",
+    "short": "El punto más bajo de la carta (Casa IV), ligado a las raíces, a la familia y a la vida privada.",
+    "body": "El Fondo del Cielo (Imum Coeli o IC) es la cúspide de la Casa IV. Representa la base del edificio personal: los orígenes familiares, el hogar, el patrimonio ancestral y la vida íntima, lejos de la mirada pública. Es el punto de medianoche, que simboliza el final de la vida pero también las profundidades del inconsciente. Mientras que el Medio Cielo se eleva hacia el mundo, el Fondo del Cielo se enraíza en la tierra. Informa sobre el ambiente del hogar durante la infancia y sobre la manera en que el individuo necesita recargarse en privado."
+  },
+  {
+    "slug": "fridaire",
+    "category": "technique",
+    "term": "Firdaria",
+    "short": "Un sistema de períodos planetarios que rigen ciclos de vida sucesivos.",
+    "body": "Procedentes de la astrología persa y medieval, los firdaria dividen la vida en grandes períodos confiados a cada planeta (p. ej. 10 años para el Sol, 11 para la Luna). El orden de los planetas cambia según si la carta es diurna o nocturna. Esta técnica permite comprender qué 'dios' o qué energía gobierna un tramo de edad preciso, explicando por qué ciertos talentos o desafíos solo se manifiestan en un momento dado de la existencia."
+  }
+]

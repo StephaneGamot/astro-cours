@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "nadir",
+    "category": "astronomique",
+    "term": "Nadir",
+    "short": "El punto de la esfera celeste directamente opuesto al Cénit.",
+    "body": "El Nadir es el punto más bajo, situado bajo los pies del observador. En astrología, se identifica técnicamente con el Fondo del Cielo (IC). Simboliza la base de la conciencia, el punto de medianoche, las profundidades psicológicas y las raíces ancestrales. Es el lugar del reposo, del retiro y de la vida íntima."
+  },
+  {
+    "slug": "neptune",
+    "category": "planète",
+    "term": "Neptuno",
+    "short": "El planeta de la inspiración, el sueño, la espiritualidad y la disolución de los límites.",
+    "body": "Neptuno rige lo invisible, la intuición, las artes místicas y la compasión universal. Simboliza la capacidad de trascender el ego para conectarse con lo colectivo. Mal aspectado, puede generar confusión, ilusiones, huidas de la realidad o dependencias. Rige el signo de Piscis y tarda alrededor de 165 años en recorrer el zodíaco."
+  },
+  {
+    "slug": "nocturne",
+    "category": "concept",
+    "term": "Nocturno",
+    "short": "Lo que pertenece a la noche o favorece la interioridad.",
+    "body": "Una carta es nocturna si el Sol está bajo el horizonte. En ese caso, la Luna se convierte en el luminar de referencia para la vitalidad y el destino. Los signos nocturnos (Femeninos) privilegian la recepción, la reflexión y la maduración interna."
+  },
+  {
+    "slug": "noeuds-lunaires",
+    "category": "point fictif",
+    "term": "Nodos lunares",
+    "short": "Los puntos de intersección entre la órbita de la Luna y la eclíptica, ligados al karma y al destino.",
+    "body": "Los nodos lunares son dos puntos matemáticos diametralmente opuestos donde la órbita de la Luna cruza el plano de la eclíptica (el plano de la órbita terrestre alrededor del Sol). El Nodo Norte (o Cabeza del Dragón) representa la dirección de evolución, la meta del alma, aquello hacia lo que el nativo debe tender en esta vida. El Nodo Sur (o Cola del Dragón) representa lo adquirido del pasado, los automatismos, los talentos heredados (que algunos interpretan como kármicos) pero también las trampas de la repetición. El eje nodal atraviesa dos casas y dos signos opuestos, creando un eje de evolución fundamental en la carta. Un tránsito de un planeta lento sobre los nodos lunares desencadena a menudo acontecimientos de carácter 'destinado': encuentros determinantes, reorientaciones de vida, tomas de conciencia mayores. Los eclipses se producen siempre cerca de los nodos lunares, reforzando su simbolismo de pivote existencial."
+  }
+]

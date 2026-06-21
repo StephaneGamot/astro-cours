@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "gemeaux",
+    "category": "signe",
+    "term": "Géminis",
+    "short": "El tercer signo (Aire/Mutable), que simboliza la comunicación y la dualidad.",
+    "body": "Géminis marca el final de la primavera, el momento en que la naturaleza difunde su polen. Regido por Mercurio, es el signo del intelecto, de la curiosidad insaciable y de los intercambios. Representa la capacidad de conectar las ideas y las personas. Su naturaleza doble le permite ver todas las facetas de una situación, pero puede conducirlo a la dispersión. Su desafío es pasar de la simple información al conocimiento profundo."
+  },
+  {
+    "slug": "geocentrique",
+    "category": "astronomique",
+    "term": "Geocéntrico",
+    "short": "Un sistema de referencia que sitúa la Tierra en el centro del universo.",
+    "body": "La astrología es una disciplina geocéntrica por naturaleza, pues estudia la influencia de los astros tal como se perciben desde el lugar de la experiencia humana (la Tierra). Esta elección no ignora que la Tierra gira alrededor del Sol, sino que privilegia la perspectiva fenomenológica indispensable para la interpretación simbólica."
+  },
+  {
+    "slug": "georges-antares",
+    "category": "personnage",
+    "term": "Georges Antarès",
+    "short": "Influyente astrólogo belga (1905-1991), fundador de la escuela de astrología Antarès.",
+    "body": "De verdadero nombre Marcel Mestdagh, Georges Antarès desempeñó un papel destacado en la divulgación de una astrología seria y estructurada en la Europa francófona. Autor de numerosas obras de referencia como el 'Manuel d'Astrologie', desarrolló un método de interpretación sintético y pedagógico. Su enseñanza privilegia la claridad técnica y el rigor moral, alejándose de las derivas sensacionalistas para centrarse en el análisis del carácter."
+  },
+  {
+    "slug": "gouverneur",
+    "category": "concept",
+    "term": "Regente",
+    "short": "Un planeta que ejerce su autoridad sobre un signo, una casa o la carta entera.",
+    "body": "El regente (o señor) es el depositario de la energía de un sector. Por ejemplo, el regente de la Casa VII informa sobre la calidad de los contratos y las uniones. El 'Regente de la Carta' es a menudo el planeta más fuerte (el Almuten) o el que rige el Ascendente, actuando como guía del destino."
+  },
+  {
+    "slug": "gouverneur-du-theme",
+    "category": "concept",
+    "term": "Regente de la Carta",
+    "short": "El planeta designado como el 'piloto' del destino del individuo.",
+    "body": "El regente (o Señor de la Genitura) es generalmente el regente del Ascendente, pero también puede ser el Almuten (el planeta que acumula más dignidades). Representa al individuo en su conjunto, su temperamento y su capacidad de dirigir su vida. El estado de este planeta determina si el sujeto será dueño de sus elecciones o si se verá zarandeado por las circunstancias exteriores."
+  },
+  {
+    "slug": "grand-carre",
+    "category": "concept",
+    "term": "Gran Cruz",
+    "short": "Una configuración formada por cuatro planetas unidos por cuatro cuadraturas y dos oposiciones.",
+    "body": "La Gran Cruz (o Cruz Cósmica) es una de las figuras más duras y poderosas de una carta. Encierra al individuo en un desafío permanente que afecta a todos los sectores de su vida (si los planetas son angulares). Esta configuración obliga a una acción incesante y a una estructuración de hierro. Muy frecuente en los grandes constructores o en las personas con un destino fuera de lo común marcado por la lucha."
+  },
+  {
+    "slug": "grand-trigone",
+    "category": "concept",
+    "term": "Gran Trígono",
+    "short": "Una figura formada por tres planetas unidos por trígonos dentro del mismo elemento.",
+    "body": "El Gran Trígono forma un triángulo equilátero perfecto en el zodíaco. Indica una circulación fluida de la energía, talentos innatos y una gran facilidad en el elemento concernido (Fuego, Tierra, Aire o Agua). Aunque se percibe como muy benéfico, encierra una trampa: la inercia. Al circular la energía en circuito cerrado y sin resistencia, el individuo puede carecer de motivación para superarse o para afrontar los desafíos concretos, conformándose con sus facilidades naturales."
+  }
+]

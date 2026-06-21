@@ -1,0 +1,459 @@
+{
+  "slug": "vierge",
+  "nom": "Virgo",
+  "sousTitre": "The sixth sign of the Zodiac",
+  "devise": "I discern",
+  "periode": "August 23 – September 22",
+  "element": "Earth",
+  "mode": "Mutable",
+  "maitre": "Mercury",
+  "exaltation": "Mercury",
+  "exil": "Jupiter",
+  "chute": "Venus",
+  "polarite": "Feminine",
+  "temperament": "Nervous",
+  "maisonNaturelle": 6,
+  "couleur": {
+    "primaire": "#0D9488",
+    "secondaire": "#6EE7B7",
+    "accent": "#A3E635",
+    "gradient": "from-teal-600 via-emerald-500 to-green-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "lion", "nom": "Leo" },
+    "suivant": { "slug": "balance", "nom": "Libra" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/vierge.webp",
+    "planete": "/images/planetes/mercure.webp"
+  },
+  "introduction": "Virgo is the sixth sign of the Zodiac. It is the end of summer: nature has finished its work, and it is the time of harvest, of sorting, of preserving everything that has been sown. An Earth sign, mutable, feminine, nocturnal, ruled by Mercury, Virgo embodies the intelligence of detail, the sense of service and the ability to make the world more functional. After Aries has initiated, Taurus has consolidated, Gemini has set things circulating, Cancer has protected and Leo has shone, Virgo says: “now, let us sort, correct, improve.” Its founding gesture is neither “I exist” nor “I shine” — it is “I discern.” I analyse, I sort, I improve, I make useful.",
+  "fondationsCosmiques": {
+    "texte": "Virgo belongs to the Earth element (cold and dry), which gives it a nervous temperament: a sense of the concrete, a realistic mind, method, caution and faithfulness to commitments. It is the second level of Earth — that of mastery. Virgo masters the earthly element by accounting, analysing, selecting. It is abstract earth, shifting sand, the need to know precisely what it has and what it lacks. Its mode is mutable: it adapts to all situations, says amen to everything, does not seek conflict, but often needs others to make decisions. Unlike the other three mutable signs, it is not a double sign.",
+    "courteAscension": "Tradition classes Virgo among the signs of long ascension, nocturnal, northern, of right ascension, human, wild, volatile, barren, of vitality, of beauty, of wit and science, of tall and slender stature. Mercury is both domiciled and exalted in this sign — a unique case in the Zodiac — which gives natives a calculating, practical, analytical Mercury.",
+    "pluton": "The exile of Jupiter in Virgo underscores a tension between the virginal need for precision, sorting and detail, and the Jupiterian impulse toward synthesis, expansion and an overall vision. Virgo wants to check every fact; Jupiter wants to embrace the whole. This is precisely the Virgo–Pisces axis: form versus dissolution, precision versus compassion, control versus surrender. The fall of Venus adds a difficulty in letting go into sensuality and pleasure."
+  },
+  "analogies": {
+    "animal": "The bee",
+    "objet": "The tool, the grain, the measuring instrument",
+    "fonction": "To analyse, to sort, to improve",
+    "texte": "Virgo evokes practical sense, logic, rationalism, analysis, a love of detail. It is the researcher, the librarian, the translator, the craftsman, the subordinate. The native of this sign is a conservative who dislikes having their habits disturbed. The need to have work in which it can organise and reorganise pleases it. It seeks to store up so as to lack nothing, which makes it methodical and demanding toward its obligations."
+  },
+  "mythologie": {
+    "titre": "Demeter, Isis and the Virgin Mother",
+    "texte": "Virgo is associated with goddess figures linked to the earth, the harvests and purification, such as Demeter or Astraea. It symbolises the consciousness that observes, sorts and orders in order to make the world fairer and more functional. It is not a figure of naive innocence, but of lucidity: it sees what must be corrected so that life flows better. Demeter, the one who brings the bread necessary for life, charged her adopted son Triptolemus with teaching humans to cultivate and sow the earth. She is the beneficent, peaceful and generous goddess who cares for humanity.",
+    "civilisations": "In Egypt, the myth of Isis tells the story of the initiating mother — a symbol of the tried, humiliated woman who suffers but does not lose courage and sees her faith rewarded. Isis appears as the supreme goddess who shows humans the long and difficult path of initiation. For the alchemists of the Middle Ages, the sign of Virgo was the symbol of the Virgin Mother, Mary holding the infant Jesus in her arms. Demeter is also the goddess who descended to the underworld and returned — the one who establishes respect for parents and lays down the first rules of life in society, of daily work."
+  },
+  "portrait": {
+    "temperament": "Virgo observes before acting: it looks, compares, classifies, corrects and seeks to understand the real mechanisms. Its character is discreet, precise, methodical, often reserved, with a strong need for coherence and usefulness. The mind is analytical, full of discernment, logic and ingenuity, hence easy understanding and broad capacity for assimilation. Much critical sense and more gifted for the exact sciences than for art or poetry. Very observant, very meticulous, capable of remarkable precision in its achievements. The subject seeks to place the senses and feelings under the control of reason — it is a mind perfectly suited to administrative tasks, to work involving compilation, research and refinement.",
+    "forces": [
+      "A keen sense of detail and the ability to improve what exists",
+      "A logical, methodical and remarkably precise mind",
+      "Reliability, devotion and scrupulousness in work",
+      "Exceptional capacity for analysis and discernment",
+      "A highly developed practical sense and ingenuity",
+      "Making a situation clearer, cleaner or more functional"
+    ],
+    "ombres": [
+      "Mental rigidity and paralysing perfectionism",
+      "Excessive self-criticism and an inferiority complex",
+      "Fears linked to imperfection and chronic anxiety",
+      "A tendency to get lost in needless detail",
+      "Under strong dissonance: constant criticism, fussiness, sly scheming"
+    ],
+    "besoinsVitaux": [
+      "Concrete usefulness and a sense of serving",
+      "Order, coherence and a structured framework",
+      "Understanding how things work"
+    ],
+    "aTravailler": [
+      "Letting go of excessive control",
+      "Accepting imperfection as part of life",
+      "Trusting the process without checking everything",
+      "Not reducing life to what must be corrected",
+      "Distinguishing precision from anxiety"
+    ],
+    "equilibre": "A Virgo in full command of their powers becomes an intelligence in the service of life, able to help without judging. It turns analysis into care and precision into practical wisdom. Its lucidity becomes fertile: it improves without crushing, orders without rigidifying. It is the ideal signature for a trusted collaborator, a rigorous craftsman, an attentive caregiver — someone you can count on in all circumstances."
+  },
+  "sante": {
+    "zones": ["Intestines", "Digestive system", "Assimilation function", "Belly", "Metabolism"],
+    "texte": "Virgo governs the intestine and, by extension, the entire abdominal region. This sign also exerts a marked influence on the nervous system. It predisposes to intestinal ailments in all their forms, to abdominal surgery and to appendicitis in particular. Nervous breakdowns are frequent. The native has a strong tendency to exaggerate its troubles and to worry about its health — which paradoxically makes it cautious and spares it complications linked to excess. The constitution is rather delicate, but the care taken with a healthy lifestyle often compensates for this constitutional fragility."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "An analytical mind, full of discernment, logic and ingenuity. Easy understanding, broad capacity for assimilation. Much critical sense, more gifted for the exact sciences than for art. Aptitudes for collecting and classifying, linguistic gifts. Shallow feelings, caution and modesty. Psychological finesse, diplomacy and even cunning. Regular and meticulous activity rather than intense. A good refiner and innovator. Access to positions of responsibility is rare, but the subject succeeds better as a trusted collaborator."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "Eases earnings more in subordinate positions than in personal ventures. Much practical sense; income is not very large but fairly easy. If the Ascendant is in the first degrees of Virgo, the subject is provident and thrifty by reasoning more than by instinct. Gains mainly in the food trade and in all positions of trust."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "Maximum development of the practical intellect: the subject seeks to make the most of all its knowledge. The type of the very interested writer or scholar, or of the engineer in search of new improvements. A fan of correspondence courses. Short journeys fairly numerous and connected with the profession. Little warmth in family relationships, but frequent contacts for business."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "The family of origin is rather modest, and considerations of interest may trouble family relationships over questions of money. Efforts are made to secure a solid haven for the latter part of life. It eases real-estate acquisitions. Sometimes the native seeks to build or fit out their own dwelling. A strong influence of the family on professional orientation."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Great passions and turbulent romantic adventures are rare. Questions of interest sometimes mingle with feelings. A tendency to relationships with people of a lower station. This barren sign hardly favours offspring or the health of children. It is not a very fortunate sign for speculation, but the native seeks to replace luck with reasoning or confidential information."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "A strong predisposition to intestinal ailments and nervous breakdowns. Malefics in this sign can indicate abdominal surgery. Ingenious, devoted, docile servants or employees. It is generally better to work for others than for oneself. It is in this house that Virgo finds its most natural resonance."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "Inclines rather toward celibacy. When there is a marriage, the partner brings in reason and questions of interest too much, so that conjugal harmony often leaves something to be desired. Separations are fairly frequent but rarely dramatic. Partners are useful through their know-how but more self-interested than the subject. Enemies are hardly powerful but can be dangerous through their subtlety."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "Not a very beneficial indicator for inheritances, usually very modest, which can give rise to disputes and quibbling. If the aspects are beneficial, the subject may inherit real estate or a business. Death through the sign's ailments. In some cases, premature wear from excessive work relative to the weakness of the constitution."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "Little favourable to spiritual conceptions, with a rather materialistic ideal. The subject may take an interest in theories outside common data, such as the occult, but will seek to test them by experience. Long business trips possible, more by land than by sea. A few study trips. Travel is rather imposed by circumstances."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "Provides a forecast of a modest situation, since the subject rarely manages to free itself from the tutelage of others. It succeeds better in the service of an employer. This demand of destiny can make it a malcontent who feels unrecognised. Little qualified for large enterprises, but it can make a good craftsman or succeed in a liberal profession. Suited to all office work and small trade."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Numerous friendships but not entirely disinterested and lacking stability. It eases passing relationships. Friends can hardly render material services, but are sometimes useful because of their erudition or practical sense."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "Not a very favourable indicator for health: accidental illnesses tend to become chronic and can lead to hospital stays. Enmities are numerous but hardly cause serious harm — it is above all against slander and gossip that the native must guard. Sometimes betrayal on the part of subordinates."
+    }
+  ],
+  "amour": {
+    "texte": "Virgo often loves with restraint, finesse and seriousness. It does not reveal itself in grand displays, but shows its attachment through attention, constancy, useful gestures and quality of presence. It seeks a reliable, healthy and coherent relationship where trust can be built in deeds. Its love life is not very eventful because reason strives to master the senses and feelings. Its modesty is also an obstacle when it comes to approaching the other — hence multiple gropings and hesitations before taking decisive steps. But once committed, the Virgo native honours its commitments and its married life is fairly peaceful.",
+    "qualites": [
+      "Discreet and constant faithfulness",
+      "Attention to the other's real needs",
+      "The ability to love through useful gestures",
+      "Emotional seriousness and respect for commitments",
+      "A will to improve and to care for the bond"
+    ],
+    "vigilances": [
+      "May analyse the bond too much instead of living it",
+      "Risk of excessive emotional restraint",
+      "A tendency to see first what is wrong",
+      "Difficulty relaxing into romantic imperfection"
+    ],
+    "affinites": ["taureau", "cancer", "scorpion", "capricorne"]
+  },
+  "travail": {
+    "texte": "Virgo works with seriousness, precision and a sense of detail. It excels in activities that require analysis, method, continuous improvement and a concern for quality. A remarkable refiner and innovator, very meticulous and ingenious in its achievements. More gifted at executing and adapting than at conceiving or directing. It is the ideal signature for a trusted collaborator, an irreplaceable “right hand.” Typical professions: teacher, secretary, accountant, librarian, draughtsman, doctor, pharmacist, chemist, surveyor, mathematician, craftsman, merchant, salesperson.",
+    "atouts": [
+      "Method, rigour and technical competence",
+      "Exemplary reliability and devotion",
+      "The ability to correct, organise and optimise",
+      "A highly developed practical sense and ingenuity",
+      "Scrupulousness and care for work well done"
+    ],
+    "defis": [
+      "A tendency to over-control and to get lost in details",
+      "Risk of overwork or excessive demands",
+      "A lack of boldness and an inferiority complex",
+      "Tolerates imposed approximation poorly",
+      "A delicate constitution limiting intense and prolonged efforts"
+    ]
+  },
+  "argent": {
+    "texte": "Virgo has a cautious, reasoned and concrete relationship with money. It seeks to understand, to anticipate, to avoid waste and to ensure that resources are well used. Income is not very large but fairly easy. The subject is provident and thrifty by reasoning more than by instinct. Earnings are eased in subordinate positions, the food trade and all positions of trust. Affluence rarely comes from speculative boldness, but from regularity and practical sense.",
+    "forces": [
+      "Cautious management and attention to detail",
+      "The ability to avoid waste",
+      "A lucid relationship to useful spending",
+      "Thrifty by reasoning and foresight"
+    ],
+    "risques": [
+      "A tendency to calculate too much",
+      "Financial anxiety linked to the need for control",
+      "Difficulty treating oneself without justification",
+      "May give too much importance to security through control"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Virgo builds an identity based on usefulness, competence, precision and a sense of the real. It needs to feel accurate, reliable and concretely valuable.",
+      "manifestations": ["Awareness of detail", "A spirit of service", "Method", "Reliability"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Virgo experiences emotion through the need for order, clarity, inner cleanliness and functional landmarks. It calms itself through organisation and mastery.",
+      "manifestations": ["Practical sense", "The ability to help concretely", "Useful emotional reserve", "A need for emotional hygiene"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Virgo is in one of its most natural expressions: precise, analytical, structured thought, turned toward the concrete and significant detail.",
+      "manifestations": ["Great mental precision", "Analytical ability", "Organisation of thought", "A sense of useful detail"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Virgo loves with discretion, attention, modesty and a desire to do well. Pleasure comes through quality, accuracy, care and the coherence of the bond.",
+      "manifestations": ["Delicacy", "Faithfulness", "Real care for the bond", "A taste for simple quality"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Virgo acts with precision, method and a will for efficiency. The energy is channelled, organised, regulated, and seeks to be useful rather than spectacular.",
+      "manifestations": ["Efficiency", "Discipline", "Well-measured action", "The ability to improve gradually"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Virgo amplifies the need to be useful, competent, precise and concrete. It grows through service, improvement and applied knowledge.",
+      "manifestations": ["Useful competence", "A spirit of service", "Progress through effort", "A taste for improvement"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Virgo strongly structures the relationship to work, order, competence and mastery of detail. It can give great rigour.",
+      "manifestations": ["Rigour", "A sense of responsibility", "Solid competence", "The ability to hold to a method"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Virgo creates a tension between method and innovation. It pushes one to transform work systems, routines, technique and the relationship to efficiency.",
+      "manifestations": ["Applied innovation", "Original practical intelligence", "Reform of the concrete", "The ability to modernise procedures"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Virgo seeks an ideal of purity, care, discreet attention and inspired service. It makes sensitivity subtle, sometimes silent and very fine.",
+      "manifestations": ["Discreet compassion", "A sense of invisible care", "Inspiration in detail", "A search for a form of purity"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Virgo deeply transforms the relationship to work, the body, routines, health and mastery of detail. It pushes one to get to the bottom of the mechanisms of the real.",
+      "manifestations": ["The ability to transform a system from within", "Power of analysis", "Radical lucidity", "Regeneration through order and sorting"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "variable",
+      "titre": "Impulse and precision",
+      "texte": "Virgo wants to understand, correct and organise; Aries wants to act fast. The bond can be useful but calls for a genuine adjustment of rhythm between raw momentum and patient method.",
+      "forces": ["Complementarity between momentum and method", "The possibility of making action more efficient", "One launches, the other refines"],
+      "frictions": ["Aries may find Virgo too critical", "Virgo may find Aries too brutal", "Conflict between impulse and precision"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "fluide",
+      "titre": "Earth and coherence",
+      "texte": "Virgo and Taurus share a sense of the concrete, the real, usefulness and a constructive stability. Two Earth signs that can build something reliable together.",
+      "forces": ["Pragmatism", "A sense of daily life", "Reliability", "Patient construction"],
+      "frictions": ["Virgo may become too critical", "Taurus may become too rigid", "Risk of excessive routine"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "complementaire",
+      "titre": "Two signs of Mercury, two functions",
+      "texte": "Gemini opens, Virgo sorts. One explores, the other classifies. The bond can be very intelligent if each respects the other's function — openness and precision.",
+      "forces": ["Great intelligence", "Complementarity between openness and precision", "Mutual learning"],
+      "frictions": ["Gemini may seem too scattered", "Virgo may seem too critical", "Conflict between variety and method"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "fluide",
+      "titre": "Sensitive care and concrete care",
+      "texte": "Cancer protects through emotion, Virgo protects through attention and method. The bond can be discreet, faithful and deeply human — a quiet but supportive alliance.",
+      "forces": ["Gentleness", "Mutual support", "The ability to care", "A sense of human detail"],
+      "frictions": ["Cancer may feel hurt by certain criticisms", "Virgo may feel overwhelmed by emotion", "A difference between feeling and analysis"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "variable",
+      "titre": "Creation and improvement",
+      "texte": "Leo wants to shine, Virgo wants to fine-tune. The bond can be fertile if each understands that one expresses and the other refines — the vision and the detail.",
+      "forces": ["Complementarity between inspiration and precision", "The possibility of building a strong work", "One gives the vision, the other makes it viable"],
+      "frictions": ["Leo may experience criticism as an attack", "Virgo may see what is wrong too quickly", "Conflict between panache and modesty"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Precision and awareness of the real",
+      "texte": "Two Virgos can understand each other very finely in their need for order, accuracy, method and coherence. The bond can be sober, reliable and intelligent.",
+      "forces": ["Mutual understanding", "Rigour", "The ability to build cleanly", "A sense of service"],
+      "frictions": ["Excessive criticism", "Nervous tension", "Shared perfectionism", "Difficulty letting go"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Accuracy and harmony",
+      "texte": "Virgo seeks precision, Libra seeks relational balance. The bond can be refined, civilised, elegant, but sometimes too hesitant or too mental.",
+      "forces": ["A sense of accuracy", "A taste for a clean, respectful bond", "Relational intelligence"],
+      "frictions": ["Virgo may find Libra too indecisive", "Libra may find Virgo too critical", "Conflict between demand and diplomacy"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "fluide",
+      "titre": "Lucidity and depth",
+      "texte": "Virgo analyses, Scorpio pierces into the depths. The bond can be powerful, precise, transformative and very lucid — two natures that are not satisfied with appearances.",
+      "forces": ["Lucidity", "A demand for truth", "Depth", "The ability to understand what is hidden"],
+      "frictions": ["Virgo may be too anxious", "Scorpio may be too intense", "Risk of tension or control"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "delicate",
+      "titre": "Detail and horizon",
+      "texte": "Virgo wants to check, Sagittarius wants to broaden. The bond can be useful, but it calls for accepting that not everything is thought on the same scale.",
+      "forces": ["One provides the detail, the other the vision", "The possibility of balancing method and meaning", "Mutual learning"],
+      "frictions": ["Virgo may find Sagittarius too broad or imprecise", "Sagittarius may find Virgo too limited", "Conflict between rigour and expansion"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "fluide",
+      "titre": "Useful earth and structured earth",
+      "texte": "Virgo and Capricorn can build with seriousness, method and endurance. Two Earth signs that understand each other in work, rigour and duration.",
+      "forces": ["Rigour", "Lasting construction", "A sense of responsibility", "Realism"],
+      "frictions": ["Capricorn may seem too hard", "Virgo may become too anxious", "Risk of an overly controlled world"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "variable",
+      "titre": "Method and break with method",
+      "texte": "Virgo wants to improve through precision, Aquarius sometimes wants to break the frameworks to reinvent. The bond can be stimulating but destabilising for Virgo.",
+      "forces": ["Intelligence", "Complementarity between system and innovation", "The possibility of useful reform"],
+      "frictions": ["Virgo may find Aquarius too unpredictable", "Aquarius may find Virgo too normative", "Conflict between the security of method and freedom"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "complementaire",
+      "titre": "The Virgo–Pisces axis",
+      "texte": "Virgo discerns, Pisces connects everything. It is a powerful axis between form and dissolution, precision and compassion, method and inspiration — the material opposed to the immaterial.",
+      "forces": ["Deep complementarity", "A possible balance between lucidity and sensitivity", "The ability to unite concrete care and compassion"],
+      "frictions": ["Virgo may find Pisces too vague", "Pisces may find Virgo too dry", "Conflict between control and surrender"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Virgo, it often means that you enter life with reserve, observation, precision and a need to understand what is happening before committing fully. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting often carries a discreet, precise and attentive tone.",
+    "apparence": [
+      "A sober, neat presence",
+      "A discreet, clean or controlled bearing",
+      "An observant gaze",
+      "An impression of restraint, precision or vigilance"
+    ],
+    "temperament": [
+      "Observes before acting",
+      "Needs to understand how things work",
+      "Tolerates needless disorder poorly",
+      "Enters situations with caution and discernment"
+    ],
+    "vigilances": [
+      "Anxiety and hypervigilance",
+      "A tendency to over-control",
+      "Difficulty relaxing",
+      "Risk of seeming too critical or too closed"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Zavijava",
+      "nature": "Mercury",
+      "texte": "Zavijava is often associated with an attentive, analytical intelligence, able to observe details finely. It resonates well with the Mercurial and precise tone of Virgo.",
+      "motsCles": ["Observation", "Precision", "Discernment", "Analysis"]
+    },
+    {
+      "nom": "Denebola",
+      "nature": "Uranus / Mercury",
+      "texte": "Denebola adds a note of sometimes distant, critical or independent lucidity. In a symbolic reading of Virgo, it reinforces the ability to see clearly and not to be seduced by illusions.",
+      "motsCles": ["Mental independence", "Lucidity", "Detachment", "Finesse"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Sapphire", "motsCles": ["clarity", "purity", "rigour", "lucidity"] },
+      { "nom": "Moss agate", "motsCles": ["balance", "nature", "care", "patience"] },
+      { "nom": "Bronze", "motsCles": ["mastery", "craft", "solidity", "usefulness"] }
+    ],
+    "vegetaux": [
+      { "nom": "Vervain", "motsCles": ["clarity", "soothing", "finesse", "order"] },
+      { "nom": "Rosemary", "motsCles": ["memory", "hygiene", "lucidity", "discipline"] },
+      { "nom": "Olive tree", "motsCles": ["sobriety", "patience", "wisdom", "duration"] }
+    ],
+    "animaux": [
+      { "nom": "Bee", "motsCles": ["work", "order", "precision", "usefulness"] },
+      { "nom": "Ant", "motsCles": ["foresight", "organisation", "perseverance", "method"] },
+      { "nom": "Swallow", "motsCles": ["precision", "rhythm", "flexibility", "skill"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Brazil", "texte": "A symbolic correspondence linked to service, the fertility of the real, concrete organisation and a logic of adaptation." },
+    { "pays": "Greece", "texte": "A traditional symbolic attribution that varies between schools and authors." },
+    { "pays": "Turkey", "texte": "A correspondence stemming from a classical symbolic tradition of astrological geography." },
+    { "pays": "United States", "texte": "A classical symbolic attribution that may also appear for other signs depending on the traditions." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Beyoncé", "domaine": "Music", "date": "September 4, 1981", "texte": "Mastery, demandingness, precision and perfection of execution." },
+    { "nom": "Keanu Reeves", "domaine": "Film", "date": "September 2, 1964", "texte": "Sobriety, restraint, reliability of image and a discretion very consistent with Virgo." },
+    { "nom": "Zendaya", "domaine": "Film / Fashion", "date": "September 1, 1996", "texte": "Precise elegance, great image mastery and a sober intelligence in expression." },
+    { "nom": "Cameron Diaz", "domaine": "Film", "date": "August 30, 1972", "texte": "A clear, direct presence and a tone of efficient simplicity." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Virgo?",
+      "reponse": "Virgo is characterised by an analytical, logical, methodical mind and a remarkable sense of detail. It is a discreet, precise, reliable and devoted temperament that needs coherence and usefulness to flourish. It can be anxious or too critical, but it is also one of the most intelligent, ingenious and trustworthy signs of the Zodiac."
+    },
+    {
+      "question": "What kind of lover is Virgo?",
+      "reponse": "Discreet, faithful, attentive and serious. Virgo loves through concrete gestures, constancy and attention to the other's real needs. It does not reveal itself in grand displays, but its presence is reliable. It seeks a healthy, coherent relationship where trust is built in deeds rather than in words."
+    },
+    {
+      "question": "What kind of worker is Virgo?",
+      "reponse": "Methodical, precise, reliable and remarkably ingenious. Virgo excels in roles of analysis, care, management and continuous improvement. It is more gifted at executing and perfecting than at directing — it is the ideal signature of the trusted collaborator, the irreplaceable right hand."
+    },
+    {
+      "question": "Which house corresponds to Virgo?",
+      "reponse": "The Sixth House — that of daily work, service, health, routines, skills and the way of making things functional. Its natural analogy with Virgo underscores the need to sort, correct, maintain, understand and improve."
+    },
+    {
+      "question": "What is the ideal Ascendant for Virgo?",
+      "reponse": "A Pisces Ascendant brings intuition and letting go to its overly analytical mind. A Cancer Ascendant softens its emotional restraint. A Taurus Ascendant strengthens its grounding and concrete serenity."
+    },
+    {
+      "question": "What are the flaws of Virgo?",
+      "reponse": "Paralysing perfectionism, chronic anxiety, excessive criticism and fussiness are its shadow zones. It can get lost in details to the point of neglecting the bigger picture."
+    },
+    {
+      "question": "Why is Virgo said to be fussy?",
+      "reponse": "Its need for order comes from Mercury, both domiciled and exalted in this sign. It analyses and sorts by instinct. This concern for detail becomes fussiness only when anxiety takes precedence over discernment."
+    }
+  ]
+}

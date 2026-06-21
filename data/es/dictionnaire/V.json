@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "verseau",
+    "category": "signe",
+    "term": "Acuario",
+    "short": "Undécimo signo (Aire/Fijo), que simboliza la innovación, lo colectivo y la libertad.",
+    "body": "Acuario corresponde al pleno invierno. Regido por Saturno (tradicional) y Urano (moderno), encarna la visión futurista, la originalidad y el idealismo social. Busca romper las estructuras obsoletas para crear una fraternidad universal. Es el signo de la amistad y de los proyectos humanistas. Su desafío es aprender a integrar sus propias emociones en lugar de permanecer únicamente en lo conceptual y en la independencia radical."
+  },
+  {
+    "slug": "venus",
+    "category": "planète",
+    "term": "Venus",
+    "short": "El planeta del amor, la belleza y la armonía.",
+    "body": "Venus simboliza los valores, los placeres y las relaciones. Rige Tauro y Libra, poniendo de relieve la necesidad de estética, comodidad y equilibrio en las interacciones sociales. En astrología, Venus indica cómo amamos, qué nos resulta atractivo y cómo expresamos nuestro afecto. Su posición en la carta natal revela nuestro estilo relacional y nuestros criterios de elección amorosa."
+  },
+  {
+    "slug": "vertex",
+    "category": "technique",
+    "term": "Vértex",
+    "short": "Punto ficticio situado al oeste, a menudo llamado el «tercer ángulo» de la carta.",
+    "body": "El Vértex es el punto de intersección entre la eclíptica y el primer vertical al oeste. En astrología moderna, se considera una puerta del destino o un punto de 'encuentro fatídico'. Mientras que el Descendente describe las relaciones que elegimos conscientemente, el Vértex activa acontecimientos o encuentros sobre los que no tenemos ningún control y que parecen impuestos por la vida. Se utiliza mucho en sinastría para detectar las conexiones kármicas o los grandes giros de la existencia provocados por los demás. Su punto opuesto es el Anti-Vértex."
+  },
+  {
+    "slug": "venerable",
+    "category": "concept",
+    "term": "Venerable",
+    "short": "Término antiguo que designa un planeta o un aspecto considerado particularmente benéfico o noble.",
+    "body": "En astrología clásica, el término «venerable» calificaba a ciertos astros o configuraciones juzgados particularmente favorables, en especial los planetas benéficos (Venus, Júpiter) y los aspectos armoniosos (trígono, sextil). La expresión «planeta venerable» sugería una influencia noble, portadora de suerte y bienestar. Esta terminología refleja una visión determinista de la astrología que ya no tiene vigencia en la práctica moderna. Hoy se prefiere hablar de aspectos benéficos o de planetas en dignidad, reconociendo que incluso las configuraciones más favorables requieren conciencia y trabajo sobre uno mismo para ser plenamente aprovechadas. El término sigue siendo útil para comprender los textos astrológicos antiguos, donde la distinción entre influencias «venerables» y «viciosas» estructuraba toda la interpretación."
+  },
+  {
+    "slug": "vesta",
+    "category": "planète",
+    "term": "Vesta",
+    "short": "El asteroide de la devoción, el hogar interior y la concentración.",
+    "body": "Vesta simboliza el fuego sagrado, la devoción a una causa o a una práctica. Representa la capacidad de concentrarse intensamente en un objetivo, sacrificando a veces los placeres personales. Está ligada a la pureza de intención y al trabajo solitario."
+  },
+  {
+    "slug": "vicieux-aspect",
+    "category": "aspect",
+    "term": "Vicioso (aspecto)",
+    "short": "Término antiguo que designa un aspecto considerado particularmente difícil o pernicioso.",
+    "body": "En astrología clásica, el término «vicioso» calificaba a ciertos aspectos juzgados particularmente nefastos, en especial la cuadratura y la oposición que implicaban a los maléficos tradicionales (Marte, Saturno). La expresión «aspecto vicioso» sugería una influencia corrupta, difícil de canalizar, que producía efectos dañinos recurrentes. Esta terminología refleja una visión determinista de la astrología que ya no tiene vigencia en la práctica moderna. Hoy se prefiere hablar de aspectos tensos, disonantes o dinámicos, reconociendo que incluso las configuraciones más difíciles pueden transformarse en fortalezas mediante la conciencia y el trabajo sobre uno mismo. El término sigue siendo útil para comprender los textos astrológicos antiguos, donde la distinción entre aspectos «benéficos» y «viciosos» estructuraba toda la interpretación."
+  },
+  {
+    "slug": "via-combusta",
+    "category": "concept",
+    "term": "Via Combusta (Vía Quemada)",
+    "short": "Zona del zodíaco que va de 15° de Libra a 15° de Escorpio, juzgada nefasta.",
+    "body": "La Via Combusta es una porción del cielo históricamente considerada muy inestable y maléfica. Un planeta (en particular la Luna) que se encuentre en esta zona se percibe como debilitado o sometido a pruebas imprevisibles. Esta creencia se remonta al hecho de que esta zona combina la caída del Sol (Libra) y el exilio de Venus con la caída de la Luna (Escorpio). En astrología horaria, la Luna en la Via Combusta suele volver incierto el juicio o presagiar un resultado caótico."
+  },
+  {
+    "slug": "vierge",
+    "category": "signe",
+    "term": "Virgo",
+    "short": "Sexto signo (Tierra/Mutable), que simboliza el análisis, el servicio y el discernimiento.",
+    "body": "Virgo marca el final del verano y el tiempo de la cosecha. Regido por Mercurio, privilegia la eficacia, el método y el cuidado del detalle. Es el signo del perfeccionamiento técnico y de la salud. Busca hacerse útil a la colectividad mediante un trabajo esmerado. Su desafío es superar la autocrítica y la inquietud para encontrar la confianza en el orden natural de las cosas."
+  },
+  {
+    "slug": "visee",
+    "category": "concept",
+    "term": "Orientación (propósito)",
+    "short": "Orientación consciente hacia un objetivo o una aspiración en la carta natal.",
+    "body": "La orientación es la dirección que uno elige dar a su vida en función de las indicaciones de la carta natal. Implica tomar conciencia de los talentos, los desafíos y las aspiraciones revelados por los planetas, las casas y los aspectos. La orientación no está determinada por la carta, sino que se inspira en ella para encaminar las decisiones de vida hacia una realización más auténtica y plena. Es un concepto clave para pasar de una lectura descriptiva de la carta a un enfoque más dinámico y proactivo de la astrología."
+  }
+]

@@ -1,8 +1,12 @@
 import nextMDX from "@next/mdx";
+import createNextIntlPlugin from "next-intl/plugin";
 
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
 });
+
+// ✅ Plugin next-intl : branche i18n/request.ts (locale + messages par requête)
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -97,4 +101,4 @@ const nextConfig = {
   },
 };
 
-export default withMDX(nextConfig);
+export default withNextIntl(withMDX(nextConfig));

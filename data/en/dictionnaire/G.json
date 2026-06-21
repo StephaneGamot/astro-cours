@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "gemeaux",
+    "category": "signe",
+    "term": "Gemini",
+    "short": "The third sign (Air/Mutable), symbolising communication and duality.",
+    "body": "Gemini marks the end of spring, the moment when nature scatters its pollen. Ruled by Mercury, it is the sign of the intellect, of insatiable curiosity and of exchange. It represents the ability to connect ideas and people. Its dual nature lets it see every facet of a situation, but can also lead it to scatter its energies. Its challenge is to move from mere information to deep knowledge."
+  },
+  {
+    "slug": "geocentrique",
+    "category": "astronomique",
+    "term": "Geocentric",
+    "short": "A frame of reference placing the Earth at the centre of the universe.",
+    "body": "Astrology is a geocentric discipline by nature, because it studies the influence of the heavenly bodies as they are perceived from the place of human experience (the Earth). This choice does not ignore that the Earth orbits the Sun, but rather favours the phenomenological perspective that is indispensable to symbolic interpretation."
+  },
+  {
+    "slug": "georges-antares",
+    "category": "personnage",
+    "term": "Georges Antarès",
+    "short": "Influential Belgian astrologer (1905-1991), founder of the Antarès school of astrology.",
+    "body": "Born Marcel Mestdagh, Georges Antarès played a major role in popularising a serious and structured astrology in the French-speaking world. The author of many reference works such as the 'Manuel d'Astrologie', he developed a synthetic and pedagogical method of interpretation. His teaching favours technical clarity and moral rigour, moving away from sensationalist excesses to focus on the analysis of character."
+  },
+  {
+    "slug": "gouverneur",
+    "category": "concept",
+    "term": "Ruler",
+    "short": "A planet that exercises its authority over a sign, a house or the whole chart.",
+    "body": "The ruler (or lord) is the custodian of a sector's energy. For example, the ruler of the Seventh House reveals the quality of contracts and partnerships. The 'Ruler of the Chart' is often the strongest planet (the Almuten) or the one that rules the Ascendant, acting as the guide of destiny."
+  },
+  {
+    "slug": "gouverneur-du-theme",
+    "category": "concept",
+    "term": "Ruler of the Chart",
+    "short": "The planet designated as the 'pilot' of the individual's destiny.",
+    "body": "The ruler (or Lord of the Geniture) is generally the ruler of the Ascendant, but it can also be the Almuten (the planet accumulating the most dignities). It represents the individual as a whole, their temperament and their capacity to steer their own life. The condition of this planet determines whether the subject will be master of their choices or tossed about by outer circumstances."
+  },
+  {
+    "slug": "grand-carre",
+    "category": "concept",
+    "term": "Grand Cross",
+    "short": "A configuration formed by four planets linked by four squares and two oppositions.",
+    "body": "The Grand Cross (or Cosmic Cross) is one of the harshest and most powerful figures in a chart. It locks the individual into a permanent challenge that touches every sector of their life (if the planets are angular). This configuration compels ceaseless action and an iron structuring of the self. It is very common among great builders or among people with an extraordinary destiny marked by struggle."
+  },
+  {
+    "slug": "grand-trigone",
+    "category": "concept",
+    "term": "Grand Trine",
+    "short": "A figure formed by three planets linked by trines within the same element.",
+    "body": "The Grand Trine forms a perfect equilateral triangle in the zodiac. It indicates a fluid circulation of energy, innate talents and great ease within the element concerned (Fire, Earth, Air or Water). Although perceived as highly beneficial, it carries a trap: inertia. With the energy flowing in a closed circuit without resistance, the individual may lack the motivation to push themselves or to face concrete challenges, settling instead for their natural facility."
+  }
+]

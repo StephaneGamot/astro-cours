@@ -1,0 +1,418 @@
+{
+  "Alcocoden": {
+    "en": "Alcocoden",
+    "es": "Alcocoden"
+  },
+  "Hyleg": {
+    "en": "Hyleg",
+    "es": "Hyleg"
+  },
+  "Jupiter": {
+    "en": "Jupiter",
+    "es": "Júpiter"
+  },
+  "Lune": {
+    "en": "Moon",
+    "es": "Luna"
+  },
+  "Mercure": {
+    "en": "Mercury",
+    "es": "Mercurio"
+  },
+  "Neptune": {
+    "en": "Neptune",
+    "es": "Neptuno"
+  },
+  "Part de Fortune": {
+    "en": "Part of Fortune",
+    "es": "Parte de la Fortuna"
+  },
+  "Pluton": {
+    "en": "Pluto",
+    "es": "Plutón"
+  },
+  "Renaissance": {
+    "en": "Renaissance",
+    "es": "Renacimiento"
+  },
+  "Saturne": {
+    "en": "Saturn",
+    "es": "Saturno"
+  },
+  "Soleil": {
+    "en": "Sun",
+    "es": "Sol"
+  },
+  "Uranus": {
+    "en": "Uranus",
+    "es": "Urano"
+  },
+  "Vénus": {
+    "en": "Venus",
+    "es": "Venus"
+  },
+  "action": {
+    "en": "action",
+    "es": "acción"
+  },
+  "amour": {
+    "en": "love",
+    "es": "amor"
+  },
+  "argent": {
+    "en": "money",
+    "es": "dinero"
+  },
+  "art": {
+    "en": "art",
+    "es": "arte"
+  },
+  "ascendant": {
+    "en": "ascendant",
+    "es": "ascendente"
+  },
+  "aspects": {
+    "en": "aspects",
+    "es": "aspectos"
+  },
+  "astrologie": {
+    "en": "astrology",
+    "es": "astrología"
+  },
+  "astrologie financière": {
+    "en": "financial astrology",
+    "es": "astrología financiera"
+  },
+  "astrologie médicale": {
+    "en": "medical astrology",
+    "es": "astrología médica"
+  },
+  "bases": {
+    "en": "basics",
+    "es": "fundamentos"
+  },
+  "beauté": {
+    "en": "beauty",
+    "es": "belleza"
+  },
+  "carrière": {
+    "en": "career",
+    "es": "carrera"
+  },
+  "chance": {
+    "en": "luck",
+    "es": "suerte"
+  },
+  "charisme": {
+    "en": "charisma",
+    "es": "carisma"
+  },
+  "communication": {
+    "en": "communication",
+    "es": "comunicación"
+  },
+  "compatibilité": {
+    "en": "compatibility",
+    "es": "compatibilidad"
+  },
+  "courage": {
+    "en": "courage",
+    "es": "valor"
+  },
+  "cycles": {
+    "en": "cycles",
+    "es": "ciclos"
+  },
+  "débutant": {
+    "en": "beginner",
+    "es": "principiante"
+  },
+  "déménagement": {
+    "en": "moving house",
+    "es": "mudanza"
+  },
+  "désir": {
+    "en": "desire",
+    "es": "deseo"
+  },
+  "exemples": {
+    "en": "examples",
+    "es": "ejemplos"
+  },
+  "finances": {
+    "en": "finances",
+    "es": "finanzas"
+  },
+  "foyer": {
+    "en": "home",
+    "es": "hogar"
+  },
+  "histoire": {
+    "en": "history",
+    "es": "historia"
+  },
+  "homme zodiacal": {
+    "en": "zodiac man",
+    "es": "hombre zodiacal"
+  },
+  "horoscope": {
+    "en": "horoscope",
+    "es": "horóscopo"
+  },
+  "humeurs": {
+    "en": "moods",
+    "es": "humores"
+  },
+  "immobilier": {
+    "en": "real estate",
+    "es": "bienes raíces"
+  },
+  "indépendance": {
+    "en": "independence",
+    "es": "independencia"
+  },
+  "intellect": {
+    "en": "intellect",
+    "es": "intelecto"
+  },
+  "intensité": {
+    "en": "intensity",
+    "es": "intensidad"
+  },
+  "intermédiaire": {
+    "en": "intermediate",
+    "es": "intermedio"
+  },
+  "interprétation": {
+    "en": "interpretation",
+    "es": "interpretación"
+  },
+  "intuition": {
+    "en": "intuition",
+    "es": "intuición"
+  },
+  "jeux d'argent": {
+    "en": "gambling",
+    "es": "juegos de azar"
+  },
+  "jupiterien": {
+    "en": "Jupiterian",
+    "es": "jupiteriano"
+  },
+  "karma": {
+    "en": "karma",
+    "es": "karma"
+  },
+  "longévité": {
+    "en": "longevity",
+    "es": "longevidad"
+  },
+  "loterie": {
+    "en": "lottery",
+    "es": "lotería"
+  },
+  "luminaires": {
+    "en": "luminaries",
+    "es": "luminarias"
+  },
+  "lunarien": {
+    "en": "Lunarian",
+    "es": "lunariano"
+  },
+  "lune": {
+    "en": "moon",
+    "es": "luna"
+  },
+  "maison I": {
+    "en": "house I",
+    "es": "casa I"
+  },
+  "maison II": {
+    "en": "house II",
+    "es": "casa II"
+  },
+  "maison V": {
+    "en": "house V",
+    "es": "casa V"
+  },
+  "maison VIII": {
+    "en": "house VIII",
+    "es": "casa VIII"
+  },
+  "maison X": {
+    "en": "house X",
+    "es": "casa X"
+  },
+  "maisons astrologiques": {
+    "en": "astrological houses",
+    "es": "casas astrológicas"
+  },
+  "manipulation": {
+    "en": "manipulation",
+    "es": "manipulación"
+  },
+  "mars": {
+    "en": "Mars",
+    "es": "Marte"
+  },
+  "martien": {
+    "en": "Martian",
+    "es": "marciano"
+  },
+  "mercurien": {
+    "en": "Mercurian",
+    "es": "mercuriano"
+  },
+  "milieu du ciel": {
+    "en": "midheaven",
+    "es": "medio cielo"
+  },
+  "mysticisme": {
+    "en": "mysticism",
+    "es": "misticismo"
+  },
+  "mémoire": {
+    "en": "memory",
+    "es": "memoria"
+  },
+  "méthode": {
+    "en": "method",
+    "es": "método"
+  },
+  "métier": {
+    "en": "trade",
+    "es": "oficio"
+  },
+  "neptunien": {
+    "en": "Neptunian",
+    "es": "neptuniano"
+  },
+  "orientation professionnelle": {
+    "en": "career guidance",
+    "es": "orientación profesional"
+  },
+  "originalité": {
+    "en": "originality",
+    "es": "originalidad"
+  },
+  "pervers narcissique": {
+    "en": "narcissistic abuser",
+    "es": "perverso narcisista"
+  },
+  "planètes": {
+    "en": "planets",
+    "es": "planetas"
+  },
+  "plutonien": {
+    "en": "Plutonian",
+    "es": "plutoniano"
+  },
+  "portrait astrologique": {
+    "en": "astrological portrait",
+    "es": "retrato astrológico"
+  },
+  "pouvoir": {
+    "en": "power",
+    "es": "poder"
+  },
+  "protection": {
+    "en": "protection",
+    "es": "protección"
+  },
+  "psychologie astrologique": {
+    "en": "astrological psychology",
+    "es": "psicología astrológica"
+  },
+  "relations": {
+    "en": "relationships",
+    "es": "relaciones"
+  },
+  "résilience": {
+    "en": "resilience",
+    "es": "resiliencia"
+  },
+  "révolution": {
+    "en": "revolution",
+    "es": "revolución"
+  },
+  "saturnien": {
+    "en": "Saturnian",
+    "es": "saturniano"
+  },
+  "signe": {
+    "en": "sign",
+    "es": "signo"
+  },
+  "signe solaire": {
+    "en": "sun sign",
+    "es": "signo solar"
+  },
+  "solarien": {
+    "en": "Solarian",
+    "es": "solariano"
+  },
+  "spiritualité": {
+    "en": "spirituality",
+    "es": "espiritualidad"
+  },
+  "sport": {
+    "en": "sport",
+    "es": "deporte"
+  },
+  "spéculation": {
+    "en": "speculation",
+    "es": "especulación"
+  },
+  "séduction": {
+    "en": "seduction",
+    "es": "seducción"
+  },
+  "temps": {
+    "en": "time",
+    "es": "tiempo"
+  },
+  "tempéraments": {
+    "en": "temperaments",
+    "es": "temperamentos"
+  },
+  "thème astral": {
+    "en": "natal chart",
+    "es": "carta natal"
+  },
+  "tradition": {
+    "en": "tradition",
+    "es": "tradición"
+  },
+  "transformation": {
+    "en": "transformation",
+    "es": "transformación"
+  },
+  "transits": {
+    "en": "transits",
+    "es": "tránsitos"
+  },
+  "uranien": {
+    "en": "Uranian",
+    "es": "uraniano"
+  },
+  "vitalité": {
+    "en": "vitality",
+    "es": "vitalidad"
+  },
+  "vocation": {
+    "en": "vocation",
+    "es": "vocación"
+  },
+  "vénusien": {
+    "en": "Venusian",
+    "es": "venusiano"
+  },
+  "zodiaque": {
+    "en": "zodiac",
+    "es": "zodíaco"
+  },
+  "émotions": {
+    "en": "emotions",
+    "es": "emociones"
+  }
+}

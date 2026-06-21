@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 
 export type CardData = {
   slug: string;
@@ -18,6 +18,8 @@ type Props = {
   accent?: AccentKey;
   layout?: ImageLayout;
   priority?: boolean;
+  /** Libellé d'accessibilité du lien, déjà traduit. Repli FR si absent. */
+  linkLabel?: string;
 };
 
 /* ────────────────────────────────────────────────────────────────
@@ -95,19 +97,21 @@ export default function ContentCard({
   basePath,
   accent: accentKey = "violet",
   layout = "icon",
-  priority = false
+  priority = false,
+  linkLabel: linkLabelProp,
 }: Props) {
   const a = ACCENT[accentKey];
   const titleId = `${basePath}-title-${item.slug}`;
   const descId = `${basePath}-desc-${item.slug}`;
 
-  /** Label for the card link — adapts to section context */
+  /** Label for the card link — traduit (prop) ou repli FR. */
   const linkLabel =
-    basePath === "planetes"
+    linkLabelProp ??
+    (basePath === "planetes"
       ? `Lire le cours complet sur la planète ${item.name}`
       : basePath === "maisons"
         ? `Lire le cours complet sur la ${item.name}`
-        : `Lire le cours complet sur le signe ${item.name}`;
+        : `Lire le cours complet sur le signe ${item.name}`);
 
   return (
     <article

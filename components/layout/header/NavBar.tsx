@@ -16,11 +16,12 @@
    ════════════════════════════════════════════════════════════════ */
 
 import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations, useLocale } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import Logo from "@/public/astro-cours-logo.webp";
-import { planetes, zodiaque, maisons, autre, type Item } from "./ConfigNav";
+import { getNavSections, type Item } from "./ConfigNav";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 /* ────────────────────────────────────────────────────────────────
    Inline SVGs — remplacent @heroicons/react
@@ -106,18 +107,30 @@ const ACCENT: Record<string, Accent> = {
 
 type Section = {
   key: string;
-  label: string;
   items: Item[];
   pathPrefix: string | null;
   panelAlign: "start" | "center" | "end";
 };
 
-const SECTIONS: Section[] = [
-  { key: "planetes", label: "Planètes", items: planetes, pathPrefix: "/planetes", panelAlign: "start" },
-  { key: "zodiaque", label: "Zodiaque", items: zodiaque, pathPrefix: "/signes", panelAlign: "center" },
-  { key: "maisons", label: "Maisons", items: maisons, pathPrefix: "/maisons", panelAlign: "center" },
-  { key: "annexes", label: "Annexes", items: autre, pathPrefix: null, panelAlign: "end" },
+/** Métadonnées de section (indépendantes de la langue). */
+const SECTION_META: { key: string; group: "planetes" | "zodiaque" | "maisons" | "autre"; pathPrefix: string | null; panelAlign: "start" | "center" | "end" }[] = [
+  { key: "planetes", group: "planetes", pathPrefix: "/planetes", panelAlign: "start" },
+  { key: "zodiaque", group: "zodiaque", pathPrefix: "/signes", panelAlign: "center" },
+  { key: "maisons", group: "maisons", pathPrefix: "/maisons", panelAlign: "center" },
+  { key: "annexes", group: "autre", pathPrefix: null, panelAlign: "end" },
 ];
+
+/** Construit les sections du menu avec les items traduits pour la locale active. */
+function useSections(): Section[] {
+  const locale = useLocale();
+  const groups = getNavSections(locale);
+  return SECTION_META.map((m) => ({
+    key: m.key,
+    items: groups[m.group],
+    pathPrefix: m.pathPrefix,
+    panelAlign: m.panelAlign,
+  }));
+}
 
 const PANEL_ALIGN = {
   start: "left-0",
@@ -140,6 +153,8 @@ function isItemActive(pathname: string, href: string): boolean {
 
 export default function NavBar() {
   const pathname = usePathname();
+  const t = useTranslations("nav");
+  const sections = useSections();
   const [mobileOpen, setMobileOpen] = useState(false);
   const closeMobile = useCallback(() => setMobileOpen(false), []);
 
@@ -164,7 +179,7 @@ export default function NavBar() {
         href="#main-content"
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-violet-600 focus:px-5 focus:py-3 focus:text-sm focus:font-semibold focus:text-white focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-violet-400 focus:ring-offset-2 focus:ring-offset-[#09090b]"
       >
-        Aller au contenu principal
+        {t("skipToContent")}
       </a>
 
       <header className="sticky top-0 z-50 w-full bg-[#09090b]/[.92] border-b border-white/[.06] shadow-[0_1px_20px_rgba(0,0,0,.4)]">
@@ -180,7 +195,7 @@ export default function NavBar() {
         />
 
         <nav
-          aria-label="Navigation principale"
+          aria-label={t("primary")}
           className="relative mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8 lg:py-3.5"
         >
           {/* Logo (priority retiré — il n'est pas le LCP) */}
@@ -190,7 +205,7 @@ export default function NavBar() {
               aria-current={pathname === "/" ? "page" : undefined}
               className="group rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]"
             >
-              <span className="sr-only">Astro Cours — Accueil</span>
+              <span className="sr-only">{t("homeAria")}</span>
               <Image
                 alt="Pleine lune permettant d'illustrer le logo d'Astro Cours"
                 src={Logo}
@@ -203,10 +218,11 @@ export default function NavBar() {
 
           {/* Desktop navigation — <details> natifs */}
           <div className="hidden lg:flex lg:items-center lg:gap-x-0.5">
-            {SECTIONS.map((section) => (
+            {sections.map((section) => (
               <DesktopDropdown
                 key={section.key}
                 section={section}
+                label={t(`sections.${section.key}`)}
                 accent={ACCENT[section.key]}
                 active={isSectionActive(pathname, section)}
                 pathname={pathname}
@@ -222,15 +238,17 @@ export default function NavBar() {
                   : "text-slate-300 hover:text-white hover:bg-white/[.04]"
               }`}
             >
-              Blog
+              {t("blog")}
               {pathname.startsWith("/blog") && (
                 <ActiveDot dot="bg-violet-400" glow="shadow-[0_0_6px_theme(colors.violet.400)]" />
               )}
             </Link>
           </div>
 
-          {/* Spacer */}
-          <div className="hidden lg:flex lg:flex-1" />
+          {/* Spacer + sélecteur de langue (desktop) */}
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <LocaleSwitcher />
+          </div>
 
           {/* Mobile toggle */}
           <button
@@ -240,7 +258,7 @@ export default function NavBar() {
             aria-controls="mobile-nav"
             className="lg:hidden rounded-lg p-2.5 text-slate-300 transition-colors hover:bg-white/[.06] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]"
           >
-            <span className="sr-only">Ouvrir le menu</span>
+            <span className="sr-only">{t("openMenu")}</span>
             <MenuIcon className="size-6" />
           </button>
         </nav>
@@ -276,11 +294,13 @@ function ActiveDot({ dot, glow }: { dot: string; glow: string }) {
 
 function DesktopDropdown({
   section,
+  label,
   accent: a,
   active,
   pathname,
 }: {
   section: Section;
+  label: string;
   accent: Accent;
   active: boolean;
   pathname: string;
@@ -307,7 +327,7 @@ function DesktopDropdown({
             : "text-slate-300 hover:text-white hover:bg-white/[.04] group-open:text-white"
         }`}
       >
-        {section.label}
+        {label}
         <ChevronDownIcon className="ml-0.5 size-3.5 text-slate-500 transition-transform duration-200 group-open:rotate-180 group-open:text-slate-300" />
         {active && <ActiveDot dot={a.dot} glow={a.glow} />}
       </summary>
@@ -379,19 +399,21 @@ function MobileDrawer({
   pathname: string;
   onClose: () => void;
 }) {
+  const t = useTranslations("nav");
+  const sections = useSections();
   return (
     <div
       id="mobile-nav"
       className="fixed inset-0 z-50 lg:hidden"
       role="dialog"
       aria-modal="true"
-      aria-label="Menu mobile"
+      aria-label={t("mobileMenu")}
     >
       {/* Scrim — clic ferme */}
       <button
         type="button"
         onClick={onClose}
-        aria-label="Fermer le menu"
+        aria-label={t("closeMenu")}
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
       />
 
@@ -405,7 +427,7 @@ function MobileDrawer({
             onClick={onClose}
             className="rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400"
           >
-            <span className="sr-only">Astro Cours — Accueil</span>
+            <span className="sr-only">{t("homeAria")}</span>
             <Image alt="Logo Astro Cours" src={Logo} width={36} height={36} className="h-9 w-auto" />
           </Link>
           <button
@@ -413,17 +435,18 @@ function MobileDrawer({
             onClick={onClose}
             className="rounded-lg p-2.5 text-slate-400 transition-colors hover:bg-white/[.06] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400"
           >
-            <span className="sr-only">Fermer le menu</span>
+            <span className="sr-only">{t("closeMenu")}</span>
             <CloseIcon className="size-6" />
           </button>
         </div>
 
         <nav aria-label="Menu mobile" className="px-4 py-3">
           <div className="space-y-1">
-            {SECTIONS.map((section) => (
+            {sections.map((section) => (
               <MobileSection
                 key={section.key}
                 section={section}
+                label={t(`sections.${section.key}`)}
                 accent={ACCENT[section.key]}
                 active={isSectionActive(pathname, section)}
                 pathname={pathname}
@@ -441,8 +464,13 @@ function MobileDrawer({
                   : "text-slate-200 hover:text-white hover:bg-white/[.04]"
               }`}
             >
-              Blog
+              {t("blog")}
             </Link>
+          </div>
+
+          {/* Sélecteur de langue (mobile) */}
+          <div className="mt-4 border-t border-white/[.06] pt-4">
+            <LocaleSwitcher />
           </div>
         </nav>
       </div>
@@ -457,12 +485,14 @@ function MobileDrawer({
 
 function MobileSection({
   section,
+  label,
   accent: a,
   active,
   pathname,
   onNavigate,
 }: {
   section: Section;
+  label: string;
   accent: Accent;
   active: boolean;
   pathname: string;
@@ -478,7 +508,7 @@ function MobileSection({
         }`}
       >
         <span className="flex items-center gap-2">
-          {section.label}
+          {label}
           {active && (
             <span aria-hidden="true" className={`inline-block size-1.5 rounded-full ${a.dot}`} />
           )}

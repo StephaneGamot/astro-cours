@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "maisons",
+    "category": "concept",
+    "term": "Casas",
+    "short": "Los doce sectores de la carta del cielo que representan los distintos ámbitos de la existencia.",
+    "body": "Si los signos indican “cómo” se expresa la energía, las casas indican “dónde” se manifiesta de manera concreta. Las doce casas abarcan todos los aspectos de la vida: la identidad (I), el dinero (II), la comunicación (III), la familia (IV), los placeres (V), el trabajo (VI), los demás (VII), las crisis (VIII), la sabiduría (IX), la carrera (X), los proyectos (XI) y las pruebas (XII)."
+  },
+  {
+    "slug": "maison-i",
+    "category": "maison",
+    "term": "Casa I",
+    "short": "La casa de la identidad, el cuerpo y la personalidad.",
+    "body": "La Casa I es la puerta de entrada de la carta natal. Representa al propio nativo, su cuerpo físico, su apariencia y su manera de actuar en el mundo. Es la casa del ego, de la expresión personal y de la vitalidad. El planeta que gobierna la Casa I (el regente del Ascendente) suele considerarse el más importante de la carta, ya que indica la dirección principal de la energía vital."
+  },
+  {
+    "slug": "maison-ii",
+    "category": "maison",
+    "term": "Casa II",
+    "short": "La casa de las posesiones, los recursos y los valores personales.",
+    "body": "La Casa II concierne a todo lo que tiene valor para el individuo: los bienes materiales, los recursos financieros, pero también los talentos personales y los valores morales. Indica cómo una persona se gana la vida, gestiona sus finanzas y qué considera valioso. En analogía con Tauro y Venus, esta casa refleja nuestra relación con la seguridad material y con la autoestima."
+  },
+  {
+    "slug": "maison-3",
+    "category": "maison",
+    "term": "Casa III",
+    "short": "Sector de la comunicación, el entorno cercano y el aprendizaje.",
+    "body": "En analogía con Géminis y Mercurio, la Casa III rige la mente práctica, la palabra, la escritura y los desplazamientos cortos. Describe la relación con los hermanos, los vecinos y el entorno inmediato. Es la casa de la inteligencia adaptativa y de la instrucción primaria. Una Casa III valorizada indica a menudo una facilidad para los idiomas o el comercio."
+  },
+  {
+    "slug": "maison-4",
+    "category": "maison",
+    "term": "Casa IV (Fondo del Cielo)",
+    "short": "Sector de las raíces, la familia, el hogar y la vida privada.",
+    "body": "En analogía con Cáncer y la Luna, la Casa IV representa los cimientos del individuo. Concierne a la herencia, el padre (o la madre según las escuelas), el hogar físico y el sentimiento de seguridad interior. Es también la casa del “fin de las cosas” y de la vejez. Los planetas situados aquí indican el ambiente familiar de la infancia y la necesidad de recogimiento íntimo."
+  },
+  {
+    "slug": "maison-5",
+    "category": "maison",
+    "term": "Casa V",
+    "short": "Sector de la creatividad, los placeres, los amores y los hijos.",
+    "body": "En analogía con Leo y el Sol, la Casa V es la de la expresión de sí mismo y de la alegría de vivir. Rige la vida sentimental (los amores sin compromiso contractual), el ocio, los juegos, la especulación y la creación artística. Simboliza igualmente la descendencia (los hijos). Es aquí donde el individuo busca brillar y dejar una huella personal en el mundo."
+  },
+  {
+    "slug": "maison-6",
+    "category": "maison",
+    "term": "Casa VI",
+    "short": "Sector del trabajo cotidiano, la salud y el servicio.",
+    "body": "En analogía con Virgo y Mercurio, la Casa VI describe la vida rutinaria, las obligaciones profesionales que se padecen, la higiene y las pequeñas enfermedades. Representa también a los subordinados y a los animales domésticos. Es la casa del perfeccionamiento técnico y de la utilidad concreta. Una fuerte actividad en la VI indica a menudo una necesidad de hacerse indispensable mediante el cuidado o la organización."
+  },
+  {
+    "slug": "maison-7",
+    "category": "maison",
+    "term": "Casa VII (Descendente)",
+    "short": "Sector de las uniones, las asociaciones y los enemigos declarados.",
+    "body": "En analogía con Libra y Venus, la Casa VII rige todas las formas de asociación contractual: matrimonio, pactos de socios, pleitos. A diferencia del Ascendente (el Yo), representa la Alteridad (el Tú). Muestra cómo el individuo interactúa con los demás y qué tipo de pareja atrae para complementarse o confrontarse."
+  },
+  {
+    "slug": "maison-8",
+    "category": "maison",
+    "term": "Casa VIII",
+    "short": "La casa de las crisis, la transformación, la muerte simbólica y la sexualidad profunda.",
+    "body": "La Casa VIII es una de las casas más intensas y peor comprendidas de la carta natal. Tradicionalmente asociada a la muerte, en realidad gobierna todo lo que atañe a la transformación profunda: las crisis existenciales, las herencias (materiales y psicológicas), la sexualidad íntima, el dinero de los demás (préstamos, impuestos, seguros), las pérdidas y los renacimientos. En analogía con Escorpio y Plutón, esta casa representa el proceso alquímico de destrucción-reconstrucción. Una Casa VIII cargada confiere al nativo una capacidad notable para atravesar las pruebas y renacer, pero también una atracción a veces inconsciente hacia las situaciones de crisis. En astrología psicológica, la Casa VIII revela nuestra relación con el poder compartido en la intimidad, nuestra capacidad de abandonarnos al otro y nuestros miedos más profundos."
+  },
+  {
+    "slug": "maison-ix",
+    "category": "maison",
+    "term": "Casa IX",
+    "short": "Sector de la filosofía, los viajes lejanos y la búsqueda de sentido.",
+    "body": "En analogía con Sagitario y Júpiter, la Casa IX es la de la expansión mental y espiritual. Concierne a los estudios superiores, los viajes al extranjero, la religión, la filosofía y todo lo que amplía los horizontes del individuo. Es la casa de la búsqueda de la verdad y de la sabiduría. Una fuerte actividad en la IX indica a menudo una necesidad de comprender el mundo a través de una visión global y de conectar con valores universales."
+  },
+  {
+    "slug": "maison-9",
+    "category": "maison",
+    "term": "Casa IX",
+    "short": "Sector de los grandes viajes, la filosofía y la espiritualidad.",
+    "body": "En analogía con Sagitario y Júpiter, la Casa IX representa la elevación del espíritu. Rige los estudios superiores, la religión, la ley, los viajes lejanos (físicos o mentales) y la búsqueda de sentido. Es aquí donde uno busca superar sus horizontes habituales para comprender las leyes universales y desarrollar una visión global del mundo."
+  },
+  {
+    "slug": "maison-10",
+    "category": "maison",
+    "term": "Casa X (Medio Cielo)",
+    "short": "Sector de la carrera, el destino social y la autoridad.",
+    "body": "En analogía con Capricornio y Saturno, la Casa X es el punto culminante de la carta. Simboliza el éxito profesional, el estatus público, la ambición y el honor. Está ligada a la figura de la autoridad o del progenitor que guía al individuo hacia su lugar en la sociedad. Es allí donde se recogen los frutos de los esfuerzos pasados."
+  },
+  {
+    "slug": "maison-11",
+    "category": "maison",
+    "term": "Casa XI",
+    "short": "Sector de los proyectos, los amigos y la participación social.",
+    "body": "En analogía con Acuario y Urano, la Casa XI describe los apoyos, las protecciones y los grupos de pertenencia. Es la casa de la esperanza, de los ideales colectivos y de la fraternidad. A diferencia de la V, que es creación individual, la XI es creación colectiva. Muestra cómo el individuo se inserta en una red para realizar sus visiones de futuro."
+  },
+  {
+    "slug": "maison-12",
+    "category": "maison",
+    "term": "Casa XII",
+    "short": "Sector del subconsciente, las pruebas y la vida interior.",
+    "body": "En analogía con Piscis y Neptuno, la Casa XII es la más compleja. Rige los lugares de aislamiento (hospitales, retiros), los enemigos ocultos, el karma y los secretos. Es el sector de la renuncia al yo para unirse al gran Todo. Una fuerte actividad aquí otorga una gran interioridad y facultades mediúmnicas, pero también puede provocar un sentimiento de soledad o de confusión frente a las realidades materiales."
+  },
+  {
+    "slug": "maitrise",
+    "category": "concept",
+    "term": "Regencia (Regente)",
+    "short": "Vínculo simbólico de propiedad entre un planeta y un signo zodiacal.",
+    "body": "Cada signo tiene un “regente”. Por ejemplo, Marte rige Aries. El planeta es el agente ejecutivo del signo. El estudio de las regencias (o dispositores) permite tejer vínculos entre distintas partes de la carta: el regente de la Casa II situado en la Casa X relaciona las finanzas con la carrera."
+  },
+  {
+    "slug": "maitre-de-l-ascendant",
+    "category": "concept",
+    "term": "Regente del Ascendente",
+    "short": "Planeta que rige el signo donde se encuentra el Ascendente, considerado el piloto de la carta.",
+    "body": "A menudo confundido con el “Gobernador de la Carta”, el regente del Ascendente es el planeta más personal y más importante para el individuo. Representa al propio nativo, su cuerpo físico y su manera de actuar en el mundo. Su posición por signo y, sobre todo, por casa indica hacia qué ámbito de la vida dirige prioritariamente el individuo su energía vital. Por ejemplo, si se tiene Ascendente Libra, el regente del Ascendente es Venus. Si esa Venus se encuentra en la Casa IX, la búsqueda de sentido, los viajes o la filosofía serán los motores centrales de la existencia."
+  },
+  {
+    "slug": "malefique",
+    "category": "concept",
+    "term": "Maléfico",
+    "short": "Tradicionalmente, planeta (Marte, Saturno) o aspecto generador de desafíos y restricciones.",
+    "body": "En la astrología antigua, Marte (“el pequeño maléfico”) y Saturno (“el gran maléfico”) eran percibidos como portadores de desgracias, guerras o enfermedades. La astrología moderna ha transformado esta visión: los maléficos se ven ahora como fuerzas de necesidad. Marte aporta la energía para zanjar y Saturno la estructura para construir. Un planeta maléfico bien situado (en dignidad) se convierte en una herramienta de éxito mediante el esfuerzo y la disciplina."
+  },
+  {
+    "slug": "mars",
+    "category": "planète",
+    "term": "Marte",
+    "short": "Planeta de la acción, el deseo, la fuerza combativa y la libido.",
+    "body": "Marte representa la energía exteriorizada, el valor y la capacidad de afirmarse. Describe cómo actuamos para obtener lo que queremos. En su dimensión positiva, es la audacia del pionero; en su dimensión negativa, simboliza la cólera, la impulsividad o el conflicto. Rige Aries y, tradicionalmente, Escorpio. Su ciclo de dos años marca períodos de fuerte gasto energético."
+  },
+  {
+    "slug": "masculin-diurne-positif",
+    "category": "concept",
+    "term": "Masculino (Diurno/Positivo)",
+    "short": "Polaridad energética activa, extrovertida y emisora.",
+    "body": "Los signos llamados 'masculinos' (o diurnos / positivos) comprenden los signos de Fuego (Aries, Leo, Sagitario) y de Aire (Géminis, Libra, Acuario). Esta clasificación no concierne al género del individuo, sino a la dirección de la energía. Estos signos están orientados hacia el exterior, la acción, la expresión y la comunicación. Buscan influir en su entorno más que ser influidos por él. En una carta, un predominio de esta polaridad favorece la extroversión y la toma de decisiones rápida."
+  },
+  {
+    "slug": "mercure",
+    "category": "planète",
+    "term": "Mercurio",
+    "short": "Planeta de la comunicación, el intelecto, el intercambio y la juventud.",
+    "body": "Mercurio es el mensajero entre el mundo interior y el exterior. Rige la manera en que procesamos la información, nuestro estilo de aprendizaje y nuestra capacidad de adaptación. Es el planeta de los comerciantes, los escritores y los transportistas. En una carta, indica si el pensamiento es analítico (Virgo) o asociativo (Géminis). Su proximidad al Sol hace que nunca se aleje más de 28° de él."
+  },
+  {
+    "slug": "meridien",
+    "category": "astronomique",
+    "term": "Meridiano",
+    "short": "Gran círculo que pasa por los polos celestes, el Cénit y el Nadir de un lugar.",
+    "body": "El meridiano local es el eje vertical fundamental de una carta. La intersección de este círculo con la eclíptica determina el eje Medio Cielo (MC) y Fondo del Cielo (FC). En astrología, representa el eje de la encarnación social y de la herencia. Todo astro que cruza el meridiano alcanza su culminación, momento en que su poder de influencia en el plano terrestre está en su punto máximo."
+  },
+  {
+    "slug": "midi-vrai",
+    "category": "astronomique",
+    "term": "Mediodía Verdadero",
+    "short": "El momento exacto en que el Sol culmina en el meridiano de un lugar preciso.",
+    "body": "El mediodía verdadero (o mediodía solar) difiere del mediodía legal que marcan nuestros relojes. Es el instante en que el Sol alcanza su mayor elevación en el cielo para una longitud dada, marcando el inicio exacto de la Casa X (Medio Cielo). En astrología, el cálculo del mediodía verdadero es esencial para rectificar la domificación de una carta y determinar la diferencia entre el tiempo civil y el tiempo sidéreo."
+  },
+  {
+    "slug": "milieu-du-ciel",
+    "category": "concept",
+    "term": "Medio Cielo",
+    "short": "Punto más elevado de la carta (Casa X), que representa el destino social y la carrera.",
+    "body": "El Medio Cielo (Medium Coeli o MC) se sitúa en la intersección de la eclíptica y el meridiano local al sur. Es la cúspide de la Casa X. Simboliza la aspiración última del individuo, su éxito público, su estatus social y su vocación profesional. A diferencia del Ascendente, que representa 'cómo' se actúa, el MC muestra 'lo que' uno llega a ser a ojos del mundo. Suele estar ligado a la figura del padre o del progenitor que encarna la autoridad y la ley social. Su posición por signo y los aspectos que recibe indican la naturaleza de la ambición y las facilidades u obstáculos encontrados en la vida pública."
+  },
+  {
+    "slug": "mi-point",
+    "category": "technique",
+    "term": "Punto Medio (Midpoint)",
+    "short": "Punto matemático exacto situado a media distancia entre dos astros.",
+    "body": "Los puntos medios son puntos de fusión energética. Por ejemplo, el punto medio Sol/Luna se considera un punto vital de equilibrio psíquico. Esta técnica, popularizada por la escuela alemana de Cosmobiología (Reinhold Ebertin), permite identificar resonancias sutiles entre planetas que no forman aspectos clásicos por grado."
+  },
+  {
+    "slug": "modes",
+    "category": "concept",
+    "term": "Modos (Modalidades)",
+    "short": "Clasificación de los signos según su dinámica energética (Cardinal, Fijo, Mutable).",
+    "body": "Los modos determinan cómo se utiliza la energía. Los signos Cardinales lanzan la acción. Los signos Fijos estabilizan y consolidan. Los signos Mutables adaptan y distribuyen. Un equilibrio entre estos tres modos en una carta permite una personalidad capaz a la vez de iniciativa, de perseverancia y de flexibilidad."
+  },
+  {
+    "slug": "mutable",
+    "category": "concept",
+    "term": "Mutable (cualidad)",
+    "short": "Una de las tres cualidades: adaptabilidad, flexibilidad, transición y versatilidad.",
+    "body": "Los signos mutables son Géminis, Virgo, Sagitario y Piscis. Cierran cada estación y encarnan la transición, la adaptación y la transformación. Los nativos dominados por la cualidad mutable son flexibles, versátiles y capaces de ajustarse a cualquier situación. Sobresalen en los entornos cambiantes y son buenos mediadores. Su fuerza reside en su flexibilidad; su debilidad, en la dispersión o la inconstancia. Una carta fuertemente mutable puede indicar una personalidad camaleónica, brillante en la adaptación pero a veces carente de una dirección firme. A la inversa, una carta desprovista de mutabilidad puede volver al nativo rígido, incapaz de adaptarse a las circunstancias. La cruz mutable es la cruz de la inteligencia práctica y de la comunicación."
+  }
+]

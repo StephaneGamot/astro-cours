@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "table-des-maisons",
+    "category": "concept",
+    "term": "Table of Houses",
+    "short": "A table used to calculate the cusps of the astrological houses according to latitude and sidereal time.",
+    "body": "The table of houses is an indispensable calculation tool for casting a chart. For a given geographic latitude and sidereal time, it provides the zodiacal degrees corresponding to the cusps (beginnings) of the twelve houses. Before the computer age, every astrologer owned their own table of houses, the most famous being those of Placidus and Koch. There are as many tables as there are systems of house division: Placidus, Koch, Regiomontanus, Campanus, equal houses, and so on. Each system divides the celestial sphere differently, which can significantly alter the placement of the planets within the houses. Today, astrology software performs these calculations instantly, but understanding the principle of the table of houses remains essential for grasping the logic of house division and the importance of the exact time of birth."
+  },
+  {
+    "slug": "taureau",
+    "category": "signe",
+    "term": "Taurus",
+    "short": "The second sign (Earth/Fixed), symbolising stability, the senses and the material world.",
+    "body": "Taurus corresponds to full spring, when nature settles and takes root. Ruled by Venus, it is connected to sensory pleasures, material security and patience. It is an energy of slow, lasting construction. Taurus seeks to preserve what it owns. Its challenge is to move beyond excessive attachment to material things and to develop an inner security independent of outward possessions."
+  },
+  {
+    "slug": "technique-table-des-maisons",
+    "category": "technique",
+    "term": "Table of Houses Technique",
+    "short": "A method for calculating house cusps from the table of houses.",
+    "body": "To use the table of houses, you must first determine the local sidereal time at the moment of birth, taking into account the time zone and the longitude of the birthplace. Then, according to the latitude, you consult the table to find the zodiacal degrees corresponding to the house cusps. For example, for a latitude of 45° North and a sidereal time of 10h, you might find that the cusp of House I falls at 15° Aries, that of House II at 10° Taurus, and so on. These degrees are then transferred onto the chart to place the planets in their respective houses. The precision of this calculation is crucial, since an error in time or latitude can shift the cusps and thereby alter the interpretation of the chart."
+  },
+  {
+    "slug": "theme",
+    "category": "technique",
+    "term": "Chart",
+    "short": "A chart of the heavens showing the planetary positions at a precise moment.",
+    "body": "The chart (from the Greek \"thema\", that which is set down) is the circular diagram divided into 12 signs and 12 houses. It is the astrologer's principal working tool. Whether natal, horary or mundane, it freezes a cosmic configuration in order to draw symbolic meaning from it. The chart is a mirror of the forces at play, a potential waiting to be unfolded."
+  },
+  {
+    "slug": "theme-de-naissance",
+    "category": "concept",
+    "term": "Birth Chart",
+    "short": "A chart cast for the exact moment and place of an individual's birth.",
+    "body": "The birth chart, or natal chart, is a photograph of the sky at the precise moment of birth, seen from the place of birth. It is the founding document of any individual astrological study. The birth chart includes: the position of the ten planets in the signs and houses, the aspects (angles) between the planets, the Ascendant, the Midheaven, and possibly fictitious points (lunar nodes, Lilith, Arabic parts). To calculate it, three pieces of data are essential: the date, the exact time and the place of birth. The birth chart never changes — it represents the native's basic potential. It is then through transits, progressions and solar returns that the astrologer observes how this potential unfolds over time."
+  },
+  {
+    "slug": "theme-composite",
+    "category": "technique",
+    "term": "Composite Chart",
+    "short": "A single chart created from the midpoints of two charts, representing the relationship itself.",
+    "body": "Unlike synastry, which compares two individuals, the composite chart merges two charts into one by calculating the midpoints of each planet. This chart represents neither partner, but rather the entity 'Couple' or 'Relationship'. It describes the purpose of the relationship, its own destiny and the way it functions as an autonomous unit in the face of the world."
+  },
+  {
+    "slug": "temps-sideral",
+    "category": "astronomique",
+    "term": "Sidereal Time",
+    "short": "A measure of time based on the Earth's rotation relative to the fixed stars.",
+    "body": "Sidereal time is the indispensable tool for calculating the house division of a chart. Because the Earth rotates on its axis while orbiting the Sun, a solar day lasts 24 hours, but a sidereal day lasts only 23h 56m 4s. To cast a chart, the astrologer converts the time of birth into 'Local Sidereal Time' (LST) using the Tables of Houses. It is this time that makes it possible to determine which degree of the zodiac was crossing the meridian and which sign was rising on the horizon at the exact moment of birth."
+  },
+  {
+    "slug": "termes",
+    "category": "concept",
+    "term": "Terms",
+    "short": "Unequal subdivisions of each zodiacal sign, ruled by the planets except the luminaries.",
+    "body": "Each 30° sign is divided into five segments called 'Terms', each assigned to one of the five traditional planets (Mercury, Venus, Mars, Jupiter, Saturn). The planet ruling the term in which a body falls imprints its 'manner of being' upon it. This is a subtle dignity used to refine character descriptions or for the technique of primary directions. The two best-known systems are the Egyptian Terms and the Ptolemaic Terms."
+  },
+  {
+    "slug": "terre",
+    "category": "concept",
+    "term": "Earth (element)",
+    "short": "The element associated with the signs Taurus, Virgo and Capricorn, symbolising matter and the concrete.",
+    "body": "Earth is one of the four classical elements in astrology, associated with the signs Taurus, Virgo and Capricorn. It represents the material world, stability, practical sense, perseverance and grounding in reality. The Earth signs favour the concrete, security, and slow, lasting construction. They are reliable, patient and methodical, but can also prove rigid, possessive or excessively cautious. Taurus embodies fixed Earth (resources, sensuality); Virgo, mutable Earth (analysis, service); Capricorn, cardinal Earth (ambition, structure). A chart rich in Earth indicates a realistic, efficient native with good material sense. A lack of Earth may translate into difficulty bringing projects to fruition or handling the practical aspects of life."
+  },
+  {
+    "slug": "tete-du-dragon",
+    "category": "point fictif",
+    "term": "Dragon's Head",
+    "short": "The traditional name for the North Lunar Node, indicating the soul's direction of growth.",
+    "body": "The Dragon's Head is the traditional name for the Moon's North Node (☊). This fictitious point corresponds to the ascending intersection of the lunar orbit with the ecliptic. In karmic and evolutionary astrology, the Dragon's Head represents the direction of growth, the potential to be developed, the qualities the soul seeks to integrate in this incarnation. It is a calling point, sometimes uncomfortable because it pushes towards the unknown. Its sign and house indicate the area in which the native is invited to evolve. The Dragon's Head always opposes the Dragon's Tail (South Node), which represents past achievements and the automatic patterns to be transcended. The nodal axis thus forms a fundamental evolutionary vector in the interpretation of the natal chart."
+  },
+  {
+    "slug": "theme-evenementiel",
+    "category": "technique",
+    "term": "Event Chart",
+    "short": "A chart cast for the beginning of a specific event.",
+    "body": "The event chart treats a moment in history as though it were a birth. It is used to analyse the potential and outcome of the signing of a contract, an accident, a natural disaster or the inauguration of a monument. Unlike the natal chart, which follows a person, the event chart freezes the 'soul' of an undertaking. It is a key branch of mundane and electional astrology that allows one to analyse the forces at play during a significant occurrence."
+  },
+  {
+    "slug": "theme-horaire",
+    "category": "branche",
+    "term": "Horary Chart",
+    "short": "A chart cast for the precise moment a question is put to the astrologer.",
+    "body": "Horary astrology is one of the oldest and most rigorous branches of the discipline. It rests on the premise that the instant a question is 'born' in the querent's mind contains the answer to their problem. Unlike natal astrology, it requires very specific rules of interpretation (prohibitions against judging, considerations before judgement). One mainly analyses the aspects the Moon is about to form (co-significator of the querent) and the relationships between the rulers of the houses concerned by the question. It is a formidably precise tool for concrete questions ('Will I get this contract?', 'Where are my keys?')."
+  },
+  {
+    "slug": "theme-natal",
+    "category": "concept",
+    "term": "Natal Chart",
+    "short": "A chart cast for the exact moment and place of an individual's birth.",
+    "body": "The natal chart (or birth chart) is a photograph of the sky at the precise moment of birth, seen from the place of birth. It is the founding document of any individual astrological study. The natal chart includes: the position of the ten planets in the signs and houses, the aspects (angles) between the planets, the Ascendant, the Midheaven, and possibly fictitious points (lunar nodes, Lilith, Arabic parts). To calculate it, three pieces of data are essential: the date, the exact time and the place of birth. The natal chart never changes — it represents the native's basic potential. It is then through transits, progressions and solar returns that the astrologer observes how this potential unfolds over time. Scholarly synonym: radix."
+  },
+  {
+    "slug": "transaturnien",
+    "category": "concept",
+    "term": "Trans-Saturnian",
+    "short": "A term designating the planets located beyond the orbit of Saturn: Uranus, Neptune and Pluto.",
+    "body": "The trans-Saturnian planets (also called collective or generational planets) were unknown to ancient astrology. They symbolise forces that exceed individual control: revolutions, the collective unconscious, slow and profound transformations. Because of their slowness, they mark entire generations rather than purely personal characters, except when they form a close aspect with a luminary or an angle."
+  },
+  {
+    "slug": "transit",
+    "category": "concept",
+    "term": "Transit",
+    "short": "The passage of a moving planet over a sensitive point of the natal chart.",
+    "body": "The transit is the most common predictive technique in astrology. It consists of observing the passage of the planets in the current sky (in real time) relative to the positions of the natal chart. When a transiting planet forms an exact aspect with a natal planet, it 'activates' the latter and triggers events or realisations connected to the symbolism at play. Transits of the fast planets (Moon, Mercury, Venus, Mars) are brief and daily. Transits of the slow planets (Jupiter, Saturn, Uranus, Neptune, Pluto) mark long, profound periods of transformation. A transit of Saturn over the natal Sun, for example, lasts several months and imposes a maturity assessment. The applying orb (the planet approaching the exact aspect) is often felt more intensely than the separating orb."
+  },
+  {
+    "slug": "trigoncratie",
+    "category": "concept",
+    "term": "Triplicity Rulership",
+    "short": "The dignity of a planet found in a sign of the same element (triplicity) that it rules.",
+    "body": "Triplicity rulership is an important minor dignity. It indicates that a planet has contextual resources and support. In medieval and Renaissance astrology, different rulers are used depending on whether the chart is diurnal (born by day) or nocturnal (born by night). A planet in its triplicity is like a guest who feels at ease among friends: it is not the master of the house, but it benefits from favourable conditions in which to act."
+  },
+  {
+    "slug": "trigone",
+    "category": "aspect",
+    "term": "Trine",
+    "short": "A major harmonious aspect formed by a 120° angle between two planets.",
+    "body": "The trine is the harmonious aspect par excellence. It forms when two planets are separated by 120° (orb of 6° to 8°), which generally corresponds to planets located in signs of the same element (Fire-Fire, Earth-Earth, Air-Air, Water-Water). The trine indicates a natural flow of energy between the two planets: the functions they represent cooperate spontaneously, without apparent effort. A Venus-Jupiter trine favours emotional fulfilment and generosity. A Sun-Mars trine confers natural vitality and confidence. The trine is sometimes criticised for its ease: because it gives without demanding, it can lead to passivity or the squandering of talent. Tradition sums it up: 'The trine is a gift from heaven, but you still have to do something with it.' In interpretation, trines reveal the native's innate resources."
+  },
+  {
+    "slug": "triplicite",
+    "category": "concept",
+    "term": "Triplicity",
+    "short": "The grouping of the twelve signs into four groups of three, according to their element.",
+    "body": "Triplicity divides the zodiac by element: Fire (Aries, Leo, Sagittarius), Earth (Taurus, Virgo, Capricorn), Air (Gemini, Libra, Aquarius) and Water (Cancer, Scorpio, Pisces). Each triplicity shares a common elemental nature that influences the basic temperament. In traditional astrology, each triplicity is governed by a group of 'triplicity rulers' that vary according to the day/night cycle of the chart."
+  },
+  {
+    "slug": "trutine-d-hermes",
+    "category": "technique",
+    "term": "Trutine of Hermes",
+    "short": "An ancient method of rectifying the time of birth based on the moment of conception.",
+    "body": "The Trutine of Hermes rests on a law of analogy between birth and conception: the Ascendant of the birth chart corresponds to the position of the Moon at the moment of conception, and vice versa. Used since antiquity, this rule makes it possible to recover an unknown or imprecise time of birth by calculating the theoretical date of conception (generally 273 days before birth). Although controversial, since it does not account for varying gestation lengths, it remains a fascinating tool of traditional astrology for legitimising the hour of the first breath."
+  }
+]

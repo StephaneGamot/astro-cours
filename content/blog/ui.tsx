@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import { getLocale } from "next-intl/server";
+import { tagLabel } from "@/lib/blog";
 
 export type PillTone =
   | "neutral"
@@ -56,8 +58,9 @@ export function tagStyle(tag: string) {
   return "border-white/10 bg-black/20 text-text/85";
 }
 
-export function TagPillsInline({ tags }: { tags?: string[] }) {
+export async function TagPillsInline({ tags }: { tags?: string[] }) {
   if (!tags?.length) return null;
+  const locale = await getLocale();
 
   return (
     <div className="flex flex-wrap gap-2">
@@ -67,7 +70,7 @@ export function TagPillsInline({ tags }: { tags?: string[] }) {
           className={`rounded-full border px-3 py-1 text-sm ${tagStyle(t)}`}
         >
           <span className="mr-1 opacity-80">#</span>
-          {t}
+          {tagLabel(t, locale)}
         </span>
       ))}
     </div>

@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "incompatibles",
+    "category": "signe",
+    "term": "Incompatibles (Signos)",
+    "short": "Signos cuyos elementos o modos entran en conflicto estructural.",
+    "body": "Tradicionalmente, los signos en cuadratura o en oposición se juzgan incompatibles porque persiguen fines divergentes con métodos opuestos (p. ej. Aries/Fuego/Impulso frente a Capricornio/Tierra/Paciencia). Sin embargo, en astrología moderna, esta 'incompatibilidad' se percibe como una tensión creativa necesaria para el equilibrio de la personalidad."
+  },
+  {
+    "slug": "inconjonction",
+    "category": "aspect",
+    "term": "Inconjunción",
+    "short": "Un aspecto de 150° que indica una tensión sutil entre dos planetas sin aspecto mayor.",
+    "body": "La inconjunción, o quincuncio, es un aspecto menor que se produce cuando dos planetas están separados por 150°. Indica una relación de tensión latente entre las energías de los dos planetas, percibida a menudo como un desfase o una incomprensión mutua. La inconjunción sugiere que los dos planetas tienen objetivos o modos de expresión distintos que requieren un ajuste consciente para integrarse armoniosamente en la carta natal."
+  },
+  {
+    "slug": "ingres",
+    "category": "astronomique",
+    "term": "Ingreso",
+    "short": "El momento preciso en que un astro entra en un nuevo signo del zodíaco.",
+    "body": "El ingreso marca un cambio de clima energético radical. En astrología mundial, el Ingreso Solar a 0° de Aries (el equinoccio de primavera) se utiliza para levantar una carta de previsión para el año venidero de un país dado. Para los planetas lentos como Plutón o Saturno, el ingreso en un nuevo signo es un acontecimiento mayor que define las transformaciones de una generación o los desafíos de una sociedad. A nivel individual, el ingreso de un planeta en tránsito en una nueva casa de la carta natal activa un nuevo ámbito de experiencia concreta."
+  },
+  {
+    "slug": "inharmonieux",
+    "category": "aspect",
+    "term": "Inarmónico",
+    "short": "Aspectos de tensión que requieren un esfuerzo de integración.",
+    "body": "Los aspectos inarmónicos (la cuadratura, la oposición, a veces el quincuncio) crean una incomodidad psicológica o circunstancial. Lejos de ser 'malos', son los motores del crecimiento: obligan al individuo a desarrollar una conciencia acrecentada y a actuar para resolver el conflicto. Sin aspectos inarmónicos, hay poca realización concreta en una vida."
+  },
+  {
+    "slug": "integration",
+    "category": "concept",
+    "term": "Integración",
+    "short": "El proceso de síntesis de las energías planetarias en un todo coherente.",
+    "body": "La integración es el objetivo último del análisis astrológico. Se trata de comprender cómo los distintos planetas, signos, casas y aspectos interactúan para formar una personalidad única. La integración implica reconocer las fortalezas y las debilidades de una carta natal, aceptar las contradicciones aparentes y encontrar maneras de conciliar las energías opuestas. Es un proceso dinámico que evoluciona a lo largo de toda la vida, permitiendo al individuo crecer y realizarse en armonía con su carta astrológica."
+  },
+  {
+    "slug": "intercepte",
+    "category": "technique",
+    "term": "Interceptado (Signo)",
+    "short": "Un signo zodiacal contenido enteramente dentro de una casa sin tocar sus cúspides.",
+    "body": "La interceptación se produce en los sistemas de domificación desiguales (como Placidus) cuando la amplitud de una casa supera los 30 grados. Un signo interceptado se percibe como una energía 'encerrada' o comprimida. El individuo suele tener dificultad para expresar espontáneamente las cualidades de ese signo en su juventud. A menudo hay que esperar un tránsito mayor sobre los planetas que allí se encuentran para 'liberar' el potencial del signo."
+  },
+  {
+    "slug": "interpolation",
+    "category": "technique",
+    "term": "Interpolación",
+    "short": "Un método matemático para calcular la posición exacta de un astro entre dos registros.",
+    "body": "Las efemérides dan generalmente la posición de los planetas para medianoche o mediodía. La interpolación permite determinar, mediante una regla de tres, la posición precisa en el momento del nacimiento. Aunque hoy los programas se encargan de ello, es un fundamento del cálculo manual que garantiza la exactitud de la carta, sobre todo para la Luna, que se desplaza muy rápidamente."
+  },
+  {
+    "slug": "interpretation",
+    "category": "concept",
+    "term": "Interpretación",
+    "short": "El arte de sintetizar los múltiples símbolos de una carta en un discurso coherente.",
+    "body": "La interpretación es el estadio último de la práctica astrológica. Consiste en no leer los factores de forma aislada (p. ej. Venus en Leo), sino en integrarlos en un todo global. Una buena interpretación jerarquiza las fuerzas de la carta (planetas dominantes) y extrae las líneas de fuerza de la personalidad y del destino, respetando a la vez el nivel de conciencia del consultante."
+  },
+  {
+    "slug": "inversion",
+    "category": "concept",
+    "term": "Inversión",
+    "short": "Una inversión de la jerarquía planetaria o de las polaridades dentro de una carta.",
+    "body": "La inversión se produce cuando los planetas de una carta natal están dispuestos de manera que invierten los roles tradicionales. Por ejemplo, un planeta normalmente considerado débil (como Marte en Cáncer) puede volverse dominante si está en aspecto mayor con el Sol o el Ascendente. Del mismo modo, las polaridades pueden invertirse: un signo femenino puede expresar cualidades masculinas y viceversa. La inversión es un fenómeno que subraya la complejidad y la singularidad de cada carta natal, mostrando que las reglas generales de la astrología pueden eludirse o reinterpretarse según la configuración específica de la carta."
+  }
+]

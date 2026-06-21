@@ -1,0 +1,198 @@
+[
+  {
+    "slug": "sagittaire",
+    "category": "signe",
+    "term": "Sagittarius",
+    "short": "The ninth sign (Fire/Mutable), symbolizing expansion, philosophy, and travel.",
+    "body": "Sagittarius marks the end of autumn, when one seeks light amid the growing darkness. Ruled by Jupiter, it embodies optimism, a thirst for meaning, and adventure. It aspires to spiritual elevation and to an understanding of universal laws. Its challenge is to channel its enthusiasm so as not to fall into fanaticism or overconfidence, and to give concrete form to its vast ideals."
+  },
+  {
+    "slug": "saturne",
+    "category": "planète",
+    "term": "Saturn",
+    "short": "The planet of structure, discipline, and limits.",
+    "body": "Saturn is associated with responsibility, the passage of time, and life's lessons. It symbolizes obstacles, delays, and restrictions, but also the wisdom gained through effort and perseverance. In karmic astrology, Saturn indicates the areas where the client must work in order to grow. Its influence can feel heavy, yet it is necessary for building a solid and authentic life."
+  },
+  {
+    "slug": "secteur",
+    "category": "concept",
+    "term": "Sector",
+    "short": "A technical synonym for an astrological house.",
+    "body": "The term sector is often preferred by statistical or scientific astrology (e.g., the Gauquelin sectors). It denotes a portion of the local space (the sky divided into twelve)."
+  },
+  {
+    "slug": "soleil",
+    "category": "planète",
+    "term": "Sun",
+    "short": "The planet of identity, vitality, and self-expression.",
+    "body": "The Sun represents the center of our natal chart, our deepest essence and our sense of \"I am.\" It symbolizes will, self-confidence, and the need to shine. In traditional astrology, the Sun is the greatest of benefics, bringing strength and protection. However, it can also indicate a tendency toward pride or narcissism if poorly handled."
+  },
+  {
+    "slug": "soleil-en-exaltation",
+    "category": "concept",
+    "term": "Sun in exaltation",
+    "short": "The Sun's placement in Aries, where it expresses its potential at its best.",
+    "body": "The Sun is in exaltation in the sign of Aries. This placement grants it great vitality, a strong will, and the ability to initiate projects with enthusiasm. The Sun in Aries favors self-assertion, courage, and initiative. It is a placement that encourages one to live one's singularity to the full and to embrace challenges boldly."
+  },
+  {
+    "slug": "soleil-en-chute",
+    "category": "concept",
+    "term": "Sun in fall",
+    "short": "The Sun's placement in Libra, where it expresses its energies with greater difficulty.",
+    "body": "The Sun is in fall in the sign of Libra. This placement can point to challenges connected with self-assertion, confidence, and clarity of identity. The Sun in Libra may translate into a tendency toward indecision, a need to please, or difficulty in asserting oneself without compromise. However, it can also confer great diplomacy, an ability to create harmony, and a sensitivity to the needs of others."
+  },
+  {
+    "slug": "scorpion",
+    "category": "signe",
+    "term": "Scorpio",
+    "short": "The eighth sign (Water/Fixed), symbolizing transformation, intensity, and mystery.",
+    "body": "Scorpio corresponds to deep autumn, the time of decomposition that prepares future life. Ruled by Mars (traditional) and Pluto (modern), it explores the depths of the psyche, sexuality, and taboos. It is an energy of extreme regeneration (the Phoenix). Its challenge is to transform its destructive passions and its need for control into a power of healing and occult wisdom."
+  },
+  {
+    "slug": "secte",
+    "category": "concept",
+    "term": "Sect",
+    "short": "A fundamental classification between diurnal and nocturnal charts.",
+    "body": "Sect is a cornerstone concept of Hellenistic astrology that has come strongly back into favor today. A chart belongs to the \"sect of the day\" if the Sun is above the horizon, or to the \"sect of the night\" if it is below. This radically changes the strength of the planets: Jupiter is more beneficial by day, while Venus is more so by night. Likewise, Saturn is less \"malefic\" by day, and Mars is more manageable by night."
+  },
+  {
+    "slug": "semi-arc",
+    "category": "technique",
+    "term": "Semi-arc",
+    "short": "Half of a planet's diurnal or nocturnal arc.",
+    "body": "The semi-arc represents the time a celestial body takes to travel from the horizon to the meridian (diurnal semi-arc) or from the meridian to the horizon (nocturnal semi-arc). It is a crucial technical concept for time-based house systems such as Placidus. It allows space to be divided dynamically, taking into account the Earth's rotational speed and the latitude of the place."
+  },
+  {
+    "slug": "semi-sextile",
+    "category": "concept",
+    "term": "Semi-sextile",
+    "short": "A minor aspect of 30° linking two consecutive signs.",
+    "body": "The semi-sextile is an aspect of 30 degrees. Since it links signs that follow one another, it brings together energies that are very different yet adjacent. Its influence is often considered weak or neutral, acting as a subtle link of growth. It compels the individual to integrate the following or preceding stage of their evolution. Although traditionally minor, it can indicate a friction necessary to move from one state of consciousness to another."
+  },
+  {
+    "slug": "semi-carre",
+    "category": "aspect",
+    "term": "Semi-square",
+    "short": "A minor aspect of 45° indicating moderate tension between two planets.",
+    "body": "The semi-square is an aspect of 45 degrees, half of a square. It is considered a tense aspect, but less intense than the square itself. The semi-square generates an irritation or frustration that drives one to action, but without the open crisis of the square. It can indicate minor challenges or obstacles to overcome, often linked to necessary adjustments in the native's life. The orb generally allowed for the semi-square is 2 degrees."
+  },
+  {
+    "slug": "separation",
+    "category": "concept",
+    "term": "Separation",
+    "short": "The moment when two planets move away from the exact aspect.",
+    "body": "Separation occurs when the faster planet passes the degree of the exact aspect with another planet. The influence of the aspect gradually diminishes. In natal astrology, this can indicate an experience already integrated or a character trait that is less compelling. In predictive astrology, a separating aspect often indicates that the major event has already passed."
+  },
+  {
+    "slug": "sesqui-carre",
+    "category": "aspect",
+    "term": "Sesquisquare",
+    "short": "A tense minor aspect formed by an angle of 135° between two planets.",
+    "body": "The sesquisquare (or sesquiquadrate) is a minor aspect of 135°, equivalent to one and a half squares (90° + 45°). It is classed among the tense aspects and has an energy close to that of the square, but with a duller, more chronic shade of irritation. Where the square creates a clear, identifiable conflict, the sesquisquare generates an underlying tension, a diffuse unease that can manifest as annoyance, accumulated frustration, or constant small adjustments. The orb usually allowed for the sesquisquare is 2° to 3°. Although often neglected in quick interpretations, the sesquisquare deserves attention because it reveals areas where the native feels blocked without quite understanding why. Some astrologers consider the sesquisquare to be particularly active during the transits of slow planets."
+  },
+  {
+    "slug": "sextile",
+    "category": "aspect",
+    "term": "Sextile",
+    "short": "A harmonious aspect formed by an angle of 60° between two planets.",
+    "body": "The sextile is a major harmonious aspect of 60° (orb of 4° to 6°). It generally links two planets located in signs of the same polarity (compatible elements: Fire-Air or Earth-Water). The sextile offers opportunities, openings, and talents that require a slight effort to manifest. It is a less powerful aspect than the trine (which gives without asking) but more constructive, since it stimulates initiative. A Mercury-Jupiter sextile opens the mind to foreign languages and higher studies, but the native must seize this chance actively. Astrological tradition sums up the difference well: \"The trine is a gift, the sextile is an open door — you still have to walk through it.\" In interpretation, sextiles indicate the areas where the native can make progress with moderate effort."
+  },
+  {
+    "slug": "sideral",
+    "category": "astronomique",
+    "term": "Sidereal",
+    "short": "A reference system based on the fixed stars.",
+    "body": "Sidereal astrology (used in India under the name Jyotish) relies on the actual position of the constellations in the sky. It stands in contrast to the tropical (Western) system, which is based on the seasons. The offset between the two systems, called the Ayanamsa, is about 24 degrees today. Sidereal time is also used by all astrologers to calculate the houses (domification) of a chart."
+  },
+  {
+    "slug": "signe",
+    "category": "concept",
+    "term": "Sign",
+    "short": "A division of the zodiac into 12 parts of 30° each, every one with specific characteristics.",
+    "body": "The zodiac is divided into 12 signs of 30 degrees each, corresponding to the constellations the Sun crosses over the course of the year. Each sign has its own qualities, elements, and modes, influencing the way planets express themselves when placed within it. The signs are as follows: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius, and Pisces. They form the basis of astrological interpretation and color every aspect of the natal chart."
+  },
+  {
+    "slug": "signes-austraux",
+    "category": "astronomique",
+    "term": "Southern signs",
+    "short": "The last six signs of the zodiac (Libra to Pisces).",
+    "body": "Located south of the celestial equator. They mark the period when the nights prevail over the days (in the northern hemisphere). Symbolically, they concern the relationship to others, to the collective, and to spirituality."
+  },
+  {
+    "slug": "signes-boreaux",
+    "category": "astronomique",
+    "term": "Northern signs",
+    "short": "The first six signs of the zodiac (Aries to Virgo).",
+    "body": "These are the signs located north of the celestial equator. They correspond to the period when the days are longer than the nights in the northern hemisphere. Symbolically, they are linked to the development of the individual personality."
+  },
+  {
+    "slug": "significateur",
+    "category": "concept",
+    "term": "Significator",
+    "short": "A planet or point designated to represent a specific area of life.",
+    "body": "A distinction is made between natural significators (e.g., Venus for love, Saturn for death or structure) and accidental significators (the ruler of the 2nd House for finances, or of the 7th House for marriage). The art of interpretation lies in synthesizing the action of the natural significator with that of the house ruler in order to predict how a specific area will unfold."
+  },
+  {
+    "slug": "sirius",
+    "category": "constellation",
+    "term": "Sirius (The Dog Star)",
+    "short": "The brightest star of the night sky (Canis Major), linked to immortality.",
+    "body": "Sirius (located at about 14° of Cancer) is a star of colossal power. In ancient Egypt, its heliacal rising announced the flooding of the Nile. In astrology, it symbolizes a success that goes beyond the scope of a single life: it brings honor, fame, and sometimes a form of genius. It indicates that the individual's actions will have a lasting impact on the community."
+  },
+  {
+    "slug": "solstices",
+    "category": "astronomique",
+    "term": "Solstices",
+    "short": "The moments of the year when the difference in length between day and night is greatest.",
+    "body": "The two solstices mark the Sun's entry into the Cardinal signs of Cancer (June 21 — the longest day) and Capricorn (December 21 — the longest night). Symbolically, they represent major turning points: the summer solstice is the apex of light but also the beginning of its decline, while the winter solstice is the darkest moment, which carries within it the promise of the Sun's rebirth."
+  },
+  {
+    "slug": "spica",
+    "category": "constellation",
+    "term": "Spica (The Ear of Wheat of Virgo)",
+    "short": "The brightest star of Virgo, a symbol of protection and giftedness.",
+    "body": "Spica (located at 23° Libra) is one of the most beneficial stars. It represents the harvest, artistic talent, success through knowledge, and divine protection. It is often present in the charts of people endowed with great ease of expression or with outrageous luck in their ventures."
+  },
+  {
+    "slug": "stationnaire",
+    "category": "concept",
+    "term": "Stationary",
+    "short": "The moment when a planet appears to stop before changing direction.",
+    "body": "The station occurs at the beginning and end of a retrograde phase. A stationary planet has its influence considerably amplified in the chart: it is as if 'focused' on a precise point of the zodiac. A stationary-direct planet is often seen as very positive, since it is about to release its energy after a phase of withdrawal."
+  },
+  {
+    "slug": "stellium",
+    "category": "concept",
+    "term": "Stellium",
+    "short": "A concentration of at least three (sometimes four) planets in the same sign or house.",
+    "body": "The stellium (or planetary cluster) creates a massive energetic focus in one area of life or one type of character. This concentration makes the individual strongly typed by the sign concerned, sometimes even overshadowing the importance of the Sun sign or the Ascendant. It is a point of strength but also a challenge, since every transit over this zone affects several planets at once."
+  },
+  {
+    "slug": "synodique",
+    "category": "astronomique",
+    "term": "Synodic (Cycle)",
+    "short": "The cycle between two bodies as seen from Earth, generally relative to the Sun.",
+    "body": "The best-known synodic cycle is that of the Moon (29.5 days). Each planetary cycle (e.g., Jupiter/Saturn) defines major phases of human history and of the individual psyche, from the seed (conjunction) to Full Light (opposition)."
+  },
+  {
+    "slug": "synastrie",
+    "category": "technique",
+    "term": "Synastry",
+    "short": "The technique of comparing two natal charts to analyze a relationship.",
+    "body": "Synastry involves superimposing the charts of two individuals to observe how the planets of one interact with the planets and houses of the other. The inter-chart aspects (for example, A's Venus on B's Mars) are analyzed to understand compatibility, points of tension, and relational dynamics. It is the principal tool of relationship astrology, whether romantic, familial, or professional."
+  },
+  {
+    "slug": "systeme-de-domification",
+    "category": "concept",
+    "term": "House system",
+    "short": "A method of dividing the natal chart into 12 houses, influencing the interpretation of the planets.",
+    "body": "The house system determines how the 12 astrological houses are distributed across the signs of the zodiac. There are several systems, each with its own rules for calculating the house cusps. The most common are Placidus, Koch, Campanus, Regiomontanus, and Equal House. The choice of system can influence the interpretation of the natal chart, notably the position of the planets in the houses and the aspects they form with the cusps. Some astrologers prefer one system for its simplicity, others for its astronomical precision or its symbolic relevance."
+  },
+  {
+    "slug": "syzygie",
+    "category": "astronomique",
+    "term": "Syzygy",
+    "short": "The alignment of three celestial bodies (Sun-Earth-Moon).",
+    "body": "The syzygy corresponds to the moments of the New Moon and the Full Moon. In ancient astrology, capital importance was given to the \"syzygy of the nativity\" (the lunation preceding birth) for determining certain points of destiny."
+  }
+]

@@ -1,0 +1,460 @@
+{
+  "slug": "gemeaux",
+  "nom": "Gemini",
+  "sousTitre": "The third sign of the Zodiac",
+  "devise": "I think",
+  "periode": "May 21 – June 20",
+  "element": "Air",
+  "mode": "Mutable",
+  "maitre": "Mercury",
+  "exaltation": "—",
+  "exil": "Jupiter",
+  "chute": "—",
+  "polarite": "Masculine",
+  "temperament": "Sanguine",
+  "maisonNaturelle": 3,
+  "couleur": {
+    "primaire": "#06B6D4",
+    "secondaire": "#38BDF8",
+    "accent": "#A78BFA",
+    "gradient": "from-cyan-500 via-sky-400 to-blue-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "taureau", "nom": "Taurus" },
+    "suivant": { "slug": "cancer", "nom": "Cancer" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/gemeaux.webp",
+    "planete": "/images/planetes/mercure.webp"
+  },
+  "introduction": "Gemini is the third sign of the Zodiac. It is the end of spring: leaves branch out, buds burst open, new growth begins — no longer in depth as with Taurus, but in breadth, in movement, in connection. An Air sign, mutable, masculine, ruled by Mercury, Gemini embodies thought in motion, exchange, insatiable curiosity, the need to connect. After Aries has initiated and Taurus has consolidated, Gemini sets things circulating. Its founding gesture is neither “I exist” nor “I have” — it is “I think.” I connect, I name, I transmit, I understand.",
+  "fondationsCosmiques": {
+    "texte": "Gemini belongs to the Air element (hot and humid), which gives it a sanguine temperament: mobility, a capacity for communication, a taste for exchange. It is the first level of Air — that of instinct. Gemini communicates by instinct, without a second thought. It is a natural need to connect, to exchange, to understand anything with anyone. Its mode is mutable (or double, common): it adapts to all situations. Mutable signs often need others to make decisions, but they possess an incomparable flexibility of adaptation. The double nature of the sign is central: two facets, two registers, two poles that coexist without ever becoming fixed.",
+    "courteAscension": "Gemini is a sign of short ascension and a diurnal sign. Tradition classes it among the northern, human, domestic, volatile and barren signs. This sign is associated with vitality, beauty, a tall and slender stature, wit, science, eloquence and musical leanings.",
+    "pluton": "The exile of Jupiter in Gemini underscores a tension between the sign's thirst for multiple details and the Jupiterian need for synthesis and an overall vision. Gemini takes an interest in a thousand things; Jupiter would prefer to retain only one great one. This is precisely the Gemini–Sagittarius axis: information versus meaning, diversity versus conviction."
+  },
+  "analogies": {
+    "animal": "Birds, messengers",
+    "objet": "The bridge, the book, the thread, the road",
+    "fonction": "To connect, to transmit, to set in circulation",
+    "texte": "Gemini evokes duality, flexibility, subtlety, indecision, eclecticism. It is the intermediary, the messenger, the representative, the merchant, the journalist, the diplomat. Travel and means of transport are associated with it. Gemini is the bridge between worlds — the one who sets ideas, words, people and knowledge in circulation."
+  },
+  "mythologie": {
+    "titre": "Castor and Pollux",
+    "texte": "Gemini is associated with the twins Castor and Pollux, sons of Zeus, symbols of the link between the mortal and the immortal. Pollux embodies the sign's sensitivity and quick intelligence, while Castor needs to translate his energy into action. Together, they represent the two contradictory facets of the human soul — that alternation between the calls of instinct and the flights of the mind. In the sky, one star hides on the horizon the moment the other appears: Castor rises just as Pollux sets. This duality is expressed on the psychological level — natives of the sign often feel that their deep self is double.",
+    "civilisations": "Following the mythological tragedies of the Trojan War, Castor was killed. Pollux, refusing his own immortality if his brother could not share it, obtained from Zeus that the two of them be reunited among the stars. This gesture illustrates the noblest dimension of Gemini: the ability to set things in circulation, to connect and transmit between different realities. Mercury, ruler of the sign, was the god of merchants, messengers and crossroads — the one who passes from one world to another without ever settling down."
+  },
+  "portrait": {
+    "temperament": "Gemini observes fast, understands fast, speaks fast and quickly shifts its point of view when it discovers a new angle. Its character is flexible, curious, light, mobile, often lively and playful, with a real need for mental stimulation. The intelligence is very keen, quick, intuitive, coupled with great curiosity for the most varied subjects. Gemini can understand anything with remarkable ease, but it is almost always inclined to go too fast, abandoning a subject to move on to something more enticing. It thus acquires encyclopedic knowledge, but rarely the depth of the true specialist. When immature, it can become scattered, nervous or superficial. As it matures, it becomes a true conveyor of meaning.",
+    "forces": [
+      "Remarkable quickness of understanding",
+      "Ease in creating links between ideas",
+      "Intellectual flexibility and adaptability",
+      "Learning quickly and grasping several points of view",
+      "Bringing people and ideas into relation",
+      "Communicating with flexibility and eloquence"
+    ],
+    "ombres": [
+      "Mental scattering and lack of concentration",
+      "Difficulty settling down and going deep",
+      "A tendency to stay on the surface",
+      "Versatility and inconstancy in commitments",
+      "Under strong dissonance: a tendency to bluff, scheme or lie"
+    ],
+    "besoinsVitaux": [
+      "Constant intellectual stimulation",
+      "Exchange, dialogue, circulation",
+      "Freedom of movement and thought"
+    ],
+    "aTravailler": [
+      "Concentration and depth",
+      "Inner coherence",
+      "Not fleeing boredom through constant agitation",
+      "Seeing an idea or commitment through to the end",
+      "Stabilising without becoming fixed"
+    ],
+    "equilibre": "A Gemini in full command of their powers becomes a true conveyor of meaning, able to connect without scattering. They use their curiosity to understand in depth, not to flee boredom. Their intelligence becomes living, fluid, communicative and genuinely fertile — a bridge between worlds rather than a perpetual flyover."
+  },
+  "sante": {
+    "zones": ["Lungs", "Arms", "Hands", "Shoulders", "Nervous system"],
+    "texte": "Gemini governs the respiratory system (bronchi and lungs), the shoulders, the collarbones, the shoulder blades, the arms, wrists and hands, the related muscles, the pectorals and the nervous system. It predisposes to respiratory ailments: bronchitis, asthma, emphysema, respiratory allergies. Physical-nervous asthenia is frequent. Nervous illnesses of all kinds can occur. In general, Gemini does not have an exceptional constitution, but its nervous resistance often exceeds expectations and health remains fairly good. Note that a Gemini keeps a youthful appearance — people always misjudge their age."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "Very easy understanding, great intellectual curiosity, a mind that is sometimes encyclopedic but superficial. A fertile but diffuse imagination, often intuitive. Fine arts, music, a smooth talker, a good orator. A double and indecisive nature, fineness of feeling but instability. Flexible and rapid activity, but scattered. Success thanks to a sense of opportunity and a capacity for adaptation. Often two major changes of activity, or two professions at the same time. Happier in the second part of life."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "Frequent earnings but of limited importance. The subject often holds two occupations at once or runs a business with branches. Trade, brokerage, office jobs and intellectual work are the most frequent sources of income. Financial success is ensured by know-how, flexibility and ingenuity. Failures come from scattered efforts or a lack of regularity."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "An excellent position for education and the development of mental faculties. Literary or scientific aptitudes, an ease with languages, fluency in speech. The intellect is productive. It eases relationships with siblings, cousins, neighbours — the subject knows how to be diplomatic. A good position for situations connected with writing and frequent travel."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "A family of rather intellectual descent. The family environment exerts a marked influence on intellectual preferences, which continues beyond schooling. Possibility of two simultaneous residences or frequent changes of home. An unstable home in general. Does not seem to favour the acquisition of land or buildings."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Inconstancy and hesitation in love. Two notable affections over the course of life, simultaneous or successive. Numerous flirtations. This sign foretells very limited or no offspring, but if children are born, they are intelligent and docile. The subject loves amusements, jokes, the theatre. Financially, speculative gains are possible thanks to reasoning ability and intuition."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to ailments of the bronchi and lungs, pain in the shoulders or arms, nervous illnesses. The intellect seems drawn to medicine and pharmacy — the subject can become a very subtle practitioner. It also indicates subordinate office jobs. Sometimes two different occupations over the course of life. Collaborators are skilful but capricious."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "This sign foretells two principal affections: two legal unions, or a relationship followed by a marriage, or a marriage coexisting with a hidden affection. The first union takes place early. The partner is often younger. Few lawsuits, but those that arise are skilfully handled. Few enmities, thanks to the subject's skill at smoothing over difficulties."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "The end is often hastened by exaggerated nervous expenditure or pulmonary complications. This sign does not seem to favour longevity. Often two inheritances or more, but of limited importance. Sometimes the premature loss of a sibling or cousin. This position can indicate an attraction to the occult, history and antiquities."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "The practical intellect of Gemini softens the spiritual meanings of this house. The subject may not be very idealistic, but this configuration favours intellectual breadth and allows excursions into philosophy when material concerns are not too absorbing. Reversals of opinion are likely. A position favourable to intuition and inspiration. Long journeys fairly numerous, often two notable journeys in life."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "More than one career. Several attempts in different directions, instability during the first part of life. Frequent abandonment of the first profession around the age of 30–40 to take up another more in keeping with one's aspirations. Suited to intellectual or scientific work, teaching, trade, transport. Better suited to supporting roles than to captains of industry — excellent engineers, inventors, schoolteachers, secretaries, department heads."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Numerous friends, intelligent, diplomatic and good for advice on small matters, but who can hardly be relied upon in important affairs. The subject should seek friendships among their family circle and childhood friends. The influence of friends is felt above all on intellectual development. The subject knows how to inspire sympathy but should avoid granting trust too lightly."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "The same illnesses as for Gemini in the Sixth House, but the prognosis is more serious because the ailments tend to become chronic. The subject is often the target of very skilful slander and gossip, rather painful because those close by are often responsible. These hidden enemies, however, cause more worry than real harm. For intellectuals, jealousy from peers and criticisms that cannot be answered."
+    }
+  ],
+  "amour": {
+    "texte": "Gemini loves first through the mind, through the living bond, through exchange, through mental complicity and through the lightness of movement. It needs to feel that the relationship breathes, that it circulates, that it stimulates and stays alive. It does not lack sensitivity and easily inspires sympathy. It seduces with words and can win enviable successes. But the inclination toward flirting and passing adventures is marked, and the great challenge after union will be to get used to a regular life and to master this perpetual need for change.",
+    "qualites": [
+      "Great capacity for dialogue and mental complicity",
+      "Lively, spontaneous charm",
+      "Remarkable relational flexibility",
+      "The ability to keep the relationship alive through words, humour and curiosity",
+      "The ability to seduce with elegance and lightness"
+    ],
+    "vigilances": [
+      "May avoid emotional depth through movement or humour",
+      "Risk of emotional scattering",
+      "Difficulty staying present in a relationship that is too heavy or fixed",
+      "May give more signs than real commitment",
+      "A tendency toward flirting and inconstancy"
+    ],
+    "affinites": ["balance", "verseau", "belier", "lion"]
+  },
+  "travail": {
+    "texte": "Gemini works well when it can think, exchange, transmit, connect, inform, move or manage several flows at once. It excels in environments where intelligence, curiosity, communication and adaptability count for more than motionless repetition. Its success is easier if its occupation involves variety and change. Typical professions: writer, journalist, actor, linguist, interpreter, broker, merchant, secretary, salesperson, teacher, draughtsman.",
+    "atouts": [
+      "Mental speed and versatility",
+      "The ability to juggle several tasks at once",
+      "Relational ease and diplomacy",
+      "A talent for informing, explaining, selling, connecting or learning",
+      "Great manual dexterity in some cases"
+    ],
+    "defis": [
+      "Professional scattering",
+      "Difficulty with overly repetitive or long-haul tasks",
+      "A tendency to grow weary quickly",
+      "Risk of starting much without stabilising enough",
+      "Hesitations and indecision at the start of a career"
+    ]
+  },
+  "argent": {
+    "texte": "Gemini has a mobile relationship with money: it sees it as a means to circulate, to test, to buy movement, freedom, tools or experiences. Earnings are multiple, fairly easy, but of limited importance — affluence is rather rare. Financial success is usually achieved in trade, bookselling, office jobs, journalism or literature. More stability from the age of 30–40 onward.",
+    "forces": [
+      "The ability to multiply income streams",
+      "Flexibility in ways of earning",
+      "An intelligence for exchanges and opportunities",
+      "Financial adaptability"
+    ],
+    "risques": [
+      "Scattering in management",
+      "Difficulty holding to a stable strategy",
+      "Impulse purchases linked to curiosity or boredom",
+      "A tendency to think fast rather than to secure over time"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Gemini builds a multiple, mobile, curious and communicative identity. It needs to learn, understand and exchange in order to feel alive.",
+      "manifestations": ["Constant curiosity", "Mental flexibility", "Ease of contact", "The ability to adapt"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Gemini experiences emotion through thought, speech and the need to understand what is happening. It reassures itself by naming, analysing or sharing.",
+      "manifestations": ["Emotional flexibility", "The ability to verbalise", "Emotional humour", "Adaptability"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Gemini is in one of its most natural expressions: a quick, curious, verbal, playful, adaptable and extremely mobile mind.",
+      "manifestations": ["Great verbal ease", "Quick intelligence", "A talent for connecting ideas", "The ability to learn fast"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Gemini loves through charm, movement, curiosity and an intelligence of the bond. Pleasure comes through variety, conversation, play and liveliness.",
+      "manifestations": ["Light charm", "A taste for romantic dialogue", "Relational flexibility", "The ability to keep the bond alive"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Gemini acts through the mind, speech, mobility and multiplicity. The energy moves fast, shifts, tests, compares and responds.",
+      "manifestations": ["Reactivity", "Mental liveliness", "The ability to act on several fronts", "Speed of execution"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Gemini amplifies curiosity, a taste for knowledge, a multiplicity of interests and the ability to set ideas in circulation.",
+      "manifestations": ["Intellectual openness", "Versatility", "The ability to learn a great deal", "A taste for transmitting"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Gemini structures thought, disciplines language and compels the mobile intelligence to take a more rigorous form.",
+      "manifestations": ["Mental rigour", "The ability to order one's thinking", "Precision in language", "Intellectual discipline"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Gemini produces an original, fast, inventive and unconventional mind. It accelerates the circuits of thought and the need for mental novelty.",
+      "manifestations": ["Flashes of insight", "Intellectual innovation", "Original thinking", "The ability to connect things differently"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Gemini inspires an intuitive, image-rich, poetic, sometimes hazy mind. It makes words porous, dreamy, suggestive.",
+      "manifestations": ["Verbal imagination", "Intuition in thought", "A poetic sense of language", "Openness to symbols"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Gemini deeply transforms one's relationship to thought, language, information and the power of words.",
+      "manifestations": ["Penetrating speech", "An investigative mind", "Understanding of the hidden mechanisms of language", "Transformation through intelligence"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "stimulante",
+      "titre": "Action and mental liveliness",
+      "texte": "Gemini loves movement and Aries loves momentum. The bond can be lively, spontaneous, mobile and very stimulating, as long as haste does not replace depth.",
+      "forces": ["Liveliness", "Spontaneity", "The ability to bounce back", "A taste for movement"],
+      "frictions": ["Scattering", "Impatience", "Difficulty going deep together"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "variable",
+      "titre": "Movement and stability",
+      "texte": "Gemini wants to circulate, Taurus wants to settle in. The bond can be enriching if each accepts that the other does not inhabit time in the same way.",
+      "forces": ["One provides air, the other a base", "Complementarity between ideas and the concrete", "Mutual learning"],
+      "frictions": ["Gemini finds Taurus heavy", "Taurus finds Gemini unstable", "A difference of rhythm"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "fluide",
+      "titre": "Air and a mental mirror",
+      "texte": "Two Geminis can understand each other very fast, play with ideas, talk endlessly and mutually stimulate their curiosity. The bond is lively, mobile, intelligent.",
+      "forces": ["Mental complicity", "Humour", "Flexibility", "A shared taste for exchange"],
+      "frictions": ["Scattering", "Difficulty grounding", "Avoidance of emotional depth"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "delicate",
+      "titre": "Speech and inner world",
+      "texte": "Gemini explains, Cancer feels. The relationship can be tender and complementary, but it calls for learning not to set thought against emotion.",
+      "forces": ["Complementarity between language and sensitivity", "Possible mutual support", "Human richness"],
+      "frictions": ["Gemini may seem too light", "Cancer may seem too withdrawn", "Misunderstandings between humour and vulnerability"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "stimulante",
+      "titre": "Play, presence and creativity",
+      "texte": "Gemini brings mental liveliness, Leo brings warmth and assertion. Together, they can create a living, brilliant and inspiring bond.",
+      "forces": ["Creativity", "Charm", "Movement", "Mutual stimulation"],
+      "frictions": ["Leo wants more stability and recognition", "Gemini flees the weight of ego", "A difference between play and assertion"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "complementaire",
+      "titre": "Two signs of Mercury, two styles",
+      "texte": "Gemini opens, Virgo sorts. One explores, the other orders. The bond can be very intelligent when each respects the other's function.",
+      "forces": ["Great intelligence", "Complementarity between openness and precision", "The ability to learn together"],
+      "frictions": ["Virgo finds Gemini too scattered", "Gemini finds Virgo too critical", "Conflict between variety and method"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Relational air and mobile air",
+      "texte": "Gemini and Libra share a taste for the bond, exchange, lightness and relational intelligence. The relationship can be elegant, pleasant and very lively.",
+      "forces": ["Dialogue", "Flexibility", "Harmony", "Mental complicity"],
+      "frictions": ["Indecision", "Avoidance of deep tensions", "A tendency to stay in the mental bond"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "intense",
+      "titre": "Lightness and depth",
+      "texte": "Gemini circulates, Scorpio dives. The bond can be fascinating, magnetic, rich, but difficult if each wants to impose their way of experiencing the relationship.",
+      "forces": ["Intellectual and psychic attraction", "Mutual curiosity", "Exploration of complex zones"],
+      "frictions": ["Scorpio finds Gemini too light", "Gemini finds Scorpio too intense", "Conflict of mobility versus fixation"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "complementaire",
+      "titre": "The Gemini–Sagittarius axis",
+      "texte": "Gemini takes an interest in the diversity of facts; Sagittarius seeks the overall meaning. It is a powerful axis between information and vision, curiosity and horizon.",
+      "forces": ["Complementarity between detail and synthesis", "A taste for knowledge", "Movement", "Openness"],
+      "frictions": ["Gemini may seem too relative", "Sagittarius too assertive", "Conflict between multiplicity and conviction"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "variable",
+      "titre": "Mobility and structure",
+      "texte": "Gemini likes to move, Capricorn likes to build over time. The relationship can be useful if one provides flexibility and the other steadiness.",
+      "forces": ["Complementarity between ideas and structure", "Thought made more concrete", "Mutual enrichment"],
+      "frictions": ["Capricorn finds Gemini too volatile", "Gemini finds Capricorn rigid", "A difference of rhythm and gravity"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "fluide",
+      "titre": "Free air and inventive thought",
+      "texte": "Gemini and Aquarius share a taste for intelligence, circulation, ideas and mental freedom. The bond can be extremely stimulating.",
+      "forces": ["Freedom", "Intellectual stimulation", "Originality", "Open-mindedness"],
+      "frictions": ["Emotional distance", "Excess of the mental", "Difficulty embodying the bond"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "variable",
+      "titre": "Mobile thought and porous sensitivity",
+      "texte": "Gemini names, Pisces feels. The bond can be poetic, inspiring and subtle, but it calls for respecting the differences between the mind and intuition.",
+      "forces": ["Inspiration", "Imagination", "Richness of exchange", "Complementarity of words and feeling"],
+      "frictions": ["Gemini finds Pisces vague", "Pisces finds Gemini cerebral", "Difficulty between logic and sensitivity"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Gemini, you enter life with curiosity, liveliness, flexibility and a need to quickly understand what is happening. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting often carries a mobile, light and communicative tone.",
+    "apparence": [
+      "A lively, light presence",
+      "A mobile, expressive or nervous bearing",
+      "A curious gaze, an impression of youth",
+      "Gestures that are often active or expressive"
+    ],
+    "temperament": [
+      "Reacts fast, observes and understands quickly",
+      "Needs movement and variety",
+      "Tolerates mental stillness poorly",
+      "Enters situations through contact or through the mind"
+    ],
+    "vigilances": [
+      "Nervousness and scattering",
+      "Difficulty settling down",
+      "A tendency to speak more than to feel",
+      "Risk of skimming over certain situations"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Alhena",
+      "nature": "Mercury / Venus",
+      "texte": "Alhena brings a tone of finesse, skill, expressive intelligence and the ability to articulate a thought with style. It resonates with the mobile, communicative dimension of Gemini.",
+      "motsCles": ["Intelligence", "Expression", "Skill", "Mental grace"]
+    },
+    {
+      "nom": "Bellatrix",
+      "nature": "Mars / Mercury",
+      "texte": "Bellatrix adds a lively, nervous, hard-hitting note. It reinforces the idea of a fast, sharp, sometimes incisive mind that likes to respond quickly and act through intelligence.",
+      "motsCles": ["Liveliness", "Reactivity", "A combative mind", "Brilliance"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Agate", "motsCles": ["flexibility", "balance", "circulation", "adaptation"] },
+      { "nom": "Citrine", "motsCles": ["clarity", "liveliness", "intelligence", "joy"] },
+      { "nom": "Mercury (symbolic)", "motsCles": ["movement", "language", "transmission", "fluidity"] }
+    ],
+    "vegetaux": [
+      { "nom": "Lavender", "motsCles": ["clarity", "air", "flexibility", "soothing"] },
+      { "nom": "Fennel", "motsCles": ["mobility", "intelligence", "flexibility", "circulation"] },
+      { "nom": "Hazel", "motsCles": ["knowledge", "skill", "agility", "thought"] }
+    ],
+    "animaux": [
+      { "nom": "Swallow", "motsCles": ["speed", "movement", "air", "circulation"] },
+      { "nom": "Monkey", "motsCles": ["curiosity", "play", "agility", "intelligence"] },
+      { "nom": "Butterfly", "motsCles": ["lightness", "variety", "movement", "flexibility"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Belgium", "texte": "Duality, crossroads, network, circulation and a relational nature." },
+    { "pays": "United States", "texte": "Mobility, communication, multiplicity and network." },
+    { "pays": "Wales", "texte": "A traditional correspondence that varies between schools." },
+    { "pays": "Lower Egypt", "texte": "An attribution stemming from a classical symbolism of astrological geography." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Marilyn Monroe", "domaine": "Film", "date": "June 1, 1926", "texte": "Charm, expressive mobility and a multiplicity of facets." },
+    { "nom": "Johnny Depp", "domaine": "Film", "date": "June 9, 1963", "texte": "A multiple, adaptable and mobile register of expression." },
+    { "nom": "Angelina Jolie", "domaine": "Film", "date": "June 4, 1975", "texte": "Mobile intensity, great adaptability of image and an intellectually lively presence." },
+    { "nom": "Natalie Portman", "domaine": "Film", "date": "June 9, 1981", "texte": "Intelligence, flexibility of expression and the ability to navigate between several registers." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Gemini?",
+      "reponse": "Gemini is characterised by curiosity, intellectual liveliness, flexibility and a need for communication. It is a mobile, adaptable temperament that needs mental stimulation to flourish. Geminis can be scattered and inconstant, but they are also among the keenest, most inventive and most sociable minds of the Zodiac."
+    },
+    {
+      "question": "What kind of lover is Gemini?",
+      "reponse": "Charming, playful, communicative and intellectually seductive. Gemini loves through the mind and mental complicity. It needs a lively relationship that breathes and stimulates. It tolerates bonds that are too heavy, too fixed or too silent poorly."
+    },
+    {
+      "question": "What kind of worker is Gemini?",
+      "reponse": "A quick, versatile and adaptable mind. Gemini excels in communication, trade, teaching or networking professions. It needs variety and movement. It is less comfortable with monotonous tasks or overly rigid environments."
+    },
+    {
+      "question": "Which house corresponds to Gemini?",
+      "reponse": "The Third House — that of basic learning, the immediate environment, language, exchanges, siblings, short journeys and the way one thinks about daily life. Its natural analogy with Gemini underscores a dynamic of circulation, understanding and connection."
+    },
+    {
+      "question": "What is the ideal Ascendant for Gemini?",
+      "reponse": "A Sagittarius Ascendant brings vision and depth to its scattered curiosity. An Aquarius Ascendant stimulates its originality. A Virgo Ascendant structures its thinking and channels its mental energy."
+    },
+    {
+      "question": "What are the flaws of Gemini?",
+      "reponse": "Scattering, inconstancy, nervousness and superficiality are its shadow zones. It may flit from one subject to another without going deep and flee boredom through constant agitation."
+    },
+    {
+      "question": "Are Geminis really double?",
+      "reponse": "Their duality comes from the myth of Castor and Pollux and from the sign's mutable mode. They have several registers that coexist, which gives them rare adaptability but can disconcert those around them."
+    }
+  ]
+}

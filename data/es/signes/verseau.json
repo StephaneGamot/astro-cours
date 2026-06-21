@@ -1,0 +1,457 @@
+{
+  "slug": "verseau",
+  "nom": "Acuario",
+  "sousTitre": "El undécimo signo del Zodiaco",
+  "devise": "Yo comprendo",
+  "periode": "20 de enero – 18 de febrero",
+  "element": "Aire",
+  "mode": "Fijo",
+  "maitre": "Saturno (tradición) / Urano (moderno)",
+  "exaltation": "—",
+  "exil": "Sol",
+  "chute": "—",
+  "polarite": "Masculino",
+  "temperament": "Sanguíneo",
+  "maisonNaturelle": 11,
+  "couleur": {
+    "primaire": "#3B82F6",
+    "secondaire": "#06B6D4",
+    "accent": "#818CF8",
+    "gradient": "from-blue-500 via-cyan-400 to-teal-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "capricorne", "nom": "Capricornio" },
+    "suivant": { "slug": "poissons", "nom": "Piscis" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/verseau.webp",
+    "planete": "/images/planetes/uranus.webp"
+  },
+  "introduction": "Acuario es el undécimo signo del Zodiaco. El Sol lo atraviesa entre el 20 de enero y el 18 de febrero aproximadamente, en pleno invierno, en el momento en que la luz vuelve discretamente a ganar terreno sobre la oscuridad, en que una exuberancia interior sucede a la austeridad de Capricornio, en que el espíritu busca lanzarse más allá de las estructuras establecidas.\n\nCon sus dos olas que lo simbolizan, Acuario es un aguador — no un agua emocional, sino un agua de conocimiento, de visión, de conciencia vertida sobre el mundo. Tras la construcción paciente de Capricornio, Acuario abre las puertas: cuestiona, reforma, conecta, inventa. No es casualidad que la astrología lo sitúe en la bisagra entre la arquitectura del pasado y la promesa del futuro: Acuario encarna el gesto que dice «yo comprendo» — y que, habiendo comprendido, busca hacer evolucionar el mundo.",
+  "fondationsCosmiques": {
+    "texte": "Acuario pertenece al elemento Aire (cálido y húmedo), lo que le confiere un temperamento sanguíneo: intercambios, movilidad mental, capacidad de comunicación y de adaptación. Es el tercer nivel del Aire — el de la sublimación. Allí donde Géminis explora y circula, allí donde Libra conecta y armoniza, Acuario trasciende: utiliza la inteligencia para pensar más allá de lo conocido, para vincular lo individual con lo colectivo, para imaginar formas de vida y de pensamiento que aún no existen.\n\nSu modo es fijo: contrariamente a la imagen de inestabilidad que a veces se le atribuye, Acuario posee una estabilidad, una firmeza y una independencia poderosas. Lleva sus proyectos a término con una perseverancia que puede sorprender. Las opiniones son constantes, la voluntad persistente, el compromiso intelectual profundo. Signo activo, emisor y extrovertido, proyecta su energía hacia el exterior — pero esta energía es ante todo mental y conceptual antes que física.",
+    "courteAscension": "Acuario es un signo de ascensión corta — pasa rápidamente por encima del horizonte — lo que significa que, estadísticamente, menos personas nacen con Acuario como Ascendente.",
+    "pluton": "Acuario es el domicilio tradicional diurno de Saturno, el planeta del tiempo, de la estructura y de la sabiduría adquirida por la experiencia. Desde el descubrimiento de Urano en 1781, numerosos astrólogos modernos le han atribuido el dominio de Acuario, tan bien corresponde este planeta de ruptura, innovación y libertad al temperamento profundo de este signo.\n\nLa cuestión de la doble regencia Saturno-Urano es esencial para comprender Acuario: Saturno le da su rigor, su constancia y su capacidad de estructurar el tiempo; Urano le da su fulgor, su originalidad y su necesidad visceral de libertad. El destino de todo Acuario es pasar del uno al otro — de la conservación a la invención, del portal del pasado al horizonte del futuro."
+  },
+  "analogies": {
+    "animal": "Ningún animal específico — el aguador es humano",
+    "objet": "La corriente, la red, el vaso que vierte, el rayo",
+    "fonction": "Innovar, conectar, despertar",
+    "texte": "Acuario es el signo de la originalidad, la inspiración, la invención y la novedad. El sabio, el ingeniero, el inventor, el excéntrico — todos son arquetipos de este signo. Así como el aguador vierte sobre el mundo un agua destinada a saciar la sed de los espíritus más que la de los cuerpos, el nativo de Acuario busca transmitir, conectar, hacer progresar. Es el progreso con sus promesas y sus servidumbres. Es el impulso hacia el futuro, el gusto por las teorías nuevas, la atracción por todo lo que sale de los senderos trillados. Acuario inscribe en el Zodiaco, como un hecho ineludible, su pertenencia al conjunto de los hombres."
+  },
+  "mythologie": {
+    "titre": "Prometeo y Pandora",
+    "texte": "Acuario está ligado al mito de Prometeo, el titán visionario que robó el fuego a los dioses para dárselo a los hombres — no un fuego físico, sino el fuego de la inteligencia, del conocimiento y de la conciencia. Este gesto, natural para Prometeo, era un crimen para los dioses. Zeus lo hizo encadenar a una roca donde un águila le devoraba eternamente el hígado, órgano que no cesa de regenerarse.\n\nPrometeo encarna al héroe acuariano por excelencia: visionario, rebelde por altruismo, dispuesto a enfrentarse a la autoridad suprema para hacer acceder a la humanidad a un nivel superior. La otra vertiente del mito, Pandora, recuerda que el conocimiento tiene un precio: abrir la jarra es liberar todos los males — pero también la esperanza. Ambos relatos dicen lo mismo: el conocimiento no debe ser vana curiosidad, no aporta nada si no se alía con la sabiduría. Urano debe aliarse con Saturno. No hay atajo para adquirir el conocimiento verdadero.",
+    "civilisations": "Acuario está también asociado a Jano, el dios de los dos rostros: uno vuelto hacia el pasado (Saturno), el otro hacia el porvenir (Urano). Con una mano Jano cierra una puerta — para encontrar la soledad cara a Saturno — con la otra abre una que da a un amplio horizonte — para encontrar la libertad, oxígeno primordial de Urano.\n\nEn la mitología mesopotámica, Ea, el dios del agua dulce y de la sabiduría, vertía el agua del conocimiento sobre la tierra. En Egipto, el dios Hapi vertía las aguas del Nilo sosteniendo dos vasos — símbolo nutricio y civilizador. Acuario atraviesa las civilizaciones como portador de una misma promesa: la de un agua que no está hecha para el cuerpo sino para el espíritu."
+  },
+  "portrait": {
+    "temperament": "Acuario piensa de otra manera, observa a distancia y busca comprender los sistemas, los grupos, las ideas y los futuros posibles. La curiosidad suele ser muy grande, podría decirse universal; la asimilación es fácil, lo que permite la adquisición de vastos conocimientos. El sujeto se siente principalmente atraído por las teorías nuevas, los descubrimientos recientes y todo lo que se sitúa a la vanguardia del progreso. Los dones de invención son muy considerables y la intuición interviene a menudo de forma afortunada.\n\nSu carácter es independiente, original, a menudo sorprendente, con una fuerte necesidad de libertad intelectual y de coherencia interior. Muy aficionado a la independencia, a veces propenso al espíritu de contradicción, desdeña las charlas y las relaciones inútiles, apreciando solo a las personalidades fuertes con quienes puede entregarse a sabias discusiones. Nunca es un mundano, sino un pensador, un independiente, un original que se somete con dificultad a las convenciones.\n\nLa actividad es considerable pero a veces difusa: el sujeto puede realizar esfuerzos muy prolongados cuando está absorto en una investigación, pero también puede malgastar sus facultades en la búsqueda de realizaciones utópicas. Cuando es inmaduro, puede volverse imprevisible, distante o rebelde sin eje; cuando madura, se convierte en una fuerza de renovación, de lucidez y de apertura humana.",
+    "forces": [
+      "Pensar de otra manera y cuestionar las normas que se han vuelto estériles",
+      "Conectar personas, ideas y sistemas en una red fecunda",
+      "Anticipar evoluciones que la mayoría aún no ve",
+      "Servir a una causa más grande que uno mismo con desinterés",
+      "Introducir innovación en un sistema paralizado",
+      "Mantener una independencia intelectual incluso bajo presión"
+    ],
+    "ombres": [
+      "Dificultad para implicarse emocionalmente en las relaciones cercanas",
+      "Oposición sistemática o espíritu de contradicción estéril",
+      "Desconexión de lo concreto o de lo humano cercano en favor de la abstracción",
+      "Concepciones utópicas que comprometen el éxito por falta de sentido práctico",
+      "Tendencia a refugiarse en la distancia mental para evitar la intimidad"
+    ],
+    "besoinsVitaux": [
+      "Libertad de pensamiento y de acción, sin coacción arbitraria",
+      "Espacios de intercambio intelectual y de proyecto colectivo",
+      "Ideales portadores de sentido que superen el interés estrictamente personal"
+    ],
+    "aTravailler": [
+      "Vincular la idea con la emoción y la visión con lo sentido",
+      "Anclar la innovación en lo real y lo concreto",
+      "Aceptar los límites humanos y las imperfecciones de lo cotidiano",
+      "No refugiarse en la distancia para evitar la intimidad verdadera",
+      "Distinguir independencia sana y corte relacional"
+    ],
+    "equilibre": "El Acuario en plena posesión de sus medios se convierte en un visionario accesible, capaz de inspirar sin excluir, de reformar sin destruir. Pone su originalidad al servicio de lo colectivo y del progreso humano. Su libertad ya no destruye el vínculo: abre nuevas formas de relación, de pensamiento y de solidaridad. Su desapego se convierte en una serenidad lúcida, y su pensamiento, en lugar de aislarlo, lo conecta con el mundo de una manera más verdadera y más vasta."
+  },
+  "sante": {
+    "zones": ["Tobillos", "Pantorrillas", "Circulación nerviosa", "Sistema circulatorio"],
+    "texte": "Acuario gobierna los tobillos, las pantorrillas, el sistema nervioso y la circulación de la sangre. Predispone a las varices, a las úlceras varicosas, a los trastornos medulares, a los esguinces y a las complicaciones nerviosas o cardíacas. El sistema nervioso está particularmente solicitado en este signo cerebral, y las afecciones que vienen de este eje pueden transmitirse por herencia.\n\nLos nativos de Acuario deben procurar no agotar su energía nerviosa en actividades demasiado exclusivamente mentales, y mantener una buena circulación sanguínea mediante el ejercicio físico regular. Las piernas, los tobillos y toda la red circulatoria requieren una atención particular, sobre todo en períodos de agotamiento intelectual."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "La curiosidad es universal, la asimilación fácil, los conocimientos vastos. El sujeto se siente atraído por las teorías nuevas, los descubrimientos recientes y todo lo que sale de los senderos oficiales. Los dones de invención son muy considerables y la intuición interviene a menudo de forma afortunada. Muy aficionado a la independencia, poco expansivo en apariencia, solo aprecia a las personalidades fuertes. La actividad es considerable pero a menudo difusa: puede realizar esfuerzos prolongados cuando una investigación le apasiona, pero corre el riesgo de malgastar sus facultades en realizaciones utópicas. Puede triunfar gracias a sus dones de invención, pero fracasa con frecuencia cuando quiere aplicar concepciones demasiado originales."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "Contrariamente a los otros signos fijos, esta posición no confiere una gran estabilidad financiera. Las fluctuaciones son numerosas, imprevistas e importantes, debidas la mayoría de las veces a la puesta en práctica de nuevos métodos o de procedimientos innovadores. El nativo puede gastar ampliamente en experiencias, ensayos o equipamiento de vanguardia. Si los aspectos son favorables, pueden realizarse importantes ganancias en la explotación de invenciones o de negocios nuevos. El sujeto es particularmente sensible al ambiente mundial: crisis, revoluciones, cracs bursátiles. Los giros, buenos y malos, se efectúan de forma rápida, incluso brutal."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Acrecienta la curiosidad intelectual, el espíritu científico y predestina a las investigaciones o invenciones. Atracción marcada por las teorías revolucionarias en todos los ámbitos. Aunque sea un signo fijo, esta posición no contraría los viajes; indicaría más bien desplazamientos emprendidos con un fin de estudio o de investigación. El entendimiento con los hermanos, primos y vecinos no siempre es armonioso: las relaciones carecen a veces de calidez porque los allegados pueden ser excéntricos y poco sociables."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "Si las otras indicaciones del tema son concordantes, hay riesgos de divergencias familiares e incluso de enemistades, a veces pérdida precoz de un progenitor. Parece preferible para el sujeto ir a probar suerte fuera del lugar de nacimiento. No parece muy propicia a la adquisición de bienes inmobiliarios ni a la creación de un hogar armonioso. El final de la vida carece a menudo de seguridad. En casos muy raros, éxitos científicos o descubrimiento importante durante la última parte de la existencia."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Posición bastante peligrosa para las especulaciones: el sujeto se beneficia en ciertos momentos de intuiciones afortunadas que permiten ganancias alentadoras, lo que le incita después a imprudencias que causan pérdidas irreparables. No es muy favorable a las satisfacciones sentimentales ni a la descendencia. Los desengaños amorosos son frecuentes. Ligeramente favorable para una carrera artística, teatral o cinematográfica, donde la originalidad de Acuario puede encontrar un terreno de expresión."
+    },
+    {
+      "numero": 6,
+      "titre": "Lo cotidiano y la salud",
+      "texte": "Predispone a las enfermedades del signo: trastornos nerviosos, circulatorios, varices. El sujeto se ve a menudo obligado a someterse a un trabajo que le desagrada, y en el caso de que llegue a una situación independiente, difícilmente puede contar con colaboradores demasiado irregulares. Si el sujeto abraza la carrera médica, esta posición acrecienta su intuición en materia de diagnóstico. Tendrá tendencia a tratar con métodos nuevos: electricidad, radiaciones y técnicas de vanguardia."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "Retrasa a menudo el matrimonio o lo hace difícil, con riesgos de divorcio si la unión tiene lugar demasiado pronto. Circunstancias imprevistas pueden apresurar o retrasar los proyectos. El carácter del cónyuge carece a menudo de dulzura y docilidad. En cuanto a los pleitos, esta posición es bastante peligrosa si los aspectos son malos: es preferible buscar arreglos amistosos. Los enemigos declarados no son muy numerosos, pero son tenaces y sutiles. Es preferible evitar las asociaciones."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Aumenta los riesgos de muerte súbita o accidental que pudieran existir por otra parte. Más a menudo, esta posición presagia un final apresurado por complicaciones nerviosas o cardíacas. Si los aspectos son excelentes, posibilidad de una herencia inesperada o de una sucesión más importante de lo esperado, que llega en el momento oportuno. En caso contrario, cabe prever decepciones imprevistas en el arreglo de los asuntos de familia."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Las tendencias científicas de Acuario se tiñen a veces de misticismo: el sujeto se interesa por las cuestiones metafísicas, espirituales u ocultas. La intuición es generalmente considerable, pero si los aspectos son disonantes, el sujeto corre el riesgo de convertirse en un utópico o un iluminado. Esta posición restringe las posibilidades de largos viajes, pero si los desplazamientos son pocos, son a veces muy importantes y pueden corresponder a cambios de situación significativos."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "Buena posición para una carrera intelectual, en particular para el periodismo, la literatura y todas las ocupaciones relacionadas con los escritos o las ciencias. La situación sufre algunos cambios inesperados que pueden modificarla totalmente. El deseo de aplicar métodos personales puede provocar fracasos, pero el sujeto logra recuperarse gracias a su ingenio y su flexibilidad. En casos muy raros, notoriedad debida a un descubrimiento o una innovación mayor."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "La posición más natural para Acuario. Los amigos no son muy expansivos ni complacientes y solo se interesan por las cuestiones de orden intelectual, pero pueden prestar grandes servicios e influir considerablemente en la evolución mental del nativo. Si los aspectos son excelentes, el sujeto encuentra amigos en el momento exacto en que son susceptibles de serle útiles, en circunstancias imprevisibles. Si la casa está mal aspectada, los amigos son demasiado originales, incluso maniáticos, y se vuelve difícil contar con ellos."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Los celos, las enemistades ocultas y las calumnias son siempre numerosos con esta posición. Según que los aspectos sean armónicos o disonantes, los enemigos ocultos pueden evolucionar para convertirse en amigos, o por el contrario son los amigos quienes se desligan lentamente para hacer una oposición solapada. Las investigaciones de laboratorio y los estudios de ocultismo se ven facilitados por esta posición. En los temas muy difíciles, riesgos de reclusión o de exilio a raíz de tomas de posición demasiado radicales."
+    }
+  ],
+  "amour": {
+    "texte": "Acuario ama con libertad, originalidad, complicidad mental y necesidad de espacio. Busca una relación viva, inteligente, no asfixiante, donde cada uno pueda seguir siendo él mismo sin ser poseído. El plano cerebral predomina habitualmente sobre los sentidos y los sentimientos: no es ni muy emotivo ni muy sensual, lo que puede hacerlo desconcertante para los signos más pasionales.\n\nSin embargo, sabe dar muestras de fidelidad y de honestidad en sus sentimientos. La unión es a menudo imprevista, y el cónyuge de una condición o de gustos muy diferentes de los suyos. Acuario ama el vínculo, pero lo quiere respirable, consciente y libre de las formas demasiado paralizadas.",
+    "qualites": [
+      "Gran libertad concedida al otro dentro del vínculo",
+      "Apertura de espíritu y rechazo de las posesiones asfixiantes",
+      "Complicidad mental y amistosa profunda",
+      "Capacidad de amar sin querer encerrar",
+      "Gusto por las relaciones singulares y sinceras"
+    ],
+    "vigilances": [
+      "Puede parecer distante o difícil de captar afectivamente",
+      "Riesgo de protegerse detrás de la idea o del humor",
+      "Dificultad con las demandas de fusión o de posesión",
+      "Tendencia a valorar la libertad hasta el punto de evitar ciertas profundidades emocionales"
+    ],
+    "affinites": ["gemeaux", "balance", "sagittaire", "belier"]
+  },
+  "travail": {
+    "texte": "Acuario trabaja bien cuando puede innovar, pensar de otra manera, conectar personas, transformar sistemas o servir a una visión de futuro. Sobresale en los ámbitos donde se necesita creatividad conceptual, perspectiva, invención o trabajo en red. En los destinos modestos, éxito en todo lo que toca las tecnologías, las ciencias y los oficios de vanguardia. En los temas poderosos, el éxito puede llegar a raíz de una innovación o de una invención. En todos los casos, el éxito material sigue siendo a menudo precario respecto al éxito intelectual.",
+    "atouts": [
+      "Originalidad y capacidad de ver de otra manera",
+      "Visión de conjunto y espíritu de innovación",
+      "Aptitud para conectar personas, ideas y sistemas",
+      "Capacidad de anticipar las evoluciones futuras"
+    ],
+    "defis": [
+      "Soporta mal los marcos absurdos o demasiado rígidos",
+      "Puede desligarse excesivamente de lo concreto o de lo práctico",
+      "Riesgo de oponerse por principio más que por necesidad",
+      "Puede tener dificultades con las jerarquías cerradas o las rutinas sin sentido"
+    ]
+  },
+  "argent": {
+    "texte": "Acuario tiene una relación a menudo original y a veces desapegada con el dinero. Lo ve como una herramienta de autonomía, de libertad, de proyecto o de contribución a una visión más amplia. El desahogo es generalmente limitado; hay poca acumulación en el sentido clásico. Las ganancias son irregulares, a menudo ligadas a negocios que salen de lo ordinario. Acuario no está apegado a la posesión por sí misma, sino más bien a lo que ella permite inventar, sostener o hacer posible.",
+    "forces": [
+      "Capacidad de pensar de otra manera los recursos y el valor",
+      "Relación libre con los modos clásicos de posesión",
+      "Aptitud para financiar un proyecto o sostener una idea",
+      "Visión no convencional de la riqueza"
+    ],
+    "risques": [
+      "Irregularidad de los ingresos y fluctuaciones imprevistas",
+      "Desapego demasiado abstracto de las realidades materiales",
+      "Decisiones financieras repentinas o insuficientemente reflexionadas",
+      "Dificultad para entrar en una lógica de gestión clásica"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Acuario construye una identidad independiente, original y vuelta hacia un futuro más amplio que el solo yo. Necesita ser él mismo fuera de las normas impuestas.",
+      "manifestations": ["Independencia", "Originalidad", "Visión de futuro", "Capacidad de pensar de otra manera"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Acuario vive las emociones con necesidad de espacio, de perspectiva y de respiración. A menudo se protege mentalizando o tomando distancia.",
+      "manifestations": ["Libertad interior", "Capacidad de no ahogarse en la emoción", "Flexibilidad relacional", "Necesidad de amistad y de aire"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Acuario piensa de manera original, inventiva, libre y a menudo no convencional. El espíritu busca comprender sistemas, redes, ideas nuevas.",
+      "manifestations": ["Pensamiento inventivo", "Espíritu libre", "Capacidad de conectar conceptos", "Visión de conjunto"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Acuario ama con libertad, originalidad, distancia justa y gusto por lo inesperado. El placer pasa por la singularidad, la complicidad mental y el rechazo de los vínculos asfixiantes.",
+      "manifestations": ["Apertura relacional", "Capacidad de amar sin poseer", "Encanto original", "Gusto por los vínculos atípicos"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Acuario actúa de manera original, libre, a veces imprevisible, a menudo orientada hacia una causa, un ideal o una necesidad de ruptura con lo antiguo.",
+      "manifestations": ["Independencia de acción", "Audacia mental", "Capacidad de defender una causa", "Energía de reforma"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Acuario amplifica la visión colectiva, la confianza en el progreso, la apertura a las redes y la fe en ideas capaces de hacer evolucionar el mundo.",
+      "manifestations": ["Humanismo", "Visión amplia", "Apertura a lo colectivo", "Capacidad de federar en torno a una idea"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Acuario estructura el pensamiento colectivo, las redes, las responsabilidades sociales y la relación con la libertad. Busca una forma justa de sistema o de organización humana.",
+      "manifestations": ["Sentido de la responsabilidad colectiva", "Capacidad de estructurar redes o ideas", "Madurez intelectual", "Visión reformista construida"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Acuario está en una de sus expresiones más naturales: ruptura, innovación, despertar colectivo, libertad, invención de formas nuevas.",
+      "manifestations": ["Muy gran originalidad", "Visión de ruptura", "Capacidad de inventar de otra manera", "Intuición del futuro"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Acuario busca un ideal colectivo, una utopía humana, una fraternidad posible y una inspiración vuelta hacia el futuro y las redes.",
+      "manifestations": ["Ideal humanista", "Imaginación social", "Visión inspirada de lo colectivo", "Apertura a nuevas formas de sentido"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Acuario transforma profundamente los sistemas, las redes, las tecnologías, las formas de poder colectivo y los modelos de organización del futuro.",
+      "manifestations": ["Potencia de transformación colectiva", "Lucidez sobre los sistemas", "Capacidad de refundar un modelo", "Voluntad de evolución radical"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "complementaire",
+      "titre": "Acción y libertad",
+      "texte": "Acuario piensa de otra manera, Aries actúa rápido. El vínculo puede ser muy estimulante si cada uno respeta la independencia del otro. Ambos comparten un gusto por la libertad y una aversión por la rutina.",
+      "forces": ["Libertad", "Estimulación", "Originalidad", "Impulso hacia el porvenir"],
+      "frictions": ["Impulsividad de Aries", "Distancia de Acuario", "Conflictos ideológicos o de ritmo"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "delicate",
+      "titre": "Estabilidad y ruptura",
+      "texte": "Tauro quiere conservar lo que tiene valor; Acuario quiere a veces romper lo que paraliza. El vínculo puede ser fascinante pero muy desestabilizador para ambas partes.",
+      "forces": ["Posibilidad de reinventar fundamentos", "Complementariedad entre lo concreto y la visión", "Estimulación real"],
+      "frictions": ["Tauro soporta mal lo imprevisible", "Acuario soporta mal la fijación", "Conflicto entre seguridad y libertad"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "fluide",
+      "titre": "Aire, espíritu y apertura",
+      "texte": "Acuario y Géminis comparten el gusto por la inteligencia, la circulación, el intercambio y una cierta libertad mental. El vínculo puede ser muy vivo y estimulante intelectualmente.",
+      "forces": ["Estimulación intelectual", "Apertura de espíritu", "Libertad", "Complicidad mental"],
+      "frictions": ["Exceso de mental", "Dificultad para anclar el vínculo", "Tendencia a evitar ciertas profundidades"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "delicate",
+      "titre": "Distancia y apego",
+      "texte": "Acuario busca espacio, Cáncer busca seguridad afectiva. El vínculo puede ser enriquecedor pero exige una verdadera comprensión de las necesidades profundamente opuestas de cada uno.",
+      "forces": ["Cáncer humaniza, Acuario abre", "Posibilidad de ampliar el mundo afectivo", "Complementariedad entre lo íntimo y lo colectivo"],
+      "frictions": ["Cáncer puede sufrir por la distancia de Acuario", "Acuario puede ahogarse ante la necesidad de apego", "Conflicto entre seguridad emocional y libertad"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "complementaire",
+      "titre": "Eje Acuario–Leo",
+      "texte": "Acuario abre a lo colectivo y a la visión, Leo afirma el corazón creador y el resplandor personal. Es un eje muy fuerte entre singularidad y grupo, entre el yo y el futuro compartido.",
+      "forces": ["Estimulación fuerte", "Originalidad", "Complementariedad entre corazón e idea", "Capacidad de crear algo visible y diferente"],
+      "frictions": ["Leo puede encontrar a Acuario demasiado distante", "Acuario puede encontrar a Leo demasiado centrado en sí mismo", "Conflicto entre reconocimiento personal y desapego"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "variable",
+      "titre": "Reforma y precisión",
+      "texte": "Acuario quiere repensar los sistemas; Virgo quiere mejorar lo real en el detalle. El vínculo puede ser inteligente y productivo si acepta dos estilos de lucidez muy diferentes.",
+      "forces": ["Inteligencia", "Complementariedad entre reforma y método", "Capacidad de hacer evolucionar de forma concreta"],
+      "frictions": ["Acuario puede parecer demasiado abstracto o imprevisible", "Virgo puede parecer demasiado normativo o demasiado crítico", "Conflicto entre innovación y control"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Aire relacional y aire libre",
+      "texte": "Libra conecta en la dulzura del vínculo, Acuario abre en la libertad mental. La relación puede ser elegante, estimulante y muy respirable para ambos.",
+      "forces": ["Apertura", "Diálogo", "Elegancia mental", "Respeto del espacio"],
+      "frictions": ["Libra puede querer más vínculo", "Acuario puede querer más distancia", "Conflicto entre armonía relacional e independencia"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "intense",
+      "titre": "Profundidad y desapego",
+      "texte": "Escorpio quiere ir al fondo, Acuario toma distancia. El vínculo puede ser muy magnético pero también muy complejo de afinar, tan opuestas son las necesidades.",
+      "forces": ["Lucidez", "Intensidad", "Capacidad de transformar visiones", "Atracción entre dos potencias muy diferentes"],
+      "frictions": ["Escorpio puede encontrar a Acuario demasiado frío", "Acuario puede encontrar a Escorpio demasiado intenso o controlador", "Conflicto entre fusión y libertad"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "fluide",
+      "titre": "Apertura y horizonte",
+      "texte": "Acuario y Sagitario comparten el gusto por el espacio, por la idea, por la libertad y por un futuro más vasto. El vínculo puede ser muy estimulante y mutuamente inspirador.",
+      "forces": ["Apertura de espíritu", "Libertad", "Visión", "Movimiento"],
+      "frictions": ["Falta de anclaje", "Distancia emocional", "Tendencia a vivir en la idea o el horizonte"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "complementaire",
+      "titre": "Estructura y reforma",
+      "texte": "Capricornio organiza y conserva lo que se sostiene; Acuario reforma y abre vías nuevas. Es un eje fuerte entre sistema establecido y futuro posible, entre el Saturno conservador y el Urano innovador.",
+      "forces": ["Complementariedad entre marco e innovación", "Visión estratégica", "Capacidad de transformar de forma útil"],
+      "frictions": ["Capricornio puede parecer demasiado rígido", "Acuario puede parecer demasiado imprevisible", "Conflicto entre seguridad y cambio"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "fluide",
+      "titre": "Libertad frente a libertad",
+      "texte": "Dos Acuarios pueden comprenderse en su necesidad de espacio, de originalidad, de pensamiento libre y de inconformismo. El vínculo puede ser estimulante y muy singular, pero también muy descarnado.",
+      "forces": ["Libertad", "Originalidad", "Complicidad de espíritu", "Respeto de la independencia"],
+      "frictions": ["Distancia afectiva", "Demasiado mental", "Dificultad para encarnar la relación"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "variable",
+      "titre": "Visión colectiva y sensibilidad difusa",
+      "texte": "Acuario piensa en redes y en ideas; Piscis siente en profundidad y en intuición. El vínculo puede ser muy inspirador pero también desconcertante por sus contrastes.",
+      "forces": ["Inspiración", "Apertura a otros posibles", "Complementariedad entre visión y compasión", "Creatividad sutil"],
+      "frictions": ["Acuario puede parecer demasiado distante o cerebral", "Piscis puede parecer demasiado difuso o poroso", "Conflicto entre desapego y fusión sensible"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Acuario, entras en la vida con originalidad, distancia, libertad de tono y necesidad de seguir siendo tú mismo. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, de presentarte y de reaccionar lleva una tonalidad independiente, abierta y no convencional.",
+    "apparence": [
+      "Presencia singular o atípica",
+      "Porte libre, desapegado u original",
+      "Mirada a menudo curiosa, directa o lejana",
+      "Impresión de independencia y de desfase sutil"
+    ],
+    "temperament": [
+      "Reacciona a su manera, rara vez según las convenciones",
+      "Necesita espacio y autonomía para expresarse",
+      "Soporta mal los marcos demasiado cerrados o las coacciones arbitrarias",
+      "Entra a menudo en las situaciones por la idea, la observación o la originalidad"
+    ],
+    "vigilances": [
+      "Distancia afectiva que puede desconcertar al entorno",
+      "Necesidad de ruptura demasiado rápida ante las situaciones coercitivas",
+      "Dificultad para dejarse depender de alguien",
+      "Tendencia a protegerse por lo cerebral más que por lo sentido"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Sadalmelik",
+      "nature": "Mercurio / Saturno",
+      "texte": "Sadalmelik evoca una capacidad de portar una visión colectiva, de pensar a gran escala y de estructurar una perspectiva vuelta hacia el porvenir. Concuerda con la dimensión social y cerebral de Acuario.",
+      "motsCles": ["Visión", "Colectivo", "Responsabilidad", "Elevación mental"]
+    },
+    {
+      "nom": "Sadalsuud",
+      "nature": "Júpiter / Mercurio",
+      "texte": "Sadalsuud aporta una tonalidad de apertura, de suerte ligada a las conexiones, de circulación de las ideas y de optimismo vuelto hacia lo colectivo. Resuena con el espíritu de Acuario y su búsqueda de un futuro mejor.",
+      "motsCles": ["Apertura", "Red", "Inteligencia social", "Protección del futuro"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Amatista", "motsCles": ["visión", "lucidez", "elevación", "aire"] },
+      { "nom": "Labradorita", "motsCles": ["intuición", "protección", "originalidad", "red"] },
+      { "nom": "Uranio (simbólico)", "motsCles": ["urano", "innovación", "electricidad", "ruptura"] }
+    ],
+    "vegetaux": [
+      { "nom": "Lavanda", "motsCles": ["aire", "claridad", "apaciguamiento", "flexibilidad"] },
+      { "nom": "Ginkgo", "motsCles": ["adaptación", "singularidad", "resistencia", "porvenir"] },
+      { "nom": "Eucalipto", "motsCles": ["aliento", "apertura", "frescura", "circulación"] }
+    ],
+    "animaux": [
+      { "nom": "Delfín", "motsCles": ["inteligencia", "colectivo", "juego", "red"] },
+      { "nom": "Albatros", "motsCles": ["espacio", "libertad", "horizonte", "visión"] },
+      { "nom": "Luciérnaga", "motsCles": ["luz", "chispa", "originalidad", "sutileza"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Rusia", "texte": "Inmensidad, sistemas colectivos, rupturas históricas y un destino vuelto hacia el futuro." },
+    { "pays": "Suecia", "texte": "Innovación social, progresismo y un sentido agudo de la comunidad." },
+    { "pays": "Polonia", "texte": "Atribución simbólica tradicional de geografía astrológica." },
+    { "pays": "Israel", "texte": "Atribución tradicional en ciertas escuelas de correspondencia astrológica." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Oprah Winfrey", "domaine": "Medios", "date": "29 de enero de 1954", "texte": "Visión amplia, influencia colectiva y capacidad de portar ideas al servicio de un público vasto." },
+    { "nom": "Jennifer Aniston", "domaine": "Cine", "date": "11 de febrero de 1969", "texte": "Independencia, distancia dominada y una singularidad tranquila portada con constancia." },
+    { "nom": "Shakira", "domaine": "Música", "date": "2 de febrero de 1977", "texte": "Fuerte originalidad, libertad de expresión y capacidad de seguir siendo singular tocando a la vez a un amplio público." },
+    { "nom": "Harry Styles", "domaine": "Música", "date": "1 de febrero de 1994", "texte": "Estilo libre, originalidad asumida y una manera de portar una singularidad muy compatible con el espíritu de Acuario." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Acuario?",
+      "reponse": "Acuario se caracteriza por la independencia, la originalidad, la curiosidad intelectual y una fuerte necesidad de libertad. Es un temperamento cerebral, vuelto hacia el porvenir, que busca comprender y hacer evolucionar el mundo. Puede ser imprevisible y distante emocionalmente, pero es también uno de los signos más inventivos y visionarios del Zodiaco."
+    },
+    {
+      "question": "¿Qué tipo de amante es Acuario?",
+      "reponse": "Libre, original y mental. Acuario ama en la complicidad intelectual, el respeto mutuo y el espacio. Necesita un vínculo respirable y no posesivo, y busca una relación donde cada uno siga siendo él mismo. Puede parecer desapegado, pero es fiel y profundamente honesto en sus sentimientos."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Acuario?",
+      "reponse": "Un innovador, un pensador, un reformador. Sobresale en los entornos que valoran la creatividad, la visión de conjunto y la originalidad. Necesita un proyecto que supere el interés personal y que le permita pensar de otra manera. Está menos cómodo en los marcos rígidos o las rutinas sin sentido."
+    },
+    {
+      "question": "¿Qué casa corresponde a Acuario?",
+      "reponse": "La Casa XI, la de las amistades, las redes, los proyectos colectivos, los ideales y la forma de conectarse con un futuro más vasto que uno mismo. Su analogía natural con Acuario subraya la innovación, la contribución a lo colectivo y la apertura a otros posibles."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Acuario?",
+      "reponse": "El ascendente Leo le da calidez y presencia personal. El ascendente Sagitario refuerza su necesidad de exploración y de sentido. El ascendente Géminis amplifica su vivacidad intelectual y su sociabilidad."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Acuario?",
+      "reponse": "Desapego emocional, espíritu de contradicción, huida en la abstracción e imprevisibilidad desestabilizadora. Su necesidad de libertad puede cortarlo de los vínculos íntimos y de las realidades concretas de lo cotidiano."
+    },
+    {
+      "question": "¿Es Acuario realmente desapegado?",
+      "reponse": "Acuario no es insensible pero vive sus emociones a distancia, por lo mental. Su desapego es una forma de protección. Ama profundamente pero necesita espacio para no sentirse encerrado."
+    }
+  ]
+}

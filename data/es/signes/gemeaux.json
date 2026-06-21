@@ -1,0 +1,460 @@
+{
+  "slug": "gemeaux",
+  "nom": "Géminis",
+  "sousTitre": "El tercer signo del Zodiaco",
+  "devise": "Yo pienso",
+  "periode": "21 de mayo – 20 de junio",
+  "element": "Aire",
+  "mode": "Mutable",
+  "maitre": "Mercurio",
+  "exaltation": "—",
+  "exil": "Júpiter",
+  "chute": "—",
+  "polarite": "Masculino",
+  "temperament": "Sanguíneo",
+  "maisonNaturelle": 3,
+  "couleur": {
+    "primaire": "#06B6D4",
+    "secondaire": "#38BDF8",
+    "accent": "#A78BFA",
+    "gradient": "from-cyan-500 via-sky-400 to-blue-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "taureau", "nom": "Tauro" },
+    "suivant": { "slug": "cancer", "nom": "Cáncer" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/gemeaux.webp",
+    "planete": "/images/planetes/mercure.webp"
+  },
+  "introduction": "Géminis es el tercer signo del Zodiaco. Es el final de la primavera: las hojas se ramifican, los brotes estallan, una nueva expansión comienza, ya no en profundidad como Tauro, sino en extensión, en movimiento, en conexión. Signo de Aire, mutable, masculino, regido por Mercurio, Géminis encarna el pensamiento en movimiento, el intercambio, la curiosidad insaciable, la necesidad de vincular. Después de que Aries ha iniciado y Tauro ha consolidado, Géminis hace circular. Su gesto fundador no es «yo existo» ni «yo tengo»: es «yo pienso». Vinculo, nombro, transmito, comprendo.",
+  "fondationsCosmiques": {
+    "texte": "Géminis pertenece al elemento Aire (caliente y húmedo), lo que le confiere un temperamento sanguíneo: movilidad, capacidad de comunicación, gusto por el intercambio. Es el primer nivel del Aire: el del instinto. Géminis comunica por instinto, sin hacerse preguntas. Es una necesidad natural de vincular, intercambiar, comprender cualquier cosa con cualquiera. Su modo es mutable (o doble, común): se adapta a todas las situaciones. Los signos mutables a menudo necesitan a los demás para tomar decisiones, pero poseen una flexibilidad de adaptación incomparable. El carácter doble del signo es central: dos facetas, dos registros, dos polos que conviven sin fijarse nunca.",
+    "courteAscension": "Géminis es un signo de ascensión corta y un signo diurno. La tradición lo clasifica entre los signos septentrionales, humanos, domésticos, volátiles y estériles. Este signo se asocia con la vitalidad, la belleza, la talla alta y delgada, el ingenio, la ciencia, la elocuencia y las tendencias musicales.",
+    "pluton": "El exilio de Júpiter en Géminis subraya una tensión entre la sed de detalles múltiples propia del signo y la necesidad jupiterina de síntesis y visión global. Géminis se interesa por mil cosas; Júpiter querría retener solo una grande. Es precisamente el eje Géminis-Sagitario: la información contra el sentido, la diversidad contra la convicción."
+  },
+  "analogies": {
+    "animal": "Los pájaros, los mensajeros",
+    "objet": "El puente, el libro, el hilo, el camino",
+    "fonction": "Vincular, transmitir, poner en circulación",
+    "texte": "Géminis evoca la dualidad, la flexibilidad, la sutileza, la indecisión, el eclecticismo. Es el intermediario, el mensajero, el representante, el comerciante, el periodista, el diplomático. Los viajes y los medios de transporte se le asocian. Géminis es el puente entre los mundos: el que hace circular las ideas, las palabras, las personas, los saberes."
+  },
+  "mythologie": {
+    "titre": "Cástor y Pólux",
+    "texte": "Géminis se asocia a los gemelos Cástor y Pólux, hijos de Zeus, símbolos del vínculo entre lo mortal y lo inmortal. Pólux encarna la sensibilidad y la inteligencia rápida del signo, mientras que Cástor necesita traducir su energía en acto. Juntos, representan las dos facetas contradictorias del alma humana, esa alternancia entre las llamadas del instinto y los vuelos del espíritu. En el cielo, una estrella se oculta en el horizonte en cuanto la otra llega: Cástor aparece en el momento en que Pólux desaparece. Esta dualidad se expresa en el plano psicológico: los nativos del signo a menudo tienen la impresión de que su yo profundo es doble.",
+    "civilisations": "Tras las tragedias mitológicas de la guerra de Troya, Cástor fue muerto. Pólux, rechazando su inmortalidad si su hermano no la compartía, obtuvo de Zeus que ambos fueran reunidos entre las estrellas. Este gesto ilustra la dimensión más noble de Géminis: la capacidad de hacer circular, vincular y transmitir entre distintas realidades. Mercurio, regente del signo, era el dios de los comerciantes, los mensajeros y las encrucijadas: el que pasa de un mundo a otro sin fijarse nunca."
+  },
+  "portrait": {
+    "temperament": "Géminis observa rápido, comprende rápido, habla rápido y cambia rápido de punto de vista cuando descubre un nuevo ángulo. Su carácter es flexible, curioso, ligero, móvil, a menudo vivo y juguetón, con una verdadera necesidad de estimulación mental. La inteligencia es muy viva, rápida, intuitiva, acompañada de una gran curiosidad por los temas más diversos. Géminis puede comprenderlo todo con una facilidad notable, pero casi siempre tiende a ir demasiado rápido, dejando un tema para pasar a otro más seductor. Así adquiere un saber enciclopédico, pero rara vez la profundidad del verdadero especialista. Cuando es inmaduro, puede volverse disperso, nervioso o superficial. Cuando madura, se convierte en un verdadero transmisor de sentido.",
+    "forces": [
+      "Rapidez de comprensión notable",
+      "Facilidad para crear vínculos entre las ideas",
+      "Flexibilidad intelectual y adaptabilidad",
+      "Aprender rápido y comprender varios puntos de vista",
+      "Poner en relación a personas e ideas",
+      "Comunicar con flexibilidad y elocuencia"
+    ],
+    "ombres": [
+      "Dispersión mental y falta de concentración",
+      "Dificultad para asentarse y profundizar",
+      "Tendencia a quedarse en la superficie",
+      "Versatilidad e inconstancia en los compromisos",
+      "Bajo fuerte disonancia: tendencia al farol, a la intriga o a la mentira"
+    ],
+    "besoinsVitaux": [
+      "Estimulación intelectual permanente",
+      "Intercambios, diálogo, circulación",
+      "Libertad de movimiento y de pensamiento"
+    ],
+    "aTravailler": [
+      "La concentración y la profundización",
+      "La coherencia interior",
+      "No huir del aburrimiento mediante la agitación permanente",
+      "Llegar hasta el final de una idea o un compromiso",
+      "Estabilizar sin fijarse"
+    ],
+    "equilibre": "Un Géminis en plena posesión de sus medios se convierte en un verdadero transmisor de sentido, capaz de vincular sin dispersarse. Usa su curiosidad para comprender en profundidad, no para huir del aburrimiento. Su inteligencia se vuelve viva, fluida, comunicativa y realmente fecunda: un puente entre los mundos en lugar de un sobrevuelo perpetuo."
+  },
+  "sante": {
+    "zones": ["Pulmones", "Brazos", "Manos", "Hombros", "Sistema nervioso"],
+    "texte": "Géminis gobierna el aparato respiratorio (bronquios y pulmones), los hombros, las clavículas, los omóplatos, los brazos, muñecas y manos, los músculos aferentes, los pectorales y el sistema nervioso. Predispone a las enfermedades de las vías respiratorias: bronquitis, asma, enfisema, alergias respiratorias. La astenia físico-nerviosa es frecuente. Pueden aparecer enfermedades nerviosas de todo tipo. En general, Géminis no dispone de una constitución excepcional, pero su resistencia nerviosa supera a menudo las previsiones y la salud se mantiene bastante buena. Cabe señalar que un Géminis conserva un aspecto joven: siempre se equivoca uno con su edad."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "Comprensión muy fácil, gran curiosidad intelectual, mente a veces enciclopédica pero superficial. Imaginación fecunda pero difusa, a menudo intuición. Bellas artes, música, buen conversador, buen orador. Naturaleza doble e indecisa, finura de los sentimientos pero inestabilidad. Actividad flexible y rápida, pero dispersa. Éxito gracias al sentido de la oportunidad y a las facultades de adaptación. A menudo dos cambios importantes de actividad o dos profesiones a la vez. Más feliz en la segunda parte de la vida."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "Ganancias frecuentes pero de importancia limitada. El sujeto ejerce a menudo dos ocupaciones a la vez o dirige una empresa con sucursales. El comercio, la correduría, los empleos de oficina y los trabajos intelectuales son las fuentes más frecuentes de ganancia. El éxito financiero está asegurado por el saber hacer, la flexibilidad y el ingenio. Los fracasos provienen de la dispersión de los esfuerzos o de la falta de regularidad."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Excelente posición para la educación y el desarrollo de las facultades mentales. Aptitudes literarias o científicas, facilidad para los idiomas, soltura en la palabra. El intelecto es realizador. Facilita las relaciones con hermanos, primos, vecinos: el sujeto sabe mostrar diplomacia. Buena posición para situaciones ligadas a los escritos y a los desplazamientos frecuentes."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "Familia de ascendencia más bien intelectual. El entorno familiar ejerce una influencia marcada en las preferencias intelectuales, que se prolonga más allá de la escolaridad. Posibilidad de dos domicilios simultáneos o de cambios frecuentes de residencia. Domicilio inestable en general. No parece favorecer la adquisición de tierras o inmuebles."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Inconstancia y vacilación en el amor. Dos afectos marcantes a lo largo de la existencia, simultáneos o sucesivos. Numerosos amoríos. Este signo presagia una descendencia muy reducida o nula, pero si nacen hijos, son inteligentes y dóciles. Al sujeto le gustan las diversiones, las bromas, el teatro. En lo financiero, son posibles las ganancias especulativas gracias a la capacidad de razonamiento y a la intuición."
+    },
+    {
+      "numero": 6,
+      "titre": "El día a día y la salud",
+      "texte": "Predispone a las enfermedades de los bronquios y los pulmones, dolores en los hombros o los brazos, enfermedades nerviosas. El intelecto parece atraído hacia la medicina y la farmacia: el sujeto puede convertirse en un practicante muy sutil. Indica también los empleos subalternos de oficina. A veces dos ocupaciones diferentes a lo largo de la vida. Los colaboradores son hábiles pero caprichosos."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "Este signo presagia dos afectos principales: dos uniones legales, o una relación seguida de un matrimonio, o un matrimonio que coexiste con un afecto oculto. La primera unión tiene lugar temprano. El cónyuge suele ser más joven. Pocos pleitos, pero los que surgen se conducen con habilidad. Pocas enemistades, gracias a la habilidad del sujeto para allanar las dificultades."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "El final a menudo se ve acelerado por un gasto nervioso exagerado o complicaciones pulmonares. Este signo no parece favorecer la longevidad. A menudo dos herencias o más, pero de importancia limitada. A veces la pérdida prematura de un hermano o un primo. Esta posición puede indicar una atracción por el ocultismo, la historia y las antigüedades."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "El intelecto práctico de Géminis atenúa los significados espirituales de esta casa. El sujeto puede no ser muy idealista, pero esta configuración favorece la amplitud intelectual y permite escapadas hacia la filosofía cuando las preocupaciones materiales no son demasiado absorbentes. Probables cambios de opinión. Posición propicia a la intuición y a la inspiración. Grandes viajes bastante numerosos, a menudo dos viajes marcantes en la vida."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "Más de una carrera. Varios intentos en direcciones diferentes, inestabilidad durante la primera parte de la vida. Abandono frecuente de la primera profesión hacia los 30-40 años para abrazar otra más acorde con las aspiraciones. Conviene al trabajo intelectual o científico, a la enseñanza, al comercio, a los transportes. Conviene más a los papeles de segundo plano que a los grandes industriales: excelentes ingenieros, inventores, maestros, secretarios, jefes de servicio."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Amigos numerosos, inteligentes, diplomáticos y de buen consejo para las cosas pequeñas, pero con quienes apenas se puede contar en los asuntos importantes. El sujeto debe buscar amistades entre su entorno familiar y sus amigos de la infancia. La influencia de los amigos se hace sentir sobre todo en la evolución intelectual. El sujeto sabe inspirar simpatía, pero debería evitar conceder su confianza a la ligera."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Mismas enfermedades que para Géminis en la Casa VI, pero el pronóstico es más serio porque los males tienden a volverse crónicos. El sujeto es a menudo objeto de calumnias y maledicencias muy hábiles, bastante penosas porque el entorno suele ser responsable de ellas. Sin embargo, estos enemigos ocultos ocasionan más preocupaciones que daño real. Para los intelectuales, celos de colegas y críticas a las que no se puede responder."
+    }
+  ],
+  "amour": {
+    "texte": "Géminis ama ante todo por el espíritu, por el vínculo vivo, por el intercambio, por la complicidad mental y por la ligereza del movimiento. Necesita sentir que la relación respira, que circula, que estimula y que sigue viva. No carece de sensibilidad e inspira fácilmente la simpatía. Seduce con sus palabras y puede lograr envidiables éxitos. Pero la tendencia al flirteo y a las aventuras pasajeras es marcada, y el gran desafío tras la unión será acostumbrarse a una vida regular y dominar esa necesidad perpetua de cambio.",
+    "qualites": [
+      "Gran capacidad de diálogo y complicidad mental",
+      "Encanto vivo y espontáneo",
+      "Flexibilidad relacional notable",
+      "Capacidad de mantener viva la relación con las palabras, el humor y la curiosidad",
+      "Capacidad de seducir con elegancia y ligereza"
+    ],
+    "vigilances": [
+      "Puede evitar la profundidad emocional mediante el movimiento o el humor",
+      "Riesgo de dispersión afectiva",
+      "Dificultad para estar presente en una relación demasiado pesada o fija",
+      "Puede dar más señales que compromiso real",
+      "Tendencia al flirteo y a la inconstancia"
+    ],
+    "affinites": ["balance", "verseau", "belier", "lion"]
+  },
+  "travail": {
+    "texte": "Géminis trabaja bien cuando puede reflexionar, intercambiar, transmitir, vincular, informar, moverse o gestionar varios flujos a la vez. Destaca en los universos donde la inteligencia, la curiosidad, la comunicación y la adaptabilidad cuentan más que la repetición inmóvil. Su éxito es más fácil si su ocupación incluye variedad y cambio. Profesiones típicas: escritor, periodista, actor, lingüista, intérprete, corredor, comerciante, secretario, vendedor, docente, dibujante.",
+    "atouts": [
+      "Rapidez mental y polivalencia",
+      "Capacidad de hacer malabares con varias tareas a la vez",
+      "Soltura relacional y diplomacia",
+      "Talento para informar, explicar, vender, vincular o aprender",
+      "Gran destreza manual en algunos casos"
+    ],
+    "defis": [
+      "Dispersión profesional",
+      "Dificultad con las tareas demasiado repetitivas o de largo aliento",
+      "Tendencia a cansarse rápido",
+      "Riesgo de empezar mucho sin estabilizar lo suficiente",
+      "Vacilaciones e indecisiones al inicio de la carrera"
+    ]
+  },
+  "argent": {
+    "texte": "Géminis tiene una relación móvil con el dinero: lo ve como un medio para circular, probar, comprar movimiento, libertad, herramientas o experiencias. Las ganancias son múltiples, bastante fáciles, pero de importancia limitada: la holgura es más bien rara. El éxito financiero se logra generalmente en el comercio, la librería, los empleos de oficina, el periodismo o la literatura. Más estabilidad a partir de los 30-40 años.",
+    "forces": [
+      "Capacidad de multiplicar las vías de ingresos",
+      "Flexibilidad en las formas de ganar",
+      "Inteligencia de los intercambios y las oportunidades",
+      "Adaptabilidad financiera"
+    ],
+    "risques": [
+      "Dispersión en la gestión",
+      "Dificultad para mantener una estrategia estable",
+      "Compras impulsivas ligadas a la curiosidad o al aburrimiento",
+      "Tendencia a pensar rápido en lugar de asegurar a largo plazo"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Géminis construye una identidad múltiple, móvil, curiosa y comunicativa. Necesita aprender, comprender e intercambiar para sentirse vivo.",
+      "manifestations": ["Curiosidad permanente", "Flexibilidad mental", "Facilidad de contacto", "Capacidad de adaptarse"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Géminis vive las emociones a través del pensamiento, la palabra y la necesidad de comprender lo que ocurre. Se tranquiliza nombrando, analizando o compartiendo.",
+      "manifestations": ["Flexibilidad afectiva", "Capacidad de verbalizar", "Humor emocional", "Adaptabilidad"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Géminis está en una de sus expresiones más naturales: mente rápida, curiosa, verbal, juguetona, adaptable y extremadamente móvil.",
+      "manifestations": ["Gran soltura verbal", "Inteligencia rápida", "Talento para vincular ideas", "Capacidad de aprender rápido"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Géminis ama por el encanto, el movimiento, la curiosidad y la inteligencia del vínculo. El placer pasa por la variedad, la conversación, el juego y la viveza.",
+      "manifestations": ["Encanto ligero", "Gusto por el diálogo amoroso", "Flexibilidad relacional", "Capacidad de mantener vivo el vínculo"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Géminis actúa por el espíritu, la palabra, la movilidad y la multiplicidad. La energía va rápido, se desplaza, prueba, compara y responde.",
+      "manifestations": ["Reactividad", "Viveza mental", "Aptitud para actuar en varios frentes", "Rapidez de ejecución"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Géminis amplifica la curiosidad, el gusto por el saber, la multiplicidad de los centros de interés y la capacidad de hacer circular ideas.",
+      "manifestations": ["Apertura intelectual", "Polivalencia", "Capacidad de aprender mucho", "Gusto por transmitir"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Géminis estructura el pensamiento, disciplina el lenguaje y obliga a dar una forma más rigurosa a la inteligencia móvil.",
+      "manifestations": ["Rigor mental", "Capacidad de ordenar el pensamiento", "Precisión en el lenguaje", "Disciplina intelectual"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Géminis produce una mente original, rápida, inventiva y no convencional. Acelera los circuitos del pensamiento y la necesidad de novedad mental.",
+      "manifestations": ["Fulguración", "Innovación intelectual", "Pensamiento original", "Capacidad de vincular de otra manera"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Géminis inspira un pensamiento intuitivo, lleno de imágenes, poético, a veces difuso. Hace las palabras porosas, soñadoras, sugerentes.",
+      "manifestations": ["Imaginación verbal", "Intuición en el pensamiento", "Sentido poético del lenguaje", "Apertura a los símbolos"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Géminis transforma profundamente la relación con el pensamiento, el lenguaje, la información y el poder de las palabras.",
+      "manifestations": ["Palabra penetrante", "Espíritu de investigación", "Comprensión de los mecanismos ocultos del lenguaje", "Transformación por la inteligencia"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "stimulante",
+      "titre": "Acción y viveza mental",
+      "texte": "Géminis ama el movimiento y Aries ama el impulso. El vínculo puede ser vivo, espontáneo, móvil y muy estimulante, siempre que la precipitación no sustituya a la profundidad.",
+      "forces": ["Viveza", "Espontaneidad", "Capacidad de recuperarse", "Gusto por el movimiento"],
+      "frictions": ["Dispersión", "Impaciencia", "Dificultad para profundizar juntos"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "variable",
+      "titre": "Movimiento y estabilidad",
+      "texte": "Géminis quiere circular, Tauro quiere instalarse. El vínculo puede ser enriquecedor si cada uno acepta que el otro no habita el tiempo de la misma manera.",
+      "forces": ["Uno da aire, el otro una base", "Complementariedad entre ideas y lo concreto", "Aprendizaje mutuo"],
+      "frictions": ["Géminis encuentra a Tauro pesado", "Tauro encuentra a Géminis inestable", "Diferencia de ritmo"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "fluide",
+      "titre": "Aire y espejo mental",
+      "texte": "Dos Géminis pueden entenderse muy rápido, jugar con las ideas, hablar sin fin y estimular mutuamente su curiosidad. El vínculo es vivo, móvil, inteligente.",
+      "forces": ["Complicidad mental", "Humor", "Flexibilidad", "Gusto común por el intercambio"],
+      "frictions": ["Dispersión", "Dificultad para anclar", "Evitación de la profundidad emocional"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "delicate",
+      "titre": "Palabra y mundo interior",
+      "texte": "Géminis explica, Cáncer siente. La relación puede ser tierna y complementaria, pero exige aprender a no oponer pensamiento y emoción.",
+      "forces": ["Complementariedad entre lenguaje y sensibilidad", "Apoyo mutuo posible", "Riqueza humana"],
+      "frictions": ["Géminis puede parecer demasiado ligero", "Cáncer puede parecer demasiado replegado", "Malentendidos entre humor y vulnerabilidad"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "stimulante",
+      "titre": "Juego, presencia y creatividad",
+      "texte": "Géminis aporta la viveza mental, Leo el calor y la afirmación. Juntos, pueden crear un vínculo vivo, brillante e inspirador.",
+      "forces": ["Creatividad", "Encanto", "Movimiento", "Estimulación mutua"],
+      "frictions": ["Leo quiere más estabilidad y reconocimiento", "Géminis huye del peso del ego", "Diferencia entre juego y afirmación"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "complementaire",
+      "titre": "Dos signos de Mercurio, dos estilos",
+      "texte": "Géminis abre, Virgo selecciona. Uno explora, el otro ordena. El vínculo puede ser muy inteligente cuando cada uno respeta la función del otro.",
+      "forces": ["Gran inteligencia", "Complementariedad entre apertura y precisión", "Capacidad de aprender juntos"],
+      "frictions": ["Virgo encuentra a Géminis demasiado disperso", "Géminis encuentra a Virgo demasiado crítico", "Conflicto entre variedad y método"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Aire relacional y aire móvil",
+      "texte": "Géminis y Libra comparten el gusto por el vínculo, el intercambio, la ligereza y la inteligencia relacional. La relación puede ser elegante, agradable y muy viva.",
+      "forces": ["Diálogo", "Flexibilidad", "Armonía", "Complicidad mental"],
+      "frictions": ["Indecisión", "Evitación de las tensiones profundas", "Tendencia a quedarse en el vínculo mental"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "intense",
+      "titre": "Ligereza y profundidad",
+      "texte": "Géminis circula, Escorpio se sumerge. El vínculo puede ser fascinante, magnético, rico, pero difícil si cada uno quiere imponer su forma de vivir la relación.",
+      "forces": ["Atracción intelectual y psíquica", "Curiosidad mutua", "Exploración de zonas complejas"],
+      "frictions": ["Escorpio encuentra a Géminis demasiado ligero", "Géminis encuentra a Escorpio demasiado intenso", "Conflicto movilidad/fijación"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "complementaire",
+      "titre": "Eje Géminis–Sagitario",
+      "texte": "Géminis se interesa por la diversidad de los hechos; Sagitario busca el sentido global. Es un eje poderoso entre información y visión, curiosidad y horizonte.",
+      "forces": ["Complementariedad entre detalle y síntesis", "Gusto por el saber", "Movimiento", "Apertura"],
+      "frictions": ["Géminis puede parecer demasiado relativo", "Sagitario demasiado afirmativo", "Conflicto entre multiplicidad y convicción"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "variable",
+      "titre": "Movilidad y estructura",
+      "texte": "Géminis ama moverse, Capricornio ama construir en el tiempo. La relación puede ser útil si uno aporta flexibilidad y el otro firmeza.",
+      "forces": ["Complementariedad entre ideas y estructura", "Pensamiento hecho más concreto", "Enriquecimiento mutuo"],
+      "frictions": ["Capricornio encuentra a Géminis demasiado volátil", "Géminis encuentra a Capricornio rígido", "Diferencia de ritmo y de gravedad"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "fluide",
+      "titre": "Aire libre y pensamiento inventivo",
+      "texte": "Géminis y Acuario comparten el gusto por la inteligencia, la circulación, las ideas y la libertad mental. El vínculo puede ser extremadamente estimulante.",
+      "forces": ["Libertad", "Estimulación intelectual", "Originalidad", "Apertura de mente"],
+      "frictions": ["Distancia emocional", "Exceso de lo mental", "Dificultad para encarnar el vínculo"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "variable",
+      "titre": "Pensamiento móvil y sensibilidad porosa",
+      "texte": "Géminis nombra, Piscis siente. El vínculo puede ser poético, inspirador y sutil, pero exige respetar las diferencias entre el espíritu y la intuición.",
+      "forces": ["Inspiración", "Imaginación", "Riqueza del intercambio", "Complementariedad palabras/sentir"],
+      "frictions": ["Géminis encuentra a Piscis difuso", "Piscis encuentra a Géminis cerebral", "Dificultad entre lógica y sensibilidad"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Géminis, entras en la vida con curiosidad, viveza, flexibilidad y necesidad de comprender rápidamente lo que ocurre. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, presentarte y reaccionar lleva a menudo una tonalidad móvil, ligera y comunicativa.",
+    "apparence": [
+      "Presencia viva y ligera",
+      "Porte móvil, expresivo o nervioso",
+      "Mirada curiosa, impresión de juventud",
+      "Gestualidad a menudo activa o elocuente"
+    ],
+    "temperament": [
+      "Reacciona rápido, observa y comprende deprisa",
+      "Necesita movimiento y variedad",
+      "Soporta mal la inmovilidad mental",
+      "Entra en las situaciones por el contacto o por el espíritu"
+    ],
+    "vigilances": [
+      "Nerviosismo y dispersión",
+      "Dificultad para asentarse",
+      "Tendencia a hablar más que a sentir",
+      "Riesgo de sobrevolar ciertas situaciones"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Alhena",
+      "nature": "Mercurio / Venus",
+      "texte": "Alhena aporta una tonalidad de finura, destreza, inteligencia expresiva y capacidad de articular un pensamiento con estilo. Resuena con la dimensión móvil y comunicativa de Géminis.",
+      "motsCles": ["Inteligencia", "Expresión", "Habilidad", "Gracia mental"]
+    },
+    {
+      "nom": "Bellatrix",
+      "nature": "Marte / Mercurio",
+      "texte": "Bellatrix añade una nota viva, nerviosa, contundente. Refuerza la idea de una mente rápida, afilada, a veces incisiva, que gusta de responder rápido y actuar por la inteligencia.",
+      "motsCles": ["Viveza", "Reactividad", "Espíritu combativo", "Brillantez"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Ágata", "motsCles": ["flexibilidad", "equilibrio", "circulación", "adaptación"] },
+      { "nom": "Citrino", "motsCles": ["claridad", "viveza", "inteligencia", "alegría"] },
+      { "nom": "Mercurio (simbólico)", "motsCles": ["movimiento", "lenguaje", "transmisión", "fluidez"] }
+    ],
+    "vegetaux": [
+      { "nom": "Lavanda", "motsCles": ["claridad", "aire", "flexibilidad", "sosiego"] },
+      { "nom": "Hinojo", "motsCles": ["movilidad", "inteligencia", "flexibilidad", "circulación"] },
+      { "nom": "Avellano", "motsCles": ["saber", "habilidad", "agilidad", "pensamiento"] }
+    ],
+    "animaux": [
+      { "nom": "Golondrina", "motsCles": ["velocidad", "movimiento", "aire", "circulación"] },
+      { "nom": "Mono", "motsCles": ["curiosidad", "juego", "agilidad", "inteligencia"] },
+      { "nom": "Mariposa", "motsCles": ["ligereza", "variedad", "movimiento", "flexibilidad"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Bélgica", "texte": "Dualidad, encrucijada, red, circulación y naturaleza relacional." },
+    { "pays": "Estados Unidos", "texte": "Movilidad, comunicación, multiplicidad y red." },
+    { "pays": "Gales", "texte": "Correspondencia tradicional que depende de las escuelas." },
+    { "pays": "Bajo Egipto", "texte": "Atribución que procede de un simbolismo clásico de geografía astrológica." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Marilyn Monroe", "domaine": "Cine", "date": "1 de junio de 1926", "texte": "Encanto, movilidad expresiva y multiplicidad de facetas." },
+    { "nom": "Johnny Depp", "domaine": "Cine", "date": "9 de junio de 1963", "texte": "Registro múltiple, adaptable y móvil en la expresión." },
+    { "nom": "Angelina Jolie", "domaine": "Cine", "date": "4 de junio de 1975", "texte": "Intensidad móvil, gran adaptabilidad de imagen y presencia intelectualmente viva." },
+    { "nom": "Natalie Portman", "domaine": "Cine", "date": "9 de junio de 1981", "texte": "Inteligencia, flexibilidad de expresión y capacidad de navegar entre varios registros." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Géminis?",
+      "reponse": "Géminis se caracteriza por la curiosidad, la viveza intelectual, la flexibilidad y la necesidad de comunicación. Es un temperamento móvil y adaptable que necesita estimulación mental para realizarse. Pueden ser dispersos e inconstantes, pero también son de las mentes más vivas, inventivas y sociables del Zodiaco."
+    },
+    {
+      "question": "¿Qué tipo de amante es Géminis?",
+      "reponse": "Encantador, juguetón, comunicativo e intelectualmente seductor. Ama por el espíritu y la complicidad mental. Necesita una relación viva, que respire y estimule. Soporta mal los vínculos demasiado pesados, demasiado fijos o demasiado silenciosos."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Géminis?",
+      "reponse": "Una mente rápida, polivalente y adaptable. Destaca en los oficios de comunicación, comercio, enseñanza o red. Necesita variedad y movimiento. Está menos cómodo con las tareas monótonas o los entornos demasiado rígidos."
+    },
+    {
+      "question": "¿Qué casa corresponde a Géminis?",
+      "reponse": "La Casa III, la de los aprendizajes básicos, el entorno cercano, el lenguaje, los intercambios, los hermanos, los desplazamientos y la manera de pensar el día a día. Su analogía natural con Géminis subraya una dinámica de circulación, comprensión y conexión."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Géminis?",
+      "reponse": "El ascendente Sagitario aporta visión y profundidad a su curiosidad dispersa. El ascendente Acuario estimula su originalidad. El ascendente Virgo estructura su pensamiento y canaliza su energía mental."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Géminis?",
+      "reponse": "La dispersión, la inconstancia, el nerviosismo y la superficialidad son sus zonas de sombra. Pueden revolotear de un tema a otro sin profundizar y huir del aburrimiento mediante la agitación permanente."
+    },
+    {
+      "question": "¿Son Géminis realmente dobles?",
+      "reponse": "Su dualidad viene del mito de Cástor y Pólux y del modo mutable del signo. Tienen varios registros que conviven, lo que les da una adaptabilidad rara pero puede desconcertar a su entorno."
+    }
+  ]
+}

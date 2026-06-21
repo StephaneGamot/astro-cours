@@ -1,0 +1,247 @@
+[
+  {
+    "slug": "pallas",
+    "category": "planète",
+    "term": "Palas (Palas Atenea)",
+    "short": "El asteroide de la inteligencia estratégica y la justicia.",
+    "body": "Palas representa la sabiduría a través de la estrategia, la visión de conjunto y la capacidad de resolver problemas. Está ligada a las artes, a los motivos geométricos y a la lucha por la justicia. En una carta, indica cómo organizamos nuestro pensamiento para tener éxito."
+  },
+  {
+    "slug": "parallele-de-declinaison",
+    "category": "technique",
+    "term": "Paralelo de Declinación",
+    "short": "Aspecto basado en la altura de los planetas respecto al ecuador celeste.",
+    "body": "Dos planetas están en paralelo cuando tienen la misma declinación (Norte o Sur). Este aspecto actúa con una fuerza similar a la conjunción, pero en un plano más oculto o estructural. Si sus declinaciones son opuestas, se habla de contraparalelo (efecto de oposición). Es la “tercera dimensión” de la carta, que puede explicar vínculos poderosos entre dos astros que no forman ningún aspecto en longitud."
+  },
+  {
+    "slug": "part-arabe",
+    "category": "point fictif",
+    "term": "Parte Árabe (Lote)",
+    "short": "Punto calculado mediante la suma y resta de dos puntos y el Ascendente.",
+    "body": "Las Partes Árabes (heredadas de la astrología helenística y luego medieval) permiten proyectar una temática precisa sobre el zodíaco. La fórmula más conocida es la de la Parte de la Fortuna (Asc + Luna − Sol). Existen cientos de partes (matrimonio, profesión, padre, etc.). Sirven para aislar una respuesta específica que los planetas por sí solos no podrían dar con tanta precisión."
+  },
+  {
+    "slug": "part-d-amour",
+    "category": "point fictif",
+    "term": "Parte del Amor",
+    "short": "Punto de cálculo ligado a la expresión del deseo y del afecto (Asc + Venus − Sol).",
+    "body": "También llamada Parte del Espíritu por algunos (aunque la fórmula puede variar), describe las aspiraciones profundas del corazón, lo que verdaderamente amamos y la manera en que buscamos la armonía en las relaciones. Complementa el análisis de Venus."
+  },
+  {
+    "slug": "part-de-connaissance",
+    "category": "point fictif",
+    "term": "Parte del Conocimiento",
+    "short": "Punto de cálculo ligado a la búsqueda del saber y la sabiduría (Asc + Mercurio − Luna).",
+    "body": "Esta parte indica las predisposiciones de un individuo para el estudio de las ciencias ocultas, la filosofía y la astrología. Su posición por casa muestra dónde buscará el individuo el conocimiento oculto y cómo lo integrará en su visión del mundo."
+  },
+  {
+    "slug": "part-d-astrologie",
+    "category": "point fictif",
+    "term": "Parte de la Astrología",
+    "short": "Punto ficticio calculado mediante la fórmula: Asc + Mercurio − Luna.",
+    "body": "Esta parte (también llamada Parte del Conocimiento) indica las predisposiciones de un individuo para el estudio de las ciencias ocultas, la filosofía y la astrología. Su posición por casa muestra dónde buscará el individuo el conocimiento oculto y cómo lo integrará en su visión del mundo."
+  },
+  {
+    "slug": "part-de-fortune",
+    "category": "point fictif",
+    "term": "Parte de la Fortuna",
+    "short": "Punto calculado que indica un lugar de armonía, éxito y bienestar.",
+    "body": "La Parte de la Fortuna es uno de los puntos más utilizados de la astrología árabe. Se calcula mediante la relación entre el Sol, la Luna y el Ascendente (Asc + Luna − Sol para una carta diurna). Indica el sector de la vida donde el individuo puede encontrar su mayor felicidad, su prosperidad y un sentimiento natural de realización personal."
+  },
+  {
+    "slug": "part-de-maladie",
+    "category": "point fictif",
+    "term": "Parte de la Enfermedad y la Muerte",
+    "short": "Punto simbólico ligado a las fragilidades vitales y al fin de la vida; muy rara vez se usa en astrología moderna.",
+    "body": "Empleada con prudencia en la astrología tradicional, se calcula a menudo como Asc + Marte − Saturno (para accidentes/enfermedades agudas). No anuncia una fatalidad, sino que señala los ámbitos donde la vitalidad puede verse obstaculizada por fuerzas externas o por negligencias."
+  },
+  {
+    "slug": "part-de-spiritualite",
+    "category": "point fictif",
+    "term": "Parte de la Espiritualidad",
+    "short": "Punto de cálculo ligado a la búsqueda de sentido y de trascendencia (Asc + Júpiter − Sol).",
+    "body": "Este punto indica las aspiraciones espirituales profundas, los ámbitos donde el individuo busca conectarse con algo más grande que él mismo. Puede mostrar las vías de crecimiento personal y de florecimiento espiritual, completando así el análisis de Júpiter."
+  },
+  {
+    "slug": "part-de-destin",
+    "category": "point fictif",
+    "term": "Parte del Destino",
+    "short": "Punto de cálculo ligado al karma y a las lecciones de vida (Asc + Saturno − Sol).",
+    "body": "Este punto pone de relieve las lecciones kármicas, los grandes desafíos y los ámbitos donde el individuo está llamado a transformarse para evolucionar. Puede indicar zonas de resistencia u oportunidades para superar los obstáculos y cumplir su misión de vida."
+  },
+  {
+    "slug": "part-de-gain",
+    "category": "point fictif",
+    "term": "Parte de la Ganancia",
+    "short": "Indicador de las oportunidades financieras y de la fluctuación de las riquezas.",
+    "body": "Calculada como Asc + Júpiter − Mercurio, informa sobre la manera en que la inteligencia y la habilidad pueden generar recursos materiales. Se diferencia de la Parte de la Fortuna en que está más ligada al comercio y a los intercambios concretos."
+  },
+  {
+    "slug": "part-de-caractere",
+    "category": "point fictif",
+    "term": "Parte del Carácter",
+    "short": "Punto de cálculo ligado a los rasgos de personalidad y a los comportamientos habituales.",
+    "body": "Esta parte, calculada como Asc + Saturno − Luna, destaca las tendencias del carácter, las reacciones instintivas y los modos de funcionamiento psicológico. Puede indicar las fortalezas y las debilidades de la personalidad, así como los patrones de comportamiento que se repiten en la vida de un individuo."
+  },
+  {
+    "slug": "part-de-pouvoir",
+    "category": "point fictif",
+    "term": "Parte del Poder y la Fama",
+    "short": "Punto que rige el ascenso social y el prestigio público.",
+    "body": "Calculada como Asc + Sol − Marte, muestra la capacidad de afirmación y la huella que se deja en la sociedad. Es fundamental para el análisis del éxito profesional como complemento del Medio Cielo."
+  },
+  {
+    "slug": "part-de-proces",
+    "category": "point fictif",
+    "term": "Parte del Litigio",
+    "short": "Indicador de los pleitos y del desenlace de los conflictos legales.",
+    "body": "Calculada como Asc + Marte − Saturno, se utiliza en astrología horaria o judicial para saber si un resultado será favorable u obstaculizado por enemigos declarados."
+  },
+  {
+    "slug": "part-de-profession",
+    "category": "point fictif",
+    "term": "Parte de la Profesión",
+    "short": "Punto que indica la naturaleza de la actividad ideal para la realización.",
+    "body": "Calculada como Asc + Marte − Mercurio, revela el tipo de trabajo en el que el individuo es más eficaz. Mezcla la acción (Marte) y la inteligencia (Mercurio)."
+  },
+  {
+    "slug": "part-de-voyage",
+    "category": "point fictif",
+    "term": "Parte del Viaje",
+    "short": "Punto ligado a los desplazamientos lejanos y a los cambios de lugar.",
+    "body": "Calculada como Asc + cúspide de la IX − regente de la IX, determina las oportunidades de descubrimientos en el extranjero y el impacto de los viajes en la evolución personal."
+  },
+  {
+    "slug": "part-d-heritage",
+    "category": "point fictif",
+    "term": "Parte de la Herencia",
+    "short": "Punto ligado a los bienes transmitidos por los ancestros o los difuntos.",
+    "body": "Calculada como Asc + Luna − Saturno, está en relación directa con la Casa VIII. Indica si la transmisión de los bienes (materiales o psicológicos) se verá facilitada o será fuente de bloqueos."
+  },
+  {
+    "slug": "part-d-occultisme",
+    "category": "point fictif",
+    "term": "Parte del Ocultismo",
+    "short": "Punto que rige el interés por los misterios y las cosas secretas.",
+    "body": "Calculada mediante Asc + Neptuno − Sol (moderno) o Asc + Luna − Saturno (antiguo), revela la capacidad del alma para traspasar los velos de la realidad visible. Suele estar marcada en médiums, investigadores o psicólogos."
+  },
+  {
+    "slug": "part-du-partenaire",
+    "category": "point fictif",
+    "term": "Parte de la Pareja",
+    "short": "Punto que simboliza la unión contractual y el matrimonio.",
+    "body": "Calculada como Asc + cúspide de la VII − Venus, describe la calidad del compromiso y lo que el otro aporta a la vida del consultante. Es clave en la sinastría."
+  },
+  {
+    "slug": "parts-familiales",
+    "category": "point fictif",
+    "term": "Parte del Padre / Hijos / Hermanos",
+    "short": "Puntos calculados para analizar las relaciones con los miembros de la familia.",
+    "body": "Estas partes (por ejemplo, Asc + Saturno − Sol para el padre; Asc + Júpiter − Saturno para los hijos) permiten determinar la naturaleza del vínculo y el destino de estos allegados en relación con el consultante. Se usaban mucho antes de la llegada de la astrología psicológica."
+  },
+  {
+    "slug": "partile",
+    "category": "technique",
+    "term": "Partil (Aspecto)",
+    "short": "Aspecto exacto al grado preciso que separa dos planetas.",
+    "body": "Se dice que un aspecto es partil cuando tiene un orbe de 0° (por ejemplo, dos planetas a 15°). Su influencia alcanza entonces su máximo de poder y precisión. Se opone al aspecto “plático”, que es válido por orbe pero menos contundente."
+  },
+  {
+    "slug": "peregrine",
+    "category": "concept",
+    "term": "Peregrina",
+    "short": "Estado de un planeta que no posee ninguna dignidad ni debilidad en su signo actual.",
+    "body": "Un planeta peregrino es como un viajero sin ataduras ni recursos propios. No está ni en su casa (domicilio), ni honrado (exaltación), ni debilitado (exilio/caída). Su acción depende por completo de los aspectos que recibe y del estado de su regente de signo. En la astrología antigua, un planeta peregrino se percibe a menudo como inestable o errante, buscando su rumbo sin brújula interior."
+  },
+  {
+    "slug": "perihelie",
+    "category": "astronomique",
+    "term": "Perihelio",
+    "short": "Punto de la órbita de un planeta más cercano al Sol.",
+    "body": "El perihelio es el punto de la órbita de un planeta en el que está más cerca del Sol. En astrología, cuando el Sol está en el perihelio (alrededor del 3 de enero), se considera más poderoso y enérgico, lo que puede influir en las cartas natales de las personas nacidas en ese período. Del mismo modo, los planetas en el perihelio pueden expresar sus energías de manera más intensa."
+  },
+  {
+    "slug": "periodique",
+    "category": "astronomique",
+    "term": "Periódico",
+    "short": "Se refiere al tiempo necesario para que un astro complete su ciclo entero.",
+    "body": "El movimiento periódico designa el retorno regular de los planetas a un punto preciso del zodíaco. Se distingue el período sidéreo (el tiempo real de revolución alrededor del Sol) del período sinódico (el tiempo que separa dos conjunciones sucesivas con el Sol). En astrología, el estudio de los períodos permite prever los “retornos” planetarios, momentos en que el individuo revive las temáticas natales del astro correspondiente (por ejemplo, el retorno de Saturno cada 29 años)."
+  },
+  {
+    "slug": "placidus",
+    "category": "technique",
+    "term": "Placidus",
+    "short": "El sistema de domificación más extendido en la astrología occidental.",
+    "body": "Llamado así por el monje Placidus de Titis (siglo XVII), este sistema divide las casas en función del tiempo que tardan los astros en recorrer su trayecto (semiarcos), más que sobre una división puramente espacial del cielo. Muy apreciado por su precisión psicológica, presenta sin embargo límites en las latitudes extremas (cercanas a los polos), donde el cálculo de las casas puede volverse desproporcionado."
+  },
+  {
+    "slug": "pleiades",
+    "category": "constellation",
+    "term": "Pléyades (M45)",
+    "short": "Cúmulo de estrellas en la constelación de Tauro, ligado a la visión y al destino colectivo.",
+    "body": "También llamadas las “Siete Hermanas”, las Pléyades se sitúan a unos 29° del signo de Tauro. Simbólicamente, suelen asociarse con el llanto, con una gran sensibilidad o con problemas de visión, tanto en sentido literal como figurado. En un plano más elevado, representan una fuerte intuición y una conexión con las memorias ancestrales de la humanidad. Su influencia se considera muy poderosa cuando están en conjunción con un luminar."
+  },
+  {
+    "slug": "pluton",
+    "category": "planète",
+    "term": "Plutón",
+    "short": "El planeta de la transformación, el poder, la destrucción y el renacimiento.",
+    "body": "Plutón es el planeta más lejano y más lento del sistema astrológico. Tarda unos 248 años en recorrer el zodíaco, permaneciendo entre 12 y 31 años en cada signo, lo que lo convierte en un poderoso marcador generacional. Descubierto en 1930, Plutón ha sido asociado por los astrólogos con Escorpio y la Casa VIII. Simboliza las fuerzas subterráneas del alma: el poder, la obsesión, la muerte simbólica, la regeneración, la sexualidad profunda y los mecanismos inconscientes. Un Plutón armónico confiere un carisma magnético, una capacidad de resiliencia excepcional y un instinto psicológico temible. Un Plutón tenso puede indicar luchas de poder, una tendencia al control o una dificultad para soltar. El tránsito de Plutón sobre un punto sensible de la carta es siempre un momento bisagra: destruye lo que ya no es auténtico para dejar emerger una verdad más profunda."
+  },
+  {
+    "slug": "point-de-chute",
+    "category": "concept",
+    "term": "Punto de Caída",
+    "short": "Posición donde un planeta está más debilitado, en oposición a su exaltación.",
+    "body": "El punto de caída de un planeta es el grado del zodíaco donde pierde toda su fuerza vital, generalmente situado a 180° de su punto de exaltación. Por ejemplo, Marte está exaltado a 28° de Capricornio y cae a 28° de Cáncer. Un planeta en caída puede indicar dificultades para expresar sus cualidades de manera constructiva, bloqueos o desafíos específicos ligados a esa energía."
+  },
+  {
+    "slug": "point-est",
+    "category": "point fictif",
+    "term": "Punto Este",
+    "short": "Punto de intersección del horizonte y el primer vertical.",
+    "body": "También llamado “el Ascendente del ecuador”, el Punto Este es un punto ficticio utilizado para afinar la personalidad. Describe la manera en que nos presentamos espontáneamente ante el mundo, a veces de forma más cruda o instintiva que el Ascendente clásico."
+  },
+  {
+    "slug": "point-vernal",
+    "category": "astronomique",
+    "term": "Punto Vernal",
+    "short": "Intersección de la eclíptica y el ecuador celeste, que marca el 0° de Aries.",
+    "body": "Es el origen de todo el zodíaco tropical. Cada año, en el momento del equinoccio de primavera, el Sol atraviesa este punto. A causa de la precesión de los equinoccios, este punto se desplaza muy lentamente hacia atrás con respecto a las constelaciones, marcando el paso de las grandes eras astrológicas."
+  },
+  {
+    "slug": "poissons",
+    "category": "signe",
+    "term": "Piscis",
+    "short": "Duodécimo signo (Agua/Mutable), que simboliza la sensibilidad, la espiritualidad y la unidad.",
+    "body": "Piscis marca el final del invierno, el deshielo de las nieves. Regido por Júpiter (tradicional) y Neptuno (moderno), encarna la disolución del ego en el infinito. Es el signo de la compasión, del sacrificio, de la intuición y del sueño. Representa el océano del inconsciente colectivo. Su desafío es no ahogarse en la confusión o el victimismo, sino usar su sensibilidad para inspirar y sanar mediante el amor incondicional."
+  },
+  {
+    "slug": "precession-des-equinoxes",
+    "category": "astronomique",
+    "term": "Precesión de los Equinoccios",
+    "short": "Desplazamiento lento del eje de rotación de la Tierra que desplaza el punto vernal.",
+    "body": "Este fenómeno astronómico hace que el punto del equinoccio de primavera (0° de Aries tropical) retroceda lentamente con respecto a las constelaciones fijas (alrededor de 1° cada 72 años). Es este movimiento el que define las 'Grandes Eras' (como la Era de Acuario) y el que explica la diferencia entre los zodíacos tropical y sidéral."
+  },
+  {
+    "slug": "profections",
+    "category": "technique",
+    "term": "Profecciones",
+    "short": "Técnica antigua que desplaza el Ascendente un signo entero cada año.",
+    "body": "La profección anual designa una casa de la carta como “casa del año”. A los 0 años se está en la Casa I, al año en la Casa II, y así sucesivamente. El regente de la casa de profección se convierte en el “Señor del Año”, y su posición en los tránsitos pasa entonces a ser primordial."
+  },
+  {
+    "slug": "progressions-secondaires",
+    "category": "technique",
+    "term": "Progresiones Secundarias",
+    "short": "Técnica predictiva en la que un día después del nacimiento corresponde a un año de vida.",
+    "body": "Este método simbólico refleja la evolución interna del individuo. Se observa, por ejemplo, el movimiento de la Luna progresada, que cambia de signo cada dos años y medio, marcando ciclos de lenta maduración psicológica."
+  },
+  {
+    "slug": "ptolemee",
+    "category": "personnalité",
+    "term": "Ptolomeo",
+    "short": "Astrónomo y astrólogo griego del siglo II, autor del 'Tetrabiblos'.",
+    "body": "Claudio Ptolomeo (hacia 100-170 d. C.) es una de las figuras más influyentes de la astrología occidental. Su obra principal, el 'Tetrabiblos', es un tratado en cuatro libros que codifica los principios de la astrología tradicional: las dignidades esenciales, los aspectos, las casas, las técnicas de predicción, etc. Ptolomeo sintetizó los conocimientos astrológicos de su época y estableció un marco teórico que dominó la astrología durante más de un milenio. Su visión geocéntrica del cosmos fue cuestionada por la revolución copernicana, pero su influencia en la práctica astrológica sigue siendo inmensa."
+  }
+]

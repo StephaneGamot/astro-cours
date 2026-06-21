@@ -1,14 +1,17 @@
+import { getLocale, getTranslations } from "next-intl/server";
 import { TagPills } from "./TagPills";
 // ShareBar supprimé — pas de partage social sur le site.
 import { AuthorBox } from "./AuthorBox";
 import { RelatedPosts } from "./RelatedPosts";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
-  SITE_URL,
   AUTHOR_PERSON,
   PUBLISHER_ORG,
+  localeUrl,
+  toSeoLocale,
   absoluteUrl,
 } from "@/lib/seo";
+import { postSlugFor } from "@/lib/blog";
 
 type PostMeta = {
   slug: string;
@@ -21,11 +24,11 @@ type PostMeta = {
   readingLevel?: "débutant" | "intermédiaire" | "avancé";
 };
 
-function formatFrDate(dateStr?: string) {
+function formatDate(dateStr: string | undefined, locale: string) {
   if (!dateStr) return null;
   const d = new Date(dateStr);
   if (Number.isNaN(d.getTime())) return null;
-  return d.toLocaleDateString("fr-FR", {
+  return d.toLocaleDateString(locale, {
     year: "numeric",
     month: "long",
     day: "2-digit",
@@ -37,15 +40,26 @@ function toIsoDate(dateStr: string): string {
   return `${dateStr}T12:00:00Z`;
 }
 
-export function ArticleLayout({
+const ARTICLE_SECTION: Record<string, string> = {
+  fr: "Astrologie",
+  en: "Astrology",
+  es: "Astrología",
+};
+const HOME_NAME: Record<string, string> = { fr: "Accueil", en: "Home", es: "Inicio" };
+
+export async function ArticleLayout({
   meta,
   children,
 }: {
   meta: PostMeta;
   children: React.ReactNode;
 }) {
-  const prettyDate = formatFrDate(meta.date);
-  const canonical = absoluteUrl(`/blog/${meta.slug}`);
+  const locale = await getLocale();
+  const loc = toSeoLocale(locale);
+  const t = await getTranslations({ locale: loc, namespace: "blog" });
+  const prettyDate = formatDate(meta.date, loc);
+  const localizedSlug = postSlugFor(meta.slug, loc);
+  const canonical = localeUrl(loc, `/blog/${localizedSlug}`);
 
   /* ── JSON-LD Article (E-E-A-T complet) ────────────────── */
   const articleJsonLd = {
@@ -56,10 +70,10 @@ export function ArticleLayout({
     url: canonical,
     datePublished: toIsoDate(meta.date),
     dateModified: toIsoDate(meta.updatedAt ?? meta.date),
-    inLanguage: "fr",
+    inLanguage: loc,
     author: AUTHOR_PERSON,
     publisher: PUBLISHER_ORG,
-    articleSection: "Astrologie",
+    articleSection: ARTICLE_SECTION[loc],
     mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
     ...(meta.cover
       ? { image: [absoluteUrl(meta.cover)] }
@@ -71,8 +85,8 @@ export function ArticleLayout({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+      { "@type": "ListItem", position: 1, name: HOME_NAME[loc], item: localeUrl(loc, "/") },
+      { "@type": "ListItem", position: 2, name: t("tagBreadcrumb"), item: localeUrl(loc, "/blog") },
       { "@type": "ListItem", position: 3, name: meta.title },
     ],
   };
@@ -91,8 +105,8 @@ export function ArticleLayout({
       <main id="main-content" className="mx-auto max-w-6xl px-4 py-10 space-y-8">
         <Breadcrumbs
           items={[
-            { name: "Blog", href: "/blog" },
-            { name: meta.title, href: `/blog/${meta.slug}` },
+            { name: t("tagBreadcrumb"), href: "/blog" },
+            { name: meta.title, href: `/blog/${localizedSlug}` },
           ]}
           accentClass="text-rose-400"
         />
@@ -119,7 +133,7 @@ export function ArticleLayout({
 
               {meta.readingLevel ? (
                 <span className="rounded-full border border-white/10 bg-black/20 px-3 py-1">
-                  Niveau : {meta.readingLevel}
+                  {t("author.niveau")} : {t(`level.${meta.readingLevel}`)}
                 </span>
               ) : null}
             </div>

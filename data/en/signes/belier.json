@@ -1,0 +1,454 @@
+{
+  "slug": "belier",
+  "nom": "Aries",
+  "sousTitre": "The first sign of the Zodiac",
+  "devise": "I am",
+  "periode": "March 21 – April 20",
+  "element": "Fire",
+  "mode": "Cardinal",
+  "maitre": "Mars",
+  "exaltation": "Sun",
+  "exil": "Venus",
+  "chute": "Saturn",
+  "polarite": "Masculine",
+  "temperament": "Choleric",
+  "maisonNaturelle": 1,
+  "couleur": {
+    "primaire": "#FC2D2D",
+    "secondaire": "#F97316",
+    "accent": "#FBBF24",
+    "gradient": "from-red-600 via-orange-500 to-amber-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "poissons", "nom": "Pisces" },
+    "suivant": { "slug": "taureau", "nom": "Taurus" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/belier.webp",
+    "planete": "/images/planetes/mars.webp"
+  },
+  "introduction": "Aries is the first sign of the Zodiac. It begins with the spring equinox, between roughly March 21 and April 20, at the very moment when nature surges back to life, when light gains ground over darkness, when everything starts anew. It is no coincidence that astrology places the starting point of the cycle here: Aries embodies birth, the first impulse, the gesture that says “I exist.”",
+  "fondationsCosmiques": {
+    "texte": "Aries belongs to the Fire element (hot and dry), which gives it a choleric temperament: energy, will, creative or destructive action. It is the first level of Fire — that of instinct, of the primal impulse, of an enthusiasm that burns out quickly but sets ablaze everything in its path. Its mode is cardinal: it inaugurates a season. Cardinal signs are initiators, triggers. Where Taurus stabilises and Gemini scatters, Aries starts things off. It is the pioneer par excellence.",
+    "courteAscension": "An Aries Ascendant rises quickly on the horizon — it is known as a sign of “short ascension” — which means that, statistically, fewer people have Aries as their Ascendant.",
+    "pluton": "Since the discovery of Pluto, some astrologers have suggested assigning Aries to it as a domicile rather than Scorpio, in order to preserve the Uranus–Neptune–Pluto sequence within the Zodiac. The question remains open and cannot be settled by figures alone."
+  },
+  "analogies": {
+    "animal": "The ram",
+    "objet": "The spark, the blade, the tool that opens a passage",
+    "fonction": "To initiate, to pierce, to assert",
+    "texte": "Aries is the beginning of all things. Initiative. Progress. Swift — often hasty — action. The spirit of adventure, the desire to discover, the explorer's drive. It is the pioneer, the guide, the natural leader. Just as the ram leads the flock, the native of this sign will always seek to place themselves out front, never to be lost in the crowd."
+  },
+  "mythologie": {
+    "titre": "The Golden Fleece",
+    "texte": "Aries is linked to the myth of the Golden Fleece. Jason, the archetypal Aries hero — dynamic, fearless, brave, a conqueror even in his tumultuous loves — sets out to win a treasure that is never given but must be earned. The superhuman trials imposed on the hero turn his journey into a true initiatory path, full of twists, abandoned projects and pioneering enthusiasm.",
+    "civilisations": "Among the ancient Egyptians, the ram was the emblem of Amun, god of fertility and air. In Vedic Indian civilisation, it is akin to Agni, the god of fire. The ram as a virile and fertilising symbol runs through many civilisations, carrying everywhere the same charge: that of a primal, founding energy that sets the world in motion."
+  },
+  "portrait": {
+    "temperament": "Aries acts before theorising. It needs to confront reality in order to know. Its character is frank, wholehearted, often spontaneous, with little taste for detours. It prefers momentum and simplicity of action to overly long analysis or soft compromises. The mind is quick, active, carried by fast understanding and great capacity for work. The imagination can be effervescent. When immature, it may confuse strength with haste. As it matures, it becomes a lucid initiator, able to channel its inner fire in the service of a clear vision.",
+    "forces": [
+      "Taking the initiative without waiting for general approval",
+      "Opening a new path",
+      "Deciding quickly under pressure",
+      "Mobilising energy at the launch of a project",
+      "Acting with courage when the situation demands it",
+      "Inspiring others by example"
+    ],
+    "ombres": [
+      "Immediate reaction instead of a considered response",
+      "Difficulty slowing down or waiting",
+      "Needless conflict when energy is not channelled",
+      "Impatience and haste",
+      "Vehement outbursts that can dictate irreparable acts"
+    ],
+    "besoinsVitaux": [
+      "Feeling free to act",
+      "Having a clear challenge",
+      "Being able to express their will without constantly justifying it"
+    ],
+    "aTravailler": [
+      "Patience and a sense of timing",
+      "Listening and cooperation",
+      "Constancy: finishing what has been started",
+      "Mastering impulsiveness",
+      "The ability to choose their battles"
+    ],
+    "equilibre": "An Aries in full command of their powers becomes brave without being aggressive, assertive without crushing, able to inspire others without bullying them. Their frankness becomes clear rather than brutal, and their fire becomes a creative, lasting, mastered force."
+  },
+  "sante": {
+    "zones": ["Head", "Face", "Brain", "Eyes"],
+    "texte": "Aries governs the head, the face, the brain, the eyes and the organs located there. It predisposes to migraines, toothaches, eye and ear disorders, and sometimes cerebral congestion. Fevers of various origins are frequent, but the Aries native can withstand very high temperatures without suffering unduly. The constitution is generally robust, but there is a risk of wear from excessive effort or recklessness."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "The most natural position. The energy of Aries expresses itself here in its full power: a quick mind, fast understanding, ardour, courage, combativeness. Self-confidence drives boldness, sometimes recklessness. Ambition is marked, the will powerful — but it shows more in intensity than in duration. The native always displays great independence. Activity is rapid and fiery. Realisation follows conception at once, but is often compromised by haste."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "Broad potential for earnings thanks to considerable activity, but impulsive spending and lack of foresight keep finances unstable, at least until maturity. An independent career is preferable. In case of setbacks, Aries knows how to overcome discouragement and right the ship through energetic measures. Gambling and speculation should be avoided."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "A very curious mind, hardworking but critical, even caustic — an excellent position for a polemicist. An attraction to travel and high speeds, hence a risk of accidents. Family relationships are often disturbed by violent arguments and fallings-out, usually short-lived."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "The father is often very authoritarian and the family poorly united. Possibility of accidents, premature bereavements, fires or calamities affecting family real-estate holdings. The end of life can be eventful, but the subject generally overcomes difficulties thanks to the overall configuration of the chart."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "A tendency toward romantic recklessness, numerous adventures, passionate whims and possible jealousy. Financial losses tied to risky speculation are significant. A position not very favourable to having children, or else they are turbulent and hard to raise."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "A heightened predisposition to the sign's ailments: frequent migraines, eye, dental or ear disorders, fevers and inflammations. Collaborators show too much independence, leading to frequent changes. The native sometimes struggles to keep a job because of their impulsiveness."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "Often an early marriage, decided on impulse or at first sight, but a turbulent married life with serious arguments. The partner is authoritarian and impulsive. Business partnerships are rarely favourable. Declared enemies act openly, which paradoxically makes them less dangerous."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "Foretells an end that may come rather abruptly. Hardly favours inheritances, or indicates their squandering. However, Aries here also carries the capacity to be reborn after trials, to regenerate with considerable strength."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "Purely spiritual tendencies are rather weak, but if the subject takes an interest in religion or philosophy, it will be in an active sense: missionary, propagandist, activist. A strong attraction to long journeys and exploration, but a tendency to accidents linked to reckless acts."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "An eventful destiny with several changes of career or residence. Success thanks to the spirit of initiative. The native is often called to prominent positions, or seeks an independent situation. A sign fairly favourable to fame. The subject's mother is often an authoritarian and energetic woman."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Friends who need no prompting to lend a hand, but who are not thrifty. This sign can ensure powerful connections in the army, the judiciary or heavy industry. Friends are impulsive, hence frequent arguments and fallings-out, but rarely final."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "A predisposition to Aries ailments that may become chronic. Hidden enemies are few — Aries pointing rather to open adversaries — and there is little mystery in the subject's life. Initiatives are often compromised by unexpected difficulties."
+    }
+  ],
+  "amour": {
+    "texte": "Aries loves with spontaneity, intensity and frankness. It needs to feel that something is happening: a surge of energy, a vivid attraction, movement. It prefers a clear, lively, embodied relationship to one that is too cautious or too slow.",
+    "qualites": [
+      "Takes the romantic initiative",
+      "Loves openly and quickly shows interest",
+      "Brings warmth, vitality and intensity to the bond",
+      "Can be brave in love when they truly care about someone"
+    ],
+    "vigilances": [
+      "May grow weary if the relationship becomes too passive",
+      "Sometimes reacts too quickly in the heat of emotion",
+      "Risks confusing conquest with depth",
+      "Tolerates prolonged unspoken issues or relationship games poorly"
+    ],
+    "affinites": ["lion", "sagittaire", "gemeaux", "scorpion"]
+  },
+  "travail": {
+    "texte": "Aries works the way it lives: it needs action, room to manoeuvre, a clear goal and a sense of immediate usefulness. It excels in phases of launching, conquest, decision-making or crisis.",
+    "atouts": [
+      "Responsive and able to launch a project quickly",
+      "Brave under pressure",
+      "At ease when it is time to decide or open a way",
+      "Energetic in competitive contexts"
+    ],
+    "defis": [
+      "Gets bored in slow routine",
+      "May neglect the finishing touches",
+      "Tolerates inconsistent authority poorly",
+      "Risks being too blunt with professional colleagues"
+    ]
+  },
+  "argent": {
+    "texte": "Aries sees money as a means to act, to move forward, to gain autonomy. It seeks less to possess than to be able to move quickly and freely toward what it wants to do.",
+    "forces": [
+      "Quick financial decisions",
+      "Knows how to invest energy to earn",
+      "Likes to feel it has the means to act"
+    ],
+    "risques": [
+      "Impulsive spending",
+      "Decisions made too quickly",
+      "A taste for risk without sufficient assessment"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Aries asserts a pioneering, willful and direct identity. It needs to act in order to feel alive.",
+      "manifestations": ["Courage to be oneself", "Will to exist clearly", "Taste for challenge", "Spontaneous leadership"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Aries lives fast, reacts fast and needs emotional autonomy. Emotion rises quickly and often subsides just as fast.",
+      "manifestations": ["Emotional frankness", "Ability to bounce back", "Instinctive reactivity", "Need for space"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Aries thinks fast, speaks fast and decides fast. The mind goes straight to the central point.",
+      "manifestations": ["A quick mind", "Fast decisions", "Direct speech", "Ability to simplify"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Aries loves with drive, desire, spontaneity and a taste for conquest. Pleasure comes through the liveliness of the bond.",
+      "manifestations": ["Passion", "Sincerity of desire", "Direct charm", "Ability to declare one's feelings"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Aries is in one of its most natural expressions: frank, offensive, direct, instinctive action.",
+      "manifestations": ["Combativeness", "Power to get started", "Courage to act", "Decisiveness"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Aries amplifies momentum, faith in action and the confidence to move forward.",
+      "manifestations": ["Enthusiasm", "Faith in initiative", "Boldness", "Confidence in new beginnings"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Aries calls for learning to master one's momentum. It does not block the fire, but compels it to become more measured.",
+      "manifestations": ["Disciplined courage", "Lasting strength", "Gradual self-mastery"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Aries produces an impulse to break free, a will to liberate oneself quickly and shatter inertia.",
+      "manifestations": ["Boldness", "Originality of action", "Ability to spark a fresh start"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Aries seeks an ideal to live out through action. Inspiration comes through commitment, fire, movement.",
+      "manifestations": ["Ardent inspiration", "An embodied ideal", "Intuitive faith in action"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Aries deeply transforms one's relationship to will, struggle and personal power.",
+      "manifestations": ["Power of regeneration", "Strength of assertion", "Ability to be reborn after shocks"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "intense",
+      "titre": "Fire against fire",
+      "texte": "Two Aries can understand each other very quickly, spur each other on strongly and move forward without hesitation. The relationship is lively, direct, passionate, but also potentially explosive if each wants to lead alone.",
+      "forces": ["Immediate energy", "Instinctive understanding", "Passion", "Taste for action"],
+      "frictions": ["Competition", "Impatience", "Ego clashes", "Difficulty yielding"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "delicate",
+      "titre": "Momentum and stability",
+      "texte": "Aries wants to move fast, Taurus wants to build slowly. The bond can be complementary, but the rhythms are very different.",
+      "forces": ["Complementarity of initiative and endurance", "Possibility of building something concrete"],
+      "frictions": ["Aries finds Taurus slow", "Taurus finds Aries abrupt", "Stubbornness on both sides"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "stimulante",
+      "titre": "Action and mental liveliness",
+      "texte": "Aries loves momentum, Gemini loves movement. The duo can be fast, lively, stimulating and mobile.",
+      "forces": ["Liveliness", "Spontaneity", "Lightness", "Ability to bounce back"],
+      "frictions": ["Scattering", "Instability", "Difficulty going deep"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "delicate",
+      "titre": "Fire and sensitivity",
+      "texte": "Aries can clash with what Cancer feels deeply. The relationship requires tact, emotional security and respect for emotional rhythms.",
+      "forces": ["Complementarity of action and protection", "Possibility of mutual support"],
+      "frictions": ["Aries's reactivity", "Cancer's sensitivity", "Emotional misunderstandings"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "fluide",
+      "titre": "Fire and radiance",
+      "texte": "Aries and Leo share momentum, warmth and frankness. Together, they can energise each other very strongly.",
+      "forces": ["Energy", "Enthusiasm", "Healthy pride", "Mutual motivation"],
+      "frictions": ["Ego competition", "Need to be recognised", "Difficulty sharing the spotlight"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "variable",
+      "titre": "Impulse and method",
+      "texte": "Aries wants to act fast; Virgo wants to understand, correct and organise. One pushes, the other adjusts.",
+      "forces": ["Complementarity of drive and precision", "Efficient projects"],
+      "frictions": ["Aries finds Virgo critical", "Virgo finds Aries rough", "Difference of rhythm"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "complementaire",
+      "titre": "The Aries–Libra axis",
+      "texte": "Aries asserts the self, Libra recalls the other. It is a very strong axis of complementarity, attraction and relational learning.",
+      "forces": ["Natural attraction", "Complementarity of assertion and cooperation"],
+      "frictions": ["Aries wants to go straight ahead", "Libra hesitates or nuances", "Conflict of impulse and diplomacy"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "intense",
+      "titre": "Frontal Mars and deep Mars",
+      "texte": "Aries acts in broad daylight, Scorpio acts in depth. The relationship is strong, magnetic, sometimes conflictual, but never lukewarm.",
+      "forces": ["Power", "Courage", "Possible loyalty", "Intensity"],
+      "frictions": ["Power struggles", "Jealousy or control", "Violent conflicts"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "fluide",
+      "titre": "Fire and horizon",
+      "texte": "Aries provides the momentum, Sagittarius provides the vision. Together, they can go fast and far.",
+      "forces": ["Adventure", "Optimism", "Movement", "Sincerity"],
+      "frictions": ["Excess", "Impatience", "Lack of grounding"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "intense",
+      "titre": "Momentum and structure",
+      "texte": "Aries wants to move fast, Capricorn wants to build over time. The relationship can be highly productive or highly conflictual.",
+      "forces": ["Complementarity of attack and strategy", "Ability to accomplish something solid"],
+      "frictions": ["Frustration", "Opposite rhythms", "Power struggles"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "complementaire",
+      "titre": "Action and freedom",
+      "texte": "Aries acts, Aquarius thinks differently. The bond can be very stimulating if each respects the other's independence.",
+      "forces": ["Freedom", "Stimulation", "Originality", "Momentum toward the future"],
+      "frictions": ["Aquarius's emotional distance", "Aries's impulsiveness", "Ideological conflicts"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "variable",
+      "titre": "Fire and porosity",
+      "texte": "Aries acts clearly, Pisces feels broadly. The bond can be inspiring or disconcerting depending on the ability to understand each other.",
+      "forces": ["Inspiration", "Complementarity of action and imagination", "Opening of new worlds"],
+      "frictions": ["Aries can be abrupt", "Pisces seems vague", "Difficulty of rhythm"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Aries, you enter life with frankness, speed and a need for initiative. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting carries an Aries tone.",
+    "apparence": [
+      "A lively, direct presence",
+      "A dynamic bearing",
+      "A frank or piercing gaze",
+      "An impression of movement and vigour"
+    ],
+    "temperament": [
+      "Reacts quickly",
+      "Prefers trying to waiting",
+      "Needs autonomy and movement",
+      "Enters situations in a direct way"
+    ],
+    "vigilances": [
+      "Impatience",
+      "Excessive reactivity",
+      "A tendency to go too fast",
+      "Risk of seeming abrupt"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Hamal",
+      "nature": "Mars / Saturn",
+      "texte": "An energy of directness, courage and impact. It reinforces the idea of a thrust that wants to exist and push forward.",
+      "motsCles": ["Assertion", "Breakthrough", "Decisiveness"]
+    },
+    {
+      "nom": "Sheratan",
+      "nature": "Mars",
+      "texte": "A nervous, fast, enterprising tone. It heightens initiative and immediate reaction, while recalling the importance of channelling the fire.",
+      "motsCles": ["Impulse", "Liveliness", "Risk", "Speed"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Ruby", "motsCles": ["fire", "vitality", "courage", "assertion"] },
+      { "nom": "Garnet", "motsCles": ["momentum", "grounding", "tone", "struggle"] },
+      { "nom": "Iron", "motsCles": ["mars", "strength", "struggle", "will"] }
+    ],
+    "vegetaux": [
+      { "nom": "Nettle", "motsCles": ["stimulation", "awakening", "defence", "vitality"] },
+      { "nom": "Garlic", "motsCles": ["protection", "strength", "sharpness", "defence"] },
+      { "nom": "Chilli pepper", "motsCles": ["fire", "intensity", "heat", "impulse"] }
+    ],
+    "animaux": [
+      { "nom": "Ram", "motsCles": ["impulse", "strength", "initiative", "breakthrough"] },
+      { "nom": "Wolf", "motsCles": ["instinct", "combativeness", "reactivity", "boldness"] },
+      { "nom": "Falcon", "motsCles": ["speed", "target", "attack", "vision"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "England", "texte": "Power of initiative, assertive will and active momentum." },
+    { "pays": "France", "texte": "Impulse, assertion, centrality of the collective self." },
+    { "pays": "Germany", "texte": "Strength, momentum, a structure of will and active power." },
+    { "pays": "Denmark", "texte": "A traditional symbolic attribution." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Lady Gaga", "domaine": "Music", "date": "March 28, 1986", "texte": "Boldness, strength of presence and the ability to impose a strongly asserted identity." },
+    { "nom": "Robert Downey Jr.", "domaine": "Film", "date": "April 4, 1965", "texte": "Lively energy, a combative temperament and a direct presence." },
+    { "nom": "Emma Watson", "domaine": "Film", "date": "April 15, 1990", "texte": "Frankness, commitment and clarity in taking a stand." },
+    { "nom": "Marlon Brando", "domaine": "Film", "date": "April 3, 1924", "texte": "Instinctive power, raw presence and embodied intensity." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Aries?",
+      "reponse": "Aries is characterised by frankness, courage, initiative and energy. It is a direct, wholehearted temperament that needs to act in order to feel alive. It can be impatient and impulsive, but it is also one of the bravest and most generous signs of the Zodiac."
+    },
+    {
+      "question": "What kind of lover is Aries?",
+      "reponse": "Passionate, spontaneous, direct. Aries takes the initiative, quickly shows interest and brings intensity and warmth to the relationship. It needs a lively, frank relationship and tolerates passivity or unspoken issues poorly."
+    },
+    {
+      "question": "What kind of worker is Aries?",
+      "reponse": "A launcher, a starter, a decision-maker. Aries excels in phases of creation, conquest and crisis. It needs autonomy and a clear goal. It is less comfortable in routine or overly hierarchical environments."
+    },
+    {
+      "question": "Which house corresponds to Aries?",
+      "reponse": "The First House — that of identity, temperament, and the way one enters life. Its natural analogy with Aries underscores a dynamic of departure, assertion and immediate presence."
+    },
+    {
+      "question": "What is the ideal Ascendant for Aries?",
+      "reponse": "A Libra Ascendant brings diplomacy and perspective to Aries. A Leo Ascendant reinforces its charisma. A Sagittarius Ascendant amplifies its need for adventure and independence."
+    },
+    {
+      "question": "What are the flaws of Aries?",
+      "reponse": "Impatience, impulsiveness, quick anger and a lack of listening are its shadow zones. It may act without thinking, be abrupt with those around it, and confuse strength with haste."
+    },
+    {
+      "question": "Is Aries compatible with Scorpio?",
+      "reponse": "The bond is intense and magnetic, ruled by Mars. The attraction is strong, but power struggles are frequent. Shared loyalty and courage can weld this powerful duo together."
+    }
+  ]
+}

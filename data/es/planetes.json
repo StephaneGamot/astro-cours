@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "soleil",
+    "name": "Sol",
+    "headline": "El Sol representa el centro",
+    "description": "La identidad, la voluntad y lo que te da una dirección. Habla de lo que buscas llegar a ser y de cómo quieres sentirte plenamente tú.",
+    "image": {
+      "src": "/images/planetes/soleil.webp",
+      "alt": "Símbolo astrológico del Sol"
+    }
+  },
+  {
+    "slug": "lune",
+    "name": "Luna",
+    "headline": "La Luna representa el mundo interior",
+    "description": "Las emociones, las necesidades y la seguridad afectiva. Describe cómo reaccionas espontáneamente y qué te calma cuando te sientes vulnerable.",
+    "image": {
+      "src": "/images/planetes/lune.webp",
+      "alt": "Símbolo astrológico de la Luna"
+    }
+  },
+  {
+    "slug": "mercure",
+    "name": "Mercurio",
+    "headline": "Mercurio representa el pensamiento y el lenguaje",
+    "description": "La manera de comprender, analizar y comunicar. Muestra cómo circulan las ideas y cómo das sentido a lo que observas.",
+    "image": {
+      "src": "/images/planetes/mercure.webp",
+      "alt": "Símbolo astrológico de Mercurio"
+    }
+  },
+  {
+    "slug": "venus",
+    "name": "Venus",
+    "headline": "Venus representa el vínculo y los valores",
+    "description": "Lo que atrae, lo que agrada y lo que crea armonía. Habla del amor, de los apegos y de la manera en que te relacionas.",
+    "image": {
+      "src": "/images/planetes/venus.webp",
+      "alt": "Símbolo astrológico de Venus"
+    }
+  },
+  {
+    "slug": "mars",
+    "name": "Marte",
+    "headline": "Marte representa el impulso y la afirmación",
+    "description": "La energía de acción, el deseo y la capacidad de imponerse. Muestra cómo pasas a la acción y cómo defiendes tu territorio.",
+    "image": {
+      "src": "/images/planetes/mars.webp",
+      "alt": "Símbolo astrológico de Marte"
+    }
+  },
+  {
+    "slug": "jupiter",
+    "name": "Júpiter",
+    "headline": "Júpiter representa la expansión y el sentido",
+    "description": "El aprendizaje, el crecimiento y la visión global. Indica dónde buscas comprender, explorar y dar sentido a tu camino.",
+    "image": {
+      "src": "/images/planetes/jupiter.webp",
+      "alt": "Símbolo astrológico de Júpiter"
+    }
+  },
+  {
+    "slug": "saturne",
+    "name": "Saturno",
+    "headline": "Saturno representa la estructura y el tiempo",
+    "description": "Los límites, las responsabilidades y la construcción paciente. Muestra cómo la experiencia y el esfuerzo permiten consolidarse.",
+    "image": {
+      "src": "/images/planetes/saturne.webp",
+      "alt": "Símbolo astrológico de Saturno"
+    }
+  },
+  {
+    "slug": "uranus",
+    "name": "Urano",
+    "headline": "Urano representa el cambio y la libertad",
+    "description": "La ruptura, la independencia y el despertar. Indica dónde nace la necesidad de salir de los marcos para recuperar autenticidad.",
+    "image": {
+      "src": "/images/planetes/uranus.webp",
+      "alt": "Símbolo astrológico de Urano"
+    }
+  },
+  {
+    "slug": "neptune",
+    "name": "Neptuno",
+    "headline": "Neptuno representa el ideal y la sensibilidad",
+    "description": "La inspiración, el imaginario y la compasión. Habla también de las zonas difusas donde el discernimiento se vuelve necesario.",
+    "image": {
+      "src": "/images/planetes/neptune.webp",
+      "alt": "Símbolo astrológico de Neptuno"
+    }
+  },
+  {
+    "slug": "pluton",
+    "name": "Plutón",
+    "headline": "Plutón representa la transformación profunda",
+    "description": "Las crisis, los cuestionamientos y la regeneración. Muestra lo que debe atravesarse para permitir una renovación interior.",
+    "image": {
+      "src": "/images/planetes/pluton.webp",
+      "alt": "Símbolo astrológico de Plutón"
+    }
+  }
+]

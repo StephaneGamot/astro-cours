@@ -3,7 +3,39 @@ import maisons from "@/data/maisons.details.json";
 import planetes from "@/data/planetes.details.json";
 import signes from "@/data/signes.details.json";
 import { getAllPosts, getPostsByTagSlug, TAG_PAGES } from "@/lib/blog";
-import { SITE_URL } from "@/lib/seo";
+import { localeUrl, languageAlternates, type SeoLocale } from "@/lib/seo";
+
+const LOCALES: SeoLocale[] = ["fr", "en", "es"];
+
+type SitemapEntry = {
+  /** chemin relatif sans slash initial ("" = home) */
+  path: string;
+  lastModified: Date;
+  changeFrequency: "weekly" | "monthly" | "yearly";
+  priority: number;
+};
+
+/**
+ * Décline chaque entrée dans les 3 langues (FR racine, EN/ES préfixés),
+ * avec les balises hreflang (alternates.languages) sur chacune.
+ */
+function expand(entries: SitemapEntry[]): MetadataRoute.Sitemap {
+  const out: MetadataRoute.Sitemap = [];
+  for (const e of entries) {
+    const p = e.path === "" ? "/" : `/${e.path}`;
+    const languages = languageAlternates(p);
+    for (const loc of LOCALES) {
+      out.push({
+        url: localeUrl(loc, p),
+        lastModified: e.lastModified,
+        changeFrequency: e.changeFrequency,
+        priority: e.priority,
+        alternates: { languages },
+      });
+    }
+  }
+  return out;
+}
 
 type House = { slug: string; updated?: string };
 type Planet = { slug: string; updated?: string };
@@ -53,67 +85,63 @@ const COLLECTION_DATES = {
 };
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = SITE_URL;
-
-  const staticRoutes: MetadataRoute.Sitemap = Object.entries(STATIC_PAGE_DATES).map(
+  const staticRoutes: SitemapEntry[] = Object.entries(STATIC_PAGE_DATES).map(
     ([page, date]) => ({
-      url: page === "" ? `${base}/` : `${base}/${page}`,
+      path: page,
       lastModified: new Date(date),
       changeFrequency: page === "" ? "weekly" : "monthly",
       priority: page === "" ? 1.0 : page === "blog" ? 0.9 : 0.5,
     }),
   );
 
-  const houseRoutes: MetadataRoute.Sitemap = (maisons as House[]).map((h) => ({
-    url: `${base}/maisons/${h.slug}`,
+  const houseRoutes: SitemapEntry[] = (maisons as House[]).map((h) => ({
+    path: `maisons/${h.slug}`,
     lastModified: new Date(h.updated ?? COLLECTION_DATES.maisons),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
-  const planetRoutes: MetadataRoute.Sitemap = (planetes as Planet[]).map(
-    (p) => ({
-      url: `${base}/planetes/${p.slug}`,
-      lastModified: new Date(p.updated ?? COLLECTION_DATES.planetes),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    }),
-  );
+  const planetRoutes: SitemapEntry[] = (planetes as Planet[]).map((p) => ({
+    path: `planetes/${p.slug}`,
+    lastModified: new Date(p.updated ?? COLLECTION_DATES.planetes),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
 
-  const signRoutes: MetadataRoute.Sitemap = (signes as Sign[]).map((s) => ({
-    url: `${base}/signes/${s.slug}`,
+  const signRoutes: SitemapEntry[] = (signes as Sign[]).map((s) => ({
+    path: `signes/${s.slug}`,
     lastModified: new Date(s.updated ?? COLLECTION_DATES.signes),
     changeFrequency: "monthly",
     priority: 0.9,
   }));
 
-  const postRoutes: MetadataRoute.Sitemap = getAllPosts().map((p) => ({
-    url: `${base}/blog/${p.meta.slug}`,
+  const postRoutes: SitemapEntry[] = getAllPosts().map((p) => ({
+    path: `blog/${p.meta.slug}`,
     lastModified: new Date(p.meta.date),
-    changeFrequency: "yearly" as const,
+    changeFrequency: "yearly",
     priority: 0.7,
   }));
 
   // ✅ Pages de tags indexables uniquement (TAG_PAGES). Les tags « fins »
   //    restent en noindex et ne figurent pas dans le sitemap.
   //    lastModified = date de l'article le plus récent du tag.
-  const tagRoutes: MetadataRoute.Sitemap = Object.keys(TAG_PAGES).map((slug) => {
+  const tagRoutes: SitemapEntry[] = Object.keys(TAG_PAGES).map((slug) => {
     const posts = getPostsByTagSlug(slug);
     const latest = posts[0]?.meta.date;
     return {
-      url: `${base}/blog/tag/${slug}`,
+      path: `blog/tag/${slug}`,
       lastModified: new Date(latest ?? COLLECTION_DATES.maisons),
-      changeFrequency: "monthly" as const,
+      changeFrequency: "monthly",
       priority: 0.6,
     };
   });
 
-  return [
+  return expand([
     ...staticRoutes,
     ...houseRoutes,
     ...planetRoutes,
     ...signRoutes,
     ...postRoutes,
     ...tagRoutes,
-  ];
+  ]);
 }

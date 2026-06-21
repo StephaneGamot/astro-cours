@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "harmonieux",
+    "category": "aspect",
+    "term": "Harmonious",
+    "short": "Aspects or configurations that ease the free flow of energy.",
+    "body": "An aspect is said to be harmonious (mainly the trine and the sextile) when the two planets involved collaborate without friction. This points to innate talents, fortunate turns of destiny or a fluid psyche in the area concerned. The risk of an over-harmonious chart is inertia, for the individual feels no need to transform themselves or to struggle to obtain what they want."
+  },
+  {
+    "slug": "heliocentrisme",
+    "category": "concept",
+    "term": "Heliocentrism",
+    "short": "An astronomical model placing the Sun at the centre of the solar system, revolutionary for astrology.",
+    "body": "Heliocentrism, developed by Copernicus in the sixteenth century, radically transformed our understanding of the universe by placing the Sun at the centre of the solar system. In astrology, it opened the way to a more dynamic and less anthropocentric vision of the cosmos. Heliocentric astrology focuses on the positions of the planets relative to the Sun, offering a more universal perspective that is less centred on the Earth. Although less common than geocentric astrology, it is used by some astrologers to explore more spiritual or generational themes."
+  },
+  {
+    "slug": "hemicycle",
+    "category": "concept",
+    "term": "Hemicycle",
+    "short": "An arrangement of planets gathered within one half of the zodiac, indicating a concentration of energy.",
+    "body": "A hemicycle occurs when several planets are gathered within a zone of 180° or less of the zodiac. This configuration indicates an intense focusing of energy on a particular area of life, but also a polarisation that can create inner tensions. Planets in a hemicycle tend to reinforce one another, but also to confront opposing forces in the empty zones of the chart. The hemicycle can signal significant growth potential if the individual learns to integrate the concentrated energies and to face the challenges that this configuration can generate."
+  },
+  {
+    "slug": "henri-gouchon",
+    "category": "personnage",
+    "term": "Henri Gouchon",
+    "short": "French astrologer (1898-1978), famous for his dictionary and his research on vitality.",
+    "body": "Henri Gouchon is an essential figure of twentieth-century astrology. His 'Dictionnaire Astrologique' remained a standard reference for decades. He is especially known for his work on the Index of Planetary Concentration and for his statistical research on vitality and longevity (in connection with the Hyleg). Gouchon helped to codify traditional astrology while opening it to a more modern and fact-based verification."
+  },
+  {
+    "slug": "heredite",
+    "category": "concept",
+    "term": "Heredity",
+    "short": "The transmission of traits, talents and challenges from one generation to the next, symbolised by Houses IV and VIII.",
+    "body": "In astrology, heredity is often associated with the Fourth House (the home, the roots) and the Eighth House (shared resources, legacies). These houses reveal family influences, innate talents and the challenges handed down from generation to generation. Planets situated in these houses or in aspect to their cusps can indicate inherited gifts or karmic lessons stemming from the family lineage. Astrological heredity goes beyond mere biology to encompass the psychological and spiritual dynamics transmitted within a family."
+  },
+  {
+    "slug": "horizon",
+    "category": "astronomique",
+    "term": "Horizon",
+    "short": "The dividing line between the visible and invisible parts of the sky.",
+    "body": "The local horizon determines the Ascendant-Descendant axis. It divides the chart into two hemispheres: south (visible, conscious) and north (invisible, nocturnal). Symbolically, the horizon is the plane of manifestation where the pure energy of the heavenly bodies meets physical reality. A planet located on the horizon at the moment of birth is said to be 'angular' and deeply marks the personality."
+  },
+  {
+    "slug": "horoscope",
+    "category": "concept",
+    "term": "Horoscope",
+    "short": "Literally 'the one who examines the hour'; designates the Ascendant or the chart of the sky as a whole.",
+    "body": "The word comes from the Greek 'hōra' (hour) and 'skopos' (observer). Historically, the horoscope designated only the sign rising on the horizon (the Ascendant). By loose extension, today it refers to the media's sun-sign forecasts. In technical astrology, the horoscope is the geometric structure of the sky at a given moment, including planetary positions and house division."
+  },
+  {
+    "slug": "hyleg",
+    "category": "concept",
+    "term": "Hyleg",
+    "short": "The vital point or 'giver of life' in a natal chart according to traditional astrology.",
+    "body": "The Hyleg is a fundamental concept of ancient astrology (Hellenistic and medieval) used to determine the vital force and longevity of an individual. Its determination follows a strict protocol of priorities: one examines first the Sun, then the Moon, then the Ascendant, according to their position in the so-called 'hylegiacal' houses (I, VII, IX, X, XI). If the Hyleg is powerfully placed and well aspected by the benefics (Jupiter, Venus), the physical constitution is considered robust. Conversely, square or opposition aspects coming from the malefics (Mars, Saturn) toward the Hyleg were interpreted as threats to health or vitality."
+  }
+]

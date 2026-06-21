@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "quadrature",
+    "category": "aspect",
+    "term": "Cuadratura",
+    "short": "Sinónimo clásico de la cuadratura: aspecto de 90° entre dos planetas.",
+    "body": "La cuadratura es el término clásico y culto que designa lo que comúnmente se llama también cuadratura (square en inglés) en la astrología moderna. Se trata de un aspecto de 90° entre dos planetas, considerado tenso y dinámico. El término “cuadratura” proviene del latín quadratura, que designa la posición angular de un cuarto de círculo. En astronomía, se habla de cuadratura para describir la posición de un astro a 90° del Sol visto desde la Tierra. En astrología, la cuadratura conserva esta noción de ángulo recto generador de tensión. Los autores clásicos franceses (Barbault, Gouchon, Antarès) empleaban con gusto este término. Hoy ambos términos coexisten: “cuadratura” en los textos técnicos y “cuadrado” en el lenguaje corriente. La interpretación es estrictamente idéntica."
+  },
+  {
+    "slug": "quinconce",
+    "category": "concept",
+    "term": "Quincuncio",
+    "short": "Aspecto menor de 150° que indica una necesidad de ajuste entre dos energías divergentes.",
+    "body": "El quincuncio es un aspecto que relaciona dos signos que no tienen nada en común (ni el elemento, ni el modo, ni la polaridad). Esto crea una tensión sorda, una sensación de malestar que obliga a un ajuste permanente. A diferencia de la cuadratura, que es una crisis abierta, el quincuncio es una irritación sutil. Se le vincula a menudo con la salud o el servicio (por analogía con las casas VI y VIII). Es un aspecto de 'negociación' en el que se debe aprender a hacer convivir dos funciones planetarias que no se comprenden de manera natural."
+  },
+  {
+    "slug": "quintile",
+    "category": "aspect",
+    "term": "Quintil",
+    "short": "Aspecto menor de 72° asociado a la creatividad, el talento y la expresión única.",
+    "body": "El quintil es un aspecto que se forma cuando dos planetas están separados por un ángulo de 72° (o sus múltiplos: 144°, 216°, etc.). Tradicionalmente se asocia con la creatividad, el talento artístico o una expresión original. El quintil indica una energía que no sigue las reglas habituales, una capacidad para innovar o para encontrar soluciones inéditas. Es un aspecto de genio potencial, pero también de singularidad que puede resultar difícil de integrar socialmente. En la astrología moderna, el quintil suele considerarse un aspecto de 'don' o de 'misión', que revela una aptitud particular en un ámbito específico."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "quadrature",
+    "category": "aspect",
+    "term": "Quadrature",
+    "short": "The classical synonym for the square: a 90° aspect between two planets.",
+    "body": "Quadrature is the classical, scholarly term for what is commonly called a square in modern astrology. It is a 90° aspect between two planets, considered tense and dynamic. The word “quadrature” comes from the Latin quadratura, which denotes the angular position of a quarter of a circle. In astronomy, we speak of quadrature to describe the position of a celestial body at 90° from the Sun as seen from Earth. In astrology, quadrature retains this notion of a right angle that generates tension. Classical French authors (Barbault, Gouchon, Antarès) readily used this term. Today, the two terms coexist: “quadrature” in technical texts and “square” in everyday language. The interpretation is strictly identical."
+  },
+  {
+    "slug": "quinconce",
+    "category": "concept",
+    "term": "Quincunx",
+    "short": "A minor aspect of 150° indicating a need for adjustment between two divergent energies.",
+    "body": "The quincunx is an aspect that links two signs that have nothing in common (neither element, nor mode, nor polarity). This creates a muffled tension, a sense of unease that demands constant adjustment. Unlike the square, which is an open crisis, the quincunx is a subtle irritation. It is often linked to health or service (by analogy with the 6th and 8th houses). It is an aspect of 'negotiation' where one must learn to make two planetary functions that do not naturally understand each other coexist."
+  },
+  {
+    "slug": "quintile",
+    "category": "aspect",
+    "term": "Quintile",
+    "short": "A minor aspect of 72° associated with creativity, talent, and unique expression.",
+    "body": "The quintile is an aspect that forms when two planets are separated by an angle of 72° (or its multiples: 144°, 216°, etc.). It is traditionally associated with creativity, artistic talent, or original expression. The quintile indicates an energy that does not follow the usual rules, an ability to innovate or to find unprecedented solutions. It is an aspect of potential genius, but also of a singularity that can be difficult to integrate socially. In modern astrology, the quintile is often regarded as an aspect of 'gift' or 'mission', revealing a particular aptitude in a specific field."
+  }
+]

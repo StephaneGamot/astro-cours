@@ -1,0 +1,459 @@
+{
+  "slug": "cancer",
+  "nom": "Cancer",
+  "sousTitre": "The fourth sign of the Zodiac",
+  "devise": "I feel",
+  "periode": "June 21 – July 22",
+  "element": "Water",
+  "mode": "Cardinal",
+  "maitre": "Moon",
+  "exaltation": "Jupiter",
+  "exil": "Saturn",
+  "chute": "Mars",
+  "polarite": "Feminine",
+  "temperament": "Lymphatic",
+  "maisonNaturelle": 4,
+  "couleur": {
+    "primaire": "#9168F9",
+    "secondaire": "#C4B5FD",
+    "accent": "#E0E7FF",
+    "gradient": "from-violet-500 via-purple-400 to-indigo-300"
+  },
+  "navigation": {
+    "precedent": { "slug": "gemeaux", "nom": "Gemini" },
+    "suivant": { "slug": "lion", "nom": "Leo" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/cancer.webp",
+    "planete": "/images/planetes/lune.webp"
+  },
+  "introduction": "Cancer is the fourth sign of the Zodiac. It is the start of summer: the plant's growth is complete, and it will try to reproduce — this is the time of fertilisation. A Water sign, cardinal, feminine, nocturnal, ruled by the Moon, Cancer embodies the movement of return toward the inside. After Aries has initiated, Taurus has rooted and Gemini has set things circulating, Cancer invites us to feel, to remember, to protect. Its founding gesture is neither “I exist” nor “I have” nor “I think” — it is “I feel.” I contain, I nourish, I protect, I remember.",
+  "fondationsCosmiques": {
+    "texte": "Cancer belongs to the Water element (cold and humid), which gives it a lymphatic temperament: receptivity, emotional depth, slow assimilation. It is the first level of Water — that of instinct. Cancer picks up on moods, atmospheres, unspoken things and fragilities through a natural reflex, without prior analysis. Receptive to everything without necessarily drawing conscious advantage from it. Its mode is cardinal: it initiates a season, the birth of summer. Cardinal signs carry the urge to begin, to undertake, to set a movement in motion — in Cancer, this movement turns inward, toward the home, toward the protection of life.",
+    "courteAscension": "Cancer is a sign of long ascension, nocturnal, obedient (negative), northern, of right ascension, domestic, a reptile, fertile, tortuous, mute, of constitutional weakness and of small, thickset stature according to tradition. Tradition classes it among the commanding signs and attributes to it vehemence in vice.",
+    "pluton": "The exile of Saturn in Cancer underscores a fundamental tension between the sign's need for emotional security and the Saturnian demand for cold structure and autonomy. Cancer wants to protect and contain; Saturn wants to harden and detach. This is precisely the Cancer–Capricorn axis: vulnerability versus mastery, the home versus the ascent, belonging versus solitary responsibility."
+  },
+  "analogies": {
+    "animal": "The crab",
+    "objet": "The shell, the home, the vessel",
+    "fonction": "To protect, to contain, to nourish",
+    "texte": "Cancer evokes sensitivity, impressionability, caprice, change, dream, traditionalism, shyness. It is the poet, the traveller, the sailor, the family, the homebody, the dwelling, the home. When you observe a crab, you immediately grasp the psychology of Cancer: a hard shell protecting extremely tender flesh. Too sensitive, it needs to protect itself or to be protected. It does not show what it feels but immediately perceives others through its sensitivity."
+  },
+  "mythologie": {
+    "titre": "Hera's Crab and the Gate of Men",
+    "texte": "In Greek mythology, Cancer is associated with the crab sent by Hera to confront Heracles during his battle with the Lernaean Hydra. Although the crab is crushed under the hero's foot, Hera honours it for its loyalty and courage by placing it among the stars. This myth highlights Cancer's essential function: to protect, to support, to remain loyal even in the face of a superior force. The crab's gesture is not heroic in the martial sense — it is heroic in the maternal sense: to defend what matters, whatever the cost.",
+    "civilisations": "An older Greek myth tells how souls, called “bees,” descended from the Milky Way and incarnated by crossing the gateway of Cancer, the “Gate of Men.” The word “cardinal” comes from the Latin cardo, meaning “gate.” The whole symbolism of the sign rests on its relationship with the feminine principle. The Moon and its lunar deities — fertile goddesses who know the secrets of life and death — are mothers, lovers, sisters, initiators. In Celtic mythology, a cult is devoted to the matronae, deities of springs and fountains, linked to rites of fertility and birth. The myth of Oedipus, often connected to Cancer, expresses the confusions that can arise from the relationship to the mother, to woman, to the wife — difficulties later taken up by psychoanalysis."
+  },
+  "portrait": {
+    "temperament": "Cancer feels first and understands afterward. It picks up on moods, unspoken things, emotional inflections and fragilities with remarkable acuity. Its character is sensitive, protective, cautious, attached to the past, with a strong need for trust in order to open up fully. A very active imagination is the predominant faculty, accompanied by a good memory, a natural intuition and sometimes even a form of clairvoyance. The Cancer native rarely moves head-on: it goes around, observes, protects its inner world before revealing itself. It is very tender flesh inside a shell. In its relationships, it shows great sociability — it is helpful, understanding, compassionate and hates arguments. It will sometimes deny itself a pleasure in order to keep living in peace.",
+    "forces": [
+      "Great capacity for empathy and human understanding",
+      "A keen sense of protection and care",
+      "A deep link to memory and roots",
+      "Remarkable intuition, sometimes clairvoyance",
+      "Deep faithfulness and loyalty",
+      "Turning sensitivity into an understanding of life"
+    ],
+    "ombres": [
+      "Excessive withdrawal and touchiness",
+      "Fears linked to emotional insecurity",
+      "Emotional dependence and attachment to the past",
+      "A tendency toward caprice, inconstancy or letting go",
+      "Under strong dissonance: envious curiosity, gossip, disloyal manoeuvres"
+    ],
+    "besoinsVitaux": [
+      "Emotional security and a reassuring framework",
+      "Relationships of trust and intimacy",
+      "A sense of belonging and continuity"
+    ],
+    "aTravailler": [
+      "Expressing emotions without closing up",
+      "Making peace with the past",
+      "Daring conscious vulnerability",
+      "Distinguishing protection from confinement",
+      "Not expecting others to guess everything"
+    ],
+    "equilibre": "A Cancer in full command of their powers becomes a true emotional pillar, able to support without smothering and to protect without imprisoning. It turns its sensitivity into a force of care, welcome and understanding. Its memory becomes wisdom rather than nostalgia, and its attachment becomes living faithfulness rather than fear of loss. This is probably the finest signature for an attentive parent, a warm home and a deeply reassuring human presence."
+  },
+  "sante": {
+    "zones": ["Chest", "Stomach", "Digestive system", "Breasts", "Body fluids"],
+    "texte": "Cancer governs the bust, the chest, the breasts, the ribs, the cartilage, the sternum, the duodenum, the left eye, the intercostal muscles, the diaphragm and the stomach. It predisposes to ailments of the digestive system in all their forms: gastric dilation and prolapse, dyspepsia, gastralgia, atony, hypo- and hyperchlorhydria, ulcers. Several authors also attribute to it an influence on pulmonary disorders and the chest as a whole. The influence of heredity on the constitution is particularly important. Contrary to what one might expect of a lunar sign, Cancer does not seem to favour longevity according to certain statistical studies — natives of this sign are said to have less vitality than those of all other signs."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "A predominant and very active imagination, a good memory, intuition or even clairvoyance. Superstition, premonitions. Great curiosity, a taste for historical studies, sometimes poetic aptitudes. Little gift for the exact sciences. Deep but fleeting and changeable feelings, great sensitivity to the influence of those around. Reserved, shy, trusting, naive but good — not very resentful, affable and hospitable. A need for sympathy and an aspiration to create a peaceful home. Weak and irregular activity, a lack of initiative, but tenacity. A destiny dependent on the family circle, late advancement. Success in retail, in businesses connected with water and with the public."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "Earnings subject to many fluctuations whose amplitude can range from a few weeks to several years — especially seasonal earnings. Despite its whims, the subject shows tenacity in financial matters. Prosperity is usually greater during the latter part of life. Success is often ensured by good real-estate operations, by income from land or buildings. The family very often comes to the rescue. A position favourable to gains in occupations connected with liquids or involving frequent travel."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "Intellectual cultivation aided by a good memory and an intuition that supports understanding. An imagination usually very fertile, with a tendency to daydreaming. The subject is far more gifted for poetry, literature and the arts than for the sciences, but most often does not make use of it out of negligence or indifference. Studies sometimes slow due to intellectual laziness. Numerous family relationships, but interrupted by whims and short-lived fallings-out. A great attraction to travel by water and cruises — but more dreams than achievements."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "A happy position that favours the founding of a home and everything connected to the family, often large and united. Favourable to the preservation of patrimony, the acquisition of land or buildings. Changes of residence may be fairly frequent, but the end of life is usually peaceful. The subject's parents are sometimes capricious but well-intentioned. It is in this house that Cancer finds its most natural resonance."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Feelings sometimes lacking stability, a romantic spirit, a fairly powerful sensuality. Early romantic adventures often leading to the creation of a regular home. A love of children and usually numerous offspring, especially daughters. Real-estate investments can give good results and are the least dangerous. This sign grants a certain luck from the standpoint of speculation."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to the sign's ailments: stomach troubles in all forms, lymphatic disorders, pleurisy, pneumonia, abscesses. The influence of heredity on the constitution is particularly important. Subordinates are capricious and lazy. Success may be compromised by overly frequent changes of work. The native does well to work with their relatives or to choose collaborators from within the family circle."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "The desire to create a home eases marriage, sometimes hastened or delayed by the parents. The partner is very attached to home and children, but may display the capricious tendencies of Cancer, hence a sometimes turbulent married life. Partnerships with relatives are preferable to partnerships with strangers. If the house is afflicted, serious discord may arise. Frequent lawsuits over real-estate matters, sometimes even with relatives."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "An excellent omen for inheritances from one's forebears, especially when it comes to buildings or funds. This sign does not seem to favour longevity, and the end is often brought about by digestive complications. The fixed star Pollux, located at 22° of Cancer, can aggravate omens of a violent end if such omens already exist elsewhere in the chart."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "Favours spiritual or mystical tendencies as well as intuition or clairvoyance. The subject must beware of flights of imagination and utopian conceptions. It favours imaginative writing. A good position for long journeys by water, although plans and dreams are more numerous than achievements. Business, pleasure and leisure trips rather than adventurous explorations. Sometimes the subject leaves their native region to settle far away."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "The subject seeks a peaceful situation more than a prominent one, although this sign is favourable for winning the goodwill of the public. It orients toward careers connected with the liquid element. It seems to play a role in religious vocations. Often negligence limits or prevents professional success. Overly frequent changes harm the unfolding of destiny. The role of the family is important. The peak phase is reached only late in life."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Friendly relationships, especially with women, are numerous. Friends are helpful, kind, but a little capricious — one cannot always count on them. A few very devoted friendships are, however, indicated. In many cases, it is family relationships that take the place of friends. The warmth of the bonds is real but fluctuating."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "The same illnesses as for Cancer in the Sixth House, but with a worsened prognosis. The subject is envied by people in their circle. They enjoy the calm of home and sometimes accept obscure roles requiring great devotion to be of service to their family. Hidden enmities are numerous, but they do not seem very formidable."
+    }
+  ],
+  "amour": {
+    "texte": "Cancer loves with depth, a need for tenderness and a desire for security. It does not always open up quickly, but when it trusts, it attaches strongly and seeks to build an intimate, protective and lasting bond. It needs to feel that the relationship is a place where it can lay down its vulnerability without being hurt. On the emotional level, one may fear a few whims and imaginative infatuations, but in general the Cancer native will mainly seek the founding of a home and a calm, regular life. Only in very critical charts can one fear multiple affairs.",
+    "qualites": [
+      "Great emotional faithfulness",
+      "The ability to care for the other",
+      "Sincere and deep attachment",
+      "Gentleness, receptivity and a sense of intimacy",
+      "A will to protect the bond and the home"
+    ],
+    "vigilances": [
+      "May close up if it feels threatened or misunderstood",
+      "Risk of emotional dependence or excessive expectation",
+      "May live the past more strongly than the present",
+      "Touchiness when emotion is not welcomed"
+    ],
+    "affinites": ["taureau", "vierge", "scorpion", "poissons"]
+  },
+  "travail": {
+    "texte": "Cancer works well when it feels humanly useful, connected to a trusted environment and to a mission that carries emotional or protective meaning. It can be very committed, loyal and steady when it feels it belongs to a team, a place or an important role. In business, it is best not to offer it arduous or adventurous undertakings: what it needs is something simple, peaceful, regular and reliable in its results. Typical professions: historian, novelist, navigator, antiques dealer, food trades, trade in liquids, maritime shipping, removals, poetry, painting, politics.",
+    "atouts": [
+      "Professional faithfulness and loyalty",
+      "A sense of care and human attention",
+      "The ability to create a protective framework",
+      "Memory, intuition and an understanding of needs",
+      "Great tenacity despite appearances"
+    ],
+    "defis": [
+      "May withdraw if the climate becomes cold or aggressive",
+      "Tolerates dehumanised environments poorly",
+      "Risk of taking things too much to heart",
+      "Sometimes lacks self-confidence and initiative",
+      "A tendency toward letting go or daydreaming"
+    ]
+  },
+  "argent": {
+    "texte": "Cancer has an emotional relationship with money. It does not experience it merely as an abstract tool, but as a means to protect, secure, nourish and preserve the home. Its relationship to resources depends closely on its sense of inner security. Financial success is often ensured by good real-estate operations, by income from land or buildings. The family very often comes to the rescue. Prosperity is usually greater in the second part of life.",
+    "forces": [
+      "The ability to save in order to protect loved ones",
+      "A cautious and conservative relationship to resources",
+      "A deep sense of material security",
+      "Strong motivation when it comes to sheltering loved ones"
+    ],
+    "risques": [
+      "Fear of going without that can become overwhelming",
+      "Emotional or compensatory spending",
+      "Anxious attachment to material security",
+      "Difficulty taking financial risks"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Cancer builds a sensitive, protective identity, attached to roots, to the intimate and to the need for belonging.",
+      "manifestations": ["Emotional depth", "The ability to protect", "Faithfulness to what truly matters", "A strong link to roots"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Cancer is in one of its most natural expressions: deep emotions, great receptivity, strong attachment, a powerful emotional memory.",
+      "manifestations": ["Remarkable intuition", "Deep empathy", "The ability to contain and nourish", "Intense emotional receptivity"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Cancer thinks with memory, intuition and emotional resonance. Thought is sensitive, image-rich, personal, attached to lived experiences.",
+      "manifestations": ["A strong memory", "Intuitive intelligence", "The ability to speak with sensitivity", "Human understanding"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Cancer loves with tenderness, attachment, faithfulness and a need for emotional security. Pleasure comes through intimacy, gentleness and continuity.",
+      "manifestations": ["Great emotional gentleness", "Loyalty", "Tenderness", "The ability to build a protective bond"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Cancer acts through emotion, the protective instinct and the defence of emotional territory. The energy fluctuates but is very strong when something intimate is touched.",
+      "manifestations": ["Protective instinct", "The ability to defend what it loves", "Emotional perseverance", "Energy nourished by attachment"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Cancer amplifies empathy, the need for protection, generosity of heart and faith in the human bond. It is a position often seen as fertile and nourishing.",
+      "manifestations": ["Emotional generosity", "The ability to support", "Faith in the bond and the family", "Benevolent protection"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Cancer structures sensitivity, compels one to work on inner security and to build real emotional maturity.",
+      "manifestations": ["Gradual mastery of emotions", "Family or emotional responsibility", "The ability to become a pillar", "Slow but solid inner construction"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Cancer introduces ruptures, awakenings or needs for freedom into the world of home, family, roots and emotions.",
+      "manifestations": ["The ability to reinvent family or home", "Emotional awakening", "Liberation from old patterns", "A need for intimate renewal"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Cancer makes sensitivity extremely porous, intuitive, image-rich, sometimes mystical. Home, memory and emotions take on an enveloping dimension.",
+      "manifestations": ["Immense empathy", "Emotional imagination", "Compassion", "A sense of the invisible bond"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Cancer deeply transforms one's relationship to roots, family, memory, security and emotional attachments.",
+      "manifestations": ["Emotional power", "The ability to be reborn after losses", "Deep transformation of emotional legacies", "Intensity of the bond to one's origins"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "delicate",
+      "titre": "Sensitivity and directness",
+      "texte": "Cancer subtly feels what Aries expresses directly. The bond can be complementary but it calls for great tact and genuine respect of emotional rhythms. Cancer's protectiveness can reassure Aries's impulsiveness, but the latter's bluntness risks wounding a raw sensitivity.",
+      "forces": ["Complementarity between protection and action", "A capacity for mutual support", "The possibility of helping the bond grow"],
+      "frictions": ["Aries can be abrupt", "Cancer can withdraw", "Misunderstandings between speed and sensitivity"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "fluide",
+      "titre": "Gentleness, security and continuity",
+      "texte": "Cancer and Taurus can form a very reassuring, sensitive, stable and protective bond. One nourishes emotionally, the other stabilises concretely. Two signs that share a love of home, tenderness and duration.",
+      "forces": ["Tenderness", "Security", "Faithfulness", "Building a soothing home"],
+      "frictions": ["Possessiveness", "Difficulty changing", "Excessive attachment to emotional comfort"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "delicate",
+      "titre": "Emotion and mental movement",
+      "texte": "Cancer feels, Gemini explains. The bond can be enriching, but it calls for not setting emotional depth against mental lightness. Gemini's liveliness can air out Cancer's inner world, provided it does not trivialise it.",
+      "forces": ["Complementarity between feeling and language", "The possibility of humanising thought", "A rich exchange if each listens to the other"],
+      "frictions": ["Gemini can seem too light", "Cancer can seem too touchy", "A difference between the need for security and the need for air"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "fluide",
+      "titre": "Water and memory",
+      "texte": "Two Cancers can understand each other with great depth, intuition and delicacy. The bond can be very tender, protective and familiar — a true shared cocoon.",
+      "forces": ["Empathy", "Intuitive understanding", "Attachment", "Depth of the bond"],
+      "frictions": ["Mutual withdrawal", "Touchiness", "A tendency to feed each other's fears or nostalgia"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "stimulante",
+      "titre": "Intimate heart and radiant heart",
+      "texte": "Cancer protects, Leo radiates. The bond can be strong, warm and fertile, but it calls for harmonising Cancer's need for intimacy with Leo's need for visibility. When respect is mutual, it is a duo capable of creating a living, generous home.",
+      "forces": ["Generosity", "Warmth", "Loyalty", "The possibility of a truly living home"],
+      "frictions": ["Leo can take up too much space", "Cancer can seem too withdrawn", "A difference between intimacy and assertion"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Care and attention",
+      "texte": "Cancer and Virgo can create a discreet, useful, faithful and very attentive bond. One cares through emotion, the other through practical intelligence. A quiet but deeply supportive alliance.",
+      "forces": ["Mutual support", "Reliability", "A sense of human detail", "The ability to care"],
+      "frictions": ["Virgo can seem too critical", "Cancer can feel hurt too quickly", "Risk of overprotection or overcontrol"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "A need for intimacy and a need for harmony",
+      "texte": "Cancer seeks emotional security, Libra seeks relational balance. The bond can be gentle and delicate, but sometimes indecisive or frustrating if it lacks emotional truth.",
+      "forces": ["Sensitivity", "Gentleness", "A will to preserve the bond", "The ability to create a pleasant atmosphere"],
+      "frictions": ["Libra can seem too distant or mental", "Cancer can seem too fusional", "Difficulty expressing disagreements clearly"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "fluide",
+      "titre": "Deep water and loyalty",
+      "texte": "Cancer and Scorpio share an emotional intensity, a strong sense of the bond and great depth. The relationship can be very powerful and transformative — two Water beings who recognise each other in the depths.",
+      "forces": ["Intuition", "Loyalty", "Emotional depth", "The power of the bond"],
+      "frictions": ["Jealousy", "Possessiveness", "Deep wounds if trust is broken"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "variable",
+      "titre": "Refuge and horizon",
+      "texte": "Cancer seeks the home, Sagittarius seeks space. The bond can be enriching if each accepts that the other does not feel alive in the same way.",
+      "forces": ["Cancer brings inwardness, Sagittarius openness", "The possibility of mutual growth", "A broadening of the emotional world"],
+      "frictions": ["Sagittarius can seem too free or too direct", "Cancer can seem too cautious or attached", "A difference between security and expansion"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "complementaire",
+      "titre": "The Cancer–Capricorn axis",
+      "texte": "Cancer protects the inner world; Capricorn structures the outer world. It is a powerful axis between the need for belonging and responsibility, emotion and construction. Cancer's need to retreat into its cocoon is opposite and complementary to Capricorn's will to climb life's difficulties.",
+      "forces": ["A very strong complementarity", "The ability to build something solid", "A possible balance between heart and structure"],
+      "frictions": ["Capricorn can seem cold", "Cancer can seem too sensitive", "Conflict between vulnerability and mastery"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "delicate",
+      "titre": "Attachment and distance",
+      "texte": "Cancer seeks the warmth of the bond, Aquarius often seeks space, ideas and freedom. The relationship can be stimulating but also destabilising for Cancer's sensitivity.",
+      "forces": ["Cancer brings the human, Aquarius the vision", "The possibility of broadening sensitivity", "Complementarity between the intimate and the collective"],
+      "frictions": ["Cancer may suffer from Aquarius's distance", "Aquarius may feel smothered by the need for attachment", "Conflict between security and freedom"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "fluide",
+      "titre": "Sensitive water and compassion",
+      "texte": "Cancer and Pisces share great sensitivity, intuition and a deep relationship to feeling. The bond can be very gentle, inspired, enveloping — two inner worlds that recognise each other.",
+      "forces": ["Empathy", "Tenderness", "Emotional imagination", "Intuitive understanding"],
+      "frictions": ["Lack of boundaries", "Excessive fusion", "Risk of feeding each other's fears or confusion"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Cancer, it often means that you enter life with sensitivity, caution, receptivity and a need for security. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting often carries a gentle, protective tone, attentive to the atmosphere.",
+    "apparence": [
+      "A gentle or enveloping presence",
+      "A sensitive or dreamy gaze",
+      "An impression of reserve, modesty or delicacy",
+      "A protective bearing, sometimes a little cautious"
+    ],
+    "temperament": [
+      "Reacts first to the atmosphere",
+      "Needs security before opening up fully",
+      "Observes, feels, protects before acting head-on",
+      "Tolerates emotional brutality poorly"
+    ],
+    "vigilances": [
+      "Touchiness",
+      "Defensive withdrawal",
+      "Excessive attachment to the past",
+      "Fear of being hurt"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Sirius",
+      "nature": "Jupiter / Mars",
+      "texte": "Sirius is sometimes linked to a protective power, a vivid intensity and a form of greatness of heart. In a symbolic reading of Cancer, it can recall that sensitivity is not weakness, but a source of presence and loyalty.",
+      "motsCles": ["Radiance", "Protection", "Intensity", "Strength of heart"]
+    },
+    {
+      "nom": "Procyon",
+      "nature": "Mercury / Mars",
+      "texte": "Procyon brings a reactive, lively, protective tone, with a sense of reflex and defensive instinct. It harmonises with the sensitive and alert dimension of Cancer.",
+      "motsCles": ["Reactivity", "Instinct", "Speed", "Vigilance"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Moonstone", "motsCles": ["moon", "intuition", "receptivity", "sensitivity"] },
+      { "nom": "Pearl", "motsCles": ["water", "gentleness", "protection", "maturation"] },
+      { "nom": "Silver", "motsCles": ["moon", "reflection", "memory", "receptivity"] }
+    ],
+    "vegetaux": [
+      { "nom": "Chamomile", "motsCles": ["soothing", "gentleness", "care", "comfort"] },
+      { "nom": "Water lily", "motsCles": ["water", "intimacy", "sensitivity", "rest"] },
+      { "nom": "Willow", "motsCles": ["memory", "moon", "flexibility", "water"] }
+    ],
+    "animaux": [
+      { "nom": "Crab", "motsCles": ["protection", "shell", "caution", "sensitivity"] },
+      { "nom": "Turtle", "motsCles": ["refuge", "home", "caution", "duration"] },
+      { "nom": "Swan", "motsCles": ["water", "grace", "faithfulness", "depth"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Holland", "texte": "A traditional correspondence linked to water, protection, sensitive territory and a form of collective inwardness." },
+    { "pays": "Scotland", "texte": "A traditional symbolic attribution that varies between schools and authors." },
+    { "pays": "North and West Africa", "texte": "A correspondence stemming from a classical symbolism of astrological geography." },
+    { "pays": "New Zealand", "texte": "A symbolic reading linked to insularity, refuge and a form of natural protection." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Elon Musk", "domaine": "Entrepreneurship / Technology", "date": "June 28, 1971", "texte": "Intuitive intensity and a strong dimension of personal projection." },
+    { "nom": "Meryl Streep", "domaine": "Film", "date": "June 22, 1949", "texte": "Human depth, expressive sensitivity and great emotional richness." },
+    { "nom": "Tom Cruise", "domaine": "Film", "date": "July 3, 1962", "texte": "Intensity of presence and strong emotional involvement in action." },
+    { "nom": "Margot Robbie", "domaine": "Film", "date": "July 2, 1990", "texte": "A presence that is at once sensitive, luminous and embodied." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Cancer?",
+      "reponse": "Cancer is characterised by great sensitivity, a very active imagination, and a strong attachment to home and roots. It is a protective, intuitive, cautious temperament that needs emotional security to flourish. It can be capricious or withdrawn, but it is also one of the most empathetic, faithful and humanly understanding signs of the Zodiac."
+    },
+    {
+      "question": "What kind of lover is Cancer?",
+      "reponse": "Tender, faithful, protective and deeply attached. Cancer loves with a need for security and a desire for intimacy. It does not always open up quickly, but when it trusts, it invests with remarkable loyalty. It seeks to build a home, a cocoon, a place where vulnerability is welcomed."
+    },
+    {
+      "question": "What kind of worker is Cancer?",
+      "reponse": "Loyal, attentive, intuitive and steady when it feels it belongs to a trusted environment. It excels in human, educational, protective or care-related roles. It works well when it feels its contribution has emotional or protective meaning. It tolerates cold or dehumanised environments poorly."
+    },
+    {
+      "question": "Which house corresponds to Cancer?",
+      "reponse": "The Fourth House — that of roots, home, family, intimacy, memory and the inner place we come from. Its natural analogy with Cancer underscores the need for belonging, security, emotional continuity and refuge."
+    },
+    {
+      "question": "What is the ideal Ascendant for Cancer?",
+      "reponse": "A Capricorn Ascendant structures its sensitivity and gives it a foundation. A Taurus Ascendant reinforces its need for security. A Scorpio Ascendant deepens its intuition and emotional strength."
+    },
+    {
+      "question": "What are the flaws of Cancer?",
+      "reponse": "Touchiness, withdrawal, caprice and emotional dependence are its shadow zones. It may cling to the past, close up at the slightest knock and expect too much from others."
+    },
+    {
+      "question": "Is Cancer too sensitive?",
+      "reponse": "Its sensitivity is real and deep, ruled by the Moon. It becomes an asset when it is owned: empathy, intuition, human understanding. It only becomes a problem if it leads to defensive withdrawal."
+    }
+  ]
+}

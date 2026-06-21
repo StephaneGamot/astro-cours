@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "cadente",
+    "category": "maison",
+    "term": "Cadent",
+    "short": "Houses (III, VI, IX, XII) that “fall away” after the succedent houses.",
+    "body": "The cadent houses are traditionally seen as less powerful for concrete action, yet very important for the mind, communication and spirituality. A planet in a cadent house works more on the level of ideas or preparation than on that of immediate achievement. These houses lay the groundwork for the angle that follows."
+  },
+  {
+    "slug": "cancer",
+    "category": "signe",
+    "term": "Cancer",
+    "short": "The fourth sign (Water/Cardinal), symbolizing emotion, protection and family.",
+    "body": "Cancer opens the summer solstice. Ruled by the Moon, it is the guardian of intimacy, memories and the imagination. It represents the matrix, the need for emotional security and the bond with one’s origins. It is an energy of nurturing and care. Highly receptive, it can prove fiercely protective (its shell). Its challenge is not to wall itself off in the past or in excessive emotional dependence."
+  },
+  {
+    "slug": "capricorne",
+    "category": "signe",
+    "term": "Capricorn",
+    "short": "The tenth sign (Earth/Cardinal), symbolizing ambition, structure and time.",
+    "body": "Capricorn opens the winter solstice. Ruled by Saturn, it represents the slow ascent toward the summits, rigor, self-sufficiency and responsibility. It is the builder of society, capable of great sacrifices to reach its long-term goals. Its challenge is to thaw its apparent coldness and pessimism in order to reveal the deep integrity and wisdom that dwell within it."
+  },
+  {
+    "slug": "cardinal",
+    "category": "maison",
+    "term": "Cardinal",
+    "short": "A mode of energy linked to the start of the seasons, symbolizing initiative and action.",
+    "body": "The Cardinal mode gathers the signs that open the seasons: Aries (spring), Cancer (summer), Libra (autumn) and Capricorn (winter). In astrology, a strong cardinal emphasis in a chart points to an initiator’s temperament, an ability to launch projects and a drive toward impulse. It is an energy that pushes forward, creative and dynamic, although it may at times lack perseverance once the initial momentum has passed. The cardinal signs are the ‘engines’ of the zodiac."
+  },
+  {
+    "slug": "carre",
+    "category": "aspect",
+    "term": "Square",
+    "short": "An aspect of tension formed by a 90° angle between two planets.",
+    "body": "The square is a major aspect described as “dissonant” or “tense.” It forms when two planets are 90° apart (with a commonly accepted orb of 6° to 8° for the luminaries, 5° to 6° for the other planets). Contrary to popular belief, a square is not “bad”: it is dynamic. It creates an inner friction, a tension that drives one to act. Without squares in a chart, there may be a lack of motivation, ambition or fighting spirit. The square forces the native to resolve a conflict between two energies that do not naturally agree. For example, a Moon-Mars square creates a pull between the need for emotional security (Moon) and the impulse to act (Mars). Resolving this tension is the work of a lifetime, but it is precisely this work that builds strength of character. In traditional astrology the square was feared; in modern astrology it is regarded as an engine of growth."
+  },
+  {
+    "slug": "carre-en-t",
+    "category": "concept",
+    "term": "T-Square",
+    "short": "A configuration of tension formed by two planets in opposition, both square a third.",
+    "body": "The T-Square is one of the most dynamic figures in the chart. It generates considerable tension that drives the individual to act and to resolve conflicts. The “apex” planet (the one that receives both squares) is the discharge point for the stress. It is there that the most concrete achievements manifest, often after overcoming great difficulties. This is a frequent configuration in people with a great destiny or an iron will."
+  },
+  {
+    "slug": "carte-du-ciel",
+    "category": "concept",
+    "term": "Sky Map",
+    "short": "Synonym for the natal chart: a graphic representation of planetary positions at a given moment.",
+    "body": "The sky map is the historical term for what we now call the natal chart or birth chart. It depicts, as a circular diagram, the exact position of the planets, signs and houses at the precise moment of an event — usually a birth. The sky map can also be drawn for a specific event (horary astrology), for the founding of a company or for a country (mundane astrology). The term reminds us that astrology is first and foremost an art of observing the sky, transposed onto paper or screen. Three pieces of information are needed to cast a sky map: the date, the exact time and the geographic location. The chart is read by combining the planetary positions in sign, in house and the aspects they form with one another."
+  },
+  {
+    "slug": "cazimi",
+    "category": "concept",
+    "term": "Cazimi",
+    "short": "The word comes from the Arabic “kashmimi.” The state of a planet within 17 arc minutes of the Sun, granting it exceptional power.",
+    "body": "A ‘Cazimi’ planet is considered to be ‘in the heart of the Sun,’ which grants it an extremely powerful and beneficial energy. It is a rare and highly favorable position, for the planet is protected by the solar light and can express its potential to the fullest. For example, Mercury Cazimi is an indicator of great mental clarity and success in communication."
+  },
+  {
+    "slug": "ceres",
+    "category": "planète",
+    "term": "Ceres",
+    "short": "An asteroid linked to nourishment, motherhood and productivity.",
+    "body": "Ceres is the largest asteroid in the main belt. In astrology, it complements the Moon by describing how we care for others in daily life, our relationship to food, to agriculture and to the cycle of loss and reunion (the myth of Persephone)."
+  },
+  {
+    "slug": "chiron",
+    "category": "planète",
+    "term": "Chiron",
+    "short": "An asteroid/centaur symbolizing the “wounded healer.”",
+    "body": "Located between Saturn and Uranus, Chiron represents a deep psychological wound that seems impossible to heal in oneself, yet becomes a source of wisdom and healing for others. It shows how to transform suffering into a tool of understanding and compassion. It is the bridge between the personal planets and the transpersonal planets."
+  },
+  {
+    "slug": "chute",
+    "category": "concept",
+    "term": "Fall",
+    "short": "The state of weakness of a planet located in the sign opposite its place of exaltation.",
+    "body": "Fall is one of the two principal essential debilities, along with detriment. When a planet is in fall (for example, the Moon in Scorpio, since it is exalted in Taurus), its qualities express themselves with difficulty, in a roundabout or weakened way. The planet loses its splendor and its natural efficiency. In interpretation, this often suggests an area where the individual must show greater effort or awareness to make up for an original lack of fluency."
+  },
+  {
+    "slug": "claude-ptolemee",
+    "category": "personnage",
+    "term": "Claudius Ptolemy",
+    "short": "A 2nd-century Greek scholar, author of the Tetrabiblos, the founding text of Western astrology.",
+    "body": "Living in Alexandria, Ptolemy synthesized the astronomical and astrological knowledge of his time. His work, the “Tetrabiblos,” codified the rules of the signs, planets and aspects that are still used today. He laid the foundations of tropical astrology by tying it to the cycle of the seasons, giving a rational structure to the discipline that dominated learned thought for more than a thousand years."
+  },
+  {
+    "slug": "combuste",
+    "category": "concept",
+    "term": "Combust (Burnt)",
+    "short": "A planet weakened by its closeness to the Sun (between 17’ and 8°30’).",
+    "body": "When a planet is “burnt” by the Sun, its own characteristics are obscured or consumed by the solar power. The individual may struggle to express that function objectively. It is a major accidental debility in traditional astrology. Only the point of Cazimi (the heart of the Sun) cancels this negative effect."
+  },
+  {
+    "slug": "combustion",
+    "category": "concept",
+    "term": "Combustion",
+    "short": "The state of a planet located too close to the Sun (generally less than 8°30’).",
+    "body": "A ‘combust’ planet is considered weakened because it is symbolically burnt by the Sun’s rays, making its expression invisible or subject to the solar will. In ancient astrology, this is a serious debility. However, if the planet is within 17 arc minutes of the Sun, it is said to be ‘Cazimi’ (in the heart of the Sun) and instead becomes extremely powerful."
+  },
+  {
+    "slug": "comete",
+    "category": "astronomique",
+    "term": "Comet",
+    "short": "A long-haired celestial body perceived as an omen of exceptional events.",
+    "body": "Historically, comets were not included in the natal chart but were studied in mundane astrology as signals of major upheavals or the fall of rulers. Today, some astrologers study their passage in transit as triggers of rapid collective transformation. Yet they remain little used in individual astrology, for lack of sufficient data to interpret them reliably. Comets are messengers of the sky, heralds of profound change, but their symbolism has yet to be fully developed in contemporary astrological language."
+  },
+  {
+    "slug": "conception",
+    "category": "technique",
+    "term": "Conception",
+    "short": "The study of the moment of fertilization to complete the natal chart.",
+    "body": "Certain traditions (such as the Trutine of Hermes) seek to calculate the chart of conception in order to rectify the time of birth. The moment of biological incarnation is held to prepare the ground for the birth chart (Radix), offering clues about heredity and the gestation period."
+  },
+  {
+    "slug": "conjonction",
+    "category": "aspect",
+    "term": "Conjunction",
+    "short": "An aspect of fusion formed when two planets occupy the same degree of the zodiac (0°).",
+    "body": "The conjunction is the most powerful and concentrated aspect in astrology. It occurs when two planets (or more) are at the same degree of the zodiac, within orb (generally 8° to 10° for the luminaries, 6° to 8° for the others). Unlike the other aspects, the conjunction is by nature neither harmonious nor tense: it is a fusion. The energies of the two planets blend inseparably, for better or worse depending on the nature of the planets involved. A Venus-Jupiter conjunction is generally a gift of charm and amorous optimism. A Mars-Saturn conjunction can channel formidable energy but can also generate frustration. The conjunction considerably amplifies the planets involved and often forms the focal point of a natal chart. When three or more planets are in conjunction, we speak of a stellium."
+  },
+  {
+    "slug": "confusion",
+    "category": "aspect",
+    "term": "Confusion (aspect of)",
+    "short": "An old term denoting an aspect that blurs the clarity of planetary energies.",
+    "body": "In traditional astrology, the term “confusion” denotes a state in which planetary energies mingle in a disordered way, making their expression unclear for the native. This concept is particularly associated with Neptune, the planet of illusion and of the dissolution of boundaries. An aspect of confusion appears when a personal planet (Sun, Moon, Mercury) receives multiple and contradictory aspects, or when it is caught between harmonious and dissonant influences. The native may then feel a difficulty in clearly defining their motivations, feelings or choices in the area concerned. In modern astrology, we more readily speak of “nebulosity” or “haze.” Identifying these zones of confusion in a chart makes it possible to work consciously toward clarifying them."
+  },
+  {
+    "slug": "contre-antisce",
+    "category": "concept",
+    "term": "Contra-antiscion",
+    "short": "A point of symmetrical reflection across the axis of the equinoxes (Aries/Libra).",
+    "body": "The contra-antiscion is the point opposite the antiscion. While the antiscion is calculated with respect to the axis of the solstices (Cancer/Capricorn), the contra-antiscion uses the 0° Aries – 0° Libra axis. In interpretation, a planet in contra-antiscion with another often indicates a challenge or a hidden opposition. It is a shadow relationship similar in nature to the opposition, but one that works in a more subtle, almost unconscious way, within the psychic or eventful structure of the chart."
+  },
+  {
+    "slug": "coucher-heliaque",
+    "category": "astronomique",
+    "term": "Heliacal Setting",
+    "short": "The moment when a celestial body disappears into the glare of the setting Sun and becomes invisible.",
+    "body": "The heliacal setting is the reverse of the heliacal rising. When a planet draws too close to the Sun, it is immersed in its light and ceases to be visible to the naked eye. Symbolically, this represents a phase of inward turning, of “symbolic death” or withdrawal from the outer world. The planetary function no longer acts overtly but works in the depths of the unconscious or in secret."
+  },
+  {
+    "slug": "croissante",
+    "category": "concept",
+    "term": "Waxing (Planet)",
+    "short": "The state of a body whose light or separating distance is increasing.",
+    "body": "We speak chiefly of the waxing Moon between the New Moon and the Full Moon. By extension, a planet is said to be waxing relative to the Sun when it moves away from it toward the opposition. Symbolically, the waxing phase represents externalization, the accumulation of experience and the building of concrete forms in the world."
+  },
+  {
+    "slug": "culminante",
+    "category": "concept",
+    "term": "Culminating (Planet)",
+    "short": "A planet located at the highest point of the chart, near the Midheaven.",
+    "body": "The culminating planet is one of the most powerful indicators of vocation and public visibility. It “colors” the whole chart with its energy, for it is the most visible body at the moment of birth. It often indicates the nature of social success and the way the individual is perceived by the community."
+  },
+  {
+    "slug": "cuspide",
+    "category": "maison",
+    "term": "Cusp",
+    "short": "The point or dividing line marking the start of an astrological house.",
+    "body": "The cusp is the precise degree at which a house begins. The planet that rules the sign on which the cusp falls is called the ‘Ruler of the House.’ In astrology, a planet located just before a cusp (at 2 or 3 degrees) is held to belong already to the following house."
+  },
+  {
+    "slug": "cycle",
+    "category": "concept",
+    "term": "Cycle",
+    "short": "The periodic return of a body to a given position, or the relationship between two bodies.",
+    "body": "Astrology is a science of cycles. We distinguish the individual cycle (a planet’s revolution back to its natal position, e.g. the Saturn return at age 29) from the synodic cycle (the meeting of two planets, e.g. the Jupiter-Saturn cycle). Each cycle has a phase of seeding (conjunction), of crisis (square), of flowering (opposition) and of reckoning."
+  }
+]

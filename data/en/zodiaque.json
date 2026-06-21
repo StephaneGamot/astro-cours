@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "belier",
+    "name": "Aries",
+    "headline": "Aries represents the initial impulse",
+    "description": "Drive, courage and the need to act. It expresses the force of beginnings and the ability to set off without waiting.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/belier.webp",
+      "alt": "Astrological symbol of Aries"
+    }
+  },
+  {
+    "slug": "taureau",
+    "name": "Taurus",
+    "headline": "Taurus represents stability",
+    "description": "Grounding, steadiness and the search for security. It speaks of the relationship to the body, to pleasures and to what lasts over time.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/taureau.webp",
+      "alt": "Astrological symbol of Taurus"
+    }
+  },
+  {
+    "slug": "gemeaux",
+    "name": "Gemini",
+    "headline": "Gemini represents exchange",
+    "description": "Curiosity, movement and communication. They show how the mind observes, connects and shares information.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/gemeaux.webp",
+      "alt": "Astrological symbol of Gemini"
+    }
+  },
+  {
+    "slug": "cancer",
+    "name": "Cancer",
+    "headline": "Cancer represents protection",
+    "description": "Sensitivity, attachment and the need for emotional security. It speaks of the inner home and emotional roots.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/cancer.webp",
+      "alt": "Astrological symbol of Cancer"
+    }
+  },
+  {
+    "slug": "lion",
+    "name": "Leo",
+    "headline": "Leo represents self-expression",
+    "description": "Creativity, pride and the need to shine. It shows how the individual asserts their presence and seeks recognition.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/lion.webp",
+      "alt": "Astrological symbol of Leo"
+    }
+  },
+  {
+    "slug": "vierge",
+    "name": "Virgo",
+    "headline": "Virgo represents discernment",
+    "description": "Analysis, precision and an eye for detail. It expresses the need to understand, improve and make things useful.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/vierge.webp",
+      "alt": "Astrological symbol of Virgo"
+    }
+  },
+  {
+    "slug": "balance",
+    "name": "Libra",
+    "headline": "Libra represents balance",
+    "description": "Relationship, the search for harmony and a sense of justice. It shows how the bond with others is built.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/balance.webp",
+      "alt": "Astrological symbol of Libra"
+    }
+  },
+  {
+    "slug": "scorpion",
+    "name": "Scorpio",
+    "headline": "Scorpio represents depth",
+    "description": "Intensity, transformation and confronting the essential. It invites us to move through what is hidden in order to renew ourselves.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/scorpion.webp",
+      "alt": "Astrological symbol of Scorpio"
+    }
+  },
+  {
+    "slug": "sagittaire",
+    "name": "Sagittarius",
+    "headline": "Sagittarius represents the quest for meaning",
+    "description": "Exploration, broadening of vision and the search for truth. It speaks of the need to understand the world as a whole.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/sagittaire.webp",
+      "alt": "Astrological symbol of Sagittarius"
+    }
+  },
+  {
+    "slug": "capricorne",
+    "name": "Capricorn",
+    "headline": "Capricorn represents construction",
+    "description": "Responsibility, endurance and mastery of time. It shows how we build something solid and lasting.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/capricorne.webp",
+      "alt": "Astrological symbol of Capricorn"
+    }
+  },
+  {
+    "slug": "verseau",
+    "name": "Aquarius",
+    "headline": "Aquarius represents the collective vision",
+    "description": "Independence, innovation and the need for change. It expresses the ability to think differently and step outside the norms.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/verseau.webp",
+      "alt": "Astrological symbol of Aquarius"
+    }
+  },
+  {
+    "slug": "poissons",
+    "name": "Pisces",
+    "headline": "Pisces represent an all-encompassing sensitivity",
+    "description": "Empathy, imagination and the dissolution of boundaries. They speak of the connection to the subtle and the universal.",
+    "image": {
+      "src": "/images/zodiaque/sm-claude/poissons.webp",
+      "alt": "Astrological symbol of Pisces"
+    }
+  }
+]

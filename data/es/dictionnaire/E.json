@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "eau",
+    "category": "concept",
+    "term": "Agua",
+    "short": "Uno de los cuatro elementos: emociones, intuición, empatía y profundidad psíquica.",
+    "body": "El elemento Agua reúne los signos de Cáncer, Escorpio y Piscis. Representa el mundo de las emociones, de la intuición, de la empatía y del inconsciente. Los nativos fuertemente marcados por el Agua sienten las cosas antes de comprenderlas intelectualmente: captan los ambientes, absorben las emociones de los demás y poseen a menudo una sensibilidad casi mediúmnica. El Agua es fría y húmeda por naturaleza. Fertiliza, pero también puede desbordar. En exceso, el Agua produce hipersensibilidad, dependencia emocional o una tendencia a huir de la realidad. Una carta carente de Agua puede señalar una dificultad para acceder a las propias emociones, para mostrar empatía o para abandonarse en la intimidad. El Agua es el vínculo invisible entre los seres — nos recuerda que todos estamos conectados por la misma fuente emocional."
+  },
+  {
+    "slug": "eclipses",
+    "category": "astronomique",
+    "term": "Eclipses",
+    "short": "Fenómenos de alineación del Sol, la Luna y los Nodos, que provocan cambios bruscos.",
+    "body": "Los eclipses (solares o lunares) se producen cerca de los nodos lunares. Se consideran “aceleradores del destino.” Un eclipse aporta a menudo revelaciones, finales repentinos o nuevos comienzos radicales en la casa donde cae."
+  },
+  {
+    "slug": "ecliptique",
+    "category": "astronomique",
+    "term": "Eclíptica",
+    "short": "Trayectoria aparente anual del Sol alrededor de la Tierra.",
+    "body": "Es el cinturón sobre el que se proyectan los doce signos del zodíaco. La eclíptica está inclinada 23°26’ respecto al ecuador celeste, lo que genera el ciclo de las estaciones. En astrología, la eclíptica es el camino del alma, el marco geométrico en el que se inscriben las interacciones planetarias."
+  },
+  {
+    "slug": "ephemerides",
+    "category": "concept",
+    "term": "Efemérides",
+    "short": "Tablas que indican las posiciones exactas de los planetas para cada día del año.",
+    "body": "Las efemérides son tablas astronómicas que dan la posición de cada planeta en grados, minutos y segundos para cada día a una hora determinada (generalmente 0h o 12h TU). Son la herramienta básica de todo astrólogo: sin efemérides, es imposible levantar una carta natal o calcular tránsitos. Antes de la era informática, los astrólogos utilizaban efemérides impresas, a menudo publicadas a lo largo de varias décadas (las Efemérides de Raphael o las de Die Deutsche Ephemeriden eran las más reputadas). Hoy, los programas de astrología integran directamente las efemérides, pero las versiones en papel siguen siendo utilizadas por numerosos practicantes que prefieren el rigor del cálculo manual. Las efemérides incluyen también las retrogradaciones, los cambios de signo y las fases de la Luna."
+  },
+  {
+    "slug": "equinoxes",
+    "category": "astronomique",
+    "term": "Equinoccios",
+    "short": "Momentos del año en que el día y la noche tienen una duración igual.",
+    "body": "Hay dos equinoccios: el de primavera (entrada del Sol en Aries) y el de otoño (entrada del Sol en Libra). En astrología, marcan puntos de bascula energéticos mayores. El equinoccio de primavera se considera el comienzo del año astrológico, simbolizando el renacimiento y el impulso vital."
+  },
+  {
+    "slug": "etat-celeste",
+    "category": "concept",
+    "term": "Estado celeste",
+    "short": "Balance de las fuerzas y debilidades intrínsecas de un planeta en su signo.",
+    "body": "El estado celeste determina la calidad moral y la potencia de un planeta antes incluso de analizar su acción concreta (estado terrestre). Se calcula sumando sus dignidades y restando sus debilidades. Un planeta con un excelente estado celeste producirá resultados benéficos, incluso en una casa difícil."
+  },
+  {
+    "slug": "etoiles-fixes",
+    "category": "concept",
+    "term": "Estrellas fijas",
+    "short": "Puntos estelares casi inmóviles que añaden una coloración específica a los grados del zodíaco.",
+    "body": "Las estrellas fijas son las estrellas visibles del cielo nocturno, por oposición a los planetas (“astros errantes” en griego). Aunque se desplazan muy lentamente (alrededor de 1° cada 72 años a causa de la precesión de los equinoccios), se consideran fijas a la escala de una vida humana. La astrología tradicional concede una gran importancia a ciertas estrellas de primera magnitud. Algol (26° Tauro), considerada la más violenta, se asocia a los peligros extremos. Régulo (0° Virgo, antiguamente en Leo) confiere éxito y resplandor — pero con un riesgo de caída si el orgullo domina. Spica (24° Libra) es una de las más benéficas, aportando talento artístico y protección. Cuando un planeta natal se encuentra en conjunción estrecha (orbe de 1° a 2°) con una estrella fija mayor, la interpretación de la carta se enriquece considerablemente."
+  },
+  {
+    "slug": "exaltation",
+    "category": "concept",
+    "term": "Exaltación",
+    "short": "Signo en el que un planeta expresa sus cualidades de manera amplificada y brillante.",
+    "body": "La exaltación es una de las cuatro dignidades esenciales de la astrología tradicional. Un planeta en exaltación se encuentra en un signo donde puede expresarse con esplendor, a veces incluso con exceso — como un invitado de honor en una fiesta dedicada a él. Las exaltaciones clásicas son: el Sol en Aries, la Luna en Tauro, Mercurio en Virgo, Venus en Piscis, Marte en Capricornio, Júpiter en Cáncer y Saturno en Libra. Un planeta exaltado es poderoso, pero puede carecer de templanza: Venus en Piscis ama con devoción, pero puede hundirse en el sacrificio amoroso. La exaltación debe distinguirse del domicilio: en el domicilio, el planeta está en su casa y domina su territorio; en exaltación, brilla pero no gobierna. El signo opuesto a la exaltación es la caída, donde el planeta está debilitado."
+  },
+  {
+    "slug": "exil",
+    "category": "concept",
+    "term": "Exilio",
+    "short": "Signo opuesto al domicilio de un planeta, donde su energía está constreñida e incómoda.",
+    "body": "El exilio (o detrimento) es la posición más incómoda para un planeta: se encuentra en el signo opuesto al que rige. Marte en Libra (opuesto de Aries), Venus en Escorpio (opuesto de Tauro), el Sol en Acuario (opuesto de Leo). El planeta en exilio debe lidiar con valores que no son los suyos: Marte en Libra debe negociar en lugar de lanzarse, Venus en Escorpio ama con una intensidad que desborda el marco venusino habitual. El exilio no es una condena: indica simplemente que la expresión de esta energía exige un esfuerzo suplementario, una adaptación. Numerosas personalidades notables tienen planetas en exilio en su carta — precisamente porque la dificultad las ha empujado a desarrollar cualidades compensatorias originales. El exilio invita a encontrar una expresión creativa y personal en lugar de convencional."
+  }
+]

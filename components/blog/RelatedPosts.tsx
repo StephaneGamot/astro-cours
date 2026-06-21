@@ -1,24 +1,21 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
-import { getRelatedPosts } from "@/lib/blog";
+import { getLocale, getTranslations } from "next-intl/server";
+import { getRelatedPosts, postSlugFor } from "@/lib/blog";
 
 /**
- * Bloc « Articles liés » — affiché en bas de chaque article du blog.
- *
- * Pourquoi : renforce le maillage interne sémantique (chaque article gagne
- * 3–4 liens contextuels supplémentaires vers d'autres articles partageant
- * au moins un tag). Améliore le crawl, l'indexation et le temps passé.
- *
- * Sélection : `getRelatedPosts` scoré par nombre de tags communs.
+ * Bloc « Articles liés » — maillage interne sémantique localisé.
  */
-export function RelatedPosts({
+export async function RelatedPosts({
   currentSlug,
   max = 4,
 }: {
   currentSlug: string;
   max?: number;
 }) {
-  const related = getRelatedPosts(currentSlug, max);
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: "blog" });
+  const related = getRelatedPosts(currentSlug, locale, max);
   if (related.length === 0) return null;
 
   return (
@@ -31,31 +28,28 @@ export function RelatedPosts({
           id="related-posts-heading"
           className="font-serif text-2xl tracking-tight text-text sm:text-3xl"
         >
-          À lire ensuite
+          {t("related")}
         </h2>
         <Link
           href="/blog"
           className="rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-xs font-medium text-text/70 transition hover:border-rose-400/30 hover:bg-rose-400/10 hover:text-rose-300"
         >
-          Tout le blog →
+          {t("all")} →
         </Link>
       </header>
 
-      <ul
-        role="list"
-        className="grid gap-5 sm:grid-cols-2 lg:grid-cols-2"
-      >
+      <ul role="list" className="grid gap-5 sm:grid-cols-2 lg:grid-cols-2">
         {related.map(({ meta }) => (
           <li key={meta.slug}>
             <Link
-              href={`/blog/${meta.slug}`}
+              href={`/blog/${postSlugFor(meta.slug, locale)}`}
               className="group block overflow-hidden rounded-2xl border border-white/10 bg-black/20 transition hover:border-rose-400/30 hover:bg-white/[0.04]"
             >
               {meta.cover ? (
                 <div className="relative h-40 w-full overflow-hidden">
                   <Image
                     src={meta.cover}
-                    alt={`Illustration de l’article : ${meta.title}`}
+                    alt={meta.title}
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     className="object-cover transition duration-300 group-hover:scale-[1.03]"

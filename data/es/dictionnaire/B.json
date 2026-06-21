@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "balance",
+    "category": "signe",
+    "term": "Libra",
+    "short": "Séptimo signo (Aire/Cardinal), que simboliza la armonía, la relación y la justicia.",
+    "body": "Libra abre el equinoccio de otoño, momento de equilibrio entre el día y la noche. Regida por Venus, está volcada hacia el otro y la búsqueda del consenso. Encarna la estética, la diplomacia y la necesidad de paz social. Es a través de Libra que el individuo aprende el «Nosotros». Su desafío es no perderse en los compromisos y aprender a decidir con firmeza para mantener una verdadera equidad."
+  },
+  {
+    "slug": "belier",
+    "category": "signe",
+    "term": "Aries",
+    "short": "Primer signo del zodíaco (Fuego/Cardinal), que simboliza el impulso y la renovación.",
+    "body": "Aries marca el equinoccio de primavera, el instante en que la vida brota de la tierra. Regido por Marte, es una energía de acción pura, de audacia y de afirmación de sí mismo. En tanto que primer signo, representa el estado de conciencia naciente, el «Yo soy» que aún no se complica con matices. Su desafío es aprender la perseverancia y canalizar su fuerza impulsiva sin volverse destructivo."
+  },
+  {
+    "slug": "benefique",
+    "category": "concept",
+    "term": "Benéfico",
+    "short": "Tradicionalmente, planetas (Venus, Júpiter) o aspectos que aportan suerte y facilidad.",
+    "body": "En astrología tradicional, Venus es el pequeño benéfico y Júpiter el gran benéfico. Por extensión, el trígono y el sextil son aspectos benéficos. La astrología moderna matiza este término señalando que demasiada facilidad puede llevar a la pereza o a la ausencia de evolución."
+  },
+  {
+    "slug": "biquintile",
+    "category": "aspect",
+    "term": "Biquintil",
+    "short": "Sinónimo de bi-quintil: aspecto de 144° que indica una creatividad dominada.",
+    "body": "El término 'biquintil' es una variante ortográfica de 'bi-quintil'. Designa el mismo aspecto de 144° entre dos planetas, asociado a la creatividad, al talento y a la expresión original. En astrología moderna, ambos términos se utilizan indistintamente para hablar de este aspecto menor que revela una capacidad de innovar o de encontrar soluciones inéditas."
+  }
+]

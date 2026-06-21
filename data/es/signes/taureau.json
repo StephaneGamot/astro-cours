@@ -1,0 +1,460 @@
+{
+  "slug": "taureau",
+  "nom": "Tauro",
+  "sousTitre": "El segundo signo del Zodiaco",
+  "devise": "Yo tengo",
+  "periode": "21 de abril – 20 de mayo",
+  "element": "Tierra",
+  "mode": "Fijo",
+  "maitre": "Venus",
+  "exaltation": "Luna",
+  "exil": "Marte",
+  "chute": "Urano",
+  "polarite": "Femenino",
+  "temperament": "Nervioso",
+  "maisonNaturelle": 2,
+  "couleur": {
+    "primaire": "#059669",
+    "secondaire": "#84CC16",
+    "accent": "#D4A574",
+    "gradient": "from-emerald-600 via-green-500 to-lime-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "belier", "nom": "Aries" },
+    "suivant": { "slug": "gemeaux", "nom": "Géminis" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/taureau.webp",
+    "planete": "/images/planetes/venus.webp"
+  },
+  "introduction": "Tauro es el segundo signo del Zodiaco. A mediados de la primavera, tras el empuje inicial de Aries, llega la consolidación: las fuerzas vitales se encarnan y echan raíces para asegurar la subida de la savia. Allí donde Aries arranca, Tauro consolida. Transforma el impulso en continuidad, el ímpetu en forma estable. Signo de Tierra, fijo, regido por Venus y lugar de exaltación de la Luna, Tauro lleva en sí una energía de estabilización, de fecundidad y de construcción paciente. No precipita nada, enraíza. No teoriza, encarna. Su gesto fundador no es «yo existo» sino «yo tengo»: tengo un cuerpo, tengo recursos, tengo un valor, tengo un lugar en el mundo concreto.",
+  "fondationsCosmiques": {
+    "texte": "Tauro pertenece al elemento Tierra (frío y seco), lo que, según la tradición, le confiere un temperamento nervioso: eficacia práctica, resistencia, considerable potencial de realización. Es el primer nivel de la Tierra: el del instinto. Siente instintivamente lo concreto, le gusta disfrutar de lo bello y lo bueno, no por egoísmo, sino porque siente que eso lo nutre y lo vuelve sólido. Su modo es fijo: corresponde a la mitad de una estación, al momento en que las fuerzas están estabilizadas, concentradas. Los signos fijos dan estabilidad, firmeza, una personalidad poderosa e independencia. Los proyectos suelen llevarse a término. Tauro es un signo pasivo (o femenino, receptor, introvertido): encaja en lugar de defenderse, pero tiene una gran resistencia, una energía profunda y estable, y muchos recursos interiores.",
+    "courteAscension": "Tauro es un signo de ascensión corta —atraviesa el horizonte con relativa rapidez— y un signo nocturno. La tradición lo clasifica entre los signos septentrionales, animales, cuadrúpedos y de pequeña talla recia.",
+    "pluton": "La caída de Urano en Tauro subraya la tensión entre la necesidad de estabilidad propia de este signo y los trastornos que este planeta impone. Urano en Tauro crea una fricción entre lo que quiere permanecer en su sitio y lo que exige cambiar, una tensión que a menudo se manifiesta en los ámbitos de la economía, los valores y la relación con la materia."
+  },
+  "analogies": {
+    "animal": "El toro",
+    "objet": "La tierra fértil, la piedra, el zócalo",
+    "fonction": "Estabilizar, nutrir, conservar",
+    "texte": "Tauro evoca la potencia realizadora, la perseverancia, la obstinación, la solidez. Es el campo, la tierra, el labrador. Simboliza los instintos, la potencia, la fuerza vital que se encarna y echa raíces, la subida de la savia para la realización de las formas, los verdes pastos abundantes. Su función es estabilizar lo que se ha iniciado, nutrir lo que crece, conservar lo que tiene valor."
+  },
+  "mythologie": {
+    "titre": "El Minotauro y la fecundidad de Zeus",
+    "texte": "Tauro aparece en numerosos mitos como figura de fecundidad, potencia vital y abundancia. El rey Minos había recibido de Poseidón un toro blanco de magnífica belleza que debía sacrificar, pero se negó y lo sustituyó por otro. Poseidón, al advertir el engaño, lo castigó enviando al toro a fecundar a su mujer. El Minotauro nació de esa unión: un monstruo con cuerpo humano pero cabeza de toro. Teseo, guiado por el hilo de Ariadna, logró vencer al monstruo en el corazón del laberinto. El amor reina en este mito: primero el amor carnal, reflejo de la naturaleza instintiva del signo, y luego el amor-ternura de Ariadna por Teseo, que ilumina su camino y lo conduce fuera de la prisión de la que el hombre debe liberarse. Tauro debe aprender a pagar lo que debe, a no hacer trampas con el precio real de las cosas.",
+    "civilisations": "En la tradición griega, Zeus se transforma en toro: una fuerza tranquila, atractiva, protectora, que avanza sin agitación pero con evidencia. Dioniso, hijo de Zeus, se identificaba con un toro en los ritos dionisíacos: los iniciados debían consumir la carne de un toro para unirse al espíritu del dios del florecimiento sensorial. Su presencia en el corazón de la primavera representa la vida que brota con profusión. Tauro simboliza así la vida encarnada —el vínculo con la tierra, el cuerpo, la materia fecunda— y la capacidad de hacer durar lo que se ha iniciado."
+  },
+  "portrait": {
+    "temperament": "Tauro se toma su tiempo para evaluar antes de comprometerse: no le gusta ni la agitación gratuita ni la precipitación impuesta. Su carácter es estable, fiel, a menudo tranquilo en apariencia, con una fuerte necesidad de continuidad y coherencia. Prefiere las realidades tangibles a las promesas vagas, y la solidez discreta a los grandes efectos espectaculares. La comprensión no siempre es rápida, la imaginación poco activa, pero estas aparentes carencias se compensan ampliamente con la reflexión, la concentración, la paciencia y, a menudo, el empeño. El nativo de Tauro puede aportar una suma considerable de trabajo y adquirir los mismos conocimientos que los sujetos de signos más vivos, pero a su propio ritmo. Cuando es inmaduro, puede volverse terco, posesivo o pasivo. Cuando madura, se convierte en una fuerza de anclaje, de paz y de construcción notable.",
+    "forces": [
+      "Capacidad de construir a largo plazo",
+      "Anclaje sólido en lo real",
+      "Sentido de lo concreto, de la duración y del valor",
+      "Perseverar sin dispersarse",
+      "Crear un marco estable y tranquilizador",
+      "Dar una forma sólida a una idea o a un proyecto"
+    ],
+    "ombres": [
+      "Inercia ante el cambio",
+      "Dificultad para soltar",
+      "Rigidez en los hábitos o apego excesivo",
+      "Cóleras violentas y bruscas cuando se le lleva al límite",
+      "Obstinación en realizaciones que superan sus capacidades"
+    ],
+    "besoinsVitaux": [
+      "Seguridad material y afectiva",
+      "Marco estable y referencias sencillas",
+      "Ritmo regular, confort, continuidad"
+    ],
+    "aTravailler": [
+      "Aceptar el cambio sin perder su centro",
+      "Flexibilizar los hábitos",
+      "Distinguir seguridad de apego",
+      "Evitar encerrarse en el confort",
+      "Iniciar a veces el movimiento antes de verse forzado"
+    ],
+    "equilibre": "Un Tauro en plena posesión de sus medios se vuelve apacible sin ser inmóvil, fiel sin ser posesivo, sólido sin ser rígido. Encarna una estabilidad viva: una base que sostiene, no una prisión. Su fuerza se vuelve nutricia, protectora, tranquilizadora, capaz de durar sin endurecerse."
+  },
+  "sante": {
+    "zones": ["Cuello", "Garganta", "Cuerdas vocales", "Mandíbula", "Cerebelo"],
+    "texte": "Tauro gobierna el cuello, la garganta, la nuca, el bulbo raquídeo, el cerebelo, el paladar, la mandíbula inferior, los oídos, la lengua, los órganos de la fonación, la tráquea, las amígdalas y la tiroides. Predispone a todos los males de las vías respiratorias altas: anginas, traqueítis, estomatitis, aftas, otitis, paperas. La tiroides y las glándulas endocrinas de esta zona pueden dar problemas, con repercusiones en el metabolismo y el crecimiento. Además, este signo puede predisponer a los problemas ligados a esfuerzos demasiado prolongados o a los excesos alimentarios. En general, la constitución es robusta, con una fuerza física notable y una gran capacidad de recuperación."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "La posición natural de Tauro. La mente es positiva, concreta, casi exclusivamente preocupada por realidades materiales. La comprensión es más bien lenta pero profunda, la capacidad de trabajo considerable. Dominan el sentido común, la fidelidad, la constancia y la lealtad. La voluntad es obstinada y la fuerza de resistencia enorme. El nativo es tranquilo, previsor, sensual, a veces goloso. Las aptitudes artísticas y los dones oratorios son apreciables. Éxito a fuerza de trabajo y perseverancia, pero a menudo con falta de flexibilidad."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "Posición muy favorable para las finanzas. Tauro en la Casa II presagia un sentido práctico desarrollado, una apreciable capacidad de adquisición y regularidad en las ganancias gracias a los esfuerzos sostenidos. Busca el beneficio por medios sencillos pero seguros. Poco inclinado a las empresas aventuradas. Ganancias posibles en la agricultura, la ganadería, los negocios inmobiliarios, las minas, el comercio de primera necesidad. A veces avidez de ganancia, incluso avaricia."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Intelecto orientado a las cosas prácticas. El sujeto busca siempre sacar partido de sus conocimientos y lo logra la mayoría de las veces. Gran capacidad de trabajo intelectual. No parece facilitar mucho los viajes. El entendimiento con hermanos puede verse comprometido por aversiones tenaces u obstinaciones que a menudo tienen su origen en una cuestión de dinero o de herencia."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "Buen signo para el patrimonio y las herencias, sobre todo cuando se trata de bienes inmuebles. De buen augurio para la seguridad material durante la última parte de la vida. Las relaciones con la familia ascendiente pueden verse perturbadas por la obstinación de ambas partes, pero el marco familiar suele seguir siendo sólido."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Sensualidad fuerte pero sin depravación. Pocas aventuras sentimentales: los afectos son profundos y duraderos, pero a veces con celos. Signo bastante favorable al nacimiento de varios hijos. Poco inclinado al juego y a las especulaciones, pero ganancias posibles en inversiones inmobiliarias y en todo lo relacionado con la tierra. Bastante favorable a las carreras artísticas."
+    },
+    {
+      "numero": 6,
+      "titre": "El día a día y la salud",
+      "texte": "Predispone a las enfermedades de Tauro: dolores de garganta de todo tipo (angina, traqueítis), trastornos de crecimiento y de asimilación por su influencia en las glándulas endocrinas. En general, el sujeto encuentra fácilmente un trabajo estable a su gusto. Los colaboradores son fieles y pueden ayudar considerablemente a la edificación de la fortuna."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "A menudo un matrimonio de interés, más bien tardío, pero estable porque el sujeto ha sopesado largamente el pro y el contra. El cónyuge es previsor, ahorrador, fiel, pero a menudo obstinado y a veces celoso. Asociaciones más bien favorables, sobre todo profesionalmente. Riesgo de pleitos largos. Los enemigos son temibles porque son poderosos y tenaces."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Buen pronóstico para las herencias, sobre todo si se trata de tierras o inmuebles. La muerte, cuando la indica este signo, suele estar causada por sus enfermedades propias. Este signo también puede predisponer a finales súbitos o accidentales, pero un solo indicio nunca basta para confirmarlo."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Las tendencias espirituales, si existen, chocan con las exigencias prácticas de la vida y cuesta que se manifiesten plenamente. Pocos o ningún gran viaje, pero los que ocurren pueden ser muy importantes y provocar un cambio profundo de situación."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "Situación habitualmente sólida y estable. Pocos cambios, pero los que ocurren a menudo modifican totalmente la vida del sujeto. El ascenso es lento, a veces difícil, y exige un trabajo asiduo y mucha paciencia. Sin embargo, el éxito es muy frecuente gracias a cierta suerte, a la persistencia y a la suma de trabajo aportada. Posibilidad de notoriedad tras un trabajo laborioso y de importancia excepcional. Fracaso por falta de adaptación y de flexibilidad."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Amistades numerosas y fieles entre personas de ambos sexos, pero a veces demasiado absorbentes. Los amigos pueden ocasionar problemas por su falta de diplomacia. Una vez concedida la confianza, Tauro no cambia de opinión: tendrás un amigo con quien podrás contar en toda circunstancia."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Mismas predisposiciones a la enfermedad que para Tauro en la Casa VI, pero aquí el mal puede volverse crónico. Los enemigos son temibles por su obstinación. Es preferible no desenmascararlos abiertamente, sino hacer intervenir el sentido de la diplomacia. El sujeto debe luchar contra celos tenaces."
+    }
+  ],
+  "amour": {
+    "texte": "Tauro ama con profundidad, continuidad y sensualidad. No busca necesariamente la excitación inmediata: quiere sentir que un vínculo se instala, que toma cuerpo, que se vuelve fiable, habitable y nutricio. A menudo prefiere la constancia real a las promesas brillantes pero inestables. Confiado en la buena impresión que produce su fuerza física, no exenta de encanto, irá directo al grano. Su vida sentimental será casi siempre sin sobresaltos, con dos condiciones: el acuerdo físico y la ausencia de celos.",
+    "qualites": [
+      "Fidelidad afectiva profunda",
+      "Capacidad de amar en la duración",
+      "Presencia tranquilizadora y protectora",
+      "Sensualidad, dulzura y apego concreto",
+      "Gusto por construir un vínculo estable y habitable"
+    ],
+    "vigilances": [
+      "Posesividad o celos si se instala la inseguridad",
+      "Dificultad para aceptar los cambios de ritmo en la relación",
+      "Apego a una forma de confort que puede ahogar el impulso",
+      "Riesgo de quedarse demasiado tiempo en una situación por miedo a perder",
+      "Cóleras violentas si se siente traicionado o engañado"
+    ],
+    "affinites": ["vierge", "capricorne", "cancer", "poissons"]
+  },
+  "travail": {
+    "texte": "Tauro trabaja con método, resistencia y atención a lo concreto. No es necesariamente el más rápido al principio, pero suele estar entre los mejores para sostener, estabilizar, hacer crecer, asegurar y volver duradero lo que se ha empezado. Su ámbito predilecto incluye la agricultura, el inmobiliario, el comercio de primera necesidad, las industrias de la madera, pero también —bajo la influencia de Venus— la música, las artes, el canto y el arte oratorio.",
+    "atouts": [
+      "Constancia y fiabilidad en el tiempo",
+      "Capacidad de repetir y profundizar un saber hacer",
+      "Sentido del resultado concreto y tangible",
+      "Aptitud para gestionar recursos de forma duradera",
+      "Considerable capacidad de trabajo"
+    ],
+    "defis": [
+      "Resistencia a los cambios impuestos",
+      "Ralentización en las fases de ruptura o urgencia",
+      "Desconfianza excesiva hacia la innovación",
+      "Riesgo de instalarse en una rutina asfixiante",
+      "Falta de flexibilidad y de adaptación"
+    ]
+  },
+  "argent": {
+    "texte": "Tauro mantiene una relación fuerte con el dinero, porque está ligado al valor, a la posesión y a la seguridad material. Puede ser muy ahorrador, muy gestor, muy prudente; o, al contrario, gastar mucho en confort, calidad, belleza y placer, según lo que asocie con la seguridad y la satisfacción. La fortuna crece progresivamente gracias al trabajo regular y al sentido del ahorro.",
+    "forces": [
+      "Sentido de la duración y de la acumulación",
+      "Capacidad de preservar lo adquirido",
+      "Relación concreta con el valor",
+      "Aptitud para construir una seguridad material progresiva"
+    ],
+    "risques": [
+      "Miedo a que falte",
+      "Apego excesivo a las posesiones",
+      "Dificultad para asumir un riesgo útil",
+      "Gastos de confort, de lujo o de placer sensorial"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Tauro construye una identidad estable, encarnada, fiable y apegada a los valores concretos. Necesita sentir que existe a través de algo sólido, duradero y tangible.",
+      "manifestations": ["Estabilidad interior", "Perseverancia", "Sentido de la continuidad", "Fuerza tranquila"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Tauro vive las emociones a través de la necesidad de paz, continuidad, dulzura y seguridad sensorial. Protege y nutre: por eso se siente tan bien en Tauro, su signo de exaltación.",
+      "manifestations": ["Calma emocional", "Necesidad de dulzura", "Fidelidad afectiva", "Capacidad de tranquilizar"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Tauro piensa despacio pero con solidez. La mente busca comprender por lo concreto, retener, estabilizar y expresar con claridad lo que ha madurado.",
+      "manifestations": ["Pensamiento sereno", "Memoria fiable", "Pragmatismo", "Comunicación sencilla y concreta"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Tauro está en una de sus expresiones más naturales: gusto por lo bello, lo dulce, la carne, el placer, la fidelidad y la armonía duradera.",
+      "manifestations": ["Sensualidad", "Lealtad afectiva", "Gusto por lo bello y lo simple", "Capacidad de amar con profundidad"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Tauro actúa con lentitud, potencia y tenacidad. La energía no es explosiva: se instala, se ancla, empuja, resiste y aguanta.",
+      "manifestations": ["Resistencia", "Acción duradera", "Aguante", "Tenacidad notable"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Tauro hace crecer mediante la paciencia, la estabilidad y la construcción progresiva. Amplifica el sentido de los recursos y del tiempo largo.",
+      "manifestations": ["Confianza en la duración", "Crecimiento progresivo", "Relación fértil con la materia", "Capacidad de hacer fructificar"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Tauro estructura la materia, los recursos, la relación con la posesión y la seguridad. Da una fuerte conciencia de lo que dura, de lo que cuesta y de lo que se merece.",
+      "manifestations": ["Disciplina material", "Rigor", "Fiabilidad", "Capacidad de construir con solidez"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Tauro crea una tensión entre la necesidad de estabilidad y los trastornos de valores. Despierta lo que parecía fijo en la materia, la economía, el cuerpo o la seguridad.",
+      "manifestations": ["Capacidad de reformar lo concreto", "Inteligencia del cambio útil", "Innovación aplicada a la materia"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Tauro busca un ideal de paz, de naturaleza, de dulzura, de belleza sencilla y de fusión sensorial con lo vivo.",
+      "manifestations": ["Inspiración dulce", "Sensibilidad a la belleza encarnada", "Vínculo fuerte con la paz y la naturaleza"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Tauro transforma profundamente la relación con la materia, la posesión, los valores y la seguridad. Empuja a morir a ciertos apegos para hacer emerger un valor más esencial.",
+      "manifestations": ["Potencia de regeneración material", "Capacidad de reconstruir tras una pérdida", "Relación intensa con el valor real"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "delicate",
+      "titre": "Impulso y estabilidad",
+      "texte": "Tauro busca el tiempo, la continuidad y el anclaje, mientras que Aries busca el impulso, la rapidez y la apertura. La relación puede ser complementaria, pero exige un verdadero respeto de los ritmos.",
+      "forces": ["Complementariedad entre iniciativa y resistencia", "Posibilidad de construir tras un buen arranque", "Anclaje concreto de una energía viva"],
+      "frictions": ["Aries encuentra a Tauro lento", "Tauro encuentra a Aries brusco", "Terquedad por ambas partes"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "fluide",
+      "titre": "Tierra y continuidad",
+      "texte": "Dos Tauro se entienden a menudo por la necesidad de paz, estabilidad, confort y lealtad. El vínculo puede ser muy tranquilizador, sensual y duradero.",
+      "forces": ["Estabilidad", "Fidelidad", "Sensualidad", "Construcción en la duración"],
+      "frictions": ["Rutina", "Rigidez", "Apego excesivo", "Dificultad para hacer evolucionar el vínculo"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "variable",
+      "titre": "Estabilidad y movimiento",
+      "texte": "Tauro quiere estabilizar, Géminis quiere circular. La relación puede ser estimulante si cada uno acepta que el otro no funciona al mismo ritmo.",
+      "forces": ["Complementariedad entre lo concreto y la curiosidad", "Enriquecimiento mutuo", "Uno da una base, el otro da aire"],
+      "frictions": ["Tauro puede encontrar a Géminis inestable", "Géminis puede encontrar a Tauro estancado", "Diferencia entre seguridad y variedad"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "fluide",
+      "titre": "Tierra nutricia y agua protectora",
+      "texte": "Tauro y Cáncer pueden formar un dúo muy apaciguador, sensible y protector. Uno tranquiliza con la presencia, el otro con el calor afectivo.",
+      "forces": ["Seguridad", "Dulzura", "Apego", "Capacidad de crear un hogar estable"],
+      "frictions": ["Posesividad", "Miedos a perder", "Dificultad para salir de una zona de confort emocional"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "stimulante",
+      "titre": "Estabilidad y resplandor",
+      "texte": "Tauro construye, Leo irradia. El vínculo puede ser rico, creativo y cálido, pero cada uno tiene una manera distinta de ocupar su lugar.",
+      "forces": ["Gusto por lo bello", "Lealtad", "Fuerza de presencia", "Construcción visible y duradera"],
+      "frictions": ["Orgullo", "Terquedad", "Necesidad de reconocimiento de Leo frente a la tranquilidad de Tauro"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Tierra y método",
+      "texte": "Tauro y Virgo comparten el gusto por lo concreto, el realismo y la coherencia. El vínculo puede ser muy sólido, útil, sencillo y duradero.",
+      "forces": ["Pragmatismo", "Fiabilidad", "Sentido del día a día", "Construcción paciente"],
+      "frictions": ["Tauro puede encontrar a Virgo demasiado crítico", "Virgo puede encontrar a Tauro demasiado estancado", "Exceso de prudencia"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "complementaire",
+      "titre": "Dos signos de Venus, dos estilos",
+      "texte": "Tauro y Libra comparten Venus, pero no de la misma manera: uno quiere encarnar y poseer, el otro vincular y armonizar. El vínculo puede ser elegante y agradable, pero exige ajustes.",
+      "forces": ["Gusto por lo bello", "Sentido de los valores", "Búsqueda de armonía", "Afinidad venusina"],
+      "frictions": ["Tauro quiere lo concreto", "Libra quiere vínculo y movimiento relacional", "Diferencia entre seguridad y diplomacia"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "intense",
+      "titre": "Eje Tauro–Escorpio",
+      "texte": "Tauro protege, Escorpio transforma. Es un eje poderoso de posesión, valor, deseo, miedo a perder y profundidad. La atracción puede ser muy fuerte.",
+      "forces": ["Magnetismo", "Lealtad posible", "Complementariedad entre estabilidad y profundidad", "Potencia del vínculo"],
+      "frictions": ["Posesividad", "Celos", "Pulsos de fuerza", "Dificultad para soltar"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "variable",
+      "titre": "Anclaje y horizonte",
+      "texte": "Tauro busca la continuidad, Sagitario busca la apertura y el movimiento. La relación puede ser enriquecedora si la estabilidad no se vuelve encierro y la libertad no se vuelve huida.",
+      "forces": ["Uno da una base, el otro una perspectiva", "Crecimiento concreto posible", "Gusto por la sinceridad"],
+      "frictions": ["Tauro puede encontrar a Sagitario inestable", "Sagitario puede encontrar a Tauro cerrado", "Enraizamiento contra expansión"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "fluide",
+      "titre": "Tierra y resistencia",
+      "texte": "Tauro y Capricornio pueden construir juntos algo muy sólido. Uno nutre, el otro estructura; uno estabiliza, el otro organiza.",
+      "forces": ["Resistencia", "Realismo", "Construcción a largo plazo", "Sentido de la responsabilidad"],
+      "frictions": ["Capricornio puede parecer demasiado duro", "Tauro puede parecer demasiado instalado", "Riesgo de relación funcional pero poco móvil"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "delicate",
+      "titre": "Valores estables y libertad de ruptura",
+      "texte": "Tauro quiere conservar lo que tiene valor; Acuario a veces quiere romper lo que se fija. El vínculo puede ser apasionante, pero también profundamente desestabilizador para ambos.",
+      "forces": ["Posibilidad de reinventar cimientos", "Complementariedad entre lo concreto y la visión", "Estimulación real"],
+      "frictions": ["Tauro soporta mal lo imprevisible", "Acuario soporta mal la fijación", "Conflicto entre seguridad y libertad"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "fluide",
+      "titre": "Tierra dulce y agua sensible",
+      "texte": "Tauro puede ofrecer un marco estable a Piscis, mientras que Piscis aporta inspiración, ternura y profundidad sensible. El vínculo puede ser muy dulce y envolvente.",
+      "forces": ["Ternura", "Dulzura", "Complementariedad entre carne e imaginario", "Vínculo apaciguador"],
+      "frictions": ["Tauro puede encontrar a Piscis demasiado difuso", "Piscis puede encontrar a Tauro demasiado concreto", "Necesidad de forma contra necesidad de disolución"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Tauro, entras en la vida con calma, presencia, prudencia y necesidad de continuidad. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, presentarte y reaccionar lleva a menudo una tonalidad estable, sensual y concreta.",
+    "apparence": [
+      "Presencia tranquila y serena",
+      "Porte estable o anclado",
+      "Voz a menudo marcada o agradable",
+      "Impresión de solidez, de dulzura o de consistencia"
+    ],
+    "temperament": [
+      "Reacciona lenta pero seguramente",
+      "Necesita tiempo para comprometerse o cambiar",
+      "Busca referencias concretas",
+      "Soporta mal la agitación inútil"
+    ],
+    "vigilances": [
+      "Lentitud excesiva",
+      "Resistencia al cambio",
+      "Apego a los hábitos",
+      "Posesividad"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Aldebarán",
+      "nature": "Marte / Júpiter",
+      "texte": "Aldebarán es una de las estrellas fijas más conocidas de la zona de Tauro. Refuerza una idea de potencia encarnada, de tensión dominada, de grandeza potencial y de fuerza orientada hacia un objetivo.",
+      "motsCles": ["Nobleza", "Potencia", "Éxito", "Intensidad"]
+    },
+    {
+      "nom": "Capella",
+      "nature": "Mercurio / Marte",
+      "texte": "Capella añade una nota de finura, de adaptación mental y de inteligencia concreta. Recuerda que la estabilidad de Tauro no tiene por qué ser pesada: también puede acompañarse de competencia y habilidad.",
+      "motsCles": ["Habilidad", "Viveza", "Destreza", "Inteligencia práctica"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Esmeralda", "motsCles": ["venus", "armonía", "dulzura", "fertilidad"] },
+      { "nom": "Cuarzo rosa", "motsCles": ["ternura", "paz", "amor", "dulzura"] },
+      { "nom": "Cobre", "motsCles": ["venus", "belleza", "receptividad", "placer"] }
+    ],
+    "vegetaux": [
+      { "nom": "Rosa", "motsCles": ["amor", "belleza", "dulzura", "refinamiento"] },
+      { "nom": "Salvia", "motsCles": ["protección", "anclaje", "estabilidad", "cuidado"] },
+      { "nom": "Tilo", "motsCles": ["sosiego", "descanso", "dulzura", "confort"] }
+    ],
+    "animaux": [
+      { "nom": "Toro", "motsCles": ["fuerza", "estabilidad", "potencia", "fecundidad"] },
+      { "nom": "Vaca", "motsCles": ["alimento", "paz", "fecundidad", "paciencia"] },
+      { "nom": "Paloma", "motsCles": ["paz", "dulzura", "armonía", "ternura"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Suiza", "texte": "Estabilidad, valor, seguridad, relación con la materia y solidez duradera." },
+    { "pays": "Irlanda", "texte": "Atribución simbólica tradicional que depende de las escuelas y los autores." },
+    { "pays": "Chipre", "texte": "Simbolismo de Venus, de la fecundidad, de la belleza y de la dulzura encarnada." },
+    { "pays": "Irán", "texte": "Correspondencia que procede de una tradición simbólica de geografía astrológica." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Penélope Cruz", "domaine": "Cine", "date": "28 de abril de 1974", "texte": "Una imagen que mezcla sensualidad, constancia y presencia encarnada." },
+    { "nom": "George Clooney", "domaine": "Cine", "date": "6 de mayo de 1961", "texte": "Presencia estable, dominada y duradera." },
+    { "nom": "Adele", "domaine": "Música", "date": "5 de mayo de 1988", "texte": "Profundidad vocal, constancia expresiva y fuerte presencia sensible." },
+    { "nom": "Audrey Hepburn", "domaine": "Cine", "date": "4 de mayo de 1929", "texte": "Elegancia, gracia, dulzura y una belleza sencilla pero duradera." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Tauro?",
+      "reponse": "Tauro se caracteriza por la estabilidad, la paciencia, la fidelidad y el sentido de lo concreto. Es un temperamento tranquilo y resistente que necesita seguridad y continuidad para realizarse. Puede ser terco y posesivo, pero también es uno de los signos más fiables, constantes y constructores del Zodiaco."
+    },
+    {
+      "question": "¿Qué tipo de amante es Tauro?",
+      "reponse": "Sensual, fiel, profundo y protector. Ama en la duración, con constancia y dulzura. Necesita un vínculo estable, carnal y tranquilizador. Soporta mal la infidelidad y puede volverse celoso si su necesidad de seguridad se ve amenazada."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Tauro?",
+      "reponse": "Un constructor paciente y resistente. Destaca en las tareas de largo plazo, la gestión concreta y la construcción progresiva. Necesita ver un resultado tangible y un marco estable. Está menos cómodo con los cambios bruscos o la improvisación permanente."
+    },
+    {
+      "question": "¿Qué casa corresponde a Tauro?",
+      "reponse": "La Casa II, la de los recursos, los bienes adquiridos, las posesiones, la seguridad material y la relación con el valor. Su analogía natural con Tauro subraya la necesidad de estabilidad, encarnación, continuidad y anclaje concreto."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Tauro?",
+      "reponse": "El ascendente Cáncer refuerza su dulzura y su sentido del hogar. El ascendente Capricornio amplifica su solidez y su resistencia. El ascendente Piscis suaviza su rigidez y estimula su imaginación."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Tauro?",
+      "reponse": "La terquedad, la posesividad, la resistencia al cambio y los celos son sus zonas de sombra. Llevado al límite, puede estallar en cóleras violentas y bruscas difíciles de contener."
+    },
+    {
+      "question": "¿Por qué es Tauro tan terco?",
+      "reponse": "Su naturaleza fija y terrestre le da una voluntad obstinada. Necesita tiempo para evaluar y comprometerse. Una vez tomada su decisión, cuestionarla equivale a amenazar su seguridad interior."
+    }
+  ]
+}

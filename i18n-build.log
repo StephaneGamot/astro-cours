@@ -1,0 +1,13 @@
+
+> astro-cours@0.1.0 build
+> next build
+
+
+> Build error occurred
+Error: EPERM: operation not permitted, unlink '/sessions/sleepy-lucid-dirac/mnt/astro-cours/.next/.fuse_hidden0000037a00000001'
+    at ignore-listed frames {
+  errno: -1,
+  code: 'EPERM',
+  syscall: 'unlink',
+  path: '/sessions/sleepy-lucid-dirac/mnt/astro-cours/.next/.fuse_hidden0000037a00000001'
+}

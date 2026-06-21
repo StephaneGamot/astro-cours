@@ -1,0 +1,457 @@
+{
+  "slug": "verseau",
+  "nom": "Aquarius",
+  "sousTitre": "The eleventh sign of the Zodiac",
+  "devise": "I understand",
+  "periode": "January 20 – February 18",
+  "element": "Air",
+  "mode": "Fixed",
+  "maitre": "Saturn (traditional) / Uranus (modern)",
+  "exaltation": "—",
+  "exil": "Sun",
+  "chute": "—",
+  "polarite": "Masculine",
+  "temperament": "Sanguine",
+  "maisonNaturelle": 11,
+  "couleur": {
+    "primaire": "#3B82F6",
+    "secondaire": "#06B6D4",
+    "accent": "#818CF8",
+    "gradient": "from-blue-500 via-cyan-400 to-teal-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "capricorne", "nom": "Capricorn" },
+    "suivant": { "slug": "poissons", "nom": "Pisces" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/verseau.webp",
+    "planete": "/images/planetes/uranus.webp"
+  },
+  "introduction": "Aquarius is the eleventh sign of the Zodiac. The Sun crosses it between roughly January 20 and February 18, in the heart of winter, at the moment when the light discreetly returns to gain ground on the darkness, when an inner exuberance succeeds the austerity of Capricorn, when the mind seeks to leap beyond established structures.\n\nWith its two waves as its symbol, Aquarius is a water-bearer — not an emotional water, but a water of knowledge, of vision, of consciousness poured out upon the world. After the patient construction of Capricorn, Aquarius opens the doors: it questions, reforms, connects, invents. It is no accident that astrology places it at the hinge between the architecture of the past and the promise of the future: Aquarius embodies the gesture that says \"I understand\" — and, having understood, seeks to make the world evolve.",
+  "fondationsCosmiques": {
+    "texte": "Aquarius belongs to the Air element (warm and humid), which gives it a sanguine temperament: exchange, mental mobility, a capacity for communication and adaptation. It is the third level of Air — that of sublimation. Where Gemini explores and circulates, where Libra connects and harmonises, Aquarius transcends: it uses intelligence to think beyond the known, to link the individual to the collective, to imagine forms of life and thought that do not yet exist.\n\nIts mode is fixed: contrary to the image of instability sometimes attributed to it, Aquarius possesses a powerful stability, firmness and independence. It carries its projects through to the end with a perseverance that can surprise. Opinions are constant, the will persistent, intellectual commitment deep. An active, emissive and extroverted sign, it projects its energy outward — but this energy is first mental and conceptual before being physical.",
+    "courteAscension": "Aquarius is a sign of short ascension — it passes quickly above the horizon — which means that, statistically, fewer people are born with Aquarius as their Ascendant.",
+    "pluton": "Aquarius is the traditional diurnal domicile of Saturn, the planet of time, structure and wisdom acquired through experience. Since the discovery of Uranus in 1781, many modern astrologers have attributed to it the rulership of Aquarius, so well does this planet of rupture, innovation and freedom correspond to the deep temperament of this sign.\n\nThe question of the dual rulership Saturn–Uranus is essential to understanding Aquarius: Saturn gives it its rigour, its constancy and its ability to structure time; Uranus gives it its brilliance, its originality and its visceral need for freedom. The destiny of every Aquarius is to pass from one to the other — from conservation to invention, from the gateway of the past to the horizon of the future."
+  },
+  "analogies": {
+    "animal": "No specific animal — the water-bearer is human",
+    "objet": "The current, the network, the pouring vase, the lightning bolt",
+    "fonction": "To innovate, to connect, to awaken",
+    "texte": "Aquarius is the sign of originality, inspiration, invention and novelty. The scientist, the engineer, the inventor, the eccentric — all are archetypes of this sign. Just as the water-bearer pours upon the world a water meant to quench the thirst of minds rather than that of bodies, the native of Aquarius seeks to transmit, to connect, to advance. It is progress with its promises and its constraints. It is the impulse toward the future, the taste for new theories, the attraction to everything off the beaten path. Aquarius inscribes in the Zodiac, as an inescapable fact, its belonging to the whole of humankind."
+  },
+  "mythologie": {
+    "titre": "Prometheus and Pandora",
+    "texte": "Aquarius is linked to the myth of Prometheus, the visionary titan who stole fire from the gods to give it to humans — not a physical fire, but the fire of intelligence, knowledge and consciousness. This act, natural for Prometheus, was a crime for the gods. Zeus had him chained to a rock where an eagle eternally devoured his liver, an organ that ceaselessly regenerates.\n\nPrometheus embodies the Aquarian hero par excellence: visionary, rebellious out of altruism, ready to confront supreme authority to lift humanity to a higher level. The other side of the myth, Pandora, recalls that knowledge has a price: to open the jar is to release all evils — but also hope. Both tales say the same thing: knowledge must not be idle curiosity, it brings nothing if it is not allied with wisdom. Uranus must ally with Saturn. There is no shortcut to acquiring true knowledge.",
+    "civilisations": "Aquarius is also associated with Janus, the two-faced god: one face turned toward the past (Saturn), the other toward the future (Uranus). With one hand Janus closes a door — to find the solitude dear to Saturn — with the other he opens one onto a wide horizon — to find freedom, the primordial oxygen of Uranus.\n\nIn Mesopotamian mythology, Ea, the god of fresh water and wisdom, poured the water of knowledge upon the earth. In Egypt, the god Hapi poured the waters of the Nile while holding two vases — a nourishing and civilising symbol. Aquarius runs through the civilisations as the bearer of one and the same promise: that of a water made not for the body but for the mind."
+  },
+  "portrait": {
+    "temperament": "Aquarius thinks differently, observes from a distance and seeks to understand systems, groups, ideas and possible futures. Curiosity is usually very great, one might say universal; assimilation is easy, which allows the acquisition of vast knowledge. The subject is mainly drawn to new theories, recent discoveries and everything at the forefront of progress. The gifts of invention are very considerable, and intuition often intervenes in a fortunate way.\n\nIts character is independent, original, often surprising, with a strong need for intellectual freedom and inner coherence. Very fond of independence, sometimes prone to a spirit of contradiction, it disdains chatter and useless relationships, appreciating only strong personalities with whom it can engage in learned discussions. It is never a socialite, but a thinker, an independent, an original who submits with difficulty to conventions.\n\nActivity is considerable but sometimes diffuse: the subject can make very prolonged efforts when absorbed in a piece of research, but can also waste its faculties in the pursuit of utopian projects. When immature, it can become unpredictable, detached or rebellious without an axis; when it matures, it becomes a force of renewal, lucidity and human openness.",
+    "forces": [
+      "Thinking differently and questioning norms that have become sterile",
+      "Connecting people, ideas and systems into a fertile network",
+      "Anticipating developments that most do not yet see",
+      "Serving a cause larger than oneself with selflessness",
+      "Introducing innovation into a frozen system",
+      "Maintaining intellectual independence even under pressure"
+    ],
+    "ombres": [
+      "Difficulty getting emotionally involved in close relationships",
+      "Systematic opposition or a sterile spirit of contradiction",
+      "Disconnection from the concrete or from the near-human in favour of abstraction",
+      "Utopian conceptions that compromise success through a lack of practical sense",
+      "A tendency to take refuge in mental distance to avoid intimacy"
+    ],
+    "besoinsVitaux": [
+      "Freedom of thought and action, without arbitrary constraint",
+      "Spaces of intellectual exchange and collective projects",
+      "Meaningful ideals that go beyond strictly personal interest"
+    ],
+    "aTravailler": [
+      "Linking idea to emotion and vision to feeling",
+      "Anchoring innovation in the real and the concrete",
+      "Accepting human limits and the imperfections of daily life",
+      "Not taking refuge in distance to avoid true intimacy",
+      "Distinguishing healthy independence from relational cut-off"
+    ],
+    "equilibre": "An Aquarius in full command of their powers becomes an accessible visionary, able to inspire without excluding, to reform without destroying. It puts its originality at the service of the collective and of human progress. Its freedom no longer destroys the bond: it opens new forms of relationship, thought and solidarity. Its detachment becomes a lucid serenity, and its thought, instead of isolating it, connects it to the world in a truer and vaster way."
+  },
+  "sante": {
+    "zones": ["Ankles", "Calves", "Nervous circulation", "Circulatory system"],
+    "texte": "Aquarius governs the ankles, the calves, the nervous system and the circulation of the blood. It predisposes to varicose veins, varicose ulcers, spinal disorders, sprains and nervous or cardiac complications. The nervous system is particularly taxed in this cerebral sign, and ailments coming from this axis can be transmitted by heredity.\n\nAquarius natives must take care not to exhaust their nervous energy in activities that are too exclusively mental, and to maintain good blood circulation through regular physical exercise. The legs, the ankles and the whole circulatory network call for particular attention, especially in periods of intellectual overwork."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "Curiosity is universal, assimilation easy, knowledge vast. The subject is drawn to new theories, recent discoveries and everything off the official path. The gifts of invention are very considerable, and intuition often intervenes in a fortunate way. Very fond of independence, little expansive in appearance, it appreciates only strong personalities. Activity is considerable but often diffuse: it can make prolonged efforts when a piece of research fascinates it, but risks wasting its faculties in utopian projects. It can succeed thanks to its gifts of invention, but frequently fails when it tries to apply conceptions that are too original."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "Unlike the other fixed signs, this position does not confer great financial stability. Fluctuations are numerous, unforeseen and considerable, most often due to the putting into practice of new methods or innovative processes. The native may spend lavishly on experiments, trials or cutting-edge equipment. If the aspects are favourable, important gains can be made in the exploitation of inventions or new ventures. The subject is particularly sensitive to the world atmosphere: crises, revolutions, stock-market crashes. The reversals, good and bad, take place rapidly, even brutally."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "Increases intellectual curiosity, scientific spirit and predisposes to research or invention. A marked attraction to revolutionary theories in all fields. Although it is a fixed sign, this position does not hinder travel; it would rather indicate journeys undertaken for the purpose of study or inquiry. Understanding with siblings, cousins and neighbours is not always harmonious: relationships sometimes lack warmth because relatives can be eccentric and unsociable."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "If the other indications of the chart concur, there are risks of family divergences and even quarrels, sometimes the early loss of a parent. It seems preferable for the subject to go and try its luck away from its birthplace. Hardly favourable to the acquisition of real estate or the creation of a harmonious home. The end of life often lacks security. In very rare cases, scientific success or an important discovery during the last part of existence."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "A rather dangerous position for speculation: at certain moments the subject benefits from fortunate intuitions allowing encouraging gains, which then prompts it to imprudences causing irreparable losses. Hardly favourable to sentimental satisfactions or to offspring. Heartbreaks are frequent. Slightly favourable for an artistic, theatrical or cinematic career, where the originality of Aquarius can find a ground for expression."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to the ailments of the sign: nervous and circulatory disorders, varicose veins. The subject is often obliged to constrain itself to work it dislikes, and in the case where it reaches an independent situation, it can hardly count on collaborators who are too irregular. If the subject takes up a medical career, this position increases its intuition in matters of diagnosis. It will tend to treat by new methods: electricity, radiation and avant-garde techniques."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "Often delays marriage or makes it difficult, with risks of divorce if the union takes place too early. Unforeseen circumstances may hasten or delay plans. The character of the partner often lacks gentleness and docility. Concerning lawsuits, this position is rather dangerous if the aspects are bad: it is preferable to seek amicable arrangements. Declared enemies are not very numerous, but they are tenacious and subtle. It is preferable to avoid partnerships."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "Increases the risks of sudden or accidental death that might otherwise exist. More often, this position portends an end hastened by nervous or cardiac complications. If the aspects are excellent, the possibility of an unexpected inheritance or a larger-than-hoped-for succession, arriving just in time. Otherwise, unforeseen disappointments in the settlement of family affairs are to be expected."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "The scientific tendencies of Aquarius are sometimes tinged with mysticism: the subject takes an interest in metaphysical, spiritual or occult questions. Intuition is generally considerable, but if the aspects are dissonant, the subject risks becoming a utopian or an illuminate. This position restricts the possibilities of long journeys, but if travels are few, they are sometimes very important and can correspond to significant changes of situation."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "A good position for an intellectual career, notably for journalism, literature and all occupations relating to writing or the sciences. The situation undergoes some unexpected changes that can modify it entirely. The desire to apply personal methods may cause failures, but the subject manages to recover thanks to its ingenuity and flexibility. In very rare cases, fame due to a major discovery or innovation."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "The most natural position for Aquarius. Friends are hardly expansive or accommodating and take an interest only in intellectual matters, but they can render great services and considerably influence the mental evolution of the native. If the aspects are excellent, the subject finds friends at the exact moment when they are likely to be useful, in unpredictable circumstances. If the house is poorly aspected, friends are too original, even eccentric, and it becomes difficult to count on them."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "Jealousies, hidden enmities and slander are always numerous with this position. Depending on whether the aspects are harmonic or dissonant, hidden enemies may evolve into friends, or conversely it is the friends who slowly detach to mount a sly opposition. Laboratory research and the study of occultism are eased by this position. In very difficult charts, risks of confinement or exile following stances that are too radical."
+    }
+  ],
+  "amour": {
+    "texte": "Aquarius loves with freedom, originality, mental complicity and a need for space. It seeks a living, intelligent, non-stifling relationship, where each can remain themselves without being possessed. The cerebral plane usually predominates over the senses and the feelings: it is neither very emotional nor very sensual, which can make it disconcerting for more passionate signs.\n\nHowever, it knows how to show faithfulness and honesty in its feelings. The union is often unexpected, and the partner of a condition or tastes very different from its own. Aquarius loves the bond, but wants it breathable, conscious and free of forms that are too rigid.",
+    "qualites": [
+      "Great freedom granted to the other within the bond",
+      "Open-mindedness and a refusal of stifling possession",
+      "Deep mental and friendly complicity",
+      "The ability to love without wanting to confine",
+      "A taste for singular and sincere relationships"
+    ],
+    "vigilances": [
+      "May seem distant or hard to grasp emotionally",
+      "A risk of protecting itself behind the idea or humour",
+      "Difficulty with demands for fusion or possession",
+      "A tendency to value freedom to the point of avoiding certain emotional depths"
+    ],
+    "affinites": ["gemeaux", "balance", "sagittaire", "belier"]
+  },
+  "travail": {
+    "texte": "Aquarius works well when it can innovate, think differently, connect people, transform systems or serve a vision of the future. It excels in fields that need conceptual creativity, perspective, invention or networked work. In modest destinies, success in everything touching on technology, the sciences and avant-garde professions. In powerful charts, success can come following an innovation or an invention. In all cases, material success often remains precarious compared with intellectual success.",
+    "atouts": [
+      "Originality and the ability to see otherwise",
+      "An overall vision and a spirit of innovation",
+      "An aptitude for connecting people, ideas and systems",
+      "The ability to anticipate future developments"
+    ],
+    "defis": [
+      "Tolerates absurd or overly rigid frameworks poorly",
+      "May detach excessively from the concrete or the practical",
+      "A risk of opposing on principle rather than out of necessity",
+      "May struggle with closed hierarchies or meaningless routines"
+    ]
+  },
+  "argent": {
+    "texte": "Aquarius has an often original and sometimes detached relationship with money. It sees it as a tool of autonomy, freedom, projects or contribution to a larger vision. Affluence is generally limited; there is little acquisitiveness in the classical sense. Earnings are irregular, often tied to ventures out of the ordinary. Aquarius is not attached to possession for its own sake, but rather to what it allows one to invent, support or make possible.",
+    "forces": [
+      "The ability to think about resources and value differently",
+      "A free relationship to classical modes of possession",
+      "An aptitude for financing a project or supporting an idea",
+      "An unconventional vision of wealth"
+    ],
+    "risques": [
+      "Irregular income and unforeseen fluctuations",
+      "An overly abstract detachment from material realities",
+      "Sudden or insufficiently considered financial decisions",
+      "Difficulty entering a logic of classical management"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Aquarius builds an independent, original identity turned toward a future larger than the self alone. It needs to be itself outside imposed norms.",
+      "manifestations": ["Independence", "Originality", "A vision of the future", "The ability to think differently"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Aquarius experiences emotions with a need for space, perspective and breathing room. It often protects itself by mentalising or taking distance.",
+      "manifestations": ["Inner freedom", "The ability not to drown in emotion", "Relational flexibility", "A need for friendship and air"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Aquarius thinks in an original, inventive, free and often unconventional way. The mind seeks to understand systems, networks, new ideas.",
+      "manifestations": ["Inventive thinking", "A free spirit", "The ability to connect concepts", "An overall vision"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Aquarius loves with freedom, originality, a fitting distance and a taste for the unexpected. Pleasure comes through singularity, mental complicity and the refusal of stifling bonds.",
+      "manifestations": ["Relational openness", "The ability to love without possessing", "Original charm", "A taste for atypical bonds"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Aquarius acts in an original, free, sometimes unpredictable way, often oriented toward a cause, an ideal or a need to break with the old.",
+      "manifestations": ["Independence of action", "Mental boldness", "The ability to defend a cause", "An energy of reform"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Aquarius amplifies the collective vision, confidence in progress, openness to networks and faith in ideas able to make the world evolve.",
+      "manifestations": ["Humanism", "A broad vision", "Openness to the collective", "The ability to rally people around an idea"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Aquarius structures collective thought, networks, social responsibilities and the relationship to freedom. It seeks a just form of system or human organisation.",
+      "manifestations": ["A sense of collective responsibility", "The ability to structure networks or ideas", "Intellectual maturity", "A constructed reformist vision"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Aquarius is in one of its most natural expressions: rupture, innovation, collective awakening, freedom, the invention of new forms.",
+      "manifestations": ["Very great originality", "A vision of rupture", "The ability to invent otherwise", "Intuition of the future"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Aquarius seeks a collective ideal, a human utopia, a possible brotherhood and an inspiration turned toward the future and toward networks.",
+      "manifestations": ["A humanist ideal", "Social imagination", "An inspired vision of the collective", "Openness to new forms of meaning"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Aquarius deeply transforms systems, networks, technologies, the forms of collective power and the organisational models of the future.",
+      "manifestations": ["A power of collective transformation", "Lucidity about systems", "The ability to refound a model", "A will for radical evolution"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "complementaire",
+      "titre": "Action and freedom",
+      "texte": "Aquarius thinks differently, Aries acts fast. The bond can be very stimulating if each respects the other's independence. The two share a taste for freedom and an aversion to routine.",
+      "forces": ["Freedom", "Stimulation", "Originality", "Momentum toward the future"],
+      "frictions": ["Aries's impulsiveness", "Aquarius's distance", "Ideological or rhythm conflicts"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "delicate",
+      "titre": "Stability and rupture",
+      "texte": "Taurus wants to preserve what has value; Aquarius sometimes wants to break what freezes. The bond can be fascinating but very destabilising for both parties.",
+      "forces": ["The possibility of reinventing foundations", "Complementarity between the concrete and vision", "Real stimulation"],
+      "frictions": ["Taurus tolerates the unpredictable poorly", "Aquarius tolerates fixation poorly", "Conflict between security and freedom"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "fluide",
+      "titre": "Air, mind and openness",
+      "texte": "Aquarius and Gemini share a taste for intelligence, circulation, exchange and a certain mental freedom. The bond can be very lively and intellectually stimulating.",
+      "forces": ["Intellectual stimulation", "Open-mindedness", "Freedom", "Mental complicity"],
+      "frictions": ["An excess of the mental", "Difficulty anchoring the bond", "A tendency to avoid certain depths"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "delicate",
+      "titre": "Distance and attachment",
+      "texte": "Aquarius seeks space, Cancer seeks emotional security. The bond can be enriching but calls for a real understanding of each one's deeply opposed needs.",
+      "forces": ["Cancer humanises, Aquarius opens up", "The possibility of broadening the emotional world", "Complementarity between the intimate and the collective"],
+      "frictions": ["Cancer may suffer from Aquarius's distance", "Aquarius may feel stifled by the need for attachment", "Conflict between emotional security and freedom"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "complementaire",
+      "titre": "The Aquarius–Leo axis",
+      "texte": "Aquarius opens to the collective and to vision, Leo affirms the creative heart and personal radiance. It is a very strong axis between singularity and group, between the self and the shared future.",
+      "forces": ["Strong stimulation", "Originality", "Complementarity between heart and idea", "The ability to create something visible and different"],
+      "frictions": ["Leo may find Aquarius too distant", "Aquarius may find Leo too self-centred", "Conflict between personal recognition and detachment"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "variable",
+      "titre": "Reform and precision",
+      "texte": "Aquarius wants to rethink systems; Virgo wants to improve the real in detail. The bond can be intelligent and productive if it accepts two very different styles of lucidity.",
+      "forces": ["Intelligence", "Complementarity between reform and method", "The ability to bring about concrete change"],
+      "frictions": ["Aquarius may seem too abstract or unpredictable", "Virgo may seem too normative or too critical", "Conflict between innovation and control"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "fluide",
+      "titre": "Relational air and free air",
+      "texte": "Libra connects through the gentleness of the bond, Aquarius opens through mental freedom. The relationship can be elegant, stimulating and very breathable for both.",
+      "forces": ["Openness", "Dialogue", "Mental elegance", "Respect for space"],
+      "frictions": ["Libra may want more bond", "Aquarius may want more distance", "Conflict between relational harmony and independence"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "intense",
+      "titre": "Depth and detachment",
+      "texte": "Scorpio wants to go to the bottom, Aquarius takes a step back. The bond can be very magnetic but also very complex to attune, so opposed are the needs.",
+      "forces": ["Lucidity", "Intensity", "The ability to transform visions", "Attraction between two very different powers"],
+      "frictions": ["Scorpio may find Aquarius too cold", "Aquarius may find Scorpio too intense or controlling", "Conflict between fusion and freedom"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "fluide",
+      "titre": "Openness and horizon",
+      "texte": "Aquarius and Sagittarius share a taste for space, for ideas, for freedom and for a vaster future. The bond can be very stimulating and mutually inspiring.",
+      "forces": ["Open-mindedness", "Freedom", "Vision", "Movement"],
+      "frictions": ["A lack of grounding", "Emotional distance", "A tendency to live in the idea or the horizon"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "complementaire",
+      "titre": "Structure and reform",
+      "texte": "Capricorn organises and preserves what holds; Aquarius reforms and opens new paths. It is a strong axis between established system and possible future, between conservative Saturn and innovative Uranus.",
+      "forces": ["Complementarity between framework and innovation", "A strategic vision", "The ability to transform usefully"],
+      "frictions": ["Capricorn may seem too rigid", "Aquarius may seem too unpredictable", "Conflict between security and change"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "fluide",
+      "titre": "Freedom facing freedom",
+      "texte": "Two Aquarians can understand each other in their need for space, originality, free thought and non-conformism. The bond can be stimulating and very singular, but also very disembodied.",
+      "forces": ["Freedom", "Originality", "Complicity of mind", "Respect for independence"],
+      "frictions": ["Emotional distance", "Too much of the mental", "Difficulty embodying the relationship"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "variable",
+      "titre": "Collective vision and diffuse sensitivity",
+      "texte": "Aquarius thinks in networks and ideas; Pisces feels in depth and intuition. The bond can be very inspiring but also disconcerting in its contrasts.",
+      "forces": ["Inspiration", "Openness to other possibilities", "Complementarity between vision and compassion", "Subtle creativity"],
+      "frictions": ["Aquarius may seem too distant or cerebral", "Pisces may seem too vague or porous", "Conflict between detachment and sensitive fusion"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Aquarius, you enter life with originality, distance, freedom of tone and a need to remain yourself. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting carries an independent, open and unconventional tone.",
+    "apparence": [
+      "A singular or atypical presence",
+      "A free, detached or original bearing",
+      "A gaze often curious, direct or distant",
+      "An impression of independence and subtle offbeatness"
+    ],
+    "temperament": [
+      "Reacts in its own way, rarely according to convention",
+      "Needs space and autonomy to express itself",
+      "Tolerates overly closed frameworks or arbitrary constraints poorly",
+      "Often enters situations through the idea, observation or originality"
+    ],
+    "vigilances": [
+      "Emotional distance that can disconcert those around it",
+      "A need to break away too quickly in the face of constraining situations",
+      "Difficulty letting itself depend on someone",
+      "A tendency to protect itself through the cerebral rather than through feeling"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Sadalmelik",
+      "nature": "Mercury / Saturn",
+      "texte": "Sadalmelik evokes an ability to carry a collective vision, to think on a large scale and to structure a perspective turned toward the future. It harmonises with the social and cerebral dimension of Aquarius.",
+      "motsCles": ["Vision", "Collective", "Responsibility", "Mental elevation"]
+    },
+    {
+      "nom": "Sadalsuud",
+      "nature": "Jupiter / Mercury",
+      "texte": "Sadalsuud brings a tone of openness, of luck linked to connections, of the circulation of ideas and of optimism turned toward the collective. It resonates with the spirit of Aquarius and its quest for a better future.",
+      "motsCles": ["Openness", "Network", "Social intelligence", "Protection of the future"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Amethyst", "motsCles": ["vision", "lucidity", "elevation", "air"] },
+      { "nom": "Labradorite", "motsCles": ["intuition", "protection", "originality", "network"] },
+      { "nom": "Uranium (symbolic)", "motsCles": ["uranus", "innovation", "electricity", "rupture"] }
+    ],
+    "vegetaux": [
+      { "nom": "Lavender", "motsCles": ["air", "clarity", "soothing", "flexibility"] },
+      { "nom": "Ginkgo", "motsCles": ["adaptation", "singularity", "resistance", "future"] },
+      { "nom": "Eucalyptus", "motsCles": ["breath", "openness", "freshness", "circulation"] }
+    ],
+    "animaux": [
+      { "nom": "Dolphin", "motsCles": ["intelligence", "collective", "play", "network"] },
+      { "nom": "Albatross", "motsCles": ["space", "freedom", "horizon", "vision"] },
+      { "nom": "Firefly", "motsCles": ["light", "spark", "originality", "subtlety"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Russia", "texte": "Vastness, collective systems, historical ruptures and a destiny turned toward the future." },
+    { "pays": "Sweden", "texte": "Social innovation, progressivism and a keen sense of community." },
+    { "pays": "Poland", "texte": "A traditional symbolic attribution of astrological geography." },
+    { "pays": "Israel", "texte": "A traditional attribution in certain schools of astrological correspondence." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Oprah Winfrey", "domaine": "Media", "date": "January 29, 1954", "texte": "A broad vision, collective influence and the ability to carry ideas in the service of a vast public." },
+    { "nom": "Jennifer Aniston", "domaine": "Film", "date": "February 11, 1969", "texte": "Independence, mastered distance and a quiet singularity carried with constancy." },
+    { "nom": "Shakira", "domaine": "Music", "date": "February 2, 1977", "texte": "Strong originality, freedom of expression and the ability to remain singular while reaching a wide public." },
+    { "nom": "Harry Styles", "domaine": "Music", "date": "February 1, 1994", "texte": "A free style, assumed originality and a way of carrying a singularity very compatible with the spirit of Aquarius." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Aquarius?",
+      "reponse": "Aquarius is characterised by independence, originality, intellectual curiosity and a strong need for freedom. It is a cerebral temperament, turned toward the future, seeking to understand and to make the world evolve. It can be unpredictable and emotionally distant, but it is also one of the most inventive and visionary signs of the Zodiac."
+    },
+    {
+      "question": "What kind of lover is Aquarius?",
+      "reponse": "Free, original and mental. Aquarius loves through intellectual complicity, mutual respect and space. It needs a breathable, non-possessive bond, and seeks a relationship where each remains themselves. It may seem detached, but it is faithful and deeply honest in its feelings."
+    },
+    {
+      "question": "What kind of worker is Aquarius?",
+      "reponse": "An innovator, a thinker, a reformer. It excels in environments that value creativity, an overall vision and originality. It needs a project that goes beyond personal interest and allows it to think differently. It is less at ease in rigid frameworks or meaningless routines."
+    },
+    {
+      "question": "Which house corresponds to Aquarius?",
+      "reponse": "The Eleventh House — that of friendships, networks, collective projects, ideals and the way of connecting to a future vaster than oneself. Its natural analogy with Aquarius underscores innovation, contribution to the collective and openness to other possibilities."
+    },
+    {
+      "question": "What is the ideal Ascendant for Aquarius?",
+      "reponse": "A Leo Ascendant gives it warmth and personal presence. A Sagittarius Ascendant reinforces its need for exploration and meaning. A Gemini Ascendant amplifies its intellectual liveliness and sociability."
+    },
+    {
+      "question": "What are the flaws of Aquarius?",
+      "reponse": "Emotional detachment, a spirit of contradiction, flight into abstraction and destabilising unpredictability. Its need for freedom can cut it off from intimate bonds and from the concrete realities of daily life."
+    },
+    {
+      "question": "Is Aquarius really detached?",
+      "reponse": "Aquarius is not insensitive but lives its emotions at a distance, through the mind. Its detachment is a form of protection. It loves deeply but needs space so as not to feel confined."
+    }
+  ]
+}

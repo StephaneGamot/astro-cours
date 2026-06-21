@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "eau",
+    "category": "concept",
+    "term": "Water",
+    "short": "One of the four elements: emotions, intuition, empathy and psychic depth.",
+    "body": "The Water element gathers the signs of Cancer, Scorpio and Pisces. It represents the world of emotions, intuition, empathy and the unconscious. Natives strongly marked by Water feel things before understanding them intellectually: they pick up on moods, absorb the emotions of others and often possess an almost mediumistic sensitivity. Water is cold and moist by nature. It fertilizes but can also overwhelm. In excess, Water produces hypersensitivity, emotional dependence or a tendency to flee reality. A chart devoid of Water can signal a difficulty in accessing one’s emotions, in showing empathy or in surrendering to intimacy. Water is the invisible bond between beings — it reminds us that we are all connected by the same emotional source."
+  },
+  {
+    "slug": "eclipses",
+    "category": "astronomique",
+    "term": "Eclipses",
+    "short": "Phenomena aligning the Sun, the Moon and the Nodes, bringing about abrupt changes.",
+    "body": "Eclipses (solar or lunar) occur near the lunar nodes. They are regarded as “accelerators of destiny.” An eclipse often brings revelations, sudden endings or radical new beginnings in the house where it falls."
+  },
+  {
+    "slug": "ecliptique",
+    "category": "astronomique",
+    "term": "Ecliptic",
+    "short": "The apparent annual path of the Sun around the Earth.",
+    "body": "It is the belt onto which the twelve signs of the zodiac are projected. The ecliptic is inclined by 23°26’ relative to the celestial equator, which generates the cycle of the seasons. In astrology, the ecliptic is the path of the soul, the geometric framework within which the planetary interactions are inscribed."
+  },
+  {
+    "slug": "ephemerides",
+    "category": "concept",
+    "term": "Ephemeris",
+    "short": "Tables giving the exact positions of the planets for each day of the year.",
+    "body": "The ephemeris is a set of astronomical tables that give the position of each planet in degrees, minutes and seconds for each day at a given hour (generally 0h or 12h UT). It is the basic tool of every astrologer: without an ephemeris, it is impossible to cast a natal chart or to calculate transits. Before the computer age, astrologers used printed ephemerides, often published across several decades (Raphael’s Ephemeris or Die Deutsche Ephemeriden were the most renowned). Today, astrology software integrates the ephemeris directly, but paper versions are still used by many practitioners who prefer the rigor of manual calculation. The ephemeris also includes retrogradations, sign changes and the phases of the Moon."
+  },
+  {
+    "slug": "equinoxes",
+    "category": "astronomique",
+    "term": "Equinoxes",
+    "short": "The moments of the year when day and night are of equal length.",
+    "body": "There are two equinoxes: spring (the Sun’s entry into Aries) and autumn (the Sun’s entry into Libra). In astrology, they mark major energetic turning points. The spring equinox is considered the beginning of the astrological year, symbolizing rebirth and the vital impulse."
+  },
+  {
+    "slug": "etat-celeste",
+    "category": "concept",
+    "term": "Celestial State",
+    "short": "An assessment of the intrinsic strengths and weaknesses of a planet within its sign.",
+    "body": "The celestial state determines the moral quality and the power of a planet even before analyzing its concrete action (terrestrial state). It is calculated by adding up its dignities and subtracting its debilities. A planet with an excellent celestial state will produce beneficial results, even in a difficult house."
+  },
+  {
+    "slug": "etoiles-fixes",
+    "category": "concept",
+    "term": "Fixed Stars",
+    "short": "Nearly motionless stellar points that add a specific coloring to the degrees of the zodiac.",
+    "body": "The fixed stars are the visible stars of the night sky, as opposed to the planets (“wandering stars” in Greek). Although they move very slowly (about 1° every 72 years owing to the precession of the equinoxes), they are considered fixed on the scale of a human life. Traditional astrology gives great importance to certain stars of the first magnitude. Algol (26° Taurus), considered the most violent, is associated with extreme perils. Regulus (0° Virgo, formerly in Leo) confers success and radiance — but with a risk of downfall if pride dominates. Spica (24° Libra) is one of the most beneficial, bringing artistic talent and protection. When a natal planet is in close conjunction (orb of 1° to 2°) with a major fixed star, the interpretation of the chart is considerably enriched."
+  },
+  {
+    "slug": "exaltation",
+    "category": "concept",
+    "term": "Exaltation",
+    "short": "The sign in which a planet expresses its qualities in an amplified and brilliant way.",
+    "body": "Exaltation is one of the four essential dignities in traditional astrology. A planet in exaltation is in a sign where it can express itself with brilliance, sometimes even with excess — like a guest of honor at a feast held in their honor. The classical exaltations are: the Sun in Aries, the Moon in Taurus, Mercury in Virgo, Venus in Pisces, Mars in Capricorn, Jupiter in Cancer and Saturn in Libra. An exalted planet is powerful but may lack temperance: Venus in Pisces loves with devotion, but can sink into amorous self-sacrifice. Exaltation must be distinguished from domicile: in domicile, the planet is at home and masters its territory; in exaltation, it shines but does not rule. The sign opposite the exaltation is the fall, where the planet is weakened."
+  },
+  {
+    "slug": "exil",
+    "category": "concept",
+    "term": "Detriment",
+    "short": "The sign opposite a planet’s domicile, where its energy is constrained and uncomfortable.",
+    "body": "Detriment (or exile) is the most uncomfortable position for a planet: it is found in the sign opposite the one it rules. Mars in Libra (opposite Aries), Venus in Scorpio (opposite Taurus), the Sun in Aquarius (opposite Leo). The planet in detriment must work with values that are not its own: Mars in Libra must negotiate instead of charging ahead, Venus in Scorpio loves with an intensity that overflows the usual Venusian framework. Detriment is not a condemnation: it simply indicates that the expression of this energy requires an extra effort, an adaptation. Many remarkable personalities have planets in detriment in their charts — precisely because the difficulty drove them to develop original compensatory qualities. Detriment invites one to find a creative and personal expression rather than a conventional one."
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "slug": "pallas",
+    "category": "planète",
+    "term": "Pallas (Pallas Athena)",
+    "short": "The asteroid of strategic intelligence and justice.",
+    "body": "Pallas represents wisdom through strategy, the ability to see the big picture, and a gift for problem-solving. She is linked to the arts, to geometric patterns, and to the struggle for justice. In a chart, she shows how we organize our thinking in order to succeed."
+  },
+  {
+    "slug": "parallele-de-declinaison",
+    "category": "technique",
+    "term": "Parallel of Declination",
+    "short": "An aspect based on the height of planets relative to the celestial equator.",
+    "body": "Two planets are in parallel when they share the same declination (North or South). This aspect acts with a force similar to the conjunction, but on a more occult or structural level. If their declinations are opposite, we speak of a contraparallel (an opposition-like effect). It is the “third dimension” of the chart, which can explain powerful links between two bodies that form no aspect in longitude."
+  },
+  {
+    "slug": "part-arabe",
+    "category": "point fictif",
+    "term": "Arabic Part (Lot)",
+    "short": "A calculated point obtained by adding and subtracting two points and the Ascendant.",
+    "body": "The Arabic Parts (inherited from Hellenistic and then medieval astrology) allow a precise theme to be projected onto the zodiac. The best-known formula is that of the Part of Fortune (Asc + Moon − Sun). There are hundreds of parts (marriage, profession, father, etc.). They serve to isolate a specific answer that the planets alone could not give with such precision."
+  },
+  {
+    "slug": "part-d-amour",
+    "category": "point fictif",
+    "term": "Part of Love",
+    "short": "A calculated point linked to the expression of desire and affection (Asc + Venus − Sun).",
+    "body": "Also called the Part of Spirit by some (though the formula may vary), it describes the deep aspirations of the heart, what we truly love, and the way we seek harmony in relationships. It completes the analysis of Venus."
+  },
+  {
+    "slug": "part-de-connaissance",
+    "category": "point fictif",
+    "term": "Part of Knowledge",
+    "short": "A calculated point linked to the search for knowledge and wisdom (Asc + Mercury − Moon).",
+    "body": "This part indicates an individual’s predisposition for the study of the occult sciences, philosophy, and astrology. Its placement by house shows where the individual will seek hidden knowledge and how they will integrate it into their worldview."
+  },
+  {
+    "slug": "part-d-astrologie",
+    "category": "point fictif",
+    "term": "Part of Astrology",
+    "short": "A calculated point obtained by the formula: Asc + Mercury − Moon.",
+    "body": "This part (also called the Part of Knowledge) indicates an individual’s predisposition for the study of the occult sciences, philosophy, and astrology. Its placement by house shows where the individual will seek hidden knowledge and how they will integrate it into their worldview."
+  },
+  {
+    "slug": "part-de-fortune",
+    "category": "point fictif",
+    "term": "Part of Fortune",
+    "short": "A calculated point indicating a place of harmony, success, and well-being.",
+    "body": "The Part of Fortune is one of the most widely used points in Arabic astrology. It is calculated from the relationship between the Sun, the Moon, and the Ascendant (Asc + Moon − Sun for a diurnal chart). It indicates the area of life where the individual can find their greatest happiness, prosperity, and a natural sense of personal fulfillment."
+  },
+  {
+    "slug": "part-de-maladie",
+    "category": "point fictif",
+    "term": "Part of Illness and Death",
+    "short": "A symbolic point linked to vital fragilities and the end of life; very rarely used in modern astrology.",
+    "body": "Used with caution in traditional astrology, it is often calculated as Asc + Mars − Saturn (for accidents/acute illnesses). It does not announce a fatality, but points toward the areas where vitality may be hindered by external forces or by neglect."
+  },
+  {
+    "slug": "part-de-spiritualite",
+    "category": "point fictif",
+    "term": "Part of Spirituality",
+    "short": "A calculated point linked to the quest for meaning and transcendence (Asc + Jupiter − Sun).",
+    "body": "This point indicates deep spiritual aspirations, the areas where the individual seeks to connect with something greater than themselves. It can show the paths of personal growth and spiritual flourishing, thereby completing the analysis of Jupiter."
+  },
+  {
+    "slug": "part-de-destin",
+    "category": "point fictif",
+    "term": "Part of Destiny",
+    "short": "A calculated point linked to karma and life lessons (Asc + Saturn − Sun).",
+    "body": "This point highlights karmic lessons, major challenges, and the areas where the individual is called to transform in order to evolve. It can indicate zones of resistance or opportunities to overcome obstacles and fulfill one’s life mission."
+  },
+  {
+    "slug": "part-de-gain",
+    "category": "point fictif",
+    "term": "Part of Gain",
+    "short": "An indicator of financial opportunities and the fluctuation of wealth.",
+    "body": "Calculated as Asc + Jupiter − Mercury, it reveals how intelligence and skill can generate material resources. It differs from the Part of Fortune in that it is more closely tied to trade and concrete exchanges."
+  },
+  {
+    "slug": "part-de-caractere",
+    "category": "point fictif",
+    "term": "Part of Character",
+    "short": "A calculated point linked to personality traits and habitual behaviors.",
+    "body": "This part, calculated as Asc + Saturn − Moon, highlights character tendencies, instinctive reactions, and psychological patterns of functioning. It can indicate the strengths and weaknesses of the personality, as well as the behavioral patterns that recur throughout an individual’s life."
+  },
+  {
+    "slug": "part-de-pouvoir",
+    "category": "point fictif",
+    "term": "Part of Power and Renown",
+    "short": "A point governing social ascent and public prestige.",
+    "body": "Calculated as Asc + Sun − Mars, it shows one’s capacity for self-assertion and the mark one leaves on society. It is fundamental to the analysis of professional success, as a complement to the Midheaven."
+  },
+  {
+    "slug": "part-de-proces",
+    "category": "point fictif",
+    "term": "Part of Litigation",
+    "short": "An indicator of disputes and the outcome of legal conflicts.",
+    "body": "Calculated as Asc + Mars − Saturn, it is used in horary or judicial astrology to determine whether an outcome will be favorable or obstructed by declared enemies."
+  },
+  {
+    "slug": "part-de-profession",
+    "category": "point fictif",
+    "term": "Part of Profession",
+    "short": "A point indicating the kind of activity ideal for one’s fulfillment.",
+    "body": "Calculated as Asc + Mars − Mercury, it reveals the type of work in which the individual is most effective. It blends action (Mars) with intelligence (Mercury)."
+  },
+  {
+    "slug": "part-de-voyage",
+    "category": "point fictif",
+    "term": "Part of Travel",
+    "short": "A point linked to distant journeys and changes of place.",
+    "body": "Calculated as Asc + 9th-house cusp − ruler of the 9th, it determines opportunities for discovery abroad and the impact of travel on personal development."
+  },
+  {
+    "slug": "part-d-heritage",
+    "category": "point fictif",
+    "term": "Part of Inheritance",
+    "short": "A point linked to goods passed down by ancestors or the deceased.",
+    "body": "Calculated as Asc + Moon − Saturn, it is directly connected to the 8th house. It indicates whether the transmission of goods (material or psychological) will be eased or a source of blockages."
+  },
+  {
+    "slug": "part-d-occultisme",
+    "category": "point fictif",
+    "term": "Part of Occultism",
+    "short": "A point governing one’s interest in mysteries and secret matters.",
+    "body": "Calculated via Asc + Neptune − Sun (modern) or Asc + Moon − Saturn (ancient), it reveals the soul’s capacity to pierce the veils of visible reality. It is often marked in mediums, researchers, or psychologists."
+  },
+  {
+    "slug": "part-du-partenaire",
+    "category": "point fictif",
+    "term": "Part of the Partner",
+    "short": "A point symbolizing contractual union and marriage.",
+    "body": "Calculated as Asc + 7th-house cusp − Venus, it describes the quality of the commitment and what the other person brings into the consultant’s life. It is key in synastry."
+  },
+  {
+    "slug": "parts-familiales",
+    "category": "point fictif",
+    "term": "Part of the Father / Children / Siblings",
+    "short": "Calculated points used to analyze relationships with family members.",
+    "body": "These parts (e.g., Asc + Saturn − Sun for the father; Asc + Jupiter − Saturn for children) make it possible to determine the nature of the bond and the destiny of these relatives in relation to the consultant. They were widely used before the arrival of psychological astrology."
+  },
+  {
+    "slug": "partile",
+    "category": "technique",
+    "term": "Partile (Aspect)",
+    "short": "An aspect exact to the precise degree separating two planets.",
+    "body": "An aspect is said to be partile when it has an orb of 0° (e.g., two planets at 15°). Its influence is then at its maximum of power and precision. It contrasts with the “platic” aspect, which is valid by orb but less forceful."
+  },
+  {
+    "slug": "peregrine",
+    "category": "concept",
+    "term": "Peregrine",
+    "short": "The state of a planet that holds no dignity or debility in its current sign.",
+    "body": "A peregrine planet is like a traveler with no ties or resources of its own. It is neither at home (domicile), nor honored (exaltation), nor weakened (detriment/fall). Its action depends entirely on the aspects it receives and on the condition of its sign ruler. In ancient astrology, a peregrine planet is often seen as unstable or wandering, searching for its direction without an inner compass."
+  },
+  {
+    "slug": "perihelie",
+    "category": "astronomique",
+    "term": "Perihelion",
+    "short": "The point of a planet’s orbit closest to the Sun.",
+    "body": "The perihelion is the point of a planet’s orbit where it is closest to the Sun. In astrology, when the Sun is at perihelion (around January 3), it is considered more powerful and energetic, which can influence the natal charts of people born during this period. Likewise, planets at perihelion may express their energies more intensely."
+  },
+  {
+    "slug": "periodique",
+    "category": "astronomique",
+    "term": "Periodic",
+    "short": "Relating to the time a celestial body needs to complete its full cycle.",
+    "body": "Periodic motion refers to the regular return of the planets to a specific point of the zodiac. We distinguish the sidereal period (the actual time of revolution around the Sun) from the synodic period (the time separating two successive conjunctions with the Sun). In astrology, the study of periods makes it possible to predict planetary “returns,” moments when the individual relives the natal themes of the body concerned (e.g., the Saturn return every 29 years)."
+  },
+  {
+    "slug": "placidus",
+    "category": "technique",
+    "term": "Placidus",
+    "short": "The most widespread house system in Western astrology.",
+    "body": "Named after the monk Placidus de Titis (17th century), this system divides the houses according to the time taken by the celestial bodies to travel (semi-arcs), rather than on a purely spatial division of the sky. Highly valued for its psychological precision, it nevertheless has limits at extreme latitudes (near the poles), where the calculation of the houses can become disproportionate."
+  },
+  {
+    "slug": "pleiades",
+    "category": "constellation",
+    "term": "Pleiades (M45)",
+    "short": "A star cluster in the constellation of Taurus, linked to vision and collective destiny.",
+    "body": "Also called the “Seven Sisters,” the Pleiades lie at about 29° of the sign of Taurus. Symbolically, they are often associated with weeping, with great sensitivity, or with eyesight problems in both the literal and figurative sense. On a higher level, they represent strong intuition and a connection with the ancestral memories of humanity. Their influence is considered very powerful when they are conjunct a luminary."
+  },
+  {
+    "slug": "pluton",
+    "category": "planète",
+    "term": "Pluto",
+    "short": "The planet of transformation, power, destruction, and rebirth.",
+    "body": "Pluto is the most distant and slowest planet of the astrological system. It takes about 248 years to travel the zodiac, staying between 12 and 31 years in each sign — which makes it a powerful generational marker. Discovered in 1930, Pluto has been associated by astrologers with Scorpio and the 8th house. It symbolizes the underground forces of the soul: power, obsession, symbolic death, regeneration, deep sexuality, and unconscious mechanisms. A harmonious Pluto confers magnetic charisma, exceptional resilience, and a formidable psychological instinct. A tense Pluto can indicate power struggles, a tendency toward control, or difficulty letting go. The transit of Pluto over a sensitive point of the chart is always a turning point: it destroys whatever is no longer authentic in order to let a deeper truth emerge."
+  },
+  {
+    "slug": "point-de-chute",
+    "category": "concept",
+    "term": "Point of Fall",
+    "short": "The position where a planet is most weakened, opposite its exaltation.",
+    "body": "A planet’s point of fall is the degree of the zodiac where it loses all its vital strength, generally located 180° from its point of exaltation. For example, Mars is exalted at 28° Capricorn and falls at 28° Cancer. A planet in fall can indicate difficulties in expressing its qualities constructively, blockages, or specific challenges linked to that energy."
+  },
+  {
+    "slug": "point-est",
+    "category": "point fictif",
+    "term": "East Point",
+    "short": "The point of intersection of the horizon and the prime vertical.",
+    "body": "Also called the “Ascendant of the equator,” the East Point is a fictitious point used to refine the personality. It describes the way we spontaneously present ourselves to the world, sometimes in a rawer or more instinctive manner than the classic Ascendant."
+  },
+  {
+    "slug": "point-vernal",
+    "category": "astronomique",
+    "term": "Vernal Point",
+    "short": "The intersection of the ecliptic and the celestial equator, marking 0° Aries.",
+    "body": "This is the origin of the entire tropical zodiac. Each year, at the moment of the spring equinox, the Sun crosses this point. Because of the precession of the equinoxes, this point shifts very slowly backward relative to the constellations, marking the passage of the great astrological ages."
+  },
+  {
+    "slug": "poissons",
+    "category": "signe",
+    "term": "Pisces",
+    "short": "The twelfth sign (Water/Mutable), symbolizing sensitivity, spirituality, and unity.",
+    "body": "Pisces marks the end of winter, the melting of the snows. Ruled by Jupiter (traditional) and Neptune (modern), it embodies the dissolution of the ego into the infinite. It is the sign of compassion, sacrifice, intuition, and dream. It represents the ocean of the collective unconscious. Its challenge is not to drown in confusion or victimhood, but to use its sensitivity to inspire and heal through unconditional love."
+  },
+  {
+    "slug": "precession-des-equinoxes",
+    "category": "astronomique",
+    "term": "Precession of the Equinoxes",
+    "short": "The slow shift of the Earth’s rotational axis, displacing the vernal point.",
+    "body": "This astronomical phenomenon causes the point of the spring equinox (0° tropical Aries) to drift slowly backward relative to the fixed constellations (about 1° every 72 years). It is this movement that defines the 'Great Ages' (such as the Age of Aquarius) and that explains the difference between the tropical and sidereal zodiacs."
+  },
+  {
+    "slug": "profections",
+    "category": "technique",
+    "term": "Profections",
+    "short": "An ancient technique that moves the Ascendant forward by one whole sign each year.",
+    "body": "The annual profection designates one house of the chart as the “house of the year.” At age 0, one is in the 1st house, at age 1 in the 2nd house, and so on. The ruler of the profected house becomes the “Lord of the Year,” and its position in the transits then becomes paramount."
+  },
+  {
+    "slug": "progressions-secondaires",
+    "category": "technique",
+    "term": "Secondary Progressions",
+    "short": "A predictive technique in which one day after birth corresponds to one year of life.",
+    "body": "This symbolic method reflects the individual’s inner evolution. One observes, for example, the movement of the progressed Moon, which changes sign every two and a half years, marking cycles of slow psychological maturation."
+  },
+  {
+    "slug": "ptolemee",
+    "category": "personnalité",
+    "term": "Ptolemy",
+    "short": "Greek astronomer and astrologer of the 2nd century, author of the 'Tetrabiblos'.",
+    "body": "Claudius Ptolemy (c. 100–170 CE) is one of the most influential figures in Western astrology. His major work, the 'Tetrabiblos', is a treatise in four books that codifies the principles of traditional astrology: essential dignities, aspects, houses, predictive techniques, and so on. Ptolemy synthesized the astrological knowledge of his time and established a theoretical framework that dominated astrology for more than a millennium. His geocentric vision of the cosmos was called into question by the Copernican revolution, but his influence on astrological practice remains immense."
+  }
+]

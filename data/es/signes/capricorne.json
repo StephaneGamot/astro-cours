@@ -1,0 +1,459 @@
+{
+  "slug": "capricorne",
+  "nom": "Capricornio",
+  "sousTitre": "El décimo signo del Zodiaco",
+  "devise": "Yo construyo",
+  "periode": "22 de diciembre – 19 de enero",
+  "element": "Tierra",
+  "mode": "Cardinal",
+  "maitre": "Saturno",
+  "exaltation": "Marte",
+  "exil": "Luna",
+  "chute": "Júpiter",
+  "polarite": "Femenino",
+  "temperament": "Nervioso",
+  "maisonNaturelle": 10,
+  "couleur": {
+    "primaire": "#7085A2",
+    "secondaire": "#94A3B8",
+    "accent": "#CBD5E1",
+    "gradient": "from-slate-600 via-slate-500 to-slate-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "sagittaire", "nom": "Sagitario" },
+    "suivant": { "slug": "verseau", "nom": "Acuario" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/capricorne.webp",
+    "planete": "/images/planetes/saturne.webp"
+  },
+  "introduction": "Capricornio es el décimo signo del Zodiaco. El Sol lo atraviesa entre el 22 de diciembre y el 19 de enero aproximadamente, al comienzo del invierno, cuando la naturaleza está en reposo, cuando la savia se ha concentrado en las profundidades de la tierra, cuando se conserva solo lo esencial y lo superfluo ya no tiene lugar.\n\nEs el momento del año en que hace más frío, en que las noches son más largas — y sin embargo, es precisamente en el corazón de esa noche cuando brilla la estrella de Navidad, cuando la luz vuelve imperceptiblemente a crecer. Tras la búsqueda de horizontes de Sagitario, Capricornio invita a concretar, a estructurar, a inscribir las ambiciones en el tiempo. No sueña la cima: la asciende, paso a paso, con la paciencia de quien sabe que el tiempo es su aliado más seguro.",
+  "fondationsCosmiques": {
+    "texte": "Capricornio pertenece al elemento Tierra (frío y seco), lo que le confiere un temperamento nervioso: eficacia práctica, resistencia, sentido de la realización concreta. Es el tercer y último nivel de la Tierra — el de la sublimación. Tras lo concreto de Tauro y la precisión de Virgo, la tierra de Capricornio se supera a sí misma: es la montaña, las cimas a alcanzar, la roca donde el aire se enrarece, la tierra fría y densa que solo guarda lo esencial.\n\nSu modo es cardinal: inaugura el invierno, lanza una nueva estación. Los signos cardinales son iniciadores, pero la iniciativa de Capricornio es lenta, reflexionada, estratégica — no se precipita, se prepara. Signo pasivo, receptor e introvertido, Capricornio encaja más que se defiende, pero posee una resistencia considerable, una energía profunda y estable, y recursos interiores que le permiten regenerarse allí donde otros se derrumban.",
+    "courteAscension": "Capricornio es un signo de ascensión corta — se eleva rápidamente en el horizonte — lo que significa que, estadísticamente, menos personas nacen con Capricornio como Ascendente.",
+    "pluton": "Capricornio es el domicilio nocturno de Saturno, el planeta del tiempo, de la estructura y de la responsabilidad. Saturno se siente particularmente a gusto en este signo concreto y voluntarioso donde todas sus cualidades se refuerzan. Marte está en exaltación: la acción marciana alcanza su apogeo en este signo ambicioso, ganando en disciplina y estrategia lo que pierde en espontaneidad. El eje Capricornio-Cáncer opone y completa el rigor y la ternura, la estructura y la protección, el mundo exterior y el mundo interior."
+  },
+  "analogies": {
+    "animal": "La cabra de montaña",
+    "objet": "La montaña, la escalera, la piedra, la herramienta de construcción",
+    "fonction": "Estructurar, edificar, asumir",
+    "texte": "Capricornio es la ambición paciente, la meditación, los ascensos lentos y difíciles, el trabajo minucioso. Así como la cabra de montaña asciende las pendientes más escarpadas con una prudencia infalible, el nativo de este signo busca alcanzar las cimas más altas — ya se trate de ambición social o de búsqueda de sabiduría. Es el pensador, el filósofo, el agricultor, el minero: todos aquellos que trabajan en la duración, la profundidad y la paciencia. Como los alquimistas que buscan el oro a través del plomo, Capricornio sabe que los mayores éxitos se construyen con esfuerzo, silencio y perseverancia."
+  },
+  "mythologie": {
+    "titre": "Las desventuras del dios Pan",
+    "texte": "Capricornio está asociado a la figura de Pan, pequeño dios solitario y bucólico, y al antiguo símbolo de la cabra-pez. Para escapar del terrible Tifón, Pan adoptó un curioso disfraz: un íbice con cola de pez. Esta imagen paradójica une las alturas y las profundidades — la cabra que asciende la montaña y el pez que se sumerge en el inconsciente.\n\nComo el íbice que se lanza hacia las cumbres, los nativos de Capricornio buscan ascender las cimas más altas, pero a veces se hunden en el pesimismo cuando se dejan llevar por las fuerzas regresivas del inconsciente. Pan, el pequeño dios de apariencia tosca y salvaje, es también el gran Todo, dios de la sabiduría. Esta se oculta bajo formas simples y bajo su aparente fealdad. Es a través del plomo que los alquimistas buscan el oro, y es durante la noche más larga del año cuando brilla la más bella estrella.",
+    "civilisations": "En Mesopotamia, la cabra-pez Suhur-Mash era uno de los símbolos más antiguos del zodiaco, representando la dualidad entre el ascenso terrestre y la profundidad marina. En la mitología griega, Pan encarna la sabiduría oculta bajo una apariencia rústica.\n\nEl eje simbólico Capricornio-Cáncer, signos solsticiales, atraviesa todas las tradiciones: la tierra y el agua, la cima y el océano, la estructura y la emoción. En la tradición hindú, Makara (Capricornio) es el vehículo de Varuna, dios de las aguas y del orden cósmico — otra expresión de esa alianza paradójica entre el rigor de la forma y la profundidad de lo invisible."
+  },
+  "portrait": {
+    "temperament": "Capricornio observa la realidad sin adornos y busca comprender lo que realmente puede construirse. Su carácter es reservado, sólido, exigente, a menudo prudente, con una fuerte necesidad de dominio y de coherencia. Desde la infancia, se distingue por su porte serio, ponderado y reflexivo, asombrando a quienes lo rodean con reflexiones nacidas de largas meditaciones.\n\nManifestando poco sus sentimientos y emociones, lo que hace creer en su frialdad o indiferencia, posee sin embargo una sensibilidad viva, una gran constancia en sus afectos y en sus opiniones. La asimilación intelectual es lenta, pero lo que se comprende bien no se olvida nunca. Dotado para la reflexión, la meditación, las matemáticas y los largos trabajos de erudición, compensa cierta falta de imaginación con un rigor y una perseverancia sin fallos.\n\nCuando es inmaduro, puede volverse duro, cerrado, pesimista o excesivamente controlador; cuando madura, se convierte en una fuerza de estabilidad, de responsabilidad y de altura interior, capaz de guiar sin dominar.",
+    "forces": [
+      "Construir a largo plazo con una paciencia inquebrantable",
+      "Soportar el esfuerzo sin dispersarse ni desanimarse",
+      "Asumir responsabilidades que otros eluden",
+      "Dar una estructura sólida y duradera a un proyecto",
+      "Transformar una ambición en realización concreta mediante el mérito personal",
+      "Resistir cuando todos los demás se cansan o abandonan"
+    ],
+    "ombres": [
+      "Miedos ligados al fracaso que paralizan la acción u oscurecen la visión",
+      "Dureza hacia uno mismo y hacia los demás que aísla",
+      "Aislamiento emocional y dificultad para mostrar la vulnerabilidad",
+      "Pesimismo contagioso y tendencias melancólicas",
+      "Rencores tenaces y susceptibilidad excesiva ante la injusticia"
+    ],
+    "besoinsVitaux": [
+      "Objetivos claros y realistas que perseguir con constancia",
+      "Reconocimiento merecido de sus esfuerzos y de su valía",
+      "Un marco estructurante y fiable en el que construir"
+    ],
+    "aTravailler": [
+      "Soltar la dureza excesiva hacia uno mismo y los demás",
+      "Integrar la sensibilidad sin vivirla como una debilidad",
+      "Permitirse la satisfacción del camino recorrido en lugar de ver solo la cima",
+      "No reducir la vida al rendimiento o al esfuerzo",
+      "Distinguir dominio de cierre, rigor de rigidez"
+    ],
+    "equilibre": "El Capricornio en plena posesión de sus medios se convierte en una autoridad tranquila, fundada en el ejemplo y la constancia. Encarna una sabiduría madura, capaz de guiar sin dominar. Su rigor se vuelve fecundo: protege, estructura, permite el cumplimiento en lugar de paralizar. Su reserva ya no es frialdad sino una forma de profundidad, y su paciencia ya no es resignación sino la serena conciencia de que el tiempo es su aliado más fiel."
+  },
+  "sante": {
+    "zones": ["Huesos", "Articulaciones", "Rodillas", "Piel"],
+    "texte": "Capricornio gobierna principalmente las rodillas, los huesos, la piel, las uñas, el cabello, las articulaciones y el esqueleto en su conjunto. Predispone a la artritis, al reumatismo, a la gota, a la tuberculosis ósea y, en general, a todos los dolores que afectan a los miembros inferiores y al sistema óseo.\n\nNo es necesariamente un indicio de constitución delicada — los nativos de Capricornio poseen a menudo una resistencia profunda y una longevidad notable — pero la tendencia es a las afecciones crónicas más que agudas. Capricornio debe procurar no imponerse un ritmo demasiado austero que acabaría desgastando la propia estructura sobre la que se apoya."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "La posición más natural para Capricornio. La asimilación es lenta, pero lo que se comprende bien no se olvida. El nativo está dotado para la reflexión y la meditación, capaz de concentrarse largamente. Estudia con método, aplicación y paciencia. Aptitudes matemáticas marcadas, gusto por los largos trabajos de erudición. Manifiesta poco sus emociones, pero posee una sensibilidad viva y una gran constancia en sus afectos. La actividad es lenta pero regular, asidua, metódica y concienzuda. Su sentido práctico le impide lanzarse a realizaciones aventuradas. Triunfa gracias a su paciencia y su perseverancia; fracasa a veces por mala suerte o falta de audacia."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "Tenacidad y paciencia con vistas a obtener ganancias regulares y suficientes. La acumulación suele ser marcada, así como la previsión y el sentido del ahorro. La avaricia puede manifestarse si Saturno y Júpiter están mal dispuestos. Situación bastante estable, posible adquisición de tierras o inmuebles. Posición favorable para las ganancias relacionadas con la agricultura, la ganadería, el comercio de materias primas. A veces, el sujeto es ayudado económicamente por su madre. La prudencia de Capricornio le permite evitar las situaciones críticas."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Atracción por los estudios minuciosos y pacientes, por las investigaciones en archivos, por las colecciones y la documentación. Sentido práctico muy desarrollado. Esta posición no favorece apenas los desplazamientos frecuentes, pero los que tienen lugar pueden tener una gran influencia en la situación. Indiferencia o incluso posibles celos en las relaciones con hermanos, hermanas y primos. En algunos casos, éxito intelectual o científico difícil pero capaz de conducir a la notoriedad."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "No parece favorecer la armonía familiar. Bastante a menudo un duelo prematuro, pero una familia de situación por encima de la media, capaz de poseer bienes inmobiliarios apreciables. El sujeto se topa a veces con serias dificultades en la madurez, o solo triunfa tras muy largos esfuerzos. El hogar del nativo es bastante sólido, pero casi siempre le falta calidez y espontaneidad. A menudo las exigencias de la situación provocan una dispersión familiar. En las natividades excepcionales, notoriedad tardía."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "No es un indicio muy propicio a las aventuras amorosas, que suelen ser difíciles de iniciar y se saldan la mayoría de las veces con decepciones largamente sentidas. Este signo de Tierra no parece restringir la descendencia, pero los hijos son a veces de constitución delicada y de humor algo apesadumbrado. Si Saturno está bien aspectado, el sujeto desconfía del juego y la especulación, pero puede obtener ganancias interesantes en inversiones inmobiliarias. En materia de creación, Capricornio privilegia la obra duradera sobre el brillo efímero."
+    },
+    {
+      "numero": 6,
+      "titre": "Lo cotidiano y la salud",
+      "texte": "Predispone a las enfermedades del signo y de Saturno: reumatismo, problemas óseos y articulares, afecciones de la piel. No es sin embargo necesariamente un indicio de constitución delicada. El trabajo es más bien penoso y a veces poco remunerador, sobre todo si no se ajusta a las aspiraciones del sujeto, no obstante los esfuerzos son sostenidos y el empleo estable. El nativo cumple sus funciones con conciencia y rigor. Si el nativo tiene subalternos, estos son poco diligentes y susceptibles, pero bastante fieles y puntuales."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "El cónyuge es habitualmente mayor. No es un indicio de perfecta armonía conyugal, pero el matrimonio — más bien tardío — es a menudo ventajoso o ejerce una influencia benéfica sobre la situación, de modo que esta posición puede considerarse favorable en conjunto. En caso de separación o viudez prematura, los nuevos matrimonios son raros. Las asociaciones son sólidas y útiles si Saturno está bien aspectado. Las enemistades son peligrosas porque particularmente tenaces e inaccesibles a las concesiones."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Puede indicar la pérdida prematura de la madre. Posición poco favorable a las herencias, que dan a menudo lugar a impugnaciones y complicaciones jurídicas. El fin sobreviene por las enfermedades del signo o de Saturno, a veces de forma accidental. Capricornio en la Casa VIII enseña que las transformaciones profundas pasan por la aceptación de la duración y del despojamiento — morir a lo que no es esencial para conservar solo la estructura fundamental."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Las exigencias de la situación o las ambiciones profesionales pueden incitar al sujeto a cambiar de residencia o a realizar un largo viaje para probar suerte. Los resultados son en general poco brillantes al principio: el sujeto debe realizar inmensos esfuerzos para sacar partido de su nueva situación. Más adelante, busca establecerse definitivamente. En el plano intelectual, esta configuración acrecienta la reflexión, la paciencia, la concentración y la aptitud para las altas especulaciones del espíritu. Posición favorable para las explotaciones agrícolas lejanas o el comercio internacional."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "No es una posición muy afortunada, pero es una posición que conduce a menudo al éxito porque acrecienta la ambición, la actividad y la perseverancia. Elevación lenta pero regular gracias a los esfuerzos personales. Conviene a toda actividad industrial, agrícola, inmobiliaria o minera. Facilita también el éxito político y la carrera militar. Si las disonancias son muy graves, riesgo de escándalo, de reveses irreparables o de caída tras un ascenso notable — la fatalidad inherente al signo recordando que quien sube muy alto debe a veces pagar un tributo."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Restringe el número de amigos porque el nativo no busca numerosas relaciones, sino amistades seguras y sobre todo personalidades de valía capaces de aconsejarle útilmente. Estos amigos, raramente favorecidos por la suerte material, ofrecen un apoyo moral de valor considerable. La influencia de los amigos sobre la evolución de la situación puede ser decisiva. A veces, el sujeto se ve obligado a mantener ciertas relaciones por razones profesionales o sociales."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Si se trata de un destino brillante, el nativo corre el riesgo de ver su ascenso entorpecido por las maniobras de enemigos ocultos, en particular calumnias, incluso si las disonancias son benignas. En las situaciones ordinarias, hostilidad solapada de superiores o jefes, ascenso entorpecido o retrasado sin causas aparentes. Es siempre un indicio de dificultades y de pruebas serias. Predisposición a las enfermedades de Capricornio y de Saturno. Pero Capricornio en la Casa XII posee también la paciencia de transmutar la prueba en sabiduría."
+    }
+  ],
+  "amour": {
+    "texte": "Capricornio ama con seriedad, contención y profundidad. No siempre se entrega rápido, pero cuando se compromete, busca algo sólido, fiable y duradero. Su amor puede parecer discreto, pero suele ser más estable y más profundo de lo que aparenta.\n\nEl despertar a la vida amorosa es a menudo tardío: este signo es frío en apariencia, poco compatible con los flechazos, y el nativo suele ser tímido frente al otro. Pero si no es expansivo, es muy estable en sus sentimientos, muy fiel y muy escrupuloso cuando se trata de cumplir una promesa. El matrimonio es generalmente tardío pero sólido, fundado en una parte de razón y un sentido del deber que garantiza la duración del vínculo.",
+    "qualites": [
+      "Fidelidad ejemplar y constancia en los sentimientos",
+      "Seriedad del compromiso que no se da a la ligera",
+      "Capacidad de amar en la duración y de atravesar las pruebas juntos",
+      "Fiabilidad concreta en los actos más que en las palabras",
+      "Presencia estable y tranquilizadora cuando la confianza está instalada"
+    ],
+    "vigilances": [
+      "Puede costarle mostrar su vulnerabilidad y sus emociones",
+      "Riesgo de vivir el amor como una responsabilidad más que como un impulso",
+      "Tendencia a protegerse mediante la distancia o la contención excesiva",
+      "Puede temer el desorden emocional y huir de la intensidad del sentimiento"
+    ],
+    "affinites": ["taureau", "vierge", "scorpion", "poissons"]
+  },
+  "travail": {
+    "texte": "Capricornio trabaja con rigor, resistencia y sentido de la construcción. Sobresale en los ámbitos que exigen tiempo, disciplina, responsabilidad y una visión estratégica. Arquitecto, ingeniero, jurista, agricultor, administrador, archivero, contable, investigador, político — las profesiones de Capricornio tocan todas la construcción paciente, el rigor metódico y el ejercicio de una autoridad fundada en el mérito.\n\nNo necesita ir rápido: necesita ir lejos y construir algo que cuente. Es probablemente bajo este signo donde se encuentran los trabajadores más serios, más puntuales y más preocupados por cumplir bien su tarea. El éxito se debe casi siempre al mérito personal y a la constancia en la búsqueda de un objetivo bien definido.",
+    "atouts": [
+      "Disciplina y rigor metódico sin fallos",
+      "Una resistencia en el esfuerzo que supera la de todos los demás signos",
+      "Sentido estratégico y capacidad de estructurar a largo plazo",
+      "Fiabilidad absoluta en la duración y respeto de los compromisos",
+      "Capacidad de llevar a buen término proyectos que otros abandonan"
+    ],
+    "defis": [
+      "Tendencia al exceso de trabajo que puede conducir al agotamiento",
+      "Puede volverse demasiado duro o demasiado exigente con sus colaboradores",
+      "Soporta mal la incompetencia o la improvisación permanente",
+      "Riesgo de sacrificar lo vivo — relaciones, placeres, salud — al objetivo"
+    ]
+  },
+  "argent": {
+    "texte": "Capricornio mantiene una relación seria, estratégica y prudente con el dinero. Lo ve como una herramienta de seguridad, de dominio, de independencia y de construcción — nunca como un instrumento de placer o de prestigio. Las ganancias son regulares pero no siempre importantes, compensadas por una prudencia y un sentido del ahorro notables. El desahogo es raro en la juventud, pero Capricornio sabe evitar las situaciones críticas gracias a su previsión. Conservará siempre el importe del próximo vencimiento. El desahogo llega tarde, recompensa de la paciencia.",
+    "forces": [
+      "Capacidad de gestionar a largo plazo con rigor",
+      "Prudencia y sentido del ahorro que evitan las crisis",
+      "Sentido de la estrategia financiera y de la previsión",
+      "Voluntad de construir una seguridad real y duradera"
+    ],
+    "risques": [
+      "Miedo a la carencia que puede volverse obsesivo",
+      "Rigidez excesiva en la gestión que impide disfrutar",
+      "Dificultad para relajarse en el uso del dinero",
+      "Tendencia a confundir valía personal y éxito material"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Capricornio construye una identidad mediante el esfuerzo, el dominio, la responsabilidad y la capacidad de edificar algo duradero. La ambición es el motor, la paciencia el combustible, el mérito la única recompensa aceptable.",
+      "manifestations": ["Voluntad estructurada y perseverante", "Resistencia fuera de lo común", "Sentido agudo de lo real y lo concreto", "Capacidad de mantener un rumbo sin desviarse"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Capricornio (en exilio) vive las emociones con contención, necesidad de dominio y búsqueda de seguridad a través del control o la fiabilidad. Los sentimientos son profundos pero raramente expresados de forma espontánea.",
+      "manifestations": ["Estabilidad interior profunda", "Dominio emocional adquirido con esfuerzo", "Capacidad de soportar cargas pesadas sin quejarse", "Resistencia ante las tempestades afectivas"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Capricornio piensa con estructura, lógica, prudencia y sentido de la jerarquía de las prioridades. El espíritu busca lo esencial y lo duradero, descartando lo superfluo con método.",
+      "manifestations": ["Pensamiento estructurado y metódico", "Capacidad de planificación a largo plazo", "Rigor intelectual sin concesiones", "Pragmatismo y sentido de lo esencial"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Capricornio ama con contención, fidelidad, seriedad y voluntad de construir. El placer pasa por la calidad, la fiabilidad y la duración más que por el brillo o la pasión instantánea.",
+      "manifestations": ["Lealtad y constancia en los sentimientos", "Gusto por los vínculos sólidos y probados por el tiempo", "Seriedad relacional y sentido del compromiso", "Belleza sobria y dignidad natural"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Capricornio está en exaltación — una de sus expresiones más eficaces. La acción es disciplinada, ambiciosa, poderosamente contenida y desplegada estratégicamente. La combatividad alcanza aquí su apogeo.",
+      "manifestations": ["Gran eficacia en la acción", "Voluntad inquebrantable", "Disciplina marcial y sentido de la estrategia", "Potencia de resistencia que desgasta los obstáculos"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Capricornio (en caída) hace crecer mediante el rigor, la paciencia y la construcción progresiva. La expansión se hace a través de la estructura más que del impulso, lentamente pero con solidez.",
+      "manifestations": ["Crecimiento duradero y mesurado", "Prudencia fecunda en las empresas", "Capacidad de hacer crecer lenta pero seguramente", "Sentido del cumplimiento por el mérito"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Capricornio está en su domicilio nocturno — una de sus expresiones más fuertes y auténticas. Sentido agudo de las responsabilidades, dominio, resistencia y conciencia profunda del tiempo.",
+      "manifestations": ["Madurez y autoridad natural", "Rigor moral e intelectual", "Capacidad de convertirse en una referencia para los demás", "Conciencia del tiempo como aliado de la construcción"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Capricornio despierta las estructuras, sacude los sistemas establecidos y empuja a reinventar las formas de poder, de organización y de autoridad de arriba abajo.",
+      "manifestations": ["Innovación estructural e institucional", "Capacidad de modernizar marcos antiguos", "Visión estratégica del cambio necesario"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Capricornio busca un ideal de construcción, de éxito, de orden o de misión. Puede espiritualizar la estructura o soñar con una forma perfecta de realización terrestre.",
+      "manifestations": ["Visión inspirada de la construcción y la arquitectura", "Capacidad de soñar una obra duradera y significativa", "Sentido de una vocación o de una misión que trasciende el ego"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Capricornio transforma profundamente la relación con el poder, la estructura, la jerarquía, el éxito y la responsabilidad. Destruye las instituciones obsoletas para reconstruir otras más sólidas.",
+      "manifestations": ["Potencia estratégica de transformación", "Capacidad de reestructurar en profundidad los sistemas", "Voluntad de transformación duradera de las estructuras", "Resistencia en los procesos de reconstrucción más difíciles"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "intense",
+      "titre": "Impulso y estructura",
+      "texte": "Aries quiere ir rápido, Capricornio quiere construir en el tiempo. El vínculo puede ser muy productivo o muy conflictivo según la madurez de ambos y su capacidad de respetar el ritmo del otro.",
+      "forces": ["Complementariedad entre ataque y estrategia", "Capacidad de realizar algo sólido", "Uno lanza, el otro construye en la duración"],
+      "frictions": ["Frustración recíproca ante los ritmos opuestos", "Pulsos de poder entre dos autoridades naturales", "Profunda diferencia de ritmo y de método"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "fluide",
+      "titre": "Tierra y resistencia",
+      "texte": "Capricornio y Tauro comparten el gusto por lo concreto, la duración y la estabilidad. Dos signos de Tierra que se comprenden en su necesidad de construir algo real y duradero.",
+      "forces": ["Realismo y sentido de lo concreto compartidos", "Resistencia y fiabilidad mutuas", "Construcción duradera y sólida", "Fidelidad y constancia por ambos lados"],
+      "frictions": ["Rigidez y obstinación por ambas partes", "Rutina y falta de renovación", "Dificultad para sorprenderse mutuamente"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "variable",
+      "titre": "Estructura y movilidad",
+      "texte": "Capricornio quiere construir y mantener, Géminis quiere circular y variar. El vínculo puede ser enriquecedor si cada uno acepta la diferencia de ritmo y de prioridad fundamental.",
+      "forces": ["Uno estructura, el otro abre nuevas pistas", "Complementariedad entre estrategia y flexibilidad", "Aprendizaje mutuo del rigor y la ligereza"],
+      "frictions": ["Capricornio encuentra a Géminis demasiado volátil", "Géminis encuentra a Capricornio demasiado rígido", "Conflicto entre duración y movilidad"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "complementaire",
+      "titre": "Eje Capricornio–Cáncer",
+      "texte": "Capricornio estructura el mundo exterior, Cáncer protege el mundo interior. Es un eje muy fuerte de complementariedad entre responsabilidad y pertenencia, dominio y vulnerabilidad, cima y raíces.",
+      "forces": ["Complementariedad profunda entre estructura y ternura", "Capacidad de construir un vínculo sólido y humano", "Equilibrio posible entre corazón y rigor"],
+      "frictions": ["Capricornio puede parecer frío y distante", "Cáncer puede parecer demasiado sensible y dependiente", "Conflicto entre dominio racional y necesidad afectiva"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "variable",
+      "titre": "Estructura y resplandor",
+      "texte": "Capricornio quiere construir con seriedad, Leo quiere brillar con corazón. El vínculo puede ser poderoso pero exige aceptar dos estilos de autoridad muy diferentes.",
+      "forces": ["Uno estructura, el otro inspira y motiva", "Posibilidad de construir algo visible y fuerte", "Complementariedad entre ambición discreta y presencia deslumbrante"],
+      "frictions": ["Leo puede parecer demasiado demostrativo", "Capricornio puede parecer demasiado austero", "Conflicto entre necesidad de reconocimiento y exigencia de resultados"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Tierra y método",
+      "texte": "Capricornio y Virgo pueden trabajar, construir y avanzar juntos con rigor, método y seriedad. Un dúo de una eficacia y una fiabilidad notables.",
+      "forces": ["Rigor y competencia compartidos", "Sentido de lo real y atención al detalle", "Construcción paciente y minuciosa"],
+      "frictions": ["Exceso de exigencia por ambos lados", "Tendencia común a controlarlo todo", "Riesgo de una relación demasiado funcional que carece de calidez"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Estructura y relación",
+      "texte": "Capricornio quiere solidificar, Libra quiere equilibrar y embellecer. La relación puede ser útil y elegante, pero exige unir responsabilidad y flexibilidad relacional.",
+      "forces": ["Capacidad común de formalizar acuerdos duraderos", "Sentido del marco y del vínculo social", "Complementariedad entre estructura y diplomacia"],
+      "frictions": ["Libra puede parecer demasiado indecisa y cambiante", "Capricornio puede parecer demasiado duro e inflexible", "Conflicto entre compromiso y firmeza"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "fluide",
+      "titre": "La roca y el abismo",
+      "texte": "Capricornio y Escorpio comparten una intensidad contenida, seriedad y una capacidad de ir muy lejos en lo que emprenden. El vínculo puede ser de una solidez y una profundidad excepcionales.",
+      "forces": ["Profundidad y resistencia compartidas", "Voluntad y determinación comunes", "Lealtad poderosa y respeto mutuo"],
+      "frictions": ["Posibles pulsos de poder entre dos naturalezas dominantes", "Control excesivo por ambos lados", "Dificultad común para soltar y abandonarse"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "variable",
+      "titre": "Visión y construcción",
+      "texte": "Sagitario quiere abrir el horizonte, Capricornio quiere construir en la duración. El vínculo puede ser fuerte y fecundo si une el entusiasmo con la responsabilidad, la visión con la estrategia.",
+      "forces": ["Uno inspira y arrastra, el otro estructura y construye", "Complementariedad entre visión y estrategia a largo plazo", "Capacidad de realizar algo sólido y vasto"],
+      "frictions": ["Capricornio puede parecer demasiado cerrado o austero", "Sagitario puede parecer demasiado imprevisible", "Conflicto entre expansión y control"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "fluide",
+      "titre": "Estructura frente a estructura",
+      "texte": "Dos Capricornios se comprenden en su necesidad de seriedad, fiabilidad y construcción. El vínculo puede ser de una solidez notable, pero exige no secarse emocionalmente.",
+      "forces": ["Solidez y fiabilidad del vínculo", "Respeto mutuo profundo", "Capacidad de construir juntos en la duración"],
+      "frictions": ["Rigidez y contención emocional por ambos lados", "Riesgo de vivir demasiado en el deber en detrimento del placer", "Dificultad para mostrarse vulnerable el uno ante el otro"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "complementaire",
+      "titre": "Estructura y reforma",
+      "texte": "Capricornio conserva y organiza, Acuario reinventa y abre. Es un eje poderoso entre forma establecida y transformación de lo colectivo, tradición e innovación.",
+      "forces": ["Complementariedad entre marco e innovación", "Visión estratégica compartida", "Capacidad común de transformar el mundo de forma útil"],
+      "frictions": ["Capricornio puede parecer demasiado rígido y conservador", "Acuario puede parecer demasiado distante o imprevisible", "Conflicto entre seguridad y libertad radical"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "stimulante",
+      "titre": "Estructura y compasión",
+      "texte": "Capricornio da una forma sólida al mundo, Piscis lo abre a lo sensible y a lo invisible. El vínculo puede ser profundamente complementario si cada uno respeta el universo del otro.",
+      "forces": ["Uno ancla y estructura, el otro suaviza e inspira", "Complementariedad entre marco y compasión", "Posibilidad de unir realidad concreta e inspiración espiritual"],
+      "frictions": ["Capricornio encuentra a Piscis demasiado difuso e inasible", "Piscis encuentra a Capricornio demasiado duro y demasiado frío", "Conflicto entre control y abandono"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Capricornio, entras en la vida con reserva, seriedad, prudencia y necesidad de dominio. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, de presentarte y de reaccionar lleva una tonalidad estructurada, sobria y responsable. Observas antes de actuar, evalúas antes de comprometerte, y buscas lo que es sólido antes de fiarte de ello.",
+    "apparence": [
+      "Presencia sobria y contenida que inspira respeto",
+      "Porte serio o controlado con una impresión de madurez",
+      "Mirada atenta, prudente o distante que observa antes de entregarse",
+      "Cuerpo o porte que evoca la verticalidad y el autocontrol"
+    ],
+    "temperament": [
+      "Observa largamente antes de actuar y comprometerse",
+      "Reacciona con prudencia y mesura en toda circunstancia",
+      "Necesita comprender lo que es sólido antes de fiarse de ello",
+      "Soporta mal la improvisación vacía y los entusiasmos sin continuidad"
+    ],
+    "vigilances": [
+      "Rigidez que cierra las puertas en lugar de abrirlas",
+      "Contención excesiva que impide la expresión de los sentimientos",
+      "Miedo a la vulnerabilidad vivida como una debilidad",
+      "Tendencia a controlarse demasiado incluso en los momentos íntimos",
+      "Riesgo de parecer cerrado o inaccesible a quienes lo rodean"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Vega",
+      "nature": "Venus / Mercurio",
+      "texte": "Vega aporta una nota de calidad, de refinamiento dominado y de éxito obtenido por el talento y la disciplina. En Capricornio, sostiene la idea de una cima alcanzada por exigencia y constancia, donde la excelencia se vuelve natural.",
+      "motsCles": ["Excelencia", "Nobleza interior", "Dominio", "Resplandor sobrio"]
+    },
+    {
+      "nom": "Nunki",
+      "nature": "Júpiter / Mercurio",
+      "texte": "Nunki refuerza la idea de una trayectoria dominada, de una dirección mantenida con inteligencia y control. Concuerda con la dimensión estratégica de Capricornio, evocando la navegación paciente hacia un puerto lejano pero seguro.",
+      "motsCles": ["Visión", "Dirección", "Dominio", "Navegación"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Ónix", "motsCles": ["solidez", "dominio", "resistencia", "estructura"] },
+      { "nom": "Granate almandino", "motsCles": ["resistencia", "esfuerzo", "firmeza", "profundidad"] },
+      { "nom": "Plomo", "motsCles": ["saturno", "tiempo", "estructura", "responsabilidad"] }
+    ],
+    "vegetaux": [
+      { "nom": "Ciprés", "motsCles": ["verticalidad", "firmeza", "duración", "sobriedad"] },
+      { "nom": "Hiedra", "motsCles": ["persistencia", "duración", "paciencia", "ascenso"] },
+      { "nom": "Cola de caballo", "motsCles": ["estructura", "consolidación", "solidez", "disciplina"] }
+    ],
+    "animaux": [
+      { "nom": "Cabra de montaña", "motsCles": ["ascenso", "prudencia", "resistencia", "altura"] },
+      { "nom": "Íbice", "motsCles": ["dominio", "altura", "resistencia", "tenacidad"] },
+      { "nom": "Cuervo", "motsCles": ["lucidez", "gravedad", "inteligencia", "distancia"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "India", "texte": "Asociada a Capricornio por su antigüedad, su compleja estructura social y una profundidad temporal que desafía los siglos." },
+    { "pays": "México", "texte": "Citado en las tradiciones clásicas por sus civilizaciones antiguas, sus pirámides y una cultura de la resistencia ante la adversidad." },
+    { "pays": "Afganistán", "texte": "Vinculado a Capricornio por sus montañas austeras, su resistencia secular y un temperamento forjado por las pruebas." },
+    { "pays": "Bulgaria", "texte": "Citada en las correspondencias tradicionales por su arraigo terrenal, su historia de resistencia y su cultura de la perseverancia." }
+  ],
+  "figuresCelebres": [
+    { "nom": "David Bowie", "domaine": "Música", "date": "8 de enero de 1947", "texte": "Encarna el dominio de Capricornio a través de una construcción de obra paciente, disciplinada y de una longevidad notable." },
+    { "nom": "Kate Middleton", "domaine": "Vida pública", "date": "9 de enero de 1982", "texte": "Ilustra la firmeza, el dominio y la sobriedad de imagen característicos de Capricornio." },
+    { "nom": "Denzel Washington", "domaine": "Cine", "date": "28 de diciembre de 1954", "texte": "Encarna la presencia sólida, la credibilidad duradera y el dominio de Capricornio en la pantalla." },
+    { "nom": "Michelle Obama", "domaine": "Vida pública", "date": "17 de enero de 1964", "texte": "Ilustra la disciplina, la autoridad serena y la fuerza estructurada propias de Capricornio." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Capricornio?",
+      "reponse": "Capricornio se caracteriza por la paciencia, el rigor, la ambición y una capacidad notable de construir en la duración. Es un temperamento reservado, sólido y exigente, dotado de una gran constancia en sus sentimientos y opiniones. Manifiesta poco sus emociones pero posee una sensibilidad viva. Su sentido de la responsabilidad, su perseverancia y su conciencia profesional son sus bazas principales."
+    },
+    {
+      "question": "¿Qué tipo de amante es Capricornio?",
+      "reponse": "Serio, fiel, constante y profundo. Capricornio no se entrega rápido pero ama con duración y fiabilidad. El despertar amoroso es a menudo tardío, el matrimonio más bien de razón, pero el vínculo es sólido y duradero. Necesita respeto, confianza y coherencia. Su amor puede parecer discreto, pero es más estable y más profundo de lo que aparenta."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Capricornio?",
+      "reponse": "Un constructor, un estratega y un trabajador infatigable. Capricornio sobresale en los ámbitos que exigen tiempo, disciplina y responsabilidad. Triunfa gracias al mérito personal y a la constancia en la búsqueda de un objetivo bien definido. Es imbatible en cuanto a concentración y perseverancia en el esfuerzo."
+    },
+    {
+      "question": "¿Qué casa corresponde a Capricornio?",
+      "reponse": "La Casa X, la de la vocación, el lugar social, el éxito y las responsabilidades. Su analogía natural con Capricornio subraya el esfuerzo, la estructuración, la madurez y la conquista de una legitimidad duradera fundada en el mérito y la constancia."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Capricornio?",
+      "reponse": "El ascendente Cáncer suaviza su rigor con la sensibilidad. El ascendente Tauro refuerza su arraigo y su solidez. El ascendente Escorpio le aporta profundidad emocional y potencia de transformación."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Capricornio?",
+      "reponse": "Dureza excesiva, pesimismo, aislamiento emocional y rigidez. Su exigencia consigo mismo se traslada a menudo a los demás. Estos rasgos se atenúan con la madurez y la confianza adquirida."
+    },
+    {
+      "question": "¿Es Capricornio frío en el amor?",
+      "reponse": "Capricornio no es frío sino reservado. Manifiesta poco sus emociones, sin embargo su sensibilidad es viva y su fidelidad ejemplar. Su amor se prueba con los actos y la constancia más que con las palabras."
+    }
+  ]
+}

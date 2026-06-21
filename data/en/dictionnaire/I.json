@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "incompatibles",
+    "category": "signe",
+    "term": "Incompatible (Signs)",
+    "short": "Signs whose elements or modes come into structural conflict.",
+    "body": "Traditionally, signs in square or opposition are judged incompatible because they pursue divergent aims with opposing methods (e.g. Aries/Fire/Impulse vs Capricorn/Earth/Patience). In modern astrology, however, this 'incompatibility' is seen as a creative tension necessary to the balance of the personality."
+  },
+  {
+    "slug": "inconjonction",
+    "category": "aspect",
+    "term": "Inconjunct",
+    "short": "A 150° aspect indicating a subtle tension between two planets without a major aspect.",
+    "body": "The inconjunct, or quincunx, is a minor aspect that occurs when two planets are separated by 150°. It indicates a relationship of latent tension between the energies of the two planets, often felt as a mismatch or a mutual misunderstanding. The inconjunct suggests that the two planets have different aims or modes of expression that require a conscious adjustment in order to be harmoniously integrated into the natal chart."
+  },
+  {
+    "slug": "ingres",
+    "category": "astronomique",
+    "term": "Ingress",
+    "short": "The precise moment when a heavenly body enters a new sign of the zodiac.",
+    "body": "An ingress marks a radical change of energetic climate. In mundane astrology, the Solar Ingress at 0° Aries (the spring equinox) is used to draw up a forecast chart for the coming year for a given country. For slow planets such as Pluto or Saturn, the ingress into a new sign is a major event that defines the transformations of a generation or the challenges of a society. On the individual level, the ingress of a transiting planet into a new house of the natal chart activates a new field of concrete experience."
+  },
+  {
+    "slug": "inharmonieux",
+    "category": "aspect",
+    "term": "Inharmonious",
+    "short": "Aspects of tension that require an effort of integration.",
+    "body": "Inharmonious aspects (the square, the opposition, sometimes the quincunx) create psychological or circumstantial discomfort. Far from being 'bad', they are the engines of growth: they compel the individual to develop a heightened awareness and to act in order to resolve the conflict. Without inharmonious aspects, there is little concrete achievement in a life."
+  },
+  {
+    "slug": "integration",
+    "category": "concept",
+    "term": "Integration",
+    "short": "The process of synthesising planetary energies into a coherent whole.",
+    "body": "Integration is the ultimate goal of astrological analysis. It is about understanding how the various planets, signs, houses and aspects interact to form a unique personality. Integration involves recognising the strengths and weaknesses of a natal chart, accepting the apparent contradictions and finding ways to reconcile opposing energies. It is a dynamic process that unfolds throughout life, allowing the individual to grow and flourish in harmony with their astrological chart."
+  },
+  {
+    "slug": "intercepte",
+    "category": "technique",
+    "term": "Intercepted (Sign)",
+    "short": "A zodiacal sign contained entirely within a house without touching either cusp.",
+    "body": "Interception occurs in unequal house systems (such as Placidus) when the span of a house exceeds 30 degrees. An intercepted sign is perceived as an energy that is 'locked in' or compressed. The individual often struggles to express the qualities of this sign spontaneously in their youth. It usually takes a major transit over the planets located within it to 'release' the sign's potential."
+  },
+  {
+    "slug": "interpolation",
+    "category": "technique",
+    "term": "Interpolation",
+    "short": "A mathematical method for calculating the exact position of a heavenly body between two readings.",
+    "body": "Ephemerides generally give the position of the planets for midnight or noon. Interpolation allows one to determine, by simple proportion, the precise position at the moment of birth. Although software handles this today, it is a foundation of manual calculation that ensures the accuracy of the chart, especially for the Moon, which moves very rapidly."
+  },
+  {
+    "slug": "interpretation",
+    "category": "concept",
+    "term": "Interpretation",
+    "short": "The art of synthesising the many symbols of a chart into a coherent reading.",
+    "body": "Interpretation is the ultimate stage of astrological practice. It consists in not reading the factors in isolation (e.g. Venus in Leo), but in integrating them into an overall whole. A good interpretation ranks the strengths of the chart (dominant planets) and brings out the main lines of force of the personality and of destiny, while respecting the client's level of awareness."
+  },
+  {
+    "slug": "inversion",
+    "category": "concept",
+    "term": "Inversion",
+    "short": "A reversal of the planetary hierarchy or of the polarities within a chart.",
+    "body": "Inversion occurs when the planets of a natal chart are arranged in such a way as to reverse the traditional roles. For example, a planet normally considered weak (such as Mars in Cancer) can become dominant if it is in major aspect with the Sun or the Ascendant. Likewise, polarities can be inverted: a feminine sign may express masculine qualities and vice versa. Inversion is a phenomenon that underscores the complexity and singularity of each natal chart, showing that the general rules of astrology can be circumvented or reinterpreted according to the specific configuration of the chart."
+  }
+]

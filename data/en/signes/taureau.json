@@ -1,0 +1,460 @@
+{
+  "slug": "taureau",
+  "nom": "Taurus",
+  "sousTitre": "The second sign of the Zodiac",
+  "devise": "I have",
+  "periode": "April 21 – May 20",
+  "element": "Earth",
+  "mode": "Fixed",
+  "maitre": "Venus",
+  "exaltation": "Moon",
+  "exil": "Mars",
+  "chute": "Uranus",
+  "polarite": "Feminine",
+  "temperament": "Nervous",
+  "maisonNaturelle": 2,
+  "couleur": {
+    "primaire": "#059669",
+    "secondaire": "#84CC16",
+    "accent": "#D4A574",
+    "gradient": "from-emerald-600 via-green-500 to-lime-400"
+  },
+  "navigation": {
+    "precedent": { "slug": "belier", "nom": "Aries" },
+    "suivant": { "slug": "gemeaux", "nom": "Gemini" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/taureau.webp",
+    "planete": "/images/planetes/venus.webp"
+  },
+  "introduction": "Taurus is the second sign of the Zodiac. In mid-spring, after the initial thrust of Aries, comes consolidation: the vital forces take shape and put down roots to ensure the rising of the sap. Where Aries starts things off, Taurus consolidates. It turns impulse into continuity, momentum into stable form. An Earth sign, fixed, ruled by Venus and the place of the Moon's exaltation, Taurus carries within it an energy of stabilisation, fertility and patient construction. It rushes nothing; it puts down roots. It does not theorise; it embodies. Its founding gesture is not “I exist” but “I have” — I have a body, I have resources, I have worth, I have a place in the concrete world.",
+  "fondationsCosmiques": {
+    "texte": "Taurus belongs to the Earth element (cold and dry), which, according to tradition, gives it a nervous temperament: practical efficiency, endurance, considerable potential for achievement. It is the first level of Earth — that of instinct. It instinctively senses the concrete, it loves to enjoy what is beautiful and good, not out of selfishness, but because it feels that this nourishes it and makes it solid. Its mode is fixed: it corresponds to the middle of a season, the moment when forces are stabilised and concentrated. Fixed signs provide stability, firmness, a powerful personality and independence. Projects are generally seen through to the end. Taurus is a passive sign (or feminine, receptive, introverted): it absorbs rather than defends itself, but it has great endurance, a deep and stable energy, and abundant inner resources.",
+    "courteAscension": "Taurus is a sign of short ascension — it crosses the horizon relatively quickly — and a nocturnal sign. Tradition classes it among the northern, animal, four-footed signs of small, thickset stature.",
+    "pluton": "The fall of Uranus in Taurus underscores the tension between this sign's need for stability and the upheavals this planet imposes. Uranus in Taurus creates friction between what wants to stay in place and what demands change — a tension that often manifests in the realms of economics, values and one's relationship to matter."
+  },
+  "analogies": {
+    "animal": "The bull",
+    "objet": "Fertile earth, stone, the bedrock",
+    "fonction": "To stabilise, to nourish, to preserve",
+    "texte": "Taurus evokes the power to bring things to fruition, perseverance, stubbornness, solidity. It is the countryside, the soil, the ploughman. It symbolises instinct, power, the vital force that takes shape and puts down roots, the rising of the sap to complete forms, the rich green pastures. Its function is to stabilise what has been initiated, to nourish what grows, to preserve what has value."
+  },
+  "mythologie": {
+    "titre": "The Minotaur and the fertility of Zeus",
+    "texte": "Taurus appears in many myths as a figure of fertility, vital power and abundance. King Minos had received from Poseidon a magnificently beautiful white bull that he was meant to sacrifice, but he refused, replacing it with another. Poseidon, noticing the deceit, punished him by sending the bull to impregnate his wife. The Minotaur was born of this union — a monster with a human body but the head of a bull. Theseus, guided by Ariadne's thread, managed to defeat the monster at the heart of the labyrinth. Love reigns supreme in this myth: first carnal love, a reflection of the sign's instinctive nature, then the tender love of Ariadne for Theseus, which lights his way and leads him out of the prison from which one must free oneself. Taurus must learn to pay its due, not to cheat on the true price of things.",
+    "civilisations": "In the Greek tradition, Zeus transforms into a bull — a calm, attractive, protective force that advances without agitation but with self-evidence. Dionysus, son of Zeus, identified with a bull during the Dionysian rites: initiates had to consume the flesh of a bull to unite with the spirit of the god of sensory flourishing. Its presence at the heart of spring represents life springing forth in profusion. Taurus thus symbolises embodied life — the link to the earth, the body, fertile matter — and the capacity to make what has been initiated last."
+  },
+  "portrait": {
+    "temperament": "Taurus takes the time to assess before committing: it likes neither gratuitous agitation nor imposed haste. Its character is stable, faithful, often calm in appearance, with a strong need for continuity and coherence. It prefers tangible realities to vague promises, and quiet solidity to grand, spectacular effects. Understanding is not always quick, the imagination not very active, but these apparent shortcomings are largely offset by reflection, concentration, patience and often sheer doggedness. The Taurus native can produce a considerable amount of work and acquire the same knowledge as people of livelier signs, but at their own pace. When immature, it can become stubborn, possessive or passive. As it matures, it becomes a remarkable force of grounding, peace and construction.",
+    "forces": [
+      "The ability to build over the long term",
+      "Solid grounding in reality",
+      "A sense of the concrete, of duration and of value",
+      "Persevering without scattering",
+      "Creating a stable, reassuring framework",
+      "Giving solid form to an idea or a project"
+    ],
+    "ombres": [
+      "Inertia in the face of change",
+      "Difficulty letting go",
+      "Rigidity in habits or excessive attachment",
+      "Violent, abrupt anger when pushed to the limit",
+      "Stubbornness on undertakings beyond its capacities"
+    ],
+    "besoinsVitaux": [
+      "Material and emotional security",
+      "A stable framework and simple landmarks",
+      "A regular rhythm, comfort, continuity"
+    ],
+    "aTravailler": [
+      "Accepting change without losing one's centre",
+      "Loosening up habits",
+      "Distinguishing security from attachment",
+      "Avoiding being trapped in comfort",
+      "Sometimes initiating movement before being forced to"
+    ],
+    "equilibre": "A Taurus in full command of their powers becomes peaceful without being motionless, faithful without being possessive, solid without being rigid. It embodies a living stability: a base that supports, not a prison. Its strength becomes nourishing, protective, reassuring, able to endure without hardening."
+  },
+  "sante": {
+    "zones": ["Neck", "Throat", "Vocal cords", "Jaw", "Cerebellum"],
+    "texte": "Taurus governs the neck, the throat, the nape, the medulla oblongata, the cerebellum, the palate, the lower jaw, the ears, the tongue, the organs of speech, the windpipe, the tonsils and the thyroid. It predisposes to all ailments of the upper respiratory tract: sore throats, tracheitis, stomatitis, mouth ulcers, ear infections, mumps. The thyroid and the endocrine glands of this area can cause problems, with repercussions on metabolism and growth. Moreover, this sign can predispose to troubles linked to overly prolonged effort or dietary excess. In general, the constitution is robust, with notable physical strength and a great capacity for recovery."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "Identity and temperament",
+      "texte": "The natural position of Taurus. The mind is positive, concrete, almost exclusively concerned with material realities. Understanding is rather slow but deep, the capacity for work considerable. Common sense, faithfulness, constancy and loyalty dominate. The will is stubborn and the power of resistance enormous. The native is calm, provident, sensual, sometimes a gourmand. Artistic aptitudes and oratorical gifts are appreciable. Success comes through work and perseverance, but often with a lack of flexibility."
+    },
+    {
+      "numero": 2,
+      "titre": "Resources",
+      "texte": "A very favourable position for finances. Taurus in the Second House foretells a developed practical sense, appreciable acquisitiveness and regularity in earnings thanks to sustained effort. It seeks gain through simple but sure means. Little inclined to risky ventures. Possible gains in agriculture, animal husbandry, real estate, mining, and the trade of essential goods. Sometimes a hunger for gain, even avarice."
+    },
+    {
+      "numero": 3,
+      "titre": "Communication",
+      "texte": "An intellect oriented toward practical matters. The subject always seeks to make use of their knowledge and usually succeeds. Great capacity for intellectual work. Does not seem to favour travel much. Harmony with siblings can be compromised by tenacious aversions or stubbornness, often originating in a question of money or inheritance."
+    },
+    {
+      "numero": 4,
+      "titre": "Roots",
+      "texte": "A good sign for patrimony and inheritances, especially when it comes to real estate. Auspicious for material security during the latter part of life. Relationships with the family of origin can be troubled by stubbornness on both sides, but the family setting generally remains solid."
+    },
+    {
+      "numero": 5,
+      "titre": "Creativity and love",
+      "texte": "Strong sensuality but without depravity. Few romantic adventures — affections are deep and lasting, but sometimes jealous. A sign fairly favourable to the birth of several children. Little inclined to gambling and speculation, but gains are possible in real-estate investments and anything connected to the land. Fairly favourable to artistic careers."
+    },
+    {
+      "numero": 6,
+      "titre": "Daily life and health",
+      "texte": "Predisposes to Taurus ailments: sore throats of all kinds (tonsillitis, tracheitis), disorders of growth and assimilation due to its influence on the endocrine glands. In general, the subject easily finds stable work to their liking. Collaborators are faithful and can contribute considerably to the building of a fortune."
+    },
+    {
+      "numero": 7,
+      "titre": "Partnerships and marriage",
+      "texte": "Often a marriage of interest, rather late, but stable because the subject has long weighed the pros and cons. The partner is provident, thrifty, faithful, but often stubborn and sometimes jealous. Partnerships are rather favourable, especially professionally. Risk of long-lasting litigation. Enemies are formidable because they are powerful and tenacious."
+    },
+    {
+      "numero": 8,
+      "titre": "Transformations",
+      "texte": "A good prognosis for inheritances, especially when it comes to land or buildings. Death, when indicated by this sign, is often caused by its own ailments. This sign can also predispose to sudden or accidental endings, but a single indication is never enough to confirm it."
+    },
+    {
+      "numero": 9,
+      "titre": "Distant horizons",
+      "texte": "Spiritual tendencies, if they exist, run up against the practical demands of life and struggle to express themselves fully. Few or no long journeys, but those that do occur can be very important and lead to a profound change of situation."
+    },
+    {
+      "numero": 10,
+      "titre": "Vocation",
+      "texte": "A usually solid and stable situation. Few changes, but those that occur often completely alter the subject's life. Advancement is slow, sometimes difficult, and requires diligent work and much patience. Success is, however, very frequent thanks to a certain luck, persistence and the sheer amount of work provided. Possibility of fame following laborious work of exceptional importance. Failure comes from a lack of adaptability and flexibility."
+    },
+    {
+      "numero": 11,
+      "titre": "Friendships",
+      "texte": "Numerous and faithful friendships among people of both sexes, but sometimes too demanding. Friends may cause trouble through their lack of diplomacy. Once trust is granted, Taurus does not change its mind: you will have a friend you can count on in all circumstances."
+    },
+    {
+      "numero": 12,
+      "titre": "Hidden trials",
+      "texte": "The same predispositions to illness as for Taurus in the Sixth House, but here the ailment may become chronic. Enemies are formidable because of their stubbornness. It is better not to unmask them openly but rather to bring diplomacy into play. The subject must contend with tenacious jealousies."
+    }
+  ],
+  "amour": {
+    "texte": "Taurus loves with depth, continuity and sensuality. It does not necessarily seek immediate excitement: it wants to feel a bond settling in, taking shape, becoming reliable, livable and nourishing. It often prefers real constancy to brilliant but unstable promises. Confident in the good impression made by its physical strength, which is not without charm, it will go straight to the point. Its love life will most often be uneventful — on two conditions: physical harmony and the absence of jealousy.",
+    "qualites": [
+      "Deep emotional faithfulness",
+      "The ability to love over time",
+      "A reassuring, protective presence",
+      "Sensuality, gentleness and concrete attachment",
+      "A taste for building a stable, livable bond"
+    ],
+    "vigilances": [
+      "Possessiveness or jealousy if insecurity sets in",
+      "Difficulty accepting changes of rhythm in the relationship",
+      "Attachment to a form of comfort that can stifle momentum",
+      "Risk of staying too long in a situation out of fear of loss",
+      "Violent anger if it feels betrayed or deceived"
+    ],
+    "affinites": ["vierge", "capricorne", "cancer", "poissons"]
+  },
+  "travail": {
+    "texte": "Taurus works with method, endurance and a concern for the concrete. It is not necessarily the fastest at the start, but it is often among the best at holding on, stabilising, growing, securing and making lasting what has been begun. Its preferred fields include agriculture, real estate, the trade of essential goods, the timber industries, but also — under the influence of Venus — music, the arts, singing and oratory.",
+    "atouts": [
+      "Constancy and reliability over time",
+      "The ability to repeat and deepen a skill",
+      "A sense of concrete, tangible results",
+      "An aptitude for managing resources sustainably",
+      "A considerable capacity for work"
+    ],
+    "defis": [
+      "Resistance to imposed changes",
+      "Slowing down in phases of rupture or emergency",
+      "Excessive distrust of innovation",
+      "Risk of settling into a stifling routine",
+      "A lack of flexibility and adaptation"
+    ]
+  },
+  "argent": {
+    "texte": "Taurus has a strong relationship with money, because it is linked to value, possession and material security. It can be very thrifty, very managerial, very cautious — or, on the contrary, spend a great deal on comfort, quality, beauty and pleasure, depending on what it associates with security and satisfaction. Wealth grows gradually thanks to regular work and a sense of thrift.",
+    "forces": [
+      "A sense of duration and accumulation",
+      "The ability to preserve what has been gained",
+      "A concrete relationship to value",
+      "An aptitude for building gradual material security"
+    ],
+    "risques": [
+      "Fear of going without",
+      "Excessive attachment to possessions",
+      "Difficulty taking a useful risk",
+      "Spending on comfort, luxury or sensory pleasure"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sun",
+      "slug": "soleil",
+      "description": "The Sun in Taurus builds a stable, embodied, reliable identity attached to concrete values. It needs to feel that it exists through something solid, lasting and tangible.",
+      "manifestations": ["Inner stability", "Perseverance", "A sense of continuity", "Quiet strength"]
+    },
+    {
+      "nom": "Moon",
+      "slug": "lune",
+      "description": "The Moon in Taurus experiences emotion through the need for peace, continuity, gentleness and sensory security. It protects and nourishes — which is why it feels so at home in Taurus, its sign of exaltation.",
+      "manifestations": ["Emotional calm", "A need for gentleness", "Emotional faithfulness", "The ability to reassure"]
+    },
+    {
+      "nom": "Mercury",
+      "slug": "mercure",
+      "description": "Mercury in Taurus thinks slowly but solidly. The mind seeks to understand through the concrete, to retain, to stabilise, to express clearly what has matured.",
+      "manifestations": ["Steady thinking", "A reliable memory", "Pragmatism", "Simple, concrete communication"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus in Taurus is in one of its most natural expressions: a taste for beauty, gentleness, the flesh, pleasure, faithfulness and lasting harmony.",
+      "manifestations": ["Sensuality", "Emotional loyalty", "A taste for the beautiful and the simple", "The ability to love deeply"]
+    },
+    {
+      "nom": "Mars",
+      "slug": "mars",
+      "description": "Mars in Taurus acts with slowness, power and tenacity. The energy is not explosive: it settles in, takes root, pushes, resists and holds.",
+      "manifestations": ["Endurance", "Lasting action", "Resistance", "Remarkable tenacity"]
+    },
+    {
+      "nom": "Jupiter",
+      "slug": "jupiter",
+      "description": "Jupiter in Taurus grows through patience, stability and gradual construction. It amplifies a sense of resources and of the long term.",
+      "manifestations": ["Confidence in duration", "Gradual growth", "A fertile relationship to matter", "The ability to make things bear fruit"]
+    },
+    {
+      "nom": "Saturn",
+      "slug": "saturne",
+      "description": "Saturn in Taurus structures matter, resources, and one's relationship to possession and security. It gives a strong awareness of what lasts, what costs and what is earned.",
+      "manifestations": ["Material discipline", "Rigour", "Reliability", "The ability to build solidly"]
+    },
+    {
+      "nom": "Uranus",
+      "slug": "uranus",
+      "description": "Uranus in Taurus creates tension between the need for stability and upheavals of values. It awakens what seemed frozen in matter, the economy, the body or security.",
+      "manifestations": ["The ability to reform the concrete", "An intelligence for useful change", "Innovation applied to matter"]
+    },
+    {
+      "nom": "Neptune",
+      "slug": "neptune",
+      "description": "Neptune in Taurus seeks an ideal of peace, nature, gentleness, simple beauty and sensory fusion with the living world.",
+      "manifestations": ["Gentle inspiration", "Sensitivity to embodied beauty", "A strong link to peace and nature"]
+    },
+    {
+      "nom": "Pluto",
+      "slug": "pluton",
+      "description": "Pluto in Taurus deeply transforms one's relationship to matter, possession, values and security. It pushes one to die to certain attachments so that a more essential value may emerge.",
+      "manifestations": ["Power of material regeneration", "The ability to rebuild after a loss", "An intense relationship to real value"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "delicate",
+      "titre": "Momentum and stability",
+      "texte": "Taurus seeks time, continuity and grounding, while Aries seeks impulse, speed and openness. The relationship can be complementary, but it calls for genuine respect of each one's rhythm.",
+      "forces": ["Complementarity between initiative and endurance", "Possibility of building after a good start", "Concrete grounding of a lively energy"],
+      "frictions": ["Aries finds Taurus slow", "Taurus finds Aries abrupt", "Stubbornness on both sides"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Taurus",
+      "type": "fluide",
+      "titre": "Earth and continuity",
+      "texte": "Two Taureans often understand each other through their need for peace, stability, comfort and loyalty. The bond can be very reassuring, sensual and lasting.",
+      "forces": ["Stability", "Faithfulness", "Sensuality", "Building over time"],
+      "frictions": ["Routine", "Rigidity", "Excessive attachment", "Difficulty letting the bond evolve"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Gemini",
+      "type": "variable",
+      "titre": "Stability and movement",
+      "texte": "Taurus wants to stabilise, Gemini wants to circulate. The relationship can be stimulating if each accepts that the other does not operate at the same pace.",
+      "forces": ["Complementarity between the concrete and curiosity", "Mutual enrichment", "One provides a base, the other provides air"],
+      "frictions": ["Taurus may find Gemini unstable", "Gemini may find Taurus stuck", "A difference between security and variety"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cancer",
+      "type": "fluide",
+      "titre": "Nourishing earth and protective water",
+      "texte": "Taurus and Cancer can form a very soothing, sensitive and protective duo. One reassures through presence, the other through emotional warmth.",
+      "forces": ["Security", "Gentleness", "Attachment", "The ability to create a stable home"],
+      "frictions": ["Possessiveness", "Fears of loss", "Difficulty leaving an emotional comfort zone"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "stimulante",
+      "titre": "Stability and radiance",
+      "texte": "Taurus builds, Leo radiates. The bond can be rich, creative and warm, but each has a different way of occupying their place.",
+      "forces": ["A taste for beauty", "Loyalty", "Strength of presence", "Visible, lasting construction"],
+      "frictions": ["Pride", "Stubbornness", "Leo's need for recognition versus Taurus's calm"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Earth and method",
+      "texte": "Taurus and Virgo share a taste for the concrete, realism and coherence. The bond can be very solid, useful, simple and lasting.",
+      "forces": ["Pragmatism", "Reliability", "A sense of daily life", "Patient construction"],
+      "frictions": ["Taurus may find Virgo too critical", "Virgo may find Taurus too stuck", "Excessive caution"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "complementaire",
+      "titre": "Two signs of Venus, two styles",
+      "texte": "Taurus and Libra share Venus, but not in the same way: one wants to embody and possess, the other to connect and harmonise. The bond can be elegant and pleasant, but calls for adjustments.",
+      "forces": ["A taste for beauty", "A sense of values", "A search for harmony", "Venusian affinity"],
+      "frictions": ["Taurus wants the concrete", "Libra wants connection and relational movement", "A difference between security and diplomacy"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Scorpio",
+      "type": "intense",
+      "titre": "The Taurus–Scorpio axis",
+      "texte": "Taurus protects, Scorpio transforms. It is a powerful axis of possession, value, desire, fear of loss and depth. The attraction can be very strong.",
+      "forces": ["Magnetism", "Possible loyalty", "Complementarity between stability and depth", "The power of the bond"],
+      "frictions": ["Possessiveness", "Jealousy", "Power struggles", "Difficulty letting go"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagittarius",
+      "type": "variable",
+      "titre": "Grounding and horizon",
+      "texte": "Taurus seeks continuity, Sagittarius seeks openness and movement. The relationship can be enriching if stability does not become confinement and freedom does not become flight.",
+      "forces": ["One provides a base, the other a perspective", "Possible concrete growth", "A taste for sincerity"],
+      "frictions": ["Taurus may find Sagittarius unstable", "Sagittarius may find Taurus closed", "Rootedness versus expansion"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricorn",
+      "type": "fluide",
+      "titre": "Earth and endurance",
+      "texte": "Taurus and Capricorn can build something very solid together. One nourishes, the other structures; one stabilises, the other organises.",
+      "forces": ["Endurance", "Realism", "Building over the long term", "A sense of responsibility"],
+      "frictions": ["Capricorn may seem too hard", "Taurus may seem too settled", "Risk of a functional but immobile relationship"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Aquarius",
+      "type": "delicate",
+      "titre": "Stable values and the freedom to break",
+      "texte": "Taurus wants to keep what has value; Aquarius sometimes wants to break what is frozen. The bond can be exciting, but also deeply destabilising for both.",
+      "forces": ["Possibility of reinventing foundations", "Complementarity between the concrete and vision", "Real stimulation"],
+      "frictions": ["Taurus tolerates the unpredictable poorly", "Aquarius tolerates fixation poorly", "Conflict between security and freedom"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Pisces",
+      "type": "fluide",
+      "titre": "Gentle earth and sensitive water",
+      "texte": "Taurus can offer a stable framework to Pisces, while Pisces brings inspiration, tenderness and sensitive depth. The bond can be very gentle and enveloping.",
+      "forces": ["Tenderness", "Gentleness", "Complementarity between the flesh and the imaginary", "A soothing bond"],
+      "frictions": ["Taurus may find Pisces too vague", "Pisces may find Taurus too concrete", "A need for form versus a need for dissolution"]
+    }
+  ],
+  "ascendant": {
+    "texte": "If your Ascendant is Taurus, you enter life with calm, presence, caution and a need for continuity. Even if your Sun is in another sign, your spontaneous way of acting, presenting yourself and reacting often carries a stable, sensual and concrete tone.",
+    "apparence": [
+      "A calm, composed presence",
+      "A stable or grounded bearing",
+      "A voice that is often striking or pleasant",
+      "An impression of solidity, gentleness or substance"
+    ],
+    "temperament": [
+      "Reacts slowly but surely",
+      "Needs time to commit or change",
+      "Seeks concrete landmarks",
+      "Tolerates needless agitation poorly"
+    ],
+    "vigilances": [
+      "Excessive slowness",
+      "Resistance to change",
+      "Attachment to habits",
+      "Possessiveness"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Aldebaran",
+      "nature": "Mars / Jupiter",
+      "texte": "Aldebaran is one of the best-known fixed stars in the Taurus region. It reinforces an idea of embodied power, mastered tension, potential greatness and force directed toward a goal.",
+      "motsCles": ["Nobility", "Power", "Success", "Intensity"]
+    },
+    {
+      "nom": "Capella",
+      "nature": "Mercury / Mars",
+      "texte": "Capella adds a note of finesse, mental adaptability and concrete intelligence. It recalls that Taurus's stability need not be heavy: it can also come with competence and skill.",
+      "motsCles": ["Skill", "Liveliness", "Dexterity", "Practical intelligence"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Emerald", "motsCles": ["venus", "harmony", "gentleness", "fertility"] },
+      { "nom": "Rose quartz", "motsCles": ["tenderness", "peace", "love", "gentleness"] },
+      { "nom": "Copper", "motsCles": ["venus", "beauty", "receptivity", "pleasure"] }
+    ],
+    "vegetaux": [
+      { "nom": "Rose", "motsCles": ["love", "beauty", "gentleness", "refinement"] },
+      { "nom": "Sage", "motsCles": ["protection", "grounding", "stability", "care"] },
+      { "nom": "Linden", "motsCles": ["soothing", "rest", "gentleness", "comfort"] }
+    ],
+    "animaux": [
+      { "nom": "Bull", "motsCles": ["strength", "stability", "power", "fertility"] },
+      { "nom": "Cow", "motsCles": ["nourishment", "peace", "fertility", "patience"] },
+      { "nom": "Dove", "motsCles": ["peace", "gentleness", "harmony", "tenderness"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Switzerland", "texte": "Stability, value, security, a relationship to matter and lasting solidity." },
+    { "pays": "Ireland", "texte": "A traditional symbolic attribution that varies between schools and authors." },
+    { "pays": "Cyprus", "texte": "The symbolism of Venus, of fertility, of beauty and embodied gentleness." },
+    { "pays": "Iran", "texte": "A correspondence stemming from a symbolic tradition of astrological geography." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Penélope Cruz", "domaine": "Film", "date": "April 28, 1974", "texte": "An image blending sensuality, constancy and embodied presence." },
+    { "nom": "George Clooney", "domaine": "Film", "date": "May 6, 1961", "texte": "A stable, controlled and lasting presence." },
+    { "nom": "Adele", "domaine": "Music", "date": "May 5, 1988", "texte": "Vocal depth, expressive constancy and a strong sensitive presence." },
+    { "nom": "Audrey Hepburn", "domaine": "Film", "date": "May 4, 1929", "texte": "Elegance, grace, gentleness and a simple but lasting beauty." }
+  ],
+  "faq": [
+    {
+      "question": "What is the character of Taurus?",
+      "reponse": "Taurus is characterised by stability, patience, faithfulness and a sense of the concrete. It is a calm, enduring temperament that needs security and continuity to flourish. It can be stubborn and possessive, but it is also one of the most reliable, constant and constructive signs of the Zodiac."
+    },
+    {
+      "question": "What kind of lover is Taurus?",
+      "reponse": "Sensual, faithful, deep and protective. It loves over time, with constancy and gentleness. It needs a stable, carnal and reassuring bond. It tolerates infidelity poorly and can become jealous if its need for security is threatened."
+    },
+    {
+      "question": "What kind of worker is Taurus?",
+      "reponse": "A patient and enduring builder. It excels at long-term tasks, concrete management and gradual construction. It needs to see a tangible result and a stable framework. It is less comfortable with abrupt changes or constant improvisation."
+    },
+    {
+      "question": "Which house corresponds to Taurus?",
+      "reponse": "The Second House — that of resources, assets, possessions, material security and the relationship to value. Its natural analogy with Taurus underscores the need for stability, embodiment, continuity and concrete grounding."
+    },
+    {
+      "question": "What is the ideal Ascendant for Taurus?",
+      "reponse": "A Cancer Ascendant strengthens its gentleness and sense of home. A Capricorn Ascendant amplifies its solidity and endurance. A Pisces Ascendant softens its rigidity and stimulates its imagination."
+    },
+    {
+      "question": "What are the flaws of Taurus?",
+      "reponse": "Stubbornness, possessiveness, resistance to change and jealousy are its shadow zones. Pushed to the limit, it can explode into violent, abrupt anger that is hard to contain."
+    },
+    {
+      "question": "Why is Taurus so stubborn?",
+      "reponse": "Its fixed, earthy nature gives it a stubborn will. It needs time to assess and commit. Once its decision is made, calling it into question feels like a threat to its inner security."
+    }
+  ]
+}

@@ -1,4 +1,5 @@
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { getLocale, getTranslations } from "next-intl/server";
 
 /* ================================================================== */
 /*  Avatar SVG placeholder — silhouette astrale                        */
@@ -38,10 +39,12 @@ function AvatarPlaceholder() {
 /* ================================================================== */
 /*  AuthorBox — affiché en bas de chaque article blog                  */
 /* ================================================================== */
-export function AuthorBox() {
+export async function AuthorBox() {
+  const locale = await getLocale();
+  const t = await getTranslations({ locale, namespace: "blog" });
   return (
     <aside
-      aria-label="À propos de l'auteur"
+      aria-label={t("author.eyebrow")}
       className="mt-16 rounded-2xl border border-purple-500/20 bg-purple-500/5 px-6 py-6 sm:px-8"
     >
       <div className="flex flex-col items-center gap-5 sm:flex-row sm:items-start">
@@ -53,7 +56,7 @@ export function AuthorBox() {
         {/* Contenu */}
         <div className="space-y-2 text-center sm:text-left">
           <p className="text-xs font-semibold uppercase tracking-widest text-purple-400/80">
-            L&apos;auteur
+            {t("author.eyebrow")}
           </p>
           <p className="text-lg font-semibold text-white">
             <Link
@@ -64,18 +67,13 @@ export function AuthorBox() {
             </Link>
           </p>
           <p className="max-w-xl text-sm leading-relaxed text-slate-300/90">
-            Passionné d&apos;astrologie depuis plus de 40&nbsp;ans et formé
-            pendant 3&nbsp;ans auprès de Jean-Marie Michiels, je transmets une
-            astrologie <strong className="text-purple-200">traditionnelle
-            modernisée</strong> &mdash; fidèle aux sources, éclairée par la
-            psychologie. Mon approche jupitérienne : <em>comprendre pour
-            grandir, enseigner pour partager, explorer pour élever</em>.
+            {t("author.bioHtml")}
           </p>
           <Link
             href="/auteur/stephane-gamot"
             className="mt-1 inline-block text-sm font-medium text-purple-400 transition-colors hover:text-purple-300"
           >
-            En savoir plus sur mon parcours &rarr;
+            {t("author.more")}
           </Link>
         </div>
       </div>

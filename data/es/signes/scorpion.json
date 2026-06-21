@@ -1,0 +1,459 @@
+{
+  "slug": "scorpion",
+  "nom": "Escorpio",
+  "sousTitre": "El octavo signo del Zodiaco",
+  "devise": "Yo deseo / Yo transformo",
+  "periode": "23 de octubre – 22 de noviembre",
+  "element": "Agua",
+  "mode": "Fijo",
+  "maitre": "Plutón & Marte",
+  "exaltation": "Urano",
+  "exil": "Venus",
+  "chute": "Luna",
+  "polarite": "Femenino",
+  "temperament": "Linfático",
+  "maisonNaturelle": 8,
+  "couleur": {
+    "primaire": "#7173FC",
+    "secondaire": "#EF4444",
+    "accent": "#A78BFA",
+    "gradient": "from-violet-600 via-purple-600 to-red-600"
+  },
+  "navigation": {
+    "precedent": { "slug": "balance", "nom": "Libra" },
+    "suivant": { "slug": "sagittaire", "nom": "Sagitario" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/scorpion.webp",
+    "planete": "/images/planetes/pluton.webp"
+  },
+  "introduction": "Escorpio es el octavo signo del Zodiaco. El Sol lo atraviesa entre el 23 de octubre y el 22 de noviembre aproximadamente, en el corazón del otoño, cuando las hojas caen y se pudren, cuando la savia desciende a las profundidades de la tierra, cuando la naturaleza muere para preparar su renacimiento.\n\nEs el signo de la transformación radical, del descenso a lo invisible, de la búsqueda de una verdad que solo se entrega a quien se atreve a enfrentar la oscuridad. Escorpio nunca se conforma con la superficie de las cosas: busca lo que está oculto detrás de las apariencias, aunque deba perturbar, aunque deba herirse a sí mismo. Allí donde Libra buscaba la armonía y el equilibrio entre uno mismo y el otro, Escorpio se sumerge bajo esa superficie lisa para alcanzar lo que es verdadero, profundo e irreductible.",
+  "fondationsCosmiques": {
+    "texte": "Escorpio pertenece al elemento Agua (frío y húmedo), lo que le confiere un temperamento linfático: sensibilidad profunda, receptividad interior, una vida emocional intensa y subterránea. Es el segundo nivel del Agua: el del dominio. Allí donde Cáncer siente y protege instintivamente, Escorpio comprende, sondea y transforma. El agua de Escorpio es un agua atormentada, poderosa, instintiva: la de las corrientes profundas que moldean las orillas sin que la superficie deje traslucir nada.\n\nSu modo es fijo: no suelta nada. Los signos fijos poseen una estabilidad, una firmeza y una tenacidad que pueden volverse obstinación. Escorpio lleva sus proyectos a término con una concentración y una perseverancia temibles. Signo pasivo, receptor e introvertido, encaja en lugar de defenderse, pero posee una resistencia considerable y recursos interiores profundos. Se regenera con una facilidad que sorprende a quienes lo rodean.",
+    "courteAscension": "Escorpio es un signo de ascensión larga —permanece mucho tiempo por encima del horizonte—, lo que significa que, estadísticamente, más personas nacen con Escorpio como Ascendente.",
+    "pluton": "Escorpio es el domicilio tradicional nocturno de Marte, el planeta del combate y de la energía. Desde el descubrimiento de Plutón en 1930, numerosos astrólogos modernos le han atribuido la regencia de Escorpio, pues este planeta de transformación, destrucción y regeneración corresponde al temperamento profundo de este signo. La cuestión de la doble regencia Marte-Plutón sigue siendo un tema de discusión: Marte le da a Escorpio su combatividad y su tenacidad, Plutón le da su profundidad y su poder de metamorfosis."
+  },
+  "analogies": {
+    "animal": "El escorpión, la serpiente, el águila o el fénix",
+    "objet": "El volcán, el crisol, el imán",
+    "fonction": "Transformar, sondear, regenerar",
+    "texte": "Escorpio es el signo de la transformación radical. Agresividad, combatividad, lucha, desconfianza, destrucción y regeneración: todo en este signo habla de un proceso alquímico. Así como el escorpión animal ataca con precisión y vive en la sombra, así como la serpiente muda para renacer, así como el fénix se consume para renacer de sus cenizas, el nativo de este signo atraviesa la vida como una sucesión de muertes y renacimientos. Es a la vez el cirujano que corta para curar, el detective que busca la verdad oculta, el psicólogo que sondea las profundidades del alma. Su energía viene de lo más profundo del ser: atormenta primero a quien la lleva, pero se convierte en una ayuda inestimable para quien aprende a usarla."
+  },
+  "mythologie": {
+    "titre": "El renacimiento de Orión",
+    "texte": "Escorpio está ligado al mito de Orión, el cazador gigante cuyo orgullo y sexualidad imperiosa le valieron la mordedura fatal del escorpión enviado por Artemisa —o por Gea, según las tradiciones—. Este mito nos ayuda a comprender las fuerzas profundas que habitan a Escorpio: es la sexualidad imperiosa de Orión la que le aporta lo peor y lo mejor, y se revela finalmente como el camino de su evolución. Lo conduce hacia el renacimiento, le permite recuperar la vista y acceder al mundo divino.\n\nEl animal enviado para picar al cazador demasiado orgulloso simboliza la fuerza telúrica que recuerda al hombre sus límites y su mortalidad. Pero la muerte no es un fin: Orión se convirtió en una constelación donde, según los astrónomos, la concentración gravitacional es la más fuerte del cielo, y donde nacen estrellas sin cesar. Los antiguos hicieron de Orión un símbolo de renacimiento entre las estrellas; hoy, la ciencia confirma que esta constelación no deja de renacer y de hacer nacer.",
+    "civilisations": "En el antiguo Egipto, el escorpión se asociaba a la diosa Selket, protectora de los muertos y guardiana de los umbrales del más allá. En Mesopotamia, guardaba las puertas del mundo subterráneo. Los aztecas lo vinculaban a Mictlantecuhtli, señor del reino de los muertos.\n\nEl eje Tauro-Escorpio, signos opuestos y complementarios, atraviesa todas las mitologías: el sacrificio del toro abre la vía a la transformación del escorpión. En todas las tradiciones, Escorpio representa el proceso de muerte y renacimiento, la capacidad de descender a las profundidades para salir transformado. Es el guardián de los umbrales y de los misterios."
+  },
+  "portrait": {
+    "temperament": "Escorpio posee un temperamento entero: detesta la tibieza y las falsas apariencias. Su carácter es secreto, magnético, a menudo tranquilo en la superficie pero hirviente de una intensidad emocional contenida. La mente se caracteriza por una gran curiosidad y un sentido crítico profundamente «inquisidor». Se le ofrecen dos vías principales: la de las cosas ocultas —el ocultismo, la criminología, la psicología de las profundidades— y la de las aplicaciones concretas —medicina, cirugía, ingeniería, técnicas modernas—.\n\nLa voluntad es imperiosa, la viveza considerable, la tenacidad inquebrantable. Está dotado de una lealtad indefectible hacia quienes ha elegido, pero puede convertirse en un adversario temible si se siente traicionado. Es muy difícil entablar una amistad con un Escorpio, pero sigue siendo un amigo de una fidelidad absoluta.\n\nCuando es inmaduro, puede ser manipulador o destructor; cuando madura, se convierte en un guía espiritual o psicológico capaz de ayudar a los demás en sus propias crisis. Moralmente, dos extremos coexisten en este signo: en lo más bajo de la escala, los instintos más oscuros; pero si la educación y la cultura interior le permiten dominar lo turbio de esta influencia, se encontrarán entonces seres superiores, dotados de una conciencia y de una potencia raras.",
+    "forces": [
+      "Detectar lo oculto y lo no dicho con una agudeza infalible",
+      "Regenerar situaciones que todos creían desesperadas",
+      "Guardar secretos y actuar con una discreción absoluta",
+      "Mostrar un valor psicológico inmenso ante la adversidad",
+      "Transformar las crisis en oportunidades de evolución profunda",
+      "Percibir las motivaciones profundas del otro sin que se pronuncie una palabra"
+    ],
+    "ombres": [
+      "Celos y posesividad que pueden ahogar al otro",
+      "Rencor tenaz y dificultad profunda para perdonar",
+      "Comportamientos secretos o destructivos vueltos contra sí mismo o contra los demás",
+      "Sentido crítico excesivo que esteriliza la acción y aísla",
+      "Tendencia a los pulsos de fuerza sistemáticos"
+    ],
+    "besoinsVitaux": [
+      "Autenticidad y verdad absoluta en sus relaciones",
+      "Vivir experiencias intensas que transformen en profundidad",
+      "Poder ejercer su capacidad de transformación sobre lo real"
+    ],
+    "aTravailler": [
+      "Aprender a conceder su confianza con más serenidad",
+      "Transformar la necesidad de control en soltar",
+      "Usar su potencia para construir en lugar de destruir",
+      "Expresar sus emociones en lugar de dejarlas macerar en el silencio",
+      "Aceptar la vulnerabilidad como una fuerza y no como una debilidad"
+    ],
+    "equilibre": "Un Escorpio en plena posesión de sus medios se convierte en un sanador del alma, capaz de atravesar las tempestades con una fuerza tranquila. Encarna una resiliencia ejemplar: sabe morir a sus antiguos esquemas para renacer más fuerte, más lúcido, más libre. Su potencia se vuelve magnética y protectora, ofreciendo una seguridad emocional profunda a quienes lo rodean. Su franqueza deja de ser un arma para convertirse en un acto de valor, y su mirada penetrante se pone al servicio de la comprensión en lugar del juicio."
+  },
+  "sante": {
+    "zones": ["Órganos genitales", "Sistema excretor", "Vejiga", "Recto"],
+    "texte": "Escorpio gobierna los órganos genitales, el sistema excretor, la vejiga, el recto y, según algunas tradiciones, la nariz. Predispone a las afecciones que tocan la esfera genital y urinaria, a las hemorroides, a las enfermedades víricas y a los trastornos ligados a los excesos.\n\nLa resistencia y la duración de la vida son generalmente superiores a la media, a pesar del derroche frecuente de fuerzas. El nativo de Escorpio posee una capacidad de recuperación notable: se regenera con una facilidad que asombra a su entorno. Debe, sin embargo, cuidarse de los esfuerzos excesivos, de los excesos de todo tipo y de una tendencia a llevar su cuerpo hasta el desgaste sin escuchar las señales de alerta."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "La posición más natural para Escorpio. El sentido crítico es la tendencia dominante, acompañado de una argumentación cerrada y de un espíritu de contradicción permanente. El análisis es penetrante, el juicio rápido, pero puede verse falseado por la pasión o el prejuicio. Aptitud para la investigación en todos los ámbitos, a veces atracción por las ciencias ocultas. La voluntad es imperiosa, la viveza y la tenacidad considerables. Amor profundo a la independencia. Mucho dominio de sí bajo una calma aparente, orgullo y ambición. La sensibilidad es aguda, los sentimientos profundos, pero a menudo teñidos de egoísmo. Actividad a la vez decidida, intensa y rápida: el nativo no puede permanecer inactivo y, si es necesario, destruye para reconstruir. Los obstáculos hacen de estimulante; el sujeto lucha a menudo durante toda su vida y los resultados obtenidos son muy satisfactorios, fruto de enormes gastos de energía."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "No es un indicio de suerte en cuanto a las ganancias personales, pero la situación es sin embargo estable, incluso brillante, debido a la gran actividad del nativo y a su perseverancia encarnizada. Los gastos son bastante importantes y a menudo impulsivos. Las ganancias se realizan en las profesiones de Escorpio o de Marte: medicina, cirugía, investigación, indagación, finanzas. Parece mejorar ligeramente los pronósticos de herencia que puedan existir por otra parte. La relación con el dinero es compleja y poderosa: el nativo lo ve como una herramienta de poder, de seguridad o de transformación."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Inclina con fuerza a los estudios técnicos, a la medicina, la química, la física o la psicología. Tendencias positivistas y espíritu científico. El sentido crítico está siempre alerta, con una aptitud natural para la polémica y el debate incisivo. Discusiones frecuentes con hermanos, primos, vecinos o colegas: los intercambios rara vez son tibios. El nativo destaca como investigador o polemista. Posibilidad de accidentes durante pequeños desplazamientos si Marte está mal aspectado."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "A menos que los aspectos sean particularmente benéficos, hay que prever complicaciones familiares y a veces graves discusiones, o al menos relaciones faltas de espontaneidad y de calor. A veces, pérdida prematura de un progenitor. Esta posición apenas favorece las adquisiciones inmobiliarias ni la tranquilidad al final de la vida. La armonía en el hogar puede dejar que desear por divergencias profundas entre los cónyuges y sus familias respectivas. Posibles preocupaciones relativas a una herencia o a una explotación inmobiliaria."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Predispone a los caprichos pasionales así como a las rupturas sentimentales bruscas e imprevistas. Los celos son a menudo tenaces por ambas partes. Posición más bien favorable a la descendencia, pero los hijos son a veces difíciles de criar, ya sea por falta de docilidad, ya sea por predisposición a las enfermedades. La pasión es el motor de la creatividad: cuando Escorpio crea, lo hace con todo su ser. Las pérdidas por imprudencia en el juego o la especulación son frecuentes. En materia de creación artística, el nativo se siente atraído por lo profundo, lo transgresor o lo catártico."
+    },
+    {
+      "numero": 6,
+      "titre": "El día a día y la salud",
+      "texte": "Predispone a las enfermedades del signo y a las afecciones de Marte. Tendencia a los excesos que provocan un desgaste prematuro del cuerpo. El trabajo subalterno es más bien penoso y desagradable, pero bastante estable. Si el nativo trabaja por su cuenta, sus empleados son difíciles de gobernar y pueden ocasionar periódicamente serios problemas. El rigor de Escorpio en el trabajo cotidiano puede volverse obsesivo. Si las disonancias son muy graves, posibilidad de accidente o de operación quirúrgica."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "El matrimonio se concluye a menudo de forma impulsiva. El entendimiento conyugal deja a menudo que desear, las discusiones pueden ser muy animadas, pero pese a todo la unión suele ser duradera y termina más bien por la viudez que por el divorcio. El cónyuge es con frecuencia autoritario, celoso y agresivo. Las asociaciones solo deben concluirse con la mayor prudencia, pues corren el riesgo de provocar las mismas tensiones que el matrimonio. También hay que cuidarse de los pleitos. Los enemigos declarados son particularmente violentos y agresivos, pero actúan abiertamente, lo que hace la defensa bastante fácil."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Posición natural de Escorpio: la Casa VIII es su dominio de elección. En general, indicio de un final que puede sobrevenir de forma más o menos prematura según la gravedad de las disonancias. Pero es también la casa donde Escorpio expresa su plena potencia de metamorfosis: capacidad de morir a sí mismo para renacer, de atravesar las crisis más profundas y salir transformado. Más bien favorable a las herencias si existen indicaciones concordantes por otra parte, pero riesgo de dilapidación. Relación intensa con la sexualidad, la muerte simbólica y los recursos compartidos."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Parece más bien contrario a las aspiraciones filosóficas o religiosas convencionales, pero puede indicar una atracción poderosa por el ocultismo, el esoterismo y las experiencias relacionadas. La mente es escéptica, científica, exigente: solo cree lo que ha verificado por sí misma. Los viajes no son muy numerosos y no siempre favorables: riesgo de accidentes o de complicaciones durante los desplazamientos, sobre todo por vía de agua. Posición que puede, sin embargo, ser propicia a las expediciones, a las misiones lejanas, a las inmersiones en terreno desconocido si los aspectos son favorables."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "Este signo fijo indica cierta estabilidad de la situación profesional, aunque la primera parte de la vida conozca a veces cambios decididos impulsivamente. No es un signo de suerte fácil, sino más bien un indicio de éxito por el trabajo encarnizado y los esfuerzos perseverantes. Los proyectos del nativo son en general muy precisos y sabe realizarlos con paciencia y ardor a la vez. Tendencia marcada a reorganizar las empresas, a destruir para reconstruir sobre bases más sólidas y más amplias. La ambición es muy acentuada. Esta posición produce a veces fuertes personalidades políticas, militares o científicas que han debido luchar y mostrar autoridad para imponerse."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Puede indicar amigos poco numerosos pero fieles, activos y de una lealtad probada. Son, sin embargo, particularmente susceptibles, lo que provoca enfados y reconciliaciones cíclicas. Si los aspectos son favorables, el nativo puede establecer relaciones útiles en el plano profesional: sólidas en el trabajo, aunque no siempre agradables en la superficie. Escorpio en la Casa XI exige la autenticidad absoluta por parte de sus amigos y no perdona la traición."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Predispone a las enfermedades del signo así como a las afecciones de Marte, con riesgo de hospitalizaciones o incluso de operaciones. Las pruebas son profundas y particularmente temibles, tocando las zonas más íntimas de la existencia. Si la carta es globalmente poderosa, el éxito en una carrera relacionada con la medicina, la psicología o la investigación se vería facilitado por esta posición. Escorpio aquí aprende a transmutar el sufrimiento en conocimiento y la crisis en sabiduría."
+    }
+  ],
+  "amour": {
+    "texte": "Escorpio ama con una intensidad que puede asustar o fascinar. Para él, el amor es una fusión, un compromiso total donde el alma y el cuerpo se vuelven uno. No busca la aventura ligera sino el encuentro verdadero, capaz de transformarlo en profundidad.\n\nSu vida amorosa está guiada por una sensualidad imperiosa que le cuesta enormemente dominar y canalizar. Las aventuras son a menudo precoces y numerosas, pero de una duración a veces restringida porque Escorpio es demasiado exclusivo, demasiado autoritario, demasiado celoso, y a veces consigue asustar a su pareja. El matrimonio se ve a menudo retrasado por un deseo de independencia excesivo, y luego decidido impulsivamente. La vida conyugal solo puede ser tranquila y feliz si la pareja satisface plenamente sus necesidades de profundidad, de verdad y de intensidad.",
+    "qualites": [
+      "Compromiso total y apasionado, sin ninguna media tinta",
+      "Lealtad a toda prueba hacia quien ha elegido",
+      "Profundidad emocional y sexual rara",
+      "Capacidad de sostener al otro en los momentos más oscuros",
+      "Sinceridad absoluta de los sentimientos"
+    ],
+    "vigilances": [
+      "Celos a veces asfixiantes que pueden destruir el vínculo",
+      "Necesidad irreprimible de poner a prueba la fidelidad del otro",
+      "Tendencia a crear dramas para sentir la intensidad",
+      "Riesgo de repliegue total sobre sí mismo en caso de herida"
+    ],
+    "affinites": ["cancer", "poissons", "vierge", "capricorne"]
+  },
+  "travail": {
+    "texte": "Escorpio trabaja con una concentración total y una tenacidad temible. Destaca en los ámbitos que exigen investigación, sangre fría o una comprensión de los mecanismos ocultos, humanos o técnicos.\n\nMédico, cirujano, farmacéutico, químico, ingeniero, mecánico, militar, estratega, policía, detective, psicólogo, psiquiatra, ocultista, físico, escultor: las profesiones de Escorpio tocan todas la transformación, la búsqueda de verdad o el ejercicio de un poder sobre la materia o sobre el espíritu. Es en los oficios donde puede dar rienda suelta a su ardor y a su resistencia donde el nativo se realiza plenamente. Las órdenes le sientan mal: siempre tiende a criticar las directivas que recibe antes de ejecutarlas.",
+    "atouts": [
+      "Capacidad de trabajo intensa y resistencia fuera de lo común",
+      "Estratega natural que anticipa y prevé varias jugadas por adelantado",
+      "Resistencia al estrés y sangre fría notable en las crisis",
+      "Perfeccionismo en la búsqueda de verdad",
+      "Instinto infalible para detectar las oportunidades y las grietas"
+    ],
+    "defis": [
+      "Dificultad para delegar por necesidad visceral de control",
+      "Pulsos de fuerza frecuentes con la jerarquía o los colegas",
+      "Gusto por el secreto que puede perjudicar el trabajo en equipo",
+      "Riesgo de agotamiento por obsesión por el resultado"
+    ]
+  },
+  "argent": {
+    "texte": "Escorpio mantiene una relación compleja y poderosa con el dinero. A menudo lo ve como una herramienta de poder, de seguridad o de transformación, nunca como un fin en sí mismo. Es muy hábil para gestionar los recursos de los demás, para hacer fructificar lo que está oculto, para empezar de cero cuando todo parece perdido. Su olfato financiero es notable, pero sus gastos pueden ser impulsivos y su toma de riesgos excesiva cuando la pasión se impone a la razón.",
+    "forces": [
+      "Excelente gestor de crisis financieras",
+      "Olfato notable para las inversiones rentables",
+      "Capacidad de empezar de cero tras una pérdida total",
+      "Discreción absoluta sobre sus bienes y sus estrategias"
+    ],
+    "risques": [
+      "Necesidad de control sobre el dinero de la pareja",
+      "Atracción por las especulaciones arriesgadas",
+      "Miedo profundo a la dependencia material",
+      "Relación emocional extrema —todo o nada— con la riqueza"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Escorpio forja una identidad magnética, valiente y habitada por una búsqueda de verdad. La persona existe a través de su capacidad de metamorfosearse y de sondear lo invisible. Cuando está bien aspectado, da una gran energía, un valor a toda prueba y un carácter profundamente independiente.",
+      "manifestations": ["Voluntad de hierro", "Magnetismo personal irresistible", "Valor ante la sombra y lo desconocido", "Autenticidad profunda e intransigente"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Escorpio (en caída) vive emociones de una intensidad extrema. La necesidad de seguridad pasa por el control de sus sentimientos y el análisis minucioso de los del otro. Las reacciones emocionales son profundas, subterráneas, difíciles de expresar pero imposibles de ignorar.",
+      "manifestations": ["Instinto psicológico infalible", "Capacidad de sentir lo no dicho", "Fuerza emocional extraordinaria en las crisis", "Entrega total hacia los seres amados"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Escorpio da una mente de detective. El pensamiento es penetrante, crítico, tajante y busca siempre desenmascarar lo que está oculto detrás de las palabras y las apariencias.",
+      "manifestations": ["Sentido del análisis de una profundidad rara", "Palabra contundente que va directa al corazón del tema", "Capacidad de investigación metódica", "Mente estratégica e incisiva"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Escorpio (en exilio) vive el amor como un drama sagrado. Los sentimientos son profundos, complejos, a veces atormentados pero siempre enteros. La belleza es magnética, el sacrificio amoroso total, la fidelidad sin concesiones.",
+      "manifestations": ["Belleza magnética y turbadora", "Capacidad de sacrificio amoroso total", "Fidelidad más allá de toda prueba", "Intensidad erótica y sensual profunda"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Escorpio está en su domicilio tradicional nocturno. La acción es calculada, poderosa, resistente y a menudo irresistible. Allí donde Marte en Aries golpea rápido y fuerte, Marte en Escorpio espera su hora y golpea una sola vez, definitivamente.",
+      "manifestations": ["Sangre fría ejemplar bajo presión", "Tenacidad excepcional que no conoce el abandono", "Potencia de acción subterránea y determinada", "Capacidad de resistencia fuera de lo común"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Escorpio amplifica la necesidad de comprender los misterios de la existencia y de adquirir un poder interior o financiero. El crecimiento pasa por la transformación, la crisis superada, el descenso a las profundidades.",
+      "manifestations": ["Crecimiento por la transformación personal", "Olfato financiero y sentido de los negocios", "Sabiduría esotérica y psicológica", "Regeneración rápida tras las pruebas"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Escorpio estructura las emociones y la relación con el poder. Da un gran rigor en la exploración de la sombra y exige disciplina en la gestión de las pasiones.",
+      "manifestations": ["Dominio de sí forjado por la prueba", "Disciplina emocional y control interior", "Seriedad absoluta en la investigación y la búsqueda", "Fiabilidad a toda prueba en los momentos de crisis"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Escorpio (en exaltación) produce revoluciones radicales y despertares bruscos en el inconsciente o en las estructuras de poder. La liberación pasa por la crisis, la ruptura y la transgresión de los tabúes.",
+      "manifestations": ["Genio inventivo al servicio de la transformación", "Capacidad de romper los tabúes y las convenciones", "Liberación brutal por la crisis y la renovación"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Escorpio busca la fusión espiritual a través de la intensidad emocional y los misterios de la existencia. La intuición se vuelve mediúmnica, la inspiración bebe de las capas más profundas del inconsciente.",
+      "manifestations": ["Intuición mediúmnica y percepción sutil", "Inspiración extraída de las profundidades del alma", "Idealismo apasionado y búsqueda mística"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Escorpio está en su domicilio. Expresa aquí su plena potencia de transformación, de destrucción y de reconstrucción. Es la generación que confronta los tabúes más profundos de la sociedad y que lleva en sí el poder de metamorfosear el mundo.",
+      "manifestations": ["Potencia de regeneración absoluta", "Capacidad de ver la verdad desnuda sin apartar la mirada", "Carisma irresistible y magnetismo profundo", "Resiliencia histórica ante las pruebas colectivas"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "intense",
+      "titre": "El fuego y la lava",
+      "texte": "Ambos regidos por Marte, Aries y Escorpio comparten la energía combativa pero no el ritmo. Aries embiste de cabeza, Escorpio espera su hora en la sombra. Una relación poderosa y magnética, pero explosiva cuando las voluntades se enfrentan.",
+      "forces": ["Energía inmensa y valor compartido", "Atracción sexual fuerte y directa", "Respeto mutuo por la fuerza del otro"],
+      "frictions": ["Combates encarnizados por el poder", "Impaciencia de Aries ante el secreto de Escorpio", "Rencor de Escorpio ante la torpeza de Aries"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "intense",
+      "titre": "El eje de la posesión",
+      "texte": "Signos opuestos y complementarios, se reencuentran en el terreno de la sensualidad y de los valores profundos. Tauro quiere guardar y poseer, Escorpio quiere transformar y superar. La atracción es a menudo fatal: magnética, irresistible y potencialmente devastadora.",
+      "forces": ["Fidelidad y profundidad del vínculo", "Sensualidad compartida y poderosa", "Estabilidad de Tauro frente a la intensidad de Escorpio"],
+      "frictions": ["Terquedad extrema por ambos lados", "Celos y posesividad redoblados", "Materialismo de Tauro contra idealismo sombrío de Escorpio"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "variable",
+      "titre": "El espíritu y el instinto",
+      "texte": "Géminis sobrevuela con ligereza, Escorpio cava con intensidad. Pueden irritarse profundamente, pero Géminis se siente a menudo fascinado por el misterio de Escorpio, mientras que Escorpio puede encontrar un soplo de frescura en la viveza de Géminis.",
+      "forces": ["Intercambios intelectuales estimulantes y variados", "Curiosidad mutua por lo que el otro representa", "Géminis aporta ligereza a Escorpio"],
+      "frictions": ["Escorpio encuentra a Géminis irremediablemente superficial", "Géminis se siente aplastado por la pesadez de Escorpio", "Dificultad para encontrar un terreno de profundidad común"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "fluide",
+      "titre": "El mar y el pozo",
+      "texte": "Dos signos de agua que se comprenden sin necesidad de hablar. Cáncer protege y nutre, Escorpio transforma y profundiza. Una unión emocional de una intensidad rara, fundada en una comprensión intuitiva que desafía a las palabras.",
+      "forces": ["Comprensión intuitiva profunda e inmediata", "Protección mutua instintiva", "Profundidad de los sentimientos compartidos"],
+      "frictions": ["Repliegue sobre sí mismo en caso de conflicto sin salida", "Tendencia común a rumiar el pasado", "Emociones a veces demasiado invasivas por ambos lados"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "delicate",
+      "titre": "Luz y Sombra",
+      "texte": "Dos signos fijos que buscan el poder por vías diferentes. Leo quiere ser admirado a plena luz, Escorpio quiere ser influyente en la sombra. Una relación de respeto mutuo profundo o de guerra abierta: nunca tibieza entre estos dos.",
+      "forces": ["Lealtad indefectible por ambas partes", "Admiración por la fuerza y el valor del otro", "Ambición común y sentido de la grandeza"],
+      "frictions": ["Orgullo y honor herido", "Necesidad imperiosa de mandar cada uno por su lado", "Guerra de egos que puede destruirlo todo"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "El análisis y la investigación",
+      "texte": "Virgo analiza los detalles con minuciosidad, Escorpio busca la causa profunda con encarnizamiento. Juntos, forman un dúo de una eficacia temible en la búsqueda de verdad, la resolución de problemas y el trabajo de precisión.",
+      "forces": ["Pragmatismo aliado a una psicología profunda", "Búsqueda común de verdad y de exactitud", "Discreción y fiabilidad compartidas"],
+      "frictions": ["Culpa y autocrítica mutuas", "Ansiedad compartida y amplificada", "Crítica fría de Virgo contra sarcasmo afilado de Escorpio"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Armonía y Verdad",
+      "texte": "Libra quiere que todo sea bello y armonioso, Escorpio quiere que todo sea verdadero y profundo. Deben hacer compromisos importantes sobre su visión de lo real para encontrar un terreno de entendimiento.",
+      "forces": ["Equilibrio fecundo entre dulzura e intensidad", "Libra apacigua las tempestades de Escorpio", "Escorpio da relieve y profundidad a Libra"],
+      "frictions": ["Escorpio detesta la indecisión de Libra", "Libra teme la intensidad devoradora de Escorpio", "Falsas apariencias contra verdad cruda"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "fluide",
+      "titre": "El espejo de las profundidades",
+      "texte": "Dos Escorpio juntos viven una relación de una intensidad inigualada. Es el paraíso o el infierno, sin medio posible. Cada uno ve en el otro su propio reflejo: sus fuerzas más admirables y sus zonas de sombra más temidas.",
+      "forces": ["Comprensión total de la intensidad del otro", "Pasión absoluta y compromiso sin reservas", "Lealtad sin fisuras y complicidad de las profundidades"],
+      "frictions": ["Atmósfera a veces demasiado pesada e intensa", "Celos cruzados y sospecha recíproca", "Dificultad para perdonar a su propio espejo"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "variable",
+      "titre": "La sombra y la flecha",
+      "texte": "Escorpio mira en las profundidades, Sagitario mira hacia los horizontes. Pueden aportarse enormemente si aceptan sus diferencias fundamentales: la profundidad de uno y el vuelo del otro.",
+      "forces": ["Sinceridad cruda por ambos lados", "Sagitario aporta optimismo y ligereza", "Escorpio aporta profundidad y anclaje"],
+      "frictions": ["Escorpio encuentra a Sagitario ingenuo e imprudente", "Sagitario se siente aprisionado por Escorpio", "Necesidad de libertad contra necesidad de control"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "fluide",
+      "titre": "La roca y el abismo",
+      "texte": "Una relación muy sólida, construida sobre la seriedad, la ambición y la resistencia al tiempo. Capricornio estructura, Escorpio transforma. Construyen juntos en el tiempo y el silencio, con una paciencia que impone respeto.",
+      "forces": ["Estabilidad y profundidad del vínculo", "Respeto mutuo de la ambición y el trabajo", "Sangre fría compartida ante las pruebas"],
+      "frictions": ["Falta aparente de calor y de ligereza", "Rigor excesivo que puede secar la relación", "Tendencia común a encerrarse en el trabajo"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "delicate",
+      "titre": "El instinto y la razón",
+      "texte": "Escorpio es visceral y apasionado, Acuario es cerebral y desapegado. Sus necesidades de independencia se expresan de manera radicalmente diferente, creando malentendidos fundamentales sobre la naturaleza misma de la intimidad.",
+      "forces": ["Originalidad y profundidad combinadas", "Interés común por el cambio y la revolución", "Independencia de espíritu por ambas partes"],
+      "frictions": ["Escorpio quiere fusionar, Acuario quiere espacio", "Frialdad emocional de Acuario que hiere a Escorpio", "Necesidad de control de Escorpio que ahoga a Acuario"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "fluide",
+      "titre": "El océano sin fondo",
+      "texte": "Una conexión mística y emocional de una profundidad vertiginosa. Escorpio da una dirección y una estructura a la sensibilidad oceánica de Piscis. Piscis ofrece a Escorpio la dulzura, el perdón y el acceso a un mundo espiritual sin fronteras.",
+      "forces": ["Fusión emocional y espiritual rara", "Intuición compartida y comprensión más allá de las palabras", "Amor romántico de una profundidad abismal"],
+      "frictions": ["Riesgo de dependencia afectiva mutua", "Falta de realismo y huida en el imaginario", "Dificultad común para afrontar los problemas concretos"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Con un ascendente Escorpio, abordas el mundo con una intensidad palpable y una prudencia observadora. Tu primera reacción es siempre sondear el entorno para percibir sus corrientes ocultas antes de revelarte. Aunque tu Sol esté en otro signo, tu manera de entrar en las situaciones lleva una tonalidad escorpiónica: magnética, penetrante, secreta.",
+    "apparence": [
+      "Mirada intensa y penetrante que parece leer a través de las personas",
+      "Magnetismo natural que no deja a nadie indiferente",
+      "Porte a menudo sombrío, elegante o misterioso",
+      "Expresión facial que domina perfectamente lo que deja traslucir"
+    ],
+    "temperament": [
+      "Reacciona con una gran agudeza instintiva a cualquier situación",
+      "Necesidad profunda de controlar su imagen y su entorno",
+      "Fuerte voluntad disimulada bajo una calma aparente",
+      "Escepticismo inicial que exige pruebas de sinceridad antes de toda confianza"
+    ],
+    "vigilances": [
+      "Actitud defensiva excesiva que aísla",
+      "Tendencia a la interpretación paranoica de las intenciones del otro",
+      "Retención de información por necesidad de poder",
+      "Necesidad de control sobre los demás que puede volverse tiránica",
+      "Dificultad profunda para relajarse y soltar"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Antares",
+      "nature": "Marte / Júpiter",
+      "texte": "El 'Corazón del Escorpión'. Esta estrella real da una fuerza vital inmensa pero advierte contra los excesos de agresividad y la hibris. Promete el éxito deslumbrante a condición de dominar los impulsos y de no dejarse consumir por la propia intensidad.",
+      "motsCles": ["Intensidad", "Éxito por la lucha", "Pasión devoradora", "Transformación radical"]
+    },
+    {
+      "nom": "Unukalhai",
+      "nature": "Marte / Saturno",
+      "texte": "Situada en la constelación de la Serpiente, esta estrella evoca el conocimiento adquirido por el dolor o la crisis, y la capacidad de sanar tras haber enfrentado a los propios demonios. Habla de la sabiduría que nace de la prueba atravesada.",
+      "motsCles": ["Sabiduría adquirida por la prueba", "Conocimiento de las profundidades", "Sanación interior", "Transformación por el dolor"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Obsidiana", "motsCles": ["protección", "verdad", "transformación", "anclaje"] },
+      { "nom": "Granate", "motsCles": ["pasión", "voluntad", "energía", "fidelidad"] },
+      { "nom": "Plomo o Hierro", "motsCles": ["resistencia", "fuerza", "profundidad", "peso"] }
+    ],
+    "vegetaux": [
+      { "nom": "Albahaca", "motsCles": ["pasión", "protección", "fuerza", "limpieza"] },
+      { "nom": "Áloe", "motsCles": ["sanación", "resiliencia", "protección", "amargura"] },
+      { "nom": "Zarza", "motsCles": ["defensa", "obstinación", "misterio", "recompensa"] }
+    ],
+    "animaux": [
+      { "nom": "Escorpión", "motsCles": ["vigilancia", "defensa", "potencia", "instinto"] },
+      { "nom": "Serpiente", "motsCles": ["muda", "sabiduría", "renacimiento", "misterio"] },
+      { "nom": "Águila / Fénix", "motsCles": ["elevación", "visión", "transmutación", "triunfo"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Marruecos", "texte": "Asociado a Escorpio por su intensidad, sus misterios, sus colores profundos y una fuerza de tradición y de resistencia." },
+    { "pays": "Noruega", "texte": "Vinculada a Escorpio por sus paisajes de fiordos profundos y un temperamento reputado por su resiliencia e interioridad." },
+    { "pays": "Argelia", "texte": "Citada por su fuerza de carácter, su historia marcada por transformaciones profundas y su pasión contenida." },
+    { "pays": "Islandia", "texte": "Tierra de fuego y de hielo, de volcanes y de fuentes subterráneas, encarna la dinámica plutoniana de Escorpio." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Leonardo DiCaprio", "domaine": "Cine", "date": "11 de noviembre de 1974", "texte": "Encarna la intensidad de Escorpio a través de papeles de personajes atormentados, complejos y apasionados." },
+    { "nom": "Sophie Marceau", "domaine": "Cine", "date": "17 de noviembre de 1966", "texte": "Ejemplo de magnetismo profundo, de una presencia a la vez fuerte y secreta, y de una belleza que fascina." },
+    { "nom": "Bill Gates", "domaine": "Tecnología / Filantropía", "date": "28 de octubre de 1955", "texte": "Representa el lado estratega de Escorpio, el poder de transformación del mundo y el espíritu de investigación." },
+    { "nom": "Alain Delon", "domaine": "Cine", "date": "8 de noviembre de 1935", "texte": "Figura emblemática del magnetismo sombrío, de la soledad de Escorpio y de una carrera construida sobre la intensidad." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Escorpio?",
+      "reponse": "Escorpio se caracteriza por la intensidad, la profundidad, el magnetismo y una búsqueda permanente de verdad. Es un temperamento entero, secreto, dotado de una lealtad indefectible hacia quienes ha elegido y de un valor psicológico inmenso. Detesta la tibieza y las falsas apariencias. Su sentido crítico es afilado, su tenacidad inquebrantable y su capacidad de transformación notable."
+    },
+    {
+      "question": "¿Es Escorpio realmente malvado?",
+      "reponse": "No, esa reputación es excesiva. Escorpio posee en realidad una inmensa reserva de energía que no siempre sabe cómo usar, de modo que puede volverse contra él o contra los demás. Cuando hace un trabajo sobre sí mismo, se convierte en un excelente psicólogo, capaz de comprender y sanar al otro. Su profundidad emocional, mal comprendida desde fuera, es en realidad una de sus mayores fuerzas."
+    },
+    {
+      "question": "¿Qué tipo de trabajo conviene a Escorpio?",
+      "reponse": "Escorpio destaca en los oficios que exigen investigación, sangre fría o una comprensión de los mecanismos ocultos: medicina, cirugía, psicología, investigación científica, indagación, policía, estrategia, finanzas. Necesita sentirse investido de una misión y trabaja con una concentración y una tenacidad que pocos signos pueden igualar."
+    },
+    {
+      "question": "¿Por qué es Escorpio tan secreto?",
+      "reponse": "El secreto es un mecanismo de protección y de poder en Escorpio. Signo de agua fijo, vive emociones de una intensidad extrema que prefiere guardar para sí en lugar de exponerlas a un mundo que a menudo juzga superficial. Su desconfianza natural lo impulsa a observar largamente antes de revelarse. Para él, la confianza se merece: nunca se da gratuitamente."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Escorpio?",
+      "reponse": "El ascendente Piscis suaviza su intensidad mediante la intuición. El ascendente Cáncer le ofrece una seguridad emocional profunda. El ascendente Capricornio canaliza su potencia en una ambición estructurada."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Escorpio?",
+      "reponse": "Celos posesivos, rencor tenaz, necesidad de control y tendencia a la manipulación. Estas sombras nacen de una intensidad emocional mal canalizada que, trabajada, se convierte en una fuerza de transformación."
+    },
+    {
+      "question": "¿Es Escorpio rencoroso?",
+      "reponse": "Escorpio tiene una memoria emocional excepcional y perdona difícilmente la traición. Su rencor viene de una lealtad herida. Al madurar, aprende a transmutar esa energía en un soltar consciente."
+    }
+  ]
+}

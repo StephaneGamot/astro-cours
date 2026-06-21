@@ -1,0 +1,459 @@
+{
+  "slug": "cancer",
+  "nom": "Cáncer",
+  "sousTitre": "El cuarto signo del Zodiaco",
+  "devise": "Yo siento",
+  "periode": "21 de junio – 22 de julio",
+  "element": "Agua",
+  "mode": "Cardinal",
+  "maitre": "Luna",
+  "exaltation": "Júpiter",
+  "exil": "Saturno",
+  "chute": "Marte",
+  "polarite": "Femenino",
+  "temperament": "Linfático",
+  "maisonNaturelle": 4,
+  "couleur": {
+    "primaire": "#9168F9",
+    "secondaire": "#C4B5FD",
+    "accent": "#E0E7FF",
+    "gradient": "from-violet-500 via-purple-400 to-indigo-300"
+  },
+  "navigation": {
+    "precedent": { "slug": "gemeaux", "nom": "Géminis" },
+    "suivant": { "slug": "lion", "nom": "Leo" }
+  },
+  "images": {
+    "signe": "/images/zodiaque/cancer.webp",
+    "planete": "/images/planetes/lune.webp"
+  },
+  "introduction": "Cáncer es el cuarto signo del Zodiaco. Es el comienzo del verano: el crecimiento de la planta ha concluido, y va a intentar reproducirse: es el tiempo de la fecundación. Signo de Agua, cardinal, femenino, nocturno, regido por la Luna, Cáncer encarna el movimiento de retorno hacia el interior. Después de que Aries ha iniciado, Tauro ha enraizado y Géminis ha hecho circular, Cáncer invita a sentir, a recordar, a proteger. Su gesto fundador no es «yo existo» ni «yo tengo» ni «yo pienso»: es «yo siento». Contengo, nutro, protejo, recuerdo.",
+  "fondationsCosmiques": {
+    "texte": "Cáncer pertenece al elemento Agua (frío y húmedo), lo que le confiere un temperamento linfático: receptividad, profundidad emocional, lentitud asimiladora. Es el primer nivel del Agua: el del instinto. Cáncer capta los ambientes, las atmósferas, los no-dichos y las fragilidades por un reflejo natural, sin análisis previo. Receptivo a todo sin sacar necesariamente provecho consciente de ello. Su modo es cardinal: está en el origen de una estación, es el nacimiento del verano. Los signos cardinales poseen el deseo de empezar, de emprender, de crear un movimiento; en Cáncer, ese movimiento se orienta hacia el interior, hacia el hogar, hacia la protección de lo vivo.",
+    "courteAscension": "Cáncer es un signo de ascensión larga, nocturno, obediente (negativo), septentrional, de ascensión recta, doméstico, reptil, fecundo, tortuoso, mudo, de debilidad constitucional y de talla pequeña y recia según la tradición. La tradición lo clasifica entre los signos comandantes y le atribuye la vehemencia en el vicio.",
+    "pluton": "El exilio de Saturno en Cáncer subraya una tensión fundamental entre la necesidad de seguridad emocional propia del signo y la exigencia saturnina de estructura fría y autonomía. Cáncer quiere proteger y contener; Saturno quiere endurecer y desapegar. Es precisamente el eje Cáncer-Capricornio: la vulnerabilidad contra el dominio, el hogar contra el ascenso, la pertenencia contra la responsabilidad solitaria."
+  },
+  "analogies": {
+    "animal": "El cangrejo",
+    "objet": "El caparazón, el hogar, el recipiente",
+    "fonction": "Proteger, contener, nutrir",
+    "texte": "Cáncer evoca la sensibilidad, la impresionabilidad, el capricho, el cambio, el sueño, el tradicionalismo, la timidez. Es el poeta, el viajero, el marino, la familia, el hogareño, la vivienda, el hogar. Cuando se observa un cangrejo, se percibe de inmediato la psicología de Cáncer: un caparazón duro que protege una carne extremadamente tierna. Demasiado sensible, necesita protegerse o que lo protejan. No muestra lo que siente, pero percibe de inmediato al otro gracias a su sensibilidad."
+  },
+  "mythologie": {
+    "titre": "El Cangrejo de Hera y la Puerta de los Hombres",
+    "texte": "En la mitología griega, Cáncer se asocia al cangrejo enviado por Hera para enfrentarse a Heracles durante su combate contra la Hidra de Lerna. Aunque el cangrejo es aplastado bajo el pie del héroe, Hera lo honra por su fidelidad y su valor colocándolo entre las estrellas. Este mito pone de relieve la función esencial de Cáncer: proteger, sostener, permanecer leal incluso frente a una fuerza superior. El gesto del cangrejo no es heroico en sentido marcial, sino en sentido maternal: defender lo que importa, cueste lo que cueste.",
+    "civilisations": "Un mito griego más antiguo cuenta cómo las almas, llamadas «abejas», descendían de la Vía Láctea y se encarnaban cruzando el portal de Cáncer, la «Puerta de los Hombres». La palabra «cardinal» viene del latín cardo, que significa «puerta». Toda la simbología del signo se apoya en la relación con el principio femenino. La Luna y sus divinidades lunares —diosas fértiles que conocen los secretos de la vida y de la muerte— son madres, amantes, hermanas, iniciadoras. En la mitología celta se rinde culto a las matronas, divinidades de las fuentes y los manantiales, ligadas a los ritos de fecundidad y nacimiento. El mito de Edipo, a menudo vinculado a Cáncer, expresa las confusiones que pueden derivar de la relación con la madre, la mujer, la esposa, dificultades retomadas luego por el psicoanálisis."
+  },
+  "portrait": {
+    "temperament": "Cáncer siente primero y comprende después. Capta los ambientes, los no-dichos, las inflexiones afectivas y las fragilidades con una agudeza notable. Su carácter es sensible, protector, prudente, apegado al pasado, con una fuerte necesidad de confianza para abrirse plenamente. La imaginación muy activa es la facultad predominante, acompañada de una buena memoria, una intuición natural y a veces incluso una forma de clarividencia. El nativo de Cáncer rara vez avanza de manera frontal: rodea, observa, protege su mundo interior antes de entregarse. Es carne muy tierna dentro de un caparazón. En sus relaciones muestra una gran sociabilidad: es servicial, comprensivo, compasivo y detesta las discusiones. A veces se priva de un placer para seguir viviendo en paz.",
+    "forces": [
+      "Gran capacidad de empatía y de comprensión humana",
+      "Agudo sentido de la protección y del cuidado",
+      "Vínculo profundo con la memoria y las raíces",
+      "Intuición notable, a veces clarividencia",
+      "Fidelidad y lealtad profundas",
+      "Transformar la sensibilidad en comprensión de lo vivo"
+    ],
+    "ombres": [
+      "Repliegue excesivo y susceptibilidad",
+      "Miedos ligados a la inseguridad afectiva",
+      "Dependencia emocional y apego al pasado",
+      "Tendencia al capricho, a la inconstancia o al abandono",
+      "Bajo fuerte disonancia: curiosidad envidiosa, maledicencia, maniobras desleales"
+    ],
+    "besoinsVitaux": [
+      "Seguridad emocional y marco tranquilizador",
+      "Relaciones de confianza e intimidad",
+      "Sentimiento de pertenencia y de continuidad"
+    ],
+    "aTravailler": [
+      "Expresar sus emociones sin cerrarse",
+      "Hacer las paces con el pasado",
+      "Atreverse a la vulnerabilidad consciente",
+      "Distinguir protección de encierro",
+      "No esperar que los demás lo adivinen todo"
+    ],
+    "equilibre": "Un Cáncer en plena posesión de sus medios se convierte en un verdadero pilar afectivo, capaz de sostener sin ahogar y de proteger sin encerrar. Transforma su sensibilidad en fuerza de cuidado, de acogida y de comprensión. Su memoria se vuelve sabiduría en lugar de nostalgia, y su apego se vuelve fidelidad viva en lugar de miedo a perder. Es probablemente la mejor firma para un progenitor atento, un hogar cálido y una presencia humana profundamente tranquilizadora."
+  },
+  "sante": {
+    "zones": ["Pecho", "Estómago", "Sistema digestivo", "Senos", "Líquidos del cuerpo"],
+    "texte": "Cáncer gobierna el busto, el pecho, los senos, las costillas, el cartílago, el esternón, el duodeno, el ojo izquierdo, los músculos intercostales, el diafragma y el estómago. Predispone a las enfermedades del aparato digestivo en todas sus formas: dilatación y ptosis gástrica, dispepsia, gastralgia, atonía, hipo e hiperclorhidria, úlceras. Varios autores le atribuyen también una influencia sobre los trastornos pulmonares y el conjunto del pecho. La influencia de la herencia sobre la constitución es particularmente importante. Contrariamente a lo que cabría esperar de un signo lunar, Cáncer no parece favorecer la longevidad según ciertos estudios estadísticos: los nativos de este signo dispondrían de menos vitalidad que los de todos los demás signos."
+  },
+  "maisons": [
+    {
+      "numero": 1,
+      "titre": "La identidad y el temperamento",
+      "texte": "Imaginación predominante y muy activa, buena memoria, intuición e incluso clarividencia. Superstición, presentimientos. Gran curiosidad, gusto por los estudios históricos, a veces aptitudes poéticas. Pocos dones para las ciencias exactas. Sentimientos profundos pero efímeros y versátiles, gran sensibilidad a las influencias del entorno. Reservado, tímido, confiado, ingenuo pero bueno: poco rencoroso, afable y hospitalario. Necesidad de simpatía y aspiración a crear un hogar apacible. Actividad débil e irregular, falta de iniciativa, pero tenacidad. Destino dependiente del entorno familiar, ascenso tardío. Éxito en el comercio minorista, en los negocios ligados al agua y al público."
+    },
+    {
+      "numero": 2,
+      "titre": "Los recursos",
+      "texte": "Ganancias sujetas a numerosas fluctuaciones cuya amplitud puede variar de unas semanas a varios años, especialmente las ganancias estacionales. A pesar de sus caprichos, el sujeto muestra tenacidad en materia financiera. La prosperidad suele ser mayor en la última parte de la vida. El éxito a menudo se asegura mediante buenas operaciones inmobiliarias, por los ingresos de tierras o inmuebles. La familia acude muy a menudo en ayuda. Posición favorable a las ganancias en ocupaciones ligadas a los líquidos o que conlleven numerosos desplazamientos."
+    },
+    {
+      "numero": 3,
+      "titre": "La comunicación",
+      "texte": "Cultura intelectual facilitada por una buena memoria y una intuición que ayuda a la comprensión. Imaginación habitualmente muy fecunda, con tendencia a la ensoñación. El sujeto es mucho más dotado para la poesía, la literatura y las artes que para las ciencias, pero casi siempre no lo aprovecha por negligencia o indiferencia. Estudios a veces lentos por una pereza intelectual. Relaciones familiares numerosas pero interrumpidas por caprichos y enfados pasajeros. Gran atracción por los viajes por agua y los cruceros, pero más sueños que realizaciones."
+    },
+    {
+      "numero": 4,
+      "titre": "Las raíces",
+      "texte": "Posición feliz que favorece la fundación de un hogar y todo lo relacionado con la familia, a menudo numerosa y unida. Favorable a la conservación del patrimonio, a la adquisición de tierras o inmuebles. Los cambios de residencia pueden ser bastante frecuentes, pero el final de la vida suele ser apacible. Los padres del sujeto son a veces caprichosos pero bien intencionados. Es en esta casa donde Cáncer encuentra su resonancia más natural."
+    },
+    {
+      "numero": 5,
+      "titre": "La creación y los amores",
+      "texte": "Sentimientos a veces faltos de estabilidad, espíritu novelesco, sensualidad bastante potente. Aventuras sentimentales precoces que a menudo desembocan en la creación de un hogar regular. Amor por los niños y habitualmente descendencia numerosa, sobre todo hijas. Las inversiones inmobiliarias pueden dar buenos resultados y son las menos peligrosas. Este signo confiere cierta suerte desde el punto de vista de las especulaciones."
+    },
+    {
+      "numero": 6,
+      "titre": "El día a día y la salud",
+      "texte": "Predispone a las enfermedades del signo: dolores de estómago de todas las formas, trastornos linfáticos, pleuresía, neumonía, abscesos. La influencia de la herencia sobre la constitución es particularmente importante. Los subalternos son caprichosos y perezosos. El éxito puede verse comprometido por cambios de trabajo demasiado frecuentes. Al nativo le conviene trabajar con sus parientes o elegir a sus colaboradores en su entorno familiar."
+    },
+    {
+      "numero": 7,
+      "titre": "Las asociaciones y el matrimonio",
+      "texte": "El deseo de crear un hogar facilita el matrimonio, a veces acelerado o retrasado por los padres. El cónyuge está muy apegado a su hogar y a sus hijos, pero puede manifestar las tendencias caprichosas de Cáncer, de ahí una vida conyugal a veces agitada. Las asociaciones con parientes son preferibles a las asociaciones con extraños. Si la casa está afligida, pueden surgir graves discordias. Pleitos frecuentes por cuestiones inmobiliarias, a veces incluso con parientes."
+    },
+    {
+      "numero": 8,
+      "titre": "Las transformaciones",
+      "texte": "Presagio excelente para las herencias provenientes de los ascendientes, sobre todo si se trata de inmuebles o fondos. Este signo no parece favorecer la longevidad y el final a menudo está ocasionado por complicaciones digestivas. La estrella fija Pólux, situada a 22° de Cáncer, puede agravar los presagios de final violento si los hay por otra parte en la carta."
+    },
+    {
+      "numero": 9,
+      "titre": "Los horizontes lejanos",
+      "texte": "Favorece las tendencias espirituales o místicas así como la intuición o la clarividencia. El sujeto debe desconfiar de los arrebatos de la imaginación y de las concepciones utópicas. Favorece los escritos de imaginación. Buena posición para los viajes largos por agua, aunque los proyectos y los sueños sean más numerosos que las realizaciones. Viajes de negocios, de placer y de tranquilidad más que exploraciones aventuradas. A veces el sujeto abandona la región natal para establecerse lejos."
+    },
+    {
+      "numero": 10,
+      "titre": "La vocación",
+      "texte": "El sujeto busca más una situación apacible que una situación destacada, aunque este signo es propicio para obtener la benevolencia del público. Orienta hacia las carreras ligadas al elemento líquido. Parece desempeñar un papel en las vocaciones religiosas. A menudo la negligencia limita o impide el éxito profesional. Los cambios demasiado numerosos perjudican el despliegue del destino. El papel de la familia es importante. La fase culminante solo se alcanza tarde en la vida."
+    },
+    {
+      "numero": 11,
+      "titre": "Las amistades",
+      "texte": "Relaciones amistosas femeninas sobre todo numerosas. Los amigos son serviciales, buenos, pero un poco caprichosos: no siempre se puede contar con ellos. Sin embargo, se indican algunas amistades muy entregadas. En muchos casos, son las relaciones familiares las que reemplazan a los amigos. El calor de los vínculos es real pero fluctuante."
+    },
+    {
+      "numero": 12,
+      "titre": "Las pruebas ocultas",
+      "texte": "Mismas enfermedades que para Cáncer en la Casa VI, pero con pronóstico agravado. El sujeto es envidiado por personas de su entorno. Aprecia la calma del hogar y a veces acepta papeles oscuros que exigen un gran espíritu de entrega para servir a su familia. Las enemistades ocultas son numerosas, pero no parecen muy temibles."
+    }
+  ],
+  "amour": {
+    "texte": "Cáncer ama con profundidad, necesidad de ternura y deseo de seguridad. No siempre se entrega rápido, pero cuando confía, se apega con fuerza y busca construir un vínculo íntimo, protector y duradero. Necesita sentir que la relación es un lugar donde puede depositar su vulnerabilidad sin ser herido. En el plano sentimental, cabe temer algunos caprichos y arrebatos imaginativos, pero en general el nativo de Cáncer buscará sobre todo la fundación de un hogar y de una vida tranquila y regular. Solo en las cartas muy críticas cabe temer aventuras múltiples.",
+    "qualites": [
+      "Gran fidelidad afectiva",
+      "Capacidad de cuidar al otro",
+      "Apego sincero y profundo",
+      "Dulzura, receptividad y sentido de la intimidad",
+      "Voluntad de proteger el vínculo y el hogar"
+    ],
+    "vigilances": [
+      "Puede cerrarse si se siente amenazado o incomprendido",
+      "Riesgo de dependencia afectiva o de expectativa excesiva",
+      "Puede vivir el pasado con más fuerza que el presente",
+      "Susceptibilidad cuando la emoción no es acogida"
+    ],
+    "affinites": ["taureau", "vierge", "scorpion", "poissons"]
+  },
+  "travail": {
+    "texte": "Cáncer trabaja bien cuando se siente humanamente útil, conectado a un entorno de confianza y a una misión que tiene un sentido afectivo o protector. Puede estar muy comprometido, leal y constante cuando siente que pertenece a un equipo, un lugar o una función importante. En los negocios, es preferible no proponerle realizaciones penosas o aventuradas: lo que necesita es algo sencillo, apacible, regular y seguro en cuanto a resultados. Profesiones típicas: historiador, novelista, navegante, anticuario, oficios de la alimentación, comercio de líquidos, tráfico marítimo, mudanzas, poesía, pintura, política.",
+    "atouts": [
+      "Fidelidad profesional y lealtad",
+      "Sentido del cuidado y de la atención humana",
+      "Capacidad de crear un marco protector",
+      "Memoria, intuición y comprensión de las necesidades",
+      "Gran tenacidad pese a las apariencias"
+    ],
+    "defis": [
+      "Puede replegarse si el clima se vuelve frío o agresivo",
+      "Soporta mal los entornos deshumanizados",
+      "Riesgo de tomarse las cosas demasiado a pecho",
+      "A veces falta de confianza en sí mismo y de iniciativa",
+      "Tendencia al abandono o a la ensoñación"
+    ]
+  },
+  "argent": {
+    "texte": "Cáncer mantiene una relación afectiva con el dinero. No lo vive solo como una herramienta abstracta, sino como un medio para proteger, asegurar, nutrir y preservar el hogar. Su relación con los recursos depende estrechamente de su sentimiento de seguridad interior. El éxito financiero a menudo se asegura mediante buenas operaciones inmobiliarias, por los ingresos provenientes de tierras o inmuebles. La familia acude muy a menudo en ayuda. La prosperidad suele ser mayor en la segunda parte de la vida.",
+    "forces": [
+      "Capacidad de ahorrar para proteger a los suyos",
+      "Relación prudente y conservadora con los recursos",
+      "Sentido profundo de la seguridad material",
+      "Motivación fuerte cuando se trata de poner a sus seres queridos a salvo"
+    ],
+    "risques": [
+      "Miedo a que falte que puede volverse invasivo",
+      "Gastos emocionales o compensatorios",
+      "Apego ansioso a la seguridad material",
+      "Dificultad para asumir riesgos financieros"
+    ]
+  },
+  "planetes": [
+    {
+      "nom": "Sol",
+      "slug": "soleil",
+      "description": "El Sol en Cáncer construye una identidad sensible, protectora, apegada a las raíces, a lo íntimo y a la necesidad de pertenencia.",
+      "manifestations": ["Profundidad afectiva", "Capacidad de proteger", "Fidelidad a lo que realmente importa", "Vínculo fuerte con las raíces"]
+    },
+    {
+      "nom": "Luna",
+      "slug": "lune",
+      "description": "La Luna en Cáncer está en una de sus expresiones más naturales: emociones profundas, gran receptividad, apego fuerte, memoria afectiva poderosa.",
+      "manifestations": ["Intuición notable", "Empatía profunda", "Capacidad de contener y nutrir", "Receptividad emocional intensa"]
+    },
+    {
+      "nom": "Mercurio",
+      "slug": "mercure",
+      "description": "Mercurio en Cáncer piensa con memoria, intuición y resonancia emocional. El pensamiento es sensible, lleno de imágenes, personal, apegado a las experiencias vividas.",
+      "manifestations": ["Memoria fuerte", "Inteligencia intuitiva", "Capacidad de hablar con sensibilidad", "Comprensión humana"]
+    },
+    {
+      "nom": "Venus",
+      "slug": "venus",
+      "description": "Venus en Cáncer ama con ternura, apego, fidelidad y necesidad de seguridad afectiva. El placer pasa por la intimidad, la dulzura y la continuidad.",
+      "manifestations": ["Gran dulzura afectiva", "Lealtad", "Ternura", "Capacidad de construir un vínculo protector"]
+    },
+    {
+      "nom": "Marte",
+      "slug": "mars",
+      "description": "Marte en Cáncer actúa a través de la emoción, el instinto de protección y la defensa del territorio afectivo. La energía es fluctuante pero muy fuerte cuando se toca algo íntimo.",
+      "manifestations": ["Instinto protector", "Capacidad de defender lo que ama", "Perseverancia emocional", "Energía nutrida por el apego"]
+    },
+    {
+      "nom": "Júpiter",
+      "slug": "jupiter",
+      "description": "Júpiter en Cáncer amplifica la empatía, la necesidad de protección, la generosidad del corazón y la confianza en el vínculo humano. Es una posición a menudo percibida como fecunda y nutricia.",
+      "manifestations": ["Generosidad afectiva", "Capacidad de sostener", "Fe en el vínculo y la familia", "Protección benévola"]
+    },
+    {
+      "nom": "Saturno",
+      "slug": "saturne",
+      "description": "Saturno en Cáncer estructura la sensibilidad, obliga a trabajar la seguridad interior y a construir una madurez emocional real.",
+      "manifestations": ["Dominio progresivo de las emociones", "Responsabilidad familiar o afectiva", "Capacidad de convertirse en un pilar", "Construcción interior lenta pero sólida"]
+    },
+    {
+      "nom": "Urano",
+      "slug": "uranus",
+      "description": "Urano en Cáncer introduce rupturas, despertares o necesidades de libertad en el mundo del hogar, la familia, las raíces y las emociones.",
+      "manifestations": ["Capacidad de reinventar la familia o el hogar", "Despertar emocional", "Liberación de patrones antiguos", "Necesidad de renovación íntima"]
+    },
+    {
+      "nom": "Neptuno",
+      "slug": "neptune",
+      "description": "Neptuno en Cáncer vuelve la sensibilidad extremadamente porosa, intuitiva, llena de imágenes, a veces mística. El hogar, la memoria y las emociones adquieren una dimensión envolvente.",
+      "manifestations": ["Empatía inmensa", "Imaginación afectiva", "Compasión", "Sentido del vínculo invisible"]
+    },
+    {
+      "nom": "Plutón",
+      "slug": "pluton",
+      "description": "Plutón en Cáncer transforma profundamente la relación con las raíces, la familia, la memoria, la seguridad y los apegos afectivos.",
+      "manifestations": ["Potencia emocional", "Capacidad de renacer tras las pérdidas", "Transformación profunda de los legados afectivos", "Intensidad del vínculo con los orígenes"]
+    }
+  ],
+  "compatibilites": [
+    {
+      "signe": "belier",
+      "nom": "Aries",
+      "type": "delicate",
+      "titre": "Sensibilidad y frontalidad",
+      "texte": "Cáncer siente con finura lo que Aries expresa directamente. El vínculo puede ser complementario pero exige mucho tacto y un verdadero respeto de los ritmos emocionales. La protección de Cáncer puede tranquilizar la impulsividad de Aries, pero la brusquedad de este corre el riesgo de herir una sensibilidad a flor de piel.",
+      "forces": ["Complementariedad entre protección y acción", "Capacidad de apoyo mutuo", "Posibilidad de hacer crecer el vínculo"],
+      "frictions": ["Aries puede ser brusco", "Cáncer puede replegarse", "Malentendidos entre rapidez y sensibilidad"]
+    },
+    {
+      "signe": "taureau",
+      "nom": "Tauro",
+      "type": "fluide",
+      "titre": "Dulzura, seguridad y continuidad",
+      "texte": "Cáncer y Tauro pueden formar un vínculo muy tranquilizador, sensible, estable y protector. Uno nutre emocionalmente, el otro estabiliza concretamente. Dos signos que comparten el gusto por el hogar, la ternura y la duración.",
+      "forces": ["Ternura", "Seguridad", "Fidelidad", "Construcción de un hogar apacible"],
+      "frictions": ["Posesividad", "Dificultad para cambiar", "Apego excesivo al confort afectivo"]
+    },
+    {
+      "signe": "gemeaux",
+      "nom": "Géminis",
+      "type": "delicate",
+      "titre": "Emoción y movimiento mental",
+      "texte": "Cáncer siente, Géminis explica. El vínculo puede ser enriquecedor, pero exige no oponer profundidad emocional y ligereza mental. La viveza de Géminis puede airear el mundo interior de Cáncer, siempre que no lo banalice.",
+      "forces": ["Complementariedad entre sentir y lenguaje", "Posibilidad de humanizar el pensamiento", "Intercambio rico si cada uno escucha al otro"],
+      "frictions": ["Géminis puede parecer demasiado ligero", "Cáncer puede parecer demasiado susceptible", "Diferencia entre necesidad de seguridad y necesidad de aire"]
+    },
+    {
+      "signe": "cancer",
+      "nom": "Cáncer",
+      "type": "fluide",
+      "titre": "Agua y memoria",
+      "texte": "Dos Cáncer pueden entenderse con mucha profundidad, intuición y delicadeza. El vínculo puede ser muy tierno, protector y familiar: un verdadero capullo compartido.",
+      "forces": ["Empatía", "Comprensión intuitiva", "Apego", "Profundidad del vínculo"],
+      "frictions": ["Repliegue mutuo", "Susceptibilidad", "Tendencia a alimentar juntos los miedos o la nostalgia"]
+    },
+    {
+      "signe": "lion",
+      "nom": "Leo",
+      "type": "stimulante",
+      "titre": "Corazón íntimo y corazón radiante",
+      "texte": "Cáncer protege, Leo irradia. El vínculo puede ser fuerte, cálido y fecundo, pero exige conciliar la necesidad de intimidad de Cáncer con la necesidad de visibilidad de Leo. Cuando el respeto es mutuo, es un dúo capaz de crear un hogar vivo y generoso.",
+      "forces": ["Generosidad", "Calor", "Lealtad", "Posibilidad de un verdadero hogar vivo"],
+      "frictions": ["Leo puede ocupar demasiado espacio", "Cáncer puede parecer demasiado replegado", "Diferencia entre intimidad y afirmación"]
+    },
+    {
+      "signe": "vierge",
+      "nom": "Virgo",
+      "type": "fluide",
+      "titre": "Cuidado y atención",
+      "texte": "Cáncer y Virgo pueden crear un vínculo discreto, útil, fiel y muy atento. Uno cuida con la emoción, el otro con la inteligencia práctica. Una alianza silenciosa pero profundamente sostenedora.",
+      "forces": ["Apoyo mutuo", "Fiabilidad", "Sentido del detalle humano", "Capacidad de cuidar"],
+      "frictions": ["Virgo puede parecer demasiado crítico", "Cáncer puede sentirse herido demasiado rápido", "Riesgo de sobreprotección o sobrecontrol"]
+    },
+    {
+      "signe": "balance",
+      "nom": "Libra",
+      "type": "variable",
+      "titre": "Necesidad de intimidad y necesidad de armonía",
+      "texte": "Cáncer busca la seguridad emocional, Libra busca el equilibrio relacional. El vínculo puede ser dulce y delicado, pero a veces indeciso o frustrante si le falta verdad afectiva.",
+      "forces": ["Sensibilidad", "Dulzura", "Voluntad de preservar el vínculo", "Capacidad de crear una atmósfera agradable"],
+      "frictions": ["Libra puede parecer demasiado distante o mental", "Cáncer puede parecer demasiado fusional", "Dificultad para expresar con claridad los desacuerdos"]
+    },
+    {
+      "signe": "scorpion",
+      "nom": "Escorpio",
+      "type": "fluide",
+      "titre": "Agua profunda y lealtad",
+      "texte": "Cáncer y Escorpio comparten una intensidad emocional, un sentido del vínculo fuerte y una gran profundidad. La relación puede ser muy poderosa y transformadora: dos seres de Agua que se reconocen en las profundidades.",
+      "forces": ["Intuición", "Lealtad", "Profundidad afectiva", "Potencia del vínculo"],
+      "frictions": ["Celos", "Posesividad", "Heridas profundas si se rompe la confianza"]
+    },
+    {
+      "signe": "sagittaire",
+      "nom": "Sagitario",
+      "type": "variable",
+      "titre": "Refugio y horizonte",
+      "texte": "Cáncer busca el hogar, Sagitario busca el espacio. El vínculo puede ser enriquecedor si cada uno acepta que el otro no tiene la misma manera de sentirse vivo.",
+      "forces": ["Cáncer aporta la interioridad, Sagitario la apertura", "Posibilidad de crecimiento mutuo", "Ampliación del mundo afectivo"],
+      "frictions": ["Sagitario puede parecer demasiado libre o directo", "Cáncer puede parecer demasiado prudente o apegado", "Diferencia entre seguridad y expansión"]
+    },
+    {
+      "signe": "capricorne",
+      "nom": "Capricornio",
+      "type": "complementaire",
+      "titre": "Eje Cáncer–Capricornio",
+      "texte": "Cáncer protege el mundo interior; Capricornio estructura el mundo exterior. Es un eje poderoso entre necesidad de pertenencia y responsabilidad, emoción y construcción. La necesidad de encerrarse en su capullo de Cáncer es opuesta y complementaria a la voluntad de escalar las dificultades de la vida de Capricornio.",
+      "forces": ["Complementariedad muy fuerte", "Capacidad de construir algo sólido", "Equilibrio posible entre corazón y estructura"],
+      "frictions": ["Capricornio puede parecer frío", "Cáncer puede parecer demasiado sensible", "Conflicto entre vulnerabilidad y dominio"]
+    },
+    {
+      "signe": "verseau",
+      "nom": "Acuario",
+      "type": "delicate",
+      "titre": "Apego y distancia",
+      "texte": "Cáncer busca el calor del vínculo, Acuario busca a menudo el espacio, la idea y la libertad. La relación puede ser estimulante pero también desestabilizadora para la sensibilidad de Cáncer.",
+      "forces": ["Cáncer aporta lo humano, Acuario la visión", "Posibilidad de ampliar la sensibilidad", "Complementariedad entre lo íntimo y lo colectivo"],
+      "frictions": ["Cáncer puede sufrir la distancia de Acuario", "Acuario puede ahogarse ante la necesidad de apego", "Conflicto entre seguridad y libertad"]
+    },
+    {
+      "signe": "poissons",
+      "nom": "Piscis",
+      "type": "fluide",
+      "titre": "Agua sensible y compasión",
+      "texte": "Cáncer y Piscis comparten una gran sensibilidad, intuición y una relación profunda con el sentir. El vínculo puede ser muy dulce, inspirado, envolvente: dos mundos interiores que se reconocen.",
+      "forces": ["Empatía", "Ternura", "Imaginación afectiva", "Comprensión intuitiva"],
+      "frictions": ["Falta de límites", "Fusión excesiva", "Riesgo de alimentar juntos los miedos o la confusión"]
+    }
+  ],
+  "ascendant": {
+    "texte": "Si tu ascendente es Cáncer, suele significar que entras en la vida con sensibilidad, prudencia, receptividad y necesidad de seguridad. Aunque tu Sol esté en otro signo, tu manera espontánea de actuar, presentarte y reaccionar lleva a menudo una tonalidad dulce, protectora y atenta al ambiente.",
+    "apparence": [
+      "Presencia dulce o envolvente",
+      "Mirada sensible o soñadora",
+      "Impresión de reserva, de pudor o de delicadeza",
+      "Porte protector, a veces un poco prudente"
+    ],
+    "temperament": [
+      "Reacciona primero al ambiente",
+      "Necesita seguridad antes de abrirse plenamente",
+      "Observa, siente, protege antes de actuar de frente",
+      "Soporta mal la brutalidad emocional"
+    ],
+    "vigilances": [
+      "Susceptibilidad",
+      "Repliegue defensivo",
+      "Apego excesivo al pasado",
+      "Miedo a ser herido"
+    ]
+  },
+  "etoilesFixes": [
+    {
+      "nom": "Sirio",
+      "nature": "Júpiter / Marte",
+      "texte": "Sirio se vincula a veces a una potencia protectora, a una intensidad viva y a una forma de grandeza del corazón. En una lectura simbólica de Cáncer, puede recordar que la sensibilidad no es debilidad, sino fuente de presencia y de lealtad.",
+      "motsCles": ["Irradiación", "Protección", "Intensidad", "Fuerza del corazón"]
+    },
+    {
+      "nom": "Proción",
+      "nature": "Mercurio / Marte",
+      "texte": "Proción aporta una tonalidad reactiva, viva, protectora, con un sentido del reflejo y del instinto de defensa. Concuerda con la dimensión sensible y alerta de Cáncer.",
+      "motsCles": ["Reactividad", "Instinto", "Rapidez", "Vigilancia"]
+    }
+  ],
+  "correspondances": {
+    "mineraux": [
+      { "nom": "Piedra de luna", "motsCles": ["luna", "intuición", "receptividad", "sensibilidad"] },
+      { "nom": "Perla", "motsCles": ["agua", "dulzura", "protección", "maduración"] },
+      { "nom": "Plata", "motsCles": ["luna", "reflejo", "memoria", "receptividad"] }
+    ],
+    "vegetaux": [
+      { "nom": "Manzanilla", "motsCles": ["sosiego", "dulzura", "cuidado", "consuelo"] },
+      { "nom": "Nenúfar", "motsCles": ["agua", "intimidad", "sensibilidad", "descanso"] },
+      { "nom": "Sauce", "motsCles": ["memoria", "luna", "flexibilidad", "agua"] }
+    ],
+    "animaux": [
+      { "nom": "Cangrejo", "motsCles": ["protección", "caparazón", "prudencia", "sensibilidad"] },
+      { "nom": "Tortuga", "motsCles": ["refugio", "casa", "prudencia", "duración"] },
+      { "nom": "Cisne", "motsCles": ["agua", "gracia", "fidelidad", "profundidad"] }
+    ]
+  },
+  "geographie": [
+    { "pays": "Holanda", "texte": "Correspondencia tradicional ligada al agua, a la protección, al territorio sensible y a una forma de interioridad colectiva." },
+    { "pays": "Escocia", "texte": "Atribución simbólica tradicional que depende de las escuelas y los autores." },
+    { "pays": "África del Norte y del Oeste", "texte": "Correspondencia que procede de un simbolismo clásico de geografía astrológica." },
+    { "pays": "Nueva Zelanda", "texte": "Lectura simbólica ligada a la insularidad, al refugio y a una forma de protección natural." }
+  ],
+  "figuresCelebres": [
+    { "nom": "Elon Musk", "domaine": "Emprendimiento / Tecnología", "date": "28 de junio de 1971", "texte": "Intensidad intuitiva y fuerte dimensión de proyección personal." },
+    { "nom": "Meryl Streep", "domaine": "Cine", "date": "22 de junio de 1949", "texte": "Profundidad humana, sensibilidad expresiva y gran riqueza emocional." },
+    { "nom": "Tom Cruise", "domaine": "Cine", "date": "3 de julio de 1962", "texte": "Intensidad de presencia y fuerte implicación emocional en la acción." },
+    { "nom": "Margot Robbie", "domaine": "Cine", "date": "2 de julio de 1990", "texte": "Una presencia a la vez sensible, luminosa y encarnada." }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es el carácter de Cáncer?",
+      "reponse": "Cáncer se caracteriza por una gran sensibilidad, una imaginación muy activa y un fuerte apego al hogar y a las raíces. Es un temperamento protector, intuitivo, prudente, que necesita seguridad emocional para realizarse. Puede ser caprichoso o replegado, pero también es uno de los signos más empáticos, fieles y capaces de comprensión humana del Zodiaco."
+    },
+    {
+      "question": "¿Qué tipo de amante es Cáncer?",
+      "reponse": "Tierno, fiel, protector y profundamente apegado. Cáncer ama con necesidad de seguridad y deseo de intimidad. No siempre se entrega rápido, pero cuando confía, se implica con una lealtad notable. Busca construir un hogar, un capullo, un lugar donde la vulnerabilidad sea acogida."
+    },
+    {
+      "question": "¿Qué tipo de trabajador es Cáncer?",
+      "reponse": "Leal, atento, intuitivo y constante cuando siente que pertenece a un entorno de confianza. Destaca en las funciones humanas, educativas, protectoras o ligadas al cuidado. Trabaja bien cuando siente que su contribución tiene un sentido afectivo o protector. Soporta mal los entornos fríos o deshumanizados."
+    },
+    {
+      "question": "¿Qué casa corresponde a Cáncer?",
+      "reponse": "La Casa IV, la de las raíces, el hogar, la familia, la intimidad, la memoria y el lugar interior del que venimos. Su analogía natural con Cáncer subraya la necesidad de pertenencia, de seguridad, de continuidad afectiva y de refugio."
+    },
+    {
+      "question": "¿Cuál es el ascendente ideal para Cáncer?",
+      "reponse": "El ascendente Capricornio estructura su sensibilidad y le da firmeza. El ascendente Tauro refuerza su necesidad de seguridad. El ascendente Escorpio profundiza su intuición y su fuerza emocional."
+    },
+    {
+      "question": "¿Cuáles son los defectos de Cáncer?",
+      "reponse": "La susceptibilidad, el repliegue, los caprichos y la dependencia afectiva son sus zonas de sombra. Puede aferrarse al pasado, cerrarse al menor golpe y esperar demasiado de los demás."
+    },
+    {
+      "question": "¿Es Cáncer demasiado sensible?",
+      "reponse": "Su sensibilidad es real y profunda, regida por la Luna. Se convierte en una baza cuando la asume: empatía, intuición, comprensión humana. Solo plantea problema si conduce al repliegue defensivo."
+    }
+  ]
+}

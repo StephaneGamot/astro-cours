@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "maison-1",
+    "name": "House I",
+    "headline": "House I represents the entry into the world",
+    "description": "Identity in motion: the way of beginning, of presenting oneself and taking one's place. Here we read personal drive and spontaneous style.",
+    "image": {
+      "src": "/images/maisons/I.webp",
+      "alt": "House I in astrology"
+    }
+  },
+  {
+    "slug": "maison-2",
+    "name": "House II",
+    "headline": "House II represents resources",
+    "description": "Values, security and what we build concretely. It speaks of the relationship to money, to the body, and to what brings stability.",
+    "image": {
+      "src": "/images/maisons/II.webp",
+      "alt": "House II in astrology"
+    }
+  },
+  {
+    "slug": "maison-3",
+    "name": "House III",
+    "headline": "House III represents everyday learning",
+    "description": "Communication, close exchanges and curiosity. It describes the way of thinking 'day to day' and connecting with the environment.",
+    "image": {
+      "src": "/images/maisons/III.webp",
+      "alt": "House III in astrology"
+    }
+  },
+  {
+    "slug": "maison-4",
+    "name": "House IV",
+    "headline": "House IV represents the roots",
+    "description": "Home, intimacy and the inner foundation. It speaks of family, personal history and what nourishes a sense of belonging.",
+    "image": {
+      "src": "/images/maisons/IV.webp",
+      "alt": "House IV in astrology"
+    }
+  },
+  {
+    "slug": "maison-5",
+    "name": "House V",
+    "headline": "House V represents creative expression",
+    "description": "Pleasure, creation and what makes the heart beat. It concerns the joy of expressing oneself, love, leisure and sometimes parenthood.",
+    "image": {
+      "src": "/images/maisons/V.webp",
+      "alt": "House V in astrology"
+    }
+  },
+  {
+    "slug": "maison-6",
+    "name": "House VI",
+    "headline": "House VI represents organised daily life",
+    "description": "Habits, concrete work and attention to the body. It speaks of discipline, health, service and necessary adjustments.",
+    "image": {
+      "src": "/images/maisons/VI.webp",
+      "alt": "House VI in astrology"
+    }
+  },
+  {
+    "slug": "maison-7",
+    "name": "House VII",
+    "headline": "House VII represents the relationship to others",
+    "description": "Partnerships and one-to-one encounters. It describes how we commit, cooperate, and what we learn through the bond.",
+    "image": {
+      "src": "/images/maisons/VII.webp",
+      "alt": "House VII in astrology"
+    }
+  },
+  {
+    "slug": "maison-8",
+    "name": "House VIII",
+    "headline": "House VIII represents transformation",
+    "description": "Intense passages: crisis, regeneration, emotional truth. It speaks of deep bonds, shared resources and letting go.",
+    "image": {
+      "src": "/images/maisons/VIII.webp",
+      "alt": "House VIII in astrology"
+    }
+  },
+  {
+    "slug": "maison-9",
+    "name": "House IX",
+    "headline": "House IX represents openness",
+    "description": "Studies, travel, philosophy and the quest for meaning. It describes the need to broaden one's vision and understand the 'why'.",
+    "image": {
+      "src": "/images/maisons/IX.webp",
+      "alt": "House IX in astrology"
+    }
+  },
+  {
+    "slug": "maison-10",
+    "name": "House X",
+    "headline": "House X represents vocation",
+    "description": "Social direction and what we build over the long term. It speaks of career, public image and responsibility towards the world.",
+    "image": {
+      "src": "/images/maisons/X.webp",
+      "alt": "House X in astrology"
+    }
+  },
+  {
+    "slug": "maison-11",
+    "name": "House XI",
+    "headline": "House XI represents the collective",
+    "description": "Friendships, networks and future projects. It describes one's place in a group, shared ideals and the paths towards the future.",
+    "image": {
+      "src": "/images/maisons/XI.webp",
+      "alt": "House XI in astrology"
+    }
+  },
+  {
+    "slug": "maison-12",
+    "name": "House XII",
+    "headline": "House XII represents the invisible",
+    "description": "Withdrawal, the unconscious and deep inner life. It speaks of what is lived in silence, of healing, and of connection to the subtle.",
+    "image": {
+      "src": "/images/maisons/XII.webp",
+      "alt": "House XII in astrology"
+    }
+  }
+]

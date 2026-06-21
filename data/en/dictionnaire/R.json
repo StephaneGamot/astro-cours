@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "radical",
+    "category": "technique",
+    "term": "Radical",
+    "short": "Said of anything belonging to the birth chart (the Radix).",
+    "body": "The term radical refers to the original state of the chart's elements at the moment of birth. In predictive astrology, the \"radical\" positions (fixed in the natal chart) are often contrasted with \"transiting\" positions (moving across the current sky). A transit will only have a major impact if it resonates with a \"radical\" promise already present in the original chart."
+  },
+  {
+    "slug": "radix",
+    "category": "concept",
+    "term": "Radix",
+    "short": "Latin term for the original natal chart, the \"root\" of every interpretation.",
+    "body": "Radix (Latin for \"root\") is the technical term for the birth chart itself, as opposed to derived charts (solar return, horary chart, transit chart). The radix is astrology's founding document: it holds the native's complete potential and serves as the reference point for any predictive study. When studying transits, the planetary positions of the moment are laid over the radix to gauge their impact. \"Radical\" is the associated adjective: \"the radical Moon\" denotes the Moon of the natal chart, as opposed to \"the transiting Moon.\" This distinction is essential in predictive astrology to avoid confusing natal positions with moving ones."
+  },
+  {
+    "slug": "rahu-noeud-nord",
+    "category": "concept",
+    "term": "Rahu (North Node)",
+    "short": "The ascending intersection point of the Moon's orbit, symbolizing the soul's purpose.",
+    "body": "In Vedic astrology, the North Node is called Rahu. It represents insatiable appetite, the direction toward which the soul must strive in this life in order to evolve. It is a point of expansion, but also of challenge, since it pushes us out of our comfort zone. Unlike the planets, Rahu is a fictitious mathematical point located where the Moon crosses the ecliptic heading north."
+  },
+  {
+    "slug": "reception-mutuelle",
+    "category": "concept",
+    "term": "Mutual reception",
+    "short": "A configuration in which two planets each occupy the other's sign of domicile.",
+    "body": "Mutual reception occurs when two planets exchange their domiciles: for example, Mars in Taurus (Venus's domicile) and Venus in Aries (Mars's domicile). Each planet is \"hosted\" by the other, creating an implicit bond of cooperation. In traditional astrology, mutual reception considerably softens the weakness of a planet in detriment: even though each planet sits in an uncomfortable sign, they support one another. Some astrologers go so far as to consider that a mutual reception is almost equivalent to a harmonious aspect between the two planets. Mutual reception can also occur by exaltation: the Sun in Aries (exaltation) and Mars in Leo (the Sun's sign) create a form of cross reception. It is a subtle yet very useful tool for refining the reading of a chart."
+  },
+  {
+    "slug": "rectification",
+    "category": "technique",
+    "term": "Rectification",
+    "short": "The process of determining the exact birth time from life events.",
+    "body": "Rectification is one of the most complex exercises in astrology. When the birth time is imprecise or unknown, the practitioner uses the key dates of the client's life (marriage, death, accidents, successes) and runs the predictive techniques (directions, transits) backward to recover the time at which the aspects coincide with the actual facts. This makes it possible to fix the Ascendant and the house cusps reliably."
+  },
+  {
+    "slug": "regulus",
+    "category": "constellation",
+    "term": "Regulus (The Royal Star)",
+    "short": "The brightest star of Leo, a symbol of power and glory.",
+    "body": "Regulus is one of the four \"Royal Stars of Persia.\" It now sits at the very beginning of the sign of Virgo (due to precession). Nicknamed \"the Heart of the Lion,\" it confers ambition, nobility, and meteoric success. Yet it carries a warning: a fall is possible if the individual gives in to revenge. It is the star of kings and of great public destinies."
+  },
+  {
+    "slug": "retrogradation",
+    "category": "concept",
+    "term": "Retrogradation",
+    "short": "The apparent motion of a planet that seems to move backward through the zodiac.",
+    "body": "Retrogradation is an optical illusion caused by the difference in speed between the Earth and the other planets. Symbolically, it points to an internalization of the planet's energy. Instead of expressing itself outwardly, the planetary function calls for reflection, revision, or a return to oneself. For example, retrograde Mercury is often associated with communication delays that force one to rethink plans."
+  },
+  {
+    "slug": "revolution-lunaire",
+    "category": "technique",
+    "term": "Lunar return",
+    "short": "A chart cast each month for the Moon's return to its natal position.",
+    "body": "Less well known than the Solar Return, the Lunar Return (LR) sets out the emotional and event-related climate for the coming 28 days. It is very useful for fine-grained predictive analysis, month by month."
+  },
+  {
+    "slug": "revolution-siderale",
+    "category": "astronomique",
+    "term": "Sidereal revolution",
+    "short": "The time a planet needs to return to the same fixed star.",
+    "body": "This is the real revolution in space. For the Earth, it lasts 365.25 days. For Saturn, about 29.5 years. In astrology, a planet's return to its sidereal position marks a key stage of maturation."
+  },
+  {
+    "slug": "revolution-solaire",
+    "category": "concept",
+    "term": "Solar return",
+    "short": "A chart cast for the exact moment the Sun returns to its natal position each year.",
+    "body": "The solar return (SR) is one of the most widely used predictive techniques in astrology. It involves casting a chart for the precise moment when the transiting Sun returns exactly to the degree, minute, and second of its position in the natal chart. This return occurs every year around the birthday. The solar return chart is interpreted as an \"energetic photograph\" of the year ahead. The SR Ascendant, the position of the Moon, and the distribution of the planets across the houses give valuable indications of the areas of life that will be activated. The SR does not replace the study of transits: it complements them by offering a yearly framework. André Barbault and Alexandre Volguine did much to popularize this technique in French-language astrology."
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "maisons",
+    "category": "concept",
+    "term": "Houses",
+    "short": "The twelve sectors of the chart representing the different areas of life.",
+    "body": "If the signs indicate “how” energy is expressed, the houses indicate “where” it manifests in concrete terms. The twelve houses cover every aspect of life: identity (I), money (II), communication (III), family (IV), pleasures (V), work (VI), others (VII), crises (VIII), wisdom (IX), career (X), projects (XI) and trials (XII)."
+  },
+  {
+    "slug": "maison-i",
+    "category": "maison",
+    "term": "First House",
+    "short": "The house of identity, the body and the personality.",
+    "body": "The First House is the gateway of the natal chart. It represents the native themselves, their physical body, their appearance and their way of acting in the world. It is the house of the ego, of personal expression and of vitality. The planet that rules the First House (the ruler of the Ascendant) is often considered the most important in the chart, for it indicates the main direction of the vital energy."
+  },
+  {
+    "slug": "maison-ii",
+    "category": "maison",
+    "term": "Second House",
+    "short": "The house of possessions, resources and personal values.",
+    "body": "The Second House concerns everything that holds value for the individual: material goods, financial resources, but also personal talents and moral values. It indicates how a person earns a living, manages their finances and what they consider precious. By analogy with Taurus and Venus, this house reflects our relationship to material security and to self-esteem."
+  },
+  {
+    "slug": "maison-3",
+    "category": "maison",
+    "term": "Third House",
+    "short": "The sector of communication, the close circle and learning.",
+    "body": "By analogy with Gemini and Mercury, the Third House governs the practical mind, speech, writing and short journeys. It describes the relationship with siblings, neighbors and the immediate surroundings. It is the house of adaptive intelligence and of primary education. A well-emphasized Third House often indicates an aptitude for languages or for trade."
+  },
+  {
+    "slug": "maison-4",
+    "category": "maison",
+    "term": "Fourth House (Imum Coeli)",
+    "short": "The sector of roots, family, home and private life.",
+    "body": "By analogy with Cancer and the Moon, the Fourth House represents the individual's foundations. It concerns heredity, the father (or the mother, depending on the school), the physical home and the sense of inner security. It is also the house of the “end of matters” and of old age. Planets here indicate the family atmosphere of childhood and the need for intimate renewal."
+  },
+  {
+    "slug": "maison-5",
+    "category": "maison",
+    "term": "Fifth House",
+    "short": "The sector of creativity, pleasures, love affairs and children.",
+    "body": "By analogy with Leo and the Sun, the Fifth House is the house of self-expression and joie de vivre. It governs romantic life (love affairs without contractual commitment), leisure, games, speculation and artistic creation. It also symbolizes offspring (children). It is here that the individual seeks to shine and to leave a personal mark on the world."
+  },
+  {
+    "slug": "maison-6",
+    "category": "maison",
+    "term": "Sixth House",
+    "short": "The sector of daily work, health and service.",
+    "body": "By analogy with Virgo and Mercury, the Sixth House describes routine life, professional obligations one must endure, hygiene and minor illnesses. It also represents subordinates and domestic animals. It is the house of technical refinement and concrete usefulness. Strong activity in the Sixth often indicates a need to make oneself indispensable through care or organization."
+  },
+  {
+    "slug": "maison-7",
+    "category": "maison",
+    "term": "Seventh House (Descendant)",
+    "short": "The sector of unions, partnerships and open enemies.",
+    "body": "By analogy with Libra and Venus, the Seventh House governs all forms of contractual association: marriage, business partnerships, lawsuits. Unlike the Ascendant (the Self), it represents Otherness (the You). It shows how the individual interacts with others and what kind of partner they attract in order to complement or to confront themselves."
+  },
+  {
+    "slug": "maison-8",
+    "category": "maison",
+    "term": "Eighth House",
+    "short": "The house of crises, transformation, symbolic death and deep sexuality.",
+    "body": "The Eighth House is one of the most intense and most misunderstood houses of the natal chart. Traditionally associated with death, it actually governs everything that touches on deep transformation: existential crises, inheritances (both material and psychological), intimate sexuality, other people's money (loans, taxes, insurance), losses and rebirths. By analogy with Scorpio and Pluto, this house represents the alchemical process of destruction and reconstruction. A heavily tenanted Eighth House grants the native a remarkable capacity to pass through ordeals and to be reborn, but also a sometimes unconscious attraction to situations of crisis. In psychological astrology, the Eighth House reveals our relationship to shared power in intimacy, our capacity to surrender to another and our deepest fears."
+  },
+  {
+    "slug": "maison-ix",
+    "category": "maison",
+    "term": "Ninth House",
+    "short": "The sector of philosophy, distant travel and the quest for meaning.",
+    "body": "By analogy with Sagittarius and Jupiter, the Ninth House is the house of mental and spiritual expansion. It concerns higher studies, travel abroad, religion, philosophy and everything that broadens the individual's horizons. It is the house of the quest for truth and wisdom. Strong activity in the Ninth often indicates a need to understand the world through a broad vision and to connect with universal values."
+  },
+  {
+    "slug": "maison-9",
+    "category": "maison",
+    "term": "Ninth House",
+    "short": "The sector of long journeys, philosophy and spirituality.",
+    "body": "By analogy with Sagittarius and Jupiter, the Ninth House represents the elevation of the spirit. It governs higher studies, religion, law, distant journeys (physical or mental) and the quest for meaning. It is here that one seeks to go beyond one's usual horizons in order to understand universal laws and to develop a global vision of the world."
+  },
+  {
+    "slug": "maison-10",
+    "category": "maison",
+    "term": "Tenth House (Midheaven)",
+    "short": "The sector of career, social destiny and authority.",
+    "body": "By analogy with Capricorn and Saturn, the Tenth House is the culminating point of the chart. It symbolizes professional success, public status, ambition and honor. It is linked to the figure of authority or to the parent who guides the individual toward their place in society. It is here that one reaps the fruits of past efforts."
+  },
+  {
+    "slug": "maison-11",
+    "category": "maison",
+    "term": "Eleventh House",
+    "short": "The sector of projects, friends and social participation.",
+    "body": "By analogy with Aquarius and Uranus, the Eleventh House describes support, protection and the groups one belongs to. It is the house of hope, of collective ideals and of fellowship. Unlike the Fifth, which is individual creation, the Eleventh is collective creation. It shows how the individual fits into a network in order to realize their visions of the future."
+  },
+  {
+    "slug": "maison-12",
+    "category": "maison",
+    "term": "Twelfth House",
+    "short": "The sector of the subconscious, trials and the inner life.",
+    "body": "By analogy with Pisces and Neptune, the Twelfth House is the most complex. It governs places of isolation (hospitals, retreats), hidden enemies, karma and secrets. It is the sector of the renunciation of the self in order to unite with the great Whole. Strong activity here grants great inwardness and mediumistic faculties, but it can also bring about a feeling of solitude or of vagueness in the face of material realities."
+  },
+  {
+    "slug": "maitrise",
+    "category": "concept",
+    "term": "Rulership (Ruler)",
+    "short": "The symbolic bond of ownership between a planet and a zodiacal sign.",
+    "body": "Each sign has a “ruler.” For example, Mars rules Aries. The planet is the executive agent of the sign. The study of rulerships (or dispositors) makes it possible to weave links between different parts of the chart: the ruler of the Second House placed in the Tenth House connects finances with career."
+  },
+  {
+    "slug": "maitre-de-l-ascendant",
+    "category": "concept",
+    "term": "Ruler of the Ascendant",
+    "short": "The planet ruling the sign on the Ascendant, regarded as the pilot of the chart.",
+    "body": "Often confused with the “Lord of the Chart,” the ruler of the Ascendant is the most personal and most important planet for the individual. It represents the native themselves, their physical body and their way of acting in the world. Its position by sign and, above all, by house indicates toward which area of life the individual primarily directs their vital energy. For example, if one has a Libra Ascendant, the ruler of the Ascendant is Venus. If that Venus lies in the Ninth House, the quest for meaning, travel or philosophy will be the central driving forces of life."
+  },
+  {
+    "slug": "malefique",
+    "category": "concept",
+    "term": "Malefic",
+    "short": "Traditionally, a planet (Mars, Saturn) or aspect that generates challenges and restrictions.",
+    "body": "In ancient astrology, Mars (“the lesser malefic”) and Saturn (“the greater malefic”) were perceived as bringers of misfortune, war or illness. Modern astrology has transformed this view: the malefics are now seen as forces of necessity. Mars supplies the energy to cut through, and Saturn the structure to build. A well-placed malefic planet (in dignity) becomes a tool for success through effort and discipline."
+  },
+  {
+    "slug": "mars",
+    "category": "planète",
+    "term": "Mars",
+    "short": "The planet of action, desire, fighting strength and the libido.",
+    "body": "Mars represents externalized energy, courage and the capacity to assert oneself. It describes how we act to obtain what we want. In its positive dimension it is the boldness of the pioneer; in its negative dimension it symbolizes anger, impulsiveness or conflict. It rules Aries and, traditionally, Scorpio. Its two-year cycle marks periods of intense energetic expenditure."
+  },
+  {
+    "slug": "masculin-diurne-positif",
+    "category": "concept",
+    "term": "Masculine (Diurnal/Positive)",
+    "short": "An active, extroverted and emitting energetic polarity.",
+    "body": "The so-called 'masculine' signs (or diurnal / positive) comprise the Fire signs (Aries, Leo, Sagittarius) and the Air signs (Gemini, Libra, Aquarius). This classification has nothing to do with the individual's gender, but with the direction of the energy. These signs are oriented outward, toward action, expression and communication. They seek to influence their environment rather than to be influenced by it. In a chart, a predominance of this polarity favors extroversion and quick decision-making."
+  },
+  {
+    "slug": "mercure",
+    "category": "planète",
+    "term": "Mercury",
+    "short": "The planet of communication, the intellect, exchange and youth.",
+    "body": "Mercury is the messenger between the inner world and the outer one. It governs the way we process information, our learning style and our capacity for adaptation. It is the planet of traders, writers and carriers. In a chart, it indicates whether thought is analytical (Virgo) or associative (Gemini). Its proximity to the Sun means that it never strays more than 28° from it."
+  },
+  {
+    "slug": "meridien",
+    "category": "astronomique",
+    "term": "Meridian",
+    "short": "A great circle passing through the celestial poles, the Zenith and the Nadir of a place.",
+    "body": "The local meridian is the fundamental vertical axis of a chart. The intersection of this circle with the ecliptic determines the Midheaven (MC) and Imum Coeli (IC) axis. In astrology, it represents the axis of social incarnation and heredity. Any body that crosses the meridian reaches its culmination, the moment when its power of influence on the earthly plane is at its peak."
+  },
+  {
+    "slug": "midi-vrai",
+    "category": "astronomique",
+    "term": "True Noon",
+    "short": "The exact moment when the Sun culminates on the meridian of a specific place.",
+    "body": "True noon (or solar noon) differs from the clock noon given by our watches. It is the instant when the Sun reaches its highest elevation in the sky for a given longitude, marking the exact start of the Tenth House (Midheaven). In astrology, calculating true noon is essential for rectifying the house division of a chart and for determining the gap between civil time and sidereal time."
+  },
+  {
+    "slug": "milieu-du-ciel",
+    "category": "concept",
+    "term": "Midheaven",
+    "short": "The highest point of the chart (Tenth House), representing social destiny and career.",
+    "body": "The Midheaven (Medium Coeli or MC) is located at the intersection of the ecliptic and the local meridian to the south. It is the cusp of the Tenth House. It symbolizes the individual's ultimate aspiration, their public success, their social status and their professional vocation. Unlike the Ascendant, which represents 'how' one acts, the MC shows 'what' one becomes in the eyes of the world. It is often linked to the figure of the father or of the parent who embodies authority and social law. Its position by sign and the aspects it receives indicate the nature of the ambition and the ease or obstacles encountered in public life."
+  },
+  {
+    "slug": "mi-point",
+    "category": "technique",
+    "term": "Midpoint",
+    "short": "The exact mathematical point located halfway between two celestial bodies.",
+    "body": "Midpoints are points of energetic fusion. For example, the Sun/Moon midpoint is considered a vital point of psychic balance. This technique, popularized by the German school of Cosmobiology (Reinhold Ebertin), makes it possible to identify subtle resonances between planets that do not form classic aspects by degree."
+  },
+  {
+    "slug": "modes",
+    "category": "concept",
+    "term": "Modes (Modalities)",
+    "short": "The classification of the signs according to their energetic dynamic (Cardinal, Fixed, Mutable).",
+    "body": "The modes determine how energy is used. Cardinal signs initiate action. Fixed signs stabilize and consolidate. Mutable signs adapt and distribute. A balance among these three modes in a chart allows for a personality capable of initiative, perseverance and flexibility all at once."
+  },
+  {
+    "slug": "mutable",
+    "category": "concept",
+    "term": "Mutable (quality)",
+    "short": "One of the three qualities: adaptability, flexibility, transition and versatility.",
+    "body": "The mutable signs are Gemini, Virgo, Sagittarius and Pisces. They close each season and embody transition, adaptation and transformation. Natives dominated by the mutable quality are flexible, versatile and able to adjust to any situation. They excel in changing environments and make good mediators. Their strength lies in their flexibility; their weakness, in scattering or inconstancy. A strongly mutable chart can indicate a chameleon personality, brilliant at adaptation but sometimes lacking firm direction. Conversely, a chart devoid of mutability can make the native rigid, unable to adapt to circumstances. The mutable cross is the cross of practical intelligence and communication."
+  }
+]

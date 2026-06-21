@@ -1,0 +1,135 @@
+[
+  {
+    "slug": "dane-rudhyar",
+    "category": "personnage",
+    "term": "Dane Rudhyar",
+    "short": "French astrologer and composer (1895-1985), founder of humanistic astrology.",
+    "body": "Rudhyar integrated Eastern philosophy and Jung’s psychology into astrology. He redefined the natal chart as a cyclical process of spiritual growth. His work “The Astrology of Personality” is the founding text of the humanistic approach, in which each aspect is seen as a stage in the unfolding of human potential rather than as an external influence."
+  },
+  {
+    "slug": "debilite-des-planetes",
+    "category": "concept",
+    "term": "Debility of the Planets",
+    "short": "The weakening of a planet’s strength according to its position by sign or by house.",
+    "body": "Debility may be essential (the planet is in detriment or fall, which alters its nature) or accidental (poor placement by house, combustion by the Sun, difficult aspects). A planet in debility does not signify a lack of talent, but a difficulty in expressing its qualities fluidly or in line with social expectations."
+  },
+  {
+    "slug": "decouverte-planete",
+    "category": "concept",
+    "term": "Discovery of a Planet",
+    "short": "The date of a planet’s discovery, influencing its astrological interpretation.",
+    "body": "The date of a planet’s discovery is an important element in astrology. It marks the moment when humanity became aware of this cosmic influence. For example, Uranus was discovered in 1781, Neptune in 1846 and Pluto in 1930. These dates often correspond to major social changes: the industrial era for Uranus, the era of psychology for Neptune, and the upheavals of the 20th century for Pluto. In modern astrology, the more recently discovered planets (Uranus, Neptune, Pluto) are held to have a more collective or generational influence than the classical planets (Mercury, Venus, Mars)."
+  },
+  {
+    "slug": "degenerescence",
+    "category": "concept",
+    "term": "Degeneration",
+    "short": "Extreme weakening of a planet, beyond debility.",
+    "body": "Degeneration is a more extreme concept than debility. It occurs when the conditions are so unfavorable that a planet loses almost all its ability to express its qualities constructively. For example, a planet in fall in a house of misfortune (the VIIIth or XIIth House) and in a difficult aspect with malefic planets may be considered degenerate. This can indicate deep blockages, major challenges or self-destructive tendencies linked to the energy of that planet."
+  },
+  {
+    "slug": "declinaison",
+    "category": "astronomique",
+    "term": "Declination",
+    "short": "The distance of a celestial body north or south of the celestial equator.",
+    "body": "In addition to their position on the zodiac (longitude), the planets have a height (declination). Two planets with the same declination are said to be in ‘Parallel,’ which acts like a conjunction. If they have opposite declinations (North/South), they are in ‘Contra-parallel,’ acting like an opposition. It is a vertical dimension of astrology that is often overlooked."
+  },
+  {
+    "slug": "decan",
+    "category": "concept",
+    "term": "Decan",
+    "short": "The division of a sign into three sections of 10°, each colored by a different planet.",
+    "body": "Each sign of the zodiac spans 30° of the ecliptic and divides into three decans of 10° each. This subdivision allows for finer interpretation: an Aries of the first decan (0°-10°) does not have exactly the same tone as an Aries of the third decan (20°-30°). Each decan is associated with a planetary sub-ruler that colors the sign with an additional energy. Several systems of decan rulership coexist: the Chaldean system (the oldest), the triplicity system and other variants. In practice, decans are used to refine forecasts (notably in horoscopes), but also to better understand the differences between natives of the same sign. The fixed stars are also distributed by decan, adding a further layer of interpretation."
+  },
+  {
+    "slug": "degre",
+    "category": "concept",
+    "term": "Degree",
+    "short": "The unit of measure for a planet’s position on the 360° zodiacal circle.",
+    "body": "The zodiacal circle divides into 360 degrees, that is 30° per sign. A planet’s position is always expressed in degrees, minutes and arc seconds within a sign (for example: Venus at 15°27’ of Taurus). The exact degree is crucial for calculating aspects (angles between planets), house cusps and the Ascendant. Some astrologers attribute a specific meaning to each degree of the zodiac: the Sabian degrees (imagined by Marc Edmund Jones and Dane Rudhyar) are the best known. A critical degree (0°, 13°, 26° of the cardinal signs, for example) is considered a point of particular strength. The precision of the degree explains why the time of birth is so important in astrology: a difference of a few minutes can change the Ascendant and shift all the house cusps."
+  },
+  {
+    "slug": "depression",
+    "category": "concept",
+    "term": "Depression",
+    "short": "A state of deep distress, often linked to difficult astrological configurations.",
+    "body": "Depression is a complex psychological state that may be influenced by astrological factors such as planets in fall, difficult aspects (squares, oppositions) involving the Moon, Saturn or Pluto, or configurations such as T-Squares. However, it is crucial to stress that astrology must never be used to diagnose or treat mental disorders. It can offer a symbolic understanding of emotional challenges, but anyone suffering from depression should consult a mental health professional."
+  },
+  {
+    "slug": "descendant",
+    "category": "concept",
+    "term": "Descendant",
+    "short": "The point opposite the Ascendant (House VII), governing relationships with others and partnerships.",
+    "body": "The Descendant (DS) marks the start of House VII. It represents the Other, the partner (romantic or professional), but also ‘declared enemies.’ In psychological astrology, it often describes the qualities we do not recognize in ourselves and project onto others. It is through the Descendant that the individual completes their personality through exchange. If the Ascendant is the ‘Self,’ the Descendant is the ‘You.’ Studying the sign on the Descendant and its ruler gives crucial clues about the type of partner one is drawn to and the way one experiences contractual commitment."
+  },
+  {
+    "slug": "detriment",
+    "category": "concept",
+    "term": "Detriment (Exile)",
+    "short": "The state of a planet located in the sign opposite its domicile.",
+    "body": "A planet in detriment is “away from home.” Its natural qualities are hampered by a sign whose energy is foreign to it (e.g. Mars in Libra). This requires of the individual a constant adaptation and an effort of awareness to express the planetary function without frustration."
+  },
+  {
+    "slug": "dignite",
+    "category": "concept",
+    "term": "Dignity",
+    "short": "The strength of a planet according to the sign it occupies: domicile, exaltation, detriment or fall.",
+    "body": "In traditional astrology, the dignity of a planet denotes its strength or weakness according to the sign in which it is found. There are four main levels. Domicile is the sign the planet rules: Mars in Aries, Venus in Taurus — the planet is at home there, at ease, fully effective. Exaltation is a sign where the planet expresses its qualities in an amplified way: the Sun is exalted in Aries, the Moon in Taurus. Detriment (or exile) is the sign opposite the domicile: the planet is on foreign ground there, constrained, ill at ease. Fall is the sign opposite the exaltation: the planet is weakened there. These dignities are not verdicts: a planet in detriment can express itself brilliantly if it receives good aspects. But knowing the dignities allows one to gauge the natural ‘energetic quality’ of a planet in a chart."
+  },
+  {
+    "slug": "dignite-accidentelle",
+    "category": "concept",
+    "term": "Accidental Dignity",
+    "short": "The strength of a planet derived from its house position, its speed or its aspects.",
+    "body": "Unlike essential dignity (linked to the sign), accidental dignity depends on the circumstances of the moment. A planet in an angular house (I, IV, VII, X), a fast-moving planet, or a planet in Cazimi receives accidental dignity. This means it has the concrete means to act in the material world. A planet can be weak by sign (in detriment) but strong accidentally (culminating), which indicates an ability to overcome its handicaps through action."
+  },
+  {
+    "slug": "direct",
+    "category": "concept",
+    "term": "Direct",
+    "short": "The normal motion of a planet advancing in the order of the signs of the zodiac.",
+    "body": "A planet is said to be ‘direct’ when it follows its natural course from West to East along the ecliptic. This is the standard state in which planetary energy expresses itself spontaneously, fluidly and oriented toward the future. The majority of planets in a natal chart are generally direct."
+  },
+  {
+    "slug": "directions-symboliques",
+    "category": "technique",
+    "term": "Symbolic Directions",
+    "short": "A simple forecasting method in which all the points of the chart advance by 1° per year.",
+    "body": "Also called direction of one degree for one year, this technique is widely used to date major life events. When a directed planet forms an aspect with a natal planet, it signals a key period."
+  },
+  {
+    "slug": "dispositaire",
+    "category": "concept",
+    "term": "Dispositor",
+    "short": "The planet that rules the sign in which another body is found.",
+    "body": "The dispositor is the “boss” of another planet. For example, if your Moon is in Aries, Mars (ruler of Aries) is the dispositor of your Moon. This means that the way you express your emotions depends on the state of your Mars. This notion is crucial for the synthesis of a chart, for it allows one to create chains of disposition between the planets, sometimes leading to a final ‘Master of reception.’"
+  },
+  {
+    "slug": "dissonance",
+    "category": "concept",
+    "term": "Dissonance",
+    "short": "The quality attributed to aspects that generate tension: square, opposition, sesquiquadrate.",
+    "body": "Dissonance, in astrology, denotes the nature of the aspects that create friction between two planetary energies. The main dissonant aspects are the square (90°), the opposition (180°), the semi-square (45°) and the sesquiquadrate (135°). The term “dissonant” has replaced the old qualifiers of “bad” or “malefic,” for modern astrology holds that tension is as necessary as harmony. A dissonance forces the native to work, to overcome a challenge, to integrate two contradictory forces. It is friction that produces light. An entirely harmonious chart (trines, sextiles) can lack drive; a chart rich in dissonances often confers an intense, resilient and combative personality. The key lies in the balance between harmony and dissonance."
+  },
+  {
+    "slug": "domicile",
+    "category": "concept",
+    "term": "Domicile",
+    "short": "The zodiacal sign where a planet possesses its greatest strength and affinity.",
+    "body": "A planet is said to be in ‘Domicile’ when it is in the sign it rules (e.g. Mars in Aries, Moon in Cancer). In this position, the planet is in full possession of its means; it can act freely and express its nature in an authentic and powerful way. Traditional astrology distinguishes the diurnal domicile from the nocturnal domicile. It is the most important of the essential dignities."
+  },
+  {
+    "slug": "domification",
+    "category": "technique",
+    "term": "Domification",
+    "short": "The calculation method for dividing the chart into twelve houses.",
+    "body": "Domification is the system used to determine the space occupied by the houses. There are many methods (Placidus, Koch, Regiomontanus, Whole Signs, Porphyry) that can give different house sizes, especially for births at extreme latitudes. The choice of domification is a subject of constant technical debate among astrologers."
+  },
+  {
+    "slug": "diurne",
+    "category": "concept",
+    "term": "Diurnal",
+    "short": "That which belongs to the day or expresses itself in the light.",
+    "body": "In traditional astrology, the notion of ‘Sect’ is used: a chart is diurnal if the Sun is above the horizon. This changes the hierarchy of the planets (the Sun becomes the dominant luminary). The diurnal (Masculine) signs are inclined toward externalization and direct action."
+  }
+]
