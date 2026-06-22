@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
@@ -97,7 +97,8 @@ import {
 /*  Static params                                                      */
 /* ------------------------------------------------------------------ */
 
-export const dynamicParams = false;
+// dynamicParams reste activé : un slug d'une autre langue (ex. /en/planets/pluton)
+// est redirigé 308 vers le slug localisé canonique au lieu de renvoyer 404.
 
 export function generateStaticParams({
   params: { locale },
@@ -315,6 +316,11 @@ export default async function PlanetPage({
   const planets = getPlanetsForLocale(locale);
   const planet = planets.find((p) => p.slug.toLowerCase() === slug.toLowerCase());
   if (!planet) notFound();
+
+  // Slug d'une autre langue sous ce segment → 308 vers le slug localisé canonique.
+  const loc = toSeoLocale(locale);
+  const expectedSlug = localizeSlug("planetes", planet.slug, loc);
+  if (raw.toLowerCase() !== expectedSlug) permanentRedirect(pillarUrl("planetes", planet.slug, loc));
 
   const tr = (await getTranslations({ locale, namespace: "planet" })) as TR;
   const pronoun = planetPronoun(planet.slug);

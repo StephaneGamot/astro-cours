@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getAllPosts, getPostBySlug, postSlugFor } from "@/lib/blog";
 import {
   SITE_NAME,
@@ -15,7 +15,7 @@ type Props = { params: Promise<{ locale: string; slug: string }> };
 
 const OG_LOCALE: Record<string, string> = { fr: "fr_FR", en: "en_US", es: "es_ES" };
 
-export const dynamicParams = false;
+// dynamicParams activé : slug d'une autre langue → 308 vers le slug localisé.
 
 export function generateStaticParams({
   params: { locale },
@@ -77,6 +77,10 @@ export default async function BlogPostPage({ params }: Props) {
   const loc = toSeoLocale(locale);
   const post = getPostBySlug(slug, loc);
   if (!post) return notFound();
+
+  // Slug d'une autre langue → 308 vers le slug localisé canonique.
+  const expectedSlug = localizeBlogSlug(post.meta.slug, loc);
+  if (slug !== expectedSlug) permanentRedirect(localeUrl(loc, `/blog/${expectedSlug}`));
 
   const { Component, meta } = post;
 

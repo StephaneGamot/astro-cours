@@ -111,7 +111,6 @@ export default async function AuteurPage({
       absoluteUrl("/a-propos"),
       "https://www.facebook.com/profile.php?id=61577719253973",
     ],
-    inLanguage: loc,
     jobTitle: c.jsonld.jobTitle,
     description: c.jsonld.description,
     knowsAbout: c.jsonld.knowsAbout,

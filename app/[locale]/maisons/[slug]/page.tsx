@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { getTranslations } from "next-intl/server";
@@ -75,7 +75,7 @@ import {
 /*  Static generation                                                  */
 /* ------------------------------------------------------------------ */
 
-export const dynamicParams = false;
+// dynamicParams activé : slug d'une autre langue → 308 vers le slug localisé.
 
 export function generateStaticParams({
   params: { locale },
@@ -262,6 +262,11 @@ export default async function HousePage({
   const planets = getPlanetsForLocale(locale);
   const house = houses.find((h) => h.slug === canonicalSlug("maisons", slug));
   if (!house) notFound();
+
+  // Slug d'une autre langue sous ce segment → 308 vers le slug localisé canonique.
+  const locHouse = toSeoLocale(locale);
+  const expectedHouse = localizeSlug("maisons", house.slug, locHouse);
+  if (slug.toLowerCase() !== expectedHouse) permanentRedirect(pillarUrl("maisons", house.slug, locHouse));
 
   const tr = (await getTranslations({ locale, namespace: "house" })) as TR;
 

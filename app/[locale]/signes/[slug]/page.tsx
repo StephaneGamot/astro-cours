@@ -1,7 +1,7 @@
 // app/signes/[slug]/page.tsx
 
 import { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import fs from "fs";
@@ -192,7 +192,7 @@ function getAllSigneSlugs(): string[] {
 
 // ─── Static params (Next.js 16) ────────────────────────────────────────────
 
-export const dynamicParams = false;
+// dynamicParams activé : slug d'une autre langue → 308 vers le slug localisé.
 
 export async function generateStaticParams({
   params: { locale },
@@ -316,6 +316,11 @@ export default async function SignePage({
    if (!data) {
     notFound();
   }
+  // Slug d'une autre langue sous ce segment → 308 vers le slug localisé canonique.
+  const locSign = toSeoLocale(locale);
+  const expectedSign = localizeSlug("signes", data.slug, locSign);
+  if (slug.toLowerCase() !== expectedSign) permanentRedirect(pillarUrl("signes", data.slug, locSign));
+
   const t = await getTranslations({ locale, namespace: "sign" });
 
   // Noms de signes localisés (slug FR → nom traduit) pour les affinités.

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import {
   getAllTags,
@@ -26,7 +26,7 @@ type Props = { params: Promise<{ locale: string; slug: string }> };
 
 const OG_LOCALE: Record<string, string> = { fr: "fr_FR", en: "en_US", es: "es_ES" };
 
-export const dynamicParams = false;
+// dynamicParams activé : slug d'une autre langue → 308 vers le slug localisé.
 
 export function generateStaticParams({
   params: { locale },
@@ -89,6 +89,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function BlogTagPage({ params }: Props) {
   const { locale, slug } = await params;
   const loc = toSeoLocale(locale);
+
+  // Slug de tag d'une autre langue → 308 vers le slug localisé canonique.
+  const localizedTagSlug = localizeBlogTagSlug(slug, loc);
+  if (localizedTagSlug !== slug) permanentRedirect(localeUrl(loc, `/blog/tag/${localizedTagSlug}`));
+
   const canon = slugToTag(slug, loc);
   if (!canon) return notFound();
 
