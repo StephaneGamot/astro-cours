@@ -6,6 +6,16 @@ import { defineRouting } from "next-intl/routing";
  * - defaultLocale "fr" + localePrefix "as-needed" :
  *     FR à la racine (/, /blog…), EN/ES préfixés (/en, /es).
  * - localeDetection false : pas de redirection auto selon le navigateur.
+ * - alternateLinks false : on DÉSACTIVE les en-têtes HTTP `Link` hreflang
+ *     générés par le middleware next-intl. Raison (audit Ahrefs 22/06/2026) :
+ *     next-intl traduit le SEGMENT mais PAS la valeur du [slug], donc il
+ *     émettait des hreflang vers des URL non-canoniques (ex:
+ *     /en/houses/casa-8 au lieu de /en/houses/house-8). Ces en-têtes
+ *     entraient en conflit avec les hreflang corrects déjà présents dans le
+ *     <head> (metadata.alternates) et dans le sitemap.xml → erreurs
+ *     « Hreflang to non-canonical », « More than one page for same language »
+ *     et « Missing reciprocal hreflang ». Les bons hreflang restent servis
+ *     via le HTML et le sitemap.
  * - pathnames : SEGMENTS d'URL traduits par langue (ex: /signes → /en/signs,
  *     /es/signos). Le folder de route reste en interne (FR) ; le middleware
  *     réécrit l'URL localisée vers l'interne. La VALEUR du slug ([slug]) n'est
@@ -16,6 +26,7 @@ export const routing = defineRouting({
   defaultLocale: "fr",
   localePrefix: "as-needed",
   localeDetection: false,
+  alternateLinks: false,
   pathnames: {
     "/": "/",
     "/blog": "/blog",
