@@ -112,12 +112,12 @@ export async function ArticleLayout({
         />
 
         <article>
-          <header className="space-y-4">
+          <header className="mx-auto max-w-4xl space-y-4">
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight leading-tight">
               {meta.title}
             </h1>
 
-            <p className="max-w-2xl text-text/80 leading-relaxed">
+            <p className="text-text/80 leading-relaxed">
               {meta.description}
             </p>
 

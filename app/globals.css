@@ -115,7 +115,7 @@ em {
 
 /* Espacement “lecture” (utile blog/cours) */
 .prose {
-  max-width: 70ch;
+  max-width: none;
 }
 
 .prose > * + * {
