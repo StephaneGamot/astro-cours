@@ -12,7 +12,7 @@ export const meta = {
   slug: ARTICLE_SLUG,
   title: "Which sport suits your zodiac sign?",
   description:
-    "Which sport should you choose based on your zodiac sign? A serious analysis of the 12 signs: relationship to effort, competitive spirit, endurance and ideal sports.",
+    "Which sport suits your zodiac sign? A serious analysis of the 12 signs: relationship to effort, competitive spirit, endurance and ideal sports.",
   date: "2026-02-18",
   tags: ["sport", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,

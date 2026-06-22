@@ -11,7 +11,7 @@ export const meta = {
   title:
     "The Venusian: Aesthete, Lover and Artist",
   description:
-    "An astrological portrait of the Venusian: charm, love, beauty, art, harmony, seduction, the muse, the siren and the Venusian woman. Explore this profile in your chart.",
+    "An astrological portrait of the Venusian: charm, love, beauty, art, harmony, seduction, the muse and the siren. Explore this profile in your chart.",
   date: "2026-04-04",
   tags: [
     "Vénus",

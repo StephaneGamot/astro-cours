@@ -12,7 +12,7 @@ export const meta = {
   slug: ARTICLE_SLUG,
   title: "¿Qué deporte según tu signo astrológico?",
   description:
-    "¿Qué deporte elegir según tu signo astrológico? Análisis serio de los 12 signos: relación con el esfuerzo, espíritu competitivo, resistencia y deportes ideales.",
+    "¿Qué deporte elegir según tu signo? Análisis serio de los 12 signos: relación con el esfuerzo, espíritu competitivo, resistencia y deportes ideales.",
   date: "2026-02-18",
   tags: ["sport", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,

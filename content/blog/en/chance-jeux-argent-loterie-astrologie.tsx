@@ -9,7 +9,7 @@ export const meta = {
   slug: "chance-jeux-argent-loterie-astrologie",
   title: "Luck in Gambling in Astrology: Houses & Jupiter",
   description:
-    "Lottery, betting, gambling: what astrology says (and doesn't say) about luck. House 5, House 2, Jupiter, Part of Fortune and transits. Guide & responsible gaming.",
+    "Lottery, betting, gambling: what astrology says about luck. House 5, House 2, Jupiter, Part of Fortune and transits. Guide & responsible gaming.",
   date: "2026-06-13",
   tags: [
     "chance",

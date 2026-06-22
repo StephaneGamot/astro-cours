@@ -9,7 +9,7 @@ export const meta = {
   slug: "finances-theme-astral",
   title: "Las finanzas en la carta natal: guía completa",
   description:
-    "Aprende a analizar tus finanzas a través de la carta natal: el estudio de la Casa II, de sus planetas y aspectos para comprender ganancias y pérdidas económicas.",
+    "Analiza tus finanzas con la carta natal: el estudio de la Casa II, sus planetas y aspectos para comprender ganancias y pérdidas económicas.",
   date: "2026-03-27",
   tags: [
     "finances",

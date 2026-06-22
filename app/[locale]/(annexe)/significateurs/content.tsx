@@ -72,9 +72,9 @@ export type SignificateursContent = {
 /* ============================== FR ============================== */
 const fr: SignificateursContent = {
   meta: {
-    title: "Les significateurs : qui représente quoi dans un thème",
+    title: "Les significateurs en astrologie",
     description:
-      "Les significateurs en astrologie : significateur principal et co-significateur, significateurs naturels, almuten, méthode d'attribution, force et réceptions. Cours complet !",
+      "Les significateurs en astrologie : significateur principal, co-significateur, significateurs naturels, almuten, force et réceptions. Cours complet !",
   },
   jsonld: {
     headline: "Les significateurs : qui représente quoi dans un thème",
@@ -306,7 +306,7 @@ const en: SignificateursContent = {
   meta: {
     title: "Significators: who represents what in a chart",
     description:
-      "Significators in astrology: principal significator and co-significator, natural significators, almuten, the method of attribution, strength and receptions. A full course!",
+      "Significators in astrology: principal significator, co-significator, natural significators, almuten, strength and receptions. A full course!",
   },
   jsonld: {
     headline: "Significators: who represents what in a chart",
@@ -536,9 +536,9 @@ const en: SignificateursContent = {
 /* ============================== ES ============================== */
 const es: SignificateursContent = {
   meta: {
-    title: "Los significadores: quién representa qué en una carta",
+    title: "Los significadores en astrología",
     description:
-      "Los significadores en astrología: significador principal y co-significador, significadores naturales, almuten, método de atribución, fuerza y recepciones. Curso completo.",
+      "Los significadores en astrología: significador principal, co-significador, significadores naturales, almuten, fuerza y recepciones. Curso completo.",
   },
   jsonld: {
     headline: "Los significadores: quién representa qué en una carta",

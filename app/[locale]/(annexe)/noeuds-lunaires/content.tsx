@@ -312,7 +312,7 @@ const en: NoeudsContent = {
   meta: {
     title: "Lunar nodes: karmic axis & method",
     description:
-      "Lunar nodes (North Node and South Node): meaning, evolutionary axis, reading by sign, house and aspects, common pitfalls. Discover our interpretation method!",
+      "Lunar nodes (North and South Node): meaning, evolutionary axis, reading by sign, house and aspects, common pitfalls. Our interpretation method!",
   },
   jsonld: {
     headline: "Lunar nodes — North Node & South Node",
@@ -539,7 +539,7 @@ const es: NoeudsContent = {
   meta: {
     title: "Nodos lunares: eje kármico y método",
     description:
-      "Nodos lunares (Nodo Norte y Sur): sentido, eje evolutivo, lectura por signo, casa y aspectos, trampas frecuentes. ¡Descubre nuestro método de interpretación!",
+      "Nodos lunares (Norte y Sur): sentido, eje evolutivo, lectura por signo, casa y aspectos, trampas frecuentes. ¡Nuestro método de interpretación!",
   },
   jsonld: {
     headline: "Nodos lunares — Nodo Norte y Nodo Sur",

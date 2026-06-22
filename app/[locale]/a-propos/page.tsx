@@ -6,114 +6,58 @@ import {
   Library,
   Compass,
 } from "lucide-react";
-import { SITE_NAME, SITE_URL, AUTHOR_PERSON, absoluteUrl, buildTitle } from "@/lib/seo";
+import {
+  SITE_NAME,
+  SITE_URL,
+  AUTHOR_PERSON,
+  buildMeta,
+  localizedPathUrl,
+  pathLanguageAlternates,
+  toSeoLocale,
+} from "@/lib/seo";
+import { aProposContent } from "./content";
 
 /* ------------------------------------------------------------------ */
 /*  SEO                                                               */
 /* ------------------------------------------------------------------ */
-const CANONICAL = "/a-propos";
-const TITLE = "À propos : plus de 40 ans d'astrologie";
-const DESCRIPTION =
-  "Découvrez le parcours de Stéphane Gamot, passionné d'astrologie depuis plus de 40 ans : de la mythologie grecque à une pratique rigoureuse et pédagogique.";
+const INTERNAL_PATH = "/a-propos";
 
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  alternates: { canonical: absoluteUrl(CANONICAL) },
-  robots: { index: true, follow: true },
-
-  openGraph: {
-    title: buildTitle(TITLE),
-    description: DESCRIPTION,
-    url: absoluteUrl(CANONICAL),
-    siteName: SITE_NAME,
-    locale: "fr_FR",
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const loc = toSeoLocale(locale);
+  const c = aProposContent[loc];
+  return buildMeta({
+    title: c.meta.title,
+    description: c.meta.description,
+    canonicalPath: INTERNAL_PATH,
     type: "website",
-    images: [
-      {
-        url: absoluteUrl("/og/cover.jpg"),
-        width: 1200,
-        height: 630,
-        alt: buildTitle(TITLE),
-      },
-    ],
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: buildTitle(TITLE),
-    description: DESCRIPTION,
-    images: [absoluteUrl("/og/cover.jpg")],
-  },
-};
+    locale: loc,
+    canonicalUrl: localizedPathUrl(INTERNAL_PATH, loc),
+    languages: pathLanguageAlternates(INTERNAL_PATH),
+  });
+}
 
 /* ------------------------------------------------------------------ */
-/*  Données                                                           */
+/*  Données — icônes & couleurs (identiques à toutes les langues)     */
 /* ------------------------------------------------------------------ */
-const CHAPTERS = [
-  {
-    icon: Sparkles,
-    label: "L\u2019\u00e9veil",
-    color: "amber" as const,
-    title: "Quand les dieux portaient le nom des plan\u00e8tes",
-  },
-  {
-    icon: BookOpen,
-    label: "La rencontre",
-    color: "sky" as const,
-    title: "Les livres qui trouvent leur lecteur",
-  },
-  {
-    icon: GraduationCap,
-    label: "La formation",
-    color: "violet" as const,
-    title: "Trois ann\u00e9es aupr\u00e8s de Jean-Marie\u00a0Michiels",
-  },
-  {
-    icon: Library,
-    label: "Les racines",
-    color: "rose" as const,
-    title: "Des ma\u00eetres \u00e0 penser",
-  },
-  {
-    icon: Compass,
-    label: "La vision",
-    color: "emerald" as const,
-    title: "L\u2019esprit d\u2019Astro Cours",
-  },
+const CHAPTER_META = [
+  { icon: Sparkles, color: "amber" as const },
+  { icon: BookOpen, color: "sky" as const },
+  { icon: GraduationCap, color: "violet" as const },
+  { icon: Library, color: "rose" as const },
+  { icon: Compass, color: "emerald" as const },
 ];
 
-const AUTHORS = [
-  {
-    name: "Andr\u00e9 Barbault",
-    note: "Pionnier de l\u2019astrologie mondiale et pr\u00e9visionnelle",
-    color: "from-indigo-500/20 to-blue-500/10",
-    border: "border-indigo-400/20",
-  },
-  {
-    name: "Liz Greene",
-    note: "Pont entre Jung et le th\u00e8me natal, astrologie psychologique",
-    color: "from-violet-500/20 to-purple-500/10",
-    border: "border-violet-400/20",
-  },
-  {
-    name: "Denis Labour\u00e9",
-    note: "Historien et gardien de la tradition astrologique classique",
-    color: "from-amber-500/15 to-orange-500/10",
-    border: "border-amber-400/20",
-  },
-  {
-    name: "Georges Antar\u00e8s",
-    note: "Astrologue belge, auteur du Manuel pratique d\u2019astrologie",
-    color: "from-sky-500/15 to-cyan-500/10",
-    border: "border-sky-400/20",
-  },
-  {
-    name: "Henri-Joseph Gouchon",
-    note: "R\u00e9f\u00e9rence technique, auteur du Dictionnaire astrologique",
-    color: "from-emerald-500/15 to-teal-500/10",
-    border: "border-emerald-400/20",
-  },
+const AUTHOR_STYLES = [
+  { color: "from-indigo-500/20 to-blue-500/10", border: "border-indigo-400/20" },
+  { color: "from-violet-500/20 to-purple-500/10", border: "border-violet-400/20" },
+  { color: "from-amber-500/15 to-orange-500/10", border: "border-amber-400/20" },
+  { color: "from-sky-500/15 to-cyan-500/10", border: "border-sky-400/20" },
+  { color: "from-emerald-500/15 to-teal-500/10", border: "border-emerald-400/20" },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -220,7 +164,15 @@ function Chapter({
 /* ------------------------------------------------------------------ */
 /*  Page                                                              */
 /* ------------------------------------------------------------------ */
-export default function AProposPage() {
+export default async function AProposPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const loc = toSeoLocale(locale);
+  const c = aProposContent[loc];
+
   return (
     <main id="main-content" className="relative mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20">
       <script
@@ -229,9 +181,10 @@ export default function AProposPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "AboutPage",
-            name: "À propos d'Astro Cours",
-            description: DESCRIPTION,
-            url: `${SITE_URL}${CANONICAL}`,
+            name: c.jsonld.name,
+            description: c.jsonld.description,
+            inLanguage: loc,
+            url: localizedPathUrl(INTERNAL_PATH, loc),
             mainEntity: AUTHOR_PERSON,
             isPartOf: {
               "@type": "WebSite",
@@ -256,30 +209,25 @@ export default function AProposPage() {
         <div className="inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5">
           <Sparkles className="h-3.5 w-3.5 text-accent" />
           <span className="text-xs font-medium tracking-wide text-accent">
-            Le passeur
+            {c.badge}
           </span>
         </div>
 
         <h1 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl lg:text-[2.75rem]">
-          Plus de{" "}
+          {c.h1.before}
           <span className="bg-gradient-to-r from-violet-400 via-accent to-sky-400 bg-clip-text text-transparent">
-            quarante ans
-          </span>{" "}
-          de passion
+            {c.h1.highlight}
+          </span>
+          {c.h1.after}
         </h1>
 
         <p className="mx-auto max-w-lg text-sm leading-relaxed text-text/55 sm:text-[0.94rem]">
-          Un chemin qui m&egrave;ne de la mythologie des dieux anciens
-          &agrave;&nbsp;une astrologie rigoureuse, vivante et transmissible.
+          {c.intro}
         </p>
 
         {/* Chiffres clés */}
         <div className="mx-auto flex max-w-md justify-center gap-6 pt-2 sm:gap-10">
-          {[
-            { value: "40+", label: "ans de pratique" },
-            { value: "3", label: "ans de formation" },
-            { value: "5", label: "auteurs de r\u00e9f\u00e9rence" },
-          ].map((stat) => (
+          {c.stats.map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="font-serif text-2xl font-bold text-text sm:text-3xl">
                 {stat.value}
@@ -294,110 +242,36 @@ export default function AProposPage() {
 
       {/* ── Timeline / Chapitres ────────────────────────────────── */}
       <div className="relative">
-        {/* 1 — L'éveil */}
-        <Chapter {...CHAPTERS[0]} index={0}>
-          <p>
-            Tout commence &agrave; l&apos;&acirc;ge de dix ans, par un
-            &eacute;merveillement simple&nbsp;: la mythologie grecque et
-            romaine. Zeus, Ar&egrave;s, Aphrodite, Herm&egrave;s&hellip;
-            Derri&egrave;re chaque r&eacute;cit se cache une plan&egrave;te,
-            derri&egrave;re chaque plan&egrave;te un arch&eacute;type.
-          </p>
-          <p>
-            Sans le savoir encore, l&apos;enfant qui d&eacute;vore ces mythes
-            pose les premi&egrave;res pierres d&apos;un langage qu&apos;il ne
-            cessera plus d&apos;approfondir &mdash; un fil rouge qui court
-            depuis l&apos;Antiquit&eacute; jusqu&apos;&agrave;
-            l&apos;astrologie d&apos;aujourd&apos;hui.
-          </p>
-        </Chapter>
+        {c.chapters.map((chapter, i) => (
+          <Chapter
+            key={chapter.label}
+            index={i}
+            icon={CHAPTER_META[i].icon}
+            color={CHAPTER_META[i].color}
+            label={chapter.label}
+            title={chapter.title}
+            isLast={i === c.chapters.length - 1}
+          >
+            {chapter.body}
 
-        {/* 2 — La rencontre */}
-        <Chapter {...CHAPTERS[1]} index={1}>
-          <p>
-            &Agrave; l&apos;adolescence, les premiers ouvrages d&apos;astrologie
-            arrivent presque d&apos;eux-m&ecirc;mes &mdash; offerts,
-            trouv&eacute;s, d&eacute;couverts au hasard d&apos;une
-            &eacute;tag&egrave;re. Ce qui est s&ucirc;r, c&apos;est que chaque
-            livre en appelle un autre, et que la curiosit&eacute; se transforme
-            vite en passion m&eacute;thodique.
-          </p>
-          <p>
-            Premi&egrave;res lectures, premi&egrave;res
-            interpr&eacute;tations, premiers th&egrave;mes mont&eacute;s
-            &agrave; la main&nbsp;: l&apos;astrologie cesse d&apos;&ecirc;tre
-            un sujet de fascination pour devenir une pratique quotidienne.
-          </p>
-        </Chapter>
-
-        {/* 3 — La formation */}
-        <Chapter {...CHAPTERS[2]} index={2}>
-          <p>
-            Vient ensuite le temps de la rigueur. Pendant trois ans,
-            St&eacute;phane suit la formation dispens&eacute;e par{" "}
-            <strong className="text-text/90">Jean-Marie Michiels</strong>,
-            astrologue, chercheur et p&eacute;dagogue belge reconnu. Fondateur
-            d&apos;une plateforme d&apos;enseignement compl&egrave;te, Michiels
-            enseigne aussi bien l&apos;astrologie natale que l&apos;astrologie
-            m&eacute;dicale, horaire et pr&eacute;visionnelle.
-          </p>
-          <p>
-            Ce parcours structur&eacute; consolide les bases, affine la
-            m&eacute;thode d&apos;interpr&eacute;tation et ancre la conviction
-            que l&apos;astrologie, pour &ecirc;tre cr&eacute;dible, doit
-            s&apos;enseigner avec clart&eacute;, exigence et
-            honn&ecirc;tet&eacute; intellectuelle.
-          </p>
-        </Chapter>
-
-        {/* 4 — Les racines (auteurs) */}
-        <Chapter {...CHAPTERS[3]} index={3}>
-          <p>
-            Au fil des ann&eacute;es, certains auteurs deviennent des compagnons
-            de route. Leurs ouvrages, lus et relus, forment le socle d&apos;une
-            pratique &agrave; la fois traditionnelle et ouverte&nbsp;:
-          </p>
-
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            {AUTHORS.map((a) => (
-              <div
-                key={a.name}
-                className={`rounded-xl border ${a.border} bg-gradient-to-br ${a.color} px-4 py-3.5 transition-colors duration-300 hover:border-white/[0.15]`}
-              >
-                <p className="text-sm font-semibold text-text/90">{a.name}</p>
-                <p className="mt-1 text-[0.78rem] leading-relaxed text-text/50">
-                  {a.note}
-                </p>
+            {/* Auteurs (chapitre « Les racines ») */}
+            {i === 3 && (
+              <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                {c.authors.map((a, j) => (
+                  <div
+                    key={a.name}
+                    className={`rounded-xl border ${AUTHOR_STYLES[j].border} bg-gradient-to-br ${AUTHOR_STYLES[j].color} px-4 py-3.5 transition-colors duration-300 hover:border-white/[0.15]`}
+                  >
+                    <p className="text-sm font-semibold text-text/90">{a.name}</p>
+                    <p className="mt-1 text-[0.78rem] leading-relaxed text-text/50">
+                      {a.note}
+                    </p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </Chapter>
-
-        {/* 5 — L'esprit */}
-        <Chapter {...CHAPTERS[4]} index={4} isLast>
-          <p>
-            Astro Cours est n&eacute; de cette conviction&nbsp;:
-            l&apos;astrologie m&eacute;rite d&apos;&ecirc;tre transmise avec la
-            m&ecirc;me rigueur qu&apos;elle demande &agrave; &ecirc;tre
-            pratiqu&eacute;e. Pas de pr&eacute;dictions sensationnelles ni de
-            promesses inv&eacute;rifiables &mdash; une m&eacute;thode
-            p&eacute;dagogique claire et structur&eacute;e, des rep&egrave;res
-            solides et des exemples concrets.
-          </p>
-          <p>
-            L&apos;objectif est simple&nbsp;: donner &agrave; chacun les
-            cl&eacute;s pour comprendre le langage du ciel par lui-m&ecirc;me.
-            Apprendre &agrave; lire un th&egrave;me, saisir les cycles
-            plan&eacute;taires, relier les symboles &agrave; la vie
-            r&eacute;elle &mdash; sans d&eacute;pendre d&apos;un
-            interpr&egrave;te.
-          </p>
-          <p>
-            C&apos;est cette exigence, forg&eacute;e par plus de quarante ans de
-            pratique, de formation et de lectures, qui guide chaque page de ce
-            site.
-          </p>
-        </Chapter>
+            )}
+          </Chapter>
+        ))}
       </div>
 
       {/* ── Citation de clôture ─────────────────────────────────── */}
@@ -414,11 +288,10 @@ export default function AProposPage() {
           />
 
           <blockquote className="relative mx-auto max-w-md font-serif text-base italic leading-relaxed text-text/60 sm:text-lg">
-            &laquo;&nbsp;L&apos;astrologie est un langage. Si vous comprenez ce
-            langage, le ciel vous parle.&nbsp;&raquo;
+            {c.quote}
           </blockquote>
           <p className="relative mt-3 text-xs font-medium tracking-wide text-text/30 sm:text-sm">
-            &mdash; Dane Rudhyar
+            {c.quoteAuthor}
           </p>
         </div>
       </footer>

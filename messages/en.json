@@ -173,7 +173,9 @@
       "stimulante": "Stimulating",
       "complementaire": "Complementary",
       "variable": "Variable"
-    }
+    },
+    "metaTitle": "{name} — Complete encyclopedia of the zodiac sign",
+    "metaDescription": "{name} ({periode}): {element}, {mode}, ruled by {master}. Complete portrait, compatibilities and natal chart interpretation."
   },
   "planet": {
     "heroSubtitle": "Symbolism & influence in astrology",

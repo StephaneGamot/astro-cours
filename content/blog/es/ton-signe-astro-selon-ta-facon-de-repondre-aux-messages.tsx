@@ -13,7 +13,7 @@ export const meta = {
   title: "Tu signo del zodiaco según cómo respondes a los mensajes",
   seoTitle: "Tu signo según cómo respondes a los SMS — Astro Cours",
   description:
-    "¿Visto, sin contestar, un audio de 4 minutos o una respuesta de una palabra? Tu signo del zodiaco según cómo respondes a los SMS y DM. Ligero, divertido, sorprendentemente acertado.",
+    "¿Visto, sin contestar o un audio de 4 minutos? Tu signo del zodiaco según cómo respondes a los SMS y DM. Ligero, divertido y sorprendentemente acertado.",
   date: "2026-05-19",
   tags: ["signe", "zodiaque", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,

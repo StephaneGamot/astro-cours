@@ -173,7 +173,9 @@
       "stimulante": "Stimulante",
       "complementaire": "Complémentaire",
       "variable": "Variable"
-    }
+    },
+    "metaTitle": "{name} — Encyclopédie complète du signe astrologique",
+    "metaDescription": "{name} ({periode}) : {element}, {mode}, gouverné par {master}. Portrait complet, compatibilités et interprétation du thème natal."
   },
   "planet": {
     "heroSubtitle": "Symbolique & influence en astrologie",

@@ -123,9 +123,9 @@ export type AstroPsyContent = {
 /* ============================== FR ============================== */
 const fr: AstroPsyContent = {
   meta: {
-    title: "Astro-psychologie : le thème comme carte de la psyché",
+    title: "Astro-psychologie : le thème et la psyché",
     description:
-      "Astro-psychologie : approche jungienne et humaniste de l'astrologie. Fonctions psychiques, typologie jungienne et 16 types (MBTI), maisons psychologiques, ombre et individuation. Cours complet !",
+      "Astro-psychologie : approche jungienne. Fonctions psychiques, 16 types (MBTI), maisons psychologiques, ombre et individuation. Cours complet !",
   },
   jsonld: {
     headline: "Astro-psychologie : le thème comme carte de la psyché",
@@ -530,7 +530,7 @@ const en: AstroPsyContent = {
   meta: {
     title: "Astro-psychology: the chart as a map of the psyche",
     description:
-      "Astro-psychology: a Jungian and humanistic approach to astrology. Psychic functions, Jungian typology and the 16 types (MBTI), psychological houses, shadow and individuation. A complete course!",
+      "Astro-psychology: a Jungian approach. Psychic functions, the 16 MBTI types, psychological houses, shadow and individuation. A complete course!",
   },
   jsonld: {
     headline: "Astro-psychology: the chart as a map of the psyche",
@@ -935,7 +935,7 @@ const es: AstroPsyContent = {
   meta: {
     title: "Astropsicología: la carta como mapa de la psique",
     description:
-      "Astropsicología: enfoque junguiano y humanista de la astrología. Funciones psíquicas, tipología junguiana y los 16 tipos (MBTI), casas psicológicas, sombra e individuación. ¡Curso completo!",
+      "Astropsicología: enfoque junguiano de la astrología. Funciones psíquicas, los 16 tipos (MBTI), casas psicológicas, sombra e individuación. ¡Curso completo!",
   },
   jsonld: {
     headline: "Astropsicología: la carta como mapa de la psique",

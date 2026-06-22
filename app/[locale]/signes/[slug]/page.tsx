@@ -192,6 +192,8 @@ function getAllSigneSlugs(): string[] {
 
 // ─── Static params (Next.js 16) ────────────────────────────────────────────
 
+export const dynamicParams = false;
+
 export async function generateStaticParams({
   params: { locale },
 }: {
@@ -213,11 +215,18 @@ export async function generateMetadata({
   const data = getSigneData(canonicalSlug("signes", slug), locale);
   if (!data) return {};
   const loc = toSeoLocale(locale);
+  const tm = await getTranslations({ locale, namespace: "sign" });
 
-  const title = `${data.nom} — Encyclopédie complète du signe astrologique`;
   // maitreCourt : premier maître seulement (évite les longues chaînes "Mars & Pluton", "Jupiter & Neptune (moderne)")
   const maitreCourt = data.maitre.replace(/\s*[(&/].*$/, "").trim();
-  const description = `${data.nom} (${data.periode}) : ${data.element}, ${data.mode}, gouverné par ${maitreCourt}. Portrait complet, compatibilités et interprétation du thème natal.`;
+  const title = tm("metaTitle", { name: data.nom });
+  const description = tm("metaDescription", {
+    name: data.nom,
+    periode: data.periode,
+    element: data.element,
+    mode: data.mode,
+    master: maitreCourt,
+  });
   const url = pillarUrl("signes", data.slug, loc);
 
   return {
@@ -315,8 +324,16 @@ export default async function SignePage({
   );
 
   // Description identique à la meta (évite la désynchronisation JSON-LD / meta)
+  const loc = toSeoLocale(locale);
   const maitreCourt = data.maitre.replace(/\s*[(&/].*$/, "").trim();
-  const pageDescription = `${data.nom} (${data.periode}) : ${data.element}, ${data.mode}, gouverné par ${maitreCourt}. Portrait complet, compatibilités et interprétation du thème natal.`;
+  const pageDescription = t("metaDescription", {
+    name: data.nom,
+    periode: data.periode,
+    element: data.element,
+    mode: data.mode,
+    master: maitreCourt,
+  });
+  const articleSectionLabel = loc === "en" ? "Astrology" : loc === "es" ? "Astrología" : "Astrologie";
 
   // Schema.org JSON-LD — @graph unique (réduit le DOM, recommandé Google)
   const jsonLdGraph = {
@@ -324,16 +341,16 @@ export default async function SignePage({
     "@graph": [
       {
         "@type": "Article",
-        headline: `${data.nom} — Encyclopédie complète du signe astrologique`,
+        headline: t("metaTitle", { name: data.nom }),
         description: pageDescription,
         image: absoluteUrl(data.images.signe),
         author: AUTHOR_PERSON,
         publisher: PUBLISHER_ORG,
-        mainEntityOfPage: absoluteUrl(`/signes/${data.slug}`),
+        mainEntityOfPage: pillarUrl("signes", data.slug, loc),
         datePublished: "2026-04-09T12:00:00Z",
         dateModified: "2026-05-08T12:00:00Z",
-        articleSection: "Astrologie",
-        inLanguage: "fr",
+        articleSection: articleSectionLabel,
+        inLanguage: loc,
       },
       buildCourseNode({
         path: `/signes/${data.slug}`,

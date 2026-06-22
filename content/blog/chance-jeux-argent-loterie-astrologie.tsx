@@ -9,7 +9,7 @@ export const meta = {
   slug: "chance-jeux-argent-loterie-astrologie",
   title: "Chance au jeu en astrologie : maisons & Jupiter",
   description:
-    "Loterie, paris, jeux d'argent : ce que l'astrologie dit (et ne dit pas) de la chance. Maison V, maison II, Jupiter, Part de Fortune et transits. Guide & jeu responsable.",
+    "Loterie, paris, jeux d'argent : ce que l'astrologie dit de la chance. Maison V, maison II, Jupiter, Part de Fortune et transits. Jeu responsable.",
   date: "2026-06-13",
   tags: [
     "chance",

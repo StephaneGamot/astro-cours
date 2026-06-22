@@ -9,7 +9,7 @@ export const meta = {
   slug: "astrologie-medicale-renaissance",
   title: "Why Renaissance physicians read the sky",
   description:
-    "A history of medical astrology: why physicians of the Middle Ages and the Renaissance consulted the sky before treating patients. Humours, the zodiac man, critical days. A historical account (not medical).",
+    "A history of medical astrology: why Middle Ages and Renaissance physicians read the sky before treating patients. A historical account (not medical).",
   date: "2026-06-19",
   tags: [
     "astrologie médicale",
@@ -570,7 +570,7 @@ export default function AstrologieMedicaleRenaissancePost() {
             <span className="mt-1 block font-medium text-white/90">The Lunarian type</span>
             <span className="mt-1 block text-xs text-white/60">Phlegmatic temperament</span>
           </Link>
-          <Link href="/signes" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+          <Link href="/#zodiaque" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
             <span className="block text-xs uppercase tracking-wide text-white/50">Reference</span>
             <span className="mt-1 block font-medium text-white/90">The 12 signs</span>
             <span className="mt-1 block text-xs text-white/60">From Aries (the head) to Pisces (the feet)</span>

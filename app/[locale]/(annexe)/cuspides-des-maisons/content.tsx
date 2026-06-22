@@ -464,11 +464,11 @@ const es: ArticleData = {
   slug: "cuspides-des-maisons",
   title: "Las Cúspides de las Casas en Astrología",
   description:
-    "Cúspides de las casas en astrología: ángulos de la carta, regente de la casa, interceptaciones y dinámica de los ámbitos de vida. ¡Explora nuestro curso completo!",
+    "Cúspides de las casas en astrología: ángulos de la carta, regente de la casa, interceptaciones y ámbitos de vida. ¡Curso completo!",
   meta: {
     title: "Las Cúspides de las Casas en Astrología",
     description:
-      "Cúspides de las casas en astrología: ángulos de la carta, regente de la casa, interceptaciones y dinámica de los ámbitos de vida. ¡Explora nuestro curso completo!",
+      "Cúspides de las casas en astrología: ángulos de la carta, regente de la casa, interceptaciones y ámbitos de vida. ¡Curso completo!",
   },
   defBox: {
     label: "Definición",

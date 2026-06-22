@@ -885,7 +885,7 @@ const es: TransitsContent = {
   meta: {
     title: "Tránsitos: guía completa, método y lectura",
     description:
-      "Guía completa de los tránsitos astrológicos: definición, método, orbes e interpretación planeta por planeta. ¡Descubre nuestro curso estructurado y concreto!",
+      "Guía completa de los tránsitos astrológicos: definición, método, orbes e interpretación planeta por planeta. ¡Curso estructurado y concreto!",
   },
   jsonld: {
     headline: "Tránsitos — Curso de astrología",

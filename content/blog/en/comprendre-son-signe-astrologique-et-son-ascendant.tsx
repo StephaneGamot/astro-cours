@@ -9,6 +9,7 @@ const COVER_URL = `${SITE_URL}/images/blog/soleil-et-asc.webp`;
 export const meta = {
   slug: "comprendre-signe-astrologique-ascendant-12-exemples",
   title: "Astrological Sign and Ascendant: Understanding the Difference",
+  seoTitle: "Sun sign & ascendant: the difference — Astro Cours",
   description:
     "Understand the difference between Sun sign and ascendant through 12 concrete, hands-on examples. Test your knowledge right now!",
   socialTitle:

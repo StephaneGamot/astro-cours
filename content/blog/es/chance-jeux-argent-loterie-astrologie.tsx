@@ -9,7 +9,7 @@ export const meta = {
   slug: "chance-jeux-argent-loterie-astrologie",
   title: "La suerte en el juego en astrología: casas y Júpiter",
   description:
-    "Lotería, apuestas, juegos de azar: lo que la astrología dice (y no dice) sobre la suerte. Casa V, casa II, Júpiter, Parte de la Fortuna y tránsitos. Guía y juego responsable.",
+    "Lotería, apuestas y juegos de azar: lo que la astrología dice sobre la suerte. Casa V, casa II, Júpiter y Parte de la Fortuna. Juego responsable.",
   date: "2026-06-13",
   tags: [
     "chance",

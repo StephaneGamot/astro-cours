@@ -173,7 +173,9 @@
       "stimulante": "Estimulante",
       "complementaire": "Complementaria",
       "variable": "Variable"
-    }
+    },
+    "metaTitle": "{name} — Enciclopedia completa del signo del zodíaco",
+    "metaDescription": "{name} ({periode}): {element}, {mode}, regido por {master}. Retrato completo, compatibilidades e interpretación de la carta natal."
   },
   "planet": {
     "heroSubtitle": "Simbolismo e influencia en astrología",
@@ -488,7 +490,7 @@
     "footerLine": "Este diccionario se enriquece regularmente.",
     "footerAsk": "¿Falta un término? Escríbenos a",
     "metaTitle": "Diccionario astrológico completo de la A a la Z",
-    "metaDescription": "Diccionario astrológico completo: definiciones claras de los términos esenciales — planetas, signos, casas, aspectos y tránsitos. ¡Explora nuestra referencia!",
+    "metaDescription": "Diccionario astrológico completo: definiciones claras de los términos esenciales — planetas, signos, casas, aspectos y tránsitos.",
     "jsonldName": "Diccionario astrológico — Astro Cours",
     "cat": {
       "planète": "Planeta",

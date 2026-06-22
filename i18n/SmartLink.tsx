@@ -6,6 +6,8 @@ import { createNavigation } from "next-intl/navigation";
 import type { ComponentProps } from "react";
 import { routing } from "./routing";
 import { localizeSlug, pillarTypeFromTemplate } from "./slugs";
+import { localizeBlogSlug } from "./blogSlugs";
+import { localizeBlogTagSlug } from "./blogTagSlugs";
 
 const { getPathname } = createNavigation(routing);
 
@@ -79,6 +81,11 @@ export function Link({ href, locale, ...rest }: LinkProps) {
       const pillar = pillarTypeFromTemplate(m.template);
       if (pillar && params.slug) {
         params.slug = localizeSlug(pillar, params.slug, target);
+      } else if (m.template === "/blog/[slug]" && params.slug) {
+        // Slug d'article : conjonction…→conjunction… (sinon doublon /en/blog/<fr>).
+        params.slug = localizeBlogSlug(params.slug, target);
+      } else if (m.template === "/blog/tag/[slug]" && params.slug) {
+        params.slug = localizeBlogTagSlug(params.slug, target);
       }
       localized = getPathname({
         locale: target,

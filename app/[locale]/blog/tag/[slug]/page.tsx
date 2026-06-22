@@ -10,6 +10,8 @@ import {
   getTagPageConfig,
   isIndexableTag,
 } from "@/lib/blog";
+import { tagToSlug } from "@/lib/blog";
+import { localizeBlogTagSlug } from "@/i18n/blogTagSlugs";
 import { BlogCard } from "@/components/blog/BlogCard";
 import {
   SITE_NAME,
@@ -23,6 +25,8 @@ import {
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
 const OG_LOCALE: Record<string, string> = { fr: "fr_FR", en: "en_US", es: "es_ES" };
+
+export const dynamicParams = false;
 
 export function generateStaticParams({
   params: { locale },
@@ -48,10 +52,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = cfg?.copy.title ?? t("tagFallbackTitle", { tag: label });
   const description = cfg?.copy.description ?? t("tagFallbackDesc", { tag: label });
 
+  // hreflang : slug du tag localisé pour chaque langue (depuis le slug FR canonique).
+  const frSlug = tagToSlug(canon);
+  const languages = {
+    "fr-FR": localeUrl("fr", `/blog/tag/${localizeBlogTagSlug(frSlug, "fr")}`),
+    "en-US": localeUrl("en", `/blog/tag/${localizeBlogTagSlug(frSlug, "en")}`),
+    "es-ES": localeUrl("es", `/blog/tag/${localizeBlogTagSlug(frSlug, "es")}`),
+    "x-default": localeUrl("fr", `/blog/tag/${localizeBlogTagSlug(frSlug, "fr")}`),
+  };
+
   return {
     title,
     description,
-    alternates: { canonical: selfAbs },
+    alternates: { canonical: selfAbs, languages },
     robots: indexable
       ? { index: true, follow: true }
       : { index: false, follow: true, googleBot: { index: false, follow: true } },

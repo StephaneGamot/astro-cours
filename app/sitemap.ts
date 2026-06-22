@@ -2,14 +2,15 @@ import type { MetadataRoute } from "next";
 import maisons from "@/data/maisons.details.json";
 import planetes from "@/data/planetes.details.json";
 import signes from "@/data/signes.details.json";
-import { getAllPosts, getPostsByTagSlug, TAG_PAGES } from "@/lib/blog";
-import { localeUrl, languageAlternates, type SeoLocale } from "@/lib/seo";
+import { getAllPosts, getPostsByTagSlug, postSlugFor, TAG_PAGES } from "@/lib/blog";
+import { localeUrl, localizedPathUrl, pillarUrl, type SeoLocale } from "@/lib/seo";
+import { localizeBlogTagSlug } from "@/i18n/blogTagSlugs";
 
 const LOCALES: SeoLocale[] = ["fr", "en", "es"];
 
 type SitemapEntry = {
-  /** chemin relatif sans slash initial ("" = home) */
-  path: string;
+  /** URL absolue localisée pour une locale donnée (segment ET slug traduits). */
+  url: (loc: SeoLocale) => string;
   lastModified: Date;
   changeFrequency: "weekly" | "monthly" | "yearly";
   priority: number;
@@ -17,16 +18,21 @@ type SitemapEntry = {
 
 /**
  * Décline chaque entrée dans les 3 langues (FR racine, EN/ES préfixés),
- * avec les balises hreflang (alternates.languages) sur chacune.
+ * avec les balises hreflang (alternates.languages) pointant sur les URL
+ * réellement localisées (segment + slug) — alignées sur les canoniques.
  */
 function expand(entries: SitemapEntry[]): MetadataRoute.Sitemap {
   const out: MetadataRoute.Sitemap = [];
   for (const e of entries) {
-    const p = e.path === "" ? "/" : `/${e.path}`;
-    const languages = languageAlternates(p);
+    const languages = {
+      "fr-FR": e.url("fr"),
+      "en-US": e.url("en"),
+      "es-ES": e.url("es"),
+      "x-default": e.url("fr"),
+    };
     for (const loc of LOCALES) {
       out.push({
-        url: localeUrl(loc, p),
+        url: e.url(loc),
         lastModified: e.lastModified,
         changeFrequency: e.changeFrequency,
         priority: e.priority,
@@ -86,37 +92,40 @@ const COLLECTION_DATES = {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: SitemapEntry[] = Object.entries(STATIC_PAGE_DATES).map(
-    ([page, date]) => ({
-      path: page,
-      lastModified: new Date(date),
-      changeFrequency: page === "" ? "weekly" : "monthly",
-      priority: page === "" ? 1.0 : page === "blog" ? 0.9 : 0.5,
-    }),
+    ([page, date]) => {
+      const internalPath = page === "" ? "/" : `/${page}`;
+      return {
+        url: (loc: SeoLocale) => localizedPathUrl(internalPath, loc),
+        lastModified: new Date(date),
+        changeFrequency: page === "" ? "weekly" : "monthly",
+        priority: page === "" ? 1.0 : page === "blog" ? 0.9 : 0.5,
+      };
+    },
   );
 
   const houseRoutes: SitemapEntry[] = (maisons as House[]).map((h) => ({
-    path: `maisons/${h.slug}`,
+    url: (loc: SeoLocale) => pillarUrl("maisons", h.slug, loc),
     lastModified: new Date(h.updated ?? COLLECTION_DATES.maisons),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
   const planetRoutes: SitemapEntry[] = (planetes as Planet[]).map((p) => ({
-    path: `planetes/${p.slug}`,
+    url: (loc: SeoLocale) => pillarUrl("planetes", p.slug, loc),
     lastModified: new Date(p.updated ?? COLLECTION_DATES.planetes),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
   const signRoutes: SitemapEntry[] = (signes as Sign[]).map((s) => ({
-    path: `signes/${s.slug}`,
+    url: (loc: SeoLocale) => pillarUrl("signes", s.slug, loc),
     lastModified: new Date(s.updated ?? COLLECTION_DATES.signes),
     changeFrequency: "monthly",
     priority: 0.9,
   }));
 
   const postRoutes: SitemapEntry[] = getAllPosts().map((p) => ({
-    path: `blog/${p.meta.slug}`,
+    url: (loc: SeoLocale) => localeUrl(loc, `/blog/${postSlugFor(p.meta.slug, loc)}`),
     lastModified: new Date(p.meta.date),
     changeFrequency: "yearly",
     priority: 0.7,
@@ -126,10 +135,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   //    restent en noindex et ne figurent pas dans le sitemap.
   //    lastModified = date de l'article le plus récent du tag.
   const tagRoutes: SitemapEntry[] = Object.keys(TAG_PAGES).map((slug) => {
-    const posts = getPostsByTagSlug(slug);
+    const posts = getPostsByTagSlug(slug, "fr");
     const latest = posts[0]?.meta.date;
     return {
-      path: `blog/tag/${slug}`,
+      url: (loc: SeoLocale) => localeUrl(loc, `/blog/tag/${localizeBlogTagSlug(slug, loc)}`),
       lastModified: new Date(latest ?? COLLECTION_DATES.maisons),
       changeFrequency: "monthly",
       priority: 0.6,

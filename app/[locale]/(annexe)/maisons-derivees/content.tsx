@@ -297,17 +297,17 @@ const en: MaisonsDeriveesContent = {
   meta: {
     title: "Derived Houses in the Natal Chart",
     description:
-      "Discover the technique of derived houses in astrology. Learn to read the destiny of those close to you through the rotation of the zodiac within your chart.",
+      "Discover derived houses in astrology: read the destiny of those close to you through the rotation of the zodiac within your chart.",
   },
   jsonld: {
     headline: "Derived Houses in the Natal Chart",
     description:
-      "Discover the technique of derived houses in astrology. Learn to read the destiny of those close to you through the rotation of the zodiac within your chart.",
+      "Discover derived houses in astrology: read the destiny of those close to you through the rotation of the zodiac within your chart.",
   },
   slug: "maisons-derivees",
   title: "Derived Houses in the Natal Chart",
   description:
-    "Discover the technique of derived houses in astrology. Learn to read the destiny of those close to you through the rotation of the zodiac within your chart.",
+    "Discover derived houses in astrology: read the destiny of those close to you through the rotation of the zodiac within your chart.",
   hero: { badge: "Astrological Encyclopaedia" },
   defBox: {
     label: "Definition",
@@ -536,17 +536,17 @@ const es: MaisonsDeriveesContent = {
   meta: {
     title: "Las Casas Derivadas en la Carta Natal",
     description:
-      "Descubre la técnica de las casas derivadas en astrología. Aprende a leer el destino de tus seres queridos gracias a la rotación del zodíaco dentro de tu carta.",
+      "Descubre las casas derivadas en astrología: lee el destino de tus seres queridos gracias a la rotación del zodíaco dentro de tu carta.",
   },
   jsonld: {
     headline: "Las Casas Derivadas en la Carta Natal",
     description:
-      "Descubre la técnica de las casas derivadas en astrología. Aprende a leer el destino de tus seres queridos gracias a la rotación del zodíaco dentro de tu carta.",
+      "Descubre las casas derivadas en astrología: lee el destino de tus seres queridos gracias a la rotación del zodíaco dentro de tu carta.",
   },
   slug: "maisons-derivees",
   title: "Las Casas Derivadas en la Carta Natal",
   description:
-    "Descubre la técnica de las casas derivadas en astrología. Aprende a leer el destino de tus seres queridos gracias a la rotación del zodíaco dentro de tu carta.",
+    "Descubre las casas derivadas en astrología: lee el destino de tus seres queridos gracias a la rotación del zodíaco dentro de tu carta.",
   hero: { badge: "Enciclopedia Astrológica" },
   defBox: {
     label: "Definición",

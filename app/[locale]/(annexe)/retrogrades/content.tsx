@@ -58,7 +58,7 @@ export type RetrogradesContent = {
 /* ============================== FR ============================== */
 const fr: RetrogradesContent = {
   meta: {
-    title: "Planètes rétrogrades — Natal vs transit, stations & méthode",
+    title: "Planètes rétrogrades : méthode et lecture",
     description:
       "Rétrogrades en astrologie : définition, stations, natal vs transit, effets concrets et erreurs fréquentes. Explorez notre lecture planète par planète !",
   },
@@ -391,7 +391,7 @@ const fr: RetrogradesContent = {
 /* ============================== EN ============================== */
 const en: RetrogradesContent = {
   meta: {
-    title: "Retrograde planets — Natal vs transit, stations & method",
+    title: "Retrograde planets: method & reading",
     description:
       "Retrogrades in astrology: definition, stations, natal vs transit, concrete effects and common mistakes. Explore our planet-by-planet reading!",
   },
@@ -724,7 +724,7 @@ const en: RetrogradesContent = {
 /* ============================== ES ============================== */
 const es: RetrogradesContent = {
   meta: {
-    title: "Planetas retrógrados — Natal vs tránsito, estaciones y método",
+    title: "Planetas retrógrados: método y lectura",
     description:
       "Retrógrados en astrología: definición, estaciones, natal vs tránsito, efectos concretos y errores frecuentes. ¡Explora nuestra lectura planeta por planeta!",
   },

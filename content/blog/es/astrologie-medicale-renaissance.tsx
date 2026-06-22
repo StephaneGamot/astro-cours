@@ -9,7 +9,7 @@ export const meta = {
   slug: "astrologie-medicale-renaissance",
   title: "Por qué los médicos del Renacimiento leían el cielo",
   description:
-    "Historia de la astrología médica: por qué los médicos de la Edad Media y del Renacimiento consultaban el cielo antes de curar. Humores, hombre zodiacal, días críticos. Relato histórico (no médico).",
+    "Por qué los médicos de la Edad Media y del Renacimiento consultaban el cielo antes de curar: humores, hombre zodiacal, días críticos (no médico).",
   date: "2026-06-19",
   tags: [
     "astrologie médicale",
@@ -570,7 +570,7 @@ export default function AstrologieMedicaleRenaissancePost() {
             <span className="mt-1 block font-medium text-white/90">El tipo lunariano</span>
             <span className="mt-1 block text-xs text-white/60">Temperamento flemático</span>
           </Link>
-          <Link href="/signes" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+          <Link href="/#zodiaque" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
             <span className="block text-xs uppercase tracking-wide text-white/50">Referencia</span>
             <span className="mt-1 block font-medium text-white/90">Los 12 signos</span>
             <span className="mt-1 block text-xs text-white/60">De Aries (la cabeza) a Piscis (los pies)</span>

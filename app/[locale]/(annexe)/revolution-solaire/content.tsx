@@ -62,7 +62,7 @@ export type RevolutionSolaireContent = {
 /* ============================== FR ============================== */
 const fr: RevolutionSolaireContent = {
   meta: {
-    title: "Révolution Solaire : Guide complet et Interprétation",
+    title: "Révolution solaire : guide complet",
     description:
       "Maîtrisez la Révolution Solaire en astrologie. Calcul, lieu de montage, maîtres du temps (profections, diviseur), et les 12 règles d'or d'interprétation.",
   },
@@ -642,7 +642,7 @@ const es: RevolutionSolaireContent = {
   meta: {
     title: "Revolución Solar: Guía completa e Interpretación",
     description:
-      "Domina la Revolución Solar en astrología. Cálculo, lugar de levantamiento, señores del tiempo (profecciones, regente del tiempo) y las 12 reglas de oro de interpretación.",
+      "Domina la Revolución Solar en astrología: cálculo, lugar de levantamiento, señores del tiempo y las 12 reglas de oro de interpretación.",
   },
   jsonld: {
     headline: "Revolución Solar: Guía completa e Interpretación",

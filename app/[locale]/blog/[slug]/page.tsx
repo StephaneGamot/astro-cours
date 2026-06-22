@@ -15,6 +15,8 @@ type Props = { params: Promise<{ locale: string; slug: string }> };
 
 const OG_LOCALE: Record<string, string> = { fr: "fr_FR", en: "en_US", es: "es_ES" };
 
+export const dynamicParams = false;
+
 export function generateStaticParams({
   params: { locale },
 }: {
@@ -31,6 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
 
   const m = post.meta;
+  // Ahrefs SERP rewrite : titre court absolu (bypasse le template " — Astro Cours").
+  const seoTitle = (m as unknown as { seoTitle?: string }).seoTitle;
   const canonicalAbs = localeUrl(loc, `/blog/${localizeBlogSlug(m.slug, loc)}`);
   const languages = {
     "fr-FR": localeUrl("fr", `/blog/${localizeBlogSlug(m.slug, "fr")}`),
@@ -44,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : { url: absoluteUrl("/og/cover.jpg"), width: 1200, height: 630, alt: buildTitle("Blog") };
 
   return {
-    title: m.title,
+    title: seoTitle ? { absolute: seoTitle } : m.title,
     description: m.description,
     alternates: { canonical: canonicalAbs, languages },
     robots: { index: true, follow: true },

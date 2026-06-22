@@ -1,41 +1,39 @@
 import type { Metadata } from "next";
-import { SITE_NAME, absoluteUrl, buildTitle } from "@/lib/seo";
+import {
+  buildMeta,
+  localizedPathUrl,
+  pathLanguageAlternates,
+  toSeoLocale,
+  SITE_NAME,
+  absoluteUrl,
+} from "@/lib/seo";
+import { confidentialiteContent } from "./content";
 
-const CANONICAL = "/confidentialite";
-const TITLE = "Politique de confidentialité : RGPD, cookies";
-const DESCRIPTION =
-  "Politique de confidentialité d'Astro Cours : cookies, données collectées, durée de conservation, sécurité et droits RGPD. Consultez vos droits ici.";
+/**
+ * Page « Politique de confidentialité » — i18n (fr/en/es).
+ * Tout le texte vient de ./content.tsx ; ici uniquement la présentation.
+ */
 
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  alternates: { canonical: absoluteUrl(CANONICAL) },
-  robots: { index: true, follow: true },
+const INTERNAL_PATH = "/confidentialite";
 
-  openGraph: {
-    title: buildTitle(TITLE),
-    description: DESCRIPTION,
-    url: absoluteUrl(CANONICAL),
-    siteName: SITE_NAME,
-    locale: "fr_FR",
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const loc = toSeoLocale(locale);
+  const c = confidentialiteContent[loc];
+  return buildMeta({
+    title: c.meta.title,
+    description: c.meta.description,
+    canonicalPath: INTERNAL_PATH,
     type: "website",
-    images: [
-      {
-        url: absoluteUrl("/og/cover.jpg"),
-        width: 1200,
-        height: 630,
-        alt: buildTitle(TITLE),
-      },
-    ],
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: buildTitle(TITLE),
-    description: DESCRIPTION,
-    images: [absoluteUrl("/og/cover.jpg")],
-  },
-};
+    locale: loc,
+    canonicalUrl: localizedPathUrl(INTERNAL_PATH, loc),
+    languages: pathLanguageAlternates(INTERNAL_PATH),
+  });
+}
 
 /* ------------------------------------------------------------------ */
 /*  Composant réutilisable pour chaque article                        */
@@ -71,169 +69,55 @@ function Article({
 /* ------------------------------------------------------------------ */
 /*  Page principale                                                   */
 /* ------------------------------------------------------------------ */
-export default function ConfidentialitePage() {
-  const lastUpdate = "16 avril 2026";
+export default async function ConfidentialitePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const loc = toSeoLocale(locale);
+  const c = confidentialiteContent[loc];
 
   return (
     <main id="main-content" className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:py-20">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebPage",
-        name: "Politique de confidentialité",
-        description: DESCRIPTION,
-        url: absoluteUrl("/confidentialite"),
+        name: c.jsonld.name,
+        description: c.jsonld.description,
+        inLanguage: loc,
+        url: localizedPathUrl(INTERNAL_PATH, loc),
+        "@id": localizedPathUrl(INTERNAL_PATH, loc),
         isPartOf: { "@type": "WebSite", name: SITE_NAME, url: absoluteUrl("/") }
       }) }} />
       {/* ── En-tête ─────────────────────────────────────────────── */}
       <header className="mb-12 space-y-4 text-center">
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-violet-400">
-          Protection des données
+          {c.header.eyebrow}
         </p>
         <h1 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">
-          Politique de confidentialité
+          {c.header.h1}
         </h1>
         <p className="mx-auto max-w-xl text-sm leading-relaxed text-text/60">
-          Conformément au Règlement général sur la protection des données (RGPD)
-          et à la loi Informatique et Libertés, cette page détaille la manière
-          dont le site{" "}
-          <strong className="text-text/80">astro-cours.com</strong> collecte,
-          utilise et protège vos données personnelles.
+          {c.header.intro}
         </p>
         <p className="text-xs text-text/40">
-          Dernière mise à jour&nbsp;: {lastUpdate}
+          {c.header.lastUpdateLabel}&nbsp;: {c.header.lastUpdate}
         </p>
       </header>
 
       {/* ── Articles ────────────────────────────────────────────── */}
       <div className="space-y-6">
-        {/* Art. 1 — Données collectées */}
-        <Article number="Art. 1" title="Données collectées">
-          <p>
-            Le site Astro Cours ne collecte des données personnelles que de
-            manière strictement nécessaire au fonctionnement et à
-            l&apos;amélioration du service. Les données suivantes peuvent être
-            recueillies de manière automatique lors de votre visite&nbsp;:
-          </p>
-          <ul className="list-disc pl-5 space-y-1.5">
-            <li>données de navigation anonymisées (pages consultées, temps passé)</li>
-            <li>données techniques (type de navigateur, système d&apos;exploitation, résolution d&apos;écran)</li>
-            <li>adresse IP tronquée à des fins de mesure d&apos;audience</li>
-          </ul>
-          <p>
-            <strong className="text-text/90">Aucune donnée personnelle directement identifiante</strong>{" "}
-            (nom, prénom, email, date de naissance, thème astral)
-            n&apos;est collectée sans votre action explicite&nbsp;: ces
-            informations ne sont enregistrées que si vous nous écrivez
-            spontanément par e-mail.
-          </p>
-        </Article>
-
-        {/* Art. 2 — Outils d'analyse */}
-        <Article number="Art. 2" title="Outils d&apos;analyse">
-          <p>
-            Le site utilise des outils de mesure d&apos;audience à des fins
-            statistiques et d&apos;amélioration du contenu, notamment&nbsp;:
-          </p>
-          <ul className="list-disc pl-5 space-y-1.5">
-            <li>
-              <strong className="text-text/90">Ahrefs Analytics</strong>{" "}
-              (statistiques de fréquentation)
-            </li>
-          </ul>
-          <p>
-            Ces outils ne permettent pas d&apos;identifier personnellement les
-            utilisateurs.
-          </p>
-        </Article>
-
-        {/* Art. 3 — Cookies */}
-        <Article number="Art. 3" title="Cookies">
-          <p>
-            Des cookies techniques ou de mesure d&apos;audience peuvent être
-            utilisés afin d&apos;assurer le bon fonctionnement du site et
-            d&apos;analyser sa fréquentation de manière agrégée. Vous pouvez à
-            tout moment configurer votre navigateur pour refuser les cookies
-            ou être averti de leur dépôt&nbsp;: cela n&apos;altère pas
-            l&apos;accès au contenu du site.
-          </p>
-          <p>
-            <strong className="text-text/90">Aucun cookie publicitaire, de
-            retargeting ou de profilage comportemental n&apos;est utilisé.</strong>{" "}
-            Le site ne pratique ni revente de données, ni partage avec des
-            régies publicitaires tierces.
-          </p>
-        </Article>
-
-        {/* Art. 4 — Durée de conservation */}
-        <Article number="Art. 4" title="Durée de conservation">
-          <p>
-            Les données collectées sont conservées pour une durée strictement
-            nécessaire aux finalités pour lesquelles elles ont été recueillies,
-            puis supprimées ou anonymisées. À titre indicatif, les statistiques
-            de navigation sont conservées <strong className="text-text/90">treize mois maximum</strong>,
-            conformément aux recommandations de la CNIL.
-          </p>
-        </Article>
-
-        {/* Art. 5 — Droits des utilisateurs */}
-        <Article number="Art. 5" title="Droits des utilisateurs">
-          <p>
-            Conformément au Règlement Général sur la Protection des Données
-            (RGPD), vous disposez des droits suivants&nbsp;:
-          </p>
-          <ul className="list-disc pl-5 space-y-1.5">
-            <li>droit d&apos;accès</li>
-            <li>droit de rectification</li>
-            <li>droit à l&apos;effacement</li>
-            <li>droit d&apos;opposition</li>
-          </ul>
-          <p>
-            Pour exercer vos droits, vous pouvez contacter&nbsp;:{" "}
-            <a
-              href="mailto:white-wolf-web@outlook.com"
-              className="text-violet-400/90 underline decoration-violet-400/30 underline-offset-2 transition-colors hover:text-violet-300 hover:decoration-violet-300/50"
-            >
-              white-wolf-web@outlook.com
-            </a>
-            . Vous disposez également du droit d&apos;introduire une réclamation
-            auprès de la{" "}
-            <a
-              href="https://www.cnil.fr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-violet-400/90 underline decoration-violet-400/30 underline-offset-2 transition-colors hover:text-violet-300 hover:decoration-violet-300/50"
-            >
-              CNIL
-            </a>
-            .
-          </p>
-        </Article>
-
-        {/* Art. 6 — Sécurité des données */}
-        <Article number="Art. 6" title="Sécurité des données">
-          <p>
-            Le site Astro Cours met en œuvre des mesures techniques et
-            organisationnelles adaptées pour préserver la sécurité, la
-            confidentialité et l&apos;intégrité de vos données&nbsp;:
-            chiffrement HTTPS, en-têtes de sécurité stricts (HSTS, CSP,
-            X-Frame-Options), hébergement sur infrastructure européenne et
-            accès restreint aux journaux techniques.
-          </p>
-          <p>
-            En cas d&apos;incident de sécurité susceptible d&apos;affecter vos
-            droits et libertés, une notification sera adressée à la CNIL dans
-            un délai de 72 heures, conformément à l&apos;article 33 du RGPD.
-          </p>
-        </Article>
+        {c.articles.map((a) => (
+          <Article key={a.number} number={a.number} title={a.title}>
+            {a.body}
+          </Article>
+        ))}
       </div>
 
       {/* ── Pied de page ────────────────────────────────────────── */}
       <footer className="mt-14 border-t border-white/[0.06] pt-8 text-center text-xs text-text/35">
-        <p>
-          Politique de confidentialité rédigée conformément au Règlement général
-          sur la protection des données (RGPD) et à la loi n°&nbsp;78-17 du
-          6&nbsp;janvier 1978 modifiée.
-        </p>
+        {c.footer}
       </footer>
     </main>
   );

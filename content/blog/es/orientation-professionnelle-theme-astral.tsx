@@ -9,7 +9,7 @@ export const meta = {
   slug: "orientation-professionnelle-theme-astral",
   title: "Orientación profesional y carta natal",
   description:
-    "Analiza la orientación profesional en una carta natal: la Casa X, la Casa I, la Parte de la Fortuna y el Medio Cielo para definir vocación y estatus social.",
+    "Analiza la orientación profesional en la carta natal: Casa X, Casa I, Parte de la Fortuna y Medio Cielo para definir vocación y estatus social.",
   date: "2026-03-28",
   tags: [
     "orientation professionnelle",

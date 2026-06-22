@@ -59,9 +59,9 @@ export type AstroMedicaleContent = {
 /* ============================== FR ============================== */
 const fr: AstroMedicaleContent = {
   meta: {
-    title: "Astrologie médicale : tempéraments, humeurs et homme zodiacal",
+    title: "Astrologie médicale : tempéraments et humeurs",
     description:
-      "Astrologie médicale : tradition complète. Homme zodiacal, tempéraments, quatre humeurs, planètes, maisons de la santé et décombiture. Cours complet (symbolique, non médical) !",
+      "Astrologie médicale : tradition complète. Homme zodiacal, tempéraments, humeurs, planètes, maisons de la santé. Cours symbolique (non médical) !",
   },
   jsonld: {
     headline: "Astrologie médicale : tempéraments, humeurs et homme zodiacal",
@@ -288,9 +288,9 @@ const fr: AstroMedicaleContent = {
 /* ============================== EN ============================== */
 const en: AstroMedicaleContent = {
   meta: {
-    title: "Medical astrology: temperaments, humours and the zodiac man",
+    title: "Medical astrology: temperaments & humours",
     description:
-      "Medical astrology: the complete tradition. Zodiac man, temperaments, the four humours, planets, houses of health and decumbiture. A full course (symbolic, not medical)!",
+      "Medical astrology: the complete tradition. Zodiac man, temperaments, the four humours, planets, houses of health. A symbolic course (not medical)!",
   },
   jsonld: {
     headline: "Medical astrology: temperaments, humours and the zodiac man",
@@ -517,9 +517,9 @@ const en: AstroMedicaleContent = {
 /* ============================== ES ============================== */
 const es: AstroMedicaleContent = {
   meta: {
-    title: "Astrología médica: temperamentos, humores y hombre zodiacal",
+    title: "Astrología médica: temperamentos y humores",
     description:
-      "Astrología médica: tradición completa. Hombre zodiacal, temperamentos, los cuatro humores, planetas, casas de la salud y decumbitura. Curso completo (simbólico, no médico).",
+      "Astrología médica: tradición completa. Hombre zodiacal, temperamentos, humores, planetas, casas de la salud. Curso simbólico (no médico).",
   },
   jsonld: {
     headline: "Astrología médica: temperamentos, humores y hombre zodiacal",

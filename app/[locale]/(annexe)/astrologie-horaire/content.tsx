@@ -70,9 +70,9 @@ export type HoraireContent = {
 /* ============================== FR ============================== */
 const fr: HoraireContent = {
   meta: {
-    title: "Astrologie horaire — Poser une question, lire la réponse du ciel",
+    title: "Astrologie horaire : la méthode complète",
     description:
-      "Astrologie horaire : méthode complète. Conditions de validité, significateurs, maisons des questions, mouvements de lumière, dignités, Lune et timing. Cours complet et gratuit.",
+      "Astrologie horaire : méthode complète. Significateurs, maisons des questions, mouvements de lumière, dignités, Lune et timing. Cours gratuit.",
   },
   jsonld: {
     headline: "Astrologie horaire : poser une question, lire la réponse",
@@ -350,9 +350,9 @@ const fr: HoraireContent = {
 /* ============================== EN ============================== */
 const en: HoraireContent = {
   meta: {
-    title: "Horary astrology — Ask a question, read the sky’s answer",
+    title: "Horary astrology: the complete method",
     description:
-      "Horary astrology: the complete method. Radicality conditions, significators, houses of questions, movements of light, dignities, the Moon and timing. A full, free course.",
+      "Horary astrology: the complete method. Significators, houses of questions, movements of light, dignities, the Moon and timing. A free course.",
   },
   jsonld: {
     headline: "Horary astrology: ask a question, read the answer",
@@ -631,9 +631,9 @@ const en: HoraireContent = {
 /* ============================== ES ============================== */
 const es: HoraireContent = {
   meta: {
-    title: "Astrología horaria — Hacer una pregunta, leer la respuesta del cielo",
+    title: "Astrología horaria: el método completo",
     description:
-      "Astrología horaria: método completo. Condiciones de radicalidad, significadores, casas de las preguntas, movimientos de luz, dignidades, Luna y timing. Curso completo y gratuito.",
+      "Astrología horaria: método completo. Significadores, casas de las preguntas, movimientos de luz, dignidades, Luna y timing. Curso gratuito.",
   },
   jsonld: {
     headline: "Astrología horaria: hacer una pregunta, leer la respuesta",
