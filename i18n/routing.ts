@@ -79,6 +79,9 @@ export const routing = defineRouting({
     "/astro-psychologie": { fr: "/astro-psychologie", en: "/astro-psychology", es: "/astro-psicologia" },
     "/astrologie-horaire": { fr: "/astrologie-horaire", en: "/horary-astrology", es: "/astrologia-horaria" },
     "/astrologie-medicale": { fr: "/astrologie-medicale", en: "/medical-astrology", es: "/astrologia-medica" },
+    "/astrologie-mondiale": { fr: "/astrologie-mondiale", en: "/mundane-astrology", es: "/astrologia-mundial" },
+    "/maisons-dominantes": { fr: "/maisons-dominantes", en: "/dominant-houses", es: "/casas-dominantes" },
+    "/signes-dominants": { fr: "/signes-dominants", en: "/dominant-signs", es: "/signos-dominantes" },
     "/significateurs": { fr: "/significateurs", en: "/significators", es: "/significadores" },
   },
 });

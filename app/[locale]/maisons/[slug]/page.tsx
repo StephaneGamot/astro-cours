@@ -1077,12 +1077,22 @@ export default async function HousePage({
             }}
           />
 
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link
               href="/#maisons"
               className={`rounded-full border ${theme.border} bg-white/5 px-5 py-2 text-sm text-text/90 transition hover:bg-white/10`}
             >
               {tr("backToHouses")}
+            </Link>
+            <Link
+              href="/maisons-dominantes"
+              className={`rounded-full border ${theme.border} bg-white/5 px-5 py-2 text-sm text-text/90 transition hover:bg-white/10`}
+            >
+              {locHouse === "en"
+                ? "Dominant houses"
+                : locHouse === "es"
+                ? "Casas dominantes"
+                : "Les maisons dominantes"}
             </Link>
           </div>
         </footer>

@@ -667,6 +667,20 @@ export default async function SignePage({
               <MiniListCard title={t("ascCautions")} items={data.ascendant.vigilances} color="#F59E0B" />
             </div>
           </ScrollReveal>
+
+          <ScrollReveal delay={150}>
+            <p className="mt-8 text-sm" style={{ color: "rgb(var(--muted))" }}>
+              {loc === "en"
+                ? "Your Sun sign is only part of the picture — discover your "
+                : loc === "es"
+                ? "Tu signo solar es solo una parte del cuadro — descubre tu "
+                : "Votre signe solaire n'est qu'une partie du tableau — découvrez votre "}
+              <Link href="/signes-dominants" className="underline underline-offset-2 hover:opacity-80">
+                {loc === "en" ? "dominant sign" : loc === "es" ? "signo dominante" : "signe dominant"}
+              </Link>
+              .
+            </p>
+          </ScrollReveal>
         </ContentSection>
 
         {/* ━━━━━━━━━━━ CORRESPONDANCES ━━━━━━━━━━━ */}

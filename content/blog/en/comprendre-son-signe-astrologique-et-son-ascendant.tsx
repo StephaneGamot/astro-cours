@@ -580,6 +580,11 @@ export default function Post() {
             to understand your love style, or{" "}
             <Link href="/blog/quel-type-de-sportif-selon-signe-astrologique" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">what athlete you are by your sign</Link>.
           </p>
+          <p>
+            And to go beyond the Sun sign alone, identify your{" "}
+            <Link href="/signes-dominants" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">dominant sign</Link>{" "}
+            — the overall colour of your chart.
+          </p>
         </div>
         <div className="mt-4">
           <Link

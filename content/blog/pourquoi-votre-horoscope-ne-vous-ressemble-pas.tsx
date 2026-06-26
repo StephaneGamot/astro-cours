@@ -590,6 +590,9 @@ export default function HoroscopeNeVousRessemblePasPost() {
           <p>
             Par exemple, une personne avec un Soleil en Vierge mais une dominante Neptune (Neptune angulaire, aspect&eacute; &agrave; plusieurs plan&egrave;tes, en Poissons ou en maison XII) se reconn&acirc;tra bien plus dans la description du <Link href="/blog/neptunien" className="text-sky-300 underline decoration-sky-300/30 underline-offset-2 transition-colors hover:text-sky-200">type Neptunien</Link> &mdash; r&ecirc;veur, intuitif, artistique, flou &mdash; que dans celle de la Vierge analytique et terre-&agrave;-terre.
           </p>
+          <p>
+            Et au-del&agrave; de la dominante plan&eacute;taire, le ciel d&eacute;signe aussi un <Link href="/signes-dominants" className="text-sky-300 underline decoration-sky-300/30 underline-offset-2 transition-colors hover:text-sky-200">signe dominant</Link> &mdash; la couleur d&rsquo;ensemble de votre th&egrave;me, souvent diff&eacute;rente de votre signe solaire. C&rsquo;est parfois lui, et non le Soleil, qui vous ressemble enfin.
+          </p>
         </Card>
 
         <Callout tone="warn" title="Attention au pi&egrave;ge">

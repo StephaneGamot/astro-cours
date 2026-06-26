@@ -590,6 +590,9 @@ export default function HoroscopeNeVousRessemblePasPost() {
           <p>
             For example, a person with a Sun in Virgo but a Neptune dominant (Neptune angular, aspected to several planets, in Pisces or in the 12th house) will recognize themselves far more in the description of the <Link href="/blog/neptunien" className="text-sky-300 underline decoration-sky-300/30 underline-offset-2 transition-colors hover:text-sky-200">Neptunian type</Link> &mdash; dreamy, intuitive, artistic, hazy &mdash; than in that of the analytical, down-to-earth Virgo.
           </p>
+          <p>
+            And beyond the planetary dominant, the sky also points to a <Link href="/signes-dominants" className="text-sky-300 underline decoration-sky-300/30 underline-offset-2 transition-colors hover:text-sky-200">dominant sign</Link> &mdash; the overall colour of your chart, often different from your Sun sign. Sometimes it is that sign, not the Sun, that finally sounds like you.
+          </p>
         </Card>
 
         <Callout tone="warn" title="Beware of the trap">

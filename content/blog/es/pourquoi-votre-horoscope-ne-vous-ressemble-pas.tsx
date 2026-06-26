@@ -590,6 +590,9 @@ export default function HoroscopeNeVousRessemblePasPost() {
           <p>
             Por ejemplo, una persona con un Sol en Virgo pero una dominante Neptuno (Neptuno angular, aspectado a varios planetas, en Piscis o en la casa XII) se reconocerá mucho más en la descripción del <Link href="/blog/neptunien" className="text-sky-300 underline decoration-sky-300/30 underline-offset-2 transition-colors hover:text-sky-200">tipo Neptuniano</Link> &mdash; soñador, intuitivo, artístico, difuso &mdash; que en la del Virgo analítico y pragmático.
           </p>
+          <p>
+            Y más allá de la dominante planetaria, el cielo también señala un <Link href="/signes-dominants" className="text-sky-300 underline decoration-sky-300/30 underline-offset-2 transition-colors hover:text-sky-200">signo dominante</Link> &mdash; el color de conjunto de tu carta, a menudo distinto de tu signo solar. A veces es ese signo, y no el Sol, el que por fin se te parece.
+          </p>
         </Card>
 
         <Callout tone="warn" title="Cuidado con la trampa">
