@@ -427,7 +427,7 @@ const fr: LilithContent = {
       q: "Lilith est-elle une planète en astrologie ?",
       a: (
         <>
-          Non. <strong>Lilith</strong> (Lune Noire) n'est pas une planète ni un astre physique. C'est un <strong>point fictif</strong> correspondant à l'apogée de l'orbite de la <Link href="/#planetes">Lune</Link> autour de la Terre. Elle fonctionne comme un repère symbolique dans le thème natal.
+          Non. <strong>Lilith</strong> (Lune Noire) n'est pas une planète ni un astre physique. C'est un <strong>point fictif</strong> correspondant à l'apogée de l'orbite de la <Link href="/planetes">Lune</Link> autour de la Terre. Elle fonctionne comme un repère symbolique dans le thème natal.
         </>
       ),
     },
@@ -435,7 +435,7 @@ const fr: LilithContent = {
       q: "Comment trouver sa Lilith dans son thème natal ?",
       a: (
         <>
-          La plupart des logiciels d'astrologie (Astro.com, etc.) calculent la position de <strong>Lilith moyenne</strong> par défaut. Repérez son <Link href="/#zodiaque">signe</Link> et sa <Link href="/#maisons">maison</Link>, puis observez ses aspects aux planètes personnelles pour une première interprétation fiable.
+          La plupart des logiciels d'astrologie (Astro.com, etc.) calculent la position de <strong>Lilith moyenne</strong> par défaut. Repérez son <Link href="/signes">signe</Link> et sa <Link href="/maisons">maison</Link>, puis observez ses aspects aux planètes personnelles pour une première interprétation fiable.
         </>
       ),
     },
@@ -785,7 +785,7 @@ const en: LilithContent = {
       q: "Is Lilith a planet in astrology?",
       a: (
         <>
-          No. <strong>Lilith</strong> (the Black Moon) is not a planet or a physical celestial body. It is a <strong>fictitious point</strong> corresponding to the apogee of the <Link href="/#planetes">Moon</Link>'s orbit around the Earth. It works as a symbolic marker in the natal chart.
+          No. <strong>Lilith</strong> (the Black Moon) is not a planet or a physical celestial body. It is a <strong>fictitious point</strong> corresponding to the apogee of the <Link href="/planetes">Moon</Link>'s orbit around the Earth. It works as a symbolic marker in the natal chart.
         </>
       ),
     },
@@ -793,7 +793,7 @@ const en: LilithContent = {
       q: "How do you find your Lilith in your natal chart?",
       a: (
         <>
-          Most astrology software (Astro.com, etc.) calculates the position of <strong>mean Lilith</strong> by default. Locate its <Link href="/#zodiaque">sign</Link> and its <Link href="/#maisons">house</Link>, then observe its aspects to the personal planets for a first reliable interpretation.
+          Most astrology software (Astro.com, etc.) calculates the position of <strong>mean Lilith</strong> by default. Locate its <Link href="/signes">sign</Link> and its <Link href="/maisons">house</Link>, then observe its aspects to the personal planets for a first reliable interpretation.
         </>
       ),
     },
@@ -1143,7 +1143,7 @@ const es: LilithContent = {
       q: "¿Lilith es un planeta en astrología?",
       a: (
         <>
-          No. <strong>Lilith</strong> (la Luna Negra) no es un planeta ni un astro físico. Es un <strong>punto ficticio</strong> que corresponde al apogeo de la órbita de la <Link href="/#planetes">Luna</Link> alrededor de la Tierra. Funciona como una referencia simbólica en la carta natal.
+          No. <strong>Lilith</strong> (la Luna Negra) no es un planeta ni un astro físico. Es un <strong>punto ficticio</strong> que corresponde al apogeo de la órbita de la <Link href="/planetes">Luna</Link> alrededor de la Tierra. Funciona como una referencia simbólica en la carta natal.
         </>
       ),
     },
@@ -1151,7 +1151,7 @@ const es: LilithContent = {
       q: "¿Cómo encontrar tu Lilith en tu carta natal?",
       a: (
         <>
-          La mayoría de los programas de astrología (Astro.com, etc.) calculan la posición de <strong>Lilith media</strong> por defecto. Localiza su <Link href="/#zodiaque">signo</Link> y su <Link href="/#maisons">casa</Link>, y observa luego sus aspectos a los planetas personales para una primera interpretación fiable.
+          La mayoría de los programas de astrología (Astro.com, etc.) calculan la posición de <strong>Lilith media</strong> por defecto. Localiza su <Link href="/signes">signo</Link> y su <Link href="/maisons">casa</Link>, y observa luego sus aspectos a los planetas personales para una primera interpretación fiable.
         </>
       ),
     },

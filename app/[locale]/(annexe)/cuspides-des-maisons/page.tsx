@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import {
@@ -90,6 +91,7 @@ export default async function CuspidesMaisonsPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const content: ArticleData = cuspidesContent[loc];
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { notFound, permanentRedirect } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   getAllTags,
   getPostsByTagSlug,
@@ -88,6 +88,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogTagPage({ params }: Props) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
 
   // Slug de tag d'une autre langue → 308 vers le slug localisé canonique.

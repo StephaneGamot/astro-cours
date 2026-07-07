@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
 import {
@@ -90,6 +91,7 @@ export default async function SignesDominantsPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = signesDominantsContent[loc];
   const sections = c.sections;
@@ -395,10 +397,10 @@ export default async function SignesDominantsPage({
             <Link className={pill} href="/#signes">
               {c.footer.signes}
             </Link>
-            <Link className={pill} href="/#planetes">
+            <Link className={pill} href="/planetes">
               {c.footer.planetes}
             </Link>
-            <Link className={pill} href="/#maisons">
+            <Link className={pill} href="/maisons">
               {c.footer.maisons}
             </Link>
             <Link className={pill} href="/maisons-dominantes">

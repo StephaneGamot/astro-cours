@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/navigation";
+import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import Image from "next/image";
 import {
@@ -280,6 +281,7 @@ export default async function MaitrisesCoursPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = maitrisesContent[loc];
   const planetLabel = (p: Planet) => c.planetLabel[p];
@@ -642,13 +644,13 @@ export default async function MaitrisesCoursPage({
           </Link>
 
           <div className="flex flex-wrap gap-3">
-            <Link className={pill} href="/#zodiaque">
+            <Link className={pill} href="/signes">
               {c.footer.signs}
             </Link>
-            <Link className={pill} href="/#planetes">
+            <Link className={pill} href="/planetes">
               {c.footer.planets}
             </Link>
-            <Link className={pill} href="/#maisons">
+            <Link className={pill} href="/maisons">
               {c.footer.houses}
             </Link>
           </div>

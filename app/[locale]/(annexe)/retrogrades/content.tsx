@@ -167,7 +167,7 @@ const fr: RetrogradesContent = {
       q: "Quelle est la différence entre une rétrograde natale et en transit ?",
       a: (
         <>
-          En <strong>natal</strong>, la rétrograde décrit un trait durable : un mode de fonctionnement intériorisé. En <strong>transit</strong>, elle marque une période temporaire d'ajustement dans un domaine précis (défini par la <Link href="/#maisons">maison</Link> activée). Les deux se complètent mais ne se lisent pas de la même manière.
+          En <strong>natal</strong>, la rétrograde décrit un trait durable : un mode de fonctionnement intériorisé. En <strong>transit</strong>, elle marque une période temporaire d'ajustement dans un domaine précis (défini par la <Link href="/maisons">maison</Link> activée). Les deux se complètent mais ne se lisent pas de la même manière.
         </>
       ),
     },
@@ -500,7 +500,7 @@ const en: RetrogradesContent = {
       q: "What is the difference between a natal and a transit retrograde?",
       a: (
         <>
-          In the <strong>natal chart</strong>, a retrograde describes a lasting trait: an internalised way of functioning. In <strong>transit</strong>, it marks a temporary period of adjustment in a specific area (defined by the activated <Link href="/#maisons">house</Link>). The two complement each other but are not read in the same way.
+          In the <strong>natal chart</strong>, a retrograde describes a lasting trait: an internalised way of functioning. In <strong>transit</strong>, it marks a temporary period of adjustment in a specific area (defined by the activated <Link href="/maisons">house</Link>). The two complement each other but are not read in the same way.
         </>
       ),
     },
@@ -833,7 +833,7 @@ const es: RetrogradesContent = {
       q: "¿Cuál es la diferencia entre una retrógrada natal y en tránsito?",
       a: (
         <>
-          En <strong>natal</strong>, la retrógrada describe un rasgo duradero: un modo de funcionamiento interiorizado. En <strong>tránsito</strong>, marca un periodo temporal de ajuste en un ámbito concreto (definido por la <Link href="/#maisons">casa</Link> activada). Ambas se complementan, pero no se leen de la misma manera.
+          En <strong>natal</strong>, la retrógrada describe un rasgo duradero: un modo de funcionamiento interiorizado. En <strong>tránsito</strong>, marca un periodo temporal de ajuste en un ámbito concreto (definido por la <Link href="/maisons">casa</Link> activada). Ambas se complementan, pero no se leen de la misma manera.
         </>
       ),
     },

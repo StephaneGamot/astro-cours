@@ -104,7 +104,7 @@ const fr: AstroMedicaleContent = {
     body: (
       <>
         L’<strong>astrologie médicale</strong> est la tradition qui relie les signes, les{" "}
-        <Link href="/#planetes">planètes</Link> et les <Link href="/#maisons">maisons</Link> aux parties du corps, aux
+        <Link href="/planetes">planètes</Link> et les <Link href="/maisons">maisons</Link> aux parties du corps, aux
         tempéraments et aux quatre humeurs. C’est un système symbolique et historique, non un outil de diagnostic.
       </>
     ),
@@ -333,7 +333,7 @@ const en: AstroMedicaleContent = {
     body: (
       <>
         <strong>Medical astrology</strong> is the tradition that links the signs, the{" "}
-        <Link href="/#planetes">planets</Link> and the <Link href="/#maisons">houses</Link> to parts of the body, to
+        <Link href="/planetes">planets</Link> and the <Link href="/maisons">houses</Link> to parts of the body, to
         temperaments and to the four humours. It is a symbolic and historical system, not a diagnostic tool.
       </>
     ),
@@ -562,7 +562,7 @@ const es: AstroMedicaleContent = {
     body: (
       <>
         La <strong>astrología médica</strong> es la tradición que relaciona los signos, los{" "}
-        <Link href="/#planetes">planetas</Link> y las <Link href="/#maisons">casas</Link> con las partes del cuerpo, los
+        <Link href="/planetes">planetas</Link> y las <Link href="/maisons">casas</Link> con las partes del cuerpo, los
         temperamentos y los cuatro humores. Es un sistema simbólico e histórico, no una herramienta de diagnóstico.
       </>
     ),

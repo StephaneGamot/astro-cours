@@ -20,7 +20,7 @@ import {
 import { canonicalSlug, localizeSlug } from "@/i18n/slugs";
 import { getHomeCards } from "@/lib/homeCards";
 import { buildCourseNode } from "@/lib/courseSchema";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 const OG_LOCALE: Record<string, string> = { fr: "fr_FR", en: "en_US", es: "es_ES" };
 
@@ -38,6 +38,7 @@ function ordinalLabel(n: number, locale: string): string {
   return `${n}e`;
 }
 import Breadcrumbs from "@/components/Breadcrumbs";
+import { RelatedArticles } from "@/components/blog/RelatedArticles";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -312,6 +313,7 @@ export default async function SignePage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const data = getSigneData(canonicalSlug("signes", slug), locale);
    if (!data) {
     notFound();
@@ -394,7 +396,7 @@ export default async function SignePage({
         {/* ━━━━━━━━━━━ BREADCRUMBS ━━━━━━━━━━━ */}
         <Breadcrumbs
           items={[
-            { name: t("breadcrumbSigns"), href: "/#zodiaque" },
+            { name: t("breadcrumbSigns"), href: "/signes" },
             { name: data.nom, href: `/signes/${data.slug}` },
           ]}
           accentClass={`text-[${data.couleur.primaire}]`}
@@ -424,11 +426,11 @@ export default async function SignePage({
                 houseNum: data.maisonNaturelle,
                 b: (c) => <strong>{c}</strong>,
                 polLink: (c) => (
-                  <Link href="/#zodiaque" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>{c}</Link>
+                  <Link href="/signes" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>{c}</Link>
                 ),
                 master: () => <MaitreLinks maitre={data.maitre} color={data.couleur.primaire} />,
                 houseLink: (c) => (
-                  <Link href="/#maisons" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>{c}</Link>
+                  <Link href="/maisons" className="underline decoration-1 underline-offset-2" style={{ color: data.couleur.primaire }}>{c}</Link>
                 ),
               })}
             </p>
@@ -791,6 +793,9 @@ export default async function SignePage({
         </ContentSection>
 
         {/* ━━━━━━━━━━━ NAVIGATION SIGNES ━━━━━━━━━━━ */}
+        {/* Articles liés (maillage pilier → blog — audit 07/2026) */}
+        <RelatedArticles kind="signes" slug={data.slug} />
+
         <nav className="border-t border-[rgb(var(--border)/0.08)]" style={{ background: "rgb(var(--surface))" }}>
           <div className="mx-auto flex max-w-5xl items-stretch">
             <Link

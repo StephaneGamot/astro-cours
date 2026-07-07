@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
 import {
@@ -75,6 +76,7 @@ export default async function MaisonsDominantesPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = maisonsDominantesContent[loc];
   const sections = c.sections;
@@ -343,10 +345,10 @@ export default async function MaisonsDominantesPage({
       <footer className="mt-14 border-t border-white/10 pt-8">
         <div className="flex flex-wrap items-center justify-center gap-4">
           <div className="flex flex-wrap gap-2">
-            <Link className={pill} href="/#maisons">
+            <Link className={pill} href="/maisons">
               {c.footer.maisons}
             </Link>
-            <Link className={pill} href="/#planetes">
+            <Link className={pill} href="/planetes">
               {c.footer.planetes}
             </Link>
             <Link className={pill} href="/#signes">

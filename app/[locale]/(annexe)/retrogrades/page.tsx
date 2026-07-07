@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Metadata } from "next";
 import {
@@ -128,6 +129,7 @@ export default async function RetrogradesPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = retrogradesContent[loc];
   const RETRO: RetroBlock[] = c.retro;
@@ -385,10 +387,10 @@ export default async function RetrogradesPage({
             <Link className={`${pill} hover:bg-white/10`} href="/aspects">
               {c.footer.aspects}
             </Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/#planetes">
+            <Link className={`${pill} hover:bg-white/10`} href="/planetes">
               {c.footer.planets}
             </Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/#maisons">
+            <Link className={`${pill} hover:bg-white/10`} href="/maisons">
               {c.footer.houses}
             </Link>
           </div>

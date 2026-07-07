@@ -82,7 +82,7 @@ const fr: ArticleData = {
     label: "Définition",
     body: (
       <>
-        Les <strong>cuspides des maisons</strong> sont les degrés exacts du zodiaque où commence chaque <Link href="/#maisons">maison astrologique</Link>, déterminant le signe qui colore chaque domaine de vie et le maître de maison qui en oriente l'énergie.
+        Les <strong>cuspides des maisons</strong> sont les degrés exacts du zodiaque où commence chaque <Link href="/maisons">maison astrologique</Link>, déterminant le signe qui colore chaque domaine de vie et le maître de maison qui en oriente l'énergie.
       </>
     ),
   },
@@ -278,7 +278,7 @@ const en: ArticleData = {
     label: "Definition",
     body: (
       <>
-        The <strong>house cusps</strong> are the exact degrees of the zodiac where each <Link href="/#maisons">astrological house</Link> begins, determining the sign that colours each area of life and the house ruler that steers its energy.
+        The <strong>house cusps</strong> are the exact degrees of the zodiac where each <Link href="/maisons">astrological house</Link> begins, determining the sign that colours each area of life and the house ruler that steers its energy.
       </>
     ),
   },
@@ -474,7 +474,7 @@ const es: ArticleData = {
     label: "Definición",
     body: (
       <>
-        Las <strong>cúspides de las casas</strong> son los grados exactos del zodíaco donde comienza cada <Link href="/#maisons">casa astrológica</Link>, y determinan el signo que colorea cada ámbito de vida y el regente de la casa que orienta su energía.
+        Las <strong>cúspides de las casas</strong> son los grados exactos del zodíaco donde comienza cada <Link href="/maisons">casa astrológica</Link>, y determinan el signo que colorea cada ámbito de vida y el regente de la casa que orienta su energía.
       </>
     ),
   },

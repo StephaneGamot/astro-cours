@@ -15,7 +15,7 @@ import {
 } from "@/lib/seo";
 import { canonicalSlug, localizeSlug } from "@/i18n/slugs";
 import { buildCourseNode } from "@/lib/courseSchema";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import {
   PLANETS,
@@ -63,6 +63,7 @@ import {
 } from "./ui";
 
 import { Link } from "@/i18n/navigation";
+import { RelatedArticles } from "@/components/blog/RelatedArticles";
 
 import {
   Sparkles,
@@ -312,6 +313,7 @@ export default async function PlanetPage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug: raw } = await params;
+  setRequestLocale(locale);
   const slug = canonicalSlug("planetes", raw.toLowerCase());
   const planets = getPlanetsForLocale(locale);
   const planet = planets.find((p) => p.slug.toLowerCase() === slug.toLowerCase());
@@ -390,7 +392,7 @@ export default async function PlanetPage({
         {/* Breadcrumbs */}
         <Breadcrumbs
           items={[
-            { name: tr("breadcrumbPlanets"), href: "/#planetes" },
+            { name: tr("breadcrumbPlanets"), href: "/planetes" },
             { name: planet.name, href: `/planetes/${planet.slug}` },
           ]}
           accentClass="text-sky-400"
@@ -1254,6 +1256,11 @@ export default async function PlanetPage({
             </div>
           </Section>
         )}
+
+        {/* ============================================================ */}
+        {/*  Articles liés (maillage pilier → blog — audit 07/2026)      */}
+        {/* ============================================================ */}
+        <RelatedArticles kind="planetes" slug={planet.slug} />
 
         {/* ============================================================ */}
         {/*  FOOTER / MOT-CLÉ + NAV                                      */}

@@ -170,7 +170,7 @@ const fr: AspectsContent = {
           Le <strong>trigone</strong> (120°) est un aspect harmonique très fluide, souvent lié à un
           talent naturel. Le <strong>sextile</strong> (60°) est aussi harmonique mais demande une
           action consciente pour en tirer parti. Les deux facilitent la relation entre les{" "}
-          <Link href="/#planetes">planètes</Link> concernées, mais le trigone agit de manière plus
+          <Link href="/planetes">planètes</Link> concernées, mais le trigone agit de manière plus
           automatique.
         </>
       ),
@@ -203,9 +203,9 @@ const fr: AspectsContent = {
         <>
           La <strong>conjonction</strong> (0°) fusionne deux planètes au même point du zodiaque.
           Leurs fonctions se mélangent et s'intensifient. Elle n'est ni positive ni négative : elle
-          est puissante. L'interprétation dépend des <Link href="/#planetes">planètes</Link>{" "}
-          impliquées, du <Link href="/#zodiaque">signe</Link> et de la{" "}
-          <Link href="/#maisons">maison</Link> concernée.
+          est puissante. L'interprétation dépend des <Link href="/planetes">planètes</Link>{" "}
+          impliquées, du <Link href="/signes">signe</Link> et de la{" "}
+          <Link href="/maisons">maison</Link> concernée.
         </>
       ),
     },
@@ -523,7 +523,7 @@ const en: AspectsContent = {
           The <strong>trine</strong> (120°) is a very fluid harmonious aspect, often linked to a
           natural talent. The <strong>sextile</strong> (60°) is also harmonious but requires
           conscious action to make the most of it. Both ease the relationship between the{" "}
-          <Link href="/#planetes">planets</Link> involved, but the trine acts more automatically.
+          <Link href="/planetes">planets</Link> involved, but the trine acts more automatically.
         </>
       ),
     },
@@ -554,8 +554,8 @@ const en: AspectsContent = {
         <>
           The <strong>conjunction</strong> (0°) merges two planets at the same point of the zodiac.
           Their functions blend and intensify. It is neither positive nor negative: it is powerful.
-          The interpretation depends on the <Link href="/#planetes">planets</Link> involved, the{" "}
-          <Link href="/#zodiaque">sign</Link> and the <Link href="/#maisons">house</Link> concerned.
+          The interpretation depends on the <Link href="/planetes">planets</Link> involved, the{" "}
+          <Link href="/signes">sign</Link> and the <Link href="/maisons">house</Link> concerned.
         </>
       ),
     },
@@ -874,7 +874,7 @@ const es: AspectsContent = {
           El <strong>trígono</strong> (120°) es un aspecto armónico muy fluido, a menudo ligado a un
           talento natural. El <strong>sextil</strong> (60°) también es armónico, pero requiere una
           acción consciente para aprovecharlo. Ambos facilitan la relación entre los{" "}
-          <Link href="/#planetes">planetas</Link> implicados, pero el trígono actúa de forma más
+          <Link href="/planetes">planetas</Link> implicados, pero el trígono actúa de forma más
           automática.
         </>
       ),
@@ -906,8 +906,8 @@ const es: AspectsContent = {
         <>
           La <strong>conjunción</strong> (0°) fusiona dos planetas en el mismo punto del zodíaco. Sus
           funciones se mezclan y se intensifican. No es ni positiva ni negativa: es potente. La
-          interpretación depende de los <Link href="/#planetes">planetas</Link> implicados, del{" "}
-          <Link href="/#zodiaque">signo</Link> y de la <Link href="/#maisons">casa</Link> en cuestión.
+          interpretación depende de los <Link href="/planetes">planetas</Link> implicados, del{" "}
+          <Link href="/signes">signo</Link> y de la <Link href="/maisons">casa</Link> en cuestión.
         </>
       ),
     },

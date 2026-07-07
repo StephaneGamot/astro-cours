@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import {
@@ -75,6 +76,7 @@ export default async function LilithPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = lilithContent[loc];
 
@@ -418,8 +420,8 @@ export default async function LilithPage({
 
       <div className="mt-4 flex flex-wrap gap-2">
         <Link className={pill} href="/aspects">{c.footer.col1Aspects}</Link>
-        <Link className={pill} href="/#maisons">{c.footer.col1Maisons}</Link>
-        <Link className={pill} href="/#planetes">{c.footer.col1Planetes}</Link>
+        <Link className={pill} href="/maisons">{c.footer.col1Maisons}</Link>
+        <Link className={pill} href="/planetes">{c.footer.col1Planetes}</Link>
       </div>
     </div>
 
@@ -451,9 +453,9 @@ export default async function LilithPage({
       </p>
 
       <div className="mt-4 flex flex-wrap gap-2">
-        <Link className={pill} href="/#zodiaque">{c.footer.col3Signes}</Link>
-        <Link className={pill} href="/#planetes">{c.footer.col3Planetes}</Link>
-        <Link className={pill} href="/#maisons">{c.footer.col3Maisons}</Link>
+        <Link className={pill} href="/signes">{c.footer.col3Signes}</Link>
+        <Link className={pill} href="/planetes">{c.footer.col3Planetes}</Link>
+        <Link className={pill} href="/maisons">{c.footer.col3Maisons}</Link>
         <Link className={pill} href="/maitrises">{c.footer.col3Dignites}</Link>
       </div>
 

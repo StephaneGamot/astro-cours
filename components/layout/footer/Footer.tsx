@@ -184,6 +184,7 @@ const SECTION_ICON: Record<string, SvgIcon> = {
 /** Liens annexes : clé i18n (messages footer.annexes) + href. */
 const ANNEXES: { key: string; href: string }[] = [
   { key: "dictionnaire", href: "/dictionnaire-astrologique" },
+  { key: "themeAstral", href: "/theme-astral" },
   { key: "aspects", href: "/aspects" },
   { key: "transits", href: "/transits" },
   { key: "pointsFictifs", href: "/points-fictifs" },
@@ -473,7 +474,7 @@ export default async function Footer() {
                     {t("ctaBlog")}
                   </Link>
                   <Link
-                    href="/#zodiaque"
+                    href="/signes"
                     className={[
                       "inline-flex items-center gap-2 rounded-full bg-[#8F5BF7] px-5 py-2.5",
                       "text-sm font-semibold !text-black shadow-lg shadow-violet-950/30",

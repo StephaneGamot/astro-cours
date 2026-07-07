@@ -240,7 +240,7 @@ const fr: AsteroidesContent = {
       q: "Quel orbe utiliser pour les astéroïdes dans un thème natal ?",
       a: (
         <>
-          En pratique professionnelle : <strong>0-2° pour un aspect fort</strong>, 3-5° pour un aspect acceptable. Au-delà, l’astéroïde fonctionne davantage en toile de fond. Privilégiez les <Link href="/aspects">aspects</Link> exacts aux <Link href="/#planetes">luminaires</Link> (Soleil/Lune) et aux angles (ASC/MC).
+          En pratique professionnelle : <strong>0-2° pour un aspect fort</strong>, 3-5° pour un aspect acceptable. Au-delà, l’astéroïde fonctionne davantage en toile de fond. Privilégiez les <Link href="/aspects">aspects</Link> exacts aux <Link href="/planetes">luminaires</Link> (Soleil/Lune) et aux angles (ASC/MC).
         </>
       ),
     },
@@ -248,7 +248,7 @@ const fr: AsteroidesContent = {
       q: "Que signifie Cérès dans un thème astral ?",
       a: (
         <>
-          <strong>Cérès</strong> décrit la manière dont vous donnez et recevez du soin : sécurité concrète, relation au corps, nourriture, rythmes de vie et autosoin. En <Link href="/#maisons">maison</Link>, elle indique le domaine où vous apprenez à nourrir, réparer et stabiliser. Elle ne se réduit pas au rôle maternel.
+          <strong>Cérès</strong> décrit la manière dont vous donnez et recevez du soin : sécurité concrète, relation au corps, nourriture, rythmes de vie et autosoin. En <Link href="/maisons">maison</Link>, elle indique le domaine où vous apprenez à nourrir, réparer et stabiliser. Elle ne se réduit pas au rôle maternel.
         </>
       ),
     },
@@ -553,7 +553,7 @@ const en: AsteroidesContent = {
       q: "Which orb should you use for asteroids in a natal chart?",
       a: (
         <>
-          In professional practice: <strong>0-2° for a strong aspect</strong>, 3-5° for an acceptable aspect. Beyond that, the asteroid works more as a backdrop. Favour exact <Link href="/aspects">aspects</Link> to the <Link href="/#planetes">luminaries</Link> (Sun/Moon) and to the angles (ASC/MC).
+          In professional practice: <strong>0-2° for a strong aspect</strong>, 3-5° for an acceptable aspect. Beyond that, the asteroid works more as a backdrop. Favour exact <Link href="/aspects">aspects</Link> to the <Link href="/planetes">luminaries</Link> (Sun/Moon) and to the angles (ASC/MC).
         </>
       ),
     },
@@ -561,7 +561,7 @@ const en: AsteroidesContent = {
       q: "What does Ceres mean in a birth chart?",
       a: (
         <>
-          <strong>Ceres</strong> describes the way you give and receive care: concrete security, your relationship to the body, food, life rhythms and self-care. In a <Link href="/#maisons">house</Link>, it indicates the area where you learn to nourish, repair and stabilise. It is not reduced to the maternal role.
+          <strong>Ceres</strong> describes the way you give and receive care: concrete security, your relationship to the body, food, life rhythms and self-care. In a <Link href="/maisons">house</Link>, it indicates the area where you learn to nourish, repair and stabilise. It is not reduced to the maternal role.
         </>
       ),
     },
@@ -866,7 +866,7 @@ const es: AsteroidesContent = {
       q: "¿Qué orbe usar para los asteroides en una carta natal?",
       a: (
         <>
-          En la práctica profesional: <strong>0-2° para un aspecto fuerte</strong>, 3-5° para un aspecto aceptable. Más allá, el asteroide funciona más como telón de fondo. Prioriza los <Link href="/aspects">aspectos</Link> exactos con los <Link href="/#planetes">luminares</Link> (Sol/Luna) y con los ángulos (ASC/MC).
+          En la práctica profesional: <strong>0-2° para un aspecto fuerte</strong>, 3-5° para un aspecto aceptable. Más allá, el asteroide funciona más como telón de fondo. Prioriza los <Link href="/aspects">aspectos</Link> exactos con los <Link href="/planetes">luminares</Link> (Sol/Luna) y con los ángulos (ASC/MC).
         </>
       ),
     },
@@ -874,7 +874,7 @@ const es: AsteroidesContent = {
       q: "¿Qué significa Ceres en una carta astral?",
       a: (
         <>
-          <strong>Ceres</strong> describe la manera en que das y recibes cuidado: seguridad concreta, relación con el cuerpo, alimentación, ritmos de vida y autocuidado. En <Link href="/#maisons">casa</Link>, indica el ámbito donde aprendes a nutrir, reparar y estabilizar. No se reduce al rol materno.
+          <strong>Ceres</strong> describe la manera en que das y recibes cuidado: seguridad concreta, relación con el cuerpo, alimentación, ritmos de vida y autocuidado. En <Link href="/maisons">casa</Link>, indica el ámbito donde aprendes a nutrir, reparar y estabilizar. No se reduce al rol materno.
         </>
       ),
     },

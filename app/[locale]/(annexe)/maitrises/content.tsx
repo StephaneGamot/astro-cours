@@ -185,7 +185,7 @@ const fr: MaitrisesContent = {
     label: "Définition",
     body: (
       <>
-        Les <strong>dignités planétaires</strong> (ou maîtrises) désignent le lien entre une <Link href="/#planetes">planète</Link> et un <Link href="/#zodiaque">signe du zodiaque</Link> : domicile, exaltation, exil ou chute. Elles indiquent si une planète s'exprime facilement ou si elle demande un travail d'intégration.
+        Les <strong>dignités planétaires</strong> (ou maîtrises) désignent le lien entre une <Link href="/planetes">planète</Link> et un <Link href="/signes">signe du zodiaque</Link> : domicile, exaltation, exil ou chute. Elles indiquent si une planète s'exprime facilement ou si elle demande un travail d'intégration.
       </>
     ),
   },
@@ -302,7 +302,7 @@ const fr: MaitrisesContent = {
       q: "Comment utiliser les dignités planétaires pour interpréter un thème ?",
       a: (
         <>
-          Identifiez d'abord la dignité de chaque <Link href="/#planetes">planète</Link> dans votre thème (domicile, exaltation, exil, chute ou pérégrine). Puis nuancez avec la <Link href="/#maisons">maison</Link>, les <Link href="/aspects">aspects</Link> et le niveau d'intégration. Les dignités donnent le "terrain" ; le reste du thème précise comment la planète joue sur ce terrain.
+          Identifiez d'abord la dignité de chaque <Link href="/planetes">planète</Link> dans votre thème (domicile, exaltation, exil, chute ou pérégrine). Puis nuancez avec la <Link href="/maisons">maison</Link>, les <Link href="/aspects">aspects</Link> et le niveau d'intégration. Les dignités donnent le "terrain" ; le reste du thème précise comment la planète joue sur ce terrain.
         </>
       ),
     },
@@ -357,7 +357,7 @@ const en: MaitrisesContent = {
     label: "Definition",
     body: (
       <>
-        <strong>Planetary dignities</strong> (or rulerships) describe the link between a <Link href="/#planetes">planet</Link> and a <Link href="/#zodiaque">zodiac sign</Link>: domicile, exaltation, detriment or fall. They indicate whether a planet expresses itself easily or whether it requires integration work.
+        <strong>Planetary dignities</strong> (or rulerships) describe the link between a <Link href="/planetes">planet</Link> and a <Link href="/signes">zodiac sign</Link>: domicile, exaltation, detriment or fall. They indicate whether a planet expresses itself easily or whether it requires integration work.
       </>
     ),
   },
@@ -474,7 +474,7 @@ const en: MaitrisesContent = {
       q: "How do you use planetary dignities to interpret a chart?",
       a: (
         <>
-          First identify the dignity of each <Link href="/#planetes">planet</Link> in your chart (domicile, exaltation, detriment, fall or peregrine). Then nuance it with the <Link href="/#maisons">house</Link>, the <Link href="/aspects">aspects</Link> and the level of integration. The dignities give the "ground"; the rest of the chart specifies how the planet plays out on that ground.
+          First identify the dignity of each <Link href="/planetes">planet</Link> in your chart (domicile, exaltation, detriment, fall or peregrine). Then nuance it with the <Link href="/maisons">house</Link>, the <Link href="/aspects">aspects</Link> and the level of integration. The dignities give the "ground"; the rest of the chart specifies how the planet plays out on that ground.
         </>
       ),
     },
@@ -529,7 +529,7 @@ const es: MaitrisesContent = {
     label: "Definición",
     body: (
       <>
-        Las <strong>dignidades planetarias</strong> (o regencias) designan el vínculo entre un <Link href="/#planetes">planeta</Link> y un <Link href="/#zodiaque">signo del zodíaco</Link>: domicilio, exaltación, exilio o caída. Indican si un planeta se expresa con facilidad o si requiere un trabajo de integración.
+        Las <strong>dignidades planetarias</strong> (o regencias) designan el vínculo entre un <Link href="/planetes">planeta</Link> y un <Link href="/signes">signo del zodíaco</Link>: domicilio, exaltación, exilio o caída. Indican si un planeta se expresa con facilidad o si requiere un trabajo de integración.
       </>
     ),
   },
@@ -646,7 +646,7 @@ const es: MaitrisesContent = {
       q: "¿Cómo usar las dignidades planetarias para interpretar una carta?",
       a: (
         <>
-          Identifica primero la dignidad de cada <Link href="/#planetes">planeta</Link> en tu carta (domicilio, exaltación, exilio, caída o peregrino). Luego matiza con la <Link href="/#maisons">casa</Link>, los <Link href="/aspects">aspectos</Link> y el nivel de integración. Las dignidades dan el "terreno"; el resto de la carta precisa cómo juega el planeta en ese terreno.
+          Identifica primero la dignidad de cada <Link href="/planetes">planeta</Link> en tu carta (domicilio, exaltación, exilio, caída o peregrino). Luego matiza con la <Link href="/maisons">casa</Link>, los <Link href="/aspects">aspectos</Link> y el nivel de integración. Las dignidades dan el "terreno"; el resto de la carta precisa cómo juega el planeta en ese terreno.
         </>
       ),
     },

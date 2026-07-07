@@ -74,7 +74,7 @@ const fr: MaisonsDeriveesContent = {
     body: (
       <>
         Les <strong>maisons dérivées</strong> sont une technique astrologique qui consiste à compter
-        depuis une <Link href="/#maisons">maison natale</Link> pour obtenir des informations sur les
+        depuis une <Link href="/maisons">maison natale</Link> pour obtenir des informations sur les
         proches, les finances d'autrui ou les événements liés à un tiers dans le thème.
       </>
     ),
@@ -314,7 +314,7 @@ const en: MaisonsDeriveesContent = {
     body: (
       <>
         <strong>Derived houses</strong> are an astrological technique that consists of counting from a{" "}
-        <Link href="/#maisons">natal house</Link> to obtain information about loved ones, the finances
+        <Link href="/maisons">natal house</Link> to obtain information about loved ones, the finances
         of others, or events involving a third party in the chart.
       </>
     ),
@@ -553,7 +553,7 @@ const es: MaisonsDeriveesContent = {
     body: (
       <>
         Las <strong>casas derivadas</strong> son una técnica astrológica que consiste en contar desde
-        una <Link href="/#maisons">casa natal</Link> para obtener información sobre los seres
+        una <Link href="/maisons">casa natal</Link> para obtener información sobre los seres
         queridos, las finanzas de otros o los acontecimientos relacionados con un tercero en la carta.
       </>
     ),

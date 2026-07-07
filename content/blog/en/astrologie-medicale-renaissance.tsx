@@ -570,7 +570,7 @@ export default function AstrologieMedicaleRenaissancePost() {
             <span className="mt-1 block font-medium text-white/90">The Lunarian type</span>
             <span className="mt-1 block text-xs text-white/60">Phlegmatic temperament</span>
           </Link>
-          <Link href="/#zodiaque" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
+          <Link href="/signes" className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm transition hover:bg-white/[0.06]">
             <span className="block text-xs uppercase tracking-wide text-white/50">Reference</span>
             <span className="mt-1 block font-medium text-white/90">The 12 signs</span>
             <span className="mt-1 block text-xs text-white/60">From Aries (the head) to Pisces (the feet)</span>

@@ -120,7 +120,7 @@ const fr: TransitsContent = {
       <>
         Un <strong>transit astrologique</strong> est le passage d'une planète en mouvement sur un point
         sensible du thème natal ; il active temporairement un domaine de vie et se lit en fonction de la{" "}
-        <Link href="/#maisons">maison</Link>, des <Link href="/aspects">aspects</Link> formés et de la
+        <Link href="/maisons">maison</Link>, des <Link href="/aspects">aspects</Link> formés et de la
         vitesse de la planète.
       </>
     ),
@@ -420,7 +420,7 @@ const fr: TransitsContent = {
         <>
           Un <strong>transit astrologique</strong> est le passage d’une planète en mouvement sur un
           point du thème natal. Pour le lire, on identifie la planète (quoi), la{" "}
-          <Link href="/#maisons">maison</Link> activée (où), les <Link href="/aspects">aspects</Link>{" "}
+          <Link href="/maisons">maison</Link> activée (où), les <Link href="/aspects">aspects</Link>{" "}
           formés (comment) et la durée du passage. Les transits lents (Saturne, Uranus, Pluton) ont plus
           d’impact que les rapides.
         </>
@@ -520,7 +520,7 @@ const en: TransitsContent = {
       <>
         An <strong>astrological transit</strong> is the passage of a moving planet over a sensitive point
         of the natal chart; it temporarily activates an area of life and is read according to the{" "}
-        <Link href="/#maisons">house</Link>, the <Link href="/aspects">aspects</Link> formed and the
+        <Link href="/maisons">house</Link>, the <Link href="/aspects">aspects</Link> formed and the
         planet's speed.
       </>
     ),
@@ -820,7 +820,7 @@ const en: TransitsContent = {
         <>
           An <strong>astrological transit</strong> is the passage of a moving planet over a point of the
           natal chart. To read it, you identify the planet (what), the activated{" "}
-          <Link href="/#maisons">house</Link> (where), the <Link href="/aspects">aspects</Link> formed
+          <Link href="/maisons">house</Link> (where), the <Link href="/aspects">aspects</Link> formed
           (how) and the duration of the passage. Slow transits (Saturn, Uranus, Pluto) have more impact
           than fast ones.
         </>
@@ -919,7 +919,7 @@ const es: TransitsContent = {
       <>
         Un <strong>tránsito astrológico</strong> es el paso de un planeta en movimiento sobre un punto
         sensible de la carta natal; activa temporalmente un ámbito de la vida y se lee en función de la{" "}
-        <Link href="/#maisons">casa</Link>, de los <Link href="/aspects">aspectos</Link> formados y de la
+        <Link href="/maisons">casa</Link>, de los <Link href="/aspects">aspectos</Link> formados y de la
         velocidad del planeta.
       </>
     ),
@@ -1219,7 +1219,7 @@ const es: TransitsContent = {
         <>
           Un <strong>tránsito astrológico</strong> es el paso de un planeta en movimiento sobre un punto de
           la carta natal. Para leerlo, se identifica el planeta (qué), la{" "}
-          <Link href="/#maisons">casa</Link> activada (dónde), los <Link href="/aspects">aspectos</Link>{" "}
+          <Link href="/maisons">casa</Link> activada (dónde), los <Link href="/aspects">aspectos</Link>{" "}
           formados (cómo) y la duración del paso. Los tránsitos lentos (Saturno, Urano, Plutón) tienen más
           impacto que los rápidos.
         </>

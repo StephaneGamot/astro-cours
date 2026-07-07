@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import {
   buildMeta,
@@ -56,6 +56,7 @@ import {
   Breadcrumbs,
 } from "./ui";
 import { RelatedHouses } from "./RelatedHouses";
+import { RelatedArticles } from "@/components/blog/RelatedArticles";
 
 import {
   Sparkles,
@@ -258,6 +259,7 @@ export default async function HousePage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const houses = getHousesForLocale(locale);
   const planets = getPlanetsForLocale(locale);
   const house = houses.find((h) => h.slug === canonicalSlug("maisons", slug));
@@ -436,7 +438,7 @@ export default async function HousePage({
             <p className="mt-2 text-base leading-relaxed text-text/85 sm:text-lg">
               {tr("defIntro")} <strong>{titreCourt}</strong> ({house.nom}) {tr("defIs")}{" "}
               {tr("defType", { type: typeLabel })} {tr("defOfThe")}{" "}
-              <Link href="/#maisons" className={`underline decoration-1 underline-offset-2 ${theme.text}`}>{tr("defNatalChart")}</Link>.
+              <Link href="/theme-astral" className={`underline decoration-1 underline-offset-2 ${theme.text}`}>{tr("defNatalChart")}</Link>.
               {house.niveauLecture?.arena && <> {tr("defDomain")} <strong>{house.niveauLecture.arena.toLowerCase()}</strong>.</>}
               {house.axe && <> {tr("defAxis")} <strong>{house.axe}</strong>.</>}
             </p>
@@ -1028,6 +1030,11 @@ export default async function HousePage({
         )}
 
         {/* ============================================================ */}
+        {/*  Articles liés (maillage pilier → blog — audit 07/2026)      */}
+        {/* ============================================================ */}
+        <RelatedArticles kind="maisons" slug={house.slug} />
+
+        {/* ============================================================ */}
         {/*  Maisons connexes (maillage interne sémantique)              */}
         {/* ============================================================ */}
         <RelatedHouses
@@ -1079,7 +1086,7 @@ export default async function HousePage({
 
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Link
-              href="/#maisons"
+              href="/maisons"
               className={`rounded-full border ${theme.border} bg-white/5 px-5 py-2 text-sm text-text/90 transition hover:bg-white/10`}
             >
               {tr("backToHouses")}

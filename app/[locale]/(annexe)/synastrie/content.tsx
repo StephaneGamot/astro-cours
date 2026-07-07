@@ -116,7 +116,7 @@ const fr: SynastrieContent = {
     body: (
       <>
         La <strong>synastrie</strong> est la technique astrologique qui compare deux{" "}
-        <Link href="/#planetes">thèmes natals</Link> pour analyser la compatibilité amoureuse, les
+        <Link href="/theme-astral">thèmes natals</Link> pour analyser la compatibilité amoureuse, les
         dynamiques relationnelles et les tensions entre partenaires.
       </>
     ),
@@ -394,7 +394,7 @@ const fr: SynastrieContent = {
           Le trio essentiel est <strong>Soleil/Lune</strong> (sécurité émotionnelle), <strong>Mercure</strong>{" "}
           (communication) et <strong>Saturne</strong> (durabilité). Sans ces fondations, les aspects
           Vénus-Mars seuls ne suffisent pas à maintenir une relation stable. Découvrez le rôle de chaque{" "}
-          <Link href="/#planetes">planète</Link> dans notre cours.
+          <Link href="/planetes">planète</Link> dans notre cours.
         </>
       ),
     },
@@ -403,7 +403,7 @@ const fr: SynastrieContent = {
       a: (
         <>
           L'heure de naissance est indispensable pour connaître l'<strong>Ascendant</strong> et les{" "}
-          <Link href="/#maisons">maisons astrologiques</Link> activées. Sans elle, on peut analyser les
+          <Link href="/maisons">maisons astrologiques</Link> activées. Sans elle, on peut analyser les
           aspects entre planètes, mais on perd les informations sur les domaines de vie concernés et les
           angles relationnels.
         </>
@@ -458,7 +458,7 @@ const en: SynastrieContent = {
     body: (
       <>
         <strong>Synastry</strong> is the astrological technique that compares two{" "}
-        <Link href="/#planetes">natal charts</Link> to analyse romantic compatibility, relational dynamics
+        <Link href="/theme-astral">natal charts</Link> to analyse romantic compatibility, relational dynamics
         and tensions between partners.
       </>
     ),
@@ -736,7 +736,7 @@ const en: SynastrieContent = {
           The essential trio is <strong>Sun/Moon</strong> (emotional security), <strong>Mercury</strong>{" "}
           (communication) and <strong>Saturn</strong> (durability). Without these foundations, Venus-Mars
           aspects alone are not enough to maintain a stable relationship. Discover the role of each{" "}
-          <Link href="/#planetes">planet</Link> in our course.
+          <Link href="/planetes">planet</Link> in our course.
         </>
       ),
     },
@@ -745,7 +745,7 @@ const en: SynastrieContent = {
       a: (
         <>
           The birth time is essential to know the <strong>Ascendant</strong> and the activated{" "}
-          <Link href="/#maisons">astrological houses</Link>. Without it, you can analyse the aspects between
+          <Link href="/maisons">astrological houses</Link>. Without it, you can analyse the aspects between
           planets, but you lose the information about the areas of life concerned and the relational angles.
         </>
       ),
@@ -799,7 +799,7 @@ const es: SynastrieContent = {
     body: (
       <>
         La <strong>sinastría</strong> es la técnica astrológica que compara dos{" "}
-        <Link href="/#planetes">cartas natales</Link> para analizar la compatibilidad amorosa, las dinámicas
+        <Link href="/theme-astral">cartas natales</Link> para analizar la compatibilidad amorosa, las dinámicas
         relacionales y las tensiones entre parejas.
       </>
     ),
@@ -1077,7 +1077,7 @@ const es: SynastrieContent = {
           El trío esencial es <strong>Sol/Luna</strong> (seguridad emocional), <strong>Mercurio</strong>{" "}
           (comunicación) y <strong>Saturno</strong> (durabilidad). Sin estos cimientos, los aspectos
           Venus-Marte por sí solos no bastan para mantener una relación estable. Descubre el papel de cada{" "}
-          <Link href="/#planetes">planeta</Link> en nuestro curso.
+          <Link href="/planetes">planeta</Link> en nuestro curso.
         </>
       ),
     },
@@ -1086,7 +1086,7 @@ const es: SynastrieContent = {
       a: (
         <>
           La hora de nacimiento es indispensable para conocer el <strong>Ascendente</strong> y las{" "}
-          <Link href="/#maisons">casas astrológicas</Link> activadas. Sin ella, se pueden analizar los
+          <Link href="/maisons">casas astrológicas</Link> activadas. Sin ella, se pueden analizar los
           aspectos entre planetas, pero se pierde la información sobre los ámbitos de vida implicados y los
           ángulos relacionales.
         </>

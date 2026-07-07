@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 
 import {
@@ -57,6 +58,7 @@ export default async function AstrologieHorairePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c: HoraireContent = horaireContent[loc];
   const sections = c.sections;
@@ -506,13 +508,13 @@ export default async function AstrologieHorairePage({
             <Link className={pill} href="/aspects">
               {c.labels.footerAspects}
             </Link>
-            <Link className={pill} href="/#planetes">
+            <Link className={pill} href="/planetes">
               {c.labels.footerPlanetes}
             </Link>
             <Link className={pill} href="/maitrises">
               {c.labels.footerMaitrises}
             </Link>
-            <Link className={pill} href="/#maisons">
+            <Link className={pill} href="/maisons">
               {c.labels.footerMaisons}
             </Link>
           </div>

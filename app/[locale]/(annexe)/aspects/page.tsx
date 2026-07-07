@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/navigation";
+import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import {
   buildMeta,
@@ -75,6 +76,7 @@ export default async function AspectsPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = aspectsContent[loc];
   const ASPECTS = c.aspects;
@@ -335,9 +337,9 @@ export default async function AspectsPage({
         <div className="flex flex-wrap items-center justify-between gap-4">
           <p className="text-sm text-text/70">{c.footer.next}</p>
           <div className="flex flex-wrap gap-2">
-            <Link className={`${pill} hover:bg-white/10`} href="/#zodiaque">{c.footer.signs}</Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/#planetes">{c.footer.planets}</Link>
-            <Link className={`${pill} hover:bg-white/10`} href="/#maisons">{c.footer.houses}</Link>
+            <Link className={`${pill} hover:bg-white/10`} href="/signes">{c.footer.signs}</Link>
+            <Link className={`${pill} hover:bg-white/10`} href="/planetes">{c.footer.planets}</Link>
+            <Link className={`${pill} hover:bg-white/10`} href="/maisons">{c.footer.houses}</Link>
           </div>
         </div>
       </footer>

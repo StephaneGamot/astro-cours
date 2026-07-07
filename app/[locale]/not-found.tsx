@@ -26,7 +26,7 @@ export default async function NotFound() {
   const SECTIONS = [
     {
       title: t("sec.signsTitle"),
-      href: "/#zodiaque",
+      href: "/signes",
       description: t("sec.signsDesc"),
       color: "text-violet-400",
       border: "border-violet-500/20 hover:border-violet-500/40",
@@ -34,7 +34,7 @@ export default async function NotFound() {
     },
     {
       title: t("sec.planetsTitle"),
-      href: "/#planetes",
+      href: "/planetes",
       description: t("sec.planetsDesc"),
       color: "text-sky-400",
       border: "border-sky-500/20 hover:border-sky-500/40",
@@ -42,7 +42,7 @@ export default async function NotFound() {
     },
     {
       title: t("sec.housesTitle"),
-      href: "/#maisons",
+      href: "/maisons",
       description: t("sec.housesDesc"),
       color: "text-emerald-400",
       border: "border-emerald-500/20 hover:border-emerald-500/40",

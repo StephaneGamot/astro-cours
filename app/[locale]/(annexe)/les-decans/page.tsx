@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import {
@@ -93,6 +94,7 @@ export default async function DecansPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = decansContent[loc];
 
@@ -166,7 +168,7 @@ export default async function DecansPage({
           <p className="text-sm font-semibold uppercase tracking-widest text-emerald-300/80">{c.defBox.label}</p>
           <p className="mt-2 text-base leading-relaxed text-white/85 sm:text-lg">
             {c.defBox.bodyLead}<strong>{c.defBox.bodyLeadStrong}</strong>{c.defBox.bodyAfterStrong}
-            <Link href="/#zodiaque">{c.defBox.bodyZodiacLink}</Link>{c.defBox.bodyTail}
+            <Link href="/signes">{c.defBox.bodyZodiacLink}</Link>{c.defBox.bodyTail}
           </p>
         </div>
 

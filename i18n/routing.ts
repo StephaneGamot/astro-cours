@@ -33,6 +33,14 @@ export const routing = defineRouting({
     "/blog/[slug]": "/blog/[slug]",
     "/blog/tag/[slug]": "/blog/tag/[slug]",
 
+    /* Hubs piliers (audit SEO 07/2026) : vraies pages de liste,
+       cibles des breadcrumbs (avant : ancres /#zodiaque etc.). */
+    "/signes": { fr: "/signes", en: "/signs", es: "/signos" },
+    "/planetes": { fr: "/planetes", en: "/planets", es: "/planetas" },
+    "/maisons": { fr: "/maisons", en: "/houses", es: "/casas" },
+    /* Page pilier « thème astral » (audit SEO 07/2026). */
+    "/theme-astral": { fr: "/theme-astral", en: "/birth-chart", es: "/carta-astral" },
+
     "/signes/[slug]": {
       fr: "/signes/[slug]",
       en: "/signs/[slug]",

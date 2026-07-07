@@ -111,8 +111,8 @@ const fr: SignificateursContent = {
     label: "Définition",
     body: (
       <>
-        Un <strong>significateur</strong> est la <Link href="/#planetes">planète</Link> qui représente un acteur ou une
-        chose dans un thème : on l’identifie à partir de la <Link href="/#maisons">maison</Link> qui gouverne le sujet,
+        Un <strong>significateur</strong> est la <Link href="/planetes">planète</Link> qui représente un acteur ou une
+        chose dans un thème : on l’identifie à partir de la <Link href="/maisons">maison</Link> qui gouverne le sujet,
         avant toute interprétation.
       </>
     ),
@@ -343,8 +343,8 @@ const en: SignificateursContent = {
     label: "Definition",
     body: (
       <>
-        A <strong>significator</strong> is the <Link href="/#planetes">planet</Link> that represents an actor or a thing
-        in a chart: it is identified from the <Link href="/#maisons">house</Link> that governs the subject, before any
+        A <strong>significator</strong> is the <Link href="/planetes">planet</Link> that represents an actor or a thing
+        in a chart: it is identified from the <Link href="/maisons">house</Link> that governs the subject, before any
         interpretation.
       </>
     ),
@@ -575,8 +575,8 @@ const es: SignificateursContent = {
     label: "Definición",
     body: (
       <>
-        Un <strong>significador</strong> es el <Link href="/#planetes">planeta</Link> que representa a un actor o a una
-        cosa en una carta: se identifica a partir de la <Link href="/#maisons">casa</Link> que gobierna el sujeto, antes
+        Un <strong>significador</strong> es el <Link href="/planetes">planeta</Link> que representa a un actor o a una
+        cosa en una carta: se identifica a partir de la <Link href="/maisons">casa</Link> que gobierna el sujeto, antes
         de toda interpretación.
       </>
     ),

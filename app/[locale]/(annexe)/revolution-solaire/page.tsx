@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import {
@@ -146,6 +147,7 @@ export default async function RevolutionSolairePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = revolutionSolaireContent[loc];
 
@@ -504,7 +506,7 @@ export default async function RevolutionSolairePage({
             <Link className={pill} href="/aspects">
               {c.footer.aspects}
             </Link>
-            <Link className={pill} href="/#planetes">
+            <Link className={pill} href="/planetes">
               {c.footer.planets}
             </Link>
           </div>

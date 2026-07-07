@@ -150,7 +150,7 @@ const fr: DecansContent = {
       q: "Comment connaître son décan en astrologie ?",
       a: {
         lead: "Pour connaître votre décan, repérez votre date de naissance dans les degrés de votre ",
-        link: { href: "/#zodiaque", label: "signe solaire" },
+        link: { href: "/signes", label: "signe solaire" },
         tail:
           ". Le 1er décan couvre les 10 premiers degrés (0-10°), le 2e décan les degrés 10-20°, et le 3e décan les degrés 20-30°. Chaque décan est associé à une planète maîtresse qui nuance votre profil.",
       },
@@ -166,7 +166,7 @@ const fr: DecansContent = {
       q: "Les décans changent-ils l'interprétation d'un signe ?",
       a: {
         lead: "Oui. Deux personnes du même ",
-        link: { href: "/#zodiaque", label: "signe" },
+        link: { href: "/signes", label: "signe" },
         tail:
           " mais de décans différents auront des nuances distinctes. La planète maîtresse du décan colore l'expression du signe : un Bélier 1er décan (Mars) sera plus impulsif qu'un Bélier 3e décan (Jupiter) qui sera plus expansif et philosophe.",
       },
@@ -176,7 +176,7 @@ const fr: DecansContent = {
       a: {
         lead:
           "Certains horoscopes utilisent les décans pour affiner les prévisions et différencier les natifs d'un même signe. En astrologie professionnelle, les décans servent surtout en thème natal pour préciser les degrés des ",
-        link: { href: "/#planetes", label: "planètes" },
+        link: { href: "/planetes", label: "planètes" },
         tail: " et dans l'étude des aspects exacts.",
       },
     },
@@ -418,7 +418,7 @@ const en: DecansContent = {
       q: "How do you find your decan in astrology?",
       a: {
         lead: "To find your decan, locate your birth date within the degrees of your ",
-        link: { href: "/#zodiaque", label: "solar sign" },
+        link: { href: "/signes", label: "solar sign" },
         tail:
           ". The 1st decan covers the first 10 degrees (0-10°), the 2nd decan degrees 10-20°, and the 3rd decan degrees 20-30°. Each decan is associated with a ruling planet that nuances your profile.",
       },
@@ -434,7 +434,7 @@ const en: DecansContent = {
       q: "Do the decans change the interpretation of a sign?",
       a: {
         lead: "Yes. Two people of the same ",
-        link: { href: "/#zodiaque", label: "sign" },
+        link: { href: "/signes", label: "sign" },
         tail:
           " but of different decans will have distinct nuances. The ruling planet of the decan colours the expression of the sign: an Aries of the 1st decan (Mars) will be more impulsive than an Aries of the 3rd decan (Jupiter), who will be more expansive and philosophical.",
       },
@@ -444,7 +444,7 @@ const en: DecansContent = {
       a: {
         lead:
           "Some horoscopes use the decans to refine forecasts and differentiate natives of the same sign. In professional astrology, the decans are mainly used in the natal chart to specify the degrees of the ",
-        link: { href: "/#planetes", label: "planets" },
+        link: { href: "/planetes", label: "planets" },
         tail: " and in the study of exact aspects.",
       },
     },
@@ -686,7 +686,7 @@ const es: DecansContent = {
       q: "¿Cómo conocer tu decano en astrología?",
       a: {
         lead: "Para conocer tu decano, ubica tu fecha de nacimiento en los grados de tu ",
-        link: { href: "/#zodiaque", label: "signo solar" },
+        link: { href: "/signes", label: "signo solar" },
         tail:
           ". El 1er decano cubre los 10 primeros grados (0-10°), el 2.º decano los grados 10-20°, y el 3er decano los grados 20-30°. Cada decano está asociado a un planeta regente que matiza tu perfil.",
       },
@@ -702,7 +702,7 @@ const es: DecansContent = {
       q: "¿Cambian los decanos la interpretación de un signo?",
       a: {
         lead: "Sí. Dos personas del mismo ",
-        link: { href: "/#zodiaque", label: "signo" },
+        link: { href: "/signes", label: "signo" },
         tail:
           " pero de decanos diferentes tendrán matices distintos. El planeta regente del decano colorea la expresión del signo: un Aries de 1er decano (Marte) será más impulsivo que un Aries de 3er decano (Júpiter), que será más expansivo y filósofo.",
       },
@@ -712,7 +712,7 @@ const es: DecansContent = {
       a: {
         lead:
           "Algunos horóscopos utilizan los decanos para afinar las previsiones y diferenciar a los nativos de un mismo signo. En astrología profesional, los decanos sirven sobre todo en la carta natal para precisar los grados de los ",
-        link: { href: "/#planetes", label: "planetas" },
+        link: { href: "/planetes", label: "planetas" },
         tail: " y en el estudio de los aspectos exactos.",
       },
     },

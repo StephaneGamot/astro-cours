@@ -59,6 +59,11 @@ type Sign = { slug: string; updated?: string };
 const STATIC_PAGE_DATES: Record<string, string> = {
   "": "2026-05-31",
   blog: "2026-05-27",
+  // Hubs piliers (audit SEO 07/2026)
+  signes: "2026-07-07",
+  maisons: "2026-07-07",
+  planetes: "2026-07-07",
+  "theme-astral": "2026-07-07",
   aspects: "2026-05-08",
   transits: "2026-05-08",
   "points-fictifs": "2026-04-22",
@@ -101,7 +106,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: (loc: SeoLocale) => localizedPathUrl(internalPath, loc),
         lastModified: new Date(date),
         changeFrequency: page === "" ? "weekly" : "monthly",
-        priority: page === "" ? 1.0 : page === "blog" ? 0.9 : 0.5,
+        priority:
+          page === ""
+            ? 1.0
+            : ["blog", "signes", "maisons", "planetes", "theme-astral"].includes(page)
+              ? 0.9
+              : 0.5,
       };
     },
   );

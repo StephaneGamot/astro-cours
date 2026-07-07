@@ -92,7 +92,7 @@ const fr: RevolutionSolaireContent = {
       <>
         La <strong>révolution solaire</strong> est le thème astral dressé au moment exact où le Soleil
         revient à sa position natale chaque année, permettant de prévoir les grandes tendances des 12
-        mois à venir grâce aux <Link href="/#maisons">maisons</Link> et aux{" "}
+        mois à venir grâce aux <Link href="/maisons">maisons</Link> et aux{" "}
         <Link href="/transits">transits</Link> activés.
       </>
     ),
@@ -300,7 +300,7 @@ const fr: RevolutionSolaireContent = {
         <>
           On calcule généralement la <strong>révolution solaire</strong> pour le lieu où vous vous
           trouvez au moment de votre anniversaire. Cela modifie les{" "}
-          <Link href="/#maisons">maisons astrologiques</Link>, donc l'accent thématique de l'année.
+          <Link href="/maisons">maisons astrologiques</Link>, donc l'accent thématique de l'année.
           Certains astrologues voyagent volontairement pour optimiser leur RS.
         </>
       ),
@@ -382,7 +382,7 @@ const en: RevolutionSolaireContent = {
       <>
         The <strong>solar return</strong> is the birth chart cast at the exact moment when the Sun
         returns to its natal position each year, allowing you to forecast the major trends of the next
-        12 months thanks to the activated <Link href="/#maisons">houses</Link> and{" "}
+        12 months thanks to the activated <Link href="/maisons">houses</Link> and{" "}
         <Link href="/transits">transits</Link>.
       </>
     ),
@@ -589,7 +589,7 @@ const en: RevolutionSolaireContent = {
         <>
           The <strong>solar return</strong> is generally calculated for the place where you are at the
           moment of your birthday. This changes the{" "}
-          <Link href="/#maisons">astrological houses</Link>, and therefore the thematic emphasis of
+          <Link href="/maisons">astrological houses</Link>, and therefore the thematic emphasis of
           the year. Some astrologers deliberately travel to optimise their SR.
         </>
       ),
@@ -670,7 +670,7 @@ const es: RevolutionSolaireContent = {
       <>
         La <strong>revolución solar</strong> es la carta astral levantada en el momento exacto en que
         el Sol vuelve a su posición natal cada año, lo que permite prever las grandes tendencias de
-        los 12 meses siguientes gracias a las <Link href="/#maisons">casas</Link> y a los{" "}
+        los 12 meses siguientes gracias a las <Link href="/maisons">casas</Link> y a los{" "}
         <Link href="/transits">tránsitos</Link> activados.
       </>
     ),
@@ -877,7 +877,7 @@ const es: RevolutionSolaireContent = {
         <>
           Generalmente se calcula la <strong>revolución solar</strong> para el lugar donde te
           encuentras en el momento de tu cumpleaños. Esto modifica las{" "}
-          <Link href="/#maisons">casas astrológicas</Link>, y por tanto el acento temático del año.
+          <Link href="/maisons">casas astrológicas</Link>, y por tanto el acento temático del año.
           Algunos astrólogos viajan deliberadamente para optimizar su RS.
         </>
       ),

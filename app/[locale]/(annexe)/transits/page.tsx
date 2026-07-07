@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import {
@@ -109,6 +110,7 @@ export default async function TransitsPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = transitsContent[loc];
   const COURSE = c;
@@ -432,8 +434,8 @@ export default async function TransitsPage({
           <div className="flex flex-wrap gap-2">
             <Link className={pill} href="/aspects">{c.footer.aspects}</Link>
             <Link className={pill} href="/maitrises">{c.footer.dignities}</Link>
-            <Link className={pill} href="/#maisons">{c.footer.houses}</Link>
-            <Link className={pill} href="/#planetes">{c.footer.planets}</Link>
+            <Link className={pill} href="/maisons">{c.footer.houses}</Link>
+            <Link className={pill} href="/planetes">{c.footer.planets}</Link>
           </div>
         </div>
       </footer>

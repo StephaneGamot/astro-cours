@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { permanentRedirect } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllPosts, getAllTags, tagToSlug, slugToTag } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 import {
@@ -66,6 +66,7 @@ export default async function BlogPage({
   searchParams?: Promise<{ tag?: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const t = await getTranslations({ locale: loc, namespace: "blog" });
 

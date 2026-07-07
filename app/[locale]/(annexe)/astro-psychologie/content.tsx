@@ -147,7 +147,7 @@ const fr: AstroPsyContent = {
   },
   defBoxBody: (
     <>
-      L’<strong>astro-psychologie</strong> lit le <Link href="/#planetes">thème astral</Link> comme une carte de la
+      L’<strong>astro-psychologie</strong> lit le <Link href="/theme-astral">thème astral</Link> comme une carte de la
       psyché : un portrait des dynamiques intérieures et des potentiels de croissance, plutôt qu’une prédiction.
     </>
   ),
@@ -552,7 +552,7 @@ const en: AstroPsyContent = {
   },
   defBoxBody: (
     <>
-      <strong>Astro-psychology</strong> reads the <Link href="/#planetes">natal chart</Link> as a map of the psyche: a
+      <strong>Astro-psychology</strong> reads the <Link href="/theme-astral">natal chart</Link> as a map of the psyche: a
       portrait of inner dynamics and growth potentials, rather than a prediction.
     </>
   ),
@@ -957,7 +957,7 @@ const es: AstroPsyContent = {
   },
   defBoxBody: (
     <>
-      La <strong>astropsicología</strong> lee la <Link href="/#planetes">carta astral</Link> como un mapa de la psique:
+      La <strong>astropsicología</strong> lee la <Link href="/theme-astral">carta astral</Link> como un mapa de la psique:
       un retrato de las dinámicas interiores y de los potenciales de crecimiento, más que una predicción.
     </>
   ),

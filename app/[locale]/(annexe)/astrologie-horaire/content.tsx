@@ -95,7 +95,7 @@ const fr: HoraireContent = {
   defBoxBody: (
     <>
       L’<strong>astrologie horaire</strong> est la technique traditionnelle qui répond à une question précise en dressant
-      le <Link href="/#planetes">thème astrologique</Link> de l’instant et du lieu où la question est posée et comprise.
+      le <Link href="/theme-astral">thème astrologique</Link> de l’instant et du lieu où la question est posée et comprise.
     </>
   ),
   introBody: (
@@ -375,7 +375,7 @@ const en: HoraireContent = {
   defBoxBody: (
     <>
       <strong>Horary astrology</strong> is the traditional technique that answers a specific question by casting the{" "}
-      <Link href="/#planetes">astrological chart</Link> of the moment and place where the question is asked and understood.
+      <Link href="/theme-astral">astrological chart</Link> of the moment and place where the question is asked and understood.
     </>
   ),
   introBody: (
@@ -656,7 +656,7 @@ const es: HoraireContent = {
   defBoxBody: (
     <>
       La <strong>astrología horaria</strong> es la técnica tradicional que responde a una pregunta precisa levantando la{" "}
-      <Link href="/#planetes">carta astrológica</Link> del instante y del lugar donde la pregunta se formula y se comprende.
+      <Link href="/theme-astral">carta astrológica</Link> del instante y del lugar donde la pregunta se formula y se comprende.
     </>
   ),
   introBody: (

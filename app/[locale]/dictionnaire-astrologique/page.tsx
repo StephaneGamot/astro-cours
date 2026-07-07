@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { BookOpen, Search, Sparkles } from "lucide-react";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   buildMeta,
   localizedPathUrl,
@@ -69,6 +69,7 @@ export default async function DictionnairePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const t = await getTranslations({ locale: loc, namespace: "dict" });
 

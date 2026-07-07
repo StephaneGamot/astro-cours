@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import {
@@ -145,6 +146,7 @@ export default async function PointsFictifsPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = pointsFictifsContent[loc];
 
@@ -511,7 +513,7 @@ export default async function PointsFictifsPage({
             <Link className={pill} href="/aspects">
               {c.footer.aspects}
             </Link>
-            <Link className={pill} href="/#maisons">
+            <Link className={pill} href="/maisons">
               {c.footer.houses}
             </Link>
             <Link className={pill} href="/transits">

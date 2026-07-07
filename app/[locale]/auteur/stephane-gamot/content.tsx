@@ -182,10 +182,20 @@ const fr: AuteurContent = {
       intro: (
         <>
           Dans la vie professionnelle, je suis{" "}
-          <strong className="text-text/90">ingénieur en développement logiciel</strong>. Ce métier
-          m&apos;a appris la rigueur analytique, la structuration des idées et l&apos;importance de la
-          méthode. Ce sont des qualités que j&apos;applique directement à ma pratique
-          astrologique&nbsp;: vérifier, recouper, ne rien affirmer à la légère.
+          <strong className="text-text/90">ingénieur en développement logiciel</strong> et je conçois
+          des sites web sur mesure via mon studio de{" "}
+          <a
+            href="https://www.creation-site-internet-pays-basque.com/fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-accent/80 underline decoration-1 underline-offset-2 hover:text-accent"
+          >
+            création de sites internet au Pays Basque
+          </a>
+          &nbsp;— Astro Cours en est d&apos;ailleurs une réalisation. Ce métier m&apos;a appris la
+          rigueur analytique, la structuration des idées et l&apos;importance de la méthode. Ce sont
+          des qualités que j&apos;applique directement à ma pratique astrologique&nbsp;: vérifier,
+          recouper, ne rien affirmer à la légère.
         </>
       ),
       cardEngTitle: "Ingénierie logicielle",
@@ -446,10 +456,20 @@ const en: AuteurContent = {
       intro: (
         <>
           In my professional life, I am a{" "}
-          <strong className="text-text/90">software development engineer</strong>. This work has taught
-          me analytical rigour, the structuring of ideas and the importance of method. These are
-          qualities I apply directly to my astrological practice&nbsp;: checking, cross-referencing,
-          never asserting anything lightly.
+          <strong className="text-text/90">software development engineer</strong> and I build custom
+          websites through my{" "}
+          <a
+            href="https://www.creation-site-internet-pays-basque.com/fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-accent/80 underline decoration-1 underline-offset-2 hover:text-accent"
+          >
+            web design studio in the French Basque Country
+          </a>
+          &nbsp;— Astro Cours is one of its creations. This work has taught me analytical rigour,
+          the structuring of ideas and the importance of method. These are qualities I apply
+          directly to my astrological practice&nbsp;: checking, cross-referencing, never asserting
+          anything lightly.
         </>
       ),
       cardEngTitle: "Software engineering",
@@ -709,10 +729,20 @@ const es: AuteurContent = {
       intro: (
         <>
           En la vida profesional, soy{" "}
-          <strong className="text-text/90">ingeniero de desarrollo de software</strong>. Este oficio me
-          enseñó el rigor analítico, la estructuración de las ideas y la importancia del método. Son
-          cualidades que aplico directamente a mi práctica astrológica&nbsp;: verificar, cotejar, no
-          afirmar nada a la ligera.
+          <strong className="text-text/90">ingeniero de desarrollo de software</strong> y diseño
+          sitios web a medida a través de mi{" "}
+          <a
+            href="https://www.creation-site-internet-pays-basque.com/fr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-accent/80 underline decoration-1 underline-offset-2 hover:text-accent"
+          >
+            estudio de creación de sitios web en el País Vasco francés
+          </a>
+          &nbsp;— Astro Cours es, de hecho, una de sus realizaciones. Este oficio me enseñó el rigor
+          analítico, la estructuración de las ideas y la importancia del método. Son cualidades que
+          aplico directamente a mi práctica astrológica&nbsp;: verificar, cotejar, no afirmar nada a
+          la ligera.
         </>
       ),
       cardEngTitle: "Ingeniería de software",

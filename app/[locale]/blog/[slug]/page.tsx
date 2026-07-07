@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { notFound, permanentRedirect } from "next/navigation";
 import { getAllPosts, getPostBySlug, postSlugFor } from "@/lib/blog";
 import {
@@ -74,6 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogPostPage({ params }: Props) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const post = getPostBySlug(slug, loc);
   if (!post) return notFound();

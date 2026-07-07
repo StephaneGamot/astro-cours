@@ -209,7 +209,7 @@ export function buildBreadcrumbs(
 ) {
   return [
     { name: labels?.home ?? "Accueil", href: "/" },
-    { name: labels?.houses ?? "Maisons", href: "/#maisons" },
+    { name: labels?.houses ?? "Maisons", href: "/maisons" },
     { name: house.titreCourt ?? `Maison ${toRoman(house.numero)}`, href: `/maisons/${house.slug}` },
   ];
 }

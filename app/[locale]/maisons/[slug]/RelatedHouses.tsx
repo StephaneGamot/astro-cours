@@ -86,7 +86,7 @@ export function RelatedHouses({
           </h2>
         </div>
         <Link
-          href="/#maisons"
+          href="/maisons"
           className="self-start rounded-full border border-white/10 bg-white/[0.03] px-4 py-1.5 text-xs font-medium text-text/70 transition hover:border-white/20 hover:bg-white/[0.06] hover:text-text sm:self-end"
         >
           {tr("rel12")}

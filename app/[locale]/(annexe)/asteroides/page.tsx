@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import Asteroides from "@/public/images/asteroides/asteroides.webp"
@@ -140,6 +141,7 @@ export default async function AsteroidesPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const c = asteroidesContent[loc];
   const sections = c.sections;
@@ -330,7 +332,7 @@ export default async function AsteroidesPage({
                   </div>
 
                   <Link
-                    href="/#planetes"
+                    href="/planetes"
                     className={`rounded-full border ${t.border} bg-white/5 px-5 py-2 text-sm hover:bg-white/10`}
                   >
                     {c.principaux.backToPlanets}

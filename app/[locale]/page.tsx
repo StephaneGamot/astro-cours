@@ -12,6 +12,7 @@ import {
   SITE_NAME,
   DEFAULT_OG_IMAGE,
   localeUrl,
+  localizedPathUrl,
   languageAlternates,
   toSeoLocale,
   type SeoLocale,
@@ -262,7 +263,8 @@ function buildHomeJsonLd(loc: SeoLocale) {
     "@id": `${SITE_URL}#${id}`,
     name: c.name,
     description: c.description,
-    url: localeUrl(loc, anchor),
+    // Hubs piliers : URL localisée (segment traduit) — audit 07/2026.
+    url: localizedPathUrl(anchor, loc),
     inLanguage: lang,
     isAccessibleForFree: true,
     educationalLevel: "Beginner",
@@ -331,9 +333,9 @@ function buildHomeJsonLd(loc: SeoLocale) {
           "query-input": "required name=search_term_string",
         },
       },
-      course("course-signes", txt.courses.signes, "/#zodiaque", "PT6H"),
-      course("course-planetes", txt.courses.planetes, "/#planetes", "PT5H"),
-      course("course-maisons", txt.courses.maisons, "/#maisons", "PT6H"),
+      course("course-signes", txt.courses.signes, "/signes", "PT6H"),
+      course("course-planetes", txt.courses.planetes, "/planetes", "PT5H"),
+      course("course-maisons", txt.courses.maisons, "/maisons", "PT6H"),
     ],
   };
 }
