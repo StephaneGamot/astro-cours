@@ -40,6 +40,13 @@ export const routing = defineRouting({
     "/maisons": { fr: "/maisons", en: "/houses", es: "/casas" },
     /* Page pilier « thème astral » (audit SEO 07/2026). */
     "/theme-astral": { fr: "/theme-astral", en: "/birth-chart", es: "/carta-astral" },
+    /* Compatibilité amoureuse par paires de signes (audit SEO 07/2026). */
+    "/compatibilite": { fr: "/compatibilite", en: "/compatibility", es: "/compatibilidad" },
+    "/compatibilite/[pair]": {
+      fr: "/compatibilite/[pair]",
+      en: "/compatibility/[pair]",
+      es: "/compatibilidad/[pair]",
+    },
 
     "/signes/[slug]": {
       fr: "/signes/[slug]",

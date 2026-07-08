@@ -5,6 +5,7 @@ import signes from "@/data/signes.details.json";
 import { getAllPosts, getPostsByTagSlug, postSlugFor, TAG_PAGES } from "@/lib/blog";
 import { localeUrl, localizedPathUrl, pillarUrl, type SeoLocale } from "@/lib/seo";
 import { localizeBlogTagSlug } from "@/i18n/blogTagSlugs";
+import { PAIRS, pairUrl } from "@/lib/compatibility";
 
 const LOCALES: SeoLocale[] = ["fr", "en", "es"];
 
@@ -64,6 +65,7 @@ const STATIC_PAGE_DATES: Record<string, string> = {
   maisons: "2026-07-07",
   planetes: "2026-07-07",
   "theme-astral": "2026-07-07",
+  compatibilite: "2026-07-07",
   aspects: "2026-05-08",
   transits: "2026-05-08",
   "points-fictifs": "2026-04-22",
@@ -109,7 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority:
           page === ""
             ? 1.0
-            : ["blog", "signes", "maisons", "planetes", "theme-astral"].includes(page)
+            : ["blog", "signes", "maisons", "planetes", "theme-astral", "compatibilite"].includes(page)
               ? 0.9
               : 0.5,
       };
@@ -158,6 +160,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  // ✅ Pages compatibilité par paire (hub déjà couvert via STATIC_PAGE_DATES).
+  const pairRoutes: SitemapEntry[] = PAIRS.map(([a, b]) => ({
+    url: (loc: SeoLocale) => pairUrl(a, b, loc),
+    lastModified: new Date("2026-07-07"),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   return expand([
     ...staticRoutes,
     ...houseRoutes,
@@ -165,5 +175,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...signRoutes,
     ...postRoutes,
     ...tagRoutes,
+    ...pairRoutes,
   ]);
 }

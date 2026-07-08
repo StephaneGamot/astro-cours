@@ -130,9 +130,9 @@ Rien n'a bougé depuis V1 et c'est désormais le principal plafond de verre : le
 | 5 | Bloc `RelatedArticles` sur pages piliers (M-1, M-2) | 1 j | Élevé | 🟡 P1 | ✅ fait (34 pages, mapping lib/pillarArticles.ts) |
 | 6 | Page pilier `/theme-astral` 2500+ mots | 2–3 j | Élevé | 🟡 P1 | ✅ fait (FR/EN/ES, ~2200 mots/langue, FAQ, JSON-LD, footer + 10 ancres internes rebranchées) |
 | 7 | Liens contextuels annexes ↔ piliers (M-3, M-4) | progressif | Moyen | 🟢 P2 | 🔶 partiel : ~90 ancres /#… rebranchées sur les hubs ; liens fins vers pages individuelles à faire au fil de l'eau |
-| 8 | 2 articles saisonniers (Mercure rétro 2027, lunaisons) | 2 j | Moyen | 🟢 P2 | ⏳ à faire |
+| 8 | 2 articles saisonniers (Mercure rétro 2027, lunaisons) | 2 j | Moyen | 🟢 P2 | ✅ fait : `mercure-retrograde-2027-dates` + `calendrier-pleine-lune-nouvelle-lune-2026-2027` ×3 langues, données calculées par éphémérides (Skyfield/DE421, heure de Paris) dans `content/blog/data/ephemerides-2026-2027.ts` |
 | 9 | 3 guest posts / backlinks | 1–2 j | Très élevé | 🟢 P2 | ⏳ à faire (Stéphane) + portfolio astro-cours sur le site agence |
-| 10 | Pages compatibilité (top 10 paires) | progressif | Élevé | 🟢 P2 | ⏳ à faire |
+| 10 | Pages compatibilité (top 10 paires) | progressif | Élevé | 🟢 P2 | 🔶 lancé : hub `/compatibilite` + 5 paires (belier-lion, taureau-cancer, gemeaux-balance, cancer-scorpion, scorpion-poissons) ×3 langues ; template extensible aux 78 paires via `lib/compatibility.ts` + `pairs/` |
 | 11 | **Calculateur de thème astral gratuit** | 15–20 j | 🚀 Décisif | 🟢 P2–P3 | ⏳ à faire |
 | 12 | CSP nonce | 3 h | Nul (SEO) | 🟢 P3 | ⏳ à faire (sécurité, pas SEO) |
 

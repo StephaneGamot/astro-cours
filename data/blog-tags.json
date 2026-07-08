@@ -414,5 +414,29 @@
   "émotions": {
     "en": "emotions",
     "es": "emociones"
+  },
+  "rétrograde": {
+    "en": "retrograde",
+    "es": "retrógrado"
+  },
+  "2027": {
+    "en": "2027",
+    "es": "2027"
+  },
+  "calendrier": {
+    "en": "calendar",
+    "es": "calendario"
+  },
+  "pleine lune": {
+    "en": "full moon",
+    "es": "luna llena"
+  },
+  "nouvelle lune": {
+    "en": "new moon",
+    "es": "luna nueva"
+  },
+  "éclipses": {
+    "en": "eclipses",
+    "es": "eclipses"
   }
 }

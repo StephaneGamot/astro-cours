@@ -116,7 +116,7 @@ const fr: SynastrieContent = {
     body: (
       <>
         La <strong>synastrie</strong> est la technique astrologique qui compare deux{" "}
-        <Link href="/theme-astral">thèmes natals</Link> pour analyser la compatibilité amoureuse, les
+        <Link href="/theme-astral">thèmes natals</Link> pour analyser la <Link href="/compatibilite">compatibilité amoureuse</Link>, les
         dynamiques relationnelles et les tensions entre partenaires.
       </>
     ),
@@ -458,7 +458,7 @@ const en: SynastrieContent = {
     body: (
       <>
         <strong>Synastry</strong> is the astrological technique that compares two{" "}
-        <Link href="/theme-astral">natal charts</Link> to analyse romantic compatibility, relational dynamics
+        <Link href="/theme-astral">natal charts</Link> to analyse <Link href="/compatibilite">romantic compatibility</Link>, relational dynamics
         and tensions between partners.
       </>
     ),
@@ -799,7 +799,7 @@ const es: SynastrieContent = {
     body: (
       <>
         La <strong>sinastría</strong> es la técnica astrológica que compara dos{" "}
-        <Link href="/theme-astral">cartas natales</Link> para analizar la compatibilidad amorosa, las dinámicas
+        <Link href="/theme-astral">cartas natales</Link> para analizar la <Link href="/compatibilite">compatibilidad amorosa</Link>, las dinámicas
         relacionales y las tensiones entre parejas.
       </>
     ),

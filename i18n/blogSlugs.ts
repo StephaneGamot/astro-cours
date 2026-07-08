@@ -7,6 +7,8 @@
 type Triple = { fr: string; en: string; es: string };
 
 const POSTS: Triple[] = [
+  { fr: "mercure-retrograde-2027-dates", en: "mercury-retrograde-2027-dates", es: "mercurio-retrogrado-2027-fechas" },
+  { fr: "calendrier-pleine-lune-nouvelle-lune-2026-2027", en: "lunar-calendar-full-moon-new-moon-2026-2027", es: "calendario-lunar-luna-llena-nueva-2026-2027" },
   { fr: "amour-fidelite-signes-zodiaque", en: "love-fidelity-zodiac-signs", es: "amor-fidelidad-signos-zodiaco" },
   { fr: "astrologie-medicale-renaissance", en: "medical-astrology-renaissance", es: "astrologia-medica-renacimiento" },
   { fr: "chance-jeux-argent-loterie-astrologie", en: "luck-gambling-money-lottery-astrology", es: "suerte-juegos-dinero-loteria-astrologia" },

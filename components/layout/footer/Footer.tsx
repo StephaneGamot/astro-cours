@@ -185,6 +185,7 @@ const SECTION_ICON: Record<string, SvgIcon> = {
 const ANNEXES: { key: string; href: string }[] = [
   { key: "dictionnaire", href: "/dictionnaire-astrologique" },
   { key: "themeAstral", href: "/theme-astral" },
+  { key: "compatibilite", href: "/compatibilite" },
   { key: "aspects", href: "/aspects" },
   { key: "transits", href: "/transits" },
   { key: "pointsFictifs", href: "/points-fictifs" },

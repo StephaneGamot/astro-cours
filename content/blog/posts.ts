@@ -80,6 +80,13 @@ import AstrologieMedicaleRenaissancePost, {
   meta as astrologieMedicaleRenaissanceMeta,
 } from "./astrologie-medicale-renaissance";
 
+import MercureRetro2027Post, {
+  meta as mercureRetro2027Meta,
+} from "./mercure-retrograde-2027-dates";
+import CalendrierLunaire20262027Post, {
+  meta as calendrierLunaire20262027Meta,
+} from "./calendrier-pleine-lune-nouvelle-lune-2026-2027";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -98,6 +105,8 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: mercureRetro2027Meta, Component: MercureRetro2027Post },
+  { meta: calendrierLunaire20262027Meta, Component: CalendrierLunaire20262027Post },
   { meta: astrologieMedicaleRenaissanceMeta, Component: AstrologieMedicaleRenaissancePost },
   { meta: chanceJeuxArgentLoterieMeta, Component: ChanceJeuxArgentLoteriePost },
   { meta: longeviteVieAstrologieMeta, Component: LongeviteVieAstrologiePost },
