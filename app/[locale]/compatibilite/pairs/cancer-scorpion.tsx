@@ -4,7 +4,7 @@ import type { PairContent } from "./types";
 export const cancerScorpion: PairContent = {
   fr: {
     meta: {
-      title: "Compatibilité Cancer et Scorpion : amour, couple, amitié",
+      title: "Compatibilité Cancer et Scorpion",
       description:
         "Cancer et Scorpion en amour : deux signes d'eau, fusion émotionnelle et intensité. Forces, frictions, sexualité, travail et conseils pour durer.",
     },
@@ -91,7 +91,7 @@ export const cancerScorpion: PairContent = {
   },
   en: {
     meta: {
-      title: "Cancer and Scorpio Compatibility: Love, Couple, Friendship",
+      title: "Cancer and Scorpio Compatibility",
       description:
         "Cancer and Scorpio in love: two water signs, emotional fusion and intensity. Strengths, frictions, sexuality, work and advice to make it last.",
     },
@@ -175,7 +175,7 @@ export const cancerScorpion: PairContent = {
   },
   es: {
     meta: {
-      title: "Compatibilidad Cáncer y Escorpio: amor, pareja, amistad",
+      title: "Compatibilidad Cáncer y Escorpio",
       description:
         "Cáncer y Escorpio en el amor: dos signos de agua, fusión emocional e intensidad. Fortalezas, fricciones, sexualidad, trabajo y consejos para durar.",
     },

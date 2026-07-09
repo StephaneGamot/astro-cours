@@ -4,7 +4,7 @@ import type { PairContent } from "./types";
 export const belierLion: PairContent = {
   fr: {
     meta: {
-      title: "Compatibilité Bélier et Lion : amour, couple, amitié",
+      title: "Compatibilité Bélier et Lion",
       description:
         "Bélier et Lion en amour : deux signes de feu, passion immédiate et lutte d'ego. Forces, frictions, sexualité, travail et conseils pour durer.",
     },
@@ -92,7 +92,7 @@ export const belierLion: PairContent = {
   },
   en: {
     meta: {
-      title: "Aries and Leo Compatibility: Love, Couple, Friendship",
+      title: "Aries and Leo Compatibility",
       description:
         "Aries and Leo in love: two fire signs, instant passion and a battle of egos. Strengths, frictions, sexuality, work and advice to make it last.",
     },
@@ -177,7 +177,7 @@ export const belierLion: PairContent = {
   },
   es: {
     meta: {
-      title: "Compatibilidad Aries y Leo: amor, pareja, amistad",
+      title: "Compatibilidad Aries y Leo",
       description:
         "Aries y Leo en el amor: dos signos de fuego, pasión inmediata y lucha de egos. Fortalezas, fricciones, sexualidad, trabajo y consejos para durar.",
     },

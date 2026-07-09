@@ -37,7 +37,7 @@ type HubContent = {
 const CONTENT: Record<SeoLocale, HubContent> = {
   fr: {
     meta: {
-      title: "Les 12 signes du zodiaque : significations & interprétation",
+      title: "Les 12 signes du zodiaque : significations",
       description:
         "Les 12 signes astrologiques expliqués : élément, mode, planète maîtresse, forces et ombres. Cours complet pour interpréter chaque signe dans un thème natal.",
     },
@@ -85,7 +85,7 @@ const CONTENT: Record<SeoLocale, HubContent> = {
   },
   en: {
     meta: {
-      title: "The 12 Zodiac Signs: Meanings & Interpretation",
+      title: "The 12 Zodiac Signs: Meanings",
       description:
         "The 12 astrological signs explained: element, mode, ruling planet, strengths and shadows. A complete course to interpret each sign in a birth chart.",
     },
@@ -133,7 +133,7 @@ const CONTENT: Record<SeoLocale, HubContent> = {
   },
   es: {
     meta: {
-      title: "Los 12 signos del zodiaco: significados e interpretación",
+      title: "Los 12 signos del zodiaco: significados",
       description:
         "Los 12 signos astrológicos explicados: elemento, modo, planeta regente, fortalezas y sombras. Curso completo para interpretar cada signo en la carta natal.",
     },

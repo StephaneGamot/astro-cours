@@ -92,6 +92,26 @@ export default function MercuryRetrograde2027Post() {
         </p>
       </Callout>
 
+      <H2>Why does Mercury “move backwards”? The mechanics</H2>
+      <P>
+        No planet actually reverses: retrogradation is an illusion of perspective. Mercury
+        orbits the Sun in 88 days, the Earth in 365. About every 116 days (its synodic cycle),
+        Mercury overtakes us “on the inside” — like a faster car in the next lane which, at the
+        moment of overtaking, <em>seems</em> to move backwards against the landscape. Seen from
+        Earth, its position projected onto the zodiac slows down, stops (the{" "}
+        <strong>station</strong>), backs up for about three weeks, stops again, then resumes
+        forward motion. That is why there are three retrogrades a year (sometimes four), and why
+        they always occur when Mercury passes <em>between</em> the Earth and the Sun — never
+        elsewhere.
+      </P>
+      <P>
+        A detail that matters for interpretation: at its stations, Mercury is nearly motionless
+        in the zodiac. In astrology, a stationary planet is considered <strong>more
+        powerful</strong> — its symbolism saturates the degree it occupies. The station days (the
+        dates in the table below) are therefore the most sensitive moments of each period, far
+        more than the middle of the retrograde.
+      </P>
+
       <H2>The 3 Mercury retrogrades of 2027</H2>
       <RxTable />
       <P>
@@ -101,6 +121,35 @@ export default function MercuryRetrograde2027Post() {
         poorly worded emotions, resurfacing memories, conversations to resume with more tact.
       </P>
 
+      <H2>The reading key: the loop in YOUR chart</H2>
+      <P>
+        Here is what date lists never tell you: a Mercury retrograde does not mean the same
+        thing for everyone. What matters is the <strong>zone of the zodiac swept three
+        times</strong> (forward, backward, forward again) — the “loop” — and where it falls in
+        your chart. The three-step method:
+      </P>
+      <P>
+        <strong>1. Locate the house.</strong> Take the degrees of the loop (e.g. 21° Aquarius →
+        6° Pisces for February 2027) and find which <Link href="/maisons">house</Link> of your{" "}
+        <Link href="/theme-astral">birth chart</Link> contains those degrees. In the 3rd house,
+        the retrograde will be about contracts and paperwork; in the 7th, couple conversations to
+        resume; in the 10th, a professional file back on the table. The house, not the sign,
+        gives the concrete domain.
+      </P>
+      <P>
+        <strong>2. Look for exact contacts.</strong> If the loop passes over one of your natal
+        planets (within 2-3°), Mercury “visits” it three times: the corresponding topic also
+        returns three times — often as problem / re-examination / resolution. A square to your
+        natal Venus? Three episodes of the same emotional conversation. Nothing on your sensitive
+        points? The period will probably be uneventful for you.
+      </P>
+      <P>
+        <strong>3. Check your natal Mercury.</strong> About one person in five was born with
+        Mercury retrograde. For them, these periods are often more comfortable than for others:
+        the mind works “in its own direction”. Our portrait of the{" "}
+        <Link href="/blog/mercurian">Mercurian</Link> explores this configuration.
+      </P>
+
       <H2>February – March: Pisces → Aquarius</H2>
       <P>
         From <strong>February 9 to March 3, 2027</strong>, Mercury retrogrades from Pisces (6°)
@@ -108,6 +157,13 @@ export default function MercuryRetrograde2027Post() {
         rephrase what was misunderstood, to clear up a misunderstanding among friends (Aquarius
         register). To avoid: signing in the fog — retrograde Pisces excels at making contracts
         poetic and imprecise.
+      </P>
+
+      <P>
+        Reading example: if 21° Aquarius – 6° Pisces falls in your 2nd house, expect to re-check
+        an invoice, renegotiate a subscription, recover a forgotten sum. In the 9th house, a
+        long-distance trip or a training course gets rescheduled. Same Mercurial symbolism,
+        totally different terrains.
       </P>
 
       <H2>June – July: Cancer → Gemini</H2>

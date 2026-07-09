@@ -4,7 +4,7 @@ import type { PairContent } from "./types";
 export const scorpionPoissons: PairContent = {
   fr: {
     meta: {
-      title: "Compatibilité Scorpion et Poissons : amour, couple, amitié",
+      title: "Compatibilité Scorpion et Poissons",
       description:
         "Scorpion et Poissons en amour : deux signes d'eau, passion mystique et intensité émotionnelle. Forces, frictions, sexualité et conseils pour durer.",
     },
@@ -95,7 +95,7 @@ export const scorpionPoissons: PairContent = {
   },
   en: {
     meta: {
-      title: "Scorpio and Pisces Compatibility: Love, Couple, Friendship",
+      title: "Scorpio and Pisces Compatibility",
       description:
         "Scorpio and Pisces in love: two water signs, mystical passion and emotional intensity. Strengths, frictions, sexuality and advice to make it last.",
     },
@@ -183,7 +183,7 @@ export const scorpionPoissons: PairContent = {
   },
   es: {
     meta: {
-      title: "Compatibilidad Escorpio y Piscis: amor, pareja, amistad",
+      title: "Compatibilidad Escorpio y Piscis",
       description:
         "Escorpio y Piscis en el amor: dos signos de agua, pasión mística e intensidad emocional. Fortalezas, fricciones, sexualidad y consejos para durar.",
     },

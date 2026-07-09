@@ -4,7 +4,7 @@ import type { PairContent } from "./types";
 export const gemeauxBalance: PairContent = {
   fr: {
     meta: {
-      title: "Compatibilité Gémeaux et Balance : amour, couple, amitié",
+      title: "Compatibilité Gémeaux et Balance",
       description:
         "Gémeaux et Balance en amour : deux signes d'air, complicité intellectuelle et légèreté. Forces, frictions, sexualité, travail et conseils pour durer.",
     },
@@ -92,7 +92,7 @@ export const gemeauxBalance: PairContent = {
   },
   en: {
     meta: {
-      title: "Gemini and Libra Compatibility: Love, Couple, Friendship",
+      title: "Gemini and Libra Compatibility",
       description:
         "Gemini and Libra in love: two air signs, intellectual complicity and lightness. Strengths, frictions, sexuality, work and advice to make it last.",
     },
@@ -177,7 +177,7 @@ export const gemeauxBalance: PairContent = {
   },
   es: {
     meta: {
-      title: "Compatibilidad Géminis y Libra: amor, pareja, amistad",
+      title: "Compatibilidad Géminis y Libra",
       description:
         "Géminis y Libra en el amor: dos signos de aire, complicidad intelectual y ligereza. Fortalezas, fricciones, sexualidad, trabajo y consejos para durar.",
     },

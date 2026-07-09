@@ -92,6 +92,26 @@ export default function MercurioRetrogrado2027Post() {
         </p>
       </Callout>
 
+      <H2>¿Por qué Mercurio «retrocede»? La mecánica</H2>
+      <P>
+        Ningún planeta da marcha atrás: la retrogradación es una ilusión de perspectiva.
+        Mercurio orbita el Sol en 88 días; la Tierra, en 365. Aproximadamente cada 116 días (su
+        ciclo sinódico), Mercurio nos adelanta «por el interior» — como un coche más rápido en el
+        carril de al lado que, en el momento del adelantamiento, <em>parece</em> retroceder
+        respecto al paisaje. Visto desde la Tierra, su posición proyectada sobre el zodiaco se
+        frena, se detiene (la <strong>estación</strong>), retrocede unas tres semanas, se detiene
+        de nuevo y reemprende la marcha directa. Por eso hay tres retrogradaciones al año (a
+        veces cuatro), y por eso ocurren siempre cuando Mercurio pasa <em>entre</em> la Tierra y
+        el Sol — nunca en otro momento.
+      </P>
+      <P>
+        Un detalle que importa para la interpretación: en sus estaciones, Mercurio está casi
+        inmóvil en el zodiaco. En astrología, un planeta estacionario se considera{" "}
+        <strong>más poderoso</strong> — su simbolismo satura el grado que ocupa. Los días de
+        estación (las fechas de la tabla siguiente) son, por tanto, los momentos más sensibles de
+        cada periodo, mucho más que la mitad de la retrogradación.
+      </P>
+
       <H2>Las 3 retrogradaciones de Mercurio en 2027</H2>
       <RxTable />
       <P>
@@ -102,6 +122,36 @@ export default function MercurioRetrogrado2027Post() {
         conversaciones que retomar con más tacto.
       </P>
 
+      <H2>La clave de lectura: el bucle en TU carta</H2>
+      <P>
+        Esto es lo que las listas de fechas nunca cuentan: una retrogradación de Mercurio no
+        significa lo mismo para todo el mundo. Lo que cuenta es la <strong>zona del zodiaco
+        barrida tres veces</strong> (ida, vuelta, ida de nuevo) — el «bucle» — y dónde cae en tu
+        carta. El método en tres pasos:
+      </P>
+      <P>
+        <strong>1. Localiza la casa.</strong> Toma los grados del bucle (ej. 21° Acuario → 6°
+        Piscis para febrero de 2027) y busca qué <Link href="/maisons">casa</Link> de tu{" "}
+        <Link href="/theme-astral">carta natal</Link> contiene esos grados. En la casa III, la
+        retrogradación hablará de contratos y papeleo; en la VII, conversaciones de pareja que
+        retomar; en la X, un expediente profesional que vuelve a la mesa. Es la casa, no el
+        signo, la que da el ámbito concreto.
+      </P>
+      <P>
+        <strong>2. Busca los contactos exactos.</strong> Si el bucle pasa sobre uno de tus
+        planetas natales (a menos de 2-3°), Mercurio lo «visita» tres veces: el tema
+        correspondiente vuelve también tres veces — a menudo como problema / reexamen /
+        resolución. ¿Una cuadratura a tu Venus natal? Tres episodios de una misma conversación
+        afectiva. ¿Nada sobre tus puntos sensibles? El periodo será probablemente anodino para
+        ti.
+      </P>
+      <P>
+        <strong>3. Verifica tu Mercurio natal.</strong> Aproximadamente una persona de cada cinco
+        nació con Mercurio retrógrado. Para ellas, estos periodos suelen ser más cómodos que para
+        el resto: la mente funciona «en su sentido». Nuestro retrato del{" "}
+        <Link href="/blog/mercuriano">Mercuriano</Link> profundiza en esta configuración.
+      </P>
+
       <H2>Febrero – marzo: Piscis → Acuario</H2>
       <P>
         Del <strong>9 de febrero al 3 de marzo de 2027</strong>, Mercurio retrograda de Piscis
@@ -109,6 +159,13 @@ export default function MercurioRetrogrado2027Post() {
         quedó difuso, reformular lo que se entendió mal, aclarar un malentendido entre amigos
         (registro Acuario). A evitar: firmar en la niebla — Piscis retrógrado convierte los
         contratos en poesía imprecisa.
+      </P>
+
+      <P>
+        Ejemplo de lectura: si 21° Acuario – 6° Piscis cae en tu casa II, espera re-verificar una
+        factura, renegociar una suscripción, recuperar una suma olvidada. En la casa IX, es un
+        viaje lejano o una formación lo que se reprograma. Mismo simbolismo mercuriano, terrenos
+        totalmente distintos.
       </P>
 
       <H2>Junio – julio: Cáncer → Géminis</H2>

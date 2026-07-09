@@ -4,7 +4,7 @@ import type { PairContent } from "./types";
 export const taureauCancer: PairContent = {
   fr: {
     meta: {
-      title: "Compatibilité Taureau et Cancer : amour, couple, amitié",
+      title: "Compatibilité Taureau et Cancer",
       description:
         "Taureau et Cancer en amour : terre et eau, besoin de sécurité partagé, tendresse et construction. Forces, frictions, sexualité et conseils de durée.",
     },
@@ -92,7 +92,7 @@ export const taureauCancer: PairContent = {
   },
   en: {
     meta: {
-      title: "Taurus and Cancer Compatibility: Love, Couple, Friendship",
+      title: "Taurus and Cancer Compatibility",
       description:
         "Taurus and Cancer in love: earth and water, a shared need for security, tenderness and building. Strengths, frictions, sexuality and advice to last.",
     },
@@ -178,7 +178,7 @@ export const taureauCancer: PairContent = {
   },
   es: {
     meta: {
-      title: "Compatibilidad Tauro y Cáncer: amor, pareja, amistad",
+      title: "Compatibilidad Tauro y Cáncer",
       description:
         "Tauro y Cáncer en el amor: tierra y agua, necesidad compartida de seguridad, ternura y construcción. Fortalezas, fricciones, sexualidad y consejos.",
     },

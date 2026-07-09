@@ -36,7 +36,7 @@ type HubContent = {
 const CONTENT: Record<SeoLocale, HubContent> = {
   fr: {
     meta: {
-      title: "Les 10 planètes en astrologie : significations & interprétation",
+      title: "Les 10 planètes en astrologie et leur sens",
       description:
         "Soleil, Lune, Mercure, Vénus, Mars, Jupiter, Saturne, Uranus, Neptune, Pluton : le rôle de chaque planète dans le thème astral et comment l'interpréter.",
     },
@@ -84,7 +84,7 @@ const CONTENT: Record<SeoLocale, HubContent> = {
   },
   en: {
     meta: {
-      title: "The 10 Planets in Astrology: Meanings & Interpretation",
+      title: "The 10 Planets in Astrology: Meanings",
       description:
         "Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto: each planet's role in the birth chart and how to interpret it.",
     },
@@ -132,7 +132,7 @@ const CONTENT: Record<SeoLocale, HubContent> = {
   },
   es: {
     meta: {
-      title: "Los 10 planetas en astrología: significados e interpretación",
+      title: "Los 10 planetas en astrología: significados",
       description:
         "Sol, Luna, Mercurio, Venus, Marte, Júpiter, Saturno, Urano, Neptuno, Plutón: el papel de cada planeta en la carta natal y cómo interpretarlo.",
     },

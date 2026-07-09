@@ -92,6 +92,27 @@ export default function MercureRetrograde2027Post() {
         </p>
       </Callout>
 
+      <H2>Pourquoi Mercure « recule »-t-il ? La mécanique</H2>
+      <P>
+        Aucune planète ne fait marche arrière : la rétrogradation est une illusion de
+        perspective. Mercure orbite autour du Soleil en 88 jours, la Terre en 365. Environ tous
+        les 116 jours (son cycle synodique), Mercure nous double « par l&apos;intérieur » — comme
+        une voiture plus rapide sur la file d&apos;à côté qui, au moment du dépassement,{" "}
+        <em>semble</em> reculer par rapport au paysage. Vu de la Terre, sa position projetée sur
+        le zodiaque ralentit, s&apos;arrête (la <strong>station</strong>), recule pendant environ
+        trois semaines, s&apos;arrête à nouveau, puis repart en marche directe. C&apos;est
+        pourquoi il y a trois rétrogradations par an (parfois quatre), et pourquoi elles se
+        produisent toujours quand Mercure passe <em>entre</em> la Terre et le Soleil — jamais
+        ailleurs.
+      </P>
+      <P>
+        Détail qui compte pour l&apos;interprétation : au moment de ses stations, Mercure est
+        quasi immobile dans le zodiaque. En astrologie, une planète stationnaire est considérée
+        comme <strong>plus puissante</strong> — son symbolisme sature le degré qu&apos;elle
+        occupe. Les jours de station (les dates du tableau ci-dessous) sont donc les moments les
+        plus sensibles de chaque période, bien plus que le milieu de la rétrogradation.
+      </P>
+
       <H2>Les 3 rétrogradations de Mercure en 2027</H2>
       <RxTable />
       <P>
@@ -102,6 +123,35 @@ export default function MercureRetrograde2027Post() {
         conversations à reprendre avec plus de tact.
       </P>
 
+      <H2>La clé de lecture : la boucle dans VOTRE thème</H2>
+      <P>
+        Voilà ce que les listes de dates ne disent jamais : une rétrogradation de Mercure
+        n&apos;a pas le même sens pour tout le monde. Ce qui compte, c&apos;est la{" "}
+        <strong>zone du zodiaque balayée trois fois</strong> (aller, retour, re-aller) — la
+        « boucle » — et l&apos;endroit où elle tombe chez vous. La méthode en trois étapes :
+      </P>
+      <P>
+        <strong>1. Repérez la maison.</strong> Prenez les degrés de la boucle (ex. 21° Verseau →
+        6° Poissons pour février 2027) et cherchez quelle{" "}
+        <Link href="/maisons">maison</Link> de votre <Link href="/theme-astral">thème natal</Link>{" "}
+        contient ces degrés. En maison III, la rétrogradation parlera contrats et paperasse ; en
+        maison VII, conversations de couple à reprendre ; en maison X, dossier professionnel qui
+        revient sur la table. C&apos;est la maison, pas le signe, qui donne le domaine concret.
+      </P>
+      <P>
+        <strong>2. Cherchez les contacts exacts.</strong> Si la boucle passe sur une de vos
+        planètes natales (à moins de 2-3°), Mercure la « visite » trois fois : le sujet
+        correspondant revient trois fois aussi — souvent sous la forme problème / réexamen /
+        résolution. Un carré à votre Vénus natale ? Trois épisodes d&apos;une même conversation
+        affective. Rien sur vos points sensibles ? La période sera probablement banale pour vous.
+      </P>
+      <P>
+        <strong>3. Vérifiez votre Mercure natal.</strong> Environ une personne sur cinq est née
+        Mercure rétrograde. Pour elles, ces périodes sont souvent plus confortables que pour les
+        autres : le mental fonctionne « dans son sens ». Notre portrait du{" "}
+        <Link href="/blog/mercurien">Mercurien</Link> approfondit cette configuration.
+      </P>
+
       <H2>Février – mars : Poissons → Verseau</H2>
       <P>
         Du <strong>9 février au 3 mars 2027</strong>, Mercure rétrograde des Poissons (6°) au
@@ -109,6 +159,12 @@ export default function MercureRetrograde2027Post() {
         reformuler ce qui avait été mal compris, clarifier un malentendu amical (registre
         Verseau). À éviter : signer dans le brouillard — les Poissons rétrogrades excellent à
         rendre les contrats poétiques et imprécis.
+      </P>
+      <P>
+        Exemple de lecture : si 21° Verseau – 6° Poissons tombe dans votre maison II, attendez-vous
+        à re-vérifier une facturation, renégocier un abonnement, retrouver une somme oubliée. En
+        maison IX, c&apos;est un voyage lointain ou une formation qui se reprogramme. Même
+        symbolisme mercurien, terrains totalement différents.
       </P>
 
       <H2>Juin – juillet : Cancer → Gémeaux</H2>

@@ -80,17 +80,53 @@ export default function LunarCalendar20262027Post() {
         from astronomical ephemerides — not copied from an approximate almanac.
       </P>
 
-      <H2>How to use this calendar</H2>
+      <H2>The mechanics: why 29.5 days</H2>
       <P>
-        The logic of the cycle is simple, and we detail it in our course on{" "}
-        <Link href="/blog/full-moon-new-moon-cycles-astrology">lunar cycles</Link>: the{" "}
-        <strong>new moon</strong> (Sun-Moon conjunction) opens the cycle — the moment for
-        intentions and quiet beginnings; the <strong>full moon</strong> (Sun-Moon opposition)
-        culminates it — a moment of visibility, assessment and release. The sign of the lunation
-        colours the domain: a new moon in Virgo invites you to reorganize daily life, a full moon
-        in Aries bursts open whatever was stalling. For personal use, find the{" "}
-        <Link href="/maisons">house</Link> of your <Link href="/theme-astral">birth chart</Link>{" "}
-        where the lunation falls: that is where the cycle concretely plays out for you.
+        A lunation is the complete cycle of phases: 29 days, 12 hours and 44 minutes on average
+        (the “synodic month”). The <strong>new moon</strong> is the exact moment when the Moon
+        reaches <strong>conjunction</strong> with the Sun — same degree of the zodiac, lit face
+        turned towards the Sun, hence invisible to us. The <strong>full moon</strong> is the
+        exact <strong>opposition</strong>: Earth between the two bodies, disc fully lit. These
+        are not “days” but precise instants — hence the to-the-minute times in our tables. And
+        since the Moon advances about 12° per day, the sign shown is that of the exact instant: a
+        few hours later, it may already have changed sign.
+      </P>
+      <P>
+        Symbolically, astrology reads this cycle as a breath: the conjunction fuses will (Sun)
+        and need (Moon) — you sow without yet seeing; the opposition puts them face to face —
+        what was sown becomes visible, gets harvested or corrected. Our course on{" "}
+        <Link href="/blog/full-moon-new-moon-cycles-astrology">lunar cycles</Link> develops the
+        eight intermediate phases.
+      </P>
+
+      <H2>New moon, full moon: what it changes concretely</H2>
+      <P>
+        The <strong>new moon</strong> opens the cycle. Low energy, turned inward: a bad time to
+        launch with fanfare, an excellent time to decide in silence. The sign of the conjunction
+        sets the tone: a new moon in Virgo (August 31, 2027) favours decisions about
+        organization, health, method; in Scorpio (October 29, 2027), deep decisions — cutting,
+        cleaning up, transforming.
+      </P>
+      <P>
+        The <strong>full moon</strong> culminates the cycle opened by the new moon of the same
+        sign six months earlier — that is the real pair to watch. The Taurus full moon of
+        November 14, 2027 lights up what was sown at the Taurus new moon of May 6, 2027.
+        Emotionally, the Sun-Moon opposition stretches the thread between two poles of your life
+        (self/other, work/home depending on the sign axis): hence the restless nights and
+        impulsive decisions of full moons — culminate, celebrate, finish, but avoid deciding in
+        the heat of the moment.
+      </P>
+
+      <H2>Finding the activated house in your chart: the method</H2>
+      <P>
+        The sign gives the general mood, but it is the <Link href="/maisons">house</Link> of your{" "}
+        <Link href="/theme-astral">birth chart</Link> that says <em>where it happens for you</em>.
+        The method: take the degree of the lunation from the table (e.g. full moon of November
+        14, 2027 at 21° Taurus), open your chart, find between which cusps 21° Taurus falls. Your
+        2nd house: a financial culmination — money coming in, an invoice, a realization about
+        your resources. 7th house: a couple matter reaches maturity. 12th house: fatigue, need
+        for withdrawal, end of an inner cycle. The same full moon tells twelve different stories
+        depending on the chart — which is why generic horoscopes so often miss.
       </P>
 
       <H2>Lunations from July to December 2026</H2>
@@ -103,6 +139,26 @@ export default function LunarCalendar20262027Post() {
         the full moon in Pisces.
       </P>
 
+      <H2>Why eclipses in some months and not others?</H2>
+      <P>
+        There is a new moon every month, but a solar eclipse only about twice a year. The
+        reason: the Moon&apos;s orbit is tilted 5° from the Earth&apos;s. Most of the time, the
+        conjunction happens “above” or “below” the Sun — no perfect alignment, no eclipse. Twice
+        a year, the lunation occurs near the <Link href="/noeuds-lunaires">lunar nodes</Link> —
+        the points where the two orbits cross — and there the alignment is real: a new moon near
+        a node = solar eclipse, a full moon near a node = lunar eclipse. That is why eclipses
+        come in pairs two weeks apart (look at August 2026 in the table) and return in “seasons”
+        roughly every six months.
+      </P>
+      <P>
+        In interpretation, an eclipse is a lunation with a high coefficient: because it involves
+        the nodal axis — the evolutionary axis of the chart — its effects are read as unfolding
+        over six months to a year, with sharper turning points than usual (beginnings, endings,
+        revelations). A counter-intuitive practical tip: you do not “ritualize” an eclipse like
+        an ordinary new moon. The energy is considered unstable — observe, note what gets
+        triggered, and let decisions settle for a few days.
+      </P>
+
       <H2>Lunations of 2027</H2>
       <LunationTable year="2027" />
       <P>
@@ -111,6 +167,22 @@ export default function LunarCalendar20262027Post() {
         — one of the longest of the century, visible from southern Spain to North Africa — on the
         new moon in Leo, at the same place of the zodiac as in August 2026: a true “chapter 2”
         for people strongly marked in Leo.
+      </P>
+
+      <H2>What each lunation sign activates</H2>
+      <P>
+        A mini-guide for reading the tables above. <strong>Aries</strong>: impulses, quick
+        decisions, whatever requires courage. <strong>Taurus</strong>: money, body, what must
+        last. <strong>Gemini</strong>: exchanges, contracts, siblings, information.{" "}
+        <strong>Cancer</strong>: family, home, memory, emotional security. <strong>Leo</strong>:
+        creation, visibility, children, pride. <strong>Virgo</strong>: daily work, health,
+        sorting and method. <strong>Libra</strong>: partnership, contracts, balances to
+        renegotiate. <strong>Scorpio</strong>: shared finances, intimacy, what must end.{" "}
+        <strong>Sagittarius</strong>: studies, travel, meaning, horizons.{" "}
+        <strong>Capricorn</strong>: career, structures, responsibilities.{" "}
+        <strong>Aquarius</strong>: friendships, collective projects, freedoms.{" "}
+        <strong>Pisces</strong>: rest, spirituality, cycle closures. Cross this register with the
+        house of your chart (method above) to get a truly personal reading.
       </P>
 
       <H2>Three concrete uses</H2>

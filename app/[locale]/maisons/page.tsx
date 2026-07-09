@@ -36,7 +36,7 @@ type HubContent = {
 const CONTENT: Record<SeoLocale, HubContent> = {
   fr: {
     meta: {
-      title: "Les 12 maisons astrologiques : signification & interprétation",
+      title: "Les 12 maisons astrologiques : significations",
       description:
         "Les 12 maisons du thème astral expliquées : sens traditionnel et moderne, axes, planètes en maison, exercices. Cours complet pour interpréter chaque maison.",
     },
@@ -84,7 +84,7 @@ const CONTENT: Record<SeoLocale, HubContent> = {
   },
   en: {
     meta: {
-      title: "The 12 Astrological Houses: Meaning & Interpretation",
+      title: "The 12 Astrological Houses: Meanings",
       description:
         "The 12 houses of the birth chart explained: traditional and modern meaning, axes, planets in houses, exercises. A complete course to interpret each house.",
     },
@@ -132,7 +132,7 @@ const CONTENT: Record<SeoLocale, HubContent> = {
   },
   es: {
     meta: {
-      title: "Las 12 casas astrológicas: significado e interpretación",
+      title: "Las 12 casas astrológicas: significados",
       description:
         "Las 12 casas de la carta natal explicadas: sentido tradicional y moderno, ejes, planetas en las casas, ejercicios. Curso completo para interpretar cada casa.",
     },
