@@ -12,6 +12,7 @@ import {
   pairLanguageAlternates,
 } from "@/lib/compatibility";
 import { PAIR_CONTENTS } from "../pairs";
+import { localizeSlug } from "@/i18n/slugs";
 import {
   buildMeta,
   toSeoLocale,
@@ -97,6 +98,9 @@ export default async function PairPage({
   const c = content[loc];
   const pageUrl = pairUrl(a, b, loc);
 
+  // Maillage interne : les autres paires publiées (liens croisés dofollow).
+  const otherPairs = PAIRS.filter(([x, y]) => pairKey(x, y) !== pairKey(a, b));
+
   const scoreLabels =
     loc === "en"
       ? { amour: "Love", communication: "Communication", duree: "Longevity" }
@@ -115,6 +119,7 @@ export default async function PairPage({
           advice: "The astrologer's advice",
           faq: "Frequently asked questions",
           allPairs: "All compatibilities",
+          morePairs: "More compatibilities",
           signA: "All about",
           hub: "Compatibility",
           home: "Home",
@@ -129,6 +134,7 @@ export default async function PairPage({
             advice: "El consejo del astrólogo",
             faq: "Preguntas frecuentes",
             allPairs: "Todas las compatibilidades",
+            morePairs: "Más compatibilidades",
             signA: "Todo sobre",
             hub: "Compatibilidad",
             home: "Inicio",
@@ -142,6 +148,7 @@ export default async function PairPage({
             advice: "Le conseil de l'astrologue",
             faq: "Questions fréquentes",
             allPairs: "Toutes les compatibilités",
+            morePairs: "Autres compatibilités",
             signA: "Tout savoir sur",
             hub: "Compatibilité",
             home: "Accueil",
@@ -267,16 +274,16 @@ export default async function PairPage({
         </dl>
       </section>
 
-      {/* MAILLAGE — signes + hub */}
+      {/* MAILLAGE — signes + hub (slugs localisés → pas de redirection 308) */}
       <nav className="mt-12 flex flex-wrap gap-3">
         <Link
-          href={`/signes/${a}`}
+          href={`/signes/${localizeSlug("signes", a, loc)}`}
           className="rounded-full border border-white/10 bg-white/5 px-5 py-2 text-sm text-text/90 transition hover:bg-white/10"
         >
           {ui.signA} {c.names.a} →
         </Link>
         <Link
-          href={`/signes/${b}`}
+          href={`/signes/${localizeSlug("signes", b, loc)}`}
           className="rounded-full border border-white/10 bg-white/5 px-5 py-2 text-sm text-text/90 transition hover:bg-white/10"
         >
           {ui.signA} {c.names.b} →
@@ -288,6 +295,26 @@ export default async function PairPage({
           {ui.allPairs} →
         </Link>
       </nav>
+
+      {/* MAILLAGE — autres paires (liens croisés pour renforcer les inlinks) */}
+      <section className="mt-10">
+        <h2 className="font-serif text-xl sm:text-2xl">{ui.morePairs}</h2>
+        <nav className="mt-4 flex flex-wrap gap-3">
+          {otherPairs.map(([x, y]) => {
+            const oc = PAIR_CONTENTS[pairKey(x, y)]?.[loc];
+            if (!oc) return null;
+            return (
+              <Link
+                key={pairKey(x, y)}
+                href={`/compatibilite/${pairSlugFor(x, y, loc)}`}
+                className="rounded-full border border-white/10 bg-white/5 px-5 py-2 text-sm text-text/90 transition hover:bg-white/10"
+              >
+                {oc.names.a} &amp; {oc.names.b} →
+              </Link>
+            );
+          })}
+        </nav>
+      </section>
     </main>
   );
 }

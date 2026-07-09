@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import { Link, usePathname } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
+import { localizeParamsForLocale } from "@/i18n/localizedSlug";
 
 /**
  * Sélecteur de langue.
@@ -31,8 +32,7 @@ export default function LocaleSwitcher({
   className?: string;
 }) {
   const pathname = usePathname();
-  const params = useParams();
-  const concrete = fillTemplate(pathname, params as Record<string, string | string[] | undefined>);
+  const params = useParams() as Record<string, string | string[] | undefined>;
   const active = useLocale();
   const t = useTranslations("localeSwitcher");
 
@@ -43,10 +43,13 @@ export default function LocaleSwitcher({
     >
       {routing.locales.map((loc) => {
         const isActive = loc === active;
+        // Traduit le slug dynamique vers la locale cible → URL canonique
+        // directe (évite les redirections 308 « links to redirect »).
+        const href = fillTemplate(pathname, localizeParamsForLocale(pathname, params, loc));
         return (
           <Link
             key={loc}
-            href={concrete}
+            href={href}
             locale={loc}
             hrefLang={loc}
             aria-current={isActive ? "true" : undefined}
