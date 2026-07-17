@@ -7,6 +7,7 @@
 type Triple = { fr: string; en: string; es: string };
 
 const POSTS: Triple[] = [
+  { fr: "mensonge-prefere-chaque-signe-zodiaque", en: "favorite-lie-of-each-zodiac-sign", es: "mentira-favorita-de-cada-signo-zodiaco" },
   { fr: "mercure-retrograde-2027-dates", en: "mercury-retrograde-2027-dates", es: "mercurio-retrogrado-2027-fechas" },
   { fr: "calendrier-pleine-lune-nouvelle-lune-2026-2027", en: "lunar-calendar-full-moon-new-moon-2026-2027", es: "calendario-lunar-luna-llena-nueva-2026-2027" },
   { fr: "amour-fidelite-signes-zodiaque", en: "love-fidelity-zodiac-signs", es: "amor-fidelidad-signos-zodiaco" },

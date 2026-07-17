@@ -22,7 +22,7 @@ const PLANET_ARTICLES: Record<string, string[]> = {
   jupiter: ["jupiterien", "chance-jeux-argent-loterie-astrologie", "finances-theme-astral"],
   saturne: ["saturnien", "longevite-vie-astrologie", "orientation-professionnelle-theme-astral"],
   uranus: ["uranien", "pourquoi-votre-horoscope-ne-vous-ressemble-pas", "conjonction-melange-des-forces"],
-  neptune: ["neptunien", "manipulateurs-pervers-narcissiques-astrologie", "astrologie-medicale-renaissance"],
+  neptune: ["neptunien", "mensonge-prefere-chaque-signe-zodiaque", "manipulateurs-pervers-narcissiques-astrologie"],
   pluton: ["plutonien", "longevite-vie-astrologie", "manipulateurs-pervers-narcissiques-astrologie"],
 };
 
@@ -60,6 +60,7 @@ const SIGN_RULER_PORTRAIT: Record<string, string> = {
 
 /** Articles génériques pertinents pour toutes les pages signes. */
 const SIGN_GENERIC: string[] = [
+  "mensonge-prefere-chaque-signe-zodiaque",
   "qualites-defauts-12-signes-zodiaque",
   "comprendre-signe-astrologique-ascendant-12-exemples",
   "pourquoi-votre-horoscope-ne-vous-ressemble-pas",
