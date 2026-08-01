@@ -1027,6 +1027,12 @@ export default function Post() {
             afectiva se vuelve mucho más fina, mucho más justa y mucho más
             reveladora.
           </p>
+
+          <p className="text-text/85 leading-relaxed">
+            Y si la historia aún está por escribir, empieza por el principio:{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">cómo seducir a cada signo del zodiaco</Link>{" "}
+            — cada signo tiene su propia puerta de entrada.
+          </p>
         </section>
 
         {/* FAQ */}

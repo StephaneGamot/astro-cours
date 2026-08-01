@@ -3,6 +3,9 @@ import type { ReactElement } from "react";
 import MensongePrefereSignesPost, {
   meta as mensongePrefereSignesMeta,
 } from "./mensonge-prefere-chaque-signe-zodiaque";
+import SeduireChaqueSignePost, {
+  meta as seduireChaqueSigneMeta,
+} from "./comment-seduire-chaque-signe-du-zodiaque";
 import ThemeAstralPost, {
   meta as themeAstralMeta,
 } from "./qu-est-ce-qu-un-theme-astral";
@@ -108,6 +111,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },
   { meta: mensongePrefereSignesMeta, Component: MensongePrefereSignesPost },
   { meta: mercureRetro2027Meta, Component: MercureRetro2027Post },
   { meta: calendrierLunaire20262027Meta, Component: CalendrierLunaire20262027Post },

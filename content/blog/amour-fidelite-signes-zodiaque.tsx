@@ -1026,6 +1026,12 @@ export default function Post() {
             affective devient beaucoup plus fine, beaucoup plus juste, et
             beaucoup plus révélatrice.
           </p>
+
+          <p className="text-text/85 leading-relaxed">
+            Et si l’histoire reste encore à écrire, commence par le début :{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">comment séduire chaque signe du zodiaque</Link>{" "}
+            — à chacun sa porte d’entrée.
+          </p>
         </section>
 
         {/* FAQ */}

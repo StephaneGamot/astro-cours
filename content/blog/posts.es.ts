@@ -86,6 +86,9 @@ import MercureRetro2027Post, {
 import MensongePrefereSignesPost, {
   meta as mensongePrefereSignesMeta,
 } from "./es/mensonge-prefere-chaque-signe-zodiaque";
+import SeduireChaqueSignePost, {
+  meta as seduireChaqueSigneMeta,
+} from "./es/comment-seduire-chaque-signe-du-zodiaque";
 import CalendrierLunaire20262027Post, {
   meta as calendrierLunaire20262027Meta,
 } from "./es/calendrier-pleine-lune-nouvelle-lune-2026-2027";
@@ -108,6 +111,7 @@ export type PostModule = {
 };
 
 export const posts_es: PostModule[] = [
+  { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },
   { meta: mensongePrefereSignesMeta, Component: MensongePrefereSignesPost },
   { meta: mercureRetro2027Meta, Component: MercureRetro2027Post },
   { meta: calendrierLunaire20262027Meta, Component: CalendrierLunaire20262027Post },

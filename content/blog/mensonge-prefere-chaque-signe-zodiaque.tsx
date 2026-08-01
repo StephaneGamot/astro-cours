@@ -865,6 +865,11 @@ export default function Post() {
             dents serrées, tu sauras : ce n&apos;est pas un mensonge. C&apos;est un
             Bélier qui fait de son mieux.
           </p>
+
+          <p className="text-text/85 leading-relaxed">
+            Bonus : maintenant que tu sais comment chaque signe ment, apprends aussi comment il craque — direction{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">comment séduire chaque signe du zodiaque</Link>.
+          </p>
         </section>
 
         {/* FAQ */}

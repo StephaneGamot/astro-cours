@@ -468,6 +468,11 @@ export default function Post() {
             <Link href="/blog/venusien" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">el perfil Venusino</Link>{" "}
             para comprender la energía de Venus en el día a día.
           </p>
+          <p>
+            Y para pasar a la práctica, descubre{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">cómo seducir a cada signo del zodiaco</Link>{" "}
+            — el manual concreto, signo por signo.
+          </p>
         </div>
         <div className="mt-4">
           <Link

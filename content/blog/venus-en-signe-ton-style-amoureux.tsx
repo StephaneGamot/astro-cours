@@ -467,6 +467,11 @@ export default function Post() {
             <Link href="/blog/venusien" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">le profil Vénusien</Link>{" "}
             pour comprendre l’énergie de Vénus au quotidien.
           </p>
+          <p>
+            Et pour passer à la pratique, découvre{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">comment séduire chaque signe du zodiaque</Link>{" "}
+            — le mode d’emploi concret, signe par signe.
+          </p>
         </div>
         <div className="mt-4">
           <Link

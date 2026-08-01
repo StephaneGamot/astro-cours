@@ -576,7 +576,7 @@ export default function Post() {
           <p className="text-text/85 leading-relaxed">
             In astrology, love is not reduced to an abstract feeling. It
             expresses itself through a psychological structure: the way we
-            desire, bond, trust, endure over time or accept the other person's
+            desire, bond, trust, endure over time or accept the other person&apos;s
             freedom.
           </p>
 
@@ -1022,6 +1022,12 @@ export default function Post() {
             To go further, you must move beyond the Sun sign alone and observe
             the entire natal chart. That is often where emotional reality becomes
             far more nuanced, far more accurate, and far more revealing.
+          </p>
+
+          <p className="text-text/85 leading-relaxed">
+            And if the story is still to be written, start at the beginning:{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">how to seduce each zodiac sign</Link>{" "}
+            — every sign has its own front door.
           </p>
         </section>
 

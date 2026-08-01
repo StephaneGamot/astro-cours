@@ -524,7 +524,12 @@ export default function Post() {
             <Link href="/blog/amour-fidelite-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">amour et fidélité selon les signes</Link>{" "}
             ou explore{" "}
             <Link href="/blog/martien" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">le profil Martien</Link>{" "}
-            pour mieux comprendre l'énergie de Mars au quotidien.
+            pour mieux comprendre l’énergie de Mars au quotidien.
+          </p>
+          <p>
+            Et côté pratique :{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">comment séduire chaque signe du zodiaque</Link>{" "}
+            — ce qui fait craquer chaque signe, et ce qui le fait fuir.
           </p>
         </div>
         <div className="mt-4">

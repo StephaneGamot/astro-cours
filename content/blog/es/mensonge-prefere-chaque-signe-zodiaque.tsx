@@ -859,6 +859,11 @@ export default function Post() {
             dientes apretados, ya lo sabrás: no es una mentira. Es un Aries haciendo
             todo lo que puede.
           </p>
+
+          <p className="text-text/85 leading-relaxed">
+            Bonus: ahora que sabes cómo miente cada signo, aprende también cómo cae — visita{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">cómo seducir a cada signo del zodiaco</Link>.
+          </p>
         </section>
 
         {/* FAQ */}

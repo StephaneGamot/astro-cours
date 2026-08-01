@@ -527,6 +527,11 @@ export default function Post() {
             <Link href="/blog/martien" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">el perfil Marciano</Link>{" "}
             para comprender mejor la energía de Marte en el día a día.
           </p>
+          <p>
+            Y en el lado práctico:{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">cómo seducir a cada signo del zodiaco</Link>{" "}
+            — lo que hace caer a cada signo, y lo que lo hace huir.
+          </p>
         </div>
         <div className="mt-4">
           <Link

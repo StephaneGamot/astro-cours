@@ -857,6 +857,11 @@ export default function Post() {
             teeth, you&apos;ll know: it&apos;s not a lie. It&apos;s an Aries doing
             their best.
           </p>
+
+          <p className="text-text/85 leading-relaxed">
+            Bonus: now that you know how each sign lies, learn how they fall — head to{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition">how to seduce each zodiac sign</Link>.
+          </p>
         </section>
 
         {/* FAQ */}

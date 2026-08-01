@@ -527,6 +527,11 @@ export default function Post() {
             <Link href="/blog/martien" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">the Martian profile</Link>{" "}
             to better understand the energy of Mars day to day.
           </p>
+          <p>
+            And on the practical side:{" "}
+            <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">how to seduce each zodiac sign</Link>{" "}
+            — what makes each sign fall, and what makes them run.
+          </p>
         </div>
         <div className="mt-4">
           <Link
