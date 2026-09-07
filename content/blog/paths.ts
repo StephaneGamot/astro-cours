@@ -5,6 +5,7 @@ export const paths = [
     description: "Les bases solides, dans l’ordre.",
     posts: [
       "qu-est-ce-qu-un-theme-astral",
+      "lune-en-signes-emotions-besoins",
       "conjonction-melange-des-forces",
     ],
   },
@@ -13,6 +14,7 @@ export const paths = [
     title: "Parcours interprétation",
     description: "Méthode, maisons, lecture concrète du thème.",
     posts: [
+      "lune-en-signes-emotions-besoins",
       "finances-theme-astral",
       "qu-est-ce-qu-un-theme-astral",
       "conjonction-melange-des-forces",

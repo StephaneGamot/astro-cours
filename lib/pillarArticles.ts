@@ -15,7 +15,7 @@ import { getAllPosts } from "@/lib/blog";
 /** Planète → articles (portrait planétaire d'abord). */
 const PLANET_ARTICLES: Record<string, string[]> = {
   soleil: ["solarien", "qu-est-ce-qu-un-theme-astral", "pourquoi-votre-horoscope-ne-vous-ressemble-pas"],
-  lune: ["lunarien", "calendrier-pleine-lune-nouvelle-lune-2026-2027", "pleine-lune-nouvelle-lune-cycles-astrologie"],
+  lune: ["lune-en-signes-emotions-besoins", "lunarien", "calendrier-pleine-lune-nouvelle-lune-2026-2027", "pleine-lune-nouvelle-lune-cycles-astrologie"],
   mercure: ["mercurien", "mercure-retrograde-2027-dates", "ton-signe-astro-selon-ta-facon-de-repondre-aux-messages"],
   venus: ["venusien", "venus-en-signes-style-amoureux", "amour-fidelite-signes-zodiaque"],
   mars: ["martien", "mars-en-signes-desir-libido-action", "quel-type-de-sportif-selon-signe-astrologique"],
@@ -31,7 +31,7 @@ const HOUSE_ARTICLES: Record<string, string[]> = {
   "maison-1": ["comprendre-signe-astrologique-ascendant-12-exemples", "qu-est-ce-qu-un-theme-astral", "qualites-defauts-12-signes-zodiaque"],
   "maison-2": ["finances-theme-astral", "chance-jeux-argent-loterie-astrologie"],
   "maison-3": ["ton-signe-astro-selon-ta-facon-de-repondre-aux-messages", "mercurien"],
-  "maison-4": ["vendre-une-maison-demenager-astrologie-methodes", "lunarien"],
+  "maison-4": ["lune-en-signes-emotions-besoins", "vendre-une-maison-demenager-astrologie-methodes", "lunarien"],
   "maison-5": ["amour-fidelite-signes-zodiaque", "chance-jeux-argent-loterie-astrologie", "solarien"],
   "maison-6": ["quel-type-de-sportif-selon-signe-astrologique", "longevite-vie-astrologie", "astrologie-medicale-renaissance"],
   "maison-7": ["amour-fidelite-signes-zodiaque", "venus-en-signes-style-amoureux", "manipulateurs-pervers-narcissiques-astrologie"],
@@ -60,6 +60,7 @@ const SIGN_RULER_PORTRAIT: Record<string, string> = {
 
 /** Articles génériques pertinents pour toutes les pages signes. */
 const SIGN_GENERIC: string[] = [
+  "lune-en-signes-emotions-besoins",
   "mensonge-prefere-chaque-signe-zodiaque",
   "qualites-defauts-12-signes-zodiaque",
   "comprendre-signe-astrologique-ascendant-12-exemples",

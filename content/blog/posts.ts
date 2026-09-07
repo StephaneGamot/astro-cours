@@ -93,6 +93,10 @@ import CalendrierLunaire20262027Post, {
   meta as calendrierLunaire20262027Meta,
 } from "./calendrier-pleine-lune-nouvelle-lune-2026-2027";
 
+import LuneEnSignesPost, {
+  meta as luneEnSignesMeta,
+} from "./lune-en-signes-emotions-besoins";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -111,6 +115,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: luneEnSignesMeta, Component: LuneEnSignesPost },
   { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },
   { meta: mensongePrefereSignesMeta, Component: MensongePrefereSignesPost },
   { meta: mercureRetro2027Meta, Component: MercureRetro2027Post },

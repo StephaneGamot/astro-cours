@@ -298,6 +298,7 @@ export default function Post() {
             <li><strong><Link href="/maisons/maison-1" className="underline decoration-white/30 hover:decoration-white/60 transition">Maison</Link></strong> = le domaine de vie (où tu vis l’amour)</li>
             <li><strong><Link href="/aspects" className="underline decoration-white/30 hover:decoration-white/60 transition">Aspects</Link></strong> = facilité / tension / répétitions</li>
             <li><strong>Vénus + <Link href="/blog/mars-en-signes-desir-libido-action" className="underline decoration-white/30 hover:decoration-white/60 transition">Mars</Link></strong> = amour + désir (combo indispensable)</li>
+            <li><strong><Link href="/blog/lune-en-signes-emotions-besoins" className="underline decoration-white/30 hover:decoration-white/60 transition">Lune</Link></strong> = le besoin affectif de fond (ce que Vénus ne dit pas)</li>
           </ol>
 
           <Callout tone="ok" title="Règle en or">

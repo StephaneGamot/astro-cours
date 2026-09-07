@@ -7,6 +7,7 @@
 type Triple = { fr: string; en: string; es: string };
 
 const POSTS: Triple[] = [
+  { fr: "lune-en-signes-emotions-besoins", en: "moon-in-signs-emotions-needs", es: "luna-en-signos-emociones-necesidades" },
   { fr: "comment-seduire-chaque-signe-du-zodiaque", en: "how-to-seduce-each-zodiac-sign", es: "como-seducir-a-cada-signo-del-zodiaco" },
   { fr: "mensonge-prefere-chaque-signe-zodiaque", en: "favorite-lie-of-each-zodiac-sign", es: "mentira-favorita-de-cada-signo-zodiaco" },
   { fr: "mercure-retrograde-2027-dates", en: "mercury-retrograde-2027-dates", es: "mercurio-retrogrado-2027-fechas" },

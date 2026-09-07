@@ -37,12 +37,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Ahrefs SERP rewrite : titre court absolu (bypasse le template " — Astro Cours").
   const seoTitle = (m as unknown as { seoTitle?: string }).seoTitle;
   const canonicalAbs = localeUrl(loc, `/blog/${localizeBlogSlug(m.slug, loc)}`);
-  const languages = {
+  // hreflang : uniquement les langues où l'article existe réellement
+  // (un article publié d'abord en FR ne doit pas pointer vers un 404 EN/ES).
+  const languages: Record<string, string> = {
     "fr-FR": localeUrl("fr", `/blog/${localizeBlogSlug(m.slug, "fr")}`),
-    "en-US": localeUrl("en", `/blog/${localizeBlogSlug(m.slug, "en")}`),
-    "es-ES": localeUrl("es", `/blog/${localizeBlogSlug(m.slug, "es")}`),
     "x-default": localeUrl("fr", `/blog/${localizeBlogSlug(m.slug, "fr")}`),
   };
+  if (getPostBySlug(m.slug, "en")) {
+    languages["en-US"] = localeUrl("en", `/blog/${localizeBlogSlug(m.slug, "en")}`);
+  }
+  if (getPostBySlug(m.slug, "es")) {
+    languages["es-ES"] = localeUrl("es", `/blog/${localizeBlogSlug(m.slug, "es")}`);
+  }
 
   const ogImage = m.cover
     ? { url: absoluteUrl(m.cover), width: 1200, height: 630, alt: m.title }

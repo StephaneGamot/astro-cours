@@ -605,6 +605,11 @@ export default function Post() {
             <Link href="/blog/venus-en-signes-style-amoureux" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">Vénus en signes</Link>{" "}
             pour compléter ta compréhension des émotions et de l’amour.
           </p>
+          <p>
+            Et pour passer du ciel à ton thème :{" "}
+            <Link href="/blog/lune-en-signes-emotions-besoins" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">la Lune en signes</Link>{" "}
+            — ce que ta Lune natale réclame vraiment, signe par signe.
+          </p>
         </div>
         <div className="mt-4">
           <Link

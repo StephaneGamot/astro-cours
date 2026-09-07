@@ -527,6 +527,11 @@ export default function Post() {
             pour mieux comprendre l’énergie de Mars au quotidien.
           </p>
           <p>
+            Et pour le fond du décor affectif, lis{" "}
+            <Link href="/blog/lune-en-signes-emotions-besoins" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">la Lune en signes</Link>{" "}
+            — le besoin émotionnel que Mars traduit en action.
+          </p>
+          <p>
             Et côté pratique :{" "}
             <Link href="/blog/comment-seduire-chaque-signe-du-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition font-semibold text-text/95">comment séduire chaque signe du zodiaque</Link>{" "}
             — ce qui fait craquer chaque signe, et ce qui le fait fuir.

@@ -59,7 +59,7 @@ type Sign = { slug: string; updated?: string };
  */
 const STATIC_PAGE_DATES: Record<string, string> = {
   "": "2026-05-31",
-  blog: "2026-05-27",
+  blog: "2026-09-06",
   // Hubs piliers (audit SEO 07/2026)
   signes: "2026-07-07",
   maisons: "2026-07-07",

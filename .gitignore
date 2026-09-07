@@ -46,3 +46,6 @@ tmp/
 
 # build verifications & temp
 tmp/
+
+# fichiers déposés par l'app Claude
+/Claude outputs/

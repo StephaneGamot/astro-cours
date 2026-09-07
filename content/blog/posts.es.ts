@@ -1,5 +1,9 @@
 import type { ReactElement } from "react";
 
+import LuneEnSignesPost, {
+  meta as luneEnSignesMeta,
+} from "./es/lune-en-signes-emotions-besoins";
+
 import ThemeAstralPost, {
   meta as themeAstralMeta,
 } from "./es/qu-est-ce-qu-un-theme-astral";
@@ -111,6 +115,7 @@ export type PostModule = {
 };
 
 export const posts_es: PostModule[] = [
+  { meta: luneEnSignesMeta, Component: LuneEnSignesPost },
   { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },
   { meta: mensongePrefereSignesMeta, Component: MensongePrefereSignesPost },
   { meta: mercureRetro2027Meta, Component: MercureRetro2027Post },
