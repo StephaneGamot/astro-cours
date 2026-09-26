@@ -1,6 +1,10 @@
 import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import { MERCURY_RX, NEXT_RX_2028 } from "./data/ephemerides-2026-2027";
+import CoverImage from "@/public/images/blog/mercure-retrograde-2027.webp";
+import OrreryImage from "@/public/images/blog/orrery-depassement-mercure.webp";
+import SansPaniqueImage from "@/public/images/blog/mercure-retrograde-sans-panique.webp";
 
 export const meta = {
   slug: "mercure-retrograde-2027-dates",
@@ -10,7 +14,7 @@ export const meta = {
   date: "2026-07-07",
   tags: ["Mercure", "rétrograde", "transits", "2027", "calendrier", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/mercurien2.webp",
+  cover: "/images/blog/mercure-retrograde-2027.webp",
 };
 
 const SIGNS = ["Bélier", "Taureau", "Gémeaux", "Cancer", "Lion", "Vierge", "Balance", "Scorpion", "Sagittaire", "Capricorne", "Verseau", "Poissons"];
@@ -77,6 +81,22 @@ export default function MercureRetrograde2027Post() {
   const rx2026 = MERCURY_RX[0];
   return (
     <article>
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative mb-10 aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Le trajet apparent de Mercure dans un ciel étoilé : une fine ligne dorée qui avance, revient sur elle-même en une boucle étroite, puis repart"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <P>
         Trois fois par an environ, <Link href="/planetes/mercure">Mercure</Link> semble reculer
         dans le zodiaque — un simple effet d&apos;optique vu de la Terre, mais un rendez-vous que
@@ -112,6 +132,19 @@ export default function MercureRetrograde2027Post() {
         occupe. Les jours de station (les dates du tableau ci-dessous) sont donc les moments les
         plus sensibles de chaque période, bien plus que le milieu de la rétrogradation.
       </P>
+
+      <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+        <Image
+          src={OrreryImage}
+          alt="Un planétaire de laiton sur un bureau : la petite sphère argentée de Mercure passe entre le Soleil doré et la sphère bleue de la Terre"
+          sizes="(max-width: 768px) 100vw, 800px"
+          className="h-auto w-full"
+        />
+        <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+          Rien ne recule vraiment : Mercure double la Terre par l’intérieur, et
+          c’est le dépassement qui donne l’illusion.
+        </figcaption>
+      </figure>
 
       <H2>Les 3 rétrogradations de Mercure en 2027</H2>
       <RxTable />
@@ -205,6 +238,19 @@ export default function MercureRetrograde2027Post() {
         <Link href="/transits">transits</Link> exacts sur VOS planètes : une rétrogradation qui ne
         touche aucun point sensible de votre thème passera inaperçue.
       </P>
+
+      <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+        <Image
+          src={SansPaniqueImage}
+          alt="Un bureau du soir parfaitement en ordre : un contrat signé, un agenda, une tasse de thé et un presse-papier de laiton gravé du symbole de Mercure"
+          sizes="(max-width: 768px) 100vw, 800px"
+          className="h-auto w-full"
+        />
+        <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+          Des millions de contrats se signent pendant les rétrogradations. Le
+          climat est au « re- », pas à l’arrêt.
+        </figcaption>
+      </figure>
 
       <Callout title="Check-list des périodes rétrogrades">
         <p>Sauvegarder ses fichiers et confirmer ses rendez-vous par écrit.</p>

@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/mensonge-prefere-chaque-signe-zodiaque.webp";
+import ReflexeImage from "@/public/images/blog/mensonge-reflexe-protection.webp";
+import ManipulationImage from "@/public/images/blog/mensonge-ou-manipulation.webp";
 
 const ARTICLE_SLUG = "mensonge-prefere-chaque-signe-zodiaque";
 const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
@@ -37,8 +40,8 @@ export const metadata = {
     images: [
       {
         url: COVER_URL,
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 900,
         alt: "Le mensonge préféré de chaque signe du zodiaque",
       },
     ],
@@ -314,6 +317,22 @@ export default function Post() {
       />
 
       <article className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Un masque de verre parfaitement transparent flottant dans un ciel indigo, une flamme dorée visible au travers"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         {/* HEADER */}
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
           <div
@@ -390,6 +409,19 @@ export default function Post() {
             mais chaque mensonge est ancré dans la vraie mécanique du signe. Tu vas
             reconnaître quelqu&apos;un. Probablement toi.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ReflexeImage}
+              alt="Un minuscule bouclier de bronze dressé devant un grand œuf de verre lumineux, sur un bureau sombre"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              Un bouclier minuscule devant ce qu’il prétend protéger : c’est la
+              taille réelle d’un mensonge de protection.
+            </figcaption>
+          </figure>
         </section>
 
         {/* 12 SIGNES */}
@@ -847,6 +879,19 @@ export default function Post() {
             protègent, ce n&apos;est plus de l&apos;astrologie amusante : c&apos;est un
             signal.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ManipulationImage}
+              alt="Deux écrins de velours violet identiques : l’un contient une plume grise, l’autre un hameçon d’acier de la même courbe"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              Même écrin, deux contenus. L’un défend une fragilité, l’autre vient
+              chercher quelque chose.
+            </figcaption>
+          </figure>
         </section>
 
         {/* CONCLUSION */}

@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 import ChanceImage from "@/public/images/blog/chance-jeux-argent-loterie.webp";
+import FenetreImage from "@/public/images/blog/transits-fenetre-favorable.webp";
+import LoterieImage from "@/public/images/blog/loterie-boules-sans-numeros.webp";
 
 export const meta = {
   slug: "chance-jeux-argent-loterie-astrologie",
@@ -220,7 +222,7 @@ export default function ChanceJeuxArgentLoteriePost() {
 
       {/* IMAGE DE COUVERTURE */}
       <div className="relative w-full aspect-[7/3] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(251,191,36,0.1)] bg-[#0f0f13] flex items-center justify-center">
-        <Image src={ChanceImage} alt="Chance au jeu en astrologie : Jupiter, dés et pièces d'or sur fond cosmique" fill sizes="100vw" priority className="object-cover" />
+        <Image src={ChanceImage} alt="Une pièce d'or ancienne en équilibre sur sa tranche, sur une plaine de pierre sombre, sous un ciel étoilé où brille une planète géante aux bandes orangées" fill sizes="100vw" priority className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent z-10 pointer-events-none" />
       </div>
 
@@ -488,6 +490,19 @@ export default function ChanceJeuxArgentLoteriePost() {
           </Card>
         </div>
 
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={FenetreImage}
+            alt="Une haute fenêtre ogivale ouverte dans un mur de pierre sombre, donnant sur un ciel étoilé, dont la lumière dessine un rectangle sur le sol vide"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Une fenêtre s’ouvre — la pièce reste vide. Un transit décrit un
+            climat, pas ce que vous en ferez.
+          </figcaption>
+        </figure>
+
         <Callout tone="warn" title="Le piège du « bon moment »">
           <p>
             Croire qu&apos;un transit « autorise » à jouer gros est l&apos;une des erreurs les plus coûteuses. Un bon transit ne modifie pas les
@@ -523,6 +538,19 @@ export default function ChanceJeuxArgentLoteriePost() {
             </p>
           </Card>
         </div>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={LoterieImage}
+            alt="Sept boules d’ivoire parfaitement lisses, sans aucun numéro, dans un bol de bois, à côté d’un thème astral tracé au crayon"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Des boules sans numéros : c’est exactement ce qu’un thème contient
+            en matière de tirage.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />

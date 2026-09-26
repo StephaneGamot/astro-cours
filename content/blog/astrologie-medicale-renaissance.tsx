@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 import CoverImage from "@/public/images/blog/astrologie-medicale-renaissance.webp";
+import VolvelleImage from "@/public/images/blog/volvelle-lunaire.webp";
+import DeclinImage from "@/public/images/blog/declin-astrologie-medicale.webp";
 
 export const meta = {
   slug: "astrologie-medicale-renaissance",
@@ -219,7 +221,7 @@ export default function AstrologieMedicaleRenaissancePost() {
 
       {/* IMAGE DE COUVERTURE */}
       <div className="relative w-full aspect-[7/3] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(251,191,36,0.1)] bg-[#0f0f13] flex items-center justify-center">
-        <Image src={CoverImage} alt="Médecin de la Renaissance consultant une carte du ciel et un homme zodiacal à la lumière d'une bougie" fill sizes="100vw" priority className="object-cover" />
+        <Image src={CoverImage} alt="Manuscrit enluminé ouvert sur l'homme zodiacal : une figure humaine entourée des douze signes reliés aux parties du corps, éclairée par une bougie sur un bureau de bois sombre" fill sizes="100vw" priority className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent z-10 pointer-events-none" />
       </div>
 
@@ -427,6 +429,19 @@ export default function AstrologieMedicaleRenaissancePost() {
           </Card>
         </div>
 
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={VolvelleImage}
+            alt="Une volvelle lunaire — disques de papier concentriques et pivotants reliés par un fil — reliée dans un livre ancien, éclairée par une bougie, près d’un sablier"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            La volvelle : trois disques de papier pivotants pour situer la Lune
+            sans calcul. L’instrument réel derrière les « jours critiques ».
+          </figcaption>
+        </figure>
+
         <Callout tone="note" title="Une médecine du calendrier">
           <p>
             On comprend mieux l&apos;attrait du système : faute de pouvoir mesurer grand-chose, il offrait au médecin une{" "}
@@ -494,6 +509,19 @@ export default function AstrologieMedicaleRenaissancePost() {
           la symbolique que l&apos;astrologie contemporaine continue d&apos;explorer — non pour soigner, mais pour décrire des{" "}
           <em>tempéraments</em> et des <em>terrains</em> psychologiques.
         </p>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={DeclinImage}
+            alt="Un almanach astrologique fermé et poussiéreux à côté d’une planche d’anatomie ouverte sur la circulation du sang, un microscope de laiton et une bougie éteinte, en plein jour"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Le même bureau, un siècle plus tard : la bougie éteinte, la fenêtre
+            ouverte, et l’almanach refermé.
+          </figcaption>
+        </figure>
 
         <Callout tone="ok" title="Ce que l'astrologie médicale peut (et ne peut pas) éclairer aujourd'hui">
           <p>

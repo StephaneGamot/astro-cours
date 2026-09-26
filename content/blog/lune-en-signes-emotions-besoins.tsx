@@ -2,6 +2,8 @@ import type { ReactNode } from "react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
+import CoverImage from "@/public/images/blog/lune-en-signes-emotions-besoins.webp";
+import TrepiedImage from "@/public/images/blog/soleil-lune-ascendant-trepied.webp";
 
 export const meta = {
   slug: "lune-en-signes-emotions-besoins",
@@ -19,7 +21,7 @@ export const meta = {
     "bases",
   ],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/lunarien2.webp",
+  cover: "/images/blog/lune-en-signes-emotions-besoins.webp",
 };
 
 /* ────────────────────────────────────────────────────────────
@@ -595,6 +597,22 @@ export default function Post() {
       />
 
       <div className="space-y-12">
+        {/* ── IMAGE DE COUVERTURE (LCP) ────────────────────── */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Croissant de Lune doré renversé comme un berceau, tenant une sphère de lumière chaude au-dessus d’un lac immobile"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         {/* ── HERO ─────────────────────────────────────────── */}
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-indigo-500/[0.10] via-black/20 to-black/30 p-7 shadow-soft">
           <div
@@ -859,6 +877,20 @@ export default function Post() {
               </table>
             </div>
           </div>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={TrepiedImage}
+              alt="Un soleil éclatant à gauche, une pleine Lune à droite, et une aube dorée qui se lève entre les deux à l’horizon"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              Trois lumières, trois fonctions : le Soleil éclaire ce que l’on
+              vise, la Lune ce dont on a besoin, l’Ascendant ce que l’on montre
+              en arrivant.
+            </figcaption>
+          </figure>
 
           <p className="leading-relaxed text-text/85">
             Un exemple parlant : quelqu’un avec un Soleil{" "}

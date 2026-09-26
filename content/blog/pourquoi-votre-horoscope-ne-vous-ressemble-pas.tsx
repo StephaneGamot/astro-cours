@@ -2,6 +2,10 @@ import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import Image from "next/image";
+import CoverImage from "@/public/images/blog/horoscope-ne-vous-ressemble-pas.webp";
+import JournalImage from "@/public/images/blog/horoscope-1930-journal-vs-theme.webp";
+import AspectsImage from "@/public/images/blog/aspects-fils-tendus.webp";
 
 /* ================================================================== */
 /*  META / SEO                                                        */
@@ -331,6 +335,22 @@ export default function HoroscopeNeVousRessemblePasPost() {
         }}
       />
 
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13] sm:rounded-[2.5rem]">
+        <Image
+          src={CoverImage}
+          alt="Plusieurs feuilles translucides portant chacune une couche d’une carte du ciel, empilées en profondeur, et une feuille isolée presque vide portant un seul point cerclé"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       {/* ── Header ── */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-6 shadow-2xl backdrop-blur-xl sm:rounded-[2.5rem] sm:p-8 md:p-12">
         <div
@@ -440,6 +460,19 @@ export default function HoroscopeNeVousRessemblePasPost() {
             Deux personnes n&eacute;es le m&ecirc;me jour mais &agrave; quelques heures d&rsquo;&eacute;cart peuvent avoir un ascendant compl&egrave;tement diff&eacute;rent, une Lune dans un autre signe, et des maisons r&eacute;organis&eacute;es. Leur v&eacute;cu, leur personnalit&eacute; et leur destin seront radicalement diff&eacute;rents &mdash; malgr&eacute; un signe solaire identique.
           </p>
         </Callout>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={JournalImage}
+            alt="Un grand thème astral tracé à la main couvrant tout un bureau, avec posée dessus une page de journal ancienne ouverte sur une courte colonne"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            L’échelle réelle : la rubrique inventée en 1930 couvre un coin d’une
+            carte entière.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />
@@ -569,6 +602,19 @@ export default function HoroscopeNeVousRessemblePasPost() {
             Les aspects sont la cl&eacute; la plus fine de la personnalisation de votre th&egrave;me. Ce sont eux qui font que deux Scorpions, deux Taureaux ou deux G&eacute;meaux peuvent &ecirc;tre radicalement diff&eacute;rents. L&rsquo;horoscope ne peut pas en tenir compte &mdash; il faudrait pour cela conna&icirc;tre la position de chaque plan&egrave;te de chaque lecteur, ce qui revient &agrave; &eacute;tablir un th&egrave;me complet.
           </p>
         </Card>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={AspectsImage}
+            alt="Des épingles de laiton plantées en cercle sur une planche sombre, reliées par des fils tendus à des angles précis, certains lâches, d’autres très tendus"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Même cercle, tensions inégales. C’est ce qui fait que deux Scorpions
+            ne se ressemblent pas.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />

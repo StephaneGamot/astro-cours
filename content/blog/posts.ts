@@ -97,6 +97,10 @@ import LuneEnSignesPost, {
   meta as luneEnSignesMeta,
 } from "./lune-en-signes-emotions-besoins";
 
+import PlaneteDominantePost, {
+  meta as planeteDominanteMeta,
+} from "./planete-dominante-methode-calcul";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -115,6 +119,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: planeteDominanteMeta, Component: PlaneteDominantePost },
   { meta: luneEnSignesMeta, Component: LuneEnSignesPost },
   { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },
   { meta: mensongePrefereSignesMeta, Component: MensongePrefereSignesPost },
