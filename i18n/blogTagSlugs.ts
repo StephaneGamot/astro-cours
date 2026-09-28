@@ -35,6 +35,11 @@ for (const [frTag, t] of Object.entries(MAP)) {
   BY_ANY_SLUG[triple.es] = triple;
 }
 
+/** Le slug (dans n'importe quelle langue) correspond-il à un tag connu ? */
+export function isKnownBlogTagSlug(slug: string): boolean {
+  return Object.prototype.hasOwnProperty.call(BY_ANY_SLUG, slug);
+}
+
 /** Slug de tag localisé. Accepte un slug dans n'importe quelle langue. */
 export function localizeBlogTagSlug(slug: string, target: string): string {
   const entry = BY_ANY_SLUG[slug];

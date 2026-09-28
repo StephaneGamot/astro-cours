@@ -1,6 +1,6 @@
 import { Link } from "@/i18n/navigation";
 import { getLocale } from "next-intl/server";
-import { tagSlugFor, tagLabel } from "@/lib/blog";
+import { tagSlugFor, tagLabel, isIndexableCanonicalTag } from "@/lib/blog";
 
 /** Couleur d'un tag — keyée sur le tag canonique FR (inchangé par locale). */
 function tagStyle(tag: string) {
@@ -15,6 +15,14 @@ function tagStyle(tag: string) {
   return "border-white/10 bg-black/20 text-text/85";
 }
 
+/**
+ * Seuls les tags ayant une page indexable (TAG_PAGES) sont des liens.
+ * Les autres s'affichent en simple étiquette : leurs pages sont en noindex et
+ * ~300 liens internes vers elles (un par tag × article × langue) faisaient
+ * explorer à Googlebot presque autant de pages noindex que de pages utiles,
+ * au détriment des pages « Détectée, actuellement non indexée »
+ * (Search Console, 09/2026).
+ */
 export async function TagPills({ tags }: { tags?: string[] }) {
   if (!tags?.length) return null;
   const locale = await getLocale();
@@ -23,6 +31,17 @@ export async function TagPills({ tags }: { tags?: string[] }) {
     <div className="flex flex-wrap gap-2">
       {tags.map((tag) => {
         const label = tagLabel(tag, locale);
+        if (!isIndexableCanonicalTag(tag)) {
+          return (
+            <span
+              key={tag}
+              className={["rounded-full border px-3 py-1 text-sm", tagStyle(tag)].join(" ")}
+            >
+              <span className="opacity-80 mr-1">#</span>
+              {label}
+            </span>
+          );
+        }
         return (
           <Link
             key={tag}

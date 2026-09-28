@@ -16,6 +16,36 @@ import { localizeParamsForLocale } from "@/i18n/localizedSlug";
  */
 const SHORT: Record<Locale, string> = { fr: "FR", en: "EN", es: "ES" };
 
+/**
+ * Au rendu SERVEUR des pages prérendues dont le segment est traduit (constaté
+ * sur /en/compatibility/[pair] et /es/compatibilidad/[pair], 09/2026),
+ * usePathname() ne renvoie pas le template « /compatibilite/[pair] » mais le
+ * chemin interne déjà rempli (« /compatibilite/taurus-cancer ») : next-intl ne
+ * reconnaît pas ce chemin dans la locale courante. Le slug n'était alors pas
+ * traduit dans le HTML servi à Google → liens FR/ES vers des URL en 308.
+ * Le rendu client (après navigation) était, lui, correct.
+ *
+ * On reconstitue le template interne à partir des params dynamiques.
+ */
+function resolveTemplate(
+  pathname: string,
+  params: Record<string, string | string[] | undefined>,
+): string {
+  if (pathname.includes("[")) return pathname;
+  for (const [key, value] of Object.entries(params)) {
+    if (key === "locale" || typeof value !== "string") continue;
+    const suffix = `/${value}`;
+    if (!pathname.endsWith(suffix)) continue;
+    const base = pathname.slice(0, -suffix.length);
+    for (const [internal, localized] of Object.entries(routing.pathnames)) {
+      if (!internal.endsWith(`/[${key}]`)) continue;
+      const candidates = [internal, ...(typeof localized === "string" ? [localized] : Object.values(localized))];
+      if (candidates.includes(`${base}/[${key}]`)) return internal;
+    }
+  }
+  return pathname;
+}
+
 function fillTemplate(
   template: string,
   params: Record<string, string | string[] | undefined>,
@@ -31,8 +61,8 @@ export default function LocaleSwitcher({
 }: {
   className?: string;
 }) {
-  const pathname = usePathname();
   const params = useParams() as Record<string, string | string[] | undefined>;
+  const pathname = resolveTemplate(usePathname(), params);
   const active = useLocale();
   const t = useTranslations("localeSwitcher");
 

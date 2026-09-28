@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { permanentRedirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getAllPosts, getAllTags, tagToSlug, slugToTag } from "@/lib/blog";
+import { getAllPosts, getAllTags, tagToSlug, slugToTag, isIndexableTag } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 import {
   SITE_NAME,
@@ -78,7 +78,9 @@ export default async function BlogPage({
   }
 
   const posts = getAllPosts(loc);
-  const tags = getAllTags(loc);
+  // Uniquement les tags à page indexable (les autres sont en noindex : inutile
+  // d'y envoyer Googlebot depuis la page la plus liée du blog).
+  const tags = getAllTags(loc).filter((tg) => isIndexableTag(tg.slug, loc));
   const canonical = localizedPathUrl(INTERNAL_PATH, loc);
 
   return (

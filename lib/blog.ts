@@ -324,6 +324,11 @@ export function getTagPageConfig(localizedSlug: string, locale?: string) {
   return entry ? { copy: entry[asLoc(locale)], indexable: true } : null;
 }
 
+/** Tag canonique FR (tel que dans meta.tags) → a-t-il une page de tag indexable ? */
+export function isIndexableCanonicalTag(tag: string): boolean {
+  return Object.prototype.hasOwnProperty.call(TAG_PAGES, tagToSlug(tag));
+}
+
 export function isIndexableTag(localizedSlug: string, locale?: string): boolean {
   const canon = slugToTag(localizedSlug, locale);
   if (!canon) return false;

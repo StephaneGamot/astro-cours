@@ -324,14 +324,9 @@ function buildHomeJsonLd(loc: SeoLocale) {
         description: txt.orgDesc,
         inLanguage: lang,
         publisher: { "@id": ORGANIZATION_ID },
-        potentialAction: {
-          "@type": "SearchAction",
-          target: {
-            "@type": "EntryPoint",
-            urlTemplate: `${localeUrl(loc, "/blog")}?tag={search_term_string}`,
-          },
-          "query-input": "required name=search_term_string",
-        },
+        // SearchAction retiré (09/2026) : Google a abandonné la sitelinks
+        // search box et explorait littéralement /blog?tag={search_term_string}
+        // (remonté en « Page avec redirection » dans la Search Console).
       },
       course("course-signes", txt.courses.signes, "/signes", "PT6H"),
       course("course-planetes", txt.courses.planetes, "/planetes", "PT5H"),
