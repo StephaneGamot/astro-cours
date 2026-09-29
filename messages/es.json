@@ -37,7 +37,7 @@
     "legalNav": "Enlaces legales",
     "followOn": "Síguenos en {network}",
     "copyright": "© {year} Astro Cours — Sabiduría Celeste. Todos los derechos reservados.",
-    "webcredit": "Creación de sitios web en el País Vasco",
+    "webcreditPrefix": "Web realizada por",
     "columns": {
       "signes": "Signos",
       "planetes": "Planetas",

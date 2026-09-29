@@ -5,6 +5,18 @@ import { localizeSlug, type PillarType } from "@/i18n/slugs";
 export const SITE_URL = "https://www.astro-cours.com";
 export const SITE_NAME = "Astro Cours";
 
+/* ──────────────────────────────────────────────────────────────
+   Agence web de Stéphane (crédit « réalisé par » + page auteur)
+   ──────────────────────────────────────────────────────────────
+   Nom de marque invariant (identique à og:site_name du site agence)
+   → ancre de marque dans le footer sitewide, pas d'ancre mot-clé.
+   URL localisée : chaque langue pointe vers sa version (/fr, /en, /es).
+   ────────────────────────────────────────────────────────────── */
+export const AGENCY_NAME = "Création Site Internet Pays Basque";
+export function agencyUrl(loc: SeoLocale): string {
+  return `https://www.creation-site-internet-pays-basque.com/${loc}`;
+}
+
 // ✅ image OG par défaut
 export const DEFAULT_OG_IMAGE = "/og/cover.jpg";
 

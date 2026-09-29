@@ -37,7 +37,7 @@
     "legalNav": "Legal links",
     "followOn": "Follow us on {network}",
     "copyright": "© {year} Astro Cours — Celestial Wisdom. All rights reserved.",
-    "webcredit": "Website design in the Basque Country",
+    "webcreditPrefix": "Website by",
     "columns": {
       "signes": "Signs",
       "planetes": "Planets",

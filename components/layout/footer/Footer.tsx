@@ -2,6 +2,7 @@ import { getTranslations, getLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { getHomeCards } from "@/lib/homeCards";
 import { getAllPosts, getAllTags, isIndexableTag, getTagPageConfig, postSlugFor } from "@/lib/blog";
+import { AGENCY_NAME, agencyUrl, toSeoLocale } from "@/lib/seo";
 import type { ComponentType, SVGProps } from "react";
 
 /* ────────────────────────────────────────────────────────────────
@@ -550,9 +551,10 @@ export default async function Footer() {
             <p className="text-sm text-slate-400">
               {t("copyright", { year: new Date().getFullYear() })}
             </p>
-            <address className="not-italic flex flex-wrap items-center gap-x-2 gap-y-1">
+            <address className="not-italic flex flex-wrap items-center gap-x-1.5 gap-y-1">
+              <span className="text-sm text-slate-400">{t("webcreditPrefix")}</span>
               <a
-                href="https://www.creation-site-internet-pays-basque.com/fr"
+                href={agencyUrl(toSeoLocale(locale))}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={[
@@ -562,7 +564,7 @@ export default async function Footer() {
                   "focus-visible:ring-offset-2 focus-visible:ring-offset-[#09090b]",
                 ].join(" ")}
               >
-                {t("webcredit")}
+                {AGENCY_NAME}
                 <IconExternal
                   className="size-3 text-slate-500 transition-colors duration-200 group-hover:text-violet-400"
                   aria-hidden="true"

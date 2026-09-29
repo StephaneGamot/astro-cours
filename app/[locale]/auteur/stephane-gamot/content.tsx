@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { SeoLocale } from "@/lib/seo";
+import { agencyUrl, type SeoLocale } from "@/lib/seo";
 
 /* ====================================================================
    Auteur — Stéphane Gamot — contenu localisé (fr / en / es)
@@ -185,7 +185,7 @@ const fr: AuteurContent = {
           <strong className="text-text/90">ingénieur en développement logiciel</strong> et je conçois
           des sites web sur mesure via mon studio de{" "}
           <a
-            href="https://www.creation-site-internet-pays-basque.com/fr"
+            href={agencyUrl("fr")}
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-accent/80 underline decoration-1 underline-offset-2 hover:text-accent"
@@ -459,7 +459,7 @@ const en: AuteurContent = {
           <strong className="text-text/90">software development engineer</strong> and I build custom
           websites through my{" "}
           <a
-            href="https://www.creation-site-internet-pays-basque.com/fr"
+            href={agencyUrl("en")}
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-accent/80 underline decoration-1 underline-offset-2 hover:text-accent"
@@ -732,7 +732,7 @@ const es: AuteurContent = {
           <strong className="text-text/90">ingeniero de desarrollo de software</strong> y diseño
           sitios web a medida a través de mi{" "}
           <a
-            href="https://www.creation-site-internet-pays-basque.com/fr"
+            href={agencyUrl("es")}
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium text-accent/80 underline decoration-1 underline-offset-2 hover:text-accent"

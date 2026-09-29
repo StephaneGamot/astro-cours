@@ -37,7 +37,7 @@
     "legalNav": "Liens légaux",
     "followOn": "Suivez-nous sur {network}",
     "copyright": "© {year} Astro Cours — Sagesse Céleste. Tous droits réservés.",
-    "webcredit": "Création de site internet au Pays Basque",
+    "webcreditPrefix": "Site réalisé par",
     "columns": {
       "signes": "Signes",
       "planetes": "Planètes",

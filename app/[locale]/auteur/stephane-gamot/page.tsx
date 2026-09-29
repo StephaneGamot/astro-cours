@@ -15,7 +15,10 @@ import {
   Leaf,
 } from "lucide-react";
 import {
+  AGENCY_NAME,
+  SITE_URL,
   absoluteUrl,
+  agencyUrl,
   buildMeta,
   localizedPathUrl,
   pathLanguageAlternates,
@@ -107,6 +110,8 @@ export default async function AuteurPage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
+    // Même @id que le Person du graphe de la home → une seule entité pour Google.
+    "@id": `${SITE_URL}${INTERNAL_PATH}#person`,
     name: "Stéphane Gamot",
     url: localizedPathUrl(INTERNAL_PATH, loc),
     sameAs: [
@@ -114,6 +119,14 @@ export default async function AuteurPage({
       "https://www.facebook.com/profile.php?id=61577719253973",
     ],
     jobTitle: c.jsonld.jobTitle,
+    worksFor: [
+      { "@id": `${SITE_URL}#organization` },
+      {
+        "@type": "Organization",
+        name: AGENCY_NAME,
+        url: agencyUrl(loc),
+      },
+    ],
     description: c.jsonld.description,
     knowsAbout: c.jsonld.knowsAbout,
     alumniOf: {
