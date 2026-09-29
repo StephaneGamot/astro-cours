@@ -6,6 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import NeptunienImage from "@/public/images/blog/neptunien.webp";
 import Neptunien2Image from "@/public/images/blog/neptunien2.webp";
 import Neptunien3Image from "@/public/images/blog/neptunien3.webp";
+import NeptuneAffligeImage from "@/public/images/blog/neptune-afflige.webp";
 
 export const meta = {
   slug: "neptunien",
@@ -251,10 +252,10 @@ export default function NeptunienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[16/9]">
         <Image
           src={NeptunienImage}
-          alt="Portrait symbolique du tempérament neptunien en astrologie"
+          alt="Une silhouette immobile dans une eau étale à l’aube, dans un brouillard épais où l’on ne distingue plus l’horizon"
           fill
           sizes="100vw"
           priority
@@ -373,10 +374,10 @@ export default function NeptunienPost() {
         </Card>
       </section>
 
-       <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[7/3]">
+       <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[16/9]">
         <Image
           src={Neptunien2Image}
-          alt="Portrait du Dieu des 7 océans en astrologie"
+          alt="Une personne agenouillée au bord d’un bassin au crépuscule, tendant la main vers son propre reflet"
           fill
           sizes="100vw"
           className="object-cover"
@@ -405,6 +406,15 @@ export default function NeptunienPost() {
 
       <section className="space-y-6">
         <H2>Neptune affligé dans le thème natal : addictions, mensonges et fuite du réel</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={NeptuneAffligeImage}
+            alt="Une barque à la dérive dans un brouillard épais, les avirons manquants et l’amarre rompue traînant dans l’eau"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="L'ombre de Neptune">
           <p>
@@ -449,10 +459,10 @@ export default function NeptunienPost() {
         </Card>
       </section>
 
-     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[7/3]">
+     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[16/9]">
         <Image
           src={Neptunien3Image}
-          alt="Portrait de Neptune en astrologie"
+          alt="Une femme peignant au bord de l’eau au crépuscule, sa toile plus nette que la mer et le ciel confondus devant elle"
           fill
           sizes="100vw"
           className="object-cover"

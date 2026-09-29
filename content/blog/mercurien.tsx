@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import MercurienImage from "@/public/images/blog/mercurien.webp";
 import Mercurien2Image from "@/public/images/blog/mercurien2.webp";
+import MercureAffligeImage from "@/public/images/blog/mercure-afflige.webp";
+import MercurienneImage from "@/public/images/blog/mercurienne.webp";
 
 export const meta = {
   slug: "mercurien",
@@ -255,10 +257,10 @@ export default function MercurienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[16/9]">
         <Image
           src={MercurienImage}
-          alt="Portrait symbolique du tempérament mercurien en astrologie"
+          alt="Un jeune messager ailé courant sur une route de montagne à l’aube, une sacoche de lettres dans le dos"
           fill
           sizes="100vw"
           priority
@@ -364,10 +366,10 @@ export default function MercurienPost() {
         </Card>
       </section>
 
-    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[7/3]">
+    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[16/9]">
         <Image
           src={Mercurien2Image}
-          alt="Portrait du Dieu Mercure en astrologie"
+          alt="Un carrefour de pierre où cinq routes mènent chacune vers un paysage différent, une borne ancienne au centre"
           fill
           sizes="100vw"
           className="object-cover"
@@ -416,6 +418,15 @@ export default function MercurienPost() {
 
       <section className="space-y-6">
         <H2>Mercure affligé dans le thème natal : nervosité, mensonge et dispersion</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MercureAffligeImage}
+            alt="Un paquet de lettres dispersé par le vent sur une terrasse de pierre, sceaux brisés, sacoche vide au sol"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="L’ombre de Mercure">
           <p>
@@ -434,6 +445,15 @@ export default function MercurienPost() {
 
       <section className="space-y-6">
         <H2>La Mercurienne en astrologie : portrait de la femme à dominante Mercure</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MercurienneImage}
+            alt="Une jeune femme écrivant à une table de pierre près d’une fenêtre ouverte à l’aube, des sandales ailées posées sous le banc"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>

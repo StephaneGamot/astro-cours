@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import VenusienImage from "@/public/images/blog/venus1.webp";
 import VenusienImage2 from "@/public/images/blog/venus2.webp";
+import VenusAffligeeImage from "@/public/images/blog/venus-affligee.webp";
+import VenusienneImage from "@/public/images/blog/venusienne.webp";
 
 export const meta = {
   slug: "venusien",
@@ -26,7 +28,7 @@ export const meta = {
     "intermédiaire",
   ],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/venus2.webp",
+  cover: "/images/blog/venus1.webp",
 };
 
 function Kicker({ children }: { children: ReactNode }) {
@@ -253,10 +255,10 @@ export default function VenusienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[16/9]">
         <Image
           src={VenusienImage}
-          alt="Portrait symbolique du tempérament vénusien en astrologie"
+          alt="Vénus debout dans un jardin clos à l’heure dorée, tenant un miroir de bronze qui renvoie la lumière sur un massif de roses"
           fill
           sizes="100vw"
           priority
@@ -370,10 +372,10 @@ export default function VenusienPost() {
         </Card>
       </section>
 
-       <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[7/3]">
+       <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[16/9]">
         <Image
           src={VenusienImage2}
-          alt="Portrait de la déesse Vénus en astrologie"
+          alt="Une fontaine de marbre au crépuscule, deux colombes sur sa margelle, des pétales de rose sur l’eau"
           fill
           sizes="100vw"
           className="object-cover"
@@ -403,6 +405,15 @@ export default function VenusienPost() {
 
       <section className="space-y-6">
         <H2>Vénus affligée dans le thème natal : paresse, jalousie et manipulation</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={VenusAffligeeImage}
+            alt="Une nature morte au crépuscule : fruits trop mûrs sur un plat d’argent, roses défaites, miroir de bronze retourné et coupe renversée"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="L’ombre de Vénus">
           <p>
@@ -418,6 +429,15 @@ export default function VenusienPost() {
 
       <section className="space-y-6">
         <H2>La Vénusienne en astrologie : portrait de la femme à dominante Vénus</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={VenusienneImage}
+            alt="Une jeune femme au travail dans son atelier à l’heure dorée, manches relevées, absorbée par son ouvrage"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>

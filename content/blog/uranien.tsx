@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import UranienImage from "@/public/images/blog/uranien.webp";
 import Uranien2Image from "@/public/images/blog/uranien2.webp";
+import UranienIndividuationImage from "@/public/images/blog/uranien-individuation.webp";
+import UranienneImage from "@/public/images/blog/uranienne.webp";
 
 export const meta = {
   slug: "uranien",
@@ -253,10 +255,10 @@ export default function UranienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(167,139,250,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(167,139,250,0.12)] aspect-[16/9]">
         <Image
           src={UranienImage}
-          alt="Portrait symbolique du tempérament uranien en astrologie"
+          alt="Un jeune inventeur lâchant un planeur artisanal depuis une falaise à l’aube, la machine venant de prendre le vent"
           fill
           sizes="100vw"
           priority
@@ -338,6 +340,15 @@ export default function UranienPost() {
 
       <section className="space-y-6">
         <H2>Le Cycle de l&apos;Uranien : Les Deux Phases de l&apos;Individuation</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={UranienIndividuationImage}
+            alt="Une rivière gelée qui se fracture au dégel, la glace encore lisse d’un côté, l’eau noire courant dessous"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="La Première Phase : L&apos;Exil Volontaire et la Condensation (Avant 40 ans)">
           <p>
@@ -433,10 +444,10 @@ export default function UranienPost() {
         </Callout>
       </section>
 
-    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(167,139,250,0.12)] aspect-[7/3]">
+    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(167,139,250,0.12)] aspect-[16/9]">
         <Image
           src={Uranien2Image}
-          alt="Portrait de Ouranos en astrologie"
+          alt="Une machine de laiton disloquée sur le plancher d’un atelier, engrenages et ressorts éparpillés"
           fill
           sizes="100vw"
           className="object-cover"
@@ -446,6 +457,15 @@ export default function UranienPost() {
 
       <section className="space-y-6">
         <H2>L&apos;Uranienne en astrologie : portrait de la femme à dominante Uranus</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={UranienneImage}
+            alt="Une femme penchée sur un appareil de bobines et d’électrodes dans son laboratoire, un arc électrique violet éclairant son visage"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>

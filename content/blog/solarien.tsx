@@ -6,6 +6,8 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import SolarienImage from "@/public/images/blog/solarien.webp";
 import Solarien2Image from "@/public/images/blog/solarien2.webp";
 import Solarien3Image from "@/public/images/blog/solarien3.webp";
+import SolarienneImage from "@/public/images/blog/solarienne.webp";
+import SoleilAffligeImage from "@/public/images/blog/soleil-afflige-chute.webp";
 
 export const meta = {
   slug: "solarien",
@@ -254,10 +256,10 @@ export default function SolarienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[16/9]">
         <Image
           src={SolarienImage}
-          alt="Portrait du Dieu soleil"
+          alt="Un souverain antique debout seul sur une terrasse de marbre, minuscule devant un immense soleil levant qui emplit l’horizon"
           fill
           sizes="100vw"
           priority
@@ -378,10 +380,10 @@ export default function SolarienPost() {
         </Card>
       </section>
 
-   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[7/3]">
+   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[16/9]">
         <Image
           src={Solarien3Image}
-          alt="Portrait du Dieu Soleil en astrologie"
+          alt="Une figure solaire allongée dans les nuées dorées, le visage tourné vers un soleil voilé de brume"
           fill
           sizes="100vw"
           className="object-cover"
@@ -413,6 +415,15 @@ export default function SolarienPost() {
 
       <section className="space-y-6">
         <H2>Soleil affligé dans le thème natal : la face sombre du Solarien</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={SoleilAffligeImage}
+            alt="Un trône de pierre doré, vide, dans une salle en pénombre, éclairé par un mince rai de lumière tombant d’une ouverture haute"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="L’ombre du Soleil">
           <p>
@@ -427,10 +438,10 @@ export default function SolarienPost() {
         </Callout>
       </section>
 
-   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[7/3]">
+   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[16/9]">
         <Image
           src={Solarien2Image}
-          alt="Portrait d'Apollon Dieu soleil en astrologie"
+          alt="Apollon ailé debout devant un disque solaire doré, dans un ciel de nuages clairs"
           fill
           sizes="100vw"
           className="object-cover"
@@ -440,6 +451,15 @@ export default function SolarienPost() {
 
       <section className="space-y-6">
         <H2>La Solarienne en astrologie : portrait de la femme à dominante Soleil</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={SolarienneImage}
+            alt="Une souveraine antique debout dans la lumière du soleil levant, drapée d’or, une couronne de rayons dans les cheveux"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>

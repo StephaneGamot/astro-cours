@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import JupiterienImage from "@/public/images/blog/jupiterien1.webp";
 import JupiterienImage2 from "@/public/images/blog/jupiterien2.webp";
+import JupiterAffligeImage from "@/public/images/blog/jupiter-afflige.webp";
+import JupiterienSocieteImage from "@/public/images/blog/jupiterien-societe.webp";
 
 export const meta = {
   slug: "jupiterien",
@@ -251,10 +253,10 @@ export default function JupiterienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[16/9]">
         <Image
           src={JupiterienImage}
-          alt="Portrait symbolique du tempérament jupitérien en astrologie"
+          alt="Un homme âgé en robes ambre et pourpre sur une terrasse de pierre, le bras ouvert au-dessus d’une vaste vallée fertile"
           fill
           sizes="100vw"
           priority
@@ -341,6 +343,15 @@ export default function JupiterienPost() {
 
       <section className="space-y-6">
         <H2>Le Jupitérien en société : générosité, prestige et sens du commandement</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={JupiterienSocieteImage}
+            alt="Un grand pont de pierre tout juste achevé enjambant une vallée à l’heure dorée, sa route menant vers une cité lointaine"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="La vie sociale">
           <p>
@@ -395,6 +406,15 @@ export default function JupiterienPost() {
 
       <section className="space-y-6">
         <H2>Jupiter affligé dans le thème natal : excès, mégalomanie et gaspillage</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={JupiterAffligeImage}
+            alt="Une table de banquet démesurée et déserte, chargée de plats intacts qui débordent sur le sol"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="L’ombre de Jupiter">
           <p>
@@ -430,10 +450,10 @@ export default function JupiterienPost() {
         </Card>
       </section>
 
-        <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[7/3]">
+        <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[16/9]">
         <Image
           src={JupiterienImage2}
-          alt="Portrait de Zeus en astrologie"
+          alt="Une femme en robes ambre et pourpre devant un pupitre de pierre, un grand livre ouvert, la main levée en pleine explication"
           fill
           sizes="100vw"
           className="object-cover"

@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import MartienImage from "@/public/images/blog/martien.webp";
 import Martien2Image from "@/public/images/blog/martien2.webp";
+import MarsAffligeImage from "@/public/images/blog/mars-afflige.webp";
+import MartienneImage from "@/public/images/blog/martienne.webp";
 
 export const meta = {
   slug: "martien",
@@ -253,10 +255,10 @@ export default function MartienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[16/9]">
         <Image
           src={MartienImage}
-          alt="Portrait symbolique du tempérament martien en astrologie"
+          alt="Un jeune forgeron au marteau levé devant une barre de fer incandescente sur l’enclume"
           fill
           sizes="100vw"
           priority
@@ -388,10 +390,10 @@ export default function MartienPost() {
         </Card>
       </section>
 
-    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[7/3]">
+    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[16/9]">
         <Image
           src={Martien2Image}
-          alt="Portrait du Dieu Ares, Dieu de la guerre en astrologie"
+          alt="Un feu de bois à son maximum sur une grève rocheuse la nuit, le bois déjà à moitié consumé"
           fill
           sizes="100vw"
           className="object-cover"
@@ -428,6 +430,15 @@ export default function MartienPost() {
 
       <section className="space-y-6">
         <H2>Mars affligé dans le thème natal : violence, colère et autodestruction</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MarsAffligeImage}
+            alt="Une lame forgée brisée en deux sur une enclume froide, la forge éteinte et le marteau tombé au sol"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="L’ombre de Mars">
           <p>
@@ -446,6 +457,15 @@ export default function MartienPost() {
 
       <section className="space-y-6">
         <H2>La Martienne en astrologie : portrait de la femme à dominante Mars</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MartienneImage}
+            alt="Une cavalière arrêtée sur une crête à l’aube, une lance posée en travers de la selle, observant la vallée"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>

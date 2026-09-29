@@ -5,7 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import LunarienImage from "@/public/images/blog/lunarien.webp";
 import Lunarien2Image from "@/public/images/blog/lunarien2.webp";
-import Lunarien3Image from "@/public/images/blog/lunarien3.webp";
+import LunarienAbsorbeImage from "@/public/images/blog/lunarien-absorbe-emotions.webp";
+import LuneAffligeeImage from "@/public/images/blog/lune-affligee.webp";
 
 export const meta = {
   slug: "lunarien",
@@ -256,10 +257,10 @@ export default function LunarienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
           src={LunarienImage}
-          alt="Portrait symbolique du tempérament lunarien en astrologie"
+          alt="Séléné debout au bord d’une mer nocturne étale, drapée d’argent, la pleine Lune se reflétant jusqu’à ses pieds"
           fill
           sizes="100vw"
           priority
@@ -344,10 +345,10 @@ export default function LunarienPost() {
         </Card>
       </section>
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
-          src={Lunarien2Image}
-          alt="Portrait de Selene des temps moderne"
+          src={LunarienAbsorbeImage}
+          alt="Un bassin d’eau parfaitement immobile reflétant la pleine Lune, troublé par une seule goutte dont les cercles s’élargissent"
           fill
           sizes="100vw"
           className="object-cover"
@@ -425,10 +426,10 @@ export default function LunarienPost() {
         </Callout>
       </section>
 
-    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[7/3]">
+    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
-          src={Lunarien3Image}
-          alt="Statut de Selene dans la mythologie grecque"
+          src={LuneAffligeeImage}
+          alt="Une pleine Lune voilée par les nuages au-dessus d’une mer agitée, son reflet brisé en éclats"
           fill
           sizes="100vw"
           className="object-cover"
@@ -438,6 +439,15 @@ export default function LunarienPost() {
 
       <section className="space-y-6">
         <H2>La Lunarienne en astrologie : portrait de la femme à dominante Lune</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={Lunarien2Image}
+            alt="Une femme aux cheveux clairs devant une pleine Lune immense qui se reflète sur une eau calme"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>

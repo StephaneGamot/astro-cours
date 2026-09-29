@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import PlutonienImage from "@/public/images/blog/plutonien.webp";
 import Plutonien2Image from "@/public/images/blog/plutonien2.webp";
+import PlutonAffligeImage from "@/public/images/blog/pluton-afflige.webp";
+import PlutonienneImage from "@/public/images/blog/plutonienne.webp";
 
 export const meta = {
   slug: "plutonien",
@@ -253,10 +255,10 @@ export default function PlutonienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[16/9]">
         <Image
           src={PlutonienImage}
-          alt="Portrait symbolique du tempérament plutonien en astrologie"
+          alt="Un filon d’or apparu dans une roche fraîchement fendue, éclairé par une lampe de mineur posée au sol"
           fill
           sizes="100vw"
           priority
@@ -401,6 +403,15 @@ export default function PlutonienPost() {
 
       <section className="space-y-6">
         <H2>Pluton affligé dans le thème natal : obsessions, manipulation et autodestruction</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={PlutonAffligeImage}
+            alt="Une vieille serrure de laiton profondément rayée tout autour du trou, une clé brisée au sol"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="L’ombre de Pluton">
           <p>
@@ -419,6 +430,15 @@ export default function PlutonienPost() {
 
       <section className="space-y-6">
         <H2>La Plutonienne en astrologie : portrait de la femme à dominante Pluton</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={PlutonienneImage}
+            alt="Une femme agenouillée dans une tranchée de fouilles, dégageant au pinceau un visage de pierre sortant de la terre"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>
@@ -452,10 +472,10 @@ export default function PlutonienPost() {
       </section>
 
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[16/9]">
         <Image
           src={Plutonien2Image}
-          alt="Portrait de Hades en astrologie"
+          alt="Un portrait en clair-obscur profond, la moitié du visage dans l’ombre, le regard droit et calme"
           fill
           sizes="100vw"
           className="object-cover"

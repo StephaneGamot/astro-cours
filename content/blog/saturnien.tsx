@@ -6,6 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import SaturnienImage from "@/public/images/blog/saturnien.webp";
 import Saturnien2Image from "@/public/images/blog/saturnien2.webp";
 import Saturnien3Image from "@/public/images/blog/saturnien3.webp";
+import SaturnienneImage from "@/public/images/blog/saturnienne.webp";
 
 export const meta = {
   slug: "saturnien",
@@ -254,10 +255,10 @@ export default function SaturnienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[16/9]">
         <Image
           src={SaturnienImage}
-          alt="Portrait du Dieu Saturneen astrologie"
+          alt="Un vieil homme agenouillé plantant un jeune arbre dans un champ de pierres à l’aube froide"
           fill
           sizes="100vw"
           priority
@@ -363,10 +364,10 @@ export default function SaturnienPost() {
         </Card>
       </section>
 
-         <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[7/3]">
+         <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[16/9]">
         <Image
           src={Saturnien3Image}
-          alt="Portrait symbolique du tempérament saturnien en astrologie"
+          alt="Une maison de pierre seule sur une colline enneigée la nuit, une seule fenêtre éclairée"
           fill
           sizes="100vw"
           className="object-cover"
@@ -441,10 +442,10 @@ export default function SaturnienPost() {
         </Callout>
       </section>
 
-     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[7/3]">
+     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[16/9]">
         <Image
           src={Saturnien2Image}
-          alt="Portrait du Dieu du temps en astrologie"
+          alt="Une porte de pierre murée de l’intérieur, la maçonnerie neuve et soignée, une clé de fer pendue à son clou"
           fill
           sizes="100vw"
           className="object-cover"
@@ -454,6 +455,15 @@ export default function SaturnienPost() {
 
       <section className="space-y-6">
         <H2>La Saturnienne en astrologie : portrait de la femme à dominante Saturne</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={SaturnienneImage}
+            alt="Une femme en laine grise mesurant une maquette de voûte sur sa table à dessin, devant une fenêtre"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="L’expression Yin">
           <p>
