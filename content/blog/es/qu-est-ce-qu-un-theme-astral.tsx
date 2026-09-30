@@ -5,7 +5,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qu-est-ce-qu-un-theme-astral`;
-const COVER_URL = `${SITE_URL}/images/blog/theme-astral.jpg`;
+const COVER_URL = `${SITE_URL}/images/blog/theme-astral-carte-du-ciel.webp`;
 
 export const meta = {
   slug: "qu-est-ce-qu-un-theme-astral",
@@ -20,7 +20,7 @@ export const meta = {
   date: "2026-01-05",
   tags: ["bases", "thème astral", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/theme-astral.webp",
+  cover: "/images/blog/theme-astral-carte-du-ciel.webp",
   ogImage: COVER_URL,
   ogImageAlt: "Ilustración pedagógica de la carta natal",
   type: "article" as const,

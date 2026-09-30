@@ -253,7 +253,7 @@ export default function PlutonienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[16/9]">
         <Image
           src={PlutonienImage}
           alt="Retrato simbólico del temperamento plutoniano en astrología"
@@ -452,7 +452,7 @@ export default function PlutonienPost() {
       </section>
 
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(217,70,239,0.12)] aspect-[16/9]">
         <Image
           src={Plutonien2Image}
           alt="Retrato de Hades en astrología"

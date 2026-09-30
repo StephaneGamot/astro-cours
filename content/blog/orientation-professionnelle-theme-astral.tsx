@@ -3,6 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import SeigneurActionImage from "@/public/images/blog/seigneur-de-laction.webp";
+import MilieuDuCielImage from "@/public/images/blog/milieu-du-ciel.webp";
 import OrientationProImage from "@/public/images/blog/orientation-professionnelle-theme-astral.webp";
 
 export const meta = {
@@ -245,7 +247,7 @@ export default function OrientationProfessionnelleThemeAstralPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[16/9]">
         <Image
           src={OrientationProImage}
           alt="Illustration symbolique de l’orientation professionnelle en astrologie"
@@ -379,6 +381,16 @@ export default function OrientationProfessionnelleThemeAstralPost() {
       <section className="space-y-6">
         <H2>1) Les trois seigneurs de l&apos;action : comment identifier votre vocation</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={SeigneurActionImage}
+            alt="Trois outils d’artisan posés côte à côte, un seul saisi par la lumière"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Trois candidats possibles — un seul mène réellement l’action.</figcaption>
+        </figure>
+
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Dans cette méthode, trois planètes donnent la{" "}
           <strong className="font-medium text-amber-200">nature fondamentale de la vocation</strong>.
@@ -502,6 +514,16 @@ export default function OrientationProfessionnelleThemeAstralPost() {
 
       <section className="space-y-6">
         <H2>3) Maison X et Milieu du Ciel : pourquoi ils ne suffisent pas seuls</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MilieuDuCielImage}
+            alt="Point le plus haut d’une trajectoire lumineuse au-dessus d’un paysage sombre"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Le Milieu du Ciel dit le point le plus visible du parcours, pas le métier.</figcaption>
+        </figure>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           La maison X parle de reconnaissance sociale, de réussite visible, de

@@ -6,7 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 const ARTICLE_SLUG = "quel-type-de-sportif-selon-signe-astrologique";
 const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
-const COVER_URL = `${SITE_URL}/images/blog/le-sporti-que-vous-etres-selon-votre-signe-astrologique.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/sport-signe-astrologique-effort.webp`;
 
 export const meta = {
   slug: ARTICLE_SLUG,
@@ -16,7 +16,7 @@ export const meta = {
   date: "2026-02-18",
   tags: ["sport", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/le-sporti-que-vous-etres-selon-votre-signe-astrologique.webp",
+  cover: "/images/blog/sport-signe-astrologique-effort.webp",
 };
 
 export const metadata = {
@@ -36,8 +36,8 @@ export const metadata = {
     images: [
       {
         url: COVER_URL,
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 900,
         alt: "What kind of athlete are you according to your zodiac sign?",
       },
     ],

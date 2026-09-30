@@ -256,7 +256,7 @@ export default function LunarienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
           src={LunarienImage}
           alt="Symbolic portrait of the lunar temperament in astrology"
@@ -344,7 +344,7 @@ export default function LunarienPost() {
         </Card>
       </section>
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
           src={Lunarien2Image}
           alt="Portrait of a modern-day Selene"
@@ -425,7 +425,7 @@ export default function LunarienPost() {
         </Callout>
       </section>
 
-    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[7/3]">
+    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
           src={Lunarien3Image}
           alt="Statue of Selene in Greek mythology"

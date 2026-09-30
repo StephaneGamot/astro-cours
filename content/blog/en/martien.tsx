@@ -253,7 +253,7 @@ export default function MartienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[16/9]">
         <Image
           src={MartienImage}
           alt="Symbolic portrait of the Martian temperament in astrology"
@@ -388,7 +388,7 @@ export default function MartienPost() {
         </Card>
       </section>
 
-    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[7/3]">
+    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(248,113,113,0.12)] aspect-[16/9]">
         <Image
           src={Martien2Image}
           alt="Portrait of the god Ares, god of war, in astrology"

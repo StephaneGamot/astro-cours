@@ -251,7 +251,7 @@ export default function JupiterienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[16/9]">
         <Image
           src={JupiterienImage}
           alt="Symbolic portrait of the Jupiterian temperament in astrology"
@@ -430,7 +430,7 @@ export default function JupiterienPost() {
         </Card>
       </section>
 
-        <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[7/3]">
+        <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(245,158,11,0.12)] aspect-[16/9]">
         <Image
           src={JupiterienImage2}
           alt="Portrait of Zeus in astrology"

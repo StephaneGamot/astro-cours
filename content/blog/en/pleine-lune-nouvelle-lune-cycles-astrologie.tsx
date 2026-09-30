@@ -11,7 +11,7 @@ export const meta = {
   date: "2026-02-07",
   tags: ["lune", "émotions", "cycles", "bases", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/lune-cycles.jpg",
+  cover: "/images/blog/cycles-lunaires-phases-arc.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;

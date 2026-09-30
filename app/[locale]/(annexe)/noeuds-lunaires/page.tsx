@@ -33,6 +33,7 @@ export async function generateMetadata({
     description: c.meta.description,
     canonicalPath: INTERNAL_PATH,
     type: "article",
+    ogImage: "/images/noeuds-lunaires.webp",
     locale: loc,
     canonicalUrl: localizedPathUrl(INTERNAL_PATH, loc),
     languages: pathLanguageAlternates(INTERNAL_PATH),

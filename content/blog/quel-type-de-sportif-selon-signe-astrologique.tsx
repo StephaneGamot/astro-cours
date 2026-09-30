@@ -3,10 +3,13 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/sport-signe-astrologique-effort.webp";
+import ForgeImage from "@/public/images/blog/energie-forge-trois-outils.webp";
+import SentierImage from "@/public/images/blog/sport-durable-sentier-trace.webp";
 
 const ARTICLE_SLUG = "quel-type-de-sportif-selon-signe-astrologique";
 const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
-const COVER_URL = `${SITE_URL}/images/blog/le-sporti-que-vous-etres-selon-votre-signe-astrologique.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/sport-signe-astrologique-effort.webp`;
 
 export const meta = {
   slug: ARTICLE_SLUG,
@@ -16,7 +19,7 @@ export const meta = {
   date: "2026-02-18",
   tags: ["sport", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/le-sporti-que-vous-etres-selon-votre-signe-astrologique.webp",
+  cover: "/images/blog/sport-signe-astrologique-effort.webp",
 };
 
 export const metadata = {
@@ -36,8 +39,8 @@ export const metadata = {
     images: [
       {
         url: COVER_URL,
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 900,
         alt: "Quel type de sportif êtes-vous selon votre signe astrologique ?",
       },
     ],
@@ -268,6 +271,22 @@ export default function Post() {
       />
 
       <article className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Trois silhouettes sur une crête de montagne à l’aube, chacune dans un effort différent sous un ciel étoilé"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         <header
           className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft"
         >
@@ -334,6 +353,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="sport-et-astrologie">
           <H2 id="sport-et-astrologie">Sport et astrologie : une logique d’énergie</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ForgeImage}
+              alt="Trois objets de fer sortis de la même forge : une lame, un fer à cheval, un ciseau"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">Le même feu, trois objets : l’énergie est la même, la forme qu’elle prend change tout.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             Le sport ne se vit pas de la même manière pour tout le monde.
@@ -617,6 +646,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="conclusion-article">
           <H2 id="conclusion-article">Conclusion</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={SentierImage}
+              alt="Sentier creusé dans l’herbe d’une prairie par le passage répété, en lumière rasante"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">Le bon sport n’est pas le plus impressionnant : c’est celui qu’on refait demain.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             Le signe astrologique ne détermine pas un sport unique,

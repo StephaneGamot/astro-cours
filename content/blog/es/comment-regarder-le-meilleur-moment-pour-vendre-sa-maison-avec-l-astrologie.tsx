@@ -11,7 +11,7 @@ export const meta = {
   date: "2026-03-03",
   tags: ["immobilier", "déménagement", "transits", "maisons astrologiques", "méthode"],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/immobilier-demenagement.webp",
+  cover: "/images/blog/vendre-maison-astrologie-timing.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;

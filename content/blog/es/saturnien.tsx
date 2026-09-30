@@ -254,7 +254,7 @@ export default function SaturnienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[16/9]">
         <Image
           src={SaturnienImage}
           alt="Retrato del dios Saturno en astrología"
@@ -363,7 +363,7 @@ export default function SaturnienPost() {
         </Card>
       </section>
 
-         <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[7/3]">
+         <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[16/9]">
         <Image
           src={Saturnien3Image}
           alt="Retrato simbólico del temperamento saturnino en astrología"
@@ -441,7 +441,7 @@ export default function SaturnienPost() {
         </Callout>
       </section>
 
-     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[7/3]">
+     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(148,163,184,0.12)] aspect-[16/9]">
         <Image
           src={Saturnien2Image}
           alt="Retrato del dios del tiempo en astrología"

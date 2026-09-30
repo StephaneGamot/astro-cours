@@ -11,7 +11,7 @@ export const meta = {
   date: "2026-01-08",
   tags: ["amour", "Vénus", "bases", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/cupidon.webp",
+  cover: "/images/blog/venus-style-amoureux.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;

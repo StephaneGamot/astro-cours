@@ -224,7 +224,7 @@ export default function FinancesThemeAstralPost() {
           ]),
         }}
       />
-<div className="relative w-full aspect-[7/3] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(251,191,36,0.1)] bg-[#0f0f13] flex items-center justify-center">
+<div className="relative w-full aspect-[16/9] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(251,191,36,0.1)] bg-[#0f0f13] flex items-center justify-center">
               <Image src={FinanceAstroImage} alt="Un símbolo astrológico rodeado de monedas" fill sizes="100vw" priority className="object-cover" />
 
               <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent z-10 pointer-events-none" />

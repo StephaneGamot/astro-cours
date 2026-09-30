@@ -3,6 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import MaitreMaisonIIImage from "@/public/images/blog/maitre-maison-ii.webp";
+import AspectsMaisonIIImage from "@/public/images/blog/aspects-maison-ii.webp";
 import FinanceAstroImage from "@/public/images/blog/finances-theme-astral.webp";
 
 export const meta = {
@@ -224,7 +226,7 @@ export default function FinancesThemeAstralPost() {
           ]),
         }}
       />
-<div className="relative w-full aspect-[7/3] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(251,191,36,0.1)] bg-[#0f0f13] flex items-center justify-center">
+<div className="relative w-full aspect-[16/9] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(251,191,36,0.1)] bg-[#0f0f13] flex items-center justify-center">
               <Image src={FinanceAstroImage} alt="Un symbole astro avec des pieces de monnaie" fill sizes="100vw" priority className="object-cover" /> 
             
               <div className="absolute inset-0 bg-gradient-to-t from-[#09090b]/90 via-transparent to-transparent z-10 pointer-events-none" />
@@ -413,6 +415,16 @@ export default function FinancesThemeAstralPost() {
       <section className="space-y-6">
         <H2>2) Le maître de la maison II</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MaitreMaisonIIImage}
+            alt="Clé unique posée près d’un coffre fermé, en lumière chaude"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Le maître de la II indique où, concrètement, l’argent se joue dans la vie.</figcaption>
+        </figure>
+
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Le maître de la maison II est central. Il montre{" "}
           <strong className="font-medium text-amber-200">l’origine des finances</strong>, la motivation
@@ -587,6 +599,16 @@ export default function FinancesThemeAstralPost() {
       {/* 6. ASPECTS RECUS */}
       <section className="space-y-6">
         <H2>6) Les aspects reçus par la planète en maison II</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={AspectsMaisonIIImage}
+            alt="Balance ancienne dont les plateaux sont tirés par plusieurs fils tendus"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Une planète en II ne travaille jamais seule : ses aspects décident du résultat.</figcaption>
+        </figure>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Les aspects montrent si la planète présente en maison II est soutenue,

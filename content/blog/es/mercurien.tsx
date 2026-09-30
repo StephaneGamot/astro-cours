@@ -255,7 +255,7 @@ export default function MercurienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[16/9]">
         <Image
           src={MercurienImage}
           alt="Retrato simbólico del temperamento mercuriano en astrología"
@@ -364,7 +364,7 @@ export default function MercurienPost() {
         </Card>
       </section>
 
-    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[7/3]">
+    <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(56,189,248,0.12)] aspect-[16/9]">
         <Image
           src={Mercurien2Image}
           alt="Retrato del dios Mercurio en astrología"

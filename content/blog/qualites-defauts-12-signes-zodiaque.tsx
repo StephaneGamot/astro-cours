@@ -3,10 +3,13 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/qualites-defauts-12-signes-zodiaque.webp";
+import DualiteImage from "@/public/images/blog/dualite-qualite-defaut-verre.webp";
+import CanaliserImage from "@/public/images/blog/canaliser-energie-signe.webp";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qualites-defauts-12-signes-zodiaque`;
-const COVER_URL = `${SITE_URL}/images/blog/sun-moon.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/qualites-defauts-12-signes-zodiaque.webp`;
 
 export const meta = {
   slug: "qualites-defauts-12-signes-zodiaque",
@@ -18,7 +21,7 @@ export const meta = {
   date: "2026-03-11",
   tags: ["bases", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/qualite-et-defaut-de-chaque-signe-du-zodiaque.webp",
+  cover: "/images/blog/qualites-defauts-12-signes-zodiaque.webp",
 };
 
 export const metadata = {
@@ -37,9 +40,9 @@ export const metadata = {
     publishedTime: `${meta.date}T12:00:00Z`,
     images: [
       {
-        url: `${SITE_URL}/images/blog/sun-moon.webp`,
-        width: 1200,
-        height: 630,
+        url: `${SITE_URL}/images/blog/qualites-defauts-12-signes-zodiaque.webp`,
+        width: 1600,
+        height: 900,
         alt: "Illustration des qualités et défauts des 12 signes du zodiaque",
       },
     ],
@@ -252,6 +255,22 @@ export default function Post() {
       />
 
       <article className="space-y-10" >
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Disque de laiton gravé de symboles du zodiaque, chaque glyphe projetant sa propre ombre"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         <header
           className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft"
         
@@ -315,6 +334,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="comprendre-dualite">
           <H2 id="comprendre-dualite">Comprendre la dualité des signes</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={DualiteImage}
+              alt="Verre rempli à ras bord dont le liquide déborde, image de la qualité poussée à l’excès"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">La même énergie : bien dosée c’est une qualité, débordante c’est un défaut.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             Aucun signe astrologique n’est “bon” ou “mauvais”.
@@ -641,6 +670,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="conclusion-article">
           <H2 id="conclusion-article">Conclusion</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={CanaliserImage}
+              alt="Roue à aubes entraînée par l’eau canalisée d’un torrent"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">Le même courant : dispersé il érode, canalisé il fait tourner la roue.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             Les signes astrologiques ne décrivent pas une personne entière, mais

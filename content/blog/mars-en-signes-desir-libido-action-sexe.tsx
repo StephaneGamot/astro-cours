@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/mars-desir-action.webp";
+import EnclumeImage from "@/public/images/blog/mars-moteur-fer-enclume.webp";
+import SilexImage from "@/public/images/blog/mars-couple-silex-etincelle.webp";
 
 export const meta = {
   slug: "mars-en-signes-desir-libido-action",
@@ -11,7 +15,7 @@ export const meta = {
   date: "2026-01-10",
   tags: ["amour", "mars", "désir", "bases", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/mars-desir.webp",
+  cover: "/images/blog/mars-desir-action.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;
@@ -200,6 +204,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Astre rouge bas sur l’horizon traçant un chemin de lumière sur un lac sombre"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -268,6 +288,16 @@ export default function Post() {
       {/* 1) base */}
       <section className="space-y-4">
         <H2>1) Mars en astrologie : que représente cette planète dans votre thème ?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={EnclumeImage}
+            alt="Barre de fer chauffée au rouge sur une enclume, seule source de lumière de l’atelier"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Mars, ce n’est pas que le désir : c’est tout ce qui te met en mouvement.</figcaption>
+        </figure>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -448,6 +478,16 @@ export default function Post() {
       {/* 5) compatibilité */}
       <section className="space-y-4">
         <H2>5) Mars en couple : ce que ça change vraiment</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={SilexImage}
+            alt="Silex et briquet d’acier frappés l’un contre l’autre, gerbe d’étincelles dans le noir"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Deux Mars ne se ressemblent pas — c’est le frottement qui fait l’étincelle.</figcaption>
+        </figure>
 
         <Card title="Ce que Mars montre en relation" subtitle="Très concret. Très observable.">
           <ul className="list-disc pl-5 space-y-2">

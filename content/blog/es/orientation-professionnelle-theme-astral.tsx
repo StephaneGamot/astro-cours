@@ -245,7 +245,7 @@ export default function OrientationProfessionnelleThemeAstralPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.1)] aspect-[16/9]">
         <Image
           src={OrientationProImage}
           alt="Ilustración simbólica de la orientación profesional en astrología"

@@ -50,6 +50,7 @@ export async function generateMetadata({
     description: c.meta.description,
     canonicalPath: INTERNAL_PATH,
     type: "article",
+    ogImage: "/images/maisons/maisons-cuspides.webp",
     locale: loc,
     canonicalUrl: localizedPathUrl(INTERNAL_PATH, loc),
     languages: pathLanguageAlternates(INTERNAL_PATH),
@@ -104,7 +105,7 @@ export default async function CuspidesMaisonsPage({
     mainEntityOfPage: { "@type": "WebPage", "@id": localizedPathUrl(INTERNAL_PATH, loc) },
     author: AUTHOR_PERSON,
     publisher: PUBLISHER_ORG,
-    image: [`${SITE_URL}/og/cover.jpg`],
+    image: [`${SITE_URL}/images/maisons/maisons-cuspides.webp`],
     datePublished: "2026-04-09T12:00:00Z",
     dateModified: "2026-05-08T12:00:00Z",
   };

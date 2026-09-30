@@ -4,7 +4,7 @@ import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 
 const ARTICLE_URL = `${SITE_URL}/blog/comprendre-signe-astrologique-ascendant-12-exemples`;
-const COVER_URL = `${SITE_URL}/images/blog/soleil-et-asc.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/signe-ascendant-soleil-levant.webp`;
 
 export const meta = {
   slug: "comprendre-signe-astrologique-ascendant-12-exemples",
@@ -19,7 +19,7 @@ export const meta = {
   date: "2026-03-08",
   tags: ["bases", "signe", "ascendant", "débutant", "exemples"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/soleil-et-asc.webp",
+  cover: "/images/blog/signe-ascendant-soleil-levant.webp",
   ogImage: COVER_URL,
   ogImageAlt:
     "Educational illustration on the difference between astrological sign and ascendant",

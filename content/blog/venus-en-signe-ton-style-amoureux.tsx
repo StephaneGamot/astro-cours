@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/venus-style-amoureux.webp";
+import ValeurImage from "@/public/images/blog/venus-ce-qui-a-de-la-valeur.webp";
+import CouleurImage from "@/public/images/blog/venus-couleur-et-forme.webp";
 
 export const meta = {
   slug: "venus-en-signes-style-amoureux",
@@ -11,7 +15,7 @@ export const meta = {
   date: "2026-01-08",
   tags: ["amour", "Vénus", "bases", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/cupidon.webp",
+  cover: "/images/blog/venus-style-amoureux.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;
@@ -200,6 +204,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Miroir de bronze posé sur la pierre, reflétant un ciel crépusculaire et l’étoile du berger"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
         <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
@@ -267,6 +287,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>1) Vénus en astrologie : que représente-t-elle dans votre thème ?</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={ValeurImage}
+            alt="Plateau garni de cinq objets précieux de natures très différentes"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Vénus ne dit pas si tu es romantique. Elle dit ce qui a de la valeur pour toi.</figcaption>
+        </figure>
+
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
             Vénus représente ton <strong>rapport au plaisir</strong>, à l’amour,
@@ -291,6 +321,16 @@ export default function Post() {
       {/* 2) méthode */}
       <section className="space-y-4">
         <H2>2) Comment interpréter Vénus dans votre thème natal</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={CouleurImage}
+            alt="Lumière traversant un vitrage rosé et une grille de fer, projetant au sol une lumière rose à la forme du fer"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Le signe donne la couleur ; les aspects donnent la réalité.</figcaption>
+        </figure>
 
         <Card title="Lecture pro en 4 points" subtitle="Simple, mais extrêmement fiable.">
           <ol className="list-decimal pl-5 space-y-2">

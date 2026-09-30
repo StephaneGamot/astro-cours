@@ -254,7 +254,7 @@ export default function SolarienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[16/9]">
         <Image
           src={SolarienImage}
           alt="Portrait of the Sun God"
@@ -378,7 +378,7 @@ export default function SolarienPost() {
         </Card>
       </section>
 
-   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[7/3]">
+   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[16/9]">
         <Image
           src={Solarien3Image}
           alt="Portrait of the Sun God in astrology"
@@ -427,7 +427,7 @@ export default function SolarienPost() {
         </Callout>
       </section>
 
-   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[7/3]">
+   <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(251,191,36,0.12)] aspect-[16/9]">
         <Image
           src={Solarien2Image}
           alt="Portrait of Apollo, Sun God, in astrology"

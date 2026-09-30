@@ -253,7 +253,7 @@ export default function VenusienPost() {
         }}
       />
 
-      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[7/3]">
+      <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[16/9]">
         <Image
           src={VenusienImage}
           alt="Retrato simbólico del temperamento venusiano en astrología"
@@ -370,7 +370,7 @@ export default function VenusienPost() {
         </Card>
       </section>
 
-       <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[7/3]">
+       <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(244,114,182,0.12)] aspect-[16/9]">
         <Image
           src={VenusienImage2}
           alt="Retrato de la diosa Venus en astrología"

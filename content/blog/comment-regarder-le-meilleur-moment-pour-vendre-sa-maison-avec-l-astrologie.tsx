@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/vendre-maison-astrologie-timing.webp";
+import EngrenagesImage from "@/public/images/blog/transits-engrenages-tempo.webp";
+import DetourImage from "@/public/images/blog/retrogrades-detour-signature.webp";
 
 export const meta = {
   slug: "vendre-une-maison-demenager-astrologie-methodes",
@@ -11,7 +15,7 @@ export const meta = {
   date: "2026-03-03",
   tags: ["immobilier", "déménagement", "transits", "maisons astrologiques", "méthode"],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/immobilier-demenagement.webp",
+  cover: "/images/blog/vendre-maison-astrologie-timing.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;
@@ -189,6 +193,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Maison de pierre isolée sous un ciel en filé d’étoiles, une fenêtre éclairée"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -349,6 +369,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>3) Transits et timing : comment repérer le bon moment pour vendre</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={EngrenagesImage}
+            alt="Trois engrenages de laiton de tailles très différentes"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Le fond tourne lentement, le déclencheur tourne vite — c’est leur engrènement qui donne la date.</figcaption>
+        </figure>
+
         <Card
           title="Méthode premium en 4 étages"
           subtitle="On superpose : fond → contexte → déclencheur → date pratique."
@@ -419,6 +449,16 @@ export default function Post() {
       {/* 4) rétrogrades */}
       <section className="space-y-4">
         <H2>4) <Link href="/retrogrades" className="underline decoration-white/30 hover:decoration-white/60 transition">Rétrogrades</Link> : faut-il éviter de signer ?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={DetourImage}
+            alt="Route barrée dont la voie de contournement rejoint la même route plus loin, au crépuscule"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Une rétrogradation n’est pas un mur : c’est un détour. Même destination, plus de marge à prévoir.</figcaption>
+        </figure>
 
         <Card title="Approche réaliste (pas superstitieuse)" subtitle="On ne panique pas. On gère.">
           <p>

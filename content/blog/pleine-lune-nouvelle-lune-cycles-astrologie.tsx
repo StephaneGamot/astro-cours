@@ -1,7 +1,12 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/cycles-lunaires-phases-arc.webp";
+import VagueImage from "@/public/images/blog/cycle-lunaire-vague.webp";
+import NouvelleLuneImage from "@/public/images/blog/nouvelle-lune-champ-seme.webp";
+import PleineLuneImage from "@/public/images/blog/pleine-lune-tout-devient-visible.webp";
 
 export const meta = {
   slug: "pleine-lune-nouvelle-lune-cycles-astrologie",
@@ -11,7 +16,7 @@ export const meta = {
   date: "2026-02-07",
   tags: ["lune", "émotions", "cycles", "bases", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/lune-cycles.jpg",
+  cover: "/images/blog/cycles-lunaires-phases-arc.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;
@@ -200,6 +205,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Les phases de la Lune formant un arc complet au-dessus d’une chaîne de montagnes la nuit"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div
@@ -301,6 +322,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>2) Le cycle lunaire expliqué simplement</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={VagueImage}
+            alt="Longue vague nocturne saisie au moment où elle se forme et retombe, crête éclairée par la Lune"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Ça monte, ça culmine, ça redescend — sur 29 jours.</figcaption>
+        </figure>
+
         <Card title="Une vague de 29 jours" subtitle="Ça monte, ça culmine, ça redescend. Comme toi.">
           <p>
             Un cycle complet dure environ <strong>29 jours</strong>. La Lune se
@@ -337,6 +368,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>3) La Nouvelle Lune 🌑</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={NouvelleLuneImage}
+            alt="Champ labouré sous un ciel étoilé sans lune, sillons éclairés par la seule lumière des étoiles"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">À la Nouvelle Lune, le ciel est vide. C’est précisément pour ça qu’on y sème.</figcaption>
+        </figure>
+
         <Card title="Énergie : recommencer, semer, intérioriser" subtitle="Le vide fertile. Peu visible, très puissant.">
           <p>
             La Nouvelle Lune, c’est une phase de <strong>silence</strong>. Ça
@@ -372,6 +413,16 @@ export default function Post() {
       {/* 4) Pleine Lune */}
       <section className="space-y-4">
         <H2>4) La Pleine Lune 🌕</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={PleineLuneImage}
+            alt="Pièce éclairée uniquement par la pleine lune entrant par la fenêtre, chaque objet projetant une ombre nette"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">La Pleine Lune n’apporte rien de neuf : elle éclaire ce qui était déjà là.</figcaption>
+        </figure>
 
         <Card title="Énergie : révélation, intensité, culmination" subtitle="Amplificateur émotionnel. Tout devient visible.">
           <p>

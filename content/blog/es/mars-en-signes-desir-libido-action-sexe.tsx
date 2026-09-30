@@ -11,7 +11,7 @@ export const meta = {
   date: "2026-01-10",
   tags: ["amour", "mars", "désir", "bases", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/mars-desir.webp",
+  cover: "/images/blog/mars-desir-action.webp",
 };
 
 const ARTICLE_SLUG = meta.slug;

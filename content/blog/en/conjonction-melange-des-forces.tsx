@@ -5,7 +5,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/conjonction-melange-des-forces`;
-const COVER_URL = `${SITE_URL}/images/blog/conjonction.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/conjonction-deux-astres.webp`;
 
 export const meta = {
   slug: "conjonction-melange-des-forces",
@@ -18,7 +18,7 @@ export const meta = {
   date: "2026-01-01",
   tags: ["aspects", "bases", "débutant", "thème astral", "transits"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/conjonction.webp",
+  cover: "/images/blog/conjonction-deux-astres.webp",
 };
 
 function Kicker({ children }: { children: ReactNode }) {

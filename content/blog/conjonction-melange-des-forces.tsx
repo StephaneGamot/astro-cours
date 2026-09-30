@@ -1,11 +1,16 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/conjonction-deux-astres.webp";
+import MelangeImage from "@/public/images/blog/conjonction-melange-des-forces.webp";
+import OndesImage from "@/public/images/blog/conjonction-orbe-ondes.webp";
+import AlignementImage from "@/public/images/blog/conjonction-transit-alignement.webp";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/conjonction-melange-des-forces`;
-const COVER_URL = `${SITE_URL}/images/blog/conjonction.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/conjonction-deux-astres.webp`;
 
 export const meta = {
   slug: "conjonction-melange-des-forces",
@@ -18,7 +23,7 @@ export const meta = {
   date: "2026-01-01",
   tags: ["aspects", "bases", "débutant", "thème astral", "transits"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/conjonction.webp",
+  cover: "/images/blog/conjonction-deux-astres.webp",
 };
 
 function Kicker({ children }: { children: ReactNode }) {
@@ -221,6 +226,22 @@ export default function Post() {
 
       <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Deux astres brillants presque joints au-dessus d’un horizon crépusculaire, leurs halos se recouvrant"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -287,6 +308,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>1) Conjonction en astrologie : d&eacute;finition et principe fondamental</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MelangeImage}
+            alt="Deux liquides, ambre et indigo, versés ensemble dans un même verre et se mêlant en une couleur nouvelle"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Une conjonction ne juxtapose pas deux planètes : elle les mélange.</figcaption>
+        </figure>
+
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85">
           <p>
             Une <strong>conjonction astrologique</strong> se produit lorsque
@@ -327,6 +358,16 @@ export default function Post() {
       {/* 2) Orbes */}
       <section className="space-y-4">
         <H2>2) Orbe de la conjonction : quand est-ce que ça "compte" vraiment ?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={OndesImage}
+            alt="Deux séries d’ondes concentriques se croisant à la surface d’un étang"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Plus les deux centres sont proches, plus les ondes se superposent. C’est tout ce que dit l’orbe.</figcaption>
+        </figure>
 
         <p className="text-text/80 leading-relaxed">
           L'orbe, c'est l'écart en degrés entre les deux planètes. Plus l'orbe
@@ -613,6 +654,16 @@ export default function Post() {
       {/* 7) Transits */}
       <section className="space-y-4">
         <H2>7) Conjonction en transit : quand ça s'active dans le temps</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={AlignementImage}
+            alt="Sphère armillaire de laiton dont deux cercles se sont alignés dans le même plan"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">En transit, la conjonction est un alignement : elle se prépare longtemps et ne dure qu’un moment.</figcaption>
+        </figure>
 
         <p className="text-text/80 leading-relaxed">
           Dans le thème natal, la conjonction est "fixe". Mais dans le ciel

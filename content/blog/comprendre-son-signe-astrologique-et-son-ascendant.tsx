@@ -1,10 +1,14 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "./ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/signe-ascendant-soleil-levant.webp";
+import LanterneImage from "@/public/images/blog/soleil-ascendant-lanterne.webp";
+import DeuxLumieresImage from "@/public/images/blog/soleil-ascendant-deux-lumieres.webp";
 
 const ARTICLE_URL = `${SITE_URL}/blog/comprendre-signe-astrologique-ascendant-12-exemples`;
-const COVER_URL = `${SITE_URL}/images/blog/soleil-et-asc.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/signe-ascendant-soleil-levant.webp`;
 
 export const meta = {
   slug: "comprendre-signe-astrologique-ascendant-12-exemples",
@@ -18,10 +22,10 @@ export const meta = {
   date: "2026-03-08",
   tags: ["bases", "signe", "ascendant", "débutant", "exemples"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/soleil-et-asc.webp",
+  cover: "/images/blog/signe-ascendant-soleil-levant.webp",
   ogImage: COVER_URL,
   ogImageAlt:
-    "Illustration pédagogique sur la différence entre signe astrologique et ascendant",
+    "Soleil se levant exactement sur la ligne d’horizon, vu à travers une porte de pierre",
   type: "article" as const,
   articleSection: "Astrologie",
   readingTime: "6–8 min",
@@ -200,6 +204,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Soleil se levant exactement sur la ligne d’horizon, vu à travers une porte de pierre"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         <div
           aria-hidden="true"
@@ -288,6 +308,16 @@ export default function Post() {
 
       <section className="space-y-4">
         <H2>2) Signe solaire et ascendant : quelle est la vraie différence ?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={LanterneImage}
+            alt="Lanterne de laiton à vitres colorées : une seule flamme, plusieurs couleurs de lumière projetées"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Une même flamme, des verres différents : le Soleil ne change pas, l’ascendant colore ce qu’on en voit.</figcaption>
+        </figure>
 
         <Card title="La combinaison qui rend la lecture vivante">
           <p>
@@ -538,6 +568,16 @@ export default function Post() {
 
       <section className="space-y-4">
         <H2>4) Comment interpréter votre signe et ascendant ensemble</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={DeuxLumieresImage}
+            alt="Sphère de pierre éclairée par deux faisceaux, or et violet, formant une troisième teinte à leur croisement"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Ce n’est ni le Soleil seul ni l’ascendant seul : c’est leur croisement qu’on lit.</figcaption>
+        </figure>
 
         <Card title="Le vrai sens de cette lecture">
           <p>

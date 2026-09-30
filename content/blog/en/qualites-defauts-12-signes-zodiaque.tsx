@@ -6,7 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qualites-defauts-12-signes-zodiaque`;
-const COVER_URL = `${SITE_URL}/images/blog/sun-moon.webp`;
+const COVER_URL = `${SITE_URL}/images/blog/qualites-defauts-12-signes-zodiaque.webp`;
 
 export const meta = {
   slug: "qualites-defauts-12-signes-zodiaque",
@@ -18,7 +18,7 @@ export const meta = {
   date: "2026-03-11",
   tags: ["bases", "signe", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/qualite-et-defaut-de-chaque-signe-du-zodiaque.webp",
+  cover: "/images/blog/qualites-defauts-12-signes-zodiaque.webp",
 };
 
 export const metadata = {
@@ -37,9 +37,9 @@ export const metadata = {
     publishedTime: `${meta.date}T12:00:00Z`,
     images: [
       {
-        url: `${SITE_URL}/images/blog/sun-moon.webp`,
-        width: 1200,
-        height: 630,
+        url: `${SITE_URL}/images/blog/qualites-defauts-12-signes-zodiaque.webp`,
+        width: 1600,
+        height: 900,
         alt: "Illustration of the strengths and weaknesses of the 12 zodiac signs",
       },
     ],
