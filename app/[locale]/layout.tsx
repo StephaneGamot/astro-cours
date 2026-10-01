@@ -175,6 +175,14 @@ export default async function LocaleLayout({
         />
         <NextIntlClientProvider>
           <NavBAr />
+          {/* ⚠️ Pas de loading.tsx dans app/[locale]/ (supprimé le 01/10/2026,
+              Lighthouse /es/blog : CLS 0,199 + LCP retardé). Il enveloppait
+              chaque page dans un <Suspense> : React envoyait d'abord le
+              spinner (min-h-[60vh]) puis ce <Footer />, et ne révélait le vrai
+              contenu (caché dans un <div hidden>) que ~300 ms plus tard → le
+              footer, visible, était poussé hors de l'écran. Ça touchait AUSSI
+              les pages statiques (accueil, signes, blog…). Les pages étant
+              prérendues et préchargées par <Link>, aucun spinner n'est utile. */}
           {children}
           <Footer />
         </NextIntlClientProvider>

@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
-import { permanentRedirect } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getAllPosts, getAllTags, tagToSlug, slugToTag, isIndexableTag } from "@/lib/blog";
+import { getAllPosts, getAllTags, isIndexableTag } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/BlogCard";
 import {
   SITE_NAME,
@@ -14,6 +13,18 @@ import {
 } from "@/lib/seo";
 
 const INTERNAL_PATH = "/blog";
+
+/*
+ * ⚡ Page 100 % STATIQUE — ne pas lire `searchParams` ici (Lighthouse 01/10/2026).
+ *
+ * Lire searchParams rendait /[locale]/blog dynamique (ƒ) : HTML rendu à la
+ * demande par une fonction (Cache-Control no-store), jamais servi depuis le
+ * cache CDN. Les anciennes URL /blog?tag=… sont redirigées en 308 par
+ * proxy.ts (legacyBlogTagRedirect) AVANT le rendu : aucun filet de sécurité
+ * n'est nécessaire ici. `dynamic = "error"` fait échouer le build si quelqu'un
+ * réintroduit une API dynamique (searchParams, cookies, headers…).
+ */
+export const dynamic = "error";
 
 export async function generateMetadata({
   params,
@@ -60,22 +71,13 @@ function Chip({
 
 export default async function BlogPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ locale: string }>;
-  searchParams?: Promise<{ tag?: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const loc = toSeoLocale(locale);
   const t = await getTranslations({ locale: loc, namespace: "blog" });
-
-  const resolved = (await searchParams) ?? {};
-  const rawTag = resolved.tag?.trim();
-  if (rawTag) {
-    const slug = tagToSlug(rawTag);
-    permanentRedirect(slugToTag(slug, loc) ? `/blog/tag/${slug}` : "/blog");
-  }
 
   const posts = getAllPosts(loc);
   // Uniquement les tags à page indexable (les autres sont en noindex : inutile
