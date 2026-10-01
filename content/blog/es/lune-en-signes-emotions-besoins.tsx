@@ -19,7 +19,7 @@ export const meta = {
     "bases",
   ],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/lunarien2.webp",
+  cover: "/images/blog/lune-en-signes-emotions-besoins.webp",
 };
 
 /* ────────────────────────────────────────────────────────────

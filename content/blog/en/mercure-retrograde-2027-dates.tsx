@@ -10,7 +10,7 @@ export const meta = {
   date: "2026-07-07",
   tags: ["Mercure", "rétrograde", "transits", "2027", "calendrier", "débutant"],
   readingLevel: "débutant" as const,
-  cover: "/images/blog/mercurien2.webp",
+  cover: "/images/blog/mercure-retrograde-2027.webp",
 };
 
 const SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"];

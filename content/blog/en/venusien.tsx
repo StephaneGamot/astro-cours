@@ -26,7 +26,7 @@ export const meta = {
     "intermédiaire",
   ],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/venus2.webp",
+  cover: "/images/blog/venus1.webp",
 };
 
 function Kicker({ children }: { children: ReactNode }) {
