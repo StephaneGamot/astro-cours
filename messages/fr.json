@@ -540,5 +540,13 @@
       "more": "En savoir plus sur mon parcours →",
       "niveau": "Niveau"
     }
+  },
+  "imagesAlt": {
+    "logo": "Pleine lune stylisée, logo d’Astro Cours",
+    "logoShort": "Logo d’Astro Cours",
+    "homeHero": "Pleine lune lumineuse dans un ciel nocturne",
+    "constellations": "Fresque des douze constellations du zodiaque",
+    "derivedHousesWheel": "Roue astrologique en trois dimensions aux engrenages imbriqués, illustrant les maisons dérivées",
+    "inclusiveCounting": "Schéma du comptage inclusif, étape par étape, sur une roue du zodiaque"
   }
 }

@@ -540,5 +540,13 @@
       "more": "Saber más sobre mi trayectoria →",
       "niveau": "Nivel"
     }
+  },
+  "imagesAlt": {
+    "logo": "Luna llena estilizada, logotipo de Astro Cours",
+    "logoShort": "Logotipo de Astro Cours",
+    "homeHero": "Luna llena luminosa en un cielo nocturno",
+    "constellations": "Fresco de las doce constelaciones del zodiaco",
+    "derivedHousesWheel": "Rueda astrológica tridimensional con engranajes encajados, que ilustra las casas derivadas",
+    "inclusiveCounting": "Esquema del recuento inclusivo, paso a paso, sobre una rueda del zodiaco"
   }
 }

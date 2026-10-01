@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 import HeroAstro from "@/public/images/astro-cours-l.webp";
 
 /* ────────────────────────────────────────────────────────────────
@@ -25,7 +26,9 @@ const LCP_IMAGESRCSET = LCP_DEVICE_SIZES
   .map((w) => `/_next/image?url=${LCP_SRC_ENC}&w=${w}&q=70 ${w}w`)
   .join(", ");
 
-export default function ImageOnly() {
+export default async function ImageOnly() {
+  const tAlt = await getTranslations("imagesAlt");
+
   return (
     <>
       {/* Preload manuel hissé en <head> par React 19 — avec fetchPriority. */}
@@ -39,7 +42,7 @@ export default function ImageOnly() {
       <div className="relative w-full h-[50vh] min-h-[400px] md:h-[70vh] max-h-[800px] overflow-hidden">
         <Image
           src={HeroAstro}
-          alt="Illustration d'une magnifique pleine Lune"
+          alt={tAlt("homeHero")}
           fill
           // `priority` retiré pour éviter un second <link rel="preload"> sans
           // fetchPriority. On reproduit ses deux autres effets explicitement :

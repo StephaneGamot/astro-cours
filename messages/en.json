@@ -540,5 +540,13 @@
       "more": "Learn more about my journey →",
       "niveau": "Level"
     }
+  },
+  "imagesAlt": {
+    "logo": "Stylised full Moon, the Astro Cours logo",
+    "logoShort": "Astro Cours logo",
+    "homeHero": "A bright full Moon in a night sky",
+    "constellations": "Fresco of the twelve zodiac constellations",
+    "derivedHousesWheel": "Three-dimensional astrological wheel with interlocking gears, illustrating the derived houses",
+    "inclusiveCounting": "Step-by-step diagram of inclusive counting on a zodiac wheel"
   }
 }

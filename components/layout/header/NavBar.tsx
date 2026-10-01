@@ -154,6 +154,7 @@ function isItemActive(pathname: string, href: string): boolean {
 export default function NavBar() {
   const pathname = usePathname();
   const t = useTranslations("nav");
+  const tAlt = useTranslations("imagesAlt");
   const sections = useSections();
   const [mobileOpen, setMobileOpen] = useState(false);
   const closeMobile = useCallback(() => setMobileOpen(false), []);
@@ -207,7 +208,7 @@ export default function NavBar() {
             >
               <span className="sr-only">{t("homeAria")}</span>
               <Image
-                alt="Pleine lune permettant d'illustrer le logo d'Astro Cours"
+                alt={tAlt("logo")}
                 src={Logo}
                 width={44}
                 height={44}
@@ -400,6 +401,7 @@ function MobileDrawer({
   onClose: () => void;
 }) {
   const t = useTranslations("nav");
+  const tAlt = useTranslations("imagesAlt");
   const sections = useSections();
   return (
     <div
@@ -428,7 +430,7 @@ function MobileDrawer({
             className="rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400"
           >
             <span className="sr-only">{t("homeAria")}</span>
-            <Image alt="Logo Astro Cours" src={Logo} width={36} height={36} className="h-9 w-auto" />
+            <Image alt={tAlt("logoShort")} src={Logo} width={36} height={36} className="h-9 w-auto" />
           </Link>
           <button
             type="button"

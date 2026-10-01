@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import {
@@ -90,6 +90,7 @@ export default async function MaisonsDeriveesPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const tAlt = await getTranslations("imagesAlt");
   const loc = toSeoLocale(locale);
   const c = maisonsDeriveesContent[loc];
 
@@ -165,7 +166,7 @@ export default async function MaisonsDeriveesPage({
             <div className="relative w-full max-w-lg aspect-[4/5] rounded-[3rem] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(167,139,250,0.15)] bg-[#0f0f13]">
               <Image
                 src={Engrenages}
-                alt="Roue astrologique tridimensionnelle montrant des engrenages imbriqués représentant les multiples dimensions de la famille et des maisons dérivées"
+                alt={tAlt("derivedHousesWheel")}
                 fill
                 priority
                 className="object-cover"
@@ -234,7 +235,7 @@ export default async function MaisonsDeriveesPage({
           <div className="mt-16 mb-8 relative w-full h-[350px] md:h-[500px] rounded-[3rem] border border-white/10 overflow-hidden bg-[#111] shadow-2xl group">
                <Image
                  src={Maisonsderivees}
-                 alt="Infographie visuelle expliquant le comptage inclusif étape par étape sur une roue du zodiaque"
+                 alt={tAlt("inclusiveCounting")}
                  fill
                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                  sizes="(max-width: 1024px) 100vw, 80vw"
