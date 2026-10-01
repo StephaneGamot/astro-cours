@@ -2,6 +2,10 @@ import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import Image from "next/image";
+import CoverImage from "@/public/images/blog/venus-style-amoureux.webp";
+import ValeurImage from "@/public/images/blog/venus-ce-qui-a-de-la-valeur.webp";
+import CouleurImage from "@/public/images/blog/venus-couleur-et-forme.webp";
 
 export const meta = {
   slug: "venus-en-signes-style-amoureux",
@@ -201,6 +205,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Espejo de bronce apoyado sobre la piedra, reflejando un cielo crepuscular y el lucero vespertino"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
         <div aria-hidden="true" className="pointer-events-none absolute -bottom-28 -left-28 h-72 w-72 rounded-full bg-white/5 blur-3xl" />
@@ -268,6 +288,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>1) Venus en astrología: ¿qué representa en tu carta?</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={ValeurImage}
+            alt="Bandeja con cinco objetos preciosos de naturalezas muy distintas"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Venus no dice si eres romántico. Dice qué tiene valor para ti.</figcaption>
+        </figure>
+
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
             Venus representa tu <strong>relación con el placer</strong>, con el amor,
@@ -292,6 +322,16 @@ export default function Post() {
       {/* 2) méthode */}
       <section className="space-y-4">
         <H2>2) Cómo interpretar Venus en tu carta natal</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={CouleurImage}
+            alt="Luz que atraviesa un cristal rosado y una reja de hierro y proyecta en el suelo una mancha rosa con la forma de la reja"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">El signo da el color; los aspectos dan la realidad.</figcaption>
+        </figure>
 
         <Card title="Lectura pro en 4 puntos" subtitle="Simple, pero extremadamente fiable.">
           <ol className="list-decimal pl-5 space-y-2">

@@ -6,6 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import NeptunienImage from "@/public/images/blog/neptunien.webp";
 import Neptunien2Image from "@/public/images/blog/neptunien2.webp";
 import Neptunien3Image from "@/public/images/blog/neptunien3.webp";
+import NeptuneAffligeImage from "@/public/images/blog/neptune-afflige.webp";
 
 export const meta = {
   slug: "neptunien",
@@ -405,6 +406,15 @@ export default function NeptunienPost() {
 
       <section className="space-y-6">
         <H2>Neptuno afligido en la carta natal: adicciones, mentiras y huida de lo real</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={NeptuneAffligeImage}
+            alt="Una barca a la deriva en una niebla espesa, sin remos y con la amarra rota arrastrando por el agua"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="La sombra de Neptuno">
           <p>

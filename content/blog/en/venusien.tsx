@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import VenusienImage from "@/public/images/blog/venus1.webp";
 import VenusienImage2 from "@/public/images/blog/venus2.webp";
+import VenusAffligeeImage from "@/public/images/blog/venus-affligee.webp";
+import VenusienneImage from "@/public/images/blog/venusienne.webp";
 
 export const meta = {
   slug: "venusien",
@@ -403,6 +405,15 @@ export default function VenusienPost() {
 
       <section className="space-y-6">
         <H2>An afflicted Venus in the natal chart: laziness, jealousy and manipulation</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={VenusAffligeeImage}
+            alt="A twilight still life: overripe fruit on a silver dish, wilted roses, an upturned bronze mirror and a spilt cup"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="The shadow of Venus">
           <p>
@@ -418,6 +429,15 @@ export default function VenusienPost() {
 
       <section className="space-y-6">
         <H2>The Venusian woman in astrology: portrait of the Venus-dominant woman</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={VenusienneImage}
+            alt="A young woman at work in her studio in the golden hour, sleeves rolled up, absorbed in her craft"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

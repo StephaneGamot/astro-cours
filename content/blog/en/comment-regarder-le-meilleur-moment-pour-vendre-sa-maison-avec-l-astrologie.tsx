@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/vendre-maison-astrologie-timing.webp";
+import EngrenagesImage from "@/public/images/blog/transits-engrenages-tempo.webp";
+import DetourImage from "@/public/images/blog/retrogrades-detour-signature.webp";
 
 export const meta = {
   slug: "vendre-une-maison-demenager-astrologie-methodes",
@@ -190,6 +194,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="An isolated stone house under a sky of star trails, with a single lit window"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -350,6 +370,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>3) Transits and timing: how to spot the right moment to sell</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={EngrenagesImage}
+            alt="Three brass gears of very different sizes"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">The background turns slowly, the trigger turns fast — it’s their meshing that gives the date.</figcaption>
+        </figure>
+
         <Card
           title="Premium method in 4 layers"
           subtitle="Stack them up: background → context → trigger → practical date."
@@ -420,6 +450,16 @@ export default function Post() {
       {/* 4) retrogrades */}
       <section className="space-y-4">
         <H2>4) <Link href="/retrogrades" className="underline decoration-white/30 hover:decoration-white/60 transition">Retrogrades</Link>: should you avoid signing?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={DetourImage}
+            alt="A closed road at dusk, its diversion lane rejoining the same road further on"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">A retrograde isn’t a wall: it’s a detour. Same destination, just allow more leeway.</figcaption>
+        </figure>
 
         <Card title="A realistic approach (not superstitious)" subtitle="No panic. We manage it.">
           <p>

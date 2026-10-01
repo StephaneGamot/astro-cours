@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import UranienImage from "@/public/images/blog/uranien.webp";
 import Uranien2Image from "@/public/images/blog/uranien2.webp";
+import UranienIndividuationImage from "@/public/images/blog/uranien-individuation.webp";
+import UranienneImage from "@/public/images/blog/uranienne.webp";
 
 export const meta = {
   slug: "uranien",
@@ -338,6 +340,15 @@ export default function UranienPost() {
 
       <section className="space-y-6">
         <H2>The Cycle of the Uranian: The Two Phases of Individuation</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={UranienIndividuationImage}
+            alt="A frozen river breaking up in the thaw, the ice still smooth on one side, black water running beneath"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The First Phase: Voluntary Exile and Condensation (Before 40)">
           <p>
@@ -446,6 +457,15 @@ export default function UranienPost() {
 
       <section className="space-y-6">
         <H2>The Uranian woman in astrology: portrait of the woman with a Uranus dominant</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={UranienneImage}
+            alt="A woman bent over an apparatus of coils and electrodes in her laboratory, a violet arc lighting her face"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

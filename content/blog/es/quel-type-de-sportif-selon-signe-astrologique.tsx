@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/sport-signe-astrologique-effort.webp";
+import ForgeImage from "@/public/images/blog/energie-forge-trois-outils.webp";
+import SentierImage from "@/public/images/blog/sport-durable-sentier-trace.webp";
 
 const ARTICLE_SLUG = "quel-type-de-sportif-selon-signe-astrologique";
 const ARTICLE_URL = `${SITE_URL}/blog/${ARTICLE_SLUG}`;
@@ -269,6 +272,22 @@ export default function Post() {
       />
 
       <article className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Tres siluetas en una cresta de montaña al amanecer, cada una en un esfuerzo distinto bajo un cielo estrellado"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         <header
           className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft"
         >
@@ -335,6 +354,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="sport-et-astrologie">
           <H2 id="sport-et-astrologie">Deporte y astrología: una lógica de energía</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ForgeImage}
+              alt="Tres objetos de hierro salidos de la misma fragua: una hoja, una herradura y un cincel"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">El mismo fuego, tres objetos: la energía es la misma, la forma que toma lo cambia todo.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             El deporte no se vive de la misma manera para todo el mundo.
@@ -618,6 +647,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="conclusion-article">
           <H2 id="conclusion-article">Conclusión</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={SentierImage}
+              alt="Sendero abierto en la hierba de un prado por el paso repetido, con luz rasante"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">El buen deporte no es el más impresionante: es el que repites mañana.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             El signo astrológico no determina un único deporte,

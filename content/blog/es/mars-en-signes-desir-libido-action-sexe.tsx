@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/mars-desir-action.webp";
+import EnclumeImage from "@/public/images/blog/mars-moteur-fer-enclume.webp";
+import SilexImage from "@/public/images/blog/mars-couple-silex-etincelle.webp";
 
 export const meta = {
   slug: "mars-en-signes-desir-libido-action",
@@ -201,6 +205,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Un astro rojo bajo en el horizonte trazando un camino de luz sobre un lago oscuro"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -269,6 +289,16 @@ export default function Post() {
       {/* 1) base */}
       <section className="space-y-4">
         <H2>1) Marte en astrología: ¿qué representa este planeta en tu carta?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={EnclumeImage}
+            alt="Barra de hierro al rojo vivo sobre un yunque, única fuente de luz del taller"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Marte no es solo el deseo: es todo lo que te pone en movimiento.</figcaption>
+        </figure>
 
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85 space-y-3">
           <p>
@@ -449,6 +479,16 @@ export default function Post() {
       {/* 5) compatibilité */}
       <section className="space-y-4">
         <H2>5) Marte en pareja: lo que de verdad cambia</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={SilexImage}
+            alt="Pedernal y eslabón de acero golpeados uno contra otro, lluvia de chispas en la oscuridad"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Dos Marte no se parecen — es el roce lo que hace la chispa.</figcaption>
+        </figure>
 
         <Card title="Lo que Marte muestra en la relación" subtitle="Muy concreto. Muy observable.">
           <ul className="list-disc pl-5 space-y-2">

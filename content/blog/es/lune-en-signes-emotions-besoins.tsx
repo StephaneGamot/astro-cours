@@ -2,6 +2,8 @@ import type { ReactNode } from "react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
+import CoverImage from "@/public/images/blog/lune-en-signes-emotions-besoins.webp";
+import TrepiedImage from "@/public/images/blog/soleil-lune-ascendant-trepied.webp";
 
 export const meta = {
   slug: "lune-en-signes-emotions-besoins",
@@ -595,6 +597,22 @@ export default function Post() {
       />
 
       <div className="space-y-12">
+        {/* ── IMAGE DE COUVERTURE (LCP) ────────────────────── */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Luna creciente dorada volcada como una cuna, sosteniendo una esfera de luz cálida sobre un lago inmóvil"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         {/* ── HERO ─────────────────────────────────────────── */}
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-indigo-500/[0.10] via-black/20 to-black/30 p-7 shadow-soft">
           <div
@@ -858,6 +876,19 @@ export default function Post() {
               </table>
             </div>
           </div>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={TrepiedImage}
+              alt="Un sol radiante a la izquierda, una Luna llena a la derecha y un amanecer dorado que se alza entre ambos en el horizonte"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              Tres luces, tres funciones: el Sol ilumina lo que buscas, la Luna
+              lo que necesitas, el Ascendente lo que muestras al llegar.
+            </figcaption>
+          </figure>
 
           <p className="leading-relaxed text-text/85">
             Un ejemplo elocuente: alguien con Sol en{" "}

@@ -2,6 +2,10 @@ import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import Image from "next/image";
+import CoverImage from "@/public/images/blog/horoscope-ne-vous-ressemble-pas.webp";
+import JournalImage from "@/public/images/blog/horoscope-1930-journal-vs-theme.webp";
+import AspectsImage from "@/public/images/blog/aspects-fils-tendus.webp";
 
 /* ================================================================== */
 /*  META / SEO                                                        */
@@ -331,6 +335,22 @@ export default function HoroscopeNeVousRessemblePasPost() {
         }}
       />
 
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13] sm:rounded-[2.5rem]">
+        <Image
+          src={CoverImage}
+          alt="Translucent sheets each holding one layer of a sky chart, stacked in depth, beside a near-empty sheet with one circled dot"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       {/* ── Header ── */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-6 shadow-2xl backdrop-blur-xl sm:rounded-[2.5rem] sm:p-8 md:p-12">
         <div
@@ -440,6 +460,19 @@ export default function HoroscopeNeVousRessemblePasPost() {
             Two people born on the same day but a few hours apart can have a completely different ascendant, a Moon in another sign, and reorganized houses. Their life experience, their personality and their destiny will be radically different &mdash; despite an identical Sun sign.
           </p>
         </Callout>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={JournalImage}
+            alt="A large hand-drawn natal chart covering a whole desk, with an old newspaper page laid on it, open at a short column"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            The real scale: the column invented in 1930 covers one corner of an
+            entire chart.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />
@@ -569,6 +602,19 @@ export default function HoroscopeNeVousRessemblePasPost() {
             Aspects are the finest key to the personalization of your chart. They are what make two Scorpios, two Tauruses or two Geminis radically different. The horoscope cannot account for them &mdash; to do so would require knowing the position of every planet of every reader, which amounts to drawing up a complete chart.
           </p>
         </Card>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={AspectsImage}
+            alt="Brass pins set in a circle on a dark board, linked by threads at precise angles, some slack, others taut"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            The same circle, unequal tensions. That is what makes two Scorpios
+            unalike.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />

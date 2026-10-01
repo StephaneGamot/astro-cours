@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import MercurienImage from "@/public/images/blog/mercurien.webp";
 import Mercurien2Image from "@/public/images/blog/mercurien2.webp";
+import MercureAffligeImage from "@/public/images/blog/mercure-afflige.webp";
+import MercurienneImage from "@/public/images/blog/mercurienne.webp";
 
 export const meta = {
   slug: "mercurien",
@@ -416,6 +418,15 @@ export default function MercurienPost() {
 
       <section className="space-y-6">
         <H2>Mercurio afligido en la carta natal: nerviosismo, mentira y dispersión</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MercureAffligeImage}
+            alt="Un fajo de cartas esparcido por el viento sobre una terraza de piedra, sellos rotos y un zurrón vacío en el suelo"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="La sombra de Mercurio">
           <p>
@@ -434,6 +445,15 @@ export default function MercurienPost() {
 
       <section className="space-y-6">
         <H2>La Mercuriana en astrología: retrato de la mujer con dominante de Mercurio</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MercurienneImage}
+            alt="Una joven escribiendo en una mesa de piedra junto a una ventana abierta al alba, con sandalias aladas bajo el banco"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="La expresión Yin">
           <p>

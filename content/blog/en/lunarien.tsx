@@ -5,7 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import LunarienImage from "@/public/images/blog/lunarien.webp";
 import Lunarien2Image from "@/public/images/blog/lunarien2.webp";
-import Lunarien3Image from "@/public/images/blog/lunarien3.webp";
+import LunarienAbsorbeImage from "@/public/images/blog/lunarien-absorbe-emotions.webp";
+import LuneAffligeeImage from "@/public/images/blog/lune-affligee.webp";
 
 export const meta = {
   slug: "lunarien",
@@ -346,8 +347,8 @@ export default function LunarienPost() {
 
       <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
-          src={Lunarien2Image}
-          alt="Portrait of a modern-day Selene"
+          src={LunarienAbsorbeImage}
+          alt="A perfectly still pool reflecting the full Moon, disturbed by a single drop whose ripples spread outwards"
           fill
           sizes="100vw"
           className="object-cover"
@@ -427,8 +428,8 @@ export default function LunarienPost() {
 
     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] shadow-[0_0_50px_rgba(125,211,252,0.12)] aspect-[16/9]">
         <Image
-          src={Lunarien3Image}
-          alt="Statue of Selene in Greek mythology"
+          src={LuneAffligeeImage}
+          alt="A full Moon veiled by clouds above a stormy sea, its reflection shattered into fragments"
           fill
           sizes="100vw"
           className="object-cover"
@@ -438,6 +439,15 @@ export default function LunarienPost() {
 
       <section className="space-y-6">
         <H2>The Lunar woman in astrology: portrait of the Moon-dominant woman</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={Lunarien2Image}
+            alt="A fair-haired woman before an immense full Moon mirrored on calm water"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

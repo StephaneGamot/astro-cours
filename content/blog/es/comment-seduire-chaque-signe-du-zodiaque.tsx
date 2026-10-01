@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/comment-seduire-chaque-signe-du-zodiaque.webp";
+import VenusMarsImage from "@/public/images/blog/venus-mars-coulisses.webp";
+import TraduireImage from "@/public/images/blog/seduire-cest-traduire.webp";
 
 const ARTICLE_SLUG = "comment-seduire-chaque-signe-du-zodiaque";
 const LOCALIZED_SLUG = "como-seducir-a-cada-signo-del-zodiaco";
@@ -324,6 +327,22 @@ export default function Post() {
       />
 
       <article className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Doce llaves antiguas grabadas cada una con un símbolo del zodiaco, colgadas de una anilla de latón, una iluminada por dentro"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         {/* HEADER */}
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
           <div
@@ -410,6 +429,19 @@ export default function Post() {
             <Link href="/blog/qualites-defauts-12-signes-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition"> cualidades y defectos de los 12 signos</Link> —
             te ayudan a entender al otro, no a manipularlo. El matiz importa.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={VenusMarsImage}
+              alt="Dos esferas en un escenario: Venus, rosa nacarado velado de seda, y Marte, oscuro con grietas incandescentes"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              El signo da la puerta de entrada. Detrás, Venus describe la forma
+              de amar y Marte la naturaleza del deseo.
+            </figcaption>
+          </figure>
         </section>
 
         {/* 12 SIGNOS */}
@@ -1096,6 +1128,19 @@ export default function Post() {
             también hemos catalogado
             <Link href="/blog/mensonge-prefere-chaque-signe-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition"> la mentira favorita de cada signo</Link>.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={TraduireImage}
+              alt="Cuaderno abierto con la misma frase copiada doce veces, cada línea con otra letra y un símbolo del zodiaco"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              La misma frase, doce veces — una caligrafía por signo. Eso es todo
+              lo que dice esta guía.
+            </figcaption>
+          </figure>
         </section>
 
         {/* FAQ */}

@@ -3,6 +3,9 @@ import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/amour-fidelite-signes-zodiaque.webp";
+import LampeImage from "@/public/images/blog/fidelite-lampe-veille.webp";
+import DeuxLunesImage from "@/public/images/blog/compatibilites-deux-lunes.webp";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/amour-fidelite-signes-zodiaque`;
@@ -506,6 +509,22 @@ export default function Post() {
 
       <article className="space-y-10">
         {/* HERO */}
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Dos estrellas muy cercanas unidas por un hilo de luz bajo un cielo nocturno"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         <header
           className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft"
 
@@ -572,6 +591,16 @@ export default function Post() {
         {/* INTRO */}
         <section className="space-y-4" aria-labelledby="intro-article">
           <H2 id="intro-article">Amar no es solo sentir</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={LampeImage}
+              alt="Lámpara de aceite que arde sin vacilar bajo un largo rastro de estrellas"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">La fidelidad no es un sentimiento: es lo que aguanta cuando el sentimiento varía.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             En astrología, el amor no se reduce a un sentimiento abstracto. Se
@@ -940,6 +969,16 @@ export default function Post() {
         {/* COMPATIBILITÉS */}
         <section className="space-y-6" aria-labelledby="compatibilites-amoureuses">
           <H2 id="compatibilites-amoureuses">Compatibilidades amorosas entre los signos</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={DeuxLunesImage}
+              alt="Dos lunas en fases distintas sobre un mar en calma"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">Dos cartas nunca laten al mismo ritmo: ahí se juega la compatibilidad.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             La compatibilidad amorosa nunca se reduce a una simple receta. Se

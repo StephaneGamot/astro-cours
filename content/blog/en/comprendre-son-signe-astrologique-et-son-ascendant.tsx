@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/signe-ascendant-soleil-levant.webp";
+import LanterneImage from "@/public/images/blog/soleil-ascendant-lanterne.webp";
+import DeuxLumieresImage from "@/public/images/blog/soleil-ascendant-deux-lumieres.webp";
 
 const ARTICLE_URL = `${SITE_URL}/blog/comprendre-signe-astrologique-ascendant-12-exemples`;
 const COVER_URL = `${SITE_URL}/images/blog/signe-ascendant-soleil-levant.webp`;
@@ -202,6 +206,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Sun rising exactly on the horizon line, seen through a stone doorway"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         <div
           aria-hidden="true"
@@ -290,6 +310,16 @@ export default function Post() {
 
       <section className="space-y-4">
         <H2>2) Sun sign and ascendant: what is the real difference?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={LanterneImage}
+            alt="Brass lantern with coloured panes: a single flame casting several colours of light"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">The same flame, different panes: the Sun doesn’t change, the ascendant colours what we see of it.</figcaption>
+        </figure>
 
         <Card title="The combination that makes the reading come alive">
           <p>
@@ -540,6 +570,16 @@ export default function Post() {
 
       <section className="space-y-4">
         <H2>4) How to interpret your sign and ascendant together</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={DeuxLumieresImage}
+            alt="Stone sphere lit by two beams, gold and violet, forming a third hue where they cross"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">It’s neither the Sun alone nor the ascendant alone: what you read is where they cross.</figcaption>
+        </figure>
 
         <Card title="The true meaning of this reading">
           <p>

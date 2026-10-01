@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 import CoverImage from "@/public/images/blog/astrologie-medicale-renaissance.webp";
+import VolvelleImage from "@/public/images/blog/volvelle-lunaire.webp";
+import DeclinImage from "@/public/images/blog/declin-astrologie-medicale.webp";
 
 export const meta = {
   slug: "astrologie-medicale-renaissance",
@@ -427,6 +429,19 @@ export default function AstrologieMedicaleRenaissancePost() {
           </Card>
         </div>
 
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={VolvelleImage}
+            alt="Una volvela lunar — discos de papel giratorios — en un libro antiguo, iluminada por una vela junto a un reloj de arena"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            La volvela: tres discos de papel giratorios para situar la Luna sin
+            cálculos. El instrumento real detrás de los «días críticos».
+          </figcaption>
+        </figure>
+
         <Callout tone="note" title="Una medicina del calendario">
           <p>
             Se comprende mejor el atractivo del sistema: a falta de poder medir gran cosa, ofrecía al médico un{" "}
@@ -494,6 +509,19 @@ export default function AstrologieMedicaleRenaissancePost() {
           el simbolismo que la astrología contemporánea sigue explorando — no para curar, sino para describir{" "}
           <em>temperamentos</em> y <em>terrenos</em> psicológicos.
         </p>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={DeclinImage}
+            alt="Un almanaque astrológico cerrado y polvoriento junto a una lámina de anatomía, un microscopio de latón y una vela apagada"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            El mismo escritorio, un siglo después: la vela apagada, la ventana
+            abierta y el almanaque cerrado.
+          </figcaption>
+        </figure>
 
         <Callout tone="ok" title="Lo que la astrología médica puede (y no puede) iluminar hoy">
           <p>

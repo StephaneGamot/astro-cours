@@ -3,6 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import SeigneurActionImage from "@/public/images/blog/seigneur-de-laction.webp";
+import MilieuDuCielImage from "@/public/images/blog/milieu-du-ciel.webp";
 import OrientationProImage from "@/public/images/blog/orientation-professionnelle-theme-astral.webp";
 
 export const meta = {
@@ -379,6 +381,16 @@ export default function OrientationProfessionnelleThemeAstralPost() {
       <section className="space-y-6">
         <H2>1) Los tres señores de la acción: cómo identificar tu vocación</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={SeigneurActionImage}
+            alt="Tres herramientas de artesano, una al lado de otra, solo una iluminada"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Tres candidatos posibles — solo uno lleva realmente la acción.</figcaption>
+        </figure>
+
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           En este método, tres planetas dan la{" "}
           <strong className="font-medium text-amber-200">naturaleza fundamental de la vocación</strong>.
@@ -502,6 +514,16 @@ export default function OrientationProfessionnelleThemeAstralPost() {
 
       <section className="space-y-6">
         <H2>3) Casa X y Medio Cielo: por qué no bastan por sí solos</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MilieuDuCielImage}
+            alt="El punto más alto de una trayectoria luminosa sobre un paisaje oscuro"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">El Medio Cielo señala el punto más visible del recorrido, no la profesión.</figcaption>
+        </figure>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           La Casa X habla de reconocimiento social, de éxito visible, de

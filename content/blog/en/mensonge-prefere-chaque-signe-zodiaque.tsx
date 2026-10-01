@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/mensonge-prefere-chaque-signe-zodiaque.webp";
+import ReflexeImage from "@/public/images/blog/mensonge-reflexe-protection.webp";
+import ManipulationImage from "@/public/images/blog/mensonge-ou-manipulation.webp";
 
 const ARTICLE_SLUG = "mensonge-prefere-chaque-signe-zodiaque";
 const LOCALIZED_SLUG = "favorite-lie-of-each-zodiac-sign";
@@ -315,6 +318,22 @@ export default function Post() {
       />
 
       <article className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="A perfectly transparent glass mask floating in an indigo sky, a golden flame visible through it"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         {/* HEADER */}
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
           <div
@@ -389,6 +408,19 @@ export default function Post() {
             but each lie is rooted in the sign&apos;s real inner mechanics.
             You&apos;re going to recognize someone. Probably yourself.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ReflexeImage}
+              alt="A tiny bronze shield standing in front of a large glowing glass egg, on a dark desk"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              A tiny shield in front of what it claims to protect: that is the
+              real size of a protective lie.
+            </figcaption>
+          </figure>
         </section>
 
         {/* 12 SIGNS */}
@@ -839,6 +871,19 @@ export default function Post() {
             If someone&apos;s lies cost you more than they protect them, it&apos;s no
             longer fun astrology: it&apos;s a signal.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ManipulationImage}
+              alt="Two identical purple velvet cases: one holds a grey feather, the other a steel hook of the same curve"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              Same case, two contents. One defends a fragility, the other comes
+              to take something.
+            </figcaption>
+          </figure>
         </section>
 
         {/* CONCLUSION */}

@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import JupiterienImage from "@/public/images/blog/jupiterien1.webp";
 import JupiterienImage2 from "@/public/images/blog/jupiterien2.webp";
+import JupiterAffligeImage from "@/public/images/blog/jupiter-afflige.webp";
+import JupiterienSocieteImage from "@/public/images/blog/jupiterien-societe.webp";
 
 export const meta = {
   slug: "jupiterien",
@@ -341,6 +343,15 @@ export default function JupiterienPost() {
 
       <section className="space-y-6">
         <H2>El Jupiteriano en sociedad: generosidad, prestigio y sentido del mando</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={JupiterienSocieteImage}
+            alt="Un gran puente de piedra recién terminado que salva un valle a la hora dorada, con su calzada hacia una ciudad lejana"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="La vida social">
           <p>
@@ -395,6 +406,15 @@ export default function JupiterienPost() {
 
       <section className="space-y-6">
         <H2>Júpiter afligido en la carta natal: exceso, megalomanía y despilfarro</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={JupiterAffligeImage}
+            alt="Una mesa de banquete desmesurada y desierta, cargada de platos intactos que se desbordan por el suelo"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="La sombra de Júpiter">
           <p>

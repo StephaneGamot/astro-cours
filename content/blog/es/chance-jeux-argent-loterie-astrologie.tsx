@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 import ChanceImage from "@/public/images/blog/chance-jeux-argent-loterie.webp";
+import FenetreImage from "@/public/images/blog/transits-fenetre-favorable.webp";
+import LoterieImage from "@/public/images/blog/loterie-boules-sans-numeros.webp";
 
 export const meta = {
   slug: "chance-jeux-argent-loterie-astrologie",
@@ -488,6 +490,19 @@ export default function ChanceJeuxArgentLoteriePost() {
           </Card>
         </div>
 
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={FenetreImage}
+            alt="Un ventanal ojival abierto en un muro de piedra oscura hacia un cielo estrellado, su luz dibuja un rectángulo en el suelo"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Una ventana se abre — la sala sigue vacía. Un tránsito describe un
+            clima, no lo que harás con él.
+          </figcaption>
+        </figure>
+
         <Callout tone="warn" title="La trampa del &laquo; buen momento &raquo;">
           <p>
             Creer que un tránsito &laquo; autoriza &raquo; a apostar fuerte es uno de los errores más costosos. Un buen tránsito no modifica las
@@ -523,6 +538,19 @@ export default function ChanceJeuxArgentLoteriePost() {
             </p>
           </Card>
         </div>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={LoterieImage}
+            alt="Siete bolas de marfil perfectamente lisas, sin ningún número, en un cuenco de madera junto a una carta natal a lápiz"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Bolas sin números: eso es exactamente lo que una carta contiene en
+            materia de sorteo.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />

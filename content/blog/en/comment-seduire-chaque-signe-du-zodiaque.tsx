@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/comment-seduire-chaque-signe-du-zodiaque.webp";
+import VenusMarsImage from "@/public/images/blog/venus-mars-coulisses.webp";
+import TraduireImage from "@/public/images/blog/seduire-cest-traduire.webp";
 
 const ARTICLE_SLUG = "comment-seduire-chaque-signe-du-zodiaque";
 const LOCALIZED_SLUG = "how-to-seduce-each-zodiac-sign";
@@ -324,6 +327,22 @@ export default function Post() {
       />
 
       <article className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Twelve old keys, each engraved with a zodiac symbol, hanging from a brass ring, one lit from within"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         {/* HEADER */}
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
           <div
@@ -409,6 +428,19 @@ export default function Post() {
             help you understand the other person, not manipulate them. The
             nuance matters.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={VenusMarsImage}
+              alt="Two spheres on a theatre stage: Venus, pearly pink veiled in silk, and Mars, dark and run through with glowing cracks"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              The sign gives the front door. Behind it, Venus describes the way
+              of loving and Mars the nature of desire.
+            </figcaption>
+          </figure>
         </section>
 
         {/* 12 SIGNS */}
@@ -1087,6 +1119,19 @@ export default function Post() {
             next, we have also catalogued
             <Link href="/blog/mensonge-prefere-chaque-signe-zodiaque" className="underline decoration-white/30 hover:decoration-white/60 transition"> the favorite lie of each zodiac sign</Link>.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={TraduireImage}
+              alt="An open notebook, the same sentence copied twelve times, each line in a different hand with a zodiac symbol"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              The same sentence, twelve times — one handwriting per sign. That
+              is all this guide says.
+            </figcaption>
+          </figure>
         </section>
 
         {/* FAQ */}

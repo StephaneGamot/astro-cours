@@ -1,7 +1,12 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/conjonction-deux-astres.webp";
+import MelangeImage from "@/public/images/blog/conjonction-melange-des-forces.webp";
+import OndesImage from "@/public/images/blog/conjonction-orbe-ondes.webp";
+import AlignementImage from "@/public/images/blog/conjonction-transit-alignement.webp";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/conjonction-melange-des-forces`;
@@ -221,6 +226,22 @@ export default function Post() {
 
       <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Two bright celestial bodies almost touching above a twilight horizon, their haloes overlapping"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -287,6 +308,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>1) Conjunction in astrology: definition and core principle</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MelangeImage}
+            alt="Two liquids, amber and indigo, poured together into one glass and blending into a new colour"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">A conjunction does not place two planets side by side: it blends them.</figcaption>
+        </figure>
+
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85">
           <p>
             An <strong>astrological conjunction</strong> occurs when
@@ -329,6 +360,16 @@ export default function Post() {
       {/* 2) Orbs */}
       <section className="space-y-4">
         <H2>2) The conjunction's orb: when does it really "count"?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={OndesImage}
+            alt="Two sets of concentric ripples crossing on the surface of a pond"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">The closer the two centres, the more the ripples overlap. That’s all the orb is saying.</figcaption>
+        </figure>
 
         <p className="text-text/80 leading-relaxed">
           The orb is the gap in degrees between the two planets. The tighter
@@ -615,6 +656,16 @@ export default function Post() {
       {/* 7) Transits */}
       <section className="space-y-4">
         <H2>7) Conjunction in transit: when it activates over time</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={AlignementImage}
+            alt="Brass armillary sphere with two of its rings aligned in the same plane"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">In transit, the conjunction is an alignment: it builds for a long time and lasts only a moment.</figcaption>
+        </figure>
 
         <p className="text-text/80 leading-relaxed">
           In the natal chart, the conjunction is "fixed". But in the

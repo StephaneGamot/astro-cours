@@ -6,6 +6,7 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import SaturnienImage from "@/public/images/blog/saturnien.webp";
 import Saturnien2Image from "@/public/images/blog/saturnien2.webp";
 import Saturnien3Image from "@/public/images/blog/saturnien3.webp";
+import SaturnienneImage from "@/public/images/blog/saturnienne.webp";
 
 export const meta = {
   slug: "saturnien",
@@ -454,6 +455,15 @@ export default function SaturnienPost() {
 
       <section className="space-y-6">
         <H2>The Saturnian woman in astrology: portrait of the woman with a Saturn dominant</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={SaturnienneImage}
+            alt="A woman in grey wool measuring a scale model of a vault on her drawing table, by a window"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

@@ -2,6 +2,10 @@ import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import Image from "next/image";
+import CoverImage from "@/public/images/blog/longevite-vie-astrologie.webp";
+import HylegImage from "@/public/images/blog/hyleg-point-vital.webp";
+import SaturneImage from "@/public/images/blog/saturne-planete-de-la-duree.webp";
 
 export const meta = {
   slug: "longevite-vie-astrologie",
@@ -288,6 +292,22 @@ export default function LongeviteVieAstrologiePost() {
         }}
       />
 
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="A brass lantern with a straight, calm flame, set atop an ancient stone column under a starry sky"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       {/* HERO SECTION BLOG */}
       <header className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-black/40 p-8 shadow-2xl backdrop-blur-xl sm:p-12">
         <div
@@ -430,6 +450,19 @@ export default function LongeviteVieAstrologiePost() {
             </p>
           </Card>
         </div>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={HylegImage}
+            alt="A pencil-drawn birth chart on old paper, one single point lit by a warm light, beside a magnifying glass and a needle"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            A single point of the chart carries the vital force — the one place
+            the light passes through.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />
@@ -630,6 +663,19 @@ export default function LongeviteVieAstrologiePost() {
             themselves concrete factors of longevity.
           </p>
         </Callout>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={SaturneImage}
+            alt="An ancient stone arch still standing at night, its keystone in place, under a starry sky where Saturn shines"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            An arch stands because its keystone is well set. That’s the
+            definition of a structured Saturn.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />

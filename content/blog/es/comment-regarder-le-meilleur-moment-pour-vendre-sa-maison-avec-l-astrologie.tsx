@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/vendre-maison-astrologie-timing.webp";
+import EngrenagesImage from "@/public/images/blog/transits-engrenages-tempo.webp";
+import DetourImage from "@/public/images/blog/retrogrades-detour-signature.webp";
 
 export const meta = {
   slug: "vendre-une-maison-demenager-astrologie-methodes",
@@ -190,6 +194,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Casa de piedra aislada bajo un cielo de estelas de estrellas, con una ventana iluminada"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -350,6 +370,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>3) Tránsitos y timing: cómo detectar el buen momento para vender</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={EngrenagesImage}
+            alt="Tres engranajes de latón de tamaños muy distintos"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">El fondo gira despacio, el desencadenante gira rápido — es su engranaje lo que da la fecha.</figcaption>
+        </figure>
+
         <Card
           title="Método premium en 4 capas"
           subtitle="Superponemos: fondo → contexto → desencadenante → fecha práctica."
@@ -420,6 +450,16 @@ export default function Post() {
       {/* 4) retrógrados */}
       <section className="space-y-4">
         <H2>4) <Link href="/retrogrades" className="underline decoration-white/30 hover:decoration-white/60 transition">Retrógrados</Link>: ¿hay que evitar firmar?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={DetourImage}
+            alt="Carretera cortada al anochecer, con un desvío que vuelve a la misma carretera más adelante"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Una retrogradación no es un muro: es un desvío. El mismo destino, con más margen que prever.</figcaption>
+        </figure>
 
         <Card title="Enfoque realista (no supersticioso)" subtitle="No cundir el pánico. Se gestiona.">
           <p>

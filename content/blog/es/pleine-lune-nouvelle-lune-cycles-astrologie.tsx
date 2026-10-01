@@ -1,7 +1,12 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/cycles-lunaires-phases-arc.webp";
+import VagueImage from "@/public/images/blog/cycle-lunaire-vague.webp";
+import NouvelleLuneImage from "@/public/images/blog/nouvelle-lune-champ-seme.webp";
+import PleineLuneImage from "@/public/images/blog/pleine-lune-tout-devient-visible.webp";
 
 export const meta = {
   slug: "pleine-lune-nouvelle-lune-cycles-astrologie",
@@ -201,6 +206,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Las fases de la Luna formando un arco completo sobre una cadena de montañas por la noche"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div
@@ -302,6 +323,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>2) El ciclo lunar explicado de forma sencilla</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={VagueImage}
+            alt="Larga ola nocturna captada en el momento en que se forma y cae, con la cresta iluminada por la Luna"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Sube, culmina, baja — a lo largo de 29 días.</figcaption>
+        </figure>
+
         <Card title="Una ola de 29 días" subtitle="Sube, culmina, baja. Como tú.">
           <p>
             Un ciclo completo dura unos <strong>29 días</strong>. La Luna se
@@ -338,6 +369,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>3) La Luna Nueva 🌑</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={NouvelleLuneImage}
+            alt="Campo arado bajo un cielo estrellado sin luna, surcos iluminados solo por la luz de las estrellas"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">En la Luna Nueva el cielo está vacío. Precisamente por eso se siembra entonces.</figcaption>
+        </figure>
+
         <Card title="Energía: recomenzar, sembrar, interiorizar" subtitle="El vacío fértil. Poco visible, muy poderoso.">
           <p>
             La Luna Nueva es una fase de <strong>silencio</strong>. Puede
@@ -373,6 +414,16 @@ export default function Post() {
       {/* 4) Pleine Lune */}
       <section className="space-y-4">
         <H2>4) La Luna Llena 🌕</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={PleineLuneImage}
+            alt="Habitación iluminada solo por la luna llena que entra por la ventana, cada objeto proyecta una sombra nítida"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">La Luna Llena no trae nada nuevo: ilumina lo que ya estaba ahí.</figcaption>
+        </figure>
 
         <Card title="Energía: revelación, intensidad, culminación" subtitle="Amplificador emocional. Todo se hace visible.">
           <p>

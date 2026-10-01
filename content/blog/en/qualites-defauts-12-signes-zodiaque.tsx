@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/qualites-defauts-12-signes-zodiaque.webp";
+import DualiteImage from "@/public/images/blog/dualite-qualite-defaut-verre.webp";
+import CanaliserImage from "@/public/images/blog/canaliser-energie-signe.webp";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qualites-defauts-12-signes-zodiaque`;
@@ -252,6 +255,22 @@ export default function Post() {
       />
 
       <article className="space-y-10" >
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Brass disc engraved with zodiac symbols, each glyph casting its own shadow"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         <header
           className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft"
 
@@ -315,6 +334,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="comprendre-dualite">
           <H2 id="comprendre-dualite">Understanding the duality of the signs</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={DualiteImage}
+              alt="A glass filled to the brim with the liquid spilling over, a quality pushed to excess"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">The same energy: well measured it is a strength, overflowing it is a flaw.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             No astrological sign is &ldquo;good&rdquo; or &ldquo;bad&rdquo;.
@@ -641,6 +670,16 @@ export default function Post() {
 
         <section className="space-y-4" aria-labelledby="conclusion-article">
           <H2 id="conclusion-article">Conclusion</H2>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={CanaliserImage}
+              alt="A paddle wheel driven by the channelled water of a mountain stream"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">The same current: scattered it erodes, channelled it turns the wheel.</figcaption>
+          </figure>
 
           <p className="text-text/85 leading-relaxed">
             Astrological signs do not describe a whole person, but

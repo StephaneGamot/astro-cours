@@ -2,6 +2,10 @@ import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import Image from "next/image";
+import CoverImage from "@/public/images/blog/manipulateurs-pn.webp";
+import PhasesImage from "@/public/images/blog/quatre-phases-emprise-verres.webp";
+import SeuilImage from "@/public/images/blog/saturne-limites-seuil.webp";
 
 /* ================================================================== */
 /*  META / SEO                                                        */
@@ -282,6 +286,22 @@ export default function ManipulateursPNPost() {
           ]),
         }}
       />
+
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13] sm:rounded-[2.5rem]">
+        <Image
+          src={CoverImage}
+          alt="Bruma dorada densa atravesada por un haz de luz fría que revela dentro una red de hilos tensos muy regulares"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
 
       {/* ── Header ── */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-6 shadow-2xl backdrop-blur-xl sm:rounded-[2.5rem] sm:p-8 md:p-12">
@@ -724,6 +744,19 @@ export default function ManipulateursPNPost() {
             Estos contactos no condenan la relación. Pero exigen una conciencia aguda de las dinámicas en juego y una comunicación abierta sobre las relaciones de poder.
           </p>
         </Card>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={SeuilImage}
+            alt="Un murete de piedra seca bajo la luna llena, con un portillo de madera abierto de par en par"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Límites saturninos, no una fortaleza: un murete que se ve, un
+            portillo que se abre.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />
@@ -759,6 +792,19 @@ export default function ManipulateursPNPost() {
             </div>
           </div>
         </Card>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={PhasesImage}
+            alt="Cuatro vasos ante una lámpara: límpido y dorado, luego con una gota de tinta, luego del todo negro, luego claro con poso"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Seducción, desestabilización, destrucción, renacimiento. El poso del
+            fondo del cuarto vaso: vuelves a estar claro, pero no olvidas.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />

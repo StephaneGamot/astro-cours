@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 import CoverImage from "@/public/images/blog/astrologie-medicale-renaissance.webp";
+import VolvelleImage from "@/public/images/blog/volvelle-lunaire.webp";
+import DeclinImage from "@/public/images/blog/declin-astrologie-medicale.webp";
 
 export const meta = {
   slug: "astrologie-medicale-renaissance",
@@ -427,6 +429,19 @@ export default function AstrologieMedicaleRenaissancePost() {
           </Card>
         </div>
 
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={VolvelleImage}
+            alt="A lunar volvelle — rotating concentric paper discs — bound into an old book, lit by a candle, beside an hourglass"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            The volvelle: three rotating paper discs to locate the Moon
+            without any calculation. The real instrument behind the &quot;critical days&quot;.
+          </figcaption>
+        </figure>
+
         <Callout tone="note" title="A medicine of the calendar">
           <p>
             We understand better the appeal of the system: unable to measure much, it offered the physician a{" "}
@@ -494,6 +509,19 @@ export default function AstrologieMedicaleRenaissancePost() {
           the symbolism that contemporary astrology continues to explore — not to heal, but to describe{" "}
           <em>temperaments</em> and psychological <em>terrains</em>.
         </p>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={DeclinImage}
+            alt="A dusty closed almanac beside an open anatomy plate, a brass microscope and a snuffed-out candle, in daylight"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            The same desk, a century later: the candle snuffed out, the window
+            open, and the almanac closed.
+          </figcaption>
+        </figure>
 
         <Callout tone="ok" title="What medical astrology can (and cannot) illuminate today">
           <p>

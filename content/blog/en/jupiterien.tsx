@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import JupiterienImage from "@/public/images/blog/jupiterien1.webp";
 import JupiterienImage2 from "@/public/images/blog/jupiterien2.webp";
+import JupiterAffligeImage from "@/public/images/blog/jupiter-afflige.webp";
+import JupiterienSocieteImage from "@/public/images/blog/jupiterien-societe.webp";
 
 export const meta = {
   slug: "jupiterien",
@@ -341,6 +343,15 @@ export default function JupiterienPost() {
 
       <section className="space-y-6">
         <H2>The Jupiterian in society: generosity, prestige and a sense of command</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={JupiterienSocieteImage}
+            alt="A great stone bridge just completed spanning a valley at golden hour, its road leading to a distant city"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="Social life">
           <p>
@@ -395,6 +406,15 @@ export default function JupiterienPost() {
 
       <section className="space-y-6">
         <H2>An afflicted Jupiter in the natal chart: excess, megalomania and waste</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={JupiterAffligeImage}
+            alt="An oversized, deserted banquet table loaded with untouched dishes spilling over onto the floor"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="The shadow of Jupiter">
           <p>

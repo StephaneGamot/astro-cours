@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import VenusienImage from "@/public/images/blog/venus1.webp";
 import VenusienImage2 from "@/public/images/blog/venus2.webp";
+import VenusAffligeeImage from "@/public/images/blog/venus-affligee.webp";
+import VenusienneImage from "@/public/images/blog/venusienne.webp";
 
 export const meta = {
   slug: "venusien",
@@ -403,6 +405,15 @@ export default function VenusienPost() {
 
       <section className="space-y-6">
         <H2>Venus afligida en la carta natal: pereza, celos y manipulación</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={VenusAffligeeImage}
+            alt="Bodegón al crepúsculo: fruta pasada en una bandeja de plata, rosas marchitas, espejo de bronce boca abajo y copa volcada"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="La sombra de Venus">
           <p>
@@ -418,6 +429,15 @@ export default function VenusienPost() {
 
       <section className="space-y-6">
         <H2>La Venusiana en astrología: retrato de la mujer con dominante de Venus</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={VenusienneImage}
+            alt="Una joven trabajando en su taller a la hora dorada, con las mangas remangadas, absorta en su labor"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="La expresión Yin">
           <p>

@@ -1,7 +1,12 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/cycles-lunaires-phases-arc.webp";
+import VagueImage from "@/public/images/blog/cycle-lunaire-vague.webp";
+import NouvelleLuneImage from "@/public/images/blog/nouvelle-lune-champ-seme.webp";
+import PleineLuneImage from "@/public/images/blog/pleine-lune-tout-devient-visible.webp";
 
 export const meta = {
   slug: "pleine-lune-nouvelle-lune-cycles-astrologie",
@@ -201,6 +206,22 @@ export default function Post() {
     />
     <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="The phases of the Moon forming a complete arc above a mountain range at night"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div
@@ -302,6 +323,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>2) The lunar cycle explained simply</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={VagueImage}
+            alt="Long night-time wave caught as it forms and falls back, its crest lit by the Moon"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">It rises, it peaks, it falls back — over 29 days.</figcaption>
+        </figure>
+
         <Card title="A 29-day wave" subtitle="It rises, it peaks, it falls back. Just like you.">
           <p>
             A complete cycle lasts about <strong>29 days</strong>. The Moon
@@ -338,6 +369,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>3) The New Moon 🌑</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={NouvelleLuneImage}
+            alt="Ploughed field under a starry moonless sky, furrows lit by starlight alone"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">At the New Moon the sky is empty. That’s precisely why you sow then.</figcaption>
+        </figure>
+
         <Card title="Energy: begin again, sow, turn inward" subtitle="The fertile void. Barely visible, very powerful.">
           <p>
             The New Moon is a phase of <strong>silence</strong>. It
@@ -373,6 +414,16 @@ export default function Post() {
       {/* 4) Pleine Lune */}
       <section className="space-y-4">
         <H2>4) The Full Moon 🌕</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={PleineLuneImage}
+            alt="Room lit only by the full moon through the window, every object casting a sharp shadow"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">The Full Moon brings nothing new: it lights up what was already there.</figcaption>
+        </figure>
 
         <Card title="Energy: revelation, intensity, culmination" subtitle="Emotional amplifier. Everything becomes visible.">
           <p>

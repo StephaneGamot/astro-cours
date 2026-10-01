@@ -3,6 +3,9 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/mensonge-prefere-chaque-signe-zodiaque.webp";
+import ReflexeImage from "@/public/images/blog/mensonge-reflexe-protection.webp";
+import ManipulationImage from "@/public/images/blog/mensonge-ou-manipulation.webp";
 
 const ARTICLE_SLUG = "mensonge-prefere-chaque-signe-zodiaque";
 const LOCALIZED_SLUG = "mentira-favorita-de-cada-signo-zodiaco";
@@ -315,6 +318,22 @@ export default function Post() {
       />
 
       <article className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Una máscara de vidrio totalmente transparente flotando en un cielo índigo, con una llama dorada visible a través"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         {/* HEADER */}
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
           <div
@@ -391,6 +410,19 @@ export default function Post() {
             pero cada mentira está anclada en la verdadera mecánica del signo. Vas a
             reconocer a alguien. Probablemente a ti.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ReflexeImage}
+              alt="Un diminuto escudo de bronce alzado ante un gran huevo de vidrio luminoso, sobre un escritorio oscuro"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              Un escudo diminuto ante lo que pretende proteger: ese es el tamaño
+              real de una mentira de protección.
+            </figcaption>
+          </figure>
         </section>
 
         {/* 12 SIGNOS */}
@@ -841,6 +873,19 @@ export default function Post() {
             Si las mentiras de alguien te cuestan más de lo que lo protegen, ya no
             es astrología divertida: es una señal.
           </p>
+
+          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+            <Image
+              src={ManipulationImage}
+              alt="Dos estuches de terciopelo violeta idénticos: uno guarda una pluma gris, el otro un anzuelo de acero con la misma curva"
+              sizes="(max-width: 768px) 100vw, 800px"
+              className="h-auto w-full"
+            />
+            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+              Mismo estuche, dos contenidos. Uno defiende una fragilidad, el
+              otro viene a buscar algo.
+            </figcaption>
+          </figure>
         </section>
 
         {/* CONCLUSIÓN */}

@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import MartienImage from "@/public/images/blog/martien.webp";
 import Martien2Image from "@/public/images/blog/martien2.webp";
+import MarsAffligeImage from "@/public/images/blog/mars-afflige.webp";
+import MartienneImage from "@/public/images/blog/martienne.webp";
 
 export const meta = {
   slug: "martien",
@@ -428,6 +430,15 @@ export default function MartienPost() {
 
       <section className="space-y-6">
         <H2>Marte afligido en la carta natal: violencia, cólera y autodestrucción</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MarsAffligeImage}
+            alt="Una hoja forjada partida en dos sobre un yunque frío, la fragua apagada y el martillo caído en el suelo"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="La sombra de Marte">
           <p>
@@ -446,6 +457,15 @@ export default function MartienPost() {
 
       <section className="space-y-6">
         <H2>La Marciana en astrología: retrato de la mujer con dominante Marte</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MartienneImage}
+            alt="Una jinete detenida en una cresta al amanecer, con una lanza atravesada en la silla, observando el valle"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="La expresión Yin">
           <p>

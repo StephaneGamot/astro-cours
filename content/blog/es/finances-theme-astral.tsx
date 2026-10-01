@@ -3,6 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import MaitreMaisonIIImage from "@/public/images/blog/maitre-maison-ii.webp";
+import AspectsMaisonIIImage from "@/public/images/blog/aspects-maison-ii.webp";
 import FinanceAstroImage from "@/public/images/blog/finances-theme-astral.webp";
 
 export const meta = {
@@ -413,6 +415,16 @@ export default function FinancesThemeAstralPost() {
       <section className="space-y-6">
         <H2>2) El regente de la Casa II</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MaitreMaisonIIImage}
+            alt="Una única llave junto a un cofre cerrado, con luz cálida"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">El regente de la II indica dónde, en concreto, se juega el dinero en la vida.</figcaption>
+        </figure>
+
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           El regente de la Casa II es central. Muestra{" "}
           <strong className="font-medium text-amber-200">el origen de las finanzas</strong>, la motivación
@@ -587,6 +599,16 @@ export default function FinancesThemeAstralPost() {
       {/* 6. ASPECTOS RECIBIDOS */}
       <section className="space-y-6">
         <H2>6) Los aspectos recibidos por el planeta en la Casa II</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={AspectsMaisonIIImage}
+            alt="Una balanza antigua cuyos platillos son tirados por varios hilos tensos"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Un planeta en la II nunca trabaja solo: sus aspectos deciden el resultado.</figcaption>
+        </figure>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Los aspectos muestran si el planeta presente en la Casa II está apoyado,

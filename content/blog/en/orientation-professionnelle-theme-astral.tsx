@@ -3,6 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import SeigneurActionImage from "@/public/images/blog/seigneur-de-laction.webp";
+import MilieuDuCielImage from "@/public/images/blog/milieu-du-ciel.webp";
 import OrientationProImage from "@/public/images/blog/orientation-professionnelle-theme-astral.webp";
 
 export const meta = {
@@ -379,6 +381,16 @@ export default function OrientationProfessionnelleThemeAstralPost() {
       <section className="space-y-6">
         <H2>1) The three lords of action: how to identify your vocation</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={SeigneurActionImage}
+            alt="Three craftsman’s tools laid side by side, only one caught by the light"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Three possible candidates — only one truly leads the action.</figcaption>
+        </figure>
+
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           In this method, three planets give the{" "}
           <strong className="font-medium text-amber-200">fundamental nature of the vocation</strong>.
@@ -502,6 +514,16 @@ export default function OrientationProfessionnelleThemeAstralPost() {
 
       <section className="space-y-6">
         <H2>3) The 10th House and Midheaven: why they are not enough on their own</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MilieuDuCielImage}
+            alt="The highest point of a luminous arc above a dark landscape"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">The Midheaven names the most visible point of the path, not the job.</figcaption>
+        </figure>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           The 10th House speaks of social recognition, visible success,

@@ -3,6 +3,8 @@ import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import MaitreMaisonIIImage from "@/public/images/blog/maitre-maison-ii.webp";
+import AspectsMaisonIIImage from "@/public/images/blog/aspects-maison-ii.webp";
 import FinanceAstroImage from "@/public/images/blog/finances-theme-astral.webp";
 
 export const meta = {
@@ -413,6 +415,16 @@ export default function FinancesThemeAstralPost() {
       <section className="space-y-6">
         <H2>2) The ruler of the 2nd House</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MaitreMaisonIIImage}
+            alt="A single key lying beside a closed chest, in warm light"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">The ruler of the 2nd shows where, in practical terms, money plays out in a life.</figcaption>
+        </figure>
+
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           The ruler of the 2nd House is central. It shows{" "}
           <strong className="font-medium text-amber-200">the origin of the finances</strong>, the deep
@@ -587,6 +599,16 @@ export default function FinancesThemeAstralPost() {
       {/* 6. ASPECTS RECEIVED */}
       <section className="space-y-6">
         <H2>6) The aspects received by the planet in the 2nd House</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={AspectsMaisonIIImage}
+            alt="An antique balance whose pans are pulled by several taut threads"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">A planet in the 2nd never works alone: its aspects decide the outcome.</figcaption>
+        </figure>
 
         <p className="text-base leading-relaxed text-white/80 md:text-lg">
           Aspects show whether the planet present in the 2nd House is supported,

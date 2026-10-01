@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import PlutonienImage from "@/public/images/blog/plutonien.webp";
 import Plutonien2Image from "@/public/images/blog/plutonien2.webp";
+import PlutonAffligeImage from "@/public/images/blog/pluton-afflige.webp";
+import PlutonienneImage from "@/public/images/blog/plutonienne.webp";
 
 export const meta = {
   slug: "plutonien",
@@ -401,6 +403,15 @@ export default function PlutonienPost() {
 
       <section className="space-y-6">
         <H2>Plutón afligido en la carta natal: obsesiones, manipulación y autodestrucción</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={PlutonAffligeImage}
+            alt="Una vieja cerradura de latón profundamente rayada alrededor del ojo, con una llave rota en el suelo"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="La sombra de Plutón">
           <p>
@@ -419,6 +430,15 @@ export default function PlutonienPost() {
 
       <section className="space-y-6">
         <H2>La plutoniana en astrología: retrato de la mujer con dominante de Plutón</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={PlutonienneImage}
+            alt="Una mujer arrodillada en una zanja de excavación, despejando con un pincel un rostro de piedra que emerge de la tierra"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="La expresión Yin">
           <p>

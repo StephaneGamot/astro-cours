@@ -1,6 +1,10 @@
 import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import { MERCURY_RX, NEXT_RX_2028 } from "../data/ephemerides-2026-2027";
+import CoverImage from "@/public/images/blog/mercure-retrograde-2027.webp";
+import OrreryImage from "@/public/images/blog/orrery-depassement-mercure.webp";
+import SansPaniqueImage from "@/public/images/blog/mercure-retrograde-sans-panique.webp";
 
 export const meta = {
   slug: "mercure-retrograde-2027-dates",
@@ -77,6 +81,22 @@ export default function MercurioRetrogrado2027Post() {
   const rx2026 = MERCURY_RX[0];
   return (
     <article>
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative mb-10 aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="El recorrido aparente de Mercurio en un cielo estrellado: una fina línea dorada avanza, vuelve sobre sí misma y sigue"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <P>
         Unas tres veces al año, <Link href="/planetes/mercure">Mercurio</Link> parece retroceder
         en el zodiaco — un simple efecto óptico visto desde la Tierra, pero una cita que todo
@@ -111,6 +131,19 @@ export default function MercurioRetrogrado2027Post() {
         estación (las fechas de la tabla siguiente) son, por tanto, los momentos más sensibles de
         cada periodo, mucho más que la mitad de la retrogradación.
       </P>
+
+      <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+        <Image
+          src={OrreryImage}
+          alt="Un planetario de latón sobre un escritorio: la pequeña esfera plateada de Mercurio pasa entre el Sol dorado y la Tierra"
+          sizes="(max-width: 768px) 100vw, 800px"
+          className="h-auto w-full"
+        />
+        <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+          Nada retrocede de verdad: Mercurio adelanta a la Tierra por el
+          interior, y es el adelantamiento lo que crea la ilusión.
+        </figcaption>
+      </figure>
 
       <H2>Las 3 retrogradaciones de Mercurio en 2027</H2>
       <RxTable />
@@ -205,6 +238,19 @@ export default function MercurioRetrogrado2027Post() {
         de los <Link href="/transits">tránsitos</Link> exactos sobre TUS planetas: una
         retrogradación que no toca ningún punto sensible de tu carta pasará desapercibida.
       </P>
+
+      <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+        <Image
+          src={SansPaniqueImage}
+          alt="Escritorio nocturno en perfecto orden: un contrato firmado, una agenda, una taza de té y un pisapapeles de latón grabado"
+          sizes="(max-width: 768px) 100vw, 800px"
+          className="h-auto w-full"
+        />
+        <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+          Millones de contratos se firman durante las retrogradaciones. El clima
+          es de «re-», no de parada.
+        </figcaption>
+      </figure>
 
       <Callout title="Lista de control para los periodos retrógrados">
         <p>Hacer copias de seguridad y confirmar las citas por escrito.</p>

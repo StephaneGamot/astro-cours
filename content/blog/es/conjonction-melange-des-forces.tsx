@@ -1,7 +1,12 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/conjonction-deux-astres.webp";
+import MelangeImage from "@/public/images/blog/conjonction-melange-des-forces.webp";
+import OndesImage from "@/public/images/blog/conjonction-orbe-ondes.webp";
+import AlignementImage from "@/public/images/blog/conjonction-transit-alignement.webp";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/conjonction-melange-des-forces`;
@@ -221,6 +226,22 @@ export default function Post() {
 
       <div className="space-y-10">
       {/* HERO */}
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Dos astros brillantes casi unidos sobre un horizonte crepuscular, con sus halos superpuestos"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
         {/* glows */}
         <div aria-hidden="true" className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`} />
@@ -287,6 +308,16 @@ export default function Post() {
       <section className="space-y-4">
         <H2>1) Conjunción en astrología: definición y principio fundamental</H2>
 
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={MelangeImage}
+            alt="Dos líquidos, ámbar e índigo, vertidos juntos en un mismo vaso y mezclándose en un color nuevo"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Una conjunción no yuxtapone dos planetas: los mezcla.</figcaption>
+        </figure>
+
         <div className="rounded-2xl border border-white/10 bg-black/20 p-6 leading-relaxed text-text/85">
           <p>
             Una <strong>conjunción astrológica</strong> se produce cuando
@@ -327,6 +358,16 @@ export default function Post() {
       {/* 2) Orbes */}
       <section className="space-y-4">
         <H2>2) Orbe de la conjunción: ¿cuándo "cuenta" de verdad?</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={OndesImage}
+            alt="Dos series de ondas concéntricas cruzándose en la superficie de un estanque"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">Cuanto más cerca están los dos centros, más se superponen las ondas. Eso es todo lo que dice el orbe.</figcaption>
+        </figure>
 
         <p className="text-text/80 leading-relaxed">
           El orbe es la distancia en grados entre los dos planetas. Cuanto más
@@ -613,6 +654,16 @@ export default function Post() {
       {/* 7) Tránsitos */}
       <section className="space-y-4">
         <H2>7) Conjunción en tránsito: cuándo se activa en el tiempo</H2>
+
+        <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+          <Image
+            src={AlignementImage}
+            alt="Esfera armilar de latón con dos de sus círculos alineados en el mismo plano"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-5 py-4 text-center text-xs text-text/50">En tránsito, la conjunción es un alineamiento: se prepara durante mucho tiempo y dura solo un instante.</figcaption>
+        </figure>
 
         <p className="text-text/80 leading-relaxed">
           En la carta natal, la conjunción es "fija". Pero en el cielo

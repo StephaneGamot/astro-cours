@@ -1,7 +1,11 @@
 import type { ReactNode } from "react";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import CoverImage from "@/public/images/blog/theme-astral-carte-du-ciel.webp";
+import ComposantesImage from "@/public/images/blog/theme-astral-quatre-composantes.webp";
+import VentImage from "@/public/images/blog/theme-astral-vent-et-route.webp";
 
 const SITE_URL = "https://www.astro-cours.com";
 const ARTICLE_URL = `${SITE_URL}/blog/qu-est-ce-qu-un-theme-astral`;
@@ -203,6 +207,22 @@ export default function Post() {
       />
 
       <div className="space-y-10">
+        {/* IMAGE DE COUVERTURE (LCP) */}
+        <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+          <Image
+            src={CoverImage}
+            alt="Glass sphere resting on rock, holding the starry sky and the horizon of one precise moment"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            priority
+            className="object-cover"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+          />
+        </div>
+
         <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-7 shadow-soft">
           <div
             className={`pointer-events-none absolute -top-24 -right-24 h-72 w-72 rounded-full blur-3xl ${glow}`}
@@ -325,6 +345,16 @@ export default function Post() {
 
             <section className="space-y-4">
               <H2>The 4 components of a natal chart explained simply</H2>
+
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+                <Image
+                  src={ComposantesImage}
+                  alt="Four strings of an old violin passing over the same bridge, in warm light"
+                  sizes="(max-width: 768px) 100vw, 800px"
+                  className="h-auto w-full"
+                />
+                <figcaption className="px-5 py-4 text-center text-xs text-text/50">Four strings, one chord: planets, signs, houses and aspects are never read separately.</figcaption>
+              </figure>
 
               <div className="grid gap-6 md:grid-cols-2">
                 <Card title="1) The planets" icon="☀️" subtitle="What? (the psychological function)">
@@ -456,6 +486,16 @@ export default function Post() {
 
             <section className="space-y-4">
               <H2>What the natal chart does not predict (and what it really reveals)</H2>
+
+              <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+                <Image
+                  src={VentImage}
+                  alt="Meadow flattened by the wind in a single direction, crossed by a path cutting diagonally"
+                  sizes="(max-width: 768px) 100vw, 800px"
+                  className="h-auto w-full"
+                />
+                <figcaption className="px-5 py-4 text-center text-xs text-text/50">The chart describes the wind, not the road.</figcaption>
+              </figure>
 
               <Card title="The limits (important)" icon="🛡️">
                 <ul className="list-disc space-y-2 pl-5">

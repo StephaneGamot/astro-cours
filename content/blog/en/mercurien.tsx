@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import MercurienImage from "@/public/images/blog/mercurien.webp";
 import Mercurien2Image from "@/public/images/blog/mercurien2.webp";
+import MercureAffligeImage from "@/public/images/blog/mercure-afflige.webp";
+import MercurienneImage from "@/public/images/blog/mercurienne.webp";
 
 export const meta = {
   slug: "mercurien",
@@ -416,6 +418,15 @@ export default function MercurienPost() {
 
       <section className="space-y-6">
         <H2>Afflicted Mercury in the natal chart: nervousness, lying and scattering</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MercureAffligeImage}
+            alt="A bundle of letters scattered by the wind across a stone terrace, seals broken, an empty satchel on the ground"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="The shadow of Mercury">
           <p>
@@ -434,6 +445,15 @@ export default function MercurienPost() {
 
       <section className="space-y-6">
         <H2>The Mercurian woman in astrology: portrait of the woman with a Mercury dominant</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MercurienneImage}
+            alt="A young woman writing at a stone table by an open window at dawn, winged sandals resting under the bench"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

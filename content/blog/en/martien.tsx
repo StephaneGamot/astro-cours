@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import MartienImage from "@/public/images/blog/martien.webp";
 import Martien2Image from "@/public/images/blog/martien2.webp";
+import MarsAffligeImage from "@/public/images/blog/mars-afflige.webp";
+import MartienneImage from "@/public/images/blog/martienne.webp";
 
 export const meta = {
   slug: "martien",
@@ -428,6 +430,15 @@ export default function MartienPost() {
 
       <section className="space-y-6">
         <H2>An afflicted Mars in the natal chart: violence, anger and self-destruction</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MarsAffligeImage}
+            alt="A forged blade snapped in two on a cold anvil, the forge gone out and the hammer fallen to the ground"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="The shadow of Mars">
           <p>
@@ -446,6 +457,15 @@ export default function MartienPost() {
 
       <section className="space-y-6">
         <H2>The Martian woman in astrology: portrait of the woman with a Mars dominant</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={MartienneImage}
+            alt="A horsewoman halted on a ridge at dawn, a spear laid across the saddle, watching the valley below"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

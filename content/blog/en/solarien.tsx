@@ -6,6 +6,8 @@ import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import SolarienImage from "@/public/images/blog/solarien.webp";
 import Solarien2Image from "@/public/images/blog/solarien2.webp";
 import Solarien3Image from "@/public/images/blog/solarien3.webp";
+import SolarienneImage from "@/public/images/blog/solarienne.webp";
+import SoleilAffligeImage from "@/public/images/blog/soleil-afflige-chute.webp";
 
 export const meta = {
   slug: "solarien",
@@ -413,6 +415,15 @@ export default function SolarienPost() {
 
       <section className="space-y-6">
         <H2>An afflicted Sun in the natal chart: the dark side of the Solarian</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={SoleilAffligeImage}
+            alt="An empty gilded stone throne in a dim hall, lit by a thin shaft of light falling from a high opening"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="The shadow of the Sun">
           <p>
@@ -440,6 +451,15 @@ export default function SolarienPost() {
 
       <section className="space-y-6">
         <H2>The Solarian woman in astrology: portrait of the Sun-dominant woman</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={SolarienneImage}
+            alt="An ancient queen standing in the light of the rising sun, draped in gold, a crown of rays in her hair"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

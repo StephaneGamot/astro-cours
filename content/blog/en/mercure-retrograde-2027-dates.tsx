@@ -1,6 +1,10 @@
 import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 import { MERCURY_RX, NEXT_RX_2028 } from "../data/ephemerides-2026-2027";
+import CoverImage from "@/public/images/blog/mercure-retrograde-2027.webp";
+import OrreryImage from "@/public/images/blog/orrery-depassement-mercure.webp";
+import SansPaniqueImage from "@/public/images/blog/mercure-retrograde-sans-panique.webp";
 
 export const meta = {
   slug: "mercure-retrograde-2027-dates",
@@ -77,6 +81,22 @@ export default function MercuryRetrograde2027Post() {
   const rx2026 = MERCURY_RX[0];
   return (
     <article>
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative mb-10 aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
+        <Image
+          src={CoverImage}
+          alt="Mercury’s apparent path in a starry sky: a thin golden line advances, loops back on itself, then sets off again"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
+
       <P>
         About three times a year, <Link href="/planetes/mercure">Mercury</Link> appears to move
         backwards through the zodiac — a mere optical effect seen from Earth, yet an appointment
@@ -111,6 +131,19 @@ export default function MercuryRetrograde2027Post() {
         dates in the table below) are therefore the most sensitive moments of each period, far
         more than the middle of the retrograde.
       </P>
+
+      <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+        <Image
+          src={OrreryImage}
+          alt="A brass orrery on a desk: Mercury’s small silver sphere passes between the golden Sun and the blue sphere of Earth"
+          sizes="(max-width: 768px) 100vw, 800px"
+          className="h-auto w-full"
+        />
+        <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+          Nothing really moves backwards: Mercury overtakes the Earth on the
+          inside, and it is the overtaking that creates the illusion.
+        </figcaption>
+      </figure>
 
       <H2>The 3 Mercury retrogrades of 2027</H2>
       <RxTable />
@@ -203,6 +236,19 @@ export default function MercuryRetrograde2027Post() {
         depends anyway on the exact <Link href="/transits">transits</Link> to YOUR planets: a
         retrograde that touches no sensitive point of your chart will go unnoticed.
       </P>
+
+      <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">
+        <Image
+          src={SansPaniqueImage}
+          alt="A tidy evening desk: a signed contract, a diary, a cup of tea and a brass paperweight engraved with Mercury’s symbol"
+          sizes="(max-width: 768px) 100vw, 800px"
+          className="h-auto w-full"
+        />
+        <figcaption className="px-5 py-4 text-center text-xs text-text/50">
+          Millions of contracts are signed during retrogrades. The climate is
+          one of “re-”, not of standstill.
+        </figcaption>
+      </figure>
 
       <Callout title="Retrograde-period checklist">
         <p>Back up your files and confirm appointments in writing.</p>

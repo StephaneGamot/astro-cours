@@ -5,6 +5,8 @@ import Image from "next/image";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
 import PlutonienImage from "@/public/images/blog/plutonien.webp";
 import Plutonien2Image from "@/public/images/blog/plutonien2.webp";
+import PlutonAffligeImage from "@/public/images/blog/pluton-afflige.webp";
+import PlutonienneImage from "@/public/images/blog/plutonienne.webp";
 
 export const meta = {
   slug: "plutonien",
@@ -401,6 +403,15 @@ export default function PlutonienPost() {
 
       <section className="space-y-6">
         <H2>Afflicted Pluto in the natal chart: obsessions, manipulation and self-destruction</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={PlutonAffligeImage}
+            alt="An old brass lock deeply scratched all around the keyhole, a broken key lying on the ground"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Callout tone="warn" title="The shadow of Pluto">
           <p>
@@ -419,6 +430,15 @@ export default function PlutonienPost() {
 
       <section className="space-y-6">
         <H2>The Plutonian woman in astrology: a portrait of the Pluto-dominant female</H2>
+        <div className="relative mt-6 flex w-full items-center justify-center overflow-hidden rounded-[3rem] border border-white/10 bg-[#0f0f13] aspect-[16/9]">
+          <Image
+            src={PlutonienneImage}
+            alt="A woman kneeling in an excavation trench, brushing clear a stone face emerging from the earth"
+            fill
+            sizes="(max-width: 768px) 100vw, 900px"
+            className="object-cover"
+          />
+        </div>
 
         <Card title="The Yin expression">
           <p>

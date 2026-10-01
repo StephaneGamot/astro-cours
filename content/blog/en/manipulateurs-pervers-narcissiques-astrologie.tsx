@@ -2,6 +2,10 @@ import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import { TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG } from "@/lib/seo";
+import Image from "next/image";
+import CoverImage from "@/public/images/blog/manipulateurs-pn.webp";
+import PhasesImage from "@/public/images/blog/quatre-phases-emprise-verres.webp";
+import SeuilImage from "@/public/images/blog/saturne-limites-seuil.webp";
 
 /* ================================================================== */
 /*  META / SEO                                                        */
@@ -282,6 +286,22 @@ export default function ManipulateursPNPost() {
           ]),
         }}
       />
+
+      {/* IMAGE DE COUVERTURE (LCP) */}
+      <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13] sm:rounded-[2.5rem]">
+        <Image
+          src={CoverImage}
+          alt="Dense golden mist crossed by a beam of cold light, revealing inside it a perfectly regular web of taut threads"
+          fill
+          sizes="(max-width: 768px) 100vw, 900px"
+          priority
+          className="object-cover"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#09090b]/80 via-transparent to-transparent"
+        />
+      </div>
 
       {/* ── Header ── */}
       <header className="relative overflow-hidden rounded-2xl border border-white/10 bg-black/40 p-6 shadow-2xl backdrop-blur-xl sm:rounded-[2.5rem] sm:p-8 md:p-12">
@@ -724,6 +744,19 @@ export default function ManipulateursPNPost() {
             These contacts do not condemn the relationship. But they require an acute awareness of the dynamics at play and an open communication about the balance of power.
           </p>
         </Card>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={SeuilImage}
+            alt="A dry-stone wall under the full Moon, with a wooden gate standing wide open"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Saturnian limits, not a fortress: a low wall you can see, a gate
+            that opens.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />
@@ -759,6 +792,20 @@ export default function ManipulateursPNPost() {
             </div>
           </div>
         </Card>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={PhasesImage}
+            alt="Four glasses before a lamp: clear and golden, then inked, then wholly black, then clear again with sediment at the bottom"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Seduction, destabilisation, destruction, rebirth. The sediment at
+            the bottom of the fourth glass: you turn clear again, you don’t
+            forget.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />

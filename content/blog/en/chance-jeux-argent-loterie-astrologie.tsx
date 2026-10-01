@@ -4,6 +4,8 @@ import Image from "next/image";
 import { Pill, TagPillsInline, getGlowFromTags } from "../ui";
 import { AUTHOR_PERSON, PUBLISHER_ORG, SITE_URL } from "@/lib/seo";
 import ChanceImage from "@/public/images/blog/chance-jeux-argent-loterie.webp";
+import FenetreImage from "@/public/images/blog/transits-fenetre-favorable.webp";
+import LoterieImage from "@/public/images/blog/loterie-boules-sans-numeros.webp";
 
 export const meta = {
   slug: "chance-jeux-argent-loterie-astrologie",
@@ -488,6 +490,19 @@ export default function ChanceJeuxArgentLoteriePost() {
           </Card>
         </div>
 
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={FenetreImage}
+            alt="A tall pointed-arch window open in a dark stone wall onto a starry sky, its light drawing a rectangle on the empty floor"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            A window opens — the room stays empty. A transit describes a
+            climate, not what you will do with it.
+          </figcaption>
+        </figure>
+
         <Callout tone="warn" title="The trap of the &laquo; right moment &raquo;">
           <p>
             Believing that a transit &laquo; permits &raquo; you to bet big is one of the most costly mistakes. A good transit does not change the
@@ -523,6 +538,19 @@ export default function ChanceJeuxArgentLoteriePost() {
             </p>
           </Card>
         </div>
+
+        <figure className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <Image
+            src={LoterieImage}
+            alt="Seven perfectly smooth ivory balls, with no numbers at all, in a wooden bowl beside a pencil-drawn birth chart"
+            sizes="(max-width: 768px) 100vw, 800px"
+            className="h-auto w-full"
+          />
+          <figcaption className="px-6 py-4 text-center text-xs text-white/50">
+            Balls with no numbers: that is exactly what a chart holds when it
+            comes to a draw.
+          </figcaption>
+        </figure>
       </section>
 
       <Divider />
