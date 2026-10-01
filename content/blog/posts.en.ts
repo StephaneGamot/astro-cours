@@ -4,6 +4,10 @@ import LuneEnSignesPost, {
   meta as luneEnSignesMeta,
 } from "./en/lune-en-signes-emotions-besoins";
 
+import PlaneteDominantePost, {
+  meta as planeteDominanteMeta,
+} from "./en/planete-dominante-methode-calcul";
+
 import ThemeAstralPost, {
   meta as themeAstralMeta,
 } from "./en/qu-est-ce-qu-un-theme-astral";
@@ -115,6 +119,7 @@ export type PostModule = {
 };
 
 export const posts_en: PostModule[] = [
+  { meta: planeteDominanteMeta, Component: PlaneteDominantePost },
   { meta: luneEnSignesMeta, Component: LuneEnSignesPost },
   { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },
   { meta: mensongePrefereSignesMeta, Component: MensongePrefereSignesPost },
