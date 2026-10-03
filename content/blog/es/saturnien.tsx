@@ -314,6 +314,18 @@ export default function SaturnienPost() {
         </div>
       </header>
 
+      <aside className="rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-sm leading-relaxed text-white/75">
+        <strong className="text-white/90">Antes de seguir:</strong> ¿es realmente Saturno el planeta que
+        domina tu carta? Este retrato solo vale si es así. El{" "}
+        <Link
+          href="/blog/planete-dominante-methode-calcul"
+          className="underline decoration-white/40 transition hover:decoration-white/70"
+        >
+          método de cálculo de siete criterios
+        </Link>{" "}
+        lo comprueba en veinte minutos, con el baremo publicado y una plantilla para imprimir.
+      </aside>
+
       <section className="grid gap-4 sm:grid-cols-3" aria-label="Puntos clave del retrato saturnino">
         <Stat label="Fuerza central" value="Profundidad y resistencia" />
         <Stat label="Terreno natural" value="Estructura y largo plazo" />

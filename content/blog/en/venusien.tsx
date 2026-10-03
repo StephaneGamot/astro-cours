@@ -314,6 +314,18 @@ export default function VenusienPost() {
         </div>
       </header>
 
+      <aside className="rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-sm leading-relaxed text-white/75">
+        <strong className="text-white/90">Before going further:</strong> is Venus really the planet
+        running your chart? This portrait only applies if it is. The{" "}
+        <Link
+          href="/blog/planete-dominante-methode-calcul"
+          className="underline decoration-white/40 transition hover:decoration-white/70"
+        >
+          seven-criteria calculation method
+        </Link>{" "}
+        settles it in twenty minutes, with the scale published and a worksheet to print.
+      </aside>
+
       <section className="grid gap-4 sm:grid-cols-3" aria-label="Key points of the Venusian portrait">
         <Stat label="Core strength" value="Charm & harmony" />
         <Stat label="Natural ground" value="Love & beauty" />

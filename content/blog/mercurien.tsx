@@ -318,6 +318,18 @@ export default function MercurienPost() {
         </div>
       </header>
 
+      <aside className="rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-sm leading-relaxed text-white/75">
+        <strong className="text-white/90">Avant d’aller plus loin&nbsp;:</strong> est-ce vraiment Mercure qui
+        domine votre thème&#8239;? Ce portrait ne vaut que si c’est le cas. La{" "}
+        <Link
+          href="/blog/planete-dominante-methode-calcul"
+          className="underline decoration-white/40 transition hover:decoration-white/70"
+        >
+          méthode de calcul en sept critères
+        </Link>{" "}
+        le vérifie en vingt minutes, barème publié et fiche à imprimer.
+      </aside>
+
       <section className="grid gap-4 sm:grid-cols-3" aria-label="Points clés du portrait mercurien">
         <Stat label="Force centrale" value="Vivacité mentale" />
         <Stat label="Terrain naturel" value="Communication & mouvement" />
