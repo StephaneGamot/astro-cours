@@ -1337,6 +1337,12 @@ export default function Post() {
                 Sans heure, pas d’Ascendant, pas de Milieu du Ciel, pas de
                 maisons — il ne reste que trois critères sur sept. Mieux vaut
                 alors ne pas conclure que conclure sur la moitié des données.
+                Ce qu’un thème sans heure permet encore de lire est détaillé
+                dans{" "}
+                <A href="/blog/theme-astral-sans-heure-de-naissance">
+                  l’article sur le thème astral sans heure de naissance
+                </A>
+                .
               </p>
             </div>
           </div>

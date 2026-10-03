@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import maisons from "@/data/maisons.details.json";
 import planetes from "@/data/planetes.details.json";
 import signes from "@/data/signes.details.json";
-import { getAllPosts, getPostsByTagSlug, postSlugFor, TAG_PAGES } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getPostsByTagSlug, postSlugFor, TAG_PAGES } from "@/lib/blog";
 import { localeUrl, localizedPathUrl, pillarUrl, type SeoLocale } from "@/lib/seo";
 import { localizeBlogTagSlug } from "@/i18n/blogTagSlugs";
 import { PAIRS, pairUrl } from "@/lib/compatibility";
@@ -15,6 +15,8 @@ type SitemapEntry = {
   lastModified: Date;
   changeFrequency: "weekly" | "monthly" | "yearly";
   priority: number;
+  /** Langues où la page existe réellement (défaut : les trois). */
+  locales?: SeoLocale[];
 };
 
 /**
@@ -25,13 +27,13 @@ type SitemapEntry = {
 function expand(entries: SitemapEntry[]): MetadataRoute.Sitemap {
   const out: MetadataRoute.Sitemap = [];
   for (const e of entries) {
-    const languages = {
-      "fr-FR": e.url("fr"),
-      "en-US": e.url("en"),
-      "es-ES": e.url("es"),
-      "x-default": e.url("fr"),
-    };
-    for (const loc of LOCALES) {
+    const locs = e.locales ?? LOCALES;
+    const languages: Record<string, string> = {};
+    if (locs.includes("fr")) languages["fr-FR"] = e.url("fr");
+    if (locs.includes("en")) languages["en-US"] = e.url("en");
+    if (locs.includes("es")) languages["es-ES"] = e.url("es");
+    languages["x-default"] = e.url("fr");
+    for (const loc of locs) {
       out.push({
         url: e.url(loc),
         lastModified: e.lastModified,
@@ -139,11 +141,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  // Un article publié d'abord en FR ne doit pas annoncer d'URL EN/ES (404).
   const postRoutes: SitemapEntry[] = getAllPosts().map((p) => ({
     url: (loc: SeoLocale) => localeUrl(loc, `/blog/${postSlugFor(p.meta.slug, loc)}`),
     lastModified: new Date(p.meta.date),
     changeFrequency: "yearly",
     priority: 0.7,
+    locales: LOCALES.filter((loc) => getPostBySlug(p.meta.slug, loc)),
   }));
 
   // ✅ Pages de tags indexables uniquement (TAG_PAGES). Les tags « fins »

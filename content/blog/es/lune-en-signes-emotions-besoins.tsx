@@ -1002,8 +1002,13 @@ export default function Post() {
           <p className="leading-relaxed text-text/85">
             Si naciste un día en que la Luna cambiaba de signo, una hora de
             diferencia basta para pasar de una Luna en Leo a una Luna en Virgo:
-            dos universos afectivos opuestos. Ocurre en aproximadamente uno de
-            cada tres nacimientos. De ahí el procedimiento:
+            dos universos afectivos opuestos. Ocurre el 44&nbsp;% de los días
+            entre 1950 y 2009: casi uno de cada dos. El detalle, y una prueba
+            sencilla para saber si es tu caso, están en el artículo sobre la{" "}
+            <A href="/blog/theme-astral-sans-heure-de-naissance">
+              carta astral sin hora de nacimiento
+            </A>
+            . De ahí el procedimiento:
           </p>
 
           <div className="space-y-4">

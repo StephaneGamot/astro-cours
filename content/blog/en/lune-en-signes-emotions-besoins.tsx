@@ -1001,8 +1001,13 @@ export default function Post() {
           <p className="leading-relaxed text-text/85">
             If you were born on a day the Moon changed sign, one hour is enough
             to shift you from a Leo Moon to a Virgo Moon — two opposite
-            emotional worlds. That is the case for roughly one birth in three.
-            Hence the procedure:
+            emotional worlds. That is the case on 44% of days between 1950 and
+            2009, almost one in two. The details, and a simple test to check
+            yours, are in the article on{" "}
+            <A href="/blog/theme-astral-sans-heure-de-naissance">
+              birth charts without a birth time
+            </A>
+            . Hence the procedure:
           </p>
 
           <div className="space-y-4">

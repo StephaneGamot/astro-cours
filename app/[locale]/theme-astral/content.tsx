@@ -130,6 +130,11 @@ const fr: ThemeAstralContent = {
             environ toutes les deux heures. Sans heure fiable, on peut lire les planètes en signes
             et leurs aspects, mais pas la dimension concrète du thème. L&apos;heure figure sur
             l&apos;acte de naissance intégral, que l&apos;état civil français délivre gratuitement.
+            Si elle reste introuvable,{" "}
+            <Link href="/blog/theme-astral-sans-heure-de-naissance">
+              un thème sans heure de naissance
+            </Link>{" "}
+            se lit encore en partie.
           </p>
           <p>
             <strong>Le lieu de naissance</strong> ancre le calcul dans la géographie : latitude et
@@ -450,8 +455,13 @@ const en: ThemeAstralContent = {
             Ascendant — the sign rising on the eastern horizon — and therefore the whole system of{" "}
             <Link href="/maisons">houses</Link>, which shifts by a full sign roughly every two
             hours. Without a reliable time you can read planets in signs and their aspects, but
-            not the concrete dimension of the chart. In most countries the time appears on the
-            full birth certificate.
+            not the concrete dimension of the chart. In Scotland, the United States and most of
+            continental Europe the time appears on the full birth record; England and Wales are
+            the exception. If it can&apos;t be found,{" "}
+            <Link href="/blog/theme-astral-sans-heure-de-naissance">
+              a chart without a birth time
+            </Link>{" "}
+            can still be partly read.
           </p>
           <p>
             <strong>The place of birth</strong> anchors the calculation geographically: latitude
@@ -632,7 +642,7 @@ const en: ThemeAstralContent = {
     },
     {
       q: "Can you calculate a birth chart without a birth time?",
-      a: "Partially. Without a time, you can read planets in signs and most aspects, which already gives a useful psychological portrait. But the Ascendant and the houses — the chart's whole concrete dimension — remain out of reach. The time usually appears on the full birth certificate.",
+      a: "Partially. Without a time, you can read planets in signs and most aspects, which already gives a useful psychological portrait. But the Ascendant and the houses — the chart's whole concrete dimension — remain out of reach. The time usually appears on the full birth record, except in England and Wales, where certificates show it only for multiple births.",
     },
     {
       q: "Does the birth chart change during one's life?",
@@ -770,7 +780,11 @@ const es: ThemeAstralContent = {
             <Link href="/maisons">casas</Link>, que gira un signo entero aproximadamente cada dos
             horas. Sin una hora fiable se pueden leer los planetas en los signos y sus aspectos,
             pero no la dimensión concreta de la carta. La hora suele figurar en el certificado
-            literal de nacimiento.
+            literal de nacimiento. Si no aparece,{" "}
+            <Link href="/blog/theme-astral-sans-heure-de-naissance">
+              una carta sin hora de nacimiento
+            </Link>{" "}
+            todavía se puede leer en parte.
           </p>
           <p>
             <strong>El lugar de nacimiento</strong> ancla el cálculo en la geografía: latitud y

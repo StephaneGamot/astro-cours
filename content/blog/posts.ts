@@ -101,6 +101,10 @@ import PlaneteDominantePost, {
   meta as planeteDominanteMeta,
 } from "./planete-dominante-methode-calcul";
 
+import ThemeSansHeurePost, {
+  meta as themeSansHeureMeta,
+} from "./theme-astral-sans-heure-de-naissance";
+
 export type ReadingLevel = "débutant" | "intermédiaire" | "avancé";
 
 export type PostMeta = {
@@ -119,6 +123,7 @@ export type PostModule = {
 };
 
 export const posts: PostModule[] = [
+  { meta: themeSansHeureMeta, Component: ThemeSansHeurePost },
   { meta: planeteDominanteMeta, Component: PlaneteDominantePost },
   { meta: luneEnSignesMeta, Component: LuneEnSignesPost },
   { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },

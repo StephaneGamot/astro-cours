@@ -7,6 +7,7 @@
 type Triple = { fr: string; en: string; es: string };
 
 const POSTS: Triple[] = [
+  { fr: "theme-astral-sans-heure-de-naissance", en: "birth-chart-without-birth-time", es: "carta-astral-sin-hora-de-nacimiento" },
   { fr: "lune-en-signes-emotions-besoins", en: "moon-in-signs-emotions-needs", es: "luna-en-signos-emociones-necesidades" },
   { fr: "planete-dominante-methode-calcul", en: "dominant-planet-calculation-method", es: "planeta-dominante-metodo-calculo" },
   { fr: "comment-seduire-chaque-signe-du-zodiaque", en: "how-to-seduce-each-zodiac-sign", es: "como-seducir-a-cada-signo-del-zodiaco" },

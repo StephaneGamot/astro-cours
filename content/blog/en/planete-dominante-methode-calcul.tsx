@@ -1346,7 +1346,12 @@ export default function Post() {
               <p className="leading-relaxed text-text/85">
                 No time means no Ascendant, no Midheaven, no houses — three of
                 the seven criteria disappear. Better not to conclude at all than
-                to conclude on half the data.
+                to conclude on half the data. What a chart without a time can
+                still tell you is covered in the article on{" "}
+                <A href="/blog/theme-astral-sans-heure-de-naissance">
+                  birth charts without a birth time
+                </A>
+                .
               </p>
             </div>
           </div>

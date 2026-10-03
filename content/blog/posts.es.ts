@@ -8,6 +8,10 @@ import PlaneteDominantePost, {
   meta as planeteDominanteMeta,
 } from "./es/planete-dominante-methode-calcul";
 
+import ThemeSansHeurePost, {
+  meta as themeSansHeureMeta,
+} from "./es/theme-astral-sans-heure-de-naissance";
+
 import ThemeAstralPost, {
   meta as themeAstralMeta,
 } from "./es/qu-est-ce-qu-un-theme-astral";
@@ -119,6 +123,7 @@ export type PostModule = {
 };
 
 export const posts_es: PostModule[] = [
+  { meta: themeSansHeureMeta, Component: ThemeSansHeurePost },
   { meta: planeteDominanteMeta, Component: PlaneteDominantePost },
   { meta: luneEnSignesMeta, Component: LuneEnSignesPost },
   { meta: seduireChaqueSigneMeta, Component: SeduireChaqueSignePost },

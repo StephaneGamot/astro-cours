@@ -1356,7 +1356,12 @@ export default function Post() {
               <p className="leading-relaxed text-text/85">
                 Sin hora no hay Ascendente, ni Medio Cielo, ni casas: quedan
                 tres criterios de siete. Más vale no concluir que concluir con
-                la mitad de los datos.
+                la mitad de los datos. Lo que una carta sin hora aún permite
+                leer está en el artículo sobre la{" "}
+                <A href="/blog/theme-astral-sans-heure-de-naissance">
+                  carta astral sin hora de nacimiento
+                </A>
+                .
               </p>
             </div>
           </div>

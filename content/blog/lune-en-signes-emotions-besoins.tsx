@@ -1007,8 +1007,13 @@ export default function Post() {
           <p className="leading-relaxed text-text/85">
             Si vous êtes né un jour où la Lune changeait de signe, une heure
             d’écart suffit à basculer d’une Lion à une Vierge — deux univers
-            affectifs opposés. C’est le cas d’environ une naissance sur trois.
-            D’où la marche à suivre :
+            affectifs opposés. C’est le cas de 44&nbsp;% des journées entre
+            1950 et 2009, presque une sur deux. Le détail, et un test simple
+            pour savoir si c’est votre cas, sont dans l’article sur le{" "}
+            <A href="/blog/theme-astral-sans-heure-de-naissance">
+              thème astral sans heure de naissance
+            </A>
+            . D’où la marche à suivre :
           </p>
 
           <div className="space-y-4">
