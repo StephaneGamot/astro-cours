@@ -25,7 +25,7 @@ export const meta = {
     "intermédiaire",
   ],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/degres-sensibles-2027-roue.webp",
+  cover: "/images/blog/astrologie-2027-couverture-eclipse.webp",
 };
 
 /* ────────────────────────────────────────────────────────────
@@ -464,7 +464,7 @@ export default function Post() {
         <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
           <Image
             src={meta.cover}
-            alt="Rueda zodiacal trazada con tinta sobre papel crema, arcos a la acuarela resaltan tramos del círculo, una mano apoya un transportador de latón contra su borde"
+            alt="2027 en cifras de cristal y oro, con el cero formado por un eclipse total de Sol, entre Júpiter, Saturno y Marte, reflejados en agua oscura"
             fill
             sizes="(max-width: 768px) 100vw, 900px"
             priority
