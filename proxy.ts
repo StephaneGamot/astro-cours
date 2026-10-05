@@ -1,7 +1,11 @@
 import createMiddleware from "next-intl/middleware";
 import { NextResponse, type NextRequest } from "next/server";
 import { routing } from "./i18n/routing";
-import { canonicalSlugRedirect, legacyBlogTagRedirect } from "./i18n/canonicalRedirect";
+import {
+  canonicalSlugRedirect,
+  legacyBlogTagRedirect,
+  normalizedPathRedirect,
+} from "./i18n/canonicalRedirect";
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -21,7 +25,9 @@ export default function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 308);
   }
 
-  const target = canonicalSlugRedirect(pathname);
+  // ✅ Majuscules / accents / anciennes formes courtes (/Planètes,
+  //    /dictionnaire…) → 308 vers la vraie page (Ahrefs 05/10/2026).
+  const target = normalizedPathRedirect(pathname) ?? canonicalSlugRedirect(pathname);
   if (target) {
     const url = request.nextUrl.clone();
     url.pathname = target;

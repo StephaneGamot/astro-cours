@@ -89,3 +89,67 @@ export function canonicalSlugRedirect(pathname: string): string | null {
 
   return target ? `${prefix}/${target.join("/")}` : null;
 }
+
+/* ------------------------------------------------------------------ */
+/* URL mal formées : majuscules, accents, anciennes formes courtes     */
+/* ------------------------------------------------------------------ */
+
+/**
+ * PROBLÈME (Ahrefs, 05/10/2026) : deux URL en 404 encore explorées.
+ *   • /Planètes      → majuscule + accent (lien externe saisi à la main).
+ *   • /dictionnaire  → ancien canonical de la page dictionnaire
+ *                      (18-19/04/2026, avant le passage à /dictionnaire-astrologique).
+ *
+ * SOLUTION : 308 vers l'URL réelle, en une seule étape, et seulement si le
+ * premier segment replié correspond à une vraie page de la locale (sinon on
+ * laisse la 404 : pas de redirection vers une autre 404).
+ */
+const LOCS: Loc[] = ["fr", "en", "es"];
+
+/** Premier segment de chaque chemin public, par locale (« planetes », « planets »…). */
+const KNOWN_SEGMENTS: Record<Loc, Set<string>> = { fr: new Set(), en: new Set(), es: new Set() };
+for (const entry of Object.values(routing.pathnames as Record<string, string | Record<Loc, string>>)) {
+  for (const loc of LOCS) {
+    const localized = typeof entry === "string" ? entry : entry[loc];
+    const segment = localized.split("/").filter(Boolean)[0];
+    if (segment) KNOWN_SEGMENTS[loc].add(segment);
+  }
+}
+
+/** Anciennes formes courtes → segment actuel, par locale. */
+const SEGMENT_ALIASES: Record<Loc, Record<string, string>> = {
+  fr: { dictionnaire: "dictionnaire-astrologique" },
+  en: { dictionary: "astrology-dictionary" },
+  es: { diccionario: "diccionario-astrologico" },
+};
+
+/** Décode, retire les accents, met en minuscules (« /Plan%C3%A8tes » → « /planetes »). */
+function foldPath(pathname: string): string {
+  let decoded = pathname;
+  try {
+    decoded = decodeURIComponent(pathname);
+  } catch {
+    /* % mal formé : on replie tel quel */
+  }
+  return decoded.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+/**
+ * Renvoie le chemin final si `pathname` (brut, encodé) contient majuscules,
+ * accents ou un alias connu ; sinon null. Le slug est aussi canonicalisé
+ * (canonicalSlugRedirect) pour éviter une chaîne de deux redirections.
+ */
+export function normalizedPathRedirect(pathname: string): string | null {
+  const folded = foldPath(pathname);
+  const { loc, prefix } = splitLocale(folded);
+  const parts = folded.slice(prefix.length).split("/").filter(Boolean);
+  if (parts.length === 0) return null;
+
+  const alias = SEGMENT_ALIASES[loc][parts[0]];
+  if (alias) parts[0] = alias;
+  if (folded === pathname && !alias) return null; // URL déjà propre
+  if (!KNOWN_SEGMENTS[loc].has(parts[0])) return null; // vraie 404
+
+  const candidate = `${prefix}/${parts.join("/")}`;
+  return canonicalSlugRedirect(candidate) ?? candidate;
+}
