@@ -25,7 +25,7 @@ export const meta = {
     "intermédiaire",
   ],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/astrologie-2027-grands-transits.webp",
+  cover: "/images/blog/degres-sensibles-2027-roue.webp",
 };
 
 /* ────────────────────────────────────────────────────────────
@@ -464,7 +464,7 @@ export default function Post() {
         <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
           <Image
             src={meta.cover}
-            alt="Rueda de carta astral en papel sobre un escritorio de noche, un compás y una regla de latón trazan un arco entre dos posiciones, un calendario anual al fondo"
+            alt="Rueda zodiacal trazada con tinta sobre papel crema, arcos a la acuarela resaltan tramos del círculo, una mano apoya un transportador de latón contra su borde"
             fill
             sizes="(max-width: 768px) 100vw, 900px"
             priority
@@ -1015,21 +1015,6 @@ export default function Post() {
             los planetas), lee la columna de los grados con tus posiciones
             delante.
           </p>
-
-          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
-            <Image
-              src="/images/blog/degres-sensibles-2027-roue.webp"
-              alt="Rueda zodiacal trazada con tinta sobre papel crema, arcos a la acuarela resaltan tramos del círculo, una mano apoya un transportador de latón contra su borde"
-              width={1600}
-              height={900}
-              sizes="(max-width: 768px) 100vw, 800px"
-              className="h-auto w-full"
-            />
-            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
-              Marca en tu propia rueda los tramos recorridos en 2027: lo que
-              queda tocado salta a la vista.
-            </figcaption>
-          </figure>
         </section>
 
         {/* ── 8. MÉTODO ────────────────────────────────────── */}

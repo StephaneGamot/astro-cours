@@ -25,7 +25,7 @@ export const meta = {
     "intermédiaire",
   ],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/astrologie-2027-grands-transits.webp",
+  cover: "/images/blog/degres-sensibles-2027-roue.webp",
 };
 
 /* ────────────────────────────────────────────────────────────
@@ -464,7 +464,7 @@ export default function Post() {
         <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
           <Image
             src={meta.cover}
-            alt="Paper birth chart wheel on a desk at night, a brass compass and ruler tracing an arc between two positions, a year planner in the background"
+            alt="Zodiac wheel drawn in ink on cream paper, watercolour arcs highlighting stretches of the circle, a hand placing a brass protractor against its edge"
             fill
             sizes="(max-width: 768px) 100vw, 900px"
             priority
@@ -994,21 +994,6 @@ export default function Post() {
             the Moon, the Ascendant, the planets, read the degrees column with
             your positions to hand.
           </p>
-
-          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
-            <Image
-              src="/images/blog/degres-sensibles-2027-roue.webp"
-              alt="Zodiac wheel drawn in ink on cream paper, watercolour arcs highlighting stretches of the circle, a hand placing a brass protractor against its edge"
-              width={1600}
-              height={900}
-              sizes="(max-width: 768px) 100vw, 800px"
-              className="h-auto w-full"
-            />
-            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
-              Highlight the stretches swept in 2027 on your own wheel: whatever
-              is touched jumps out.
-            </figcaption>
-          </figure>
         </section>
 
         {/* ── 8. METHOD ────────────────────────────────────── */}

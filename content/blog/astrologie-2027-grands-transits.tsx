@@ -25,7 +25,7 @@ export const meta = {
     "intermédiaire",
   ],
   readingLevel: "intermédiaire" as const,
-  cover: "/images/blog/astrologie-2027-grands-transits.webp",
+  cover: "/images/blog/degres-sensibles-2027-roue.webp",
 };
 
 /* ────────────────────────────────────────────────────────────
@@ -464,7 +464,7 @@ export default function Post() {
         <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-[#0f0f13]">
           <Image
             src={meta.cover}
-            alt="Roue de thème astral en papier posée sur un bureau de nuit, un compas et une règle en laiton tracent un arc entre deux positions, un calendrier annuel en arrière-plan"
+            alt="Roue zodiacale tracée à l’encre sur papier crème, des arcs à l’aquarelle surlignent des portions du cercle, une main pose un rapporteur en laiton contre son bord"
             fill
             sizes="(max-width: 768px) 100vw, 900px"
             priority
@@ -1013,21 +1013,6 @@ export default function Post() {
             planètes, lisez la colonne des degrés avec vos positions sous les
             yeux.
           </p>
-
-          <figure className="overflow-hidden rounded-2xl border border-white/10 bg-black/20">
-            <Image
-              src="/images/blog/degres-sensibles-2027-roue.webp"
-              alt="Roue zodiacale tracée à l’encre sur papier crème, des arcs à l’aquarelle surlignent des portions du cercle, une main pose un rapporteur en laiton contre son bord"
-              width={1600}
-              height={900}
-              sizes="(max-width: 768px) 100vw, 800px"
-              className="h-auto w-full"
-            />
-            <figcaption className="px-5 py-4 text-center text-xs text-text/50">
-              Surlignez sur votre propre roue les portions balayées en 2027&nbsp;:
-              ce qui est touché saute aux yeux.
-            </figcaption>
-          </figure>
         </section>
 
         {/* ── 8. MÉTHODE ───────────────────────────────────── */}
