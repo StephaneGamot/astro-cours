@@ -201,7 +201,9 @@ export default function LunarCalendar20262027Post() {
         planets is a real trigger: our course on <Link href="/transits">transits</Link> explains
         how to prioritize these contacts, and the portrait of the{" "}
         <Link href="/blog/lunarian">Lunarian</Link> describes those for whom the Moon sets the
-        tempo of the whole year.
+        tempo of the whole year. For the 2027 eclipses and the slow transits around them,{" "}
+        <Link href="/blog/astrologie-2027-grands-transits">Astrology 2027: the major
+        transits</Link> gives the sensitive degrees and the method for relating them to your chart.
       </P>
     </article>
   );

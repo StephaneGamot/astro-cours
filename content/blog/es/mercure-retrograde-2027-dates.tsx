@@ -236,7 +236,10 @@ export default function MercurioRetrogrado2027Post() {
         <strong>re-</strong> (releer, revisar, renegociar, reconectar, retomar) más que de
         primeras veces. En una <Link href="/theme-astral">carta natal</Link>, todo depende además
         de los <Link href="/transits">tránsitos</Link> exactos sobre TUS planetas: una
-        retrogradación que no toca ningún punto sensible de tu carta pasará desapercibida.
+        retrogradación que no toca ningún punto sensible de tu carta pasará desapercibida. Para
+        situar estas tres retrogradaciones entre los demás movimientos del año, mira{" "}
+        <Link href="/blog/astrologie-2027-grands-transits">los grandes tránsitos de 2027 y dónde
+        caen en tu carta</Link>.
       </P>
 
       <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">

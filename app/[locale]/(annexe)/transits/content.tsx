@@ -118,7 +118,7 @@ const fr: TransitsContent = {
     label: "Définition",
     body: (
       <>
-        Un <strong>transit astrologique</strong> est le passage d'une planète en mouvement sur un point
+        Un <strong>transit astrologique</strong> est le passage d’une planète en mouvement sur un point
         sensible du thème natal ; il active temporairement un domaine de vie et se lit en fonction de la{" "}
         <Link href="/maisons">maison</Link>, des <Link href="/aspects">aspects</Link> formés et de la
         vitesse de la planète.
@@ -129,7 +129,7 @@ const fr: TransitsContent = {
     <>
       Vous voulez apprendre à lire les <strong>transits en astrologie</strong> avec une vraie méthode ?
       La plupart des ressources en ligne restent vagues sur les orbes, la hiérarchie des planètes et
-      l'interprétation concrète. Ce guide complet vous donne les règles d'or, les aspects clés et une
+      l’interprétation concrète. Ce guide complet vous donne les règles d’or, les aspects clés et une
       lecture planète par planète pour interpréter chaque transit avec rigueur.
     </>
   ),
@@ -445,7 +445,9 @@ const fr: TransitsContent = {
           à quelques semaines et activent des événements ponctuels. Les <strong>transits lents</strong>{" "}
           (Jupiter à Pluton) durent des mois voire des années et provoquent des transformations profondes
           et structurantes. Voir aussi les <Link href="/retrogrades">rétrogrades</Link> pour comprendre les
-          allers-retours.
+          allers-retours, et, pour un exemple daté, les{" "}
+          <Link href="/blog/astrologie-2027-grands-transits">grands transits de 2027</Link> classés par la
+          règle des trois passages.
         </>
       ),
     },
@@ -521,7 +523,7 @@ const en: TransitsContent = {
         An <strong>astrological transit</strong> is the passage of a moving planet over a sensitive point
         of the natal chart; it temporarily activates an area of life and is read according to the{" "}
         <Link href="/maisons">house</Link>, the <Link href="/aspects">aspects</Link> formed and the
-        planet's speed.
+        planet’s speed.
       </>
     ),
   },
@@ -844,7 +846,10 @@ const en: TransitsContent = {
           <strong>Fast transits</strong> (Sun, Moon, Mercury, Venus, Mars) last a few days to a few weeks
           and activate one-off events. <strong>Slow transits</strong> (Jupiter to Pluto) last months or
           even years and bring deep, structuring transformations. See also{" "}
-          <Link href="/retrogrades">retrogrades</Link> to understand the back-and-forth motion.
+          <Link href="/retrogrades">retrogrades</Link> to understand the back-and-forth motion, and,
+          for a dated example, the{" "}
+          <Link href="/blog/astrologie-2027-grands-transits">major transits of 2027</Link> ranked by
+          the three-pass rule.
         </>
       ),
     },
@@ -1243,7 +1248,10 @@ const es: TransitsContent = {
           Los <strong>tránsitos rápidos</strong> (Sol, Luna, Mercurio, Venus, Marte) duran de unos días a
           unas semanas y activan acontecimientos puntuales. Los <strong>tránsitos lentos</strong> (Júpiter
           a Plutón) duran meses e incluso años y provocan transformaciones profundas y estructurantes. Mira
-          también los <Link href="/retrogrades">retrógrados</Link> para entender los idas y vueltas.
+          también los <Link href="/retrogrades">retrógrados</Link> para entender las idas y vueltas y,
+          para un ejemplo con fechas, los{" "}
+          <Link href="/blog/astrologie-2027-grands-transits">grandes tránsitos de 2027</Link> ordenados
+          por la regla de los tres pasos.
         </>
       ),
     },

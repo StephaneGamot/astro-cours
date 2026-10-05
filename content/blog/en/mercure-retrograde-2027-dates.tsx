@@ -234,7 +234,10 @@ export default function MercuryRetrograde2027Post() {
         it is a time of <strong>re-</strong> (reread, revise, renegotiate, reconnect, resume)
         rather than of first times. In a <Link href="/theme-astral">birth chart</Link>, everything
         depends anyway on the exact <Link href="/transits">transits</Link> to YOUR planets: a
-        retrograde that touches no sensitive point of your chart will go unnoticed.
+        retrograde that touches no sensitive point of your chart will go unnoticed. To place these
+        three retrogrades among the year&apos;s other movements, see{" "}
+        <Link href="/blog/astrologie-2027-grands-transits">the major transits of 2027 and where
+        they land in your chart</Link>.
       </P>
 
       <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">

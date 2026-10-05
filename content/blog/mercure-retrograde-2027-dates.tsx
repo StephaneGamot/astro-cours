@@ -236,7 +236,10 @@ export default function MercureRetrograde2027Post() {
         reprendre contact) plutôt que de premières fois. Dans un{" "}
         <Link href="/theme-astral">thème natal</Link>, tout dépend d&apos;ailleurs des{" "}
         <Link href="/transits">transits</Link> exacts sur VOS planètes : une rétrogradation qui ne
-        touche aucun point sensible de votre thème passera inaperçue.
+        touche aucun point sensible de votre thème passera inaperçue. Pour situer ces trois
+        rétrogradations parmi les autres mouvements de l&apos;année, voir{" "}
+        <Link href="/blog/astrologie-2027-grands-transits">les grands transits de 2027 et où ils
+        tombent dans votre thème</Link>.
       </P>
 
       <figure className="my-8 overflow-hidden rounded-2xl border border-white/10 bg-black/20">

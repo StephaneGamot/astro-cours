@@ -202,7 +202,10 @@ export default function CalendarioLunar20262027Post() {
         tus planetas natales es un verdadero detonante: nuestro curso sobre{" "}
         <Link href="/transits">los tránsitos</Link> explica cómo jerarquizar esos contactos, y el
         retrato del <Link href="/blog/lunariano">Lunariano</Link> describe a quienes la Luna les
-        marca el tempo de todo el año.
+        marca el tempo de todo el año. Para los eclipses de 2027 y los tránsitos lentos que los
+        rodean,{" "}
+        <Link href="/blog/astrologie-2027-grands-transits">Astrología 2027: los grandes
+        tránsitos</Link> da los grados sensibles y el método para llevarlos a tu carta.
       </P>
     </article>
   );

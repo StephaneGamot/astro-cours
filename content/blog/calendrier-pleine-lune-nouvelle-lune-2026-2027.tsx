@@ -208,7 +208,11 @@ export default function CalendrierLunaire20262027Post() {
         vos planètes natales est un vrai déclencheur : notre cours sur{" "}
         <Link href="/transits">les transits</Link> explique comment hiérarchiser ces contacts, et
         le portrait du <Link href="/blog/lunarien">Lunarien</Link> décrit ceux pour qui la Lune
-        donne le tempo de toute l&apos;année.
+        donne le tempo de toute l&apos;année. Pour les éclipses de 2027 et les transits lents qui
+        les entourent, l&apos;article{" "}
+        <Link href="/blog/astrologie-2027-grands-transits">Astrologie 2027 : les grands transits de
+        l&apos;année</Link>{" "}
+        donne les degrés sensibles et la méthode pour les rapporter à votre thème.
       </P>
     </article>
   );
