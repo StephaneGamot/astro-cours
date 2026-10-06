@@ -387,7 +387,7 @@ function MoonCard({
           >
             <Image
               src={`/images/zodiaque/${slug}.webp`}
-              alt=""
+              alt={`Illustration du signe ${sign}`}
               width={64}
               height={64}
               className="h-auto w-auto object-contain opacity-95 transition group-hover:scale-[1.03]"

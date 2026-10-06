@@ -17,7 +17,7 @@ export const meta = {
   title: "Cómo seducir a cada signo del zodiaco",
   seoTitle: "Cómo seducir a cada signo del zodiaco — Astro Cours",
   description:
-    "Desafío para Aries, paciencia para Capricornio, verdad para Escorpio… Lo que hace caer a cada signo del zodiaco, lo que lo hace huir, y la frase que funciona. Guía de seducción signo por signo.",
+    "Desafío para Aries, paciencia para Capricornio, verdad para Escorpio… Lo que enamora a cada signo del zodiaco, lo que lo hace huir y la frase que funciona.",
   date: "2026-07-21",
   tags: ["amour", "séduction", "zodiaque", "signe"],
   readingLevel: "débutant" as const,

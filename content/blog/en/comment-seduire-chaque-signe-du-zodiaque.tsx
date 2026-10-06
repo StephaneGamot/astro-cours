@@ -17,7 +17,7 @@ export const meta = {
   title: "How to Seduce Each Zodiac Sign",
   seoTitle: "How to Seduce Each Zodiac Sign — Astro Cours",
   description:
-    "A challenge for Aries, patience for Capricorn, truth for Scorpio… What makes each zodiac sign fall for you, what makes them run, and the line that works. A sign-by-sign seduction guide.",
+    "A challenge for Aries, patience for Capricorn, truth for Scorpio… What makes each zodiac sign fall for you, what makes them run, and the line that works.",
   date: "2026-07-21",
   tags: ["amour", "séduction", "zodiaque", "signe"],
   readingLevel: "débutant" as const,

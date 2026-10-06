@@ -16,7 +16,7 @@ export const meta = {
   title: "Le mensonge préféré de chaque signe du zodiaque",
   seoTitle: "Le mensonge préféré de chaque signe astro — Astro Cours",
   description:
-    "« Je suis calme », « Je t'ai pardonné », « J'arrive »… Le mensonge préféré de chaque signe du zodiaque — et la vérité qui se cache derrière. Drôle, piquant, étonnamment juste.",
+    "« Je suis calme », « Je t'ai pardonné », « J'arrive »… Le mensonge préféré de chaque signe du zodiaque et la vérité derrière. Drôle et étonnamment juste.",
   date: "2026-07-17",
   tags: ["signe", "zodiaque", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,

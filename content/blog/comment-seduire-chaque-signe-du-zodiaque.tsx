@@ -16,7 +16,7 @@ export const meta = {
   title: "Comment séduire chaque signe du zodiaque",
   seoTitle: "Comment séduire chaque signe astrologique — Astro Cours",
   description:
-    "Défi pour le Bélier, patience pour le Capricorne, vérité pour le Scorpion… Ce qui fait craquer chaque signe du zodiaque, ce qui le fait fuir, et la phrase qui marche. Guide de séduction signe par signe.",
+    "Défi pour le Bélier, patience pour le Capricorne, vérité pour le Scorpion… Ce qui fait craquer chaque signe du zodiaque et la phrase qui marche.",
   date: "2026-07-21",
   tags: ["amour", "séduction", "zodiaque", "signe"],
   readingLevel: "débutant" as const,

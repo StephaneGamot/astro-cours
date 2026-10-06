@@ -17,7 +17,7 @@ export const meta = {
   title: "La mentira favorita de cada signo del zodíaco",
   seoTitle: "La mentira favorita de cada signo del zodíaco — Astro Cours",
   description:
-    "«Estoy tranquilo», «Te perdoné», «Ya voy»… La mentira favorita de cada signo del zodíaco — y la verdad que se esconde detrás. Divertido, punzante, sorprendentemente certero.",
+    "«Estoy tranquilo», «Te perdoné», «Ya voy»… La mentira favorita de cada signo del zodíaco y la verdad que esconde. Divertido y sorprendentemente certero.",
   date: "2026-07-17",
   tags: ["signe", "zodiaque", "psychologie astrologique", "astrologie"],
   readingLevel: "débutant" as const,
