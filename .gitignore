@@ -50,3 +50,6 @@ tmp/
 
 # fichiers déposés par l'app Claude
 /Claude outputs/
+
+# IndexNow — état local (url → lastmod) du script scripts/indexnow.mjs
+.indexnow/
